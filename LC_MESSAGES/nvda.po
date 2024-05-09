@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-26 00:36+0000\n"
-"PO-Revision-Date: 2024-05-09 14:34+0800\n"
+"PO-Revision-Date: 2024-05-09 14:47+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4262,7 +4262,7 @@ msgstr "关闭光标移动时延迟字符描述"
 #. Translators: Input help mode message for move mouse to navigator object command.
 #: globalCommands.py:1078
 msgid "Moves the mouse pointer to the current navigator object"
-msgstr "将鼠标移动到当前查看的对象"
+msgstr "将鼠标移动到当前的导航对象"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
 #: globalCommands.py:1112
@@ -4272,12 +4272,12 @@ msgstr "找不到对象的所在位置"
 #. Translators: Input help mode message for move navigator object to mouse command.
 #: globalCommands.py:1124
 msgid "Sets the navigator object to the current object under the mouse pointer and speaks it"
-msgstr "将浏览光标移到鼠标所指的对象并将其读出"
+msgstr "将导航对象移到鼠标所指的对象并将其读出"
 
 #. Translators: Reported when attempting to move the navigator object to the object under mouse pointer.
 #: globalCommands.py:1130
 msgid "Move navigator object to mouse"
-msgstr "将浏览光标移到鼠标所在处"
+msgstr "将导航对象移到鼠标所在处"
 
 #. Translators: Script help message for next review mode command.
 #: globalCommands.py:1145
@@ -4317,14 +4317,14 @@ msgstr "打开简易查看模式"
 #. Translators: Input help mode message for report current navigator object command.
 #: globalCommands.py:1203
 msgid "Reports the current navigator object. Pressing twice spells this information, and pressing three times Copies name and value of this object to the clipboard"
-msgstr "读出当前查看的对象，连按两次拼读该信息，连按三次则拷贝该对象的名称和值到剪贴板"
+msgstr "读出当前导航对象，连按两次拼读该信息，连按三次则拷贝该对象的名称和值到剪贴板"
 
 #. Translators: Reported when the user tries to perform a command related to the navigator object
 #. but there is no current navigator object.
 #: globalCommands.py:1216 globalCommands.py:1441 globalCommands.py:1472
 #: globalCommands.py:1501 globalCommands.py:1531
 msgid "No navigator object"
-msgstr "没有浏览对象"
+msgstr "没有导航对象"
 
 #. Translators: message when there is no location information
 #: globalCommands.py:1269
@@ -4340,7 +4340,7 @@ msgstr "读出查看光标处文本的位置信息，若查看光标处不包含
 #. Translators: Description for a keyboard command which reports location of the navigator object.
 #: globalCommands.py:1287
 msgid "Reports information about the location of the current navigator object."
-msgstr "读出浏览对象的位置信息。"
+msgstr "读出当前导航对象的位置信息。"
 
 #. Translators: Description for a keyboard command which reports location of the
 #. current caret position falling back to the location of focused object if needed.
@@ -4379,7 +4379,7 @@ msgstr "移动到焦点"
 #. Translators: Input help mode message for move focus to current navigator object command.
 #: globalCommands.py:1386
 msgid "Pressed once sets the keyboard focus to the navigator object, pressed twice sets the system caret to the position of the review cursor"
-msgstr "按一次设置键盘焦点到浏览对象，按两次设置系统输入焦点到浏览光标位置"
+msgstr "按一次设置键盘焦点到导航对象，按两次设置系统输入焦点到查看光标位置"
 
 #. Translators: Reported when:
 #. 1. There is no focusable object e.g. cannot use tab and shift tab to move to controls.
@@ -4434,17 +4434,17 @@ msgstr "往前没有对象"
 #. Translators: Input help mode message for move to first child object command.
 #: globalCommands.py:1522
 msgid "Moves the navigator object to the first object inside it"
-msgstr "移动到此对象的首个子对象"
+msgstr "移动导航对象到此对象的首个子对象"
 
 #. Translators: Reported when there is no contained (first child) object such as inside a document.
 #: globalCommands.py:1538
 msgid "No objects inside"
-msgstr "没有控件了"
+msgstr "没有子对象"
 
 #. Translators: Input help mode message for activate current object command.
 #: globalCommands.py:1554
 msgid "Performs the default action on the current navigator object (example: presses it if it is a button)."
-msgstr "执行当前浏览对象的默认动作，例如，若该对象为按钮则按下该按钮。"
+msgstr "执行当前导航对象的默认动作，例如，若该对象为按钮则按下该按钮。"
 
 #. Translators: the message reported when there is no action to perform on the review position or navigator object.
 #: globalCommands.py:1601
@@ -4782,7 +4782,7 @@ msgstr "打开 wxPython GUI 检查工具。用于获取有关图形界面组件�
 #. This command also serves as a shortcut to open NVDA log viewer.
 #: globalCommands.py:2873
 msgid "Logs information about the current navigator object which is useful to developers and activates the log viewer so the information can be examined."
-msgstr "打开日志查看器并记录当前对象的信息，此信息可供程序员 开发时参考。"
+msgstr "打开日志查看器并记录当前导航对象的信息，此信息可供程序员 开发时参考。"
 
 #. Translators: Input help mode message for a command to delimit then
 #. copy a fragment of the log to clipboard
@@ -4883,17 +4883,17 @@ msgstr "打开查看光标随输入焦点移动"
 #. Translators: Input help mode message for toggle focus moves navigator object command.
 #: globalCommands.py:2998
 msgid "Toggles on and off the movement of the navigator object due to focus changes"
-msgstr "切换是否允许浏览光标跟随系统焦点移动"
+msgstr "切换是否允许导航对象跟随系统焦点移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3005
 msgid "focus moves navigator object off"
-msgstr "关闭浏览光标随系统焦点移动"
+msgstr "关闭导航对象随系统焦点移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3009
 msgid "focus moves navigator object on"
-msgstr "打开浏览光标随系统焦点移动"
+msgstr "打开导航对象随系统焦点移动"
 
 #. Translators: Input help mode message for toggle auto focus focusable elements command.
 #: globalCommands.py:3015
@@ -5531,7 +5531,7 @@ msgstr "无数学内容"
 #. Translators: Describes a command.
 #: globalCommands.py:4289
 msgid "Recognizes the content of the current navigator object with Windows OCR"
-msgstr "使用 Windows OCR 识别浏览光标所在的控件内容"
+msgstr "使用 Windows OCR 识别当前导航对象的内容"
 
 #. Translators: Reported when Windows OCR is not available.
 #: globalCommands.py:4295 globalCommands.py:4316
