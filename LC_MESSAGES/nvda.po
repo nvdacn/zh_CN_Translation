@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-07 02:30+0000\n"
-"PO-Revision-Date: 2024-06-07 11:20+0800\n"
+"PO-Revision-Date: 2024-06-16 19:54+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -8373,7 +8373,7 @@ msgstr "下载失败"
 #: addonStore\models\status.py:101
 msgctxt "addonStore"
 msgid "Downloaded, pending install"
-msgstr "已下载，重启后生效"
+msgstr "已下载，关闭商店时安装"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:103
@@ -17690,37 +17690,3 @@ msgstr "剩余 {hourText} {minuteText}"
 #: winAPI\secureDesktop.py:53
 msgid "Secure Desktop"
 msgstr "安全桌面"
-
-#~ msgid ""
-#~ "You did not choose 'Off' as one of your sound split mode options. Please "
-#~ "note that this may result in no speech output at all in case one of your "
-#~ "audio channels is malfunctioning. Are you sure you want to continue?"
-#~ msgstr ""
-#~ "您将取消“禁用声音拆分”作为可切换的声音拆分模式之一。\n"
-#~ "请注意，如果您的某一音频声道出现故障，这可能导致没有语音输出。\n"
-#~ "您确定要继续吗？"
-
-#~ msgid "Increases the volume of the other applications"
-#~ msgstr "增加其他应用的音量"
-
-#, python-format
-#~ msgid "Applications volume %d"
-#~ msgstr "%d 其他应用音量"
-
-#~ msgid "Decreases the volume of the other applications"
-#~ msgstr "降低其他应用的音量"
-
-#~ msgid "Toggles other applications mute"
-#~ msgstr "切换其他应用的静音状态"
-
-#~ msgid "Applications muted"
-#~ msgstr "其他应用已静音"
-
-#~ msgid "Applications unmuted"
-#~ msgstr "其他应用已取消静音"
-
-#~ msgid "Volume of other applications"
-#~ msgstr "其他应用的音量"
-
-#~ msgid "Mute other applications"
-#~ msgstr "静音其他应用"
