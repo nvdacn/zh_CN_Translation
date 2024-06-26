@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-17 06:16+0000\n"
-"PO-Revision-Date: 2024-06-18 13:51+0800\n"
+"POT-Creation-Date: 2024-06-26 05:03+0000\n"
+"PO-Revision-Date: 2024-06-26 13:57+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3284,7 +3284,7 @@ msgstr ""
 #. Translators: The title of the error dialog displayed when there is an error showing the GUI
 #. for a vision enhancement provider
 #. Translators: The title of an error message box displayed when validating the startup dialog
-#: core.py:118 updateCheck.py:298 updateCheck.py:573 updateCheck.py:729
+#: core.py:118 updateCheck.py:306 updateCheck.py:581 updateCheck.py:737
 #: gui\__init__.py:217 gui\__init__.py:229 gui\addonGui.py:144
 #: gui\addonGui.py:236 gui\addonGui.py:252 gui\configProfiles.py:177
 #: gui\configProfiles.py:203 gui\configProfiles.py:253
@@ -8088,34 +8088,34 @@ msgid "Copied: {text}"
 msgstr "已复制 {text}"
 
 #. Translators: The title of the dialog displayed while manually checking for an NVDA update.
-#: updateCheck.py:287
+#: updateCheck.py:295
 msgid "Checking for Update"
 msgstr "正在检查更新"
 
 #. Translators: The progress message displayed while manually checking for an NVDA update.
-#: updateCheck.py:289
+#: updateCheck.py:297
 msgid "Checking for update"
 msgstr "正在检查更新"
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
-#: updateCheck.py:296
+#: updateCheck.py:304
 msgid "Error checking for update."
 msgstr "检查更新时出错。"
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
 #. Translators: The title of the dialog asking the user to apply an NVDA update.
-#: updateCheck.py:358 updateCheck.py:494
+#: updateCheck.py:366 updateCheck.py:502
 msgid "NVDA Update"
 msgstr "NVDA 更新"
 
 #. Translators: A message indicating that no update to NVDA is available.
-#: updateCheck.py:376
+#: updateCheck.py:384
 msgid "No update available."
 msgstr "无可用更新。"
 
 #. Translators: A message indicating that an update to NVDA has been downloaded and is ready to be
 #. applied.
-#: updateCheck.py:381
+#: updateCheck.py:389
 #, python-brace-format
 msgid ""
 "Update to NVDA version {version} has been downloaded and is ready to be "
@@ -8124,88 +8124,88 @@ msgstr "NVDA 版本 {version} 已下载并准备就绪。"
 
 #. Translators: The label of a button to review add-ons prior to NVDA update.
 #. Translators: The label of a button to launch the add-on compatibility review dialog.
-#: updateCheck.py:402 updateCheck.py:518 gui\installerGui.py:235
+#: updateCheck.py:410 updateCheck.py:526 gui\installerGui.py:235
 msgid "&Review add-ons..."
 msgstr "查看插件(&R)..."
 
 #. Translators: The label of a button to apply a pending NVDA update.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:408
+#: updateCheck.py:416
 #, python-brace-format
 msgid "&Update to NVDA {version}"
 msgstr "更新到 NVDA {version}(&U)"
 
 #. Translators: The label of a button to re-download a pending NVDA update.
-#: updateCheck.py:418
+#: updateCheck.py:426
 msgid "Re-&download update"
 msgstr "重新下载更新(&R)"
 
 #. Translators: A message indicating that an updated version of NVDA is available.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:423
+#: updateCheck.py:431
 #, python-brace-format
 msgid "NVDA version {version} is available."
 msgstr "NVDA 新版本 {version} 可用。"
 
 #. Translators: The label of a button to download an NVDA update.
-#: updateCheck.py:427
+#: updateCheck.py:435
 msgid "&Download update"
 msgstr "下载更新(&D)"
 
 #. Translators: The label of a button to remind the user later about performing some action.
-#: updateCheck.py:432 gui\startupDialogs.py:311
+#: updateCheck.py:440 gui\startupDialogs.py:311
 msgid "Remind me &later"
 msgstr "稍后提醒我(&L)"
 
 #. Translators: The label of a button to close a dialog.
 #. Translators: The close button on an NVDA dialog. This button will dismiss the dialog.
-#: updateCheck.py:441 gui\addonGui.py:344
+#: updateCheck.py:449 gui\addonGui.py:344
 msgid "&Close"
 msgstr "关闭(&C)"
 
 #. Translators: A message indicating that an update to NVDA is ready to be applied.
-#: updateCheck.py:498
+#: updateCheck.py:506
 #, python-brace-format
 msgid "Update to NVDA version {version} is ready to be applied.\n"
 msgstr "NVDA 版本 {version} 已准备就绪。\n"
 
 #. Translators: The label of a button to update NVDA.
-#: updateCheck.py:521
+#: updateCheck.py:529
 msgid "&Update now"
 msgstr "立即更新(&U)"
 
 #. Translators: The label of a button to postpone an NVDA update.
-#: updateCheck.py:534
+#: updateCheck.py:542
 msgid "&Postpone update"
 msgstr "推迟更新(&D)"
 
 #. Translators: The message when a downloaded update file could not be preserved.
-#: updateCheck.py:571
+#: updateCheck.py:579
 msgid "Unable to postpone update."
 msgstr "无法推迟更新."
 
 #. Translators: The title of the dialog displayed while downloading an NVDA update.
-#: updateCheck.py:615
+#: updateCheck.py:623
 msgid "Downloading Update"
 msgstr "正在下载更新"
 
 #. Translators: The progress message indicating that a connection is being established.
-#: updateCheck.py:617
+#: updateCheck.py:625
 msgid "Connecting"
 msgstr "正在连接"
 
 #. Translators: The progress message indicating that a download is in progress.
-#: updateCheck.py:709
+#: updateCheck.py:717
 msgid "Downloading"
 msgstr "正在下载"
 
 #. Translators: A message indicating that an error occurred while downloading an update to NVDA.
-#: updateCheck.py:728
+#: updateCheck.py:736
 msgid "Error downloading update."
 msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
-#: updateCheck.py:745
+#: updateCheck.py:753
 msgid ""
 "We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are "
@@ -8223,26 +8223,26 @@ msgstr ""
 "感谢您对我们的支持。"
 
 #. Translators: The title of the dialog requesting donations from users.
-#: updateCheck.py:754
+#: updateCheck.py:762
 msgid "Please Donate"
 msgstr "请捐赠"
 
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:763 gui\__init__.py:580
+#: updateCheck.py:771 gui\__init__.py:580
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
 #. Translators: The label of the button to decline donation
 #. in the "Please Donate" dialog.
-#: updateCheck.py:768
+#: updateCheck.py:776
 msgid "&Not now"
 msgstr "暂不捐赠(&N)"
 
 #. Translators: The label of a button to indicate that the user is finished donating
 #. in the "Please Donate" dialog.
-#: updateCheck.py:784
+#: updateCheck.py:792
 msgid "&Done"
 msgstr "捐赠完毕(&D)"
 
