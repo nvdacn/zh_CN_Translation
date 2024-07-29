@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 02:45+0000\n"
-"PO-Revision-Date: 2024-07-19 16:53+0800\n"
+"POT-Creation-Date: 2024-07-29 06:15+0000\n"
+"PO-Revision-Date: 2024-07-29 15:57+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -175,488 +175,544 @@ msgstr "总是闪避"
 
 #. Translators: Displayed in braille for an object which is a
 #. window.
-#: braille.py:81
+#: braille.py:83
 msgid "wnd"
 msgstr "wnd"
 
 #. Translators: Displayed in braille for an object which is a
 #. dialog.
-#: braille.py:84
+#: braille.py:86
 msgid "dlg"
 msgstr "dlg"
 
 #. Translators: Displayed in braille for an object which is a
 #. check box.
-#: braille.py:87
+#: braille.py:89
 msgid "chk"
 msgstr "chk"
 
 #. Translators: Displayed in braille for an object which is a
 #. radio button.
-#: braille.py:90
+#: braille.py:92
 msgid "rbtn"
 msgstr "rbtn"
 
 #. Translators: Displayed in braille for an object which is an
 #. editable text field.
-#: braille.py:93
+#: braille.py:95
 msgid "edt"
 msgstr "edt"
 
 #. Translators: Displayed in braille for an object which is a
 #. button.
-#: braille.py:96
+#: braille.py:98
 msgid "btn"
 msgstr "btn"
 
 #. Translators: Displayed in braille for an object which is a
 #. menu bar.
-#: braille.py:99
+#: braille.py:101
 msgid "mnubar"
 msgstr "mnubar"
 
 #. Translators: Displayed in braille for an object which is a
 #. menu item.
-#: braille.py:102
+#: braille.py:104
 msgid "mnuitem"
 msgstr "mnuitem"
 
 #. Translators: Displayed in braille for an object which is a
 #. menu.
-#: braille.py:105 braille.py:204
+#: braille.py:107 braille.py:206
 msgid "mnu"
 msgstr "mnu"
 
 #. Translators: Displayed in braille for an object which is a
 #. combo box.
-#: braille.py:108
+#: braille.py:110
 msgid "cbo"
 msgstr "cbo"
 
 #. Translators: Displayed in braille for an object which is a
 #. list.
-#: braille.py:111
+#: braille.py:113
 msgid "lst"
 msgstr "lst"
 
 #. Translators: Displayed in braille for an object which is a
 #. graphic.
-#: braille.py:114
+#: braille.py:116
 msgid "gra"
 msgstr "gra"
 
 #. Translators: Displayed in braille for toast notifications and for an object which is a
 #. help balloon.
-#: braille.py:117
+#: braille.py:119
 msgid "hlp"
 msgstr "hlp"
 
 #. Translators: Displayed in braille for an object which is a
 #. tool tip.
-#: braille.py:120
+#: braille.py:122
 msgid "tltip"
 msgstr "tltip"
 
 #. Translators: Displayed in braille for an object which is a
 #. link.
-#: braille.py:123
+#: braille.py:125
 msgid "lnk"
 msgstr "lnk"
 
 #. Translators: Displayed in braille for an object which is a
 #. tree view.
-#: braille.py:126
+#: braille.py:128
 msgid "tv"
 msgstr "tv"
 
 #. Translators: Displayed in braille for an object which is a
 #. tree view item.
-#: braille.py:129
+#: braille.py:131
 msgid "tvitem"
 msgstr "tvitem"
 
 #. Translators: Displayed in braille for an object which is a
 #. tab control.
-#: braille.py:132
+#: braille.py:134
 msgid "tabctl"
 msgstr "tabctl"
 
 #. Translators: Displayed in braille for an object which is a
 #. progress bar.
-#: braille.py:135
+#: braille.py:137
 msgid "prgbar"
 msgstr "prgbar"
 
 #. Translators: Displayed in braille for an object which is an
 #. indeterminate progress bar, aka busy indicator.
-#: braille.py:138
+#: braille.py:140
 msgid "bsyind"
 msgstr "bsyind"
 
 #. Translators: Displayed in braille for an object which is a
 #. scroll bar.
-#: braille.py:141
+#: braille.py:143
 msgid "scrlbar"
 msgstr "scrlbar"
 
 #. Translators: Displayed in braille for an object which is a
 #. status bar.
-#: braille.py:144
+#: braille.py:146
 msgid "stbar"
 msgstr "stbar"
 
 #. Translators: Displayed in braille for an object which is a
 #. table.
-#: braille.py:147
+#: braille.py:149
 msgid "tbl"
 msgstr "tbl"
 
 #. Translators: Displayed in braille for an object which is a
 #. tool bar.
-#: braille.py:150
+#: braille.py:152
 msgid "tlbar"
 msgstr "tlbar"
 
 #. Translators: Displayed in braille for an object which is a
 #. drop down button.
-#: braille.py:153
+#: braille.py:155
 msgid "drbtn"
 msgstr "drbtn"
 
 #. Translators: Displayed in braille for an object which is a
 #. block quote.
-#: braille.py:159
+#: braille.py:161
 msgid "bqt"
 msgstr "bqt"
 
 #. Translators: Displayed in braille for an object which is a
 #. document.
-#: braille.py:162
+#: braille.py:164
 msgid "doc"
 msgstr "doc"
 
 #. Translators: Displayed in braille for an object which is a
 #. application.
-#: braille.py:165
+#: braille.py:167
 msgid "app"
 msgstr "app"
 
 #. Translators: Displayed in braille for an object which is a
 #. grouping.
-#: braille.py:168
+#: braille.py:170
 msgid "grp"
 msgstr "grp"
 
 #. Translators: Displayed in braille for an object which is a
 #. caption.
-#: braille.py:171
+#: braille.py:173
 msgid "cap"
 msgstr "cap"
 
 #. Translators: Displayed in braille for an object which is a
 #. embedded object.
-#: braille.py:174
+#: braille.py:176
 msgid "embedded"
 msgstr "embedded"
 
 #. Translators: Displayed in braille for an object which is a
 #. end note.
-#: braille.py:177
+#: braille.py:179
 msgid "enote"
 msgstr "enote"
 
 #. Translators: Displayed in braille for an object which is a
 #. foot note.
-#: braille.py:180
+#: braille.py:182
 msgid "fnote"
 msgstr "fnote"
 
 #. Translators: Displayed in braille for an object which is a
 #. terminal.
-#: braille.py:183
+#: braille.py:185
 msgid "term"
 msgstr "term"
 
 #. Translators: Displayed in braille for an object which is a
 #. section.
-#: braille.py:186
+#: braille.py:188
 msgid "sect"
 msgstr "sect"
 
 #. Translators: Displayed in braille for an object which is a
 #. toggle button.
-#: braille.py:189
+#: braille.py:191
 msgid "tgbtn"
 msgstr "tgbtn"
 
 #. Translators: Displayed in braille for an object which is a
 #. split button.
-#: braille.py:192
+#: braille.py:194
 msgid "splbtn"
 msgstr "splbtn"
 
 #. Translators: Displayed in braille for an object which is a
 #. menu button.
-#: braille.py:195
+#: braille.py:197
 msgid "mnubtn"
 msgstr "mnubtn"
 
 #. Translators: Displayed in braille for an object which is a
 #. spin button.
-#: braille.py:198
+#: braille.py:200
 msgid "spnbtn"
 msgstr "spnbtn"
 
 #. Translators: Displayed in braille for an object which is a
 #. tree view button.
-#: braille.py:201
+#: braille.py:203
 msgid "tvbtn"
 msgstr "tvbtn"
 
 #. Translators: Displayed in braille for an object which is a
 #. panel.
-#: braille.py:207
+#: braille.py:209
 msgid "pnl"
 msgstr "pnl"
 
 #. Translators: Displayed in braille for an object which is a
 #. password edit.
-#: braille.py:210
+#: braille.py:212
 msgid "pwdedt"
 msgstr "pwdedt"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#: braille.py:212
+#: braille.py:214
 msgid "del"
 msgstr "del"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#: braille.py:214
+#: braille.py:216
 msgid "ins"
 msgstr "ins"
 
 #. Translators: Displayed in braille for a landmark.
-#: braille.py:216
+#: braille.py:218
 msgid "lmk"
 msgstr "lmk"
 
 #. Translators: Displayed in braille for an object which is an article.
-#: braille.py:218
+#: braille.py:220
 msgid "art"
 msgstr "art"
 
 #. Translators: Displayed in braille for an object which is a region.
-#: braille.py:220
+#: braille.py:222
 msgid "rgn"
 msgstr "rgn"
 
 #. Translators: Displayed in braille for an object which is a figure.
-#: braille.py:222
+#: braille.py:224
 msgid "fig"
 msgstr "fig"
 
 #. Translators: Displayed in braille for an object which represents marked (highlighted) content
-#: braille.py:224
+#: braille.py:226
 msgid "hlght"
 msgstr "hlght"
 
 #. Translators: Displayed in braille when an object is a comment.
 #. Translators: Displayed in braille when there is a comment for a spreadsheet cell or piece of text in a document.
 #. Translators: Brailled when text contains a generic comment.
-#: braille.py:226 braille.py:275 braille.py:1117
+#: braille.py:228 braille.py:277 braille.py:1176
 msgid "cmnt"
 msgstr "cmnt"
 
 #. Translators: Displayed in braille when an object is a suggestion.
-#: braille.py:228
+#: braille.py:230
 msgid "sggstn"
 msgstr "sggstn"
 
 #. Translators: Displayed in braille when an object is a definition.
 #. Translators: Identifies a definition.
-#: braille.py:230 controlTypes\role.py:532
+#: braille.py:232 controlTypes\role.py:532
 msgid "definition"
 msgstr "definition"
 
 #. Translators: Displayed in braille when an object is a switch control
-#: braille.py:232
+#: braille.py:234
 msgid "swtch"
 msgstr "swtch"
 
 #. Translators: Displayed in braille when an object is selected.
-#: braille.py:237
+#: braille.py:239
 msgid "sel"
 msgstr "sel"
 
 #. Translators: Displayed in braille when an object (e.g. an editable text field) is read-only.
-#: braille.py:247
+#: braille.py:249
 msgid "ro"
 msgstr "ro"
 
 #. Translators: Displayed in braille when an object (e.g. a tree view item) is expanded.
-#: braille.py:249
+#: braille.py:251
 msgid "-"
 msgstr "-"
 
 #. Translators: Displayed in braille when an object (e.g. a tree view item) is collapsed.
-#: braille.py:251
+#: braille.py:253
 msgid "+"
 msgstr "+"
 
 #. Translators: Displayed in braille when an object has a popup (usually a sub-menu).
-#: braille.py:253
+#: braille.py:255
 msgid "submnu"
 msgstr "submnu"
 
 #. Translators: Displayed in braille when a protected control or a document is encountered.
-#: braille.py:255
+#: braille.py:257
 msgid "***"
 msgstr "***"
 
 #. Translators: Displayed in braille when a required form field is encountered.
-#: braille.py:257
+#: braille.py:259
 msgid "req"
 msgstr "req"
 
 #. Translators: Displayed in braille when an invalid entry has been made.
-#: braille.py:259
+#: braille.py:261
 msgid "invalid"
 msgstr "invalid"
 
 #. Translators: Displayed in braille when an object supports autocompletion.
-#: braille.py:261
+#: braille.py:263
 msgid "..."
 msgstr "..."
 
 #. Translators: Displayed in braille when an edit field allows typing multiple lines of text such as comment fields on websites.
-#: braille.py:263
+#: braille.py:265
 msgid "mln"
 msgstr "mln"
 
 #. Translators: Displayed in braille when an object is clickable.
-#: braille.py:265
+#: braille.py:267
 msgid "clk"
 msgstr "clk"
 
 #. Translators: Displayed in braille when an object is sorted ascending.
-#: braille.py:267
+#: braille.py:269
 msgid "sorted asc"
 msgstr "sorted asc"
 
 #. Translators: Displayed in braille when an object is sorted descending.
-#: braille.py:269
+#: braille.py:271
 msgid "sorted desc"
 msgstr "sorted desc"
 
 #. Translators: Displayed in braille when an object (usually a graphic) has a long description.
-#: braille.py:271
+#: braille.py:273
 msgid "ldesc"
 msgstr "ldesc"
 
 #. Translators: Displayed in braille when there is a formula on a spreadsheet cell.
-#: braille.py:273
+#: braille.py:275
 msgid "frml"
 msgstr "frml"
 
 #. Translators: Displayed in braille when an object is not selected.
-#: braille.py:281
+#: braille.py:283
 msgid "nsel"
 msgstr "nsel"
 
 #. Translators: Displayed in braille for the banner landmark, normally found on web pages.
-#: braille.py:292
+#: braille.py:294
 msgctxt "braille landmark abbreviation"
 msgid "bnnr"
 msgstr "bnnr"
 
 #. Translators: Displayed in braille for the complementary landmark, normally found on web pages.
-#: braille.py:294
+#: braille.py:296
 msgctxt "braille landmark abbreviation"
 msgid "cmpl"
 msgstr "cmpl"
 
 #. Translators: Displayed in braille for the contentinfo landmark, normally found on web pages.
-#: braille.py:296
+#: braille.py:298
 msgctxt "braille landmark abbreviation"
 msgid "cinf"
 msgstr "cinf"
 
 #. Translators: Displayed in braille for the main landmark, normally found on web pages.
-#: braille.py:298
+#: braille.py:300
 msgctxt "braille landmark abbreviation"
 msgid "main"
 msgstr "main"
 
 #. Translators: Displayed in braille for the navigation landmark, normally found on web pages.
-#: braille.py:300
+#: braille.py:302
 msgctxt "braille landmark abbreviation"
 msgid "navi"
 msgstr "navi"
 
 #. Translators: Displayed in braille for the search landmark, normally found on web pages.
-#: braille.py:302
+#: braille.py:304
 msgctxt "braille landmark abbreviation"
 msgid "srch"
 msgstr "srch"
 
 #. Translators: Displayed in braille for the form landmark, normally found on web pages.
-#: braille.py:304
+#: braille.py:306
 msgctxt "braille landmark abbreviation"
 msgid "form"
 msgstr "form"
 
 #. Translators: The description of a braille cursor shape.
-#: braille.py:310
+#: braille.py:312
 msgid "Dots 7 and 8"
 msgstr "第 7 点和第 8 点"
 
 #. Translators: The description of a braille cursor shape.
-#: braille.py:312
+#: braille.py:314
 msgid "Dot 8"
 msgstr "第 8 点"
 
 #. Translators: The description of a braille cursor shape.
-#: braille.py:314
+#: braille.py:316
 msgid "All dots"
 msgstr "所有点位"
 
 #. Translators: The label for a braille focus context presentation setting that
 #. only shows as much as possible focus context information when the context has changed.
-#: braille.py:346
+#: braille.py:359
 msgid "Fill display for context changes"
 msgstr "填满显示上下文变更"
 
 #. Translators: The label for a braille focus context presentation setting that
 #. shows as much as possible focus context information if the focus object doesn't fill up the whole display.
 #. This was the pre NVDA 2017.3 default.
-#: braille.py:350
+#: braille.py:363
 msgid "Always fill display"
 msgstr "盲文显示排满点显器的所有格"
 
 #. Translators: The label for a braille focus context presentation setting that
 #. always shows the object with focus at the very left of the braille display
 #. (i.e. you will have to scroll back for focus context information).
-#: braille.py:354
+#: braille.py:367
 msgid "Only when scrolling back"
 msgstr "仅在回滚时"
 
 #. Translators: String representing automatic port selection for braille displays.
-#: braille.py:364
+#: braille.py:377
 msgid "Automatic"
 msgstr "自动"
 
 #. Translators: String representing the USB port selection for braille displays.
-#: braille.py:376
+#: braille.py:389
 msgid "USB"
 msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
-#: braille.py:380
+#: braille.py:393
 msgid "Bluetooth"
 msgstr "蓝牙"
 
+#. Translators: Brailled at the start of bold text.
+#. This is the English letter "b" in braille.
+#: braille.py:410
+msgctxt "braille formatting symbol"
+msgid "⠃"
+msgstr "⠃"
+
+#. Translators: Brailled at the end of bold text.
+#. This is the English letter "b" plus dot 7 in braille.
+#: braille.py:413
+msgctxt "braille formatting symbol"
+msgid "⡃"
+msgstr "⡃"
+
+#. Translators: Brailled at the start of italic text.
+#. This is the English letter "i" in braille.
+#: braille.py:418
+msgctxt "braille formatting symbol"
+msgid "⠊"
+msgstr "⠊"
+
+#. Translators: Brailled at the end of italic text.
+#. This is the English letter "i" plus dot 7 in braille.
+#: braille.py:421
+msgctxt "braille formatting symbol"
+msgid "⡊"
+msgstr "⡊"
+
+#. Translators: Brailled at the start of underlined text.
+#. This is the English letter "u" in braille.
+#: braille.py:426
+msgctxt "braille formatting symbol"
+msgid "⠥"
+msgstr "⠥"
+
+#. Translators: Brailled at the end of underlined text.
+#. This is the English letter "u" plus dot 7 in braille.
+#: braille.py:429
+msgctxt "braille formatting symbol"
+msgid "⡥"
+msgstr "⡥"
+
+#. Translators: Brailled at the start of strikethrough text.
+#. This is the English letter "s" in braille.
+#: braille.py:434
+msgctxt "braille formatting symbol"
+msgid "⠎"
+msgstr "⠎"
+
+#. Translators: Brailled at the end of strikethrough text.
+#. This is the English letter "s" plus dot 7 in braille.
+#: braille.py:437
+msgctxt "braille formatting symbol"
+msgid "⡎"
+msgstr "⡎"
+
 #. Translators: Braille when there are further details/annotations that can be fetched manually.
-#: braille.py:591 speech\speech.py:2055
+#: braille.py:650 speech\speech.py:2055
 msgid "details"
 msgstr "详细信息"
 
@@ -664,20 +720,20 @@ msgstr "详细信息"
 #. %s specifies the type of details (e.g. "has comment suggestion")
 #. Translators: Speaks when there are further details/annotations that can be fetched manually.
 #. %s specifies the type of details (e.g. "comment, suggestion, details")
-#: braille.py:601 speech\speech.py:2060
+#: braille.py:660 speech\speech.py:2060
 #, python-format
 msgid "has %s"
 msgstr "有 %s"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
-#: braille.py:641 braille.py:1098
+#: braille.py:700 braille.py:1157
 #, python-format
 msgid "h%s"
 msgstr "h%s"
 
 #. Translators: Displayed in braille for a link which has been visited.
-#: braille.py:647
+#: braille.py:706
 msgid "vlnk"
 msgstr "vlnk"
 
@@ -687,97 +743,97 @@ msgstr "vlnk"
 #. Translators: Spoken to indicate the position of an item in a group of items (such as a list).
 #. {number} is replaced with the number of the item in the group.
 #. {total} is replaced with the total number of items in the group.
-#: braille.py:694 speech\speech.py:2077
+#: braille.py:753 speech\speech.py:2077
 #, python-brace-format
 msgid "{number} of {total}"
 msgstr "，{total} 之 {number} 项"
 
 #. Translators: Displayed in braille when an object (e.g. a tree view item) has a hierarchical level.
 #. %s is replaced with the level.
-#: braille.py:698
+#: braille.py:757
 #, python-format
 msgid "lv %s"
 msgstr "%s 级"
 
 #. Translators: Displayed in braille for the table cell row numbers when a cell spans multiple rows.
 #. Occurences of %s are replaced with the corresponding row numbers.
-#: braille.py:704
+#: braille.py:763
 #, python-brace-format
 msgid "r{rowNumber}-{rowSpan}"
 msgstr "{rowNumber} 到 {rowSpan} 行"
 
 #. Translators: Displayed in braille for a table cell row number.
 #. %s is replaced with the row number.
-#: braille.py:711
+#: braille.py:770
 #, python-brace-format
 msgid "r{rowNumber}"
 msgstr "{rowNumber} 行"
 
 #. Translators: Displayed in braille for the table cell column numbers when a cell spans multiple columns.
 #. Occurences of %s are replaced with the corresponding column numbers.
-#: braille.py:721
+#: braille.py:780
 #, python-brace-format
 msgid "c{columnNumber}-{columnSpan}"
 msgstr "{columnNumber} 到 {columnSpan} 列"
 
 #. Translators: Displayed in braille for a table cell column number.
 #. %s is replaced with the column number.
-#: braille.py:728
+#: braille.py:787
 #, python-brace-format
 msgid "c{columnNumber}"
 msgstr "{columnNumber} 列"
 
 #. Translators: Displayed in braille at the end of a control field such as a list or table.
 #. %s is replaced with the control's role.
-#: braille.py:945
+#: braille.py:1004
 #, python-format
 msgid "%s end"
 msgstr "%s 行尾"
 
 #. Translators: Brailled when text contains a draft comment.
-#: braille.py:1111
+#: braille.py:1170
 msgid "drft cmnt"
 msgstr "草稿批注"
 
 #. Translators: Brailled when text contains a resolved comment.
-#: braille.py:1114
+#: braille.py:1173
 msgid "rslvd cmnt"
 msgstr "已解决批注"
 
 #. Translators: brailled when text contains a bookmark
-#: braille.py:1125
+#: braille.py:1184
 msgid "bkmk"
 msgstr "书签"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3245
+#: braille.py:3363
 msgid "Dot firm&ness"
 msgstr "点字硬度(&N)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3258
+#: braille.py:3376
 msgid "Braille inp&ut"
 msgstr "启用盲文输入(&U)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3268
+#: braille.py:3386
 msgid "&HID keyboard input simulation"
 msgstr "模拟 HID 键盘(&H)"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#: braille.py:3432
+#: braille.py:3550
 msgid "Unknown braille display"
 msgstr "未知盲文点显器"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#: braille.py:3473
+#: braille.py:3591
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
 msgstr "蓝牙串行设备：{port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
-#: braille.py:3482 brailleDisplayDrivers\ecoBraille.py:399
+#: braille.py:3600 brailleDisplayDrivers\ecoBraille.py:399
 #: brailleDisplayDrivers\papenmeier_serial.py:81
 #, python-brace-format
 msgid "Serial: {portName}"
@@ -3313,7 +3369,7 @@ msgstr ""
 #: gui\inputGestures.py:822 gui\installerGui.py:110 gui\installerGui.py:498
 #: gui\installerGui.py:513 gui\installerGui.py:585 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:144 gui\settingsDialogs.py:1003
-#: gui\settingsDialogs.py:4868 gui\settingsDialogs.py:5223
+#: gui\settingsDialogs.py:4881 gui\settingsDialogs.py:5236
 #: gui\startupDialogs.py:127
 msgid "Error"
 msgstr "错误"
@@ -3586,7 +3642,7 @@ msgstr "盲文"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the vision panel
-#: globalCommands.py:99 gui\settingsDialogs.py:4636
+#: globalCommands.py:99 gui\settingsDialogs.py:4649
 msgid "Vision"
 msgstr "视觉"
 
@@ -9976,6 +10032,16 @@ msgstr "Diffing"
 msgid "UIA notifications"
 msgstr "UIA 通知"
 
+#. Translators: Label for a way of outputting formatting in braille.
+#: config\featureFlagEnums.py:136
+msgid "Liblouis"
+msgstr "Liblouis"
+
+#. Translators: Label for a way of outputting formatting in braille.
+#: config\featureFlagEnums.py:138
+msgid "Tags"
+msgstr "标签"
+
 #. Translators: The title of the document used to present the result of content recognition.
 #: contentRecog\recogUi.py:39
 msgid "Result"
@@ -12095,7 +12161,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:5111 gui\speechDict.py:215
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:5124 gui\speechDict.py:215
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -12711,7 +12777,7 @@ msgstr "处理字符和标点时信任语音的语言(&T)"
 
 #. Translators: This is a label for a combo-box in the Speech settings panel.
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:1645 gui\settingsDialogs.py:4412
+#: gui\settingsDialogs.py:1645 gui\settingsDialogs.py:4424
 msgid "Unicode normali&zation"
 msgstr "Unicode 正规化(&Z)"
 
@@ -13989,27 +14055,32 @@ msgstr "聚焦到上下文："
 msgid "Show se&lection"
 msgstr "盲文选择指示光标(&L)"
 
+#. Translators: This is a label for a combo-box in the Braille settings panel.
+#: gui\settingsDialogs.py:4402
+msgid "Formatting &display"
+msgstr "格式信息的显示方式(&D)"
+
 #. Translators: The label for a setting in braille settings to enable word wrap
 #. (try to avoid splitting words at the end of the braille display).
-#: gui\settingsDialogs.py:4404
+#: gui\settingsDialogs.py:4416
 msgid "Avoid splitting &words when possible"
 msgstr "若可能，尽量避免拆分单词(&W)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4423
+#: gui\settingsDialogs.py:4435
 msgid "I&nterrupt speech while scrolling"
 msgstr "滚动时打断语音(&I)"
 
 #. Translators: This message is presented when
 #. NVDA is unable to load a single vision enhancement provider.
-#: gui\settingsDialogs.py:4502
+#: gui\settingsDialogs.py:4515
 #, python-brace-format
 msgid "Could not load the {providerName} vision enhancement provider"
 msgstr "无法加载 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when NVDA is unable to
 #. load multiple vision enhancement providers.
-#: gui\settingsDialogs.py:4509
+#: gui\settingsDialogs.py:4522
 #, python-brace-format
 msgid ""
 "Could not load the following vision enhancement providers:\n"
@@ -14019,13 +14090,13 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
-#: gui\settingsDialogs.py:4515 gui\settingsDialogs.py:4545
+#: gui\settingsDialogs.py:4528 gui\settingsDialogs.py:4558
 msgid "Vision Enhancement Provider Error"
 msgstr "视觉增强程序加载错误"
 
 #. Translators: This message is presented when
 #. NVDA is unable to gracefully terminate a single vision enhancement provider.
-#: gui\settingsDialogs.py:4532
+#: gui\settingsDialogs.py:4545
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the {providerName} vision enhancement provider"
@@ -14033,7 +14104,7 @@ msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when
 #. NVDA is unable to terminate multiple vision enhancement providers.
-#: gui\settingsDialogs.py:4540
+#: gui\settingsDialogs.py:4553
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the following vision enhancement providers:\n"
@@ -14043,121 +14114,121 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
-#: gui\settingsDialogs.py:4640
+#: gui\settingsDialogs.py:4653
 msgid "Configure visual aids."
 msgstr "配置视觉辅助。"
 
 #. Translators: Enable checkbox on a vision enhancement provider on the vision settings category panel
-#: gui\settingsDialogs.py:4812
+#: gui\settingsDialogs.py:4825
 msgid "Enable"
 msgstr "启用"
 
 #. Translators: Options label on a vision enhancement provider on the vision settings category panel
 #. Translators: The label for a group box containing the NVDA highlighter options.
-#: gui\settingsDialogs.py:4819
+#: gui\settingsDialogs.py:4832
 #: visionEnhancementProviders\NVDAHighlighter.py:304
 #: visionEnhancementProviders\screenCurtain.py:253
 msgid "Options:"
 msgstr "选项："
 
 #. Translators: Shown when there is an error showing the GUI for a vision enhancement provider
-#: gui\settingsDialogs.py:4865
+#: gui\settingsDialogs.py:4878
 msgid ""
 "Unable to configure user interface for Vision Enhancement Provider, it can "
 "not be enabled."
 msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法启用。"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:4910
+#: gui\settingsDialogs.py:4923
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:4951
+#: gui\settingsDialogs.py:4964
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:4986
+#: gui\settingsDialogs.py:4999
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:4991
+#: gui\settingsDialogs.py:5004
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:5021
+#: gui\settingsDialogs.py:5034
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:5035
+#: gui\settingsDialogs.py:5048
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5044
+#: gui\settingsDialogs.py:5057
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:5054
+#: gui\settingsDialogs.py:5067
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:5056 gui\speechDict.py:191
+#: gui\settingsDialogs.py:5069 gui\speechDict.py:191
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:5058
+#: gui\settingsDialogs.py:5071
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:5061
+#: gui\settingsDialogs.py:5074
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:5065
+#: gui\settingsDialogs.py:5078
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5083 gui\speechDict.py:55
+#: gui\settingsDialogs.py:5096 gui\speechDict.py:55
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:5092
+#: gui\settingsDialogs.py:5105
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:5099
+#: gui\settingsDialogs.py:5112
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:5114
+#: gui\settingsDialogs.py:5127
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:5221
+#: gui\settingsDialogs.py:5234
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
@@ -15165,7 +15236,7 @@ msgstr "移动焦点和导航对象到最后一行"
 msgid "Composition"
 msgstr "上屏"
 
-#: NVDAObjects\IAccessible\__init__.py:2441
+#: NVDAObjects\IAccessible\__init__.py:2442
 msgid "Taskbar"
 msgstr "任务栏"
 
