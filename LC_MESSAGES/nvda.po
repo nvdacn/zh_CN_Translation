@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 05:04+0000\n"
-"PO-Revision-Date: 2024-08-12 14:14+0800\n"
+"PO-Revision-Date: 2024-08-12 14:52+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5551,17 +5551,17 @@ msgstr "打开盲文光标"
 #: globalCommands.py:3599
 msgid ""
 "Toggles speaking the character under the cursor when routing cursor in text"
-msgstr ""
+msgstr "切换定位文本光标后是否读出光标所在处的字符"
 
 #. Translators: The message announced when toggling on speaking character when routing.
 #: globalCommands.py:3607
 msgid "Enabled speak character when routing cursor in text"
-msgstr ""
+msgstr "启用定位文本光标后读出光标所在处的字符"
 
 #. Translators: The message announced when toggling off speaking character when routing.
 #: globalCommands.py:3610
 msgid "Disabled speak character when routing cursor in text"
-msgstr ""
+msgstr "禁用定位文本光标后读出光标所在处的字符"
 
 #. Translators: Input help mode message for cycle braille cursor shape command.
 #: globalCommands.py:3615
@@ -14170,7 +14170,7 @@ msgstr "格式信息的显示方式(&D)"
 #. Translators: The label for a setting in braille settings to speak the character under the cursor when cursor routing in text.
 #: gui\settingsDialogs.py:4451
 msgid "Spea&k character when routing cursor in text"
-msgstr ""
+msgstr "定位文本光标后读出光标所在处的字符(&K)"
 
 #. Translators: The label for a setting in braille settings to enable word wrap
 #. (try to avoid splitting words at the end of the braille display).
