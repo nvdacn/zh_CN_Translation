@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-15 05:08+0000\n"
-"PO-Revision-Date: 2024-08-15 14:20+0800\n"
+"POT-Creation-Date: 2024-08-27 03:39+0000\n"
+"PO-Revision-Date: 2024-08-27 12:53+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3459,31 +3459,31 @@ msgstr "匹配大小写(&S)"
 
 #. Translators: message displayed to the user when
 #. searching text and no text is found.
-#: cursorManager.py:204
+#: cursorManager.py:208
 #, python-format
 msgid "text \"%s\" not found"
 msgstr "文本“%s”无法找到"
 
 #. Translators: message dialog title displayed to the user when
 #. searching text and no text is found.
-#: cursorManager.py:207
+#: cursorManager.py:211
 msgid "0 matches"
 msgstr "未找到匹配项"
 
 #. Translators: Input help message for NVDA's find command.
-#: cursorManager.py:224
+#: cursorManager.py:228
 msgid "find a text string from the current cursor position"
 msgstr "从当前光标处开始查找文本"
 
 #. Translators: Input help message for find next command.
-#: cursorManager.py:229
+#: cursorManager.py:233
 msgid ""
 "find the next occurrence of the previously entered text string from the "
 "current cursor's position"
 msgstr "从光标处向下查找您之前键入的文本"
 
 #. Translators: Input help message for find previous command.
-#: cursorManager.py:247
+#: cursorManager.py:251
 msgid ""
 "find the previous occurrence of the previously entered text string from the "
 "current cursor's position"
@@ -3493,7 +3493,7 @@ msgstr "从光标处向上查找您之前键入的文本"
 #. Translators: The message reported when there is no selection
 #. Translators: When trying to read the documentation but there is no selected autocompletion item in
 #. Eclipse
-#: cursorManager.py:535 globalCommands.py:335 appModules\eclipse.py:69
+#: cursorManager.py:539 globalCommands.py:335 appModules\eclipse.py:69
 msgid "No selection"
 msgstr "未选择文本"
 
@@ -9801,7 +9801,7 @@ msgid "Toggle braille input"
 msgstr "切换盲文输入开关"
 
 #. Translators: The name of a series of braille displays.
-#: brailleDisplayDrivers\hidBrailleStandard.py:82
+#: brailleDisplayDrivers\hidBrailleStandard.py:83
 msgid "Standard HID Braille Display"
 msgstr "HID 规范"
 
