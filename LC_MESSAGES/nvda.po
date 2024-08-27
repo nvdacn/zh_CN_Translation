@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-27 03:39+0000\n"
-"PO-Revision-Date: 2024-08-27 12:53+0800\n"
+"PO-Revision-Date: 2024-08-27 20:13+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -11861,7 +11861,7 @@ msgstr "版本"
 #. Translators: The label for a column in add-ons list used to provide some explanation about incompatibility
 #: gui\addonGui.py:369
 msgid "Incompatible reason"
-msgstr "不兼容的原因"
+msgstr "不兼容原因"
 
 #. Translators: Reported when an action cannot be performed because NVDA is in a secure screen
 #: gui\blockAction.py:29
@@ -15126,7 +15126,7 @@ msgstr "更新(&U)"
 #: gui\addonStoreGui\viewModels\store.py:138
 msgctxt "addonStore"
 msgid "&Update (override incompatibility)"
-msgstr "更新（覆盖不兼容）(&U)"
+msgstr "更新（忽略不兼容）(&U)"
 
 #. Translators: Label for an action that replaces the selected addon with
 #. an add-on store version.
