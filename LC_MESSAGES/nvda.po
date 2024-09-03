@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-27 03:39+0000\n"
-"PO-Revision-Date: 2024-08-27 20:19+0800\n"
+"POT-Creation-Date: 2024-09-03 06:21+0000\n"
+"PO-Revision-Date: 2024-09-03 14:48+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
 #: NVDAHelper.py:486
@@ -3499,7 +3499,7 @@ msgstr "未选择文本"
 
 #. Translators: Abbreviation for points, a measurement of font size.
 #: displayModel.py:576 appModules\powerpnt.py:1113 appModules\soffice.py:77
-#: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:205
+#: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:202
 #: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:345
 #: NVDAObjects\window\edit.py:714 NVDAObjects\window\excel.py:1300
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1059
@@ -9126,7 +9126,7 @@ msgid "meeting request"
 msgstr "会议请求"
 
 #. Translators: The name of a category of NVDA commands.
-#: appModules\poedit.py:29
+#: appModules\poedit.py:27
 msgid "Poedit"
 msgstr "Poedit"
 
@@ -9134,7 +9134,7 @@ msgstr "Poedit"
 #. to be presented to the user in Poedit.
 #. {description} is replaced by the description of the window to be reported,
 #. e.g. translator notes
-#: appModules\poedit.py:162
+#: appModules\poedit.py:115
 #, python-brace-format
 msgctxt "poedit"
 msgid "No {description}"
@@ -9143,14 +9143,14 @@ msgstr "无 {description}"
 #. Translators: this message is reported when NVDA is unable to find
 #. a requested window in Poedit.
 #. {description} is replaced by the description of the window to be reported, e.g. translator notes
-#: appModules\poedit.py:169
+#: appModules\poedit.py:122
 #, python-brace-format
 msgctxt "poedit"
 msgid "Could not find {description} window."
 msgstr "未找到 {description} 窗口。"
 
 #. Translators: The description of an NVDA command for Poedit.
-#: appModules\poedit.py:176
+#: appModules\poedit.py:129
 msgctxt "poedit"
 msgid ""
 "Reports any notes for translators. If pressed twice, presents the notes in "
@@ -9159,13 +9159,13 @@ msgstr "读出翻译者注释。连按两次，在浏览模式下显示该信息
 
 #. Translators: The description of the "Translator notes" window in poedit.
 #. This text is reported when the given window contains no item to report or could not be found.
-#: appModules\poedit.py:187
+#: appModules\poedit.py:140
 msgctxt "poedit"
 msgid "notes for translators"
 msgstr "翻译者注释"
 
 #. Translators: The description of an NVDA command for Poedit.
-#: appModules\poedit.py:202
+#: appModules\poedit.py:153
 msgctxt "poedit"
 msgid ""
 "Reports any comment in the comments window. If pressed twice, presents the "
@@ -9174,39 +9174,39 @@ msgstr "读出窗口内的批注。连按两次，在浏览模式下显示该信
 
 #. Translators: The description of the "comment" window in poedit.
 #. This text is reported when the given window contains no item to report or could not be found.
-#: appModules\poedit.py:214
+#: appModules\poedit.py:165
 msgctxt "poedit"
 msgid "comment"
 msgstr "批注"
 
 #. Translators: The description of an NVDA command for Poedit.
-#: appModules\poedit.py:229
+#: appModules\poedit.py:180
 msgctxt "poedit"
 msgid ""
-"Reports the old source text, if any. If pressed twice, presents the text in "
-"browse mode"
+"Reports the previous source text, if any. If pressed twice, presents the "
+"text in browse mode"
 msgstr "读出旧的源文本（如果有）。连按两次，在浏览模式下显示该信息"
 
-#. Translators: The description of the "old source text" window in poedit.
+#. Translators: The description of the "previous source text" window in poedit.
 #. This text is reported when the given window contains no item to report or could not be found.
-#: appModules\poedit.py:240
+#: appModules\poedit.py:191
 msgctxt "poedit"
-msgid "old source text"
+msgid "previous source text"
 msgstr "旧的源文本"
 
 #. Translators: The description of an NVDA command for Poedit.
-#: appModules\poedit.py:255
+#: appModules\poedit.py:206
 msgctxt "poedit"
 msgid ""
-"Reports a translation warning, if any. If pressed twice, presents the "
-"warning in browse mode"
+"Reports a translation issue, if any. If pressed twice, presents the warning "
+"in browse mode"
 msgstr "读出翻译警告（如果有）。连按两次，在浏览模式下显示该信息"
 
-#. Translators: The description of the "translation warning" window in poedit.
+#. Translators: The description of the "translation issue" window in poedit.
 #. This text is reported when the given window contains no item to report or could not be found.
-#: appModules\poedit.py:266
+#: appModules\poedit.py:217
 msgctxt "poedit"
-msgid "translation warning"
+msgid "translation issue"
 msgstr "翻译警告"
 
 #. Translators: The name of a category of NVDA commands.
