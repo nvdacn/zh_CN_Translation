@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-04 01:10+0000\n"
-"PO-Revision-Date: 2024-09-04 16:46+0800\n"
+"POT-Creation-Date: 2024-09-05 23:33+0000\n"
+"PO-Revision-Date: 2024-09-06 13:39+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -9870,12 +9870,14 @@ msgstr "Caiku Albatross 46/80"
 #. Translators: A message when number of status cells must be changed
 #. for a braille display driver
 #: brailleDisplayDrivers\albatross\driver.py:485
+#, python-brace-format
 msgid ""
-"To use Albatross with NVDA: change number of status cells in Albatross "
-"internal menu at most "
+"To use an Albatross with NVDA, change the number of status cells in the "
+"Albatross's internal menu to at most {maxCells}, and restart the Albatross "
+"and NVDA if needed."
 msgstr ""
-"要将 Albatross 与 NVDA 一起使用：必须在 Albatross 内部菜单中更改状态单元格的"
-"数量 "
+"要将 Albatross 与 NVDA 一起使用，请将 Albatross 内部菜单中的状态单元格数量更"
+"改为最大 {maxCells}，然后根据需要重启 Albatross 和 NVDA。"
 
 #. Translators: Names of braille displays.
 #: brailleDisplayDrivers\eurobraille\constants.py:10
