@@ -5099,27 +5099,27 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This release includes a number of improvements in Microsoft Office, braille, and document formatting.</source>
-        <target/>
+        <target>此版本包括 Microsoft Office、盲文和文档格式方面的多项改进。</target>
       </segment>
     </unit>
     <unit id="25116343-b40c-4512-bdb6-562757d1d62c">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>In Word or Excel, it is now possible to double-press the comment gesture to read the comment or note in a browsable dialog.</source>
-        <target/>
+        <target>在 Word 或 Excel 中，现在可以连按两次读出批注/注释的快捷键以在浏览模式下阅读批注/注释。</target>
       </segment>
     </unit>
     <unit id="70268e7a-71e4-43f3-a06c-97c1701527c5">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>You can now use the review cursor selection command to select text in PowerPoint.</source>
-        <target/>
+        <target>现在，您可以使用浏览光标选择快捷键在 PowerPoint 中选择文本。</target>
       </segment>
     </unit>
     <unit id="8d97b6fb-8e9a-47fe-b35b-5575786db783">
@@ -5135,18 +5135,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA can now be configured to report font attributes in speech and braille separately.</source>
-        <target/>
+        <target>现在可以将 NVDA 配置为分别用语音或盲文提示字体属性。</target>
       </segment>
     </unit>
     <unit id="37355ac2-44d4-412c-9aa5-353a2d037d4c">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>A new setting has been added to configure the timeout to perform a multiple press gesture, such as the report time/date command.</source>
-        <target/>
+        <target>添加了一个新设置来配置执行连续按下按键或手势的超时，例如读出时间/日期。</target>
       </segment>
     </unit>
     <unit id="fd4564ad-285f-44db-beee-ad426f0b807a">
@@ -5207,9 +5207,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 24</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>eSpeak NG has been updated, adding support for the Faroese and Xextan languages.</source>
-        <target/>
+        <target>eSpeak NG 已更新，增加了对法罗语和 Xextan 语言的支持。</target>
       </segment>
     </unit>
     <unit id="704dfcd8-2ff2-48a9-a170-b371f5808c87">
@@ -5225,9 +5225,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 28</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>There have also been a number of fixes, including to mouse tracking in Firefox, and the on-demand speech mode.</source>
-        <target/>
+        <target>还进行了许多修复，包括 Firefox 中的鼠标跟踪以及手动朗读模式。</target>
       </segment>
     </unit>
     <unit id="e3e8932a-98e6-4558-8a16-34cbb7b72ff1">
@@ -5245,9 +5245,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>New braille features:</source>
-        <target/>
+        <target>盲文：</target>
       </segment>
     </unit>
     <unit id="9bebb2dd-6da3-444b-957e-ba6353258a47">
@@ -5314,9 +5314,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This option is disabled by default.</source>
-        <target/>
+        <target>默认情况下禁用此选项。</target>
       </segment>
     </unit>
     <unit id="5040ed7d-d447-4ded-937f-b09eb96ee952">
@@ -5333,9 +5333,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The comment command in Microsoft Word and notes command in Microsoft Excel can now be pressed twice to show the comment or note in a browsable message. (#16800, #16878, @Cary-Rowen)</source>
-        <target/>
+        <target>现在可以连按两次 Microsoft Word 中的读出批注命令和 Microsoft Excel 中的读出注释命令，以在浏览模式下显示该信息。(#16800, #16878, @Cary-Rowen)</target>
       </segment>
     </unit>
     <unit id="c875cdee-a2bc-4941-aa12-93690508ee68">
@@ -5343,9 +5343,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA can now be configured to report font attributes in speech and braille separately. (#16755)</source>
-        <target/>
+        <target>现在可以将 NVDA 配置为分别用语音和盲文提示字体属性。(#16755)</target>
       </segment>
     </unit>
     <unit id="fdb8328a-bf9e-45a1-958d-830822132919">
@@ -5383,9 +5383,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Component updates:</source>
-        <target/>
+        <target>组件更新：</target>
       </segment>
     </unit>
     <unit id="e1440c83-14f7-446f-a2d1-97549d3f6187">
@@ -5393,9 +5393,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Updated LibLouis Braille translator to [3.31.0](https://github.com/liblouis/liblouis/releases/tag/v3.31.0). (#17080, @LeonarddeR, @codeofdusk)</source>
-        <target/>
+        <target>将 LibLouis 盲文翻译器更新到 [3.31.0](https://github.com/liblouis/liblouis/releases/tag/v3.31.0)。(#17080, @LeonarddeR, @codeofdusk)</target>
       </segment>
     </unit>
     <unit id="c3761c10-3146-4cda-b9bb-6625c6b4952e">
@@ -5403,9 +5403,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Fixed translation of numbers in Spanish Braille.</source>
-        <target/>
+        <target>修复了西班牙语盲文数字的翻译。</target>
       </segment>
     </unit>
     <unit id="3cb00d5f-3806-4687-be73-58255539609b">
@@ -5413,9 +5413,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>New Braille tables:</source>
-        <target/>
+        <target>新增盲文表：</target>
       </segment>
     </unit>
     <unit id="39c75fc6-bc4c-46c0-875a-b63c2799d450">
@@ -5423,9 +5423,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix:       * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Thai grade 1</source>
-        <target/>
+        <target>泰语 1 级盲文</target>
       </segment>
     </unit>
     <unit id="d465f2db-7d66-48b6-af24-ed24d1586fb3">
@@ -5433,9 +5433,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix:       * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Greek international Braille (single-cell accented letters)</source>
-        <target/>
+        <target>希腊国际盲文（单方重音字母）</target>
       </segment>
     </unit>
     <unit id="4fda982b-eaf1-44df-a694-917197355cda">
@@ -5443,9 +5443,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Renamed tables:</source>
-        <target/>
+        <target>重命名的盲文表：</target>
       </segment>
     </unit>
     <unit id="64ebf290-748b-44bc-976a-004229f8ab17">
@@ -5453,9 +5453,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix:       * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>"Thai 6 dot" was renamed to "Thai grade 0" for consistency reasons.</source>
-        <target/>
+        <target>出于一致性原因，将“泰语 6 点盲文”更名为“泰语 0 级盲文”。</target>
       </segment>
     </unit>
     <unit id="3cf9bcad-ea87-4bf4-a15f-22b8238b07f5">
@@ -5463,9 +5463,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix:       * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The existing "Greek international braille" table was renamed to "Greek international braille (2-cell accented letters)" to clarify the distinction between the two Greek systems.</source>
-        <target/>
+        <target>现有的“希腊国际盲文”被重命名为“希腊国际盲文（2 方重音字母）”，以澄清两个希腊盲文系统之间的区别。</target>
       </segment>
     </unit>
     <unit id="e645aa7d-ccc1-4f3c-a624-34bab4a38ef8">
@@ -5473,9 +5473,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>eSpeak NG has been updated to 1.52-dev commit `961454ff`. (#16775)</source>
-        <target/>
+        <target>eSpeak NG 已更新至 1.52-dev commit `961454ff`。(#16775)</target>
       </segment>
     </unit>
     <unit id="42668b88-fe50-45d3-a116-561222b02876">
@@ -5483,9 +5483,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Added new languages Faroese and Xextan.</source>
-        <target/>
+        <target>新增语言：法罗语和 Xextan。</target>
       </segment>
     </unit>
     <unit id="ec25b369-d27b-482d-b421-2970c779924a">
@@ -5523,9 +5523,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Braille fixes:</source>
-        <target/>
+        <target>盲文修复：</target>
       </segment>
     </unit>
     <unit id="8193c05b-5a62-4710-abb1-33d866bf1ee9">
@@ -5633,9 +5633,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Updating NVDA while add-on updates are pending no longer results in the add-on being removed. (#16837)</source>
-        <target/>
+        <target>在插件更新挂起时更新 NVDA 不会再导致插件被删除。(#16837)</target>
       </segment>
     </unit>
     <unit id="1c1a2192-4abe-412d-b107-da0db1734ebd">
@@ -5643,9 +5643,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>It is now possible to interact with Data validation dropdown lists in Microsoft Excel 365. (#15138)</source>
-        <target/>
+        <target>现在可以与 Microsoft Excel 365 中的数据验证下拉列表进行交互。(#15138)</target>
       </segment>
     </unit>
     <unit id="9371c27c-d0b1-4671-aa93-f160f31d8a51">
@@ -5653,9 +5653,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA is no longer as sluggish when arrowing up and down through large files in VS Code. (#17039)</source>
-        <target/>
+        <target>在 VS Code 中按上/下光标浏览大文件时，NVDA 不再反应迟缓。(#17039)</target>
       </segment>
     </unit>
     <unit id="eed1978e-8f56-488f-bd93-30c04936ae96">
@@ -5673,9 +5673,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA no longer reads the last line when the cursor is on the second-last line of a multiline edit control in Java applications. (#17027)</source>
-        <target/>
+        <target>当光标位于 Java 应用程序中多行编辑控件的倒数第二行时，NVDA 不再读取最后一行。(#17027)</target>
       </segment>
     </unit>
     <unit id="e5dc8388-ac23-415b-b3e6-7b9e900d422a">
@@ -5694,7 +5694,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Please refer to [the developer guide](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
-        <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发人员指南](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API)。</target>
+        <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API)。</target>
       </segment>
     </unit>
     <unit id="f5bf4b27-1ffc-49f9-b3cf-1d504155e00d">
@@ -5702,9 +5702,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Component updates:</source>
-        <target/>
+        <target>组件更新：</target>
       </segment>
     </unit>
     <unit id="9d28de8c-3c00-4e08-aa08-522b46f11356">
@@ -5712,9 +5712,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Updated py2exe to 0.13.0.2 (#16907, @dpy013)</source>
-        <target/>
+        <target>将 py2exe 更新到 0.13.0.2。(#16907, @dpy013)</target>
       </segment>
     </unit>
     <unit id="bfa86426-c858-4c56-8daa-101b98c90da4">
@@ -5722,9 +5722,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Updated setuptools to 72.0 (#16907, @dpy013)</source>
-        <target/>
+        <target>将 setuptools 更新到 72.0。(#16907, @dpy013)</target>
       </segment>
     </unit>
     <unit id="adf4320a-4b20-4df1-8f11-82fd843a4c46">
@@ -5732,9 +5732,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Updated Ruff to 0.5.6. (#16868, @LeonarddeR)</source>
-        <target/>
+        <target>将 Ruff 更新到 0.5.6。(#16868, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="acb3bb18-bb03-45d4-bdd2-84c885580ba3">
@@ -5742,9 +5742,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Updated nh3 to 0.2.18 (#17020, @dpy013)</source>
-        <target/>
+        <target>将 nh3 更新到 0.2.18。(#17020, @dpy013)</target>
       </segment>
     </unit>
     <unit id="7904ee97-b6d6-4001-b432-fa68df7312b4">
@@ -5752,9 +5752,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Added a `.editorconfig` file to NVDA's repository in order for several IDEs to pick up basic NVDA code style rules by default. (#16795, @LeonarddeR)</source>
-        <target/>
+        <target>在 NVDA 的存储库中添加了一个“.editorconfig”文件，以便多个 IDE 默认情况下采用基本的 NVDA 代码样式规则。(#16795, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="feab38bb-c32a-4376-95bf-d2e8ca58551f">
@@ -5762,9 +5762,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Added support for custom speech symbol dictionaries. (#16739, #16823, @LeonarddeR)</source>
-        <target/>
+        <target>添加了对自定义语音符号字典的支持。(#16739, #16823, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="ba6e8b36-a0fc-4447-b2a3-bec411233f05">
@@ -5792,9 +5792,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Please consult the [Custom speech symbol dictionaries section in the developer guide](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#AddonSymbolDictionaries) for more details.</source>
-        <target/>
+        <target>详情请参考[开发者指南中的 Custom speech symbol dictionaries 章节](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#AddonSymbolDictionaries)。</target>
       </segment>
     </unit>
     <unit id="e94138b2-6133-485f-a5c5-a91acadf286b">
@@ -5832,9 +5832,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Deprecations</source>
-        <target/>
+        <target>弃用</target>
       </segment>
     </unit>
     <unit id="6fdf07fe-6f18-4cbe-b65b-77b35941e3b0">
@@ -5901,9 +5901,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 109</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This is a patch release to fix a bug with the automatic add-on update notification.</source>
-        <target/>
+        <target>这是一个补丁版本，用于修复插件自动更新通知的错误。</target>
       </segment>
     </unit>
     <unit id="d40f2b20-2738-47bb-ae15-bee01bea0c56">
@@ -5911,9 +5911,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Bug Fixes</source>
-        <target/>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="9bdfe03a-045a-4fcb-9fee-45dd34404c67">
@@ -5921,9 +5921,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When automatically checking for add-on updates, NVDA no longer freezes on poor connections. (#17036)</source>
-        <target/>
+        <target>自动检查插件更新时，NVDA 不再因连接不佳而冻结。(#17036)</target>
       </segment>
     </unit>
     <unit id="8ea48ff9-0c07-4541-a56d-370f73ab2cad">
@@ -20499,9 +20499,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1877</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Note: this is an Add-on API compatibility breaking release. Add-ons will need to be re-tested and have their manifest updated.</source>
-        <target/>
+        <target>注意：这是一个插件 API 兼容性破坏版本。插件需要重新测试并更新其清单文件。</target>
       </segment>
     </unit>
     <unit id="8135ba67-4f98-4735-afaf-01695bc530c9">
@@ -20569,9 +20569,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1884</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Please refer to readme.md for more details.</source>
-        <target/>
+        <target>请参阅 readme.md 了解更多详细信息。</target>
       </segment>
     </unit>
     <unit id="d4a737ac-8bcb-4a5b-a1fb-04979042a766">
@@ -20579,9 +20579,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1885</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The following Python dependencies have also been upgraded:</source>
-        <target/>
+        <target>以下 Python 依赖项也已更新：</target>
       </segment>
     </unit>
     <unit id="98c22962-e25e-4534-a2f9-101a4d985ae2">
@@ -20589,9 +20589,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1886</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>comtypes updated to 1.1.8.</source>
-        <target/>
+        <target>comtypes 更新到 1.1.8。</target>
       </segment>
     </unit>
     <unit id="6dc8aacf-a12b-42a9-ae37-089bbc6a08e5">
@@ -20599,9 +20599,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1887</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>pySerial updated to 3.5.</source>
-        <target/>
+        <target>pySerial 更新到 3.5。</target>
       </segment>
     </unit>
     <unit id="9f695ea7-4759-43f8-a7e0-0cff1279dc27">
@@ -20609,9 +20609,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1888</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>wxPython updated to 4.1.1.</source>
-        <target/>
+        <target>wxPython更新到 4.1.1。</target>
       </segment>
     </unit>
     <unit id="a7c42149-52e3-4715-8a10-8031da56dbdc">
