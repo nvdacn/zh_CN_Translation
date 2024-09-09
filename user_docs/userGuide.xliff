@@ -18998,9 +18998,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2122</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The NVDA message is immediately dismissed when pressing a routing key on the braille display, but appears again when pressing a corresponding key which triggers the message.</source>
-        <target>当按下盲文显示器上的光标定位键时，NVDA 消息立即被消除，但是当按下触发消息的键时，NVDA 消息再次出现。</target>
+        <target>当按下点显器上的光标定位键时，NVDA 消息立即被消除，但是当按下触发消息的键时，NVDA 消息再次出现。</target>
       </segment>
     </unit>
     <unit id="d05e3c78-fcdc-45e9-ab2a-fd92c8d9d671">
@@ -20284,9 +20284,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2336</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You may consult the documentation for your braille display in the section [Supported Braille Displays](#SupportedBrailleDisplays) to check whether the driver supports automatic detection of displays.</source>
-        <target>您可以在[支持的盲文显示器](#SupportedBrailleDisplays)部分查阅盲文点显器的文档，检查相应驱动是否支持自动检测。</target>
+        <target>您可以在[支持的点显器](#SupportedBrailleDisplays)部分查阅盲文点显器的文档，检查相应驱动是否支持自动检测。</target>
       </segment>
     </unit>
     <unit id="a9d7af37-7ca9-430b-81dd-dd4b27fabc74">
@@ -25871,9 +25871,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3268</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Only turn one of these on if specifically instructed to by an NVDA developer e.g. when debugging why a braille display driver is not functioning correctly.</source>
-        <target>例如 调试盲文显示器驱动程序时，NVDA开发者会让你打开其中一个，请不要同时开启多个。</target>
+        <target>例如 调试点显器驱动程序时，NVDA开发者会让你打开其中一个，请不要同时开启多个。</target>
       </segment>
     </unit>
     <unit id="2f8ec454-6730-4879-b2cf-e12459e7bc7c">
@@ -30381,7 +30381,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>For ALVA displays with recent firmware, it is possible to disable this HID keyboard simulation using an input gesture.</source>
-        <target>对于具有最新固件的 ALVA 显示器，可以使用按键与手势禁用此 HID 键盘模拟。</target>
+        <target>对于具有最新固件的 ALVA 点显器，可以使用按键与手势禁用此 HID 键盘模拟。</target>
       </segment>
     </unit>
     <unit id="12a20731-ef84-4552-95a9-d206529fcb4d">
@@ -31341,7 +31341,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>If connecting via USB to displays which do not use HID, you must first install the USB drivers provided by the manufacturer.</source>
-        <target>如果通过 USB 连接到不使用 HID 的显示器，则必须首先安装制造商提供的 USB 驱动程序。</target>
+        <target>如果通过 USB 连接到不使用 HID 的点显器，则必须首先安装制造商提供的 USB 驱动程序。</target>
       </segment>
     </unit>
     <unit id="0a297358-4f18-42cb-8b64-77f40668e696">
@@ -36520,7 +36520,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>The b.book, b.note, Esys, Esytime and Iris displays from Eurobraille are supported by NVDA.</source>
-        <target>Eurobraille 的 b.book、b.note、Esys、Esytime 和 Iris 显示器均受 NVDA 支持。</target>
+        <target>Eurobraille 的 b.book、b.note、Esys、Esytime 和 Iris 点显器均受 NVDA 支持。</target>
       </segment>
     </unit>
     <unit id="d0703b72-a5d9-4961-85c0-322dc8e4b93b">
@@ -38490,7 +38490,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Because 19200 is the display default baud rate, the driver tries it at first.</source>
-        <target>由于19200是显示器默认波特率，因此驱动程序会首先尝试。</target>
+        <target>由于19200是点显器的默认波特率，因此驱动程序会首先尝试。</target>
       </segment>
     </unit>
     <unit id="f443ced0-7ebc-4cda-ba82-0f02557da6dd">
