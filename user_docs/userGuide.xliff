@@ -30498,7 +30498,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle HID keyboard simulation |t1+spEnter</source>
-        <target>Toggle HID keyboard simulation |t1+spEnter</target>
+        <target>切换 HID 键盘模拟 |t1+spEnter</target>
       </segment>
     </unit>
     <unit id="62c5e8df-86bd-46cb-948a-580f229347eb">
@@ -30542,7 +30542,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Report title |etouch2</source>
-        <target>Report title |etouch2</target>
+        <target>读出标题 |etouch2</target>
       </segment>
     </unit>
     <unit id="adac5b6e-fea2-4692-8187-8423a8a32ac4">
@@ -30553,7 +30553,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Report status bar |etouch4</source>
-        <target>Report status bar |etouch4</target>
+        <target>读出状态栏 |etouch4</target>
       </segment>
     </unit>
     <unit id="7d60e1fb-6d22-40af-8feb-012e6c7d84c2">
@@ -30663,7 +30663,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Report date/time |sp2+sp3</source>
-        <target>Report date/time |sp2+sp3</target>
+        <target>读出日期/时间 |sp2+sp3</target>
       </segment>
     </unit>
     <unit id="cb9cb6bc-40e6-4429-ba8c-e933941cad1f">
@@ -30696,7 +30696,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+b key (focus system tray) |sp3+sp4</source>
-        <target>windows+b key (focus system tray) |sp3+sp4</target>
+        <target>Windows+B 键（聚焦系统托盘） |sp3+sp4</target>
       </segment>
     </unit>
     <unit id="d432c947-252a-40ee-ba7a-5a75695d7119">
@@ -31057,7 +31057,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle the braille cursor |b1</source>
-        <target>Toggle the braille cursor |b1</target>
+        <target>切换盲文光标 |b1</target>
       </segment>
     </unit>
     <unit id="9e285092-1af8-4998-9efe-75e1654023a5">
@@ -34032,9 +34032,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4415</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Pressing and holding the up, down, right and left keys (or EAB) causes the corresponding action to be repeated.</source>
-        <target/>
+        <target>按住上、下、右、左键（或 EAB）会重复相应的操作。</target>
       </segment>
     </unit>
     <unit id="02ffea21-29e9-4033-bcc2-b65237eeec89">
@@ -37234,7 +37234,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle HID Keyboard simulation |`switch1Left+joystick1Down`, `switch1Right+joystick1Down`</source>
-        <target>Toggle HID Keyboard simulation |`switch1Left+joystick1Down`, `switch1Right+joystick1Down`</target>
+        <target>切换 HID 键盘模拟 |`switch1Left+joystick1Down`, `switch1Right+joystick1Down`</target>
       </segment>
     </unit>
     <unit id="82859db7-9db8-4bfa-a85c-40f9a608e3b0">
@@ -38059,7 +38059,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle HID Keyboard simulation |`l1+joystick1Down`, `l8+joystick1Down`</source>
-        <target>Toggle HID Keyboard simulation |`l1+joystick1Down`, `l8+joystick1Down`</target>
+        <target>切换 HID 键盘模拟 |`l1+joystick1Down`, `l8+joystick1Down`</target>
       </segment>
     </unit>
     <unit id="60171e0c-4a4c-4d5b-8459-2f1792ad7a59">
@@ -38836,7 +38836,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle the braille cursor |`f1+cursor1`, `f9+cursor2`</source>
-        <target>Toggle the braille cursor |`f1+cursor1`, `f9+cursor2`</target>
+        <target>切换盲文光标 |`f1+cursor1`, `f9+cursor2`</target>
       </segment>
     </unit>
     <unit id="a9b57ee6-9440-4266-a8b9-13474f79e2ee">
@@ -38858,7 +38858,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Cycle the braille show selection state |`f1+f5`, `f9+f14`</source>
-        <target>Cycle the braille show selection state |`f1+f5`, `f9+f14`</target>
+        <target>`f1+f5`, `f9+f14`</target>
       </segment>
     </unit>
     <unit id="6e9f83fb-f8ea-4cf9-8442-f5de14b6c5bc">
@@ -38880,7 +38880,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Performs the default action on the current navigator object |`f7+f8`</source>
-        <target>Performs the default action on the current navigator object |`f7+f8`</target>
+        <target>对当前导航对象执行默认操作 |`f7+f8`</target>
       </segment>
     </unit>
     <unit id="5d8f2345-5581-4615-a2d4-26377ea84ccf">
@@ -38891,7 +38891,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports date/time |`f9`</source>
-        <target>Reports date/time |`f9`</target>
+        <target>读出日期/时间 |`f9`</target>
       </segment>
     </unit>
     <unit id="ce06cc6c-0631-4794-b682-bfec83682a25">
@@ -38902,7 +38902,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports battery status and time remaining if AC is not plugged in |`f10`</source>
-        <target>Reports battery status and time remaining if AC is not plugged in |`f10`</target>
+        <target>如果没有连接交流电源，读出电池状态和可用时间 |`f10`</target>
       </segment>
     </unit>
     <unit id="1e9cadd6-ceaf-48d9-b189-daa0ee0a3dcb">
@@ -38913,7 +38913,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports title |`f11`</source>
-        <target>Reports title |`f11`</target>
+        <target>读出标题 |`f11`</target>
       </segment>
     </unit>
     <unit id="a804680c-ed6c-4b55-9cb4-cf9369ac4bd5">
@@ -38924,7 +38924,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports status bar |`f12`</source>
-        <target>Reports status bar |`f12`</target>
+        <target>读出状态栏 |`f12`</target>
       </segment>
     </unit>
     <unit id="211c20be-a200-4d83-93fd-88d0737344ee">
