@@ -18998,9 +18998,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2122</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The NVDA message is immediately dismissed when pressing a routing key on the braille display, but appears again when pressing a corresponding key which triggers the message.</source>
-        <target>当按下盲文显示器上的光标定位键时，NVDA 消息立即被消除，但是当按下触发消息的键时，NVDA 消息再次出现。</target>
+        <target>当按下点显器上的光标定位键时，NVDA 消息立即被消除，但是当按下触发消息的键时，NVDA 消息再次出现。</target>
       </segment>
     </unit>
     <unit id="d05e3c78-fcdc-45e9-ab2a-fd92c8d9d671">
@@ -20284,9 +20284,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2336</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You may consult the documentation for your braille display in the section [Supported Braille Displays](#SupportedBrailleDisplays) to check whether the driver supports automatic detection of displays.</source>
-        <target>您可以在[支持的盲文显示器](#SupportedBrailleDisplays)部分查阅盲文点显器的文档，检查相应驱动是否支持自动检测。</target>
+        <target>您可以在[支持的点显器](#SupportedBrailleDisplays)部分查阅盲文点显器的文档，检查相应驱动是否支持自动检测。</target>
       </segment>
     </unit>
     <unit id="a9d7af37-7ca9-430b-81dd-dd4b27fabc74">
@@ -25871,9 +25871,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3268</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Only turn one of these on if specifically instructed to by an NVDA developer e.g. when debugging why a braille display driver is not functioning correctly.</source>
-        <target>例如 调试盲文显示器驱动程序时，NVDA开发者会让你打开其中一个，请不要同时开启多个。</target>
+        <target>例如 调试点显器驱动程序时，NVDA开发者会让你打开其中一个，请不要同时开启多个。</target>
       </segment>
     </unit>
     <unit id="2f8ec454-6730-4879-b2cf-e12459e7bc7c">
@@ -29528,7 +29528,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>SuperBraille</source>
-        <target>SuperBraille</target>
+        <target>超点</target>
       </segment>
     </unit>
     <unit id="c608292d-b0ce-4dbc-8297-07c664754ace">
@@ -29670,18 +29670,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3868</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This might be useful if you want to connect the focus display to NVDA using bluetooth, but still be able to charge it using USB power from your computer.</source>
-        <target/>
+        <target>如果您想将 NVDA 通过蓝牙连接到 focus 点显器，同时使用计算机的 USB 电源为点显器充电，这将非常有用。</target>
       </segment>
     </unit>
     <unit id="2a29d421-5d7a-40f1-bfb0-ff34e02d57fd">
       <notes>
         <note appliesTo="source">line: 3869</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA's automatic braille display detection will also recognize the display on USB or Bluetooth.</source>
-        <target/>
+        <target>NVDA 的点显器自动检测将识别通过 USB 或蓝牙连接的点显器。</target>
       </segment>
     </unit>
     <unit id="c2806374-f131-48e5-8bdf-d78c8f902c5e">
@@ -29765,7 +29765,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |leftGDFButton+rightGDFButton</source>
-        <target>Toggle braille tethered to |leftGDFButton+rightGDFButton</target>
+        <target>切换盲文显示跟随到 |leftGDFButton+rightGDFButton</target>
       </segment>
     </unit>
     <unit id="90f773ae-3fcb-49da-967b-2a8398761a34">
@@ -29853,7 +29853,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab key |brailleSpaceBar+dot1+dot2</source>
-        <target>shift+tab key |brailleSpaceBar+1、2 点</target>
+        <target>Shift+Tab 键 |brailleSpaceBar+1、2 点</target>
       </segment>
     </unit>
     <unit id="7352b575-2866-4e15-91e6-2c83950cbf6d">
@@ -29864,7 +29864,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |brailleSpaceBar+dot4+dot5</source>
-        <target>tab key |brailleSpaceBar+4、5 点</target>
+        <target>Tab 键 |brailleSpaceBar+4、5 点</target>
       </segment>
     </unit>
     <unit id="0763eedd-34a1-4780-a21c-3570a7f4bb1c">
@@ -29897,7 +29897,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+leftArrow key |brailleSpaceBar+dot2</source>
-        <target>control+左光标键 |brailleSpaceBar+2 点</target>
+        <target>Ctrl+左光标键 |brailleSpaceBar+2 点</target>
       </segment>
     </unit>
     <unit id="d3705342-b382-45e9-8e3a-a6d25bc584f6">
@@ -29908,7 +29908,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+rightArrow key |brailleSpaceBar+dot5</source>
-        <target>control+右光标键 |brailleSpaceBar+5 点</target>
+        <target>Ctrl+右光标键 |brailleSpaceBar+5 点</target>
       </segment>
     </unit>
     <unit id="d7c34aa4-22cd-4301-a0c1-999390e9f1ce">
@@ -29919,7 +29919,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>leftArrow |brailleSpaceBar+dot3</source>
-        <target>leftArrow |brailleSpaceBar+3 点</target>
+        <target>左光标键 |brailleSpaceBar+3 点</target>
       </segment>
     </unit>
     <unit id="beeabbb1-87ce-401b-ac31-cc34463228dd">
@@ -29963,7 +29963,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+home key |brailleSpaceBar+dot1+dot2+dot3</source>
-        <target>control+行首键 |brailleSpaceBar+1、2、3 点</target>
+        <target>Ctrl+行首键 |brailleSpaceBar+1、2、3 点</target>
       </segment>
     </unit>
     <unit id="3aeb9a28-18dd-4ae9-8ac5-ffa5855569af">
@@ -29974,7 +29974,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+end key |brailleSpaceBar+dot4+dot5+dot6</source>
-        <target>control+行尾键 |brailleSpaceBar+4、5、6 点</target>
+        <target>Ctrl+行尾键 |brailleSpaceBar+4、5、6 点</target>
       </segment>
     </unit>
     <unit id="2f1cc908-36df-4814-bfb3-8e27426f545a">
@@ -29985,7 +29985,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt key |brailleSpaceBar+dot1+dot3+dot4</source>
-        <target>alt key |brailleSpaceBar+1、3、4 点</target>
+        <target>Alt 键 |brailleSpaceBar+1、3、4 点</target>
       </segment>
     </unit>
     <unit id="cc0c8de6-132d-4d29-a4bb-3d7a83aa1126">
@@ -29996,7 +29996,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+tab key |brailleSpaceBar+dot2+dot3+dot4+dot5</source>
-        <target>alt+tab key |brailleSpaceBar+2、3、4、5 点</target>
+        <target>Alt+Tab 键 |brailleSpaceBar+2、3、4、5 点</target>
       </segment>
     </unit>
     <unit id="113e9968-7087-4623-be33-9d5a69b2f56c">
@@ -30007,7 +30007,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+shift+tab key |brailleSpaceBar+dot1+dot2+dot5+dot6</source>
-        <target>alt+shift+tab key |brailleSpaceBar+1、2、5、6 点</target>
+        <target>Alt+shift+Tab 键 |brailleSpaceBar+1、2、5、6 点</target>
       </segment>
     </unit>
     <unit id="45785ac7-e80b-41cd-8b42-924cd79575a6">
@@ -30018,7 +30018,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+tab key |brailleSpaceBar+dot2+dot3+dot4</source>
-        <target>windows+tab key |brailleSpaceBar+2、3、4 点</target>
+        <target>Windows+Tab 键 |brailleSpaceBar+2、3、4 点</target>
       </segment>
     </unit>
     <unit id="773a1784-0050-4386-bc48-7cb83b166c40">
@@ -30062,7 +30062,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle control key |brailleSpaceBar+dot3+dot8</source>
-        <target>Toggle control key |brailleSpaceBar+3、8 点</target>
+        <target>按下或放开 Ctrl 键 |brailleSpaceBar+3、8 点</target>
       </segment>
     </unit>
     <unit id="8b37faa5-cf57-4465-920e-5a0c2b74649f">
@@ -30073,7 +30073,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle alt key |brailleSpaceBar+dot6+dot8</source>
-        <target>Toggle alt key |brailleSpaceBar+6、8 点</target>
+        <target>按下或放开 Alt 键 |brailleSpaceBar+6、8 点</target>
       </segment>
     </unit>
     <unit id="f35d8faf-6e7d-4f84-9fb5-5a6c6bd70024">
@@ -30095,7 +30095,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle NVDA key |brailleSpaceBar+dot5+dot8</source>
-        <target>Toggle NVDA key |brailleSpaceBar+5、8 点</target>
+        <target>按下或放开 NVDA 键 |brailleSpaceBar+5、8 点</target>
       </segment>
     </unit>
     <unit id="8486939d-4f90-445e-8088-980e3464c9f9">
@@ -30106,7 +30106,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle shift key |brailleSpaceBar+dot7+dot8</source>
-        <target>Toggle shift key |brailleSpaceBar+7、8 点</target>
+        <target>按下或放开 Shift 键 |brailleSpaceBar+7、8 点</target>
       </segment>
     </unit>
     <unit id="7ceb2102-22c8-487a-98ff-de11dfae310e">
@@ -30117,7 +30117,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle control and shift keys |brailleSpaceBar+dot3+dot7+dot8</source>
-        <target>Toggle control and shift keys |brailleSpaceBar+3、7、8 点</target>
+        <target>按下或放开 Ctrl+Shift 键 |brailleSpaceBar+3、7、8 点</target>
       </segment>
     </unit>
     <unit id="c5c8523b-b715-4535-8ab1-08bfaf53396a">
@@ -30128,7 +30128,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle alt and shift keys |brailleSpaceBar+dot6+dot7+dot8</source>
-        <target>Toggle alt and shift keys |brailleSpaceBar+6、7、8 点</target>
+        <target>按下或放开 Alt+Shift 键 |brailleSpaceBar+6、7、8 点</target>
       </segment>
     </unit>
     <unit id="49813b0e-fc27-4ac6-a341-688e90399cdf">
@@ -30139,7 +30139,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle windows and shift keys |brailleSpaceBar+dot4+dot7+dot8</source>
-        <target>Toggle windows and shift keys |brailleSpaceBar+4、7、8 点</target>
+        <target>按下或放开 Windows+Shift 键 |brailleSpaceBar+4、7、8 点</target>
       </segment>
     </unit>
     <unit id="5e9ca566-9d6a-4fe3-a95f-aa4bb4c3dc75">
@@ -30150,7 +30150,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle NVDA and shift keys |brailleSpaceBar+dot5+dot7+dot8</source>
-        <target>Toggle NVDA and shift keys |brailleSpaceBar+5、7、8 点</target>
+        <target>按下或放开 NVDA+Shift 键 |brailleSpaceBar+5、7、8 点</target>
       </segment>
     </unit>
     <unit id="762c7643-1e0b-4a76-b9b9-e3d8f0acebba">
@@ -30161,7 +30161,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle control and alt keys |brailleSpaceBar+dot3+dot6+dot8</source>
-        <target>Toggle control and alt keys |brailleSpaceBar+3、6、8 点</target>
+        <target>按下或放开 Ctrl+Alt 键 |brailleSpaceBar+3、6、8 点</target>
       </segment>
     </unit>
     <unit id="9730f8ac-4d84-4630-99f4-762cfc9787d0">
@@ -30172,7 +30172,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle control, alt, and shift keys |brailleSpaceBar+dot3+dot6+dot7+dot8</source>
-        <target>Toggle control, alt, and shift keys |brailleSpaceBar+3、6、7、8 点</target>
+        <target>按下或放开 Ctrl+Alt+Shift 键 |brailleSpaceBar+3、6、7、8 点</target>
       </segment>
     </unit>
     <unit id="4a1f622c-3c67-49a1-80e0-6dce378bff5e">
@@ -30183,7 +30183,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+d key (minimize all applications) |brailleSpaceBar+dot1+dot2+dot3+dot4+dot5+dot6</source>
-        <target>windows+d key (minimize all applications) |brailleSpaceBar+1、2、3、4、5、6 点</target>
+        <target>Windows+D 键（最小化所有应用程序） |brailleSpaceBar+1、2、3、4、5、6 点</target>
       </segment>
     </unit>
     <unit id="1d9cf77f-71fc-44de-838b-3a286ff98b1e">
@@ -30194,7 +30194,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Report Current Line |brailleSpaceBar+dot1+dot4</source>
-        <target>Report Current Line |brailleSpaceBar+1、4 点</target>
+        <target>读出当前行 |brailleSpaceBar+1、4 点</target>
       </segment>
     </unit>
     <unit id="6d789cee-d040-4fd8-bdf7-1bd2951bc6e9">
@@ -30214,7 +30214,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>For newer Focus models that contain rocker bar keys (focus 40, focus 80 and focus blue):</source>
-        <target>For newer Focus models that contain rocker bar keys (focus 40, focus 80 and focus blue):</target>
+        <target>对于包含 rocker bar 键的较新 Focus 型号（focus 40、focus 80 和 focus blue）：</target>
       </segment>
     </unit>
     <unit id="1bb695e2-9ac0-42ad-a019-61ff54b8f3dc">
@@ -30236,7 +30236,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |leftRockerBarUp, rightRockerBarUp</source>
-        <target>Move braille display to previous line |leftRockerBarUp, rightRockerBarUp</target>
+        <target>移动点显器到上一行 |leftRockerBarUp, rightRockerBarUp</target>
       </segment>
     </unit>
     <unit id="3e43c0d3-5054-4565-b6d4-46e940fe6859">
@@ -30247,7 +30247,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |leftRockerBarDown, rightRockerBarDown</source>
-        <target>Move braille display to next line |leftRockerBarDown, rightRockerBarDown</target>
+        <target>移动点显器到下一行 |leftRockerBarDown, rightRockerBarDown</target>
       </segment>
     </unit>
     <unit id="e079231b-d2f6-4d02-afac-5a05b6156328">
@@ -30267,7 +30267,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Name |Key</source>
-        <target>名称 |钥按键</target>
+        <target>名称 |按键</target>
       </segment>
     </unit>
     <unit id="630bd667-6c6c-47ca-bd16-292985611ee9">
@@ -30381,7 +30381,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>For ALVA displays with recent firmware, it is possible to disable this HID keyboard simulation using an input gesture.</source>
-        <target>对于具有最新固件的 ALVA 显示器，可以使用按键与手势禁用此 HID 键盘模拟。</target>
+        <target>对于具有最新固件的 ALVA 点显器，可以使用按键与手势禁用此 HID 键盘模拟。</target>
       </segment>
     </unit>
     <unit id="12a20731-ef84-4552-95a9-d206529fcb4d">
@@ -30432,7 +30432,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |t2</source>
-        <target>Move braille display to previous line |t2</target>
+        <target>移动点显器到上一行 |t2</target>
       </segment>
     </unit>
     <unit id="914f80a3-2a8e-497b-a5e5-9a14fdb23189">
@@ -30454,7 +30454,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |t4</source>
-        <target>Move braille display to next line |t4</target>
+        <target>移动点显器到下一行 |t4</target>
       </segment>
     </unit>
     <unit id="2d89c226-b3f1-4fa2-9306-a9fe74841f94">
@@ -30498,7 +30498,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle HID keyboard simulation |t1+spEnter</source>
-        <target>Toggle HID keyboard simulation |t1+spEnter</target>
+        <target>切换 HID 键盘模拟 |t1+spEnter</target>
       </segment>
     </unit>
     <unit id="62c5e8df-86bd-46cb-948a-580f229347eb">
@@ -30531,7 +30531,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |t1+t3</source>
-        <target>Toggle braille tethered to |t1+t3</target>
+        <target>切换盲文显示跟随到 |t1+t3</target>
       </segment>
     </unit>
     <unit id="b4b0a862-2326-4dbb-b874-3236adf014bd">
@@ -30542,7 +30542,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Report title |etouch2</source>
-        <target>Report title |etouch2</target>
+        <target>读出标题 |etouch2</target>
       </segment>
     </unit>
     <unit id="adac5b6e-fea2-4692-8187-8423a8a32ac4">
@@ -30553,7 +30553,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Report status bar |etouch4</source>
-        <target>Report status bar |etouch4</target>
+        <target>读出状态栏 |etouch4</target>
       </segment>
     </unit>
     <unit id="7d60e1fb-6d22-40af-8feb-012e6c7d84c2">
@@ -30564,7 +30564,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab key |sp1</source>
-        <target>shift+tab key |sp1</target>
+        <target>Shift+Tab 键 |sp1</target>
       </segment>
     </unit>
     <unit id="f8476c9b-7231-4bcd-b16b-9250b4b610bb">
@@ -30575,7 +30575,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt key |sp2, alt</source>
-        <target>alt key |sp2, alt</target>
+        <target>Alt 键 |sp2, alt</target>
       </segment>
     </unit>
     <unit id="5a17a0dd-fed1-4f98-b9d2-e42638e9c14b">
@@ -30597,7 +30597,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |sp4</source>
-        <target>tab key |sp4</target>
+        <target>Tab 键 |sp4</target>
       </segment>
     </unit>
     <unit id="77ed2e96-f7a6-43d8-8369-d3ba1d84e235">
@@ -30663,7 +30663,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Report date/time |sp2+sp3</source>
-        <target>Report date/time |sp2+sp3</target>
+        <target>读出日期/时间 |sp2+sp3</target>
       </segment>
     </unit>
     <unit id="cb9cb6bc-40e6-4429-ba8c-e933941cad1f">
@@ -30685,7 +30685,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+d key (minimize all applications) |sp1+sp4</source>
-        <target>windows+d key (minimize all applications) |sp1+sp4</target>
+        <target>Windows+D 键（最小化所有应用程序） |sp1+sp4</target>
       </segment>
     </unit>
     <unit id="0d322564-3b6e-4017-bd15-a1446decfbe2">
@@ -30696,7 +30696,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+b key (focus system tray) |sp3+sp4</source>
-        <target>windows+b key (focus system tray) |sp3+sp4</target>
+        <target>Windows+B 键（聚焦系统托盘） |sp3+sp4</target>
       </segment>
     </unit>
     <unit id="d432c947-252a-40ee-ba7a-5a75695d7119">
@@ -30718,7 +30718,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+tab key |sp2+sp4</source>
-        <target>alt+tab key |sp2+sp4</target>
+        <target>Alt+Tab 键 |sp2+sp4</target>
       </segment>
     </unit>
     <unit id="eb1e3f16-4058-4786-8d1b-d93fd3a91960">
@@ -30729,7 +30729,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+home key |t3+spUp</source>
-        <target>control+行首键 |t3+spUp</target>
+        <target>Ctrl+行首键 |t3+spUp</target>
       </segment>
     </unit>
     <unit id="63c4cd76-90b7-4be1-ab26-2fe42ec919f0">
@@ -30740,7 +30740,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+end key |t3+spDown</source>
-        <target>control+行尾键 |t3+spDown</target>
+        <target>Ctrl+行尾键 |t3+spDown</target>
       </segment>
     </unit>
     <unit id="eec3cadd-365f-453e-bc8d-d6054ac65549">
@@ -30773,7 +30773,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control key |control</source>
-        <target>control key |control</target>
+        <target>Ctrl 键 |control</target>
       </segment>
     </unit>
     <unit id="0706d801-3e1d-4468-b762-7c5756d1e70c">
@@ -30809,9 +30809,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4000</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The following displays are not supported out of the box, but can be used via [Handy Tech's universal driver](https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers) and NVDA add-on:</source>
-        <target/>
+        <target>以下点显器不支持开箱即用，但可以通过 [Handy Tech 的通用驱动程序](https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers)及 NVDA 插件来使用：</target>
       </segment>
     </unit>
     <unit id="a4f5d9b1-8723-4b0b-973f-bff09a897783">
@@ -30903,7 +30903,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |b4</source>
-        <target>Move braille display to previous line |b4</target>
+        <target>移动点显器到上一行 |b4</target>
       </segment>
     </unit>
     <unit id="2806cc13-1eb5-46f1-b12c-6beb01ed36cd">
@@ -30914,7 +30914,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |b5</source>
-        <target>Move braille display to next line |b5</target>
+        <target>移动点显器到下一行 |b5</target>
       </segment>
     </unit>
     <unit id="463d3b8c-6a28-4faa-84ec-bd7d9df31606">
@@ -30936,7 +30936,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab key |esc, left triple action key up+down</source>
-        <target>shift+tab key |esc, left triple action key up+down</target>
+        <target>Shift+Tab 键 |esc, left triple action key up+down</target>
       </segment>
     </unit>
     <unit id="307072d2-bd08-480e-b37e-e5620ff4cab2">
@@ -30947,7 +30947,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt key |b2+b4+b5</source>
-        <target>alt key |b2+b4+b5</target>
+        <target>Alt 键 |b2+b4+b5</target>
       </segment>
     </unit>
     <unit id="b920bb2c-ebba-4a79-9c06-fcb661c7ad15">
@@ -30969,7 +30969,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |enter, right triple action key up+down</source>
-        <target>tab key |enter, right triple action key up+down</target>
+        <target>Tab 键 |enter, right triple action key up+down</target>
       </segment>
     </unit>
     <unit id="7ada73de-a529-4d03-a8e4-9d33108bd45d">
@@ -31046,7 +31046,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |b2</source>
-        <target>Toggle braille tethered to |b2</target>
+        <target>切换盲文显示跟随到 |b2</target>
       </segment>
     </unit>
     <unit id="cf67487e-b3c5-4d86-b10c-6262065fdde6">
@@ -31057,7 +31057,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle the braille cursor |b1</source>
-        <target>Toggle the braille cursor |b1</target>
+        <target>切换盲文光标 |b1</target>
       </segment>
     </unit>
     <unit id="9e285092-1af8-4998-9efe-75e1654023a5">
@@ -31166,7 +31166,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Scroll braille display backward |LF</source>
-        <target>向后滚动盲文显示ward |LF</target>
+        <target>向后滚动盲文显示 |LF</target>
       </segment>
     </unit>
     <unit id="2c59b2b1-645b-4995-afdd-9386de1d48f3">
@@ -31188,7 +31188,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |UP</source>
-        <target>Move braille display to previous line |UP</target>
+        <target>移动点显器到上一行 |UP</target>
       </segment>
     </unit>
     <unit id="6c0cba4c-bfd6-47cd-9fab-a4d279e34e18">
@@ -31199,7 +31199,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |DN</source>
-        <target>Move braille display to next line |DN</target>
+        <target>移动点显器到下一行 |DN</target>
       </segment>
     </unit>
     <unit id="20ffce56-0e59-48e9-9aca-3c47d8f52db7">
@@ -31221,7 +31221,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab key |SLF</source>
-        <target>shift+tab key |SLF</target>
+        <target>Shift+Tab 键 |SLF</target>
       </segment>
     </unit>
     <unit id="4f9523c7-c7fa-4db1-9f9a-b4bb692cc01c">
@@ -31232,7 +31232,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |SRG</source>
-        <target>tab key |SRG</target>
+        <target>Tab 键 |SRG</target>
       </segment>
     </unit>
     <unit id="0b87d453-2599-44b3-8bed-e20864273664">
@@ -31243,7 +31243,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+tab key |SDN</source>
-        <target>alt+tab key |SDN</target>
+        <target>Alt+Tab 键 |SDN</target>
       </segment>
     </unit>
     <unit id="bfb173d2-4873-4122-9dfb-711e7e1dfc3e">
@@ -31254,7 +31254,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+shift+tab key |SUP</source>
-        <target>alt+shift+tab key |SUP</target>
+        <target>Alt+Shift+Tab 键 |SUP</target>
       </segment>
     </unit>
     <unit id="32f8cdbd-cf57-4263-8432-7a196144bae0">
@@ -31272,9 +31272,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4062</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Several [Baum](https://www.visiobraille.de/index.php?article_id=1&amp;clang=2), [HumanWare](https://www.humanware.com/), [APH](https://www.aph.org/) and [Orbit](https://www.orbitresearch.com/) displays are supported when connected via USB, bluetooth or serial.</source>
-        <target>Several [Baum](https://www.visiobraille.de/index.php?article_id=1&amp;amp;clang=2), [HumanWare](https://www.humanware.com/), [APH](https://www.aph.org/) and [Orbit](https://www.orbitresearch.com/) displays are supported when connected via USB, bluetooth or serial.</target>
+        <target>通过 USB、蓝牙或串行连接时，支持多种 [Baum](https://www.visiobraille.de/index.php?article_id=1&amp;clang=2)、[HumanWare](https://www.humanware.com/)、[APH](https://www.aph.org/) 和 [Orbit](https://www.orbitresearch.com/) 点显器。</target>
       </segment>
     </unit>
     <unit id="4c71caec-edc7-478a-88c0-76d5b8f27344">
@@ -31332,7 +31332,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Some other displays manufactured by Baum may also work, though this has not been tested.</source>
-        <target>Baum 制造的其他一些点显器也可使用，但尚未经过测试。</target>
+        <target>Baum 制造的其他点显器也可使用，但尚未经过测试。</target>
       </segment>
     </unit>
     <unit id="05550929-aa3c-415d-91f5-6504e55c881a">
@@ -31341,7 +31341,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>If connecting via USB to displays which do not use HID, you must first install the USB drivers provided by the manufacturer.</source>
-        <target>如果通过 USB 连接到不使用 HID 的显示器，则必须首先安装制造商提供的 USB 驱动程序。</target>
+        <target>如果通过 USB 连接到不使用 HID 的点显器，则必须首先安装制造商提供的 USB 驱动程序。</target>
       </segment>
     </unit>
     <unit id="0a297358-4f18-42cb-8b64-77f40668e696">
@@ -31439,7 +31439,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |`d1`</source>
-        <target>Move braille display to previous line |`d1`</target>
+        <target>移动点显器到上一行 |`d1`</target>
       </segment>
     </unit>
     <unit id="a29209ab-efdd-469c-817d-7843a6cc0a9e">
@@ -31450,7 +31450,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |`d3`</source>
-        <target>Move braille display to next line |`d3`</target>
+        <target>移动点显器到下一行 |`d3`</target>
       </segment>
     </unit>
     <unit id="671de25b-c80a-4df2-880d-5d4efc759d57">
@@ -31472,7 +31472,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`shift+tab` key |`space+dot1+dot3`</source>
-        <target>`shift+tab` key |`space+1、3 点`</target>
+        <target>`Shift+Tab` 键 |`space+1、3 点`</target>
       </segment>
     </unit>
     <unit id="c9ef3a10-4d46-48e9-a5b2-a12cb1c07efa">
@@ -31483,7 +31483,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`tab` key |`space+dot4+dot6`</source>
-        <target>`tab` key |`space+4、6 点`</target>
+        <target>`Tab` 键 |`space+4、6 点`</target>
       </segment>
     </unit>
     <unit id="a927cb6e-fb76-47d5-8466-903428784de7">
@@ -31494,7 +31494,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt` key |`space+dot1+dot3+dot4` (`space+m`)</source>
-        <target>`alt` key |`space+1、3、4 点` (`space+m`)</target>
+        <target>`Alt` 键 |`space+1、3、4 点` (`space+m`)</target>
       </segment>
     </unit>
     <unit id="8ea6bc79-60cb-46a9-8632-bf77eb98a423">
@@ -31505,7 +31505,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`escape` key |`space+dot1+dot5` (`space+e`)</source>
-        <target>`escape` key |`space+1、5 点` (`space+e`)</target>
+        <target>`ESC` 键 |`space+1、5 点` (`space+e`)</target>
       </segment>
     </unit>
     <unit id="b113b2de-e169-46bd-8877-21440003749c">
@@ -31516,7 +31516,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`windows` key |`space+dot3+dot4`</source>
-        <target>`windows` key |`space+3、4 点`</target>
+        <target>`Windows` key |`space+3、4 点`</target>
       </segment>
     </unit>
     <unit id="f0cf0064-e219-4124-ba79-9943ed9a4335">
@@ -31527,7 +31527,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+tab` key |`space+dot2+dot3+dot4+dot5` (`space+t`)</source>
-        <target>`alt+tab` key |`space+2、3、4、5 点` (`space+t`)</target>
+        <target>`Alt+Tab` 键 |`space+2、3、4、5 点` (`space+t`)</target>
       </segment>
     </unit>
     <unit id="ad19f3a1-5f22-4fc9-9c7f-421ac3ebe079">
@@ -31549,7 +31549,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`windows+d` key (minimize all applications) |`space+dot1+dot4+dot5` (`space+d`)</source>
-        <target>`windows+d` key (minimize all applications) |`space+1、4、5 点` (`space+d`)</target>
+        <target>`Windows+d` key (minimize all applications) |`space+1、4、5 点` (`space+d`)</target>
       </segment>
     </unit>
     <unit id="0abbf0f7-a115-4552-ab5b-fd46100deaeb">
@@ -31735,7 +31735,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |B2</source>
-        <target>Move braille display to previous line |B2</target>
+        <target>移动点显器到上一行 |B2</target>
       </segment>
     </unit>
     <unit id="9c66c31c-484f-47bd-92ac-aefbb71d9caf">
@@ -31746,7 +31746,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |B5</source>
-        <target>Move braille display to next line |B5</target>
+        <target>移动点显器到下一行 |B5</target>
       </segment>
     </unit>
     <unit id="4159bc3a-4466-4577-a467-07fde6e45142">
@@ -31768,7 +31768,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |K2</source>
-        <target>Toggle braille tethered to |K2</target>
+        <target>切换盲文显示跟随到 |K2</target>
       </segment>
     </unit>
     <unit id="3d6388c3-51cd-4df0-9a59-ecfbe4f8562d">
@@ -31879,7 +31879,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |B2</source>
-        <target>Move braille display to previous line |B2</target>
+        <target>移动点显器到上一行 |B2</target>
       </segment>
     </unit>
     <unit id="a04efb1e-8060-459a-adf1-450ac5679c6f">
@@ -31890,7 +31890,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |B5</source>
-        <target>Move braille display to next line |B5</target>
+        <target>移动点显器到下一行 |B5</target>
       </segment>
     </unit>
     <unit id="6eaf040c-88bf-40fe-ade9-a91e7fabb43a">
@@ -31912,7 +31912,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |K2</source>
-        <target>Toggle braille tethered to |K2</target>
+        <target>切换盲文显示跟随到 |K2</target>
       </segment>
     </unit>
     <unit id="6c2a1460-11ec-4a4b-b183-628334726288">
@@ -31943,7 +31943,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>The Brailliant BI and B series of displays  from [HumanWare](https://www.humanware.com/), including the BI 14, BI 32, BI 20X, BI 40, BI 40X and B 80, are supported when connected via USB or bluetooth.</source>
-        <target>通过以下方式连接时，支持 [HumanWare](https://www.humanware.com/) 的 Brailliant BI 和 B 系列显示器，包括 BI 14、BI 32、BI 20X、BI 40、BI 40X 和 B 80 USB 或蓝牙。</target>
+        <target>通过 USB 或蓝牙连接时，支持 [HumanWare](https://www.humanware.com/) 的 Brailliant BI 和 B 系列点显器，包括 BI 14、BI 32、BI 20X、BI 40、BI 40X 和 B 80。</target>
       </segment>
     </unit>
     <unit id="9434d525-52da-43e2-a715-7fa95cbf7eeb">
@@ -32093,7 +32093,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |up</source>
-        <target>Move braille display to previous line |up</target>
+        <target>移动点显器到上一行 |up</target>
       </segment>
     </unit>
     <unit id="e5c6b1eb-1376-4a22-bfc4-56244487a3b4">
@@ -32104,7 +32104,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |down</source>
-        <target>Move braille display to next line |down</target>
+        <target>移动点显器到下一行 |down</target>
       </segment>
     </unit>
     <unit id="f55f4c5d-8005-489c-b94c-39020e527a95">
@@ -32126,7 +32126,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |up+down</source>
-        <target>Toggle braille tethered to |up+down</target>
+        <target>切换盲文显示跟随到 |up+down</target>
       </segment>
     </unit>
     <unit id="8e9e35ad-62fd-4681-9ed8-f5f1892aa424">
@@ -32181,7 +32181,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab key |space+dot1+dot3</source>
-        <target>shift+tab key |space+1、3 点</target>
+        <target>Shift+Tab 键 |space+1、3 点</target>
       </segment>
     </unit>
     <unit id="29966671-efbf-40da-854d-1888abf0447f">
@@ -32192,7 +32192,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |space+dot4+dot6</source>
-        <target>tab key |space+4、6 点</target>
+        <target>Tab 键 |space+4、6 点</target>
       </segment>
     </unit>
     <unit id="61b9339f-6bf1-4564-b2c1-499fad724f14">
@@ -32203,7 +32203,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt key |space+dot1+dot3+dot4 (space+m)</source>
-        <target>alt key |space+1、3、4 点 (space+m)</target>
+        <target>Alt 键 |space+1、3、4 点 (space+m)</target>
       </segment>
     </unit>
     <unit id="5eea8f79-879a-4081-b57f-44229bc7c78c">
@@ -32247,7 +32247,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+tab key |space+dot2+dot3+dot4+dot5 (space+t)</source>
-        <target>alt+tab key |space+2、3、4、5 点 (space+t)</target>
+        <target>Alt+Tab 键 |space+2、3、4、5 点 (space+t)</target>
       </segment>
     </unit>
     <unit id="43221156-71f1-4b25-aea8-4ab90aa29991">
@@ -32269,7 +32269,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+d key (minimize all applications) |space+dot1+dot4+dot5 (space+d)</source>
-        <target>windows+d key (minimize all applications) |space+1、4、5 点 (space+d)</target>
+        <target>Windows+D 键（最小化所有应用程序） |space+1、4、5 点 (space+d)</target>
       </segment>
     </unit>
     <unit id="98ede96d-a790-4897-a6ce-553eb5237121">
@@ -32324,7 +32324,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+d key (minimize all applications) |c1+c4+c5 (command d)</source>
-        <target>windows+d key (minimize all applications) |c1+c4+c5 (command d)</target>
+        <target>Windows+D 键（最小化所有应用程序） |c1+c4+c5 (command d)</target>
       </segment>
     </unit>
     <unit id="38756c0d-7336-4487-b1d6-fc56e09e3eda">
@@ -32368,7 +32368,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>up arrow key |joystick up</source>
-        <target>up arrow key |joystick up</target>
+        <target>上光标键 |joystick up</target>
       </segment>
     </unit>
     <unit id="fbcd2c08-f193-4a90-bb7d-b3d1c5b5a9be">
@@ -32379,7 +32379,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>down arrow key |joystick down</source>
-        <target>down arrow key |joystick down</target>
+        <target>下光标键 |joystick down</target>
       </segment>
     </unit>
     <unit id="d5770296-923c-474a-b5c0-9be6b05d170a">
@@ -32390,7 +32390,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>left arrow key |joystick left</source>
-        <target>left arrow key |joystick left</target>
+        <target>左光标键 |joystick left</target>
       </segment>
     </unit>
     <unit id="e64d259a-2c92-4a6a-bb37-58f7e5a1bd92">
@@ -32401,7 +32401,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>right arrow key |joystick right</source>
-        <target>right arrow key |joystick right</target>
+        <target>右光标键 |joystick right</target>
       </segment>
     </unit>
     <unit id="dfe52cd1-58e0-48cc-b708-a3b03d9778f0">
@@ -32514,7 +32514,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |leftSideScrollUp+rightSideScrollUp</source>
-        <target>Move braille display to previous line |leftSideScrollUp+rightSideScrollUp</target>
+        <target>移动点显器到上一行 |leftSideScrollUp+rightSideScrollUp</target>
       </segment>
     </unit>
     <unit id="a9a911ed-4508-4bff-8312-5d8fe543dd00">
@@ -32525,7 +32525,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |leftSideScrollDown+rightSideScrollDown</source>
-        <target>Move braille display to next line |leftSideScrollDown+rightSideScrollDown</target>
+        <target>移动点显器到下一行 |leftSideScrollDown+rightSideScrollDown</target>
       </segment>
     </unit>
     <unit id="c8e2c895-ba33-4e6c-9d9d-c669e80a417a">
@@ -32591,7 +32591,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control key |smartbeetle:f1, brailleedge:f3</source>
-        <target>control key |smartbeetle:f1, brailleedge:f3</target>
+        <target>Ctrl 键 |smartbeetle:f1, brailleedge:f3</target>
       </segment>
     </unit>
     <unit id="4556ba8f-7de7-481a-a9fe-8d1c741e8fb0">
@@ -32613,7 +32613,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt key |dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4</source>
-        <target>alt key |1、3、4 点+space, f2, smartbeetle:f3, brailleedge:f4</target>
+        <target>Alt 键 |1、3、4 点+space, f2, smartbeetle:f3, brailleedge:f4</target>
       </segment>
     </unit>
     <unit id="69d5d5ba-99df-4b80-b2c7-36d7b7956b2b">
@@ -32624,7 +32624,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift key |f5</source>
-        <target>shift key |f5</target>
+        <target>Shift key |f5</target>
       </segment>
     </unit>
     <unit id="30cc8fec-02da-49a5-aa4d-4a885432fa7d">
@@ -32646,7 +32646,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>applications key |dot1+dot2+dot3+dot4+space, f8</source>
-        <target>applications key |1、2、3、4点 +space, f8</target>
+        <target>Application 键 |1、2、3、4点 +space, f8</target>
       </segment>
     </unit>
     <unit id="af59e0ce-4235-43ff-becc-d210b1f7bac4">
@@ -32668,7 +32668,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |dot4+dot5+space, f3, brailleedge:f2</source>
-        <target>tab key |4、5 点+space, f3, brailleedge:f2</target>
+        <target>Tab 键 |4、5 点+space, f3, brailleedge:f2</target>
       </segment>
     </unit>
     <unit id="cd0cb495-9169-4716-b7d7-cf1dae0d16cb">
@@ -32679,7 +32679,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+alt+tab key |f2+f3+f1</source>
-        <target>shift+alt+tab key |f2+f3+f1</target>
+        <target>Shift+Alt+Tab 键 |f2+f3+f1</target>
       </segment>
     </unit>
     <unit id="405a433d-4e49-4144-821c-6b35e0075514">
@@ -32690,7 +32690,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+tab key |f2+f3</source>
-        <target>alt+tab key |f2+f3</target>
+        <target>Alt+Tab 键 |f2+f3</target>
       </segment>
     </unit>
     <unit id="28b38077-2a66-4247-a1f0-fc58834ba1a4">
@@ -32701,7 +32701,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab key |dot1+dot2+space</source>
-        <target>shift+tab key |1、2 点+space</target>
+        <target>Shift+Tab 键 |1、2 点+space</target>
       </segment>
     </unit>
     <unit id="5418b8c4-1859-4b9a-909d-67a97371ca46">
@@ -32723,7 +32723,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+end key |dot4+dot5+dot6+space</source>
-        <target>control+行尾键 |4、5、6 点+space</target>
+        <target>Ctrl+行尾键 |4、5、6 点+space</target>
       </segment>
     </unit>
     <unit id="ccca3103-9f5d-441f-ad21-5782007cea63">
@@ -32745,7 +32745,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+home key |dot1+dot2+dot3+space</source>
-        <target>control+行首键 |1、2、3 点+space</target>
+        <target>Ctrl+行首键 |1、2、3 点+space</target>
       </segment>
     </unit>
     <unit id="54478951-6f2c-4de0-96a2-881354a38192">
@@ -32756,7 +32756,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+f4 key |dot1+dot3+dot5+dot6+space</source>
-        <target>alt+f4 key |1、3、5、6 点+space</target>
+        <target>Alt+f4 key |1、3、5、6 点+space</target>
       </segment>
     </unit>
     <unit id="9abf65f6-271b-4fb6-897b-5e1eff59d21f">
@@ -32778,7 +32778,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+shift+leftArrow key |dot2+dot8+space+f1</source>
-        <target>control+shift+左光标键 |2、8 点+space+f1</target>
+        <target>Ctrl+Shift+左光标键 |2、8 点+space+f1</target>
       </segment>
     </unit>
     <unit id="138ae3d4-78ba-4799-acac-a8c654f3121d">
@@ -32789,7 +32789,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+leftArrow key |dot2+space</source>
-        <target>control+左光标键 |2 点+space</target>
+        <target>Ctrl+左光标键 |2 点+space</target>
       </segment>
     </unit>
     <unit id="cab2dd3d-5ab2-4338-9adc-127030181213">
@@ -32800,7 +32800,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+alt+leftArrow key |dot2+dot7+f1</source>
-        <target>shift+alt+左光标键 |2、7 点+f1</target>
+        <target>Shift+Alt+左光标键 |2、7 点+f1</target>
       </segment>
     </unit>
     <unit id="2ade3e59-f767-4e4e-8eeb-3b726173df0b">
@@ -32811,7 +32811,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+leftArrow` |`dot2+dot7+space`</source>
-        <target>`alt+leftArrow` |`2、7 点+space`</target>
+        <target>`Alt+leftArrow` |`2、7 点+space`</target>
       </segment>
     </unit>
     <unit id="ceae2a3d-4ff6-4470-a60e-a42002b4c930">
@@ -32833,7 +32833,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+shift+rightArrow key |dot5+dot8+space+f1</source>
-        <target>control+shift+右光标键 |5、8 点+space+f1</target>
+        <target>Ctrl+Shift+右光标键 |5、8 点+space+f1</target>
       </segment>
     </unit>
     <unit id="d0cb88d7-d670-4d39-8438-395f929f98d6">
@@ -32844,7 +32844,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+rightArrow key |dot5+space</source>
-        <target>control+右光标键 |5 点+space</target>
+        <target>Ctrl+右光标键 |5 点+space</target>
       </segment>
     </unit>
     <unit id="865ab803-23cd-4495-bc35-1946376a124a">
@@ -32855,7 +32855,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+alt+rightArrow key |dot5+dot7+f1</source>
-        <target>shift+alt+右光标键 |5、7 点+f1</target>
+        <target>Shift+Alt+右光标键 |5、7 点+f1</target>
       </segment>
     </unit>
     <unit id="230a3db3-43db-4373-9e68-e6c0c7a6f727">
@@ -32866,7 +32866,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+rightArrow` |`dot5+dot7+space`</source>
-        <target>`alt+rightArrow` |`5、7 点+space`</target>
+        <target>`Alt+rightArrow` |`5、7 点+space`</target>
       </segment>
     </unit>
     <unit id="466c5152-9f57-4636-bdea-6b867e95eec4">
@@ -32888,7 +32888,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+pageUp key |dot1+dot2+dot6+dot8+space</source>
-        <target>control+pageUp key |1、2、6、8 点+space</target>
+        <target>Ctrl+pageUp key |1、2、6、8 点+space</target>
       </segment>
     </unit>
     <unit id="008d26ef-970c-452e-a259-902928ec10aa">
@@ -32910,7 +32910,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+shift+upArrow key |dot2+dot3+dot8+space+f1</source>
-        <target>control+shift+上光标键 |2、3、8 点+space+f1</target>
+        <target>Ctrl+Shift+上光标键 |2、3、8 点+space+f1</target>
       </segment>
     </unit>
     <unit id="424e4fd5-9c0b-4311-8786-4622c61ae0d2">
@@ -32921,7 +32921,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+upArrow key |dot2+dot3+space</source>
-        <target>control+上光标键 |2、3 点+space</target>
+        <target>Ctrl+上光标键 |2、3 点+space</target>
       </segment>
     </unit>
     <unit id="2d62effb-c4be-4387-959e-eb0064afea21">
@@ -32932,7 +32932,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+alt+upArrow key |dot2+dot3+dot7+f1</source>
-        <target>shift+alt+上光标键 |2、3、7 点+f1</target>
+        <target>Shift+Alt+上光标键 |2、3、7 点+f1</target>
       </segment>
     </unit>
     <unit id="a44ff7a6-9010-4440-9b0f-0c548c8bfdc2">
@@ -32943,7 +32943,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+upArrow` |`dot2+dot3+dot7+space`</source>
-        <target>`alt+upArrow` |`2、3、7 点+space`</target>
+        <target>`Alt+upArrow` |`2、3、7 点+space`</target>
       </segment>
     </unit>
     <unit id="97f9ecf5-e0b2-4f28-8a34-0ece5b6e4553">
@@ -32954,7 +32954,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+upArrow key |leftSideScrollDown+space</source>
-        <target>shift+上光标键 |leftSideScrollDown+space</target>
+        <target>Shift+上光标键 |leftSideScrollDown+space</target>
       </segment>
     </unit>
     <unit id="3efdff52-d6fe-4656-9722-ae53e1b52ffc">
@@ -32976,7 +32976,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+pageDown key |dot3+dot4+dot5+dot8+space</source>
-        <target>control+pageDown key |3、4、5、8 点+space</target>
+        <target>Ctrl+pageDown key |3、4、5、8 点+space</target>
       </segment>
     </unit>
     <unit id="43b2a8eb-2e9e-4b04-b5b1-f7cac4356a1e">
@@ -32998,7 +32998,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+shift+downArrow key |dot5+dot6+dot8+space+f1</source>
-        <target>control+shift+下光标键 |5、6、8 点+space+f1</target>
+        <target>Ctrl+Shift+下光标键 |5、6、8 点+space+f1</target>
       </segment>
     </unit>
     <unit id="98bef7c2-900a-4450-80a4-4d72aee3f00b">
@@ -33009,7 +33009,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+downArrow key |dot5+dot6+space</source>
-        <target>control+下光标键 |5、6 点+space</target>
+        <target>Ctrl+下光标键 |5、6 点+space</target>
       </segment>
     </unit>
     <unit id="1225d5cd-060b-405b-abcd-fbae33f88e9a">
@@ -33020,7 +33020,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+alt+downArrow key |dot5+dot6+dot7+f1</source>
-        <target>shift+alt+下光标键 |5、6、7 点+f1</target>
+        <target>Shift+Alt+下光标键 |5、6、7 点+f1</target>
       </segment>
     </unit>
     <unit id="f0c8c695-ce5e-45fc-97ef-9d6b0a3e43e3">
@@ -33031,7 +33031,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+downArrow` |`dot5+dot6+dot7+space`</source>
-        <target>`alt+downArrow` |`5、6、7 点+space`</target>
+        <target>`Alt+downArrow` |`5、6、7 点+space`</target>
       </segment>
     </unit>
     <unit id="e64a4593-836c-43ed-b33e-c0f1635c0f19">
@@ -33042,7 +33042,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+downArrow key |space+rightSideScrollDown</source>
-        <target>shift+下光标键 |space+rightSideScrollDown</target>
+        <target>Shift+下光标键 |space+rightSideScrollDown</target>
       </segment>
     </unit>
     <unit id="c37496fd-e46d-4add-bc30-39073c5f073a">
@@ -33108,7 +33108,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+b key |dot1+dot2+f1</source>
-        <target>windows+b key |1、2 点+f1</target>
+        <target>Windows+b key |1、2 点+f1</target>
       </segment>
     </unit>
     <unit id="cb406699-5ec2-4038-8c37-4ee4401cec4c">
@@ -33119,7 +33119,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+d key |dot1+dot4+dot5+f1</source>
-        <target>windows+d key |1、4、5 点+f1</target>
+        <target>Windows+d key |1、4、5 点+f1</target>
       </segment>
     </unit>
     <unit id="8e44aa4e-3a30-4001-b8a5-5fff63f741fd">
@@ -33130,7 +33130,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+insert key |smartbeetle:f1+rightSideScroll</source>
-        <target>control+insert key |smartbeetle:f1+rightSideScroll</target>
+        <target>Ctrl+insert key |smartbeetle:f1+rightSideScroll</target>
       </segment>
     </unit>
     <unit id="b3884475-4487-4ab4-8377-bfefe43d9fe5">
@@ -33141,7 +33141,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+insert key |smartbeetle:f3+rightSideScroll</source>
-        <target>alt+insert key |smartbeetle:f3+rightSideScroll</target>
+        <target>Alt+insert key |smartbeetle:f3+rightSideScroll</target>
       </segment>
     </unit>
     <unit id="69d40864-1eb6-411c-910e-60216aff5a93">
@@ -33159,9 +33159,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4307</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The following Seika Braille displays from Nippon Telesoft are supported in two groups with different functionality:</source>
-        <target/>
+        <target>NVDA 支持 Nippon Telesoft 的 Seika 点显器，根据功能不同，分为以下两组：</target>
       </segment>
     </unit>
     <unit id="a93f985e-6ec5-4ef5-8f9a-8ca5c33ad0a1">
@@ -33302,7 +33302,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |b3</source>
-        <target>Move braille display to previous line |b3</target>
+        <target>移动点显器到上一行 |b3</target>
       </segment>
     </unit>
     <unit id="39c8cf58-1967-4a5b-bd97-7294e25a1103">
@@ -33313,7 +33313,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |b4</source>
-        <target>Move braille display to next line |b4</target>
+        <target>移动点显器到下一行 |b4</target>
       </segment>
     </unit>
     <unit id="60628f75-7691-4cae-afae-546c3726b0d9">
@@ -33324,7 +33324,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |b5</source>
-        <target>Toggle braille tethered to |b5</target>
+        <target>切换盲文显示跟随到 |b5</target>
       </segment>
     </unit>
     <unit id="260ff592-4d9c-4433-aa23-ea952de1193e">
@@ -33357,7 +33357,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab |b2</source>
-        <target>shift+tab |b2</target>
+        <target>Shift+tab |b2</target>
       </segment>
     </unit>
     <unit id="d0c17a54-342e-4612-95c8-7bae5a5e734b">
@@ -33368,7 +33368,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+tab |b1+b2</source>
-        <target>alt+tab |b1+b2</target>
+        <target>Alt+tab |b1+b2</target>
       </segment>
     </unit>
     <unit id="fe43d3ac-3ec6-4099-9d00-ff505e3d24b6">
@@ -33515,7 +33515,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |LJ up</source>
-        <target>Move braille display to previous line |LJ up</target>
+        <target>移动点显器到上一行 |LJ up</target>
       </segment>
     </unit>
     <unit id="b114feda-b66a-44f8-8ffe-846ef8f419dd">
@@ -33526,7 +33526,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |LJ down</source>
-        <target>Move braille display to next line |LJ down</target>
+        <target>移动点显器到下一行 |LJ down</target>
       </segment>
     </unit>
     <unit id="8e1a9541-ee8b-4acb-b9a5-6b18dfa46136">
@@ -33537,7 +33537,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |LJ center</source>
-        <target>Toggle braille tethered to |LJ center</target>
+        <target>切换盲文显示跟随到 |LJ center</target>
       </segment>
     </unit>
     <unit id="a57e4b72-bb5c-4352-b802-5b35bb4b642c">
@@ -33559,7 +33559,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab |LJ left</source>
-        <target>shift+tab |LJ left</target>
+        <target>Shift+tab |LJ left</target>
       </segment>
     </unit>
     <unit id="80711f85-a66d-4ec1-b075-767b0af0b22c">
@@ -33625,7 +33625,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+upArrow key |Space+RJ up, Backspace+RJ up</source>
-        <target>shift+上光标键 |Space+RJ up, Backspace+RJ up</target>
+        <target>Shift+上光标键 |Space+RJ up, Backspace+RJ up</target>
       </segment>
     </unit>
     <unit id="ae153145-8281-4a05-98e2-f4df43ae5192">
@@ -33636,7 +33636,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+downArrow key |Space+RJ down, Backspace+RJ down</source>
-        <target>shift+下光标键 |Space+RJ down, Backspace+RJ down</target>
+        <target>Shift+下光标键 |Space+RJ down, Backspace+RJ down</target>
       </segment>
     </unit>
     <unit id="37356dfe-4996-4599-82bb-4cbbaa7e9288">
@@ -33647,7 +33647,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+leftArrow key |Space+RJ left, Backspace+RJ left</source>
-        <target>shift+左光标键 |Space+RJ left, Backspace+RJ left</target>
+        <target>Shift+左光标键 |Space+RJ left, Backspace+RJ left</target>
       </segment>
     </unit>
     <unit id="86ebb823-ff4f-4538-9a94-6e9d1f48b69c">
@@ -33658,7 +33658,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+rightArrow key |Space+RJ right, Backspace+RJ right</source>
-        <target>shift+右光标键 |Space+RJ right, Backspace+RJ right</target>
+        <target>Shift+右光标键 |Space+RJ right, Backspace+RJ right</target>
       </segment>
     </unit>
     <unit id="509e8383-69f1-451d-a0e3-e7a7347697b3">
@@ -33768,7 +33768,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+home key |backspace+LJ up</source>
-        <target>control+行首键 |backspace+LJ up</target>
+        <target>Ctrl+行首键 |backspace+LJ up</target>
       </segment>
     </unit>
     <unit id="0157af03-ae26-4b30-aa61-7021329f0baf">
@@ -33779,7 +33779,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+end key |backspace+LJ down</source>
-        <target>control+行尾键 |backspace+LJ down</target>
+        <target>Ctrl+行尾键 |backspace+LJ down</target>
       </segment>
     </unit>
     <unit id="f0f325c6-2b40-4229-9ba7-f9871c40f691">
@@ -34032,9 +34032,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4415</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Pressing and holding the up, down, right and left keys (or EAB) causes the corresponding action to be repeated.</source>
-        <target/>
+        <target>按住上、下、右、左键（或 EAB）会重复相应的操作。</target>
       </segment>
     </unit>
     <unit id="02ffea21-29e9-4033-bcc2-b65237eeec89">
@@ -34239,7 +34239,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |up</source>
-        <target>Move braille display to previous line |up</target>
+        <target>移动点显器到上一行 |up</target>
       </segment>
     </unit>
     <unit id="73333590-1bd2-44f1-82d7-d0139bdc937d">
@@ -34250,7 +34250,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |dn</source>
-        <target>Move braille display to next line |dn</target>
+        <target>移动点显器到下一行 |dn</target>
       </segment>
     </unit>
     <unit id="0031bcf8-362f-4cd0-9d9d-0f27b2bd6dd9">
@@ -34294,7 +34294,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |r2</source>
-        <target>Toggle braille tethered to |r2</target>
+        <target>切换盲文显示跟随到 |r2</target>
       </segment>
     </unit>
     <unit id="2ccd6051-f8e6-4e0e-8d34-104a3c9b671f">
@@ -34436,18 +34436,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4465</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Currently, the right thumb key is not in use.</source>
-        <target/>
+        <target>目前，right thumb key 尚未使用。</target>
       </segment>
     </unit>
     <unit id="57aeca3e-1aad-4179-aa42-4b613369c58f">
       <notes>
         <note appliesTo="source">line: 4466</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The inner keys are both mapped to space.</source>
-        <target/>
+        <target>内测的两个按键都映射到空格键。</target>
       </segment>
     </unit>
     <unit id="044252aa-6608-4a9e-8051-476af4f92a8f">
@@ -34524,7 +34524,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control key |lt+dot2</source>
-        <target>control key |lt+2 点</target>
+        <target>Ctrl 键 |lt+2 点</target>
       </segment>
     </unit>
     <unit id="f01b7e65-89eb-40e3-a1ee-c217d41f760b">
@@ -34535,7 +34535,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt key |lt+dot3</source>
-        <target>alt key |lt+3 点</target>
+        <target>Alt 键 |lt+3 点</target>
       </segment>
     </unit>
     <unit id="0df1fc89-0f0a-4856-b7f5-5ac130c8eb7e">
@@ -34546,7 +34546,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+escape key |space with dot 1 2 3 4 5 6</source>
-        <target>control+ESC 键 |space with dot 1 2 3 4 5 6</target>
+        <target>Ctrl+ESC 键 |space with dot 1 2 3 4 5 6</target>
       </segment>
     </unit>
     <unit id="bdb3eb0e-7588-45ac-974c-e8948d028729">
@@ -34557,7 +34557,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |space with dot 3 7</source>
-        <target>tab key |space with dot 3 7</target>
+        <target>Tab 键 |space with dot 3 7</target>
       </segment>
     </unit>
     <unit id="da496fdf-d531-4783-aca2-ff0288687bcc">
@@ -34606,7 +34606,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Note that these displays can only be connected via a serial port.</source>
-        <target>请注意，这些显示器只能通过串行端口连接。</target>
+        <target>请注意，这些点显器只能通过串行端口连接。</target>
       </segment>
     </unit>
     <unit id="665a32a0-1150-4682-b6a3-ec3ce14ed46b">
@@ -34874,7 +34874,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |up</source>
-        <target>Move braille display to previous line |up</target>
+        <target>移动点显器到上一行 |up</target>
       </segment>
     </unit>
     <unit id="dac4446d-9fd9-4fbe-845e-e9900bee4a0e">
@@ -34885,7 +34885,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |dn</source>
-        <target>Move braille display to next line |dn</target>
+        <target>移动点显器到下一行 |dn</target>
       </segment>
     </unit>
     <unit id="da50d9e0-c087-43ce-8a1b-eacc31e86821">
@@ -35070,7 +35070,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |up</source>
-        <target>Move braille display to previous line |up</target>
+        <target>移动点显器到上一行 |up</target>
       </segment>
     </unit>
     <unit id="835593ea-a28f-4309-9b99-df4055d9249a">
@@ -35081,7 +35081,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |dn</source>
-        <target>Move braille display to next line |dn</target>
+        <target>移动点显器到下一行 |dn</target>
       </segment>
     </unit>
     <unit id="95171659-fde2-4443-bd4e-cfc25ba2b959">
@@ -35092,7 +35092,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |r2</source>
-        <target>Toggle braille tethered to |r2</target>
+        <target>切换盲文显示跟随到 |r2</target>
       </segment>
     </unit>
     <unit id="dc23de25-eb33-453f-9def-a5e28fdb174b">
@@ -35222,7 +35222,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |r2</source>
-        <target>Toggle braille tethered to |r2</target>
+        <target>切换盲文显示跟随到 |r2</target>
       </segment>
     </unit>
     <unit id="a02910db-d422-44c0-94f0-1e24f9e509e8">
@@ -35244,7 +35244,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |up</source>
-        <target>Move braille display to previous line |up</target>
+        <target>移动点显器到上一行 |up</target>
       </segment>
     </unit>
     <unit id="86c044f8-6a10-4a06-8c9a-adccad62d885">
@@ -35277,7 +35277,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |dn</source>
-        <target>Move braille display to next line |dn</target>
+        <target>移动点显器到下一行 |dn</target>
       </segment>
     </unit>
     <unit id="72af10d8-f2ab-422e-ab89-e959a374ba2c">
@@ -35339,9 +35339,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4579</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA supports the BrailleNote notetakers from [Humanware](https://www.humanware.com) when acting as a display terminal for a screen reader.</source>
-        <target/>
+        <target>NVDA 支持 [Humanware](https://www.humanware.com) 的 BrailleNote notetakers。</target>
       </segment>
     </unit>
     <unit id="84484648-68a3-4c05-9e64-bb767fc965b7">
@@ -35478,9 +35478,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4598</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>If connecting using a legacy serial port (or a USB to serial converter) or if none of the previous options appear, you must explicitly choose the communication port to be used from the list of hardware ports.</source>
-        <target/>
+        <target>如果使用旧串行端口（或 USB 转串行转换器）进行连接，或上述选项均未出现，则必须从硬件端口列表中明确选择要使用的通信端口。</target>
       </segment>
     </unit>
     <unit id="d40fc624-8353-46df-85e1-870582e1c826">
@@ -35569,7 +35569,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |previous</source>
-        <target>Move braille display to previous line |previous</target>
+        <target>移动点显器到上一行 |previous</target>
       </segment>
     </unit>
     <unit id="30214d06-58f5-4895-b9d8-6398fda580f3">
@@ -35580,7 +35580,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |next</source>
-        <target>Move braille display to next line |next</target>
+        <target>移动点显器到下一行 |next</target>
       </segment>
     </unit>
     <unit id="24e87d8d-8ae4-4c95-9212-7b38686a29fa">
@@ -35613,7 +35613,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |previous+next</source>
-        <target>Toggle braille tethered to |previous+next</target>
+        <target>切换盲文显示跟随到 |previous+next</target>
       </segment>
     </unit>
     <unit id="bdad4801-431a-49c5-a44c-9cbdf5d46800">
@@ -35624,7 +35624,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Up arrow key |space+dot1</source>
-        <target>Up arrow key |space+1 点</target>
+        <target>上光标键 |space+1 点</target>
       </segment>
     </unit>
     <unit id="e7bfa2d8-c15c-47b0-927c-af2a4dc26f8c">
@@ -35635,7 +35635,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Down arrow key |space+dot4</source>
-        <target>Down arrow key |space+4 点</target>
+        <target>下光标键 |space+4 点</target>
       </segment>
     </unit>
     <unit id="8e70131b-ae41-42cc-a219-31514275ac65">
@@ -35646,7 +35646,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Left Arrow key |space+dot3</source>
-        <target>Left Arrow key |space+3 点</target>
+        <target>左光标键 |space+3 点</target>
       </segment>
     </unit>
     <unit id="682a75f3-528a-4791-8891-89faceb39f7f">
@@ -35657,7 +35657,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Right arrow key |space+dot6</source>
-        <target>Right arrow key |space+6 点</target>
+        <target>右光标键 |space+6 点</target>
       </segment>
     </unit>
     <unit id="c9264da3-8fc7-4c11-8ee2-b7083e0dc569">
@@ -35668,7 +35668,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Page up key |space+dot1+dot3</source>
-        <target>Page up key |space+1、3 点</target>
+        <target>上翻页键 |space+1、3 点</target>
       </segment>
     </unit>
     <unit id="894c26f0-dcb1-4df7-b9db-6de17934aa0c">
@@ -35679,7 +35679,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Page down key |space+dot4+dot6</source>
-        <target>Page down key |space+4、6 点</target>
+        <target>下翻页键 |space+4、6 点</target>
       </segment>
     </unit>
     <unit id="701b470b-33f1-4a34-a2cd-de1f94557432">
@@ -35712,7 +35712,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Control+home keys |space+dot1+dot2+dot3</source>
-        <target>Control+home keys |space+1、2、3 点</target>
+        <target>Ctrl+home keys |space+1、2、3 点</target>
       </segment>
     </unit>
     <unit id="44ca17e2-05cb-49c4-9efb-4b28b364bdfb">
@@ -35723,7 +35723,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Control+end keys |space+dot4+dot5+dot6</source>
-        <target>Control+end keys |space+4、5、6 点</target>
+        <target>Ctrl+end keys |space+4、5、6 点</target>
       </segment>
     </unit>
     <unit id="ca368064-9dc4-4d7d-b91a-080d6f5c452f">
@@ -35853,7 +35853,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Up arrow key |upArrow</source>
-        <target>Up arrow key |upArrow</target>
+        <target>上光标键 |upArrow</target>
       </segment>
     </unit>
     <unit id="2d405d7b-1e04-4829-be91-17310333c8e5">
@@ -35864,7 +35864,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Down arrow key |downArrow</source>
-        <target>Down arrow key |downArrow</target>
+        <target>下光标键 |downArrow</target>
       </segment>
     </unit>
     <unit id="0007e16c-8e92-4507-b275-f542dbdbc1fa">
@@ -35875,7 +35875,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Left Arrow key |leftArrow</source>
-        <target>Left Arrow key |leftArrow</target>
+        <target>左光标键 |leftArrow</target>
       </segment>
     </unit>
     <unit id="64e6dea7-b9be-4b59-8bb7-b4789b40609d">
@@ -35886,7 +35886,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Right arrow key |rightArrow</source>
-        <target>Right arrow key |rightArrow</target>
+        <target>右光标键 |rightArrow</target>
       </segment>
     </unit>
     <unit id="23c10d52-6fa4-4437-b9a4-ca907903f9c8">
@@ -35897,7 +35897,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Page up key |function+upArrow</source>
-        <target>Page up key |function+upArrow</target>
+        <target>上翻页键 |function+upArrow</target>
       </segment>
     </unit>
     <unit id="099ec524-ef0b-4632-96b3-762347194cbb">
@@ -35908,7 +35908,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Page down key |function+downArrow</source>
-        <target>Page down key |function+downArrow</target>
+        <target>下翻页键 |function+downArrow</target>
       </segment>
     </unit>
     <unit id="800d9a5c-56ab-4268-92d5-e3f5f69ec374">
@@ -35919,7 +35919,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Home key |function+leftArrow</source>
-        <target>Home key |function+leftArrow</target>
+        <target>行首键 |function+leftArrow</target>
       </segment>
     </unit>
     <unit id="a05192be-a601-4651-945c-d5670106aa68">
@@ -35930,7 +35930,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>End key |function+rightArrow</source>
-        <target>End key |function+rightArrow</target>
+        <target>行尾键 |function+rightArrow</target>
       </segment>
     </unit>
     <unit id="82b56604-4f47-4208-9b28-408511331024">
@@ -35941,7 +35941,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Control+home keys |read+t</source>
-        <target>Control+home keys |read+t</target>
+        <target>Ctrl+行首键 |read+t</target>
       </segment>
     </unit>
     <unit id="feec004b-a29a-453e-b563-19200595ee22">
@@ -35952,7 +35952,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Control+end keys |read+b</source>
-        <target>Control+end keys |read+b</target>
+        <target>Ctrl+行尾键 |read+b</target>
       </segment>
     </unit>
     <unit id="8d68921d-a035-4fff-b152-34595c8b32ad">
@@ -35963,7 +35963,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Enter key |enter</source>
-        <target>Enter key |enter</target>
+        <target>回车键 |enter</target>
       </segment>
     </unit>
     <unit id="b8c9c827-43e7-413e-bb9a-4d71ca6d760a">
@@ -35985,7 +35985,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Tab key |tab</source>
-        <target>Tab key |tab</target>
+        <target>Tab 键 |tab</target>
       </segment>
     </unit>
     <unit id="e89d5e73-5b17-46a5-a920-b500640b2af5">
@@ -35996,7 +35996,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Shift+tab keys |shift+tab</source>
-        <target>Shift+tab keys |shift+tab</target>
+        <target>Shift+Tab 键 |shift+tab</target>
       </segment>
     </unit>
     <unit id="54e0079e-cd1d-4012-b1b7-bd57ff6ae77c">
@@ -36007,7 +36007,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Windows key |read+w</source>
-        <target>Windows key |read+w</target>
+        <target>Windows 键 |read+w</target>
       </segment>
     </unit>
     <unit id="7870571b-7d6c-4997-a662-f1730db3f4a1">
@@ -36018,7 +36018,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Alt key |read+m</source>
-        <target>Alt key |read+m</target>
+        <target>Alt 键 |read+m</target>
       </segment>
     </unit>
     <unit id="3089d83e-2fac-4bd0-aace-9d6def630c80">
@@ -36060,7 +36060,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Up arrow key |upArrow</source>
-        <target>Up arrow key |upArrow</target>
+        <target>上光标键 |upArrow</target>
       </segment>
     </unit>
     <unit id="baf88889-14ec-4ef4-b5e9-4dc6d9d211a1">
@@ -36071,7 +36071,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Down arrow key |downArrow</source>
-        <target>Down arrow key |downArrow</target>
+        <target>下光标键 |downArrow</target>
       </segment>
     </unit>
     <unit id="c4786c07-529f-47bb-addf-91b21d0530ef">
@@ -36082,7 +36082,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Left Arrow key |leftArrow</source>
-        <target>Left Arrow key |leftArrow</target>
+        <target>左光标键 |leftArrow</target>
       </segment>
     </unit>
     <unit id="12873afd-b936-4bc4-a255-6d80dca05887">
@@ -36093,7 +36093,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Right arrow key |rightArrow</source>
-        <target>Right arrow key |rightArrow</target>
+        <target>右光标键 |rightArrow</target>
       </segment>
     </unit>
     <unit id="b52a9f7d-83f6-4a70-b1e8-fb66f444f93b">
@@ -36275,7 +36275,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |T1</source>
-        <target>Move braille display to previous line |T1</target>
+        <target>移动点显器到上一行 |T1</target>
       </segment>
     </unit>
     <unit id="0bdc451f-7965-46fc-a14b-40355df20f65">
@@ -36286,7 +36286,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |T5</source>
-        <target>Move braille display to next line |T5</target>
+        <target>移动点显器到下一行 |T5</target>
       </segment>
     </unit>
     <unit id="c35d4fe2-a876-4009-bb27-db4f9b34a4b1">
@@ -36429,7 +36429,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |A</source>
-        <target>Toggle braille tethered to |A</target>
+        <target>切换盲文显示跟随到 |A</target>
       </segment>
     </unit>
     <unit id="3b53254e-8658-4ca0-806d-ebb3651237ce">
@@ -36449,7 +36449,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>The SuperBraille device, mostly available in Taiwan, can be connected to by either USB or serial.</source>
-        <target>SuperBraille 设备主要在台湾销售，可以通过 USB 或串行方式连接。</target>
+        <target>超点设备主要在台湾销售，可以通过 USB 或串行方式连接。</target>
       </segment>
     </unit>
     <unit id="977e2e08-22e1-41e2-9368-43ad7431e3e4">
@@ -36458,7 +36458,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>As the SuperBraille does not have any physical typing keys or scrolling buttons, all input must be performed via a standard computer keyboard.</source>
-        <target>由于 SuperBraille 没有任何物理输入按键或滚动按钮，因此所有输入都必须通过标准计算机键盘执行。</target>
+        <target>由于超点没有任何物理输入按键或滚动按钮，因此所有输入都必须通过标准计算机键盘执行。</target>
       </segment>
     </unit>
     <unit id="ce4c5bf3-9bad-4761-af09-7c57db3798d2">
@@ -36489,7 +36489,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Scroll braille display back |numpadMinus</source>
-        <target>向后滚动盲文显示 |numpadMinus</target>
+        <target>向后滚动盲文显示 |数字键盘减号</target>
       </segment>
     </unit>
     <unit id="f05f8cf5-35b4-477c-be50-bad046b9febf">
@@ -36500,7 +36500,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Scroll braille display forward |numpadPlus</source>
-        <target>向前滚动盲文显示 |numpadPlus</target>
+        <target>向前滚动盲文显示 |数字键盘加号</target>
       </segment>
     </unit>
     <unit id="fcab1dae-0caf-4e65-be83-52d2b93adb4d">
@@ -36520,7 +36520,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>The b.book, b.note, Esys, Esytime and Iris displays from Eurobraille are supported by NVDA.</source>
-        <target>Eurobraille 的 b.book、b.note、Esys、Esytime 和 Iris 显示器均受 NVDA 支持。</target>
+        <target>Eurobraille 的 b.book、b.note、Esys、Esytime 和 Iris 点显器均受 NVDA 支持。</target>
       </segment>
     </unit>
     <unit id="d0703b72-a5d9-4961-85c0-322dc8e4b93b">
@@ -36629,7 +36629,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `NVDA` key |`dot3+dot5+space`</source>
-        <target>Toggle `NVDA` key |`3、5 点+space`</target>
+        <target>按下或放开 `NVDA` 键 |`3、5 点+space`</target>
       </segment>
     </unit>
     <unit id="793b5c5d-c639-4ad8-b2cf-183d2211463c">
@@ -36662,7 +36662,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`home` key |`dot1+dot2+dot3+space`</source>
-        <target>`home` key |`1、2、3 点+space`</target>
+        <target>`行首` 键 |`1、2、3 点+space`</target>
       </segment>
     </unit>
     <unit id="9cb9e339-59ea-48ff-af51-082d0090d0a0">
@@ -36673,7 +36673,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`end` key |`dot4+dot5+dot6+space`</source>
-        <target>`end` key |`4、5、6 点+space`</target>
+        <target>`行尾`键 |`4、5、6 点+space`</target>
       </segment>
     </unit>
     <unit id="78cb9ec0-6f5d-4979-aec2-77c5adc773dc">
@@ -36684,7 +36684,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`leftArrow` key |`dot2+space`</source>
-        <target>`leftArrow` key |`2 点+space`</target>
+        <target>`左光标`键 |`2 点+space`</target>
       </segment>
     </unit>
     <unit id="d1164c84-ab76-4278-bf76-75aa9e82752e">
@@ -36695,7 +36695,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`rightArrow` key |`dot5+space`</source>
-        <target>`rightArrow` key |`5 点+space`</target>
+        <target>`右光标`键 |`5 点+space`</target>
       </segment>
     </unit>
     <unit id="bd4fbae6-5d44-42d2-93e2-5c41a711b58b">
@@ -36706,7 +36706,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`upArrow` key |`dot1+space`</source>
-        <target>`upArrow` key |`1 点+space`</target>
+        <target>`上光标`键 |`1 点+space`</target>
       </segment>
     </unit>
     <unit id="5a418a2e-a422-46ab-a351-1038cc5c7417">
@@ -36717,7 +36717,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`downArrow` key |`dot6+space`</source>
-        <target>`downArrow` key |`6 点+space`</target>
+        <target>`下光标`键 |`6 点+space`</target>
       </segment>
     </unit>
     <unit id="92b2f401-2eaf-4fb7-908e-cc2d012f98fc">
@@ -36926,7 +36926,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`escape` key |`dot1+dot2+dot4+dot5+space`, `l2`</source>
-        <target>`escape` key |`1、2、4、5 点+space`, `l2`</target>
+        <target>`ESC` 键 |`1、2、4、5 点+space`, `l2`</target>
       </segment>
     </unit>
     <unit id="3fa80fb5-b0fc-40c3-9bdb-a0bcc9780db9">
@@ -36937,7 +36937,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`tab` key |`dot2+dot5+dot6+space`, `l3`</source>
-        <target>`tab` key |`2、5、6 点+space`, `l3`</target>
+        <target>`Tab` 键 |`2、5、6 点+space`, `l3`</target>
       </segment>
     </unit>
     <unit id="d37623dd-dc0b-4fed-b280-d53ae085bd91">
@@ -36948,7 +36948,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`shift+tab` keys |`dot2+dot3+dot5+space`</source>
-        <target>`shift+tab` keys |`2、3、5 点+space`</target>
+        <target>`Shift+tab` keys |`2、3、5 点+space`</target>
       </segment>
     </unit>
     <unit id="67b72719-0f1f-4c71-bf29-ecfd3a3d303b">
@@ -36981,7 +36981,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`applications` key |`dot5+dot6+backspace`</source>
-        <target>`applications` key |`5、6 点+backspace`</target>
+        <target>`Application` 键 |`5、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="e189a5cb-a7e6-4204-90cb-9d7c35c8f280">
@@ -37124,7 +37124,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`windows` key |`dot1+dot2+dot4+dot5+dot6+space`</source>
-        <target>`windows` key |`1、2、4、5、6 点+space`</target>
+        <target>`Windows` key |`1、2、4、5、6 点+space`</target>
       </segment>
     </unit>
     <unit id="e76da39f-5252-4083-a2ff-258109304690">
@@ -37135,7 +37135,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `windows` key |`dot1+dot2+dot3+dot4+backspace`, `dot2+dot4+dot5+dot6+space`</source>
-        <target>Toggle `windows` key |`1、2、3、4 点+backspace`, `2、4、5、6 点+space`</target>
+        <target>按下或放开 `Windows` 键 |`1、2、3、4 点+backspace`, `2、4、5、6 点+space`</target>
       </segment>
     </unit>
     <unit id="2478cf84-1d07-41e8-a989-ed0e1a55fa0d">
@@ -37168,7 +37168,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`shift` key |`dot7+space`</source>
-        <target>`shift` key |`7 点+space`</target>
+        <target>`Shift` key |`7 点+space`</target>
       </segment>
     </unit>
     <unit id="6a1144ef-b692-4427-b7d3-d108c80dc50b">
@@ -37179,7 +37179,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `shift` key |`dot1+dot7+space`, `dot4+dot7+space`</source>
-        <target>Toggle `shift` key |`1、7 点+space`, `4、7 点+space`</target>
+        <target>按下或放开 `Shift` 键 |`1、7 点+space`, `4、7 点+space`</target>
       </segment>
     </unit>
     <unit id="c6e42fba-1e58-483f-a31b-0a6d55b1f068">
@@ -37190,7 +37190,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control` key |`dot7+dot8+space`</source>
-        <target>`control` key |`7、8 点+space`</target>
+        <target>`Ctrl` key |`7、8 点+space`</target>
       </segment>
     </unit>
     <unit id="64ba28f5-d211-4d70-8ac4-0e8104d16513">
@@ -37201,7 +37201,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `control` key |`dot1+dot7+dot8+space`, `dot4+dot7+dot8+space`</source>
-        <target>Toggle `control` key |`1、7、8 点+space`, `4、7、8 点+space`</target>
+        <target>按下或放开 `Ctrl` 键 |`1、7、8 点+space`, `4、7、8 点+space`</target>
       </segment>
     </unit>
     <unit id="1be265f6-e985-4248-8c3a-984295729ead">
@@ -37212,7 +37212,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt` key |`dot8+space`</source>
-        <target>`alt` key |`8 点+space`</target>
+        <target>`Alt` 键 |`8 点+space`</target>
       </segment>
     </unit>
     <unit id="10216e7a-8378-470c-a3ba-066f74d03079">
@@ -37223,7 +37223,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `alt` key |`dot1+dot8+space`, `dot4+dot8+space`</source>
-        <target>Toggle `alt` key |`1、8 点+space`, `4、8 点+space`</target>
+        <target>按下或放开 `Alt` 键 |`1、8 点+space`, `4、8 点+space`</target>
       </segment>
     </unit>
     <unit id="01c26ff2-0ba0-433f-8ebc-3e5f1c47cb53">
@@ -37234,7 +37234,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle HID Keyboard simulation |`switch1Left+joystick1Down`, `switch1Right+joystick1Down`</source>
-        <target>Toggle HID Keyboard simulation |`switch1Left+joystick1Down`, `switch1Right+joystick1Down`</target>
+        <target>切换 HID 键盘模拟 |`switch1Left+joystick1Down`, `switch1Right+joystick1Down`</target>
       </segment>
     </unit>
     <unit id="82859db7-9db8-4bfa-a85c-40f9a608e3b0">
@@ -37311,7 +37311,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`leftArrow` key |`joystick2Left`</source>
-        <target>`leftArrow` key |`joystick2Left`</target>
+        <target>`左光标`键 |`joystick2Left`</target>
       </segment>
     </unit>
     <unit id="48ff65ee-e840-4ee2-bdd0-9469104a6e98">
@@ -37322,7 +37322,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`rightArrow` key |`joystick2Right`</source>
-        <target>`rightArrow` key |`joystick2Right`</target>
+        <target>`右光标`键 |`joystick2Right`</target>
       </segment>
     </unit>
     <unit id="e266f96c-8072-4cfb-82d4-fc16a932439f">
@@ -37333,7 +37333,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`upArrow` key |`joystick2Up`</source>
-        <target>`upArrow` key |`joystick2Up`</target>
+        <target>`上光标`键 |`joystick2Up`</target>
       </segment>
     </unit>
     <unit id="bcd6207e-1040-4134-80a5-8c3587f894a9">
@@ -37344,7 +37344,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`downArrow` key |`joystick2Down`</source>
-        <target>`downArrow` key |`joystick2Down`</target>
+        <target>`下光标`键 |`joystick2Down`</target>
       </segment>
     </unit>
     <unit id="b1a94cd1-da86-45f7-a0fa-4ac1574bd061">
@@ -37355,7 +37355,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`enter` key |`joystick2Center`</source>
-        <target>`enter` key |`joystick2Center`</target>
+        <target>`回车` 键 |`joystick2Center`</target>
       </segment>
     </unit>
     <unit id="0da95c7c-1552-464b-b201-9030ba630ad2">
@@ -37366,7 +37366,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`escape` key |`c1`</source>
-        <target>`escape` key |`c1`</target>
+        <target>`ESC` 键 |`c1`</target>
       </segment>
     </unit>
     <unit id="ef531f7e-fb4c-4034-87eb-bac2b3cd387f">
@@ -37377,7 +37377,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`tab` key |`c2`</source>
-        <target>`tab` key |`c2`</target>
+        <target>`Tab` 键 |`c2`</target>
       </segment>
     </unit>
     <unit id="d61b2551-6842-48c7-a0e3-195e379cdcb6">
@@ -37388,7 +37388,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `shift` key |`c3`</source>
-        <target>Toggle `shift` key |`c3`</target>
+        <target>按下或放开 `Shift` 键 |`c3`</target>
       </segment>
     </unit>
     <unit id="aa8c5981-5f41-476f-959d-7070864fe48c">
@@ -37399,7 +37399,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `control` key |`c4`</source>
-        <target>Toggle `control` key |`c4`</target>
+        <target>按下或放开 `Ctrl` 键 |`c4`</target>
       </segment>
     </unit>
     <unit id="a0b018df-1768-4186-9a98-2553f99705ec">
@@ -37410,7 +37410,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `alt` key |`c5`</source>
-        <target>Toggle `alt` key |`c5`</target>
+        <target>按下或放开 `Alt` 键 |`c5`</target>
       </segment>
     </unit>
     <unit id="41dc7056-9b44-43d3-90a0-0b0366a4e5a9">
@@ -37421,7 +37421,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `NVDA` key |`c6`</source>
-        <target>Toggle `NVDA` key |`c6`</target>
+        <target>按下或放开 `NVDA` 键 |`c6`</target>
       </segment>
     </unit>
     <unit id="bde98121-6944-4407-84c6-523d7d2ea25b">
@@ -37432,7 +37432,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control+Home` key |`c1+c2+c3`</source>
-        <target>`control+Home` key |`c1+c2+c3`</target>
+        <target>`Ctrl+行首` 键 |`c1+c2+c3`</target>
       </segment>
     </unit>
     <unit id="c0ac6f61-9ef7-47df-837e-cea4524c6725">
@@ -37443,7 +37443,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control+End` key |`c4+c5+c6`</source>
-        <target>`control+End` key |`c4+c5+c6`</target>
+        <target>`Ctrl+行尾` 键 |`c4+c5+c6`</target>
       </segment>
     </unit>
     <unit id="9b4901a4-edd7-489f-873d-3ecd32daf869">
@@ -37553,7 +37553,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`leftArrow` key |`rightKeypadLeft`</source>
-        <target>`leftArrow` key |`rightKeypadLeft`</target>
+        <target>`左光标`键 |`rightKeypadLeft`</target>
       </segment>
     </unit>
     <unit id="3f31ae73-506b-44e2-a255-c30d36b41ece">
@@ -37564,7 +37564,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`rightArrow` key |`rightKeypadRight`</source>
-        <target>`rightArrow` key |`rightKeypadRight`</target>
+        <target>`右光标`键 |`rightKeypadRight`</target>
       </segment>
     </unit>
     <unit id="15c440ff-e66d-4f32-a665-8acdbda287ea">
@@ -37575,7 +37575,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`upArrow` key |`rightKeypadUp`</source>
-        <target>`upArrow` key |`rightKeypadUp`</target>
+        <target>`上光标`键 |`rightKeypadUp`</target>
       </segment>
     </unit>
     <unit id="cfb1f042-5a75-4c71-9289-1a63054cb47d">
@@ -37586,7 +37586,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`downArrow` key |`rightKeypadDown`</source>
-        <target>`downArrow` key |`rightKeypadDown`</target>
+        <target>`下光标`键 |`rightKeypadDown`</target>
       </segment>
     </unit>
     <unit id="b23789ae-97e4-4c7a-961e-0fb4d9da9ee2">
@@ -37597,7 +37597,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control+home` key |`rightKeypadLeft+rightKeypadUp`</source>
-        <target>`control+home` key |`rightKeypadLeft+rightKeypadUp`</target>
+        <target>`Ctrl+行首` 键 |`rightKeypadLeft+rightKeypadUp`</target>
       </segment>
     </unit>
     <unit id="9a4b64ff-80e6-4b4e-ac03-7d9b57c63462">
@@ -37608,7 +37608,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control+end` key |`rightKeypadLeft+rightKeypadUp`</source>
-        <target>`control+end` key |`rightKeypadLeft+rightKeypadUp`</target>
+        <target>`Ctrl+行尾`键 |`rightKeypadLeft+rightKeypadUp`</target>
       </segment>
     </unit>
     <unit id="07bd8eca-ba86-4eae-b708-575312597884">
@@ -37740,7 +37740,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`leftArrow` key |`joystick2Left`</source>
-        <target>`leftArrow` key |`joystick2Left`</target>
+        <target>`左光标`键 |`joystick2Left`</target>
       </segment>
     </unit>
     <unit id="baea6130-e336-41bd-91c3-9bac8e8946aa">
@@ -37751,7 +37751,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`rightArrow` key |`joystick2Right`</source>
-        <target>`rightArrow` key |`joystick2Right`</target>
+        <target>`右光标`键 |`joystick2Right`</target>
       </segment>
     </unit>
     <unit id="b5191016-64d8-408d-9862-70a9cd53fd82">
@@ -37762,7 +37762,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`upArrow` key |`joystick2Up`</source>
-        <target>`upArrow` key |`joystick2Up`</target>
+        <target>`上光标`键 |`joystick2Up`</target>
       </segment>
     </unit>
     <unit id="7fd5f7b2-1189-4cb6-a79d-ed96095332e1">
@@ -37773,7 +37773,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`downArrow` key |`joystick2Down`</source>
-        <target>`downArrow` key |`joystick2Down`</target>
+        <target>`下光标`键 |`joystick2Down`</target>
       </segment>
     </unit>
     <unit id="ebe79c71-8a8a-4370-a6f6-83c6faaa2d0c">
@@ -37784,7 +37784,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`enter` key |`joystick2Center`</source>
-        <target>`enter` key |`joystick2Center`</target>
+        <target>`回车` 键 |`joystick2Center`</target>
       </segment>
     </unit>
     <unit id="65a042cd-0870-4711-abdd-0cf191681ce6">
@@ -37916,7 +37916,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`leftArrow` key |`joystick2Left`</source>
-        <target>`leftArrow` key |`joystick2Left`</target>
+        <target>`左光标`键 |`joystick2Left`</target>
       </segment>
     </unit>
     <unit id="41a54516-b9f4-47cd-869f-5c2a6186972d">
@@ -37927,7 +37927,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`rightArrow` key |`joystick2Right`</source>
-        <target>`rightArrow` key |`joystick2Right`</target>
+        <target>`右光标`键 |`joystick2Right`</target>
       </segment>
     </unit>
     <unit id="b840b22b-add1-47e7-a15b-a745e01d4423">
@@ -37938,7 +37938,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`upArrow` key |`joystick2Up`</source>
-        <target>`upArrow` key |`joystick2Up`</target>
+        <target>`上光标`键 |`joystick2Up`</target>
       </segment>
     </unit>
     <unit id="78b05c66-fcc8-4c7c-a4d6-1f20893d95fd">
@@ -37949,7 +37949,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`downArrow` key |`joystick2Down`</source>
-        <target>`downArrow` key |`joystick2Down`</target>
+        <target>`下光标`键 |`joystick2Down`</target>
       </segment>
     </unit>
     <unit id="6e35e0fb-4789-47ec-9d4f-a7310fc0e248">
@@ -37960,7 +37960,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`enter` key |`joystick2Center`</source>
-        <target>`enter` key |`joystick2Center`</target>
+        <target>`回车` 键 |`joystick2Center`</target>
       </segment>
     </unit>
     <unit id="7ee65615-309c-42c0-afef-15659b8f9512">
@@ -37971,7 +37971,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`escape` key |`l2`</source>
-        <target>`escape` key |`l2`</target>
+        <target>`ESC` 键 |`l2`</target>
       </segment>
     </unit>
     <unit id="d7d21d87-fd49-4f40-8708-4a4c84ceeaa0">
@@ -37982,7 +37982,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`tab` key |`l3`</source>
-        <target>`tab` key |`l3`</target>
+        <target>`Tab` 键 |`l3`</target>
       </segment>
     </unit>
     <unit id="5edeac0c-caa2-4213-b3ab-33a89c5e1925">
@@ -37993,7 +37993,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `shift` key |`l4`</source>
-        <target>Toggle `shift` key |`l4`</target>
+        <target>按下或放开 `Shift` 键 |`l4`</target>
       </segment>
     </unit>
     <unit id="a717040d-f6e9-4bd0-8a4c-64d3a804c5e7">
@@ -38004,7 +38004,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `control` key |`l5`</source>
-        <target>Toggle `control` key |`l5`</target>
+        <target>按下或放开 `Ctrl` 键 |`l5`</target>
       </segment>
     </unit>
     <unit id="19e7030c-a38f-4038-b170-4522211aef8c">
@@ -38015,7 +38015,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `alt` key |`l6`</source>
-        <target>Toggle `alt` key |`l6`</target>
+        <target>按下或放开 `Alt` 键 |`l6`</target>
       </segment>
     </unit>
     <unit id="4649d18f-2704-4b5a-9e5b-290124fa3998">
@@ -38026,7 +38026,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle `NVDA` key |`l7`</source>
-        <target>Toggle `NVDA` key |`l7`</target>
+        <target>按下或放开 `NVDA` 键 |`l7`</target>
       </segment>
     </unit>
     <unit id="8a020999-e7b4-456a-a6c8-cfa607019de4">
@@ -38037,7 +38037,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control+home` key |`l1+l2+l3`, `l2+l3+l4`</source>
-        <target>`control+home` key |`l1+l2+l3`, `l2+l3+l4`</target>
+        <target>`Ctrl+行首` 键 |`l1+l2+l3`, `l2+l3+l4`</target>
       </segment>
     </unit>
     <unit id="76f80664-ab88-404e-9956-4ee439fbf082">
@@ -38048,7 +38048,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control+end` key |`l6+l7+l8`, `l5+l6+l7`</source>
-        <target>`control+end` key |`l6+l7+l8`, `l5+l6+l7`</target>
+        <target>`Ctrl+行尾`键 |`l6+l7+l8`, `l5+l6+l7`</target>
       </segment>
     </unit>
     <unit id="a65c7b5e-c314-415f-8572-e24d844a2cc9">
@@ -38059,7 +38059,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle HID Keyboard simulation |`l1+joystick1Down`, `l8+joystick1Down`</source>
-        <target>Toggle HID Keyboard simulation |`l1+joystick1Down`, `l8+joystick1Down`</target>
+        <target>切换 HID 键盘模拟 |`l1+joystick1Down`, `l8+joystick1Down`</target>
       </segment>
     </unit>
     <unit id="60171e0c-4a4c-4d5b-8459-2f1792ad7a59">
@@ -38159,7 +38159,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |left</source>
-        <target>Move braille display to previous line |left</target>
+        <target>移动点显器到上一行 |left</target>
       </segment>
     </unit>
     <unit id="26d54a49-50a6-4c54-a55b-81a72ee22bba">
@@ -38170,7 +38170,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |right</source>
-        <target>Move braille display to next line |right</target>
+        <target>移动点显器到下一行 |right</target>
       </segment>
     </unit>
     <unit id="8f136485-c691-4683-bf2c-f45bc17e5f9c">
@@ -38244,9 +38244,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4938</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Therefore, NVDA's braille input table setting is not relevant.</source>
-        <target/>
+        <target>因此，NVDA 盲文设置的输入表选项无效。</target>
       </segment>
     </unit>
     <unit id="75ae79f4-5d1c-4fa1-9ff6-00e3a7b66bdc">
@@ -38271,9 +38271,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4943</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Please see the [BRLTTY key binding lists](https://brltty.app/doc/KeyBindings/) for information about how BRLTTY commands are mapped to controls on braille displays.</source>
-        <target/>
+        <target>请参阅 [BRLTTY key binding lists](https://brltty.app/doc/KeyBindings/)，了解有关 BRLTTY 命令如何映射到点显器控件的信息。</target>
       </segment>
     </unit>
     <unit id="dbed603f-6cfb-425e-99b0-6dc3627da684">
@@ -38317,7 +38317,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |`lnup` (go up one line)</source>
-        <target>Move braille display to previous line |`lnup` (go up one line)</target>
+        <target>移动点显器到上一行 |`lnup` (go up one line)</target>
       </segment>
     </unit>
     <unit id="423d185a-7a5d-4aad-aad2-d5cc34b0283b">
@@ -38328,7 +38328,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |`lndn` (go down one line)</source>
-        <target>Move braille display to next line |`lndn` (go down one line)</target>
+        <target>移动点显器到下一行 |`lndn` (go down one line)</target>
       </segment>
     </unit>
     <unit id="4e957dde-ec08-4982-8c41-d247e7fb99af">
@@ -38490,7 +38490,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Because 19200 is the display default baud rate, the driver tries it at first.</source>
-        <target>由于19200是显示器默认波特率，因此驱动程序会首先尝试。</target>
+        <target>由于19200是点显器的默认波特率，因此驱动程序会首先尝试。</target>
       </segment>
     </unit>
     <unit id="f443ced0-7ebc-4cda-ba82-0f02557da6dd">
@@ -38616,7 +38616,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |`cursor1+cursor2`</source>
-        <target>Toggle braille tethered to |`cursor1+cursor2`</target>
+        <target>切换盲文显示跟随到 |`cursor1+cursor2`</target>
       </segment>
     </unit>
     <unit id="7adeb317-1919-4bd6-a4ab-092b45cb6ad8">
@@ -38627,7 +38627,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to previous line |`up1`, `up2`, `up3`</source>
-        <target>Move braille display to previous line |`up1`, `up2`, `up3`</target>
+        <target>移动点显器到上一行 |`up1`, `up2`, `up3`</target>
       </segment>
     </unit>
     <unit id="8bf15b3a-8884-4797-8a70-4db17f1ff738">
@@ -38638,7 +38638,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move braille display to next line |`down1`, `down2`, `down3`</source>
-        <target>Move braille display to next line |`down1`, `down2`, `down3`</target>
+        <target>移动点显器到下一行 |`down1`, `down2`, `down3`</target>
       </segment>
     </unit>
     <unit id="3ebadcce-939f-4140-91b3-f835268d2778">
@@ -38836,7 +38836,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle the braille cursor |`f1+cursor1`, `f9+cursor2`</source>
-        <target>Toggle the braille cursor |`f1+cursor1`, `f9+cursor2`</target>
+        <target>切换盲文光标 |`f1+cursor1`, `f9+cursor2`</target>
       </segment>
     </unit>
     <unit id="a9b57ee6-9440-4266-a8b9-13474f79e2ee">
@@ -38858,7 +38858,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Cycle the braille show selection state |`f1+f5`, `f9+f14`</source>
-        <target>Cycle the braille show selection state |`f1+f5`, `f9+f14`</target>
+        <target>`f1+f5`, `f9+f14`</target>
       </segment>
     </unit>
     <unit id="6e9f83fb-f8ea-4cf9-8442-f5de14b6c5bc">
@@ -38880,7 +38880,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Performs the default action on the current navigator object |`f7+f8`</source>
-        <target>Performs the default action on the current navigator object |`f7+f8`</target>
+        <target>对当前导航对象执行默认操作 |`f7+f8`</target>
       </segment>
     </unit>
     <unit id="5d8f2345-5581-4615-a2d4-26377ea84ccf">
@@ -38891,7 +38891,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports date/time |`f9`</source>
-        <target>Reports date/time |`f9`</target>
+        <target>读出日期/时间 |`f9`</target>
       </segment>
     </unit>
     <unit id="ce06cc6c-0631-4794-b682-bfec83682a25">
@@ -38902,7 +38902,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports battery status and time remaining if AC is not plugged in |`f10`</source>
-        <target>Reports battery status and time remaining if AC is not plugged in |`f10`</target>
+        <target>如果没有连接交流电源，读出电池状态和可用时间 |`f10`</target>
       </segment>
     </unit>
     <unit id="1e9cadd6-ceaf-48d9-b189-daa0ee0a3dcb">
@@ -38913,7 +38913,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports title |`f11`</source>
-        <target>Reports title |`f11`</target>
+        <target>读出标题 |`f11`</target>
       </segment>
     </unit>
     <unit id="a804680c-ed6c-4b55-9cb4-cf9369ac4bd5">
@@ -38924,7 +38924,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reports status bar |`f12`</source>
-        <target>Reports status bar |`f12`</target>
+        <target>读出状态栏 |`f12`</target>
       </segment>
     </unit>
     <unit id="211c20be-a200-4d83-93fd-88d0737344ee">
@@ -39147,7 +39147,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle braille tethered to |up+down</source>
-        <target>Toggle braille tethered to |up+down</target>
+        <target>切换盲文显示跟随到 |up+down</target>
       </segment>
     </unit>
     <unit id="1b24f63e-d2fa-4289-8f40-d007343ef784">
@@ -39202,7 +39202,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift+tab key |space+dot1+dot3</source>
-        <target>shift+tab key |space+1、3 点</target>
+        <target>Shift+Tab 键 |space+1、3 点</target>
       </segment>
     </unit>
     <unit id="b16a9502-25ac-4446-b0b4-3247ccdaa4bd">
@@ -39213,7 +39213,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>tab key |space+dot4+dot6</source>
-        <target>tab key |space+4、6 点</target>
+        <target>Tab 键 |space+4、6 点</target>
       </segment>
     </unit>
     <unit id="8fa52aae-fc70-4ac0-800f-be1634ca128a">
@@ -39224,7 +39224,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt key |space+dot1+dot3+dot4 (space+m)</source>
-        <target>alt key |space+1、3、4 点 (space+m)</target>
+        <target>Alt 键 |space+1、3、4 点 (space+m)</target>
       </segment>
     </unit>
     <unit id="b859a283-db7e-42bc-b34e-e7771bcdb086">
@@ -39268,7 +39268,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+tab key |space+dot2+dot3+dot4+dot5 (space+t)</source>
-        <target>alt+tab key |space+2、3、4、5 点 (space+t)</target>
+        <target>Alt+Tab 键 |space+2、3、4、5 点 (space+t)</target>
       </segment>
     </unit>
     <unit id="2788db54-2eca-4d89-abe0-37fbc328b254">
@@ -39290,7 +39290,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+d key (minimize all applications) |space+dot1+dot4+dot5 (space+d)</source>
-        <target>windows+d key (minimize all applications) |space+1、4、5 点 (space+d)</target>
+        <target>Windows+D 键（最小化所有应用程序） |space+1、4、5 点 (space+d)</target>
       </segment>
     </unit>
     <unit id="624c7742-7577-403c-b516-3147cefaf0dd">
