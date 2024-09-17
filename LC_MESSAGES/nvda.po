@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-05 23:33+0000\n"
-"PO-Revision-Date: 2024-09-13 08:42+0800\n"
+"POT-Creation-Date: 2024-09-17 07:56+0000\n"
+"PO-Revision-Date: 2024-09-17 16:26+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -824,34 +824,34 @@ msgid "¶"
 msgstr "¶"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3567
+#: braille.py:3568
 msgid "Dot firm&ness"
 msgstr "点字硬度(&N)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3580
+#: braille.py:3581
 msgid "Braille inp&ut"
 msgstr "启用盲文输入(&U)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3590
+#: braille.py:3591
 msgid "&HID keyboard input simulation"
 msgstr "模拟 HID 键盘(&H)"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#: braille.py:3754
+#: braille.py:3755
 msgid "Unknown braille display"
 msgstr "未知盲文点显器"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#: braille.py:3795
+#: braille.py:3796
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
 msgstr "蓝牙串行设备：{port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
-#: braille.py:3804 brailleDisplayDrivers\ecoBraille.py:399
+#: braille.py:3805 brailleDisplayDrivers\ecoBraille.py:399
 #: brailleDisplayDrivers\papenmeier_serial.py:81
 #, python-brace-format
 msgid "Serial: {portName}"
@@ -3516,7 +3516,7 @@ msgid "No selection"
 msgstr "未选择文本"
 
 #. Translators: Abbreviation for points, a measurement of font size.
-#: displayModel.py:576 appModules\powerpnt.py:1200 appModules\soffice.py:77
+#: displayModel.py:576 appModules\powerpnt.py:1200 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:202
 #: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:345
 #: NVDAObjects\window\edit.py:714 NVDAObjects\window\excel.py:1300
@@ -9676,45 +9676,45 @@ msgid "Waiting for Powerpoint..."
 msgstr "正在等待PowerPoint..."
 
 #. Translators: LibreOffice, report selected range of cell coordinates with their values
-#: appModules\soffice.py:325
+#: appModules\soffice.py:358
 #, python-brace-format
 msgid "{firstAddress} {firstValue} through {lastAddress} {lastValue}"
 msgstr "{firstAddress} {firstValue} 到 {lastAddress} {lastValue}"
 
 #. Translators: LibreOffice, report range of cell coordinates
-#: appModules\soffice.py:340
+#: appModules\soffice.py:373
 #, python-brace-format
 msgid "{firstAddress} through {lastAddress}"
 msgstr "{firstAddress} 到 {lastAddress}"
 
 #. Translators: a message when toggling formatting (e.g. bold, italic) in LibreOffice
-#: appModules\soffice.py:373
+#: appModules\soffice.py:397
 #, python-brace-format
 msgid "{textAttribute} on"
 msgstr "{textAttribute} 开"
 
 #. Translators: a message when toggling formatting (e.g. bold, italic) in LibreOffice
-#: appModules\soffice.py:376
+#: appModules\soffice.py:400
 #, python-brace-format
 msgid "{textAttribute} off"
 msgstr "{textAttribute} 关"
 
 #. Translators: a measurement in inches
-#: appModules\soffice.py:398
+#: appModules\soffice.py:422
 #, python-brace-format
 msgid "{val:.2f} inch"
 msgid_plural "{val:.2f} inches"
 msgstr[0] "{val:.2f} 英寸"
 
 #. Translators: a measurement in centimetres
-#: appModules\soffice.py:406
+#: appModules\soffice.py:430
 #, python-brace-format
 msgid "{val:.2f} centimetre"
 msgid_plural "{val:.2f} centimetres"
 msgstr[0] "{val:.2f} 厘米"
 
 #. Translators: LibreOffice, report cursor position in the current page
-#: appModules\soffice.py:424
+#: appModules\soffice.py:448
 #, python-brace-format
 msgid ""
 "cursor positioned {horizontalDistance} from left edge of page, "
@@ -15256,7 +15256,7 @@ msgstr "正在更新插件……"
 #. Translators: Message shown prior to installing add-ons when closing the add-on store dialog
 #. The placeholder {} will be replaced with the number of add-ons to be installed
 #: gui\addonStoreGui\controls\messageDialogs.py:511
-#: gui\addonStoreGui\controls\storeDialog.py:235
+#: gui\addonStoreGui\controls\storeDialog.py:247
 msgctxt "addonStore"
 msgid "Download of {} add-on in progress, cancel downloading?"
 msgid_plural "Download of {} add-ons in progress, cancel downloading?"
@@ -15265,7 +15265,7 @@ msgstr[0] "正在下载 {} 个插件，要取消下载吗？"
 #. Translators: Message shown while installing add-ons after closing the add-on store dialog
 #. The placeholder {} will be replaced with the number of add-ons to be installed
 #: gui\addonStoreGui\controls\messageDialogs.py:535
-#: gui\addonStoreGui\controls\storeDialog.py:259
+#: gui\addonStoreGui\controls\storeDialog.py:271
 msgctxt "addonStore"
 msgid "Installing {} add-on, please wait."
 msgid_plural "Installing {} add-ons, please wait."
@@ -15289,46 +15289,52 @@ msgctxt "addonStore"
 msgid "Note: NVDA was started with add-ons disabled"
 msgstr "注意：NVDA 是在禁用插件的情况下启动的"
 
-#. Translators: The label of a selection field to filter the list of add-ons in the add-on store dialog.
+#. Translators: The label of a selection field to sort the list of add-ons in the add-on store dialog.
 #: gui\addonStoreGui\controls\storeDialog.py:162
 msgctxt "addonStore"
+msgid "Sort by colu&mn:"
+msgstr "排序(&M)"
+
+#. Translators: The label of a selection field to filter the list of add-ons in the add-on store dialog.
+#: gui\addonStoreGui\controls\storeDialog.py:174
+msgctxt "addonStore"
 msgid "Cha&nnel:"
-msgstr "通道(&N)："
+msgstr "通道(&N)"
 
 #. Translators: The label of a checkbox to filter the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:171
+#: gui\addonStoreGui\controls\storeDialog.py:183
 msgctxt "addonStore"
 msgid "Include &incompatible add-ons"
 msgstr "包含不兼容插件(&I)"
 
 #. Translators: The label of a selection field to filter the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:190
+#: gui\addonStoreGui\controls\storeDialog.py:202
 msgctxt "addonStore"
 msgid "Ena&bled/disabled:"
-msgstr "启用/禁用(&B)："
+msgstr "启用/禁用(&B)"
 
 #. Translators: The label of a text field to filter the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:199
+#: gui\addonStoreGui\controls\storeDialog.py:211
 msgctxt "addonStore"
 msgid "&Search:"
-msgstr "搜索(&S)："
+msgstr "搜索(&S)"
 
 #. Translators: Title for message shown prior to installing add-ons when closing the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:225
+#: gui\addonStoreGui\controls\storeDialog.py:237
 msgctxt "addonStore"
 msgid "Add-on installation"
 msgstr "插件安装"
 
 #. Translators: The label of the add-on list in the add-on store; {category} is replaced by the selected
 #. tab's name.
-#: gui\addonStoreGui\controls\storeDialog.py:318
+#: gui\addonStoreGui\controls\storeDialog.py:330
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{category}:"
 msgstr "{category}："
 
 #. Translators: the label for the NVDA add-on package file type in the Choose add-on dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:397
+#: gui\addonStoreGui\controls\storeDialog.py:423
 #, python-brace-format
 msgctxt "addonStore"
 msgid "NVDA Add-on Package (*.{ext})"
@@ -15336,7 +15342,7 @@ msgstr "NVDA 插件包 (*.{ext})"
 
 #. Translators: The message displayed in the dialog that
 #. allows you to choose an add-on package for installation.
-#: gui\addonStoreGui\controls\storeDialog.py:402
+#: gui\addonStoreGui\controls\storeDialog.py:428
 msgctxt "addonStore"
 msgid "Choose Add-on Package File"
 msgstr "选择插件包"
@@ -15352,6 +15358,22 @@ msgstr "发布者"
 msgctxt "addonStore"
 msgid "Author"
 msgstr "作者"
+
+#. Translators: An option of a combo box to sort columns in the add-on store, in ascending order.
+#. {column} will be replaced with the column display string.
+#: gui\addonStoreGui\viewModels\addonList.py:363
+#, python-brace-format
+msgctxt "addonStore"
+msgid "{column} (ascending)"
+msgstr "{column}（升序）"
+
+#. Translators: An option of a combo box to sort columns in the add-on store, in descending order.
+#. {column} will be replaced with the column display string.
+#: gui\addonStoreGui\viewModels\addonList.py:373
+#, python-brace-format
+msgctxt "addonStore"
+msgid "{column} (descending)"
+msgstr "{column}（降序）"
 
 #. Translators: Label for an action that installs the selected addon
 #: gui\addonStoreGui\viewModels\store.py:117
