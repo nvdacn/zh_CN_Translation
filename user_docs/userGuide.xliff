@@ -8939,18 +8939,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 528</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA can be configured so that the `insert`, `numpadInsert`, and/or `capsLock` key can be used as the `NVDA` modifier key.</source>
-        <target>NVDA 可以配置为使用 `insert` 键、小键盘 `numpadInsert` 键和/或 `capsLock` 键作为 `NVDA` 键。</target>
+        <target>NVDA 可以配置为使用 `插入` 键、`数字键盘插入` 键或 `大写锁定` 键作为 `NVDA` 键。</target>
       </segment>
     </unit>
     <unit id="a47d899b-78bc-4335-8d1d-4686ef5f1408">
       <notes>
         <note appliesTo="source">line: 529</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>By default, both the `insert` and `numpadInsert` keys are set as NVDA modifier keys.</source>
-        <target>默认情况下，`insert` 键和小键盘 `numpadInsert` 键都被设置为 NVDA 键。</target>
+        <target>默认情况下，主键盘和数字键盘的`插入` 键都被设置为 NVDA 键。</target>
       </segment>
     </unit>
     <unit id="373d7526-4e07-45b8-a4d4-1d55c8ce8abc">
@@ -28784,7 +28784,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>The NVDA Python console, found under Tools in the NVDA menu, is a development tool which is useful for debugging, general inspection of NVDA internals or inspection of the accessibility hierarchy of an application.</source>
-        <target>NVDA工具菜单下面的 NVDA Python 控制台是调试 NVDA、了解 NVDA内部原理、以及查看其他软件无障碍支持情况的工具。</target>
+        <target>位于工具菜单下的 NVDA Python 控制台是调试 NVDA、了解 NVDA内部原理、以及查看其他软件无障碍支持情况的工具。</target>
       </segment>
     </unit>
     <unit id="21a6d4bf-452a-4915-b330-d3f45dc91bc2">
@@ -31516,7 +31516,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`windows` key |`space+dot3+dot4`</source>
-        <target>`Windows` key |`space+3、4 点`</target>
+        <target>`Windows` 键 |`space+3、4 点`</target>
       </segment>
     </unit>
     <unit id="f0cf0064-e219-4124-ba79-9943ed9a4335">
@@ -32624,7 +32624,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>shift key |f5</source>
-        <target>Shift key |f5</target>
+        <target>Shift 键 |f5</target>
       </segment>
     </unit>
     <unit id="30cc8fec-02da-49a5-aa4d-4a885432fa7d">
@@ -32635,7 +32635,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>insert key |dot2+dot4+space, f6</source>
-        <target>insert key |2、4 点+space, f6</target>
+        <target>插入键 |2、4 点+space, f6</target>
       </segment>
     </unit>
     <unit id="297635c8-d6b9-41ac-8552-fd59add42670">
@@ -32657,7 +32657,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Caps Lock key |dot1+dot3+dot6+space</source>
-        <target>Caps Lock key |1、3、6 点+space</target>
+        <target>大写锁定键 |1、3、6 点+space</target>
       </segment>
     </unit>
     <unit id="66e8da72-8c3a-415c-b4dd-ff9129b040af">
@@ -32756,7 +32756,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+f4 key |dot1+dot3+dot5+dot6+space</source>
-        <target>Alt+f4 key |1、3、5、6 点+space</target>
+        <target>Alt+f4 键 |1、3、5、6 点+space</target>
       </segment>
     </unit>
     <unit id="9abf65f6-271b-4fb6-897b-5e1eff59d21f">
@@ -32811,7 +32811,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+leftArrow` |`dot2+dot7+space`</source>
-        <target>`Alt+leftArrow` |`2、7 点+space`</target>
+        <target>`Alt+左光标` 键 |`2、7 点+space`</target>
       </segment>
     </unit>
     <unit id="ceae2a3d-4ff6-4470-a60e-a42002b4c930">
@@ -32866,7 +32866,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+rightArrow` |`dot5+dot7+space`</source>
-        <target>`Alt+rightArrow` |`5、7 点+space`</target>
+        <target>`Alt+右光标` 键 |`5、7 点+space`</target>
       </segment>
     </unit>
     <unit id="466c5152-9f57-4636-bdea-6b867e95eec4">
@@ -32877,7 +32877,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>pageUp key |dot1+dot2+dot6+space</source>
-        <target>pageUp key |1、2、6 点+space</target>
+        <target>上翻页键 |1、2、6 点+space</target>
       </segment>
     </unit>
     <unit id="d0f90a5d-fc40-496b-a593-71fcf708c495">
@@ -32888,7 +32888,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+pageUp key |dot1+dot2+dot6+dot8+space</source>
-        <target>Ctrl+pageUp key |1、2、6、8 点+space</target>
+        <target>Ctrl+上翻页键 |1、2、6、8 点+space</target>
       </segment>
     </unit>
     <unit id="008d26ef-970c-452e-a259-902928ec10aa">
@@ -32943,7 +32943,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+upArrow` |`dot2+dot3+dot7+space`</source>
-        <target>`Alt+upArrow` |`2、3、7 点+space`</target>
+        <target>`Alt+上光标` 键 |`2、3、7 点+space`</target>
       </segment>
     </unit>
     <unit id="97f9ecf5-e0b2-4f28-8a34-0ece5b6e4553">
@@ -32965,7 +32965,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>pageDown key |dot3+dot4+dot5+space</source>
-        <target>pageDown key |3、4、5 点+space</target>
+        <target>下翻页键 |3、4、5 点+space</target>
       </segment>
     </unit>
     <unit id="182d893f-de83-4212-8f42-96bbb61de62a">
@@ -32976,7 +32976,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+pageDown key |dot3+dot4+dot5+dot8+space</source>
-        <target>Ctrl+pageDown key |3、4、5、8 点+space</target>
+        <target>Ctrl+下翻页键 |3、4、5、8 点+space</target>
       </segment>
     </unit>
     <unit id="43b2a8eb-2e9e-4b04-b5b1-f7cac4356a1e">
@@ -33031,7 +33031,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`alt+downArrow` |`dot5+dot6+dot7+space`</source>
-        <target>`Alt+downArrow` |`5、6、7 点+space`</target>
+        <target>`Alt+下光标` 键 |`5、6、7 点+space`</target>
       </segment>
     </unit>
     <unit id="e64a4593-836c-43ed-b33e-c0f1635c0f19">
@@ -33064,7 +33064,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>delete key |dot1+dot3+dot5+space, dot1+dot4+dot5+space</source>
-        <target>delete key |1、3、5 点+space, 1、4、5 点+space</target>
+        <target>删除键 |1、3、5 点+space, 1、4、5 点+space</target>
       </segment>
     </unit>
     <unit id="31ba8ade-a7d0-49b2-9961-f3ac357f30c3">
@@ -33075,7 +33075,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>f1 key |dot1+dot2+dot5+space</source>
-        <target>f1 key |1、2、5 点+space</target>
+        <target>f1 键 |1、2、5 点+space</target>
       </segment>
     </unit>
     <unit id="6d257698-d9fb-4514-82db-cb3031fc6927">
@@ -33086,7 +33086,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>f3 key |dot1+dot4+dot8+space</source>
-        <target>f3 key |1、4、8 点+space</target>
+        <target>f3 键 |1、4、8 点+space</target>
       </segment>
     </unit>
     <unit id="f3b3a24d-2ceb-4328-a44c-f3ca7616bb4a">
@@ -33097,7 +33097,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>f4 key |dot7+f3</source>
-        <target>f4 key |7 点+f3</target>
+        <target>f4 键 |7 点+f3</target>
       </segment>
     </unit>
     <unit id="34422a5b-6d2b-4018-b52a-f9cfdc6573ad">
@@ -33108,7 +33108,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+b key |dot1+dot2+f1</source>
-        <target>Windows+b key |1、2 点+f1</target>
+        <target>Windows+b 键 |1、2 点+f1</target>
       </segment>
     </unit>
     <unit id="cb406699-5ec2-4038-8c37-4ee4401cec4c">
@@ -33119,7 +33119,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>windows+d key |dot1+dot4+dot5+f1</source>
-        <target>Windows+d key |1、4、5 点+f1</target>
+        <target>Windows+d 键 |1、4、5 点+f1</target>
       </segment>
     </unit>
     <unit id="8e44aa4e-3a30-4001-b8a5-5fff63f741fd">
@@ -33130,7 +33130,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>control+insert key |smartbeetle:f1+rightSideScroll</source>
-        <target>Ctrl+insert key |smartbeetle:f1+rightSideScroll</target>
+        <target>Ctrl+插入键 |smartbeetle:f1+rightSideScroll</target>
       </segment>
     </unit>
     <unit id="b3884475-4487-4ab4-8377-bfefe43d9fe5">
@@ -33141,7 +33141,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>alt+insert key |smartbeetle:f3+rightSideScroll</source>
-        <target>Alt+insert key |smartbeetle:f3+rightSideScroll</target>
+        <target>Alt+插入键 |smartbeetle:f3+rightSideScroll</target>
       </segment>
     </unit>
     <unit id="69d40864-1eb6-411c-910e-60216aff5a93">
@@ -35690,7 +35690,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Home key |space+dot1+dot2</source>
-        <target>Home key |space+1、2 点</target>
+        <target>行首键 |space+1、2 点</target>
       </segment>
     </unit>
     <unit id="751c98ca-3248-4e59-886f-5a1cca2c483c">
@@ -35701,7 +35701,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>End key |space+dot4+dot5</source>
-        <target>End key |space+4、5 点</target>
+        <target>行尾键 |space+4、5 点</target>
       </segment>
     </unit>
     <unit id="e4aa38c7-cda9-4d03-9e1a-f73e2d7ace34">
@@ -35712,7 +35712,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Control+home keys |space+dot1+dot2+dot3</source>
-        <target>Ctrl+home keys |space+1、2、3 点</target>
+        <target>Ctrl+行首键 |space+1、2、3 点</target>
       </segment>
     </unit>
     <unit id="44ca17e2-05cb-49c4-9efb-4b28b364bdfb">
@@ -35723,7 +35723,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Control+end keys |space+dot4+dot5+dot6</source>
-        <target>Ctrl+end keys |space+4、5、6 点</target>
+        <target>Ctrl+行尾键 |space+4、5、6 点</target>
       </segment>
     </unit>
     <unit id="ca368064-9dc4-4d7d-b91a-080d6f5c452f">
@@ -35745,7 +35745,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Enter |space+dot8</source>
-        <target>Enter |space+8 点</target>
+        <target>回车键 |space+8 点</target>
       </segment>
     </unit>
     <unit id="d8eb399a-8e6b-4daa-9410-deca0713da77">
@@ -35756,7 +35756,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Backspace |space+dot7</source>
-        <target>Backspace |space+7 点</target>
+        <target>退格键 |space+7 点</target>
       </segment>
     </unit>
     <unit id="ed6e2881-215f-4b1c-9e2a-8d88bbbfb025">
@@ -35767,7 +35767,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Tab key |space+dot2+dot3+dot4+dot5 (space+t)</source>
-        <target>Tab key |space+2、3、4、5 点 (space+t)</target>
+        <target>Tab 键 |space+2、3、4、5 点 (space+t)</target>
       </segment>
     </unit>
     <unit id="11ed79be-418d-4d4f-99af-fbc655a22d2c">
@@ -35778,7 +35778,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Shift+tab keys |space+dot1+dot2+dot5+dot6</source>
-        <target>Shift+tab keys |space+1、2、5、6 点</target>
+        <target>Shift+Tab 键 |space+1、2、5、6 点</target>
       </segment>
     </unit>
     <unit id="cf2747a5-fb6f-4a5e-91cb-98682b266a58">
@@ -35789,7 +35789,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Windows key |space+dot2+dot4+dot5+dot6 (space+w)</source>
-        <target>Windows key |space+2、4、5、6 点 (space+w)</target>
+        <target>Windows 键 |space+2、4、5、6 点 (space+w)</target>
       </segment>
     </unit>
     <unit id="87337360-26e7-4d26-8ae7-daf32c1ae30f">
@@ -35800,7 +35800,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Alt key |space+dot1+dot3+dot4 (space+m)</source>
-        <target>Alt key |space+1、3、4 点 (space+m)</target>
+        <target>Alt 键 |space+1、3、4 点 (space+m)</target>
       </segment>
     </unit>
     <unit id="d909cb56-1a3a-42af-97d2-9da7372d7b87">
@@ -35811,7 +35811,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Toggle input help |space+dot2+dot3+dot6 (space+lower h)</source>
-        <target>Toggle input help |space+2、3、6 点 (space+lower h)</target>
+        <target>切换输入帮助 |space+2、3、6 点 (space+lower h)</target>
       </segment>
     </unit>
     <unit id="3408b648-0ee5-44f0-954f-5930bdeffd47">
@@ -36104,7 +36104,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Enter key |centre button</source>
-        <target>Enter key |centre button</target>
+        <target>回车键 |centre button</target>
       </segment>
     </unit>
     <unit id="a78c3805-473a-4fa0-aee0-46168e423ca4">
@@ -36115,7 +36115,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Tab key |scroll wheel clockwise</source>
-        <target>Tab key |scroll wheel clockwise</target>
+        <target>Tab 键 |scroll wheel clockwise</target>
       </segment>
     </unit>
     <unit id="f7227f17-354b-4358-80fc-7e1c71d9898c">
@@ -36126,7 +36126,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Shift+tab keys |scroll wheel counterclockwise</source>
-        <target>Shift+tab keys |scroll wheel counterclockwise</target>
+        <target>Shift+Tab 键 |scroll wheel counterclockwise</target>
       </segment>
     </unit>
     <unit id="3e832d94-ce59-40cd-a2ac-e10429df71b2">
@@ -36640,7 +36640,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`insert` key |`dot1+dot3+dot5+space`, `dot3+dot4+dot5+space`</source>
-        <target>`insert` key |`1、3、5 点+space`, `3、4、5 点+space`</target>
+        <target>`插入` 键 |`1、3、5 点+space`, `3、4、5 点+space`</target>
       </segment>
     </unit>
     <unit id="3920b7ab-81c2-482c-8dac-a0b1605c3633">
@@ -36651,7 +36651,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`delete` key |`dot3+dot6+space`</source>
-        <target>`delete` key |`3、6 点+space`</target>
+        <target>`删除` 键 |`3、6 点+space`</target>
       </segment>
     </unit>
     <unit id="6aff9335-295a-4e24-94ce-c887333201a4">
@@ -36728,7 +36728,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`pageUp` key |`dot1+dot3+space`</source>
-        <target>`pageUp` key |`1、3 点+space`</target>
+        <target>`上翻页` 键 |`1、3 点+space`</target>
       </segment>
     </unit>
     <unit id="8ea9b667-e066-4883-adb8-ce1e1ae13d2c">
@@ -36739,7 +36739,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`pageDown` key |`dot4+dot6+space`</source>
-        <target>`pageDown` key |`4、6 点+space`</target>
+        <target>`下翻页` 键 |`4、6 点+space`</target>
       </segment>
     </unit>
     <unit id="9c0265c2-16d4-4be9-8f25-8be0f5632384">
@@ -36750,7 +36750,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad1` key |`dot1+dot6+backspace`</source>
-        <target>`numpad1` key |`1、6 点+backspace`</target>
+        <target>`数字键盘 1` 键 |`1、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="05173fd6-6a28-469c-9177-f9134d1ab9c0">
@@ -36761,7 +36761,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad2` key |`dot1+dot2+dot6+backspace`</source>
-        <target>`numpad2` key |`1、2、6 点+backspace`</target>
+        <target>`数字键盘 2` 键 |`1、2、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="16069a5d-4815-47e6-b0fd-d01016c8a3db">
@@ -36772,7 +36772,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad3` key |`dot1+dot4+dot6+backspace`</source>
-        <target>`numpad3` key |`1、4、6 点+backspace`</target>
+        <target>`数字键盘 3` 键 |`1、4、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="73a3f92d-295f-42dd-9aab-8dab97318e7e">
@@ -36783,7 +36783,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad4` key |`dot1+dot4+dot5+dot6+backspace`</source>
-        <target>`numpad4` key |`1、4、5、6 点+backspace`</target>
+        <target>`数字键盘 4` 键 |`1、4、5、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="b1d91cd3-cf3c-4da7-8106-9a6fc71ed635">
@@ -36794,7 +36794,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad5` key |`dot1+dot5+dot6+backspace`</source>
-        <target>`numpad5` key |`1、5、6 点+backspace`</target>
+        <target>`数字键盘 5` 键 |`1、5、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="31b6ebcb-ea58-432f-9260-e207af21ee2f">
@@ -36805,7 +36805,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad6` key |`dot1+dot2+dot4+dot6+backspace`</source>
-        <target>`numpad6` key |`1、2、4、6 点+backspace`</target>
+        <target>`数字键盘 6` 键 |`1、2、4、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="ea97b838-352c-42ed-999e-974741fbe0db">
@@ -36816,7 +36816,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad7` key |`dot1+dot2+dot4+dot5+dot6+backspace`</source>
-        <target>`numpad7` key |`1、2、4、5、6 点+backspace`</target>
+        <target>`数字键盘 7` 键 |`1、2、4、5、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="d9aeaf30-e5ed-4c02-a32a-c4905dd517e5">
@@ -36827,7 +36827,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad8` key |`dot1+dot2+dot5+dot6+backspace`</source>
-        <target>`numpad8` key |`1、2、5、6 点+backspace`</target>
+        <target>`数字键盘 8` 键 |`1、2、5、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="4be30c76-01e8-40ca-8c19-8fe61c3eca02">
@@ -36838,7 +36838,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpad9` key |`dot2+dot4+dot6+backspace`</source>
-        <target>`numpad9` key |`2、4、6 点+backspace`</target>
+        <target>`数字键盘 9` 键 |`2、4、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="07947999-e40e-4809-8ae8-bae840c96246">
@@ -36849,7 +36849,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpadInsert` key |`dot3+dot4+dot5+dot6+backspace`</source>
-        <target>`numpadInsert` key |`3、4、5、6 点+backspace`</target>
+        <target>`数字键盘插入` 键 |`3、4、5、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="2de5ec06-13a9-4693-a7a9-c064c1a3088a">
@@ -36860,7 +36860,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpadDecimal` key |`dot2+backspace`</source>
-        <target>`numpadDecimal` key |`2 点+backspace`</target>
+        <target>`数字键盘删除` 键 |`2 点+backspace`</target>
       </segment>
     </unit>
     <unit id="5da77593-b36d-46e8-8bcd-79e6b2f8549a">
@@ -36871,7 +36871,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpadDivide` key |`dot3+dot4+backspace`</source>
-        <target>`numpadDivide` key |`3、4 点+backspace`</target>
+        <target>`数字键盘斜杠` 键 |`3、4 点+backspace`</target>
       </segment>
     </unit>
     <unit id="f23fbc1d-ee2a-4944-ae92-26968646d8d4">
@@ -36882,7 +36882,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpadMultiply` key |`dot3+dot5+backspace`</source>
-        <target>`numpadMultiply` key |`3、5 点+backspace`</target>
+        <target>`数字键盘星号` 键 |`3、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="2bffadcd-f046-40d8-aadb-9e025c93cdf2">
@@ -36893,7 +36893,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpadMinus` key |`dot3+dot6+backspace`</source>
-        <target>`numpadMinus` key |`3、6 点+backspace`</target>
+        <target>`数字键盘减号` 键 |`3、6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="93c1e032-72f6-47bb-9ed5-2b5e327c993a">
@@ -36904,7 +36904,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpadPlus` key |`dot2+dot3+dot5+backspace`</source>
-        <target>`numpadPlus` key |`2、3、5 点+backspace`</target>
+        <target>`数字键盘加号` 键 |`2、3、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="b31c06e4-2a7c-427b-991d-f6e8752487b6">
@@ -36915,7 +36915,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numpadEnter` key |`dot3+dot4+dot5+backspace`</source>
-        <target>`numpadEnter` key |`3、4、5 点+backspace`</target>
+        <target>`数字键盘回车` 键 |`3、4、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="656b1e23-8be4-450f-959d-4db8ec0b17d0">
@@ -36948,7 +36948,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`shift+tab` keys |`dot2+dot3+dot5+space`</source>
-        <target>`Shift+tab` keys |`2、3、5 点+space`</target>
+        <target>`Shift+tab` 键 |`2、3、5 点+space`</target>
       </segment>
     </unit>
     <unit id="67b72719-0f1f-4c71-bf29-ecfd3a3d303b">
@@ -36959,7 +36959,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`printScreen` key |`dot1+dot3+dot4+dot6+space`</source>
-        <target>`printScreen` key |`1、3、4、6 点+space`</target>
+        <target>`屏幕打印` 键 |`1、3、4、6 点+space`</target>
       </segment>
     </unit>
     <unit id="4b4cc812-686a-4ec0-9b76-22876acdc502">
@@ -36970,7 +36970,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`pause` key |`dot1+dot4+space`</source>
-        <target>`pause` key |`1、4 点+space`</target>
+        <target>`pause` 键 |`1、4 点+space`</target>
       </segment>
     </unit>
     <unit id="ce0386d9-040e-48f2-8c89-a5b44e0b294d">
@@ -36992,7 +36992,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f1` key |`dot1+backspace`</source>
-        <target>`f1` key |`1 点+backspace`</target>
+        <target>`f1` 键 |`1 点+backspace`</target>
       </segment>
     </unit>
     <unit id="7c3e9d02-7316-4048-ab45-fbbd05f73050">
@@ -37003,7 +37003,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f2` key |`dot1+dot2+backspace`</source>
-        <target>`f2` key |`1、2 点+backspace`</target>
+        <target>`f2` 键 |`1、2 点+backspace`</target>
       </segment>
     </unit>
     <unit id="b677ad2e-eebf-4635-8040-710efb4d95ad">
@@ -37014,7 +37014,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f3` key |`dot1+dot4+backspace`</source>
-        <target>`f3` key |`1、4 点+backspace`</target>
+        <target>`f3` 键 |`1、4 点+backspace`</target>
       </segment>
     </unit>
     <unit id="b0669640-0f59-41c0-9924-29d0485c2944">
@@ -37025,7 +37025,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f4` key |`dot1+dot4+dot5+backspace`</source>
-        <target>`f4` key |`1、4、5 点+backspace`</target>
+        <target>`f4` 键 |`1、4、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="d49ee23b-16fa-4774-bfa6-928cad3be7ff">
@@ -37036,7 +37036,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f5` key |`dot1+dot5+backspace`</source>
-        <target>`f5` key |`1、5 点+backspace`</target>
+        <target>`f5` 键 |`1、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="39579a2e-4dd5-4ed4-a1e4-1c491d898291">
@@ -37047,7 +37047,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f6` key |`dot1+dot2+dot4+backspace`</source>
-        <target>`f6` key |`1、2、4 点+backspace`</target>
+        <target>`f6` 键 |`1、2、4 点+backspace`</target>
       </segment>
     </unit>
     <unit id="8949810d-cd7c-4bc3-8165-0a7a64706fbd">
@@ -37058,7 +37058,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f7` key |`dot1+dot2+dot4+dot5+backspace`</source>
-        <target>`f7` key |`1、2、4、5 点+backspace`</target>
+        <target>`f7` 键 |`1、2、4、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="70ad8f7f-936f-4561-bdce-b1c22961ec00">
@@ -37069,7 +37069,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f8` key |`dot1+dot2+dot5+backspace`</source>
-        <target>`f8` key |`1、2、5 点+backspace`</target>
+        <target>`f8` 键 |`1、2、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="76824657-318d-4826-bcb1-57051edcc9d5">
@@ -37080,7 +37080,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f9` key |`dot2+dot4+backspace`</source>
-        <target>`f9` key |`2、4 点+backspace`</target>
+        <target>`f9` 键 |`2、4 点+backspace`</target>
       </segment>
     </unit>
     <unit id="9ce843de-4f2c-46ba-840f-14a296817f57">
@@ -37091,7 +37091,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f10` key |`dot2+dot4+dot5+backspace`</source>
-        <target>`f10` key |`2、4、5 点+backspace`</target>
+        <target>`f10` 键 |`2、4、5 点+backspace`</target>
       </segment>
     </unit>
     <unit id="965c9711-2bb2-43a0-bf19-5ed15932ae5f">
@@ -37102,7 +37102,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f11` key |`dot1+dot3+backspace`</source>
-        <target>`f11` key |`1、3 点+backspace`</target>
+        <target>`f11` 键 |`1、3 点+backspace`</target>
       </segment>
     </unit>
     <unit id="eb77e784-9fe0-4f18-a9a0-8e78ce0d830a">
@@ -37113,7 +37113,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`f12` key |`dot1+dot2+dot3+backspace`</source>
-        <target>`f12` key |`1、2、3 点+backspace`</target>
+        <target>`f12` 键 |`1、2、3 点+backspace`</target>
       </segment>
     </unit>
     <unit id="11e389cf-2f9b-4dc7-9bac-af69867e08ec">
@@ -37124,7 +37124,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`windows` key |`dot1+dot2+dot4+dot5+dot6+space`</source>
-        <target>`Windows` key |`1、2、4、5、6 点+space`</target>
+        <target>`Windows` 键 |`1、2、4、5、6 点+space`</target>
       </segment>
     </unit>
     <unit id="e76da39f-5252-4083-a2ff-258109304690">
@@ -37146,7 +37146,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`capsLock` key |`dot7+backspace`, `dot8+backspace`</source>
-        <target>`capsLock` key |`7 点+backspace`, `8 点+backspace`</target>
+        <target>`大写锁定` 键 |`7 点+backspace`, `8 点+backspace`</target>
       </segment>
     </unit>
     <unit id="bc1274e9-c5b9-442d-9ddd-ef22f5cb1085">
@@ -37157,7 +37157,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`numLock` key |`dot3+backspace`, `dot6+backspace`</source>
-        <target>`numLock` key |`3 点+backspace`, `6 点+backspace`</target>
+        <target>`numLock` 键 |`3 点+backspace`, `6 点+backspace`</target>
       </segment>
     </unit>
     <unit id="b6283d26-a4fe-4e04-b4c5-052ddd2b11ee">
@@ -37168,7 +37168,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`shift` key |`dot7+space`</source>
-        <target>`Shift` key |`7 点+space`</target>
+        <target>`Shift` 键 |`7 点+space`</target>
       </segment>
     </unit>
     <unit id="6a1144ef-b692-4427-b7d3-d108c80dc50b">
@@ -37190,7 +37190,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>`control` key |`dot7+dot8+space`</source>
-        <target>`Ctrl` key |`7、8 点+space`</target>
+        <target>`Ctrl` 键 |`7、8 点+space`</target>
       </segment>
     </unit>
     <unit id="64ba28f5-d211-4d70-8ac4-0e8104d16513">
@@ -38858,7 +38858,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Cycle the braille show selection state |`f1+f5`, `f9+f14`</source>
-        <target>`f1+f5`, `f9+f14`</target>
+        <target>Cycle the braille show selection state |`f1+f5`, `f9+f14`</target>
       </segment>
     </unit>
     <unit id="6e9f83fb-f8ea-4cf9-8442-f5de14b6c5bc">
