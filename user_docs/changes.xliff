@@ -5101,7 +5101,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>This release includes a number of improvements in Microsoft Office, braille, and document formatting.</source>
-        <target>此版本包括 Microsoft Office、盲文和文档格式方面的多项改进。</target>
+        <target>此版本在 Microsoft Office、盲文和文档格式等方面进行了多项改进。</target>
       </segment>
     </unit>
     <unit id="25116343-b40c-4512-bdb6-562757d1d62c">
@@ -5119,7 +5119,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>You can now use the review cursor selection command to select text in PowerPoint.</source>
-        <target>现在，您可以使用浏览光标选择快捷键在 PowerPoint 中选择文本。</target>
+        <target>支持使用浏览光标选择快捷键在 PowerPoint 中选择文本。</target>
       </segment>
     </unit>
     <unit id="8d97b6fb-8e9a-47fe-b35b-5575786db783">
@@ -5128,7 +5128,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA also no longer brailles garbage characters when showing row or column header text in tables in Word when using the object model.</source>
-        <target>修复了在 Microsoft Word 中使用传统对象模型时，盲文呈现的表格的行/列标题文本包含冗余字符的错误。</target>
+        <target>还修复了在 Microsoft Word 中使用传统对象模型时，盲文呈现的表格的行/列标题文本会包含冗余字符的错误。</target>
       </segment>
     </unit>
     <unit id="be349aa0-c4ee-47ce-a604-02e9b9d98079">
@@ -5137,7 +5137,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA can now be configured to report font attributes in speech and braille separately.</source>
-        <target>现在可以将 NVDA 配置为分别用语音或盲文提示字体属性。</target>
+        <target>另外值得一提的是，从本版起，您可以配置 NVDA 分别用语音或盲文呈现字体属性了。</target>
       </segment>
     </unit>
     <unit id="37355ac2-44d4-412c-9aa5-353a2d037d4c">
@@ -5146,7 +5146,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>A new setting has been added to configure the timeout to perform a multiple press gesture, such as the report time/date command.</source>
-        <target>添加了一个新设置来配置执行连续按下按键或手势的超时，例如读出时间/日期。</target>
+        <target>此外我们添加了一个新设置来配置执行连续按下按键或手势的超时，例如读出时间/日期。</target>
       </segment>
     </unit>
     <unit id="fd4564ad-285f-44db-beee-ad426f0b807a">
@@ -5155,7 +5155,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>You can now configure how NVDA shows text formatting in braille, and set NVDA to show the start of paragraphs in braille.</source>
-        <target>支持设置 NVDA 如何用盲文呈现富文本格式，还支持了用盲文呈现每一段的开头。</target>
+        <target>支持配置 NVDA 如何用盲文呈现富文本格式，还支持用盲文体现文本段落的开头。</target>
       </segment>
     </unit>
     <unit id="f3056728-0d14-4153-8ea7-d00932d7274c">
@@ -5164,7 +5164,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA can now speak the character at the cursor when performing a braille cursor routing action.</source>
-        <target>另外，在使用盲文光标定位的操作时，NVDA 可以读出光标所在处的字符。</target>
+        <target>在使用盲文光标定位的操作时，NVDA 可以读出光标所在处的字符。</target>
       </segment>
     </unit>
     <unit id="dd4ea32b-fc7f-4995-9955-6625ef334a4e">
@@ -5173,7 +5173,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Cursor routing reliability has been improved, and support for routing keys in PowerPoint has been added.</source>
-        <target>增强了盲文光标定位的稳定性，并且新增了在 PowerPoint 中盲文光标定位的支持。</target>
+        <target>同时增强了盲文光标定位的稳定性，并且新增了在 PowerPoint 中盲文光标定位的支持能力。</target>
       </segment>
     </unit>
     <unit id="90f2fb46-aac3-4aee-8708-bd2564909242">
@@ -5182,7 +5182,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>All lines of cells will now be used when using a multi-line braille display via HID braille.</source>
-        <target>通过 HID 连接多行盲文点显器时，可以使用所有的显示单元。</target>
+        <target>通过标准 HID 协议连接多行盲文点显器时，现在可以使用所有的显示单元。</target>
       </segment>
     </unit>
     <unit id="0e908c69-2631-4a89-b3b1-f0f494c044f3">
@@ -5200,7 +5200,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>The minimum required version of Poedit that works with NVDA is now version 3.5.</source>
-        <target>NVDA 适配兼容的 Poedit 最低版本是 3.5 版。</target>
+        <target>另需要注意NVDA 适配兼容的 Poedit 最低版本是 3.5 版。</target>
       </segment>
     </unit>
     <unit id="45df5d33-c450-4809-9179-917e5c82bec6">
@@ -5209,7 +5209,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>eSpeak NG has been updated, adding support for the Faroese and Xextan languages.</source>
-        <target>eSpeak NG 已更新，增加了对法罗语和 Xextan 语言的支持。</target>
+        <target>更新了 eSpeak NG 增加了对法罗语和 Xextan 语言的支持。</target>
       </segment>
     </unit>
     <unit id="704dfcd8-2ff2-48a9-a170-b371f5808c87">
@@ -5218,7 +5218,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>LibLouis has been updated, adding new Braille tables for Thai and Greek international braille with single-cell accented letters.</source>
-        <target>更新了 LibLouis，为泰语和希腊语国际盲文添加了新的盲文表，包含单格重音字母。</target>
+        <target>更新了 LibLouis，为泰语和希腊语国际盲文添加了新的盲文表，包含单方重音字母。</target>
       </segment>
     </unit>
     <unit id="9522fb25-b581-4c73-9807-804337989ffa">
@@ -5227,7 +5227,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>There have also been a number of fixes, including to mouse tracking in Firefox, and the on-demand speech mode.</source>
-        <target>还进行了许多修复，包括 Firefox 中的鼠标跟踪以及手动朗读模式。</target>
+        <target>此外还进行了许多修复，比如 Firefox 中的鼠标跟踪和手动朗读模式。</target>
       </segment>
     </unit>
     <unit id="e3e8932a-98e6-4558-8a16-34cbb7b72ff1">
@@ -5345,7 +5345,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA can now be configured to report font attributes in speech and braille separately. (#16755)</source>
-        <target>现在可以将 NVDA 配置为分别用语音和盲文提示字体属性。(#16755)</target>
+        <target>现在可以配置 NVDA 分别用语音和盲文提示字体属性。(#16755)</target>
       </segment>
     </unit>
     <unit id="fdb8328a-bf9e-45a1-958d-830822132919">
@@ -5635,7 +5635,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Updating NVDA while add-on updates are pending no longer results in the add-on being removed. (#16837)</source>
-        <target>在插件更新挂起时更新 NVDA 不会再导致插件被删除。(#16837)</target>
+        <target>修复了在插件处于等待状态时更新 NVDA 导致插件被意外删除的问题。(#16837)</target>
       </segment>
     </unit>
     <unit id="1c1a2192-4abe-412d-b107-da0db1734ebd">
@@ -5645,7 +5645,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>It is now possible to interact with Data validation dropdown lists in Microsoft Excel 365. (#15138)</source>
-        <target>现在可以与 Microsoft Excel 365 中的数据验证下拉列表进行交互。(#15138)</target>
+        <target>修复了不朗读 Microsoft Excel 365 中的数据验证下拉列表的问题。(#15138)</target>
       </segment>
     </unit>
     <unit id="9371c27c-d0b1-4671-aa93-f160f31d8a51">
@@ -5655,7 +5655,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA is no longer as sluggish when arrowing up and down through large files in VS Code. (#17039)</source>
-        <target>在 VS Code 中按上/下光标浏览大文件时，NVDA 不再反应迟缓。(#17039)</target>
+        <target>修复了在 VS Code 中按上/下光标浏览大文件时，NVDA 反应迟缓的问题。(#17039)</target>
       </segment>
     </unit>
     <unit id="eed1978e-8f56-488f-bd93-30c04936ae96">
@@ -5675,7 +5675,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA no longer reads the last line when the cursor is on the second-last line of a multiline edit control in Java applications. (#17027)</source>
-        <target>当光标位于 Java 应用程序中多行编辑控件的倒数第二行时，NVDA 不再读取最后一行。(#17027)</target>
+        <target>修复了当光标位于 Java 应用程序中多行编辑控件的倒数第二行时却朗读最后一行的问题。(#17027)</target>
       </segment>
     </unit>
     <unit id="e5dc8388-ac23-415b-b3e6-7b9e900d422a">
@@ -5923,7 +5923,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>When automatically checking for add-on updates, NVDA no longer freezes on poor connections. (#17036)</source>
-        <target>自动检查插件更新时，NVDA 不再因网络连接不佳而冻结。(#17036)</target>
+        <target>修复了自动检查插件更新时，NVDA 因网络连接不佳而卡死的错误。(#17036)</target>
       </segment>
     </unit>
     <unit id="8ea48ff9-0c07-4541-a56d-370f73ab2cad">
