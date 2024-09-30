@@ -19289,36 +19289,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2171</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>If "Read by paragraph" is checked, the selected start marker will be displayed to indicate the start of a paragraph.</source>
-        <target/>
+        <target>如果选中“按段落阅读”，则会显示所选的开始标记以指示段落的开始。</target>
       </segment>
     </unit>
     <unit id="92cb16b8-46f3-4d16-96b0-7a8b5bb10236">
       <notes>
         <note appliesTo="source">line: 2172</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This can be especially helpful in applications used to read large pieces of text, like structured documents or books.</source>
-        <target/>
+        <target>这对于阅读长文本（例如结构化文档或书籍）的应用程序特别有用。</target>
       </segment>
     </unit>
     <unit id="5afdaaa7-a4a2-4573-ad73-8b2dcafc1ed6">
       <notes>
         <note appliesTo="source">line: 2173</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>In such documents, knowing where paragraphs start may be useful to understand the structure of the content, or to set bookmarks or annotations based on paragraph position.</source>
-        <target/>
+        <target>在此类文档中，知道段落从哪里开始可能有助于理解内容结构，或根据段落位置添加书签或注释。</target>
       </segment>
     </unit>
     <unit id="fb7f0d7d-9ef7-447e-ac2c-b24139f66ca6">
       <notes>
         <note appliesTo="source">line: 2175</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The options include using two spaces as a subtle paragraph break, and the paragraph symbol, pilcrow (¶), as a more obvious one.</source>
-        <target/>
+        <target>这些选项包括使用两个空格作为不明显的段落符，以及使用 pilcrow (¶) 作为更明显的段落符。</target>
       </segment>
     </unit>
     <unit id="fa0807bd-95b5-4938-9c0f-c695f4ef7647">
@@ -19327,9 +19327,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Options |No paragraph start marker, Double space (  ), Pilcrow (¶)</source>
-        <target/>
+        <target>选项 |无段落开始标记、双空格 (  ), Pilcrow (¶)</target>
       </segment>
     </unit>
     <unit id="a2c8dabe-13cd-4e9c-a13f-9be6eb574a2b">
@@ -19338,9 +19338,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Default |No paragraph start marker</source>
-        <target/>
+        <target>Default |无段落开始标记</target>
       </segment>
     </unit>
     <unit id="2a44a9e3-65c5-4be3-91eb-a5e49671bf7f">
@@ -19618,18 +19618,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleFormattingDisplay}</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Formatting display</source>
-        <target/>
+        <target>格式化显示</target>
       </segment>
     </unit>
     <unit id="946696bf-c8e5-41bd-a402-7ea34e3ca39e">
       <notes>
         <note appliesTo="source">line: 2225</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This setting determines how NVDA will display text formatting in braille.</source>
-        <target/>
+        <target>此设置用于配置 NVDA 如何以盲文呈现文本格式。</target>
       </segment>
     </unit>
     <unit id="80c94a06-f0b3-42aa-a7aa-0ba016025168">
@@ -19680,9 +19680,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> Liblouis | Use native Braille formatting. Note that this option will only indicate bold, italic and underlined text, and only if the selected braille table supports indicating these attributes. </source>
-        <target/>
+        <target> Liblouis | 使用原生盲文格式。 注，此选项仅支持呈现粗体、斜体和下划线文本，并且需要当前所选的盲文表支持这些属性。</target>
       </segment>
     </unit>
     <unit id="85d7ae4a-b10c-48f4-bedf-29c6fa06305d">
@@ -19691,9 +19691,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> [Tags](#BrailleFormattingDisplayTags) | Use tags that describe how and where text formatting changes. </source>
-        <target/>
+        <target> [标记](#BrailleFormattingDisplayTags) | 使用标记来描述文本格式变化的方式和位置。 </target>
       </segment>
     </unit>
     <unit id="93b99f26-4c29-42b9-9f48-2455f2cffd7c">
@@ -19711,36 +19711,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2240</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When "Formatting display" is set to "Tags", a formatting tag is displayed in braille when a change in formatting is detected.</source>
-        <target/>
+        <target>若“格式信息的显示方式”设置为“标记”，当检测到格式变化时，将以盲文显示格式标签。</target>
       </segment>
     </unit>
     <unit id="bd0274ac-0a54-469b-94ac-43eebc6afa24">
       <notes>
         <note appliesTo="source">line: 2241</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>These tags start with ⣋ and end with ⣙.</source>
-        <target/>
+        <target>这些标记以 ⣋ 开头并以 ⣙ 结尾。</target>
       </segment>
     </unit>
     <unit id="e41ce1a1-60b2-4fcb-b697-e8d342e054d8">
       <notes>
         <note appliesTo="source">line: 2242</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>A formatting tag will contain one or more symbols which describe the text formatting.</source>
-        <target/>
+        <target>格式标记会包含一个或多个描述文本格式的符号。</target>
       </segment>
     </unit>
     <unit id="4ffba340-ca1a-4acd-9526-e4ae13d457d3">
       <notes>
         <note appliesTo="source">line: 2243</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The following symbols are defined:</source>
-        <target/>
+        <target>定义了以下符号：</target>
       </segment>
     </unit>
     <unit id="b69d5396-bfe1-49e5-bd24-867bfa6fd7f1">
@@ -19749,9 +19749,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> Symbol | Meaning </source>
-        <target/>
+        <target> 符号 | 意义</target>
       </segment>
     </unit>
     <unit id="e38d0537-75df-4e54-bca2-58ff785c45bd">
@@ -19760,9 +19760,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⠃ ("b") | Start bold </source>
-        <target/>
+        <target> ⠃ ("b") | 加粗开始</target>
       </segment>
     </unit>
     <unit id="5e6cc5b2-8735-4046-b064-368dc9a0f082">
@@ -19771,9 +19771,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⡃ ("b" with dot 7) | End bold </source>
-        <target/>
+        <target> ⡃ ("b" + 7点) | 粗体结束</target>
       </segment>
     </unit>
     <unit id="9bd3ee5e-2489-459b-9c31-04ed37a36fac">
@@ -19782,9 +19782,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⠊ ("i") | Start italic </source>
-        <target/>
+        <target> ⠊ ("i") | 斜体开始</target>
       </segment>
     </unit>
     <unit id="9d5049ae-6ced-4a32-8a75-ec1c62420a4f">
@@ -19793,9 +19793,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⡊ ("i" with dot 7) | End italic </source>
-        <target/>
+        <target> ⡊ ("i" + 7点) | 斜体结束</target>
       </segment>
     </unit>
     <unit id="812545e3-4557-45ed-bdc3-2909c1f918e4">
@@ -19804,9 +19804,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⠥ ("u") | Start underline </source>
-        <target/>
+        <target> ⠥ ("u") | 下划线开始</target>
       </segment>
     </unit>
     <unit id="264d0bb2-5b0c-46f3-a775-58f473004c91">
@@ -19815,9 +19815,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⡥ ("u" with dot 7) | End underline </source>
-        <target/>
+        <target> ⡥ ("u" + 7点) | 下划线结束</target>
       </segment>
     </unit>
     <unit id="4a8a3b4f-ce28-4ea3-97cc-15fbe996312a">
@@ -19826,9 +19826,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⠎ ("s")| Start strikethrough </source>
-        <target/>
+        <target> ⠎ ("s")| 删除线开始</target>
       </segment>
     </unit>
     <unit id="4228d415-747b-4b4d-bee1-ad84474f2152">
@@ -19837,9 +19837,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source> ⡎ ("s" with dot 7) | End strikethrough </source>
-        <target/>
+        <target> ⡎ ("s" + 7点) | 删除线结束</target>
       </segment>
     </unit>
     <unit id="d3e37afb-f884-4413-98a7-d9195d313527">
@@ -19848,27 +19848,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSpeakOnRouting}</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Speak character when routing cursor in text</source>
-        <target/>
+        <target>定位文本光标后读出光标所在处的字符</target>
       </segment>
     </unit>
     <unit id="ce9d14d3-37ab-4530-9a35-936260e3f028">
       <notes>
         <note appliesTo="source">line: 2258</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>If this is enabled, NVDA will automatically speak the character at the cursor when routing to it with braille cursor routing keys.</source>
-        <target/>
+        <target>如果启用此功能，当使用盲文光标定位键定位到光标处的字符时，NVDA 会自动读出光标处的相应字符。</target>
       </segment>
     </unit>
     <unit id="8a0854a6-0935-487b-9f7d-b1e7055e0c9a">
       <notes>
         <note appliesTo="source">line: 2260</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>To toggle this option from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target/>
+        <target>如果希望随时切换此选项，请使用[按键与手势对话框](#InputGestures) 分配自定义手势。</target>
       </segment>
     </unit>
     <unit id="66416aa7-4287-44f2-aa7f-5c1d87710de1">
@@ -19877,81 +19877,81 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsWordWrap}</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Avoid splitting words when possible</source>
-        <target/>
+        <target>尽可能避免拆分单词</target>
       </segment>
     </unit>
     <unit id="ca9f4171-7493-4813-b34f-f46089d93e5d">
       <notes>
         <note appliesTo="source">line: 2264</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>If this is enabled, a word which is too large to fit at the end of the braille display will not be split.</source>
-        <target/>
+        <target>如果启用此功能，则不会拆分无法完整显示在剩余盲文单元中的单词。</target>
       </segment>
     </unit>
     <unit id="2225f79a-a139-43ad-8d56-e77db9f030e2">
       <notes>
         <note appliesTo="source">line: 2265</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Instead, there will be some blank space at the end of the display.</source>
-        <target/>
+        <target>但点显器的行尾会有一些空白单元格。</target>
       </segment>
     </unit>
     <unit id="6ad37418-cc7c-49e7-87d2-46e65a003821">
       <notes>
         <note appliesTo="source">line: 2266</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When you scroll the display, you will be able to read the entire word.</source>
-        <target/>
+        <target>通过滚动盲文显示，您可以阅读道完整的单词。</target>
       </segment>
     </unit>
     <unit id="004ef303-10ee-4f81-9979-a71dc2ef536b">
       <notes>
         <note appliesTo="source">line: 2267</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This is sometimes called "word wrap".</source>
-        <target/>
+        <target>有时也称为“自动换行”。</target>
       </segment>
     </unit>
     <unit id="ff1794a8-6df9-4622-9147-07a3e4303a19">
       <notes>
         <note appliesTo="source">line: 2268</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Note that if the word is too large to fit on the display even by itself, the word must still be split.</source>
-        <target/>
+        <target>注，如果单词太长甚至无法完整显示为一行，则仍会拆分该单词。</target>
       </segment>
     </unit>
     <unit id="4e405a86-11c8-4c51-9791-59aa46e02e50">
       <notes>
         <note appliesTo="source">line: 2270</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>If this is disabled, as much of the word as possible will be displayed, but the rest will be cut off.</source>
-        <target/>
+        <target>如果禁用此功能，将显示尽可能多的单词，但可能导致同一个单词被拆分为两行显示。</target>
       </segment>
     </unit>
     <unit id="273ea79e-d020-49b4-8cd3-5faa4dc4e0db">
       <notes>
         <note appliesTo="source">line: 2271</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When you scroll the display, you will then be able to read the rest of the word.</source>
-        <target/>
+        <target>通过向后滚动盲文显示，您可以阅读到单词的剩余部分。</target>
       </segment>
     </unit>
     <unit id="ebf2fd63-31a9-4b81-ba3c-b563716e83ef">
       <notes>
         <note appliesTo="source">line: 2273</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Enabling this may allow for more fluent reading, but generally requires you to scroll the display more.</source>
-        <target/>
+        <target>启用此功能可能会带来更流畅的阅读体验，但通常需要您多次滚动显示。</target>
       </segment>
     </unit>
     <unit id="4bd1a767-eada-4513-a64c-a86731f2ed02">
@@ -20029,54 +20029,54 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsInterruptSpeech}</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Interrupt speech while scrolling</source>
-        <target/>
+        <target>滚动时打断语音</target>
       </segment>
     </unit>
     <unit id="b888352d-990c-4e10-8222-62a92a934efe">
       <notes>
         <note appliesTo="source">line: 2290</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This setting determines if speech should be interrupted when the Braille display is scrolled backwards/forwards.</source>
-        <target/>
+        <target>此设置用于配置当盲文点显器向后/向前滚动时是否应打断语音。</target>
       </segment>
     </unit>
     <unit id="fad5aa9a-5f90-4024-8d96-b64de1c13663">
       <notes>
         <note appliesTo="source">line: 2291</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Previous/next line commands always interrupt speech.</source>
-        <target/>
+        <target>上一行/下一行命令总是会打断语音。</target>
       </segment>
     </unit>
     <unit id="868f56ee-2983-4560-8053-8732f07eb5f0">
       <notes>
         <note appliesTo="source">line: 2293</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>On-going speech might be a distraction while reading Braille.</source>
-        <target/>
+        <target>阅读盲文时，语音朗读可能会分散注意力。</target>
       </segment>
     </unit>
     <unit id="d0bb2894-fe79-4547-a38b-267b8a2d7981">
       <notes>
         <note appliesTo="source">line: 2294</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>For this reason the option is enabled by default, interrupting speech when scrolling braille.</source>
-        <target/>
+        <target>因此，该选项默认启用，在滚动盲文显示时打断语音。</target>
       </segment>
     </unit>
     <unit id="b1f53a44-15a6-40a5-8a30-39648bfc4564">
       <notes>
         <note appliesTo="source">line: 2296</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Disabling this option allows speech to be heard while simultaneously reading Braille.</source>
-        <target/>
+        <target>禁用此选项可以在阅读盲文的同时听到语音。</target>
       </segment>
     </unit>
     <unit id="ac3c47ec-bc8e-450a-8296-1eee392803eb">
@@ -21615,45 +21615,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2577</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Some NVDA keyboard gestures perform different actions based upon how many times the same key is pressed in rapid succession.</source>
-        <target/>
+        <target>某些 NVDA 快捷键根据快速连续按下相同按键的次数来执行不同的功能。</target>
       </segment>
     </unit>
     <unit id="7afdf47a-39b5-4c82-b3f5-9504c77e6bd0">
       <notes>
         <note appliesTo="source">line: 2578</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>An example of this is the "Report current character of navigator object" command.</source>
-        <target/>
+        <target>一个例子是“读出当前查看对象光标所在位置的字符”命令。</target>
       </segment>
     </unit>
     <unit id="536bb6b6-9ea6-46f3-b4c0-3f9aa508d376">
       <notes>
         <note appliesTo="source">line: 2579</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This command reports the character if pressed once, a phonetic description of the character if pressed twice, and the numeric value of the character if pressed three times.</source>
-        <target/>
+        <target>对于该命令，按一次读出当前查看对象光标所在位置的字符，连按两次解释该字符，连续按三次则读出该字符的十进制和十六进制代码。</target>
       </segment>
     </unit>
     <unit id="1f1263df-8664-4e1d-95da-add1f011e54d">
       <notes>
         <note appliesTo="source">line: 2580</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This option configures the timeout after which an additional press of the same key will start a new gesture, rather than being taken as a subsequent press of the first one.</source>
-        <target/>
+        <target>此选项用于设置超时，意味着在此时间后执行的相同手势将被视为新的手势，而不是第一个手势的延续。</target>
       </segment>
     </unit>
     <unit id="18fd6449-31ab-42c0-a194-9e70fc22e315">
       <notes>
         <note appliesTo="source">line: 2581</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>For the example command, a too short timeout will cause two presses to report the current character twice, rather than the phonetic description.</source>
-        <target/>
+        <target>对于该例子，超时设置太短的话，连按两次会导致重复两次朗读当前字符，而不是解释该字符。</target>
       </segment>
     </unit>
     <unit id="5bf160f9-c7da-4306-9e90-69897a450636">
@@ -21669,9 +21669,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2583</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Increasing this timeout may be especially useful for people using sticky keys, or who have a physical disability.</source>
-        <target/>
+        <target>增大此超时时间对于使用粘滞键或肢体障碍的用户可能尤其有用。</target>
       </segment>
     </unit>
     <unit id="48e722e3-2749-4029-98d3-bcee8529a010">
@@ -23852,27 +23852,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#DocumentFormattingFontAttributes}</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Font attributes</source>
-        <target/>
+        <target>字体属性</target>
       </segment>
     </unit>
     <unit id="48376768-b6ce-432c-92f6-ac6f44e7a6f1">
       <notes>
         <note appliesTo="source">line: 2953</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>This option allows you to select how certain font attributes, such as bold, italics, underline and strikethrough are reported.</source>
-        <target/>
+        <target>此选项可以让您选择如何呈现某些字体属性，例如粗体、斜体、下划线和删除线。</target>
       </segment>
     </unit>
     <unit id="803810a6-7aa2-4e20-a29c-7a674a103ed7">
       <notes>
         <note appliesTo="source">line: 2954</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The font attributes combo box has four options:</source>
-        <target/>
+        <target>字体属性组合框包含四个选项：</target>
       </segment>
     </unit>
     <unit id="40099d4b-4cdd-42f8-9fbf-6688f5e9c16b">
@@ -23880,9 +23880,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2956</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Off: NVDA will not report these font attributes.</source>
-        <target/>
+        <target>关闭：NVDA 不朗读这些字体属性。</target>
       </segment>
     </unit>
     <unit id="ee1788d6-eff0-43ba-8f1e-682accd589f3">
@@ -23890,9 +23890,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2957</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Speech: NVDA will announce when these font attributes change.</source>
-        <target/>
+        <target>语音： NVDA 会在格式改变时读出。</target>
       </segment>
     </unit>
     <unit id="45284bce-2847-4a32-bc1d-e7ab64c3fd62">
@@ -23900,18 +23900,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2958</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Braille: NVDA will display these attributes in braille.</source>
-        <target/>
+        <target>盲文：NVDA 将以盲文形式呈现这些属性。</target>
       </segment>
     </unit>
     <unit id="e95f51f5-ba4a-4a7f-9082-aa4f32c2933c">
       <notes>
         <note appliesTo="source">line: 2959</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Exactly how they are displayed can be configured in [NVDA's braille settings](#BrailleFormattingDisplay).</source>
-        <target/>
+        <target>其具体显示方式可以在 [NVDA 盲文设置](#BrailleFormattingDisplay) 中进行配置。</target>
       </segment>
     </unit>
     <unit id="0f8e5732-f6a9-4c12-ae33-7cd93c9b8da7">
@@ -33996,36 +33996,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4411</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The c-series and some other displays have two routing rows whereby the upper row is used to report formatting information.</source>
-        <target/>
+        <target>c 系列和其他个别点显器有两行光标定位按键，位于最上面的一行用于显示格式信息。</target>
       </segment>
     </unit>
     <unit id="7ff824e2-8779-46b3-a8aa-b4945f2d2897">
       <notes>
         <note appliesTo="source">line: 4412</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Holding one of the upper routing keys and pressing the EAB on c-series devices emulates the second switch state.</source>
-        <target/>
+        <target>在 c 系列设备上按住上方光标定位键之一然后按 EAB 可以模拟第二个开关状态。</target>
       </segment>
     </unit>
     <unit id="f83400d8-385a-4cc9-be28-076975bf023d">
       <notes>
         <note appliesTo="source">line: 4413</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The live series displays have one routing row only and the EAB has one step per direction.</source>
-        <target/>
+        <target>live 系列显示器只有一行光标定位按键且 EAB 按键在每个方向上只能移动一步。</target>
       </segment>
     </unit>
     <unit id="3b972ded-b176-437f-ad33-fc2db1562c4f">
       <notes>
         <note appliesTo="source">line: 4414</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The second step may be emulated by pressing one of the routing keys and pressing the EAB in the corresponding direction.</source>
-        <target/>
+        <target>可以通过按下某个定位按键加 EAB 按键来模拟第二步操作。</target>
       </segment>
     </unit>
     <unit id="d195c5df-c4ee-43dc-ae4d-d1ac8a428c62">
