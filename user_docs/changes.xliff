@@ -5126,9 +5126,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA also no longer brailles garbage characters when showing row or column header text in tables in Word when using the object model.</source>
-        <target/>
+        <target>修复了在 Microsoft Word 中使用传统对象模型时，盲文呈现的表格的行/列标题文本包含冗余字符的错误。</target>
       </segment>
     </unit>
     <unit id="be349aa0-c4ee-47ce-a604-02e9b9d98079">
@@ -5153,54 +5153,54 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>You can now configure how NVDA shows text formatting in braille, and set NVDA to show the start of paragraphs in braille.</source>
-        <target/>
+        <target>支持设置 NVDA 如何用盲文呈现富文本格式，还支持了用盲文呈现每一段的开头。</target>
       </segment>
     </unit>
     <unit id="f3056728-0d14-4153-8ea7-d00932d7274c">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA can now speak the character at the cursor when performing a braille cursor routing action.</source>
-        <target/>
+        <target>另外，在使用盲文光标定位的操作时，NVDA 可以读出光标所在处的字符。</target>
       </segment>
     </unit>
     <unit id="dd4ea32b-fc7f-4995-9955-6625ef334a4e">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Cursor routing reliability has been improved, and support for routing keys in PowerPoint has been added.</source>
-        <target/>
+        <target>增强了盲文光标定位的稳定性，并且新增了在 PowerPoint 中盲文光标定位的支持。</target>
       </segment>
     </unit>
     <unit id="90f2fb46-aac3-4aee-8708-bd2564909242">
       <notes>
         <note appliesTo="source">line: 19</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>All lines of cells will now be used when using a multi-line braille display via HID braille.</source>
-        <target/>
+        <target>通过 HID 连接多行盲文点显器时，可以使用所有的显示单元。</target>
       </segment>
     </unit>
     <unit id="0e908c69-2631-4a89-b3b1-f0f494c044f3">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA is no longer unstable after restarting NVDA during an automatic Braille Bluetooth scan.</source>
-        <target/>
+        <target>修复了在自动扫描盲文蓝牙设备过程中重启 NVDA 会导致重启后的 NVDA 不稳定问题。</target>
       </segment>
     </unit>
     <unit id="283751a5-bbf9-47d4-a55e-8b451a114562">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The minimum required version of Poedit that works with NVDA is now version 3.5.</source>
-        <target/>
+        <target>NVDA 适配兼容的 Poedit 最低版本是 3.5 版。</target>
       </segment>
     </unit>
     <unit id="45df5d33-c450-4809-9179-917e5c82bec6">
@@ -5216,9 +5216,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>LibLouis has been updated, adding new Braille tables for Thai and Greek international braille with single-cell accented letters.</source>
-        <target/>
+        <target>更新了 LibLouis，为泰语和希腊语国际盲文添加了新的盲文表，包含单格重音字母。</target>
       </segment>
     </unit>
     <unit id="9522fb25-b581-4c73-9807-804337989ffa">
@@ -5255,18 +5255,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>It is now possible to change the way NVDA displays certain text formatting attributes in braille.</source>
-        <target/>
+        <target>支持设置 NVDA 如何以盲文呈现某些文本格式属性。</target>
       </segment>
     </unit>
     <unit id="791bcf3f-7a56-4743-a9eb-9c889274482d">
       <notes>
         <note appliesTo="source">line: 34</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>    The available options are:</source>
-        <target/>
+        <target>可用的选项包括：</target>
       </segment>
     </unit>
     <unit id="3bc07039-2af7-4600-ab04-f0c9518ce217">
@@ -5274,9 +5274,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Liblouis (default): Uses formatting markers defined in the selected braille table.</source>
-        <target/>
+        <target>Liblouis（默认）：使用当前所选盲文表中定义的格式标记。</target>
       </segment>
     </unit>
     <unit id="d72a5a9a-5e86-44f6-857a-f41f4909e1f9">
@@ -5284,9 +5284,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Tags: Uses start and end tags to denote where certain font attributes begin and end. (#16864)</source>
-        <target/>
+        <target>标记：使用开始和结束标记来表示某些字体属性的开始和结束位置。 (#16864)</target>
       </segment>
     </unit>
     <unit id="809b566a-d198-46e2-a662-8da2a5b3da01">
@@ -5294,9 +5294,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When the "Read by paragraph" option is enabled, NVDA can now be configured to indicate the start of paragraphs in braille. (#16895, @nvdaes)</source>
-        <target/>
+        <target>启用“按段落阅读”选项后，支持设置用盲文呈现段落的开头。 (#16895, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="095dddf0-6d13-48be-a37c-0e33f6c5d70f">
@@ -5304,9 +5304,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When performing a braille cursor routing action, NVDA can now automatically speak the character at the cursor. (#8072, @LeonarddeR)</source>
-        <target/>
+        <target>在使用盲文光标定位操作时，支持自动读出光标所在处的字符。 (#8072, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="0288f9bb-516d-43f5-b3ed-4c471686a06a">
@@ -5323,9 +5323,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 40</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>      You can enable "Speak character when routing cursor in text" in NVDA's braille settings.</source>
-        <target/>
+        <target>您可以在 NVDA 的盲文设置中启用“定位文本光标后读出光标所在处的字符”。</target>
       </segment>
     </unit>
     <unit id="1232bea8-58be-4caf-a7e1-b3171a8b6ef5">
@@ -5333,9 +5333,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The comment command in Microsoft Word and notes command in Microsoft Excel can now be pressed twice to show the comment or note in a browsable message. (#16800, #16878, @Cary-Rowen)</source>
-        <target/>
+        <target>在 Microsoft Word 和 Excel 中支持连按两次读出批注或注释的快捷键，以在可浏览对话框中显示批注或注释。 (#16800, #16878, @Cary-Rowen)</target>
       </segment>
     </unit>
     <unit id="c875cdee-a2bc-4941-aa12-93690508ee68">
@@ -5353,9 +5353,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The timeout to perform a multiple keypress is now configurable; this may be especially useful for people with dexterity impairment. (#11929, @CyrilleB79)</source>
-        <target/>
+        <target>支持配置按键的连按超时时间，该功能对于那些存在灵活性障碍的用户可能尤其有用。 (#11929, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="fba1e1b7-a60c-44e8-933d-12feb1f6660e">
@@ -5373,9 +5373,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The `-c`/`--config-path` and `--disable-addons` command line options are now respected when launching an update from within NVDA. (#16937)</source>
-        <target/>
+        <target>当从 NVDA 内启动更新时，也会传递 `-c`/`--config-path` 和 `--disable-addons` 命令行参数。 (#16937)</target>
       </segment>
     </unit>
     <unit id="0b916043-30f8-429d-9a8d-90d1148d7474">
@@ -5493,9 +5493,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When using a multi-line braille display via the standard HID braille driver, all lines of cells will be used. (#16993, @alexmoon)</source>
-        <target/>
+        <target>通过 HID 连接多行盲文点显器时，可以使用所有的显示单元。 (#16993, @alexmoon)</target>
       </segment>
     </unit>
     <unit id="55923e00-e386-4eb8-8df7-ae3489cdf32d">
@@ -5503,9 +5503,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The stability of NVDA's Poedit support has been improved with the side effect that the minimum required version of Poedit is now version 3.5. (#16889, @LeonarddeR)</source>
-        <target/>
+        <target>改进了 NVDA 对 Poedit 支持的稳定性，但目前要求 Poedit 的最低版本至少为 3.5 版。 (#16889, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="0b825e64-71e4-4a83-bf40-43e4f3641c9f">
@@ -5533,9 +5533,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>It is now possible to use braille display routing keys to move the text cursor in Microsoft PowerPoint. (#9101)</source>
-        <target/>
+        <target>支持使用盲文定位键在 Microsoft PowerPoint 中移动文本光标。 (#9101)</target>
       </segment>
     </unit>
     <unit id="1e279561-ff6c-4c40-b038-2b8c6a991dda">
@@ -5543,9 +5543,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>When accessing Microsoft Word without UI Automation, NVDA no longer outputs garbage characters in table headers defined with the set row and column header commands. (#7212)</source>
-        <target/>
+        <target>修复了在非  UIA 模式下， Microsoft Word 中盲文呈现的表格的行/列标题文本包含冗余字符的错误。 (#7212)</target>
       </segment>
     </unit>
     <unit id="da6be497-2342-47bc-a56c-412d1eea7363">
@@ -5553,9 +5553,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The Seika Notetaker driver now correctly generates braille input for space, backspace and dots with space/backspace gestures. (#16642, @school510587)</source>
-        <target/>
+        <target>修复了 Seika Notetaker 驱动无法使用Space/Space+点正确生成空格/空格+点的错误。 (#16642, @school510587)</target>
       </segment>
     </unit>
     <unit id="ded99fa3-6ef3-425a-9d92-a84ec96585d7">
@@ -5563,9 +5563,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Cursor routing is now much more reliable when a line contains one or more Unicode variation selectors or decomposed characters. (#10960, @mltony, @LeonarddeR)</source>
-        <target/>
+        <target>增强了当文本行内包含一个或多个 Unicode 变体选择符或分解字符时光标定位的稳定性。 (#10960, @mltony, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="8e3de34b-b210-4946-b85e-3b2f0cef8eaa">
@@ -5573,9 +5573,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA no longer throws an error when panning the braille display forward in some empty edit controls. (#12885)</source>
-        <target/>
+        <target>修复了在某些空白编辑控件中执行向前滚动盲文显示时，NVDA 抛出错误的问题。 (#12885)</target>
       </segment>
     </unit>
     <unit id="17b2feda-817f-48d3-8b4f-178d16c8914e">
@@ -5583,9 +5583,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA is no longer unstable after restarting NVDA during an automatic Braille Bluetooth scan. (#16933)</source>
-        <target/>
+        <target>修复了在自动扫描盲文蓝牙设备过程中重启 NVDA 会导致重启后的 NVDA 不稳定问题。 (#16933)</target>
       </segment>
     </unit>
     <unit id="b700883f-f977-4b94-ad7b-dcd2a07ffc37">
@@ -5593,9 +5593,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>It is now possible to use the review cursor selection commands to select text in Microsoft PowerPoint. (#17004)</source>
-        <target/>
+        <target>支持在 Microsoft PowerPoint 中使用文本查看光标的文本选择命令选择文本。 (#17004)</target>
       </segment>
     </unit>
     <unit id="449fe5e4-4562-494d-bd4f-06c32b09ecf6">
@@ -5603,9 +5603,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>In on-demand speech mode, NVDA does not talk any more when a message is opened in Outlook, when a new page is loaded in a browser, or when displaying a new slide in a PowerPoint slideshow. (#16825, @CyrilleB79)</source>
-        <target/>
+        <target>修复了手动朗读模式下，在 Outlook 中打开邮件、在浏览器中加载新页面或在 PowerPoint 幻灯片中显示新幻灯片时，NVDA 依然会朗读的问题。 (#16825, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="62a0b9e0-b074-48a5-b4f0-21402c50c961">
@@ -5613,9 +5613,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 73</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>In Mozilla Firefox, moving the mouse over text before or after a link now reliably reports the text. (#15990, @jcsteh)</source>
-        <target/>
+        <target>在 Mozilla Firefox 中，修复了将鼠标移到链接之前或之后的文本可能无法读出鼠标下文本的错误。 (#15990, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="463d50aa-0bb0-4d5f-a31b-5605f959416c">
@@ -5623,9 +5623,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA no longer occasionally fails to open browsable messages (such as pressing `NVDA+f` twice). (#16806, @LeonarddeR)</source>
-        <target/>
+        <target>修复了 NVDA 偶发无法打开可浏览消息（例如按“NVDA+f”两次）的问题。 (#16806, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="8e85da91-cae8-4c33-a5b3-c7d3d23762a3">
@@ -5663,9 +5663,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>NVDA no longer becomes unresponsive after holding down an arrow key for a long time while in browse mode, particularly in Microsoft Word and Microsoft Outlook. (#16812)</source>
-        <target/>
+        <target>修复了在浏览模式下长时间按住箭头键，NVDA 无响应的问题，尤其在 Microsoft Word 和 Microsoft Outlook 中。 (#16812)</target>
       </segment>
     </unit>
     <unit id="306401fa-b2dc-4d64-aaad-104cec42358d">
@@ -5772,9 +5772,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Dictionaries can be provided in locale specific folders in an add-on package, e.g. `locale\en`.</source>
-        <target/>
+        <target>字典可以在插件包中 locale 下特定区域的目录中提供，例如 `locale\en`。</target>
       </segment>
     </unit>
     <unit id="e86bdf1b-b72f-48c9-8e2d-031779a4af0b">
@@ -5782,9 +5782,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Dictionary metadata can be added to an optional `symbolDictionaries` section in the add-on manifest.</source>
-        <target/>
+        <target>字典元数据可以在插件清单（manifest）的可选部分声明为`symbolDictionaries`字段。</target>
       </segment>
     </unit>
     <unit id="910e2ed3-9a06-4811-aa5f-d4af4355837f">
@@ -5802,9 +5802,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>It is now possible to redirect objects retrieved from on-screen coordinates, by using the `NVDAObject.objectFromPointRedirect` method. (#16788, @Emil-18)</source>
-        <target/>
+        <target>支持使用`NVDAObject.objectFromPointRedirect` 方法重定向从屏幕坐标检索的对象。 (#16788, @Emil-18)</target>
       </segment>
     </unit>
     <unit id="97441403-0a72-44aa-afb5-3cb7433ac468">
@@ -5812,9 +5812,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Running SCons with the parameter `--all-cores` will automatically pick the maximum number of available CPU cores. (#16943, #16868, @LeonarddeR)</source>
-        <target/>
+        <target>运行 SCons 时使用参数 `--all-cores` 会自动选择 CPU 的最大核心数。 (#16943, #16868, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="1701b454-ebde-4850-96eb-4bb1fa919fe5">
@@ -5822,9 +5822,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Developer info now includes information on app architecture (such as AMD64) for the navigator object. (#16488, @josephsl)</source>
-        <target/>
+        <target>当前导航对象的开发者信息现在包括处理器的体系结构（例如 AMD64）。 (#16488, @josephsl)</target>
       </segment>
     </unit>
     <unit id="60e828f3-5168-477e-b231-57ef77fb653d">
@@ -5842,9 +5842,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The `bool` configuration key `[documentFormatting][reportFontAttributes]` is deprecated for removal in 2025.1, instead use `[fontAttributeReporting]`. (#16748)</source>
-        <target/>
+        <target>不推荐使用在 2025.1 中即将被移除的 `bool`配置键`[documentFormatting][reportFontAttributes]`，请考虑使用 `[fontAttributeReporting]`。 (#16748)</target>
       </segment>
     </unit>
     <unit id="f767cd6d-4176-4b4c-ac06-ad44989b2d3b">
@@ -5852,9 +5852,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The new key has an `int` value matching an `OutputMode` `enum` with options for speech, braille, speech and braille and off.</source>
-        <target/>
+        <target>新的配置键具有与`OutputMode` `enum` 匹配的 `int` 值，其中包含语音、盲文、语音和盲文以及关闭选项。</target>
       </segment>
     </unit>
     <unit id="6139a8ca-02b0-47ab-97aa-fdf2fc244dfd">
@@ -5862,9 +5862,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>API consumers can use the `bool` value as previously, or check the `OutputMode` if handling speech or braille specifically.</source>
-        <target/>
+        <target>API 调用者可以像以前一样使用`bool`值，或者如果专门处理语音或盲文，则检查`OutputMode`。</target>
       </segment>
     </unit>
     <unit id="70ec98b0-e888-412c-9a89-dcf35380fea5">
@@ -5872,9 +5872,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>These keys are currently synchronized until 2025.1.</source>
-        <target/>
+        <target>这些配置键目前会同步至 2025.1。</target>
       </segment>
     </unit>
     <unit id="8003e57d-2594-4653-9df3-010e8e5ab16b">
@@ -5882,9 +5882,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>`NVDAObjects.UIA.InaccurateTextChangeEventEmittingEditableText` is deprecated with no replacement. (#16817, @LeonarddeR)</source>
-        <target/>
+        <target>`NVDAObjects.UIA.InaccurateTextChangeEventEmittingEditableText` 已弃用，没有公开替代方案。 (#16817, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="272a9bb0-eebb-4c31-9f35-3494bfbc1c0a">
