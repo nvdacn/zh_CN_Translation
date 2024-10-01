@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-05 23:33+0000\n"
-"PO-Revision-Date: 2024-10-01 03:36+0800\n"
-"Last-Translator: hwf1324 <1398969445@qq.com>\n"
+"POT-Creation-Date: 2024-10-01 07:46+0000\n"
+"PO-Revision-Date: 2024-10-01 16:09+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -6581,25 +6581,25 @@ msgid "tab"
 msgstr "tab"
 
 #. Translators: One of the keyboard layouts for NVDA.
-#: keyboardHandler.py:440
+#: keyboardHandler.py:443
 msgid "desktop"
 msgstr "台式机"
 
 #. Translators: One of the keyboard layouts for NVDA.
-#: keyboardHandler.py:442
+#: keyboardHandler.py:445
 msgid "laptop"
 msgstr "笔记本"
 
 #. Translators: Reported for an unknown key press.
 #. %s will be replaced with the key code.
-#: keyboardHandler.py:530
+#: keyboardHandler.py:533
 #, python-format
 msgid "unknown %s"
 msgstr "%s 未知"
 
 #. Translators: a state that denotes a control is currently on
 #. E.g. a switch control.
-#: keyboardHandler.py:600 synthSettingsRing.py:117 controlTypes\state.py:198
+#: keyboardHandler.py:603 synthSettingsRing.py:117 controlTypes\state.py:198
 #: gui\speechDict.py:198
 msgid "on"
 msgstr "开"
@@ -6608,7 +6608,7 @@ msgstr "开"
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which disables reporting of progress bars.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
-#: keyboardHandler.py:600 synthSettingsRing.py:117 controlTypes\state.py:221
+#: keyboardHandler.py:603 synthSettingsRing.py:117 controlTypes\state.py:221
 #: gui\settingsDialogs.py:2272 gui\speechDict.py:198
 msgid "off"
 msgstr "关"
@@ -6616,13 +6616,13 @@ msgstr "关"
 #. Translators: Used when describing keys on the system keyboard with a particular layout.
 #. %s is replaced with the layout name.
 #. For example, in English, this might produce "laptop keyboard".
-#: keyboardHandler.py:716
+#: keyboardHandler.py:719
 #, python-format
 msgid "%s keyboard"
 msgstr "%s键盘"
 
 #. Translators: Used when describing keys on the system keyboard applying to all layouts.
-#: keyboardHandler.py:721
+#: keyboardHandler.py:724
 msgid "keyboard, all layouts"
 msgstr "键盘，所有布局"
 
@@ -9197,14 +9197,14 @@ msgctxt "poedit"
 msgid ""
 "Reports the previous source text, if any. If pressed twice, presents the "
 "text in browse mode"
-msgstr "读出先前的源文本（如果有）。连按两次，在浏览模式下显示该信息"
+msgstr "读出旧的源文本（如果有）。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The description of the "previous source text" window in poedit.
 #. This text is reported when the given window contains no item to report or could not be found.
 #: appModules\poedit.py:191
 msgctxt "poedit"
 msgid "previous source text"
-msgstr "先前的源文本"
+msgstr "旧的源文本"
 
 #. Translators: The description of an NVDA command for Poedit.
 #: appModules\poedit.py:206
@@ -18155,89 +18155,3 @@ msgstr "剩余 {hourText} {minuteText}"
 #: winAPI\secureDesktop.py:53
 msgid "Secure Desktop"
 msgstr "安全桌面"
-
-#~ msgid "Thai 6 dot"
-#~ msgstr "泰语 6 点盲文"
-
-#~ msgid ""
-#~ "An error has caused this feature to be unavailable at this time. "
-#~ "Restarting NVDA or Windows may solve this problem."
-#~ msgstr ""
-#~ "一个错误导致此功能目前不可用。重新启动 NVDA 或 Windows 可能会解决此问题。"
-
-#, python-brace-format
-#~ msgid ""
-#~ "An error has caused this feature ({title}) to be unavailable at this "
-#~ "time. Restarting NVDA or Windows may solve this problem."
-#~ msgstr ""
-#~ "一个错误导致 ({title}) 功能目前不可用。重新启动 NVDA 或 Windows 可能会解决"
-#~ "此问题。"
-
-#~ msgid "Text copied."
-#~ msgstr "文本已复制。"
-
-#~ msgid "Couldn't copy to clipboard."
-#~ msgstr "无法复制到剪贴板。"
-
-#~ msgid "Close"
-#~ msgstr "关闭"
-
-#~ msgid "Copy"
-#~ msgstr "复制"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Toggles on and off the reporting of font attributes"
-#~ msgstr "切换读出字体属性的开关"
-
-#~ msgid "report font attributes off"
-#~ msgstr "不读字体属性"
-
-#~ msgid "Reports the text of the comment where the system caret is located."
-#~ msgstr "读出系统输入焦点所在的批注文本。"
-
-#~ msgid "1 suggestion"
-#~ msgstr "1 个建议"
-
-#~ msgid "Reports the note on the current cell"
-#~ msgstr "读出当前单元的注释"
-
-#~ msgid "Increases the volume of the other applications"
-#~ msgstr "增加其他应用的音量"
-
-#~ msgid "Decreases the volume of the other applications"
-#~ msgstr "降低其他应用的音量"
-
-#~ msgid "Toggles other applications mute"
-#~ msgstr "切换其他应用的静音状态"
-
-#~ msgid ""
-#~ "Other applications' volume cannot be adjusted. Please enable WASAPI in "
-#~ "the Advanced category in NVDA Settings to use it."
-#~ msgstr ""
-#~ "其他应用的音量无法调节。请在 NVDA 高级设置中启用“音频输出使用 WASAPI”以使"
-#~ "用该功能。"
-
-#~ msgid ""
-#~ "Please enable applications' volume adjuster in order to adjust "
-#~ "applications' volume"
-#~ msgstr "请启用其他应用音量调节以调整其他应用的音量"
-
-#~ msgid "Applications volume {}"
-#~ msgstr "{} 其他应用音量"
-
-#~ msgid "Disabled Applications volume adjuster"
-#~ msgstr "禁用其他应用音量调节"
-
-#~ msgid "Enabled Applications volume adjuster"
-#~ msgstr "启用其他应用音量调节"
-
-#~ msgid "Mute other applications"
-#~ msgstr "静音其他应用"
-
-#~ msgid "Volume of other applications"
-#~ msgstr "其他应用的音量"
-
-#~ msgid "&Application volume adjuster mode"
-#~ msgstr "其他应用音量调节(&A)"
