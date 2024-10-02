@@ -11299,34 +11299,34 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>The screen review mode allows you to review the text of the screen as it appears visually within the current application.</source>
-        <target>屏幕模式允许您查看包含在当前程序内、实际上出现在屏幕上的文本。</target>
+        <target>屏幕查看模式允许您查看包含在当前程序内、实际上出现在屏幕上的文本。</target>
       </segment>
     </unit>
     <unit id="3e51584a-6347-4b75-b5f7-d76c5072dec3">
       <notes>
         <note appliesTo="source">line: 900</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This is similar to the screen review or mouse cursor functionality in many other Windows screen readers.</source>
-        <target>这与其他 Windows 屏幕阅读器的屏幕浏览或鼠标光标功能相类似。</target>
+        <target>这与其他 Windows 屏幕阅读器的屏幕查看或鼠标光标功能相类似。</target>
       </segment>
     </unit>
     <unit id="e2118080-98c6-44bc-a5e3-06da560d3d7e">
       <notes>
         <note appliesTo="source">line: 902</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When switching to screen review mode, the review cursor is placed at the screen position of the current [navigator object](#ObjectNavigation).</source>
-        <target>当切换到屏幕浏览模式时，浏览光标将被放置在当前[对象导航](#ObjectNavigation)的屏幕位置上。</target>
+        <target>当切换到屏幕浏览模式时，查看光标将被放置在当前[导航对象](#ObjectNavigation)的屏幕位置上。</target>
       </segment>
     </unit>
     <unit id="e900335c-26c0-483f-abec-7a143512384a">
       <notes>
         <note appliesTo="source">line: 903</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When moving around the screen with review commands, the navigator object is automatically updated to the object found at the screen position of the review cursor.</source>
-        <target>当使用查看命令在屏幕中移动时，导航对象将自动的移动到当前浏览光标所在位置的对象上。</target>
+        <target>当使用查看命令在屏幕中移动时，导航对象将自动移动到当前浏览光标所在位置的对象上。</target>
       </segment>
     </unit>
     <unit id="73360cb3-1171-4faf-aaa1-1f6967481393">
@@ -11544,9 +11544,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move mouse to current navigator object |NVDA+numpadDivide |NVDA+shift+m |none |Moves the mouse to the location of the current navigator object and review cursor</source>
-        <target>移动鼠标到当前浏览对象 | NVDA+数字键盘斜杠 | NVDA+shift+m | 无 | 移动鼠标到浏览光标和当前浏览对象所在的位置</target>
+        <target>移动鼠标到当前导航对象 | NVDA+数字键盘斜杠 | NVDA+shift+m | 无 | 移动鼠标到查看光标和当前导航对象所在的位置</target>
       </segment>
     </unit>
     <unit id="5365c824-75be-4ba1-94d8-a0293a1411d8">
@@ -13235,18 +13235,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1189</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>move the review cursor to the mathematical content.</source>
-        <target>移动浏览光标到数学内容。</target>
+        <target>移动查看光标到数学内容。</target>
       </segment>
     </unit>
     <unit id="01b40f4f-f196-4f4c-b54b-0f5e834cf0e6">
       <notes>
         <note appliesTo="source">line: 1190</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>By default, the review cursor follows the system caret, so you can usually use the system caret to move to the desired content.</source>
-        <target>默认情况下，浏览光标会跟随系统输入焦点，所以，实际上您可以直接使用系统输入焦点移动到期望的内容。</target>
+        <target>默认情况下，查看光标会跟随系统输入焦点，所以，实际上您可以直接使用系统输入焦点移动到期望的内容。</target>
       </segment>
     </unit>
     <unit id="2227465e-d77d-413a-96ea-733610c468da">
@@ -16415,9 +16415,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1685</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>On Windows versions before Windows 11 22H2, text in the console that is not visibly displayed in the window is not accessible with NVDA's text review commands.</source>
-        <target>在 Windows 11 22H2 之前的版本中，NVDA 的对象文本查看命令无法访问未显示在窗口中的文本。</target>
+        <target>在 Windows 11 22H2 之前的版本中，NVDA 的文本查看命令无法访问未显示在窗口中的文本。</target>
       </segment>
     </unit>
     <unit id="f8ea4844-fa77-46e8-a213-46f337f783d3">
@@ -18768,9 +18768,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2080</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When follow cursors is selected, the braille display will follow either the system focus/caret or the navigator object/review cursor, depending on what braille is tethered to.</source>
-        <target>选择跟随光标后，盲文点显器将跟随系统焦点/系统输入光标或导航对象/浏览光标，具体取决于“盲文显示跟随”设置。</target>
+        <target>选择跟随光标后，盲文点显器将跟随系统焦点/系统输入光标或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
       </segment>
     </unit>
     <unit id="52d88a5e-4e39-4a6a-93d4-8dc82422aa04">
@@ -18826,9 +18826,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2091</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>It applies to the system caret and review cursor, but not to the selection indicator.</source>
-        <target>该设置会应用到系统输入焦点和浏览光标，而并不会作用于选择指示器。换言之，此选项对选择指示器无效。</target>
+        <target>该设置会应用到系统输入焦点和查看光标，而并不会作用于选择指示器。换言之，此选项对选择指示器无效。</target>
       </segment>
     </unit>
     <unit id="b02eb09c-be15-4f67-8a28-7451a4c32296">
@@ -18924,18 +18924,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsCursorShapeForReview}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Cursor Shape for Review</source>
-        <target>跟随浏览光标时盲文光标的形状</target>
+        <target>跟随查看光标时盲文光标的形状</target>
       </segment>
     </unit>
     <unit id="35f7ed02-9fed-405e-b3ef-c1e57185a566">
       <notes>
         <note appliesTo="source">line: 2110</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option allows you to choose the shape (dot pattern) of the braille cursor when braille is tethered to review.</source>
-        <target>此选项允许您在盲文光标跟随浏览光标时，选择盲文光标的形状（哪些点位）。</target>
+        <target>此选项允许您在盲文光标跟随查看光标时，选择盲文光标的形状（哪些点位）。</target>
       </segment>
     </unit>
     <unit id="108f0ac7-9b53-416d-a779-dc1b2eb11201">
@@ -19038,7 +19038,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2131</note>
       </notes>
-      <segment state="final">
+      <segment state="translated" subState="poedit:fuzzy">
         <source>This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both.</source>
         <target>此选项允许您选择是否希望点显器跟随系统焦点或浏览对象（即浏览光标）。</target>
       </segment>
@@ -19047,7 +19047,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2132</note>
       </notes>
-      <segment state="final">
+      <segment state="translated" subState="poedit:fuzzy">
         <source>When "automatically" is selected, NVDA will follow the system focus and caret by default.</source>
         <target>如果选中了“自动”，盲文光标会跟随系统焦点或浏览对象（即浏览光标）</target>
       </segment>
@@ -19056,9 +19056,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2133</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In this case, when the navigator object or the review cursor position is changed by means of explicit user interaction, NVDA will tether to review temporarily, until the focus or the caret changes.</source>
-        <target>此时，如果用户操作改变了浏览对象，NVDA 会让盲文光标暂时跟随浏览对象，直到系统焦点或者输入焦点改变为止。</target>
+        <target>此时，如果用户操作改变了导航对象或查看光标，NVDA 会让盲文光标暂时跟随查看光标，直到系统焦点或者输入焦点改变为止。</target>
       </segment>
     </unit>
     <unit id="6f2884c5-d573-46d4-959f-e9e1c5e4a896">
@@ -19074,27 +19074,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2135</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In this case, braille will not follow the NVDA navigator during object navigation or the review cursor during review.</source>
-        <target>此时，盲文光标不会跟随文本浏览或导航对象。</target>
+        <target>此时，盲文光标不会跟随查看光标或导航对象。</target>
       </segment>
     </unit>
     <unit id="cbbd1a7d-e72c-4b92-af24-c107d5ac2ca4">
       <notes>
         <note appliesTo="source">line: 2136</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you want braille to follow object navigation and text review instead, you need to configure braille to be tethered to review.</source>
-        <target>如果您想让盲文光标只跟随文本浏览或对象浏览，需要把这个设置改成浏览光标。</target>
+        <target>如果您想让盲文光标只跟随文本查看或对象导航，需要把这个设置改成查看光标。</target>
       </segment>
     </unit>
     <unit id="b3256118-e4d8-4748-b4b3-bba83a0e3caa">
       <notes>
         <note appliesTo="source">line: 2137</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In this case, Braille  will not follow system focus and system caret.</source>
-        <target>此时盲文光标不再跟随系统焦点或导航对象。</target>
+        <target>此时盲文光标不再跟随系统焦点或系统输入焦点。</target>
       </segment>
     </unit>
     <unit id="8227c48e-3d11-412e-80c2-437ff9ccf394">
@@ -19103,9 +19103,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsReviewRoutingMovesSystemCaret}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move system caret when routing review cursor</source>
-        <target>移动浏览光标时移动系统输入光标</target>
+        <target>移动查看光标时移动系统输入光标</target>
       </segment>
     </unit>
     <unit id="b089cc37-a9d0-4b76-93d3-29b98b24d035">
@@ -19121,27 +19121,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2142</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is set to Never by default, meaning that routing will never move the caret when routing the review cursor.</source>
-        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动浏览光标时从不移动系统光标。</target>
+        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动系统光标。</target>
       </segment>
     </unit>
     <unit id="18819352-c975-41e2-90ca-8b90ce810da5">
       <notes>
         <note appliesTo="source">line: 2144</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When this option is set to Always, and [braille tethering](#BrailleTether) is set to "automatically" or "to review", pressing a cursor routing key will also move the system caret or focus when supported.</source>
-        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“浏览光标”时，按盲文点显器上的定位按键也将在支持时移动系统光标或系统焦点。</target>
+        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统光标或系统焦点。</target>
       </segment>
     </unit>
     <unit id="46ca02cd-2af4-499f-8602-bcbd2ff791cc">
       <notes>
         <note appliesTo="source">line: 2145</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When the current review mode is [Screen Review](#ScreenReview), there is no physical caret.</source>
-        <target>若当前浏览模式为[屏幕浏览](#ScreenReview)时，没有物理光标。</target>
+        <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理光标。</target>
       </segment>
     </unit>
     <unit id="f8faf4f6-91a5-418b-bf22-a0e188491b12">
@@ -19157,9 +19157,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2147</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The same applies to [object review](#ObjectReview).</source>
-        <target>这同样适用于[对象浏览](#ObjectReview)。</target>
+        <target>这同样适用于[对象查看](#ObjectReview)。</target>
       </segment>
     </unit>
     <unit id="5f7f9f86-35b0-481a-889c-9dec397d6f26">
@@ -19175,27 +19175,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2150</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In that case, pressing a cursor routing key will only move the system caret or focus when NVDA is tethered to the review cursor automatically, whereas no movement will occur when manually tethered to the review cursor.</source>
-        <target>在这种情况下，当 NVDA 自动跟随浏览光标时，按光标定位键只会移动系统光标或系统焦点，而手动跟随到浏览光标时不会发生任何移动。</target>
+        <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统光标或系统焦点，而手动跟随到查看光标时不会发生任何移动。</target>
       </segment>
     </unit>
     <unit id="e84a54fe-a113-409d-9f14-106f86f7c453">
       <notes>
         <note appliesTo="source">line: 2152</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is shown only if "[tether braille](#BrailleTether)" is set to "automatically" or "to review".</source>
-        <target>仅当“[盲文光标跟随](#BrailleTether)”设置为“自动”或“浏览光标”时，才会显示此选项。</target>
+        <target>仅当“[盲文光标跟随](#BrailleTether)”设置为“自动”或“查看光标”时，才会显示此选项。</target>
       </segment>
     </unit>
     <unit id="f53030d1-3b3d-492a-b6f2-1b847302e2b6">
       <notes>
         <note appliesTo="source">line: 2154</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To toggle move system caret when routing review cursor from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>如需在任意位置随意切换“移动浏览光标时移动系统输入光标”模式，请在[按键与首饰](#InputGestures)中分配一个快捷键。</target>
+        <target>如需在任意位置随意切换“移动查看光标时移动系统输入光标”模式，请在[按键与首饰](#InputGestures)中分配一个快捷键。</target>
       </segment>
     </unit>
     <unit id="0fb5939a-9b15-4e4f-b08f-a42393f13419">
@@ -22084,27 +22084,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#ReviewCursorSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Review Cursor</source>
-        <target>浏览光标设置</target>
+        <target>查看光标设置</target>
       </segment>
     </unit>
     <unit id="c998837f-8a80-4ff5-8243-bd61d7e51fee">
       <notes>
         <note appliesTo="source">line: 2659</note>
       </notes>
-      <segment state="final">
+      <segment>
         <source>The Review Cursor category in the NVDA Settings dialog is used to configure NVDA's review cursor behaviour.</source>
-        <target>可以再“选项”菜单下的“浏览光标...”找到。</target>
+        <target/>
       </segment>
     </unit>
     <unit id="1eba4723-e089-4aa0-a2ba-3acd289f8464">
       <notes>
         <note appliesTo="source">line: 2660</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This category contains the following options:</source>
-        <target>此对话框包含以下选项：</target>
+        <target>此类别包含以下选项：</target>
       </segment>
     </unit>
     <unit id="2f9aae03-6991-42c0-a815-0e4ea527464f">
@@ -22131,9 +22131,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2668</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When enabled, The review cursor will always be placed in the same object as the current system focus whenever the focus changes.</source>
-        <target>如果启用，浏览光标无论什么时候都会与系统焦点处于相同的对象上，即使系统焦点进行了移动。</target>
+        <target>如果启用，查看光标无论什么时候都会与系统焦点处于相同的对象上，即使系统焦点进行了移动。</target>
       </segment>
     </unit>
     <unit id="426b4c9e-d3f5-46c7-814d-1148f185ef0c">
@@ -22160,9 +22160,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2676</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When enabled, the review cursor will automatically be moved to the position of the System caret each time it moves.</source>
-        <target>如果启用，浏览光标将在每次系统输入焦点移动时自动地移动到它所在的位置上。</target>
+        <target>如果启用，查看光标将在每次系统输入焦点移动时自动地移动到它所在的位置上。</target>
       </segment>
     </unit>
     <unit id="43321f81-8d82-486d-b275-96b570c60d2f">
@@ -22180,9 +22180,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2680</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When enabled, the review cursor will follow the mouse as it moves.</source>
-        <target>如果启用，浏览光标会随着鼠标的移动而移动。</target>
+        <target>如果启用，查看光标会随着鼠标的移动而移动。</target>
       </segment>
     </unit>
     <unit id="6403523a-9ab5-4d11-85e1-3f9ae12ba4c2">
@@ -22191,27 +22191,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReviewCursorSimple}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Simple Review mode</source>
-        <target>简易浏览模式</target>
+        <target>简易查看模式</target>
       </segment>
     </unit>
     <unit id="74b434db-32c5-48e7-a3f9-c55b6d2e4d76">
       <notes>
         <note appliesTo="source">line: 2684</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When enabled, NVDA will filter the hierarchy of objects that can be navigated to exclude objects that aren't of interest to the user; e.g. invisible objects and objects used only for layout purposes.</source>
-        <target>如果启用，NVDA 会通过过滤可被浏览到的层级对象（例如隐藏对象或者仅起到布局作用的对象），达到排除用户不感兴趣的对象的目的。</target>
+        <target>如果启用，NVDA 会通过过滤可被导航到的层级对象（例如隐藏对象或者仅起到布局作用的对象），达到排除用户不感兴趣的对象的目的。</target>
       </segment>
     </unit>
     <unit id="6b4d4559-f26b-45c9-8d4a-aefdfaa150c5">
       <notes>
         <note appliesTo="source">line: 2686</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To toggle simple review mode from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>要想随时随地切换浏览模式，您可在[按键与手势对话框](#InputGestures)增加新的自定义快捷键。</target>
+        <target>要想随时随地切换简易查看模式，您可在[按键与手势对话框](#InputGestures)增加新的自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="82a997c2-7069-44fc-8b5b-8f66be68acf1">
@@ -22731,9 +22731,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2782</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Note that even with this option off, the review cursor will still be placed on the selected candidate allowing you to use object navigation / review to manually read this or other candidates.</source>
-        <target>请注意，即使此选项被关闭，浏览光标仍然会停留在选择的候选上，并允许您使用导航对象（即浏览光标）来手动读取选择的或者其他的候选。</target>
+        <target>请注意，即使此选项被关闭，查看光标仍然会停留在选择的候选上，并允许您使用导航对象或文本查看来手动读取选择的或者其他的候选。</target>
       </segment>
     </unit>
     <unit id="5d127f7d-bb89-4dd4-94cf-e431064a509c">
@@ -23950,9 +23950,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2966</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>By default, NVDA will detect the formatting at the position of the System caret / Review Cursor, and in some instances may detect formatting on the rest of the line, only if it is not going to cause a performance decrease.</source>
-        <target>默认情况下，NVDA 会检测系统输入焦点或者浏览光标所在位置的格式信息，某些情况也会检测这一行的剩余部分，前提是这样做不会降低执行效率。</target>
+        <target>默认情况下，NVDA 会检测系统输入焦点或查看光标所在位置的格式信息，某些情况也会检测这一行的剩余部分，前提是这样做不会降低执行效率。</target>
       </segment>
     </unit>
     <unit id="51cdd305-2ad1-4ec7-9213-e6920512fb91">
