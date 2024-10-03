@@ -4764,14 +4764,14 @@ msgstr "没有默认动作"
 msgid ""
 "Moves the review cursor to the top line of the current navigator object and "
 "speaks it"
-msgstr "将查看光标移动到当前导航对象的第一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的第一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous line command.
 #: globalCommands.py:1742
 msgid ""
 "Moves the review cursor to the previous line of the current navigator object "
 "and speaks it"
-msgstr "将查看光标移动到当前导航对象的上一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的上一行并将其读出"
 
 #. Translators: a message reported when review cursor is at the top line of the current navigator object.
 #. Translators: Reported when attempting to move to the previous result in the Python Console
@@ -4787,22 +4787,21 @@ msgid ""
 "Reports the line of the current navigator object where the review cursor is "
 "situated. If this key is pressed twice, the current line will be spelled. "
 "Pressing three times will spell the line using character descriptions."
-msgstr ""
-"读出当前导航对象查看光标的所在行；连按两次拼读该行；连按三次竹字描述该行。"
+msgstr "读出查看光标的所在行；连按两次拼读该行；连按三次竹字描述该行。"
 
 #. Translators: Input help mode message for move review cursor to next line command.
 #: globalCommands.py:1804
 msgid ""
 "Moves the review cursor to the next line of the current navigator object and "
 "speaks it"
-msgstr "将查看光标移动到当前导航对象的下一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的下一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous page command.
 #: globalCommands.py:1843
 msgid ""
 "Moves the review cursor to the previous page of the current navigator object "
 "and speaks it"
-msgstr "将查看光标移动到当前导航对象的上一页并将其读出"
+msgstr "将查看光标移动到当前查看文本的上一页并将其读出"
 
 #. Translators: a message reported when movement by page is unsupported
 #: globalCommands.py:1857 globalCommands.py:1893
@@ -4814,21 +4813,21 @@ msgstr "不支持按页移动"
 msgid ""
 "Moves the review cursor to the next page of the current navigator object and "
 "speaks it"
-msgstr "将查看光标移动到当前导航对象的下一页并将其读出"
+msgstr "将查看光标移动到当前查看文本的下一页并将其读出"
 
 #. Translators: Input help mode message for move review cursor to bottom line command.
 #: globalCommands.py:1916
 msgid ""
 "Moves the review cursor to the bottom line of the current navigator object "
 "and speaks it"
-msgstr "将查看光标移动到当前导航对象的最后一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的最后一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous word command.
 #: globalCommands.py:1941
 msgid ""
 "Moves the review cursor to the previous word of the current navigator object "
 "and speaks it"
-msgstr "将查看光标移动到当前导航对象的前一个单词并将其读出"
+msgstr "将查看光标移动到当前查看文本的前一个单词并将其读出"
 
 #. Translators: Input help mode message for report current word under review cursor command.
 #: globalCommands.py:1974
@@ -4836,30 +4835,28 @@ msgid ""
 "Speaks the word of the current navigator object where the review cursor is "
 "situated. Pressing twice spells the word. Pressing three times spells the "
 "word using character descriptions"
-msgstr ""
-"读出当前导航对象查看光标所在的单词，连按两次拼读该单词，连按三次则竹字描述该"
-"单词"
+msgstr "读出查看光标所在的单词，连按两次拼读该单词，连按三次则竹字描述该单词"
 
 #. Translators: Input help mode message for move review cursor to next word command.
 #: globalCommands.py:2003
 msgid ""
 "Moves the review cursor to the next word of the current navigator object and "
 "speaks it"
-msgstr "将查看光标移动到当前导航对象的后一个单词并将其读出"
+msgstr "将查看光标移动到当前查看文本的后一个单词并将其读出"
 
 #. Translators: Input help mode message for move review cursor to start of current line command.
 #: globalCommands.py:2041
 msgid ""
 "Moves the review cursor to the first character of the line where it is "
 "situated in the current navigator object and speaks it"
-msgstr "将查看光标移动到当前导航对象的行首字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的行首字符并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous character command.
 #: globalCommands.py:2070
 msgid ""
 "Moves the review cursor to the previous character of the current navigator "
 "object and speaks it"
-msgstr "将查看光标移动到当前导航对象的前一个字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的前一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the leftmost character of the current navigator object's text.
 #: globalCommands.py:2084
@@ -4874,15 +4871,15 @@ msgid ""
 "character. Pressing three times reports the numeric value of the character "
 "in decimal and hexadecimal"
 msgstr ""
-"读出当前导航对象查看光标所在处的字符，连按两次解释该字符，连续按三次则读出该"
-"字符的十进制和十六进制代码"
+"读出查看光标所在处的字符，连按两次解释该字符，连续按三次则读出该字符的十进制"
+"和十六进制代码"
 
 #. Translators: Input help mode message for move review cursor to next character command.
 #: globalCommands.py:2155
 msgid ""
 "Moves the review cursor to the next character of the current navigator "
 "object and speaks it"
-msgstr "将查看光标移动到当前导航对象的后一个字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的后一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the rightmost character of the current navigator object's text.
 #: globalCommands.py:2169
@@ -4894,7 +4891,7 @@ msgstr "右"
 msgid ""
 "Moves the review cursor to the last character of the line where it is "
 "situated in the current navigator object and speaks it"
-msgstr "将查看光标移动到当前导航对象的行尾字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的行尾字符并将其读出"
 
 #. Translators: Input help mode message for Review Current Symbol command.
 #: globalCommands.py:2231
