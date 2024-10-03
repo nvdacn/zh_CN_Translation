@@ -11028,9 +11028,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated" subState="poedit:fuzzy">
+      <segment state="translated">
         <source>Select then Copy to review cursor |NVDA+f10 |NVDA+f10 |none |On the first press, text is selected from the position previously set as start marker up to and including the review cursor's current position. If the system caret can reach the text, it will be moved to the selected text. After pressing this key stroke a second time, the text will be copied to the Windows clipboard</source>
-        <target>标记结束点 | NVDA+f10 | NVDA+f10 | 无 | 按一次，选中开始点和结束点之间的文本；连按两次，把开始点和结束点之间的文本复制到剪贴板。如果系统输入焦点可以移动到结束点，当您按下此键时，文本将被真正的复制到 Windows 剪贴板</target>
+        <target>标记结束点 | NVDA+f10 | NVDA+f10 | 无 | 按一次，选中开始点和结束点之间的文本，同时尝试将系统输入焦点移动到选定的文本；连按两次，把开始点和结束点之间的文本复制到剪贴板</target>
       </segment>
     </unit>
     <unit id="6df1fca6-062b-4ab7-b0cc-79ded1527f59">
@@ -11141,9 +11141,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 869</note>
       </notes>
-      <segment state="translated" subState="poedit:fuzzy">
+      <segment state="translated">
         <source>NVDA's [text review commands](#ReviewingText) can review content within the current navigator object, current document or screen, depending on the review mode selected.</source>
-        <target>NVDA 的[文本查看命令](#ReviewingText) 可以查看当前导航对象的内容，即当前的文档或者屏幕，依照您当前选择的模式而定。</target>
+        <target>NVDA 的[文本查看命令](#ReviewingText) 可以查看当前导航对象、当前文档或屏幕中的内容，具体取决于所选的查看模式。</target>
       </segment>
     </unit>
     <unit id="5a3c39ba-719b-46af-a2e8-4054d092585e">
@@ -19038,18 +19038,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2131</note>
       </notes>
-      <segment state="translated" subState="poedit:fuzzy">
+      <segment state="translated">
         <source>This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both.</source>
-        <target>此选项允许您选择是否希望点显器跟随系统焦点或浏览对象（即浏览光标）。</target>
+        <target>此选项允许您选择是否希望点显器跟随系统焦点/输入焦点、导航对象/查看光标或自动。</target>
       </segment>
     </unit>
     <unit id="e4daa63c-3a5c-41f2-8b01-a8604310d25f">
       <notes>
         <note appliesTo="source">line: 2132</note>
       </notes>
-      <segment state="translated" subState="poedit:fuzzy">
+      <segment state="translated">
         <source>When "automatically" is selected, NVDA will follow the system focus and caret by default.</source>
-        <target>如果选中了“自动”，盲文光标会跟随系统焦点或浏览对象（即浏览光标）</target>
+        <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或输入焦点。</target>
       </segment>
     </unit>
     <unit id="ca25560b-db7b-444b-9841-54484d0aca6a">
@@ -22086,16 +22086,16 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Review Cursor</source>
-        <target>查看光标设置</target>
+        <target>查看光标</target>
       </segment>
     </unit>
     <unit id="c998837f-8a80-4ff5-8243-bd61d7e51fee">
       <notes>
         <note appliesTo="source">line: 2659</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>The Review Cursor category in the NVDA Settings dialog is used to configure NVDA's review cursor behaviour.</source>
-        <target/>
+        <target>此类别用于配置 NVDA 的查看光标行为。</target>
       </segment>
     </unit>
     <unit id="1eba4723-e089-4aa0-a2ba-3acd289f8464">
