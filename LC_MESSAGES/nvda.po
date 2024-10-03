@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-01 07:46+0000\n"
-"PO-Revision-Date: 2024-10-01 16:09+0800\n"
+"POT-Creation-Date: 2024-10-01 08:31+0000\n"
+"PO-Revision-Date: 2024-10-03 17:14+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3520,7 +3520,7 @@ msgstr "未选择文本"
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:202
 #: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:345
 #: NVDAObjects\window\edit.py:714 NVDAObjects\window\excel.py:1300
-#: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1057
+#: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1122
 #: virtualBuffers\adobeAcrobat.py:83
 #, python-format
 msgctxt "font size"
@@ -6647,7 +6647,7 @@ msgstr "%s 未知"
 
 #. Translators: a state that denotes a control is currently on
 #. E.g. a switch control.
-#: keyboardHandler.py:603 synthSettingsRing.py:117 controlTypes\state.py:198
+#: keyboardHandler.py:603 synthSettingsRing.py:117 controlTypes\state.py:201
 #: gui\speechDict.py:198
 msgid "on"
 msgstr "开"
@@ -6656,8 +6656,8 @@ msgstr "开"
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which disables reporting of progress bars.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
-#: keyboardHandler.py:603 synthSettingsRing.py:117 controlTypes\state.py:221
-#: gui\settingsDialogs.py:2272 gui\speechDict.py:198
+#: keyboardHandler.py:603 synthSettingsRing.py:117 controlTypes\state.py:227
+#: gui\settingsDialogs.py:2349 gui\speechDict.py:198
 msgid "off"
 msgstr "关"
 
@@ -11235,7 +11235,7 @@ msgstr "背景色"
 
 #. Translators: Describes style of text.
 #. Translators: a Microsoft Word revision type (style change)
-#: controlTypes\role.py:492 NVDAObjects\window\winword.py:291
+#: controlTypes\role.py:492 NVDAObjects\window\winword.py:356
 msgid "style"
 msgstr "样式"
 
@@ -16002,13 +16002,13 @@ msgstr "离开表格"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\UIA\wordDocument.py:66 NVDAObjects\window\winword.py:1884
+#: NVDAObjects\UIA\wordDocument.py:66 NVDAObjects\window\winword.py:1978
 msgid "&Annotations"
 msgstr "注释(&A)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\UIA\wordDocument.py:69 NVDAObjects\window\winword.py:1890
+#: NVDAObjects\UIA\wordDocument.py:69 NVDAObjects\window\winword.py:1984
 msgid "&Errors"
 msgstr "错误(&E)"
 
@@ -17051,7 +17051,7 @@ msgstr "在此列表中列举了各种类型的元素"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:726 NVDAObjects\window\winword.py:1887
+#: NVDAObjects\window\excel.py:726 NVDAObjects\window\winword.py:1981
 msgid "&Charts"
 msgstr "图表(&C)"
 
@@ -17081,37 +17081,36 @@ msgstr "{start} 到 {end}"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1224 NVDAObjects\window\winword.py:1525
+#: NVDAObjects\window\excel.py:1224 NVDAObjects\window\winword.py:1591
 msgid "Bold off"
 msgstr "关闭粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1226 NVDAObjects\window\winword.py:1522
+#: NVDAObjects\window\excel.py:1226 NVDAObjects\window\winword.py:1588
 msgid "Bold on"
 msgstr "打开粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1238 NVDAObjects\window\winword.py:1542
+#: NVDAObjects\window\excel.py:1238 NVDAObjects\window\winword.py:1609
 msgid "Italic off"
 msgstr "关闭斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1240 NVDAObjects\window\winword.py:1539
+#: NVDAObjects\window\excel.py:1240 NVDAObjects\window\winword.py:1606
 msgid "Italic on"
 msgstr "打开斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1252 NVDAObjects\window\winword.py:1559
+#: NVDAObjects\window\excel.py:1252 NVDAObjects\window\winword.py:1638
 msgid "Underline off"
 msgstr "关闭下划线"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1254 NVDAObjects\window\winword.py:1556
+#: NVDAObjects\window\excel.py:1254
 msgid "Underline on"
 msgstr "打开下划线"
 
@@ -17410,134 +17409,214 @@ msgstr "{desc} 右上和右下对角线"
 msgid "{desc} {position}"
 msgstr "{desc} {position}"
 
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:112
+msgid "Words only"
+msgstr "文字"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:114
+msgid "Double"
+msgstr "双"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:116
+msgid "Dotted"
+msgstr "点"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:118
+msgid "Thick"
+msgstr "粗线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:120
+msgid "Dash"
+msgstr "划线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:122
+msgid "Dot dash"
+msgstr "点划线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:124
+msgid "Dot dot dash"
+msgstr "点点划线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:126
+msgid "Wave"
+msgstr "波浪线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:128
+msgid "Dotted heavy"
+msgstr "粗点线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:130
+msgid "Dashed heavy"
+msgstr "粗划线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:132
+msgid "Dot dash heavy"
+msgstr "粗点划线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:134
+msgid "Dot dot dash heavy"
+msgstr "粗点点划线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:136
+msgid "Wave heavy"
+msgstr "粗波浪线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:138
+msgid "Dashed long"
+msgstr "长划线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:140
+msgid "Wave double"
+msgstr "双波浪线"
+
+#. Translators: an underline style in Microsoft Word as announced in the font window.
+#: NVDAObjects\window\winword.py:142
+msgid "Dashed long heavy"
+msgstr "长粗划线"
+
 #. Translators: a Microsoft Word revision type (inserted content)
-#: NVDAObjects\window\winword.py:277
+#: NVDAObjects\window\winword.py:342
 msgid "insertion"
 msgstr "插入"
 
 #. Translators: a Microsoft Word revision type (deleted content)
-#: NVDAObjects\window\winword.py:279
+#: NVDAObjects\window\winword.py:344
 msgid "deletion"
 msgstr "删除"
 
 #. Translators: a Microsoft Word revision type (changed content property, e.g. font, color)
-#: NVDAObjects\window\winword.py:281
+#: NVDAObjects\window\winword.py:346
 msgid "property"
 msgstr "属性"
 
 #. Translators: a Microsoft Word revision type (changed paragraph number)
-#: NVDAObjects\window\winword.py:283
+#: NVDAObjects\window\winword.py:348
 msgid "paragraph number"
 msgstr "段落序号"
 
 #. Translators: a Microsoft Word revision type (display field)
-#: NVDAObjects\window\winword.py:285
+#: NVDAObjects\window\winword.py:350
 msgid "display field"
 msgstr "显示区域"
 
 #. Translators: a Microsoft Word revision type (reconcile)
-#: NVDAObjects\window\winword.py:287
+#: NVDAObjects\window\winword.py:352
 msgid "reconcile"
 msgstr "解决"
 
 #. Translators: a Microsoft Word revision type (conflicting revision)
-#: NVDAObjects\window\winword.py:289
+#: NVDAObjects\window\winword.py:354
 msgid "conflict"
 msgstr "冲突"
 
 #. Translators: a Microsoft Word revision type (replaced content)
-#: NVDAObjects\window\winword.py:293
+#: NVDAObjects\window\winword.py:358
 msgid "replace"
 msgstr "替换"
 
 #. Translators: a Microsoft Word revision type (changed paragraph property, e.g. alignment)
-#: NVDAObjects\window\winword.py:295
+#: NVDAObjects\window\winword.py:360
 msgid "paragraph property"
 msgstr "段落属性"
 
 #. Translators: a Microsoft Word revision type (table)
-#: NVDAObjects\window\winword.py:297
+#: NVDAObjects\window\winword.py:362
 msgid "table property"
 msgstr "表格属性"
 
 #. Translators: a Microsoft Word revision type (section property)
-#: NVDAObjects\window\winword.py:299
+#: NVDAObjects\window\winword.py:364
 msgid "section property"
 msgstr "部分属性"
 
 #. Translators: a Microsoft Word revision type (style definition)
-#: NVDAObjects\window\winword.py:301
+#: NVDAObjects\window\winword.py:366
 msgid "style definition"
 msgstr "样式定义"
 
 #. Translators: a Microsoft Word revision type (moved from)
-#: NVDAObjects\window\winword.py:303
+#: NVDAObjects\window\winword.py:368
 msgid "moved from"
 msgstr "从此处移动"
 
 #. Translators: a Microsoft Word revision type (moved to)
-#: NVDAObjects\window\winword.py:305
+#: NVDAObjects\window\winword.py:370
 msgid "moved to"
 msgstr "移动到"
 
 #. Translators: a Microsoft Word revision type (inserted table cell)
-#: NVDAObjects\window\winword.py:307
+#: NVDAObjects\window\winword.py:372
 msgid "cell insertion"
 msgstr "单元插入"
 
 #. Translators: a Microsoft Word revision type (deleted table cell)
-#: NVDAObjects\window\winword.py:309
+#: NVDAObjects\window\winword.py:374
 msgid "cell deletion"
 msgstr "单元移除"
 
 #. Translators: a Microsoft Word revision type (merged table cells)
-#: NVDAObjects\window\winword.py:311
+#: NVDAObjects\window\winword.py:376
 msgid "cell merge"
 msgstr "单元合并"
 
-#: NVDAObjects\window\winword.py:315
+#: NVDAObjects\window\winword.py:380
 msgid "Comments"
 msgstr "批注"
 
-#: NVDAObjects\window\winword.py:316
+#: NVDAObjects\window\winword.py:381
 msgid "Endnotes"
 msgstr "尾注"
 
-#: NVDAObjects\window\winword.py:317
+#: NVDAObjects\window\winword.py:382
 msgid "Even pages footer"
 msgstr "偶数页页脚"
 
-#: NVDAObjects\window\winword.py:318
+#: NVDAObjects\window\winword.py:383
 msgid "Even pages header"
 msgstr "偶数页页首"
 
-#: NVDAObjects\window\winword.py:319
+#: NVDAObjects\window\winword.py:384
 msgid "First page footer"
 msgstr "首页页脚"
 
-#: NVDAObjects\window\winword.py:320
+#: NVDAObjects\window\winword.py:385
 msgid "First page header"
 msgstr "首页页首"
 
-#: NVDAObjects\window\winword.py:321
+#: NVDAObjects\window\winword.py:386
 msgid "Footnotes"
 msgstr "脚注"
 
-#: NVDAObjects\window\winword.py:322
+#: NVDAObjects\window\winword.py:387
 msgid "Primary footer"
 msgstr "主要页脚"
 
-#: NVDAObjects\window\winword.py:323
+#: NVDAObjects\window\winword.py:388
 msgid "Primary header"
 msgstr "主要页首"
 
-#: NVDAObjects\window\winword.py:324
+#: NVDAObjects\window\winword.py:389
 msgid "Text frame"
 msgstr "文本框"
 
 #. Translators: The label shown for a comment in the NVDA Elements List dialog in Microsoft Word.
 #. {text}, {author} and {date} will be replaced by the corresponding details about the comment.
-#: NVDAObjects\window\winword.py:445
+#: NVDAObjects\window\winword.py:510
 #, python-brace-format
 msgid "comment: {text} by {author} on {date}"
 msgstr "批注: {text} 由 {author} 创建于 {date}"
@@ -17546,64 +17625,64 @@ msgstr "批注: {text} 由 {author} 创建于 {date}"
 #. {revisionType} will be replaced with the type of revision; e.g. insertion, deletion or property.
 #. {description} will be replaced with a description of the formatting changes, if any.
 #. {text}, {author} and {date} will be replaced by the corresponding details about the revision.
-#: NVDAObjects\window\winword.py:468
+#: NVDAObjects\window\winword.py:533
 #, python-brace-format
 msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr "{revisionType} {description}: {text} 由 {author} 在 {date}"
 
 #. Translators: The label shown for a spelling error in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the spelling error.
-#: NVDAObjects\window\winword.py:506 UIAHandler\browseMode.py:117
+#: NVDAObjects\window\winword.py:571 UIAHandler\browseMode.py:117
 #, python-brace-format
 msgid "spelling: {text}"
 msgstr "拼读： {text}"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
-#: NVDAObjects\window\winword.py:699
+#: NVDAObjects\window\winword.py:764
 #, python-brace-format
 msgid "{distance} from left edge of page"
 msgstr "距页面左边 {distance}"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
-#: NVDAObjects\window\winword.py:703
+#: NVDAObjects\window\winword.py:768
 #, python-brace-format
 msgid "{distance} from top edge of page"
 msgstr "距页面顶边 {distance}"
 
 #. Translators: single line spacing
-#: NVDAObjects\window\winword.py:975
+#: NVDAObjects\window\winword.py:1040
 msgctxt "line spacing value"
 msgid "single"
 msgstr "单倍行距"
 
 #. Translators: double line spacing
-#: NVDAObjects\window\winword.py:978
+#: NVDAObjects\window\winword.py:1043
 msgctxt "line spacing value"
 msgid "double"
 msgstr "2 倍行距"
 
 #. Translators:  line spacing of 1.5 lines
-#: NVDAObjects\window\winword.py:981
+#: NVDAObjects\window\winword.py:1046
 msgctxt "line spacing value"
 msgid "1.5 lines"
 msgstr "1.5 倍行距"
 
 #. Translators: line spacing of exactly x point
-#: NVDAObjects\window\winword.py:986
+#: NVDAObjects\window\winword.py:1051
 #, python-brace-format
 msgctxt "line spacing value"
 msgid "exactly {space:.1f} pt"
 msgstr "固定值 {space:.1f} pt"
 
 #. Translators: line spacing of at least x point
-#: NVDAObjects\window\winword.py:990
+#: NVDAObjects\window\winword.py:1055
 #, python-format
 msgctxt "line spacing value"
 msgid "at least %.1f pt"
 msgstr "至少 %.1f pt"
 
 #. Translators: line spacing of x lines
-#: NVDAObjects\window\winword.py:1000
+#: NVDAObjects\window\winword.py:1065
 #, python-format
 msgctxt "line spacing value"
 msgid "%.1f line"
@@ -17611,153 +17690,174 @@ msgid_plural "%.1f lines"
 msgstr[0] "%.1f 行"
 
 #. Translators: the title of the message dialog desplaying an MS Word table description.
-#: NVDAObjects\window\winword.py:1271
+#: NVDAObjects\window\winword.py:1336
 msgid "Table description"
 msgstr "表格描述"
 
 #. Translators: the default (automatic) color in Microsoft Word
-#: NVDAObjects\window\winword.py:1427
+#: NVDAObjects\window\winword.py:1492
 msgid "automatic color"
 msgstr "自动颜色"
 
+#. Translators: a message when toggling formatting in Microsoft word
+#: NVDAObjects\window\winword.py:1629
+#, python-brace-format
+msgid "Underline {style}on"
+msgstr "打开{style}下划线"
+
+#. Translators: a message when toggling formatting to 'all capital' in Microsoft word
+#: NVDAObjects\window\winword.py:1655
+msgid "All caps on"
+msgstr "打开全部大写"
+
+#. Translators: a message when toggling formatting to 'small capital' in Microsoft word
+#: NVDAObjects\window\winword.py:1658
+msgid "Small caps on"
+msgstr "打开小型大写字母"
+
+#. Translators: a message when toggling formatting to 'No capital' in Microsoft word
+#: NVDAObjects\window\winword.py:1661
+msgid "Caps off"
+msgstr "关闭大写"
+
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1573
+#: NVDAObjects\window\winword.py:1676
 msgid "Left aligned"
 msgstr "左对齐"
 
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1575
+#: NVDAObjects\window\winword.py:1678
 msgid "centered"
 msgstr "居中"
 
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1577
+#: NVDAObjects\window\winword.py:1680
 msgid "Right aligned"
 msgstr "右对齐"
 
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1579
+#: NVDAObjects\window\winword.py:1682
 msgid "Justified"
 msgstr "段落重排"
 
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\winword.py:1616
+#: NVDAObjects\window\winword.py:1720
 msgid "Superscript"
 msgstr "上标"
 
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\winword.py:1619
+#: NVDAObjects\window\winword.py:1723
 msgid "Subscript"
 msgstr "下标"
 
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\winword.py:1622
+#: NVDAObjects\window\winword.py:1726
 msgid "Baseline"
 msgstr "基准线"
 
 #. Translators: a message reported when a paragraph is moved below another paragraph
-#: NVDAObjects\window\winword.py:1634
+#: NVDAObjects\window\winword.py:1739
 #, python-format
 msgid "Moved below %s"
 msgstr "下移 %s"
 
 #. Translators: a message reported when a paragraph is moved below a blank paragraph
-#: NVDAObjects\window\winword.py:1637
+#: NVDAObjects\window\winword.py:1742
 msgid "Moved below blank paragraph"
 msgstr "移动到下方的空白段落"
 
 #. Translators: a message reported when a paragraph is moved above another paragraph
-#: NVDAObjects\window\winword.py:1650
+#: NVDAObjects\window\winword.py:1756
 #, python-format
 msgid "Moved above %s"
 msgstr "上移 %s"
 
 #. Translators: a message reported when a paragraph is moved above a blank paragraph
-#: NVDAObjects\window\winword.py:1653
+#: NVDAObjects\window\winword.py:1759
 msgid "Moved above blank paragraph"
 msgstr "移动到上方的空白段落"
 
 #. Translators: the message when the outline level / style is changed in Microsoft word
-#: NVDAObjects\window\winword.py:1668
+#: NVDAObjects\window\winword.py:1784
 #, python-brace-format
 msgid "{styleName} style, outline level {outlineLevel}"
 msgstr "{styleName} 样式，大纲级别 {outlineLevel}"
 
 #. Translators: a message when increasing or decreasing font size in Microsoft Word
-#: NVDAObjects\window\winword.py:1682
+#: NVDAObjects\window\winword.py:1799
 #, python-brace-format
 msgid "{size:g} point font"
 msgstr "{size:g} pt 字体"
 
 #. Translators: a message when toggling Display Nonprinting Characters in Microsoft word
-#: NVDAObjects\window\winword.py:1698
+#: NVDAObjects\window\winword.py:1815
 msgid "Display nonprinting characters"
 msgstr "显示非打印字符"
 
 #. Translators: a message when toggling Display Nonprinting Characters in Microsoft word
-#: NVDAObjects\window\winword.py:1701
+#: NVDAObjects\window\winword.py:1818
 msgid "Hide nonprinting characters"
 msgstr "隐藏非打印字符"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1739
+#: NVDAObjects\window\winword.py:1856
 #, python-brace-format
 msgid "{offset:.3g} character"
 msgid_plural "{offset:.3g} characters"
 msgstr[0] "{offset:.3g} 个字符"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1749
+#: NVDAObjects\window\winword.py:1866
 #, python-brace-format
 msgid "{offset:.3g} inch"
 msgid_plural "{offset:.3g} inches"
 msgstr[0] "{offset:.3g} 英寸"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1757
+#: NVDAObjects\window\winword.py:1874
 #, python-brace-format
 msgid "{offset:.3g} centimeter"
 msgid_plural "{offset:.3g} centimeters"
 msgstr[0] "{offset:.3g} 厘米"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1765
+#: NVDAObjects\window\winword.py:1882
 #, python-brace-format
 msgid "{offset:.3g} millimeter"
 msgid_plural "{offset:.3g} millimeters"
 msgstr[0] "{offset:.3g} 毫米"
 
 #. Translators: a measurement in Microsoft Word (points)
-#: NVDAObjects\window\winword.py:1771
+#: NVDAObjects\window\winword.py:1888
 #, python-brace-format
 msgid "{offset:.3g} pt"
 msgstr "{offset:.3g} pt"
 
 #. Translators: a measurement in Microsoft Word
 #. See http://support.microsoft.com/kb/76388 for details.
-#: NVDAObjects\window\winword.py:1777
+#: NVDAObjects\window\winword.py:1894
 #, python-brace-format
 msgid "{offset:.3g} pica"
 msgid_plural "{offset:.3g} picas"
 msgstr[0] "{offset:.3g} 十二点活字"
 
 #. Translators: a message when switching to single line spacing  in Microsoft word
-#: NVDAObjects\window\winword.py:1794
+#: NVDAObjects\window\winword.py:1912
 msgid "Single line spacing"
 msgstr "单倍行距"
 
 #. Translators: a message when switching to double line spacing  in Microsoft word
-#: NVDAObjects\window\winword.py:1797
+#: NVDAObjects\window\winword.py:1915
 msgid "Double line spacing"
 msgstr "2 倍行距"
 
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
-#: NVDAObjects\window\winword.py:1800
+#: NVDAObjects\window\winword.py:1918
 msgid "1.5 line spacing"
 msgstr "1.5 倍行距"
 
 #. Translators: a message when toggling paragraph spacing in Microsoft word
-#: NVDAObjects\window\winword.py:1815
+#: NVDAObjects\window\winword.py:1933
 #, python-brace-format
 msgid "{val:g} pt space before paragraph"
 msgstr "{val:g} pt 段落前空格"
