@@ -21071,7 +21071,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Highlight browse mode cursor: Toggles whether the [virtual browse mode cursor](#BrowseMode) will be highlighted.</source>
-        <target>高亮显示浏览模式光标: 切换是否高亮显示[浏览模式的虚拟光标](#BrowseMode)。</target>
+        <target>高亮显示浏览模式光标: 切换是否高亮显示[浏览模式](#BrowseMode)的虚拟光标。</target>
       </segment>
     </unit>
     <unit id="8b7ea23f-18b5-414f-afde-53f303028e1b">
@@ -21626,18 +21626,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2578</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>An example of this is the "Report current character of navigator object" command.</source>
-        <target>一个例子是“读出当前查看对象光标所在位置的字符”命令。</target>
+        <target>一个例子是“读出查看文本的当前字符”命令。</target>
       </segment>
     </unit>
     <unit id="536bb6b6-9ea6-46f3-b4c0-3f9aa508d376">
       <notes>
         <note appliesTo="source">line: 2579</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This command reports the character if pressed once, a phonetic description of the character if pressed twice, and the numeric value of the character if pressed three times.</source>
-        <target>对于该命令，按一次读出当前查看对象光标所在位置的字符，连按两次解释该字符，连续按三次则读出该字符的十进制和十六进制代码。</target>
+        <target>对于该命令，按一次读出当前查看光标所在位置的字符，连按两次解释该字符，连续按三次则读出该字符的十进制和十六进制代码。</target>
       </segment>
     </unit>
     <unit id="1f1263df-8664-4e1d-95da-add1f011e54d">
