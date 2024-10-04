@@ -30520,9 +30520,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to bottom line in review |t4+t5</source>
-        <target>Move to bottom line in review | t4+t5</target>
+        <target>移动到查看文本的最后一行 | t4+t5</target>
       </segment>
     </unit>
     <unit id="3987cf36-3abb-47bb-9028-5181147b5bff">
@@ -38550,9 +38550,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to bottom line in review |`end1`, `end2`</source>
-        <target>Move to bottom line in review |`end1`, `end2`</target>
+        <target>移动到查看文本的最后一行 |`end1`, `end2`</target>
       </segment>
     </unit>
     <unit id="672818f6-c0f0-4cde-8dcb-0de821a38705">
@@ -38561,9 +38561,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Sets the navigator object to the current focus |`eCursor1`, `eCursor2`</source>
-        <target>Sets the navigator object to the current focus |`eCursor1`, `eCursor2`</target>
+        <target>将导航对象设置到当前焦点 |`eCursor1`, `eCursor2`</target>
       </segment>
     </unit>
     <unit id="0819ce53-8e78-483d-9fba-0cd454947f74">
@@ -38583,9 +38583,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves the mouse pointer to the current navigator object |`home1+home2`</source>
-        <target>Moves the mouse pointer to the current navigator object |`home1+home2`</target>
+        <target>将鼠标移动到当前的导航对象 |`home1+home2`</target>
       </segment>
     </unit>
     <unit id="062f0ff3-c07e-435e-8cfd-76a40190c5b2">
@@ -38594,9 +38594,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Sets the navigator object to the current object under the mouse pointer and speaks it |`end1+end2`</source>
-        <target>Sets the navigator object to the current object under the mouse pointer and speaks it |`end1+end2`</target>
+        <target>将导航对象移到鼠标所指的对象并将其读出 |`end1+end2`</target>
       </segment>
     </unit>
     <unit id="f5481986-388c-47f8-93b2-5ed6ceb6e470">
@@ -38605,9 +38605,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves focus to current navigator object |`eCursor1+eCursor2`</source>
-        <target>Moves focus to current navigator object |`eCursor1+eCursor2`</target>
+        <target>将焦点移到当前导航对象 |`eCursor1+eCursor2`</target>
       </segment>
     </unit>
     <unit id="b44be3a0-115c-403a-ac76-971ec77a4027">
@@ -38715,9 +38715,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Switches to the previous review mode (e.g. object, document or screen) |`f1`</source>
-        <target>Switches to the previous review mode (e.g. object, document or screen) |`f1`</target>
+        <target>切换到上一个查看模式（对象查看模式、文档查看模式或屏幕查看模式） |`f1`</target>
       </segment>
     </unit>
     <unit id="4610510a-cdbd-43b1-bd45-1141b081bb87">
@@ -38726,9 +38726,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Switches to the next review mode (e.g. object, document or screen) |`f2`</source>
-        <target>Switches to the next review mode (e.g. object, document or screen) |`f2`</target>
+        <target>切换到下一个查看模式（对象查看模式、文档查看模式或屏幕查看模式） |`f2`</target>
       </segment>
     </unit>
     <unit id="e5c91e54-68f0-42fb-ba9d-85473683cd07">
@@ -38737,9 +38737,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves the navigator object to the object containing it |`f3`</source>
-        <target>Moves the navigator object to the object containing it |`f3`</target>
+        <target>移动导航对象到此对象的父对象 |`f3`</target>
       </segment>
     </unit>
     <unit id="830779a8-20e5-4391-a03a-1ae1e92fd5b6">
@@ -38748,9 +38748,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves the navigator object to the first object inside it |`f4`</source>
-        <target>Moves the navigator object to the first object inside it |`f4`</target>
+        <target>移动导航对象到此对象的首个子对象 |`f4`</target>
       </segment>
     </unit>
     <unit id="26d8f6ed-856e-4922-b367-371f0b5fd6b8">
@@ -38759,9 +38759,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves the navigator object to the previous object |`f5`</source>
-        <target>Moves the navigator object to the previous object |`f5`</target>
+        <target>移动导航对象到此层级的前一个对象 |`f5`</target>
       </segment>
     </unit>
     <unit id="bbbd3001-0c57-4e0f-acf9-298003ace006">
@@ -38770,9 +38770,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves the navigator object to the next object |`f6`</source>
-        <target>Moves the navigator object to the next object |`f6`</target>
+        <target>移动导航对象到此层级的下一个对象 |`f6`</target>
       </segment>
     </unit>
     <unit id="d52ebe37-6e34-4ae7-95c0-5b461087169f">
@@ -38781,9 +38781,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Reports the current navigator object |`f7`</source>
-        <target>Reports the current navigator object |`f7`</target>
+        <target>读出当前导航对象 |`f7`</target>
       </segment>
     </unit>
     <unit id="0d002374-6054-4b18-a917-177025f6b5d8">
@@ -38792,9 +38792,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Reports information about the location of the text or object at the review cursor |`f8`</source>
-        <target>Reports information about the location of the text or object at the review cursor |`f8`</target>
+        <target>读出查看光标处文本或对象的位置信息 |`f8`</target>
       </segment>
     </unit>
     <unit id="31cfa400-3e6c-475b-9eae-da7a5bef6426">
@@ -38816,7 +38816,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Reads status bar and moves navigator object into it |`f1+end1`, `f9+end2`</source>
-        <target>Reads status bar and moves navigator object into it |`f1+end1`, `f9+end2`</target>
+        <target>将导航对象移动到状态栏并将其读出 |`f1+end1`, `f9+end2`</target>
       </segment>
     </unit>
     <unit id="d9767463-65ab-4b6b-97d4-49fd408bd9b6">
@@ -38871,7 +38871,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Cycle the "braille move system caret when routing review cursor" states |`f1+f3`, `f9+f11`</source>
-        <target>Cycle the "braille move system caret when routing review cursor" states |`f1+f3`, `f9+f11`</target>
+        <target>在移动查看光标时移动系统输入光标的选项之间循环切换 |`f1+f3`, `f9+f11`</target>
       </segment>
     </unit>
     <unit id="b2fbd831-d066-428b-b0a8-5de07d26d7fc">
@@ -38957,9 +38957,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Reports current character under review cursor |`f15`</source>
-        <target>Reports current character under review cursor |`f15`</target>
+        <target>读出查看光标的所在字符  |`f15`</target>
       </segment>
     </unit>
     <unit id="94137f37-5ff9-41d3-a483-bdde437c4cae">
@@ -38968,9 +38968,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Reports the line of the current navigator object where the review cursor is situated |`f16`</source>
-        <target>Reports the line of the current navigator object where the review cursor is situated |`f16`</target>
+        <target>读出查看光标的所在行 |`f16`</target>
       </segment>
     </unit>
     <unit id="be936e93-f037-4db4-ac90-7751b7aedb0b">
@@ -38979,9 +38979,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Speaks the word of the current navigator object where the review cursor is situated |`f15+f16`</source>
-        <target>Speaks the word of the current navigator object where the review cursor is situated |`f15+f16`</target>
+        <target>读出查看光标的所在单词 |`f15+f16`</target>
       </segment>
     </unit>
     <unit id="56a7b41c-6440-4696-85bf-8c33b24a0a7a">
@@ -38990,9 +38990,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves the review cursor to the previous line of the current navigator object and speaks it |`lWheelUp`, `rWheelUp`</source>
-        <target>Moves the review cursor to the previous line of the current navigator object and speaks it |`lWheelUp`, `rWheelUp`</target>
+        <target>将查看光标移动到当前查看文本的上一行并将其读出 |`lWheelUp`, `rWheelUp`</target>
       </segment>
     </unit>
     <unit id="4cba9cfc-a618-4b6f-be72-18b6d3db92fa">
@@ -39001,9 +39001,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Moves the review cursor to the next line of the current navigator object and speaks it |`lWheelDown`, `rWheelDown`</source>
-        <target>Moves the review cursor to the next line of the current navigator object and speaks it |`lWheelDown`, `rWheelDown`</target>
+        <target>将查看光标移动到当前查看文本的下一行并将其读出 |`lWheelDown`, `rWheelDown`</target>
       </segment>
     </unit>
     <unit id="1d880dca-cac7-4dcb-9702-667048ef0d4b">
