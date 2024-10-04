@@ -10707,7 +10707,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move System focus or caret to current review position |NVDA+shift+numpadMinus |NVDA+shift+backspace |none |pressed once Moves the System focus to the current navigator object, pressed twice moves the system caret to the position of the review cursor</source>
-        <target>移动焦点或系统输入焦点到当前浏览位置 | NVDA+shift+数字键盘减号 | NVDA+shift+退格 | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统输入焦点移动到查看光标所在的位置</target>
+        <target>移动焦点或系统输入焦点到当前查看位置 | NVDA+shift+数字键盘减号 | NVDA+shift+退格 | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统输入焦点移动到查看光标所在的位置</target>
       </segment>
     </unit>
     <unit id="ef240f08-ade8-4eac-9b4a-903acc5a149e">
@@ -36407,9 +36407,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move System focus or caret to current review position |F9</source>
-        <target>Move System focus or caret to current review position |F9</target>
+        <target>移动焦点或系统输入焦点到当前查看位置 |F9</target>
       </segment>
     </unit>
     <unit id="0f81e010-10e8-4c73-9cdf-53af4031e0af">
