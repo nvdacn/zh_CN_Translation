@@ -4538,7 +4538,7 @@ msgstr "关闭光标移动时延迟字符描述"
 #. Translators: Input help mode message for move mouse to navigator object command.
 #: globalCommands.py:1190
 msgid "Moves the mouse pointer to the current navigator object"
-msgstr "将鼠标移动到当前查看的对象"
+msgstr "将鼠标移动到当前的导航对象"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
 #: globalCommands.py:1224
@@ -4550,12 +4550,12 @@ msgstr "找不到对象的所在位置"
 msgid ""
 "Sets the navigator object to the current object under the mouse pointer and "
 "speaks it"
-msgstr "将浏览光标移到鼠标所指的对象并将其读出"
+msgstr "将导航对象移到鼠标所指的对象并将其读出"
 
 #. Translators: Reported when attempting to move the navigator object to the object under mouse pointer.
 #: globalCommands.py:1243
 msgid "Move navigator object to mouse"
-msgstr "将浏览光标移到鼠标所在处"
+msgstr "将导航对象移到鼠标所在处"
 
 #. Translators: Script help message for next review mode command.
 #: globalCommands.py:1258
@@ -4563,13 +4563,13 @@ msgid ""
 "Switches to the next review mode (e.g. object, document or screen) and "
 "positions the review position at the point of the navigator object"
 msgstr ""
-"切换到下一个浏览模式（对象浏览模式、文档浏览模式或者屏幕浏览模式）并定位浏览"
-"位置到浏览对象上"
+"切换到下一个查看模式（对象查看模式、文档查看模式或屏幕查看模式）并定位查看位"
+"置到导航对象"
 
 #. Translators: reported when there are no other available review modes for this object
 #: globalCommands.py:1274
 msgid "No next review mode"
-msgstr "没有下一个浏览模式"
+msgstr "没有下一个查看模式"
 
 #. Translators: Script help message for previous review mode command.
 #: globalCommands.py:1279
@@ -4577,28 +4577,28 @@ msgid ""
 "Switches to the previous review mode (e.g. object, document or screen) and "
 "positions the review position at the point of the navigator object"
 msgstr ""
-"切换到上一个浏览模式（对象浏览模式、文档浏览模式或者屏幕浏览模式）并定位浏览"
-"位置到浏览对象上"
+"切换到上一个查看模式（对象查看模式、文档查看模式或屏幕查看模式）并定位查看位"
+"置到导航对象"
 
 #. Translators: reported when there are no other available review modes for this object
 #: globalCommands.py:1295
 msgid "No previous review mode"
-msgstr "没有上一个浏览模式"
+msgstr "没有上一个查看模式"
 
 #. Translators: Input help mode message for toggle simple review mode command.
 #: globalCommands.py:1299
 msgid "Toggles simple review mode on and off"
-msgstr "切换简易浏览模式的开关"
+msgstr "切换简易查看模式的开关"
 
 #. Translators: The message announced when toggling simple review mode.
 #: globalCommands.py:1305
 msgid "Simple review mode off"
-msgstr "关闭简易浏览模式"
+msgstr "关闭简易查看模式"
 
 #. Translators: The message announced when toggling simple review mode.
 #: globalCommands.py:1309
 msgid "Simple review mode on"
-msgstr "打开简易浏览模式"
+msgstr "打开简易查看模式"
 
 #. Translators: Input help mode message for report current navigator object command.
 #: globalCommands.py:1316
@@ -4607,15 +4607,14 @@ msgid ""
 "information, and pressing three times Copies name and value of this object "
 "to the clipboard"
 msgstr ""
-"读出当前查看的对象，连按两次拼读该信息，连按三次则拷贝该对象的名称和值到剪贴"
-"板"
+"读出当前导航对象，连按两次拼读该信息，连按三次则拷贝该对象的名称和值到剪贴板"
 
 #. Translators: Reported when the user tries to perform a command related to the navigator object
 #. but there is no current navigator object.
 #: globalCommands.py:1329 globalCommands.py:1552 globalCommands.py:1583
 #: globalCommands.py:1612 globalCommands.py:1642
 msgid "No navigator object"
-msgstr "没有浏览对象"
+msgstr "没有导航对象"
 
 #. Translators: message when there is no location information
 #: globalCommands.py:1381
@@ -4629,13 +4628,13 @@ msgid ""
 "Reports information about the location of the text at the review cursor, or "
 "location of the navigator object if there is no text under review cursor."
 msgstr ""
-"读出浏览光标处文本或对象的位置信息，若浏览光标处不包含文本则读出浏览对象的位"
-"置信息。"
+"读出查看光标处文本的位置信息，若查看光标处不包含文本则读出导航对象的位置信"
+"息。"
 
 #. Translators: Description for a keyboard command which reports location of the navigator object.
 #: globalCommands.py:1399
 msgid "Reports information about the location of the current navigator object."
-msgstr "读出浏览对象的位置信息。"
+msgstr "读出当前导航对象的位置信息。"
 
 #. Translators: Description for a keyboard command which reports location of the
 #. current caret position falling back to the location of focused object if needed.
@@ -4657,7 +4656,7 @@ msgstr "读出当前所聚焦对象的位置信息。"
 msgid ""
 "Reports information about the location of the text or object at the review "
 "cursor. Pressing twice may provide further detail."
-msgstr "读出浏览光标处文本或对象的位置信息，连按两次获取更详细的信息。"
+msgstr "读出查看光标处文本或对象的位置信息，连按两次获取更详细的信息。"
 
 #. Translators: Description for a keyboard command
 #. which reports location of the text at the caret position
@@ -4674,7 +4673,7 @@ msgid ""
 "Sets the navigator object to the current focus, and the review cursor to the "
 "position of the caret inside it, if possible."
 msgstr ""
-"如果可能，将导航对象设置到当前焦点，将浏览光标设置到编辑光标所在的位置。"
+"如果可能，将导航对象设置到当前焦点，将查看光标设置到编辑光标所在的位置。"
 
 #. Translators: Reported when attempting to move the navigator object to focus.
 #: globalCommands.py:1491
@@ -4686,7 +4685,7 @@ msgstr "移动到焦点"
 msgid ""
 "Pressed once sets the keyboard focus to the navigator object, pressed twice "
 "sets the system caret to the position of the review cursor"
-msgstr "按一次设置键盘焦点到浏览对象，按两次设置系统输入焦点到浏览光标位置"
+msgstr "按一次设置键盘焦点到导航对象，按两次设置系统输入焦点到查看光标位置"
 
 #. Translators: Reported when:
 #. 1. There is no focusable object e.g. cannot use tab and shift tab to move to controls.
@@ -4741,19 +4740,19 @@ msgstr "往前没有对象"
 #. Translators: Input help mode message for move to first child object command.
 #: globalCommands.py:1633
 msgid "Moves the navigator object to the first object inside it"
-msgstr "移动到此对象的首个子对象"
+msgstr "移动导航对象到此对象的首个子对象"
 
 #. Translators: Reported when there is no contained (first child) object such as inside a document.
 #: globalCommands.py:1649
 msgid "No objects inside"
-msgstr "没有控件了"
+msgstr "没有子对象"
 
 #. Translators: Input help mode message for activate current object command.
 #: globalCommands.py:1665
 msgid ""
 "Performs the default action on the current navigator object (example: "
 "presses it if it is a button)."
-msgstr "执行当前浏览对象的默认动作，例如，若该对象为按钮则按下该按钮。"
+msgstr "执行当前导航对象的默认动作，（例如：若该对象为按钮则按下该按钮）。"
 
 #. Translators: the message reported when there is no action to perform on the review position or navigator object.
 #: globalCommands.py:1712
@@ -4765,14 +4764,14 @@ msgstr "没有默认动作"
 msgid ""
 "Moves the review cursor to the top line of the current navigator object and "
 "speaks it"
-msgstr "将浏览光标移动到当前查看对象的第一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的第一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous line command.
 #: globalCommands.py:1742
 msgid ""
 "Moves the review cursor to the previous line of the current navigator object "
 "and speaks it"
-msgstr "将浏览光标移动到当前查看对象的上一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的上一行并将其读出"
 
 #. Translators: a message reported when review cursor is at the top line of the current navigator object.
 #. Translators: Reported when attempting to move to the previous result in the Python Console
@@ -4788,22 +4787,21 @@ msgid ""
 "Reports the line of the current navigator object where the review cursor is "
 "situated. If this key is pressed twice, the current line will be spelled. "
 "Pressing three times will spell the line using character descriptions."
-msgstr ""
-"读出浏览光标正在查看的对象的当前行；连按两次拼读该行；连按三次竹字描述该行。"
+msgstr "读出查看光标的所在行；连按两次拼读该行；连按三次竹字描述该行。"
 
 #. Translators: Input help mode message for move review cursor to next line command.
 #: globalCommands.py:1804
 msgid ""
 "Moves the review cursor to the next line of the current navigator object and "
 "speaks it"
-msgstr "将浏览光标移动到当前查看对象的下一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的下一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous page command.
 #: globalCommands.py:1843
 msgid ""
 "Moves the review cursor to the previous page of the current navigator object "
 "and speaks it"
-msgstr "将浏览光标移动到当前查看对象的上一页并将其读出"
+msgstr "将查看光标移动到当前查看文本的上一页并将其读出"
 
 #. Translators: a message reported when movement by page is unsupported
 #: globalCommands.py:1857 globalCommands.py:1893
@@ -4815,21 +4813,21 @@ msgstr "不支持按页移动"
 msgid ""
 "Moves the review cursor to the next page of the current navigator object and "
 "speaks it"
-msgstr "将浏览光标移动到当前查看对象的下一页并将其读出"
+msgstr "将查看光标移动到当前查看文本的下一页并将其读出"
 
 #. Translators: Input help mode message for move review cursor to bottom line command.
 #: globalCommands.py:1916
 msgid ""
 "Moves the review cursor to the bottom line of the current navigator object "
 "and speaks it"
-msgstr "将浏览光标移动到当前查看对象的最后一行并将其读出"
+msgstr "将查看光标移动到当前查看文本的最后一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous word command.
 #: globalCommands.py:1941
 msgid ""
 "Moves the review cursor to the previous word of the current navigator object "
 "and speaks it"
-msgstr "将浏览光标移动到当前查看对象的前一个单词并将其读出"
+msgstr "将查看光标移动到当前查看文本的前一个单词并将其读出"
 
 #. Translators: Input help mode message for report current word under review cursor command.
 #: globalCommands.py:1974
@@ -4837,29 +4835,28 @@ msgid ""
 "Speaks the word of the current navigator object where the review cursor is "
 "situated. Pressing twice spells the word. Pressing three times spells the "
 "word using character descriptions"
-msgstr ""
-"读出当前查看对象光标所在的单词，连按两次拼读该单词，连按三次则竹字描述该单词"
+msgstr "读出查看光标所在的单词，连按两次拼读该单词，连按三次则竹字描述该单词"
 
 #. Translators: Input help mode message for move review cursor to next word command.
 #: globalCommands.py:2003
 msgid ""
 "Moves the review cursor to the next word of the current navigator object and "
 "speaks it"
-msgstr "将浏览光标移动到当前查看对象的后一个单词并将其读出"
+msgstr "将查看光标移动到当前查看文本的后一个单词并将其读出"
 
 #. Translators: Input help mode message for move review cursor to start of current line command.
 #: globalCommands.py:2041
 msgid ""
 "Moves the review cursor to the first character of the line where it is "
 "situated in the current navigator object and speaks it"
-msgstr "将浏览光标移动到当前查看对象的行首字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的行首字符并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous character command.
 #: globalCommands.py:2070
 msgid ""
 "Moves the review cursor to the previous character of the current navigator "
 "object and speaks it"
-msgstr "将浏览光标移动到当前查看对象的前一个字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的前一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the leftmost character of the current navigator object's text.
 #: globalCommands.py:2084
@@ -4874,15 +4871,15 @@ msgid ""
 "character. Pressing three times reports the numeric value of the character "
 "in decimal and hexadecimal"
 msgstr ""
-"读出当前查看对象光标所在位置的字符，连按两次解释该字符，连续按三次则读出该字"
-"符的十进制和十六进制代码"
+"读出查看光标所在处的字符，连按两次解释该字符，连按三次则读出该字符的十进制"
+"和十六进制代码"
 
 #. Translators: Input help mode message for move review cursor to next character command.
 #: globalCommands.py:2155
 msgid ""
 "Moves the review cursor to the next character of the current navigator "
 "object and speaks it"
-msgstr "将浏览光标移动到当前查看对象的后一个字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的后一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the rightmost character of the current navigator object's text.
 #: globalCommands.py:2169
@@ -4894,15 +4891,14 @@ msgstr "右"
 msgid ""
 "Moves the review cursor to the last character of the line where it is "
 "situated in the current navigator object and speaks it"
-msgstr "将浏览光标移动到当前查看对象的行尾字符并将其读出"
+msgstr "将查看光标移动到当前查看文本的行尾字符并将其读出"
 
 #. Translators: Input help mode message for Review Current Symbol command.
 #: globalCommands.py:2231
 msgid ""
 "Reports the symbol where the review cursor is positioned. Pressed twice, "
 "shows the symbol and the text used to speak it in browse mode"
-msgstr ""
-"读出当前浏览光标处的符号。连按两次，在浏览模式下显示该符号极其发音替换文本"
+msgstr "读出查看光标处的符号。连按两次，在浏览模式下显示该符号极其发音替换文本"
 
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #: globalCommands.py:2245
@@ -4975,7 +4971,7 @@ msgstr "显示 NVDA 菜单"
 msgid ""
 "Reads from the review cursor up to the end of the current text, moving the "
 "review cursor as it goes"
-msgstr "从浏览光标的位置朗读到文本末端的同时，光标随之移动"
+msgstr "从查看光标处朗读到文本末端的同时，光标随之移动"
 
 #. Translators: Input help mode message for say all with system caret command.
 #: globalCommands.py:2405
@@ -4997,21 +4993,21 @@ msgstr "格式信息"
 #. Translators: Input help mode message for report formatting command.
 #: globalCommands.py:2518
 msgid "Reports formatting info for the current review cursor position."
-msgstr "读出当前浏览光标处的文本格式信息。"
+msgstr "读出当前查看光标处的文本格式信息。"
 
 #. Translators: Input help mode message for show formatting at review cursor command.
 #: globalCommands.py:2527
 msgid ""
 "Presents, in browse mode, formatting info for the current review cursor "
 "position."
-msgstr "在浏览模式下，显示当前浏览光标处的文本格式信息。"
+msgstr "在浏览模式下，显示当前查看光标处的文本格式信息。"
 
 #. Translators: Input help mode message for report formatting command.
 #: globalCommands.py:2536
 msgid ""
 "Reports formatting info for the current review cursor position. If pressed "
 "twice, presents the information in browse mode"
-msgstr "读出当前浏览光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
+msgstr "读出当前查看光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Input help mode message for report formatting at caret command.
 #: globalCommands.py:2552
@@ -5165,7 +5161,7 @@ msgstr "打开 wxPython GUI 检查工具。用于获取有关图形界面组件�
 msgid ""
 "Logs information about the current navigator object which is useful to "
 "developers and activates the log viewer so the information can be examined."
-msgstr "打开日志查看器并记录当前对象的信息，此信息可供程序员 开发时参考。"
+msgstr "打开日志查看器并记录当前导航对象的信息，此信息可供开发者参考。"
 
 #. Translators: Input help mode message for a command to delimit then
 #. copy a fragment of the log to clipboard
@@ -5262,33 +5258,33 @@ msgstr "读出动态内容更新"
 #: globalCommands.py:3115
 msgid ""
 "Toggles on and off the movement of the review cursor due to the caret moving."
-msgstr "切换是否允许浏览光标跟随输入焦点移动."
+msgstr "切换是否允许查看光标跟随输入焦点移动。"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3122
 msgid "caret moves review cursor off"
-msgstr "关闭浏览光标随输入焦点移动"
+msgstr "关闭查看光标随输入焦点移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3126
 msgid "caret moves review cursor on"
-msgstr "打开浏览光标随输入焦点移动"
+msgstr "打开查看光标随输入焦点移动"
 
 #. Translators: Input help mode message for toggle focus moves navigator object command.
 #: globalCommands.py:3132
 msgid ""
 "Toggles on and off the movement of the navigator object due to focus changes"
-msgstr "切换是否允许浏览光标跟随系统焦点移动"
+msgstr "切换是否允许导航对象跟随系统焦点移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3139
 msgid "focus moves navigator object off"
-msgstr "关闭浏览光标随系统焦点移动"
+msgstr "关闭导航对象随系统焦点移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3143
 msgid "focus moves navigator object on"
-msgstr "打开浏览光标随系统焦点移动"
+msgstr "打开导航对象随系统焦点移动"
 
 #. Translators: Input help mode message for toggle auto focus focusable elements command.
 #: globalCommands.py:3150
@@ -5389,7 +5385,7 @@ msgstr "打开“鼠标”设置"
 #. Translators: Input help mode message for go to review cursor settings command.
 #: globalCommands.py:3296
 msgid "Shows NVDA's review cursor settings"
-msgstr "打开“浏览光标”设置"
+msgstr "打开“查看光标”设置"
 
 #. Translators: Input help mode message for go to input composition settings command.
 #: globalCommands.py:3305
@@ -5518,7 +5514,7 @@ msgstr "启用盲文查看器"
 #. (tethered means connected to or follows).
 #: globalCommands.py:3510
 msgid "Toggle tethering of braille between the focus and the review position"
-msgstr "将盲文光标移到系统焦点或浏览光标"
+msgstr "将盲文光标移到系统焦点或查看光标"
 
 #. Translators: Reports which position braille is tethered to
 #. (braille can be tethered automatically or to either focus or review position).
@@ -5543,7 +5539,7 @@ msgstr "{brailleMode}"
 #: globalCommands.py:3560
 msgid ""
 "Cycle through the braille move system caret when routing review cursor states"
-msgstr "在移动浏览光标时移动系统输入光标选项之间循环切换"
+msgstr "在移动查看光标时移动系统输入光标的选项之间循环切换"
 
 #. Translators: Reported when action is unavailable because braille tether is to focus.
 #: globalCommands.py:3570
@@ -5555,13 +5551,13 @@ msgstr "盲文显示跟随到焦点时该操作不可用"
 #: globalCommands.py:3586
 #, python-format
 msgid "Braille move system caret when routing review cursor default (%s)"
-msgstr "盲文移动浏览光标时移动系统输入光标默认（%s）"
+msgstr "盲文移动查看光标时移动系统输入光标默认（%s）"
 
 #. Translators: Used when reporting braille move system caret when routing review cursor state.
 #: globalCommands.py:3594
 #, python-format
 msgid "Braille move system caret when routing review cursor %s"
-msgstr "盲文移动浏览光标时移动系统输入光标（%s）"
+msgstr "盲文移动查看光标时移动系统输入光标（%s）"
 
 #. Translators: Input help mode message for toggle braille focus context presentation command.
 #: globalCommands.py:3602
@@ -5702,7 +5698,7 @@ msgstr[0] "剪贴板内包含大量文本，共有 %s 个字符"
 msgid ""
 "Marks the current position of the review cursor as the start of text to be "
 "selected or copied"
-msgstr "把浏览光标所在的当前位置设置为开始点，供选择或复制使用"
+msgstr "把查看光标所在的当前位置设置为开始点，供选择或复制使用"
 
 #. Translators: Indicates start of review cursor text to be copied to clipboard.
 #: globalCommands.py:3815
@@ -5715,7 +5711,7 @@ msgstr "开始点已标记"
 msgid ""
 "Move the review cursor to the position marked as the start of text to be "
 "selected or copied"
-msgstr "将浏览光标移动回以标记的开始点处"
+msgstr "将查看光标移动回以标记的开始点"
 
 #. Translators: Presented when attempting to move to the start marker for copy but none has been set.
 #. Translators: Presented when attempting to copy some review cursor text but there is no start marker.
@@ -5731,7 +5727,7 @@ msgid ""
 "including the current position of the review cursor is selected. If pressed "
 "twice, the text is copied to the clipboard"
 msgstr ""
-"按一次，选择开始点和当前浏览光标位置之间的文本；连按两次，复制文本到剪贴板"
+"按一次，选择开始点和当前查看光标位置之间的文本；连按两次，复制文本到剪贴板"
 
 #. Translators: Presented when text has already been marked for selection, but not yet copied.
 #: globalCommands.py:3871
@@ -6032,7 +6028,7 @@ msgstr "无数学内容"
 #. Translators: Describes a command.
 #: globalCommands.py:4490
 msgid "Recognizes the content of the current navigator object with Windows OCR"
-msgstr "使用 Windows OCR 识别浏览光标所在的控件内容"
+msgstr "使用 Windows OCR 识别当前导航对象的内容"
 
 #. Translators: Reported when Windows OCR is not available.
 #: globalCommands.py:4496 globalCommands.py:4519
@@ -8002,17 +7998,17 @@ msgstr "NVDA Python 控制台"
 #. Translators: One of the review modes.
 #: review.py:89
 msgid "Object review"
-msgstr "对象浏览模式"
+msgstr "对象查看模式"
 
 #. Translators: One of the review modes.
 #: review.py:91
 msgid "Document review"
-msgstr "文档浏览模式"
+msgstr "文档查看模式"
 
 #. Translators: One of the review modes.
 #: review.py:93
 msgid "Screen review"
-msgstr "屏幕浏览模式"
+msgstr "屏幕查看模式"
 
 #: scriptHandler.py:56
 #, python-format
@@ -10152,7 +10148,7 @@ msgstr "焦点"
 #. to the review cursor.
 #: config\configFlags.py:97
 msgid "to review"
-msgstr "浏览光标"
+msgstr "查看光标"
 
 #. Translators: The label for a braille mode
 #: config\configFlags.py:115
@@ -13367,7 +13363,7 @@ msgstr "忽略其他应用程序的鼠标注入(&A)"
 #. Translators: This is the label for the review cursor settings panel.
 #: gui\settingsDialogs.py:2201
 msgid "Review Cursor"
-msgstr "浏览光标"
+msgstr "查看光标"
 
 #. Translators: This is the label for a checkbox in the
 #. review cursor settings panel.
@@ -13391,7 +13387,7 @@ msgstr "跟随鼠标移动(&M)"
 #. review cursor settings panel.
 #: gui\settingsDialogs.py:2225
 msgid "&Simple review mode"
-msgstr "简易浏览模式(&S)"
+msgstr "简易查看模式(&S)"
 
 #. Translators: This is the label for the Input Composition settings panel.
 #: gui\settingsDialogs.py:2239
@@ -14431,7 +14427,7 @@ msgstr "系统焦点的光标形状(&F)："
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to review.
 #: gui\settingsDialogs.py:4440
 msgid "Cursor shape for &review:"
-msgstr "浏览光标的光标形状(&R)："
+msgstr "查看光标的光标形状(&R)："
 
 #. Translators: The label for a setting in braille settings to combobox enabling user
 #. to decide if braille messages should be shown and automatically disappear from braille display.
@@ -14452,7 +14448,7 @@ msgstr "盲文显示跟随到(&R)："
 #. Translators: This is a label for a combo-box in the Braille settings panel.
 #: gui\settingsDialogs.py:4527
 msgid "Move system caret when ro&uting review cursor"
-msgstr "移动浏览光标时移动系统输入光标(&U)"
+msgstr "移动查看光标时移动系统输入光标(&U)"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
 #: gui\settingsDialogs.py:4543
