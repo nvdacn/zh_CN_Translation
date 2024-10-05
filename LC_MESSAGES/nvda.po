@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-01 08:31+0000\n"
-"PO-Revision-Date: 2024-10-03 17:14+0800\n"
+"PO-Revision-Date: 2024-10-04 22:20+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4871,8 +4871,8 @@ msgid ""
 "character. Pressing three times reports the numeric value of the character "
 "in decimal and hexadecimal"
 msgstr ""
-"读出查看光标所在处的字符，连按两次解释该字符，连按三次则读出该字符的十进制"
-"和十六进制代码"
+"读出查看光标所在处的字符，连按两次解释该字符，连按三次则读出该字符的十进制和"
+"十六进制代码"
 
 #. Translators: Input help mode message for move review cursor to next character command.
 #: globalCommands.py:2155
@@ -5465,7 +5465,7 @@ msgstr "按一次恢复当前配置到最近保存的状态。按三次恢复到
 #. Translators: Input help mode message for activate python console command.
 #: globalCommands.py:3435
 msgid "Activates the NVDA Python Console, primarily useful for development"
-msgstr "打开 NVDA “Python 控制台”，主要供程序开发者使用"
+msgstr "打开 NVDA “Python 控制台”，主要用于开发调试"
 
 #. Translators: Input help mode message to activate Add-on Store command.
 #: globalCommands.py:3455
@@ -5882,7 +5882,7 @@ msgid ""
 "Reloads app modules and global plugins without restarting NVDA, which can be "
 "Useful for developers"
 msgstr ""
-"在不重新启动 NVDA 的情况下，重新加载应用程序模块和全局插件，此功能对于程序开"
+"在不重新启动 NVDA 的情况下，重新加载应用程序模块和全局插件，此功能对于开"
 "发者很有用"
 
 #. Translators: Presented when plugins (app modules and global plugins) are reloaded.
