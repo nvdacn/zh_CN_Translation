@@ -1,7 +1,7 @@
 *.mo
 *.lnk
 Crowdin/*.xliff
-Preview/*.md
-Preview/*.html
+Preview/*
+!Preview/*.css
 # 暂时排除nvdaL10nUtil.exe，待 NV Access 发布后，可能会添加到本存储库
 Tools/nvdaL10nUtil.exe
