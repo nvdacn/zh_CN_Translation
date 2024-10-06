@@ -1,5 +1,7 @@
 @echo off
 
+chcp 65001
+
 for /r "%~dp0Preview" %%i in (*.html) do (
   del /f /q "%%i"
 )
