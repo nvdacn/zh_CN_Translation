@@ -17,7 +17,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ${{ github.workspace }}/执行脚本.bat GITHUB_ACTIONS
+      - run: ${{ github.workspace }}/生成测试版翻译.bat GITHUB_ACTIONS
       - name: Upload Output
         uses: actions/upload-artifact@v4
         with:
