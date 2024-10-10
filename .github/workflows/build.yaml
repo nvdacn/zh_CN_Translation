@@ -2,8 +2,6 @@ name: Build Translation Test
 
 on:
   push:
-#    tags:
-#      - "*"
     branches:
       - "main"
       - "20*"
@@ -14,10 +12,40 @@ on:
 
 jobs:
 
+  download-NVDAL10nUtil:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cache NVDAL10nUtil
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/NVDAL10nUtil.exe
+          key: NVDAL10nUtil.exe
+          restore-keys: |
+            l10nUtil
+          enableCrossOsArchive: true
+      - name: Download l10nUtil
+        id: download-l10nUtil
+        uses: carlosperate/download-file-action@v2
+        with:
+          file-url: https://ci.appveyor.com/api/buildjobs/28nefmtoskns8bu8/artifacts/output%2Fl10nUtil.exe
+          file-name: 'nvdaL10nUtil.exe'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NVDAL10nUtil.exe
+          path: ${{ steps.download-l10nUtil.outputs.file-path }}
+          if-no-files-found: error
+
   build:
     runs-on: windows-latest
+    needs:
+      - download-NVDAL10nUtil
     steps:
       - uses: actions/checkout@v4
+      - name: Download NVDAL10nUtil
+        uses: actions/download-artifact@v4
+        with:
+          name: NVDAL10nUtil.exe
+          path: ${{ github.workspace }}/Tools/
       - run: ${{ github.workspace }}/生成测试版翻译.bat GITHUB_ACTIONS
       - name: Upload Output
         uses: actions/upload-artifact@v4
@@ -25,22 +53,3 @@ jobs:
           name: NVDA_TranslationTest
           path: ${{ github.workspace }}/Preview/Output/*
 
-  upload_release:
-    runs-on: ubuntu-latest
-    if: ${{ startsWith(github.ref, 'refs/tags/') }}
-    needs: build
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: NVDA_TranslationTest
-          path: NVDA_zh_CN_Translation
-      - name: Display structure of downloaded files
-        run: ls -R
-      - name: Release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: NVDA_zh_CN_Translation/*
-          fail_on_unmatched_files: true
-          prerelease: ${{ contains(github.ref, 'rc') }}
