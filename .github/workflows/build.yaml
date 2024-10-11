@@ -31,7 +31,7 @@ jobs:
           file-name: 'nvdaL10nUtil.exe'
       - uses: actions/upload-artifact@v4
         with:
-          name: nvdaL10nUtil.exe
+          name: NVDAL10nUtil.exe
           path: ${{ steps.download-l10nUtil.outputs.file-path }}
           if-no-files-found: error
 
