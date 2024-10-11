@@ -31013,7 +31013,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Changing the NVDA language (from the General Settings dialog) now has no effect until NVDA is restarted. (#4561)</source>
-        <target>在重新启动NVDA之前，更改NVDA语言(从“常规设置”对话框)现在无效。(#4561)</target>
+        <target>在重新启动NVDA之前，更改NVDA语言(从“常规设置”对话框)不会生效。(#4561)</target>
       </segment>
     </unit>
     <unit id="6061c564-6b23-4e2f-bf41-4c7742682979">
@@ -31023,7 +31023,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>It is no longer possible to leave the Pattern field blank for a new speech dictionary entry. (#6412)</source>
-        <target>不允许留空“来源文本”编辑框创建为新的语音字典条目。(#6412)</target>
+        <target>对于新的语音字典条目，不允许留空“源文本”编辑框。(#6412)</target>
       </segment>
     </unit>
     <unit id="91dbea4e-8433-4c56-82bc-98b380831740">
@@ -31063,7 +31063,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Microsoft Excel, pressing enter or numpadEnter when navigating a spreadsheet now correctly reports navigation to the next row. (#6500)</source>
-        <target>在Microsoft Excel中，导航电子表格时按Enter键或numpadEnter现在可以正确地提示到了下一行。(#6500)</target>
+        <target>在Microsoft Excel中，导航电子表格时按Enter键或numpadEnter现在可以正确地提示导航到下一行。(#6500)</target>
       </segment>
     </unit>
     <unit id="959666ae-83c6-462d-9fc2-b515c2e8f928">
@@ -31113,7 +31113,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>It is now possible to provide app modules for executables containing a dot (.) in their names. Dots are replaced with underscores (_). (#5323)</source>
-        <target>现在可以为可执行文件提供在其名称中包含点(。)的应用程序模块。点用下划线(_)替换。(#5323)</target>
+        <target>现在可以为名称中包含点 (.) 的可执行文件提供应用模块。点替换为下划线 (_)。(#5323)</target>
       </segment>
     </unit>
     <unit id="669a0dfa-e593-4013-bb25-3cea17f11c06">
@@ -31123,7 +31123,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>The new gui.guiHelper module includes utilities to simplify the creation of wxPython GUIs, including automatic management of spacing. This facilitates better visual appearance and consistency, as well as easing creation of new GUIs for blind developers. (#6287)</source>
-        <target>新的gui.guiHelper模块包括简化wxPython GUI创建的实用程序，包括自动管理间距。这有助于更好的视觉外观和一致性，以及易于为盲人开发人员创建新的GUI。(#6287)</target>
+        <target>新的 gui.guiHelper 模块包含简化 wxPython GUI 创建的实用程序，包括自动管理间距。这有利于更好的视觉外观和一致性，并简化盲人开发人员创建新 GUI 的过程。(#6287)</target>
       </segment>
     </unit>
     <unit id="85cfee8e-430d-46bb-9831-92c000fdc8b5">
@@ -33147,7 +33147,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>New braille translation tables: Finnish 6 dot, Irish grade 1, Irish grade 2, Korean grade 1 (2006), Korean grade 2 (2006). (#5137, #5074, #5097)</source>
-        <target>新的盲文翻译表: 芬兰 6 点点字、 爱尔兰1级点字、 爱尔兰2级点字、 韩语1 级点字(2006)，韩语2级点字 (2006)。(#5137， #5074， #5097) (2006) (#5137, #5074, #5097)</target>
+        <target>新的盲文翻译表: 芬兰 6 点点字、爱尔兰1级点字、爱尔兰2级点字、韩语1级点字(2006)、韩语2级点字(2006)。(#5137, #5074, #5097)</target>
       </segment>
     </unit>
     <unit id="d6acbf5b-aeda-4948-8e74-83235c8ed2a9">
@@ -33207,7 +33207,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>When attempting to install an earlier version of NVDA than is currently installed, you will now be warned that this is not recommended and that NVDA should be completely uninstalled before proceeding. (#5037)</source>
-        <target>当你试图安装比当前安装的 NVDA 更早的版本，你现在会收到警告，不建议这样做，应该完全卸载之前安装的 NVDA 。(#5037)</target>
+        <target>当你试图安装比当前安装的 NVDA 更早的版本，你现在会收到警告不建议这样做，应该完全卸载之前安装的 NVDA 。(#5037)</target>
       </segment>
     </unit>
     <unit id="493c5669-35eb-4c24-b5cd-58480e826e4f">
@@ -33237,7 +33237,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Firefox, NVDA no longer inappropriately reports the content of an ARIA tab panel when focus moves inside it. (#4638)</source>
-        <target>在 Firefox， NVDA 不会在焦点移动到 ARIA tab 面板的时错误的读出内容。(#4638)</target>
+        <target>在 Firefox 中，当焦点在 ARIA 选项卡面板内移动时，NVDA 不再不恰当地读出 ARIA 选项卡面板的内容。(#4638)</target>
       </segment>
     </unit>
     <unit id="6812a141-c605-4a28-b542-7e9566f908ae">
