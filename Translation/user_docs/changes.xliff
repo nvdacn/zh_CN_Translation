@@ -5593,9 +5593,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>It is now possible to use the review cursor selection commands to select text in Microsoft PowerPoint. (#17004)</source>
-        <target>支持在 Microsoft PowerPoint 中使用文本查看光标的文本选择命令选择文本。 (#17004)</target>
+        <target>支持在 Microsoft PowerPoint 中使用文本查看光标的文本选择命令选择文本。(#17004)</target>
       </segment>
     </unit>
     <unit id="449fe5e4-4562-494d-bd4f-06c32b09ecf6">
@@ -5842,9 +5842,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The `bool` configuration key `[documentFormatting][reportFontAttributes]` is deprecated for removal in 2025.1, instead use `[fontAttributeReporting]`. (#16748)</source>
-        <target>不推荐使用在 2025.1 中即将被移除的 `bool` 配置键 `[documentFormatting][reportFontAttributes]`，请考虑使用 `[fontAttributeReporting]`。 (#16748)</target>
+        <target>不推荐使用在 2025.1 中即将被移除的 `bool` 配置键 `[documentFormatting][reportFontAttributes]`，请考虑使用 `[fontAttributeReporting]`。(#16748)</target>
       </segment>
     </unit>
     <unit id="f767cd6d-4176-4b4c-ac06-ad44989b2d3b">
@@ -6379,9 +6379,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 171</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>A warning message will inform you if you try writing to a non-empty directory. (#16686)</source>
-        <target>如果尝试写入非空目录，会显示警告消息。 (#16686)</target>
+        <target>如果尝试写入非空目录，会显示警告消息。(#16686)</target>
       </segment>
     </unit>
     <unit id="b0d019d1-5aa5-4ad7-b1f7-0808728a1424">
@@ -9549,9 +9549,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 533</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>`gui.addonGui.AddonsDialog` has been removed. (#15834)</source>
-        <target>删除了 `gui.addonGui.AddonsDialog`。 (#15834)</target>
+        <target>删除了 `gui.addonGui.AddonsDialog`。(#15834)</target>
       </segment>
     </unit>
     <unit id="08f45f58-f87b-475c-bdc3-aec864d34868">
@@ -9588,9 +9588,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 537</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Code which imports from one of them, should instead import from the replacement module. (#15618, @lukaszgo1)</source>
-        <target>请从其相应替换模块中导入。 (#15618, @lukaszgo1)</target>
+        <target>请从其相应替换模块中导入。(#15618, @lukaszgo1)</target>
       </segment>
     </unit>
     <unit id="f919f5ab-733f-4ed8-a15b-c51beabdd007">
@@ -9983,9 +9983,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 578</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The `bdDetect.DETECT_USB` and `bdDetect.DETECT_BLUETOOTH` constants have been deprecated with no public replacement. (#15772, @LeonarddeR).</source>
-        <target>`bdDetect.DETECT_USB` 和 `bdDetect.DETECT_BLUETOOTH` 常量已被弃用，没有公开替代方案。 (#15772, @LeonarddeR)</target>
+        <target>`bdDetect.DETECT_USB` 和 `bdDetect.DETECT_BLUETOOTH` 常量已被弃用，没有公开替代方案。(#15772, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="6678c77d-a6b4-4581-a6c8-e5cba4652b78">
@@ -19006,9 +19006,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1698</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When opening a settings dialog which is already open, NVDA sets focus on the existing dialog rather than raise an error. (#5383)</source>
-        <target>当打开已存在的设置对话框时，NVDA 会将焦点设置到现有对话框，而非引发错误。 (#5383)</target>
+        <target>当打开已存在的设置对话框时，NVDA 会将焦点设置到现有对话框，而非引发错误。(#5383)</target>
       </segment>
     </unit>
     <unit id="d7295889-4f03-4d2e-9580-ccd504bea6ad">
@@ -34635,7 +34635,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>The sounds played when NVDA starts and exits can be disabled via a new option in the General Settings dialog. (#834)</source>
-        <target>启动或退出 NVDA 时播放的声音，可以通过“常规设置”对话框的新选项进行停用。 (#834)</target>
+        <target>启动或退出 NVDA 时播放的声音，可以通过“常规设置”对话框的新选项进行停用。(#834)</target>
       </segment>
     </unit>
     <unit id="fafd919a-07c6-4737-8a15-f82c3af90fdd">
@@ -34735,7 +34735,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft word: If an inline image has no alternative text set, NVDA will instead report the title of the image if the author has provided one. (#4193)</source>
-        <target>Microsoft word: 如果内嵌图形没有设置内部文本， NVDA 会通过朗读作者设置的图形标题来代替。 (#4193)</target>
+        <target>Microsoft word: 如果内嵌图形没有设置内部文本， NVDA 会通过朗读作者设置的图形标题来代替。(#4193)</target>
       </segment>
     </unit>
     <unit id="fb21fac7-c6fe-4892-b6ce-eb4b8e164d65">
@@ -34745,7 +34745,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: NVDA can now report paragraph indenting with  the report formatting command (NVDA+f). It can also be reported automatically when the new Report Paragraph indenting option is enabled in Document Formatting settings. (#4165)</source>
-        <target>Microsoft Word: NVDA 可以使用朗读格式命令“NVDA+f”组合键读出段落缩进，您也可以通过启用“文档格式设置”对话框的新选项“朗读段落缩进”使其自动读出。 (#4165)</target>
+        <target>Microsoft Word: NVDA 可以使用朗读格式命令“NVDA+f”组合键读出段落缩进，您也可以通过启用“文档格式设置”对话框的新选项“朗读段落缩进”使其自动读出。(#4165)</target>
       </segment>
     </unit>
     <unit id="2a75dacb-375a-4854-8f2f-bd74a8c78ae4">
@@ -34755,7 +34755,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Report automatically inserted text such as a new bullet, number or tab indent when pressing enter in editable documents and text fields. (#4185)</source>
-        <target>当您在可编辑文档或文本编辑框按下“回车”键时，朗读自动插入的文本（如新的项目符号、数字和表格标记）。 (#4185)</target>
+        <target>当您在可编辑文档或文本编辑框按下“回车”键时，朗读自动插入的文本（如新的项目符号、数字和表格标记）。(#4185)</target>
       </segment>
     </unit>
     <unit id="2b2813a9-ede3-4d2c-98be-0bd6c7402a70">
@@ -34765,7 +34765,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft word: Pressing NVDA+alt+c will report  the text of a comment if the cursor is within one. (#3528)</source>
-        <target>Microsoft word: 按下“NVDA+alt+c”将朗读光标所在的注释文本。 (#3528)</target>
+        <target>Microsoft word: 按下“NVDA+alt+c”将朗读光标所在的注释文本。(#3528)</target>
       </segment>
     </unit>
     <unit id="34744a83-a0f6-4594-ab7c-3ab6e098c884">
@@ -34844,7 +34844,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: Report the distance from the left edge of the page when the tab key is pressed. (#1353)</source>
-        <target>Microsoft Word: 按下“tab”键时读出与页面左边界的距离。 (#1353)</target>
+        <target>Microsoft Word: 按下“tab”键时读出与页面左边界的距离。(#1353)</target>
       </segment>
     </unit>
     <unit id="f2b6463f-a6ae-45fa-ba41-1e5f9c164848">
@@ -34854,7 +34854,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: provide feedback in speech and braille for most available formatting shortcut keys (bold, italic, underline, alignment, outline level, superscript, subscript and font size). (#1353)</source>
-        <target>Microsoft Word: 为大多数可用的格式快捷键提供语音和盲文反馈(如粗体、斜体、下划线、对齐、大纲级别、超级脚本、子脚本和字体大小)。 (#1353)</target>
+        <target>Microsoft Word: 为大多数可用的格式快捷键提供语音和盲文反馈(如粗体、斜体、下划线、对齐、大纲级别、超级脚本、子脚本和字体大小)。(#1353)</target>
       </segment>
     </unit>
     <unit id="598a3b06-2df5-4371-a6e7-a3e8b359ce77">
@@ -34864,7 +34864,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Excel: If the selected cell contains comments, they can be now reported by pressing NVDA+alt+c. (#2920)</source>
-        <target>Microsoft Excel: 如果选择的单元包含注释，可使用“NVDA+alt+c”读出。 (#2920)</target>
+        <target>Microsoft Excel: 如果选择的单元包含注释，可使用“NVDA+alt+c”读出。(#2920)</target>
       </segment>
     </unit>
     <unit id="22f30150-cc99-4424-b21f-ec23e98022c9">
@@ -34934,7 +34934,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Excel: The vertical and horizontal  alignment for cells can now be reported with the report formatting command (NVDA+f). It can also be reported automatically if the Report alignment option in Document Formatting settings is enabled. (#4212)</source>
-        <target>Microsoft Excel: 单元格的垂直对齐和水平对齐方式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读对齐方式”选项自动的读出。 (#4212)</target>
+        <target>Microsoft Excel: 单元格的垂直对齐和水平对齐方式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读对齐方式”选项自动的读出。(#4212)</target>
       </segment>
     </unit>
     <unit id="b4e09235-6711-4b69-86d3-acfcc003ed19">
@@ -34944,7 +34944,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Excel: The style of a cell can now be reported with the report formatting command (NVDA+f). It can also be reported automatically if the Report Style option in Document formatting settings is enabled. (#4213)</source>
-        <target>Microsoft Excel: 单元格的文本样式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读文本样式”选项自动的读出。 (#4213)</target>
+        <target>Microsoft Excel: 单元格的文本样式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读文本样式”选项自动的读出。(#4213)</target>
       </segment>
     </unit>
     <unit id="e4cf3b7d-de4f-4387-854b-2f1944d4e5ff">
@@ -35004,7 +35004,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>The report location command (NVDA+delete) is more context specific in some situations. (#4219)</source>
-        <target>朗读位置的命令(NVDA+删除)在特定的一些场景下拥有着更加丰富的内容。 (#4219)</target>
+        <target>朗读位置的命令(NVDA+删除)在特定的一些场景下拥有着更加丰富的内容。(#4219)</target>
       </segment>
     </unit>
     <unit id="ca842aa6-baa6-43cf-9710-0ebf3499c3d0">
@@ -35084,7 +35084,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Google Chrome and Chrome-based browsers, certain chunks of text (such as those with emphasis) are no longer repeated when reporting the text of an alert or dialog. (#4066)</source>
-        <target>Google Chrome 和基于其开发的浏览器，，警告或对话框的当前文本块(如突出文本)不会再被重复朗读。 (#4066)</target>
+        <target>Google Chrome 和基于其开发的浏览器，，警告或对话框的当前文本块(如突出文本)不会再被重复朗读。(#4066)</target>
       </segment>
     </unit>
     <unit id="b53fbfdd-7718-40c4-a316-de51ab9c3556">
@@ -35094,7 +35094,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In browse mode in Mozilla applications, pressing enter on a button, etc. no longer fails to activate it (or activates the wrong control) in certain cases such as the buttons at the top of Facebook. (#4106)</source>
-        <target>在 Mozilla 应用程序使用浏览模式，在按钮等控件上按下回车不会再发生某些时候，点击控件失败（或点击了错误的控件）的情况。 (#4106)</target>
+        <target>在 Mozilla 应用程序使用浏览模式，在按钮等控件上按下回车不会再发生某些时候，点击控件失败（或点击了错误的控件）的情况。(#4106)</target>
       </segment>
     </unit>
     <unit id="59cf6eea-b203-4e80-bdfa-9d0615ce67db">
@@ -35104,7 +35104,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Useless information is no longer announced when tabbing in iTunes. (#4128)</source>
-        <target>在浏览 iTunes 时不在朗读无用信息。 (#4128)</target>
+        <target>在浏览 iTunes 时不在朗读无用信息。(#4128)</target>
       </segment>
     </unit>
     <unit id="c7dd01d5-7901-4c62-ad15-b88062da2828">
@@ -35114,7 +35114,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In certain lists in iTunes such as the Music list, moving to the next item using object navigation now works correctly. (#4129)</source>
-        <target>在 iTunes 的当前列表（如音乐播放列表），使用对象导航浏览下一个项目的命令可以正常工作。 (#4129)</target>
+        <target>在 iTunes 的当前列表（如音乐播放列表），使用对象导航浏览下一个项目的命令可以正常工作。(#4129)</target>
       </segment>
     </unit>
     <unit id="ee05c9a8-bb75-4053-b48b-92c583c4f09e">
@@ -35124,7 +35124,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>HTML elements considered headings because of WAI ARIA markup are now included in the Browse mode Elements list and quick navigation for Internet Explorer documents. (#4140)</source>
-        <target>HTML 元素现在被当成标题，因为 WAI ARIA 标记已经被包含在浏览模式元素列表和 Internet Explorer 的快捷键导航。 (#4140)</target>
+        <target>HTML 元素现在被当成标题，因为 WAI ARIA 标记已经被包含在浏览模式元素列表和 Internet Explorer 的快捷键导航。(#4140)</target>
       </segment>
     </unit>
     <unit id="fc89289d-d1c1-4f6e-aee2-3e9db2266865">
@@ -35134,7 +35134,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Following same-page links in recent versions of Internet Explorer now correctly moves to and reports the destination position in browse mode  documents. (#4134)</source>
-        <target>在最近版本的 Internet Explorer 的浏览文档中，跟随到同页面链接现在将可正确的移动和朗读目标位置。 (#4134)</target>
+        <target>在最近版本的 Internet Explorer 的浏览文档中，跟随到同页面链接现在将可正确的移动和朗读目标位置。(#4134)</target>
       </segment>
     </unit>
     <unit id="3a97818e-b386-42a2-b149-4b800b850a50">
@@ -35144,7 +35144,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Outlook 2010 and above: Overall access to secure dialogs such as the New profiles and mail setup dialogs has been improved. (#4090, #4091, #4095)</source>
-        <target>Microsoft Outlook 2010 和以上版本: 所有安全对话框(如“新建配置文件”对话框、“邮件设置”对话框)的可访问性都得到了提高。 (#4090, #4091, #4095)</target>
+        <target>Microsoft Outlook 2010 和以上版本: 所有安全对话框(如“新建配置文件”对话框、“邮件设置”对话框)的可访问性都得到了提高。(#4090, #4091, #4095)</target>
       </segment>
     </unit>
     <unit id="f9e058d0-599c-4655-ba9f-ec8ad0d17a72">
@@ -35154,7 +35154,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Outlook: Useless verbosity has been decreased in command toolbars when navigating through  certain dialogs. (#4096, #3407)</source>
-        <target>Microsoft Outlook: 在当前对话框浏览时，命令工具栏的无用提示信息减少。 (#4096, #3407)</target>
+        <target>Microsoft Outlook: 在当前对话框浏览时，命令工具栏的无用提示信息减少。(#4096, #3407)</target>
       </segment>
     </unit>
     <unit id="920e7525-94bf-4681-b4ea-8748ceccfe28">
@@ -35164,7 +35164,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft word: Tabbing to a blank cell in a table no longer incorrectly announces exiting the table. (#4151)</source>
-        <target>Microsoft word: 切换到表格中的空白单元时，不会再错误的提示为“离开表格”。 (#4151)</target>
+        <target>Microsoft word: 切换到表格中的空白单元时，不会再错误的提示为“离开表格”。(#4151)</target>
       </segment>
     </unit>
     <unit id="56902894-67a0-4534-b4ed-4a855849ed38">
@@ -35174,7 +35174,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: The first character past the end of a table (including a new blank line) is no longer incorrectly considered to be inside the table. (#4152)</source>
-        <target>Microsoft Word: 表格外的第一个字符（包含着新的空白航）不会被错误地认为属于此表格。 (#4152)</target>
+        <target>Microsoft Word: 表格外的第一个字符（包含着新的空白航）不会被错误地认为属于此表格。(#4152)</target>
       </segment>
     </unit>
     <unit id="b9a31f69-a425-49ff-a973-fdf47de08a9c">
@@ -35184,7 +35184,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word 2010 spell check dialog: The actual misspelled word is reported rather than  inappropriately reporting just the first bold word. (#3431)</source>
-        <target>Microsoft Word 2010 拼写检查对话框: 实际的拼写错误单词将被朗读，而不仅仅是不恰当的朗读第一个黑体单词。 (#3431)</target>
+        <target>Microsoft Word 2010 拼写检查对话框: 实际的拼写错误单词将被朗读，而不仅仅是不恰当的朗读第一个黑体单词。(#3431)</target>
       </segment>
     </unit>
     <unit id="2be4f9ac-a191-49d3-87ae-b67001dc0ba7">
@@ -35194,7 +35194,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In browse mode in Internet Explorer and other MSHTML controls, tabbing or using single letter navigation to move to form fields again reports the label in many cases where it didn't (specifically, where HTML label elements are used). (#4170)</source>
-        <target>在 Internet Explorer ，切换或使用单键浏览找到表单时朗读出其标签（特别是 HTML 元素已经定义好标签的情况）。 (#4170)</target>
+        <target>在 Internet Explorer ，切换或使用单键浏览找到表单时朗读出其标签（特别是 HTML 元素已经定义好标签的情况）。(#4170)</target>
       </segment>
     </unit>
     <unit id="92b93727-ca9a-4089-9062-be7b41cf6d54">
@@ -35204,7 +35204,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: Reporting the existence and placement of comments is more accurate. (#3528)</source>
-        <target>Microsoft Word: 注释的存在和位置将读的更加准确。 (#3528)</target>
+        <target>Microsoft Word: 注释的存在和位置将读的更加准确。(#3528)</target>
       </segment>
     </unit>
     <unit id="04cf4288-1c87-44e3-a06b-7bebec6ba1d0">
@@ -35214,7 +35214,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Navigation of certain dialogs in MS Office products such as Word, Excel and Outlook has been improved by no longer reporting particular control container toolbars which are not useful to the user. (#4198)</source>
-        <target>浏览某些对话框时，通过不在读出某些对用户无用的特别的控件容器工具栏的方式，提高对 Microsoft Office 产品(word、OutLook、Excel等)的支持。 (#4198)</target>
+        <target>浏览某些对话框时，通过不在读出某些对用户无用的特别的控件容器工具栏的方式，提高对 Microsoft Office 产品(word、OutLook、Excel等)的支持。(#4198)</target>
       </segment>
     </unit>
     <unit id="9ef909c2-7859-43cf-9aac-30299c21a950">
@@ -35224,7 +35224,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Task panes such as clipboard manager or File recovery no longer accidentilly seem to gain focus when opening an application such as Microsoft Word or Excel, which was sometimes causing the user to have to switch away from and back to the application to use the document or spreadsheet.  (#4199)</source>
-        <target>任务窗格（如文件恢复器、剪贴板管理器）不会再发生偶然丢失焦点的情况，这个情况会发生在打开某些程序时（如Word、Excel等），用户再也无需切换到其他窗口后返回才能使用文档或电子表格。 (#4199)</target>
+        <target>任务窗格（如文件恢复器、剪贴板管理器）不会再发生偶然丢失焦点的情况，这个情况会发生在打开某些程序时（如Word、Excel等），用户再也无需切换到其他窗口后返回才能使用文档或电子表格。(#4199)</target>
       </segment>
     </unit>
     <unit id="92313b55-0d7d-4b13-9bbb-3fe7dbe1d50c">
@@ -35234,7 +35234,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA no longer fails to run on recent Windows Operating Systems if the user's Windows language is set to Serbian (Latin). (#4203)</source>
-        <target>在系统语言被设置成塞尔维亚语（拉丁）时，NVDA 不会发生无法运行在最新的 Windows 操作系统的情况。 (#4203)</target>
+        <target>在系统语言被设置成塞尔维亚语（拉丁）时，NVDA 不会发生无法运行在最新的 Windows 操作系统的情况。(#4203)</target>
       </segment>
     </unit>
     <unit id="f749f6df-09a0-4462-a1ae-9c863cbe64b8">
@@ -35244,7 +35244,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Pressing numlock while in input help mode now correctly toggles numlock, rather than causing the keyboard and the Operating System to become out of sync in regards to the state of this key. (#4226)</source>
-        <target>现在，在打开“帮助模式”的情况下，按下数字键盘切换可以正常的切换状态，而不是强制键盘和系统保持在一种状态。 (#4226)</target>
+        <target>现在，在打开“帮助模式”的情况下，按下数字键盘切换可以正常的切换状态，而不是强制键盘和系统保持在一种状态。(#4226)</target>
       </segment>
     </unit>
     <unit id="c59e7fde-5058-41d9-97c9-afe08e148108">
@@ -35254,7 +35254,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Google Chrome, the title of the document is again reported when switching tabs. In NVDA 2014.2, this did not occur in some cases. (#4222)</source>
-        <target>在 Chrome 切换标签时，文档标题将再次可以正常的朗读，这种情况不会发生在 NVDA2014.2。 (#4222)</target>
+        <target>在 Chrome 切换标签时，文档标题将再次可以正常的朗读，这种情况不会发生在 NVDA2014.2。(#4222)</target>
       </segment>
     </unit>
     <unit id="5d89083c-dd29-4c17-9bff-dc39f54e9f6c">
@@ -35264,7 +35264,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Google Chrome and Chrome-based browsers, the URL of the document is no longer reported when reporting the document. (#4223)</source>
-        <target>在使用 Chrome 或基于 Chrome 所开发的浏览器，在朗读文档时文档的 URL 将不会被朗读。 (#4223)</target>
+        <target>在使用 Chrome 或基于 Chrome 所开发的浏览器，在朗读文档时文档的 URL 将不会被朗读。(#4223)</target>
       </segment>
     </unit>
     <unit id="73a08357-6b15-499e-9589-f107bd0bfbb3">
@@ -35274,7 +35274,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>When running say all with the No speech synthesizer selected (useful for automated testing), say all will now complete instead of stopping after the first few lines. (#4225)</source>
-        <target>当在选择“无合成器”时进行全文朗读，内容将可完全读完，而不会再发生在读完某些行之后自动停止的情况。 (#4225) </target>
+        <target>当在选择“无合成器”时进行全文朗读，内容将可完全读完，而不会再发生在读完某些行之后自动停止的情况。(#4225)</target>
       </segment>
     </unit>
     <unit id="be82e08a-617d-430f-99f8-fbda5fa14d5e">
@@ -35284,7 +35284,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Outlook's Signature dialog: The Signature editing field is now accessible, allowing for full cursor tracking and format detection. (#3833)</source>
-        <target>Microsoft Outlook的签名对话框: 签名编辑区域将具有完全的可访问性，允许完全的鼠标导航和格式检测。 (#3833)</target>
+        <target>Microsoft Outlook的签名对话框: 签名编辑区域将具有完全的可访问性，允许完全的鼠标导航和格式检测。(#3833)</target>
       </segment>
     </unit>
     <unit id="857f6561-4cdb-4a5f-a207-56517691447b">
@@ -35294,7 +35294,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: When reading the last line of a table cell, the entire table cell is no longer read. (#3421)</source>
-        <target>Microsoft Word: 当朗读表格单元的最后一行时，不会发生读出整个表格的情况。 (#3421)</target>
+        <target>Microsoft Word: 当朗读表格单元的最后一行时，不会发生读出整个表格的情况。(#3421)</target>
       </segment>
     </unit>
     <unit id="64cb06fc-91a0-45c1-80da-68a0671367ef">
@@ -35304,7 +35304,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: When reading the first or last line of a table of contents, the entire table of contents is no longer read. (#3421)</source>
-        <target>Microsoft Word: 当朗读表格单元的第一行或最后一行时，不会发生读出整个列表的情况。 (#3421)</target>
+        <target>Microsoft Word: 当朗读表格单元的第一行或最后一行时，不会发生读出整个列表的情况。(#3421)</target>
       </segment>
     </unit>
     <unit id="0a084d6e-5436-4344-b544-0151696378e2">
@@ -35314,7 +35314,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>When speaking typed words and in some other cases, words are no longer incorrectly broken at marks such as vowel signs and virama in Indic languages. (#4254)</source>
-        <target>在朗读输入字词打开时，词语不会再被某些印第安语的符号打断。 (#4254)</target>
+        <target>在朗读输入字词打开时，词语不会再被某些印第安语的符号打断。(#4254)</target>
       </segment>
     </unit>
     <unit id="51343dcb-3b88-425c-b380-7c7897783d98">
@@ -35324,7 +35324,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Numeric editable text fields in GoldWave are now handled correctly. (#670)</source>
-        <target>GoldWave 的数字可编辑文本区域现在可以正确获取。 (#670)</target>
+        <target>GoldWave 的数字可编辑文本区域现在可以正确获取。(#670)</target>
       </segment>
     </unit>
     <unit id="a9693ac6-5f99-4747-96e7-331d312d9477">
@@ -35334,7 +35334,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Microsoft Word: when moving by paragraph with control+downArrow / control+upArrow, it is no longer necessary to press them twice if moving through bulleted or numbered lists. (#3290)</source>
-        <target>Microsoft Word: 当使用 control+下光标或control加上光标进行段落跳转时，无需在通过按下两次该键来略过项目列表和数字列表。 (#3290)</target>
+        <target>Microsoft Word: 当使用 control+下光标或control加上光标进行段落跳转时，无需在通过按下两次该键来略过项目列表和数字列表。(#3290)</target>
       </segment>
     </unit>
     <unit id="4bd84c7f-2f3e-4fcb-abb3-d8cd31c9a8e7">
@@ -35354,7 +35354,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA now has unified support for add-on documentation. See the Add-on Documentation section of the Developer Guide for details. (#2694)</source>
-        <target>NVDA 现在拥有统一的插件文档支持，详情请查阅开发文档的插件帮助章节。 (#2694)</target>
+        <target>NVDA 现在拥有统一的插件文档支持，详情请查阅开发文档的插件帮助章节。(#2694)</target>
       </segment>
     </unit>
     <unit id="4160a015-9894-490c-a1e7-8b0c6d698b3a">
@@ -35364,7 +35364,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>When providing gesture bindings on a ScriptableObject via __gestures, it is now possible to provide the None keyword as the script. This unbinds the gesture in any base classes. (#4240)</source>
-        <target>当为 scriptableObject 和 gesture 提供 gesture绑定时，允许为脚本设定关键字为空，取消了许多基本类的绑定。 (#4240)</target>
+        <target>当为 scriptableObject 和 gesture 提供 gesture绑定时，允许为脚本设定关键字为空，取消了许多基本类的绑定。(#4240)</target>
       </segment>
     </unit>
     <unit id="b2b88e95-38dc-46a0-b169-fc871ff6da19">
@@ -35374,7 +35374,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>It is now possible to change the shortcut key used to start NVDA for locales where the normal shortcut causes problems. (#2209)</source>
-        <target>现在，您可以为某些启动快捷键会造成问题的地区修改启动 NVDA 的快捷键。 (#2209)</target>
+        <target>现在，您可以为某些启动快捷键会造成问题的地区修改启动 NVDA 的快捷键。(#2209)</target>
       </segment>
     </unit>
     <unit id="76306f4f-7dee-47fa-a225-46d736b5e910">
