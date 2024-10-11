@@ -33763,9 +33763,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 3448</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Highlights of this release include browse mode for documents in Microsoft Word and Outlook; major enhancements to support for Skype for Desktop; and significant fixes for Microsoft Internet Explorer.</source>
-        <target>Highlights of this release include browse mode for documents in Microsoft Word and Outlook; major enhancements to support for Skype for Desktop; and significant fixes for Microsoft Internet Explorer.</target>
+        <target>此次发布的重要更新包括 Microsoft Word 和 outlook 的浏览模式支持，Skype 桌面版支持的少量提升及 Microsoft Explorer 支持的显著提升。</target>
       </segment>
     </unit>
     <unit id="448528b5-0d73-4060-b04b-46e97f157a82">
@@ -33783,9 +33783,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3452</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can now add new symbols in the Symbol Pronunciation dialog. (#4354)</source>
-        <target>You can now add new symbols in the Symbol Pronunciation dialog. (#4354)</target>
+        <target>您可以使用“标点符号读音”对话框新增标点。 (#4354)</target>
       </segment>
     </unit>
     <unit id="ee2507db-71d3-4af7-83cf-a407a35f622c">
@@ -33793,9 +33793,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3453</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In the Input Gestures dialog, you can use the new "Filter by" field to show only gestures containing specific words. (#4458)</source>
-        <target>In the Input Gestures dialog, you can use the new "Filter by" field to show only gestures containing specific words. (#4458)</target>
+        <target>在“输入手势”对话框，您可以使用“过滤关键字”筛选您需要查看的触摸手势。 (#4458)</target>
       </segment>
     </unit>
     <unit id="c978d06f-0dd0-4bce-96dd-3fb454d91ff7">
@@ -33803,9 +33803,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3454</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA now automatically reports new text in mintty. (#4588)</source>
-        <target>NVDA now automatically reports new text in mintty. (#4588)</target>
+        <target>NVDA 现在可以自动的朗读 mintty 的新文本。 (#4588)</target>
       </segment>
     </unit>
     <unit id="84bc8e42-ce7f-4185-89df-c76db8c9602b">
@@ -33813,9 +33813,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3455</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In the browse mode Find dialog, there is now an option to perform a case sensitive search. (#4584)</source>
-        <target>In the browse mode Find dialog, there is now an option to perform a case sensitive search. (#4584)</target>
+        <target>浏览模式的查找对话框中增加了区分大小写的选项。 (#4584)</target>
       </segment>
     </unit>
     <unit id="1a4a740c-35f5-4339-bee0-c58714cdbd5d">
@@ -33823,9 +33823,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3456</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Quick navigation (pressing h to move by heading, etc.) and Elements List (NVDA+f7) are now available in Microsoft Word documents by turning on browse mode with NVDA+space. (#2975)</source>
-        <target>Quick navigation (pressing h to move by heading, etc.) and Elements List (NVDA+f7) are now available in Microsoft Word documents by turning on browse mode with NVDA+space. (#2975)</target>
+        <target>在word 中，现在可以使用“NVDA+空格”切换到浏览模式后使用h等进行元素跳转，也可以使用“NVDA+F7”进行元素筛选。 (#2975)</target>
       </segment>
     </unit>
     <unit id="068e5119-a854-414f-8683-11fd10903fed">
@@ -33833,9 +33833,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3457</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Reading HTML messages in Microsoft Outlook 2007 and later has been majorly improved as Browse mode is automatically enabled for these messages. If browse mode is not enabled in some rare situations, you can force it on with NVDA+space. (#2975)</source>
-        <target>Reading HTML messages in Microsoft Outlook 2007 and later has been majorly improved as Browse mode is automatically enabled for these messages. If browse mode is not enabled in some rare situations, you can force it on with NVDA+space. (#2975)</target>
+        <target>提升对 Outlook 2007 及其后版本中的 HTML 消息浏览模式自动切换的支持，如果没有自动切换则可以使用“NVDA+空格”强行切换。 (#2975)</target>
       </segment>
     </unit>
     <unit id="00f07f08-1feb-4535-bf58-043a215e8e2b">
@@ -33843,9 +33843,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3458</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Table column headers in Microsoft word are automatically reported for tables where a header row has been explicitly specified by the author via Microsoft word's table properties. (#4510)</source>
-        <target>Table column headers in Microsoft word are automatically reported for tables where a header row has been explicitly specified by the author via Microsoft word's table properties. (#4510)</target>
+        <target>由作者使用 Microsoft Word 的表格属性指定的列标题行现在可以正常的识别为标题。 (#4510)</target>
       </segment>
     </unit>
     <unit id="88bb7130-fd11-4657-962d-fb69b6bf2b8f">
@@ -33853,9 +33853,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3459</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>However, For tables where rows have been merged, this will not work automatically. In this situation, you can still set column headers manually in NVDA with NVDA+shift+c.</source>
-        <target>However, For tables where rows have been merged, this will not work automatically. In this situation, you can still set column headers manually in NVDA with NVDA+shift+c.</target>
+        <target>如果列表被合并，列标题不能正常识别，您还可以手动使用“NVDA+Shift+C”设置列标题行。</target>
       </segment>
     </unit>
     <unit id="bba23ce0-4468-4030-9542-cf4d9bc04898">
@@ -33863,9 +33863,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3460</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In Skype for Desktop, notifications are now reported. (#4741)</source>
-        <target>In Skype for Desktop, notifications are now reported. (#4741)</target>
+        <target>支持 Skype 桌面版的通知自动朗读。 (#4741)</target>
       </segment>
     </unit>
     <unit id="76265e54-954d-4df0-911b-639af68a53b5">
@@ -33873,9 +33873,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3461</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In Skype for Desktop, you can now report and review recent messages using NVDA+control+1 through NVDA+control+0; e.g. NVDA+control+1 for the most recent message and NVDA+control+0 for the tenth most recent. (#3210)</source>
-        <target>In Skype for Desktop, you can now report and review recent messages using NVDA+control+1 through NVDA+control+0; e.g. NVDA+control+1 for the most recent message and NVDA+control+0 for the tenth most recent. (#3210)</target>
+        <target>在 Skype 桌面版中，您可以使用“NVDA+control+1到0”朗读最近的第x条消息。 (#3210)</target>
       </segment>
     </unit>
     <unit id="0b9cb5c5-c2e4-48c0-8676-a77db46e2a28">
@@ -33883,9 +33883,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3462</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In a conversation in Skype for Desktop, NVDA now reports when a contact is typing. (#3506)</source>
-        <target>In a conversation in Skype for Desktop, NVDA now reports when a contact is typing. (#3506)</target>
+        <target>在 Skype 桌面版的绘画框中，输入状态可以自动读出。 (#3506)</target>
       </segment>
     </unit>
     <unit id="9806b4a1-c5ce-41a9-a692-905bd772e698">
@@ -33893,9 +33893,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3463</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA can now be installed silently via the command line without starting the installed copy after installation. To do this, use the --install-silent option. (#4206)</source>
-        <target>NVDA can now be installed silently via the command line without starting the installed copy after installation. To do this, use the --install-silent option. (#4206)</target>
+        <target>现在您可以使用命令行对 NVDA 进行静默安装，这种方式安装之后不会启动新安装的 NVDA 副本，参数是 --install-silent。 (#4206)</target>
       </segment>
     </unit>
     <unit id="5577a12a-738f-43e4-bb0b-7abc8a3fd4d5">
@@ -33903,9 +33903,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3464</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Support for the Papenmeier BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus braille displays. (#4614)</source>
-        <target>Support for the Papenmeier BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus braille displays. (#4614)</target>
+        <target>支持 Papenmeier BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus 点显器 (#4614)</target>
       </segment>
     </unit>
     <unit id="99201f64-8a60-4ebc-8d65-6485cd411912">
@@ -33923,9 +33923,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3468</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In NVDA's Document Formatting settings dialog, the option to report spelling errors now has a shortcut key (alt+r). (#793)</source>
-        <target>In NVDA's Document Formatting settings dialog, the option to report spelling errors now has a shortcut key (alt+r). (#793)</target>
+        <target>在文档格式设置的“读出拼写错误”选项增加了快速键“r”。 (#793)</target>
       </segment>
     </unit>
     <unit id="cdb04a6e-a332-4617-aa88-fe658502806b">
@@ -33933,9 +33933,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3469</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA will now use the synthesizer/voice's language for character and symbol processing (including punctuation/symbol names), regardless of whether automatic language switching is turned on. To turn off this feature so that NVDA again uses its interface language, uncheck the new option in Voice settings called Trust Voice's language when processing characters and symbols. (#4210)</source>
-        <target>NVDA will now use the synthesizer/voice's language for character and symbol processing (including punctuation/symbol names), regardless of whether automatic language switching is turned on. To turn off this feature so that NVDA again uses its interface language, uncheck the new option in Voice settings called Trust Voice's language when processing characters and symbols. (#4210)</target>
+        <target>NVDA 现在使用语音语言来对文字和标点的朗读进行处理，此选项与自动语言切换的开关没有关联，如果您想取消这个特性可以通过取消选中“处理文字和标点时信任语音的语言”复选框。 (#4210)</target>
       </segment>
     </unit>
     <unit id="480bcc19-d859-446d-8562-78c06ff77a7e">
@@ -33943,9 +33943,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3470</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Support for the Newfon synthesizer has been removed. Newfon is now available as an NVDA add-on. (#3184)</source>
-        <target>Support for the Newfon synthesizer has been removed. Newfon is now available as an NVDA add-on. (#3184)</target>
+        <target>对 Newfon 合成器的支持被移除，因为它已经变成了一个插件。 (#3184)</target>
       </segment>
     </unit>
     <unit id="9aa15c21-aab1-43e3-ac50-87527ab92042">
@@ -33953,9 +33953,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3471</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Skype for Desktop 7 or later is now required for use with NVDA; earlier versions are not supported. (#4218)</source>
-        <target>Skype for Desktop 7 or later is now required for use with NVDA; earlier versions are not supported. (#4218)</target>
+        <target>NVDA 仅支持 Skype 7桌面版以上的版本，低版本不再支持。 (#4218)</target>
       </segment>
     </unit>
     <unit id="b5583d1c-977a-4366-819e-c799c7dc6bbb">
@@ -33963,9 +33963,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3472</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Downloading of NVDA updates is now more secure. (Specifically, the update information is retrieved via https and the hash of the file is verified after it is downloaded.) (#4716)</source>
-        <target>Downloading of NVDA updates is now more secure. (Specifically, the update information is retrieved via https and the hash of the file is verified after it is downloaded.) (#4716)</target>
+        <target>NVDA 升级的下载变得更加安全，文件信息由 HTTPS 协议传输，且在文件下载完成后会进行 hash 校验。 (#4716)</target>
       </segment>
     </unit>
     <unit id="241316d8-aa00-4157-b6a8-ec8d915999fa">
@@ -33973,9 +33973,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3473</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>eSpeak has been upgraded to version 1.48.04 (#4325)</source>
-        <target>eSpeak has been upgraded to version 1.48.04 (#4325)</target>
+        <target>ESpeak已经被升级到了 1.48.04 (#4325)</target>
       </segment>
     </unit>
     <unit id="439ced8d-22cb-493d-9915-9f9d8b3d4f77">
@@ -34545,7 +34545,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Mouse tracking and touch exploration in Internet Explorer and other MSHTML controls (including many Windows 8 applications) is now much more accurate  on high DPI displays or when document zoom is changed. (#3494)</source>
-        <target>在 Internet Explorer 和其他 MSHTML 控件（还包括某些 windows 8 应用程序） 的高DPI 显示器下或文档大小被更改时，鼠标导航和触摸浏览将变得更加准确。 (#3494) </target>
+        <target>在 Internet Explorer 和其他 MSHTML 控件（还包括某些 windows 8 应用程序） 的高DPI 显示器下或文档大小被更改时，鼠标导航和触摸浏览将变得更加准确。 (#3494)</target>
       </segment>
     </unit>
     <unit id="57dcc6e4-8de0-4632-a69c-c26af8d26067">
