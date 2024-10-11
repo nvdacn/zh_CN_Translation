@@ -18,7 +18,7 @@ jobs:
       - name: Cache NVDAL10nUtil
         uses: actions/cache@v4
         with:
-          path: ${{ github.workspace }}/NVDAL10nUtil.exe
+          path: ${{ github.workspace }}/nvdaL10nUtil.exe
           key: NVDAL10nUtil.exe
           restore-keys: |
             l10nUtil
