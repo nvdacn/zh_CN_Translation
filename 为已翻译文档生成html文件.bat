@@ -2,6 +2,7 @@
 
 IF not EXIST "%~dp0Tools\nvdaL10nUtil.exe" (
   mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 nvdaL10nUtil.exe 不存在，请下载该程序并将其复制到 Tools 文件夹后重试。',5,'文件不存在');window.close();"
+Exit
 )
 
 if not "%1"=="" (
