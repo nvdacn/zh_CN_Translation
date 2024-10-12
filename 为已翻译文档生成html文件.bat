@@ -27,6 +27,7 @@ for /r "%~dp0Preview" %%i in (*.html) do (
 )
 goto %CLI%
 
+:A
 :C
 "%~dp0Tools\nvdaL10nUtil.exe" xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
 if /I "%CLI%"=="C" (Exit)
