@@ -34,19 +34,23 @@ goto %CLI%
 :D
 :T
 :Z
+IF EXIST "%~dp0Preview\changes.html" (del /f /q "%~dp0Preview\changes.html")
 "%~dp0Tools\nvdaL10nUtil.exe" xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
 if /I "%CLI%"=="C" (Exit)
 
 :U
+IF EXIST "%~dp0Preview\userGuide.html" (del /f /q "%~dp0Preview\userGuide.html")
 "%~dp0Tools\nvdaL10nUtil.exe" xliff2html -t userGuide "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\userGuide.html"
 if /I "%CLI%"=="U" (Exit)
 
 :K
+IF EXIST "%~dp0Preview\keyCommands.html" (del /f /q "%~dp0Preview\keyCommands.html")
 "%~dp0Tools\nvdaL10nUtil.exe" xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
 if /I "%CLI%"=="K" (Exit)
 if /I "%CLI%"=="D" (Exit)
 
 :L
+IF EXIST "%~dp0Preview\nvda.mo" (del /f /q "%~dp0Preview\nvda.mo")
 "%~dp0Tools\msgfmt.exe" -o "%~dp0Preview\nvda.mo" "%~dp0Translation\LC_MESSAGES\nvda.po"
 if /I "%CLI%"=="L" (Exit)
 
