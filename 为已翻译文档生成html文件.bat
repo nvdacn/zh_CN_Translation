@@ -1,9 +1,14 @@
-@echo off
+@echo off&&@chcp 936
 
 IF not EXIST "%~dp0Tools\nvdaL10nUtil.exe" (
   mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 nvdaL10nUtil.exe 不存在，请下载该程序并将其复制到 Tools 文件夹后重试。',5,'文件不存在');window.close();"
 Exit
 )
+
+if "%1" == "GITHUB_ACTIONS" (
+set CLI=T
+goto %CLI%
+) 
 
 if not "%1"=="" (
 set CLI=%1
@@ -15,8 +20,10 @@ echo 请选择要生成的文件，按回车键执行。
 echo C：生成更新日志的html文件；
 echo u：生成用户指南的html文件；
 echo K：生成热键快速参考的html文件；
-echo DOC：生成所有文档的html文件；
+echo D：生成所有文档的html文件；
 echo L：生成界面翻译的mo文件
+echo T：生成翻译测试文件（不压缩）
+echo Z：生成翻译测试文件的压缩包
 echo STC：生成可直接上传到Crowdin的changes文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
 echo STU：生成可直接上传到Crowdin的userGuide文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
 echo 其他命令：退出本工具。
@@ -27,8 +34,10 @@ set /p CLI=
 :goto
 goto %CLI%
 
-:DOC
 :C
+:D
+:T
+:Z
 "%~dp0Tools\nvdaL10nUtil.exe" xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
 if /I "%CLI%"=="C" (Exit)
 
@@ -39,11 +48,38 @@ if /I "%CLI%"=="U" (Exit)
 :K
 "%~dp0Tools\nvdaL10nUtil.exe" xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
 if /I "%CLI%"=="K" (Exit)
-if /I "%CLI%"=="DOC" (Exit)
+if /I "%CLI%"=="D" (Exit)
 
 :L
 "%~dp0Tools\msgfmt.exe" -o "%~dp0Preview\nvda.mo" "%~dp0Translation\LC_MESSAGES\nvda.po"
 if /I "%CLI%"=="L" (Exit)
+
+IF EXIST "%~dp0Preview\Test" (rd /s /q "%~dp0Preview\Test")
+MKDir "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES"
+MKLINK /H "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES\nvda.mo" "%~dp0Preview\nvda.mo"
+
+MKDir "%~dp0Preview\Test\documentation\zh_CN"
+MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\numberedHeadings.css" "%~dp0Preview\numberedHeadings.css"
+MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\styles.css" "%~dp0Preview\styles.css"
+MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\changes.html" "%~dp0Preview\changes.html"
+MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\keyCommands.html" "%~dp0Preview\keyCommands.html"
+MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\userGuide.html" "%~dp0Preview\userGuide.html"
+
+if /I "%CLI%"=="T" (Exit)
+
+for /f "delims=" %%o in ('git branch --show-current') do set Branch=%%o
+
+set DateTime=%date:~5,2%%date:~8,2%%time:~0,2%%time:~3,2%
+
+If "%DateTime:~4,1%" == " " (
+  set VersionInfo=%DateTime:~0,4%0%DateTime:~5,3%
+) Else (
+  set VersionInfo=%DateTime%
+)
+
+IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
+"%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
+if /I "%CLI%"=="Z" (Exit)
 
 :STC
 :STU
