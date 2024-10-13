@@ -1,7 +1,9 @@
 @echo off
 
+chcp 65001
+
 IF not EXIST "%~dp0Tools\nvdaL10nUtil.exe" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('�ļ� nvdaL10nUtil.exe �����ڣ������ظó��򲢽��临�Ƶ� Tools �ļ��к����ԡ�',5,'�ļ�������');window.close();"
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 nvdaL10nUtil.exe 不存在，请下载该程序并将其复制到 Tools 文件夹后重试。',5,'文件不存在');window.close();"
 Exit
 )
 
@@ -11,19 +13,19 @@ goto goto
 )
 
 cls
-echo ��ӭʹ���ļ����ɹ��ߣ���ѡ��Ҫ���ɵ��ļ������س���ִ�С�
-echo C�����ɸ�����־��html�ļ���
-echo u�������û�ָ�ϵ�html�ļ���
-echo K�������ȼ����ٲο���html�ļ���
-echo D�����������ĵ���html�ļ���
-echo L�����ɽ��淭���mo�ļ�
-echo T�����ɷ�������ļ�����ѹ����
-echo Z�����ɷ�������ļ���ѹ����
-echo STC�����ɿ�ֱ���ϴ���Crowdin��changes�ĵ�����Ҫ��ԭʼxliff�ļ�����洢���Crowdin\OldXLIFF�ļ����£���δ��⵽���ļ���ϵͳ��Ӵ洢���main��֧��ȡ��
-echo STU�����ɿ�ֱ���ϴ���Crowdin��userGuide�ĵ�����Ҫ��ԭʼxliff�ļ�����洢���Crowdin\OldXLIFF�ļ����£���δ��⵽���ļ���ϵͳ��Ӵ洢���main��֧��ȡ��
-echo CLE�����������������ɵ������ļ���
-echo ��������˳������ߡ�
-echo ����ѡ���ͨ��������ֱ�Ӵ��롣
+echo 欢迎使用文件生成工具，请选择要生成的文件，按回车键执行。  
+echo C：生成更新日志的html文件；  
+echo u：生成用户指南的html文件；  
+echo K：生成热键快速参考的html文件；  
+echo D：生成所有文档的html文件；  
+echo L：生成界面翻译的mo文件；  
+echo T：生成翻译测试文件（不压缩）；  
+echo Z：生成翻译测试文件的压缩包；  
+echo STC：生成可直接上传到Crowdin的changes文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的main分支提取；  
+echo STU：生成可直接上传到Crowdin的userGuide文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的main分支提取； 
+echo CLE：清理上述命令生成的所有文件；  
+echo 其他命令：退出本工具。  
+echo 上述选项还可通过命令行直接传入。  
 
 set /p CLI=
 
@@ -78,7 +80,7 @@ If "%DateTime:~4,1%" == " " (
 )
 
 IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
-"%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_������ԣ���ѹ��NVDA�����ļ��У�_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
+"%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
 if /I "%CLI%"=="Z" (Exit)
 
 :STC
