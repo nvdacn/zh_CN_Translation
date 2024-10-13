@@ -21,6 +21,7 @@ echo T：生成翻译测试文件（不压缩）
 echo Z：生成翻译测试文件的压缩包
 echo STC：生成可直接上传到Crowdin的changes文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
 echo STU：生成可直接上传到Crowdin的userGuide文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
+echo CLE：清理上述命令生成的所有文件；
 echo 其他命令：退出本工具。
 echo 上述选项还可通过命令行直接传入。
 
@@ -106,5 +107,12 @@ git archive --output "./Crowdin/OldXLIFF/Temp/%ST%.zip" 2025.1 Translation/user_
 MKLINK /H "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Translated.xliff" "%~dp0Translation\user_docs\%ST%.xliff"
 
 "%~dp0Tools\nvdaL10nUtil.exe" stripXliff -o "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Old.xliff" "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Translated.xliff" "%~dp0Crowdin\%ST%.xliff"
+
+Exit
+
+:CLE
+rd /s /q "%~dp0Crowdin"
+rd /s /q "%~dp0Preview"
+Git restore Crowdin/* Preview/*
 
 Exit
