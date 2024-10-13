@@ -11,7 +11,7 @@ goto goto
 )
 
 cls
-echo 请选择要生成的文件，按回车键执行。
+echo 欢迎使用文件生成工具，请选择要生成的文件，按回车键执行。
 echo C：生成更新日志的html文件；
 echo u：生成用户指南的html文件；
 echo K：生成热键快速参考的html文件；
@@ -91,7 +91,6 @@ if /I "%CLI%"=="STU" (
 set ST=userGuide
 goto ST
 )
-exit
 
 :ST
 IF EXIST "%~dp0Crowdin\OldXLIFF\Temp" (
