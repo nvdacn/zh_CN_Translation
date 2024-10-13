@@ -19,8 +19,8 @@ echo D：生成所有文档的html文件；
 echo L：生成界面翻译的mo文件
 echo T：生成翻译测试文件（不压缩）
 echo Z：生成翻译测试文件的压缩包
-echo STC：生成可直接上传到Crowdin的changes文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
-echo STU：生成可直接上传到Crowdin的userGuide文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
+echo STC：生成可直接上传到Crowdin的changes文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的main分支提取；
+echo STU：生成可直接上传到Crowdin的userGuide文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的main分支提取；
 echo CLE：清理上述命令生成的所有文件；
 echo 其他命令：退出本工具。
 echo 上述选项还可通过命令行直接传入。
@@ -102,7 +102,7 @@ MKDir "%~dp0Crowdin\OldXLIFF\Temp"
 IF EXIST "%~dp0%ST%.xliff" (del /f /q "%~dp0%ST%.xliff")
 
 IF Not EXIST "%~dp0Crowdin\OldXLIFF\%ST%.xliff" (
-git archive --output "./Crowdin/OldXLIFF/Temp/%ST%.zip" 2025.1 Translation/user_docs/%ST%.xliff
+git archive --output "./Crowdin/OldXLIFF/Temp/%ST%.zip" main Translation/user_docs/%ST%.xliff
 "%~dp0Tools\7Zip\7z.exe" e "%~dp0Crowdin\OldXLIFF\Temp\%ST%.zip" "Translation\user_docs\%ST%.xliff" -aoa -o"%~dp0Crowdin\OldXLIFF"
 )
 
