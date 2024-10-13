@@ -16,6 +16,7 @@ echo C：生成更新日志的html文件；
 echo u：生成用户指南的html文件；
 echo K：生成热键快速参考的html文件；
 echo DOC：生成所有文档的html文件；
+echo L：生成界面翻译的mo文件
 echo STC：生成可直接上传到Crowdin的changes文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
 echo STU：生成可直接上传到Crowdin的userGuide文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的默认分支提取；
 echo 其他命令：退出本工具。
@@ -39,6 +40,10 @@ if /I "%CLI%"=="U" (Exit)
 "%~dp0Tools\nvdaL10nUtil.exe" xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
 if /I "%CLI%"=="K" (Exit)
 if /I "%CLI%"=="DOC" (Exit)
+
+:L
+"%~dp0Tools\msgfmt.exe" -o "%~dp0Preview\nvda.mo" "%~dp0Translation\LC_MESSAGES\nvda.po"
+if /I "%CLI%"=="L" (Exit)
 
 :STC
 :STU
