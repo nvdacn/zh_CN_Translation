@@ -113,7 +113,7 @@ git archive --output "./Crowdin/OldXLIFF/Temp/%ST%.zip" main Translation/user_do
 "%~dp0Tools\7Zip\7z.exe" e "%~dp0Crowdin\OldXLIFF\Temp\%ST%.zip" "Translation\user_docs\%ST%.xliff" -aoa -o"%~dp0Crowdin\OldXLIFF"
 )
 
-  MKLINK /H "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Old.xliff" "%~dp0Crowdin\OldXLIFF\%ST%.xliff"
+MKLINK /H "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Old.xliff" "%~dp0Crowdin\OldXLIFF\%ST%.xliff"
 MKLINK /H "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Translated.xliff" "%~dp0Translation\user_docs\%ST%.xliff"
 
 "%~dp0Tools\nvdaL10nUtil.exe" stripXliff -o "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Old.xliff" "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Translated.xliff" "%~dp0Crowdin\%ST%.xliff"
