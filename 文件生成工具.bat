@@ -24,15 +24,15 @@ if not "%1"=="" (
 Rem 打印可用命令  
 cls
 echo 欢迎使用文件生成工具，请选择要生成的文件，按回车键执行。  
-echo C：生成更新日志的html文件；  
-echo u：生成用户指南的html文件；  
-echo K：生成热键快速参考的html文件；  
-echo D：生成所有文档的html文件；  
-echo L：生成界面翻译的mo文件；  
+echo C：生成更新日志的 html 文件；  
+echo U：生成用户指南的 html 文件；  
+echo K：生成热键快速参考的 html 文件；  
+echo D：生成所有文档的 html 文件；  
+echo L：生成界面翻译的 mo 文件；  
 echo T：生成翻译测试文件（不压缩）；  
 echo Z：生成翻译测试文件的压缩包；  
-echo STC：生成可直接上传到Crowdin的changes文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的main分支提取；  
-echo STU：生成可直接上传到Crowdin的userGuide文档，需要将原始xliff文件放入存储库的Crowdin\OldXLIFF文件夹下，如未检测到该文件，系统会从存储库的main分支提取； 
+echo STC：生成可直接上传到 Crowdin 的 changes.xliff 文件，需要将原始 changes.xliff 文件放入存储库的 Crowdin\OldXLIFF 文件夹，如未检测到该文件，系统会从存储库的 main 分支提取；  
+echo STU：生成可直接上传到 Crowdin 的 userGuide.xliff 文件，需要将原始 userGuide.xliff 文件放入存储库的 Crowdin\OldXLIFF 文件夹，如未检测到该文件，系统会从存储库的 main 分支提取；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
