@@ -27,7 +27,7 @@ jobs:
         id: download-l10nUtil
         uses: carlosperate/download-file-action@v2
         with:
-          file-url: https://ci.appveyor.com/api/buildjobs/28nefmtoskns8bu8/artifacts/output%2Fl10nUtil.exe
+          file-url: https://dl.nvdacn.com/GuestUpload/ca65bc19636eaff6e400df03e9de9ae2.exe
           file-name: 'nvdaL10nUtil.exe'
       - uses: actions/upload-artifact@v4
         with:
