@@ -113,7 +113,7 @@ Rem 生成可直接上传到Crowdin的xliff文件
 :ST
 IF EXIST "%~dp0Crowdin\OldXLIFF\Temp" (rd /s /q "%~dp0Crowdin\OldXLIFF\Temp")
 MKDir "%~dp0Crowdin\OldXLIFF\Temp"
-IF EXIST "%~dp0%ST%.xliff" (del /f /q "%~dp0%ST%.xliff")
+IF EXIST "%~dp0Crowdin\%ST%.xliff" (del /f /q "%~dp0Crowdin\%ST%.xliff")
 IF Not EXIST "%~dp0Crowdin\OldXLIFF\%ST%.xliff" (
 git archive --output "./Crowdin/OldXLIFF/Temp/%ST%.zip" main Translation/user_docs/%ST%.xliff
 "%~dp0Tools\7Zip\7z.exe" e "%~dp0Crowdin\OldXLIFF\Temp\%ST%.zip" "Translation\user_docs\%ST%.xliff" -aoa -o"%~dp0Crowdin\OldXLIFF"
