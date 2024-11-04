@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 03:45+0000\n"
-"PO-Revision-Date: 2024-11-04 13:13+0800\n"
+"POT-Creation-Date: 2024-11-04 06:33+0000\n"
+"PO-Revision-Date: 2024-11-04 15:13+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -824,34 +824,34 @@ msgid "¶"
 msgstr "¶"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3575
+#: braille.py:3576
 msgid "Dot firm&ness"
 msgstr "点字硬度(&N)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3588
+#: braille.py:3589
 msgid "Braille inp&ut"
 msgstr "启用盲文输入(&U)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3598
+#: braille.py:3599
 msgid "&HID keyboard input simulation"
 msgstr "模拟 HID 键盘(&H)"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#: braille.py:3762
+#: braille.py:3763
 msgid "Unknown braille display"
 msgstr "未知盲文点显器"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#: braille.py:3803
+#: braille.py:3804
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
 msgstr "蓝牙串行设备：{port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
-#: braille.py:3812 brailleDisplayDrivers\ecoBraille.py:399
+#: braille.py:3813 brailleDisplayDrivers\ecoBraille.py:399
 #: brailleDisplayDrivers\papenmeier_serial.py:81
 #, python-brace-format
 msgid "Serial: {portName}"
@@ -870,35 +870,35 @@ msgstr "{modifier} 已放开"
 
 #. Translators: Used when reporting braille dots to the user.
 #. Translators: Reported when braille dots are pressed in input help mode.
-#: brailleInput.py:499 brailleInput.py:550
+#: brailleInput.py:498 brailleInput.py:549
 msgid "dot"
 msgstr "盲文点"
 
 #. Translators: Reported when braille space is pressed with dots in input help mode.
-#: brailleInput.py:547
+#: brailleInput.py:546
 msgid "space with dot"
 msgstr "盲文空格"
 
 #. Translators: Reported when braille space is pressed in input help mode.
 #. Translators: This is the name of a key on the keyboard.
-#: brailleInput.py:553 keyLabels.py:69
+#: brailleInput.py:552 keyLabels.py:69
 msgid "space"
 msgstr "空格"
 
 #. Translators: Used when describing keys on a braille keyboard.
-#: brailleInput.py:567
+#: brailleInput.py:566
 msgid "braille keyboard"
 msgstr "盲文键盘"
 
 #. Translators: Used to describe the press of space
 #. along with any dots on a braille keyboard.
-#: brailleInput.py:571
+#: brailleInput.py:570
 msgid "space with any dots"
 msgstr "any dots 空格"
 
 #. Translators: Used to describe the press of any dots
 #. on a braille keyboard.
-#: brailleInput.py:575
+#: brailleInput.py:574
 msgid "any dots"
 msgstr "任何凸点"
 
@@ -3405,8 +3405,8 @@ msgstr ""
 #: gui\configProfiles.py:539 gui\inputGestures.py:808 gui\inputGestures.py:822
 #: gui\installerGui.py:112 gui\installerGui.py:520 gui\installerGui.py:535
 #: gui\installerGui.py:607 gui\logViewer.py:112 gui\logViewer.py:143
-#: gui\message.py:144 gui\settingsDialogs.py:1067 gui\settingsDialogs.py:5166
-#: gui\settingsDialogs.py:5521 gui\startupDialogs.py:127
+#: gui\message.py:144 gui\settingsDialogs.py:1067 gui\settingsDialogs.py:5191
+#: gui\settingsDialogs.py:5546 gui\startupDialogs.py:127
 msgid "Error"
 msgstr "错误"
 
@@ -3683,7 +3683,7 @@ msgstr "盲文"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the vision panel
-#: globalCommands.py:100 gui\settingsDialogs.py:4934
+#: globalCommands.py:100 gui\settingsDialogs.py:4959
 msgid "Vision"
 msgstr "视觉"
 
@@ -9843,12 +9843,12 @@ msgid "Read mode"
 msgstr "阅读视图"
 
 #. Translators: a message when toggling change tracking in Microsoft word
-#: appModules\winword.py:74
+#: appModules\winword.py:77
 msgid "Change tracking on"
 msgstr "更改跟踪开"
 
 #. Translators: a message when toggling change tracking in Microsoft word
-#: appModules\winword.py:77
+#: appModules\winword.py:80
 msgid "Change tracking off"
 msgstr "更改跟踪关"
 
@@ -12605,7 +12605,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:5409 gui\speechDict.py:215
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:5434 gui\speechDict.py:215
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13239,7 +13239,7 @@ msgstr "处理字符和标点时信任语音的语言(&T)"
 
 #. Translators: This is a label for a combo-box in the Speech settings panel.
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:1726 gui\settingsDialogs.py:4701
+#: gui\settingsDialogs.py:1726 gui\settingsDialogs.py:4720
 msgid "Unicode normali&zation"
 msgstr "Unicode 正规化(&Z)"
 
@@ -14464,123 +14464,129 @@ msgstr "点显器错误"
 msgid "&Output table:"
 msgstr "输出表(&O):"
 
+#. Translators: An option in Braille settings to select a braille table automatically, according to the current language.
+#: gui\settingsDialogs.py:4396 gui\settingsDialogs.py:4423
+#, python-brace-format
+msgid "Automatic ({name})"
+msgstr "自动（{name}）"
+
 #. Translators: The label for a setting in braille settings to select the input table (the braille table used to type braille characters on a braille keyboard).
-#: gui\settingsDialogs.py:4406
+#: gui\settingsDialogs.py:4415
 msgid "&Input table:"
 msgstr "输入表(&I):"
 
 #. Translators: The label for a setting in braille settings to select which braille mode to use
-#: gui\settingsDialogs.py:4422
+#: gui\settingsDialogs.py:4441
 msgid "Braille mode:"
 msgstr "盲文模式："
 
 #. Translators: The label for a setting in braille settings to expand the current word under cursor to computer braille.
-#: gui\settingsDialogs.py:4437
+#: gui\settingsDialogs.py:4456
 msgid "E&xpand to computer braille for the word at the cursor"
 msgstr "将光标所在单词转换为计算机盲文(&X)"
 
 #. Translators: The label for a setting in braille settings to show the cursor.
-#: gui\settingsDialogs.py:4445
+#: gui\settingsDialogs.py:4464
 msgid "&Show cursor"
 msgstr "显示光标位置(&S)"
 
 #. Translators: The label for a setting in braille settings to enable cursor blinking.
-#: gui\settingsDialogs.py:4454
+#: gui\settingsDialogs.py:4473
 msgid "Blink cursor"
 msgstr "闪烁光标(&B)"
 
 #. Translators: The label for a setting in braille settings to change cursor blink rate in milliseconds (1 second is 1000 milliseconds).
-#: gui\settingsDialogs.py:4465
+#: gui\settingsDialogs.py:4484
 msgid "Cursor blink rate (ms)"
 msgstr "光标闪烁频率（毫秒）(&R)"
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to focus.
-#: gui\settingsDialogs.py:4487
+#: gui\settingsDialogs.py:4506
 msgid "Cursor shape for &focus:"
 msgstr "系统焦点的光标形状(&F)："
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to review.
-#: gui\settingsDialogs.py:4503
+#: gui\settingsDialogs.py:4522
 msgid "Cursor shape for &review:"
 msgstr "查看光标的光标形状(&R)："
 
 #. Translators: The label for a setting in braille settings to combobox enabling user
 #. to decide if braille messages should be shown and automatically disappear from braille display.
-#: gui\settingsDialogs.py:4525
+#: gui\settingsDialogs.py:4544
 msgid "Show messages"
 msgstr "显示消息"
 
 #. Translators: The label for a setting in braille settings to change how long a message stays on the braille display (in seconds).
-#: gui\settingsDialogs.py:4547
+#: gui\settingsDialogs.py:4566
 msgid "Message &timeout (sec)"
 msgstr "消息显示时间（秒）(&T)"
 
 #. Translators: The label for a setting in braille settings to set whether braille should be tethered to focus or review cursor.
-#: gui\settingsDialogs.py:4566
+#: gui\settingsDialogs.py:4585
 msgid "Tether B&raille:"
 msgstr "盲文显示跟随到(&R)："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4590
+#: gui\settingsDialogs.py:4609
 msgid "Move system caret when ro&uting review cursor"
 msgstr "移动查看光标时移动系统输入光标(&U)"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
-#: gui\settingsDialogs.py:4606
+#: gui\settingsDialogs.py:4625
 msgid "Read by &paragraph"
 msgstr "按段落阅读(&P)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel to select paragraph start markers.
-#: gui\settingsDialogs.py:4615
+#: gui\settingsDialogs.py:4634
 msgid "Paragraph start marker:"
 msgstr "段落开始标记："
 
 #. Translators: The label for a setting in braille settings to select how the context for the focus object should be presented on a braille display.
-#: gui\settingsDialogs.py:4630
+#: gui\settingsDialogs.py:4649
 msgid "Focus context presentation:"
 msgstr "聚焦到上下文："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4651
+#: gui\settingsDialogs.py:4670
 msgid "Show se&lection"
 msgstr "盲文选择指示光标(&L)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4663
+#: gui\settingsDialogs.py:4682
 msgid "Formatting &display"
 msgstr "格式信息的显示方式(&D)"
 
 #. Translators: The label for a setting in braille settings to speak the character under the cursor when cursor routing in text.
-#: gui\settingsDialogs.py:4672
+#: gui\settingsDialogs.py:4691
 msgid "Spea&k character when routing cursor in text"
 msgstr "定位文本光标后读出光标所在处的字符(&K)"
 
 #. Translators: The label for a setting in braille settings to speak the current line or paragraph when navigating by them with braille.
-#: gui\settingsDialogs.py:4680
+#: gui\settingsDialogs.py:4699
 msgid "Speak when navigating by &line or paragraph"
 msgstr "按行或段落导航时读出内容(&L)"
 
 #. Translators: The label for a setting in braille settings to enable word wrap
 #. (try to avoid splitting words at the end of the braille display).
-#: gui\settingsDialogs.py:4693
+#: gui\settingsDialogs.py:4712
 msgid "Avoid splitting &words when possible"
 msgstr "若可能，尽量避免拆分单词(&W)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4712
+#: gui\settingsDialogs.py:4731
 msgid "I&nterrupt speech while scrolling"
 msgstr "滚动时打断语音(&I)"
 
 #. Translators: This message is presented when
 #. NVDA is unable to load a single vision enhancement provider.
-#: gui\settingsDialogs.py:4800
+#: gui\settingsDialogs.py:4825
 #, python-brace-format
 msgid "Could not load the {providerName} vision enhancement provider"
 msgstr "无法加载 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when NVDA is unable to
 #. load multiple vision enhancement providers.
-#: gui\settingsDialogs.py:4807
+#: gui\settingsDialogs.py:4832
 #, python-brace-format
 msgid ""
 "Could not load the following vision enhancement providers:\n"
@@ -14590,13 +14596,13 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
-#: gui\settingsDialogs.py:4813 gui\settingsDialogs.py:4843
+#: gui\settingsDialogs.py:4838 gui\settingsDialogs.py:4868
 msgid "Vision Enhancement Provider Error"
 msgstr "视觉增强程序加载错误"
 
 #. Translators: This message is presented when
 #. NVDA is unable to gracefully terminate a single vision enhancement provider.
-#: gui\settingsDialogs.py:4830
+#: gui\settingsDialogs.py:4855
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the {providerName} vision enhancement provider"
@@ -14604,7 +14610,7 @@ msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when
 #. NVDA is unable to terminate multiple vision enhancement providers.
-#: gui\settingsDialogs.py:4838
+#: gui\settingsDialogs.py:4863
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the following vision enhancement providers:\n"
@@ -14614,121 +14620,121 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
-#: gui\settingsDialogs.py:4938
+#: gui\settingsDialogs.py:4963
 msgid "Configure visual aids."
 msgstr "配置视觉辅助。"
 
 #. Translators: Enable checkbox on a vision enhancement provider on the vision settings category panel
-#: gui\settingsDialogs.py:5110
+#: gui\settingsDialogs.py:5135
 msgid "Enable"
 msgstr "启用"
 
 #. Translators: Options label on a vision enhancement provider on the vision settings category panel
 #. Translators: The label for a group box containing the NVDA highlighter options.
-#: gui\settingsDialogs.py:5117
+#: gui\settingsDialogs.py:5142
 #: visionEnhancementProviders\NVDAHighlighter.py:304
 #: visionEnhancementProviders\screenCurtain.py:253
 msgid "Options:"
 msgstr "选项："
 
 #. Translators: Shown when there is an error showing the GUI for a vision enhancement provider
-#: gui\settingsDialogs.py:5163
+#: gui\settingsDialogs.py:5188
 msgid ""
 "Unable to configure user interface for Vision Enhancement Provider, it can "
 "not be enabled."
 msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法启用。"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:5208
+#: gui\settingsDialogs.py:5233
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:5249
+#: gui\settingsDialogs.py:5274
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:5284
+#: gui\settingsDialogs.py:5309
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:5289
+#: gui\settingsDialogs.py:5314
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:5319
+#: gui\settingsDialogs.py:5344
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:5333
+#: gui\settingsDialogs.py:5358
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5342
+#: gui\settingsDialogs.py:5367
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:5352
+#: gui\settingsDialogs.py:5377
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:5354 gui\speechDict.py:191
+#: gui\settingsDialogs.py:5379 gui\speechDict.py:191
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:5356
+#: gui\settingsDialogs.py:5381
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:5359
+#: gui\settingsDialogs.py:5384
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:5363
+#: gui\settingsDialogs.py:5388
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5381 gui\speechDict.py:55
+#: gui\settingsDialogs.py:5406 gui\speechDict.py:55
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:5390
+#: gui\settingsDialogs.py:5415
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:5397
+#: gui\settingsDialogs.py:5422
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:5412
+#: gui\settingsDialogs.py:5437
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:5519
+#: gui\settingsDialogs.py:5544
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
