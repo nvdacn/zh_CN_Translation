@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-04 06:33+0000\n"
-"PO-Revision-Date: 2024-11-08 19:22+0800\n"
+"PO-Revision-Date: 2024-11-08 19:31+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5441,14 +5441,14 @@ msgstr "读出当前 NVDA 配置文件的名称"
 #. the default configuration profile is active.
 #: globalCommands.py:3399
 msgid "normal configuration profile active"
-msgstr "通用配置文件处于活动状态"
+msgstr "通用配置文件处于激活状态"
 
 #. Translators: Message announced when the command to report the current configuration profile
 #. is active. The placeholder '{profilename}' is replaced with the name of the current active profile.
 #: globalCommands.py:3403
 #, python-brace-format
 msgid "{profileName} configuration profile active"
-msgstr "配置文件处于激活状态 {profileName}"
+msgstr "{profileName}配置文件处于激活状态"
 
 #. Translators: Input help mode message for save current configuration command.
 #: globalCommands.py:3410
