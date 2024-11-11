@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/d21c8bad7335a90339d8cc48dbe8948c7f05bab3/user_docs/en/changes.md">
+  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/907d34e2dd91c8accf8988c8e1c699089ff3241c/user_docs/en/changes.md">
     <skeleton>
 # $(ID:4bf3ec03-2d43-474a-aef0-92b334e594ed)
 
 ## $(ID:a923c4a0-a862-45b8-99f7-efbf793acd9e)
 
-$(ID:4951c461-090d-4f75-85a0-a49e5a281a9b)
+$(ID:36d5bd5d-4c55-4c40-9208-62b166776a1e)
 
 ### $(ID:8c5ef1a6-b2fe-422c-b794-8c96928ebcb4)
 
@@ -5103,13 +5103,13 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <target>2024.4.1</target>
       </segment>
     </unit>
-    <unit id="4951c461-090d-4f75-85a0-a49e5a281a9b">
+    <unit id="36d5bd5d-4c55-4c40-9208-62b166776a1e">
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
       <segment state="final">
-        <source>It also includes a fix for saving speech symbol dictionaries.</source>
-        <target>还修复了无法保存语音符号字典的错误。</target>
+        <source>This is a patch release to fix a bug when saving speech symbol dictionaries.</source>
+        <target>这是一个补丁版本，主要修复了保存语音符号字典时的错误。</target>
       </segment>
     </unit>
     <unit id="8c5ef1a6-b2fe-422c-b794-8c96928ebcb4">
@@ -8943,7 +8943,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 472</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Example: `speech.speakSsml('&lt;speak&gt;&lt;prosody pitch="200%"&gt;hello&lt;/prosody&gt;&lt;break time="500ms" /&gt;&lt;prosody rate="50%"&gt;John&lt;/prosody&gt;&lt;/speak&gt;')`</source>
         <target>示例： `speech.speakSsml('&lt;speak&gt;&lt;prosody pitch="200%"&gt;hello&lt;/prosody&gt;&lt;break time="500ms" /&gt;&lt;prosody rate="50%"&gt;John&lt;/prosody&gt;&lt;/speak&gt;')`</target>
       </segment>
@@ -9053,7 +9053,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 483</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`nvdaController_setOnSsmlMarkReachedCallback`: To register a callback of type `onSsmlMarkReachedFuncType` that is called in synchronous mode for every `&lt;mark /&gt;` tag encountered in the SSML sequence provided to `nvdaController_speakSsml`.</source>
         <target>`nvdaController_setOnSsmlMarkReachedCallback`：注册一个类型为 `onSsmlMarkReachedFuncType` 的回调函数，以便在使用 `nvdaController_speakSsml` 处理同步 SSML 过程时，遇到每个 `&lt;mark /&gt;` 标签时都会调用该回调函数。(#15734, #11028, #5638, @LeonarddeR)</target>
       </segment>
@@ -12345,7 +12345,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 871</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;` format for the version field (required for add-on datastore).</source>
         <target>版本字段使用 `&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;` 的格式（插件商店元数据需要）。</target>
       </segment>
@@ -15231,7 +15231,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 1223</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please responsibly disclose security issues to &lt;info@nvaccess.org&gt;.</source>
         <target>请遵循负责任的披露原则像 NV Access（&lt;info@nvaccess.org&gt;） 提交您发现的安全问题。</target>
       </segment>
@@ -15913,7 +15913,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 1325</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please responsibly disclose security issues to &lt;info@nvaccess.org&gt;.</source>
         <target>请遵循负责任的披露原则像 NV Access（&lt;info@nvaccess.org&gt;）提交您发现的安全问题。</target>
       </segment>
@@ -17198,7 +17198,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1484</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>MathType equations must also be manually converted to Office Math by selecting each, opening the context menu, choosing Equation options, Convert to Office Math.</source>
         <target>必须手动将 MathType 公式转换为 Office Math，方法是：选中公式并在上下文菜单中选择“Equation”对象 -&gt; 转换为 Office Math。</target>
       </segment>
@@ -18453,7 +18453,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 1618</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please responsibly disclose security issues to &lt;info@nvaccess.org&gt;.</source>
         <target>请遵循负责任的披露原则像 NV Access （&lt;info@nvaccess.org&gt;） 提交您发现的安全问题。</target>
       </segment>
@@ -18511,7 +18511,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 1628</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please responsibly disclose security issues to &lt;info@nvaccess.org&gt;.</source>
         <target>请遵循负责任的披露原则像 NV Access （&lt;info@nvaccess.org&gt;） 提交您发现的安全问题。</target>
       </segment>
@@ -18666,7 +18666,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 1650</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please responsibly disclose security issues to &lt;info@nvaccess.org&gt;.</source>
         <target>请遵循负责任的披露原则像 NV Access （&lt;info@nvaccess.org&gt;） 提交您发现的安全问题。</target>
       </segment>
@@ -20586,7 +20586,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1889</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To perform unit tests, execute `rununittests.bat [&lt;extra unittest discover options&gt;]`</source>
         <target>To perform unit tests, execute `rununittests.bat [&lt;extra unittest discover options&gt;]`</target>
       </segment>
@@ -20596,7 +20596,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1890</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To perform system tests: execute `runsystemtests.bat [&lt;extra robot options&gt;]`</source>
         <target>To perform system tests: execute `runsystemtests.bat [&lt;extra robot options&gt;]`</target>
       </segment>
@@ -20606,7 +20606,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1891</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To perform linting, execute `runlint.bat &lt;base branch&gt;`</source>
         <target>To perform linting, execute `runlint.bat &lt;base branch&gt;`</target>
       </segment>
@@ -21076,7 +21076,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1938</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>TextInfo objects now have start and end properties which can be compared mathematically with operators such as &lt; &lt;= == != &gt;= &gt;. (#11613)</source>
         <target>TextInfo objects now have start and end properties which can be compared mathematically with operators such as &lt; &lt;= == != &gt;= &gt;. (#11613)</target>
       </segment>
@@ -21086,7 +21086,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1939</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>E.g. ti1.start &lt;= ti2.end</source>
         <target>E.g. ti1.start &lt;= ti2.end</target>
       </segment>
@@ -21096,7 +21096,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1940</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This usage is now prefered instead of ti1.compareEndPoints(ti2,"startToEnd") &lt;= 0</source>
         <target>This usage is now prefered instead of ti1.compareEndPoints(ti2,"startToEnd") &lt;= 0</target>
       </segment>
@@ -22817,7 +22817,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2137</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This experimental fix must be manually enabled via the 'Attempt to cancel speech for expired focus events' option in the advanced settings panel.</source>
         <target>必须手动将“选项”中的“高级” &gt; “尝试为过期的焦点事件取消语音”设为“启用”，从而启用这项实验性功能。</target>
       </segment>
@@ -27766,7 +27766,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2721</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>All of NVDA's Preferences can now be found in one settings dialog under NVDA Menu -&gt; Preferences -&gt; Settings, rather than scattered throughout many dialogs. (#577)</source>
         <target>现在，所有 NVDA 的首选项都可以在 NVDA 菜单 -&gt; 首选项 -&gt; 设置下的一个设置对话框中找到，而不是通过许多对话框进行分散。(#577)</target>
       </segment>
