@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 06:33+0000\n"
-"PO-Revision-Date: 2024-11-08 19:31+0800\n"
+"POT-Creation-Date: 2024-11-21 07:09+0000\n"
+"PO-Revision-Date: 2024-11-23 16:07+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -824,34 +824,34 @@ msgid "¶"
 msgstr "¶"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3576
+#: braille.py:3577
 msgid "Dot firm&ness"
 msgstr "点字硬度(&N)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3589
+#: braille.py:3590
 msgid "Braille inp&ut"
 msgstr "启用盲文输入(&U)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3599
+#: braille.py:3600
 msgid "&HID keyboard input simulation"
 msgstr "模拟 HID 键盘(&H)"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#: braille.py:3763
+#: braille.py:3764
 msgid "Unknown braille display"
 msgstr "未知盲文点显器"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#: braille.py:3804
+#: braille.py:3805
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
 msgstr "蓝牙串行设备：{port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
-#: braille.py:3813 brailleDisplayDrivers\ecoBraille.py:399
+#: braille.py:3814 brailleDisplayDrivers\ecoBraille.py:399
 #: brailleDisplayDrivers\papenmeier_serial.py:81
 #, python-brace-format
 msgid "Serial: {portName}"
@@ -2913,7 +2913,7 @@ msgstr "标题(&H)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1289 NVDAObjects\window\excel.py:735
+#: browseMode.py:1289 NVDAObjects\window\excel.py:736
 msgid "&Form fields"
 msgstr "表单(&F)"
 
@@ -2950,7 +2950,7 @@ msgstr "查找(&Y)："
 #. Beware not to set an accelerator that would collide with other controls in this dialog, such as an
 #. element type radio label.
 #. Translators: a message reported when the action at the position of the review cursor or navigator object is performed.
-#: browseMode.py:1358 globalCommands.py:1673
+#: browseMode.py:1358 globalCommands.py:1693
 msgid "Activate"
 msgstr "激活"
 
@@ -2987,8 +2987,8 @@ msgstr "移到元素的开始处，例如列表或表格"
 #. Translators: a message reported when review cursor is at the bottom line of the current navigator object.
 #. Translators: Reported when attempting to move to the next result in the Python Console
 #. output pane while there is no next result.
-#: browseMode.py:2337 globalCommands.py:1823 globalCommands.py:1901
-#: globalCommands.py:2021 appModules\nvda.py:146
+#: browseMode.py:2337 globalCommands.py:1843 globalCommands.py:1921
+#: globalCommands.py:2041 appModules\nvda.py:146
 msgid "Bottom"
 msgstr "底部"
 
@@ -3395,8 +3395,8 @@ msgstr ""
 #. for a vision enhancement provider
 #. Translators: title of an error message
 #. Translators: The title of an error message box displayed when validating the startup dialog
-#: core.py:118 documentationUtils.py:71 updateCheck.py:366 updateCheck.py:654
-#: updateCheck.py:813 gui\__init__.py:230 gui\__init__.py:247
+#: core.py:118 documentationUtils.py:71 updateCheck.py:367 updateCheck.py:655
+#: updateCheck.py:814 gui\__init__.py:230 gui\__init__.py:247
 #: gui\addonGui.py:145 gui\addonGui.py:265 gui\addonGui.py:280
 #: gui\configProfiles.py:182 gui\configProfiles.py:217
 #: gui\configProfiles.py:270 gui\configProfiles.py:282
@@ -3508,10 +3508,12 @@ msgid ""
 msgstr "从光标处向上查找您之前键入的文本"
 
 #. Translators: Reported when there is no text selected (for copying).
+#. Translators: Reported when there is no selection
 #. Translators: The message reported when there is no selection
 #. Translators: When trying to read the documentation but there is no selected autocompletion item in
 #. Eclipse
-#: cursorManager.py:539 globalCommands.py:359 appModules\eclipse.py:69
+#: cursorManager.py:539 globalCommands.py:127 globalCommands.py:361
+#: appModules\eclipse.py:69
 msgid "No selection"
 msgstr "未选择文本"
 
@@ -3519,8 +3521,8 @@ msgstr "未选择文本"
 #: displayModel.py:576 appModules\powerpnt.py:1198 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:202
 #: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:345
-#: NVDAObjects\window\edit.py:714 NVDAObjects\window\excel.py:1300
-#: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1165
+#: NVDAObjects\window\edit.py:714 NVDAObjects\window\excel.py:1301
+#: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1159
 #: virtualBuffers\adobeAcrobat.py:83
 #, python-format
 msgctxt "font size"
@@ -3735,51 +3737,51 @@ msgid "No settings"
 msgstr "没有设置"
 
 #. Translators: Describes the Cycle audio ducking mode command.
-#: globalCommands.py:157
+#: globalCommands.py:159
 msgid ""
 "Cycles through audio ducking modes which determine when NVDA lowers the "
 "volume of other sounds"
 msgstr "在音频闪避模式之间切换，以确定何时减小其他声音的音量"
 
 #. Translators: a message when audio ducking is not supported on this machine
-#: globalCommands.py:165
+#: globalCommands.py:167
 msgid "Audio ducking not supported"
 msgstr "不支持音频闪避"
 
 #. Translators: Input help mode message for toggle input help command.
-#: globalCommands.py:178
+#: globalCommands.py:180
 msgid ""
 "Turns input help on or off. When on, any input such as pressing a key on the "
 "keyboard will tell you what script is associated with that input, if any."
 msgstr "切换输入帮助的开关，当开关打开时，按下按键会读出相应的功能描述。"
 
 #. Translators: This will be presented when the input help is toggled.
-#: globalCommands.py:189
+#: globalCommands.py:191
 msgid "input help on"
 msgstr "开启输入帮助"
 
 #. Translators: This will be presented when the input help is toggled.
-#: globalCommands.py:191
+#: globalCommands.py:193
 msgid "input help off"
 msgstr "关闭输入帮助"
 
 #. Translators: Input help mode message for toggle sleep mode command.
-#: globalCommands.py:197
+#: globalCommands.py:199
 msgid "Toggles sleep mode on and off for the active application."
 msgstr "为活动的应用程序“开启”或“关闭”睡眠模式。"
 
 #. Translators: This is presented when sleep mode is deactivated, NVDA will continue working as expected.
-#: globalCommands.py:207
+#: globalCommands.py:209
 msgid "Sleep mode off"
 msgstr "关闭睡眠模式"
 
 #. Translators: This is presented when sleep mode is activated, the focused application is self voicing, such as klango or openbook.
-#: globalCommands.py:213
+#: globalCommands.py:215
 msgid "Sleep mode on"
 msgstr "打开睡眠模式"
 
 #. Translators: Input help mode message for report current line command.
-#: globalCommands.py:218
+#: globalCommands.py:220
 msgid ""
 "Reports the current line under the application cursor. Pressing this key "
 "twice will spell the current line. Pressing three times will spell the line "
@@ -3789,57 +3791,57 @@ msgstr ""
 "字解释。"
 
 #. Translators: Input help mode message for left mouse click command.
-#: globalCommands.py:247
+#: globalCommands.py:249
 msgid "Clicks the left mouse button once at the current mouse position"
 msgstr "在鼠标所在位置单击鼠标左键"
 
 #. Translators: Reported when left mouse button is clicked.
-#: globalCommands.py:253
+#: globalCommands.py:255
 msgid "Left click"
 msgstr "单击"
 
 #. Translators: Input help mode message for right mouse click command.
-#: globalCommands.py:259
+#: globalCommands.py:261
 msgid "Clicks the right mouse button once at the current mouse position"
 msgstr "在鼠标所在位置单击鼠标右键"
 
 #. Translators: Reported when right mouse button is clicked.
-#: globalCommands.py:265
+#: globalCommands.py:267
 msgid "Right click"
 msgstr "右击"
 
 #. Translators: Input help mode message for left mouse lock/unlock toggle command.
-#: globalCommands.py:271
+#: globalCommands.py:273
 msgid "Locks or unlocks the left mouse button"
 msgstr "按下或松开鼠标左键"
 
 #. Translators: Input help mode message for right mouse lock/unlock command.
-#: globalCommands.py:283
+#: globalCommands.py:285
 msgid "Locks or unlocks the right mouse button"
 msgstr "按下或松开鼠标右键"
 
 #. Translators: Input help mode message for scroll up at the mouse position command.
-#: globalCommands.py:296
+#: globalCommands.py:298
 msgid "Scroll up at the mouse position"
 msgstr "在鼠标位置向上滚动"
 
 #. Translators: Input help mode message for scroll down at the mouse position command.
-#: globalCommands.py:306
+#: globalCommands.py:308
 msgid "Scroll down at the mouse position"
 msgstr "在鼠标位置向下滚动"
 
 #. Translators: Input help mode message for scroll left at the mouse position command.
-#: globalCommands.py:316
+#: globalCommands.py:318
 msgid "Scroll left at the mouse position"
 msgstr "在鼠标位置向左滚动"
 
 #. Translators: Input help mode message for scroll right at the mouse position command.
-#: globalCommands.py:326
+#: globalCommands.py:328
 msgid "Scroll right at the mouse position"
 msgstr "在鼠标位置向右滚动"
 
 #. Translators: Input help mode message for report current selection command.
-#: globalCommands.py:336
+#: globalCommands.py:338
 msgid ""
 "Announces the current selection in edit controls and documents. Pressing "
 "twice spells this information. Pressing three times spells it using "
@@ -3852,637 +3854,637 @@ msgstr ""
 #. Translators: This is spoken to indicate what has just been selected.
 #. The text preceding 'selected' is intentional.
 #. For example 'hello world selected'
-#: globalCommands.py:363 speech\speech.py:1227
+#: globalCommands.py:365 speech\speech.py:1227
 #, python-format
 msgid "%s selected"
 msgstr "%s 已选择"
 
 #. Translators: Input help mode message for report date and time command.
-#: globalCommands.py:380
+#: globalCommands.py:400
 msgid ""
 "If pressed once, reports the current time. If pressed twice, reports the "
 "current date"
 msgstr "按一次读出当前时间，连按两次读出当前日期"
 
 #. Translators: Input help mode message for set the first value in the synth ring setting.
-#: globalCommands.py:408
+#: globalCommands.py:428
 msgid "Set the first value of the current setting in the synth settings ring"
 msgstr "设置当前语音选项为第一个值"
 
 #. Translators: Input help mode message for set the last value in the synth ring settings.
-#: globalCommands.py:421
+#: globalCommands.py:441
 msgid "Set the last value of the current setting in the synth settings ring"
 msgstr "设置当前语音选项为最后一个值"
 
 #. Translators: Input help mode message for increase synth setting value command.
-#: globalCommands.py:434
+#: globalCommands.py:454
 msgid "Increases the currently active setting in the synth settings ring"
 msgstr "增加当前语音选项的设置值"
 
 #. Translators: Input help mode message for increasing synth setting value command in larger steps.
-#: globalCommands.py:448
+#: globalCommands.py:468
 msgid ""
 "Increases the currently active setting in the synth settings ring in a "
 "larger step"
 msgstr "以更大的步长增加当前语音选项的设置值"
 
 #. Translators: Input help mode message for decrease synth setting value command.
-#: globalCommands.py:462
+#: globalCommands.py:482
 msgid "Decreases the currently active setting in the synth settings ring"
 msgstr "减少当前语音选项的设置值"
 
 #. Translators: Input help mode message for decreasing synth setting value command in larger steps.
-#: globalCommands.py:476
+#: globalCommands.py:496
 msgid ""
 "Decreases the currently active setting in the synth settings ring in a "
 "larger step"
 msgstr "以更大的步长减少当前语音选项的设置值"
 
 #. Translators: Input help mode message for next synth setting command.
-#: globalCommands.py:490
+#: globalCommands.py:510
 msgid "Moves to the next available setting in the synth settings ring"
 msgstr "切换到下一个可用的语音控制选项"
 
 #. Translators: Input help mode message for previous synth setting command.
-#: globalCommands.py:504
+#: globalCommands.py:524
 msgid "Moves to the previous available setting in the synth settings ring"
 msgstr "切换到上一个可用的语音控制选项"
 
 #. Translators: Input help mode message for toggle speaked typed characters command.
-#: globalCommands.py:518
+#: globalCommands.py:538
 msgid "Toggles on and off the speaking of typed characters"
 msgstr "切换“读出输入字符”的开关"
 
 #. Translators: The message announced when toggling the speak typed characters keyboard setting.
-#: globalCommands.py:525
+#: globalCommands.py:545
 msgid "speak typed characters off"
 msgstr "不读输入字符"
 
 #. Translators: The message announced when toggling the speak typed characters keyboard setting.
-#: globalCommands.py:529
+#: globalCommands.py:549
 msgid "speak typed characters on"
 msgstr "读出输入字符"
 
 #. Translators: Input help mode message for toggle speak typed words command.
-#: globalCommands.py:535
+#: globalCommands.py:555
 msgid "Toggles on and off the speaking of typed words"
 msgstr "切换“读出输入单词”的开关"
 
 #. Translators: The message announced when toggling the speak typed words keyboard setting.
-#: globalCommands.py:542
+#: globalCommands.py:562
 msgid "speak typed words off"
 msgstr "不读输入单词"
 
 #. Translators: The message announced when toggling the speak typed words keyboard setting.
-#: globalCommands.py:546
+#: globalCommands.py:566
 msgid "speak typed words on"
 msgstr "读出输入单词"
 
 #. Translators: Input help mode message for toggle speak command keys command.
-#: globalCommands.py:552
+#: globalCommands.py:572
 msgid ""
 "Toggles on and off the speaking of typed keys, that are not specifically "
 "characters"
 msgstr "切换“读出命令键”的开关（不包含字符）"
 
 #. Translators: The message announced when toggling the speak typed command keyboard setting.
-#: globalCommands.py:559
+#: globalCommands.py:579
 msgid "speak command keys off"
 msgstr "不读命令键"
 
 #. Translators: The message announced when toggling the speak typed command keyboard setting.
-#: globalCommands.py:563
+#: globalCommands.py:583
 msgid "speak command keys on"
 msgstr "读出命令键"
 
 #. Translators: Input help mode message for toggle report font name command.
-#: globalCommands.py:569
+#: globalCommands.py:589
 msgid "Toggles on and off the reporting of font changes"
 msgstr "切换读出字体更改的开关"
 
 #. Translators: The message announced when toggling the report font name document formatting setting.
-#: globalCommands.py:575
+#: globalCommands.py:595
 msgid "report font name off"
 msgstr "不读字体名称"
 
 #. Translators: The message announced when toggling the report font name document formatting setting.
-#: globalCommands.py:579
+#: globalCommands.py:599
 msgid "report font name on"
 msgstr "读出字体名称"
 
 #. Translators: Input help mode message for toggle report font size command.
-#: globalCommands.py:585
+#: globalCommands.py:605
 msgid "Toggles on and off the reporting of font size changes"
 msgstr "切换读出字体大小修改的开关"
 
 #. Translators: The message announced when toggling the report font size document formatting setting.
-#: globalCommands.py:591
+#: globalCommands.py:611
 msgid "report font size off"
 msgstr "不读字体大小"
 
 #. Translators: The message announced when toggling the report font size document formatting setting.
-#: globalCommands.py:595
+#: globalCommands.py:615
 msgid "report font size on"
 msgstr "读出字体大小"
 
 #. Translators: Input help mode message for toggle report font attributes command.
-#: globalCommands.py:602
+#: globalCommands.py:622
 msgid ""
 "Cycles font attribute reporting between speech, braille, speech and braille, "
 "and off."
 msgstr "循环切换字体属性提示方式，包括语音、盲文、语音和盲文、不提示。"
 
 #. Translators: A state in which font attributes are not reported.
-#: globalCommands.py:612
+#: globalCommands.py:632
 msgid "Do not report font attributes"
 msgstr "不提示"
 
 #. Translators: A state in which font attributes are only spoken.
-#: globalCommands.py:615
+#: globalCommands.py:635
 msgid "Speak font attributes"
 msgstr "语音"
 
 #. Translators: A state in which font attributes are only brailled.
-#: globalCommands.py:618
+#: globalCommands.py:638
 msgid "Braille font attributes"
 msgstr "盲文"
 
 #. Translators: A state in which font attributes are both spoken and brailled.
-#: globalCommands.py:621
+#: globalCommands.py:641
 msgid "Speak and braille font attributes"
 msgstr "语音和盲文"
 
 #. Translators: Input help mode message for toggle superscripts and subscripts command.
-#: globalCommands.py:627
+#: globalCommands.py:647
 msgid "Toggles on and off the reporting of superscripts and subscripts"
 msgstr "切换读出上标和下标的开关"
 
 #. Translators: The message announced when toggling the report superscripts and subscripts
 #. document formatting setting.
-#: globalCommands.py:636
+#: globalCommands.py:656
 msgid "report superscripts and subscripts on"
 msgstr "读出上标和下标"
 
 #. Translators: The message announced when toggling the report superscripts and subscripts
 #. document formatting setting.
-#: globalCommands.py:640
+#: globalCommands.py:660
 msgid "report superscripts and subscripts off"
 msgstr "不读上标和下标"
 
 #. Translators: Input help mode message for toggle report revisions command.
-#: globalCommands.py:645
+#: globalCommands.py:665
 msgid "Toggles on and off the reporting of revisions"
 msgstr "切换读出编辑者修订的开关"
 
 #. Translators: The message announced when toggling the report revisions document formatting setting.
-#: globalCommands.py:651
+#: globalCommands.py:671
 msgid "report revisions off"
 msgstr "不读编辑者修订"
 
 #. Translators: The message announced when toggling the report revisions document formatting setting.
-#: globalCommands.py:655
+#: globalCommands.py:675
 msgid "report revisions on"
 msgstr "读出编辑者修订"
 
 #. Translators: Input help mode message for toggle report emphasis command.
-#: globalCommands.py:661
+#: globalCommands.py:681
 msgid "Toggles on and off the reporting of emphasis"
 msgstr "切换读出标注的开关"
 
 #. Translators: The message announced when toggling the report emphasis document formatting setting.
-#: globalCommands.py:667
+#: globalCommands.py:687
 msgid "report emphasis off"
 msgstr "不读标注"
 
 #. Translators: The message announced when toggling the report emphasis document formatting setting.
-#: globalCommands.py:671
+#: globalCommands.py:691
 msgid "report emphasis on"
 msgstr "读出标注"
 
 #. Translators: Input help mode message for toggle report marked (highlighted) content command.
-#: globalCommands.py:677
+#: globalCommands.py:697
 msgid "Toggles on and off the reporting of highlighted text"
 msgstr "切换读出突出显示的开关"
 
 #. Translators: The message announced when toggling the report marked document formatting setting.
-#: globalCommands.py:685
+#: globalCommands.py:705
 msgid "report highlighted on"
 msgstr "读出突出显示"
 
 #. Translators: The message announced when toggling the report marked document formatting setting.
-#: globalCommands.py:688
+#: globalCommands.py:708
 msgid "report highlighted off"
 msgstr "不读突出显示"
 
 #. Translators: Input help mode message for toggle report colors command.
-#: globalCommands.py:693
+#: globalCommands.py:713
 msgid "Toggles on and off the reporting of colors"
 msgstr "切换读出颜色的开关"
 
 #. Translators: The message announced when toggling the report colors document formatting setting.
-#: globalCommands.py:699
+#: globalCommands.py:719
 msgid "report colors off"
 msgstr "不读颜色"
 
 #. Translators: The message announced when toggling the report colors document formatting setting.
-#: globalCommands.py:703
+#: globalCommands.py:723
 msgid "report colors on"
 msgstr "读出颜色"
 
 #. Translators: Input help mode message for toggle report alignment command.
-#: globalCommands.py:709
+#: globalCommands.py:729
 msgid "Toggles on and off the reporting of text alignment"
 msgstr "切换读出对齐方式的开关"
 
 #. Translators: The message announced when toggling the report alignment document formatting setting.
-#: globalCommands.py:715
+#: globalCommands.py:735
 msgid "report alignment off"
 msgstr "不读对齐方式"
 
 #. Translators: The message announced when toggling the report alignment document formatting setting.
-#: globalCommands.py:719
+#: globalCommands.py:739
 msgid "report alignment on"
 msgstr "读出对齐方式"
 
 #. Translators: Input help mode message for toggle report style command.
-#: globalCommands.py:725
+#: globalCommands.py:745
 msgid "Toggles on and off the reporting of style changes"
 msgstr "切换读出文本样式的开关"
 
 #. Translators: The message announced when toggling the report style document formatting setting.
-#: globalCommands.py:731
+#: globalCommands.py:751
 msgid "report style off"
 msgstr "不读文本样式"
 
 #. Translators: The message announced when toggling the report style document formatting setting.
-#: globalCommands.py:735
+#: globalCommands.py:755
 msgid "report style on"
 msgstr "读出文本样式"
 
 #. Translators: Input help mode message for toggle report spelling errors command.
-#: globalCommands.py:741
+#: globalCommands.py:761
 msgid "Toggles on and off the reporting of spelling errors"
 msgstr "切换读出拼写错误的开关"
 
 #. Translators: The message announced when toggling the report spelling errors document formatting setting.
-#: globalCommands.py:747
+#: globalCommands.py:767
 msgid "report spelling errors off"
 msgstr "不读拼写错误"
 
 #. Translators: The message announced when toggling the report spelling errors document formatting setting.
-#: globalCommands.py:751
+#: globalCommands.py:771
 msgid "report spelling errors on"
 msgstr "读出拼写错误"
 
 #. Translators: Input help mode message for toggle report pages command.
-#: globalCommands.py:757
+#: globalCommands.py:777
 msgid "Toggles on and off the reporting of pages"
 msgstr "切换读出页码的开关"
 
 #. Translators: The message announced when toggling the report pages document formatting setting.
-#: globalCommands.py:763
+#: globalCommands.py:783
 msgid "report pages off"
 msgstr "不读页码"
 
 #. Translators: The message announced when toggling the report pages document formatting setting.
-#: globalCommands.py:767
+#: globalCommands.py:787
 msgid "report pages on"
 msgstr "读出页码"
 
 #. Translators: Input help mode message for toggle report line numbers command.
-#: globalCommands.py:773
+#: globalCommands.py:793
 msgid "Toggles on and off the reporting of line numbers"
 msgstr "切换读出行号的开关"
 
 #. Translators: The message announced when toggling the report line numbers document formatting setting.
-#: globalCommands.py:779
+#: globalCommands.py:799
 msgid "report line numbers off"
 msgstr "不读行号"
 
 #. Translators: The message announced when toggling the report line numbers document formatting setting.
-#: globalCommands.py:783
+#: globalCommands.py:803
 msgid "report line numbers on"
 msgstr "读出行号"
 
 #. Translators: Input help mode message for toggle report line indentation command.
-#: globalCommands.py:789
+#: globalCommands.py:809
 msgid "Cycles through line indentation settings"
 msgstr "在行缩进朗读模式之间循环切换"
 
 #. Translators: A message reported when cycling through line indentation settings.
 #. {mode} will be replaced with the mode; i.e. Off, Speech, Tones or Both Speech and Tones.
-#: globalCommands.py:801
+#: globalCommands.py:821
 #, python-brace-format
 msgid "Report line indentation {mode}"
 msgstr "行缩进提示 {mode}"
 
 #. Translators: Input help mode message for toggle ignore blank lines for line indentation reporting command.
-#: globalCommands.py:805
+#: globalCommands.py:825
 msgid ""
 "Toggles on and off the ignoring of blank lines for line indentation reporting"
 msgstr "切换是否提示空白行的行缩进"
 
 #. Translators: The message announced when toggling off the ignore blank lines for line indentation
 #. reporting document formatting setting.
-#: globalCommands.py:814
+#: globalCommands.py:834
 msgid "Ignore blank lines for line indentation reporting off"
 msgstr "提示空白行的行缩进"
 
 #. Translators: The message announced when toggling on the ignore blank lines for line indentation
 #. reporting document formatting setting.
-#: globalCommands.py:818
+#: globalCommands.py:838
 msgid "Ignore blank lines for line indentation reporting on"
 msgstr "不提示空白行的行缩进"
 
 #. Translators: Input help mode message for toggle report paragraph indentation command.
-#: globalCommands.py:822
+#: globalCommands.py:842
 msgid "Toggles on and off the reporting of paragraph indentation"
 msgstr "切换读出段落缩进的开关"
 
 #. Translators: The message announced when toggling the report paragraph indentation document formatting setting.
-#: globalCommands.py:828
+#: globalCommands.py:848
 msgid "report paragraph indentation off"
 msgstr "不读段落缩进"
 
 #. Translators: The message announced when toggling the report paragraph indentation document formatting setting.
-#: globalCommands.py:832
+#: globalCommands.py:852
 msgid "report paragraph indentation on"
 msgstr "读出段落缩进"
 
 #. Translators: Input help mode message for toggle report line spacing command.
-#: globalCommands.py:838
+#: globalCommands.py:858
 msgid "Toggles on and off the reporting of line spacing"
 msgstr "切换读出行间距的开关"
 
 #. Translators: The message announced when toggling the report line spacing document formatting setting.
-#: globalCommands.py:844
+#: globalCommands.py:864
 msgid "report line spacing off"
 msgstr "不读行间距"
 
 #. Translators: The message announced when toggling the report line spacing document formatting setting.
-#: globalCommands.py:848
+#: globalCommands.py:868
 msgid "report line spacing on"
 msgstr "读出行间距"
 
 #. Translators: Input help mode message for toggle report tables command.
-#: globalCommands.py:854
+#: globalCommands.py:874
 msgid "Toggles on and off the reporting of tables"
 msgstr "切换读出表格的开关"
 
 #. Translators: The message announced when toggling the report tables document formatting setting.
-#: globalCommands.py:860
+#: globalCommands.py:880
 msgid "report tables off"
 msgstr "不读表格"
 
 #. Translators: The message announced when toggling the report tables document formatting setting.
-#: globalCommands.py:864
+#: globalCommands.py:884
 msgid "report tables on"
 msgstr "读出表格"
 
 #. Translators: Input help mode message for toggle report table row/column headers command.
-#: globalCommands.py:870
+#: globalCommands.py:890
 msgid "Cycle through the possible modes to report table row and column headers"
 msgstr "在行列标题朗读模式之间循环切换"
 
 #. Translators: Reported when the user cycles through report table header modes.
 #. {mode} will be replaced with the mode; e.g. None, Rows and columns, Rows or Columns.
-#: globalCommands.py:880
+#: globalCommands.py:900
 #, python-brace-format
 msgid "Report table headers {mode}"
 msgstr "行列标题朗读 {mode}"
 
 #. Translators: Input help mode message for toggle report table cell coordinates command.
-#: globalCommands.py:884
+#: globalCommands.py:904
 msgid "Toggles on and off the reporting of table cell coordinates"
 msgstr "切换读出表格单元坐标的开关"
 
 #. Translators: The message announced when toggling the report table cell coordinates document formatting setting.
-#: globalCommands.py:890
+#: globalCommands.py:910
 msgid "report table cell coordinates off"
 msgstr "不读表格的单元坐标"
 
 #. Translators: The message announced when toggling the report table cell coordinates document formatting setting.
-#: globalCommands.py:894
+#: globalCommands.py:914
 msgid "report table cell coordinates on"
 msgstr "读出表格的单元坐标"
 
 #. Translators: Input help mode message for toggle report cell borders command.
-#: globalCommands.py:900
+#: globalCommands.py:920
 msgid "Cycles through the cell border reporting settings"
 msgstr "在单元格边界朗读模式之间循环切换"
 
 #. Translators: Reported when the user cycles through report cell border modes.
 #. {mode} will be replaced with the mode; e.g. Off, Styles and Colors and styles.
-#: globalCommands.py:910
+#: globalCommands.py:930
 #, python-brace-format
 msgid "Report cell borders {mode}"
 msgstr "单元格边界朗读 {mode}"
 
 #. Translators: Input help mode message for toggle report links command.
-#: globalCommands.py:914
+#: globalCommands.py:934
 msgid "Toggles on and off the reporting of links"
 msgstr "切换读出链接的开关"
 
 #. Translators: The message announced when toggling the report links document formatting setting.
-#: globalCommands.py:920
+#: globalCommands.py:940
 msgid "report links off"
 msgstr "不读链接"
 
 #. Translators: The message announced when toggling the report links document formatting setting.
-#: globalCommands.py:924
+#: globalCommands.py:944
 msgid "report links on"
 msgstr "读出链接"
 
 #. Translators: Input help mode message for toggle report link type command.
-#: globalCommands.py:930
+#: globalCommands.py:950
 msgid "Toggles on and off the reporting of link type"
 msgstr "切换读出链接类型的开关"
 
 #. Translators: The message announced when toggling the report link type document formatting setting.
-#: globalCommands.py:939
+#: globalCommands.py:959
 msgid "Report link type on"
 msgstr "读出链接类型"
 
 #. Translators: The message announced when toggling the report link type document formatting setting.
-#: globalCommands.py:941
+#: globalCommands.py:961
 msgid "Report link type off"
 msgstr "不读链接类型"
 
 #. Translators: The message announced when reporting links is disabled,
 #. and the user tries to toggle the report link type document formatting setting.
-#: globalCommands.py:946
+#: globalCommands.py:966
 msgid "The report links setting must be enabled to toggle report link type"
 msgstr "必须启用读出链接设置才能切换读出链接类型"
 
 #. Translators: Input help mode message for toggle report graphics command.
-#: globalCommands.py:950
+#: globalCommands.py:970
 msgid "Toggles on and off the reporting of graphics"
 msgstr "切换读出图形的开关"
 
 #. Translators: The message announced when toggling the report graphics document formatting setting.
-#: globalCommands.py:956
+#: globalCommands.py:976
 msgid "report graphics off"
 msgstr "不读图形"
 
 #. Translators: The message announced when toggling the report graphics document formatting setting.
-#: globalCommands.py:960
+#: globalCommands.py:980
 msgid "report graphics on"
 msgstr "读出图形"
 
 #. Translators: Input help mode message for toggle report comments command.
-#: globalCommands.py:966
+#: globalCommands.py:986
 msgid "Toggles on and off the reporting of comments"
 msgstr "切换读出注释的开关"
 
 #. Translators: The message announced when toggling the report comments document formatting setting.
-#: globalCommands.py:972
+#: globalCommands.py:992
 msgid "report comments off"
 msgstr "不读注释"
 
 #. Translators: The message announced when toggling the report comments document formatting setting.
-#: globalCommands.py:976
+#: globalCommands.py:996
 msgid "report comments on"
 msgstr "读出注释"
 
 #. Translators: Input help mode message for toggle report lists command.
-#: globalCommands.py:982
+#: globalCommands.py:1002
 msgid "Toggles on and off the reporting of lists"
 msgstr "切换读出列表的开关"
 
 #. Translators: The message announced when toggling the report lists document formatting setting.
-#: globalCommands.py:988
+#: globalCommands.py:1008
 msgid "report lists off"
 msgstr "不读列表"
 
 #. Translators: The message announced when toggling the report lists document formatting setting.
-#: globalCommands.py:992
+#: globalCommands.py:1012
 msgid "report lists on"
 msgstr "读出列表"
 
 #. Translators: Input help mode message for toggle report headings command.
-#: globalCommands.py:998
+#: globalCommands.py:1018
 msgid "Toggles on and off the reporting of headings"
 msgstr "切换读出标题的开关"
 
 #. Translators: The message announced when toggling the report headings document formatting setting.
-#: globalCommands.py:1004
+#: globalCommands.py:1024
 msgid "report headings off"
 msgstr "不读标题"
 
 #. Translators: The message announced when toggling the report headings document formatting setting.
-#: globalCommands.py:1008
+#: globalCommands.py:1028
 msgid "report headings on"
 msgstr "读出标题"
 
 #. Translators: Input help mode message for toggle report groupings command.
-#: globalCommands.py:1014
+#: globalCommands.py:1034
 msgid "Toggles on and off the reporting of groupings"
 msgstr "切换读出分组的开关"
 
 #. Translators: The message announced when toggling the report block quotes document formatting setting.
-#: globalCommands.py:1020
+#: globalCommands.py:1040
 msgid "report groupings off"
 msgstr "不读分组"
 
 #. Translators: The message announced when toggling the report block quotes document formatting setting.
-#: globalCommands.py:1024
+#: globalCommands.py:1044
 msgid "report groupings on"
 msgstr "读出分组"
 
 #. Translators: Input help mode message for toggle report block quotes command.
-#: globalCommands.py:1030
+#: globalCommands.py:1050
 msgid "Toggles on and off the reporting of block quotes"
 msgstr "切换读出引用区的开关"
 
 #. Translators: The message announced when toggling the report block quotes document formatting setting.
-#: globalCommands.py:1036
+#: globalCommands.py:1056
 msgid "report block quotes off"
 msgstr "不读引用区"
 
 #. Translators: The message announced when toggling the report block quotes document formatting setting.
-#: globalCommands.py:1040
+#: globalCommands.py:1060
 msgid "report block quotes on"
 msgstr "读出引用区"
 
 #. Translators: Input help mode message for toggle report landmarks command.
-#: globalCommands.py:1046
+#: globalCommands.py:1066
 msgid "Toggles on and off the reporting of landmarks"
 msgstr "切换读出路标的开关"
 
 #. Translators: The message announced when toggling the report landmarks document formatting setting.
-#: globalCommands.py:1052
+#: globalCommands.py:1072
 msgid "report landmarks and regions off"
 msgstr "不读路标和区域"
 
 #. Translators: The message announced when toggling the report landmarks document formatting setting.
-#: globalCommands.py:1056
+#: globalCommands.py:1076
 msgid "report landmarks and regions on"
 msgstr "读出路标和区域"
 
 #. Translators: Input help mode message for toggle report articles command.
-#: globalCommands.py:1062
+#: globalCommands.py:1082
 msgid "Toggles on and off the reporting of articles"
 msgstr "切换读出文章的开关"
 
 #. Translators: The message announced when toggling the report articles document formatting setting.
-#: globalCommands.py:1068
+#: globalCommands.py:1088
 msgid "report articles off"
 msgstr "不读文章"
 
 #. Translators: The message announced when toggling the report articles document formatting setting.
-#: globalCommands.py:1072
+#: globalCommands.py:1092
 msgid "report articles on"
 msgstr "读出文章"
 
 #. Translators: Input help mode message for toggle report frames command.
-#: globalCommands.py:1078
+#: globalCommands.py:1098
 msgid "Toggles on and off the reporting of frames"
 msgstr "切换读出框架的开关"
 
 #. Translators: The message announced when toggling the report frames document formatting setting.
-#: globalCommands.py:1084
+#: globalCommands.py:1104
 msgid "report frames off"
 msgstr "不读框架"
 
 #. Translators: The message announced when toggling the report frames document formatting setting.
-#: globalCommands.py:1088
+#: globalCommands.py:1108
 msgid "report frames on"
 msgstr "读出框架"
 
 #. Translators: Input help mode message for toggle report if clickable command.
-#: globalCommands.py:1094
+#: globalCommands.py:1114
 msgid "Toggles on and off reporting if clickable"
 msgstr "切换读出可点击的开关"
 
 #. Translators: The message announced when toggling the report if clickable document formatting setting.
-#: globalCommands.py:1100
+#: globalCommands.py:1120
 msgid "report if clickable off"
 msgstr "不读可点击"
 
 #. Translators: The message announced when toggling the report if clickable document formatting setting.
-#: globalCommands.py:1104
+#: globalCommands.py:1124
 msgid "report if clickable on"
 msgstr "读出可点击"
 
 #. Translators: Input help mode message for toggle report figures and captions command.
-#: globalCommands.py:1110
+#: globalCommands.py:1130
 msgid "Toggles on and off the reporting of figures and captions"
 msgstr "切换读出插图和说明文本的开关"
 
 #. Translators: The message announced when toggling the report figures and captions document formatting
 #. setting.
-#: globalCommands.py:1117
+#: globalCommands.py:1137
 msgid "report figures and captions off"
 msgstr "不读插图和说明文本"
 
 #. Translators: The message announced when toggling the report figures and captions document formatting
 #. setting.
-#: globalCommands.py:1122
+#: globalCommands.py:1142
 msgid "report figures and captions on"
 msgstr "读出插图和说明文本"
 
 #. Translators: Input help mode message for cycle through automatic language switching mode command.
-#: globalCommands.py:1129
+#: globalCommands.py:1149
 msgid ""
 "Cycles through the possible choices for automatic language switching: off, "
 "language only and language and dialect."
@@ -4491,22 +4493,22 @@ msgstr ""
 "换。"
 
 #. Translators: A message reported when executing the cycle automatic language switching mode command.
-#: globalCommands.py:1138
+#: globalCommands.py:1158
 msgid "Automatic language switching off"
 msgstr "关闭自动语言切换"
 
 #. Translators: A message reported when executing the cycle automatic language switching mode command.
-#: globalCommands.py:1143
+#: globalCommands.py:1163
 msgid "Automatic language and dialect switching on"
 msgstr "开启自动语言切换以及自动方言切换"
 
 #. Translators: A message reported when executing the cycle automatic language switching mode command.
-#: globalCommands.py:1147
+#: globalCommands.py:1167
 msgid "Automatic language switching on"
 msgstr "开启自动语言切换"
 
 #. Translators: Input help mode message for cycle speech symbol level command.
-#: globalCommands.py:1154
+#: globalCommands.py:1174
 msgid ""
 "Cycles through speech symbol levels which determine what symbols are spoken"
 msgstr "在语音符号级别之间循环切换，已确定朗读哪些符号"
@@ -4514,51 +4516,51 @@ msgstr "在语音符号级别之间循环切换，已确定朗读哪些符号"
 #. Translators: Reported when the user cycles through speech symbol levels
 #. which determine what symbols are spoken.
 #. %s will be replaced with the symbol level; e.g. none, some, most and all.
-#: globalCommands.py:1170
+#: globalCommands.py:1190
 #, python-format
 msgid "Symbol level %s"
 msgstr "%s符号"
 
 #. Translators: Input help mode message for toggle delayed character description command.
-#: globalCommands.py:1174
+#: globalCommands.py:1194
 msgid ""
 "Toggles on and off delayed descriptions for characters on cursor movement"
 msgstr "切换光标移动时延迟字符描述的开关"
 
 #. Translators: The message announced when toggling the delayed character description setting.
-#: globalCommands.py:1182
+#: globalCommands.py:1202
 msgid "delayed character descriptions on"
 msgstr "开启光标移动时延迟字符描述"
 
 #. Translators: The message announced when toggling the delayed character description setting.
-#: globalCommands.py:1185
+#: globalCommands.py:1205
 msgid "delayed character descriptions off"
 msgstr "关闭光标移动时延迟字符描述"
 
 #. Translators: Input help mode message for move mouse to navigator object command.
-#: globalCommands.py:1190
+#: globalCommands.py:1210
 msgid "Moves the mouse pointer to the current navigator object"
 msgstr "将鼠标移动到当前的导航对象"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
-#: globalCommands.py:1224
+#: globalCommands.py:1244
 msgid "Object has no location"
 msgstr "找不到对象的所在位置"
 
 #. Translators: Input help mode message for move navigator object to mouse command.
-#: globalCommands.py:1236
+#: globalCommands.py:1256
 msgid ""
 "Sets the navigator object to the current object under the mouse pointer and "
 "speaks it"
 msgstr "将导航对象移到鼠标所指的对象并将其读出"
 
 #. Translators: Reported when attempting to move the navigator object to the object under mouse pointer.
-#: globalCommands.py:1243
+#: globalCommands.py:1263
 msgid "Move navigator object to mouse"
 msgstr "将导航对象移到鼠标所在处"
 
 #. Translators: Script help message for next review mode command.
-#: globalCommands.py:1258
+#: globalCommands.py:1278
 msgid ""
 "Switches to the next review mode (e.g. object, document or screen) and "
 "positions the review position at the point of the navigator object"
@@ -4567,12 +4569,12 @@ msgstr ""
 "置到导航对象"
 
 #. Translators: reported when there are no other available review modes for this object
-#: globalCommands.py:1274
+#: globalCommands.py:1294
 msgid "No next review mode"
 msgstr "没有下一个查看模式"
 
 #. Translators: Script help message for previous review mode command.
-#: globalCommands.py:1279
+#: globalCommands.py:1299
 msgid ""
 "Switches to the previous review mode (e.g. object, document or screen) and "
 "positions the review position at the point of the navigator object"
@@ -4581,27 +4583,27 @@ msgstr ""
 "置到导航对象"
 
 #. Translators: reported when there are no other available review modes for this object
-#: globalCommands.py:1295
+#: globalCommands.py:1315
 msgid "No previous review mode"
 msgstr "没有上一个查看模式"
 
 #. Translators: Input help mode message for toggle simple review mode command.
-#: globalCommands.py:1299
+#: globalCommands.py:1319
 msgid "Toggles simple review mode on and off"
 msgstr "切换简易查看模式的开关"
 
 #. Translators: The message announced when toggling simple review mode.
-#: globalCommands.py:1305
+#: globalCommands.py:1325
 msgid "Simple review mode off"
 msgstr "关闭简易查看模式"
 
 #. Translators: The message announced when toggling simple review mode.
-#: globalCommands.py:1309
+#: globalCommands.py:1329
 msgid "Simple review mode on"
 msgstr "打开简易查看模式"
 
 #. Translators: Input help mode message for report current navigator object command.
-#: globalCommands.py:1316
+#: globalCommands.py:1336
 msgid ""
 "Reports the current navigator object. Pressing twice spells this "
 "information, and pressing three times Copies name and value of this object "
@@ -4611,19 +4613,19 @@ msgstr ""
 
 #. Translators: Reported when the user tries to perform a command related to the navigator object
 #. but there is no current navigator object.
-#: globalCommands.py:1329 globalCommands.py:1552 globalCommands.py:1583
-#: globalCommands.py:1612 globalCommands.py:1642
+#: globalCommands.py:1349 globalCommands.py:1572 globalCommands.py:1603
+#: globalCommands.py:1632 globalCommands.py:1662
 msgid "No navigator object"
 msgstr "没有导航对象"
 
 #. Translators: message when there is no location information
-#: globalCommands.py:1381
+#: globalCommands.py:1401
 msgid "No location information"
 msgstr "没有位置信息"
 
 #. Translators: Description for a keyboard command which reports location of the
 #. review cursor, falling back to the location of navigator object if needed.
-#: globalCommands.py:1387
+#: globalCommands.py:1407
 msgid ""
 "Reports information about the location of the text at the review cursor, or "
 "location of the navigator object if there is no text under review cursor."
@@ -4632,13 +4634,13 @@ msgstr ""
 "息。"
 
 #. Translators: Description for a keyboard command which reports location of the navigator object.
-#: globalCommands.py:1399
+#: globalCommands.py:1419
 msgid "Reports information about the location of the current navigator object."
 msgstr "读出当前导航对象的位置信息。"
 
 #. Translators: Description for a keyboard command which reports location of the
 #. current caret position falling back to the location of focused object if needed.
-#: globalCommands.py:1411
+#: globalCommands.py:1431
 msgid ""
 "Reports information about the location of the text at the caret, or location "
 "of the currently focused object if there is no caret."
@@ -4647,12 +4649,12 @@ msgstr ""
 
 #. Translators: Description for a keyboard command which reports location of the
 #. currently focused object.
-#: globalCommands.py:1426
+#: globalCommands.py:1446
 msgid "Reports information about the location of the currently focused object."
 msgstr "读出当前所聚焦对象的位置信息。"
 
 #. Translators: Description for report review cursor location command.
-#: globalCommands.py:1437
+#: globalCommands.py:1457
 msgid ""
 "Reports information about the location of the text or object at the review "
 "cursor. Pressing twice may provide further detail."
@@ -4661,14 +4663,14 @@ msgstr "读出查看光标处文本或对象的位置信息，连按两次获取
 #. Translators: Description for a keyboard command
 #. which reports location of the text at the caret position
 #. or object with focus if there is no caret.
-#: globalCommands.py:1455
+#: globalCommands.py:1475
 msgid ""
 "Reports information about the location of the text or object at the position "
 "of system caret. Pressing twice may provide further detail."
 msgstr "读出光标处文本或对象的位置信息，连按两次获取更详细的信息。"
 
 #. Translators: Input help mode message for move navigator object to current focus command.
-#: globalCommands.py:1471
+#: globalCommands.py:1491
 msgid ""
 "Sets the navigator object to the current focus, and the review cursor to the "
 "position of the caret inside it, if possible."
@@ -4676,12 +4678,12 @@ msgstr ""
 "如果可能，将导航对象设置到当前焦点，将查看光标设置到编辑光标所在的位置。"
 
 #. Translators: Reported when attempting to move the navigator object to focus.
-#: globalCommands.py:1491
+#: globalCommands.py:1511
 msgid "Move to focus"
 msgstr "移动到焦点"
 
 #. Translators: Input help mode message for move focus to current navigator object command.
-#: globalCommands.py:1497
+#: globalCommands.py:1517
 msgid ""
 "Pressed once sets the keyboard focus to the navigator object, pressed twice "
 "sets the system caret to the position of the review cursor"
@@ -4690,84 +4692,84 @@ msgstr "按一次设置键盘焦点到导航对象，按两次设置系统输入
 #. Translators: Reported when:
 #. 1. There is no focusable object e.g. cannot use tab and shift tab to move to controls.
 #. 2. Trying to move focus to navigator object but there is no focus.
-#: globalCommands.py:1509 globalCommands.py:2712
+#: globalCommands.py:1529 globalCommands.py:2789
 msgid "No focus"
 msgstr "没有焦点"
 
 #. Translators: Reported when attempting to move focus to navigator object.
-#: globalCommands.py:1513
+#: globalCommands.py:1533
 msgid "Move focus"
 msgstr "移动焦点"
 
 #. Translators: Reported when trying to move caret to the position of the review cursor but there is no caret.
 #. Translators: Reported when there is no caret.
-#: globalCommands.py:1535 globalCommands.py:2514
+#: globalCommands.py:1555 globalCommands.py:2591
 msgid "No caret"
 msgstr "没有输入焦点"
 
 #. Translators: Input help mode message for move to parent object command.
-#: globalCommands.py:1543
+#: globalCommands.py:1563
 msgid "Moves the navigator object to the object containing it"
 msgstr "移动导航对象到此对象的父对象"
 
 #. Translators: Reported when there is no containing (parent) object such as when focused on desktop.
-#: globalCommands.py:1559
+#: globalCommands.py:1579
 msgid "No containing object"
 msgstr "没有父对象"
 
 #. Translators: Input help mode message for move to next object command.
-#: globalCommands.py:1574
+#: globalCommands.py:1594
 msgid "Moves the navigator object to the next object"
 msgstr "移动导航对象到此层级的下一个对象"
 
 #. Translators: Reported when there is no next object (current object is the last object).
 #. Translators: a message when there is no next object when navigating
-#: globalCommands.py:1589 globalCommands.py:4283
+#: globalCommands.py:1609 globalCommands.py:4360
 msgid "No next"
 msgstr "往后没有对象"
 
 #. Translators: Input help mode message for move to previous object command.
-#: globalCommands.py:1604
+#: globalCommands.py:1624
 msgid "Moves the navigator object to the previous object"
 msgstr "移动导航对象到此层级的前一个对象"
 
 #. Translators: Reported when there is no previous object (current object is the first object).
 #. Translators: a message when there is no previous object when navigating
-#: globalCommands.py:1618 globalCommands.py:4317
+#: globalCommands.py:1638 globalCommands.py:4394
 msgid "No previous"
 msgstr "往前没有对象"
 
 #. Translators: Input help mode message for move to first child object command.
-#: globalCommands.py:1633
+#: globalCommands.py:1653
 msgid "Moves the navigator object to the first object inside it"
 msgstr "移动导航对象到此对象的首个子对象"
 
 #. Translators: Reported when there is no contained (first child) object such as inside a document.
-#: globalCommands.py:1649
+#: globalCommands.py:1669
 msgid "No objects inside"
 msgstr "没有子对象"
 
 #. Translators: Input help mode message for activate current object command.
-#: globalCommands.py:1665
+#: globalCommands.py:1685
 msgid ""
 "Performs the default action on the current navigator object (example: "
 "presses it if it is a button)."
 msgstr "执行当前导航对象的默认动作，（例如：若该对象为按钮则按下该按钮）。"
 
 #. Translators: the message reported when there is no action to perform on the review position or navigator object.
-#: globalCommands.py:1712
+#: globalCommands.py:1732
 msgid "No action"
 msgstr "没有默认动作"
 
 #. Translators: Input help mode message for move review cursor to top line command.
-#: globalCommands.py:1717
+#: globalCommands.py:1737
 msgid ""
 "Moves the review cursor to the top line of the current navigator object and "
 "speaks it"
 msgstr "将查看光标移动到当前查看文本的第一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous line command.
-#: globalCommands.py:1742
+#: globalCommands.py:1762
 msgid ""
 "Moves the review cursor to the previous line of the current navigator object "
 "and speaks it"
@@ -4776,13 +4778,13 @@ msgstr "将查看光标移动到当前查看文本的上一行并将其读出"
 #. Translators: a message reported when review cursor is at the top line of the current navigator object.
 #. Translators: Reported when attempting to move to the previous result in the Python Console
 #. output pane while there is no previous result.
-#: globalCommands.py:1755 globalCommands.py:1861 globalCommands.py:1953
+#: globalCommands.py:1775 globalCommands.py:1881 globalCommands.py:1973
 #: appModules\nvda.py:137
 msgid "Top"
 msgstr "顶端"
 
 #. Translators: Input help mode message for read current line under review cursor command.
-#: globalCommands.py:1776
+#: globalCommands.py:1796
 msgid ""
 "Reports the line of the current navigator object where the review cursor is "
 "situated. If this key is pressed twice, the current line will be spelled. "
@@ -4790,47 +4792,47 @@ msgid ""
 msgstr "读出查看光标的所在行；连按两次拼读该行；连按三次竹字描述该行。"
 
 #. Translators: Input help mode message for move review cursor to next line command.
-#: globalCommands.py:1804
+#: globalCommands.py:1824
 msgid ""
 "Moves the review cursor to the next line of the current navigator object and "
 "speaks it"
 msgstr "将查看光标移动到当前查看文本的下一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous page command.
-#: globalCommands.py:1843
+#: globalCommands.py:1863
 msgid ""
 "Moves the review cursor to the previous page of the current navigator object "
 "and speaks it"
 msgstr "将查看光标移动到当前查看文本的上一页并将其读出"
 
 #. Translators: a message reported when movement by page is unsupported
-#: globalCommands.py:1857 globalCommands.py:1893
+#: globalCommands.py:1877 globalCommands.py:1913
 msgid "Movement by page not supported"
 msgstr "不支持按页移动"
 
 #. Translators: Input help mode message for move review cursor to next page command.
-#: globalCommands.py:1877
+#: globalCommands.py:1897
 msgid ""
 "Moves the review cursor to the next page of the current navigator object and "
 "speaks it"
 msgstr "将查看光标移动到当前查看文本的下一页并将其读出"
 
 #. Translators: Input help mode message for move review cursor to bottom line command.
-#: globalCommands.py:1916
+#: globalCommands.py:1936
 msgid ""
 "Moves the review cursor to the bottom line of the current navigator object "
 "and speaks it"
 msgstr "将查看光标移动到当前查看文本的最后一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous word command.
-#: globalCommands.py:1941
+#: globalCommands.py:1961
 msgid ""
 "Moves the review cursor to the previous word of the current navigator object "
 "and speaks it"
 msgstr "将查看光标移动到当前查看文本的前一个单词并将其读出"
 
 #. Translators: Input help mode message for report current word under review cursor command.
-#: globalCommands.py:1974
+#: globalCommands.py:1994
 msgid ""
 "Speaks the word of the current navigator object where the review cursor is "
 "situated. Pressing twice spells the word. Pressing three times spells the "
@@ -4838,33 +4840,33 @@ msgid ""
 msgstr "读出查看光标所在的单词，连按两次拼读该单词，连按三次则竹字描述该单词"
 
 #. Translators: Input help mode message for move review cursor to next word command.
-#: globalCommands.py:2003
+#: globalCommands.py:2023
 msgid ""
 "Moves the review cursor to the next word of the current navigator object and "
 "speaks it"
 msgstr "将查看光标移动到当前查看文本的后一个单词并将其读出"
 
 #. Translators: Input help mode message for move review cursor to start of current line command.
-#: globalCommands.py:2041
+#: globalCommands.py:2061
 msgid ""
 "Moves the review cursor to the first character of the line where it is "
 "situated in the current navigator object and speaks it"
 msgstr "将查看光标移动到当前查看文本的行首字符并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous character command.
-#: globalCommands.py:2070
+#: globalCommands.py:2090
 msgid ""
 "Moves the review cursor to the previous character of the current navigator "
 "object and speaks it"
 msgstr "将查看光标移动到当前查看文本的前一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the leftmost character of the current navigator object's text.
-#: globalCommands.py:2084
+#: globalCommands.py:2104
 msgid "Left"
 msgstr "左"
 
 #. Translators: Input help mode message for report current character under review cursor command.
-#: globalCommands.py:2107
+#: globalCommands.py:2127
 msgid ""
 "Reports the character of the current navigator object where the review "
 "cursor is situated. Pressing twice reports a description or example of that "
@@ -4875,38 +4877,51 @@ msgstr ""
 "十六进制代码"
 
 #. Translators: Input help mode message for move review cursor to next character command.
-#: globalCommands.py:2155
+#: globalCommands.py:2175
 msgid ""
 "Moves the review cursor to the next character of the current navigator "
 "object and speaks it"
 msgstr "将查看光标移动到当前查看文本的后一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the rightmost character of the current navigator object's text.
-#: globalCommands.py:2169
+#: globalCommands.py:2189
 msgid "Right"
 msgstr "右"
 
 #. Translators: Input help mode message for move review cursor to end of current line command.
-#: globalCommands.py:2192
+#: globalCommands.py:2212
 msgid ""
 "Moves the review cursor to the last character of the line where it is "
 "situated in the current navigator object and speaks it"
 msgstr "将查看光标移动到当前查看文本的行尾字符并将其读出"
 
+#. Translators: Input help mode message for move review cursor to start of selection command.
+#: globalCommands.py:2241
+msgid ""
+"Moves the review cursor to the first character of the selection, and speaks "
+"it"
+msgstr "将查看光标移动到选中文本的第一个字符并将其读出"
+
+#. Translators: Input help mode message for move review cursor to end of selection command.
+#: globalCommands.py:2269
+msgid ""
+"Moves the review cursor to the last character of the selection, and speaks it"
+msgstr "将查看光标移动到选中文本的最后一个字符并将其读出"
+
 #. Translators: Input help mode message for Review Current Symbol command.
-#: globalCommands.py:2231
+#: globalCommands.py:2308
 msgid ""
 "Reports the symbol where the review cursor is positioned. Pressed twice, "
 "shows the symbol and the text used to speak it in browse mode"
 msgstr "读出查看光标处的符号。连按两次，在浏览模式下显示该符号极其发音替换文本"
 
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
-#: globalCommands.py:2245
+#: globalCommands.py:2322
 msgid "No symbol replacement"
 msgstr "无替换文本"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
-#: globalCommands.py:2252
+#: globalCommands.py:2329
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
@@ -4915,25 +4930,25 @@ msgstr ""
 "替换文本：{}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#: globalCommands.py:2255
+#: globalCommands.py:2332
 msgid "Expanded symbol ({})"
 msgstr "已展开符号 ({})"
 
 #. Translators: Input help mode message for cycle speech mode command.
-#: globalCommands.py:2261
+#: globalCommands.py:2338
 msgid "Cycles between speech modes."
 msgstr "在语音模式之间循环切换。"
 
 #. Translators: Announced when user switches to another speech mode.
 #. 'mode' is replaced with the translated name of the new mode.
-#: globalCommands.py:2284
+#: globalCommands.py:2361
 #, python-brace-format
 msgid "Speech mode {mode}"
 msgstr "{mode}"
 
 #. Translators: Input help mode message for move to next document with focus command,
 #. mostly used in web browsing to move from embedded object to the webpage document.
-#: globalCommands.py:2291
+#: globalCommands.py:2368
 msgid ""
 "Moves the focus out of the current embedded object and into the document "
 "that contains it"
@@ -4941,7 +4956,7 @@ msgstr "将焦点从当前嵌入式对象移动到包含该对象的文档中"
 
 #. Translators: Input help mode message for toggle focus and browse mode command
 #. in web browsing and other situations.
-#: globalCommands.py:2316 NVDAObjects\window\_msOfficeChart.py:634
+#: globalCommands.py:2393 NVDAObjects\window\_msOfficeChart.py:634
 msgid ""
 "Toggles between browse mode and focus mode. When in focus mode, keys will "
 "pass straight through to the application, allowing you to interact directly "
@@ -4952,136 +4967,136 @@ msgstr ""
 "允许您用光标或单键导航快捷键在文档中浏览。"
 
 #. Translators: Input help mode message for quit NVDA command.
-#: globalCommands.py:2366
+#: globalCommands.py:2443
 msgid "Quits NVDA!"
 msgstr "退出 NVDA！"
 
 #. Translators: Input help mode message for restart NVDA command.
-#: globalCommands.py:2374
+#: globalCommands.py:2451
 msgid "Restarts NVDA!"
 msgstr "重新启动 NVDA！"
 
 #. Translators: Input help mode message for show NVDA menu command.
-#: globalCommands.py:2381
+#: globalCommands.py:2458
 msgid "Shows the NVDA menu"
 msgstr "显示 NVDA 菜单"
 
 #. Translators: Input help mode message for say all in review cursor command.
-#: globalCommands.py:2391
+#: globalCommands.py:2468
 msgid ""
 "Reads from the review cursor up to the end of the current text, moving the "
 "review cursor as it goes"
 msgstr "从查看光标处朗读到文本末端的同时，光标随之移动"
 
 #. Translators: Input help mode message for say all with system caret command.
-#: globalCommands.py:2405
+#: globalCommands.py:2482
 msgid ""
 "Reads from the system caret up to the end of the text, moving the caret as "
 "it goes"
 msgstr "从输入焦点的位置朗读到文本末端的同时，输入焦点随之移动"
 
 #. Translators: Reported when trying to obtain formatting information (such as font name, indentation and so on) but there is no formatting information for the text under cursor.
-#: globalCommands.py:2466 globalCommands.py:2477 globalCommands.py:3974
+#: globalCommands.py:2543 globalCommands.py:2554 globalCommands.py:4051
 msgid "No formatting information"
 msgstr "无格式信息"
 
 #. Translators: title for formatting information dialog.
-#: globalCommands.py:2486
+#: globalCommands.py:2563
 msgid "Formatting"
 msgstr "格式信息"
 
 #. Translators: Input help mode message for report formatting command.
-#: globalCommands.py:2518
+#: globalCommands.py:2595
 msgid "Reports formatting info for the current review cursor position."
 msgstr "读出当前查看光标处的文本格式信息。"
 
 #. Translators: Input help mode message for show formatting at review cursor command.
-#: globalCommands.py:2527
+#: globalCommands.py:2604
 msgid ""
 "Presents, in browse mode, formatting info for the current review cursor "
 "position."
 msgstr "在浏览模式下，显示当前查看光标处的文本格式信息。"
 
 #. Translators: Input help mode message for report formatting command.
-#: globalCommands.py:2536
+#: globalCommands.py:2613
 msgid ""
 "Reports formatting info for the current review cursor position. If pressed "
 "twice, presents the information in browse mode"
 msgstr "读出当前查看光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Input help mode message for report formatting at caret command.
-#: globalCommands.py:2552
+#: globalCommands.py:2629
 msgid "Reports formatting info for the text under the caret."
 msgstr "读出当前光标处的文本格式信息。"
 
 #. Translators: Input help mode message for show formatting at caret position command.
-#: globalCommands.py:2561
+#: globalCommands.py:2638
 msgid "Presents, in browse mode, formatting info for the text under the caret."
 msgstr "在浏览模式下，显示当前光标处的文本格式信息。"
 
 #. Translators: Input help mode message for report formatting at caret command.
-#: globalCommands.py:2570
+#: globalCommands.py:2647
 msgid ""
 "Reports formatting info for the text under the caret. If pressed twice, "
 "presents the information in browse mode"
 msgstr "读出当前光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
 
 #. Translators: the description for the reportDetailsSummary script.
-#: globalCommands.py:2636
+#: globalCommands.py:2713
 msgid "Report summary of any annotation details at the system caret."
 msgstr "读出系统输入焦点处的详细信息摘要。"
 
 #. Translators: message given when there is no annotation details for the reportDetailsSummary script.
-#: globalCommands.py:2654
+#: globalCommands.py:2731
 msgid "No additional details"
 msgstr "没有附加的详细信息"
 
 #. Translators: Input help mode message for report current focus command.
-#: globalCommands.py:2698
+#: globalCommands.py:2775
 msgid ""
 "Reports the object with focus. If pressed twice, spells the information. "
 "Pressing three times spells it using character descriptions."
 msgstr "读出有焦点的对象，连按两次逐字朗读，连按三次用短字符描述逐字解释。"
 
 #. Translators: Reported when there is no status line for the current program or window.
-#: globalCommands.py:2774
+#: globalCommands.py:2851
 msgid "No status line found"
 msgstr "无状态栏"
 
 #. Translators: Input help mode message for command which reads content of the status bar.
-#: globalCommands.py:2783
+#: globalCommands.py:2860
 msgid "Reads the current application status bar."
 msgstr "读出当前应用程序的状态栏。"
 
 #. Translators: Reported when status line exist, but is empty.
-#: globalCommands.py:2794 globalCommands.py:2812 globalCommands.py:2846
+#: globalCommands.py:2871 globalCommands.py:2889 globalCommands.py:2923
 msgid "no status bar information"
 msgstr "无状态栏信息"
 
 #. Translators: Input help mode message for command which spells content of the status bar.
-#: globalCommands.py:2801
+#: globalCommands.py:2878
 msgid "Spells the current application status bar."
 msgstr "拼读当前应用程序的状态栏。"
 
 #. Translators: Input help mode message for command which copies status bar content to the clipboard.
-#: globalCommands.py:2819
+#: globalCommands.py:2896
 msgid ""
 "Copies content of the status bar  of current application to the clipboard."
 msgstr "复制当前应用程序状态栏的内容到剪贴板。"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
-#: globalCommands.py:2829
+#: globalCommands.py:2906
 msgid "Unable to copy status bar content to clipboard"
 msgstr "无法复制状态栏内容到剪贴板"
 
 #. Translators: Input help mode message for Command which moves review cursor to the status bar.
-#: globalCommands.py:2836
+#: globalCommands.py:2913
 msgid ""
 "Reads the current application status bar and moves navigator object into it."
 msgstr "读出当前应用程序的状态栏，并将导航对象移动到该状态栏。"
 
 #. Translators: Input help mode message for report status line text command.
-#: globalCommands.py:2853
+#: globalCommands.py:2930
 msgid ""
 "Reads the current application status bar. If pressed twice, spells the "
 "information. If pressed three times, copies the status bar to the clipboard"
@@ -5090,46 +5105,46 @@ msgstr ""
 
 #. Translators: Description for a keyboard command which reports the
 #. accelerator key of the currently focused object.
-#: globalCommands.py:2877
+#: globalCommands.py:2954
 msgid "Reports the shortcut key of the currently focused object"
 msgstr "读出当前所聚焦对象的快捷键"
 
 #. Translators: reported when a user requests the accelerator key
 #. of the currently focused object, but there is none set.
-#: globalCommands.py:2892
+#: globalCommands.py:2969
 msgid "No shortcut key"
 msgstr "无快捷键"
 
 #. Translators: Input help mode message for toggle mouse tracking command.
-#: globalCommands.py:2896
+#: globalCommands.py:2973
 msgid "Toggles the reporting of information as the mouse moves"
 msgstr "开关鼠标移动时的信息朗读"
 
 #. Translators: presented when the mouse tracking is toggled.
-#: globalCommands.py:2903
+#: globalCommands.py:2980
 msgid "Mouse tracking off"
 msgstr "关闭鼠标导航"
 
 #. Translators: presented when the mouse tracking is toggled.
-#: globalCommands.py:2907
+#: globalCommands.py:2984
 msgid "Mouse tracking on"
 msgstr "打开鼠标导航"
 
 #. Translators: Input help mode message for toggle mouse text unit resolution command.
-#: globalCommands.py:2913
+#: globalCommands.py:2990
 msgid "Toggles how much text will be spoken when the mouse moves"
 msgstr "调整鼠标移动时朗读鼠标下文本的单位"
 
 #. Translators: Reports the new state of the mouse text unit resolution:.
 #. %s will be replaced with the new label.
 #. For example, the full message might be "Mouse text unit resolution character"
-#: globalCommands.py:2930
+#: globalCommands.py:3007
 #, python-format
 msgid "Mouse text unit resolution %s"
 msgstr "鼠标文本分辨率 %s"
 
 #. Translators: Input help mode message for report title bar command.
-#: globalCommands.py:2935
+#: globalCommands.py:3012
 msgid ""
 "Reports the title of the current application or foreground window. If "
 "pressed twice, spells the title. If pressed three times, copies the title to "
@@ -5138,17 +5153,17 @@ msgstr ""
 "读出前台窗口或应用程序的标题。连按两次拼读标题，连按三次则复制标题到剪贴板"
 
 #. Translators: Reported when there is no title text for current program or window.
-#: globalCommands.py:2956
+#: globalCommands.py:3033
 msgid "No title"
 msgstr "无标题"
 
 #. Translators: Input help mode message for read foreground object command (usually the foreground window).
-#: globalCommands.py:2967
+#: globalCommands.py:3044
 msgid "Reads all controls in the active window"
 msgstr "读出活动窗口中的所有控件"
 
 #. Translators: GUI development tool, to get information about the components used in the NVDA GUI
-#: globalCommands.py:2989
+#: globalCommands.py:3066
 msgid ""
 "Opens the WX GUI inspection tool. Used to get more information about the "
 "state of GUI components."
@@ -5157,7 +5172,7 @@ msgstr "打开 wxPython GUI 检查工具。用于获取有关图形界面组件�
 #. Translators: Input help mode message for developer info for current navigator object command,
 #. used by developers to examine technical info on navigator object.
 #. This command also serves as a shortcut to open NVDA log viewer.
-#: globalCommands.py:3004
+#: globalCommands.py:3081
 msgid ""
 "Logs information about the current navigator object which is useful to "
 "developers and activates the log viewer so the information can be examined."
@@ -5165,7 +5180,7 @@ msgstr "打开日志查看器并记录当前导航对象的信息，此信息可
 
 #. Translators: Input help mode message for a command to delimit then
 #. copy a fragment of the log to clipboard
-#: globalCommands.py:3025
+#: globalCommands.py:3102
 msgid ""
 "Mark the current end of the log as the start of the fragment to be copied to "
 "clipboard by pressing again."
@@ -5175,41 +5190,41 @@ msgstr ""
 
 #. Translators: Message when marking the start of a fragment of the log file for later copy
 #. to clipboard
-#: globalCommands.py:3037
+#: globalCommands.py:3114
 msgid "Log fragment start position marked, press again to copy to clipboard"
 msgstr "日志片段开始点已标记，再按一次复制到剪贴板"
 
 #. Translators: Message when failed to mark the start of a
 #. fragment of the log file for later copy to clipboard
-#: globalCommands.py:3041
+#: globalCommands.py:3118
 msgid "Unable to mark log position"
 msgstr "无法标记日志位置"
 
 #. Translators: Message when attempting to copy an empty fragment of the log file
-#: globalCommands.py:3046
+#: globalCommands.py:3123
 msgid "No new log entry to copy"
 msgstr "暂无可复制的日志片段"
 
 #. Translators: Message when a fragment of the log file has been
 #. copied to clipboard
-#: globalCommands.py:3051
+#: globalCommands.py:3128
 msgid "Log fragment copied to clipboard"
 msgstr "日志片段已复制到剪贴板"
 
 #. Translators: Presented when unable to copy to the clipboard because of an error.
 #. Translators: Presented when unable to copy to the clipboard because of an error
 #. or the clipboard content did not match what was just copied.
-#: globalCommands.py:3054 ui.py:256
+#: globalCommands.py:3131 ui.py:256
 msgid "Unable to copy"
 msgstr "无法复制"
 
 #. Translators: Input help mode message for Open user configuration directory command.
-#: globalCommands.py:3058
+#: globalCommands.py:3135
 msgid "Opens NVDA configuration directory for the current user."
 msgstr "浏览当前的 NVDA 用户配置目录。"
 
 #. Translators: Input help mode message for toggle progress bar output command.
-#: globalCommands.py:3068
+#: globalCommands.py:3145
 msgid ""
 "Toggles between beeps, speech, beeps and speech, and off, for reporting "
 "progress bar updates"
@@ -5218,110 +5233,110 @@ msgstr ""
 "式"
 
 #. Translators: A mode where no progress bar updates are given.
-#: globalCommands.py:3078
+#: globalCommands.py:3155
 msgid "No progress bar updates"
 msgstr "无"
 
 #. Translators: A mode where progress bar updates will be spoken.
-#: globalCommands.py:3082
+#: globalCommands.py:3159
 msgid "Speak progress bar updates"
 msgstr "朗读进度栏更新"
 
 #. Translators: A mode where beeps will indicate progress bar updates (beeps rise in pitch as progress bar updates).
-#: globalCommands.py:3086
+#: globalCommands.py:3163
 msgid "Beep for progress bar updates"
 msgstr "用提示音表示进度栏更新"
 
 #. Translators: A mode where both speech and beeps will indicate progress bar updates.
-#: globalCommands.py:3090
+#: globalCommands.py:3167
 msgid "Beep and speak progress bar updates"
 msgstr "朗读并已提示音表示进度栏更新"
 
 #. Translators: Input help mode message for toggle dynamic content changes command.
-#: globalCommands.py:3096
+#: globalCommands.py:3173
 msgid ""
 "Toggles on and off the reporting of dynamic content changes, such as new "
 "text in dos console windows"
 msgstr "切换是否朗读动态内容更新，例如命令行窗口中的新文本输出"
 
 #. Translators: presented when the present dynamic changes is toggled.
-#: globalCommands.py:3105
+#: globalCommands.py:3182
 msgid "report dynamic content changes off"
 msgstr "不读动态内容更新"
 
 #. Translators: presented when the present dynamic changes is toggled.
-#: globalCommands.py:3109
+#: globalCommands.py:3186
 msgid "report dynamic content changes on"
 msgstr "读出动态内容更新"
 
 #. Translators: Input help mode message for toggle caret moves review cursor command.
-#: globalCommands.py:3115
+#: globalCommands.py:3192
 msgid ""
 "Toggles on and off the movement of the review cursor due to the caret moving."
 msgstr "切换是否允许查看光标跟随输入焦点移动。"
 
 #. Translators: presented when toggled.
-#: globalCommands.py:3122
+#: globalCommands.py:3199
 msgid "caret moves review cursor off"
 msgstr "关闭查看光标随输入焦点移动"
 
 #. Translators: presented when toggled.
-#: globalCommands.py:3126
+#: globalCommands.py:3203
 msgid "caret moves review cursor on"
 msgstr "打开查看光标随输入焦点移动"
 
 #. Translators: Input help mode message for toggle focus moves navigator object command.
-#: globalCommands.py:3132
+#: globalCommands.py:3209
 msgid ""
 "Toggles on and off the movement of the navigator object due to focus changes"
 msgstr "切换是否允许导航对象跟随系统焦点移动"
 
 #. Translators: presented when toggled.
-#: globalCommands.py:3139
+#: globalCommands.py:3216
 msgid "focus moves navigator object off"
 msgstr "关闭导航对象随系统焦点移动"
 
 #. Translators: presented when toggled.
-#: globalCommands.py:3143
+#: globalCommands.py:3220
 msgid "focus moves navigator object on"
 msgstr "打开导航对象随系统焦点移动"
 
 #. Translators: Input help mode message for toggle auto focus focusable elements command.
-#: globalCommands.py:3150
+#: globalCommands.py:3227
 msgid ""
 "Toggles on and off automatic movement of the system focus due to browse mode "
 "commands"
 msgstr "打开或关闭浏览模式中系统焦点自动移动功能"
 
 #. Translators: presented when toggled.
-#: globalCommands.py:3158
+#: globalCommands.py:3235
 msgid "Automatically set system focus to focusable elements off"
 msgstr "关闭焦点自动跳转到可聚焦元素"
 
 #. Translators: presented when toggled.
-#: globalCommands.py:3162
+#: globalCommands.py:3239
 msgid "Automatically set system focus to focusable elements on"
 msgstr "打开焦点自动跳转到可聚焦元素"
 
 #. Translators: Input help mode message for report battery status command.
-#: globalCommands.py:3169
+#: globalCommands.py:3246
 msgid "Reports battery status and time remaining if AC is not plugged in"
 msgstr "如果没有连接交流电源 读出电池状态和可用时间"
 
 #. Translators: Input help mode message for pass next key through command.
-#: globalCommands.py:3180
+#: globalCommands.py:3257
 msgid ""
 "The next key that is pressed will not be handled at all by NVDA, it will be "
 "passed directly through to Windows."
 msgstr "忽略下一个 NVDA 按键指令，将其交给系统相关的程序处理。"
 
 #. Translators: Spoken to indicate that the next key press will be sent straight to the current program as though NVDA is not running.
-#: globalCommands.py:3189
+#: globalCommands.py:3266
 msgid "Pass next key through"
 msgstr "跳过下一个 NVDA 按键"
 
 #. Translators: Input help mode message for report current program name and app module name command.
-#: globalCommands.py:3194
+#: globalCommands.py:3271
 msgid ""
 "Speaks the filename of the active application along with the name of the "
 "currently loaded appModule"
@@ -5329,7 +5344,7 @@ msgstr "读出当前激活程序的文件和已加载的程序模块的名称"
 
 #. Translators: Indicates the name of the appModule for the current program (example output: explorer module is loaded).
 #. This message will not be presented if there is no module for the current program.
-#: globalCommands.py:3207
+#: globalCommands.py:3284
 #, python-format
 msgid " %s module is loaded. "
 msgstr " %s 已加载。 "
@@ -5337,144 +5352,144 @@ msgstr " %s 已加载。 "
 #. Translators: Indicates the name of the current program (example output: explorer.exe is currently running).
 #. Note that it does not give friendly name such as Windows Explorer; it presents the file name of the current application.
 #. For example, the complete message for Windows explorer is: "explorer module is loaded. Explorer.exe is currenty running."
-#: globalCommands.py:3212
+#: globalCommands.py:3289
 #, python-format
 msgid " %s is currently running."
 msgstr " %s 当前正在运行。"
 
 #. Translators: Input help mode message for go to general settings command.
-#: globalCommands.py:3217
+#: globalCommands.py:3294
 msgid "Shows NVDA's general settings"
 msgstr "打开“常规”设置"
 
 #. Translators: Input help mode message for go to select synthesizer command.
-#: globalCommands.py:3227
+#: globalCommands.py:3304
 msgid "Shows the NVDA synthesizer selection dialog"
 msgstr "打开“选择语音合成器”对话框"
 
 #. Translators: Input help mode message for go to speech settings command.
-#: globalCommands.py:3237
+#: globalCommands.py:3314
 msgid "Shows NVDA's speech settings"
 msgstr "打开“语音”设置"
 
 #. Translators: Input help mode message for go to select braille display command.
-#: globalCommands.py:3247
+#: globalCommands.py:3324
 msgid "Shows the NVDA braille display selection dialog"
 msgstr "打开“选择盲文点显器”对话框"
 
 #. Translators: Input help mode message for go to braille settings command.
-#: globalCommands.py:3257
+#: globalCommands.py:3334
 msgid "Shows NVDA's braille settings"
 msgstr "打开“盲文”设置"
 
 #. Translators: Input help mode message for go to audio settings command.
-#: globalCommands.py:3266
+#: globalCommands.py:3343
 msgid "Shows NVDA's audio settings"
 msgstr "打开“音频”设置"
 
 #. Translators: Input help mode message for go to keyboard settings command.
-#: globalCommands.py:3276
+#: globalCommands.py:3353
 msgid "Shows NVDA's keyboard settings"
 msgstr "打开“键盘”设置"
 
 #. Translators: Input help mode message for go to mouse settings command.
-#: globalCommands.py:3286
+#: globalCommands.py:3363
 msgid "Shows NVDA's mouse settings"
 msgstr "打开“鼠标”设置"
 
 #. Translators: Input help mode message for go to review cursor settings command.
-#: globalCommands.py:3296
+#: globalCommands.py:3373
 msgid "Shows NVDA's review cursor settings"
 msgstr "打开“查看光标”设置"
 
 #. Translators: Input help mode message for go to input composition settings command.
-#: globalCommands.py:3305
+#: globalCommands.py:3382
 msgid "Shows NVDA's input composition settings"
 msgstr "打开“输入法”设置"
 
 #. Translators: Input help mode message for go to object presentation settings command.
-#: globalCommands.py:3314
+#: globalCommands.py:3391
 msgid "Shows NVDA's object presentation settings"
 msgstr "打开“对象查看”设置"
 
 #. Translators: Input help mode message for go to browse mode settings command.
-#: globalCommands.py:3324
+#: globalCommands.py:3401
 msgid "Shows NVDA's browse mode settings"
 msgstr "打开“浏览模式”设置"
 
 #. Translators: Input help mode message for go to document formatting settings command.
-#: globalCommands.py:3334
+#: globalCommands.py:3411
 msgid "Shows NVDA's document formatting settings"
 msgstr "打开“文档格式”设置"
 
 #. Translators: Input help mode message for opening default dictionary dialog.
-#: globalCommands.py:3344
+#: globalCommands.py:3421
 msgid "Shows the NVDA default dictionary dialog"
 msgstr "打开“默认字典”对话框"
 
 #. Translators: Input help mode message for opening voice-specific dictionary dialog.
-#: globalCommands.py:3353
+#: globalCommands.py:3430
 msgid "Shows the NVDA voice-specific dictionary dialog"
 msgstr "打开“语音字典”对话框"
 
 #. Translators: Input help mode message for opening temporary dictionary.
-#: globalCommands.py:3362
+#: globalCommands.py:3439
 msgid "Shows the NVDA temporary dictionary dialog"
 msgstr "打开“临时字典”对话框"
 
 #. Translators: Input help mode message for go to punctuation/symbol pronunciation dialog.
-#: globalCommands.py:3371
+#: globalCommands.py:3448
 msgid "Shows the NVDA symbol pronunciation dialog"
 msgstr "打开“标点符号”对话框"
 
 #. Translators: Input help mode message for go to input gestures dialog command.
-#: globalCommands.py:3380
+#: globalCommands.py:3457
 msgid "Shows the NVDA input gestures dialog"
 msgstr "打开“按键与手势”对话框"
 
 #. Translators: Input help mode message for the report current configuration profile command.
-#: globalCommands.py:3389
+#: globalCommands.py:3466
 msgid "Reports the name of the current NVDA configuration profile"
 msgstr "读出当前 NVDA 配置文件的名称"
 
 #. Translators: Message announced when the command to report the current configuration profile and
 #. the default configuration profile is active.
-#: globalCommands.py:3399
+#: globalCommands.py:3476
 msgid "normal configuration profile active"
 msgstr "通用配置文件处于激活状态"
 
 #. Translators: Message announced when the command to report the current configuration profile
 #. is active. The placeholder '{profilename}' is replaced with the name of the current active profile.
-#: globalCommands.py:3403
+#: globalCommands.py:3480
 #, python-brace-format
 msgid "{profileName} configuration profile active"
 msgstr "{profileName}配置文件处于激活状态"
 
 #. Translators: Input help mode message for save current configuration command.
-#: globalCommands.py:3410
+#: globalCommands.py:3487
 msgid "Saves the current NVDA configuration"
 msgstr "保存当前的 NVDA 配置"
 
 #. Translators: Input help mode message for apply last saved or default settings command.
-#: globalCommands.py:3420
+#: globalCommands.py:3497
 msgid ""
 "Pressing once reverts the current configuration to the most recently saved "
 "state. Pressing three times resets to factory defaults."
 msgstr "按一次恢复当前配置到最近保存的状态。按三次恢复到出厂设置。"
 
 #. Translators: Input help mode message for activate python console command.
-#: globalCommands.py:3435
+#: globalCommands.py:3512
 msgid "Activates the NVDA Python Console, primarily useful for development"
 msgstr "打开 NVDA “Python 控制台”，主要用于开发调试"
 
 #. Translators: Input help mode message to activate Add-on Store command.
-#: globalCommands.py:3455
+#: globalCommands.py:3532
 msgid ""
 "Activates the Add-on Store to browse and manage add-on packages for NVDA"
 msgstr "打开 NVDA 插件商店以浏览或管理 NVDA 插件"
 
 #. Translators: Input help mode message for toggle speech viewer command.
-#: globalCommands.py:3464
+#: globalCommands.py:3541
 msgid ""
 "Toggles the NVDA Speech viewer, a floating window that allows you to view "
 "all the text that NVDA is currently speaking"
@@ -5482,17 +5497,17 @@ msgstr ""
 "切换是否显示朗读查看器，这是一个用来显示所有 NVDA 正在朗读内容的浮动窗口"
 
 #. Translators: The message announced when disabling speech viewer.
-#: globalCommands.py:3473
+#: globalCommands.py:3550
 msgid "speech viewer disabled"
 msgstr "已禁用朗读查看器"
 
 #. Translators: The message announced when enabling speech viewer.
-#: globalCommands.py:3478
+#: globalCommands.py:3555
 msgid "speech viewer enabled"
 msgstr "已起用朗读查看器"
 
 #. Translators: Input help mode message for toggle Braille viewer command.
-#: globalCommands.py:3486
+#: globalCommands.py:3563
 msgid ""
 "Toggles the NVDA Braille viewer, a floating window that allows you to view "
 "braille output, and the text equivalent for each braille character"
@@ -5501,193 +5516,193 @@ msgstr ""
 "文单元的对应文本"
 
 #. Translators: The message announced when disabling braille viewer.
-#: globalCommands.py:3497
+#: globalCommands.py:3574
 msgid "Braille viewer disabled"
 msgstr "禁用盲文查看器"
 
 #. Translators: The message announced when enabling Braille viewer.
-#: globalCommands.py:3502
+#: globalCommands.py:3579
 msgid "Braille viewer enabled"
 msgstr "启用盲文查看器"
 
 #. Translators: Input help mode message for toggle braille tether to command
 #. (tethered means connected to or follows).
-#: globalCommands.py:3510
+#: globalCommands.py:3587
 msgid "Toggle tethering of braille between the focus and the review position"
 msgstr "将盲文光标移到系统焦点或查看光标"
 
 #. Translators: Reports which position braille is tethered to
 #. (braille can be tethered automatically or to either focus or review position).
-#: globalCommands.py:3530
+#: globalCommands.py:3607
 #, python-format
 msgid "Braille tethered %s"
 msgstr "盲文显示跟随到 %s"
 
 #. Translators: Input help mode message for toggle braille mode command
-#: globalCommands.py:3534
+#: globalCommands.py:3611
 msgid "Toggles braille mode"
 msgstr "切换盲文模式"
 
 #. Translators: The message reported when switching braille modes
-#: globalCommands.py:3549
+#: globalCommands.py:3626
 #, python-brace-format
 msgid "Braille mode {brailleMode}"
 msgstr "{brailleMode}"
 
 #. Translators: Input help mode message for cycle through
 #. braille move system caret when routing review cursor command.
-#: globalCommands.py:3560
+#: globalCommands.py:3637
 msgid ""
 "Cycle through the braille move system caret when routing review cursor states"
 msgstr "在移动查看光标时移动系统输入光标的选项之间循环切换"
 
 #. Translators: Reported when action is unavailable because braille tether is to focus.
-#: globalCommands.py:3570
+#: globalCommands.py:3647
 msgid "Action unavailable. Braille is tethered to focus"
 msgstr "盲文显示跟随到焦点时该操作不可用"
 
 #. Translators: Used when reporting braille move system caret when routing review cursor
 #. state (default behavior).
-#: globalCommands.py:3586
+#: globalCommands.py:3663
 #, python-format
 msgid "Braille move system caret when routing review cursor default (%s)"
 msgstr "盲文移动查看光标时移动系统输入光标默认（%s）"
 
 #. Translators: Used when reporting braille move system caret when routing review cursor state.
-#: globalCommands.py:3594
+#: globalCommands.py:3671
 #, python-format
 msgid "Braille move system caret when routing review cursor %s"
 msgstr "盲文移动查看光标时移动系统输入光标（%s）"
 
 #. Translators: Input help mode message for toggle braille focus context presentation command.
-#: globalCommands.py:3602
+#: globalCommands.py:3679
 msgid "Toggle the way context information is presented in braille"
 msgstr "切换是否使用盲文显示上下文"
 
 #. Translators: Reports the new state of braille focus context presentation.
 #. %s will be replaced with the context presentation setting.
 #. For example, the full message might be "Braille focus context presentation: fill display for context changes"
-#: globalCommands.py:3620
+#: globalCommands.py:3697
 #, python-format
 msgid "Braille focus context presentation: %s"
 msgstr "盲文显示焦点上下文： %s"
 
 #. Translators: Input help mode message for toggle braille cursor command.
-#: globalCommands.py:3624
+#: globalCommands.py:3701
 msgid "Toggle the braille cursor on and off"
 msgstr "切换盲文光标的开关"
 
 #. Translators: The message announced when toggling the braille cursor.
-#: globalCommands.py:3631
+#: globalCommands.py:3708
 msgid "Braille cursor off"
 msgstr "关闭盲文光标"
 
 #. Translators: The message announced when toggling the braille cursor.
-#: globalCommands.py:3635
+#: globalCommands.py:3712
 msgid "Braille cursor on"
 msgstr "打开盲文光标"
 
 #. Translators: Input help mode message for speak on routing command.
-#: globalCommands.py:3643
+#: globalCommands.py:3720
 msgid ""
 "Toggles speaking the character under the cursor when routing cursor in text"
 msgstr "切换定位文本光标后是否读出光标所在处的字符"
 
 #. Translators: The message announced when toggling on speaking character when routing.
-#: globalCommands.py:3651
+#: globalCommands.py:3728
 msgid "Enabled speak character when routing cursor in text"
 msgstr "启用定位文本光标后读出光标所在处的字符"
 
 #. Translators: The message announced when toggling off speaking character when routing.
-#: globalCommands.py:3654
+#: globalCommands.py:3731
 msgid "Disabled speak character when routing cursor in text"
 msgstr "禁用定位文本光标后读出光标所在处的字符"
 
 #. Translators: Input help mode message for toggle speaking when navigating by lines or paragraphs with braille.
-#: globalCommands.py:3659
+#: globalCommands.py:3736
 msgid ""
 "Toggles on and off speaking when navigating by lines or paragraph with "
 "braille"
 msgstr "打开或关闭按行或段落导航时读出内容"
 
 #. Translators: The message announced when toggling the speaking on navigating by unit braille setting.
-#: globalCommands.py:3668
+#: globalCommands.py:3745
 msgid "Speak whenn navigating by line or paragraph with braille on"
 msgstr "打开按行或段落导航时读出内容"
 
 #. Translators: The message announced when toggling the speaking on navigating by unit braille setting.
-#: globalCommands.py:3670
+#: globalCommands.py:3747
 msgid "Speak when navigating by line or paragraph with braille off"
 msgstr "关闭按行或段落导航时读出内容"
 
 #. Translators: Input help mode message for cycle braille cursor shape command.
-#: globalCommands.py:3675
+#: globalCommands.py:3752
 msgid "Cycle through the braille cursor shapes"
 msgstr "在光标形状之间切换"
 
 #. Translators: A message reported when changing the braille cursor shape when the braille cursor is turned off.
-#: globalCommands.py:3682
+#: globalCommands.py:3759
 msgid "Braille cursor is turned off"
 msgstr "盲文光标已关闭"
 
 #. Translators: Reports which braille cursor shape is activated.
-#: globalCommands.py:3698
+#: globalCommands.py:3775
 #, python-format
 msgid "Braille cursor %s"
 msgstr "盲文光标 %s"
 
 #. Translators: Input help mode message for cycle through braille show messages command.
-#: globalCommands.py:3702
+#: globalCommands.py:3779
 msgid "Cycle through the braille show messages modes"
 msgstr "在盲文消息模式之间循环切换"
 
 #. Translators: Reports which show braille message mode is used
 #. (disabled, timeout or indefinitely).
-#: globalCommands.py:3715
+#: globalCommands.py:3792
 #, python-format
 msgid "Braille show messages %s"
 msgstr "盲文显示消息 %s"
 
 #. Translators: Input help mode message for cycle through braille show selection command.
-#: globalCommands.py:3720
+#: globalCommands.py:3797
 msgid "Cycle through the braille show selection states"
 msgstr "在盲文选中指示光标之间循环切换"
 
 #. Translators: Used when reporting braille show selection state
 #. (default behavior).
-#: globalCommands.py:3737
+#: globalCommands.py:3814
 #, python-format
 msgid "Braille show selection default (%s)"
 msgstr "盲文选中指示光标默认（%s）"
 
 #. Translators: Reports which show braille selection state is used
 #. (disabled or enabled).
-#: globalCommands.py:3741
+#: globalCommands.py:3818
 #, python-format
 msgid "Braille show selection %s"
 msgstr "盲文选择指示光标 %s"
 
 #. Translators: Input help mode message for Braille Unicode normalization command.
-#: globalCommands.py:3748
+#: globalCommands.py:3825
 msgid "Cycle through the braille Unicode normalization states"
 msgstr "在盲文 Unicode 正规化状态之间循环切换"
 
 #. Translators: Used when reporting braille Unicode normalization state
 #. (default behavior).
-#: globalCommands.py:3763
+#: globalCommands.py:3840
 #, python-brace-format
 msgid "Braille Unicode normalization default ({default})"
 msgstr "盲文 Unicode 正规化 默认（{default}）"
 
 #. Translators: Used when reporting braille Unicode normalization state
 #. (disabled or enabled).
-#: globalCommands.py:3769
+#: globalCommands.py:3846
 #, python-brace-format
 msgid "Braille Unicode normalization {state}"
 msgstr "盲文 Unicode 正规化 {state}"
 
 #. Translators: Input help mode message for report clipboard text command.
-#: globalCommands.py:3777
+#: globalCommands.py:3854
 msgid ""
 "Reports the text on the Windows clipboard. Pressing twice spells this "
 "information. Pressing three times spells it using character descriptions."
@@ -5695,14 +5710,14 @@ msgstr ""
 "读出 Windows 剪贴板中的文本，连按两次逐字朗读，连按三次用短字符描述逐字解释。"
 
 #. Translators: Presented when there is no text on the clipboard.
-#: globalCommands.py:3792
+#: globalCommands.py:3869
 msgid "There is no text on the clipboard"
 msgstr "剪贴板内没有文本"
 
 #. Translators: If the number of characters on the clipboard is greater than about 1000, it reports this
 #. message and gives number of characters on the clipboard.
 #. Example output: The clipboard contains a large amount of text. It is 2300 characters long.
-#: globalCommands.py:3807
+#: globalCommands.py:3884
 #, python-format
 msgid "The clipboard contains a large amount of text. It is %s character long"
 msgid_plural ""
@@ -5711,20 +5726,20 @@ msgstr[0] "剪贴板内包含大量文本，共有 %s 个字符"
 
 #. Translators: Input help mode message for mark review cursor position for a select or copy command
 #. (that is, marks the current review cursor position as the starting point for text to be selected).
-#: globalCommands.py:3818
+#: globalCommands.py:3895
 msgid ""
 "Marks the current position of the review cursor as the start of text to be "
 "selected or copied"
 msgstr "把查看光标所在的当前位置设置为开始点，供选择或复制使用"
 
 #. Translators: Indicates start of review cursor text to be copied to clipboard.
-#: globalCommands.py:3831
+#: globalCommands.py:3908
 msgid "Start marked"
 msgstr "开始点已标记"
 
 #. Translators: Input help mode message for move review cursor to marked start position for a
 #. select or copy command
-#: globalCommands.py:3837
+#: globalCommands.py:3914
 msgid ""
 "Move the review cursor to the position marked as the start of text to be "
 "selected or copied"
@@ -5732,13 +5747,13 @@ msgstr "将查看光标移动回以标记的开始点"
 
 #. Translators: Presented when attempting to move to the start marker for copy but none has been set.
 #. Translators: Presented when attempting to copy some review cursor text but there is no start marker.
-#: globalCommands.py:3846 globalCommands.py:3879
+#: globalCommands.py:3923 globalCommands.py:3956
 msgid "No start marker set"
 msgstr "未设置开始点"
 
 #. Translators: Input help mode message for the select then copy command.
 #. The select then copy command first selects the review cursor text, then copies it to the clipboard.
-#: globalCommands.py:3869
+#: globalCommands.py:3946
 msgid ""
 "If pressed once, the text from the previously set start marker up to and "
 "including the current position of the review cursor is selected. If pressed "
@@ -5747,154 +5762,154 @@ msgstr ""
 "按一次，选择开始点和当前查看光标位置之间的文本；连按两次，复制文本到剪贴板"
 
 #. Translators: Presented when text has already been marked for selection, but not yet copied.
-#: globalCommands.py:3887
+#: globalCommands.py:3964
 msgid "Press twice to copy or reset the start marker"
 msgstr "连按两次复制或重置开始点"
 
 #. Translators: Presented when there is no text selection to copy from review cursor.
-#: globalCommands.py:3906
+#: globalCommands.py:3983
 msgid "No text to copy"
 msgstr "没有文本可供复制"
 
 #. Translators: Presented when unable to select the marked text.
-#: globalCommands.py:3928
+#: globalCommands.py:4005
 msgid "Can't select text, press twice to copy"
 msgstr "无法选中文本，连按两次复制"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:3941
+#: globalCommands.py:4018
 msgid "Scrolls the braille display back"
 msgstr "向后滚动盲文显示"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:3950
+#: globalCommands.py:4027
 msgid "Scrolls the braille display forward"
 msgstr "向前滚动盲文显示"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:3959
+#: globalCommands.py:4036
 msgid "Routes the cursor to or activates the object under this braille cell"
 msgstr "将光标移至或激活该盲文单元所在的对象"
 
 #. Translators: Input help mode message for Braille report formatting command.
-#: globalCommands.py:3967
+#: globalCommands.py:4044
 msgid "Reports formatting info for the text under this braille cell"
 msgstr "读出当前盲文单元所在文本的格式信息"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:3980
+#: globalCommands.py:4057
 msgid "Moves the braille display to the previous line"
 msgstr "移动点显器到上一行"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:3989
+#: globalCommands.py:4066
 msgid "Moves the braille display to the next line"
 msgstr "移动点显器到下一行"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:3998
+#: globalCommands.py:4075
 msgid "Inputs braille dots via the braille keyboard"
 msgstr "在盲文键盘上键入盲文"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4007
+#: globalCommands.py:4084
 msgid "Moves the braille display to the current focus"
 msgstr "移动点显器到当前焦点所在处"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4029
+#: globalCommands.py:4106
 msgid "Erases the last entered braille cell or character"
 msgstr "擦除最后键入的字符或者盲文单元"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4038
+#: globalCommands.py:4115
 msgid "Translates any braille input and presses the enter key"
 msgstr "翻译任何盲文键入并按回车键"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4047
+#: globalCommands.py:4124
 msgid "Translates any braille input"
 msgstr "翻译任何盲文输入"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4056
+#: globalCommands.py:4133
 msgid ""
 "Virtually toggles the shift key to emulate a keyboard shortcut with braille "
 "input"
 msgstr "在盲文键盘上模拟按下或放开 shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4065
+#: globalCommands.py:4142
 msgid ""
 "Virtually toggles the control key to emulate a keyboard shortcut with "
 "braille input"
 msgstr "在盲文键盘上模拟按下或放开 control"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4074
+#: globalCommands.py:4151
 msgid ""
 "Virtually toggles the alt key to emulate a keyboard shortcut with braille "
 "input"
 msgstr "在盲文键盘上模拟按下或放开 alt"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4084
+#: globalCommands.py:4161
 msgid ""
 "Virtually toggles the left windows key to emulate a keyboard shortcut with "
 "braille input"
 msgstr "在盲文键盘上模拟按下或放开 左 windows"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4094
+#: globalCommands.py:4171
 msgid ""
 "Virtually toggles the NVDA key to emulate a keyboard shortcut with braille "
 "input"
 msgstr "在盲文键盘上模拟按下或放开 NVDA"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4104
+#: globalCommands.py:4181
 msgid ""
 "Virtually toggles the control and shift keys to emulate a keyboard shortcut "
 "with braille input"
 msgstr "在盲文键盘上模拟按下或放开 control 加 shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4116
+#: globalCommands.py:4193
 msgid ""
 "Virtually toggles the alt and shift keys to emulate a keyboard shortcut with "
 "braille input"
 msgstr "在盲文键盘上模拟按下或放开 alt 加 shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4127
+#: globalCommands.py:4204
 msgid ""
 "Virtually toggles the left windows and shift keys to emulate a keyboard "
 "shortcut with braille input"
 msgstr "在盲文键盘上模拟按下或放开 左 windows 加 shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4139
+#: globalCommands.py:4216
 msgid ""
 "Virtually toggles the NVDA and shift keys to emulate a keyboard shortcut "
 "with braille input"
 msgstr "在盲文键盘上模拟按下或放开 nvda 加 shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4150
+#: globalCommands.py:4227
 msgid ""
 "Virtually toggles the control and alt keys to emulate a keyboard shortcut "
 "with braille input"
 msgstr "在盲文键盘上模拟按下或放开 ctrl 加 alt"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4161
+#: globalCommands.py:4238
 msgid ""
 "Virtually toggles the control, alt, and shift keys to emulate a keyboard "
 "shortcut with braille input"
 msgstr "在盲文键盘上模拟按下或放开 ctrl 加 alt 加 shift"
 
 #. Translators: Input help mode message for reload plugins command.
-#: globalCommands.py:4173
+#: globalCommands.py:4250
 msgid ""
 "Reloads app modules and global plugins without restarting NVDA, which can be "
 "Useful for developers"
@@ -5903,42 +5918,42 @@ msgstr ""
 "很有用"
 
 #. Translators: Presented when plugins (app modules and global plugins) are reloaded.
-#: globalCommands.py:4185
+#: globalCommands.py:4262
 msgid "Plugins reloaded"
 msgstr "插件已重新加载"
 
 #. Translators: input help mode message for Report destination URL of a link command
-#: globalCommands.py:4190
+#: globalCommands.py:4267
 msgid ""
 "Report the destination URL of the link at the position of caret or focus. If "
 "pressed twice, shows the URL in a window for easier review."
 msgstr "读出当前光标或焦点所在链接指向的网址。连按两次在浏览模式下显示该信息。"
 
 #. Translators: Informs the user that the link has no destination
-#: globalCommands.py:4216
+#: globalCommands.py:4293
 msgid "Link has no apparent destination"
 msgstr "链接未指向确切的网址"
 
 #. Translators: Title of the browseable message when requesting the destination of a graphical link.
 #. Translators: A destination for braille output.
-#: globalCommands.py:4225 brailleDisplayDrivers\dotPad\driver.py:257
+#: globalCommands.py:4302 brailleDisplayDrivers\dotPad\driver.py:257
 msgid "Graphic"
 msgstr "图形"
 
 #. Translators: Informs the user that the window contains the destination of the
 #. link with given title
-#: globalCommands.py:4230
+#: globalCommands.py:4307
 #, python-brace-format
 msgid "Destination of: {name}"
 msgstr "链接 {name} 指向的 URL"
 
 #. Translators: Tell user that the command has been run on something that is not a link
-#: globalCommands.py:4242
+#: globalCommands.py:4319
 msgid "Not a link."
 msgstr "不是链接。"
 
 #. Translators: input help mode message for Report URL of a link in a window command
-#: globalCommands.py:4247
+#: globalCommands.py:4324
 msgid ""
 "Displays the destination URL of the link at the position of caret or focus "
 "in a window, instead of just speaking it. May be preferred by braille users."
@@ -5947,163 +5962,163 @@ msgstr ""
 "显器的用户有用。"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4260
+#: globalCommands.py:4337
 msgid ""
 "Moves to the next object in a flattened view of the object navigation "
 "hierarchy"
 msgstr "移动导航对象到下一个对象"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4298
+#: globalCommands.py:4375
 msgid ""
 "Moves to the previous object in a flattened view of the object navigation "
 "hierarchy"
 msgstr "移动导航对象到上一个对象"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4331
+#: globalCommands.py:4408
 msgid "Toggles the support of touch interaction"
 msgstr "切换触摸模式的开关"
 
 #. Translators: Presented when attempting to toggle touch interaction support
-#: globalCommands.py:4341
+#: globalCommands.py:4418
 msgid "Touch interaction not supported"
 msgstr "不支持触摸模式"
 
 #. Translators: Presented when support of touch interaction has been enabled
-#: globalCommands.py:4347
+#: globalCommands.py:4424
 msgid "Touch interaction enabled"
 msgstr "起用触摸模式"
 
 #. Translators: Presented when support of touch interaction has been disabled
-#: globalCommands.py:4350
+#: globalCommands.py:4427
 msgid "Touch interaction disabled"
 msgstr "禁用触摸模式"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4354
+#: globalCommands.py:4431
 msgid "Cycles between available touch modes"
 msgstr "在可用的触摸模式之间循环切换"
 
 #. Translators: Cycles through available touch modes (a group of related touch gestures; example output: "object mode"; see the user guide for more information on touch modes).
-#: globalCommands.py:4368
+#: globalCommands.py:4445
 #, python-format
 msgid "%s mode"
 msgstr "%s模式"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4373
+#: globalCommands.py:4450
 msgid "Reports the object and content directly under your finger"
 msgstr "读出触摸到的对象及其内容"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4383
+#: globalCommands.py:4460
 msgid ""
 "Reports the new object or content under your finger if different to where "
 "your finger was last"
 msgstr "读出新对象及其内容（若该对象与上次触摸到的不同）"
 
 #. Translators: Input help mode message for touch right click command.
-#: globalCommands.py:4410
+#: globalCommands.py:4487
 msgid ""
 "Clicks the right mouse button at the current touch position. This is "
 "generally used to activate a context menu."
 msgstr "在鼠标所在位置，单击鼠标右键一次，通常用于激活上下文菜单。"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
-#: globalCommands.py:4434
+#: globalCommands.py:4511
 msgid "object has no location"
 msgstr "对象没有位置"
 
 #. Translators: Describes the command to open the Configuration Profiles dialog.
-#: globalCommands.py:4446
+#: globalCommands.py:4523
 msgid "Shows the NVDA Configuration Profiles dialog"
 msgstr "显示 NVDA “配置管理” 对话框"
 
 #. Translators: Input help mode message for toggle configuration profile triggers command.
-#: globalCommands.py:4456
+#: globalCommands.py:4533
 msgid ""
 "Toggles disabling of all configuration profile triggers. Disabling remains "
 "in effect until NVDA is restarted"
 msgstr "禁用所有配置，NVDA 重启后才会启用"
 
 #. Translators: The message announced when temporarily disabling all configuration profile triggers.
-#: globalCommands.py:4465
+#: globalCommands.py:4542
 msgid "Configuration profile triggers disabled"
 msgstr "配置管理已禁用"
 
 #. Translators: The message announced when re-enabling all configuration profile triggers.
-#: globalCommands.py:4473
+#: globalCommands.py:4550
 msgid "Configuration profile triggers enabled"
 msgstr "配置管理已启用"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4478
+#: globalCommands.py:4555
 msgid "Begins interaction with math content"
 msgstr "开始与数学内容交互"
 
 #. Translators: Reported when the user attempts math interaction
 #. with something that isn't math.
-#: globalCommands.py:4495
+#: globalCommands.py:4572
 msgid "Not math"
 msgstr "无数学内容"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4501
+#: globalCommands.py:4578
 msgid "Recognizes the content of the current navigator object with Windows OCR"
 msgstr "使用 Windows OCR 识别当前导航对象的内容"
 
 #. Translators: Reported when Windows OCR is not available.
-#: globalCommands.py:4507 globalCommands.py:4530
+#: globalCommands.py:4584 globalCommands.py:4607
 msgid "Windows OCR not available"
 msgstr "Windows OCR 不可用"
 
 #. Translators: Reported when screen curtain is enabled.
-#: globalCommands.py:4516
+#: globalCommands.py:4593
 msgid "Please disable screen curtain before using Windows OCR."
 msgstr "使用 Windows OCR 之前，请先关闭黑屏。"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4525
+#: globalCommands.py:4602
 msgid "Cycles through the available languages for Windows OCR"
 msgstr "在 Windows OCR 的可选语言之间切换"
 
 #. Translators: Input help mode message for toggle report CLDR command.
-#: globalCommands.py:4546
+#: globalCommands.py:4623
 msgid "Toggles on and off the reporting of CLDR characters, such as emojis"
 msgstr "切换读出 CLDR 字符的开关，（例如读出表情符号）"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4552
+#: globalCommands.py:4629
 msgid "report CLDR characters off"
 msgstr "不读 CLDR 字符"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4556
+#: globalCommands.py:4633
 msgid "report CLDR characters on"
 msgstr "读出 CLDR 字符"
 
 #. Translators: Input help mode message for speech Unicode normalization command.
-#: globalCommands.py:4563
+#: globalCommands.py:4640
 msgid "Cycle through the speech Unicode normalization states"
 msgstr "在语音 Unicode 正规化状态之间循环切换"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (default behavior).
-#: globalCommands.py:4578
+#: globalCommands.py:4655
 #, python-brace-format
 msgid "Speech Unicode normalization default ({default})"
 msgstr "语音 Unicode 正规化 默认（{default}）"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (disabled or enabled).
-#: globalCommands.py:4584
+#: globalCommands.py:4661
 #, python-brace-format
 msgid "Speech Unicode normalization {state}"
 msgstr "语音 Unicode 正规化 {state}"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4596
+#: globalCommands.py:4673
 msgid ""
 "Toggles the state of the screen curtain, enable to make the screen black or "
 "disable to show the contents of the screen. Pressed once, screen curtain is "
@@ -6114,86 +6129,86 @@ msgstr ""
 "屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
 
 #. Translators: Reported when the screen curtain is disabled.
-#: globalCommands.py:4655
+#: globalCommands.py:4732
 msgid "Screen curtain disabled"
 msgstr "关闭黑屏"
 
 #. Translators: Reported when the screen curtain could not be enabled.
-#: globalCommands.py:4662
+#: globalCommands.py:4739
 msgid "Could not disable screen curtain"
 msgstr "不能关闭黑屏"
 
 #. Translators: Reported when the screen curtain is not available.
-#: globalCommands.py:4673
+#: globalCommands.py:4750
 msgid "Screen curtain not available"
 msgstr "黑屏不可用"
 
 #. Translators: Reported when the screen curtain is enabled.
-#: globalCommands.py:4685
+#: globalCommands.py:4762
 msgid "Screen curtain enabled"
 msgstr "开启黑屏"
 
 #. Translators: Reported when the screen curtain is temporarily enabled.
-#: globalCommands.py:4688
+#: globalCommands.py:4765
 msgid "Temporary Screen curtain, enabled until next restart"
 msgstr "开启临时黑屏，重启 NVDA 后恢复"
 
 #. Translators: Reported when the screen curtain could not be enabled.
-#: globalCommands.py:4701
+#: globalCommands.py:4778
 msgid "Could not enable screen curtain"
 msgstr "无法开启黑屏"
 
 #. Translators: Warning message when trying to enable the screen curtain when OCR is active.
-#: globalCommands.py:4734 visionEnhancementProviders\screenCurtain.py:289
+#: globalCommands.py:4811 visionEnhancementProviders\screenCurtain.py:281
 msgid "Could not enable screen curtain when performing content recognition"
 msgstr "识别期间无法开启黑屏"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4742
+#: globalCommands.py:4819
 msgid "Cycles through paragraph navigation styles"
 msgstr "在段落导航模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4756
+#: globalCommands.py:4833
 msgid "Cycles through sound split modes"
 msgstr "在声音拆分模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4767
+#: globalCommands.py:4844
 msgid "Increases the volume of other applications"
 msgstr "增加其他应用音量"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4778
+#: globalCommands.py:4855
 msgid "Decreases the volume of other applications"
 msgstr "降低其他应用音量"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4789
+#: globalCommands.py:4866
 msgid "Toggles application volume control on and off"
 msgstr "打开或关闭其他应用音量控制"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4799
+#: globalCommands.py:4876
 msgid "Mutes or unmutes other applications"
 msgstr "静音或取消静音其他应用"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:4840
+#: globalCommands.py:4917
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:4845
+#: globalCommands.py:4922
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:4850
+#: globalCommands.py:4927
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -6201,7 +6216,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:4866
+#: globalCommands.py:4943
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -8014,7 +8029,7 @@ msgstr "输入“help（对象名称）”，以获得该对象的帮助。"
 msgid "Type exit() to exit the console"
 msgstr "输入“exit()”退出控制台"
 
-#: pythonConsole.py:302
+#: pythonConsole.py:311
 msgid "NVDA Python Console"
 msgstr "NVDA Python 控制台"
 
@@ -8341,18 +8356,18 @@ msgid "Copied: {text}"
 msgstr "已复制 {text}"
 
 #. Translators: The title of the dialog displayed while manually checking for an NVDA update.
-#: updateCheck.py:334
+#: updateCheck.py:335
 msgid "Checking for Update"
 msgstr "正在检查更新"
 
 #. Translators: The progress message displayed while manually checking for an NVDA update.
-#: updateCheck.py:336
+#: updateCheck.py:337
 msgid "Checking for update"
 msgstr "正在检查更新"
 
 #. Translators: A suggestion of what to do when checking for NVDA updates fails and an update mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: updateCheck.py:345
+#: updateCheck.py:346
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -8362,14 +8377,14 @@ msgid ""
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
 #. Translators: A suggestion of what to do when fetching add-on data from the store fails and the default metadata URL is being used.
-#: updateCheck.py:352
+#: updateCheck.py:353
 msgctxt "updateCheck"
 msgid "Make sure you are connected to the internet and try again."
 msgstr "请检查网络连接后重试。"
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
 #. tip will be replaced with a context sensitive suggestion of next steps.
-#: updateCheck.py:358
+#: updateCheck.py:359
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -8381,18 +8396,18 @@ msgstr ""
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
 #. Translators: The title of the dialog asking the user to apply an NVDA update.
-#: updateCheck.py:429 updateCheck.py:567
+#: updateCheck.py:430 updateCheck.py:568
 msgid "NVDA Update"
 msgstr "NVDA 更新"
 
 #. Translators: A message indicating that no update to NVDA is available.
-#: updateCheck.py:445
+#: updateCheck.py:446
 msgid "No update available."
 msgstr "无可用更新。"
 
 #. Translators: A message indicating that an update to NVDA has been downloaded and is ready to be
 #. applied.
-#: updateCheck.py:450
+#: updateCheck.py:451
 #, python-brace-format
 msgid ""
 "Update to NVDA version {version} has been downloaded and is ready to be "
@@ -8401,88 +8416,88 @@ msgstr "NVDA 版本 {version} 已下载并准备就绪。"
 
 #. Translators: The label of a button to review add-ons prior to NVDA update.
 #. Translators: The label of a button to launch the add-on compatibility review dialog.
-#: updateCheck.py:475 updateCheck.py:595 gui\installerGui.py:278
+#: updateCheck.py:476 updateCheck.py:596 gui\installerGui.py:278
 msgid "&Review add-ons..."
 msgstr "查看插件(&R)..."
 
 #. Translators: The label of a button to apply a pending NVDA update.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:481
+#: updateCheck.py:482
 #, python-brace-format
 msgid "&Update to NVDA {version}"
 msgstr "更新到 NVDA {version}(&U)"
 
 #. Translators: The label of a button to re-download a pending NVDA update.
-#: updateCheck.py:491
+#: updateCheck.py:492
 msgid "Re-&download update"
 msgstr "重新下载更新(&R)"
 
 #. Translators: A message indicating that an updated version of NVDA is available.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:496
+#: updateCheck.py:497
 #, python-brace-format
 msgid "NVDA version {version} is available."
 msgstr "NVDA 新版本 {version} 可用。"
 
 #. Translators: The label of a button to download an NVDA update.
-#: updateCheck.py:500
+#: updateCheck.py:501
 msgid "&Download update"
 msgstr "下载更新(&D)"
 
 #. Translators: The label of a button to remind the user later about performing some action.
-#: updateCheck.py:505 gui\startupDialogs.py:321
+#: updateCheck.py:506 gui\startupDialogs.py:321
 msgid "Remind me &later"
 msgstr "稍后提醒我(&L)"
 
 #. Translators: The label of a button to close a dialog.
 #. Translators: The close button on an NVDA dialog. This button will dismiss the dialog.
-#: updateCheck.py:514 gui\addonGui.py:377
+#: updateCheck.py:515 gui\addonGui.py:377
 msgid "&Close"
 msgstr "关闭(&C)"
 
 #. Translators: A message indicating that an update to NVDA is ready to be applied.
-#: updateCheck.py:571
+#: updateCheck.py:572
 #, python-brace-format
 msgid "Update to NVDA version {version} is ready to be applied.\n"
 msgstr "NVDA 版本 {version} 已准备就绪。\n"
 
 #. Translators: The label of a button to update NVDA.
-#: updateCheck.py:598
+#: updateCheck.py:599
 msgid "&Update now"
 msgstr "立即更新(&U)"
 
 #. Translators: The label of a button to postpone an NVDA update.
-#: updateCheck.py:611
+#: updateCheck.py:612
 msgid "&Postpone update"
 msgstr "推迟更新(&D)"
 
 #. Translators: The message when a downloaded update file could not be preserved.
-#: updateCheck.py:652
+#: updateCheck.py:653
 msgid "Unable to postpone update."
 msgstr "无法推迟更新."
 
 #. Translators: The title of the dialog displayed while downloading an NVDA update.
-#: updateCheck.py:698
+#: updateCheck.py:699
 msgid "Downloading Update"
 msgstr "正在下载更新"
 
 #. Translators: The progress message indicating that a connection is being established.
-#: updateCheck.py:700
+#: updateCheck.py:701
 msgid "Connecting"
 msgstr "正在连接"
 
 #. Translators: The progress message indicating that a download is in progress.
-#: updateCheck.py:793
+#: updateCheck.py:794
 msgid "Downloading"
 msgstr "正在下载"
 
 #. Translators: A message indicating that an error occurred while downloading an update to NVDA.
-#: updateCheck.py:812
+#: updateCheck.py:813
 msgid "Error downloading update."
 msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
-#: updateCheck.py:833
+#: updateCheck.py:834
 msgid ""
 "We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are "
@@ -8500,26 +8515,26 @@ msgstr ""
 "感谢您对我们的支持。"
 
 #. Translators: The title of the dialog requesting donations from users.
-#: updateCheck.py:842
+#: updateCheck.py:843
 msgid "Please Donate"
 msgstr "请捐赠"
 
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:851 gui\__init__.py:669
+#: updateCheck.py:852 gui\__init__.py:669
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
 #. Translators: The label of the button to decline donation
 #. in the "Please Donate" dialog.
-#: updateCheck.py:856
+#: updateCheck.py:857
 msgid "&Not now"
 msgstr "暂不捐赠(&N)"
 
 #. Translators: The label of a button to indicate that the user is finished donating
 #. in the "Please Donate" dialog.
-#: updateCheck.py:872
+#: updateCheck.py:873
 msgid "&Done"
 msgstr "捐赠完毕(&D)"
 
@@ -11278,7 +11293,7 @@ msgstr "背景色"
 
 #. Translators: Describes style of text.
 #. Translators: a Microsoft Word revision type (style change)
-#: controlTypes\role.py:492 NVDAObjects\window\winword.py:363
+#: controlTypes\role.py:492 NVDAObjects\window\winword.py:357
 msgid "style"
 msgstr "样式"
 
@@ -11716,7 +11731,7 @@ msgstr "您输入的网址尚未经过连接测试。是否要直接保存而不
 #. Translators: Title of the warning message.
 #: gui\_SetURLDialog.py:113 gui\configProfiles.py:498 gui\installerGui.py:334
 #: gui\settingsDialogs.py:1029 gui\settingsDialogs.py:1915
-#: visionEnhancementProviders\screenCurtain.py:154
+#: visionEnhancementProviders\screenCurtain.py:146
 msgid "Warning"
 msgstr "警告"
 
@@ -12146,7 +12161,7 @@ msgstr "关于插件(&A)..."
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. agree to enabling the curtain.
 #: gui\addonGui.py:73 gui\startupDialogs.py:313
-#: visionEnhancementProviders\screenCurtain.py:178
+#: visionEnhancementProviders\screenCurtain.py:170
 msgid "&Yes"
 msgstr "是(&Y)"
 
@@ -12156,7 +12171,7 @@ msgstr "是(&Y)"
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. disagree to enabling the curtain.
 #: gui\addonGui.py:83 gui\startupDialogs.py:317
-#: visionEnhancementProviders\screenCurtain.py:187
+#: visionEnhancementProviders\screenCurtain.py:179
 msgid "&No"
 msgstr "否(&N)"
 
@@ -14633,7 +14648,7 @@ msgstr "启用"
 #. Translators: The label for a group box containing the NVDA highlighter options.
 #: gui\settingsDialogs.py:5142
 #: visionEnhancementProviders\NVDAHighlighter.py:304
-#: visionEnhancementProviders\screenCurtain.py:253
+#: visionEnhancementProviders\screenCurtain.py:245
 msgid "Options:"
 msgstr "选项："
 
@@ -16088,13 +16103,13 @@ msgstr "离开表格"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\UIA\wordDocument.py:66 NVDAObjects\window\winword.py:2021
+#: NVDAObjects\UIA\wordDocument.py:66 NVDAObjects\window\winword.py:2015
 msgid "&Annotations"
 msgstr "注释(&A)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\UIA\wordDocument.py:69 NVDAObjects\window\winword.py:2027
+#: NVDAObjects\UIA\wordDocument.py:69 NVDAObjects\window\winword.py:2021
 msgid "&Errors"
 msgstr "错误(&E)"
 
@@ -16997,221 +17012,221 @@ msgstr "未知颜色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Excel controls the pattern.
-#: NVDAObjects\window\excel.py:218
+#: NVDAObjects\window\excel.py:219
 msgid "automatic"
 msgstr "自动"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Checkerboard
-#: NVDAObjects\window\excel.py:221
+#: NVDAObjects\window\excel.py:222
 msgid "diagonal crosshatch"
 msgstr "对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Criss-cross lines
-#: NVDAObjects\window\excel.py:224
+#: NVDAObjects\window\excel.py:225
 msgid "thin diagonal crosshatch"
 msgstr "薄对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark diagonal lines running from the upper left to the lower right
-#: NVDAObjects\window\excel.py:227
+#: NVDAObjects\window\excel.py:228
 msgid "reverse diagonal stripe"
 msgstr "反向对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 12.5% gray
-#: NVDAObjects\window\excel.py:231
+#: NVDAObjects\window\excel.py:232
 #, no-python-format
 msgid "12.5% gray"
 msgstr "12.5% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 25% gray
-#: NVDAObjects\window\excel.py:235
+#: NVDAObjects\window\excel.py:236
 #, no-python-format
 msgid "25% gray"
 msgstr "25% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 50% gray
-#: NVDAObjects\window\excel.py:239
+#: NVDAObjects\window\excel.py:240
 #, no-python-format
 msgid "50% gray"
 msgstr "50% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 75% gray
-#: NVDAObjects\window\excel.py:243
+#: NVDAObjects\window\excel.py:244
 #, no-python-format
 msgid "75% gray"
 msgstr "75% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 6.25% gray
-#: NVDAObjects\window\excel.py:247
+#: NVDAObjects\window\excel.py:248
 #, no-python-format
 msgid "6.25% gray"
 msgstr "6.25% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Grid
-#: NVDAObjects\window\excel.py:250
+#: NVDAObjects\window\excel.py:251
 msgid "thin horizontal crosshatch"
 msgstr "细的水平线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark horizontal lines
-#: NVDAObjects\window\excel.py:253
+#: NVDAObjects\window\excel.py:254
 msgid "horizontal stripe"
 msgstr "水平条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light diagonal lines running from the upper left to the lower right
-#: NVDAObjects\window\excel.py:256
+#: NVDAObjects\window\excel.py:257
 msgid "thin reverse diagonal stripe"
 msgstr "薄反向对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light horizontal lines
-#: NVDAObjects\window\excel.py:259
+#: NVDAObjects\window\excel.py:260
 msgid "thin horizontal stripe"
 msgstr "细线水平条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light diagonal lines running from the lower left to the upper right
-#: NVDAObjects\window\excel.py:262
+#: NVDAObjects\window\excel.py:263
 msgid "thin diagonal stripe"
 msgstr "薄对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light vertical bars
-#: NVDAObjects\window\excel.py:265
+#: NVDAObjects\window\excel.py:266
 msgid "thin vertical stripe"
 msgstr "细线垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. No pattern
-#: NVDAObjects\window\excel.py:268 speech\speech.py:2702
+#: NVDAObjects\window\excel.py:269 speech\speech.py:2702
 msgid "none"
 msgstr "无"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 75% dark moire
-#: NVDAObjects\window\excel.py:271
+#: NVDAObjects\window\excel.py:272
 msgid "thick diagonal crosshatch"
 msgstr "厚对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Solid color
-#: NVDAObjects\window\excel.py:274
+#: NVDAObjects\window\excel.py:275
 msgid "solid"
 msgstr "原色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark diagonal lines running from the lower left to the upper right
-#: NVDAObjects\window\excel.py:277
+#: NVDAObjects\window\excel.py:278
 msgid "diagonal stripe"
 msgstr "对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark vertical bars
-#: NVDAObjects\window\excel.py:280
+#: NVDAObjects\window\excel.py:281
 msgid "vertical stripe"
 msgstr "垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
-#: NVDAObjects\window\excel.py:282
+#: NVDAObjects\window\excel.py:283
 msgid "linear gradient"
 msgstr "线性渐变"
 
 #. Translators: A type of background pattern in Microsoft Excel.
-#: NVDAObjects\window\excel.py:284
+#: NVDAObjects\window\excel.py:285
 msgid "rectangular gradient"
 msgstr "矩形渐变"
 
 #. Translators: the description for the elements list command in Microsoft Excel.
-#: NVDAObjects\window\excel.py:716
+#: NVDAObjects\window\excel.py:717
 msgid "Lists various types of elements in this spreadsheet"
 msgstr "在此列表中列举了各种类型的元素"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:726 NVDAObjects\window\winword.py:2024
+#: NVDAObjects\window\excel.py:727 NVDAObjects\window\winword.py:2018
 msgid "&Charts"
 msgstr "图表(&C)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:729
+#: NVDAObjects\window\excel.py:730
 msgid "N&otes"
 msgstr "注释(&O)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:732
+#: NVDAObjects\window\excel.py:733
 msgid "Fo&rmulas"
 msgstr "公式(&R)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:738
+#: NVDAObjects\window\excel.py:739
 msgid "&Sheets"
 msgstr "表格(&S)"
 
 #. Translators: Used to express an address range in excel.
-#: NVDAObjects\window\excel.py:770 NVDAObjects\window\excel.py:1725
+#: NVDAObjects\window\excel.py:771 NVDAObjects\window\excel.py:1741
 #, python-brace-format
 msgid "{start} through {end}"
 msgstr "{start} 到 {end}"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1224 NVDAObjects\window\winword.py:1634
+#: NVDAObjects\window\excel.py:1225 NVDAObjects\window\winword.py:1628
 msgid "Bold off"
 msgstr "关闭粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1226 NVDAObjects\window\winword.py:1631
+#: NVDAObjects\window\excel.py:1227 NVDAObjects\window\winword.py:1625
 msgid "Bold on"
 msgstr "打开粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1238 NVDAObjects\window\winword.py:1652
+#: NVDAObjects\window\excel.py:1239 NVDAObjects\window\winword.py:1646
 msgid "Italic off"
 msgstr "关闭斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1240 NVDAObjects\window\winword.py:1649
+#: NVDAObjects\window\excel.py:1241 NVDAObjects\window\winword.py:1643
 msgid "Italic on"
 msgstr "打开斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1252 NVDAObjects\window\winword.py:1681
+#: NVDAObjects\window\excel.py:1253 NVDAObjects\window\winword.py:1675
 msgid "Underline off"
 msgstr "关闭下划线"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1254
+#: NVDAObjects\window\excel.py:1255
 msgid "Underline on"
 msgstr "打开下划线"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1266
+#: NVDAObjects\window\excel.py:1267
 msgid "Strikethrough off"
 msgstr "删除线关"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1268
+#: NVDAObjects\window\excel.py:1269
 msgid "Strikethrough on"
 msgstr "删除线开"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1611
+#: NVDAObjects\window\excel.py:1627
 msgid ""
 "Sets the current cell as start of column header. Pressing once will set this "
 "cell as the first column header for any cell lower and to the right of it "
@@ -17222,31 +17237,31 @@ msgstr ""
 "其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的列标题设置。"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1623
+#: NVDAObjects\window\excel.py:1639
 #, python-brace-format
 msgid "Set {address} as start of column headers"
 msgstr "设置 {address} 为列标题的开始单元"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1627
+#: NVDAObjects\window\excel.py:1643
 #, python-brace-format
 msgid "Already set {address} as start of column headers"
 msgstr "{address} 已设为列标题的开始单元"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1632
+#: NVDAObjects\window\excel.py:1648
 #, python-brace-format
 msgid "Removed {address} from column headers"
 msgstr "{address} 已从列标题中移除"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1636
+#: NVDAObjects\window\excel.py:1652
 #, python-brace-format
 msgid "Cannot find {address} in column headers"
 msgstr "无法再列标题中找到 {address}"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1642
+#: NVDAObjects\window\excel.py:1658
 msgid ""
 "Sets the current cell as start of row headers. Pressing once will set this "
 "cell as the first row header for any cell lower and to the right of it "
@@ -17257,47 +17272,47 @@ msgstr ""
 "其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的行标题设置。"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1654
+#: NVDAObjects\window\excel.py:1670
 #, python-brace-format
 msgid "Set {address} as start of row headers"
 msgstr "设置 {address} 为航标题的开始单元"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1658
+#: NVDAObjects\window\excel.py:1674
 #, python-brace-format
 msgid "Already set {address} as start of row headers"
 msgstr "{address} 已设为行标题的开始单元"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1663
+#: NVDAObjects\window\excel.py:1679
 #, python-brace-format
 msgid "Removed {address}    from row headers"
 msgstr "{address} 已从行标题中移除"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1666
+#: NVDAObjects\window\excel.py:1682
 #, python-brace-format
 msgid "Cannot find {address}    in row headers"
 msgstr "无法在行标题中找到 {address}"
 
 #. Translators: a message reported in the get location text script for Excel. {0} is replaced with the name of the excel worksheet, and {1} is replaced with the row and column identifier EG "G4"
-#: NVDAObjects\window\excel.py:1753
+#: NVDAObjects\window\excel.py:1769
 #, python-brace-format
 msgid "Sheet {0}, {1}"
 msgstr "表格 {0}、{1}"
 
-#: NVDAObjects\window\excel.py:1833
+#: NVDAObjects\window\excel.py:1849
 #, python-brace-format
 msgid "Input Message is {title}: {message}"
 msgstr "输入消息为 {title}：{message}"
 
-#: NVDAObjects\window\excel.py:1835
+#: NVDAObjects\window\excel.py:1851
 #, python-brace-format
 msgid "Input Message is {message}"
 msgstr "输入的消息为 {message}"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1850
+#: NVDAObjects\window\excel.py:1866
 msgid ""
 "Reports the note on the current cell. If pressed twice, presents the "
 "information in browse mode"
@@ -17305,22 +17320,22 @@ msgstr "读出当前单元格的注释。连按两次，在浏览模式下显示
 
 #. Translators: title for note on the current Excel cell dialog.
 #. Translators: Title for the note editing  dialog
-#: NVDAObjects\window\excel.py:1868 NVDAObjects\window\excel.py:1887
+#: NVDAObjects\window\excel.py:1884 NVDAObjects\window\excel.py:1903
 msgid "Note"
 msgstr "注释"
 
 #. Translators: A message in Excel when there is no note
-#: NVDAObjects\window\excel.py:1872
+#: NVDAObjects\window\excel.py:1888
 msgid "Not on a note"
 msgstr "不在注释中"
 
 #. Translators: the description  for a script for Excel
-#: NVDAObjects\window\excel.py:1876
+#: NVDAObjects\window\excel.py:1892
 msgid "Opens the note editing dialog"
 msgstr "打开注释编辑对话框"
 
 #. Translators: Dialog text for the note editing dialog
-#: NVDAObjects\window\excel.py:1885
+#: NVDAObjects\window\excel.py:1901
 #, python-brace-format
 msgid "Editing note for cell {address}"
 msgstr "正在编辑单元 {address} 的注释"
@@ -17328,7 +17343,7 @@ msgstr "正在编辑单元 {address} 的注释"
 #. Translators: This is presented in Excel to show the current selection, for example 'a1 c3 through a10 c10'
 #. Beware to keep two spaces between the address and the content. Otherwise some synthesizer
 #. may mix the address and the content when the cell contains a 3-digit number.
-#: NVDAObjects\window\excel.py:1941
+#: NVDAObjects\window\excel.py:1957
 #, python-brace-format
 msgid "{firstAddress}  {firstContent} through {lastAddress}  {lastContent}"
 msgstr "{firstAddress}  {firstContent} 到 {lastAddress}  {lastContent}"
@@ -17496,213 +17511,213 @@ msgid "{desc} {position}"
 msgstr "{desc} {position}"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:119
+#: NVDAObjects\window\winword.py:113
 msgid "Words only"
 msgstr "文字"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:121
+#: NVDAObjects\window\winword.py:115
 msgid "Double"
 msgstr "双"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:123
+#: NVDAObjects\window\winword.py:117
 msgid "Dotted"
 msgstr "点"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:125
+#: NVDAObjects\window\winword.py:119
 msgid "Thick"
 msgstr "粗线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:127
+#: NVDAObjects\window\winword.py:121
 msgid "Dash"
 msgstr "划线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:129
+#: NVDAObjects\window\winword.py:123
 msgid "Dot dash"
 msgstr "点划线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:131
+#: NVDAObjects\window\winword.py:125
 msgid "Dot dot dash"
 msgstr "点点划线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:133
+#: NVDAObjects\window\winword.py:127
 msgid "Wave"
 msgstr "波浪线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:135
+#: NVDAObjects\window\winword.py:129
 msgid "Dotted heavy"
 msgstr "粗点线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:137
+#: NVDAObjects\window\winword.py:131
 msgid "Dashed heavy"
 msgstr "粗划线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:139
+#: NVDAObjects\window\winword.py:133
 msgid "Dot dash heavy"
 msgstr "粗点划线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:141
+#: NVDAObjects\window\winword.py:135
 msgid "Dot dot dash heavy"
 msgstr "粗点点划线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:143
+#: NVDAObjects\window\winword.py:137
 msgid "Wave heavy"
 msgstr "粗波浪线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:145
+#: NVDAObjects\window\winword.py:139
 msgid "Dashed long"
 msgstr "长划线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:147
+#: NVDAObjects\window\winword.py:141
 msgid "Wave double"
 msgstr "双波浪线"
 
 #. Translators: an underline style in Microsoft Word as announced in the font window.
-#: NVDAObjects\window\winword.py:149
+#: NVDAObjects\window\winword.py:143
 msgid "Dashed long heavy"
 msgstr "长粗划线"
 
 #. Translators: a Microsoft Word revision type (inserted content)
-#: NVDAObjects\window\winword.py:349
+#: NVDAObjects\window\winword.py:343
 msgid "insertion"
 msgstr "插入"
 
 #. Translators: a Microsoft Word revision type (deleted content)
-#: NVDAObjects\window\winword.py:351
+#: NVDAObjects\window\winword.py:345
 msgid "deletion"
 msgstr "删除"
 
 #. Translators: a Microsoft Word revision type (changed content property, e.g. font, color)
-#: NVDAObjects\window\winword.py:353
+#: NVDAObjects\window\winword.py:347
 msgid "property"
 msgstr "属性"
 
 #. Translators: a Microsoft Word revision type (changed paragraph number)
-#: NVDAObjects\window\winword.py:355
+#: NVDAObjects\window\winword.py:349
 msgid "paragraph number"
 msgstr "段落序号"
 
 #. Translators: a Microsoft Word revision type (display field)
-#: NVDAObjects\window\winword.py:357
+#: NVDAObjects\window\winword.py:351
 msgid "display field"
 msgstr "显示区域"
 
 #. Translators: a Microsoft Word revision type (reconcile)
-#: NVDAObjects\window\winword.py:359
+#: NVDAObjects\window\winword.py:353
 msgid "reconcile"
 msgstr "解决"
 
 #. Translators: a Microsoft Word revision type (conflicting revision)
-#: NVDAObjects\window\winword.py:361
+#: NVDAObjects\window\winword.py:355
 msgid "conflict"
 msgstr "冲突"
 
 #. Translators: a Microsoft Word revision type (replaced content)
-#: NVDAObjects\window\winword.py:365
+#: NVDAObjects\window\winword.py:359
 msgid "replace"
 msgstr "替换"
 
 #. Translators: a Microsoft Word revision type (changed paragraph property, e.g. alignment)
-#: NVDAObjects\window\winword.py:367
+#: NVDAObjects\window\winword.py:361
 msgid "paragraph property"
 msgstr "段落属性"
 
 #. Translators: a Microsoft Word revision type (table)
-#: NVDAObjects\window\winword.py:369
+#: NVDAObjects\window\winword.py:363
 msgid "table property"
 msgstr "表格属性"
 
 #. Translators: a Microsoft Word revision type (section property)
-#: NVDAObjects\window\winword.py:371
+#: NVDAObjects\window\winword.py:365
 msgid "section property"
 msgstr "部分属性"
 
 #. Translators: a Microsoft Word revision type (style definition)
-#: NVDAObjects\window\winword.py:373
+#: NVDAObjects\window\winword.py:367
 msgid "style definition"
 msgstr "样式定义"
 
 #. Translators: a Microsoft Word revision type (moved from)
-#: NVDAObjects\window\winword.py:375
+#: NVDAObjects\window\winword.py:369
 msgid "moved from"
 msgstr "从此处移动"
 
 #. Translators: a Microsoft Word revision type (moved to)
-#: NVDAObjects\window\winword.py:377
+#: NVDAObjects\window\winword.py:371
 msgid "moved to"
 msgstr "移动到"
 
 #. Translators: a Microsoft Word revision type (inserted table cell)
-#: NVDAObjects\window\winword.py:379
+#: NVDAObjects\window\winword.py:373
 msgid "cell insertion"
 msgstr "单元插入"
 
 #. Translators: a Microsoft Word revision type (deleted table cell)
-#: NVDAObjects\window\winword.py:381
+#: NVDAObjects\window\winword.py:375
 msgid "cell deletion"
 msgstr "单元移除"
 
 #. Translators: a Microsoft Word revision type (merged table cells)
-#: NVDAObjects\window\winword.py:383
+#: NVDAObjects\window\winword.py:377
 msgid "cell merge"
 msgstr "单元合并"
 
-#: NVDAObjects\window\winword.py:387
+#: NVDAObjects\window\winword.py:381
 msgid "Comments"
 msgstr "批注"
 
-#: NVDAObjects\window\winword.py:388
+#: NVDAObjects\window\winword.py:382
 msgid "Endnotes"
 msgstr "尾注"
 
-#: NVDAObjects\window\winword.py:389
+#: NVDAObjects\window\winword.py:383
 msgid "Even pages footer"
 msgstr "偶数页页脚"
 
-#: NVDAObjects\window\winword.py:390
+#: NVDAObjects\window\winword.py:384
 msgid "Even pages header"
 msgstr "偶数页页首"
 
-#: NVDAObjects\window\winword.py:391
+#: NVDAObjects\window\winword.py:385
 msgid "First page footer"
 msgstr "首页页脚"
 
-#: NVDAObjects\window\winword.py:392
+#: NVDAObjects\window\winword.py:386
 msgid "First page header"
 msgstr "首页页首"
 
-#: NVDAObjects\window\winword.py:393
+#: NVDAObjects\window\winword.py:387
 msgid "Footnotes"
 msgstr "脚注"
 
-#: NVDAObjects\window\winword.py:394
+#: NVDAObjects\window\winword.py:388
 msgid "Primary footer"
 msgstr "主要页脚"
 
-#: NVDAObjects\window\winword.py:395
+#: NVDAObjects\window\winword.py:389
 msgid "Primary header"
 msgstr "主要页首"
 
-#: NVDAObjects\window\winword.py:396
+#: NVDAObjects\window\winword.py:390
 msgid "Text frame"
 msgstr "文本框"
 
 #. Translators: The label shown for a comment in the NVDA Elements List dialog in Microsoft Word.
 #. {text}, {author} and {date} will be replaced by the corresponding details about the comment.
-#: NVDAObjects\window\winword.py:517
+#: NVDAObjects\window\winword.py:511
 #, python-brace-format
 msgid "comment: {text} by {author} on {date}"
 msgstr "批注: {text} 由 {author} 创建于 {date}"
@@ -17711,64 +17726,64 @@ msgstr "批注: {text} 由 {author} 创建于 {date}"
 #. {revisionType} will be replaced with the type of revision; e.g. insertion, deletion or property.
 #. {description} will be replaced with a description of the formatting changes, if any.
 #. {text}, {author} and {date} will be replaced by the corresponding details about the revision.
-#: NVDAObjects\window\winword.py:540
+#: NVDAObjects\window\winword.py:534
 #, python-brace-format
 msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr "{revisionType} {description}: {text} 由 {author} 在 {date}"
 
 #. Translators: The label shown for a spelling error in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the spelling error.
-#: NVDAObjects\window\winword.py:578 UIAHandler\browseMode.py:117
+#: NVDAObjects\window\winword.py:572 UIAHandler\browseMode.py:117
 #, python-brace-format
 msgid "spelling: {text}"
 msgstr "拼读： {text}"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
-#: NVDAObjects\window\winword.py:771
+#: NVDAObjects\window\winword.py:765
 #, python-brace-format
 msgid "{distance} from left edge of page"
 msgstr "距页面左边 {distance}"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
-#: NVDAObjects\window\winword.py:775
+#: NVDAObjects\window\winword.py:769
 #, python-brace-format
 msgid "{distance} from top edge of page"
 msgstr "距页面顶边 {distance}"
 
 #. Translators: single line spacing
-#: NVDAObjects\window\winword.py:1083
+#: NVDAObjects\window\winword.py:1077
 msgctxt "line spacing value"
 msgid "single"
 msgstr "单倍行距"
 
 #. Translators: double line spacing
-#: NVDAObjects\window\winword.py:1086
+#: NVDAObjects\window\winword.py:1080
 msgctxt "line spacing value"
 msgid "double"
 msgstr "2 倍行距"
 
 #. Translators:  line spacing of 1.5 lines
-#: NVDAObjects\window\winword.py:1089
+#: NVDAObjects\window\winword.py:1083
 msgctxt "line spacing value"
 msgid "1.5 lines"
 msgstr "1.5 倍行距"
 
 #. Translators: line spacing of exactly x point
-#: NVDAObjects\window\winword.py:1094
+#: NVDAObjects\window\winword.py:1088
 #, python-brace-format
 msgctxt "line spacing value"
 msgid "exactly {space:.1f} pt"
 msgstr "固定值 {space:.1f} pt"
 
 #. Translators: line spacing of at least x point
-#: NVDAObjects\window\winword.py:1098
+#: NVDAObjects\window\winword.py:1092
 #, python-format
 msgctxt "line spacing value"
 msgid "at least %.1f pt"
 msgstr "至少 %.1f pt"
 
 #. Translators: line spacing of x lines
-#: NVDAObjects\window\winword.py:1108
+#: NVDAObjects\window\winword.py:1102
 #, python-format
 msgctxt "line spacing value"
 msgid "%.1f line"
@@ -17776,174 +17791,174 @@ msgid_plural "%.1f lines"
 msgstr[0] "%.1f 行"
 
 #. Translators: the title of the message dialog desplaying an MS Word table description.
-#: NVDAObjects\window\winword.py:1379
+#: NVDAObjects\window\winword.py:1373
 msgid "Table description"
 msgstr "表格描述"
 
 #. Translators: the default (automatic) color in Microsoft Word
-#: NVDAObjects\window\winword.py:1535
+#: NVDAObjects\window\winword.py:1529
 msgid "automatic color"
 msgstr "自动颜色"
 
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\winword.py:1672
+#: NVDAObjects\window\winword.py:1666
 #, python-brace-format
 msgid "Underline {style}on"
 msgstr "打开{style}下划线"
 
 #. Translators: a message when toggling formatting to 'all capital' in Microsoft word
-#: NVDAObjects\window\winword.py:1698
+#: NVDAObjects\window\winword.py:1692
 msgid "All caps on"
 msgstr "打开全部大写"
 
 #. Translators: a message when toggling formatting to 'small capital' in Microsoft word
-#: NVDAObjects\window\winword.py:1701
+#: NVDAObjects\window\winword.py:1695
 msgid "Small caps on"
 msgstr "打开小型大写字母"
 
 #. Translators: a message when toggling formatting to 'No capital' in Microsoft word
-#: NVDAObjects\window\winword.py:1704
+#: NVDAObjects\window\winword.py:1698
 msgid "Caps off"
 msgstr "关闭大写"
 
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1719
+#: NVDAObjects\window\winword.py:1713
 msgid "Left aligned"
 msgstr "左对齐"
 
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1721
+#: NVDAObjects\window\winword.py:1715
 msgid "centered"
 msgstr "居中"
 
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1723
+#: NVDAObjects\window\winword.py:1717
 msgid "Right aligned"
 msgstr "右对齐"
 
 #. Translators: a an alignment in Microsoft Word
-#: NVDAObjects\window\winword.py:1725
+#: NVDAObjects\window\winword.py:1719
 msgid "Justified"
 msgstr "段落重排"
 
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\winword.py:1763
+#: NVDAObjects\window\winword.py:1757
 msgid "Superscript"
 msgstr "上标"
 
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\winword.py:1766
+#: NVDAObjects\window\winword.py:1760
 msgid "Subscript"
 msgstr "下标"
 
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\winword.py:1769
+#: NVDAObjects\window\winword.py:1763
 msgid "Baseline"
 msgstr "基准线"
 
 #. Translators: a message reported when a paragraph is moved below another paragraph
-#: NVDAObjects\window\winword.py:1782
+#: NVDAObjects\window\winword.py:1776
 #, python-format
 msgid "Moved below %s"
 msgstr "下移 %s"
 
 #. Translators: a message reported when a paragraph is moved below a blank paragraph
-#: NVDAObjects\window\winword.py:1785
+#: NVDAObjects\window\winword.py:1779
 msgid "Moved below blank paragraph"
 msgstr "移动到下方的空白段落"
 
 #. Translators: a message reported when a paragraph is moved above another paragraph
-#: NVDAObjects\window\winword.py:1799
+#: NVDAObjects\window\winword.py:1793
 #, python-format
 msgid "Moved above %s"
 msgstr "上移 %s"
 
 #. Translators: a message reported when a paragraph is moved above a blank paragraph
-#: NVDAObjects\window\winword.py:1802
+#: NVDAObjects\window\winword.py:1796
 msgid "Moved above blank paragraph"
 msgstr "移动到上方的空白段落"
 
 #. Translators: the message when the outline level / style is changed in Microsoft word
-#: NVDAObjects\window\winword.py:1827
+#: NVDAObjects\window\winword.py:1821
 #, python-brace-format
 msgid "{styleName} style, outline level {outlineLevel}"
 msgstr "{styleName} 样式，大纲级别 {outlineLevel}"
 
 #. Translators: a message when increasing or decreasing font size in Microsoft Word
-#: NVDAObjects\window\winword.py:1842
+#: NVDAObjects\window\winword.py:1836
 #, python-brace-format
 msgid "{size:g} point font"
 msgstr "{size:g} pt 字体"
 
 #. Translators: a message when toggling Display Nonprinting Characters in Microsoft word
-#: NVDAObjects\window\winword.py:1858
+#: NVDAObjects\window\winword.py:1852
 msgid "Display nonprinting characters"
 msgstr "显示非打印字符"
 
 #. Translators: a message when toggling Display Nonprinting Characters in Microsoft word
-#: NVDAObjects\window\winword.py:1861
+#: NVDAObjects\window\winword.py:1855
 msgid "Hide nonprinting characters"
 msgstr "隐藏非打印字符"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1899
+#: NVDAObjects\window\winword.py:1893
 #, python-brace-format
 msgid "{offset:.3g} character"
 msgid_plural "{offset:.3g} characters"
 msgstr[0] "{offset:.3g} 个字符"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1909
+#: NVDAObjects\window\winword.py:1903
 #, python-brace-format
 msgid "{offset:.3g} inch"
 msgid_plural "{offset:.3g} inches"
 msgstr[0] "{offset:.3g} 英寸"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1917
+#: NVDAObjects\window\winword.py:1911
 #, python-brace-format
 msgid "{offset:.3g} centimeter"
 msgid_plural "{offset:.3g} centimeters"
 msgstr[0] "{offset:.3g} 厘米"
 
 #. Translators: a measurement in Microsoft Word
-#: NVDAObjects\window\winword.py:1925
+#: NVDAObjects\window\winword.py:1919
 #, python-brace-format
 msgid "{offset:.3g} millimeter"
 msgid_plural "{offset:.3g} millimeters"
 msgstr[0] "{offset:.3g} 毫米"
 
 #. Translators: a measurement in Microsoft Word (points)
-#: NVDAObjects\window\winword.py:1931
+#: NVDAObjects\window\winword.py:1925
 #, python-brace-format
 msgid "{offset:.3g} pt"
 msgstr "{offset:.3g} pt"
 
 #. Translators: a measurement in Microsoft Word
 #. See http://support.microsoft.com/kb/76388 for details.
-#: NVDAObjects\window\winword.py:1937
+#: NVDAObjects\window\winword.py:1931
 #, python-brace-format
 msgid "{offset:.3g} pica"
 msgid_plural "{offset:.3g} picas"
 msgstr[0] "{offset:.3g} 十二点活字"
 
 #. Translators: a message when switching to single line spacing  in Microsoft word
-#: NVDAObjects\window\winword.py:1955
+#: NVDAObjects\window\winword.py:1949
 msgid "Single line spacing"
 msgstr "单倍行距"
 
 #. Translators: a message when switching to double line spacing  in Microsoft word
-#: NVDAObjects\window\winword.py:1958
+#: NVDAObjects\window\winword.py:1952
 msgid "Double line spacing"
 msgstr "2 倍行距"
 
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
-#: NVDAObjects\window\winword.py:1961
+#: NVDAObjects\window\winword.py:1955
 msgid "1.5 line spacing"
 msgstr "1.5 倍行距"
 
 #. Translators: a message when toggling paragraph spacing in Microsoft word
-#: NVDAObjects\window\winword.py:1976
+#: NVDAObjects\window\winword.py:1970
 #, python-brace-format
 msgid "{val:g} pt space before paragraph"
 msgstr "{val:g} pt 段落前空格"
@@ -18648,24 +18663,24 @@ msgstr "启用高亮显示(&E)"
 
 #. Translators: Name for a vision enhancement provider that disables output to the screen,
 #. making it black.
-#: visionEnhancementProviders\screenCurtain.py:99
+#: visionEnhancementProviders\screenCurtain.py:91
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: Description for a Screen Curtain setting that shows a warning when loading
 #. the screen curtain.
-#: visionEnhancementProviders\screenCurtain.py:103
+#: visionEnhancementProviders\screenCurtain.py:95
 msgid "Always &show a warning when loading Screen Curtain"
 msgstr "开启黑屏时始终显示警告(&S)"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: visionEnhancementProviders\screenCurtain.py:106
+#: visionEnhancementProviders\screenCurtain.py:98
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: A warning shown when activating the screen curtain.
 #. the translation of "Screen Curtain" should match the "translated name"
-#: visionEnhancementProviders\screenCurtain.py:139
+#: visionEnhancementProviders\screenCurtain.py:131
 msgid ""
 "Enabling Screen Curtain will make the screen of your computer completely "
 "black. Ensure you will be able to navigate without any use of your screen "
@@ -18678,7 +18693,7 @@ msgstr ""
 "您想继续吗？"
 
 #. Translators: option to enable screen curtain in the vision settings panel
-#: visionEnhancementProviders\screenCurtain.py:241
+#: visionEnhancementProviders\screenCurtain.py:233
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
