@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-29 04:51+0000\n"
-"PO-Revision-Date: 2024-12-01 13:21+0800\n"
+"POT-Creation-Date: 2024-12-03 00:18+0000\n"
+"PO-Revision-Date: 2024-12-03 09:32+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3942,10 +3942,8 @@ msgstr "读出输入单词"
 
 #. Translators: Input help mode message for toggle speak command keys command.
 #: globalCommands.py:572
-msgid ""
-"Toggles on and off the speaking of typed keys, that are not specifically "
-"characters"
-msgstr "切换“读出命令键”的开关（不包含字符）"
+msgid "Toggles on and off the speaking of command keys"
+msgstr "切换“读出命令键”的开关"
 
 #. Translators: The message announced when toggling the speak typed command keyboard setting.
 #: globalCommands.py:579
@@ -15815,7 +15813,7 @@ msgstr "移动焦点和导航对象到最后一行"
 msgid "Composition"
 msgstr "上屏"
 
-#: NVDAObjects\IAccessible\__init__.py:2452
+#: NVDAObjects\IAccessible\__init__.py:2458
 msgid "Taskbar"
 msgstr "任务栏"
 
@@ -18805,6 +18803,11 @@ msgstr "剩余 {hourText} {minuteText}"
 #: winAPI\secureDesktop.py:53
 msgid "Secure Desktop"
 msgstr "安全桌面"
+
+#~ msgid ""
+#~ "Toggles on and off the speaking of typed keys, that are not specifically "
+#~ "characters"
+#~ msgstr "切换“读出命令键”的开关（不包含字符）"
 
 #~ msgid "Toggles other applications volume adjuster status"
 #~ msgstr "切换其他应用音量控制的状态"
