@@ -16721,9 +16721,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#GeneralSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>General</source>
-        <target>常规设置</target>
+        <target>常规</target>
       </segment>
     </unit>
     <unit id="00b4769b-5974-4110-8827-4d83408eaa3e">
@@ -17328,9 +17328,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#SpeechSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Speech Settings</source>
-        <target>语音设置</target>
+        <target>语音</target>
       </segment>
     </unit>
     <unit id="eaee68a2-affc-4ba1-b3c3-9bc690646292">
@@ -17357,27 +17357,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1837</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Speech category in the NVDA Settings dialog contains options that lets you change the speech synthesizer as well as voice characteristics for the chosen synthesizer.</source>
-        <target>语音这个分类，允许您选择 NVDA 应该用来输出语音的合成器，并且更改合成器的设置。</target>
+        <target>该类别可用于选择 NVDA 用来输出语音的合成器，更改所选合成器的设置。</target>
       </segment>
     </unit>
     <unit id="a3bce64e-8364-4f6b-ba5b-46e2da10bb19">
       <notes>
         <note appliesTo="source">line: 1838</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>For a quicker alternative way of controlling speech parameters from anywhere, please see the [Synth Settings Ring](#SynthSettingsRing) section.</source>
-        <target>希望在任何地方使用另外一种更快的方式切换语音参数，请查看[循环切换合成器设置](#SynthSettingsRing)章节。</target>
+        <target>如需随时使用快捷键切换语音参数，请查看[循环切换合成器设置](#SynthSettingsRing)章节。</target>
       </segment>
     </unit>
     <unit id="d7d99b83-f532-4170-8b8b-2a3b32de1c45">
       <notes>
         <note appliesTo="source">line: 1840</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Speech Settings category contains the following options:</source>
-        <target>这个分类包含以下选项：</target>
+        <target>该类别包含以下选项：</target>
       </segment>
     </unit>
     <unit id="befe1061-31be-4fc5-a3b4-30b8d2893711">
@@ -17395,27 +17395,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1844</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The first option in the Speech Settings category is the Change... button. This button activates the [Select Synthesizer](#SelectSynthesizer) dialog, which allows you to select the active speech synthesizer and output device.</source>
-        <target>这个分类第一个选项就是修改按钮，点击它可以打开[选择语音合成器](#SelectSynthesizer)对话框，您可以在其中更改语音合成器以及语音输出设备。</target>
+        <target>点击该按钮，可以打开[选择语音合成器](#SelectSynthesizer)对话框，您可以在其中选择其他语音合成器。</target>
       </segment>
     </unit>
     <unit id="2dede44c-2edf-4f2c-a6d1-861f5c791cfc">
       <notes>
         <note appliesTo="source">line: 1845</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This dialog opens on top of the NVDA Settings dialog.</source>
-        <target>这个对话框会出现在 NVDA 设置对话框上面。</target>
+        <target>此对话框会出现在 NVDA 设置对话框上面。</target>
       </segment>
     </unit>
     <unit id="5dd3e694-f979-4e68-976e-ccdaf523780e">
       <notes>
         <note appliesTo="source">line: 1846</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Saving or dismissing the settings in the Select Synthesizer dialog will return you to the NVDA Settings dialog.</source>
-        <target>保存或者更改合成器设置之后，会回到NVDA设置对话框。</target>
+        <target>在此对话框保存或取消设置后，会返回 NVDA 设置对话框。</target>
       </segment>
     </unit>
     <unit id="750b6a44-1fbb-46a4-82d8-d874503eed8d">
@@ -17433,9 +17433,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1850</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Voice option is a combo box listing all the voices of the current synthesizer that you have installed.</source>
-        <target>这个选项是一个组合框列举了当前合成器安装的所有语音。</target>
+        <target>这个组合框列举了当前合成器安装的所有语音。</target>
       </segment>
     </unit>
     <unit id="27f479dd-62b2-4f43-a96b-7504090f0c90">
@@ -17471,18 +17471,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1856</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you are using the Espeak NG synthesizer which is packaged with NVDA, this is a combo box that allows you to select the Variant the synthesizer should speak with.</source>
-        <target>如果您正在使用 NVDA 内置的 Espeak NG，您可以使用此组合框来选择语音输出时采用的声音。</target>
+        <target>如果您正在使用 NVDA 内置的 ESpeak NG，您可以使用此组合框来选择语音输出时采用的声音。</target>
       </segment>
     </unit>
     <unit id="3fc9f80d-d149-4e21-a497-0b1ff2fe9de3">
       <notes>
         <note appliesTo="source">line: 1857</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>ESpeak NG's Variants are rather like voices, as they provide slightly different attributes to the eSpeak NG voice.</source>
-        <target>Espeak NG的“变声”跟“语音”很像，您可以使用此组合框来选择其他的声音变体。因为其提供了跟“语音”略有不同的一些属性。</target>
+        <target>ESpeak NG的“变声”跟“语音”很像，您可以使用此组合框来选择其他的声音变体。因为其提供了跟“语音”略有不同的一些属性。</target>
       </segment>
     </unit>
     <unit id="132e2520-0b06-4685-b4a9-49c4da804dbb">
@@ -17498,9 +17498,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1859</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If using a third-party synthesizer, you may also be able to change this value if your chosen voice supports it.</source>
-        <target>若使用第三方合成器，如果您选择的语音支持的话，您也可以调节此选项。</target>
+        <target>若使用第三方合成器，如果您选择的语音支持，您也可以调节此选项。</target>
       </segment>
     </unit>
     <unit id="90e0595b-141d-4a65-b58d-d5f50a2a6a5f">
@@ -17527,9 +17527,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1864</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This is a slider that goes from 0 to 100 - 0 being the slowest, 100 being the fastest.</source>
-        <target>这是一个从 0 到 100 的滑块，0 的时候最慢，100 的时候最快。</target>
+        <target>这是一个从 0 到 100 的滑块，0 最慢，100 最快。</target>
       </segment>
     </unit>
     <unit id="111fde71-f9a1-4dca-a91c-95673e43cd77">
@@ -17558,27 +17558,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SpeechSettingsPitch}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Pitch</source>
-        <target>语调</target>
+        <target>音调</target>
       </segment>
     </unit>
     <unit id="c9a3906b-0a51-46c7-a782-48c2e55985b1">
       <notes>
         <note appliesTo="source">line: 1872</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option allows you to change the pitch of the current voice.</source>
-        <target>此选项允许您更改当前语音的语调。</target>
+        <target>此选项允许您更改当前语音的音调。</target>
       </segment>
     </unit>
     <unit id="720311d4-9f65-4e71-a458-496195b689dc">
       <notes>
         <note appliesTo="source">line: 1873</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>It is a slider which goes from 0 to 100 - 0 being the lowest pitch and 100 being the highest.</source>
-        <target>这是一个从 0 到 100 的滑块，0 的时候最低，100 的时候最高。</target>
+        <target>这是一个从 0 到 100 的滑块，0 最低，100 最高。</target>
       </segment>
     </unit>
     <unit id="d3cd6ae2-2d6c-4ad6-b431-4fd9ee85e455">
@@ -17596,9 +17596,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1877</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is a slider which goes from 0 to 100 - 0 being the lowest volume and 100 being the highest.</source>
-        <target>这是一个从 0 到 100 的滑块，0 的时候音量最小，100 的时候最大。</target>
+        <target>这是一个从 0 到 100 的滑块，0 音量最小，100 音量最大。</target>
       </segment>
     </unit>
     <unit id="c0bf8a3e-5712-4bfb-93e5-5df2bc0914e8">
@@ -17607,18 +17607,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SpeechSettingsInflection}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Inflection</source>
-        <target>变调</target>
+        <target>声调</target>
       </segment>
     </unit>
     <unit id="3acdb542-b74f-44d7-b53e-a396901c7d51">
       <notes>
         <note appliesTo="source">line: 1881</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is a slider that lets you choose how much inflection (rise and fall in pitch) the synthesizer should use to speak with.</source>
-        <target>此选项是一个滑块，允许您选择合成器进行语音输出时使用的语调的变化（最高和最低音调之差的大小）（ 在目前提供此选项的合成器仅有 eSpeak NG）</target>
+        <target>此选项是一个滑块，允许您选择合成器进行语音输出时使用的语调的变化（最高和最低音调之差的大小）。</target>
       </segment>
     </unit>
     <unit id="aefb6bcc-25d5-4cba-bc91-f2f8c73e756a">
@@ -17665,18 +17665,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1890</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This checkbox allows you to toggle whether or not dialect changes should be made, rather than just actual language changes.</source>
-        <target>此复选框允许您定义是否自动的进行方言切换，而不是语言。</target>
+        <target>此复选框允许您定义是否自动进行方言切换，而不仅是语言。</target>
       </segment>
     </unit>
     <unit id="d628b3e4-e181-4d8b-ac05-382be5f76f9b">
       <notes>
         <note appliesTo="source">line: 1891</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>For example, if reading in an English U.S. voice but a document specifies that some text is in English U.K., then the synthesizer will switch accents if this option is enabled.</source>
-        <target>例如，如果您正在使用一个美国英语的合成器语音进行阅读，而文档指定某些文字是英国英语的，口音就会被改变，前提是此选项被启用。</target>
+        <target>例如，如果您正在使用一个美国英语的合成器语音进行阅读，而文档指定某些文字是英国英语的，如启用此选项，口音就会被改变。</target>
       </segment>
     </unit>
     <unit id="4b0e1070-81d0-46cc-982e-0fb4e012ddd6">
@@ -17694,9 +17694,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SpeechSettingsSymbolLevel}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Punctuation/Symbol Level</source>
-        <target>标点/符号 级别</target>
+        <target>标点符号 级别</target>
       </segment>
     </unit>
     <unit id="ab6d5119-2cd5-4ccf-8f04-dca2ee0cb02a">
@@ -17759,9 +17759,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1907</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you find that NVDA is reading punctuation in the wrong language for a particular synthesizer or voice, you may wish to turn this off to force NVDA to use its global language setting instead.</source>
-        <target>如果您发现 NVDA 在使用特定的合成器或声音读出某标点时使用了错误的语言，您可能希望把它关闭并强制 NVDA 使用其自身的本地设置来代替语音语言译者注：对于vocalizer和vocalizer express的语音库而言此设置无效。</target>
+        <target>如果您发现 NVDA 在使用特定的合成器或声音读出某标点时使用了错误的语言，您可能希望把它关闭并强制 NVDA 使用其自身的本地设置来代替语音语言。</target>
       </segment>
     </unit>
     <unit id="b32b47e9-75ae-464e-a49c-6c304dad609a">
@@ -17924,9 +17924,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1933</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To toggle Unicode normalization from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>如需切换 Unicode 正规化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义手势。</target>
+        <target>如需随时切换 Unicode 正规化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="50f3a4ca-fb8b-4154-b9ed-44d4aecc86b6">
@@ -18246,9 +18246,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Enabled, Disabled</source>
-        <target>可选 | 禁用、启用</target>
+        <target>选项 | 禁用、启用</target>
       </segment>
     </unit>
     <unit id="8f97a86f-57b8-4a66-a445-78b156164f3a">
@@ -18389,27 +18389,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2014</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Synthesizer dialog, which can be opened by activating the Change... button in the speech category of the NVDA settings dialog, allows you to select which Synthesizer NVDA should use to speak with.</source>
-        <target>在语音分类里面点击“修改...”按钮，就会打开此对话框。您可以在这里更改 NVDA 使用的语音合成器。</target>
+        <target>在语音类别中点击“修改”按钮，就会打开此对话框。您可以在这里更改 NVDA 使用的语音合成器。</target>
       </segment>
     </unit>
     <unit id="168b59d1-ebe1-4ac7-a180-9f7be744df12">
       <notes>
         <note appliesTo="source">line: 2015</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Once you have selected your synthesizer of choice, you can press Ok and NVDA will load the selected Synthesizer.</source>
-        <target>当您选中想用的合成器之后，点击“确认”按钮，NVDA 将载入您选择的合成器。</target>
+        <target>当您选中想要的合成器后，点击“确认”按钮，NVDA 将加载您选择的合成器。</target>
       </segment>
     </unit>
     <unit id="d51ad96b-807a-451c-8bd6-2c6c368ef8c7">
       <notes>
         <note appliesTo="source">line: 2016</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If there is an error loading the synthesizer, NVDA will notify you with a message, and continue using the previous synthesizer.</source>
-        <target>如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的合成器。</target>
+        <target>如加载时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的合成器。</target>
       </segment>
     </unit>
     <unit id="ebce348e-520d-411f-bdfd-a9ca45a969a7">
@@ -18427,9 +18427,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2020</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option allows you to choose the synthesizer you wish NVDA to use for speech output.</source>
-        <target>此选项允许您选择 NVDA 控制合成器进行语音输出时使用的语音合成器。</target>
+        <target>此选项允许您选择 NVDA 语音输出时使用的语音合成器。</target>
       </segment>
     </unit>
     <unit id="c5cbae30-86bb-4964-9674-4b8af9a064da">
@@ -18454,9 +18454,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2025</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This may be useful for someone who wishes to only use NVDA with braille, or perhaps to sighted developers who only wish to use the Speech Viewer.</source>
-        <target>此选项可能对那些只想用盲文输出的用户或者只想用“语音查看器”查看语音内容的开发者来说非常有用。</target>
+        <target>此选项对于只想用盲文输出的用户或者只想用“语音查看器”查看语音内容的开发者来说非常有用。</target>
       </segment>
     </unit>
     <unit id="8aff8acf-8923-41f0-9ffd-053f46f052f7">
@@ -18474,9 +18474,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2029</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you wish to quickly change speech settings without going to the Speech category of the NVDA settings dialog, there are some NVDA key commands that allow you to move through the most common speech settings from anywhere while running NVDA:</source>
-        <target>NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框的情况下对最常用的语音选项在任何地方进行修改，可以使用下面提供的快捷键：</target>
+        <target>如果您想在不进入“语音设置”对话框的情况下随时对最常用的语音选项进行修改，可以使用下列快捷键：</target>
       </segment>
     </unit>
     <unit id="ed46d691-1a69-4200-8f54-698ee58f5673">
@@ -18496,9 +18496,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to next synth setting |NVDA+control+rightArrow |NVDA+shift+control+rightArrow |Moves to the next available speech setting after the current, wrapping around to the first setting again after the last</source>
-        <target>移动到下一个合成器选项 | NVDA+control+右光标 | NVDA+shift+control+右光标 | 移动到当前选项的下一个可用的语音选项</target>
+        <target>移动到下一个合成器设置 | `NVDA+control+右光标` | `NVDA+shift+control+右光标` | 移动到当前设置的下一个可用的语音设置，移动到最后一个设置后会再次循环至第一个</target>
       </segment>
     </unit>
     <unit id="81d1af71-e32c-4ff8-9198-37169dc6ec71">
@@ -18507,9 +18507,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to previous synth setting |NVDA+control+leftArrow |NVDA+shift+control+leftArrow |Moves to the next available speech setting before the current, wrapping around to the last setting after the first</source>
-        <target>移动到上一个合成器选项 | NVDA+control+左光标 | NVDA+shift+control+左光标 | 移动到当前选项的上一个可用的语音选项</target>
+        <target>移动到上一个合成器设置 | `NVDA+control+左光标` |`NVDA+shift+control+左光标` | 移动到当前设置的上一个可用的语音设置，移动到第一个设置后会再次循环至最后一个</target>
       </segment>
     </unit>
     <unit id="ca76c7fe-a255-4308-82cf-45e012800854">
@@ -18518,9 +18518,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Increment current synth setting |NVDA+control+upArrow |NVDA+shift+control+upArrow |increases the current speech setting you are on. E.g. increases the rate, chooses the next voice, increases the volume</source>
-        <target>增加当前合成器选项的值 | NVDA+control+上光标 | NVDA+shift+control+上光标 | 增大当前所在选项的值，例如加快速度，选择下一个语音，增大音量</target>
+        <target>增加当前合成器设置的值 | `NVDA+control+上光标` |`NVDA+shift+control+上光标` | 增加当前所在语音设置的值，例如加快速度，选择下一个语音，增大音量</target>
       </segment>
     </unit>
     <unit id="0b644ec6-08c0-42fb-8cb2-6e5db8c1eb8f">
@@ -18540,9 +18540,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Decrement current synth setting |NVDA+control+downArrow |NVDA+shift+control+downArrow |decreases the current speech setting you are on. E.g. decreases the rate, chooses the previous voice, decreases the volume</source>
-        <target>减小当前合成器选项的值 | NVDA+control+下光标 | NVDA+shift+control+下光标 | 减小当前所在选项的值，例如减慢速度，选择上一个语音，减小音量</target>
+        <target>减小当前合成器设置的值 | `NVDA+control+下光标` |`NVDA+shift+control+下光标` | 减小当前所在语音设置的值，例如减慢速度，选择上一个语音，减小音量</target>
       </segment>
     </unit>
     <unit id="b4f4e78e-0883-42aa-87c7-1907b6377c6e">
@@ -18571,18 +18571,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2045</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Braille category in the NVDA Settings dialog contains options that let you change several aspects of braille input and output.</source>
-        <target>您可以在 NVDA 设置对话框的盲文分类下，更改点显器相关的设置。</target>
+        <target>该类别用于更改盲文输入和输出的相关设置。</target>
       </segment>
     </unit>
     <unit id="e7f6beba-b401-436d-9c65-dcb1786eb4a7">
       <notes>
         <note appliesTo="source">line: 2046</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This category contains the following options:</source>
-        <target>这个分类包含以下选项：</target>
+        <target>该类别包含以下选项：</target>
       </segment>
     </unit>
     <unit id="cac08aa5-f020-47df-8cf8-3d526ba3d8a8">
@@ -18600,27 +18600,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2050</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Change... button in the Braille category of the NVDA Settings dialog activates the [Select Braille Display](#SelectBrailleDisplay) dialog, which allows you to select the active braille display.</source>
-        <target>按下盲文分类内的更改按钮，就会打开[选择点显器](#SelectBrailleDisplay)对话框。</target>
+        <target>按下该按钮，将打开[选择盲文点显器](#SelectBrailleDisplay)对话框。</target>
       </segment>
     </unit>
     <unit id="b1cd2cc1-a2a1-4bf9-a2c0-6197163c21f9">
       <notes>
         <note appliesTo="source">line: 2051</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This dialog opens on top of the NVDA Settings dialog.</source>
-        <target>这个对话框会出现在 NVDA 设置对话框上面。</target>
+        <target>此对话框会出现在 NVDA 设置对话框上面。</target>
       </segment>
     </unit>
     <unit id="031052d1-58ea-4e58-b3fd-a4f554e4044a">
       <notes>
         <note appliesTo="source">line: 2052</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Saving or dismissing the settings in the Select Braille Display dialog will return you to the NVDA Settings dialog.</source>
-        <target>保存或者更改点显器设置之后，会回到 NVDA 设置对话框。</target>
+        <target>在此对话框保存或取消设置后，会返回 NVDA 设置对话框。</target>
       </segment>
     </unit>
     <unit id="8a1150f1-0cab-407c-b0eb-c7a6319a4cba">
