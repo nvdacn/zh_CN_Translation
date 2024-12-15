@@ -9948,9 +9948,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 702</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The most common way of navigating around Windows with NVDA is to simply move the system focus using standard Windows keyboard commands, such as pressing tab and shift+tab to move forward and back between controls, pressing alt to get to the menu bar and then using the arrows to navigate menus, and using alt+tab to move between running applications.</source>
-        <target>使用 NVDA 在 Windows 系统中导航的最常用方法是使用标准的系统键盘命令简单的移动系统焦点，如使用 Tab 或者 Shift+Tab 在控件之间前后移动、按下 Alt 转到菜单栏后使用方向键在菜单中导航和使用 Alt+Tab 在正在运行的程序之间切换。</target>
+        <target>使用 NVDA 在 Windows 系统中导航的最常用方法是使用标准的系统键盘命令简单的移动系统焦点，如使用 Tab 或者 Shift+Tab 在控件之间前后移动、按下 Alt 转到菜单栏后使用光标键在菜单中导航和使用 Alt+Tab 在正在运行的程序之间切换。</target>
       </segment>
     </unit>
     <unit id="c8a54a23-0f79-4360-8497-3afaa82f7947">
@@ -10070,9 +10070,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 723</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When the focus is on an object that has the system caret, you can use the arrow keys, page up, page down, home, end, etc. to move through the text.</source>
-        <target>当焦点在一个拥有输入焦点的对象上时，您可以使用方向键、上翻页、下翻页、行首、行尾等等按键在文本之间移动。</target>
+        <target>当焦点在一个拥有输入焦点的对象上时，您可以使用光标键、上翻页、下翻页、行首、行尾等等按键在文本之间移动。</target>
       </segment>
     </unit>
     <unit id="01599c90-d1df-40f9-b0e3-1bb78938adc4">
@@ -10141,9 +10141,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read current text selection |NVDA+Shift+upArrow |NVDA+shift+s |Reads any currently selected text</source>
-        <target>朗读文本格式 |NVDA+f |NVDA+f |朗读系统输入焦点当前位置的文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
+        <target>朗读当前选择的文本 |NVDA+Shift+上光标 |NVDA+shift+s |朗读当前选择的所有文本</target>
       </segment>
     </unit>
     <unit id="5410c0d1-f10a-4ef4-a914-3d37e0930862">
@@ -10152,9 +10152,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report text formatting |NVDA+f |NVDA+f |Reports the formatting of the text where the caret is currently situated. Pressing twice shows the information in browse mode</source>
-        <target>读出链接网址 |NVDA+k |NVDA+k |读出当前光标或焦点所在链接指向的网址。连按两次在浏览模式下显示该信息，便于仔细查看</target>
+        <target>朗读文本格式 |NVDA+f |NVDA+f |朗读系统输入焦点当前位置的文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
       </segment>
     </unit>
     <unit id="9df76723-e7c4-4e1b-aa7a-65a16cb3c311">
@@ -10163,9 +10163,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report link destination |`NVDA+k` |`NVDA+k` |Pressing once speaks the destination URL of the link at the current caret or focus position. Pressing twice shows it in a window for more careful review</source>
-        <target>读出系统光标的位置信息 | `NVDA+数字键盘删除` | `NVDA+删除` | 读出系统光标处文本或对象的位置信息。例如，可能包括光标位置在文档内的百分比、与页面边缘的距离或确切的屏幕位置。连按两次获取详细信息</target>
+        <target>读出链接网址 |NVDA+k |NVDA+k |读出当前光标或焦点所在链接指向的网址。连按两次在浏览模式下显示该信息，便于仔细查看</target>
       </segment>
     </unit>
     <unit id="2a490217-b233-4a4f-a523-08c5f31232a6">
@@ -10174,9 +10174,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report caret location |NVDA+numpadDelete |NVDA+delete |Reports information about the location of the text or object at the position of system caret. For example, this might include the percentage through the document, the distance from the edge of the page or the exact screen position. Pressing twice may provide further detail.</source>
-        <target>朗读当前选择的文本 |NVDA+Shift+上光标 |NVDA+shift+s |朗读当前选择的所有文本。</target>
+        <target>读出输入焦点的位置信息 | `NVDA+数字键盘删除` | `NVDA+删除` | 读出系统输入焦点处文本或对象的位置信息。例如，可能包括输入焦点位置在文档内的百分比、与页面边缘的距离或确切的屏幕位置。连按两次获取详细信息。</target>
       </segment>
     </unit>
     <unit id="d1c8387b-90cf-464d-821d-583c2a373e34">
@@ -10185,9 +10185,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Next sentence |alt+downArrow |alt+downArrow |Moves the caret to the next sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>下一个句子 |alt+下光标 |alt+下光标 |移动系统焦点到下一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>下一个句子 |alt+下光标 |alt+下光标 |移动输入焦点到下一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="18d6985b-ec14-4b1b-af15-5500989ce367">
@@ -10196,18 +10196,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Previous sentence |alt+upArrow |alt+upArrow |Moves the caret to the previous sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>上一个句子 |alt+上光标 |alt+上光标 |移动系统焦点到上一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>上一个句子 |alt+上光标 |alt+上光标 |移动输入焦点到上一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="f2c5e713-d2a2-4c3e-8d24-898fa503ee8e">
       <notes>
         <note appliesTo="source">line: 741</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When within a table, the following key commands are also available:</source>
-        <target>当处于一个列表之内时，下面的键盘命令也是可用的：</target>
+        <target>当处于一个列表之内时，还可使用以下键盘命令：</target>
       </segment>
     </unit>
     <unit id="3721a417-e94a-4e20-97d0-c4c477d430e6">
@@ -10368,18 +10368,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 762</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Most of the time, you will work with applications using commands which move the [focus](#SystemFocus) and the [caret](#SystemCaret).</source>
-        <target>很多时候，您会在与某个程序进行交互时使用一些需要移动[焦点](#SystemFocus)和[系统输入焦点](#SystemCaret)的命令。</target>
+        <target>很多时候，您会在与某个程序进行交互时使用一些需要移动[焦点](#SystemFocus)和[输入焦点](#SystemCaret)的命令。</target>
       </segment>
     </unit>
     <unit id="7460b2f3-c8b2-4db4-b4c9-9d0de66e25e3">
       <notes>
         <note appliesTo="source">line: 763</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>However, sometimes, you may wish to explore the current application or the Operating System without moving the focus or caret.</source>
-        <target>然而，有时候，您会希望在不移动焦点和系统输入焦点的情况下浏览当前的应用程序或者操作系统。</target>
+        <target>然而，有时候，您会希望在不移动焦点和输入焦点的情况下浏览当前的应用程序或者操作系统。</target>
       </segment>
     </unit>
     <unit id="e56e77af-77b5-484b-b589-742ee079f031">
@@ -10404,9 +10404,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 767</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Object navigation allows you to move between and obtain information about individual [objects](#Objects).</source>
-        <target>对象导航允许您在[对象](#Objects)之间进行浏览并获取每个对象的信息。</target>
+        <target>对象导航允许您在[对象](#Objects)之间进行移动并获取每个对象的信息。</target>
       </segment>
     </unit>
     <unit id="efe6eabd-cd3d-4115-bfe1-c14ab055f9e1">
@@ -10424,7 +10424,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>For a way to review all text as it appears on the screen, you can instead use [screen review](#ScreenReview).</source>
-        <target>查看出现在屏幕上的所有文本的方法就是使用[屏幕查看](#ScreenReview)。</target>
+        <target>要查看屏幕上显示的所有文本，您可以使用[屏幕查看](#ScreenReview)。</target>
       </segment>
     </unit>
     <unit id="64ca7394-daf8-4300-bb0d-4198da6518fc">
@@ -10541,7 +10541,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>The object currently being reviewed is called the navigator object.</source>
-        <target>当前移动到的对象被称为导航对象。</target>
+        <target>当前正在查看的对象被称为导航对象。</target>
       </segment>
     </unit>
     <unit id="bbce6dc2-c51f-44fa-9c93-bb9c94e2707f">
@@ -10584,9 +10584,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 792</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To navigate by object, use the following commands:</source>
-        <target>若想使用对象导航，可使用下列命令：</target>
+        <target>若要使用对象导航，可使用下列命令：</target>
       </segment>
     </unit>
     <unit id="d4d52b6d-3ad1-4632-9c5e-b85477795049">
@@ -10683,9 +10683,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to focus object |NVDA+numpadMinus |NVDA+backspace |none |Moves to the object that currently has the system focus, and also places the review cursor at the position of the System caret, if it is showing</source>
-        <target>移动到焦点对象 | NVDA+数字键盘减号 | NVDA+退格 | 无 | 移动到当前包含焦点的对象，也会放置在系统输入焦点的位置（如果有显示）</target>
+        <target>移动到焦点对象 | NVDA+数字键盘减号 | NVDA+退格 | 无 | 移动到系统焦点所在的对象，也会将查看光标移动到系统输入焦点的所在处（如果有显示）</target>
       </segment>
     </unit>
     <unit id="02f43332-dbef-4a8a-831c-592667c68a02">
@@ -11407,18 +11407,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 917</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The further left or right the mouse is located on the screen, the further left or right the sound will be played (assuming the user has stereo speakers or headphones).</source>
-        <target>鼠标所在位置的左右距离，用提示音的左右方位来表示（假设用户拥有立体声喇叭或者耳机）。</target>
+        <target>鼠标所在位置的左右距离，用提示音的左右方位来表示（假设用户拥有立体声扬声器或耳机）。</target>
       </segment>
     </unit>
     <unit id="4aec3a12-f83b-4a21-b420-3ebd77361b9f">
       <notes>
         <note appliesTo="source">line: 919</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>These extra mouse features are not turned on by default in NVDA.</source>
-        <target>NVDA 这些额外的鼠标特性默认情况下是关闭的。</target>
+        <target>NVDA 这些额外的鼠标特性默认情况下为关闭状态。</target>
       </segment>
     </unit>
     <unit id="f0a2feae-4c46-4509-899a-cfe777172fbf">
@@ -11546,7 +11546,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move mouse to current navigator object |NVDA+numpadDivide |NVDA+shift+m |none |Moves the mouse to the location of the current navigator object and review cursor</source>
-        <target>移动鼠标到当前导航对象 | NVDA+数字键盘斜杠 | NVDA+shift+m | 无 | 移动鼠标到查看光标和当前导航对象所在的位置</target>
+        <target>移动鼠标到当前导航对象 | NVDA+数字键盘斜杠 | NVDA+shift+m | 无 | 移动鼠标到当前导航对象和查看光标的所在处</target>
       </segment>
     </unit>
     <unit id="5365c824-75be-4ba1-94d8-a0293a1411d8">
@@ -11555,9 +11555,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Navigate to the object under the mouse |NVDA+numpadMultiply |NVDA+shift+n |none |Set the navigator object to the object located at the position of the mouse</source>
-        <target>移动到鼠标下方的对象 | NVDA+数字键盘星号 | NVDA+shift+n | 无 | 设置导航对象到鼠标所在位置</target>
+        <target>移动到鼠标下方的对象 | NVDA+数字键盘星号 | NVDA+shift+n | 无 | 设置导航对象到鼠标的所在位置</target>
       </segment>
     </unit>
     <unit id="48c90ca3-a104-4fd4-bca4-af089a2a1848">
