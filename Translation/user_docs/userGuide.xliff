@@ -18591,9 +18591,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsChange}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Change braille display</source>
-        <target>更改点显器</target>
+        <target>更改盲文点显器</target>
       </segment>
     </unit>
     <unit id="6ed9f2c0-79f1-402b-b990-710ae9c0c078">
@@ -18638,9 +18638,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2056</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The next option you will come to in this category is the braille output table combo box.</source>
-        <target>这个分类的下一个选项就是“输出表”组合框。</target>
+        <target>这个类别的下一个选项是“输出表”组合框。</target>
       </segment>
     </unit>
     <unit id="b9dd45c3-e5b2-4dae-8ec2-a017f18c6556">
@@ -18770,7 +18770,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>When follow cursors is selected, the braille display will follow either the system focus/caret or the navigator object/review cursor, depending on what braille is tethered to.</source>
-        <target>选择跟随光标后，盲文点显器将跟随系统焦点/系统输入光标或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
+        <target>选择跟随光标后，盲文点显器将跟随系统焦点/输入焦点或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
       </segment>
     </unit>
     <unit id="52d88a5e-4e39-4a6a-93d4-8dc82422aa04">
@@ -19105,16 +19105,16 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move system caret when routing review cursor</source>
-        <target>移动查看光标时移动系统输入光标</target>
+        <target>移动查看光标时移动系统输入焦点</target>
       </segment>
     </unit>
     <unit id="b089cc37-a9d0-4b76-93d3-29b98b24d035">
       <notes>
         <note appliesTo="source">line: 2141</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This setting determines if the system caret should also be moved with a routing button press.</source>
-        <target>此设置决定是否应该在按下盲文点显器上的定位按键后移动系统光标。</target>
+        <target>此设置决定是否应该在按下盲文点显器上的定位按键后移动系统输入焦点。</target>
       </segment>
     </unit>
     <unit id="c584e728-9e32-48a9-8a4d-79c857e2e618">
@@ -19123,7 +19123,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>This option is set to Never by default, meaning that routing will never move the caret when routing the review cursor.</source>
-        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动系统光标。</target>
+        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动输入焦点。</target>
       </segment>
     </unit>
     <unit id="18819352-c975-41e2-90ca-8b90ce810da5">
@@ -19132,7 +19132,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>When this option is set to Always, and [braille tethering](#BrailleTether) is set to "automatically" or "to review", pressing a cursor routing key will also move the system caret or focus when supported.</source>
-        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统光标或系统焦点。</target>
+        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统输入焦点或系统焦点。</target>
       </segment>
     </unit>
     <unit id="46ca02cd-2af4-499f-8602-bcbd2ff791cc">
@@ -19141,7 +19141,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>When the current review mode is [Screen Review](#ScreenReview), there is no physical caret.</source>
-        <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理光标。</target>
+        <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理输入焦点。</target>
       </segment>
     </unit>
     <unit id="f8faf4f6-91a5-418b-bf22-a0e188491b12">
@@ -19166,9 +19166,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2149</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can also set this option to only move the caret when tethered automatically.</source>
-        <target>您还可以将该选项设置为“仅当盲文光标设为自动跟随时”移动系统光标。</target>
+        <target>您还可以将该选项设置为“仅当盲文光标设为自动跟随时”移动输入焦点。</target>
       </segment>
     </unit>
     <unit id="cbb48d99-500d-4aca-a29a-ac5e1706e9b3">
@@ -19177,7 +19177,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>In that case, pressing a cursor routing key will only move the system caret or focus when NVDA is tethered to the review cursor automatically, whereas no movement will occur when manually tethered to the review cursor.</source>
-        <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统光标或系统焦点，而手动跟随到查看光标时不会发生任何移动。</target>
+        <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统输入焦点或系统焦点，而手动跟随到查看光标时不会发生任何移动。</target>
       </segment>
     </unit>
     <unit id="e84a54fe-a113-409d-9f14-106f86f7c453">
@@ -19195,7 +19195,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>To toggle move system caret when routing review cursor from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>如需在任意位置随意切换“移动查看光标时移动系统输入光标”模式，请在[按键与首饰](#InputGestures)中分配一个快捷键。</target>
+        <target>如需在任意位置随意切换“移动查看光标时移动系统输入焦点”模式，请在[按键与首饰](#InputGestures)中分配一个快捷键。</target>
       </segment>
     </unit>
     <unit id="0fb5939a-9b15-4e4f-b08f-a42393f13419">
@@ -19253,9 +19253,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2165</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This means that you do not have to scroll the display at the end of each line even where more text would fit on the display.</source>
-        <target>这样的意思就是您不必在每一行的末尾进行点显器滚动，实际上，更多的文本将会显示在点显器上面。</target>
+        <target>这意味着您不必在每一行的末尾进行点显器滚动，实际上，更多的文本将会显示在点显器上面。</target>
       </segment>
     </unit>
     <unit id="63f730fb-a079-4c79-bd4c-33a3f79622f3">
@@ -19271,9 +19271,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2167</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>It is disabled by default.</source>
-        <target>默认情况下，该选项是禁用的。</target>
+        <target>默认情况下，该选项已禁用。</target>
       </segment>
     </unit>
     <unit id="98b300bb-173c-4a88-8620-807f5e663ea9">
@@ -19432,18 +19432,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2193</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you then start moving through the list with your arrow keys, it is assumed that you are aware that you are still in the list.</source>
-        <target>如果您随后使用箭头键开始在列表中移动，则假定您知道您仍在列表中。</target>
+        <target>如果您随后使用光标键开始在列表中移动，则假定您知道您仍在列表中。</target>
       </segment>
     </unit>
     <unit id="846c3fd3-d981-49fa-82be-ed98af6e280e">
       <notes>
         <note appliesTo="source">line: 2194</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Thus, for the remaining list items you focus, NVDA will only show the focused list item on the display.</source>
-        <target>因此，对于您关注的其余列表项，NVDA 将仅在显示屏上显示焦点列表项。</target>
+        <target>因此，对于您关注的其余列表项，NVDA 将仅在点显器上显示焦点列表项。</target>
       </segment>
     </unit>
     <unit id="cffebc39-a725-4701-9d36-364667cd96c1">
@@ -19468,9 +19468,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2198</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This has the advantage that NVDA will fit as much information as possible on the display.</source>
-        <target>这样做的好处是 NVDA 可以在显示屏上显示尽可能多的信息。</target>
+        <target>这样做的好处是 NVDA 可以在点显器上显示尽可能多的信息。</target>
       </segment>
     </unit>
     <unit id="2c15cf8a-8b38-41b6-9310-3bcf1bf3ff25">
@@ -19998,9 +19998,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2281</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To toggle Unicode normalization from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>如需切换 Unicode 正规化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义手势。</target>
+        <target>如需随时切换 Unicode 正规化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="4f8145ca-202d-436b-8f0e-2a071f9be84e">
@@ -20138,27 +20138,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2311</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Select Braille Display dialog, which can be opened by activating the Change... button in the Braille category of the NVDA settings dialog, allows you to select which Braille display NVDA should use for braille output.</source>
-        <target>在盲文分类里面点击“修改...”按钮，会打开一个对话框。您可以在这里更改 NVDA 使用的点显器。</target>
+        <target>在盲文类别中点击“修改”按钮，会打开一个对话框。您可以在这里更改 NVDA 使用的点显器。</target>
       </segment>
     </unit>
     <unit id="8a217810-55e7-4599-a1cf-9b02cba92788">
       <notes>
         <note appliesTo="source">line: 2312</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Once you have selected your braille display of choice, you can press Ok and NVDA will load the selected display.</source>
-        <target>当您选中要使用的点显器之后，点击“确认”按钮，NVDA 将载入您所选择的点显器。</target>
+        <target>当您选中要使用的点显器之后，点击“确认”按钮，NVDA 将加载您所选择的点显器。</target>
       </segment>
     </unit>
     <unit id="9d1876f9-6e06-4888-86dd-ba466fe3c38d">
       <notes>
         <note appliesTo="source">line: 2313</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If there is an error loading the display driver, NVDA will notify you with a message, and continue using the previous display, if any.</source>
-        <target>如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的点显器。</target>
+        <target>如果加载时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的点显器。</target>
       </segment>
     </unit>
     <unit id="719668c4-2748-4b4e-a5ab-5b3b96a17a81">
@@ -20167,18 +20167,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SelectBrailleDisplayDisplay}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Braille Display</source>
-        <target>盲文点显器</target>
+        <target>点显器</target>
       </segment>
     </unit>
     <unit id="457aa356-d4c8-4cf2-9a2a-f1120adbe5c4">
       <notes>
         <note appliesTo="source">line: 2317</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This combo box presents you with several options depending on what braille display drivers are available on your system.</source>
-        <target>这个组合框依照您系统内可用的点显器驱动来展示一些选项。</target>
+        <target>这个组合框根据您系统内可用的点显器驱动来展示一些选项。</target>
       </segment>
     </unit>
     <unit id="9b955a0a-f6eb-4551-8870-cebb1f4ccf73">
@@ -20360,9 +20360,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2349</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You may consult the documentation for your braille display in the section [Supported Braille Displays](#SupportedBrailleDisplays) to check for more details on the supported types of communication and available ports.</source>
-        <target>您或许可以在[支持的点显器](#SupportedBrailleDisplays)章节中查阅您的点显器设备的文档，已了解支持的可用端口的通讯类型的更多信息。</target>
+        <target>您可在[支持的点显器](#SupportedBrailleDisplays)章节中查阅您的点显器设备的文档，已了解支持的可用端口的通讯类型的更多信息。</target>
       </segment>
     </unit>
     <unit id="3b4526ee-30ac-40aa-bd79-4a168d219356">
@@ -20427,9 +20427,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2363</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Audio category in the NVDA Settings dialog contains options that let you change several aspects of audio output.</source>
-        <target>NVDA 设置中的音频类别涵盖了可以让您调节有关音频输出的多个选项。</target>
+        <target>该类别涵盖了可以让您调节有关音频输出的多个选项。</target>
       </segment>
     </unit>
     <unit id="907bfedf-8887-4b32-8241-3532b6ae3526">
@@ -20524,9 +20524,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2382</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>It is not possible to support audio ducking for portable and temporary copies of NVDA.</source>
-        <target>临时版或便携版 NVDA 都不支持音频闪避功能。</target>
+        <target>临时或便携版 NVDA 都不支持音频闪避功能。</target>
       </segment>
     </unit>
     <unit id="cbf8c229-6f61-41cf-9bd5-87fdca9386eb">
@@ -20546,9 +20546,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Disabled, Enabled</source>
-        <target>可选 | 禁用、启用</target>
+        <target>选项 | 禁用、启用</target>
       </segment>
     </unit>
     <unit id="e6e6eecd-0f07-41ef-b142-8641fd359ad7">
@@ -20622,9 +20622,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2399</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This setting only takes effect when "Volume of NVDA sounds follows voice volume" is disabled.</source>
-        <target>仅当启用“音频输出使用 WASAPI”且禁用“NVDA 音效音量跟随语音音量”时，此设置才会生效。</target>
+        <target>仅当禁用“NVDA 音效音量跟随语音音量”时，此设置才会生效。</target>
       </segment>
     </unit>
     <unit id="bc0fddd5-0938-472a-9be7-3e7d7e55ff72">
@@ -20678,9 +20678,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2407</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>A gesture allows cycling through the various sound split modes:</source>
-        <target>使用快捷键可以在各种声音拆分模式之间循环切换：</target>
+        <target>使用下列快捷键可以在各种声音拆分模式之间循环切换：</target>
       </segment>
     </unit>
     <unit id="ffcd007e-af7f-4597-b0c0-400580c9cb68">
@@ -20982,27 +20982,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#VisionSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Vision</source>
-        <target>视觉辅助</target>
+        <target>视觉</target>
       </segment>
     </unit>
     <unit id="b66a869c-7179-43f0-ba55-8f7faf738536">
       <notes>
         <note appliesTo="source">line: 2461</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Vision category in the NVDA Settings dialog allows you to enable, disable and configure [visual aids](#Vision).</source>
-        <target>NVDA 设置对话框中的视觉辅助类别允许您启用，禁用和配置[视觉辅助](#Vision)。</target>
+        <target>该类别允许您启用，禁用和配置[视觉辅助](#Vision)。</target>
       </segment>
     </unit>
     <unit id="fafcc172-5fbc-4c0c-9927-ea210ccc19d7">
       <notes>
         <note appliesTo="source">line: 2463</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Note that the available options in this category could be extended by [NVDA add-ons](#AddonsManager).</source>
-        <target>安装提供视觉辅助功能的[NVDA 插件](#AddonsManager)可以在这个分类内增加更多选项。</target>
+        <target>安装提供视觉辅助功能的[NVDA 插件](#AddonsManager)可以在这个类别中增加更多选项。</target>
       </segment>
     </unit>
     <unit id="fed0a867-f55a-4cc6-9e1a-8a4bb0243532">
@@ -21116,9 +21116,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2481</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can enable the [Screen Curtain](#VisionScreenCurtain) by checking the "Make screen black (immediate effect)" check box.</source>
-        <target>选中立即黑屏复选框就可以启用[黑屏](#VisionScreenCurtain)功能。</target>
+        <target>选中开启黑屏（立即生效）复选框即可启用[黑屏](#VisionScreenCurtain)功能。</target>
       </segment>
     </unit>
     <unit id="13c84192-58bc-4b9a-acc7-974497675921">
@@ -21161,18 +21161,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2486</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you no longer want to see this warning message every time, you can change this behaviour in the dialog that displays the message.</source>
-        <target>如果您不再希望每次都看到此警告消息，则可以在显示该消息的对话框中更改此行为。</target>
+        <target>如果您不想每次都看到此警告消息，则可以在显示该消息的对话框中更改此行为。</target>
       </segment>
     </unit>
     <unit id="d63ceae4-64fe-4414-a5ff-0e6add9bcf8e">
       <notes>
         <note appliesTo="source">line: 2487</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can always restore the warning by checking the "Always show a warning when loading Screen Curtain" check box next to the "Make screen black" check box.</source>
-        <target>您始终可以通过选中“使屏幕变黑”复选框旁边的“在开启黑屏时始终显示警告”复选框来恢复警告。</target>
+        <target>您始终可以通过选中“开启黑屏（立即生效）”复选框旁边的“开启黑屏时始终显示警告”复选框来恢复警告。</target>
       </segment>
     </unit>
     <unit id="cba279ff-59b5-4336-8915-0c59db20ee54">
@@ -21188,9 +21188,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2490</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When you want to change this behaviour, you can uncheck the "Play sound when toggling Screen Curtain" check box.</source>
-        <target>当您不想听到声音，可以取消选中“切换黑屏时”复选框。</target>
+        <target>当您不想听到声音，可以取消选中“开启黑屏时播放声音”复选框。</target>
       </segment>
     </unit>
     <unit id="3a1bc9fb-109f-4068-99fb-8802ca564647">
@@ -21226,9 +21226,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2496</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>For the supported settings per provider, please refer to the documentation for that provider.</source>
-        <target>具体设置项目的意义请参考插件的文档。</target>
+        <target>具体设置项目的意义请参考相应插件的文档。</target>
       </segment>
     </unit>
     <unit id="5b95fdd5-6156-47cc-924e-e4f293ef74ba">
@@ -21237,9 +21237,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#KeyboardSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Keyboard</source>
-        <target>键盘设置</target>
+        <target>键盘</target>
       </segment>
     </unit>
     <unit id="d0d444e4-bdaa-4e08-a951-8907fd6d75b4">
@@ -21266,18 +21266,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2506</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Keyboard category in the NVDA Settings dialog contains options that set how NVDA behaves as you use and type on your keyboard.</source>
-        <target>NVDA 设置对话框中的“键盘设置”部分包含一些选项，用于设置 NVDA 在您使用键盘时的行为。</target>
+        <target>该类别包含一些选项，用于设置 NVDA 在您使用键盘时的行为。</target>
       </segment>
     </unit>
     <unit id="c91a0b92-6f6c-41db-b4d1-44575577e310">
       <notes>
         <note appliesTo="source">line: 2507</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This settings category contains the following options:</source>
-        <target>它包含下列选项：</target>
+        <target>该类别包含下列选项：</target>
       </segment>
     </unit>
     <unit id="6d42e0ee-c6b4-4ae5-bcfe-633ba6a27581">
@@ -21295,9 +21295,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2511</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This combo box lets you choose what type of keyboard layout NVDA should use. Currently the two that come with NVDA are Desktop and Laptop.</source>
-        <target>这个组合框允许您选择 NVDA 使用的键盘布局的类型，当前，NVDA 自带着台式机和笔记本两套键盘布局。</target>
+        <target>此组合框允许您选择 NVDA 应使用的键盘布局类型，当前，NVDA 自带有台式机和笔记本两套键盘布局。</target>
       </segment>
     </unit>
     <unit id="d1f2fd7f-5db6-4bf3-b36d-9b5d08cd7181">
@@ -21315,9 +21315,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2515</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The checkboxes in this list control what keys can be used as [NVDA modifier keys](#TheNVDAModifierKey). The following keys are available to choose from:</source>
-        <target>这个列表中有几个复选框，决定了哪些按键可以当作[NVDA 键](#TheNVDAModifierKey) 有以下几个选项：</target>
+        <target>这个列表中有几个复选框，决定了哪些按键可以用作[NVDA 键](#TheNVDAModifierKey)，有以下几个选项：</target>
       </segment>
     </unit>
     <unit id="96ad23fb-05b8-4f25-a88c-fa3b0095f5bf">
@@ -21345,18 +21345,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2519</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The extended insert key (usually found above the arrow keys, near home and end)</source>
-        <target>扩展的插入键（Insert）（通常在光标键的上面，与行首键（home）、行尾键（end）相邻）</target>
+        <target>主键盘的插入键（Insert）（通常在光标键的上方，与行首键（home）、行尾键（end）相邻）</target>
       </segment>
     </unit>
     <unit id="97811be2-76d3-4e72-a48a-301655533b31">
       <notes>
         <note appliesTo="source">line: 2521</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If no key is chosen as the NVDA key it may be impossible to access many NVDA commands, therefore you are required to check at least one of the modifiers.</source>
-        <target>如果没有选择任何按键作为 NVDA 键，某些 NVDA 命令就可能无法使用。因而，您必须最少选择一个按键。</target>
+        <target>如果没有选择任何按键作为 NVDA 键，某些 NVDA 命令就可能无法使用。因此，您必须至少选择一个按键。</target>
       </segment>
     </unit>
     <unit id="dceeefe4-e9f4-4b24-b1e7-a62df9af9670">
@@ -21443,18 +21443,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#KeyboardSettingsSpeechInteruptForEnter}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Speech interrupt for Enter key</source>
-        <target>按下回车键(enter)时中断朗读</target>
+        <target>按下回车键时中断朗读</target>
       </segment>
     </unit>
     <unit id="0583b98a-edaa-4064-9570-a4b875a438d7">
       <notes>
         <note appliesTo="source">line: 2545</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If on, this option will cause speech to be interrupted each time the Enter key is pressed. This is on by default.</source>
-        <target>如果打开，此选项会导致在每次按下回车键(enter)时朗读被中断。此选项默认情况下启用。</target>
+        <target>如果打开，此选项会导致在每次按下回车键时朗读中断。此选项默认情况下启用。</target>
       </segment>
     </unit>
     <unit id="07faa9fc-deb8-4f8f-9549-f754c6d006f0">
@@ -21483,36 +21483,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#KeyboardSettingsBeepLowercase}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Beep if Typing Lowercase Letters when Caps Lock is On</source>
-        <target>若大小写锁定键(capslock)打开，输入小写字母时发出提示音</target>
+        <target>若“大写锁定”键打开，输入小写字母时发出提示音</target>
       </segment>
     </unit>
     <unit id="5e67aabe-9d4a-4fb3-8517-4d87ea251028">
       <notes>
         <note appliesTo="source">line: 2553</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When enabled, a warning beep will be heard if a letter is typed with the shift key while Caps Lock is on.</source>
-        <target>如果启用，在大小写锁定建(capslock)打开时使用 Shift 键进行小写字母输入，您会听到一个警告提示音。</target>
+        <target>如果启用，在大写锁定建打开时使用 Shift 键进行小写字母输入，您会听到一个警告提示音。</target>
       </segment>
     </unit>
     <unit id="79060ef8-598a-453b-915f-33e43ba510ff">
       <notes>
         <note appliesTo="source">line: 2554</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Generally, typing shifted letters with Caps Lock is unintentional and is usually due to not realizing that Caps Lock is enabled.</source>
-        <target>通常，使用大小写锁定建输入转译字符是无意识的，使用此键进行转译字符输入通常是由于未能意识到大小写锁定建已经被打开。</target>
+        <target>一般来说，使用大写锁定建输入转译字符是无意识的，通常是由于未能意识到大写锁定已被启用。</target>
       </segment>
     </unit>
     <unit id="240adbaf-71b4-4baa-be65-6fe68ce3c963">
       <notes>
         <note appliesTo="source">line: 2555</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Therefore, it can be quite helpful to be warned about this.</source>
-        <target>因而，在这种情况下发出警告是非常实用的。</target>
+        <target>因此，在这种情况下发出警告将非常实用。</target>
       </segment>
     </unit>
     <unit id="ad048f87-2880-40a8-bb2c-c4c67c30edbd">
@@ -21550,27 +21550,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#KeyboardSettingsAlertForSpellingErrors}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Play sound for spelling errors while typing</source>
-        <target>若键入时包含拼写错误则发出提示音</target>
+        <target>输入时播放拼写错误提示音</target>
       </segment>
     </unit>
     <unit id="35239f1a-c795-4f25-b0b1-c8038c310aae">
       <notes>
         <note appliesTo="source">line: 2567</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When enabled, a short buzzer sound will be played when a word you type contains a spelling error.</source>
-        <target>如果启用，您的键入若包含拼写错误时，将可播放一个短促的时蜂鸣音。</target>
+        <target>启用后，当您键入的单词包含拼写错误时，将发出短促的蜂鸣声。</target>
       </segment>
     </unit>
     <unit id="82cd4c96-1fc7-4dc2-8628-485c07528d57">
       <notes>
         <note appliesTo="source">line: 2568</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is only available if reporting of spelling errors is enabled in NVDA's [Document Formatting Settings](#DocumentFormattingSettings), found in the NVDA Settings dialog.</source>
-        <target>仅当[文档格式设置的](#DocumentFormattingSettings)对话框的“朗读拼写错误”选项启用时才生效。</target>
+        <target>仅当[文档格式设置的](#DocumentFormattingSettings)对话框的“朗读拼写错误”选项启用时，此选项才生效。</target>
       </segment>
     </unit>
     <unit id="c6c0276b-40ff-437e-a935-b4c145f14cb4">
@@ -21682,9 +21682,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#MouseSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Mouse</source>
-        <target>鼠标设置</target>
+        <target>鼠标</target>
       </segment>
     </unit>
     <unit id="9f7c3671-9490-4471-a01b-733e354773d1">
@@ -21711,18 +21711,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2593</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Mouse category in the NVDA Settings dialog allows NVDA to track the mouse, play mouse coordinate beeps and sets other mouse usage options.</source>
-        <target>NVDA 设置对话框中的“鼠标设置”分类允许 NVDA 跟踪鼠标，用嘟嘟声表示鼠标坐标并设置其他鼠标使用选项。</target>
+        <target>该类别允许 NVDA 跟踪鼠标，用嘟嘟声表示鼠标坐标并设置其他鼠标使用选项。</target>
       </segment>
     </unit>
     <unit id="eef125b9-4c36-4ad0-ad69-7b74c11cd4e6">
       <notes>
         <note appliesTo="source">line: 2594</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This category contains the following options:</source>
-        <target>它包括以下选项：</target>
+        <target>该类别包含以下选项：</target>
       </segment>
     </unit>
     <unit id="5c97ccfc-c08c-4aaa-834e-654c58e8a88b">
