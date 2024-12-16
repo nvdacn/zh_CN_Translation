@@ -24212,9 +24212,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#AddonStoreSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Add-on Store Settings</source>
-        <target>插件商店设置</target>
+        <target>插件商店</target>
       </segment>
     </unit>
     <unit id="504c7c01-cca2-4b02-8fb6-51a3079d67ad">
@@ -24439,9 +24439,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#AdvancedSettings}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Advanced Settings</source>
-        <target>高级设置</target>
+        <target>高级</target>
       </segment>
     </unit>
     <unit id="b63e8360-84c2-4e9d-8ed0-330070b656c4">
@@ -25962,7 +25962,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Besides the [NVDA Settings](#NVDASettings) dialog, The Preferences sub-menu of the NVDA Menu contains several other items which are outlined below.</source>
-        <target>除了[NVDA 设置](#NVDASettings)对话框以外，NVDA菜单的“选项”子菜单包含下面列出的其他几个项目。</target>
+        <target>除[NVDA 设置](#NVDASettings)对话框外，NVDA菜单的“选项”子菜单包含下面列出的其他几个项目。</target>
       </segment>
     </unit>
     <unit id="e81c9aa1-dc26-491a-9a29-82cc253ac0f5">
@@ -26018,9 +26018,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3292</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Voice: rules in this dictionary affect speech for the synthesizer voice currently being used.</source>
-        <target>合成器：字典的规则会应用于当前使用的合成器的语音输出。</target>
+        <target>语音：字典的规则会应用于当前使用的合成器语音的输出。</target>
       </segment>
     </unit>
     <unit id="6daba8ea-6261-49f6-95bb-f39b1cd61382">
@@ -26037,9 +26037,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3295</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You need to assign custom gestures using the [Input Gestures dialog](#InputGestures) if you wish to open any of these dictionary dialogs from anywhere.</source>
-        <target>如果您想在任何地方打开任意一个字典对话框，您必须在[按键与手势对话框](#InputGestures)设置一个自定义手势或快捷键。</target>
+        <target>如果您想在任何地方打开任意一个字典对话框，您必须在[按键与手势对话框](#InputGestures)设置一个自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="e1a2aef8-1231-4817-bc38-fb399a5abe0b">
@@ -26082,9 +26082,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3302</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>However, to make sure your rule is actually saved, make sure to press Ok to exit the dictionary dialog completely once you have finished adding/editing rules.</source>
-        <target>然而，要想确认您的字典规则实际上已经保存，请确定您在完成编辑的同时通过按下“确认”按钮来退出字典规则对话框。</target>
+        <target>然而，要想确认您的字典规则实际上已经保存，请确保您在完成编辑的同时通过按下“确认”按钮来退出字典对话框。</target>
       </segment>
     </unit>
     <unit id="179722ec-3374-46ae-a7c0-37cc102384ab">
@@ -26136,9 +26136,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3310</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Add rule dialog also contains a checkbox to say whether or not you want the rule to be case sensitive (meaning that NVDA should care whether the characters are uppercase or lowercase.</source>
-        <target>“添加规则”对话框还包含是否希望您的规则区分大小写的复选框（这样的意思是 NVDA 应该区分字符是大写还是小写）。</target>
+        <target>“添加规则”对话框还包含一个区分大小写复选框（这意味着 NVDA 应该区分字符是大写还是小写）。</target>
       </segment>
     </unit>
     <unit id="7242f463-5223-466d-8ae3-9c4b0f54a6de">
@@ -26154,9 +26154,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3313</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Finally, a set of radio buttons allows you to tell NVDA whether your pattern should match anywhere, should only match if it is a complete word or should be treated as a "Regular expression".</source>
-        <target>最后的一套单选按钮告诉 NVDA 您的来源文本到底应该匹配任何地方、匹配整个单词或视为“正则表达式”。</target>
+        <target>最后的一组单选按钮告诉 NVDA 您的来源文本到底应该匹配任何地方、匹配整个单词或为“正则表达式”。</target>
       </segment>
     </unit>
     <unit id="157c6b2d-69b8-47f9-aae4-7df08ec85b45">
@@ -26219,9 +26219,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#SymbolPronunciation}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Punctuation/symbol pronunciation</source>
-        <target>标点符号发音</target>
+        <target>标点符号读音</target>
       </segment>
     </unit>
     <unit id="c130643b-69c8-4575-8d4c-559c29a53c06">
@@ -26380,18 +26380,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3343</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>only below symbols' level: Send the actual symbol only if the configured speech symbol level is lower than the level set for this symbol.</source>
-        <target>仅当低于标点自身的级别时传送： 仅当配置的标点级别低于为标点设置的级别时，传送标点本身到合成器。</target>
+        <target>仅标点符号级别低于：仅当配置的标点级别低于为标点设置的级别时，发送标点本身到合成器。</target>
       </segment>
     </unit>
     <unit id="85aa6e3d-43be-41af-8012-b320b97b857b">
       <notes>
         <note appliesTo="source">line: 3344</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>  For example, you might use this so that a symbol will have its replacement spoken at higher levels without pausing, while still being indicated with a pause at lower levels.</source>
-        <target>  例如，您可能可以用它来让标点在处于比自身级别更高时不暂停且拥有替换文本，而在比自身级别低时暂停。</target>
+        <target>  例如，您可以使用此功能来让标点在处于比自身级别更高时不暂停且拥有替换文本，而在比自身级别低时暂停。</target>
       </segment>
     </unit>
     <unit id="4ce64815-3ca7-412d-b6b9-2ea3afacbe22">
@@ -26434,9 +26434,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3352</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When you are finished, press the OK button to save your changes or the Cancel button to discard them.</source>
-        <target>当您完成之后，您可以点击“确认”按钮保存设置或者点击“取消”按钮放弃对他们的修改。</target>
+        <target>当您完成之后，您可以点击“确认”按钮保存设置或者点击“取消”按钮放弃修改。</target>
       </segment>
     </unit>
     <unit id="419868db-aeb0-4108-91a5-f80e358469d0">
@@ -26463,9 +26463,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#InputGestures}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Input Gestures</source>
-        <target>按键与手势（原输入手势）</target>
+        <target>按键与手势</target>
       </segment>
     </unit>
     <unit id="642860f4-b40b-4395-9236-e97996769bc5">
@@ -26490,9 +26490,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3362</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>For example, if you want to customize commands related to browse mode, you should open the Input Gestures dialog while you are in browse mode.</source>
-        <target>例如说，您如果想修改浏览模式的命令，您必须在处于浏览模式的情况下，打开“按键与手势”对话框。</target>
+        <target>例如，您如果想修改浏览模式的命令，您必须在处于浏览模式的情况下，打开“按键与手势”对话框。</target>
       </segment>
     </unit>
     <unit id="48da6681-ebf0-4759-8133-08b862da59f8">
@@ -26710,9 +26710,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3396</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you ever make a mistake with your settings and need to revert back to the saved settings, choose the "revert to saved configuration" item in the NVDA menu.</source>
-        <target>如果您曾做了一个错误的修改，希望恢复到保存的设置，在 NVDA 菜单选择“重新加载以保存的设置”菜单项目。</target>
+        <target>如果您曾做了一个错误的修改，希望恢复到保存的设置，在 NVDA 菜单选择“重新应用以保存的设置”菜单项目。</target>
       </segment>
     </unit>
     <unit id="9b202611-c256-4655-8b23-b4b9df5e5957">
@@ -26808,36 +26808,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3415</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>A configuration profile contains only those settings which are changed while the profile is being edited.</source>
-        <target>配置文件仅包含当配置文件处于编辑状态时进行的那些设置。</target>
+        <target>配置文件仅包含当配置处于编辑状态时更改的设置。</target>
       </segment>
     </unit>
     <unit id="786b7c76-3116-4e9b-b6fd-203e9c79984f">
       <notes>
         <note appliesTo="source">line: 3416</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Most settings can be changed in configuration profiles except for those in the General category of the [NVDA Settings](#NVDASettings) dialog, which apply to the entirety of NVDA.</source>
-        <target>大多数设置都可以跟随配置文件，但位于 [NVDA 设置](#NVDASettings)中“常规设置”内那些影响 NVDA 全局的设置除外。</target>
+        <target>大多数设置都可以跟随配置文件，但 [NVDA 设置](#NVDASettings)对话框常规类别中的设置除外，这些设置影响 NVDA 全局。</target>
       </segment>
     </unit>
     <unit id="f1ad1123-5c11-468a-a1af-ca0f439b9fe3">
       <notes>
         <note appliesTo="source">line: 3418</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Configuration profiles can be manually activated either from a dialog or using custom added gestures.</source>
-        <target>配置文件也可手动激活。可以从对话框或使用自定义添加的手势或快捷键手动激活配置文件。</target>
+        <target>配置文件可通过对话框或使用自定义添加的快捷键手动激活。</target>
       </segment>
     </unit>
     <unit id="b5c2f59d-fa1c-4d56-8691-01e21ad6bda7">
       <notes>
         <note appliesTo="source">line: 3419</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>They can also be activated automatically due to triggers such as switching to a particular application.</source>
-        <target>它也可由一些触发条件自动的激活，如切换到特定的程序。</target>
+        <target>它也可由一些触发条件自动激活，如切换到特定程序。</target>
       </segment>
     </unit>
     <unit id="59963414-1318-4cba-8459-56b702d0f5f3">
@@ -26864,9 +26864,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3424</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can also do this using a key command:</source>
-        <target>您也可以通过一个键盘命令来这样做：</target>
+        <target>您还可使用下列键盘命令来执行此操作：</target>
       </segment>
     </unit>
     <unit id="fd819d8d-c564-481c-8817-d26a18aa90b3">
@@ -26984,18 +26984,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3447</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>For convenience, if you haven't entered a name for the profile, selecting a trigger will fill in the name accordingly.</source>
-        <target>为了方便，如果您并没有为配置输入名称，名称就会依照您选择的关联而自动填入。</target>
+        <target>为方便起见，如果您并没有为配置输入名称，名称就会依照您选择的关联而自动填入。</target>
       </segment>
     </unit>
     <unit id="f2c7dea9-3d72-4468-a33b-505c024fbc35">
       <notes>
         <note appliesTo="source">line: 3448</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>See [below](#ConfigProfileTriggers) for more information about triggers.</source>
-        <target>请查看下面[激活配置](#ConfigProfileTriggers)那一节有关于“关联”的信息。</target>
+        <target>请查看下面[激活配置](#ConfigProfileTriggers)章节有关于“关联”的信息。</target>
       </segment>
     </unit>
     <unit id="376b5e5f-5ea2-4cc8-9787-b933b0fbe876">
@@ -27031,18 +27031,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3455</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Once activated, other profiles can still be activated due to triggers, but any settings in the manually activated profile will override them.</source>
-        <target>一旦激活，其他配置的关联仍然处于激活状态，但包含在手动配置的配置会覆盖他们的设置。</target>
+        <target>一旦激活，其他配置的关联仍然处于激活状态，但包含在手动配置的设置会覆盖关联的配置。</target>
       </segment>
     </unit>
     <unit id="65034260-5b7c-4c0c-b68b-35848122551e">
       <notes>
         <note appliesTo="source">line: 3456</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>For example, if a profile is triggered for the current application and reporting of links is enabled in that profile but disabled it in the manually activated profile, links will not be reported.</source>
-        <target>例如说，一个配置设定在当前程序下启用链接的朗读，但是手动激活的配置设定不朗读链接，那么，链接将不会朗读。</target>
+        <target>例如，一个配置设置在当前程序下启用链接的朗读，但是手动激活的配置设置为不朗读链接，那么，链接将不会朗读。</target>
       </segment>
     </unit>
     <unit id="df7d0d57-eb79-48ce-96c5-4f95a8265702">
@@ -27058,9 +27058,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3458</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Any settings you change will be saved in the manually activated profile.</source>
-        <target>任何您进行的修改都会被保存在手动激活的配置之内。</target>
+        <target>任何您进行的修改都会被保存在手动激活的配置中。</target>
       </segment>
     </unit>
     <unit id="74f6b7e9-4ded-4629-803e-8c94d35f8034">
@@ -27199,9 +27199,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3482</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To edit the profile associated with say all, you must [manually activate](#ConfigProfileManual) that profile.</source>
-        <target>要想编辑与“全文朗读”进行了关联的配置，您必须[手动激活](#ConfigProfileManual)那个配置。</target>
+        <target>要想编辑与“全文朗读”进行了关联的配置，您必须[手动激活](#ConfigProfileManual)该配置。</target>
       </segment>
     </unit>
     <unit id="6bdc8413-e51a-467f-9ff8-d64968a2bded">
@@ -27219,9 +27219,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3486</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Sometimes, it is useful to temporarily disable all triggers.</source>
-        <target>有些时候，临时停用所有关联是非常实用的。</target>
+        <target>有时，临时停用所有关联将非常实用。</target>
       </segment>
     </unit>
     <unit id="f5b5923e-7df0-4e73-85a8-3e4b57618b96">
@@ -27246,9 +27246,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3490</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To toggle disabling triggers from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>要想在任何地方切换是否临时停用所有关联，请在[按键与手势对话框](#InputGestures)定义一个自定义手势或快捷键。</target>
+        <target>要想在任何地方切换是否临时停用所有关联，请在[按键与手势对话框](#InputGestures)分配一个自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="28166f1c-b617-467a-b028-5bf7354f78a8">
@@ -27275,9 +27275,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3495</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>By default, configuration profiles do not have input gestures assigned.</source>
-        <target>默认情况下，配置文件没有分配按键和手势。</target>
+        <target>默认情况下，配置文件没有分配按键或手势。</target>
       </segment>
     </unit>
     <unit id="faf97a25-7127-46e8-86b3-653e127f0083">
@@ -27331,9 +27331,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3503</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Portable versions of NVDA store all settings and add-ons in a directory called userConfig, found in the NVDA directory.</source>
-        <target>便携版本的 NVDA 设置（包括自定义程序模块、自定义驱动）都被直接存放在 NVDA 的 userConfig 目录下。</target>
+        <target>便携版本的 NVDA 设置和插件都被直接存放在 NVDA 所在目录下的 userConfig 目录中。</target>
       </segment>
     </unit>
     <unit id="e536a306-aa5c-434f-90a3-fa78d1f2aef6">
@@ -27367,18 +27367,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3508</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In addition for an installed version of NVDA, on the start menu you can go to programs -&gt; NVDA -&gt; explore user configuration directory.</source>
-        <target>此外，对于安装板的 NVDA 您还可以从开始菜单的 NVDA 文件夹内找到“浏览 NVDA 用户配置目录”入口。</target>
+        <target>此外，对于安装板的 NVDA 您还可以从开始菜单的 NVDA 文件夹找到“浏览 NVDA 用户配置目录”入口。</target>
       </segment>
     </unit>
     <unit id="697d20a8-b12c-4d6e-96bd-011edbde503a">
       <notes>
         <note appliesTo="source">line: 3510</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Settings for NVDA when running during sign-in or on UAC screens are stored in the systemConfig directory in NVDA's installation directory.</source>
-        <target>运行在欢迎屏幕或 UAC 屏幕时的 NVDA 设置都被存放在 NVDA 安装目录下的 SystemConfig 目录。</target>
+        <target>运行在欢迎屏幕或 UAC 屏幕时的 NVDA 设置都被存放在 NVDA 安装目录下的 SystemConfig 目录中。</target>
       </segment>
     </unit>
     <unit id="934f96e8-5425-4395-9478-9a0f05f7033d">
@@ -27507,9 +27507,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3528</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you install an add-on with paid components and change your mind about using it, the add-on can be easily removed.</source>
-        <target>如果您在安装了需要付费的插件后不想使用了，您可以轻松移除该插件。</target>
+        <target>如果您在安装了需要付费的插件后不想使用，您可以轻松移除该插件。</target>
       </segment>
     </unit>
     <unit id="76689c02-776b-4072-9d0b-9e5dfc6651ae">
@@ -27525,9 +27525,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3531</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>To access the Add-on Store from anywhere, assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>若需要从任意位置打开插件商店，请在[按键与手势对话框](#InputGestures)内分配一个自定义手势。</target>
+        <target>若需要从任意位置打开插件商店，请在[按键与手势对话框](#InputGestures)中分配一个自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="ff714bb0-cec9-478a-849a-a808a9b6551e">
@@ -27628,9 +27628,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3547</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can also `tab` to the list of views, and move through them with the `leftArrow` and `rightArrow` keys.</source>
-        <target>您还可以按 `tab` 到选项卡组，用`左箭头`或`右箭头`进行切换。</target>
+        <target>您还可以按 `tab` 到选项卡组，用`左光标`或`右光标`键进行切换。</target>
       </segment>
     </unit>
     <unit id="aeb0c0d4-0b56-46af-a877-9b64259a8667">
