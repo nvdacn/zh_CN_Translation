@@ -18807,3 +18807,279 @@ msgstr "剩余 {hourText} {minuteText}"
 #: winAPI\secureDesktop.py:53
 msgid "Secure Desktop"
 msgstr "安全桌面"
+
+#~ msgid "Remote"
+#~ msgstr "远程"
+
+#~ msgid "Mute or unmute the speech coming from the remote computer"
+#~ msgstr "静音或恢复来自远程计算机的语音"
+
+#~ msgid "Sends the contents of the clipboard to the remote machine"
+#~ msgstr "将剪贴板的内容发送到远程计算机"
+
+#~ msgid "Copies a link to the remote session to the clipboard"
+#~ msgstr "将连接到远程计算机的链接复制到剪贴板"
+
+#~ msgid "Copied link"
+#~ msgstr "复制链接"
+
+#~ msgid "Disconnect a remote session"
+#~ msgstr "与远程计算机断开连接"
+
+#~ msgid "Not connected."
+#~ msgstr "未连接。"
+
+#~ msgid "Connect to a remote computer"
+#~ msgstr "连接到远程计算机"
+
+#~ msgid "Toggles the control between guest and host machine"
+#~ msgstr "在控制本地计算机和控制远程计算机之间切换"
+
+#~ msgid "Auto-connect to control server on startup"
+#~ msgstr "启动后自动连接到控制服务器(&A)"
+
+#~ msgid "Use Remote Control Server"
+#~ msgstr "使用远程控制服务器"
+
+#~ msgid "Host Control Server"
+#~ msgstr "主控服务器"
+
+#~ msgid "Allow this machine to be controlled"
+#~ msgstr "允许此计算机被控制"
+
+#~ msgid "Control another machine"
+#~ msgstr "控制另一台计算机"
+
+#~ msgid "&Host:"
+#~ msgstr "主机(&H)"
+
+#~ msgid "&Key:"
+#~ msgstr "秘钥(&K)"
+
+#~ msgid "Play sounds instead of beeps"
+#~ msgstr "用音效代替蜂鸣音 (&P)"
+
+#~ msgid "Delete all trusted fingerprints"
+#~ msgstr "移除所有已信任的指纹(&R)"
+
+#~ msgid ""
+#~ "When connecting to an unauthorized server, you will again be prompted to "
+#~ "accepts its certificate."
+#~ msgstr "每当连接到未授权的服务器时，会再次提示您接受其证书。"
+
+#~ msgid "Are you sure you want to delete all stored trusted fingerprints?"
+#~ msgstr "您确定要移除所有存储的已信任指纹吗？"
+
+#~ msgid "Both host and key must be set in the Remote section."
+#~ msgstr "必须设置主机和秘钥。"
+
+#~ msgid "Remote Error"
+#~ msgstr "远程错误"
+
+#~ msgid "Both port and key must be set in the Remote section."
+#~ msgstr "必须设置端口和秘钥。"
+
+#~ msgid "Mute speech and sounds from the remote computer"
+#~ msgstr "静音来自远程计算机的语音和声音"
+
+#~ msgid "Unmute speech and sounds from the remote computer"
+#~ msgstr "恢复远程计算机的语音和声音"
+
+#~ msgid "Error Connecting"
+#~ msgstr "连接错误"
+
+#~ msgid "Unable to connect to the remote computer"
+#~ msgstr "无法连接到远程计算机"
+
+#~ msgid "Connect"
+#~ msgstr "连接"
+
+#~ msgid "Connected!"
+#~ msgstr "已连接！"
+
+#~ msgid "Connection interrupted"
+#~ msgstr "连接已中断"
+
+#~ msgid "Controlling remote machine."
+#~ msgstr "控制远程计算机。"
+
+#~ msgid "Controlling local machine."
+#~ msgstr "控制本地计算机。"
+
+#~ msgid ""
+#~ "NVDA Remote is already connected. Disconnect before opening a new "
+#~ "connection."
+#~ msgstr "NVDA 远程 已连接。开始新连接前请先断开。"
+
+#~ msgid "NVDA Remote Already Connected"
+#~ msgstr "NVDA 远程 已连接"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Do you wish to control the machine on server {server} with key {key}?"
+#~ msgstr ""
+#~ "您要控制远程计算机嗎？\n"
+#~ "服务器: {server}，秘钥: {key}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Do you wish to allow this machine to be controlled on server {server} "
+#~ "with key {key}?"
+#~ msgstr ""
+#~ "您要允许此计算机被控制吗？\n"
+#~ "服务器: {server}，秘钥: {key}"
+
+#~ msgid "NVDA Remote Connection Request"
+#~ msgstr "NVDA 远程连接请求"
+
+#~ msgid "Disconnected"
+#~ msgstr "已断开连接"
+
+#~ msgid "Connected to control server"
+#~ msgstr "连接到控制服务器"
+
+#~ msgid "Clipboard pushed"
+#~ msgstr "发送剪贴板"
+
+#~ msgid "Clipboard received"
+#~ msgstr "已接收剪贴板"
+
+#~ msgid "&Generate Key"
+#~ msgstr "生成秘钥(&G)"
+
+#~ msgid "Host must be set."
+#~ msgstr "必须设置主机。"
+
+#~ msgid "Get External &IP"
+#~ msgstr "获取公网 IP (&I)"
+
+#~ msgid "&External IP:"
+#~ msgstr "公网 IP (&E):"
+
+#, python-brace-format
+#~ msgid "Successfully retrieved IP address. Port {port} is open."
+#~ msgstr "成功检索 IP 地址，端口 {port} 已打开。"
+
+#, python-brace-format
+#~ msgid "Retrieved external IP, but port {port} is not currently forwarded."
+#~ msgstr "检索到公网 IP，但当前未转发端口 {port}。"
+
+#~ msgid ""
+#~ "Unable to contact portcheck server, please manually retrieve your IP "
+#~ "address"
+#~ msgstr "无法连接端口检测服务器，请手动检索 IP 地址"
+
+#~ msgid "Client"
+#~ msgstr "客户端"
+
+#~ msgid "Server"
+#~ msgstr "服务器"
+
+#~ msgid "Both host and key must be set."
+#~ msgstr "必须设置主机和秘钥。"
+
+#~ msgid "Both port and key must be set."
+#~ msgstr "必须设置端口和秘钥。"
+
+#~ msgid "NVDA Remote Connection Security Warning"
+#~ msgstr "NVDA 远程连接安全警告"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Warning! The certificate of this server could not be verified.\n"
+#~ "This connection may not be secure. It is possible that someone is trying "
+#~ "to overhear your communication.\n"
+#~ "Before continuing please make sure that the following server certificate "
+#~ "fingerprint is a proper one.\n"
+#~ "If you have any questions, please contact the server administrator.\n"
+#~ "\n"
+#~ "Server SHA256 fingerprint: {fingerprint}\n"
+#~ "\n"
+#~ "Do you want to continue connecting?"
+#~ msgstr ""
+#~ "警告: 此服务器的证书未经过验证。\n"
+#~ "此连接可能不安全，某些人可能正在尝试窃听您的通讯。\n"
+#~ "在连接之前，请先确认下列服务器证书指纹是正确的。\n"
+#~ "如您有任何问题，请联系服务器的管理员确认。\n"
+#~ "\n"
+#~ "服务器 SHA256 指纹: {fingerprint}\n"
+#~ "\n"
+#~ "您想继续连接吗？"
+
+#~ msgid "Connect and do not ask again for this server"
+#~ msgstr "连接且不再询问该服务器"
+
+#~ msgid "No permission on device to trigger CTRL+ALT+DEL from remote"
+#~ msgstr "此设备无权从远程服务器触发 CTRL+ALT+DEL"
+
+#~ msgid "Connect..."
+#~ msgstr "连接(&C)"
+
+#~ msgid "Remotely connect to another computer running NVDA Remote Access"
+#~ msgstr "连接到另一台运行 NVDA 远程的计算机"
+
+#~ msgid "Disconnect"
+#~ msgstr "断开(&D)"
+
+#~ msgid "Disconnect from another computer running NVDA Remote Access"
+#~ msgstr "与另一台运行 NVDA 远程的计算机断开连接"
+
+#~ msgid "Mute remote"
+#~ msgstr "远程计算机静音(&M)"
+
+#~ msgid "&Push clipboard"
+#~ msgstr "发送剪贴板内容(&P)"
+
+#~ msgid "Push the clipboard to the other machine"
+#~ msgstr "将剪贴板内容发送到对方计算机的剪贴板"
+
+#~ msgid "Copy &link"
+#~ msgstr "复制链接(&L)"
+
+#~ msgid "Copy a link to the remote session"
+#~ msgstr "复制连接到远程计算机的链接"
+
+#~ msgid "Send Ctrl+Alt+Del"
+#~ msgstr "发送 Ctrl+Alt+Del 命令(&S)"
+
+#~ msgid "R&emote"
+#~ msgstr "远程(&E)"
+
+#~ msgid "NVDA Remote Access"
+#~ msgstr "NVDA 远程"
+
+#~ msgid ""
+#~ "The version of the relay server which you have connected to is not "
+#~ "compatible with this version of the Remote Client.\n"
+#~ "Please either use a different server or upgrade your version of the addon."
+#~ msgstr ""
+#~ "您已连接的中继服务器版本与您的远程插件不兼容。请使用其他服务器或升级远程插"
+#~ "件重试。"
+
+#~ msgid "Message of the Day"
+#~ msgstr "每日信息"
+
+#~ msgid "Remote NVDA not connected."
+#~ msgstr "远程 NVDA 未连接。"
+
+#~ msgid "Invalid URL"
+#~ msgstr "无效的 URL"
+
+#, python-format
+#~ msgid "Unable to parse url \"%s\""
+#~ msgstr "无法解析 URL \"%s\""
+
+#~ msgid "NVDA Remote"
+#~ msgstr "NVDA 远程"
+
+#~ msgid "Your NVDA Remote configuration was corrupted and has been reset."
+#~ msgstr "您的 NVDA 远程配置文件被破坏，已自动重置。"
+
+#~ msgid "NVDA Remote Configuration Error"
+#~ msgstr "NVDA 远程配置错误"
+
+#~ msgid "&Options..."
+#~ msgstr "选项(&O)"
+
+#~ msgid "Unable to push clipboard"
+#~ msgstr "无法发送剪贴板"
