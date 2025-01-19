@@ -8690,7 +8690,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 491</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For installed copies, NVDA stores the configuration in the roaming application data folder of the current user by default (e.g. "`C:\Users\&lt;user&gt;\AppData\Roaming`").</source>
         <target>NVDA 安装版的配置在“漫游”应用程序配置文件夹（比如 "`C:\Users\&lt;用户名&gt;\AppData\Roaming`"）。</target>
       </segment>
@@ -8699,7 +8699,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 492</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It is possible to change this in a way that NVDA loads its configuration from the local application data folder instead.</source>
         <target>可以更改注册表把安装版的配置存放在“本地”应用程序配置文件夹（比如 "C:\Users\&lt;用户名&gt;\AppData\Local"）。</target>
       </segment>
@@ -8932,7 +8932,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 526</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Notable exceptions to this are the text review commands for the desktop keyboard layout which just use the numpad keys by themselves, but there are some other exceptions as well.</source>
         <target>需要注意的是，NVDA 的台式机键盘方案中，进行文本查看仅需使用数字键盘（小键盘）的按键，但也有一些例外。</target>
       </segment>
@@ -9881,7 +9881,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 690</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA allows you to explore and navigate the system in several ways, including both normal interaction and review.</source>
         <target>NVDA 允许您使用多种方式对系统进行浏览和导航，包括传统交互模式、对象导航模式和文本查看模式。</target>
       </segment>
@@ -10422,7 +10422,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 769</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For a way to review all text as it appears on the screen, you can instead use [screen review](#ScreenReview).</source>
         <target>要查看屏幕上显示的所有文本，您可以使用[屏幕查看](#ScreenReview)。</target>
       </segment>
@@ -10539,7 +10539,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 785</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The object currently being reviewed is called the navigator object.</source>
         <target>当前正在查看的对象被称为导航对象。</target>
       </segment>
@@ -10557,7 +10557,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 787</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When [Visual Highlight](#VisionFocusHighlight) is enabled, the location of the current navigator object is also exposed visually.</source>
         <target>当[高亮显示导航对象](#VisionFocusHighlight)开启时，当前导航对象的位置也将以视觉方式显示。</target>
       </segment>
@@ -10566,7 +10566,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 788</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>By default, the navigator object moves along with the System focus, though this behaviour can be toggled on and off.</source>
         <target>默认情况下，导航对象会随着系统焦点移动，此行为可以在设置里开关。</target>
       </segment>
@@ -10575,7 +10575,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 790</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Note: Braille following Object Navigation can be configured via [Braille Tether](#BrailleTether).</source>
         <target>请注意，想要盲文光标跟随对象导航可以在[盲文光标跟随](#BrailleTether)设置里修改。</target>
       </segment>
@@ -10694,7 +10694,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Activate current navigator object |NVDA+numpadEnter |NVDA+enter |double-tap |Activates the current navigator object (similar to clicking with the mouse or pressing space when it has the system focus)</source>
         <target>激活当前导航对象 | NVDA+数字键盘回车 | NVDA+回车 | 点击两次 | 激活当前导航对象（类似点击鼠标或者在有焦点的对象上按空格键）。</target>
       </segment>
@@ -10705,7 +10705,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move System focus or caret to current review position |NVDA+shift+numpadMinus |NVDA+shift+backspace |none |pressed once Moves the System focus to the current navigator object, pressed twice moves the system caret to the position of the review cursor</source>
         <target>移动焦点或系统输入焦点到当前查看位置 | NVDA+shift+数字键盘减号 | NVDA+shift+退格 | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统输入焦点移动到查看光标所在的位置</target>
       </segment>
@@ -10716,7 +10716,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report review cursor location |NVDA+shift+numpadDelete |NVDA+shift+delete |none |Reports information about the location of the text or object at the review cursor. For example, this might include the percentage through the document, the distance from the edge of the page or the exact screen position. Pressing twice may provide further detail.</source>
         <target>读出查看光标的位置信息 | NVDA+Shift+数字键盘删除 | NVDA+Shift+删除 | 无 | 读出查看光标处文本或对象的位置信息。例如，可能包括查看光标位置在文档内的百分比、与页面边缘的距离或确切的屏幕位置。连按两次获取详细信息。</target>
       </segment>
@@ -10783,7 +10783,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 821</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When moving the review cursor, the System caret does not follow along, so you can review text without losing your editing position.</source>
         <target>当移动查看光标时，系统输入焦点不会跟随移动，因此，您可以在不丢失编辑位置的前提下进行文本查看。</target>
       </segment>
@@ -10792,7 +10792,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 822</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>However, by default, when the System caret moves, the review cursor follows along.</source>
         <target>但在默认情况下，当系统输入焦点移动时，查看光标将跟随移动。</target>
       </segment>
@@ -10841,7 +10841,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to top line in review |shift+numpad7 |NVDA+control+home |none |Moves the review cursor to the top line of the text</source>
         <target>移动到查看文本的第一行 | shift+数字键盘7 | NVDA+control+行首 | 无 | 移动查看光标到文本的第一行</target>
       </segment>
@@ -10852,7 +10852,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous line in review |numpad7 |NVDA+upArrow |flick up (text mode) |Moves the review cursor to the previous line of text</source>
         <target>移动到查看文本的上一行 | 数字键盘7 | NVDA+上光标 | 向上滑动（文本模式） |移动查看光标到文本的上一行</target>
       </segment>
@@ -10863,7 +10863,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current line in review |numpad8 |NVDA+shift+. |none |Announces the current line of text where the review cursor is positioned. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
         <target>朗读查看文本的当前行 | 数字键盘8 | NVDA+shift+. | 无 | 朗读查看光标所在位置的文本的当前航，连按两次拼读该行，连按三次用字符描述拼读该行。</target>
       </segment>
@@ -10874,7 +10874,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next line in review |numpad9 |NVDA+downArrow |flick down (text mode) |Move the review cursor to the next line of text</source>
         <target>移动到查看文本的下一行 | 数字键盘9 | NVDA+下光标 | 向下滑动（文本模式） | 移动查看光标到文本的下一行</target>
       </segment>
@@ -10885,7 +10885,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to bottom line in review |shift+numpad9 |NVDA+control+end |none |Moves the review cursor to the bottom line of text</source>
         <target>移动到查看文本的最后一行 | shift+数字键盘9 | NVDA+control+行尾 | 无 | 移动查看光标到文本的最后一行</target>
       </segment>
@@ -10896,7 +10896,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous word in review |numpad4 |NVDA+control+leftArrow |2-finger flick left (text mode) |Moves the review cursor to the previous word in the text</source>
         <target>移动到查看文本的上一个词 | 数字键盘4 | NVDA+control+左光标 | 两个手指向左滑动（文本模式） | 移动查看光标到文本的上一个词</target>
       </segment>
@@ -10907,7 +10907,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current word in review |numpad5 |NVDA+control+. |none |Announces the current word in the text where the review cursor is positioned. Pressing twice spells the word. Pressing three times spells the word using character descriptions.</source>
         <target>朗读查看文本的当前词 | 数字键盘5 | NVDA+control+. | 无 | 朗读查看光标所在位置的文本的当前词，连按两次拼读该词，连按三次用字符描述拼读该词。</target>
       </segment>
@@ -10918,7 +10918,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next word in review |numpad6 |NVDA+control+rightArrow |2-finger flick right (text mode) |Move the review cursor to the next word in the text</source>
         <target>移动到查看文本的下一个词 | 数字键盘6 | NVDA+control+右光标 | 两个手指向右滑动（文本模式） | 移动查看光标到文本的下一个词</target>
       </segment>
@@ -10929,7 +10929,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to start of line in review |shift+numpad1 |NVDA+home |none |Moves the review cursor to the start of the current line in the text</source>
         <target>移动到查看文本的行首 | shift+数字键盘1 | NVDA+行首 | 无 | 移动浏览光标到文本的当前行的行首</target>
       </segment>
@@ -10940,7 +10940,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous character in review |numpad1 |NVDA+leftArrow |flick left (text mode) |Moves the review cursor to the previous character on the current line in the text</source>
         <target>移动到查看文本的上一个字 | 数字键盘1 | NVDA+左光标 | 向左滑动（文本模式） | 移动查看光标到文本的当前行的上一个字符</target>
       </segment>
@@ -10951,7 +10951,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current character in review |numpad2 |NVDA+. |none |Announces the current character on the line of text where the review cursor is positioned. Pressing twice reports a description or example of that character. Pressing three times reports the numeric value of the character in decimal and hexadecimal.</source>
         <target>朗读查看文本的当前字 | 数字键盘2 | NVDA+. | 无 | 朗读查看光标所在行的当前字符，连按两次读出该字符的描述或范例，连按三次读出字符的十进制和十六进制值。</target>
       </segment>
@@ -10962,7 +10962,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next character in review |numpad3 |NVDA+rightArrow |flick right (text mode) |Move the review cursor to the next character on the current line of text</source>
         <target>移动到查看文本的下一个字 | 数字键盘3 | NVDA+右光标 | 向右滑动（文本模式） | 移动查看光标到文本的当前行的下一个字符</target>
       </segment>
@@ -10973,7 +10973,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to end of line in review |shift+numpad3 |NVDA+end |none |Moves the review cursor to the end of the current line of text</source>
         <target>移动到查看文本的行尾 | shift+数字键盘3 | NVDA+行尾 | 无 | 移动查看光标到文本的当前行的行尾</target>
       </segment>
@@ -10984,7 +10984,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous page in review |`NVDA+pageUp` |`NVDA+shift+pageUp` |none |Moves the review cursor to the previous page of text if supported by the application</source>
         <target>移动到查看文本的上一页 | `NVDA+上翻页` | `NVDA+shift+上翻页` | 无 | 如果应用程序支持，将查看光标移动到当前查看文本的上一页并将其读出</target>
       </segment>
@@ -10995,7 +10995,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next page in review |`NVDA+pageDown` |`NVDA+shift+pageDown` |none |Moves the review cursor to the next page of text if supported by the application</source>
         <target>移动到查看文本的下一页 | `NVDA+下翻页` | `NVDA+shift+下翻页` | 无 | 如果应用程序支持，将查看光标移动到当前查看文本的下一页并将其读出</target>
       </segment>
@@ -11006,7 +11006,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Say all with review |numpadPlus |NVDA+shift+a |3-finger flick down (text mode) |Reads from the current position of the review cursor, moving it as it goes</source>
         <target>文本查看全文朗读 | 数字键盘加号 | NVDA+shift+a | 三个手指向下滑动（文本模式） | 从查看光标所在位置开始朗读并随之移动</target>
       </segment>
@@ -11017,7 +11017,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Select then Copy from review cursor |NVDA+f9 |NVDA+f9 |none |Starts the select then copy process from the current position of the review cursor. The actual action is not performed until you tell NVDA where the end of the text range is</source>
         <target>标记开始点 | NVDA+f9 | NVDA+f9 | 无 | 设置当前查看光标所在位置为开始点，在您未设置结束点之前不会执行复制</target>
       </segment>
@@ -11028,7 +11028,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Select then Copy to review cursor |NVDA+f10 |NVDA+f10 |none |On the first press, text is selected from the position previously set as start marker up to and including the review cursor's current position. If the system caret can reach the text, it will be moved to the selected text. After pressing this key stroke a second time, the text will be copied to the Windows clipboard</source>
         <target>标记结束点 | NVDA+f10 | NVDA+f10 | 无 | 按一次，选中开始点和结束点之间的文本，同时尝试将系统输入焦点移动到选定的文本；连按两次，把开始点和结束点之间的文本复制到剪贴板</target>
       </segment>
@@ -11039,7 +11039,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to marked start for copy in review |NVDA+shift+f9 |NVDA+shift+f9 |none |Moves the review cursor to the position previously set start marker for copy</source>
         <target>移动到已标记的开始点 | NVDA+shift+f9 | NVDA+shift+f9 | 无 | 将查看光标移动到先前设置的开始复制标记的位置</target>
       </segment>
@@ -11050,7 +11050,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report text formatting |NVDA+shift+f |NVDA+shift+f |none |Reports the formatting of the text where the review cursor is currently situated. Pressing twice shows the information in browse mode</source>
         <target>朗读文本格式 | NVDA+shift+f | NVDA+shift+f | 无 | 朗读查看光标所在处文本的格式信息，连按两次可使用浏览模式显示该信息</target>
       </segment>
@@ -11061,7 +11061,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current symbol replacement |None |None |none |Speaks the symbol where the review cursor is positioned. Pressed twice, shows the symbol and the text used to speak it in browse mode.</source>
         <target>朗读符号极其发音替换文本 | 无 | 无 | 无 | 按一次读出当前查看光标处的符号。连按两次，在浏览模式下显示该符号极其对应的发音替换文本。</target>
       </segment>
@@ -11132,7 +11132,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#ReviewModes}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Review Modes</source>
         <target>查看模式</target>
       </segment>
@@ -11141,7 +11141,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 869</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA's [text review commands](#ReviewingText) can review content within the current navigator object, current document or screen, depending on the review mode selected.</source>
         <target>NVDA 的[文本查看命令](#ReviewingText) 可以查看当前导航对象、当前文档或屏幕中的内容，依照您当前选择的模式而定。</target>
       </segment>
@@ -11150,7 +11150,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 871</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following commands switch between review modes:</source>
         <target>下面的命令，可以在查看模式之间切换：</target>
       </segment>
@@ -11172,7 +11172,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switch to next review mode |NVDA+numpad7 |NVDA+pageUp |2-finger flick up |switches to the next available review mode</source>
         <target>切换到下一个查看模式 | NVDA+数字键盘7 | NVDA+上翻页 | 两个手指向上滑动 | 切换到下一个可用的查看模式</target>
       </segment>
@@ -11183,7 +11183,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switch to previous review mode |NVDA+numpad1 |NVDA+pageDown |2-finger flick down |switches to the previous available review mode</source>
         <target>切换到上一个查看模式 | NVDA+数字键盘1 | NVDA+下翻页 | 两个手指向下滑动 | 切换到上一个可用的查看模式</target>
       </segment>
@@ -11194,7 +11194,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#ObjectReview}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Object Review</source>
         <target>对象查看</target>
       </segment>
@@ -11203,7 +11203,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 883</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>While in object review mode, you are able to only review the content of the current [navigator object](#ObjectNavigation).</source>
         <target>当处于对象查看模式时，您只能查看当前[导航对象](#ObjectNavigation)的内容。</target>
       </segment>
@@ -11232,7 +11232,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#DocumentReview}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Document Review</source>
         <target>文档查看</target>
       </segment>
@@ -11241,7 +11241,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 889</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When the [navigator object](#ObjectNavigation) is within a browse mode document (e.g. web page) or other complex document (e.g. a Lotus Symphony document), it is possible to switch to the document review mode.</source>
         <target>当[导航对象](#ObjectNavigation)处于一个浏览模式文档时（例如 web 页面）或其他复杂文档（例如一个 Lotus 交响乐文档），可能会切换到文档查看模式。</target>
       </segment>
@@ -11250,7 +11250,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 890</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The document review mode allows you to review the text of the entire document.</source>
         <target>文档查看模式允许您查看整个文档的内容。</target>
       </segment>
@@ -11259,7 +11259,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 892</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When switching from object review to document review, the review cursor is placed in the document at the position of the navigator object.</source>
         <target>当您从对象查看切换为文档查看时，查看光标会被放置在导航对象所在位置的文档上。</target>
       </segment>
@@ -11268,7 +11268,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 893</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When moving around the document with review commands, the navigator object is automatically updated to the object found at the current review cursor position.</source>
         <target>当使用查看命令在文档中移动时，导航对象将自动地更新到当前浏览光标所在位置的对象上。</target>
       </segment>
@@ -11288,7 +11288,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#ScreenReview}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Screen Review</source>
         <target>屏幕查看</target>
       </segment>
@@ -11297,7 +11297,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 899</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The screen review mode allows you to review the text of the screen as it appears visually within the current application.</source>
         <target>屏幕查看模式允许您查看包含在当前程序内、实际上出现在屏幕上的文本。</target>
       </segment>
@@ -11306,7 +11306,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 900</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This is similar to the screen review or mouse cursor functionality in many other Windows screen readers.</source>
         <target>这与其他 Windows 屏幕阅读器的屏幕查看或鼠标光标功能相类似。</target>
       </segment>
@@ -11315,7 +11315,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 902</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When switching to screen review mode, the review cursor is placed at the screen position of the current [navigator object](#ObjectNavigation).</source>
         <target>当切换到屏幕浏览模式时，查看光标将被放置在当前[导航对象](#ObjectNavigation)的屏幕位置上。</target>
       </segment>
@@ -11324,7 +11324,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 903</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When moving around the screen with review commands, the navigator object is automatically updated to the object found at the screen position of the review cursor.</source>
         <target>当使用查看命令在屏幕中移动时，导航对象将自动移动到当前浏览光标所在位置的对象上。</target>
       </segment>
@@ -11544,7 +11544,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move mouse to current navigator object |NVDA+numpadDivide |NVDA+shift+m |none |Moves the mouse to the location of the current navigator object and review cursor</source>
         <target>移动鼠标到当前导航对象 | NVDA+数字键盘斜杠 | NVDA+shift+m | 无 | 移动鼠标到当前导航对象和查看光标的所在处</target>
       </segment>
@@ -13058,7 +13058,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1164</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This can be done by selecting each and choosing "Equation Options", then "Convert to Office Math" in the context menu.</source>
         <target>方法是选中每个要转换的公式并在上下文菜单中选择 “公式” -&gt; “转换为 Office Math”选项。</target>
       </segment>
@@ -13235,7 +13235,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1189</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>move the review cursor to the mathematical content.</source>
         <target>移动查看光标到数学内容。</target>
       </segment>
@@ -13244,7 +13244,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1190</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>By default, the review cursor follows the system caret, so you can usually use the system caret to move to the desired content.</source>
         <target>默认情况下，查看光标会跟随系统输入焦点，所以，实际上您可以直接使用系统输入焦点移动到期望的内容。</target>
       </segment>
@@ -14786,7 +14786,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1384</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Visual Highlight can help to identify the [system focus](#SystemFocus), [navigator object](#ObjectNavigation) and [browse mode](#BrowseMode) positions.</source>
         <target>该功能可以高亮显示[系统焦点](#SystemFocus)，[导航对象](#ObjectNavigation)以及[浏览模式光标](#BrowseMode)，从而方便低视力用户在屏幕上定位它们。</target>
       </segment>
@@ -15106,7 +15106,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1439</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Additional languages can be installed by opening the Start menu, choosing Settings, selecting Time &amp; Language -&gt; Region &amp; Language and then choosing Add a language.</source>
         <target>您可以打开开始菜单，选择设置，选择时间和语言 - &gt;地区和语言，然后选择添加语言来安装其他语言。</target>
       </segment>
@@ -16415,7 +16415,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1685</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>On Windows versions before Windows 11 22H2, text in the console that is not visibly displayed in the window is not accessible with NVDA's text review commands.</source>
         <target>在 Windows 11 22H2 之前的版本中，NVDA 的文本查看命令无法访问未显示在窗口中的文本。</target>
       </segment>
@@ -18768,7 +18768,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2080</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When follow cursors is selected, the braille display will follow either the system focus/caret or the navigator object/review cursor, depending on what braille is tethered to.</source>
         <target>选择跟随光标后，盲文点显器将跟随系统焦点/输入焦点或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
       </segment>
@@ -18826,7 +18826,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2091</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It applies to the system caret and review cursor, but not to the selection indicator.</source>
         <target>该设置会应用到系统输入焦点和查看光标，而并不会作用于选择指示器。换言之，此选项对选择指示器无效。</target>
       </segment>
@@ -18924,7 +18924,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsCursorShapeForReview}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Cursor Shape for Review</source>
         <target>跟随查看光标时盲文光标的形状</target>
       </segment>
@@ -18933,7 +18933,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2110</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This option allows you to choose the shape (dot pattern) of the braille cursor when braille is tethered to review.</source>
         <target>此选项允许您在盲文光标跟随查看光标时，选择盲文光标的形状（哪些点位）。</target>
       </segment>
@@ -19038,7 +19038,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2131</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both.</source>
         <target>此选项允许您选择是否希望点显器跟随系统焦点/输入焦点、导航对象/查看光标或自动。</target>
       </segment>
@@ -19047,7 +19047,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2132</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When "automatically" is selected, NVDA will follow the system focus and caret by default.</source>
         <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或输入焦点。</target>
       </segment>
@@ -19056,7 +19056,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2133</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In this case, when the navigator object or the review cursor position is changed by means of explicit user interaction, NVDA will tether to review temporarily, until the focus or the caret changes.</source>
         <target>此时，如果用户操作改变了导航对象或查看光标，NVDA 会让盲文光标暂时跟随查看光标，直到系统焦点或者输入焦点改变为止。</target>
       </segment>
@@ -19074,7 +19074,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2135</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In this case, braille will not follow the NVDA navigator during object navigation or the review cursor during review.</source>
         <target>此时，盲文光标不会跟随查看光标或导航对象。</target>
       </segment>
@@ -19083,7 +19083,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2136</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If you want braille to follow object navigation and text review instead, you need to configure braille to be tethered to review.</source>
         <target>如果您想让盲文光标只跟随文本查看或对象导航，需要把这个设置改成查看光标。</target>
       </segment>
@@ -19092,7 +19092,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2137</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In this case, Braille  will not follow system focus and system caret.</source>
         <target>此时盲文光标不再跟随系统焦点或系统输入焦点。</target>
       </segment>
@@ -19103,7 +19103,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsReviewRoutingMovesSystemCaret}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move system caret when routing review cursor</source>
         <target>移动查看光标时移动系统输入焦点</target>
       </segment>
@@ -19121,7 +19121,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2142</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This option is set to Never by default, meaning that routing will never move the caret when routing the review cursor.</source>
         <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动输入焦点。</target>
       </segment>
@@ -19130,7 +19130,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2144</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When this option is set to Always, and [braille tethering](#BrailleTether) is set to "automatically" or "to review", pressing a cursor routing key will also move the system caret or focus when supported.</source>
         <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统输入焦点或系统焦点。</target>
       </segment>
@@ -19139,7 +19139,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2145</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When the current review mode is [Screen Review](#ScreenReview), there is no physical caret.</source>
         <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理输入焦点。</target>
       </segment>
@@ -19157,7 +19157,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2147</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The same applies to [object review](#ObjectReview).</source>
         <target>这同样适用于[对象查看](#ObjectReview)。</target>
       </segment>
@@ -19175,7 +19175,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2150</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In that case, pressing a cursor routing key will only move the system caret or focus when NVDA is tethered to the review cursor automatically, whereas no movement will occur when manually tethered to the review cursor.</source>
         <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统输入焦点或系统焦点，而手动跟随到查看光标时不会发生任何移动。</target>
       </segment>
@@ -19184,7 +19184,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2152</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This option is shown only if "[tether braille](#BrailleTether)" is set to "automatically" or "to review".</source>
         <target>仅当“[盲文光标跟随](#BrailleTether)”设置为“自动”或“查看光标”时，才会显示此选项。</target>
       </segment>
@@ -19193,7 +19193,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2154</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To toggle move system caret when routing review cursor from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
         <target>如需在任意位置随意切换“移动查看光标时移动系统输入焦点”模式，请在[按键与首饰](#InputGestures)中分配一个快捷键。</target>
       </segment>
@@ -21069,7 +21069,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2473</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Highlight browse mode cursor: Toggles whether the [virtual browse mode cursor](#BrowseMode) will be highlighted.</source>
         <target>高亮显示浏览模式光标: 切换是否高亮显示[浏览模式](#BrowseMode)的虚拟光标。</target>
       </segment>
@@ -21626,7 +21626,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2578</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>An example of this is the "Report current character of navigator object" command.</source>
         <target>一个例子是“读出查看光标所在处的字符”命令。</target>
       </segment>
@@ -21635,7 +21635,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2579</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This command reports the character if pressed once, a phonetic description of the character if pressed twice, and the numeric value of the character if pressed three times.</source>
         <target>对于该命令，按一次读出查看光标所在处的字符，连按两次解释该字符，连续按三次则读出该字符的十进制和十六进制代码。</target>
       </segment>
@@ -22084,7 +22084,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#ReviewCursorSettings}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Review Cursor</source>
         <target>查看光标</target>
       </segment>
@@ -22093,7 +22093,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2659</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The Review Cursor category in the NVDA Settings dialog is used to configure NVDA's review cursor behaviour.</source>
         <target>该类别用于配置 NVDA 的查看光标行为。</target>
       </segment>
@@ -22102,7 +22102,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2660</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This category contains the following options:</source>
         <target>该类别包含以下选项：</target>
       </segment>
@@ -22131,7 +22131,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2668</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When enabled, The review cursor will always be placed in the same object as the current system focus whenever the focus changes.</source>
         <target>如果启用，查看光标无论什么时候都会与系统焦点处于相同的对象上，即使系统焦点进行了移动。</target>
       </segment>
@@ -22160,7 +22160,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2676</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When enabled, the review cursor will automatically be moved to the position of the System caret each time it moves.</source>
         <target>如果启用，查看光标将在每次系统输入焦点移动时自动移动到其所在位置。</target>
       </segment>
@@ -22180,7 +22180,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2680</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When enabled, the review cursor will follow the mouse as it moves.</source>
         <target>如果启用，查看光标会随着鼠标的移动而移动。</target>
       </segment>
@@ -22191,7 +22191,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReviewCursorSimple}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Simple Review mode</source>
         <target>简易查看模式</target>
       </segment>
@@ -22200,7 +22200,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2684</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When enabled, NVDA will filter the hierarchy of objects that can be navigated to exclude objects that aren't of interest to the user; e.g. invisible objects and objects used only for layout purposes.</source>
         <target>如果启用，NVDA 会通过过滤可被导航到的层级对象（例如隐藏对象或者仅起到布局作用的对象），达到排除用户不感兴趣的对象的目的。</target>
       </segment>
@@ -22209,7 +22209,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2686</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To toggle simple review mode from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
         <target>要想随时随地切换简易查看模式，您可在[按键与手势对话框](#InputGestures)增加新的自定义快捷键。</target>
       </segment>
@@ -22731,7 +22731,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2782</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Note that even with this option off, the review cursor will still be placed on the selected candidate allowing you to use object navigation / review to manually read this or other candidates.</source>
         <target>请注意，即使此选项被关闭，查看光标仍然会停留在选择的候选上，并允许您使用对象导航或文本查看来手动读取选择的或其他的候选。</target>
       </segment>
@@ -23950,7 +23950,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2966</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>By default, NVDA will detect the formatting at the position of the System caret / Review Cursor, and in some instances may detect formatting on the rest of the line, only if it is not going to cause a performance decrease.</source>
         <target>默认情况下，NVDA 会检测系统输入焦点或查看光标所在位置的格式信息，某些情况也会检测这一行的剩余部分，前提是这样做不会降低执行效率。</target>
       </segment>
@@ -29056,7 +29056,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3777</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For an even more extensive list of  free and commercial synthesizers that you can purchase and download for use with NVDA, please see the [extra voices page](https://github.com/nvaccess/nvda/wiki/ExtraVoices).</source>
         <target>要想查看更多您可以购买或下载的、可用于 NVDA 的免费或商业语音合成器的列表，请查看[extra voices 页面（英语）](https://github.com/nvaccess/nvda/wiki/ExtraVoices)（译者注：更多的语音合成器资源也可访问 NVDA 中文站[语音合成器集中下载页](https://www.nvdacn.com/tts.html)获取）。</target>
       </segment>
@@ -30509,7 +30509,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to top line in review |t1+t2</source>
         <target>移动到查看文本的第一行 | t1+t2</target>
       </segment>
@@ -30520,7 +30520,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to bottom line in review |t4+t5</source>
         <target>移动到查看文本的最后一行 | t4+t5</target>
       </segment>
@@ -32536,7 +32536,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous line in review |rightSideUpArrow</source>
         <target>移动到查看文本的上一行 | rightSideUpArrow</target>
       </segment>
@@ -32547,7 +32547,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next line in review |rightSideDownArrow</source>
         <target>移动到查看文本的下一行 | rightSideDownArrow</target>
       </segment>
@@ -32558,7 +32558,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous character in review |rightSideLeftArrow</source>
         <target>移动到查看文本的上一个字 | rightSideLeftArrow</target>
       </segment>
@@ -32569,7 +32569,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next character in review |rightSideRightArrow</source>
         <target>移动到查看文本的下一个字 | rightSideRightArrow</target>
       </segment>
@@ -34272,7 +34272,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current character in review |l1</source>
         <target>朗读查看文本的当前字 |l1</target>
       </segment>
@@ -34283,7 +34283,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Activate current navigator object |l2</source>
         <target>激活当前导航对象 |l2</target>
       </segment>
@@ -34327,7 +34327,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to containing object |up2</source>
         <target>移动到父对象 |up2</target>
       </segment>
@@ -34338,7 +34338,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first contained object |dn2</source>
         <target>移动到此对象的首个子对象 |dn2</target>
       </segment>
@@ -34349,7 +34349,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous object |left2</source>
         <target>移动到此层级的上一个对象 |left2</target>
       </segment>
@@ -34360,7 +34360,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next object |right2</source>
         <target>移动到此层级的下一个对象 |right2</target>
       </segment>
@@ -34907,7 +34907,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current character in review |l1</source>
         <target>朗读查看文本的当前字 |l1</target>
       </segment>
@@ -34918,7 +34918,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Activate current navigator object |l2</source>
         <target>激活当前导航对象 |l2</target>
       </segment>
@@ -34951,7 +34951,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to containing object |up2</source>
         <target>移动到父对象 |up2</target>
       </segment>
@@ -34962,7 +34962,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first contained object |dn2</source>
         <target>移动到此对象的首个子对象 |dn2</target>
       </segment>
@@ -34973,7 +34973,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next object |right2</source>
         <target>移动到此层级的下一个对象 |right2</target>
       </segment>
@@ -34984,7 +34984,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous object |left2</source>
         <target>移动到此层级的上一个对象 |left2</target>
       </segment>
@@ -35026,7 +35026,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current character in review |l1</source>
         <target>朗读查看文本的当前字 |l1</target>
       </segment>
@@ -35037,7 +35037,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Activate current navigator object |l2</source>
         <target>激活当前导航对象 |l2</target>
       </segment>
@@ -35103,7 +35103,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to containing object |r1+up</source>
         <target>移动到父对象 |r1+up</target>
       </segment>
@@ -35114,7 +35114,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first contained object |r1+dn</source>
         <target>移动到此对象的首个子对象 |r1+dn</target>
       </segment>
@@ -35125,7 +35125,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous object |r1+left</source>
         <target>移动到此层级的上一个对象 |r1+left</target>
       </segment>
@@ -35136,7 +35136,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next object |r1+right</source>
         <target>移动到此层级的下一个对象 |r1+right</target>
       </segment>
@@ -35169,7 +35169,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report status bar |l2+down</source>
         <target>读出状态栏 |l2+down</target>
       </segment>
@@ -35200,7 +35200,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current character in review |l1</source>
         <target>朗读查看文本的当前字 |l1</target>
       </segment>
@@ -35211,7 +35211,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Activate current navigator object |l2</source>
         <target>激活当前导航对象 |l2</target>
       </segment>
@@ -35288,7 +35288,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next object |left2</source>
         <target>移动到此层级的下一个对象 |left2</target>
       </segment>
@@ -35299,7 +35299,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to containing object |up2</source>
         <target>移动到父对象 |up2</target>
       </segment>
@@ -35310,7 +35310,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first contained object |dn2</source>
         <target>移动到此对象的首个子对象 |dn2</target>
       </segment>
@@ -35321,7 +35321,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous object |right2</source>
         <target>移动到此层级的上一个对象 |right2</target>
       </segment>
@@ -36308,7 +36308,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Activate current navigator object |T3</source>
         <target>激活当前导航对象 |T3</target>
       </segment>
@@ -36319,7 +36319,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switch to next review mode |F1</source>
         <target>切换到下一个查看模式 |F1</target>
       </segment>
@@ -36330,7 +36330,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to containing object |F2</source>
         <target>移动到父对象 |F2</target>
       </segment>
@@ -36341,7 +36341,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switch to previous review mode |F3</source>
         <target>切换到上一个查看模式 |F3</target>
       </segment>
@@ -36352,7 +36352,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous object |F4</source>
         <target>移动到此层级的上一个对象 |F4</target>
       </segment>
@@ -36363,7 +36363,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current object |F5</source>
         <target>读出当前对象 |F5</target>
       </segment>
@@ -36374,7 +36374,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next object |F6</source>
         <target>移动到此层级的下一个对象 |F6</target>
       </segment>
@@ -36385,7 +36385,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to focus object |F7</source>
         <target>移动到焦点对象 |F7</target>
       </segment>
@@ -36396,7 +36396,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first contained object |F8</source>
         <target>移动到此对象的首个子对象 |F8</target>
       </segment>
@@ -36407,7 +36407,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move System focus or caret to current review position |F9</source>
         <target>移动焦点或系统输入焦点到当前查看位置 |F9</target>
       </segment>
@@ -36418,7 +36418,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report review cursor location |F0</source>
         <target>读出查看光标的位置信息 |F0</target>
       </segment>
@@ -37520,7 +37520,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next line in review |`leftKeypadDown`</source>
         <target>移动到查看文本的下一行 |`leftKeypadDown`</target>
       </segment>
@@ -37531,7 +37531,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switch to previous review mode |`leftKeypadLeft+leftKeypadUp`</source>
         <target>切换到上一个查看模式 |`leftKeypadLeft+leftKeypadUp`</target>
       </segment>
@@ -37542,7 +37542,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switch to next review mode |`leftKeypadRight+leftKeypadDown`</source>
         <target>切换到下一个查看模式 |`leftKeypadRight+leftKeypadDown`</target>
       </segment>
@@ -37696,7 +37696,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous line in review |`joystick1Up`</source>
         <target>移动到查看文本的上一行 |`joystick1Up`</target>
       </segment>
@@ -37707,7 +37707,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next line in review |`joystick1Down`</source>
         <target>移动到查看文本的下一行 |`joystick1Down`</target>
       </segment>
@@ -37718,7 +37718,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous character in review |`joystick1Left`</source>
         <target>移动到查看文本的上一个字 |`joystick1Left`</target>
       </segment>
@@ -37729,7 +37729,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next character in review |`joystick1Right`</source>
         <target>移动到查看文本的下一个字 |`joystick1Right`</target>
       </segment>
@@ -37872,7 +37872,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous line in review |`joystick1Up`</source>
         <target>移动到查看文本的上一行 |`joystick1Up`</target>
       </segment>
@@ -37883,7 +37883,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next line in review |`joystick1Down`</source>
         <target>移动到查看文本的下一行 |`joystick1Down`</target>
       </segment>
@@ -37894,7 +37894,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous character in review |`joystick1Left`</source>
         <target>移动到查看文本的上一个字 |`joystick1Left`</target>
       </segment>
@@ -37905,7 +37905,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next character in review |`joystick1Right`</source>
         <target>移动到查看文本的下一个字 |`joystick1Right`</target>
       </segment>
@@ -38405,7 +38405,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speak the line where the review cursor is located |`say_line` (speak current line)</source>
         <target>读出查看光标的所在行 |`say_line` (speak current line)</target>
       </segment>
@@ -38416,7 +38416,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Say all using review cursor |`say_below` (speak from current line through bottom of screen)</source>
         <target>文本查看全文朗读 |`say_below` (speak from current line through bottom of screen)</target>
       </segment>
@@ -38539,7 +38539,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to top line in review |`home1`, `home2`</source>
         <target>移动到查看文本的第一行 |`home1`, `home2`</target>
       </segment>
@@ -38550,7 +38550,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to bottom line in review |`end1`, `end2`</source>
         <target>移动到查看文本的最后一行 |`end1`, `end2`</target>
       </segment>
@@ -38561,7 +38561,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Sets the navigator object to the current focus |`eCursor1`, `eCursor2`</source>
         <target>将导航对象设置到当前焦点 |`eCursor1`, `eCursor2`</target>
       </segment>
@@ -38583,7 +38583,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves the mouse pointer to the current navigator object |`home1+home2`</source>
         <target>将鼠标移动到当前的导航对象 |`home1+home2`</target>
       </segment>
@@ -38594,7 +38594,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Sets the navigator object to the current object under the mouse pointer and speaks it |`end1+end2`</source>
         <target>将导航对象移到鼠标所指的对象并将其读出 |`end1+end2`</target>
       </segment>
@@ -38605,7 +38605,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves focus to current navigator object |`eCursor1+eCursor2`</source>
         <target>将焦点移到当前导航对象 |`eCursor1+eCursor2`</target>
       </segment>
@@ -38715,7 +38715,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switches to the previous review mode (e.g. object, document or screen) |`f1`</source>
         <target>切换到上一个查看模式（对象查看模式、文档查看模式或屏幕查看模式） |`f1`</target>
       </segment>
@@ -38726,7 +38726,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Switches to the next review mode (e.g. object, document or screen) |`f2`</source>
         <target>切换到下一个查看模式（对象查看模式、文档查看模式或屏幕查看模式） |`f2`</target>
       </segment>
@@ -38737,7 +38737,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves the navigator object to the object containing it |`f3`</source>
         <target>移动导航对象到此对象的父对象 |`f3`</target>
       </segment>
@@ -38748,7 +38748,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves the navigator object to the first object inside it |`f4`</source>
         <target>移动导航对象到此对象的首个子对象 |`f4`</target>
       </segment>
@@ -38759,7 +38759,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves the navigator object to the previous object |`f5`</source>
         <target>移动导航对象到此层级的前一个对象 |`f5`</target>
       </segment>
@@ -38770,7 +38770,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves the navigator object to the next object |`f6`</source>
         <target>移动导航对象到此层级的下一个对象 |`f6`</target>
       </segment>
@@ -38781,7 +38781,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Reports the current navigator object |`f7`</source>
         <target>读出当前导航对象 |`f7`</target>
       </segment>
@@ -38792,7 +38792,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Reports information about the location of the text or object at the review cursor |`f8`</source>
         <target>读出查看光标处文本或对象的位置信息 |`f8`</target>
       </segment>
@@ -38957,7 +38957,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Reports current character under review cursor |`f15`</source>
         <target>读出查看光标的所在字符  |`f15`</target>
       </segment>
@@ -38968,7 +38968,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Reports the line of the current navigator object where the review cursor is situated |`f16`</source>
         <target>读出查看光标的所在行 |`f16`</target>
       </segment>
@@ -38979,7 +38979,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speaks the word of the current navigator object where the review cursor is situated |`f15+f16`</source>
         <target>读出查看光标的所在单词 |`f15+f16`</target>
       </segment>
@@ -38990,7 +38990,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves the review cursor to the previous line of the current navigator object and speaks it |`lWheelUp`, `rWheelUp`</source>
         <target>将查看光标移动到当前查看文本的上一行并将其读出 |`lWheelUp`, `rWheelUp`</target>
       </segment>
@@ -39001,7 +39001,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Moves the review cursor to the next line of the current navigator object and speaks it |`lWheelDown`, `rWheelDown`</source>
         <target>将查看光标移动到当前查看文本的下一行并将其读出 |`lWheelDown`, `rWheelDown`</target>
       </segment>
@@ -39691,7 +39691,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5120</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>These options can be passed when starting from a shortcut (in the shortcut properties), from the Run dialog (Start Menu -&gt; Run or Windows+r) or from a Windows command console.</source>
         <target>这些选项可以通过快捷方式（快捷方式属性）、运行对话框（开始菜单 -&gt; 运行 或 Windows+r）或一个 Windows 命令控制台启动时传给 NVDA 主程序。</target>
       </segment>
