@@ -6664,7 +6664,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>While in input help mode, performing any input gesture (such as pressing a key or performing a touch gesture) will report the action and describe what it does (if anything).</source>
-        <target>在输入帮助模式下，执行任何手势（如按键或触摸手势）就会朗读所执行的动作，并描述所要完成的功能（如果有的话）。</target>
+        <target>在输入帮助模式下，执行任何手势（如按键或触摸手势）会读出所执行的动作，并描述所要完成的功能（如果有的话）。</target>
       </segment>
     </unit>
     <unit id="9490cb13-fbfe-445a-aa67-aab8e658f7d5">
@@ -6849,7 +6849,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report focus |`NVDA+tab` |`NVDA+tab` |Reports the current control which has focus.  Pressing twice will spell the information. Pressing three times will spell it using character description</source>
-        <target>朗读焦点 | `NVDA+tab` | `NVDA+tab` | 朗读当前焦点所在的控件。连按两次会拼读此信息。连按三次用字符描述拼读它</target>
+        <target>读出焦点 | `NVDA+tab` | `NVDA+tab` | 读出当前焦点所在的控件。连按两次拼读该信息。连按三次用字符描述拼读该信息</target>
       </segment>
     </unit>
     <unit id="ee421381-d65d-469c-91eb-d40598555843">
@@ -6871,7 +6871,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read status bar |`NVDA+end` |`NVDA+shift+end` |Reports the Status Bar if NVDA finds one. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>朗读状态栏 | `NVDA+end` | `NVDA+shift+end` | 如果 NVDA 能找到状态栏则朗读它。连按两次会拼读此信息。连按三次会复制此信息到剪贴板</target>
+        <target>读出状态栏 | `NVDA+end` | `NVDA+shift+end` | 如果 NVDA 能找到状态栏则将其读出。连按两次拼读该信息。连按三次复制该信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="a75f1632-754c-4439-86c6-256844758f34">
@@ -6893,7 +6893,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report text formatting |`NVDA+f` |`NVDA+f` |Reports text formatting. Pressing twice shows the information in a window</source>
-        <target>朗读文本格式 | `NVDA+f` | `NVDA+f` | 朗读文本的格式信息。连按两次在一个窗口中显示此信息</target>
+        <target>读出文本格式 | `NVDA+f` | `NVDA+f` | 读出文本的格式信息。连按两次在一个窗口中显示此信息</target>
       </segment>
     </unit>
     <unit id="85eb7fc3-aea0-4669-b0a9-ecb073bebfc7">
@@ -9687,7 +9687,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report date/time |NVDA+f12 |Pressing once reports the current time, pressing twice reports the date</source>
-        <target>朗读日期/时间 | NVDA+f12 | 按一次读出当前时间，连按两次读出日期</target>
+        <target>读出日期/时间 | NVDA+f12 | 按一次读出当前时间，连按两次读出日期</target>
       </segment>
     </unit>
     <unit id="7e48dfd6-6c99-4fc5-9013-dd3ac5a776af">
@@ -9698,7 +9698,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report battery status |NVDA+shift+b |Reports the battery status i.e. whether AC power is in use or the current charge percentage.</source>
-        <target>朗读电池状态 | NVDA+shift+b | 朗读电池状态，包括是否正在使用电源和充电的百分比。</target>
+        <target>读出电池状态 | NVDA+shift+b | 读出电池状态，包括是否正在使用电源和充电的百分比。</target>
       </segment>
     </unit>
     <unit id="bd33763c-def7-4e8e-ae75-85a6443b17cb">
@@ -9709,7 +9709,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report clipboard text |NVDA+c |Reports the Text on the clipboard if there is any.</source>
-        <target>朗读剪贴板文本 | NVDA+c | 朗读剪贴板内的任何字符。</target>
+        <target>读出剪贴板文本 | NVDA+c | 读出剪贴板内的任何字符。</target>
       </segment>
     </unit>
     <unit id="e7ae8c0c-5eec-4f66-b71f-085145fa04ef">
@@ -9999,7 +9999,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current focus |NVDA+tab |NVDA+tab |announces the current object or control that has the System focus. Pressing twice will spell the information</source>
-        <target>朗读当前焦点 |NVDA+tab |NVDA+tab |朗读当前焦点所在的对象和控件，连按两次将拼读此信息</target>
+        <target>读出当前焦点 |NVDA+tab |NVDA+tab |读出当前焦点所在的对象和控件，连按两次将拼读此信息</target>
       </segment>
     </unit>
     <unit id="c8ce15b7-d2fa-4afc-8c80-935b7ddacaa3">
@@ -10010,7 +10010,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report title |NVDA+t |NVDA+t |Reports the title of the currently active window. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>朗读标题 |NVDA+t |NVDA+t |朗读当前激活窗口的标题，连按两次将拼读此信息，连按三次将复制此信息到剪贴板</target>
+        <target>读出标题 |NVDA+t |NVDA+t |读出当前激活窗口的标题，连按两次将拼读此信息，连按三次将复制此信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="86d0bd11-fd8c-47d3-8c36-2c63c876776e">
@@ -10032,7 +10032,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report Status Bar |NVDA+end |NVDA+shift+end |Reports the Status Bar if NVDA finds one. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>朗读状态栏 |NVDA+end |NVDA+shift+end |读出当前应用程序的状态栏，连按两次拼读该信息，连按三次复制该信息到剪贴板</target>
+        <target>读出状态栏 |NVDA+end |NVDA+shift+end |读出当前应用程序的状态栏，连按两次拼读该信息，连按三次复制该信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="352a4366-9b83-4eff-babb-37d3e3308fbe">
@@ -10132,7 +10132,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read current line |NVDA+upArrow |NVDA+l |Reads the line where the system caret is currently situated. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
-        <target>朗读当前行 |NVDA+上光标 |NVDA+l |朗读系统输入焦点所在的行，连按两次拼读该行。</target>
+        <target>读出当前行 |NVDA+上光标 |NVDA+l |读出系统输入焦点所在的行，连按两次拼读该行，连按三次用字符描述拼读该行。</target>
       </segment>
     </unit>
     <unit id="2ad65d11-02eb-4651-b40f-0446bb0f61af">
@@ -10143,7 +10143,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read current text selection |NVDA+Shift+upArrow |NVDA+shift+s |Reads any currently selected text</source>
-        <target>朗读当前选择的文本 |NVDA+Shift+上光标 |NVDA+shift+s |朗读当前选择的所有文本</target>
+        <target>读出当前选择的文本 |NVDA+Shift+上光标 |NVDA+shift+s |读出当前选择的所有文本</target>
       </segment>
     </unit>
     <unit id="5410c0d1-f10a-4ef4-a914-3d37e0930862">
@@ -10154,7 +10154,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report text formatting |NVDA+f |NVDA+f |Reports the formatting of the text where the caret is currently situated. Pressing twice shows the information in browse mode</source>
-        <target>朗读文本格式 |NVDA+f |NVDA+f |朗读系统输入焦点当前位置的文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
+        <target>读出文本格式 |NVDA+f |NVDA+f |读出系统输入焦点当前位置的文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
       </segment>
     </unit>
     <unit id="9df76723-e7c4-4e1b-aa7a-65a16cb3c311">
@@ -10865,7 +10865,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current line in review |numpad8 |NVDA+shift+. |none |Announces the current line of text where the review cursor is positioned. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
-        <target>朗读查看文本的当前行 | 数字键盘8 | NVDA+shift+. | 无 | 朗读查看光标所在位置的文本的当前航，连按两次拼读该行，连按三次用字符描述拼读该行。</target>
+        <target>读出查看文本的当前行 | 数字键盘8 | NVDA+shift+. | 无 | 读出查看光标所在位置的文本的当前航，连按两次拼读该行，连按三次用字符描述拼读该行。</target>
       </segment>
     </unit>
     <unit id="0f4a8091-c712-4667-b7f4-32a374c4636f">
@@ -10909,7 +10909,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current word in review |numpad5 |NVDA+control+. |none |Announces the current word in the text where the review cursor is positioned. Pressing twice spells the word. Pressing three times spells the word using character descriptions.</source>
-        <target>朗读查看文本的当前词 | 数字键盘5 | NVDA+control+. | 无 | 朗读查看光标所在位置的文本的当前词，连按两次拼读该词，连按三次用字符描述拼读该词。</target>
+        <target>读出查看文本的当前词 | 数字键盘5 | NVDA+control+. | 无 | 读出查看光标所在位置的文本的当前词，连按两次拼读该词，连按三次用字符描述拼读该词。</target>
       </segment>
     </unit>
     <unit id="fb8f2ac5-ee38-46d7-85b7-c1a8a0befde7">
@@ -10953,7 +10953,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current character in review |numpad2 |NVDA+. |none |Announces the current character on the line of text where the review cursor is positioned. Pressing twice reports a description or example of that character. Pressing three times reports the numeric value of the character in decimal and hexadecimal.</source>
-        <target>朗读查看文本的当前字 | 数字键盘2 | NVDA+. | 无 | 朗读查看光标所在行的当前字符，连按两次读出该字符的描述或范例，连按三次读出字符的十进制和十六进制值。</target>
+        <target>读出查看文本的当前字 | 数字键盘2 | NVDA+. | 无 | 读出查看光标所在行的当前字符，连按两次读出该字符的描述或范例，连按三次读出字符的十进制和十六进制值。</target>
       </segment>
     </unit>
     <unit id="882a011e-d5f0-4226-8a00-4e703c9291d6">
@@ -11052,7 +11052,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report text formatting |NVDA+shift+f |NVDA+shift+f |none |Reports the formatting of the text where the review cursor is currently situated. Pressing twice shows the information in browse mode</source>
-        <target>朗读文本格式 | NVDA+shift+f | NVDA+shift+f | 无 | 朗读查看光标所在处文本的格式信息，连按两次可使用浏览模式显示该信息</target>
+        <target>读出文本格式 | NVDA+shift+f | NVDA+shift+f | 无 | 读出查看光标所在处文本的格式信息，连按两次可使用浏览模式显示该信息</target>
       </segment>
     </unit>
     <unit id="a3ceceb9-38ef-4589-a3b2-f5225cbdc7ee">
@@ -11063,7 +11063,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current symbol replacement |None |None |none |Speaks the symbol where the review cursor is positioned. Pressed twice, shows the symbol and the text used to speak it in browse mode.</source>
-        <target>朗读符号极其发音替换文本 | 无 | 无 | 无 | 按一次读出当前查看光标处的符号。连按两次，在浏览模式下显示该符号极其对应的发音替换文本。</target>
+        <target>读出符号极其发音替换文本 | 无 | 无 | 无 | 按一次读出当前查看光标处的符号。连按两次，在浏览模式下显示该符号极其对应的发音替换文本。</target>
       </segment>
     </unit>
     <unit id="2674f466-e6b0-43a9-9729-8f2ef606f212">
@@ -11355,7 +11355,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When you move the mouse, NVDA by default reports the text that is directly under the mouse pointer as the pointer moves over it.</source>
-        <target>当您移动鼠标，默认情况下 NVDA 将朗读指针经过时鼠标指针下的文本。</target>
+        <target>当您移动鼠标，默认情况下 NVDA 将读出指针经过时鼠标指针下的文本。</target>
       </segment>
     </unit>
     <unit id="c3b180de-ca8c-4eba-87b1-a12c3fa928a1">
@@ -11373,7 +11373,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>NVDA can be configured to also announce the type of [object](#Objects) under the mouse as it moves (e.g. list, button, etc.).</source>
-        <target>NVDA 也可以配置朗读鼠标经过时的[对象](#Objects)类型（例如列表、按钮等等）</target>
+        <target>NVDA 也可以配置读出鼠标经过时的[对象](#Objects)类型（例如列表、按钮等等）</target>
       </segment>
     </unit>
     <unit id="24197eaf-7453-44d3-b1b1-b9ac0cbf0e58">
@@ -15186,7 +15186,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Automatic Column and Row Header Reading</source>
-        <target>自动行列标题朗读</target>
+        <target>自动读出行列标题</target>
       </segment>
     </unit>
     <unit id="387c0105-ef72-4949-9f72-649e091b0fac">
@@ -15360,7 +15360,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Reporting Comments</source>
-        <target>朗读批注</target>
+        <target>读出批注</target>
       </segment>
     </unit>
     <unit id="3c823bdc-5fb5-4735-8a55-b1897cb40143">
@@ -15409,7 +15409,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Automatic Column and Row Header Reading</source>
-        <target>自动朗读表格的行列标题</target>
+        <target>自动读出表格的行列标题</target>
       </segment>
     </unit>
     <unit id="0d1e8e13-caa2-4b78-9810-6f5ecc7feb34">
@@ -15676,7 +15676,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Reporting Notes</source>
-        <target>朗读注释</target>
+        <target>读出注释</target>
       </segment>
     </unit>
     <unit id="99a7f7a6-7d86-44a7-832d-6aaa6e6b1bda">
@@ -15685,7 +15685,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To report any notes for the currently focused cell, press `NVDA+alt+c`.</source>
-        <target>要想朗读当前聚焦单元的所有注释，请按 `NVDA+alt+C`。</target>
+        <target>要想读出当前聚焦单元的所有注释，请按 `NVDA+alt+C`。</target>
       </segment>
     </unit>
     <unit id="10cc467c-5c4c-47e9-a08a-7a4a6ac9e70f">
@@ -15813,7 +15813,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Reading Protected Cells</source>
-        <target>朗读受保护的单元格</target>
+        <target>读出受保护的单元格</target>
       </segment>
     </unit>
     <unit id="91710530-cf79-46de-aeb0-6c1244d34848">
@@ -15944,7 +15944,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report remaining time |control+shift+r |Reports the remaining time of the currently playing track, if any.</source>
-        <target>朗读剩余时间 | control+shift+r | 如果正在播放音乐，朗读当前播放曲目的剩余时间。</target>
+        <target>读出剩余时间 | control+shift+r | 如果正在播放音乐，读出当前播放曲目的剩余时间。</target>
       </segment>
     </unit>
     <unit id="90376463-2ed4-4c74-b64d-8d028f69c8f0">
@@ -15955,7 +15955,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report elapsed time |control+shift+e |Reports the elapsed time of the currently playing track, if any.</source>
-        <target>朗读已播放时间 | control+shift+e | 如果正在播放音乐，朗读当前曲目的已播放时间。</target>
+        <target>读出已播放时间 | control+shift+e | 如果正在播放音乐，读出当前曲目的已播放时间。</target>
       </segment>
     </unit>
     <unit id="0cfe6ba4-89fe-4301-949e-21804608a233">
@@ -15966,7 +15966,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report track length |control+shift+t |Reports the length of the currently playing track, if any.</source>
-        <target>朗读总时长 | control+shift+t | 如果正在播放音乐，朗读当前曲目的总时长。</target>
+        <target>读出总时长 | control+shift+t | 如果正在播放音乐，读出当前曲目的总时长。</target>
       </segment>
     </unit>
     <unit id="c97c5a26-25db-45be-8b8c-6bcc187398ff">
@@ -16008,7 +16008,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report recent message |NVDA+control+1-4 |Reports one of the recent messages, depending on the number pressed; e.g. NVDA+control+2 reads the second most recent message.</source>
-        <target>朗读最近的消息 | NVDA+control+1-4 | 根据按下数字的不同朗读最近的消息中的一条，例如 NVDA+control+2 朗读第二条最近的消息。</target>
+        <target>读出最近的消息 | NVDA+control+1-4 | 根据按下数字的不同读出最近的消息中的一条，例如 NVDA+control+2 读出第二条最近的消息。</target>
       </segment>
     </unit>
     <unit id="713aa2a8-003d-48aa-b949-89246ba1c11d">
@@ -16050,7 +16050,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report notes for translators |`control+shift+a` |Reports any notes for translators. If pressed twice, presents the notes in browse mode</source>
-        <target>朗读翻译者注释 | `control+shift+a` | 读出翻译者注释。连按两次，在浏览模式下显示该信息</target>
+        <target>读出翻译者注释 | `control+shift+a` | 读出翻译者注释。连按两次，在浏览模式下显示该信息</target>
       </segment>
     </unit>
     <unit id="5677bc10-0777-4059-9b44-51bc2ecab1c9">
@@ -16061,7 +16061,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report Comment |`control+shift+c` |Reports any comment in the comments window. If pressed twice, presents the comment in browse mode</source>
-        <target>朗读注释 | `control+shift+c` | 读出窗口内的注释。连按两次，在浏览模式下显示该信息</target>
+        <target>读出注释 | `control+shift+c` | 读出窗口内的注释。连按两次，在浏览模式下显示该信息</target>
       </segment>
     </unit>
     <unit id="9cdc4126-bc0e-42c3-9919-ccf201b566cc">
@@ -16072,7 +16072,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report Old Source Text |`control+shift+o` |Reports the old source text, if any. If pressed twice, presents the text in browse mode</source>
-        <target>朗读先前的源文本 | `control+shift+o` | 读出先前的源文本（如果有）。连按两次，在浏览模式下显示该信息</target>
+        <target>读出先前的源文本 | `control+shift+o` | 读出先前的源文本（如果有）。连按两次，在浏览模式下显示该信息</target>
       </segment>
     </unit>
     <unit id="efc71aaf-e7fa-4d4e-b40d-bb8cccd0f369">
@@ -16083,7 +16083,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report Translation Warning |`control+shift+w` |Reports a translation warning, if any. If pressed twice, presents the warning in browse mode</source>
-        <target>朗读翻译警告 | `control+shift+w` | 读出翻译警告（如果有）。连按两次，在浏览模式下显示该信息</target>
+        <target>读出翻译警告 | `control+shift+w` | 读出翻译警告（如果有）。连按两次，在浏览模式下显示该信息</target>
       </segment>
     </unit>
     <unit id="f109d29a-21dc-4b5b-85ad-f92d7b959cfa">
@@ -17946,7 +17946,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This setting is a checkbox that, when checked, tells NVDA to explicitly report that a character is normalized when spoken as an individual character such as when spelling.</source>
-        <target>此设置是一个复选框，勾选后，NVDA 在单独朗读字符（如拼写时）会明确提示字符已正规化。</target>
+        <target>此设置是一个复选框，勾选后，NVDA 在单独读出字符（如拼写时）会明确提示字符已正规化。</target>
       </segment>
     </unit>
     <unit id="862c00e3-802a-46c0-96d5-b839d2f3eb15">
@@ -21570,7 +21570,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This option is only available if reporting of spelling errors is enabled in NVDA's [Document Formatting Settings](#DocumentFormattingSettings), found in the NVDA Settings dialog.</source>
-        <target>仅当[文档格式设置的](#DocumentFormattingSettings)对话框的“朗读拼写错误”选项启用时，此选项才生效。</target>
+        <target>仅当[文档格式设置](#DocumentFormattingSettings)对话框的“读出拼写错误”选项启用时，此选项才生效。</target>
       </segment>
     </unit>
     <unit id="c6c0276b-40ff-437e-a935-b4c145f14cb4">
@@ -21655,7 +21655,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For the example command, a too short timeout will cause two presses to report the current character twice, rather than the phonetic description.</source>
-        <target>对于该例子，超时设置太短的话，连按两次会导致重复两次朗读当前字符，而不是解释该字符。</target>
+        <target>对于该例子，超时设置太短的话，连按两次会导致重复两次读出当前字符，而不是解释该字符。</target>
       </segment>
     </unit>
     <unit id="5bf160f9-c7da-4306-9e90-69897a450636">
@@ -21733,7 +21733,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report Mouse Shape Changes</source>
-        <target>朗读鼠标形状改变</target>
+        <target>读出鼠标形状改变</target>
       </segment>
     </unit>
     <unit id="2d13c237-750b-429f-a1f5-3afbcc35b7a4">
@@ -22465,7 +22465,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This option controls how NVDA reports progress bar updates to you.</source>
-        <target>此选项控制 NVDA 如何向您报告进度栏的更新。</target>
+        <target>此选项控制 NVDA 如何提示进度栏的更新。</target>
       </segment>
     </unit>
     <unit id="269c9c3d-d80f-4b6d-bb5a-e561b333bb5a">
@@ -22668,7 +22668,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Automatically report all available candidates</source>
-        <target>自动朗读所有可用的候选</target>
+        <target>自动读出所有可用的候选</target>
       </segment>
     </unit>
     <unit id="afb2f57e-03d4-47fd-8838-22387a89fe25">
@@ -22677,7 +22677,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This option, which is on by default,  allows you to choose whether or not all visible candidates should be reported automatically when a candidate list appears or its page is changed.</source>
-        <target>此选项默认情况下启用，允许您选择是否在候选列表出现时或其页面被滚动时，自动朗读所有候选列表上的可见候选。</target>
+        <target>此选项默认情况下启用，允许您选择是否在候选列表出现时或其页面被滚动时，自动读出所有候选列表上的可见候选。</target>
       </segment>
     </unit>
     <unit id="9e02c4d6-1100-420c-b385-73f1c0356f1e">
@@ -22706,7 +22706,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Announce Selected Candidate</source>
-        <target>朗读选中的候选</target>
+        <target>读出选中的候选字词</target>
       </segment>
     </unit>
     <unit id="83dbf229-b24e-4788-ac00-9a32a1744400">
@@ -22715,7 +22715,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This option, which is on by default, allows you to choose whether NVDA should announce the selected candidate when a candidate list appears or when the selection is changed.</source>
-        <target>此选项默认情况下启用，允许您选择，在候选列表出现时或在选择的候选发生变动时，是否朗读选择的候选。</target>
+        <target>此选项默认情况下启用，允许您选择，在候选列表出现时或在选择的候选发生变动时，是否读出选择的候选。</target>
       </segment>
     </unit>
     <unit id="a2ea4abe-9c29-4e04-9e03-291c9e0bf61f">
@@ -22744,7 +22744,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Always include short character descriptions for candidates</source>
-        <target>朗读候选时总包含短字符描述</target>
+        <target>读出候选字词时总包含短字符描述</target>
       </segment>
     </unit>
     <unit id="10a12a8e-1f58-4aa9-9040-fbe2a763cc2d">
@@ -22762,7 +22762,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Note that for locales such as Chinese, the announcement of extra character descriptions for the selected candidate is not affected by this option.</source>
-        <target>请注意，在某些区域设置，此选项中朗读选择的候选包含的短字符描述这一特性无效。</target>
+        <target>请注意，在某些区域设置，此选项中读出选择的候选包含的短字符描述这一特性无效。</target>
       </segment>
     </unit>
     <unit id="204c869b-f39b-4148-89cb-d999f237ee4f">
@@ -22782,7 +22782,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report changes to the reading string</source>
-        <target>朗读预上屏字串</target>
+        <target>读出预上屏字串</target>
       </segment>
     </unit>
     <unit id="e73cf005-e47b-4b43-a7f9-6d150a1eaedd">
@@ -22800,7 +22800,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>You can choose whether or not NVDA should announce new characters being typed into this reading string with this option.</source>
-        <target>您可以使用此选项选择是否允许 NVDA 朗读被输入到预上屏字串的新字符。</target>
+        <target>您可以使用此选项选择是否允许 NVDA 读出被输入到预上屏字串的新字符。</target>
       </segment>
     </unit>
     <unit id="1e3209e7-4d4a-42af-b497-28b21764de5b">
@@ -22829,7 +22829,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report changes to the composition string</source>
-        <target>朗读上屏字串</target>
+        <target>读出上屏字串</target>
       </segment>
     </unit>
     <unit id="c0e13440-538c-439a-aaf0-7d3f2d4c48c8">
@@ -22847,7 +22847,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This option allows you to choose whether or not NVDA should report new symbols as they appear  in the composition string.</source>
-        <target>此选项允许您选择是否允许 NVDA 读取存放在上屏(composition)字串内的新图形。</target>
+        <target>此选项允许您选择是否允许 NVDA 读出存放在上屏(composition)字串中的新图形。</target>
       </segment>
     </unit>
     <unit id="a1b5af75-d370-4c8f-bc14-1632a5114f1a">
@@ -23419,7 +23419,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Most of the options in this category are for configuring what type of formatting you wish to have reported as you move the cursor around documents.</source>
-        <target>该类别下的大多数选项都是用来配置，在您用光标浏览整个文档时朗读什么类型的格式信息。</target>
+        <target>该类别下的大多数选项都是用来配置，在您用光标浏览整个文档时读出什么类型的格式信息。</target>
       </segment>
     </unit>
     <unit id="a2eed530-61f6-46d0-a537-8b6040a05721">
@@ -23428,7 +23428,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, if you check the report font name checkbox, each time you arrow onto text with a different font, the name of the font will be announced.</source>
-        <target>例如，如果您选择了“朗读字体名称”复选框，每次您用光标进入使用了不同字体的文本时，相应的字体名称就会被读出。</target>
+        <target>例如，如果您选择了“字体名称”复选框，每次您用光标进入使用了不同字体的文本时，相应的字体名称就会被读出。</target>
       </segment>
     </unit>
     <unit id="34a985c4-29b0-4e66-bb48-2a8056413927">
@@ -23884,7 +23884,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Off: NVDA will not report these font attributes.</source>
-        <target>关闭：NVDA 不朗读这些字体属性。</target>
+        <target>关闭：NVDA 不提示这些字体属性。</target>
       </segment>
     </unit>
     <unit id="ee1788d6-eff0-43ba-8f1e-682accd589f3">
@@ -23934,7 +23934,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report formatting changes after the cursor</source>
-        <target>朗读光标经过时的文本格式变化</target>
+        <target>读出光标经过时的文本格式变化</target>
       </segment>
     </unit>
     <unit id="afc84e08-30fb-42f4-b8b4-87f855f559be">
@@ -23943,7 +23943,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>If enabled, this setting tells NVDA to try and detect all the formatting changes on a line as it reports it, even if doing this may slow down NVDA's performance.</source>
-        <target>如果启用，此设置告诉 NVDA 尝试去检测正在朗读的行的所有格式信息变化，选中该选项会牺牲一定的性能。</target>
+        <target>如果启用，此设置告诉 NVDA 尝试检测正在读出的行的所有格式信息变化，选中该选项会牺牲一定的性能。</target>
       </segment>
     </unit>
     <unit id="5f3428cf-047d-49ff-a54a-e50efa4affa6">
@@ -25462,7 +25462,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>It may improve performance when large volumes of text are written to the console and allow more accurate reporting of changes made in the middle of lines.</source>
-        <target>当控制台中包含大量文本时，该选项可以提高性能，并能够更加准确的报告行中间的字符变化。</target>
+        <target>当控制台中包含大量文本时，该选项可以提高性能，并能够更加准确的读出行中间的字符变化。</target>
       </segment>
     </unit>
     <unit id="0b7032dc-5b7a-486b-b781-8b08c4bf5d0d">
@@ -25625,7 +25625,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>In particular, typed characters that are not displayed on-screen, such as passwords, are reported when this option is selected.</source>
-        <target>尤其是当选择了这个选项时，未在屏幕上显示的输入字符（如密码）也会被读出来。</target>
+        <target>尤其是当选择了这个选项时，未在屏幕上显示的输入字符（如密码）也会被读出。</target>
       </segment>
     </unit>
     <unit id="6aaa46d6-3d4e-48c1-9695-4c145f28b321">
@@ -34274,7 +34274,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current character in review |l1</source>
-        <target>朗读查看文本的当前字 |l1</target>
+        <target>读出查看文本的当前字 |l1</target>
       </segment>
     </unit>
     <unit id="4ad7bb74-2456-416b-b3e1-51d30233d77f">
@@ -34909,7 +34909,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current character in review |l1</source>
-        <target>朗读查看文本的当前字 |l1</target>
+        <target>读出查看文本的当前字 |l1</target>
       </segment>
     </unit>
     <unit id="36df6239-f52e-4363-9988-a6c43229e503">
@@ -35028,7 +35028,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current character in review |l1</source>
-        <target>朗读查看文本的当前字 |l1</target>
+        <target>读出查看文本的当前字 |l1</target>
       </segment>
     </unit>
     <unit id="84d18f57-8a8d-4449-b4b3-feecf9d6d193">
@@ -35202,7 +35202,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current character in review |l1</source>
-        <target>朗读查看文本的当前字 |l1</target>
+        <target>读出查看文本的当前字 |l1</target>
       </segment>
     </unit>
     <unit id="1bcb729d-0de5-4d90-b335-10a19ec8b460">
