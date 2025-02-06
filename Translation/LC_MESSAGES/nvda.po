@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-06 04:29+0000\n"
-"PO-Revision-Date: 2025-02-06 13:03+0800\n"
+"PO-Revision-Date: 2025-02-06 13:52+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -8724,12 +8724,12 @@ msgstr "相同通道"
 #. Any means an add-on updates to the latest version regardless of the channel.
 #: addonStore\models\channel.py:110
 msgid "Any"
-msgstr "任何"
+msgstr "任何通道"
 
 #. Translators: Update channel for an addon
 #: addonStore\models\channel.py:112
 msgid "Do not update"
-msgstr "不更新"
+msgstr "不自动更新"
 
 #. Translators: Update channel for an addon
 #: addonStore\models\channel.py:114
@@ -14067,7 +14067,7 @@ msgstr "更新通知(&U)"
 #. Translators: This is the label for the default update channel combo box in the Add-on Store Settings dialog.
 #: gui\settingsDialogs.py:3261
 msgid "Default update &channel:"
-msgstr "默认更新通道(&C)"
+msgstr "自动更新通道(&C)"
 
 #. Translators: The label for the mirror server on the Add-on Store Settings panel.
 #: gui\settingsDialogs.py:3274
@@ -15012,7 +15012,7 @@ msgstr ""
 #. channel of the selected add-on
 #: gui\addonStoreGui\controls\actions.py:163
 msgid "Upd&ate channel"
-msgstr "更新通道(&A)"
+msgstr "自动更新通道(&A)"
 
 #. Translators: a message displayed when activating the context menu on multiple selected add-ons,
 #. but no actions are available for the add-ons.
