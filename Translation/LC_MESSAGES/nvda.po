@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-06 04:29+0000\n"
-"PO-Revision-Date: 2025-02-06 13:52+0800\n"
+"PO-Revision-Date: 2025-02-07 08:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -8718,18 +8718,18 @@ msgstr "默认（{defaultChannel}）"
 #. e.g. an installed beta version only updates to beta versions.
 #: addonStore\models\channel.py:107
 msgid "Same"
-msgstr "相同通道"
+msgstr "与已安装版本相同"
 
 #. Translators: Update channel for an addon.
 #. Any means an add-on updates to the latest version regardless of the channel.
 #: addonStore\models\channel.py:110
 msgid "Any"
-msgstr "任何通道"
+msgstr "不限"
 
 #. Translators: Update channel for an addon
 #: addonStore\models\channel.py:112
 msgid "Do not update"
-msgstr "不自动更新"
+msgstr "关闭自动更新"
 
 #. Translators: Update channel for an addon
 #: addonStore\models\channel.py:114
