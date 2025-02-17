@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-16 23:37+0000\n"
-"PO-Revision-Date: 2025-02-17 09:12+0800\n"
+"PO-Revision-Date: 2025-02-17 09:33+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3033,12 +3033,12 @@ msgstr "此文档不支持应用原生选择"
 #. Translators: reported when native selection mode is toggled on.
 #: browseMode.py:2696
 msgid "Native app selection mode enabled"
-msgstr "已启用应用原生选择"
+msgstr "启用应用原生选择"
 
 #. Translators: reported when native selection mode is toggled off.
 #: browseMode.py:2704
 msgid "Native app selection mode disabled"
-msgstr "已禁用应用原生选择"
+msgstr "禁用应用原生选择"
 
 #. Translators: The level at which the given symbol will be spoken.
 #: characterProcessing.py:171
@@ -5477,12 +5477,12 @@ msgstr ""
 #. Translators: The message announced when disabling speech viewer.
 #: globalCommands.py:3558
 msgid "speech viewer disabled"
-msgstr "已禁用朗读查看器"
+msgstr "禁用朗读查看器"
 
 #. Translators: The message announced when enabling speech viewer.
 #: globalCommands.py:3563
 msgid "speech viewer enabled"
-msgstr "已起用朗读查看器"
+msgstr "起用朗读查看器"
 
 #. Translators: Input help mode message for toggle Braille viewer command.
 #: globalCommands.py:3571
@@ -6028,12 +6028,12 @@ msgstr "禁用所有配置，NVDA 重启后才会启用"
 #. Translators: The message announced when temporarily disabling all configuration profile triggers.
 #: globalCommands.py:4555
 msgid "Configuration profile triggers disabled"
-msgstr "配置管理已禁用"
+msgstr "禁用配置管理"
 
 #. Translators: The message announced when re-enabling all configuration profile triggers.
 #: globalCommands.py:4563
 msgid "Configuration profile triggers enabled"
-msgstr "配置管理已启用"
+msgstr "启用配置管理"
 
 #. Translators: Describes a command.
 #: globalCommands.py:4568
@@ -9992,13 +9992,13 @@ msgstr "不支持设置 HID 键盘模拟"
 #: brailleDisplayDrivers\alva.py:457
 #: brailleDisplayDrivers\eurobraille\driver.py:391
 msgid "HID keyboard simulation enabled"
-msgstr "已启用 HID 键盘模拟"
+msgstr "启用 HID 键盘模拟"
 
 #. Translators: Message when HID keyboard simulation is disabled.
 #: brailleDisplayDrivers\alva.py:460
 #: brailleDisplayDrivers\eurobraille\driver.py:394
 msgid "HID keyboard simulation disabled"
-msgstr "已禁用 HID 键盘模拟"
+msgstr "禁用 HID 键盘模拟"
 
 #. Translators: Description of the script that toggles HID keyboard simulation.
 #: brailleDisplayDrivers\alva.py:463
@@ -10050,12 +10050,12 @@ msgstr "Handy Tech 点显器"
 #. Translators: message when braille input is enabled
 #: brailleDisplayDrivers\handyTech.py:1125
 msgid "Braille input enabled"
-msgstr "已启用盲文输入"
+msgstr "启用盲文输入"
 
 #. Translators: message when braille input is disabled
 #: brailleDisplayDrivers\handyTech.py:1128
 msgid "Braille input disabled"
-msgstr "已禁用盲文输入"
+msgstr "禁用盲文输入"
 
 #. Translators: description of the script to toggle braille input
 #: brailleDisplayDrivers\handyTech.py:1131
@@ -10203,7 +10203,7 @@ msgstr "总是"
 #: config\configFlags.py:89 config\configFlags.py:250
 #: config\featureFlagEnums.py:51
 msgid "Disabled"
-msgstr "禁用"
+msgstr "已禁用"
 
 #. Translators: One of the show states of braille messages
 #. (the timeout mode shows messages for the specific time).
