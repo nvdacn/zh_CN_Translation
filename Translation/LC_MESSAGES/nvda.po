@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-16 23:37+0000\n"
-"PO-Revision-Date: 2025-02-17 15:50+0800\n"
+"PO-Revision-Date: 2025-02-17 15:59+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6023,17 +6023,17 @@ msgstr "显示 NVDA “配置管理” 对话框"
 msgid ""
 "Toggles disabling of all configuration profile triggers. Disabling remains "
 "in effect until NVDA is restarted"
-msgstr "禁用所有配置，NVDA 重启后才会启用"
+msgstr "禁用所有配置关联，NVDA 重启后才会启用"
 
 #. Translators: The message announced when temporarily disabling all configuration profile triggers.
 #: globalCommands.py:4555
 msgid "Configuration profile triggers disabled"
-msgstr "禁用配置管理"
+msgstr "禁用所有配置关联"
 
 #. Translators: The message announced when re-enabling all configuration profile triggers.
 #: globalCommands.py:4563
 msgid "Configuration profile triggers enabled"
-msgstr "启用配置管理"
+msgstr "启用配置关联"
 
 #. Translators: Describes a command.
 #: globalCommands.py:4568
@@ -12344,7 +12344,7 @@ msgstr "删除(&D)"
 #. See the Configuration Profiles section of the User Guide for details.
 #: gui\configProfiles.py:98
 msgid "&Triggers..."
-msgstr "关联(&T)"
+msgstr "关联(&T)..."
 
 #. Translators: The label of a checkbox in the Configuration Profiles dialog.
 #: gui\configProfiles.py:103
@@ -12510,7 +12510,7 @@ msgstr ""
 #. with an empty name.
 #: gui\configProfiles.py:511
 msgid "You must choose a name for this profile."
-msgstr "您需为此配置文件选择一个名称。"
+msgstr "您必须为此配置文件选择一个名称。"
 
 #. Translators: An error displayed when creating a configuration profile fails.
 #: gui\configProfiles.py:537
