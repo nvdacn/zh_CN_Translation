@@ -1,0 +1,99 @@
+name: Upload Translation
+
+on:
+  push:
+    branches:
+      - "Uploads"
+      - "UploadsTest"
+  workflow_dispatch:
+
+jobs:
+
+  download-NVDAL10nUtil:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cache NVDAL10nUtil
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/nvdaL10nUtil.exe
+          key: NVDAL10nUtil.exe
+          restore-keys: |
+            l10nUtil
+          enableCrossOsArchive: true
+      - name: Download l10nUtil
+        id: download-l10nUtil
+        uses: carlosperate/download-file-action@v2
+        with:
+          file-url: https://dl.nvdacn.com/GuestUpload/c252a40852f42f98640e8b6f77944c7f.exe
+          file-name: 'nvdaL10nUtil.exe'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NVDAL10nUtil.exe
+          path: ${{ steps.download-l10nUtil.outputs.file-path }}
+          if-no-files-found: error
+
+  Process-Translation:
+    runs-on: windows-latest
+    needs:
+      - download-NVDAL10nUtil
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Download NVDAL10nUtil
+        uses: actions/download-artifact@v4
+        with:
+          name: NVDAL10nUtil.exe
+          path: ${{ github.workspace }}/Tools/
+      - name: Create Token
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
+          $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+          New-Item -ItemType Directory -Force -Path ~/.ssh
+          $privateKey = "${{ secrets.UPLOAD_TO_CROWDIN_PRIVATE_KEY }}"
+          $privateKey | Out-File -FilePath ~/.ssh/id_rsa -Encoding ascii
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git remote set-url origin git@github.com:${{ github.repository }}
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+        if: success()
+      - name: Process Docs Translation
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $changedFiles = git diff --name-only ${{github.event.before}}.. -- Translation/user_docs/*.xliff
+          foreach ($file in $changedFiles) {
+              Write-Host "$file has changed"
+              $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+              $L10nUtil = "${{ github.workspace }}/Tools/nvdaL10nUtil.exe"
+              $xliff = "Translation/user_docs/$baseName.xliff"
+              if (Test-Path $xliff) {
+                  Write-Host "Download"
+                  & $L10nUtil downloadTranslationFile zh-CN "$baseName.xliff" "$xliff"
+              } else {
+                  Write-Host "Latest"
+              }
+          }
+        if: success()
+      - name: Commit and Push changes
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $filesChanged = git diff --name-only -- *.xliff
+          if ($filesChanged) {
+            Write-Host "xliff files were changed. Committing and pushing changes."
+            foreach ($file in $filesChanged) {
+              $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+              git add $file
+              Write-Host "Committing $file"
+              git commit -m "更新 $baseName 文档翻译（从 Crowdin）"
+            }
+            Write-Host "Pushing changes"
+            git push origin HEAD
+          } else {
+            Write-Host "No xliff files were changed. Skipping commit and push."
+          }
+        if: success()
+
