@@ -98,6 +98,18 @@ IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 if /I "%CLI%"=="Z" (Exit)
 
 Rem 判断要生成的文件（用于生成可直接上传到Crowdin的xliff文件）  
+:UPL
+IF EXIST "%~dp0Crowdin\OldXLIFF\Temp" (rd /s /q "%~dp0Crowdin\OldXLIFF\Temp")
+MKDir "%~dp0Crowdin\OldXLIFF\Temp"
+set UploadFile=%~dp0Translation\LC_MESSAGES\nvda.po
+set OldFile=%~dp0Crowdin\OldXLIFF\Temp\nvda_Old.po
+"%~dp0Tools\nvdaL10nUtil.exe" downloadTranslationFile zh-CN "nvda.po" "%OldFile%"
+"%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "nvda.po" "%UploadFile%" --old "%OldFile%"
+pause
+Exit
+
+
+Rem 判断要生成的文件（用于生成可直接上传到Crowdin的xliff文件）  
 :UPC
 :UPU
 if /I "%CLI%"=="UPC" (
