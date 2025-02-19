@@ -8,6 +8,18 @@ if "%1" == "Build_Translation" (
   set CLI=T
   goto T
 )
+if "%1" == "Upload_nvda" (
+  set CLI=UPL
+  goto UPL
+)
+if "%1" == "Upload_changes" (
+  set CLI=UPC
+  goto UPC
+)
+if "%1" == "Upload_userGuide" (
+  set CLI=UPU
+  goto UPU
+)
 
 Rem 判断 是否存在 nvdaL10nUtil
 IF not EXIST "%~dp0Tools\nvdaL10nUtil.exe" (
