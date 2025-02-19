@@ -98,30 +98,26 @@ IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 if /I "%CLI%"=="Z" (Exit)
 
 Rem 判断要生成的文件（用于生成可直接上传到Crowdin的xliff文件）  
-:STC
-:STU
-if /I "%CLI%"=="STC" (
-set ST=changes
-goto ST
+:UPC
+:UPU
+if /I "%CLI%"=="UPC" (
+set UP=changes
+goto UP
 ) 
-if /I "%CLI%"=="STU" (
-set ST=userGuide
-goto ST
+if /I "%CLI%"=="UPU" (
+set UP=userGuide
+goto UP
 )
-
 Rem 生成可直接上传到Crowdin的xliff文件  
-:ST
+:UP
 IF EXIST "%~dp0Crowdin\OldXLIFF\Temp" (rd /s /q "%~dp0Crowdin\OldXLIFF\Temp")
 MKDir "%~dp0Crowdin\OldXLIFF\Temp"
-IF EXIST "%~dp0Crowdin\%ST%.xliff" (del /f /q "%~dp0Crowdin\%ST%.xliff")
-IF Not EXIST "%~dp0Crowdin\OldXLIFF\%ST%.xliff" (
-git archive --output "./Crowdin/OldXLIFF/Temp/%ST%.zip" main Translation/user_docs/%ST%.xliff
-"%~dp0Tools\7Zip\7z.exe" e "%~dp0Crowdin\OldXLIFF\Temp\%ST%.zip" "Translation\user_docs\%ST%.xliff" -aoa -o"%~dp0Crowdin\OldXLIFF"
-)
-MKLINK /H "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Old.xliff" "%~dp0Crowdin\OldXLIFF\%ST%.xliff"
-MKLINK /H "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Translated.xliff" "%~dp0Translation\user_docs\%ST%.xliff"
-"%~dp0Tools\nvdaL10nUtil.exe" stripXliff -o "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Old.xliff" "%~dp0Crowdin\OldXLIFF\Temp\%ST%_Translated.xliff" "%~dp0Crowdin\%ST%.xliff"
+set UploadFile=%~dp0Translation\user_docs\%UP%.xliff
+set OldFile=%~dp0Crowdin\OldXLIFF\Temp\%UP%_Old.xliff
+"%~dp0Tools\nvdaL10nUtil.exe" downloadTranslationFile zh-CN "%UP%.xliff" "%OldFile%"
+"%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "%UP%.xliff" "%UploadFile%" --old "%OldFile%"
 Exit
+
 
 Rem 清理本工具生成的所有文件  
 :CLE
