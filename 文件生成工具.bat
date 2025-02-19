@@ -27,6 +27,12 @@ IF not EXIST "%~dp0Tools\nvdaL10nUtil.exe" (
   Exit
 )
 
+Rem 判断 是否存在 Crowdin 令牌  
+IF not EXIST "%Userprofile%\.nvda_crowdin" (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 "%%Userprofile%%＼.nvda_crowdin" 不存在，请生成 Crowdin 令牌并创建 .nvda_crowdin 文件后重试。',5,'文件不存在');window.close();"
+  Exit
+)
+
 Rem 判断是否从命令行传入参数  
 if not "%1"=="" (
   set CLI=%1
