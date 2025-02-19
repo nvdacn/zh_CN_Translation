@@ -46,7 +46,7 @@ jobs:
         with:
           name: NVDAL10nUtil.exe
           path: ${{ github.workspace }}/Tools/
-      - run: ${{ github.workspace }}/文件生成工具.bat Build_Translation
+      - run: ${{ github.workspace }}/L10nUtilTools.bat Build_Translation
       - name: Upload Output
         uses: actions/upload-artifact@v4
         with:
