@@ -41,7 +41,7 @@ if not "%1"=="" (
 
 Rem 打印可用命令  
 cls
-echo 欢迎使用文件生成工具，请选择要生成的文件，按回车键执行。  
+echo 欢迎使用 L10nUtilTools，请输入要执行的操作，按回车键确认。  
 echo C：生成更新日志的 html 文件；  
 echo U：生成用户指南的 html 文件；  
 echo K：生成热键快速参考的 html 文件；  
@@ -49,8 +49,10 @@ echo D：生成所有文档的 html 文件；
 echo L：生成界面翻译的 mo 文件；  
 echo T：生成翻译测试文件（不压缩）；  
 echo Z：生成翻译测试文件的压缩包；  
-echo STC：生成可直接上传到 Crowdin 的 changes.xliff 文件，需要将原始 changes.xliff 文件放入存储库的 Crowdin\OldXLIFF 文件夹，如未检测到该文件，系统会从存储库的 main 分支提取；  
-echo STU：生成可直接上传到 Crowdin 的 userGuide.xliff 文件，需要将原始 userGuide.xliff 文件放入存储库的 Crowdin\OldXLIFF 文件夹，如未检测到该文件，系统会从存储库的 main 分支提取；  
+echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；  
+echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
+echo UPL：上传已翻译的 nvda.po 文件到 Crowdin；  
+echo UPA：上传所有已翻译的文件到 Crowdin；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
@@ -115,18 +117,19 @@ IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 "%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
 if /I "%CLI%"=="Z" (Exit)
 
-Rem 判断要生成的文件（用于生成可直接上传到Crowdin的xliff文件）  
+Rem 上传已翻译的 nvda.po 文件到 Crowdin
 :UPA
 :UPL
 "%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "nvda.po" "%~dp0Translation\LC_MESSAGES\nvda.po"
 if /I "%CLI%"=="UPL" (Exit)
 
+Rem UPA 命令所需的跳转流程  
   set CLI=UPC
 call :UPC
   set CLI=UPU
 goto UPU
 
-Rem 判断要生成的文件（用于生成可直接上传到Crowdin的xliff文件）  
+Rem 判断要生成的文件（用于上传已翻译的 xliff 文件到 Crowdin）  
 :UPC
 :UPU
 if /I "%CLI%"=="UPC" (
@@ -137,7 +140,8 @@ if /I "%CLI%"=="UPU" (
 set UP=userGuide
 goto UP
 )
-Rem 生成可直接上传到Crowdin的xliff文件  
+
+Rem 上传已翻译的 xliff 文件到 Crowdin
 :UP
 IF EXIST "%~dp0Crowdin\OldXLIFF\Temp" (rd /s /q "%~dp0Crowdin\OldXLIFF\Temp")
 MKDir "%~dp0Crowdin\OldXLIFF\Temp"
