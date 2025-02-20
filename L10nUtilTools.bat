@@ -60,6 +60,7 @@ echo 上述选项还可通过命令行直接传入。
 Rem 等待用户输入并跳转到用户输入的命令  
 set /p CLI=
 :goto
+cls
 goto %CLI%
 
 Rem 生成文档的流程，此部分命令会连续执行，直到符合输入的命令后退出  
@@ -117,39 +118,82 @@ IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 "%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
 if /I "%CLI%"=="Z" (Exit)
 
-Rem 上传已翻译的 nvda.po 文件到 Crowdin
-:UPA
+Rem 处理标签  
+:DLL
+:DLC
+:DLU
+:DLA
+:DCL
+:DCC
+:DCU
+:DCA
 :UPL
-"%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "nvda.po" "%~dp0Translation\LC_MESSAGES\nvda.po"
-if /I "%CLI%"=="UPL" (Exit)
-
-Rem UPA 命令所需的跳转流程  
-  set CLI=UPC
-call :UPC
-  set CLI=UPU
-goto UPU
-
-Rem 判断要生成的文件（用于上传已翻译的 xliff 文件到 Crowdin）  
 :UPC
 :UPU
-if /I "%CLI%"=="UPC" (
-set UP=changes
-goto UP
-) 
-if /I "%CLI%"=="UPU" (
-set UP=userGuide
-goto UP
+:UPA
+if /I %CLI:~2,1%==A (
+set Parameter=%CLI:~0,2%
+goto All
 )
+if /I  %CLI:~0,2%==DL (
+set Action=DownloadFiles
+)
+if /I  %CLI:~0,2%==DC (
+set Action=DownloadAndCommit
+)
+if /I  %CLI:~0,2%==UP (
+set Action=UploadFiles
+)
+if /I %CLI:~2,1%==L (
+set Type=LC_MESSAGES
+set TranslationPath=%~dp0Translation\LC_MESSAGES
+set FileName=nvda.po
+)
+if /I %CLI:~2,1%==C (
+set Type=Docs
+set FileName=changes.xliff
+)
+if /I %CLI:~2,1%==U (
+set Type=Docs
+set FileName=userGuide.xliff
+)
+if /I %Type%==Docs (
+set TranslationPath=%~dp0Translation\user_docs
+)
+goto %Action%
 
-Rem 上传已翻译的 xliff 文件到 Crowdin
-:UP
-IF EXIST "%~dp0Crowdin\OldXLIFF\Temp" (rd /s /q "%~dp0Crowdin\OldXLIFF\Temp")
-MKDir "%~dp0Crowdin\OldXLIFF\Temp"
-set UploadFile=%~dp0Translation\user_docs\%UP%.xliff
-set OldFile=%~dp0Crowdin\OldXLIFF\Temp\%UP%_Old.xliff
-"%~dp0Tools\nvdaL10nUtil.exe" downloadTranslationFile zh-CN "%UP%.xliff" "%OldFile%"
-"%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "%UP%.xliff" "%UploadFile%" --old "%OldFile%"
-goto:eof
+:All
+for %%i in (L C U) do (
+Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
+)
+pause
+exit
+
+:DownloadFiles
+if /I %Action%==UploadFiles (
+set DownloadFilename=%OldFile%
+)
+echo %DownloadFilename%
+pause
+"%~dp0Tools\nvdaL10nUtil.exe" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
+if /I %Action%==UploadFiles (
+goto Upload
+)
+Exit
+
+
+:UploadFiles
+set OldFile=%~dp0Crowdin\OldXLIFF\%FileName%
+if /I %Type%==Docs (
+IF EXIST "%~dp0Crowdin\OldXLIFF" (rd /s /q "%~dp0Crowdin\OldXLIFF")
+MKDir "%~dp0Crowdin\OldXLIFF"
+set Parameter=--old "%OldFile%"
+goto DownloadFiles
+) else (
+set Parameter= 
+)
+:Upload
+"%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
 Exit
 
 
