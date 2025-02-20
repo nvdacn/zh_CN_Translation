@@ -131,21 +131,24 @@ Rem 处理标签
 :UPC
 :UPU
 :UPA
-if /I %CLI:~2,1%==A (
-set Parameter=%CLI:~0,2%
-goto All
-)
 if /I  %CLI:~0,2%==DL (
 set Action=DownloadFiles
 )
 if /I  %CLI:~0,2%==DC (
+cd /d "%~dp0"
 set Action=DownloadAndCommit
 )
 if /I  %CLI:~0,2%==UP (
 set Action=UploadFiles
 )
+if /I %CLI:~2,1%==A (
+  set Type=All
+  set Parameter=%CLI:~0,2%
+  goto All
+)
 if /I %CLI:~2,1%==L (
 set Type=LC_MESSAGES
+set GitAddPath=Translation/LC_MESSAGES
 set TranslationPath=%~dp0Translation\LC_MESSAGES
 set FileName=nvda.po
 )
@@ -158,15 +161,20 @@ set Type=Docs
 set FileName=userGuide.xliff
 )
 if /I %Type%==Docs (
+set GitAddPath=Translation/user_docs
 set TranslationPath=%~dp0Translation\user_docs
 )
 goto %Action%
 
 :All
 for %%i in (L C U) do (
+echo %Parameter%%%i
+pause
 Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
 )
-pause
+if /I %Action%==DownloadAndCommit (
+  goto Rebase
+)
 exit
 
 :DownloadFiles
@@ -177,8 +185,6 @@ set DownloadFilename=%OldFile%
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%TranslationPath%\%FileName%" (del /f /q "%TranslationPath%\%FileName%")
 )
-echo %DownloadFilename%
-pause
 "%~dp0Tools\nvdaL10nUtil.exe" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
 if /I %Action%==UploadFiles (
 goto Upload
@@ -188,6 +194,10 @@ goto Commit
 )
 Exit
 
+:Commit
+git add "%GitAddPath%/%FileName%"
+git commit -m "更新 %FileName%（从 Crowdin）"
+exit
 
 :UploadFiles
 set OldFile=%~dp0Crowdin\OldXLIFF\%FileName%
@@ -203,6 +213,9 @@ set Parameter=
 "%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
 Exit
 
+:Rebase
+pause
+exit
 
 Rem 清理本工具生成的所有文件  
 :CLE
