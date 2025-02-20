@@ -170,14 +170,21 @@ pause
 exit
 
 :DownloadFiles
+:DownloadAndCommit
 if /I %Action%==UploadFiles (
 set DownloadFilename=%OldFile%
+) Else (
+set DownloadFilename=%TranslationPath%\%FileName%
+IF EXIST "%TranslationPath%\%FileName%" (del /f /q "%TranslationPath%\%FileName%")
 )
 echo %DownloadFilename%
 pause
 "%~dp0Tools\nvdaL10nUtil.exe" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
 if /I %Action%==UploadFiles (
 goto Upload
+)
+if /I %Action%==DownloadAndCommit (
+goto Commit
 )
 Exit
 
