@@ -34,7 +34,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r ${{ github.workspace }}\Tools\NVDA\requirements.txt
-      - name: Create Token
+      - name: Create token and branch
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
@@ -46,17 +46,20 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          $changedFiles = git diff --name-only ${{github.event.before}}.. -- Translation/user_docs/*.xliff
-          foreach ($file in $changedFiles) {
-              Write-Host "$file has changed"
-              $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
-              $L10nUtil = "${{ github.workspace }}\L10nUtilTools.bat"
-              $xliff = "Translation/user_docs/$baseName.xliff"
-              if (Test-Path $xliff) {
-                  Write-Host "Download"
-                  & cmd /c "$L10nUtil Upload_$baseName"
-              } else {
-                  Write-Host "Latest"
+          $L10nUtil = "${{ github.workspace }}\L10nUtilTools.bat"
+          $ProcessedFileList = "Translation/LC_MESSAGES/nvda.po", "Translation/user_docs/changes.xliff", "Translation/user_docs/userGuide.xliff"
+          foreach ($ProcessedFileName in $ProcessedFileList) {
+              $changedFiles = git diff --name-only ${{github.event.before}}.. -- $ProcessedFileName
+              foreach ($file in $changedFiles) {
+                  Write-Host "$file has changed"
+                  $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+                  $CheckFilePath = "Crowdin/Temp/$baseName.tmp"
+                  if (Test-Path $CheckFilePath) {
+                      Write-Host "Download"
+                      & cmd /c "$L10nUtil Upload_$baseName"
+                  } else {
+                      Write-Host "Latest"
+                  }
               }
           }
         if: success()
