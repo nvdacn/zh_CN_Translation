@@ -38,6 +38,7 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
           $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+        if: success()
       - name: Process Docs Translation
         shell: pwsh
         run: |
@@ -50,7 +51,7 @@ jobs:
               $xliff = "Translation/user_docs/$baseName.xliff"
               if (Test-Path $xliff) {
                   Write-Host "Download"
-                  & cmd /v:on /c "set L10nUtil=python ""${{ github.workspace }}\Tools\NVDA\source\l10nUtil.py""&&$L10nUtil Upload_$baseName"
+                  & cmd /c "$L10nUtil Upload_$baseName"
               } else {
                   Write-Host "Latest"
               }

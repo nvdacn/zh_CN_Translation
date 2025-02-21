@@ -3,6 +3,11 @@
 chcp 65001
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
+Rem 设置 nvdaL10nUtil 程序路径  
+IF EXIST "%~dp0Tools\NVDA\source\l10nUtil.py" (
+  set L10nUtil=python "%~dp0Tools\NVDA\source\l10nUtil.py"
+)
+
 Rem GitHub Actions 流程  
 if "%1" == "Build_Translation" (
   set CLI=T

@@ -35,11 +35,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r ${{ github.workspace }}\Tools\NVDA\requirements.txt
-      - name: Run L10nUtilTools.bat
-        shell: cmd
-        env:
-          L10nUtil: python ${{ github.workspace }}\Tools\NVDA\source\l10nUtil.py
-        run: ${{ github.workspace }}/L10nUtilTools.bat Build_Translation
+      - run: ${{ github.workspace }}/L10nUtilTools.bat Build_Translation
       - name: Upload Output
         uses: actions/upload-artifact@v4
         with:
