@@ -5107,7 +5107,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>2024.4.2</source>
         <target>2024.4.2</target>
       </segment>
@@ -5116,7 +5116,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This is a patch release to fix bugs with braille devices and reading math in Chromium.</source>
         <target>这是一个补丁版本，用于修复盲文设备和 Chromium 中数学阅读的错误。</target>
       </segment>
@@ -5126,7 +5126,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Bug fixes</source>
         <target>错误修复</target>
       </segment>
@@ -5136,7 +5136,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed bug with with reading math in Chromium Browsers (Chrome, Edge). (#17421, @NSoiffer)</source>
         <target>修复了 Chromium 内核浏览器（如 Chrome、Edge）中阅读数学的错误。(#17421, @NSoiffer)</target>
       </segment>
@@ -5146,7 +5146,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 11</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Humanware Brailliant BI 40X devices running firmware version 2.4 now work as expected. (#17518, @bramd)</source>
         <target>运行固件版本 2.4 的 Humanware Brailliant BI 40X 设备现在可以按预期工作。(#17518, @bramd)</target>
       </segment>
