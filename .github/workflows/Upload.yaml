@@ -1,0 +1,85 @@
+name: Upload Translation
+
+on:
+  push:
+    branches:
+      - "Uploads"
+      - "UploadsTest"
+  workflow_dispatch:
+
+jobs:
+
+  Process-Translation:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Checkout NVDA repository
+        uses: actions/checkout@v4
+        with:
+          repository: nvaccess/nvda.git
+          fetch-depth: 1
+#          ref: master
+          ref: l10nUtil
+          path: ${{ github.workspace }}/Tools/NVDA
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ${{ github.workspace }}\Tools\NVDA\requirements.txt
+      - name: Create Token
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
+          $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+          New-Item -ItemType Directory -Force -Path ~/.ssh
+          $privateKey = "${{ secrets.UPLOAD_TO_CROWDIN_PRIVATE_KEY }}"
+          $privateKey | Out-File -FilePath ~/.ssh/id_rsa -Encoding ascii
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git remote set-url origin git@github.com:${{ github.repository }}
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+        if: success()
+      - name: Process Docs Translation
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $changedFiles = git diff --name-only ${{github.event.before}}.. -- Translation/user_docs/*.xliff
+          foreach ($file in $changedFiles) {
+              Write-Host "$file has changed"
+              $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+              $L10nUtil = "${{ github.workspace }}\L10nUtilTools.bat"
+              $xliff = "Translation/user_docs/$baseName.xliff"
+              if (Test-Path $xliff) {
+                  Write-Host "Download"
+                  & cmd /v:on /c "set L10nUtil=python ""${{ github.workspace }}\Tools\NVDA\source\l10nUtil.py""&&$L10nUtil Upload_$baseName"
+              } else {
+                  Write-Host "Latest"
+              }
+          }
+        if: success()
+      - name: Commit and Push changes
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $filesChanged = git diff --name-only -- *.xliff
+          if ($filesChanged) {
+            Write-Host "xliff files were changed. Committing and pushing changes."
+            foreach ($file in $filesChanged) {
+              $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+              git add $file
+              Write-Host "Committing $file"
+              git commit -m "更新 $baseName 文档翻译（从 Crowdin）"
+            }
+            Write-Host "Pushing changes"
+            git push origin HEAD
+          } else {
+            Write-Host "No xliff files were changed. Skipping commit and push."
+          }
+        if: success()
+
