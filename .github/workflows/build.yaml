@@ -27,6 +27,8 @@ jobs:
 #          ref: master
           ref: l10nUtil
           path: ${{ github.workspace }}/Tools/NVDA
+          sparse-checkout: |
+            source/.
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
