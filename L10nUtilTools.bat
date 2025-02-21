@@ -142,9 +142,13 @@ if /I  %CLI:~0,2%==UP (
 set Action=UploadFiles
 )
 if /I %CLI:~2,1%==A (
-  set Type=All
-  set Parameter=%CLI:~0,2%
-  goto All
+set Type=All
+if /I %Action%==DownloadAndCommit (
+set Parameter=DL
+) else (
+set Parameter=%CLI:~0,2%
+)
+goto All
 )
 if /I %CLI:~2,1%==L (
 set Type=LC_MESSAGES
@@ -173,7 +177,7 @@ pause
 Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
 )
 if /I %Action%==DownloadAndCommit (
-  goto Rebase
+goto Commit
 )
 exit
 
@@ -195,8 +199,15 @@ goto Commit
 Exit
 
 :Commit
-git add "%GitAddPath%/%FileName%"
-git commit -m "更新 %FileName%（从 Crowdin）"
+if /I %Type%==All (
+set AddFileList="Translation/LC_MESSAGES/*.po" "Translation/user_docs/*.xliff"
+set CommitMSG=更新翻译（从 Crowdin）
+) else (
+set AddFileList="%GitAddPath%/%FileName%"
+set CommitMSG=更新 %FileName%（从 Crowdin）
+)
+git add %AddFileList%
+git commit -m "%CommitMSG%"
 exit
 
 :UploadFiles
@@ -212,10 +223,6 @@ set Parameter=
 :Upload
 "%~dp0Tools\nvdaL10nUtil.exe" uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
 Exit
-
-:Rebase
-pause
-exit
 
 Rem 清理本工具生成的所有文件  
 :CLE
