@@ -40,6 +40,7 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
           $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+          git branch main remotes/origin/main
         if: success()
       - name: Process Docs Translation
         shell: pwsh
