@@ -48,7 +48,7 @@ jobs:
           path: ${{ github.workspace }}/Tools/
       - name: Run L10nUtilTools.bat
         shell: cmd
-        e  nv:
+        env:
           L10nUtil: ${{ github.workspace }}\Tools\nvdaL10nUtil.exe
         run: ${{ github.workspace }}/L10nUtilTools.bat Build_Translation
       - name: Upload Output
