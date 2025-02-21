@@ -128,53 +128,46 @@ Rem 处理标签
 :UPC
 :UPU
 :UPA
-if /I  %CLI:~0,2%==DL (
-set Action=DownloadFiles
-)
+if /I  %CLI:~0,2%==DL (set Action=DownloadFiles)
 if /I  %CLI:~0,2%==DC (
-cd /d "%~dp0"
-set Action=DownloadAndCommit
+  cd /d "%~dp0"
+  set Action=DownloadAndCommit
 )
-if /I  %CLI:~0,2%==UP (
-set Action=UploadFiles
-)
+if /I  %CLI:~0,2%==UP (set Action=UploadFiles)
 if /I %CLI:~2,1%==A (
-set Type=All
-if /I %Action%==DownloadAndCommit (
-set Parameter=DL
-) else (
-set Parameter=%CLI:~0,2%
-)
-goto All
+  set Type=All
+  if /I %Action%==DownloadAndCommit (
+    set Parameter=DL
+  ) else (
+    set Parameter=%CLI:~0,2%
+  )
+  goto All
 )
 if /I %CLI:~2,1%==L (
-set Type=LC_MESSAGES
-set GitAddPath=Translation/LC_MESSAGES
-set TranslationPath=%~dp0Translation\LC_MESSAGES
-set FileName=nvda.po
+  set Type=LC_MESSAGES
+  set GitAddPath=Translation/LC_MESSAGES
+  set TranslationPath=%~dp0Translation\LC_MESSAGES
+  set FileName=nvda.po
 )
 if /I %CLI:~2,1%==C (
-set Type=Docs
-set FileName=changes.xliff
+  set Type=Docs
+  set FileName=changes.xliff
 )
 if /I %CLI:~2,1%==U (
-set Type=Docs
-set FileName=userGuide.xliff
+  set Type=Docs
+  set FileName=userGuide.xliff
 )
 if /I %Type%==Docs (
-set GitAddPath=Translation/user_docs
-set TranslationPath=%~dp0Translation\user_docs
+  set GitAddPath=Translation/user_docs
+  set TranslationPath=%~dp0Translation\user_docs
 )
 goto %Action%
 
 :All
 for %%i in (L C U) do (
-echo %Parameter%%%i
-Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
+  Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
 )
-if /I %Action%==DownloadAndCommit (
-goto Commit
-)
+if /I %Action%==DownloadAndCommit (goto Commit)
 exit
 
 :DownloadFiles
@@ -182,18 +175,16 @@ exit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%TranslationPath%\%FileName%" (del /f /q "%TranslationPath%\%FileName%")
 "%L10nUtil%" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
-if /I %Action%==DownloadAndCommit (
-goto Commit
-)
+if /I %Action%==DownloadAndCommit (goto Commit)
 Exit
 
 :Commit
 if /I %Type%==All (
-set AddFileList="Translation/LC_MESSAGES/*.po" "Translation/user_docs/*.xliff"
-set CommitMSG=更新翻译（从 Crowdin）
+  set AddFileList="Translation/LC_MESSAGES/*.po" "Translation/user_docs/*.xliff"
+  set CommitMSG=更新翻译（从 Crowdin）
 ) else (
-set AddFileList="%GitAddPath%/%FileName%"
-set CommitMSG=更新 %FileName%（从 Crowdin）
+  set AddFileList="%GitAddPath%/%FileName%"
+  set CommitMSG=更新 %FileName%（从 Crowdin）
 )
 git add %AddFileList%
 git commit -m "%CommitMSG%"
@@ -206,17 +197,17 @@ set Parameter=--old "%OldFile%"
 IF EXIST "%TempFolder%" (rd /s /q "%TempFolder%")
 MKDir "%TempFolder%"
 IF Not EXIST "%~dp0Crowdin\OldXLIFF\%FileName%" (
-git archive --output "./Crowdin/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
-"%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0Crowdin\OldXLIFF"
+  git archive --output "./Crowdin/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
+  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0Crowdin\OldXLIFF"
 )
 MKLINK /H "%OldFile%" "%~dp0Crowdin\OldXLIFF\%FileName%"
 goto Upload
 
 :UploadFiles
 if /I %Type%==Docs (
-goto ReadyUpload
+  goto ReadyUpload
 ) else (
-set Parameter= 
+  set Parameter= 
 )
 :Upload
 "%L10nUtil%" uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
