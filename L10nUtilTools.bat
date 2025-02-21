@@ -50,6 +50,14 @@ echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；
 echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
 echo UPL：上传已翻译的 nvda.po 文件到 Crowdin；  
 echo UPA：上传所有已翻译的文件到 Crowdin；  
+echo DLC：从 Crowdin 下载已翻译的 changes.xliff 文件；  
+echo DLU：从 Crowdin 下载已翻译的 userGuide.xliff 文件；  
+echo DLL：从 Crowdin 下载已翻译的 nvda.po 文件；  
+echo DLA：从 Crowdin 下载所有已翻译的文件；  
+echo DCC：从 Crowdin 下载已翻译的 changes.xliff 文件并将其提交到存储库；  
+echo DCU：从 Crowdin 下载已翻译的 userGuide.xliff 文件并将其提交到存储库；  
+echo DCL：从 Crowdin 下载已翻译的 nvda.po 文件并将其提交到存储库；  
+echo DCA：从 Crowdin 下载所有已翻译的文件并将其提交到存储库；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
@@ -163,6 +171,7 @@ if /I %Type%==Docs (
 )
 goto %Action%
 
+Rem **A 系列命令：通过循环调用另一个L10nUtilTools.bat来分别处理  
 :All
 for %%i in (L C U) do (
   Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
@@ -170,14 +179,16 @@ for %%i in (L C U) do (
 if /I %Action%==DownloadAndCommit (goto Commit)
 exit
 
+Rem 从 Crowdin 下载已翻译的文件  
 :DownloadFiles
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
-IF EXIST "%TranslationPath%\%FileName%" (del /f /q "%TranslationPath%\%FileName%")
+IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
 "%L10nUtil%" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
 if /I %Action%==DownloadAndCommit (goto Commit)
 Exit
 
+Rem 将下载的翻译文件提交到存储库  
 :Commit
 if /I %Type%==All (
   set AddFileList="Translation/LC_MESSAGES/*.po" "Translation/user_docs/*.xliff"
@@ -190,6 +201,7 @@ git add %AddFileList%
 git commit -m "%CommitMSG%"
 exit
 
+Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
 set TempFolder=%~dp0Crowdin\Temp
 set OldFile=%TempFolder%\%FileName%.old
@@ -203,6 +215,7 @@ IF Not EXIST "%~dp0Crowdin\OldXLIFF\%FileName%" (
 MKLINK /H "%OldFile%" "%~dp0Crowdin\OldXLIFF\%FileName%"
 goto Upload
 
+Rem 上传已翻译的文件到 Crowdin
 :UploadFiles
 if /I %Type%==Docs (
   goto ReadyUpload
