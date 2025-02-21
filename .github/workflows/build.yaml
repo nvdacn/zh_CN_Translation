@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - "main"
+      - "Uploads"
+      - "UploadsTest"
       - "20*"
   pull_request:
     branches:
@@ -11,45 +13,30 @@ on:
   workflow_dispatch:
 
 jobs:
-
-  download-NVDAL10nUtil:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cache NVDAL10nUtil
-        uses: actions/cache@v4
-        with:
-          path: ${{ github.workspace }}/nvdaL10nUtil.exe
-          key: NVDAL10nUtil.exe
-          restore-keys: |
-            l10nUtil
-          enableCrossOsArchive: true
-      - name: Download l10nUtil
-        id: download-l10nUtil
-        uses: carlosperate/download-file-action@v2
-        with:
-          file-url: https://dl.nvdacn.com/GuestUpload/ca65bc19636eaff6e400df03e9de9ae2.exe
-          file-name: 'nvdaL10nUtil.exe'
-      - uses: actions/upload-artifact@v4
-        with:
-          name: NVDAL10nUtil.exe
-          path: ${{ steps.download-l10nUtil.outputs.file-path }}
-          if-no-files-found: error
-
   build:
     runs-on: windows-latest
-    needs:
-      - download-NVDAL10nUtil
     steps:
       - uses: actions/checkout@v4
-      - name: Download NVDAL10nUtil
-        uses: actions/download-artifact@v4
+      - name: Checkout NVDA repository
+        uses: actions/checkout@v4
         with:
-          name: NVDAL10nUtil.exe
-          path: ${{ github.workspace }}/Tools/
+          repository: nvaccess/nvda.git
+          fetch-depth: 1
+#          ref: master
+          ref: l10nUtil
+          path: ${{ github.workspace }}/Tools/NVDA
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install lxml requests crowdin-api-client
       - name: Run L10nUtilTools.bat
         shell: cmd
         env:
-          L10nUtil: ${{ github.workspace }}\Tools\nvdaL10nUtil.exe
+          L10nUtil: python ${{ github.workspace }}\Tools\NVDA\source\l10nUtil.py
         run: ${{ github.workspace }}/L10nUtilTools.bat Build_Translation
       - name: Upload Output
         uses: actions/upload-artifact@v4

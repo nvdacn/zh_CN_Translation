@@ -28,7 +28,7 @@ IF not EXIST "%Userprofile%\.nvda_crowdin" (
 )
 
 Rem 设置 nvdaL10nUtil 程序路径  
-set L10nUtil=%~dp0Tools\nvdaL10nUtil.exe
+set L10nUtil="%~dp0Tools\nvdaL10nUtil.exe"
 
 Rem 判断是否从命令行传入参数  
 if not "%1"=="" (
@@ -75,19 +75,19 @@ Rem 生成更新日志
 :T
 :Z
 IF EXIST "%~dp0Preview\changes.html" (del /f /q "%~dp0Preview\changes.html")
-"%L10nUtil%" xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
+%L10nUtil% xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
 if /I "%CLI%"=="C" (Exit)
 
 Rem 生成用户指南  
 :U
 IF EXIST "%~dp0Preview\userGuide.html" (del /f /q "%~dp0Preview\userGuide.html")
-"%L10nUtil%" xliff2html -t userGuide "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\userGuide.html"
+%L10nUtil% xliff2html -t userGuide "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\userGuide.html"
 if /I "%CLI%"=="U" (Exit)
 
 Rem 生成热键快速参考  
 :K
 IF EXIST "%~dp0Preview\keyCommands.html" (del /f /q "%~dp0Preview\keyCommands.html")
-"%L10nUtil%" xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
+%L10nUtil% xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
 if /I "%CLI%"=="K" (Exit)
 if /I "%CLI%"=="D" (Exit)
 
@@ -184,7 +184,7 @@ Rem 从 Crowdin 下载已翻译的文件
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
-"%L10nUtil%" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
+%L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
 if /I %Action%==DownloadAndCommit (goto Commit)
 Exit
 
@@ -223,7 +223,7 @@ if /I %Type%==Docs (
   set Parameter= 
 )
 :Upload
-"%L10nUtil%" uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
+%L10nUtil% uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
 Exit
 
 Rem 清理本工具生成的所有文件  
