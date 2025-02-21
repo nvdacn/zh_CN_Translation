@@ -31724,7 +31724,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3200</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA no longer causes Microsoft Word to crash immediately after it starts in Windows XP. (#6033)</source>
         <target>NVDA no longer causes Microsoft Word to crash immediately after it starts in Windows XP. (#6033)</target>
       </segment>
@@ -31734,9 +31734,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3201</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Removed reporting of grammar errors, as this causes crashes in Microsoft Word. (#5954, #5877)</source>
-        <target>Removed reporting of grammar errors, as this causes crashes in Microsoft Word. (#5954, #5877)</target>
+        <target>删除了读出语法错误，因为会导致 Microsoft Word 崩溃。(#5954, #5877)</target>
       </segment>
     </unit>
     <unit id="fd4efbbd-b426-444b-ba77-ecf3b2e75215">
