@@ -38,14 +38,6 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
           $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
-          New-Item -ItemType Directory -Force -Path ~/.ssh
-          $privateKey = "${{ secrets.UPLOAD_TO_CROWDIN_PRIVATE_KEY }}"
-          $privateKey | Out-File -FilePath ~/.ssh/id_rsa -Encoding ascii
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git remote set-url origin git@github.com:${{ github.repository }}
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-        if: success()
       - name: Process Docs Translation
         shell: pwsh
         run: |
@@ -64,22 +56,3 @@ jobs:
               }
           }
         if: success()
-      - name: Commit and Push changes
-        run: |
-          $ErrorActionPreference = 'Stop'
-          $filesChanged = git diff --name-only -- *.xliff
-          if ($filesChanged) {
-            Write-Host "xliff files were changed. Committing and pushing changes."
-            foreach ($file in $filesChanged) {
-              $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
-              git add $file
-              Write-Host "Committing $file"
-              git commit -m "更新 $baseName 文档翻译（从 Crowdin）"
-            }
-            Write-Host "Pushing changes"
-            git push origin HEAD
-          } else {
-            Write-Host "No xliff files were changed. Skipping commit and push."
-          }
-        if: success()
-
