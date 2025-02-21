@@ -173,7 +173,6 @@ goto %Action%
 :All
 for %%i in (L C U) do (
 echo %Parameter%%%i
-pause
 Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
 )
 if /I %Action%==DownloadAndCommit (
@@ -183,16 +182,9 @@ exit
 
 :DownloadFiles
 :DownloadAndCommit
-if /I %Action%==UploadFiles (
-set DownloadFilename=%OldFile%
-) Else (
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%TranslationPath%\%FileName%" (del /f /q "%TranslationPath%\%FileName%")
-)
 "%~dp0Tools\nvdaL10nUtil.exe" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
-if /I %Action%==UploadFiles (
-goto Upload
-)
 if /I %Action%==DownloadAndCommit (
 goto Commit
 )
@@ -210,13 +202,22 @@ git add %AddFileList%
 git commit -m "%CommitMSG%"
 exit
 
-:UploadFiles
-set OldFile=%~dp0Crowdin\OldXLIFF\%FileName%
-if /I %Type%==Docs (
-IF EXIST "%~dp0Crowdin\OldXLIFF" (rd /s /q "%~dp0Crowdin\OldXLIFF")
-MKDir "%~dp0Crowdin\OldXLIFF"
+:ReadyUpload
+set TempFolder=%~dp0Crowdin\Temp
+set OldFile=%TempFolder%\%FileName%.old
 set Parameter=--old "%OldFile%"
-goto DownloadFiles
+IF EXIST "%TempFolder%" (rd /s /q "%TempFolder%")
+MKDir "%TempFolder%"
+IF Not EXIST "%~dp0Crowdin\OldXLIFF\%FileName%" (
+git archive --output "./Crowdin/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
+"%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0Crowdin\OldXLIFF"
+)
+MKLINK /H "%OldFile%" "%~dp0Crowdin\OldXLIFF\%FileName%"
+goto Upload
+
+:UploadFiles
+if /I %Type%==Docs (
+goto ReadyUpload
 ) else (
 set Parameter= 
 )
