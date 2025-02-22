@@ -1,4 +1,4 @@
-name: Upload Translation
+name: Upload Translations
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  Process-Translation:
+  Process-Translations:
     runs-on: windows-latest
     steps:
       - name: Checkout repository
@@ -78,6 +78,7 @@ jobs:
                   if (Test-Path $FilePath) {
                       Write-Host "Download"
                       & cmd /c "$L10nUtil UP_$baseName"
+                      Remove-Item $file -Force -ErrorAction SilentlyContinue
                       Start-Sleep -Seconds 5
                       & cmd /c "$L10nUtil DL_$baseName"
                       git add "$file"
