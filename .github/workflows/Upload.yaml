@@ -40,16 +40,22 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
           $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
-          git branch main remotes/origin/main
         if: success()
       - name: Process Docs Translation
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          $GIT_BEFORE: ${{ github.event.before }}
+          $GIT_BEFORE = "${{ github.event.before }}"
+          $IsBeforeValid = $false
           $L10nUtil = "${{ github.workspace }}\L10nUtilTools.bat"
           $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
-          if (git rev-parse --verify "$GIT_BEFORE" 2>$null) {
+          git branch main remotes/origin/main
+          if (-not [string]::IsNullOrEmpty($GIT_BEFORE)) {
+              if (git cat-file -e $GIT_BEFORE 2>$null) {
+                  $IsBeforeValid = $true
+              }
+          }
+          if ($IsBeforeValid) {
               $diffRange = "$GIT_BEFORE..HEAD"
           } else {
               Write-Host "Fallback: Fetching latest main branch"
