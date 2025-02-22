@@ -34,14 +34,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r ${{ github.workspace }}\Tools\NVDA\requirements.txt
-      - name: Create token and branch
+      - name: Configure environment
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
           $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
           $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
         if: success()
-      - name: Process Docs Translation
+      - name: Process Translations
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
@@ -75,9 +77,22 @@ jobs:
                   if (Test-Path $FilePath) {
                       Write-Host "Download"
                       & cmd /c "$L10nUtil UP_$baseName"
+                      Start-Sleep -Seconds 5
+                      & cmd /c "$L10nUtil DL_$baseName"
+                      git add "$file"
                   } else {
                       Write-Host "Latest"
                   }
               }
           }
         if: success()
+      - name: Commit & Push
+        shell: pwsh
+        run: |
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+              git commit -m "更新翻译（从 Crowdin）"
+              git push origin ${{ github.ref_name }}
+          } else {
+              Write-Host "No changes to commit, skipping commit and push."
+          }
