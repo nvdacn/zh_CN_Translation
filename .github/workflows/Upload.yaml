@@ -74,7 +74,7 @@ jobs:
                   }
                   if (Test-Path $FilePath) {
                       Write-Host "Download"
-                      & cmd /c "$L10nUtil Upload_$baseName"
+                      $L10nUtil UP_$baseName
                   } else {
                       Write-Host "Latest"
                   }

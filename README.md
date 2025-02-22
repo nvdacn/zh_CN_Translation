@@ -47,7 +47,6 @@
 | `DCL` | 从 Crowdin 下载已翻译的 nvda.po 文件并将其提交到存储库。 |
 | `DCA` | 从 Crowdin 下载所有已翻译的文件并将其提交到存储库。 |
 | `CLE` | 清理上述命令生成的所有文件。 |
-| `Build_Translation`、`Upload_nvda`、`Upload_changes` 和 `Upload_userGuide`（仅支持命令行传入 | 这些命令由GitHub Actions 工作流调用，不推荐日常使用。 |
 | 其他命令 | 退出本工具。 |
 
 #### 注意

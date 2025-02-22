@@ -13,18 +13,14 @@ if "%1" == "Build_Translation" (
   set CLI=T
   goto T
 )
-if "%1" == "Upload_nvda" (
-  set CLI=UPL
-  goto UPL
+for /f "tokens=1,2 delims=_" %%A in ("%~1") do (
+  set "CLIPart1=%%A"
+  set "CLIPart2=%%B"
 )
-if "%1" == "Upload_changes" (
-  set CLI=UPC
-  goto UPC
-)
-if "%1" == "Upload_userGuide" (
-  set CLI=UPU
-  goto UPU
-)
+set "CLIPart2=%CLIPart2:~0,1%"
+if /I "%CLIPart2%"=="n" set "CLIPart2=L"
+set "CLI=%CLIPart1%%CLIPart2%"
+goto %CLI%
 
 Rem 判断 是否存在 Crowdin 令牌  
 IF not EXIST "%Userprofile%\.nvda_crowdin" (
