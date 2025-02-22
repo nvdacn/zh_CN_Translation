@@ -46,10 +46,18 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
+          $GIT_BEFORE: ${{ github.event.before }}
           $L10nUtil = "${{ github.workspace }}\L10nUtilTools.bat"
           $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
+          if (git rev-parse --verify "$GIT_BEFORE" 2>$null) {
+              $diffRange = "$GIT_BEFORE..HEAD"
+          } else {
+              Write-Host "Fallback: Fetching latest main branch"
+              $MainHead = (git rev-parse "main")
+              $diffRange = "$MainHead..HEAD"
+          }
           foreach ($ProcessedFileName in $ProcessedFileList) {
-              $changedFiles = git diff --name-only ${{github.event.before}}.. -- $ProcessedFileName
+              $changedFiles = git diff --name-only $diffRange -- $ProcessedFileName
               foreach ($file in $changedFiles) {
                   Write-Host "$file has changed"
                   $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
