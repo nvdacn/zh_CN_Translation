@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - "Uploads"
-      - "UploadsTest"
+    paths:
+      - 'Translation/LC_MESSAGES/*.po'
+      - 'Translation/user_docs/*.xliff'
   workflow_dispatch:
 
 jobs:
@@ -33,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r ${{ github.workspace }}\Tools\NVDA\requirements.txt
+          pip install -r ${{ github.workspace }}/Tools/NVDA/requirements.txt
       - name: Configure environment
         shell: pwsh
         run: |
@@ -49,7 +51,7 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $GIT_BEFORE = "${{ github.event.before }}"
           $IsBeforeValid = $false
-          $L10nUtil = "${{ github.workspace }}\L10nUtilTools.bat"
+          $L10nUtil = "${{ github.workspace }}/L10nUtilTools.bat"
           $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
           git branch main remotes/origin/main
           if (-not [string]::IsNullOrEmpty($GIT_BEFORE)) {
