@@ -53,7 +53,8 @@ jobs:
           $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
           git branch main remotes/origin/main
           if (-not [string]::IsNullOrEmpty($GIT_BEFORE)) {
-              if (git cat-file -e $GIT_BEFORE 2>$null) {
+              git rev-parse --verify -q "$GIT_BEFORE^{commit}" > $null 2>&1
+              if ($LASTEXITCODE -eq 0) {
                   $IsBeforeValid = $true
               }
           }
