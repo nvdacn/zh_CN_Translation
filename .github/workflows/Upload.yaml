@@ -59,6 +59,7 @@ jobs:
               }
           }
           if ($IsBeforeValid) {
+              Write-Host "Comparing changes in range: $GIT_BEFORE"
               $diffRange = "$GIT_BEFORE..HEAD"
           } else {
               Write-Host "Fallback: Fetching latest main branch"
@@ -76,14 +77,17 @@ jobs:
                       $FilePath = "Translation/user_docs/$baseName.xliff"
                   }
                   if (Test-Path $FilePath) {
-                      Write-Host "Download"
+                      Write-Host "Uploading $file translations to Crowdin..."
                       & cmd /c "$L10nUtil UP_$baseName"
                       Remove-Item $file -Force -ErrorAction SilentlyContinue
+                      Write-Host "Removed Uploaded file: $file"
                       Start-Sleep -Seconds 5
+                      Write-Host "Downloading updated $file translations..."
                       & cmd /c "$L10nUtil DL_$baseName"
                       git add "$file"
+                      Write-Host "Staged changes for $file"
                   } else {
-                      Write-Host "Latest"
+                      Write-Host "File $FilePath not found, skipping processing."
                   }
               }
           }
