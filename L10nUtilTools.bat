@@ -4,16 +4,28 @@ chcp 65001>Nul
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
 Rem 设置 nvdaL10nUtil 程序路径  
-IF EXIST "%~dp0Tools\NVDA\source\l10nUtil.py" (
-  set L10nUtil=python "%~dp0Tools\NVDA\source\l10nUtil.py"
+set "L10nUtil="
+for %%F in (
+  "%~dp0Tools\NVDA\source\l10nUtil.py"
+  "%~dp0Tools\nvdaL10nUtil.exe"
+) do (
+  if exist %%F (
+    if "%%F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
+      set "L10nUtil=python "%%F""
+    ) else (
+      set "L10nUtil=%%F"
+    )
+  )
 )
 
 Rem GitHub Actions 流程  
-if "%1" == "Build_Translation" (
+set ProcessCLI=%1
+if not "%ProcessCLI:~2,1%"=="_" (goto Crowdin)
+if "%ProcessCLI%" == "Build_Translation" (
   set CLI=T
   goto T
 )
-for /f "tokens=1,2 delims=_" %%A in ("%~1") do (
+for /f "tokens=1,2 delims=_" %%A in ("%ProcessCLI%") do (
   set "CLIPart1=%%A"
   set "CLIPart2=%%B"
 )
@@ -22,14 +34,12 @@ if /I "%CLIPart2%"=="n" set "CLIPart2=L"
 set "CLI=%CLIPart1%%CLIPart2%"
 goto %CLI%
 
+:Crowdin
 Rem 判断 是否存在 Crowdin 令牌  
 IF not EXIST "%Userprofile%\.nvda_crowdin" (
   mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 "%%Userprofile%%＼.nvda_crowdin" 不存在，请生成 Crowdin 令牌并创建 .nvda_crowdin 文件后重试。',5,'文件不存在');window.close();"
   Exit
 )
-
-Rem 设置 nvdaL10nUtil 程序路径  
-set L10nUtil="%~dp0Tools\nvdaL10nUtil.exe"
 
 Rem 判断是否从命令行传入参数  
 if not "%1"=="" (
