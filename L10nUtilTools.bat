@@ -10,8 +10,8 @@ for %%F in (
   "%~dp0Tools\nvdaL10nUtil.exe"
 ) do (
   if exist %%F (
-    if "%%F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
-      set "L10nUtil=python "%%F""
+    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
+      set "L10nUtil=python %%F"
     ) else (
       set "L10nUtil=%%F"
     )
