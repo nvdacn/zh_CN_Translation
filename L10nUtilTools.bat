@@ -20,11 +20,11 @@ for %%F in (
 
 Rem GitHub Actions 流程  
 set ProcessCLI=%1
-if not "%ProcessCLI:~2,1%"=="_" (goto Crowdin)
-if "%ProcessCLI%" == "Build_Translation" (
+if /I "%ProcessCLI%"=="Build_Translation" (
   set CLI=T
   goto T
 )
+if not "%ProcessCLI:~2,1%"=="_" (goto Crowdin)
 for /f "tokens=1,2 delims=_" %%A in ("%ProcessCLI%") do (
   set "CLIPart1=%%A"
   set "CLIPart2=%%B"
