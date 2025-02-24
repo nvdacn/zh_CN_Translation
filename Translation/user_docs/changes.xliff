@@ -31245,7 +31245,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 3141</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Highlights of this release include the ability to disable individual add-ons; support for form fields in Microsoft Excel; significant improvements to reporting of colors; fixes and improvements related to several braille displays; and fixes and improvements to support for Microsoft Word.</source>
         <target>此版本的亮点包括禁用单个插件的能力；支持 Microsoft Excel 中的表单字段；读出颜色的重大改进；与几个点显器有关的修复和改进；以及Microsoft Word 支持的修复与改进。</target>
       </segment>
@@ -31325,7 +31325,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3151</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Reporting of comments (such as in Microsoft Word) can now be disabled via a Report Comments checkbox in NVDA's Document Formatting settings dialog. (#5108)</source>
         <target>现可通过文档格式设置中的"批注"复选框禁用批注朗读（如 Word 中的批注）。(#5108)</target>
       </segment>
@@ -31335,7 +31335,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3152</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It is now possible to disable individual add-ons in the Add-ons Manager. (#3090)</source>
         <target>现可在插件管理器中禁用单个插件。(#3090)</target>
       </segment>
@@ -31345,7 +31345,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3153</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Additional key assignments have been added for ALVA BC640/680 series braille displays. (#5206)</source>
         <target>新增 ALVA BC640/680 系列点显器的快捷键分配。(#5206)</target>
       </segment>
@@ -31355,7 +31355,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3154</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>There is now a command to move the braille display to the current focus. Currently, only the ALVA BC640/680 series has a key assigned to this command, but it can be assigned manually for other displays in the Input Gestures dialog if desired. (#5250)</source>
         <target>新增命令将盲文显示移至当前焦点。目前仅 ALVA BC640/680 系列点显器分配了按键，其他显示器可在输入手势对话框中手动分配。(#5250)</target>
       </segment>
@@ -31365,7 +31365,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3155</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Excel, you can now interact with form fields. You move to form fields using the Elements List or single letter navigation in browse mode. (#4953)</source>
         <target>现可与Microsoft Excel 中的表单字段交互。通过元素列表或浏览模式单键导航移动至表单字段。(#4953)</target>
       </segment>
@@ -31375,7 +31375,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3156</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can now assign an input gesture to toggle simple review mode using the Input Gestures dialog. (#6173)</source>
         <target>现可通过输入手势对话框分配手势以切换简易查看模式。(#6173)</target>
       </segment>
@@ -31395,7 +31395,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3160</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA now reports colors using a basic well-understood set of 9 color hues and 3 shades, with brightness and paleness variations. This is rather than using more subjective and less understood color names. (#6029)</source>
         <target>NVDA 现使用 9 种基础色调和 3 种深浅描述颜色，而非主观色彩名称。(#6029)</target>
       </segment>
@@ -31405,7 +31405,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3161</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The existing NVDA+F9 then NVDA+F10 behavior has been modified to select text on the first press of F10. When F10 is pressed twice (in quick succession) the text is copied to the clipboard. (#4636)</source>
         <target>NVDA+F9 后按 NVDA+F10 的行为修改为首次按 F10 选择文本，快速连按两次 F10 复制到剪贴板。(#4636)</target>
       </segment>
@@ -31415,7 +31415,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3162</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Updated eSpeak NG to version Master 11b1a7b (22 June 2016). (#6037)</source>
         <target>将 eSpeak NG 更新到版本 Master 11b1a7b (22 June 2016)。(#6037)</target>
       </segment>
@@ -31435,7 +31435,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3166</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In browse mode in Microsoft Word, copying to the clipboard now preserves formatting. (#5956)</source>
         <target>Microsoft Word 浏览模式复制到剪贴板现保留格式。(#5956)</target>
       </segment>
@@ -31445,7 +31445,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3167</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Word, NVDA now reports appropriately when using Word's own table navigation commands (alt+home, alt+end, alt+pageUp and alt+pageDown) and table selection commands (shift added to the navigation commands). (#5961)</source>
         <target>在 Microsoft Word 中，NVDA 现在能够在使用 Word 自带的表格导航命令（Alt+Home、Alt+End、Alt+PageUp 和 Alt+PageDown）以及表格选择命令（在导航命令前加 Shift 键）时正确朗读。（#5961）</target>
       </segment>
@@ -31455,7 +31455,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3168</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Word dialog boxes, NVDA's object navigation has been greatly improved. (#6036)</source>
         <target>大幅改进 Microsoft Word 对话框中的对象导航。(#6036)</target>
       </segment>
@@ -31465,7 +31465,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3169</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In some applications such as Visual Studio 2015, shortcut keys (e.g. control+c for Copy) are now reported as expected. (#6021)</source>
         <target>Visual Studio 2015 等应用中，快捷键（如 Ctrl+C）现正常读出。(#6021)</target>
       </segment>
@@ -31475,7 +31475,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3170</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed a rare issue when scanning for serial ports on some systems which made some braille display drivers unusable. (#6015)</source>
         <target>修复某些系统扫描串行端口时导致盲文驱动不可用的问题。(#6015)</target>
       </segment>
@@ -31485,7 +31485,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3171</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Reporting colors in Microsoft Word is now more accurate as changes in Microsoft Office Themes are now taken into account. (#5997)</source>
         <target>Microsoft Word 颜色报告更准确，考虑 Office 主题变化。(#5997)</target>
       </segment>
@@ -31495,7 +31495,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3172</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Browse mode for Microsoft Edge and support for Start Menu search suggestions is again available on Windows 10 builds after April 2016. (#5955)</source>
         <target>2016年4月后的 Windows 10 版本再次提供对 Microsoft Edge 浏览模式和开始菜单搜索建议的支持。(#5955)</target>
       </segment>
@@ -31505,7 +31505,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3173</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Word, automatic table header reading works better when dealing with merged cells. (#5926)</source>
         <target>处理合并单元格时，Word 自动表头读取更可靠。(#5926)</target>
       </segment>
@@ -31515,7 +31515,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3174</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In the Windows 10 Mail app, NVDA no longer fails to read the content of messages. (#5635)</source>
         <target>在 Windows 10 邮件应用程序中，NVDA 不再无法获取邮件内容(#5635)</target>
       </segment>
@@ -31525,7 +31525,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3175</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When speak command keys is on, lock keys such as caps lock are no longer announced twice. (#5490)</source>
         <target>启用"读出命令键"时，大写锁定等键不再重复读出。(#5490)</target>
       </segment>
@@ -31535,7 +31535,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3176</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Windows User Account Control dialogs are again read correctly in the Windows 10 Anniversary update. (#5942)</source>
         <target>在 Windows 10 周年更新中正确读取用户账户控制对话框。(#5942)</target>
       </segment>
@@ -31545,7 +31545,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3177</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In the Web Conference Plugin (such as used on out-of-sight.net) NVDA no longer beeps and speaks progress bar updates related to microphone input. (#5888)</source>
         <target>网络会议插件（如 out-of-sight.net）不再因麦克风输入相关进度条更新发出提示音。(#5888)</target>
       </segment>
@@ -31555,7 +31555,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3178</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Performing a Find Next or Find Previous command in Browse Mode will now correctly do a  case sensitive search if the original Find was case sensitive. (#5522)</source>
         <target>浏览模式中"查找下一个/上一个"现正确区分大小写。(#5522)</target>
       </segment>
@@ -31565,7 +31565,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3179</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When editing dictionary entries, feedback is now given for invalid regular expressions. NVDA no longer crashes if a dictionary file contains an invalid regular expression. (#4834)</source>
         <target>编辑词典条目时，现对无效正则表达式给出反馈。字典文件含无效正则表达式时不再崩溃。(#4834)</target>
       </segment>
@@ -31575,7 +31575,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3180</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If NVDA is unable to communicate with a braille display (e.g. because it has been disconnected), it will automatically disable use of the display. (#1555)</source>
         <target>无法与点显器通信时（如断开连接），自动禁用该点显器。(#1555)</target>
       </segment>
@@ -31585,7 +31585,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3181</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Slightly improved performance of filtering in the Browse Mode Elements List in some cases. (#6126)</source>
         <target>部分情况下浏览模式元素列表过滤时的性能小幅提升。(#6126)</target>
       </segment>
@@ -31595,7 +31595,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3182</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Excel, the background pattern names reported by NVDA now match those used by Excel. (#6092)</source>
         <target>Excel 中背景图案名称现与 Excel 使用的名称一致。(#6092)</target>
       </segment>
@@ -31605,7 +31605,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3183</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Improved support for the Windows 10 logon screen, including announcement of alerts and activating of the password field with touch. (#6010)</source>
         <target>改进了对 Windows 10 登录屏幕的支持，包括通知警报和通过触摸激活密码字段。(#6010)</target>
       </segment>
@@ -31615,7 +31615,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3184</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA now correctly detects the secondary routing buttons on ALVA BC640/680 series braille displays. (#5206)</source>
         <target>正确检测 ALVA BC640/680 的辅助路由按钮。(#5206)</target>
       </segment>
@@ -31625,7 +31625,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3185</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA can again report Windows Toast notifications in recent builds of Windows 10. (#6096)</source>
         <target>恢复了对 Windows 10 最新版 Toast 通知的朗读。(#6096)</target>
       </segment>
@@ -31635,7 +31635,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3186</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA no longer occasionally stops recognising key presses on Baum compatible and HumanWare Brailliant B braille displays. (#6035)</source>
         <target>修复了 Baum 兼容和 HumanWare Brailliant B 点显器偶发停止识别按键的问题。(#6035)</target>
       </segment>
@@ -31645,7 +31645,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3187</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If reporting of line numbers is enabled in NVDA's Document Formatting preferences, line numbers are now shown on a braille display. (#5941)</source>
         <target>启用朗读行号时，点显器现显示行号。(#5941)</target>
       </segment>
@@ -31655,7 +31655,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3188</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When speech mode is off, reporting objects (such as pressing NVDA+tab to report the focus) now appears in the Speech Viewer as expected. (#6049)</source>
         <target>当语音模式关闭时，读出对象（例如按下NVDA+Tab朗读焦点）现会正确显示在语音查看器中。（#6049）</target>
       </segment>
@@ -31665,7 +31665,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3189</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In the Outlook 2016 message list,  associated draft information is no longer reported. (#6219)</source>
         <target>Outlook 2016 消息列表中不再报告草稿信息。(#6219)</target>
       </segment>
@@ -31675,7 +31675,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3190</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Google Chrome and Chrome-based browsers in a language other than English, browse mode no longer fails to work in many documents. (#6249)</source>
         <target>非英文版 Chrome 及基于 Chrome 的浏览器中，浏览模式在多数文档中不再失效。(#6249)</target>
       </segment>
@@ -31695,7 +31695,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3194</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Logging information directly from a property no longer results in the property  being called recursively over and over again. (#6122)</source>
         <target>直接从属性获取日志信息不再导致递归调用。(#6122)</target>
       </segment>
