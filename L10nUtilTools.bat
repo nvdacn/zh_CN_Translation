@@ -6,8 +6,9 @@ Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两�
 Rem 设置 nvdaL10nUtil 程序路径  
 set "L10nUtil="
 for %%F in (
+  "%ProgramFiles%\NVDA\l10nUtil.exe"
+  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
   "%~dp0Tools\NVDA\source\l10nUtil.py"
-  "%~dp0Tools\nvdaL10nUtil.exe"
 ) do (
   if exist %%F (
     if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
