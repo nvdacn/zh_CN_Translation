@@ -47,7 +47,7 @@ for /f "tokens=1,2 delims=_" %%A in ("%ProcessCLI%") do (
   set "CLIPart1=%%A"
   set "CLIPart2=%%B"
 )
-if /I "%CLIPart1%"=="BD" set "CLIPart1="
+if /I "%CLIPart1%"=="BD" (set "CLIPart1=")
 set "replacements=TEST:T nvda:L changes:C userGuide:U"
 for %%R in (%replacements%) do (
   for /f "tokens=1,2 delims=:" %%A in ("%%R") do (
