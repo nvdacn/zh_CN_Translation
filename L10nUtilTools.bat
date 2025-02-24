@@ -18,7 +18,7 @@ for %%F in (
   )
   if defined L10nUtil (
     echo %%l10nUtil%% is set to !l10nUtil!.
-    goto SetProcessCLI
+    goto Crowdin
   )
 )
 
@@ -27,39 +27,45 @@ if not defined L10nUtil (
   echo %%l10nUtil%% not found.
   mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
   exit /b 1
-  )
-
-Rem GitHub Actions 流程  
-:SetProcessCLI
-set ProcessCLI=%1
-if /I "%ProcessCLI%"=="Build_Translation" (
-  set CLI=T
-  goto T
 )
-if not "%ProcessCLI:~2,1%"=="_" (goto Crowdin)
-for /f "tokens=1,2 delims=_" %%A in ("%ProcessCLI%") do (
-  set "CLIPart1=%%A"
-  set "CLIPart2=%%B"
-)
-set "CLIPart2=%CLIPart2:~0,1%"
-if /I "%CLIPart2%"=="n" set "CLIPart2=L"
-set "CLI=%CLIPart1%%CLIPart2%"
-goto %CLI%
 
-:Crowdin
 Rem 判断 是否存在 Crowdin 令牌  
+:Crowdin
 IF not EXIST "%Userprofile%\.nvda_crowdin" (
+  echo %Userprofile%\.nvda_crowdin not found.
   mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 "%%Userprofile%%＼.nvda_crowdin" 不存在，请生成 Crowdin 令牌并创建 .nvda_crowdin 文件后重试。',5,'文件不存在');window.close();"
-  Exit
+  exit /b 1
 )
 
 Rem 判断是否从命令行传入参数  
 if not "%1"=="" (
+  set ProcessCLI=%1
+  if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
   set CLI=%1
   goto goto
+) else (
+goto echo
 )
 
+Rem 处理 CLI
+:ProcessCLI
+for /f "tokens=1,2 delims=_" %%A in ("%ProcessCLI%") do (
+  set "CLIPart1=%%A"
+  set "CLIPart2=%%B"
+)
+if /I "%CLIPart1%"=="BD" set "CLIPart1="
+set "replacements=TEST:T nvda:L changes:C userGuide:U"
+for %%R in (%replacements%) do (
+  for /f "tokens=1,2 delims=:" %%A in ("%%R") do (
+    if /I "%CLIPart2%"=="%%A" (set "CLIPart2=%%B")
+  )
+)
+set "CLI=%CLIPart1%%CLIPart2%"
+echo %%CLI%% is set to %CLI%, start executing the command.
+goto %CLI%
+
 Rem 打印可用命令  
+:Echo
 cls
 echo 欢迎使用 L10nUtilTools，请输入要执行的操作，按回车键确认。  
 echo C：生成更新日志的 html 文件；  
