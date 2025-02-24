@@ -1,5 +1,5 @@
 @echo off
-
+setlocal enabledelayedexpansion
 chcp 65001>Nul
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
@@ -16,9 +16,21 @@ for %%F in (
       set "L10nUtil=%%F"
     )
   )
+  if defined L10nUtil (
+    echo %%l10nUtil%% is set to !l10nUtil!.
+    goto SetProcessCLI
+  )
 )
 
+Rem 检查 %L10nUtil% 是否存在  
+if not defined L10nUtil (
+  echo %%l10nUtil%% not found.
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  exit /b 1
+  )
+
 Rem GitHub Actions 流程  
+:SetProcessCLI
 set ProcessCLI=%1
 if /I "%ProcessCLI%"=="Build_Translation" (
   set CLI=T
