@@ -1,0 +1,105 @@
+name: Upload Translations
+
+on:
+  push:
+    branches:
+      - "Uploads"
+    paths:
+      - 'Translation/LC_MESSAGES/*.po'
+      - 'Translation/user_docs/*.xliff'
+  workflow_dispatch:
+
+jobs:
+
+  Process-Translations:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout ${{ github.repository }} repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Checkout NVDA repository
+        uses: actions/checkout@v4
+        with:
+          repository: nvaccess/nvda.git
+          fetch-depth: 1
+          ref: master
+          path: ${{ github.workspace }}/Tools/NVDA
+          sparse-checkout: |
+            source/.
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ${{ github.workspace }}/Tools/NVDA/requirements.txt
+      - name: Configure environment
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
+          $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+        if: success()
+      - name: Process Translations
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $GIT_BEFORE = "${{ github.event.before }}"
+          $IsBeforeValid = $false
+          $L10nUtil = "${{ github.workspace }}/L10nUtilTools.bat"
+          $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
+          git branch main remotes/origin/main
+          if (-not [string]::IsNullOrEmpty($GIT_BEFORE)) {
+              git rev-parse --verify -q "$GIT_BEFORE^{commit}" > $null 2>&1
+              if ($LASTEXITCODE -eq 0) {
+                  $IsBeforeValid = $true
+              }
+          }
+          if ($IsBeforeValid) {
+              Write-Host "Comparing changes in range: $GIT_BEFORE"
+              $diffRange = "$GIT_BEFORE..HEAD"
+          } else {
+              Write-Host "Fallback: Fetching latest main branch"
+              $MainHead = (git rev-parse "main")
+              $diffRange = "$MainHead..HEAD"
+          }
+          foreach ($ProcessedFileName in $ProcessedFileList) {
+              $changedFiles = git diff --name-only $diffRange -- $ProcessedFileName
+              foreach ($file in $changedFiles) {
+                  Write-Host "$file has changed"
+                  $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+                  if ($baseName -ieq "nvda") {
+                      $FilePath = "Translation/LC_MESSAGES/$baseName.po"
+                  } else {
+                      $FilePath = "Translation/user_docs/$baseName.xliff"
+                  }
+                  if (Test-Path $FilePath) {
+                      Write-Host "Uploading $file to Crowdin..."
+                      & cmd /c "$L10nUtil UP_$baseName"
+                      Remove-Item $file -Force -ErrorAction SilentlyContinue
+                      Write-Host "Removed Uploaded file: $file"
+                      Start-Sleep -Seconds 5
+                      Write-Host "Downloading updated $file from Crowdin..."
+                      & cmd /c "$L10nUtil DL_$baseName"
+                      git add "$file"
+                      Write-Host "Staged changes for $file"
+                  } else {
+                      Write-Host "File $FilePath not found, skipping processing."
+                  }
+              }
+          }
+        if: success()
+      - name: Commit & Push
+        shell: pwsh
+        run: |
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+              git commit -m "更新翻译（从 Crowdin）"
+              git push origin ${{ github.ref_name }}
+          } else {
+              Write-Host "No changes to commit, skipping commit and push."
+          }

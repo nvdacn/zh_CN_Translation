@@ -1,42 +1,65 @@
 @echo off
-
-chcp 65001
+setlocal enabledelayedexpansion
+chcp 65001>Nul
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
-Rem GitHub Actions 流程  
-if "%1" == "Build_Translation" (
-  set CLI=T
-  goto T
-)
-if "%1" == "Upload_nvda" (
-  set CLI=UPL
-  goto UPL
-)
-if "%1" == "Upload_changes" (
-  set CLI=UPC
-  goto UPC
-)
-if "%1" == "Upload_userGuide" (
-  set CLI=UPU
-  goto UPU
-)
-
-Rem 判断 是否存在 Crowdin 令牌  
-IF not EXIST "%Userprofile%\.nvda_crowdin" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 "%%Userprofile%%＼.nvda_crowdin" 不存在，请生成 Crowdin 令牌并创建 .nvda_crowdin 文件后重试。',5,'文件不存在');window.close();"
-  Exit
-)
-
 Rem 设置 nvdaL10nUtil 程序路径  
-set L10nUtil=%~dp0Tools\nvdaL10nUtil.exe
+set "L10nUtil="
+for %%F in (
+  "%ProgramFiles%\NVDA\l10nUtil.exe"
+  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
+  "%~dp0Tools\NVDA\source\l10nUtil.py"
+) do (
+  if exist %%F (
+    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
+      set "L10nUtil=python %%F"
+    ) else (
+      set "L10nUtil=%%F"
+    )
+  )
+  if defined L10nUtil (
+    echo %%l10nUtil%% is set to !l10nUtil!.
+    goto CheckCLI
+  )
+)
+
+Rem 检查 %L10nUtil% 是否存在  
+if not defined L10nUtil (
+  echo l10nUtil program not found.
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  exit /b 1
+)
 
 Rem 判断是否从命令行传入参数  
+:CheckCLI
 if not "%1"=="" (
+  set ProcessCLI=%1
+  if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
   set CLI=%1
   goto goto
+) else (
+goto echo
 )
 
+Rem 处理 CLI
+:ProcessCLI
+for /f "tokens=1,2 delims=_" %%A in ("%ProcessCLI%") do (
+  set "CLIPart1=%%A"
+  set "CLIPart2=%%B"
+)
+if /I "%CLIPart1%"=="BD" (set "CLIPart1=")
+set "replacements=TEST:T nvda:L changes:C userGuide:U"
+for %%R in (%replacements%) do (
+  for /f "tokens=1,2 delims=:" %%A in ("%%R") do (
+    if /I "%CLIPart2%"=="%%A" (set "CLIPart2=%%B")
+  )
+)
+set "CLI=%CLIPart1%%CLIPart2%"
+echo %%CLI%% is set to %CLI%, start executing the command.
+goto %CLI%
+
 Rem 打印可用命令  
+:Echo
 cls
 echo 欢迎使用 L10nUtilTools，请输入要执行的操作，按回车键确认。  
 echo C：生成更新日志的 html 文件；  
@@ -75,19 +98,19 @@ Rem 生成更新日志
 :T
 :Z
 IF EXIST "%~dp0Preview\changes.html" (del /f /q "%~dp0Preview\changes.html")
-"%L10nUtil%" xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
+%L10nUtil% xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
 if /I "%CLI%"=="C" (Exit)
 
 Rem 生成用户指南  
 :U
 IF EXIST "%~dp0Preview\userGuide.html" (del /f /q "%~dp0Preview\userGuide.html")
-"%L10nUtil%" xliff2html -t userGuide "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\userGuide.html"
+%L10nUtil% xliff2html -t userGuide "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\userGuide.html"
 if /I "%CLI%"=="U" (Exit)
 
 Rem 生成热键快速参考  
 :K
 IF EXIST "%~dp0Preview\keyCommands.html" (del /f /q "%~dp0Preview\keyCommands.html")
-"%L10nUtil%" xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
+%L10nUtil% xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
 if /I "%CLI%"=="K" (Exit)
 if /I "%CLI%"=="D" (Exit)
 
@@ -184,7 +207,7 @@ Rem 从 Crowdin 下载已翻译的文件
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
-"%L10nUtil%" downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
+%L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
 if /I %Action%==DownloadAndCommit (goto Commit)
 Exit
 
@@ -223,7 +246,7 @@ if /I %Type%==Docs (
   set Parameter= 
 )
 :Upload
-"%L10nUtil%" uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
+%L10nUtil% uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
 Exit
 
 Rem 清理本工具生成的所有文件  
