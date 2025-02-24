@@ -23,8 +23,7 @@ jobs:
         with:
           repository: nvaccess/nvda.git
           fetch-depth: 1
-#          ref: master
-          ref: l10nUtil
+          ref: master
           path: ${{ github.workspace }}/Tools/NVDA
           sparse-checkout: |
             source/.
