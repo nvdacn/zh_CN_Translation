@@ -18,26 +18,19 @@ for %%F in (
   )
   if defined L10nUtil (
     echo %%l10nUtil%% is set to !l10nUtil!.
-    goto Crowdin
+    goto CheckCLI
   )
 )
 
 Rem 检查 %L10nUtil% 是否存在  
 if not defined L10nUtil (
-  echo %%l10nUtil%% not found.
+  echo l10nUtil program not found.
   mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
   exit /b 1
 )
 
-Rem 判断 是否存在 Crowdin 令牌  
-:Crowdin
-IF not EXIST "%Userprofile%\.nvda_crowdin" (
-  echo %Userprofile%\.nvda_crowdin not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('文件 "%%Userprofile%%＼.nvda_crowdin" 不存在，请生成 Crowdin 令牌并创建 .nvda_crowdin 文件后重试。',5,'文件不存在');window.close();"
-  exit /b 1
-)
-
 Rem 判断是否从命令行传入参数  
+:CheckCLI
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
