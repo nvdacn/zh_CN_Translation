@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-25 05:51+0000\n"
-"PO-Revision-Date: 2025-02-25 14:52+0800\n"
+"POT-Creation-Date: 2025-02-25 10:18+0000\n"
+"PO-Revision-Date: 2025-02-25 20:01+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2080,8 +2080,8 @@ msgstr ""
 #. Translators: a message when a particular quick nav command is not supported in the current document.
 #. Translators: Reported when a user tries to use a find command when it isn't supported.
 #: browseMode.py:569 appModules\kindle.py:261 appModules\kindle.py:265
-#: appModules\kindle.py:269 contentRecog\recogUi.py:93
-#: contentRecog\recogUi.py:97 contentRecog\recogUi.py:101
+#: appModules\kindle.py:269 contentRecog\recogUi.py:97
+#: contentRecog\recogUi.py:101 contentRecog\recogUi.py:105
 msgid "Not supported in this document"
 msgstr "在此文档不支持"
 
@@ -10419,44 +10419,55 @@ msgid "Tags"
 msgstr "标记"
 
 #. Translators: The title of the document used to present the result of content recognition.
-#: contentRecog\recogUi.py:39
+#: contentRecog\recogUi.py:43
 msgid "Result"
 msgstr "结果"
 
 #. Translators: Describes a command.
-#: contentRecog\recogUi.py:80
+#: contentRecog\recogUi.py:84
 msgid "Activates the text at the cursor if possible"
 msgstr "点击光标所在文本的位置（如果可能）"
 
 #. Translators: Describes a command.
-#: contentRecog\recogUi.py:86
+#: contentRecog\recogUi.py:90
 msgid "Dismiss the recognition result"
 msgstr "关闭识别结果显示"
 
 #. Translators: Reported when recognition (e.g. OCR) fails.
-#: contentRecog\recogUi.py:152
+#: contentRecog\recogUi.py:156
 msgid "Recognition failed"
 msgstr "识别失败"
 
+#. Translators: Describes a command.
+#: contentRecog\recogUi.py:171
+msgid "Refresh the recognition result"
+msgstr "刷新识别结果"
+
+#. Translators: Reported when a manual update of a content recognition result (e.g. OCR result) is
+#. requested, but the content is already updated automatically.
+#: contentRecog\recogUi.py:178
+msgid "The result of content recognition is already automatically updated"
+msgstr "已自动刷新识别结果"
+
 #. Translators: Reported when recognition (e.g. OCR) fails during automatic refresh.
-#: contentRecog\recogUi.py:175
-msgid "Automatic refresh of recognition result failed"
-msgstr "自动刷新识别结果失败"
+#: contentRecog\recogUi.py:192
+msgid "Refresh of recognition result failed"
+msgstr "识别结果刷新失败"
 
 #. Translators: Reported when content recognition (e.g. OCR) is attempted,
 #. but the user is already reading a content recognition result.
-#: contentRecog\recogUi.py:215
+#: contentRecog\recogUi.py:233
 msgid "Already in a content recognition result"
-msgstr "现已处于内容识别结果区域"
+msgstr "已处于内容识别结果区域"
 
 #. Translators: Reported when content recognition (e.g. OCR) is attempted,
 #. but the content is not visible.
-#: contentRecog\recogUi.py:222
+#: contentRecog\recogUi.py:240
 msgid "Content is not visible"
 msgstr "内容不可见"
 
 #. Translators: Reporting when content recognition (e.g. OCR) begins.
-#: contentRecog\recogUi.py:239
+#: contentRecog\recogUi.py:257
 msgid "Recognizing"
 msgstr "正在识别"
 
