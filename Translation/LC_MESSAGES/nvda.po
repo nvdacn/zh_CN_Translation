@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-25 10:18+0000\n"
-"PO-Revision-Date: 2025-02-25 20:01+0800\n"
+"POT-Creation-Date: 2025-02-25 23:15+0000\n"
+"PO-Revision-Date: 2025-02-26 15:01+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6052,7 +6052,7 @@ msgid "Recognizes the content of the current navigator object with Windows OCR"
 msgstr "使用 Windows OCR 识别当前导航对象的内容"
 
 #. Translators: Reported when Windows OCR is not available.
-#: globalCommands.py:4597 globalCommands.py:4620
+#: globalCommands.py:4597 globalCommands.py:4620 globalCommands.py:4641
 msgid "Windows OCR not available"
 msgstr "Windows OCR 不可用"
 
@@ -6066,42 +6066,57 @@ msgstr "使用 Windows OCR 之前，请先关闭黑屏。"
 msgid "Cycles through the available languages for Windows OCR"
 msgstr "在 Windows OCR 的可选语言之间切换"
 
-#. Translators: Input help mode message for toggle report CLDR command.
+#. Translators: Describes a command.
 #: globalCommands.py:4636
+msgid "Toggle periodical refresh of a Windows OCR result"
+msgstr "切换定期刷新 Windows OCR 识别结果的开关"
+
+#. Translators: The message announced when toggling automatic refresh of recognized content
+#: globalCommands.py:4647
+msgid "Automatic refresh enabled"
+msgstr "启用自动刷新"
+
+#. Translators: The message announced when toggling automatic refresh of recognized content
+#: globalCommands.py:4649
+msgid "Automatic refresh disabled"
+msgstr "禁用自动刷新"
+
+#. Translators: Input help mode message for toggle report CLDR command.
+#: globalCommands.py:4659
 msgid "Toggles on and off the reporting of CLDR characters, such as emojis"
 msgstr "切换读出 CLDR 字符的开关，（例如读出表情符号）"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4642
+#: globalCommands.py:4665
 msgid "report CLDR characters off"
 msgstr "不读 CLDR 字符"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4646
+#: globalCommands.py:4669
 msgid "report CLDR characters on"
 msgstr "读出 CLDR 字符"
 
 #. Translators: Input help mode message for speech Unicode normalization command.
-#: globalCommands.py:4653
+#: globalCommands.py:4676
 msgid "Cycle through the speech Unicode normalization states"
 msgstr "在语音 Unicode 正规化状态之间循环切换"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (default behavior).
-#: globalCommands.py:4668
+#: globalCommands.py:4691
 #, python-brace-format
 msgid "Speech Unicode normalization default ({default})"
 msgstr "语音 Unicode 正规化 默认（{default}）"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (disabled or enabled).
-#: globalCommands.py:4674
+#: globalCommands.py:4697
 #, python-brace-format
 msgid "Speech Unicode normalization {state}"
 msgstr "语音 Unicode 正规化 {state}"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4686
+#: globalCommands.py:4709
 msgid ""
 "Toggles the state of the screen curtain, enable to make the screen black or "
 "disable to show the contents of the screen. Pressed once, screen curtain is "
@@ -6112,86 +6127,86 @@ msgstr ""
 "屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
 
 #. Translators: Reported when the screen curtain is disabled.
-#: globalCommands.py:4745
+#: globalCommands.py:4768
 msgid "Screen curtain disabled"
 msgstr "关闭黑屏"
 
 #. Translators: Reported when the screen curtain could not be enabled.
-#: globalCommands.py:4752
+#: globalCommands.py:4775
 msgid "Could not disable screen curtain"
 msgstr "不能关闭黑屏"
 
 #. Translators: Reported when the screen curtain is not available.
-#: globalCommands.py:4763
+#: globalCommands.py:4786
 msgid "Screen curtain not available"
 msgstr "黑屏不可用"
 
 #. Translators: Reported when the screen curtain is enabled.
-#: globalCommands.py:4775
+#: globalCommands.py:4798
 msgid "Screen curtain enabled"
 msgstr "开启黑屏"
 
 #. Translators: Reported when the screen curtain is temporarily enabled.
-#: globalCommands.py:4778
+#: globalCommands.py:4801
 msgid "Temporary Screen curtain, enabled until next restart"
 msgstr "开启临时黑屏，重启 NVDA 后恢复"
 
 #. Translators: Reported when the screen curtain could not be enabled.
-#: globalCommands.py:4791
+#: globalCommands.py:4814
 msgid "Could not enable screen curtain"
 msgstr "无法开启黑屏"
 
 #. Translators: Warning message when trying to enable the screen curtain when OCR is active.
-#: globalCommands.py:4824 visionEnhancementProviders\screenCurtain.py:281
+#: globalCommands.py:4847 visionEnhancementProviders\screenCurtain.py:281
 msgid "Could not enable screen curtain when performing content recognition"
 msgstr "识别期间无法开启黑屏"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4832
+#: globalCommands.py:4855
 msgid "Cycles through paragraph navigation styles"
 msgstr "在段落导航模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4846
+#: globalCommands.py:4869
 msgid "Cycles through sound split modes"
 msgstr "在声音拆分模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4857
+#: globalCommands.py:4880
 msgid "Increases the volume of other applications"
 msgstr "增加其他应用音量"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4867
+#: globalCommands.py:4890
 msgid "Decreases the volume of other applications"
 msgstr "降低其他应用音量"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4877
+#: globalCommands.py:4900
 msgid "Toggles application volume control on and off"
 msgstr "打开或关闭其他应用音量控制"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4887
+#: globalCommands.py:4910
 msgid "Mutes or unmutes other applications"
 msgstr "静音或取消静音其他应用"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:4927
+#: globalCommands.py:4950
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:4932
+#: globalCommands.py:4955
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:4937
+#: globalCommands.py:4960
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -6199,7 +6214,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:4953
+#: globalCommands.py:4976
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -9721,7 +9736,7 @@ msgid_plural "Off bottom slide edge by {distance:.3g} points"
 msgstr[0] "幻灯片底边的超出距离为{distance:.3g}磅"
 
 #. Translators: The description for a script
-#: appModules\powerpnt.py:1457
+#: appModules\powerpnt.py:1462
 msgid ""
 "Toggles between reporting the speaker notes or the actual slide content. "
 "This does not change what is visible on-screen, but only what the user can "
@@ -9731,34 +9746,34 @@ msgstr ""
 "NVDA 的阅读"
 
 #. Translators: The title of the current slide (with notes) in a running Slide Show in Microsoft PowerPoint.
-#: appModules\powerpnt.py:1494
+#: appModules\powerpnt.py:1499
 #, python-brace-format
 msgid "Slide show notes - {slideName}"
 msgstr "幻灯片显示注视 - {slideName}"
 
 #. Translators: The title of the current slide in a running Slide Show in Microsoft PowerPoint.
-#: appModules\powerpnt.py:1497
+#: appModules\powerpnt.py:1502
 #, python-brace-format
 msgid "Slide show - {slideName}"
 msgstr "{slideName} - 幻灯片"
 
 #. Translators: The title for a Slide show in Microsoft PowerPoint that has completed.
-#: appModules\powerpnt.py:1500
+#: appModules\powerpnt.py:1505
 msgid "Slide Show - complete"
 msgstr "幻灯片展示完毕"
 
 #. Translators: The message for no notes  for a slide in a slide show
-#: appModules\powerpnt.py:1577
+#: appModules\powerpnt.py:1582
 msgid "No notes"
 msgstr "没有注释"
 
 #. Translators: The message for an empty slide in a slide show
-#: appModules\powerpnt.py:1580 appModules\powerpnt.py:1581
+#: appModules\powerpnt.py:1585 appModules\powerpnt.py:1586
 msgid "Empty slide"
 msgstr "空白幻灯片"
 
 #. Translators: A title for a dialog shown while Microsoft PowerPoint initializes
-#: appModules\powerpnt.py:1620
+#: appModules\powerpnt.py:1625
 msgid "Waiting for Powerpoint..."
 msgstr "正在等待PowerPoint..."
 
