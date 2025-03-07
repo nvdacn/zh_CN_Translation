@@ -5625,21 +5625,21 @@ msgstr "盲文选择指示光标 %s"
 #. Translators: Input help mode message for Braille Unicode normalization command.
 #: globalCommands.py:3687
 msgid "Cycle through the braille Unicode normalization states"
-msgstr "在盲文 Unicode 正规化状态之间循环切换"
+msgstr "在盲文 Unicode 规范化状态之间循环切换"
 
 #. Translators: Used when reporting braille Unicode normalization state
 #. (default behavior).
 #: globalCommands.py:3702
 #, python-brace-format
 msgid "Braille Unicode normalization default ({default})"
-msgstr "盲文 Unicode 正规化 默认（{default}）"
+msgstr "盲文 Unicode 规范化 默认（{default}）"
 
 #. Translators: Used when reporting braille Unicode normalization state
 #. (disabled or enabled).
 #: globalCommands.py:3708
 #, python-brace-format
 msgid "Braille Unicode normalization {state}"
-msgstr "盲文 Unicode 正规化 {state}"
+msgstr "盲文 Unicode 规范化 {state}"
 
 #. Translators: Input help mode message for report clipboard text command.
 #: globalCommands.py:3716
@@ -6035,21 +6035,21 @@ msgstr "读出 CLDR 字符"
 #. Translators: Input help mode message for speech Unicode normalization command.
 #: globalCommands.py:4505
 msgid "Cycle through the speech Unicode normalization states"
-msgstr "在语音 Unicode 正规化状态之间循环切换"
+msgstr "在语音 Unicode 规范化状态之间循环切换"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (default behavior).
 #: globalCommands.py:4520
 #, python-brace-format
 msgid "Speech Unicode normalization default ({default})"
-msgstr "语音 Unicode 正规化 默认（{default}）"
+msgstr "语音 Unicode 规范化 默认（{default}）"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (disabled or enabled).
 #: globalCommands.py:4526
 #, python-brace-format
 msgid "Speech Unicode normalization {state}"
-msgstr "语音 Unicode 正规化 {state}"
+msgstr "语音 Unicode 规范化 {state}"
 
 #. Translators: Describes a command.
 #: globalCommands.py:4538
@@ -12847,13 +12847,13 @@ msgstr "处理字符和标点时信任语音的语言(&T)"
 #. Translators: This is a label for a combo-box in the Braille settings panel.
 #: gui\settingsDialogs.py:1646 gui\settingsDialogs.py:4472
 msgid "Unicode normali&zation"
-msgstr "Unicode 正规化(&Z)"
+msgstr "Unicode 规范化(&Z)"
 
 #. Translators: This is the label for a checkbox in the
 #. speech settings panel.
 #: gui\settingsDialogs.py:1657
 msgid "Report '&Normalized' when navigating by character"
-msgstr "按字符导航时提示正规化(&N)"
+msgstr "按字符导航时提示规范化(&N)"
 
 #. Translators: This is a label for a setting in voice settings (an edit box to change
 #. voice pitch for capital letters; the higher the value, the pitch will be higher).
@@ -17398,7 +17398,7 @@ msgstr "大写 %s"
 #: speech\speech.py:387
 #, python-format
 msgid "%s normalized"
-msgstr "%s 正规化"
+msgstr "%s 规范化"
 
 #. Translators: This is spoken when the given line has no indentation.
 #: speech\speech.py:1020
