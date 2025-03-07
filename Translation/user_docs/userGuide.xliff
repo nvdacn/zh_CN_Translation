@@ -17772,7 +17772,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Unicode normalization</source>
-        <target>Unicode 正规化</target>
+        <target>Unicode 规范化</target>
       </segment>
     </unit>
     <unit id="a1575c10-0619-421d-a071-b6a5aadcaef6">
@@ -17803,7 +17803,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When this option is enabled, unicode normalization is performed on the text that is spoken by NVDA.</source>
-        <target>启用此选项后，NVDA 会对朗读的文本进行 Unicode 正规化。</target>
+        <target>启用此选项后，NVDA 会对朗读的文本进行 Unicode 规范化。</target>
       </segment>
     </unit>
     <unit id="2962bd52-74fb-48ea-8fa8-5d8a7defe531">
@@ -17831,7 +17831,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The bold and italic versions of characters that are part of the unicode standard and are commonly used on social media are normalized to their most common compatible equivalent.</source>
-        <target>对属于 Unicode 标准的字符的粗体和斜体版本进行正规化，这些字符通常在社交媒体上使用，会被正规化为它们最常见的兼容等效形式。</target>
+        <target>对属于 Unicode 标准的字符的粗体和斜体版本进行规范化，这些字符通常在社交媒体上使用，会被规范化为它们最常见的兼容等效形式。</target>
       </segment>
     </unit>
     <unit id="7127d824-e3cc-412b-8383-2aaa780b6bf0">
@@ -17840,7 +17840,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, the latin letter "h" can also be presented as "𝐡" (bold), "ℎ" (itallic), etc. but will always be spoken as "h" when normalization is enabled.</source>
-        <target>例如，拉丁字母“h”也可以表示为“𝐡”（粗体）、“ℎ”（斜体）等，但启用正规化后，这些字符总是会被发音为“h”。</target>
+        <target>例如，拉丁字母“h”也可以表示为“𝐡”（粗体）、“ℎ”（斜体）等，但启用规范化后，这些字符总是会被发音为“h”。</target>
       </segment>
     </unit>
     <unit id="95809e9d-dba1-46cf-ab64-5f16b2499444">
@@ -17849,7 +17849,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This aspect of normalization also aids in reading equations in the Microsoft Word equation editor.</source>
-        <target>使用 Unicode 正规化还有助于在 Microsoft Word 公式编辑器中读取公式。</target>
+        <target>使用 Unicode 规范化还有助于在 Microsoft Word 公式编辑器中读取公式。</target>
       </segment>
     </unit>
     <unit id="8296db94-a1a6-44d0-8cde-5db5cfdd7533">
@@ -17859,7 +17859,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Normalization to composed characters.</source>
-        <target>正规化为组合字符。</target>
+        <target>规范化为组合字符。</target>
       </segment>
     </unit>
     <unit id="3962334c-5c49-4aab-b3d7-52e81c04ce9a">
@@ -17897,7 +17897,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>  Unicode normalization ensures that only one form will be used throughout all speech output, which is the one character variant.</source>
-        <target>  Unicode 正规化确保在所有语音输出中只使用一种形式，即单个字符的变体。</target>
+        <target>  Unicode 规范化确保在所有语音输出中只使用一种形式，即单个字符的变体。</target>
       </segment>
     </unit>
     <unit id="1eb1edea-d27b-4c3a-9625-89e115395d2f">
@@ -17926,7 +17926,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To toggle Unicode normalization from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>如需随时切换 Unicode 正规化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义快捷键。</target>
+        <target>如需切换 Unicode 规范化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义手势。</target>
       </segment>
     </unit>
     <unit id="50f3a4ca-fb8b-4154-b9ed-44d4aecc86b6">
@@ -17937,7 +17937,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report "Normalized" when navigating by character</source>
-        <target>字符导航时读出“正规化”</target>
+        <target>字符导航时读出“规范化”</target>
       </segment>
     </unit>
     <unit id="2141f615-54cd-44c8-a3c1-52526c6e0f7a">
@@ -17946,7 +17946,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This setting is a checkbox that, when checked, tells NVDA to explicitly report that a character is normalized when spoken as an individual character such as when spelling.</source>
-        <target>此设置是一个复选框，勾选后，NVDA 在单独读出字符（如拼写时）会明确提示字符已正规化。</target>
+        <target>此设置是一个复选框，勾选后，NVDA 在单独朗读字符（如拼写时）会明确提示字符已规范化。</target>
       </segment>
     </unit>
     <unit id="862c00e3-802a-46c0-96d5-b839d2f3eb15">
@@ -17955,7 +17955,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, when this option is enabled, spelling the character "ĳ" will pronounce it as "i j normalized".</source>
-        <target>例如，当启用此选项时，拼写字符“ĳ”将会朗读为“i j 正规化”。</target>
+        <target>例如，当启用此选项时，拼写字符“ĳ”将会朗读为“i j 规范化”。</target>
       </segment>
     </unit>
     <unit id="a89f9aad-8836-4199-b0af-86b4045e26c7">
@@ -17964,7 +17964,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Note that this setting is only available when "[Unicode normalization](#SpeechUnicodeNormalization)" is enabled.</source>
-        <target>注意，此设置仅在启用了“[Unicode 正规化](#SpeechUnicodeNormalization)”时生效。</target>
+        <target>注意，此设置仅在启用了“[Unicode 规范化](#SpeechUnicodeNormalization)”时生效。</target>
       </segment>
     </unit>
     <unit id="c9acee66-9fc5-46c0-9d6a-de1274c87a3c">
@@ -19964,7 +19964,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Unicode normalization</source>
-        <target>Unicode 正规化</target>
+        <target>Unicode 规范化</target>
       </segment>
     </unit>
     <unit id="bcc743a5-d89f-45e0-975d-3a3f36c07f9f">
@@ -19973,7 +19973,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When this option is enabled, unicode normalization is performed on the text that is brailled on the braille display.</source>
-        <target>启用此选项时，NVDA 会对显示在盲文点显器上的文本进行 Unicode 正规化。</target>
+        <target>启用此选项时，NVDA 会对显示在盲文点显器上的文本进行 Unicode 规范化。</target>
       </segment>
     </unit>
     <unit id="fecc2432-0afc-4082-9caf-5b8f71d18ee6">
@@ -19991,7 +19991,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Other benefits of unicode normalization are explained in greater detail in the [section for the equivalent speech setting](#SpeechUnicodeNormalization).</source>
-        <target>关于 Unicode 正规化的其他优势，在[语音设置部分](#SpeechUnicodeNormalization)中有更详细的解释。</target>
+        <target>关于 Unicode 规范化的其他优势，在[语音设置部分](#SpeechUnicodeNormalization)中有更详细的解释。</target>
       </segment>
     </unit>
     <unit id="0b3c9afc-6298-4021-ab66-91bf538904c5">
@@ -20000,7 +20000,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To toggle Unicode normalization from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>如需随时切换 Unicode 正规化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义快捷键。</target>
+        <target>如需切换 Unicode 规范化，请在[按键与手势对话框](#InputGestures)为该功能分配自定义手势。</target>
       </segment>
     </unit>
     <unit id="4f8145ca-202d-436b-8f0e-2a071f9be84e">
