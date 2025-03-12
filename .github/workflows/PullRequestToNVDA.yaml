@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - "Uploads"
-    paths:
-      - 'Translation/miscDeps/*'
+      - "miscDepsTest"
+#    paths:
+#      - 'Translation/miscDeps/*'
   workflow_dispatch:
 
 jobs:
@@ -18,28 +19,43 @@ jobs:
       - name: Checkout NVDA repository
         uses: actions/checkout@v4
         with:
-          repository: wmhn1872265132/NVDA.git
-#          repository: nvaccess/nvda.git
+          repository: nvaccess/nvda.git
           token: ${{ secrets.PULLREQUESTTONVDA }}
           fetch-depth: 0
           ref: beta
           path: ${{ github.workspace }}/Tools/NVDA
-      - name: Configure environment
+      - name: Processing Files
         shell: cmd
         env:
-          miscDepsPath: ${{ github.workspace }}/Translation/miscDeps
-          ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
+          miscDepsPath: ${{ github.workspace }}\Translation\miscDeps
+          ZHCNPath: ${{ github.workspace }}\Tools\NVDA\source\locale\zh_CN
         run: |
           CD /D %ZHCNPath%
+          git remote add NVDACN https://github.com/wmhn1872265132/NVDA.git
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git switch -c PullRequestToNVDA origin/beta
-          IF EXIST "%ZHCNPath%\characterDescriptions.dic" (del /f /q "%ZHCNPath%\characterDescriptions.dic")
-          IF EXIST "%ZHCNPath%\gestures.ini" (del /f /q "%ZHCNPath%\gestures.ini")
-          IF EXIST "%ZHCNPath%\symbols.dic" (del /f /q "%ZHCNPath%\symbols.dic")
-          MKLINK /H "%ZHCNPath%\characterDescriptions.dic" "%miscDepsPath%\characterDescriptions.dic"
-          MKLINK /H "%ZHCNPath%\gestures.ini" "%miscDepsPath%\gestures.ini"
-          MKLINK /H "%ZHCNPath%\symbols.dic" "%miscDepsPath%\symbols.dic"
-          git add "%ZHCNPath%"
+          for %%F in (
+            characterDescriptions.dic
+            gestures.ini
+            symbols.dic
+          ) do (
+            if exist "%ZHCNPath%\%%F" (del /f /q "%ZHCNPath%\%%F")
+            XCopy /I /q /v /h /r /y "%miscDepsPath%\%%F" "%ZHCNPath%"
+            git add "%ZHCNPath%\%%F"
+          )
           git commit -m "更新符号翻译"
-          git push --force origin PullRequestToNVDA:PullRequestToNVDA
+          git push --force NVDACN PullRequestToNVDA:PullRequestToNVDA
+      - name: Create PR via API
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PULLREQUESTTONVDA }}
+          script: |
+            await github.rest.pulls.create({
+              owner: "wmhn1872265132",
+              repo: "NVDA",
+              title: "Automated PR from GitHub Actions",
+              head: "wmhn1872265132:PullRequestToNVDA",
+              base: "beta",
+              body: "Test"
+            });
