@@ -5,8 +5,8 @@ on:
     branches:
       - "Uploads"
       - "miscDepsTest"
-#    paths:
-#      - 'Translation/miscDeps/*'
+    paths:
+      - 'Translation/miscDeps/*'
   workflow_dispatch:
 
 jobs:
@@ -52,12 +52,34 @@ jobs:
     needs: Pull-Request-To-NVDA
     steps:
       - uses: actions/checkout@v4
+      - name: Check for existing PR
+        id: check_pr
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PULLREQUESTTONVDA }}
+          script: |
+            const result = await github.rest.pulls.list({
+              owner: "wmhn1872265132",
+              repo: "nvda",
+              state: "open",
+              head: "nvdacn:PullRequestToNVDA",
+              base: "beta"
+            });
+            if (result.data.length > 0) {
+              core.setOutput("pr_exists", "true");
+              console.log("Existing PR found:", result.data[0].html_url);
+            } else {
+              core.setOutput("pr_exists", "false");
+              console.log("No existing PR found");
+            }
       - name: Render template
+        if: steps.check_pr.outputs.pr_exists != 'true'
         id: template
         uses: chuhlomin/render-template@v1
         with:
           template: ${{ github.workspace }}/.github/pull-request-template.md
       - name: Create PR via API
+        if: steps.check_pr.outputs.pr_exists != 'true'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.PULLREQUESTTONVDA }}
