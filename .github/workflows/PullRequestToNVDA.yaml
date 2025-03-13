@@ -13,6 +13,9 @@ jobs:
 
   Pull-Request-To-NVDA:
     runs-on: ubuntu-latest
+    env:
+#      RepositoryOwner: nvaccess
+      RepositoryOwner: wmhn1872265132
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v4
@@ -55,7 +58,7 @@ jobs:
           github-token: ${{ secrets.PULLREQUESTTONVDA }}
           script: |
             const result = await github.rest.pulls.list({
-              owner: "wmhn1872265132",
+              owner: "${{ env.RepositoryOwner }}",
               repo: "nvda",
               state: "open",
               head: "nvdacn:PullRequestToNVDA",
@@ -81,7 +84,7 @@ jobs:
           github-token: ${{ secrets.PULLREQUESTTONVDA }}
           script: |
             await github.rest.pulls.create({
-              owner: "wmhn1872265132",
+              owner: "${{ env.RepositoryOwner }}",
               repo: "nvda",
               title: "Automated PR from GitHub Actions",
               head: "nvdacn:PullRequestToNVDA",
