@@ -15,10 +15,9 @@
 
 **请注意：此页面的文件具有时效性，文件过期后将无法下载。**
 
-### 自动将翻译上传到 Crowdin
+### 自动上传翻译
 
-当 `Uploads` 分支的翻译被修改时，GitHUB 会自动将其上传到 Crowdin，以供 NVDA 使用。
-推荐使用该功能上传 NVDA beta 开发周期的翻译，避免此分支出现大量无用提交。
+当 `Uploads` 分支的翻译被修改时，GitHUB 会自动将其上传到 Crowdin 或在 nvaccess/nvda 存储库的 beta分支创建Pull request，具体根据更改的翻译文件而定。
 下面简述该功能的使用步骤和注意事项：
 1. 将需要上传的翻译提交或合并到 `Uploads` 分支，并将其推送到远程存储库。
    - 如包含大量提交或无法进行 Fast Forward merge，推荐使用Squash and merge 进行合并，已避免产生过多无用提交。
@@ -29,6 +28,8 @@
   - 应以 `YYYY.X翻译` 命名 Pull request。
    - 应使用Squash and merge 进行合并。
    - PR 完成后还需将 `main` 合并回 `Uploads`。
+5. 仅可使用该功能上传 NVDA beta 开发周期的翻译。
+6. 请勿频繁推送 `Translation/miscDeps` 文件夹中的翻译到 `Uploads` 分支，如需多次修改，应在其他分支修改完成后，在将其合并回此分支。
 
 ### L10nUtilTools.bat 的使用说明
 
