@@ -5,8 +5,8 @@ on:
     branches:
       - "Uploads"
       - "miscDepsTest"
-    paths:
-      - 'Translation/miscDeps/*'
+#    paths:
+#      - 'Translation/miscDeps/*'
   workflow_dispatch:
 
 jobs:
