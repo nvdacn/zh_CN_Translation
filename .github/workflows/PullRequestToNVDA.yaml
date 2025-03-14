@@ -51,7 +51,7 @@ jobs:
             cp -f "$miscDepsPath/$f" "$ZHCNPath/"
             git add "$ZHCNPath/$f"
           done
-          git commit -m "更新符号翻译"
+          git commit -m "Update translations"
           git push --force NVDACN PullRequestToNVDA:PullRequestToNVDA
       - name: Check for existing PR
         id: check_pr
@@ -91,7 +91,7 @@ jobs:
             await github.rest.pulls.create({
               owner: "${{ env.BaseOwner }}",
               repo: "nvda",
-              title: "Automated PR from GitHub Actions",
+              title: "Update symbols, gestures, character descriptions translation",
               head: "${{ env.HeadOwner }}:PullRequestToNVDA",
               base: "beta",
               body: `${{ steps.template.outputs.result }}`

@@ -8,19 +8,19 @@ See https://github.com/nvaccess/nvda/blob/master/.github/CONTRIBUTING.md.
 -->
 
 ### Link to issue number:
-
+none
 ### Summary of the issue:
-
+none
 ### Description of user facing changes
-
+Update symbols, gestures, character descriptions translation
 ### Description of development approach
-
+Update symbols, gestures, character descriptions translation
 ### Testing strategy:
-
+Manual test after build
 ### Known issues with pull request:
-
-### 备注
-此PR由 GitHub Actions 通过 https://github.com/{{ .Owner }}/zh_CN_Translation/commit/{{ .Commit }} 自动创建。
+none
+### Remark
+This PR is automatically created by GitHub Actions via https://github.com/{{ .Owner }}/zh_CN_Translation/commit/{{ .Commit }}
 
 <!-- Please keep the following -->
 @coderabbitai summary
