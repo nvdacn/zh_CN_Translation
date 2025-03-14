@@ -19,36 +19,5 @@ See https://github.com/nvaccess/nvda/blob/master/.github/CONTRIBUTING.md.
 
 ### Known issues with pull request:
 
-### Code Review Checklist:
-
-<!--
-This checklist is a reminder of things commonly forgotten in a new PR.
-Authors, please do a self-review of this pull-request.
-Check items to confirm you have thought about the relevance of the item.
-Where items are missing (eg unit / system tests), please explain in the PR.
-To check an item `- [x]` becomes `- [x]`, note spacing.
-You can also check the checkboxes after the PR is created.
-A detailed explanation of this checklist is available here:
-https://github.com/nvaccess/nvda/blob/master/projectDocs/dev/githubPullRequestTemplateExplanationAndExamples.md#code-review-checklist
--->
-
-- [x] Documentation:
-  - Change log entry
-  - User Documentation
-  - Developer / Technical Documentation
-  - Context sensitive help for GUI changes
-- [x] Testing:
-  - Unit tests
-  - System (end to end) tests
-  - Manual testing
-- [x] UX of all users considered:
-  - Speech
-  - Braille
-  - Low Vision
-  - Different web browsers
-  - Localization in other languages / culture than English
-- [x] API is compatible with existing add-ons.
-- [x] Security precautions taken.
-
 <!-- Please keep the following -->
 @coderabbitai summary
