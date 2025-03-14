@@ -19,5 +19,8 @@ See https://github.com/nvaccess/nvda/blob/master/.github/CONTRIBUTING.md.
 
 ### Known issues with pull request:
 
+### 备注
+此PR由 GitHub Actions 通过 https://github.com/{{ .Owner }}/zh_CN_Translation/commit/{{ .Commit }} 自动创建。
+
 <!-- Please keep the following -->
 @coderabbitai summary
