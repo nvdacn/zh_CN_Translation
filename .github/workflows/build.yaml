@@ -6,7 +6,6 @@ on:
       - "main"
       - "Uploads"
       - "20*"
-      - "CacheDependencies"
     paths:
       - 'Translation/**'
   pull_request:
