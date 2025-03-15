@@ -12,7 +12,7 @@ on:
     branches:
       - "*"
     paths:
-      - 'Translation/*'
+      - 'Translation/**'
   workflow_dispatch:
 
 jobs:
