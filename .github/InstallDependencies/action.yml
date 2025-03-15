@@ -22,7 +22,7 @@ runs:
       with:
         path: |
           ${{ github.workspace }}/Tools/NVDA/.venv
-        key: ${{ runner.os }}-${{ hashFiles('${{ github.workspace }}/Tools/NVDA/requirements.txt') }}
+        key: ${{ runner.os }}-${{ hashFiles('Tools/NVDA/requirements.txt') }}
     - name: Create Python virtual environment
       shell: cmd
       run: |
