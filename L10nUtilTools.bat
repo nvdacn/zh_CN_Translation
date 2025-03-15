@@ -12,6 +12,7 @@ for %%F in (
 ) do (
   if exist %%F (
     if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
+      call "%~dp0Tools\NVDA\.venv\Scripts\activate.bat"
       set "L10nUtil=python %%F"
     ) else (
       set "L10nUtil=%%F"
