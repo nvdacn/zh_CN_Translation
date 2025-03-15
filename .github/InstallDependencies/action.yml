@@ -20,6 +20,14 @@ runs:
       with:
         python-version: '3.11'
         architecture: x86
+    - name: Cache dependencies
+      id: cacheDependencies
+      if: ${{ inputs.use-cache }}
+      uses: actions/cache@v4
+      with:
+        path: |
+          ${{ github.workspace }}/Tools/NVDA/.venv
+        key: ${{ runner.os }}-${{ hashFiles('${{ github.workspace }}/Tools/NVDA/requirements.txt') }}
     - name: Create Python virtual environment
       shell: cmd
       run: |
