@@ -30,10 +30,16 @@ jobs:
         uses: ./.github/InstallDependencies
         with:
           submodules: true
-      - name: Extract version and set Branch output
-        id: NVDA_Version
+      - name: Configure environment
+        id: Set_Environment_Variables
         shell: pwsh
         run: |
+          cd "${{ github.workspace }}/Tools/NVDA"
+          $commit = (git rev-parse --short HEAD).Trim()
+          echo "commit=$commit" >> $env:GITHUB_OUTPUT
+          cd "${{ github.workspace }}"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           $versionFile = "${{ github.workspace }}/Tools/NVDA/source/buildVersion.py"
           $versionYear = (Select-String -Path $versionFile -Pattern 'version_year\s*=\s*(\d+)').Matches.Groups[1].Value
           $versionMajor = (Select-String -Path $versionFile -Pattern 'version_major\s*=\s*(\d+)').Matches.Groups[1].Value
@@ -48,19 +54,24 @@ jobs:
             git checkout -b $branchName remotes/origin/CheckPot
             # git checkout -b $branchName remotes/origin/Uploads
           }
+          &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\Crowdin\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
       - name: CheckPot
         shell: cmd
         run: |
-          echo Branch is ${{ steps.NVDA_Version.outputs.Branch }}
           cd /d ${{ github.workspace }}\Tools\NVDA
           scons checkPot --all-cores
       - name: Update NVDA.po
-        shell: cmd
+        shell: pwsh
         run: |
-          "${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\Crowdin\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
-          ${{ github.workspace }}\Tools\msgmerge --update  --backup=none --previous "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po" "${{ github.workspace }}\Tools\NVDA\output\nvda.pot"
+          &"${{ github.workspace }}\Tools\msgmerge.exe" --update  --backup=none --previous "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po" "${{ github.workspace }}\Tools\NVDA\output\nvda.pot"
           git add "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po"
-          git commit -m "更新翻译字符串（）"
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+              git commit -m "更新界面可翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
+              git push origin  ${{ steps.Set_Environment_Variables.outputs.Branch }}
+          } else {
+              Write-Host "No changes to commit, skipping commit and push."
+          }
       - name: Upload Output
         uses: actions/upload-artifact@v4
         with:

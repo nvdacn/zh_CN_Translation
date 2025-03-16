@@ -33,6 +33,4 @@ runs:
     - name: Create Python virtual environment
       shell: cmd
       run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
         ${{ github.workspace }}\Tools\NVDA\venvUtils\ensureAndActivate.bat
