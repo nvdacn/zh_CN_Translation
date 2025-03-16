@@ -1,6 +1,12 @@
 name: Install dependencies
 
 description: 'Install dependencies'
+inputs:
+  submodules:
+    description: >
+      Whether to checkout submodules: `true` to checkout submodules or `recursive` to
+      recursively checkout submodules.
+    default: false
 runs:
   using: "composite"
 
@@ -10,7 +16,7 @@ runs:
       with:
         repository: nvaccess/nvda.git
         ref: master
-        submodules: true
+        submodules: ${{ inputs.submodules }}
         path: ${{ github.workspace }}/Tools/NVDA
     - name: Set up Python
       uses: actions/setup-python@v5
