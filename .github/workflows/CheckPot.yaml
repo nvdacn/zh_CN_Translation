@@ -1,29 +1,68 @@
-name: Build Translation Test
+name: Automatically update NVDA.po
 
 on:
   push:
     branches:
       - "CheckPot"
-      - "20*"
   workflow_dispatch:
 
 jobs:
-  build:
+  Automatically-Update-NVDA-po:
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Cache gettext
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/Crowdin/Temp/gettext.zip
+          key: gettext-${{ hashFiles('Crowdin/Temp/gettext.zip') }}
+      - name: Download gettext
+        uses: carlosperate/download-file-action@v2
+        with:
+          file-url: https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.24-v1.17/gettext0.24-iconv1.17-static-32.zip
+          file-name: gettext.zip
+          location: ${{ github.workspace }}/Crowdin/Temp
+          sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
       - name: Install dependencies
         uses: ./.github/InstallDependencies
         with:
           submodules: true
+      - name: Extract version and set Branch output
+        id: NVDA_Version
+        shell: pwsh
+        run: |
+          $versionFile = "${{ github.workspace }}/Tools/NVDA/source/buildVersion.py"
+          $versionYear = (Select-String -Path $versionFile -Pattern 'version_year\s*=\s*(\d+)').Matches.Groups[1].Value
+          $versionMajor = (Select-String -Path $versionFile -Pattern 'version_major\s*=\s*(\d+)').Matches.Groups[1].Value
+          $branchName = "$versionYear.$versionMajor"
+          echo "Branch=$branchName" >> $env:GITHUB_OUTPUT
+          git ls-remote --exit-code --heads origin "$branchName"
+          if ($LASTEXITCODE -eq 0) {
+            Write-Output "Branch $branchName exists. Checking out..."
+            git checkout -b $branchName remotes/origin/$branchName
+          } else {
+            Write-Output "Branch $branchName does not exist. Creating from Uploads..."
+            git checkout -b $branchName remotes/origin/CheckPot
+            # git checkout -b $branchName remotes/origin/Uploads
+          }
       - name: CheckPot
         shell: cmd
         run: |
+          echo Branch is ${{ steps.NVDA_Version.outputs.Branch }}
           cd /d ${{ github.workspace }}\Tools\NVDA
           scons checkPot --all-cores
+      - name: Update NVDA.po
+        shell: cmd
+        run: |
+          "${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\Crowdin\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
+          ${{ github.workspace }}\Tools\msgmerge --update  --backup=none --previous "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po" "${{ github.workspace }}\Tools\NVDA\output\nvda.pot"
+          git add "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po"
+          git commit -m "更新翻译字符串（）"
       - name: Upload Output
         uses: actions/upload-artifact@v4
         with:
-          name: NVDAPot
+          name: NVDA.pot
           path: ${{ github.workspace }}/Tools/NVDA/output/*
