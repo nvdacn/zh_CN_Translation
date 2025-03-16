@@ -10,6 +10,7 @@ runs:
       with:
         repository: nvaccess/nvda.git
         ref: master
+        submodules: true
         path: ${{ github.workspace }}/Tools/NVDA
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -26,7 +27,4 @@ runs:
     - name: Create Python virtual environment
       shell: cmd
       run: |
-        python -m venv ${{ github.workspace }}\Tools\NVDA\.venv
-        call ${{ github.workspace }}\Tools\NVDA\.venv\Scripts\activate.bat
-        python -m pip install --upgrade pip
-        pip install -r ${{ github.workspace }}\Tools\NVDA\requirements.txt
+        ${{ github.workspace }}\Tools\NVDA\venvUtils\ensureAndActivate.bat

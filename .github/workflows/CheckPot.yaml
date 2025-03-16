@@ -1,0 +1,27 @@
+name: Build Translation Test
+
+on:
+  push:
+    branches:
+      - "CheckPot"
+      - "20*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout ${{ github.repository }} repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        uses: ./.github/InstallDependencies
+      - name: CheckPot
+        shell: cmd
+        run: |
+          cd /d ${{ github.workspace }}\Tools\NVDA
+          scons checkPot --all-cores
+      - name: Upload Output
+        uses: actions/upload-artifact@v4
+        with:
+          name: NVDAPot
+          path: ${{ github.workspace }}/Tools/NVDA/output/*
