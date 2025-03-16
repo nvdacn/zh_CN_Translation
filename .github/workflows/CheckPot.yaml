@@ -18,7 +18,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/Crowdin/Temp/gettext.zip
-          key: gettext-${{ hashFiles('Crowdin/Temp/gettext.zip') }}
+          key: gettext.zip
       - name: Download gettext
         uses: carlosperate/download-file-action@v2
         with:
