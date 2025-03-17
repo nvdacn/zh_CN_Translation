@@ -5,6 +5,8 @@ on:
     branches:
       - "20*"
       - "CheckPot"
+    paths:
+      - 'Translation/LC_MESSAGES/*.po'
   schedule:
     - cron: '0 2 * * 1-5'
     - cron: '30 11 * * *'
