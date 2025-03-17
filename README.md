@@ -15,6 +15,27 @@
 
 **请注意：此页面的文件具有时效性，文件过期后将无法下载。**
 
+### alpha 开发周期的翻译
+
+可在 `version_year.version_major` 分支提前翻译 alpha 开发周期的界面消息、手势、字符以及符号描述，修改或完善现有翻译，以供 alpha 测试。
+由于文档的翻译字符串必须由NV Access构建，在 alpha 开发周期将无法翻译。
+alpha 开发周期界面消息的翻译字符串将由 GitHub Actions 在满足下列条件时从 NVDA 源代码自动更新：
+- 推送到 `version_year.version_major` 分支的提交且修改了 `nvda.po` 文件
+- 每天 11:30(UTC)
+- 每周一至周五 02:00(UTC)
+
+更新后的nvda.po文件会被提交回 `version_year.version_major` 分支。
+
+#### 注意
+- `version_year.version_major` 分支名称会随NVDA源代码 `version_year` 和 `version_major` 的值而变化。例：当 `version_year = 2025`、`version_major = 1` 时，该分支名为 `2025.1`。
+- 为避免合并到 `Uploads` 分支时累积大量过时提交，NVDA alpha 到达下一开发周期时，该分支将从 `Uploads` 分支重新创建。
+该操作将由 GitHub Actions 在更新 alpha 周期界面消息的翻译字符串时自动完成。
+
+### beta 开发周期的翻译
+
+可在  `Uploads` 分支翻译 beta 开发周期的所有翻译。
+具体注意事项，请参看《自动上传翻译》章节。
+
 ### 自动将翻译上传到 Crowdin
 
 当 `Uploads` 分支的翻译被修改时，GitHUB 会自动将其上传到 Crowdin，以供 NVDA 使用。
@@ -77,4 +98,3 @@
   - 创建后，请将密钥保存到 `"%Userprofile%\.nvda_crowdin"` 文件中。
 - 从 Crowdin 下载的已翻译文件会直接替换存储库的原始文件，在执行下载命令前，请确保原始翻译文件已提交并上传到 Crowdin。
 - 下载并提交系列命令只会提交已下载的翻译文件到本地存储库，可手动将其推送到远程仓库或撤销更改。
-
