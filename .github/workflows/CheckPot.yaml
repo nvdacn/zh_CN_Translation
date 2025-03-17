@@ -91,14 +91,18 @@ jobs:
           $versionMajor = (Select-String -Path $versionFile -Pattern 'version_major\s*=\s*(\d+)').Matches.Groups[1].Value
           $branchName = "$versionYear.$versionMajor"
           echo "Branch=$branchName" >> $env:GITHUB_OUTPUT
-          git ls-remote --exit-code --heads origin "$branchName"
-          if ($LASTEXITCODE -eq 0) {
-            Write-Output "Branch $branchName exists. Checking out..."
-            git checkout -b $branchName remotes/origin/$branchName
+          if ($branchName -ne "${{ github.ref_name }}") {
+              git ls-remote --exit-code --heads origin "$branchName"
+              if ($LASTEXITCODE -eq 0) {
+                  Write-Output "Branch $branchName exists. Checking out..."
+                  git checkout -b $branchName remotes/origin/$branchName
+              } else {
+                  Write-Output "Branch $branchName does not exist. Creating from Uploads..."
+                  git checkout -b $branchName remotes/origin/CheckPot
+                  # git checkout -b $branchName remotes/origin/Uploads
+              }
           } else {
-            Write-Output "Branch $branchName does not exist. Creating from Uploads..."
-            git checkout -b $branchName remotes/origin/CheckPot
-            # git checkout -b $branchName remotes/origin/Uploads
+              Write-Output "Branch name is ${{ github.ref_name }}. Skipping switch branch."
           }
           &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\Crowdin\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
       - name: CheckPot
