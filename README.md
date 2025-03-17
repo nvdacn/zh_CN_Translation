@@ -46,7 +46,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L
 2. 等待工作流运行完成。
 3. 拉取 `Uploads` 分支到本地仓库，请勿在拉取远程 `Uploads` 分支前向本地 `Uploads` 分支提交新的翻译更改，以避免合并冲突。
 4. 翻译进入 NVDA 的稳定版本后，请通过 GitHUB 打开将 `Uploads` 合并到 `main` 的 Pull request。
-  - 应以 `YYYY.X翻译` 命名 Pull request。
+   - 应以 `YYYY.X翻译` 命名 Pull request。
    - 应使用Squash and merge 进行合并。
    - PR 完成后还需将 `main` 合并回 `Uploads`。
 5. 仅可使用该功能上传 NVDA beta 开发周期的翻译。
