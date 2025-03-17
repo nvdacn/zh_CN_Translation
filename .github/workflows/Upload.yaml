@@ -7,7 +7,6 @@ on:
     paths:
       - 'Translation/LC_MESSAGES/*.po'
       - 'Translation/user_docs/*.xliff'
-  workflow_dispatch:
 
 jobs:
 
