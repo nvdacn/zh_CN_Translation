@@ -119,7 +119,7 @@ jobs:
         shell: pwsh
         run: |
           &"${{ github.workspace }}\Tools\msgmerge.exe" --update  --backup=none --previous "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po" "${{ github.workspace }}\Tools\NVDA\output\nvda.pot"
-          git add "${{ github.workspace }}/Translation/LC_MESSAGES/nvda.po"
+          git add "Translation/LC_MESSAGES/nvda.po"
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新界面消息翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
