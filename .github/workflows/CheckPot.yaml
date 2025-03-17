@@ -100,8 +100,7 @@ jobs:
                   git checkout -b $branchName remotes/origin/$branchName
               } else {
                   Write-Output "Branch $branchName does not exist. Creating from Uploads..."
-                  git checkout -b $branchName remotes/origin/CheckPot
-                  # git checkout -b $branchName remotes/origin/Uploads
+                  git checkout -b $branchName remotes/origin/Uploads
               }
           } else {
               Write-Output "Branch name is ${{ github.ref_name }}. Skipping switch branch."
@@ -116,7 +115,7 @@ jobs:
         shell: pwsh
         run: |
           &"${{ github.workspace }}\Tools\msgmerge.exe" --update  --backup=none --previous "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po" "${{ github.workspace }}\Tools\NVDA\output\nvda.pot"
-          git add "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po"
+          git add "${{ github.workspace }}/Translation/LC_MESSAGES/nvda.po"
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新界面可翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
