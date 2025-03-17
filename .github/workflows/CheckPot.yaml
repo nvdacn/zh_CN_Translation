@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   Check-NVDA-Repository-Update:
+    name: Check NVDA repository update
     runs-on: ubuntu-latest
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
@@ -55,7 +56,8 @@ jobs:
             echo "Cached SHA: $(cat .sha_cache/latest_sha)"
           fi
 
-  Automatically-Update-NVDA-po:
+  Update-NVDA-po:
+    name: Automatically update NVDA.po
     needs: Check-NVDA-Repository-Update
     if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
