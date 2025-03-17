@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Check-NVDA-Update:
+  Check-NVDA-Repository-Update:
     runs-on: ubuntu-latest
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
@@ -51,8 +51,8 @@ jobs:
           fi
 
   Automatically-Update-NVDA-po:
-    needs: Check-NVDA-Update
-    if: ${{ needs.Check-NVDA-Update.outputs.has_update == 'true' }}
+    needs: Check-NVDA-Repository-Update
+    if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
