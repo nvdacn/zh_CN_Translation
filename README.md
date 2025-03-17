@@ -33,8 +33,8 @@ alpha 开发周期界面消息的翻译字符串将由 GitHub Actions 在满足�
 
 ### beta 开发周期的翻译
 
-可在  `Uploads` 分支翻译 beta 开发周期的所有翻译。
-具体注意事项，请参看《自动上传翻译》章节。
+可在  `Uploads` 分支翻译 beta 开发周期的所有翻译。具体注意事项，请参看《自动上传翻译》章节。
+beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L10nUtilTools.bat` 的相关命令从 Crowdin 下载。具体使用方法和注意事项，请参看《L10nUtilTools.bat 的使用说明》章节。
 
 ### 自动将翻译上传到 Crowdin
 
