@@ -23,13 +23,14 @@ runs:
         submodules: ${{ inputs.submodules }}
         path: ${{ github.workspace }}/Tools/NVDA
     - name: Cache gettext
+      id: cache-gettext
       if: ${{ inputs.Download-gettext == 'true' }}
       uses: actions/cache@v4
       with:
         path: ${{ github.workspace }}/Crowdin/Temp/gettext.zip
         key: gettext.zip
     - name: Download gettext
-      if: ${{ inputs.Download-gettext == 'true' }}
+      if: ${{ inputs.Download-gettext == 'true' && steps.cache-gettext.outputs.cache-hit != 'true' }}
       uses: carlosperate/download-file-action@v2
       with:
         file-url: https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.24-v1.17/gettext0.24-iconv1.17-static-32.zip
@@ -49,6 +50,7 @@ runs:
           ${{ github.workspace }}/Tools/NVDA/.venv
         key: ${{ runner.os }}-${{ hashFiles('Tools/NVDA/requirements.txt') }}
     - name: Create Python virtual environment
+      if: ${{ steps.cacheDependencies.outputs.cache-hit != 'true' }}
       shell: cmd
       run: |
         ${{ github.workspace }}\Tools\NVDA\venvUtils\ensureAndActivate.bat
