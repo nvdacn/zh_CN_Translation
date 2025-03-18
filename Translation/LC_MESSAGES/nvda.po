@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-07 11:18+0000\n"
-"PO-Revision-Date: 2025-03-07 20:09+0800\n"
+"POT-Creation-Date: 2025-03-18 01:57+0000\n"
+"PO-Revision-Date: 2025-03-18 10:05+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3417,10 +3417,10 @@ msgstr ""
 #. Translators: Title of error dialog
 #. Translators: A title of a message box displayed when the host or key field is empty and the user tries to connect.
 #. Translators: A title of a message box displayed when the port or key field is empty and the user tries to connect.
-#: core.py:119 documentationUtils.py:77 updateCheck.py:427 updateCheck.py:740
-#: updateCheck.py:910 gui\__init__.py:234 gui\__init__.py:251
-#: gui\addonGui.py:145 gui\addonGui.py:265 gui\addonGui.py:280
-#: gui\configProfiles.py:182 gui\configProfiles.py:217
+#: core.py:119 documentationUtils.py:77 updateCheck.py:430 updateCheck.py:743
+#: updateCheck.py:913 gui\__init__.py:234 gui\__init__.py:242
+#: gui\__init__.py:259 gui\addonGui.py:145 gui\addonGui.py:265
+#: gui\addonGui.py:280 gui\configProfiles.py:182 gui\configProfiles.py:217
 #: gui\configProfiles.py:270 gui\configProfiles.py:282
 #: gui\configProfiles.py:291 gui\configProfiles.py:335
 #: gui\configProfiles.py:513 gui\configProfiles.py:528
@@ -8430,18 +8430,18 @@ msgid "Copied: {text}"
 msgstr "已复制 {text}"
 
 #. Translators: The title of the dialog displayed while manually checking for an NVDA update.
-#: updateCheck.py:395
+#: updateCheck.py:398
 msgid "Checking for Update"
 msgstr "正在检查更新"
 
 #. Translators: The progress message displayed while manually checking for an NVDA update.
-#: updateCheck.py:397
+#: updateCheck.py:400
 msgid "Checking for update"
 msgstr "正在检查更新"
 
 #. Translators: A suggestion of what to do when checking for NVDA updates fails and an update mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: updateCheck.py:406
+#: updateCheck.py:409
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -8451,14 +8451,14 @@ msgid ""
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
 #. Translators: A suggestion of what to do when fetching add-on data from the store fails and the default metadata URL is being used.
-#: updateCheck.py:413
+#: updateCheck.py:416
 msgctxt "updateCheck"
 msgid "Make sure you are connected to the internet and try again."
 msgstr "请检查网络连接后重试。"
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
 #. tip will be replaced with a context sensitive suggestion of next steps.
-#: updateCheck.py:419
+#: updateCheck.py:422
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -8470,18 +8470,18 @@ msgstr ""
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
 #. Translators: The title of the dialog asking the user to apply an NVDA update.
-#: updateCheck.py:490 updateCheck.py:628
+#: updateCheck.py:493 updateCheck.py:631
 msgid "NVDA Update"
 msgstr "NVDA 更新"
 
 #. Translators: A message indicating that no update to NVDA is available.
-#: updateCheck.py:506
+#: updateCheck.py:509
 msgid "No update available."
 msgstr "无可用更新。"
 
 #. Translators: A message indicating that an update to NVDA has been downloaded and is ready to be
 #. applied.
-#: updateCheck.py:511
+#: updateCheck.py:514
 #, python-brace-format
 msgid ""
 "Update to NVDA version {version} has been downloaded and is ready to be "
@@ -8490,88 +8490,88 @@ msgstr "NVDA 版本 {version} 已下载并准备就绪。"
 
 #. Translators: The label of a button to review add-ons prior to NVDA update.
 #. Translators: The label of a button to launch the add-on compatibility review dialog.
-#: updateCheck.py:536 updateCheck.py:656 gui\installerGui.py:278
+#: updateCheck.py:539 updateCheck.py:659 gui\installerGui.py:278
 msgid "&Review add-ons..."
 msgstr "查看插件(&R)..."
 
 #. Translators: The label of a button to apply a pending NVDA update.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:542
+#: updateCheck.py:545
 #, python-brace-format
 msgid "&Update to NVDA {version}"
 msgstr "更新到 NVDA {version}(&U)"
 
 #. Translators: The label of a button to re-download a pending NVDA update.
-#: updateCheck.py:552
+#: updateCheck.py:555
 msgid "Re-&download update"
 msgstr "重新下载更新(&R)"
 
 #. Translators: A message indicating that an updated version of NVDA is available.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:557
+#: updateCheck.py:560
 #, python-brace-format
 msgid "NVDA version {version} is available."
 msgstr "NVDA 新版本 {version} 可用。"
 
 #. Translators: The label of a button to download an NVDA update.
-#: updateCheck.py:561
+#: updateCheck.py:564
 msgid "&Download update"
 msgstr "下载更新(&D)"
 
 #. Translators: The label of a button to remind the user later about performing some action.
-#: updateCheck.py:566 gui\startupDialogs.py:311
+#: updateCheck.py:569 gui\startupDialogs.py:311
 msgid "Remind me &later"
 msgstr "稍后提醒我(&L)"
 
 #. Translators: The label of a button to close a dialog.
 #. Translators: The close button on an NVDA dialog. This button will dismiss the dialog.
-#: updateCheck.py:575 gui\addonGui.py:377
+#: updateCheck.py:578 gui\addonGui.py:377
 msgid "&Close"
 msgstr "关闭(&C)"
 
 #. Translators: A message indicating that an update to NVDA is ready to be applied.
-#: updateCheck.py:632
+#: updateCheck.py:635
 #, python-brace-format
 msgid "Update to NVDA version {version} is ready to be applied.\n"
 msgstr "NVDA 版本 {version} 已准备就绪。\n"
 
 #. Translators: The label of a button to update NVDA.
-#: updateCheck.py:659
+#: updateCheck.py:662
 msgid "&Update now"
 msgstr "立即更新(&U)"
 
 #. Translators: The label of a button to postpone an NVDA update.
-#: updateCheck.py:672
+#: updateCheck.py:675
 msgid "&Postpone update"
 msgstr "推迟更新(&D)"
 
 #. Translators: The message when a downloaded update file could not be preserved.
-#: updateCheck.py:738
+#: updateCheck.py:741
 msgid "Unable to postpone update."
 msgstr "无法推迟更新."
 
 #. Translators: The title of the dialog displayed while downloading an NVDA update.
-#: updateCheck.py:795
+#: updateCheck.py:798
 msgid "Downloading Update"
 msgstr "正在下载更新"
 
 #. Translators: The progress message indicating that a connection is being established.
-#: updateCheck.py:797
+#: updateCheck.py:800
 msgid "Connecting"
 msgstr "正在连接"
 
 #. Translators: The progress message indicating that a download is in progress.
-#: updateCheck.py:890
+#: updateCheck.py:893
 msgid "Downloading"
 msgstr "正在下载"
 
 #. Translators: A message indicating that an error occurred while downloading an update to NVDA.
-#: updateCheck.py:909
+#: updateCheck.py:912
 msgid "Error downloading update."
 msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
-#: updateCheck.py:932
+#: updateCheck.py:935
 msgid ""
 "We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are "
@@ -8589,26 +8589,26 @@ msgstr ""
 "感谢您对我们的支持。"
 
 #. Translators: The title of the dialog requesting donations from users.
-#: updateCheck.py:941
+#: updateCheck.py:944
 msgid "Please Donate"
 msgstr "请捐赠"
 
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:950 gui\__init__.py:673
+#: updateCheck.py:953 gui\__init__.py:681
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
 #. Translators: The label of the button to decline donation
 #. in the "Please Donate" dialog.
-#: updateCheck.py:955
+#: updateCheck.py:958
 msgid "&Not now"
 msgstr "暂不捐赠(&N)"
 
 #. Translators: The label of a button to indicate that the user is finished donating
 #. in the "Please Donate" dialog.
-#: updateCheck.py:971
+#: updateCheck.py:974
 msgid "&Done"
 msgstr "捐赠完毕(&D)"
 
@@ -11960,19 +11960,24 @@ msgstr "配置以保存"
 msgid "Could not save configuration - probably read only file system"
 msgstr "无法保存设置，文件系统可能处于只读状态"
 
+#. Translators: Message shown when current configuration cannot be saved, for an unknown reason.
+#: gui\__init__.py:240
+msgid "Could not save configuration; see the log for more details."
+msgstr "无法保存设置，更多详细信息请参见日志。"
+
 #. Translators: Message shown when trying to open an unavailable category of a multi category settings dialog.
 #. Example: when trying to open touch interaction settings on an unsupported system.
-#: gui\__init__.py:249
+#: gui\__init__.py:257
 msgid "The settings panel you tried to open is unavailable on this system."
 msgstr "您尝试打开的设置面板在此系统上不可用。"
 
 #. Translators: The title of the dialog to show about info for NVDA.
-#: gui\__init__.py:374 gui\__init__.py:821
+#: gui\__init__.py:382 gui\__init__.py:829
 msgid "About NVDA"
 msgstr "关于 NVDA"
 
 #. Translators: Explain the COM Registration Fixing tool to users before running
-#: gui\__init__.py:489
+#: gui\__init__.py:497
 msgid ""
 "Welcome to the COM Registration Fixing tool.\n"
 "\n"
@@ -11999,18 +12004,18 @@ msgstr ""
 "按“继续”立即运行该工具。"
 
 #. Translators: The title of various dialogs displayed when using the COM Registration Fixing tool
-#: gui\__init__.py:514
+#: gui\__init__.py:522
 msgid "Fix COM Registrations"
 msgstr "COM 注册修复"
 
 #. Translators: The message displayed while NVDA is running the COM Registration fixing tool
-#: gui\__init__.py:529
+#: gui\__init__.py:537
 msgid ""
 "Please wait while NVDA attempts to fix your system's COM registrations..."
 msgstr "请稍候，NVDA 正在尝试修复系统中的 COM 注册……"
 
 #. Translators: message shown to the user on COM Registration Fix fail
-#: gui\__init__.py:556
+#: gui\__init__.py:564
 #, python-brace-format
 msgid ""
 "The COM Registration Fixing Tool was unsuccessful. This Windows error may "
@@ -12021,12 +12026,12 @@ msgstr ""
 "{error}"
 
 #. Translators: The title of a COM Registration Fixing Tool dialog, when the tool has failed
-#: gui\__init__.py:560
+#: gui\__init__.py:568
 msgid "COM Registration Fixing Tool Failed"
 msgstr "COM 注册修复失败"
 
 #. Translators: Message shown when the COM Registration Fixing tool completes.
-#: gui\__init__.py:567
+#: gui\__init__.py:575
 msgid ""
 "The COM Registration Fixing Tool has completed successfully.\n"
 "It is highly recommended that you restart your computer now, to make sure "
@@ -12035,239 +12040,239 @@ msgstr ""
 "COM 注册修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生效。"
 
 #. Translators: The label for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:594
+#: gui\__init__.py:602
 msgid "&Settings..."
 msgstr "设置(&S)..."
 
 #. Translators: The description for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:596
+#: gui\__init__.py:604
 msgid "NVDA settings"
 msgstr "NVDA 设置"
 
 #. Translators: The label for a submenu under NvDA Preferences menu to select speech dictionaries.
-#: gui\__init__.py:601
+#: gui\__init__.py:609
 msgid "Speech &dictionaries"
 msgstr "朗读字典(&D)"
 
 #. Translators: The label for the menu item to open Punctuation/symbol pronunciation dialog.
-#: gui\__init__.py:603
+#: gui\__init__.py:611
 msgid "&Punctuation/symbol pronunciation..."
 msgstr "标点符号读音(&P)..."
 
 #. Translators: The label for the menu item to open the Input Gestures dialog.
-#: gui\__init__.py:606
+#: gui\__init__.py:614
 msgid "I&nput gestures..."
 msgstr "按键与手势(&N)..."
 
 #. Translators: The label for Preferences submenu in NVDA menu.
-#: gui\__init__.py:609
+#: gui\__init__.py:617
 msgid "&Preferences"
 msgstr "选项(&P)"
 
 #. Translators: The label for the menu item to open NVDA Log Viewer.
-#: gui\__init__.py:614
+#: gui\__init__.py:622
 msgid "View &log"
 msgstr "查看日志(&L)"
 
 #. Translators: The label for the menu item to toggle Speech Viewer.
-#: gui\__init__.py:620
+#: gui\__init__.py:628
 msgid "&Speech viewer"
 msgstr "朗读查看器(&S)"
 
 #. Translators: The label for the menu item to toggle Braille Viewer.
-#: gui\__init__.py:628
+#: gui\__init__.py:636
 msgid "&Braille viewer"
 msgstr "盲文查看器(&B)"
 
 #. Translators: The label of a menu item to open the Add-on store
-#: gui\__init__.py:640
+#: gui\__init__.py:648
 msgid "&Add-on store..."
 msgstr "插件商店(&A)..."
 
 #. Translators: The label for the menu item to open NVDA Python Console.
-#: gui\__init__.py:645
+#: gui\__init__.py:653
 msgid "&Python console"
 msgstr "Python 控制台(&P)"
 
 #. Translators: The label for the menu item to create a portable copy of NVDA from an installed or another portable version.
-#: gui\__init__.py:650
+#: gui\__init__.py:658
 msgid "&Create portable copy..."
 msgstr "创建便携版(&C)..."
 
 #. Translators: The label for the menu item to install NVDA on the computer.
-#: gui\__init__.py:654
+#: gui\__init__.py:662
 msgid "&Install NVDA..."
 msgstr "安装 NVDA(&I)"
 
 #. Translators: The label for the menu item to run the COM registration fix tool
-#: gui\__init__.py:657
+#: gui\__init__.py:665
 msgid "Run COM Registration Fixing tool..."
 msgstr "运行 COM 注册修复工具(&R)..."
 
 #. Translators: The label for the menu item to reload plugins.
-#: gui\__init__.py:661
+#: gui\__init__.py:669
 msgid "Reload plugins"
 msgstr "重新加载插件(&G)"
 
 #. Translators: The label for the Tools submenu in NVDA menu.
-#: gui\__init__.py:664
+#: gui\__init__.py:672
 msgid "&Tools"
 msgstr "工具(&T)"
 
 #. Translators: The label for the menu item to exit NVDA
 #. Translators: The label for a menu item in NVDA log viewer to exit.
 #. Translators: The label for a button to exit the NVDA launcher.
-#: gui\__init__.py:682 gui\logViewer.py:58 gui\startupDialogs.py:207
+#: gui\__init__.py:690 gui\logViewer.py:58 gui\startupDialogs.py:207
 msgid "E&xit"
 msgstr "退出(&X)"
 
 #. Translators: The help string for the menu item to exit NVDA
 #. Translators: The title of the dialog to exit NVDA
-#: gui\__init__.py:684 gui\exit.py:79
+#: gui\__init__.py:692 gui\exit.py:79
 msgid "Exit NVDA"
 msgstr "退出 NVDA"
 
 #. Translators: The label for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:719
+#: gui\__init__.py:727
 msgid "&Default dictionary..."
 msgstr "默认字典(&D)..."
 
 #. Translators: The help text for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:721
+#: gui\__init__.py:729
 msgid ""
 "A dialog where you can set default dictionary by adding dictionary entries "
 "to the list"
 msgstr "“默认字典”对话框，可以添加和管理默认字典"
 
 #. Translators: The label for the menu item to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:727
+#: gui\__init__.py:735
 msgid "&Voice dictionary..."
 msgstr "语音字典(&V)..."
 
 #. Translators: The help text for the menu item
 #. to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:731
+#: gui\__init__.py:739
 msgid ""
 "A dialog where you can set voice-specific dictionary by adding dictionary "
 "entries to the list"
 msgstr "“语音字典”对话框，可以添加和管理合成器字典"
 
 #. Translators: The label for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:739
+#: gui\__init__.py:747
 msgid "&Temporary dictionary..."
 msgstr "临时字典(&T)..."
 
 #. Translators: The help text for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:741
+#: gui\__init__.py:749
 msgid ""
 "A dialog where you can set temporary dictionary by adding dictionary entries "
 "to the edit box"
 msgstr "“临时字典”对话框，可以添加和管理临时字典"
 
 #. Translators: The label for the menu item to open the Configuration Profiles dialog.
-#: gui\__init__.py:749
+#: gui\__init__.py:757
 msgid "&Configuration profiles..."
 msgstr "管理配置(&C)..."
 
 #. Translators: The label for the menu item to revert to saved configuration.
-#: gui\__init__.py:754
+#: gui\__init__.py:762
 msgid "&Revert to saved configuration"
 msgstr "重新应用以保存的设置(&R)"
 
 #. Translators: The help text for the menu item to revert to saved configuration.
-#: gui\__init__.py:756
+#: gui\__init__.py:764
 msgid "Reset all settings to saved state"
 msgstr "重置所有设置到已保存的状态"
 
 #. Translators: The label for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:763
+#: gui\__init__.py:771
 msgid "Reset configuration to &factory defaults"
 msgstr "重置设置为默认值(&F)"
 
 #. Translators: The help text for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:766
+#: gui\__init__.py:774
 msgid "Reset all settings to default state"
 msgstr "重置所有设置到默认状态"
 
 #. Translators: The label for the menu item to save current settings.
-#: gui\__init__.py:773
+#: gui\__init__.py:781
 msgid "&Save configuration"
 msgstr "保存设置(&S)"
 
 #. Translators: The help text for the menu item to save current settings.
-#: gui\__init__.py:775
+#: gui\__init__.py:783
 msgid "Write the current configuration to nvda.ini"
 msgstr "将现在的设置写入 nvda.ini"
 
 #. Translators: The label of a menu item to open NVDA user guide.
-#: gui\__init__.py:784
+#: gui\__init__.py:792
 msgid "&User Guide"
 msgstr "用户指南(&U)"
 
 #. Translators: The label of a menu item to open the Commands Quick Reference document.
-#: gui\__init__.py:787
+#: gui\__init__.py:795
 msgid "Commands &Quick Reference"
 msgstr "热键快速参考(&Q)"
 
 #. Translators: The label for the menu item to open What's New document.
-#: gui\__init__.py:790
+#: gui\__init__.py:798
 msgid "What's &new"
 msgstr "更新日志(&N)"
 
 #. Translators: The label for the menu item to view the NVDA website
-#: gui\__init__.py:796
+#: gui\__init__.py:804
 msgid "NV Access &web site"
 msgstr "NV Access 网站(&W)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:799
+#: gui\__init__.py:807
 msgid "&Help, training and support"
 msgstr "帮助、培训和支持(&H)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:802
+#: gui\__init__.py:810
 msgid "NV Access &shop"
 msgstr "NV Access 商店(&S)"
 
 #. Translators: The label for the menu item to view the NVDA License.
-#: gui\__init__.py:808
+#: gui\__init__.py:816
 msgid "L&icense"
 msgstr "版权信息(&I)"
 
 #. Translators: The label for the menu item to open NVDA Welcome Dialog.
-#: gui\__init__.py:812
+#: gui\__init__.py:820
 msgid "We&lcome dialog..."
 msgstr "欢迎对话框(&L)"
 
 #. Translators: The label of a menu item to manually check for an updated version of NVDA.
-#: gui\__init__.py:817
+#: gui\__init__.py:825
 msgid "&Check for update..."
 msgstr "检查更新(&C)..."
 
 #. Translators: The label for the menu item to open About dialog to get information about NVDA.
-#: gui\__init__.py:821
+#: gui\__init__.py:829
 msgid "&About..."
 msgstr "关于(&A)..."
 
 #. Translators: The label for the Help submenu in NVDA menu.
-#: gui\__init__.py:825
+#: gui\__init__.py:833
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. Translators: The label for the menu item to run a pending update.
-#: gui\__init__.py:841
+#: gui\__init__.py:849
 msgid "Install pending &update"
 msgstr "安装之前推迟的更新(&U)"
 
 #. Translators: The description for the menu item to run a pending update.
-#: gui\__init__.py:843
+#: gui\__init__.py:851
 msgid "Execute a previously downloaded NVDA update"
 msgstr "安装之前下载的 NVDA 更新"
 
 #. Translators: Announced periodically to indicate progress for an indeterminate progress bar.
-#: gui\__init__.py:920
+#: gui\__init__.py:928
 msgid "Please wait"
 msgstr "请等待"
 
