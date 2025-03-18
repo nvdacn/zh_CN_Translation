@@ -22,11 +22,6 @@ runs:
         ref: master
         submodules: ${{ inputs.submodules }}
         path: ${{ github.workspace }}/Tools/NVDA
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        architecture: x86
     - name: Cache gettext
       if: ${{ inputs.Download-gettext }}
       uses: actions/cache@v4
@@ -40,6 +35,11 @@ runs:
         file-name: gettext.zip
         location: ${{ github.workspace }}/Crowdin/Temp
         sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        architecture: x86
     - name: Cache dependencies
       id: cacheDependencies
       uses: actions/cache@v4
