@@ -7,6 +7,10 @@ inputs:
       Whether to checkout submodules: `true` to checkout submodules or `recursive` to
       recursively checkout submodules.
     default: false
+  Download-gettext:
+    description: >
+      Whether to Download gettext.
+    default: false
 runs:
   using: "composite"
 
@@ -23,6 +27,19 @@ runs:
       with:
         python-version: '3.11'
         architecture: x86
+    - name: Cache gettext
+      if: ${{ inputs.Download-gettext }}
+      uses: actions/cache@v4
+      with:
+        path: ${{ github.workspace }}/Crowdin/Temp/gettext.zip
+        key: gettext.zip
+    - name: Download gettext
+      uses: carlosperate/download-file-action@v2
+      with:
+        file-url: https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.24-v1.17/gettext0.24-iconv1.17-static-32.zip
+        file-name: gettext.zip
+        location: ${{ github.workspace }}/Crowdin/Temp
+        sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
     - name: Cache dependencies
       id: cacheDependencies
       uses: actions/cache@v4

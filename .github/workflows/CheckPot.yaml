@@ -66,22 +66,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Cache gettext
-        uses: actions/cache@v4
-        with:
-          path: ${{ github.workspace }}/Crowdin/Temp/gettext.zip
-          key: gettext.zip
-      - name: Download gettext
-        uses: carlosperate/download-file-action@v2
-        with:
-          file-url: https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.24-v1.17/gettext0.24-iconv1.17-static-32.zip
-          file-name: gettext.zip
-          location: ${{ github.workspace }}/Crowdin/Temp
-          sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
       - name: Install dependencies
         uses: ./.github/InstallDependencies
         with:
           submodules: true
+          Download-gettext: true
       - name: Configure environment
         id: Set_Environment_Variables
         shell: pwsh
