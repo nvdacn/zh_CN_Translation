@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-18 01:57+0000\n"
+"POT-Creation-Date: 2025-03-19 02:57+0000\n"
 "PO-Revision-Date: 2025-03-18 10:05+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2059,34 +2059,34 @@ msgid "Zulu grade 2"
 msgstr "祖鲁语 2 级盲文"
 
 #. Translators: The mode to interact with controls in documents
-#: browseMode.py:74
+#: browseMode.py:75
 msgid "Focus mode"
 msgstr "焦点模式"
 
 #. Translators: The mode that presents text in a flat representation
 #. that can be navigated with the cursor keys like in a text document
 #. Translators: The name of a category of NVDA commands.
-#: browseMode.py:78 inputCore.py:66
+#: browseMode.py:79 inputCore.py:66
 msgid "Browse mode"
 msgstr "浏览模式"
 
 #. Translators: Reported label in the elements list for an element which which has no name and value
-#: browseMode.py:275
+#: browseMode.py:276
 msgid "Unlabeled"
 msgstr "未标注"
 
 #. Translators: Reported when single letter navigation in browse mode is turned off.
-#: browseMode.py:463
+#: browseMode.py:464
 msgid "Single letter navigation off"
 msgstr "单键导航关"
 
 #. Translators: Reported when single letter navigation in browse mode is turned on.
-#: browseMode.py:467
+#: browseMode.py:468
 msgid "Single letter navigation on"
 msgstr "单键导航开"
 
 #. Translators: the description for the toggleSingleLetterNavigation command in browse mode.
-#: browseMode.py:471
+#: browseMode.py:472
 msgid ""
 "Toggles single letter navigation on and off. When on, single letter keys in "
 "browse mode jump to various kinds of elements on the page. When off, these "
@@ -2097,819 +2097,819 @@ msgstr ""
 
 #. Translators: a message when a particular quick nav command is not supported in the current document.
 #. Translators: Reported when a user tries to use a find command when it isn't supported.
-#: browseMode.py:568 appModules\kindle.py:261 appModules\kindle.py:265
+#: browseMode.py:569 appModules\kindle.py:261 appModules\kindle.py:265
 #: appModules\kindle.py:269 contentRecog\recogUi.py:97
 #: contentRecog\recogUi.py:101 contentRecog\recogUi.py:105
 msgid "Not supported in this document"
 msgstr "在此文档不支持"
 
 #. Translators: the description for the Elements List command in browse mode.
-#: browseMode.py:642
+#: browseMode.py:643
 msgid "Lists various types of elements in this document"
 msgstr "列出本文档中各种类型的元素"
 
 #. Translators: the description for the activatePosition script on browseMode documents.
-#: browseMode.py:700
+#: browseMode.py:701
 msgid "Activates the current object in the document"
 msgstr "激活文档中的当前对象"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:782
+#: browseMode.py:783
 msgid "moves to the next heading"
 msgstr "移到下一个标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:784
+#: browseMode.py:785
 msgid "no next heading"
 msgstr "往下没有标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:786
+#: browseMode.py:787
 msgid "moves to the previous heading"
 msgstr "移到上一个标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:788
+#: browseMode.py:789
 msgid "no previous heading"
 msgstr "往上没有标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:794
+#: browseMode.py:795
 msgid "moves to the next heading at level 1"
 msgstr "移到下一个 1 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:796
+#: browseMode.py:797
 msgid "no next heading at level 1"
 msgstr "往下没有 1 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:798
+#: browseMode.py:799
 msgid "moves to the previous heading at level 1"
 msgstr "移到上一个 1 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:800
+#: browseMode.py:801
 msgid "no previous heading at level 1"
 msgstr "往上没有 1 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:806
+#: browseMode.py:807
 msgid "moves to the next heading at level 2"
 msgstr "移到下一个 2 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:808
+#: browseMode.py:809
 msgid "no next heading at level 2"
 msgstr "往下没有 2 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:810
+#: browseMode.py:811
 msgid "moves to the previous heading at level 2"
 msgstr "移到上一个 2 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:812
+#: browseMode.py:813
 msgid "no previous heading at level 2"
 msgstr "往上没有 2 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:818
+#: browseMode.py:819
 msgid "moves to the next heading at level 3"
 msgstr "移到下一个 3 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:820
+#: browseMode.py:821
 msgid "no next heading at level 3"
 msgstr "往下没有 3 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:822
+#: browseMode.py:823
 msgid "moves to the previous heading at level 3"
 msgstr "移到上一个 3 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:824
+#: browseMode.py:825
 msgid "no previous heading at level 3"
 msgstr "往上没有 3 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:830
+#: browseMode.py:831
 msgid "moves to the next heading at level 4"
 msgstr "移到下一个 4 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:832
+#: browseMode.py:833
 msgid "no next heading at level 4"
 msgstr "往下没有 4 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:834
+#: browseMode.py:835
 msgid "moves to the previous heading at level 4"
 msgstr "移到上一个 4 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:836
+#: browseMode.py:837
 msgid "no previous heading at level 4"
 msgstr "往上没有 4 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:842
+#: browseMode.py:843
 msgid "moves to the next heading at level 5"
 msgstr "移到下一个 5 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:844
+#: browseMode.py:845
 msgid "no next heading at level 5"
 msgstr "往下没有 5 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:846
+#: browseMode.py:847
 msgid "moves to the previous heading at level 5"
 msgstr "移到上一个 5 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:848
+#: browseMode.py:849
 msgid "no previous heading at level 5"
 msgstr "往上没有 5 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:854
+#: browseMode.py:855
 msgid "moves to the next heading at level 6"
 msgstr "移到下一个 6 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:856
+#: browseMode.py:857
 msgid "no next heading at level 6"
 msgstr "往下没有 6 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:858
+#: browseMode.py:859
 msgid "moves to the previous heading at level 6"
 msgstr "移到上一个 6 级标题"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:860
+#: browseMode.py:861
 msgid "no previous heading at level 6"
 msgstr "往上没有 6 级标题"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:866
+#: browseMode.py:867
 msgid "moves to the next table"
 msgstr "移到下一个表格"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:868
+#: browseMode.py:869
 msgid "no next table"
 msgstr "往下没有表格"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:870
+#: browseMode.py:871
 msgid "moves to the previous table"
 msgstr "移到上一个表格"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:872
+#: browseMode.py:873
 msgid "no previous table"
 msgstr "往上没有表格"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:879
+#: browseMode.py:880
 msgid "moves to the next link"
 msgstr "移到下一个链接"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:881
+#: browseMode.py:882
 msgid "no next link"
 msgstr "往下没有链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:883
+#: browseMode.py:884
 msgid "moves to the previous link"
 msgstr "移到上一个链接"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:885
+#: browseMode.py:886
 msgid "no previous link"
 msgstr "往上没有链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:891
+#: browseMode.py:892
 msgid "moves to the next visited link"
 msgstr "移到下一个以访问的链接"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:893
+#: browseMode.py:894
 msgid "no next visited link"
 msgstr "往下没有以访问的链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:895
+#: browseMode.py:896
 msgid "moves to the previous visited link"
 msgstr "移到上一个以访问的链接"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:897
+#: browseMode.py:898
 msgid "no previous visited link"
 msgstr "往上没有以访问的链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:903
+#: browseMode.py:904
 msgid "moves to the next unvisited link"
 msgstr "移到下一个未访问的链接"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:905
+#: browseMode.py:906
 msgid "no next unvisited link"
 msgstr "往下没有未访问的链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:907
+#: browseMode.py:908
 msgid "moves to the previous unvisited link"
 msgstr "移到上一个未访问的链接"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:909
+#: browseMode.py:910
 msgid "no previous unvisited link"
 msgstr "往上没有未访问的链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:915
+#: browseMode.py:916
 msgid "moves to the next form field"
 msgstr "移到下一个表单"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:917
+#: browseMode.py:918
 msgid "no next form field"
 msgstr "往下没有表单"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:919
+#: browseMode.py:920
 msgid "moves to the previous form field"
 msgstr "移到上一个表单"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:921
+#: browseMode.py:922
 msgid "no previous form field"
 msgstr "往上没有表单"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:927
+#: browseMode.py:928
 msgid "moves to the next list"
 msgstr "移到下一个列表"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:929
+#: browseMode.py:930
 msgid "no next list"
 msgstr "往下没有列表"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:931
+#: browseMode.py:932
 msgid "moves to the previous list"
 msgstr "移到上一个列表"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:933
+#: browseMode.py:934
 msgid "no previous list"
 msgstr "往上没有列表"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:940
+#: browseMode.py:941
 msgid "moves to the next list item"
 msgstr "移到下一个列表项目"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:942
+#: browseMode.py:943
 msgid "no next list item"
 msgstr "往下没有列表项目"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:944
+#: browseMode.py:945
 msgid "moves to the previous list item"
 msgstr "移到上一个列表项目"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:946
+#: browseMode.py:947
 msgid "no previous list item"
 msgstr "往上没有列表项目"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:952
+#: browseMode.py:953
 msgid "moves to the next button"
 msgstr "移到下一个按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:954
+#: browseMode.py:955
 msgid "no next button"
 msgstr "往下没有按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:956
+#: browseMode.py:957
 msgid "moves to the previous button"
 msgstr "移到上一个按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:958
+#: browseMode.py:959
 msgid "no previous button"
 msgstr "往上没有按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:964
+#: browseMode.py:965
 msgid "moves to the next edit field"
 msgstr "移到下一个编辑框"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:966
+#: browseMode.py:967
 msgid "no next edit field"
 msgstr "往下没有编辑框"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:968
+#: browseMode.py:969
 msgid "moves to the previous edit field"
 msgstr "移到上一个编辑框"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:970
+#: browseMode.py:971
 msgid "no previous edit field"
 msgstr "往上没有编辑框"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:977
+#: browseMode.py:978
 msgid "moves to the next frame"
 msgstr "移到下一个框架"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:979
+#: browseMode.py:980
 msgid "no next frame"
 msgstr "往下没有框架"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:981
+#: browseMode.py:982
 msgid "moves to the previous frame"
 msgstr "移到上一个框架"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:983
+#: browseMode.py:984
 msgid "no previous frame"
 msgstr "往上没有框架"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:990
+#: browseMode.py:991
 msgid "moves to the next separator"
 msgstr "移到下一个分隔符"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:992
+#: browseMode.py:993
 msgid "no next separator"
 msgstr "往下没有分隔符"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:994
+#: browseMode.py:995
 msgid "moves to the previous separator"
 msgstr "移到上一个分隔符"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:996
+#: browseMode.py:997
 msgid "no previous separator"
 msgstr "往上没有分隔符"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1002
+#: browseMode.py:1003
 msgid "moves to the next radio button"
 msgstr "移到下一个单选按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1004
+#: browseMode.py:1005
 msgid "no next radio button"
 msgstr "往下没有单选按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1006
+#: browseMode.py:1007
 msgid "moves to the previous radio button"
 msgstr "移到上一个单选按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1008
+#: browseMode.py:1009
 msgid "no previous radio button"
 msgstr "往上没有单选按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1014
+#: browseMode.py:1015
 msgid "moves to the next combo box"
 msgstr "移到下一个组合框"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1016
+#: browseMode.py:1017
 msgid "no next combo box"
 msgstr "往下没有组合框"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1018
+#: browseMode.py:1019
 msgid "moves to the previous combo box"
 msgstr "移到上一个组合框"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1020
+#: browseMode.py:1021
 msgid "no previous combo box"
 msgstr "往上没有组合框"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1026
+#: browseMode.py:1027
 msgid "moves to the next check box"
 msgstr "移到下一个复选框"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1028
+#: browseMode.py:1029
 msgid "no next check box"
 msgstr "往下没有复选框"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1030
+#: browseMode.py:1031
 msgid "moves to the previous check box"
 msgstr "移到上一个复选框"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1032
+#: browseMode.py:1033
 msgid "no previous check box"
 msgstr "往上没有复选框"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1038
+#: browseMode.py:1039
 msgid "moves to the next graphic"
 msgstr "移到下一个图形"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1040
+#: browseMode.py:1041
 msgid "no next graphic"
 msgstr "往下没有图形"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1042
+#: browseMode.py:1043
 msgid "moves to the previous graphic"
 msgstr "移到上一个图形"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1044
+#: browseMode.py:1045
 msgid "no previous graphic"
 msgstr "往上没有图形"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1050
+#: browseMode.py:1051
 msgid "moves to the next block quote"
 msgstr "移到下一个引用区"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1052
+#: browseMode.py:1053
 msgid "no next block quote"
 msgstr "往下没有引用区"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1054
+#: browseMode.py:1055
 msgid "moves to the previous block quote"
 msgstr "移到上一个引用区"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1056
+#: browseMode.py:1057
 msgid "no previous block quote"
 msgstr "往上没有引用区"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1062
+#: browseMode.py:1063
 msgid "skips forward past a block of links"
 msgstr "往下移到链接之后的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1064
+#: browseMode.py:1065
 msgid "no more text after a block of links"
 msgstr "链接后没有文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1066
+#: browseMode.py:1067
 msgid "skips backward past a block of links"
 msgstr "往上移到链接之前的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1068
+#: browseMode.py:1069
 msgid "no more text before a block of links"
 msgstr "链接前没有文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1075
+#: browseMode.py:1076
 msgid "moves to the next landmark"
 msgstr "移到下一个路标"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1077
+#: browseMode.py:1078
 msgid "no next landmark"
 msgstr "往下没有路标"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1079
+#: browseMode.py:1080
 msgid "moves to the previous landmark"
 msgstr "移到上一个路标"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1081
+#: browseMode.py:1082
 msgid "no previous landmark"
 msgstr "往上没有路标"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1088
+#: browseMode.py:1089
 msgid "moves to the next embedded object"
 msgstr "移到下一个嵌入式对象"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1090
+#: browseMode.py:1091
 msgid "no next embedded object"
 msgstr "往下没有嵌入式对象"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1092
+#: browseMode.py:1093
 msgid "moves to the previous embedded object"
 msgstr "移到上一个嵌入式对象"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1094
+#: browseMode.py:1095
 msgid "no previous embedded object"
 msgstr "往上没有嵌入式对象"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1100
+#: browseMode.py:1101
 msgid "moves to the next annotation"
 msgstr "移到下一个批注"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1102
+#: browseMode.py:1103
 msgid "no next annotation"
 msgstr "往下没有批注"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1104
+#: browseMode.py:1105
 msgid "moves to the previous annotation"
 msgstr "移到上一个批注"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1106
+#: browseMode.py:1107
 msgid "no previous annotation"
 msgstr "往上没有批注"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1112
+#: browseMode.py:1113
 msgid "moves to the next error"
 msgstr "移到下一个错误"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1114
+#: browseMode.py:1115
 msgid "no next error"
 msgstr "往下没有错误"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1116
+#: browseMode.py:1117
 msgid "moves to the previous error"
 msgstr "移到上一个错误"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1118
+#: browseMode.py:1119
 msgid "no previous error"
 msgstr "往上没有错误"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1124
+#: browseMode.py:1125
 msgid "moves to the next article"
 msgstr "移到下一篇文章"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1126
+#: browseMode.py:1127
 msgid "no next article"
 msgstr "往下没有文章"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1128
+#: browseMode.py:1129
 msgid "moves to the previous article"
 msgstr "移到上一篇文章"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1130
+#: browseMode.py:1131
 msgid "no previous article"
 msgstr "往上没有文章"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1136
+#: browseMode.py:1137
 msgid "moves to the next grouping"
 msgstr "移到下一个分组"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1138
+#: browseMode.py:1139
 msgid "no next grouping"
 msgstr "往下没有分组"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1140
+#: browseMode.py:1141
 msgid "moves to the previous grouping"
 msgstr "移到上一个分组"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1142
+#: browseMode.py:1143
 msgid "no previous grouping"
 msgstr "往上没有分组"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1148
+#: browseMode.py:1149
 msgid "moves to the next tab"
 msgstr "移到下一个选项卡"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1150
+#: browseMode.py:1151
 msgid "no next tab"
 msgstr "往下没有选项卡"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1152
+#: browseMode.py:1153
 msgid "moves to the previous tab"
 msgstr "移到上一个选项卡"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1154
+#: browseMode.py:1155
 msgid "no previous tab"
 msgstr "往上没有选项卡"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1160
+#: browseMode.py:1161
 msgid "moves to the next figure"
 msgstr "移到下一个插图"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1162
+#: browseMode.py:1163
 msgid "no next figure"
 msgstr "往下没有插图"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1164
+#: browseMode.py:1165
 msgid "moves to the previous figure"
 msgstr "移到上一个插图"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1166
+#: browseMode.py:1167
 msgid "no previous figure"
 msgstr "往上没有插图"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1172
+#: browseMode.py:1173
 msgid "moves to the next menu item"
 msgstr "移到下一个菜单项目"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1174
+#: browseMode.py:1175
 msgid "no next menu item"
 msgstr "往下没有菜单项目"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1176
+#: browseMode.py:1177
 msgid "moves to the previous menu item"
 msgstr "移到上一个菜单项目"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1178
+#: browseMode.py:1179
 msgid "no previous menu item"
 msgstr "往上没有菜单项目"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1184
+#: browseMode.py:1185
 msgid "moves to the next toggle button"
 msgstr "移到下一个切换按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1186
+#: browseMode.py:1187
 msgid "no next toggle button"
 msgstr "往下没有切换按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1188
+#: browseMode.py:1189
 msgid "moves to the previous toggle button"
 msgstr "移到上一个切换按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1190
+#: browseMode.py:1191
 msgid "no previous toggle button"
 msgstr "往上没有切换按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1196
+#: browseMode.py:1197
 msgid "moves to the next progress bar"
 msgstr "移到下一个进度栏"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1198
+#: browseMode.py:1199
 msgid "no next progress bar"
 msgstr "往下没有进度栏"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1200
+#: browseMode.py:1201
 msgid "moves to the previous progress bar"
 msgstr "移到上一个进度栏"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1202
+#: browseMode.py:1203
 msgid "no previous progress bar"
 msgstr "往上没有进度栏"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1208
+#: browseMode.py:1209
 msgid "moves to the next math formula"
 msgstr "移到下一个数学公式"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1210
+#: browseMode.py:1211
 msgid "no next math formula"
 msgstr "往下没有数学公式"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1212
+#: browseMode.py:1213
 msgid "moves to the previous math formula"
 msgstr "移到上一个数学公式"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1214
+#: browseMode.py:1215
 msgid "no previous math formula"
 msgstr "往上没有数学公式"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1220
+#: browseMode.py:1221
 msgid "moves to the next text paragraph"
 msgstr "移到下一个文本段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1222
+#: browseMode.py:1223
 msgid "no next text paragraph"
 msgstr "往下没有文本段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1224
+#: browseMode.py:1225
 msgid "moves to the previous text paragraph"
 msgstr "移到上一个文本段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1226
+#: browseMode.py:1227
 msgid "no previous text paragraph"
 msgstr "往上没有文本段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1233
+#: browseMode.py:1234
 msgid "moves to the next vertically aligned paragraph"
 msgstr "移到下一个垂直对齐的段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1235
+#: browseMode.py:1236
 msgid "no next vertically aligned paragraph"
 msgstr "往下没有垂直对齐的段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1237
+#: browseMode.py:1238
 msgid "moves to the previous vertically aligned paragraph"
 msgstr "移到上一个垂直对齐的段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1239
+#: browseMode.py:1240
 msgid "no previous vertically aligned paragraph"
 msgstr "往上没有垂直对齐的段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1246
+#: browseMode.py:1247
 msgid "moves to the next same style text"
 msgstr "移到下一处相同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1248
+#: browseMode.py:1249
 msgid "No next same style text"
 msgstr "往下没有相同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1250
+#: browseMode.py:1251
 msgid "moves to the previous same style text"
 msgstr "移到上一处相同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1252
+#: browseMode.py:1253
 msgid "No previous same style text"
 msgstr "往上没有相同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1258
+#: browseMode.py:1259
 msgid "moves to the next different style text"
 msgstr "移到下一处不同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1260
+#: browseMode.py:1261
 msgid "No next different style text"
 msgstr "往下没有不同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1262
+#: browseMode.py:1263
 msgid "moves to the previous different style text"
 msgstr "移到上一处不同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1264
+#: browseMode.py:1265
 msgid "No previous different style text"
 msgstr "往上没有不同样式的文本"
 
@@ -2917,7 +2917,7 @@ msgstr "往上没有不同样式的文本"
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
-#: browseMode.py:1278 gui\settingsDialogs.py:2880
+#: browseMode.py:1279 gui\settingsDialogs.py:2880
 msgid "Lin&ks"
 msgstr "链接(&K)"
 
@@ -2925,42 +2925,42 @@ msgstr "链接(&K)"
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
-#: browseMode.py:1281 gui\settingsDialogs.py:2875
+#: browseMode.py:1282 gui\settingsDialogs.py:2875
 msgid "&Headings"
 msgstr "标题(&H)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1284 NVDAObjects\window\excel.py:747
+#: browseMode.py:1285 NVDAObjects\window\excel.py:747
 msgid "&Form fields"
 msgstr "表单(&F)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1287
+#: browseMode.py:1288
 msgid "&Buttons"
 msgstr "按钮(&B)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1290
+#: browseMode.py:1291
 msgid "Lan&dmarks"
 msgstr "路标(&D)"
 
 #. Translators: The title of the browse mode Elements List dialog.
-#: browseMode.py:1301
+#: browseMode.py:1302
 msgid "Elements List"
 msgstr "元素列表"
 
 #. Translators: The label of a group of radio buttons to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1312
+#: browseMode.py:1313
 msgid "Type:"
 msgstr "类型："
 
 #. Translators: The label of an editable text field to filter the elements
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1341
+#: browseMode.py:1342
 msgid "Filter b&y:"
 msgstr "查找(&Y)："
 
@@ -2968,34 +2968,34 @@ msgstr "查找(&Y)："
 #. Beware not to set an accelerator that would collide with other controls in this dialog, such as an
 #. element type radio label.
 #. Translators: a message reported when the action at the position of the review cursor or navigator object is performed.
-#: browseMode.py:1353 globalCommands.py:1723
+#: browseMode.py:1354 globalCommands.py:1723
 msgid "Activate"
 msgstr "激活"
 
 #. Translators: The label of a button to move to an element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1358
+#: browseMode.py:1359
 msgid "&Move to"
 msgstr "移动到(&M)"
 
 #. Translators: the message presented when the activateLongDescription script cannot locate a long description to activate.
-#: browseMode.py:1820
+#: browseMode.py:1821
 msgid "No long description"
 msgstr "无长描述"
 
 #. Translators: the description for the activateLongDescription script on browseMode documents.
-#: browseMode.py:1823
+#: browseMode.py:1824
 msgid "Shows the long description at this position if one is found."
 msgstr "显示所指位置的对象的长描述（如果能找到）。"
 
 #. Translators: Reported when the user attempts to move to the start or end of a container
 #. (list, table, etc.) but there is no container.
-#: browseMode.py:2286 browseMode.py:2307
+#: browseMode.py:2287 browseMode.py:2308
 msgid "Not in a container"
 msgstr "不在容器中"
 
 #. Translators: Description for the Move to start of container command in browse mode.
-#: browseMode.py:2297
+#: browseMode.py:2298
 msgid "Moves to the start of the container element, such as a list or table"
 msgstr "移到元素的开始处，例如列表或表格"
 
@@ -3005,56 +3005,56 @@ msgstr "移到元素的开始处，例如列表或表格"
 #. Translators: a message reported when review cursor is at the bottom line of the current navigator object.
 #. Translators: Reported when attempting to move to the next result in the Python Console
 #. output pane while there is no next result.
-#: browseMode.py:2316 globalCommands.py:1873 globalCommands.py:1951
+#: browseMode.py:2317 globalCommands.py:1873 globalCommands.py:1951
 #: globalCommands.py:2071 appModules\nvda.py:146
 msgid "Bottom"
 msgstr "底部"
 
 #. Translators: Description for the Move past end of container command in browse mode.
-#: browseMode.py:2325
+#: browseMode.py:2326
 msgid "Moves past the end of the container element, such as a list or table"
 msgstr "移到元素的结尾处，例如列表或表格"
 
 #. Translators: the description for the toggleScreenLayout script.
 #. Translators: the description for the toggleScreenLayout script on virtualBuffers.
-#: browseMode.py:2654 virtualBuffers\__init__.py:702
+#: browseMode.py:2655 virtualBuffers\__init__.py:702
 msgid ""
 "Toggles on and off if the screen layout is preserved while rendering the "
 "document content"
 msgstr "切换是否根据屏幕布局浏览文档内容"
 
 #. Translators: The message reported for not supported toggling of screen layout
-#: browseMode.py:2660
+#: browseMode.py:2661
 msgid "Not supported in this document."
 msgstr "在此文档不支持。"
 
 #. Translators: input help message for toggle native selection command
-#: browseMode.py:2673
+#: browseMode.py:2674
 msgid "Toggles native selection mode on and off"
 msgstr "打开或关闭应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2679
+#: browseMode.py:2680
 msgid "Native selection mode unsupported in this browse mode document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: the message when native selection mode cannot be turned off in this browse mode document.
-#: browseMode.py:2682
+#: browseMode.py:2683
 msgid "Native selection mode cannot be turned off in this browse mode document"
 msgstr "此文档无法禁用应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2691
+#: browseMode.py:2695
 msgid "Native selection mode unsupported in this document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: reported when native selection mode is toggled on.
-#: browseMode.py:2695
+#: browseMode.py:2699
 msgid "Native app selection mode enabled"
 msgstr "启用应用原生选择"
 
 #. Translators: reported when native selection mode is toggled off.
-#: browseMode.py:2703
+#: browseMode.py:2707
 msgid "Native app selection mode disabled"
 msgstr "禁用应用原生选择"
 
@@ -3427,8 +3427,8 @@ msgstr ""
 #: gui\configProfiles.py:539 gui\inputGestures.py:808 gui\inputGestures.py:822
 #: gui\installerGui.py:112 gui\installerGui.py:520 gui\installerGui.py:535
 #: gui\installerGui.py:607 gui\logViewer.py:112 gui\logViewer.py:143
-#: gui\message.py:161 gui\settingsDialogs.py:1073 gui\settingsDialogs.py:5344
-#: gui\settingsDialogs.py:5701 gui\startupDialogs.py:128
+#: gui\message.py:161 gui\settingsDialogs.py:1073 gui\settingsDialogs.py:5363
+#: gui\settingsDialogs.py:5720 gui\startupDialogs.py:128
 #: remoteClient\dialogs.py:51 remoteClient\dialogs.py:215
 #: remoteClient\dialogs.py:288 remoteClient\dialogs.py:299
 msgid "Error"
@@ -3708,13 +3708,13 @@ msgstr "配置管理"
 #. Advanced settings panel
 #. Translators: This is the label for the braille panel
 #: globalCommands.py:99 config\configFlags.py:274 gui\settingsDialogs.py:3811
-#: gui\settingsDialogs.py:4299
+#: gui\settingsDialogs.py:4318
 msgid "Braille"
 msgstr "盲文"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the vision panel
-#: globalCommands.py:102 gui\settingsDialogs.py:5112
+#: globalCommands.py:102 gui\settingsDialogs.py:5131
 msgid "Vision"
 msgstr "视觉"
 
@@ -12764,7 +12764,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:5589 gui\speechDict.py:215
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:5608 gui\speechDict.py:215
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13377,7 +13377,7 @@ msgstr "语音合成器"
 #. it appears in the context of a synthesizer group on the speech settings panel.
 #. Translators: This is the label for the button used to change braille display,
 #. it appears in the context of a braille display group on the braille settings panel.
-#: gui\settingsDialogs.py:1210 gui\settingsDialogs.py:4320
+#: gui\settingsDialogs.py:1210 gui\settingsDialogs.py:4339
 msgid "C&hange..."
 msgstr "修改(&H)..."
 
@@ -13424,7 +13424,7 @@ msgstr "处理字符和标点时信任语音的语言(&T)"
 
 #. Translators: This is a label for a combo-box in the Speech settings panel.
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:1737 gui\settingsDialogs.py:4873
+#: gui\settingsDialogs.py:1737 gui\settingsDialogs.py:4892
 msgid "Unicode normali&zation"
 msgstr "Unicode 规范化(&Z)"
 
@@ -13851,7 +13851,7 @@ msgstr "拦截所有非命令手势，以防止意外的文档写入(&A)"
 #. Translators: This is the label for the document formatting panel.
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:2643 gui\settingsDialogs.py:3987
+#: gui\settingsDialogs.py:2643 gui\settingsDialogs.py:3998
 msgid "Document Formatting"
 msgstr "文档格式"
 
@@ -14251,7 +14251,7 @@ msgstr "主机(&H)"
 
 #. Translators: The label for a setting in braille settings to choose the connection port (if the selected braille display supports port selection).
 #. Translators: The label of an edit field in connect dialog to enter the port the server will listen on.
-#: gui\settingsDialogs.py:3422 gui\settingsDialogs.py:4398
+#: gui\settingsDialogs.py:3422 gui\settingsDialogs.py:4417
 #: remoteClient\dialogs.py:140
 msgid "&Port:"
 msgstr "端口(&P):"
@@ -14584,89 +14584,95 @@ msgstr "尝试取消无效焦点事件的朗读："
 msgid "Trim leading silence in speech audio"
 msgstr "去除语音开头的静音"
 
+#. Translators: This is the label for a combo-box control in the
+#. Advanced settings panel.
+#: gui\settingsDialogs.py:3948
+msgid "Use WASAPI for SAPI 4 audio output:"
+msgstr ""
+
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:3948
+#: gui\settingsDialogs.py:3959
 msgid "Virtual Buffers"
 msgstr "虚拟缓冲区"
 
 #. Translators: This is the label for a combo-box in the Advanced settings panel.
-#: gui\settingsDialogs.py:3956
+#: gui\settingsDialogs.py:3967
 msgid "Load Chromium virtual buffer when document busy."
 msgstr "文档忙碌时加载 Chromium 虚拟缓冲区。"
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:3965
+#: gui\settingsDialogs.py:3976
 msgid "Editable Text"
 msgstr "可编辑"
 
 #. Translators: This is the label for a numeric control in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:3972
+#: gui\settingsDialogs.py:3983
 msgid "Caret movement timeout (in ms)"
 msgstr "光标移动超时（单位: 毫秒）"
 
 #. Translators: This is the label for a checkbox control in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:3995
+#: gui\settingsDialogs.py:4006
 msgid "Report transparent color values"
 msgstr "读出透明色值"
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4009
+#: gui\settingsDialogs.py:4020
 msgid "Debug logging"
 msgstr "调试日志"
 
 #. Translators: This is the label for a list in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4033
+#: gui\settingsDialogs.py:4044
 msgid "Enabled logging categories"
 msgstr "已启用的日志记录类型"
 
 #. Translators: Label for the Play a sound for logged errors combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4053
+#: gui\settingsDialogs.py:4064
 msgid "Play a sound for logged e&rrors:"
 msgstr "日志记录后播放错误提示音(&R)："
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
-#: gui\settingsDialogs.py:4056
+#: gui\settingsDialogs.py:4067
 msgctxt "advanced.playErrorSound"
 msgid "Only in NVDA test versions"
 msgstr "仅测试版"
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
-#: gui\settingsDialogs.py:4058
+#: gui\settingsDialogs.py:4069
 msgctxt "advanced.playErrorSound"
 msgid "Yes"
 msgstr "是"
 
 #. Translators: This is the label for a textfield in the
 #. advanced settings panel.
-#: gui\settingsDialogs.py:4071
+#: gui\settingsDialogs.py:4082
 msgid "Regular expression for text paragraph navigation"
 msgstr "文本段落导航的正则表达式"
 
 #. Translators: Message shown when invalid text paragraph regex entered
-#: gui\settingsDialogs.py:4093
+#: gui\settingsDialogs.py:4104
 #, python-format
 msgid "Failed to compile text paragraph regular expression: %s"
 msgstr "表达式 %s 无法解析"
 
 #. Translators: This is the label for the Advanced settings panel.
-#: gui\settingsDialogs.py:4215
+#: gui\settingsDialogs.py:4234
 msgid "Advanced"
 msgstr "高级"
 
 #. Translators: This is the label to warn users about the Advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4220
+#: gui\settingsDialogs.py:4239
 msgid "Warning!"
 msgstr "警告！"
 
 #. Translators: This is a label appearing on the Advanced settings panel.
-#: gui\settingsDialogs.py:4224
+#: gui\settingsDialogs.py:4243
 msgid ""
 "The following settings are for advanced users. Changing them may cause NVDA "
 "to function incorrectly. Please only change these if you know what you are "
@@ -14676,178 +14682,178 @@ msgstr ""
 "只有在清楚要更改选项的含义、或在 NVDA 开发者的指导下，才可进行修改。"
 
 #. Translators: This is the label for a checkbox in the Advanced settings panel.
-#: gui\settingsDialogs.py:4251
+#: gui\settingsDialogs.py:4270
 msgid ""
 "I understand that changing these settings may cause NVDA to function "
 "incorrectly."
 msgstr "我清楚更改这些设置可能导致 NVDA 无法正常运行。"
 
 #. Translators: This is the label for a button in the Advanced settings panel
-#: gui\settingsDialogs.py:4262
+#: gui\settingsDialogs.py:4281
 msgid "Restore defaults"
 msgstr "恢复默认值"
 
 #. Translators: A label for the braille display on the braille panel.
-#: gui\settingsDialogs.py:4305
+#: gui\settingsDialogs.py:4324
 msgid "Braille display"
 msgstr "盲文点显器"
 
 #. Translators: This is the label for the braille display selection dialog.
-#: gui\settingsDialogs.py:4374
+#: gui\settingsDialogs.py:4393
 msgid "Select Braille Display"
 msgstr "选择盲文点显器"
 
 #. Translators: The label for a setting in braille settings to choose a braille display.
-#: gui\settingsDialogs.py:4383
+#: gui\settingsDialogs.py:4402
 msgid "Braille &display:"
 msgstr "点显器(&D):"
 
 #. Translators: The label for a setting in braille settings to enable displays for automatic detection.
-#: gui\settingsDialogs.py:4389
+#: gui\settingsDialogs.py:4408
 msgid "&Displays to detect automatically:"
 msgstr "自动检测的点显器(&D):"
 
 #. Translators: The message in a dialog presented when NVDA is unable to load the selected
 #. braille display.
-#: gui\settingsDialogs.py:4505
+#: gui\settingsDialogs.py:4524
 #, python-brace-format
 msgid "Could not load the {display} display."
 msgstr "无法加载 {display} 显示。"
 
 #. Translators: The title in a dialog presented when NVDA is unable to load the selected
 #. braille display.
-#: gui\settingsDialogs.py:4508
+#: gui\settingsDialogs.py:4527
 msgid "Braille Display Error"
 msgstr "点显器错误"
 
 #. Translators: The label for a setting in braille settings to select the output table (the braille table used to read braille text on the braille display).
-#: gui\settingsDialogs.py:4541
+#: gui\settingsDialogs.py:4560
 msgid "&Output table:"
 msgstr "输出表(&O):"
 
 #. Translators: An option in Braille settings to select a braille table automatically, according to the current language.
-#: gui\settingsDialogs.py:4549 gui\settingsDialogs.py:4576
+#: gui\settingsDialogs.py:4568 gui\settingsDialogs.py:4595
 #, python-brace-format
 msgid "Automatic ({name})"
 msgstr "自动（{name}）"
 
 #. Translators: The label for a setting in braille settings to select the input table (the braille table used to type braille characters on a braille keyboard).
-#: gui\settingsDialogs.py:4568
+#: gui\settingsDialogs.py:4587
 msgid "&Input table:"
 msgstr "输入表(&I):"
 
 #. Translators: The label for a setting in braille settings to select which braille mode to use
-#: gui\settingsDialogs.py:4594
+#: gui\settingsDialogs.py:4613
 msgid "Braille mode:"
 msgstr "盲文模式："
 
 #. Translators: The label for a setting in braille settings to expand the current word under cursor to computer braille.
-#: gui\settingsDialogs.py:4609
+#: gui\settingsDialogs.py:4628
 msgid "E&xpand to computer braille for the word at the cursor"
 msgstr "将光标所在单词转换为计算机盲文(&X)"
 
 #. Translators: The label for a setting in braille settings to show the cursor.
-#: gui\settingsDialogs.py:4617
+#: gui\settingsDialogs.py:4636
 msgid "&Show cursor"
 msgstr "显示光标位置(&S)"
 
 #. Translators: The label for a setting in braille settings to enable cursor blinking.
-#: gui\settingsDialogs.py:4626
+#: gui\settingsDialogs.py:4645
 msgid "Blink cursor"
 msgstr "闪烁光标(&B)"
 
 #. Translators: The label for a setting in braille settings to change cursor blink rate in milliseconds (1 second is 1000 milliseconds).
-#: gui\settingsDialogs.py:4637
+#: gui\settingsDialogs.py:4656
 msgid "Cursor blink rate (ms)"
 msgstr "光标闪烁频率（毫秒）(&R)"
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to focus.
-#: gui\settingsDialogs.py:4659
+#: gui\settingsDialogs.py:4678
 msgid "Cursor shape for &focus:"
 msgstr "系统焦点的光标形状(&F)："
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to review.
-#: gui\settingsDialogs.py:4675
+#: gui\settingsDialogs.py:4694
 msgid "Cursor shape for &review:"
 msgstr "查看光标的光标形状(&R)："
 
 #. Translators: The label for a setting in braille settings to combobox enabling user
 #. to decide if braille messages should be shown and automatically disappear from braille display.
-#: gui\settingsDialogs.py:4697
+#: gui\settingsDialogs.py:4716
 msgid "Show messages"
 msgstr "显示消息"
 
 #. Translators: The label for a setting in braille settings to change how long a message stays on the braille display (in seconds).
-#: gui\settingsDialogs.py:4719
+#: gui\settingsDialogs.py:4738
 msgid "Message &timeout (sec)"
 msgstr "消息显示时间（秒）(&T)"
 
 #. Translators: The label for a setting in braille settings to set whether braille should be tethered to focus or review cursor.
-#: gui\settingsDialogs.py:4738
+#: gui\settingsDialogs.py:4757
 msgid "Tether B&raille:"
 msgstr "盲文显示跟随到(&R)："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4762
+#: gui\settingsDialogs.py:4781
 msgid "Move system caret when ro&uting review cursor"
 msgstr "移动查看光标时移动系统输入光标(&U)"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
-#: gui\settingsDialogs.py:4778
+#: gui\settingsDialogs.py:4797
 msgid "Read by &paragraph"
 msgstr "按段落阅读(&P)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel to select paragraph start markers.
-#: gui\settingsDialogs.py:4787
+#: gui\settingsDialogs.py:4806
 msgid "Paragraph start marker:"
 msgstr "段落开始标记："
 
 #. Translators: The label for a setting in braille settings to select how the context for the focus object should be presented on a braille display.
-#: gui\settingsDialogs.py:4802
+#: gui\settingsDialogs.py:4821
 msgid "Focus context presentation:"
 msgstr "聚焦到上下文："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4823
+#: gui\settingsDialogs.py:4842
 msgid "Show se&lection"
 msgstr "盲文选择指示光标(&L)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4835
+#: gui\settingsDialogs.py:4854
 msgid "Formatting &display"
 msgstr "格式信息的显示方式(&D)"
 
 #. Translators: The label for a setting in braille settings to speak the character under the cursor when cursor routing in text.
-#: gui\settingsDialogs.py:4844
+#: gui\settingsDialogs.py:4863
 msgid "Spea&k character when routing cursor in text"
 msgstr "定位文本光标后读出光标所在处的字符(&K)"
 
 #. Translators: The label for a setting in braille settings to speak the current line or paragraph when navigating by them with braille.
-#: gui\settingsDialogs.py:4852
+#: gui\settingsDialogs.py:4871
 msgid "Speak when navigating by &line or paragraph"
 msgstr "按行或段落导航时读出内容(&L)"
 
 #. Translators: The label for a setting in braille settings to enable word wrap
 #. (try to avoid splitting words at the end of the braille display).
-#: gui\settingsDialogs.py:4865
+#: gui\settingsDialogs.py:4884
 msgid "Avoid splitting &words when possible"
 msgstr "若可能，尽量避免拆分单词(&W)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4884
+#: gui\settingsDialogs.py:4903
 msgid "I&nterrupt speech while scrolling"
 msgstr "滚动时打断语音(&I)"
 
 #. Translators: This message is presented when
 #. NVDA is unable to load a single vision enhancement provider.
-#: gui\settingsDialogs.py:4978
+#: gui\settingsDialogs.py:4997
 #, python-brace-format
 msgid "Could not load the {providerName} vision enhancement provider"
 msgstr "无法加载 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when NVDA is unable to
 #. load multiple vision enhancement providers.
-#: gui\settingsDialogs.py:4985
+#: gui\settingsDialogs.py:5004
 #, python-brace-format
 msgid ""
 "Could not load the following vision enhancement providers:\n"
@@ -14857,13 +14863,13 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
-#: gui\settingsDialogs.py:4991 gui\settingsDialogs.py:5021
+#: gui\settingsDialogs.py:5010 gui\settingsDialogs.py:5040
 msgid "Vision Enhancement Provider Error"
 msgstr "视觉增强程序加载错误"
 
 #. Translators: This message is presented when
 #. NVDA is unable to gracefully terminate a single vision enhancement provider.
-#: gui\settingsDialogs.py:5008
+#: gui\settingsDialogs.py:5027
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the {providerName} vision enhancement provider"
@@ -14871,7 +14877,7 @@ msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when
 #. NVDA is unable to terminate multiple vision enhancement providers.
-#: gui\settingsDialogs.py:5016
+#: gui\settingsDialogs.py:5035
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the following vision enhancement providers:\n"
@@ -14881,121 +14887,121 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
-#: gui\settingsDialogs.py:5116
+#: gui\settingsDialogs.py:5135
 msgid "Configure visual aids."
 msgstr "配置视觉辅助。"
 
 #. Translators: Enable checkbox on a vision enhancement provider on the vision settings category panel
-#: gui\settingsDialogs.py:5288
+#: gui\settingsDialogs.py:5307
 msgid "Enable"
 msgstr "启用"
 
 #. Translators: Options label on a vision enhancement provider on the vision settings category panel
 #. Translators: The label for a group box containing the NVDA highlighter options.
-#: gui\settingsDialogs.py:5295
+#: gui\settingsDialogs.py:5314
 #: visionEnhancementProviders\NVDAHighlighter.py:307
 #: visionEnhancementProviders\screenCurtain.py:245
 msgid "Options:"
 msgstr "选项："
 
 #. Translators: Shown when there is an error showing the GUI for a vision enhancement provider
-#: gui\settingsDialogs.py:5341
+#: gui\settingsDialogs.py:5360
 msgid ""
 "Unable to configure user interface for Vision Enhancement Provider, it can "
 "not be enabled."
 msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法启用。"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:5386
+#: gui\settingsDialogs.py:5405
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:5429
+#: gui\settingsDialogs.py:5448
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:5464
+#: gui\settingsDialogs.py:5483
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:5469
+#: gui\settingsDialogs.py:5488
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:5499
+#: gui\settingsDialogs.py:5518
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:5513
+#: gui\settingsDialogs.py:5532
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5522
+#: gui\settingsDialogs.py:5541
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:5532
+#: gui\settingsDialogs.py:5551
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:5534 gui\speechDict.py:191
+#: gui\settingsDialogs.py:5553 gui\speechDict.py:191
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:5536
+#: gui\settingsDialogs.py:5555
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:5539
+#: gui\settingsDialogs.py:5558
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:5543
+#: gui\settingsDialogs.py:5562
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5561 gui\speechDict.py:55
+#: gui\settingsDialogs.py:5580 gui\speechDict.py:55
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:5570
+#: gui\settingsDialogs.py:5589
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:5577
+#: gui\settingsDialogs.py:5596
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:5592
+#: gui\settingsDialogs.py:5611
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:5699
+#: gui\settingsDialogs.py:5718
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
