@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 03:12+0000\n"
-"PO-Revision-Date: 2025-03-19 12:01+0800\n"
+"PO-Revision-Date: 2025-03-28 11:45+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6263,11 +6263,9 @@ msgstr "已连接"
 
 #. Translators: Describes the command that creates a remote session, or disconnects it if one already exists.
 #: globalCommands.py:4985
-#, fuzzy
-#| msgid "NVDA Remote Connection Request"
 msgctxt "remote"
 msgid "Toggle Remote connection"
-msgstr "NVDA 远程连接请求"
+msgstr "切换远程连接"
 
 #. Translators: Documentation string for the script that toggles the control between guest and host machine.
 #: globalCommands.py:4998
@@ -12456,10 +12454,8 @@ msgstr "盲文模式设置为语音输出时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because Remote Access functionality is disabled.
 #: gui\blockAction.py:94
-#, fuzzy
-#| msgid "Action unavailable while Windows is locked"
 msgid "Action unavailable when Remote Access is disabled"
-msgstr "Windows 锁定时该操作不可用"
+msgstr "禁用远程访问时该操作不可用"
 
 #. Translators: The title of the Configuration Profiles dialog.
 #: gui\configProfiles.py:36
@@ -14234,10 +14230,8 @@ msgstr "设置插件商店镜像服务器"
 
 #. Translators: Label of a checkbox in Remote's settings
 #: gui\settingsDialogs.py:3387
-#, fuzzy
-#| msgid "NVDA Remote Access"
 msgid "Enable Remote Access"
-msgstr "NVDA 远程访问"
+msgstr "启用远程访问"
 
 #. Translators: A checkbox in Remote settings to set whether NVDA should automatically connect to a control server on startup.
 #: gui\settingsDialogs.py:3393
