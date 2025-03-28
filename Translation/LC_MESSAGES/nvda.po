@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 02:57+0000\n"
+"POT-Creation-Date: 2025-03-28 02:59+0000\n"
 "PO-Revision-Date: 2025-03-19 12:01+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -6242,46 +6242,46 @@ msgid "Copied link"
 msgstr "复制链接"
 
 #. Translators: Documentation string for the script that disconnects a remote session.
-#: globalCommands.py:4951
+#: globalCommands.py:4950
 msgid "Disconnect a remote session"
 msgstr "与远程计算机断开连接"
 
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:4957
+#: globalCommands.py:4956
 msgid "Not connected"
 msgstr "未连接"
 
 #. Translators: Documentation string for the script that invokes the remote session.
-#: globalCommands.py:4964
+#: globalCommands.py:4962
 msgid "Connect to a remote computer"
 msgstr "连接到远程计算机"
 
 #. Translators: A message indicating that the remote client is already connected.
-#: globalCommands.py:4972
+#: globalCommands.py:4970
 msgid "Already connected"
 msgstr "已连接"
 
 #. Translators: Documentation string for the script that toggles the control between guest and host machine.
-#: globalCommands.py:4978
+#: globalCommands.py:4988
 msgid "Toggles the control between guest and host machine"
 msgstr "在控制本地计算机和控制远程计算机之间切换"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5018
+#: globalCommands.py:5028
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5023
+#: globalCommands.py:5033
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5028
+#: globalCommands.py:5038
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -6289,7 +6289,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5044
+#: globalCommands.py:5054
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -18494,71 +18494,71 @@ msgstr "连接且不再询问该服务器"
 msgid "Unable to trigger Alt Control Delete from remote"
 msgstr "无法从远程触发 Alt Control Delete"
 
-#. Translators: Item in NVDA Remote submenu to connect to a remote computer.
-#: remoteClient\menu.py:29
-msgid "Connect..."
-msgstr "连接(&C)..."
-
-#. Translators: Tooltip for the Connect menu item in the NVDA Remote submenu.
-#: remoteClient\menu.py:31
-msgid "Remotely connect to another computer running NVDA Remote Access"
-msgstr "连接到另一台运行 NVDA 远程的计算机"
-
-#. Translators: Menu item in NVDA Remote submenu to disconnect from another computer running NVDA Remote Access.
-#: remoteClient\menu.py:42
-msgid "Disconnect"
-msgstr "断开(&D)"
-
-#. Translators: Tooltip for the Disconnect menu item in the NVDA Remote submenu.
-#: remoteClient\menu.py:44
-msgid "Disconnect from another computer running NVDA Remote Access"
-msgstr "与另一台运行 NVDA 远程的计算机断开连接"
-
 #. Translators: Menu item in NvDA Remote submenu to mute speech and sounds from the remote computer.
-#: remoteClient\menu.py:55
+#: remoteClient\menu.py:31
 msgid "Mute remote"
 msgstr "远程静音(&M)"
 
 #. Translators: Tooltip for the Mute Remote menu item in the NVDA Remote submenu.
-#: remoteClient\menu.py:57
+#: remoteClient\menu.py:33
 msgid "Mute speech and sounds from the remote computer"
 msgstr "静音来自远程计算机的语音和声音"
 
 #. Translators: Menu item in NVDA Remote submenu to push clipboard content to the remote computer.
-#: remoteClient\menu.py:65
+#: remoteClient\menu.py:41
 msgid "&Push clipboard"
 msgstr "发送剪贴板内容(&P)"
 
 #. Translators: Tooltip for the Push Clipboard menu item in the NVDA Remote submenu.
-#: remoteClient\menu.py:67
+#: remoteClient\menu.py:43
 msgid "Push the clipboard to the other machine"
 msgstr "将剪贴板内容发送到对方计算机的剪贴板"
 
 #. Translators: Menu item in NVDA Remote submenu to copy a link to the current session.
-#: remoteClient\menu.py:78
+#: remoteClient\menu.py:54
 msgid "Copy &link"
 msgstr "复制链接(&L)"
 
 #. Translators: Tooltip for the Copy Link menu item in the NVDA Remote submenu.
-#: remoteClient\menu.py:80
+#: remoteClient\menu.py:56
 msgid "Copy a link to the remote session"
 msgstr "复制连接到远程计算机的链接"
 
 #. Translators: Menu item in NVDA Remote submenu to send Control+Alt+Delete to the remote computer.
 #. Translators: Tooltip for the Send Ctrl+Alt+Del menu item in the NVDA Remote submenu.
-#: remoteClient\menu.py:91 remoteClient\menu.py:93
+#: remoteClient\menu.py:67 remoteClient\menu.py:69
 msgid "Send Ctrl+Alt+Del"
 msgstr "发送 Ctrl+Alt+Del(&S)"
 
 #. Translators: Label of menu in NVDA tools menu.
-#: remoteClient\menu.py:104
+#: remoteClient\menu.py:80
 msgid "R&emote"
 msgstr "远程(&E)"
 
 #. Translators: Tooltip for the Remote menu in the NVDA Tools menu.
-#: remoteClient\menu.py:106
+#: remoteClient\menu.py:82
 msgid "NVDA Remote Access"
 msgstr "NVDA 远程访问"
+
+#. Translators: Item in NVDA Remote submenu to connect to a remote computer.
+#: remoteClient\menu.py:155
+msgid "Connect..."
+msgstr "连接(&C)..."
+
+#. Translators: Tooltip for the Connect menu item in the NVDA Remote submenu.
+#: remoteClient\menu.py:157
+msgid "Remotely connect to another computer running NVDA Remote Access"
+msgstr "连接到另一台运行 NVDA 远程的计算机"
+
+#. Translators: Menu item in NVDA Remote submenu to disconnect from another computer running NVDA Remote Access.
+#: remoteClient\menu.py:172
+msgid "Disconnect"
+msgstr "断开(&D)"
+
+#. Translators: Tooltip for the Disconnect menu item in the NVDA Remote submenu.
+#: remoteClient\menu.py:174
+msgid "Disconnect from another computer running NVDA Remote Access"
+msgstr "与另一台运行 NVDA 远程的计算机断开连接"
 
 #. Translators: Message for version mismatch
 #: remoteClient\session.py:159
