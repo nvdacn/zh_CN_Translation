@@ -17,6 +17,7 @@ concurrency:
 jobs:
   Check-NVDA-Repository-Update:
     name: Check NVDA repository update
+    if: github.repository == 'nvdacn/zh_CN_Translation'
     runs-on: ubuntu-latest
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
