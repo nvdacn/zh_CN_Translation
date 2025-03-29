@@ -11,6 +11,7 @@ on:
 jobs:
 
   Pull-Request-To-NVDA:
+    if: github.repository == 'nvdacn/zh_CN_Translation'
     runs-on: ubuntu-latest
     env:
 #      BaseOwner: nvaccess
