@@ -11,6 +11,8 @@ on:
 jobs:
 
   Process-Translations:
+    name: Upload translation to Crowdin
+    if: github.repository == 'nvdacn/zh_CN_Translation'
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
