@@ -11,6 +11,7 @@ on:
 jobs:
 
   Pull-Request-To-NVDA:
+    name: Pull Request to NVDA
     # if: github.repository == 'nvdacn/zh_CN_Translation'
     if: github.repository == 'wmhn1872265132/zh_CN_Translation'
     runs-on: ubuntu-latest
