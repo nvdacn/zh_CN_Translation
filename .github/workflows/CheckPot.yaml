@@ -76,7 +76,7 @@ jobs:
         shell: pwsh
         run: |
           cd "${{ github.workspace }}/Tools/NVDA"
-          $commit = (git rev-parse --short HEAD).Trim()
+          $commit = (git rev-parse HEAD).Substring(0,8)
           echo "commit=$commit" >> $env:GITHUB_OUTPUT
           cd "${{ github.workspace }}"
           git config --global user.name "GitHub Actions"
