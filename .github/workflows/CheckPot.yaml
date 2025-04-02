@@ -22,14 +22,11 @@ jobs:
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
     steps:
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
       - name: Get current SHA
         id: get_current_sha
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -eo pipefail
           response=$(curl -sf -H "Authorization: Bearer $GITHUB_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/nvaccess/nvda/branches/master)
@@ -42,14 +39,15 @@ jobs:
         with:
           path: .sha_cache
           key: ${{ env.CACHE_KEY }}
+          lookup-only: true
       - name: Determine update status
         id: check_update
         run: |
           if [[ "${{ steps.cache_sha.outputs.cache-hit }}" == 'true' ]]; then
-            echo "::notice::Cache hit - no updates"
+            echo "Cache hit, no updates."
             echo "has_update=false" >> $GITHUB_OUTPUT
           else
-            echo "::notice::Cache miss - new updates"
+            echo "Cache miss, new updates."
             echo "has_update=true" >> $GITHUB_OUTPUT
             mkdir -p .sha_cache
             echo "${{ steps.get_current_sha.outputs.current_sha }}" > .sha_cache/latest_sha
