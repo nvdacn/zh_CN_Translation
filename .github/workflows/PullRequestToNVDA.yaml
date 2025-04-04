@@ -96,5 +96,6 @@ jobs:
               title: "Update symbols, gestures, character descriptions translation",
               head: "${{ env.HeadOwner }}:PullRequestToNVDA",
               base: "beta",
-              body: `${{ steps.template.outputs.result }}`
+              body: `${{ steps.template.outputs.result }}`,
+              draft: true
             });
