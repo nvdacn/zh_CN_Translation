@@ -39,6 +39,7 @@ jobs:
         run: |
           cd "$ZHCNPath"
           git remote add NVDACN https://github.com/${{ env.HeadOwner }}/nvda.git
+          git config --global core.autocrlf false
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git switch -c PullRequestToNVDA origin/beta
