@@ -50,7 +50,9 @@ beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L
    - 应使用Squash and merge 进行合并。
    - PR 完成后还需将 `main` 合并回 `Uploads`。
 5. 仅可使用该功能上传 NVDA beta 开发周期的翻译。
-6. 请勿频繁推送 `Translation/miscDeps` 文件夹中的翻译到 `Uploads` 分支，如需多次修改，应在其他分支修改完成后，在将其合并回此分支。
+6. 当推送 `Translation/miscDeps` 文件夹中的翻译到 `Uploads` 分支时，GitHub Actions 会自动在 nvaccess/nvda 存储库的 beta分支创建Pull request。
+   - PR 初始为 Draft 状态，此时仍可向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
+   - 当准备让 NV Access合并这些更改到 NVDA 时，请通知 nvdacn/nvda 存储库的维护者或 NV Access 将 PR 标记为 Ready for review，在此之后不应再向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
 
 ### L10nUtilTools.bat 的使用说明
 
