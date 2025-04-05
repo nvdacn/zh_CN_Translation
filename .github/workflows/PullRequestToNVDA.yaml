@@ -93,7 +93,7 @@ jobs:
             await github.rest.pulls.create({
               owner: "${{ env.BaseOwner }}",
               repo: "nvda",
-              title: "Update symbols, gestures, character descriptions translation",
+              title: "Updated the symbols, gestures, character descriptions files in Simplified Chinese",
               head: "${{ env.HeadOwner }}:PullRequestToNVDA",
               base: "beta",
               body: `${{ steps.template.outputs.result }}`,
