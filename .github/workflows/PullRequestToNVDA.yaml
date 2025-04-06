@@ -8,7 +8,6 @@ on:
       - 'Translation/miscDeps/*'
 
 jobs:
-
   Pull-Request-To-NVDA:
     name: Pull Request to NVDA
     if: github.repository == 'nvdacn/zh_CN_Translation'
