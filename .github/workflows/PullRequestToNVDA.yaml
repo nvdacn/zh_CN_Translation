@@ -39,12 +39,10 @@ jobs:
         run: |
           cd "$ZHCNPath"
           echo "Current directory: $(pwd)"
-          echo "Adding NVDACN remote..."
+          echo "Configuring git..."
           git remote add NVDACN https://github.com/${{ env.HeadOwner }}/nvda.git
-          echo "Configuring git user..."
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          echo "Creating PullRequestToNVDA branch..."
           git switch -c PullRequestToNVDA origin/beta
           echo "Current branch: $(git branch --show-current)"
           for f in \
@@ -56,7 +54,6 @@ jobs:
             if [ -f "$ZHCNPath/$f" ]; then
               rm -f "$ZHCNPath/$f"
             fi
-            echo "Copying from: $miscDepsPath/$f"
             cp -v "$miscDepsPath/$f" "$ZHCNPath/"
             git add "$ZHCNPath/$f"
           done
@@ -97,7 +94,8 @@ jobs:
         with:
           github-token: ${{ secrets.PULLREQUESTTONVDA }}
           script: |
-            await github.rest.pulls.create({
+            console.log('Creating new PR...');
+            const prParams = {
               owner: "${{ env.BaseOwner }}",
               repo: "nvda",
               title: "Updated the symbols, gestures, character descriptions files in Simplified Chinese",
@@ -105,7 +103,7 @@ jobs:
               base: "beta",
               body: `${{ steps.template.outputs.result }}`,
               draft: true
-            });
+            };
             const response = await github.rest.pulls.create(prParams);
             console.log(`Created PR #${response.data.number}: ${response.data.html_url}`);
             console.log("PR draft status:", response.data.draft);
