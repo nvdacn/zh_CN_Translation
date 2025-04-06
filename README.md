@@ -47,10 +47,10 @@ beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L
 3. 拉取 `Uploads` 分支到本地仓库，请勿在拉取远程 `Uploads` 分支前向本地 `Uploads` 分支提交新的翻译更改，以避免合并冲突。
 4. 当推送 `Translation/miscDeps` 文件夹中的翻译到 `Uploads` 分支时，GitHub Actions 会自动在 nvaccess/nvda 存储库的 beta分支创建Pull request。
    - PR 初始为 Draft 状态，此时仍可向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
-   - 当准备让 NV Access 合并这些更改到 NVDA 时，请通知 nvdacn/nvda 存储库的维护者或 NV Access 将 PR 标记为 Ready for review，在此之后不应再向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
+   - 当准备让 NV Access 合并这些更改到 NVDA 时，请通知 PR 的作者或 NV Access 将 PR 标记为 Ready for review，在此之后不应再向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
 5. 仅可使用该功能上传 NVDA beta 开发周期的翻译。
-6. 当到达 NV Access 宣布的 Translatable string freeze 日期后，除非 NV Access 需要发布另一个 NVDA 的 rc 版本，否则不应再向 `Uploads` 分支推送任何更改，同时请通过 GitHUB 打开将 `Uploads` 合并到 `main` 的 Pull request，并在翻译进入 NVDA 的稳定版本后合并该 PR。
-   - 如有其他更改，请将其推送到 alpha 开发周期的 `version_year.version_major` 分支。
+6. 当到达 NV Access 宣布的 Translatable string freeze 时间后，除非 NV Access 宣布延长 Translatable string freeze 的时间，否则不应再向 `Uploads` 分支推送任何翻译更改，同时请通过 GitHUB 打开将 `Uploads` 合并到 `main` 的 Pull request，并在翻译进入 NVDA 的稳定版本后合并该 PR。
+   - 如在 Translatable string freeze 后有其他翻译更改，请将其推送到适用于 alpha 开发周期的 `version_year.version_major` 分支。
    - 应以 `YYYY.X翻译` 命名合并到 `main` 的 Pull request。
    - 应使用Squash and merge 进行合并。
    - PR 完成后还需将 `main` 合并回 `Uploads`，以避免合并冲突。
