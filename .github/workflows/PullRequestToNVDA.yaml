@@ -4,22 +4,18 @@ on:
   push:
     branches:
       - "Uploads"
-      - "miscDepsTest"
-#    paths:
-#      - 'Translation/miscDeps/*'
+    paths:
+      - 'Translation/miscDeps/*'
 
 jobs:
 
   Pull-Request-To-NVDA:
     name: Pull Request to NVDA
-    # if: github.repository == 'nvdacn/zh_CN_Translation'
-    if: github.repository == 'wmhn1872265132/zh_CN_Translation'
+    if: github.repository == 'nvdacn/zh_CN_Translation'
     runs-on: ubuntu-latest
     env:
-#      BaseOwner: nvaccess
-      BaseOwner: wmhn1872265132
-#      HeadOwner: nvdacn
-      HeadOwner: wmhn1872265132
+      BaseOwner: nvaccess
+      HeadOwner: nvdacn
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v4
