@@ -54,7 +54,8 @@ jobs:
             if [ -f "$ZHCNPath/$f" ]; then
               rm -f "$ZHCNPath/$f"
             fi
-            cp -v "$miscDepsPath/$f" "$ZHCNPath/"
+            echo "Copying from: $miscDepsPath/$f"
+            cp -f "$miscDepsPath/$f" "$ZHCNPath/"
             git add "$ZHCNPath/$f"
           done
           git commit -m "Update translations"
