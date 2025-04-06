@@ -12,8 +12,7 @@ on:
     branches:
       - "*"
     paths:
-      - 'Translation/LC_MESSAGES/*.po'
-      - 'Translation/user_docs/*.xliff'
+      - 'Translation/**'
   workflow_dispatch:
 
 jobs:
@@ -23,7 +22,7 @@ jobs:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v4
       - name: Install dependencies
-        uses: ./.github/InstallDependencies
+        uses: ./.github/workflows/InstallDependencies
       - run: ${{ github.workspace }}/L10nUtilTools.bat BD_TEST
       - name: Upload Output
         uses: actions/upload-artifact@v4

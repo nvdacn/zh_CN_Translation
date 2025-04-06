@@ -125,6 +125,9 @@ Rem 生成NVDA翻译目录结构
 IF EXIST "%~dp0Preview\Test" (rd /s /q "%~dp0Preview\Test")
 MKDir "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES"
 MKLINK /H "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES\nvda.mo" "%~dp0Preview\nvda.mo"
+MKLINK /H "%~dp0Preview\Test\locale\zh_CN\characterDescriptions.dic" "%~dp0Translation\miscDeps\characterDescriptions.dic"
+MKLINK /H "%~dp0Preview\Test\locale\zh_CN\gestures.ini" "%~dp0Translation\miscDeps\gestures.ini"
+MKLINK /H "%~dp0Preview\Test\locale\zh_CN\symbols.dic" "%~dp0Translation\miscDeps\symbols.dic"
 MKDir "%~dp0Preview\Test\documentation\zh_CN"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\numberedHeadings.css" "%~dp0Preview\numberedHeadings.css"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\styles.css" "%~dp0Preview\styles.css"
