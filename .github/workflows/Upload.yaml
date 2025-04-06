@@ -9,7 +9,6 @@ on:
       - 'Translation/user_docs/*.xliff'
 
 jobs:
-
   Process-Translations:
     name: Upload translation to Crowdin
     if: github.repository == 'nvdacn/zh_CN_Translation'
