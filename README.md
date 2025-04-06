@@ -18,7 +18,7 @@
 ### alpha 开发周期的翻译
 
 可在 `version_year.version_major` 分支提前翻译 alpha 开发周期的界面消息、手势、字符以及符号描述，修改或完善现有翻译，以供 alpha 测试。
-由于文档的翻译字符串必须由NV Access构建，在 alpha 开发周期将无法翻译。
+由于文档的翻译字符串必须由 NV Access 构建，在 alpha 开发周期将无法翻译。
 alpha 开发周期界面消息的翻译字符串将由 GitHub Actions 在满足下列条件时从 NVDA 源代码自动更新：
 - 推送到 `version_year.version_major` 分支的提交且修改了 `nvda.po` 文件
 - 每天 11:30(UTC)
