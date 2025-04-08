@@ -5407,7 +5407,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This release introduces NVDA Remote Access, allowing you to control a remote computer running NVDA from another device running NVDA.</source>
         <target>此版本引入了 NVDA 远程访问功能，支持您通过一台运行 NVDA 的设备远程操控另一台运行 NVDA 的计算机。</target>
       </segment>
@@ -5416,7 +5416,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>There are many improvements to speech, particularly responsiveness with SAPI 4, SAPI 5 and OneCore voices.</source>
         <target>语音模块迎来多项改进，显著提升了 SAPI 4、SAPI 5 和 OneCore 语音的响应速度。</target>
       </segment>
@@ -5425,7 +5425,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Rate boost and automatic language switching is now supported in SAPI 5.</source>
         <target>SAPI 5 现在支持语速加倍和自动语言切换。</target>
       </segment>
@@ -5434,7 +5434,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>SAPI 4 voices now support audio ducking, leading silence trimming, and keeping the audio device awake.</source>
         <target>SAPI 4 语音现支持音频闪避、去除语音开头的静音及保持音频设备唤醒。</target>
       </segment>
@@ -5443,7 +5443,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The Add-on Store's automatic update system has been improved, allowing you to select channels for automatic updates, and run automatic updates in the background.</source>
         <target>插件商店的自动更新系统已改进，允许您选择自动更新通道并在后台运行自动更新。</target>
       </segment>
@@ -5452,7 +5452,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It's now easier to manually refresh OCR and toggle automatic refresh, with new commands.</source>
         <target>现在通过新命令可以更轻松地手动刷新 OCR 识别结果、切换自动刷新的开关。</target>
       </segment>
@@ -5461,7 +5461,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Native selection is now available in Chrome and Edge.</source>
         <target>Chrome 和 Edge 浏览器现在支持应用原生选择。</target>
       </segment>
@@ -5470,7 +5470,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Microsoft Office and LibreOffice support has improved, notably with more shortcuts being announced.</source>
         <target>Microsoft Office 和 LibreOffice 支持已改进，特别是可反馈更多快捷键的操作结果。</target>
       </segment>
@@ -5479,7 +5479,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Default input and output braille tables can now be determined based on the NVDA language.</source>
         <target>现在可以根据 NVDA 语言确定默认的输入和输出盲文表。</target>
       </segment>
@@ -5488,7 +5488,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 21</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Native support has been added for the Dot Pad tactile graphics device from Dot Inc as a multiline braille display.</source>
         <target>新增对 Dot Inc 公司的 Dot Pad 触觉图形设备作为多行盲文点显器的原生支持。</target>
       </segment>
@@ -5497,7 +5497,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>There have been other minor fixes for braille displays, particularly around connectivity.</source>
         <target>盲文点显器还有其他小修复，特别是在连接性方面。</target>
       </segment>
@@ -5506,7 +5506,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 24</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>LibLouis braille translator, eSpeak-NG and Unicode CLDR have been updated.</source>
         <target>LibLouis 盲文翻译器、eSpeak-NG 和 Unicode CLDR 已更新。</target>
       </segment>
@@ -5515,7 +5515,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 25</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>New Coptic, compact Cuneiform, and Portuguese 6 dot Computer Braille tables are available.</source>
         <target>新增科普特语、紧凑型楔形文字和葡萄牙语 6 点计算机盲文表。</target>
       </segment>
@@ -5564,7 +5564,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Prevents showing potentially sensitive information on braille displays when the device is locked.</source>
         <target>防止设备锁定时在点显器上显示潜在的敏感信息。</target>
       </segment>
@@ -5583,7 +5583,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Prevents the installer from loading unwanted DLLs from its directory.</source>
         <target>防止安装程序从其目录加载不需要的 DLL 文件。</target>
       </segment>
