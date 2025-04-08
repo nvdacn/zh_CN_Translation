@@ -17137,7 +17137,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1764</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>exit</source>
         <target>退出</target>
       </segment>
@@ -17147,7 +17147,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1765</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>restart</source>
         <target>重启</target>
       </segment>
@@ -17157,7 +17157,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1766</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>restart with add-ons disabled and debug logging enabled</source>
         <target>重启、禁用插件并启用调试日志记录</target>
       </segment>
@@ -17167,7 +17167,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1767</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>restart with debug logging enabled</source>
         <target>重启并启用调试日志记录</target>
       </segment>
@@ -17177,7 +17177,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1768</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>install pending updates (if any).</source>
         <target>安装之前推迟的更新（如有）。</target>
       </segment>
@@ -17742,9 +17742,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1856</note>
       </notes>
-      <segment>
+      <segment state="initial">
         <source>This option is enabled by default.</source>
-        <target/>
+        <target>This option is enabled by default.</target>
       </segment>
     </unit>
     <unit id="4b258b12-7c8a-4691-bfc1-858ad4063732">
@@ -18356,7 +18356,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Options |Default (Enabled), Enabled, Disabled</source>
         <target>选项 | 默认（启用）、启用、禁用</target>
       </segment>
@@ -18367,7 +18367,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Default |Enabled</source>
         <target>默认 | 启用</target>
       </segment>
@@ -24900,7 +24900,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source> Option | Behaviour </source>
         <target> 选项 | 行为 </target>
       </segment>
@@ -29665,7 +29665,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source> Option | Behaviour </source>
         <target> 选项 | 行为 </target>
       </segment>
@@ -41721,7 +41721,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source> Short |Long |Description</source>
         <target> 短版本 | 长版本 | 描述</target>
       </segment>
