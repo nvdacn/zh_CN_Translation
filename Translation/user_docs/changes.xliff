@@ -5398,7 +5398,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>2025.1</source>
         <target>2025.1</target>
       </segment>
@@ -5525,7 +5525,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Important notes</source>
         <target>重要提示</target>
       </segment>
@@ -5535,7 +5535,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This release breaks compatibility with existing add-ons.</source>
         <target>这是一个打破插件 API 兼容性的版本。</target>
       </segment>
@@ -5545,7 +5545,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Security Fixes</source>
         <target>安全修复</target>
       </segment>
@@ -5554,7 +5554,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 33</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</source>
         <target>请遵循 [NVDA 的 安全政策](https://github.com/nvaccess/nvda/blob/master/security.md)负责任地披露安全问题。</target>
       </segment>
@@ -5573,7 +5573,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 36</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>([GHSA-8f8q-2jc3-6rf4](https://github.com/nvaccess/nvda/security/advisories/GHSA-8f8q-2jc3-6rf4))</source>
         <target>([GHSA-8f8q-2jc3-6rf4](https://github.com/nvaccess/nvda/security/advisories/GHSA-8f8q-2jc3-6rf4))</target>
       </segment>
@@ -5592,7 +5592,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 38</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>([GHSA-qf5h-qw92-rx2f](https://github.com/nvaccess/nvda/security/advisories/GHSA-qf5h-qw92-rx2f))</source>
         <target>([GHSA-qf5h-qw92-rx2f](https://github.com/nvaccess/nvda/security/advisories/GHSA-qf5h-qw92-rx2f))</target>
       </segment>
@@ -5602,7 +5602,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>New Features</source>
         <target>新特性</target>
       </segment>
@@ -5612,7 +5612,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Add-on Store:</source>
         <target>插件商店：</target>
       </segment>
@@ -5622,7 +5622,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Automatic updates (#3208):</source>
         <target>自动更新 (#3208)：</target>
       </segment>
@@ -5732,7 +5732,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech:</source>
         <target>语音：</target>
       </segment>
@@ -5762,7 +5762,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Web browsers:</source>
         <target>Web 浏览器：</target>
       </segment>
@@ -5802,7 +5802,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Microsoft Office:</source>
         <target>Microsoft Office：</target>
       </segment>
@@ -5892,7 +5892,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>LibreOffice:</source>
         <target>LibreOffice：</target>
       </segment>
@@ -5942,7 +5942,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>OCR:</source>
         <target>OCR：</target>
       </segment>
@@ -6071,7 +6071,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Changes</source>
         <target>改进</target>
       </segment>
@@ -6081,7 +6081,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Component updates:</source>
         <target>组件更新：</target>
       </segment>
@@ -6091,7 +6091,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Updated LibLouis Braille translator to [3.33.0](https://github.com/liblouis/liblouis/releases/tag/v3.33.0). (#17469, #17768, @LeonarddeR, @codeofdusk)</source>
         <target>将 LibLouis 盲文翻译器更新到 [3.33.0](https://github.com/liblouis/liblouis/releases/tag/v3.33.0)。 (#17469, #17768, @LeonarddeR, @codeofdusk)</target>
       </segment>
@@ -6111,7 +6111,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Updated CLDR to version 46.0. (#17484, @OzancanKaratas)</source>
         <target>将 CLDR 更新到版本 46.0。 (#17484, @OzancanKaratas)</target>
       </segment>
@@ -6121,7 +6121,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Updated eSpeak NG to 1.52.0. (#17056)</source>
         <target>将 eSpeak NG 更新到1.52.0。 (#17056)</target>
       </segment>
@@ -6280,7 +6280,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech:</source>
         <target>语音：</target>
       </segment>
@@ -6379,7 +6379,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Bug Fixes</source>
         <target>错误修复</target>
       </segment>
@@ -6389,7 +6389,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 124</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech:</source>
         <target>语音：</target>
       </segment>
@@ -6429,7 +6429,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 128</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Braille:</source>
         <target>盲文：</target>
       </segment>
@@ -6499,7 +6499,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 135</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Microsoft Office:</source>
         <target>Microsoft Office：</target>
       </segment>
@@ -6569,7 +6569,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 142</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>LibreOffice:</source>
         <target>LibreOffice：</target>
       </segment>
@@ -6599,7 +6599,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 145</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Math:</source>
         <target>数学：</target>
       </segment>
@@ -6638,9 +6638,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 149</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="initial">
         <source>IDEs:</source>
-        <target/>
+        <target>IDEs:</target>
       </segment>
     </unit>
     <unit id="db91d511-8f43-41ce-83dd-2fd6ddf9ddf5">
@@ -6847,7 +6847,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 171</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Changes for Developers</source>
         <target>开发者需要了解的变化</target>
       </segment>
@@ -6856,7 +6856,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 173</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please refer to [the developer guide](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
         <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API)。</target>
       </segment>
@@ -6866,7 +6866,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 175</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Note: this is an Add-on API compatibility breaking release.</source>
         <target>注意：此版本会影响插件的 API 兼容性。</target>
       </segment>
@@ -6875,7 +6875,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 176</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Add-ons will need to be re-tested and have their manifest updated.</source>
         <target>需要重新测试插件并更新其清单文件。</target>
       </segment>
@@ -6885,7 +6885,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 177</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Component updates:</source>
         <target>组件更新：</target>
       </segment>
@@ -7373,7 +7373,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 227</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>API Breaking Changes</source>
         <target>API 重大变更</target>
       </segment>
@@ -7382,7 +7382,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 229</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>These are breaking API changes.</source>
         <target>以下是一些会破坏现有插件兼容性的 API 改动。</target>
       </segment>
@@ -7391,7 +7391,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 230</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please open a GitHub issue if your add-on has an issue with updating to the new API.</source>
         <target>如果您的插件在更新到新 API 后出现问题，请随时在 GitHub 上提交 issue 报告。</target>
       </segment>
@@ -8680,7 +8680,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 391</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please refer to [the developer guide](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
         <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API)。</target>
       </segment>
