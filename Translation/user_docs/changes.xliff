@@ -5774,7 +5774,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA browse mode's native selection mode (`NVDA+shift+f10`) is now supported in Google Chrome, Edge and other applications based on Chromium 134 or newer. (#17838)</source>
-        <target>现在 Google Chrome、Edge 和其他基于 Chromium 134+的 应用程序支持 NVDA 浏览模式的应用原生选择（`NVDA+shift+f10`）。 (#17838)</target>
+        <target>现在 Google Chrome、Edge 和其他基于 Chromium 134 及更高版本的 应用程序支持 NVDA 浏览模式的应用原生选择（`NVDA+shift+f10`）。 (#17838)</target>
       </segment>
     </unit>
     <unit id="7552ea32-24b9-4dcd-b150-1e8716c4526a">
@@ -6101,9 +6101,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Added new Coptic, compact Cuneiform, and Portuguese 6 dot Computer Braille tables.</source>
-        <target>Added new Coptic, compact Cuneiform, and Portuguese 6 dot Computer Braille tables.</target>
+        <target>新增了科普特语、紧凑型楔形文字和葡萄牙语 6 点计算机盲文表。</target>
       </segment>
     </unit>
     <unit id="d12bb1e7-b918-4a4b-bc3c-2741d0300e04">
@@ -6131,9 +6131,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA interface changes:</source>
-        <target>NVDA interface changes:</target>
+        <target>NVDA 界面更改：</target>
       </segment>
     </unit>
     <unit id="1b3da822-fecb-4fcc-a6e0-3bc9835044d2">
@@ -6141,9 +6141,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The NVDA installer no longer plays a sound when launched. (#14068)</source>
-        <target>The NVDA installer no longer plays a sound when launched. (#14068)</target>
+        <target>NVDA 安装程序启动时不再播放提示音。 (#14068)</target>
       </segment>
     </unit>
     <unit id="5ad9fa28-2b9e-41e3-8442-1f0a67ebb0ee">
@@ -6151,9 +6151,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Report link destination, Character formatting information, and Speak selection dialogs, now include "Close" and "Copy" buttons for user convenience. (#17018, @XLTechie)</source>
-        <target>The Report link destination, Character formatting information, and Speak selection dialogs, now include "Close" and "Copy" buttons for user convenience. (#17018, @XLTechie)</target>
+        <target>“读出链接网址”、“读出字符格式信息”和“读出选中文本”的浏览模式对话框新增了“关闭”和“复制”按钮以提升用户体验。 (#17018, @XLTechie)</target>
       </segment>
     </unit>
     <unit id="fa7acb79-4053-4977-95ba-445e5b387810">
@@ -6161,9 +6161,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The exit dialog now allows you to restart NVDA with add-ons disabled and debug logging enabled simultaneously. (#11538, @CyrilleB79)</source>
-        <target>The exit dialog now allows you to restart NVDA with add-ons disabled and debug logging enabled simultaneously. (#11538, @CyrilleB79)</target>
+        <target>退出对话框现在允许您同时禁用插件并启用调试日志记录来重启 NVDA。 (#11538, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="7839f993-b9c1-412c-8762-7714e10a0fca">
@@ -6171,9 +6171,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The ability to opt out of using WASAPI for audio output has been removed. (#16080)</source>
-        <target>The ability to opt out of using WASAPI for audio output has been removed. (#16080)</target>
+        <target>移除了禁用 WASAPI 音频输出的选项。 (#16080)</target>
       </segment>
     </unit>
     <unit id="d56c1743-5cef-4c98-8d70-0b5269341b13">
@@ -6181,9 +6181,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Browse Mode setting "Automatically set system focus to focusable elements" has been removed, the behaviour is now disabled. (#17598)</source>
-        <target>The Browse Mode setting "Automatically set system focus to focusable elements" has been removed, the behaviour is now disabled. (#17598)</target>
+        <target>移除了浏览模式设置中的自动将焦点跳转到可聚焦元素，该功能现已默认关闭。 (#17598)</target>
       </segment>
     </unit>
     <unit id="519deeb7-3110-4fe9-baa9-60c20f8c0fda">
@@ -6191,9 +6191,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA will now only warn about add-on incompatibility when updating to a new version which has an incompatible add-on API to the current version. (#17071, #17506)</source>
-        <target>NVDA will now only warn about add-on incompatibility when updating to a new version which has an incompatible add-on API to the current version. (#17071, #17506)</target>
+        <target>仅当更新到与当前版本存在插件 API 不兼容的新版本时，NVDA 才会发出插件兼容性警告。 (#17071, #17506)</target>
       </segment>
     </unit>
     <unit id="d6bc00a2-40d6-4316-8a39-5e0b81278f82">
@@ -6201,9 +6201,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The "Contributors" file has been removed from the NVDA menu. (#16922)</source>
-        <target>The "Contributors" file has been removed from the NVDA menu. (#16922)</target>
+        <target>从 NVDA 菜单中移除了贡献者名单文件。 (#16922)</target>
       </segment>
     </unit>
     <unit id="cb59b6a8-57a4-4f6f-ac77-4d520c9df4d7">
@@ -6211,9 +6211,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The NVDA license is now formatted in HTML to improve readability. (#17600)</source>
-        <target>The NVDA license is now formatted in HTML to improve readability. (#17600)</target>
+        <target>NVDA 许可协议现以 HTML 格式呈现以提升可读性。 (#17600)</target>
       </segment>
     </unit>
     <unit id="9744aaf4-2f83-4811-8c3f-391441f2e576">
@@ -6221,18 +6221,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Short versions of the most commonly used command line options have been added: `-d` for `--disable-addons` and `-n` for `--lang`.</source>
-        <target>Short versions of the most commonly used command line options have been added: `-d` for `--disable-addons` and `-n` for `--lang`.</target>
+        <target>新增常用命令行选项的短版本：`-d` 对应 `--disable-addons`，`-n` 对应 `--lang`。</target>
       </segment>
     </unit>
     <unit id="8e7eaf8a-0ff7-4b81-81c7-ed8b64310430">
       <notes>
         <note appliesTo="source">line: 106</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  Prefix matching on command line flags, e.g. using `--di` for `--disable-addons` is no longer supported. (#11644, @CyrilleB79)</source>
-        <target>  Prefix matching on command line flags, e.g. using `--di` for `--disable-addons` is no longer supported. (#11644, @CyrilleB79)</target>
+        <target>  命令行参数的前缀匹配功能（例如用 `--di` 代替 `--disable-addons`）已废弃。. (#11644, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="09f5159c-e564-4c0c-ae93-236426e2611e">
@@ -6240,9 +6240,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 107</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changes to the COM Registration Fixing Tool: (#12355, @XLTechie)</source>
-        <target>Changes to the COM Registration Fixing Tool: (#12355, @XLTechie)</target>
+        <target>COM 注册修复工具的改进： (#12355, @XLTechie)</target>
       </segment>
     </unit>
     <unit id="8b103fe2-ab34-4ffc-874d-b1ea53deeed2">
@@ -6250,9 +6250,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It now starts with a more user friendly explanation of its purpose, instead of a warning. (#12351)</source>
-        <target>It now starts with a more user friendly explanation of its purpose, instead of a warning. (#12351)</target>
+        <target>启动时改为显示功能说明而非警告提示。 (#12351)</target>
       </segment>
     </unit>
     <unit id="2c56759e-6b61-46b5-bb66-57a479d3f605">
@@ -6260,9 +6260,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The initial window can now be exited with `escape` or `alt+f4`. (#10799)</source>
-        <target>The initial window can now be exited with `escape` or `alt+f4`. (#10799)</target>
+        <target>初始窗口现可通过 `Esc` 或 `Alt+F4` 关闭。 (#10799)</target>
       </segment>
     </unit>
     <unit id="cd250a21-9a77-4b81-abc9-f6cce5e2f291">
@@ -6270,9 +6270,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It will now show a message to the user, including the error, in the rare event of a Windows error while attempting COM re-registrations.</source>
-        <target>It will now show a message to the user, including the error, in the rare event of a Windows error while attempting COM re-registrations.</target>
+        <target>在极少数 COM 重新注册失败时，会向用户显示包含错误信息的提示。</target>
       </segment>
     </unit>
     <unit id="e1050bc6-e452-41bd-a89b-58ac172db3aa">
@@ -6290,9 +6290,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 112</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Microsoft Speech API version 5 and Microsoft Speech Platform voices now use WASAPI for audio output, which may improve the responsiveness of those voices. (#13284, @gexgd0419)</source>
-        <target>Microsoft Speech API version 5 and Microsoft Speech Platform voices now use WASAPI for audio output, which may improve the responsiveness of those voices. (#13284, @gexgd0419)</target>
+        <target>Microsoft Speech API version 5 和 Microsoft Speech Platform 语音现使用 WASAPI 输出音频，这可能会提升这些语音的响应速度。 (#13284, @gexgd0419)</target>
       </segment>
     </unit>
     <unit id="a9afde68-7a6e-424b-95ea-b86866255b31">
@@ -6300,9 +6300,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The silence at the beginning of speech will now be trimmed when using OneCore voices, SAPI5 voices, and some third-party voice add-ons to improve their responsiveness. (#17614, @gexgd0419)</source>
-        <target>The silence at the beginning of speech will now be trimmed when using OneCore voices, SAPI5 voices, and some third-party voice add-ons to improve their responsiveness. (#17614, @gexgd0419)</target>
+        <target>使用 OneCore 语音、SAPI5 语音及部分第三方语音插件时，将自动去除语音开头的静音以提升响应速度。 (#17614, @gexgd0419)</target>
       </segment>
     </unit>
     <unit id="0a873354-387c-4e85-b171-0c058fcb4371">
@@ -6310,18 +6310,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 114</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Microsoft Speech API version 4 voices now use WASAPI for audio output, so that they can work with features such as audio ducking, leading silence trimming, and keeping audio device awake.</source>
-        <target>Microsoft Speech API version 4 voices now use WASAPI for audio output, so that they can work with features such as audio ducking, leading silence trimming, and keeping audio device awake.</target>
+        <target>Microsoft Speech API version 4 语音现默认使用 WASAPI 输出音频，以支持音频闪避、去除语音开头的静音和保持音频设备唤醒功能。</target>
       </segment>
     </unit>
     <unit id="f5726c36-3f52-4a94-b521-5ca8d0407364">
       <notes>
         <note appliesTo="source">line: 115</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  If this does not work with your SAPI 4 voice, you can disable WASAPI for SAPI 4 in Advanced settings. (#17718, #17801, @gexgd0419)</source>
-        <target>  If this does not work with your SAPI 4 voice, you can disable WASAPI for SAPI 4 in Advanced settings. (#17718, #17801, @gexgd0419)</target>
+        <target>  若您的 SAPI4 语音出现异常，可通过高级设置禁用 SAPI 4 使用 WASAPI 输出音频。 (#17718, #17801, @gexgd0419)</target>
       </segment>
     </unit>
     <unit id="1b73b9ff-e42e-4de7-95d6-167a2b5473f1">
@@ -6329,9 +6329,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 116</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Unicode Normalization is now enabled by default for speech output. (#17017, @LeonarddeR).</source>
-        <target>Unicode Normalization is now enabled by default for speech output. (#17017, @LeonarddeR).</target>
+        <target>语音输出的 Unicode 规范化现默认启用。 (#17017, @LeonarddeR).</target>
       </segment>
     </unit>
     <unit id="bf5e60fe-403b-4d9c-a09f-8c765c809d06">
@@ -6339,9 +6339,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can still disable this functionality in the Speech category of the NVDA Settings dialog.</source>
-        <target>You can still disable this functionality in the Speech category of the NVDA Settings dialog.</target>
+        <target>仍可在 NVDA 设置的“语音”类别中关闭此功能。</target>
       </segment>
     </unit>
     <unit id="d773445c-5dfc-4508-b807-70e923280634">
@@ -6349,9 +6349,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 118</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The keyboard settings for "Speak typed characters" and "Speak typed words" now have three options: Off, Only in edit controls, and Always. (#17505, @Cary-rowen)</source>
-        <target>The keyboard settings for "Speak typed characters" and "Speak typed words" now have three options: Off, Only in edit controls, and Always. (#17505, @Cary-rowen)</target>
+        <target>“读出输入字符”和“读出输入单词”的键盘设置现包含三个选项：关闭、仅在编辑控件中、始终。 (#17505, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="40802643-728a-4a88-a06c-ce4062fde34b">
@@ -6359,9 +6359,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, "Speak typed characters" is now set to "Only in edit controls".</source>
-        <target>By default, "Speak typed characters" is now set to "Only in edit controls".</target>
+        <target>“读出输入字符”的默认模式已更改为“仅在编辑控件中”。</target>
       </segment>
     </unit>
     <unit id="684378a3-2c36-43c7-bd73-5fb6088d09be">
@@ -6369,9 +6369,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 120</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Default input and output braille tables can now be determined based on the NVDA language. (#17306, #16390, #290, @nvdaes)</source>
-        <target>Default input and output braille tables can now be determined based on the NVDA language. (#17306, #16390, #290, @nvdaes)</target>
+        <target>默认盲文输入/输出表现可根据 NVDA 界面语言自动匹配。 (#17306, #16390, #290, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="7613c32c-b897-4cab-83ca-986b457f9c2c">
