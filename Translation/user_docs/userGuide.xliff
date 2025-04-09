@@ -6641,9 +6641,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 181</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A dialog box appears to confirm that the install of NVDA has been successful.</source>
-        <target>A dialog box appears to confirm that the install of NVDA has been successful.</target>
+        <target>弹出一个对话框，证实 NVDA 已经成功安装。</target>
       </segment>
     </unit>
     <unit id="93322b99-d687-406d-bca4-6b63b0b0fd22">
@@ -7167,9 +7167,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Speak typed characters |`NVDA+2` |`NVDA+2` |Controls when NVDA announces characters you type. </source>
-        <target>Speak typed characters |`NVDA+2` |`NVDA+2` |Controls when NVDA announces characters you type. </target>
+        <target>读出输入字符 |`NVDA+2` |`NVDA+2` |控制 NVDA 何时读出输入的字符。</target>
       </segment>
     </unit>
     <unit id="7bdd8d70-455c-410f-b0c7-697a0396b2c5">
@@ -7178,9 +7178,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Speak typed words |`NVDA+3` |`NVDA+3` |Controls when NVDA announces words you type. </source>
-        <target>Speak typed words |`NVDA+3` |`NVDA+3` |Controls when NVDA announces words you type. </target>
+        <target>读出输入单词 |`NVDA+3` |`NVDA+3` |控制 NVDA 何时读出输入的单词。</target>
       </segment>
     </unit>
     <unit id="9109e753-2205-4e8b-9054-6d39bb42d68c">
@@ -8227,9 +8227,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 389</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>We recommend starting with the "Basic Training for NVDA" module.</source>
-        <target>We recommend starting with the "Basic Training for NVDA" module.</target>
+        <target>我们推荐您从 Basic Training for NVDA 模块开始。</target>
       </segment>
     </unit>
     <unit id="35436243-99e1-4292-8f2e-5a4fbfbbcc02">
@@ -8557,9 +8557,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 440</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option allows you to choose whether or not NVDA should copy the user configuration from the currently running NVDA into the configuration for the currently logged on user, for the installed copy of NVDA.</source>
-        <target>This option allows you to choose whether or not NVDA should copy the user configuration from the currently running NVDA into the configuration for the currently logged on user, for the installed copy of NVDA.</target>
+        <target>这个选项允许您选择是否将用户配置从正在运行的 NVDA 拷贝到当前登录用户使用的安装版 NVDA。</target>
       </segment>
     </unit>
     <unit id="d2d4b592-2bca-4e3d-8291-25f4acb51531">
@@ -9220,9 +9220,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 537</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, NVDA is set to use the Desktop layout, though you can switch to the Laptop layout in the Keyboard category of the [NVDA Settings](#NVDASettings) dialog, found under Preferences in the NVDA menu.</source>
-        <target>By default, NVDA is set to use the Desktop layout, though you can switch to the Laptop layout in the Keyboard category of the [NVDA Settings](#NVDASettings) dialog, found under Preferences in the NVDA menu.</target>
+        <target>默认情况下，NVDA 使用的是台式机键盘布局，如果您希望切换到笔记本键盘布局，只需要在 “NVDA 菜单”中的“选项”子菜单下打开 [NVDA 设置](#NVDASettings)找到“键盘设置”即可进行切换。</target>
       </segment>
     </unit>
     <unit id="426f73e2-908a-4304-8923-faeb0606d1b0">
@@ -9399,9 +9399,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 568</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Tapping once with one finger is simply known as a tap.</source>
-        <target>Tapping once with one finger is simply known as a tap.</target>
+        <target>用一个手指轻击屏幕一次仅被简单的识别为一次点击。</target>
       </segment>
     </unit>
     <unit id="fa038863-bf8d-4c6d-bc5f-b8b29c4c05b3">
@@ -9677,9 +9677,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 614</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The actual commands will not execute while in input help mode.</source>
-        <target>The actual commands will not execute while in input help mode.</target>
+        <target>在输入帮助模式下，实际命令将不会被执行。</target>
       </segment>
     </unit>
     <unit id="5b656e18-099a-4c4e-bc1f-88541d27b734">
@@ -11333,9 +11333,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 861</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A good way to remember the basic text review commands when using the Desktop layout is to think of them as being in a grid of three by three, with top to bottom being line, word and character and left to right being previous, current and next.</source>
-        <target>A good way to remember the basic text review commands when using the Desktop layout is to think of them as being in a grid of three by three, with top to bottom being line, word and character and left to right being previous, current and next.</target>
+        <target>使用台式机布局时一个用来记住基本的文本查看命令的好方法就是把他们想象成一个三乘三的格子，从上到下依次是行、词、字，从左道右是上一个、当前、下一个。</target>
       </segment>
     </unit>
     <unit id="da7d30ee-9dd5-42da-9f0d-930cf1a80b1e">
@@ -12975,9 +12975,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Find text |NVDA+control+f |Opens the search dialog</source>
-        <target>Find text |NVDA+control+f |Opens the search dialog</target>
+        <target>查找 | NVDA+control+f | 弹出搜索对话框</target>
       </segment>
     </unit>
     <unit id="812c76e4-840b-4efb-aa15-01970e403b58">
@@ -12997,9 +12997,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Find previous |NVDA+shift+f3 |searches the previous occurrence of the current search term</source>
-        <target>Find previous |NVDA+shift+f3 |searches the previous occurrence of the current search term</target>
+        <target>查找上一个 | NVDA+shift+f3 | 在当前文档查找上一个您先前键入的文本的结果</target>
       </segment>
     </unit>
     <unit id="d337fba7-a786-4b8a-a727-857b09989837">
@@ -13122,9 +13122,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1135</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>However, NVDA has a Native Selection Mode which can be turned on in particular Browse Mode documents which can support it (Mozilla Firefox, and any browser based on Chromium 134 or newer) which causes the document's native selection to follow NVDA's Browse Mode selection.</source>
-        <target>However, NVDA has a Native Selection Mode which can be turned on in particular Browse Mode documents which can support it (Mozilla Firefox, and any browser based on Chromium 134 or newer) which causes the document's native selection to follow NVDA's Browse Mode selection.</target>
+        <target>但是，NVDA 有一个应用原生选择模式，可在特定的浏览模式文档（Mozilla Firefox 以及基于 Chromium 134或更高版本的浏览器）中打开该模式，从而使原生的文档选择遵循 NVDA 的浏览模式选择。</target>
       </segment>
     </unit>
     <unit id="0c220da6-bf37-40be-b1a7-95859acd96c7">
@@ -15322,9 +15322,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1435</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Pressing `NVDA+f5` refreshes the recognition result.</source>
-        <target>Pressing `NVDA+f5` refreshes the recognition result.</target>
+        <target>按 `NVDA+f5` 刷新识别结果。</target>
       </segment>
     </unit>
     <unit id="c88b0a53-dfd1-4ac2-ba45-0ff711243952">
@@ -15425,9 +15425,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1456</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA provides its own extra features for some applications to make certain tasks easier or to provide access to functionality which is not otherwise accessible to screen reader users.</source>
-        <target>NVDA provides its own extra features for some applications to make certain tasks easier or to provide access to functionality which is not otherwise accessible to screen reader users.</target>
+        <target>NVDA 为一些特定的应用程序提供了独有的额外特性，让您可以更加便捷更加高校的完成某些任务，还令某些其他屏幕阅读器用户无法访问的功能可用。</target>
       </segment>
     </unit>
     <unit id="2c227b4d-cc6c-4895-bb8d-1790e6f70e37">
@@ -15514,9 +15514,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set column headers |`NVDA+shift+c` |Pressing this once tells NVDA this is the first header cell in the row that contains column headers, which should be automatically announced when moving between columns below this row. Pressing twice will clear the setting.</source>
-        <target>Set column headers |`NVDA+shift+c` |Pressing this once tells NVDA this is the first header cell in the row that contains column headers, which should be automatically announced when moving between columns below this row. Pressing twice will clear the setting.</target>
+        <target>设置列标题 | NVDA+shift+c | 按一次，告诉 NVDA，这是包含列标题的行的第一个标题单元，当在其下方的列之间切换时，自动读出那一行的列标题，连按两次清除设置。</target>
       </segment>
     </unit>
     <unit id="7df7e116-2f47-41a3-8502-a69530a689f9">
@@ -15525,9 +15525,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set row headers |`NVDA+shift+r` |Pressing this once tells NVDA this is the first header cell in the column that contains row headers, which should be automatically announced when moving between rows after this column. Pressing twice will clear the setting.</source>
-        <target>Set row headers |`NVDA+shift+r` |Pressing this once tells NVDA this is the first header cell in the column that contains row headers, which should be automatically announced when moving between rows after this column. Pressing twice will clear the setting.</target>
+        <target>设置行标题 | NVDA+shift+r | 按一次，告诉 NVDA，这是包含行标题的列的第一个标题单元，当在其右方的行之间切换时，自动读出那一列的行标题，连按两次清除设置。</target>
       </segment>
     </unit>
     <unit id="10bbd711-e1a1-40b6-b0e3-9688c6f402dc">
@@ -15543,9 +15543,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1477</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This means that users of other screen readers who open this document at a later date will automatically have the row and column headers already set.</source>
-        <target>This means that users of other screen readers who open this document at a later date will automatically have the row and column headers already set.</target>
+        <target>这意味着，屏幕阅读器用户在后期打开这个文档时，使用其他屏幕阅读器也同样拥有设置好的行列标题。</target>
       </segment>
     </unit>
     <unit id="d06b4120-ae35-4acf-80d0-7be851a30919">
@@ -15648,9 +15648,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1500</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>All comments for the document, along with other tracked changes, can also be listed in the NVDA Elements List when selecting Annotations as the type.</source>
-        <target>All comments for the document, along with other tracked changes, can also be listed in the NVDA Elements List when selecting Annotations as the type.</target>
+        <target>文档的所有批注都可以在元素列表中进行查看，只要把类型选择为“标注”即可。</target>
       </segment>
     </unit>
     <unit id="f4e6005a-baa3-4526-8cd1-f7aa0211772e">
@@ -15728,9 +15728,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set column headers |`NVDA+shift+c` |Pressing this once tells NVDA this is the first header cell in the row that contains column headers, which should be automatically announced when moving between columns below this row. Pressing twice will clear the setting.</source>
-        <target>Set column headers |`NVDA+shift+c` |Pressing this once tells NVDA this is the first header cell in the row that contains column headers, which should be automatically announced when moving between columns below this row. Pressing twice will clear the setting.</target>
+        <target>设置列标题 | NVDA+shift+c | 按一次，告诉 NVDA，这是包含列标题的行的第一个标题单元，当在其下方的列之间切换时，自动读出那一行的列标题，连按两次清除设置。</target>
       </segment>
     </unit>
     <unit id="5282bfa7-d7bd-4f47-9100-a264111be39c">
@@ -15739,9 +15739,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set row headers |`NVDA+shift+r` |Pressing this once tells NVDA this is the first header cell in the column that contains row headers, which should be automatically announced when moving between rows after this column. Pressing twice will clear the setting.</source>
-        <target>Set row headers |`NVDA+shift+r` |Pressing this once tells NVDA this is the first header cell in the column that contains row headers, which should be automatically announced when moving between rows after this column. Pressing twice will clear the setting.</target>
+        <target>设置行标题 | NVDA+shift+r | 按一次，告诉 NVDA，这是包含行标题的列的第一个标题单元，当在其右方的行之间切换时，自动读出那一列的行标题，连按两次清除设置。</target>
       </segment>
     </unit>
     <unit id="9bc41658-168a-4b6c-8cb3-31e69e010c73">
@@ -15757,9 +15757,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1518</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This means that users of other screen readers who open this workbook at a later date will automatically have the row and column headers already set.</source>
-        <target>This means that users of other screen readers who open this workbook at a later date will automatically have the row and column headers already set.</target>
+        <target>这意味着，屏幕阅读器用户在后期打开这个工作簿时，使用其他屏幕阅读器也同样拥有设置好的行列标题。</target>
       </segment>
     </unit>
     <unit id="f9cd227a-e1f2-4109-b921-065a7f1d7c76">
@@ -17127,9 +17127,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1763</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When checked, a dialog will appear when you attempt to exit NVDA, offering the following possibilities:</source>
-        <target>When checked, a dialog will appear when you attempt to exit NVDA, offering the following possibilities:</target>
+        <target>选中后，当您退出 NVDA 时，将出现一个对话框，提供以下选项：</target>
       </segment>
     </unit>
     <unit id="dba26658-2445-4987-a7c7-f312f8dfec5a">
@@ -17137,9 +17137,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1764</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>exit</source>
-        <target>exit</target>
+        <target>退出</target>
       </segment>
     </unit>
     <unit id="141c0b02-bfd8-41be-aa62-44bb2876bdb5">
@@ -17147,9 +17147,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1765</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>restart</source>
-        <target>restart</target>
+        <target>重启</target>
       </segment>
     </unit>
     <unit id="de5a15f4-2bbe-4658-86ab-5067faa513d6">
@@ -17157,9 +17157,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1766</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>restart with add-ons disabled and debug logging enabled</source>
-        <target>restart with add-ons disabled and debug logging enabled</target>
+        <target>重启、禁用插件并启用调试日志记录</target>
       </segment>
     </unit>
     <unit id="f48d699f-cfe1-4fc9-a812-3891df7ebc36">
@@ -17167,9 +17167,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1767</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>restart with debug logging enabled</source>
-        <target>restart with debug logging enabled</target>
+        <target>重启并启用调试日志记录</target>
       </segment>
     </unit>
     <unit id="e740ab36-822f-423d-ade1-c53a9a103fff">
@@ -17177,9 +17177,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1768</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>install pending updates (if any).</source>
-        <target>install pending updates (if any).</target>
+        <target>安装之前推迟的更新（如有）。</target>
       </segment>
     </unit>
     <unit id="0e05fa1e-6bdb-4785-8c29-90924736ee6b">
@@ -17630,9 +17630,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1837</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can also manually install the pending update from the Exit NVDA dialog (if enabled), from the NVDA menu, or when you perform a new check from the Help menu.</source>
-        <target>You can also manually install the pending update from the Exit NVDA dialog (if enabled), from the NVDA menu, or when you perform a new check from the Help menu.</target>
+        <target>如果开启了退出对话框，可在该对话框手动安装，亦可在 NVDA 菜单或检查更新时安装。</target>
       </segment>
     </unit>
     <unit id="1cf1f3b1-241c-49e1-8e33-18f8d9ad63e7">
@@ -17641,72 +17641,72 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#UpdateMirror}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Update Mirror</source>
-        <target>Update Mirror</target>
+        <target>更新镜像</target>
       </segment>
     </unit>
     <unit id="327044b7-f8f3-40dd-a31b-e0c24130e164">
       <notes>
         <note appliesTo="source">line: 1841</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>These controls allow you to specify an alternative URL to use to check for updates to NVDA.</source>
-        <target>These controls allow you to specify an alternative URL to use to check for updates to NVDA.</target>
+        <target>通过这些控件，您可以指定用于检查 NVDA 更新的备用网址。</target>
       </segment>
     </unit>
     <unit id="1eb3d0af-f174-4b79-97c9-3d8fd0e81748">
       <notes>
         <note appliesTo="source">line: 1842</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This may be of use in locations where access to the NV Access NVDA update server is slow or unavailable.</source>
-        <target>This may be of use in locations where access to the NV Access NVDA update server is slow or unavailable.</target>
+        <target>在访问 NV Access 官方更新服务器较慢或不可用的地区，此功能可能非常有用。</target>
       </segment>
     </unit>
     <unit id="facdcb0c-f97b-47e7-9838-1ed71029a871">
       <notes>
         <note appliesTo="source">line: 1844</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The read-only text box shows the current mirror URL.</source>
-        <target>The read-only text box shows the current mirror URL.</target>
+        <target>只读文本框将显示当前的镜像网址。</target>
       </segment>
     </unit>
     <unit id="0295eda0-cd06-4cd4-8f59-32fa3e7440ef">
       <notes>
         <note appliesTo="source">line: 1845</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If no mirror is in use (i.e. the NV Access update server is being used), "No mirror" is displayed.</source>
-        <target>If no mirror is in use (i.e. the NV Access update server is being used), "No mirror" is displayed.</target>
+        <target>若未使用任何镜像（即正在使用 NV Access 官方更新服务器），则会显示“不使用镜像”。</target>
       </segment>
     </unit>
     <unit id="468ff857-eaf0-49da-9123-cb31c941e3ef">
       <notes>
         <note appliesTo="source">line: 1847</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you wish to change the update mirror, press the "Change..." button to open the [Set Update Mirror dialog](#SetURLDialog).</source>
-        <target>If you wish to change the update mirror, press the "Change..." button to open the [Set Update Mirror dialog](#SetURLDialog).</target>
+        <target>如需更改更新镜像，请按下“更改...”按钮以打开[设置更新镜像对话框](#SetURLDialog)</target>
       </segment>
     </unit>
     <unit id="417226f3-93d8-41b4-b444-134a85fd13ed">
       <notes>
         <note appliesTo="source">line: 1849</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please note that when using an update mirror, the operator of the mirror has access to all [information sent with update checks](#GeneralSettingsCheckForUpdates).</source>
-        <target>Please note that when using an update mirror, the operator of the mirror has access to all [information sent with update checks](#GeneralSettingsCheckForUpdates).</target>
+        <target>请注意：当使用更新镜像时，镜像运营商将有权获取所有[随更新检查发送的信息](#GeneralSettingsCheckForUpdates)。</target>
       </segment>
     </unit>
     <unit id="1b1345fa-c0f6-4bf0-a27d-89caf5eedca0">
       <notes>
         <note appliesTo="source">line: 1850</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Contact the operator of the update mirror for details of their data handling policies to ensure you are comfortable with the way your information will be handled before setting an update mirror.</source>
-        <target>Contact the operator of the update mirror for details of their data handling policies to ensure you are comfortable with the way your information will be handled before setting an update mirror.</target>
+        <target>在设置更新镜像前，建议您联系镜像运营商了解其数据处理政策，确保您能接受其信息处理方式。</target>
       </segment>
     </unit>
     <unit id="47d9f3c2-2f74-45d0-874e-ee1f8b491fa2">
@@ -17715,45 +17715,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#PreventDisplayTurningOff}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Prevent display from turning off during say all or reading with braille</source>
-        <target>Prevent display from turning off during say all or reading with braille</target>
+        <target>在全文朗读或阅读盲文时禁止关闭显示器</target>
       </segment>
     </unit>
     <unit id="92438bd8-32e4-450d-a072-f6aee58f0eac">
       <notes>
         <note appliesTo="source">line: 1854</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This check box, when enabled, ensures that the display stays on when reading with say all or with braille (e.g. when pressing scroll buttons).</source>
-        <target>This check box, when enabled, ensures that the display stays on when reading with say all or with braille (e.g. when pressing scroll buttons).</target>
+        <target>启用此复选框，可确保在使用全文朗读或盲文阅读时（例如按下滚动按钮时）保持屏幕常亮。</target>
       </segment>
     </unit>
     <unit id="62b3430f-2c86-4cda-b6d7-5de458e5c8f7">
       <notes>
         <note appliesTo="source">line: 1855</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This avoids the situation where the screen unexpectedly locks during a say all.</source>
-        <target>This avoids the situation where the screen unexpectedly locks during a say all.</target>
+        <target>这样可以避免在全文朗读过程中屏幕意外锁定的情况。</target>
       </segment>
     </unit>
     <unit id="388ad5ce-4a07-474b-a814-f5b2494040d1">
       <notes>
         <note appliesTo="source">line: 1856</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is enabled by default.</source>
-        <target>This option is enabled by default.</target>
+        <target>该选项默认处于启用状态。</target>
       </segment>
     </unit>
     <unit id="4b258b12-7c8a-4691-bfc1-858ad4063732">
       <notes>
         <note appliesTo="source">line: 1857</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Consider disabling this option if you are suffering from a shorter battery life.</source>
-        <target>Consider disabling this option if you are suffering from a shorter battery life.</target>
+        <target>若您发现电池续航时间显著缩短，可考虑禁用此选项。</target>
       </segment>
     </unit>
     <unit id="b37d4d24-25d9-4ed9-8544-aee0219cfce2">
@@ -17829,18 +17829,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1874</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The first option in the Speech Settings category is the Change... button.</source>
-        <target>The first option in the Speech Settings category is the Change... button.</target>
+        <target>语音设置类别中的第一个选项是更改按钮。</target>
       </segment>
     </unit>
     <unit id="7c84b582-0abb-462b-9c16-9c3a13259018">
       <notes>
         <note appliesTo="source">line: 1875</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This button activates the [Select Synthesizer](#SelectSynthesizer) dialog, which allows you to select the active speech synthesizer.</source>
-        <target>This button activates the [Select Synthesizer](#SelectSynthesizer) dialog, which allows you to select the active speech synthesizer.</target>
+        <target>点击该按钮，可以打开[选择语音合成器](#SelectSynthesizer)对话框，您可以在其中选择其他语音合成器。</target>
       </segment>
     </unit>
     <unit id="2dede44c-2edf-4f2c-a6d1-861f5c791cfc">
@@ -18356,9 +18356,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Options |Default (Enabled), Enabled, Disabled</source>
-        <target>Options |Default (Enabled), Enabled, Disabled</target>
+        <target>选项 | 默认（已启用）、已启用、已禁用</target>
       </segment>
     </unit>
     <unit id="2617b3c2-bbfe-4b47-89db-74bbdc395c1e">
@@ -18367,9 +18367,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Default |Enabled</source>
-        <target>Default |Enabled</target>
+        <target>默认 | 已启用</target>
       </segment>
     </unit>
     <unit id="50f3a4ca-fb8b-4154-b9ed-44d4aecc86b6">
@@ -18689,9 +18689,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Enabled, Disabled</source>
-        <target>选项 | 禁用、启用</target>
+        <target>选项 | 已启用、已禁用</target>
       </segment>
     </unit>
     <unit id="8f97a86f-57b8-4a66-a445-78b156164f3a">
@@ -18700,9 +18700,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Default |Disabled</source>
-        <target>默认 | 禁用</target>
+        <target>默认 | 已禁用</target>
       </segment>
     </unit>
     <unit id="2b2a6cf4-e726-4afc-bb27-c4dc77cbf1b5">
@@ -19117,9 +19117,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2092</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you select "Automatic", the table will be selected according with NVDA's current language.</source>
-        <target>If you select "Automatic", the table will be selected according with NVDA's current language.</target>
+        <target>如果选择“自动”，则将根据 NVDA 的当前语言选择盲文表。</target>
       </segment>
     </unit>
     <unit id="f6037f74-d5e6-426e-bdb2-6d0a2e64d0b7">
@@ -19544,9 +19544,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2170</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In this case, Braille will not follow system focus and system caret.</source>
-        <target>In this case, Braille will not follow system focus and system caret.</target>
+        <target>此时盲文光标不再跟随系统焦点或系统输入焦点。</target>
       </segment>
     </unit>
     <unit id="8227c48e-3d11-412e-80c2-437ff9ccf394">
@@ -20050,9 +20050,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Default (Enabled), Enabled, Disabled</source>
-        <target>选项 | 默认（启用）、启用、禁用</target>
+        <target>选项 | 默认（已启用）、已启用、已禁用</target>
       </segment>
     </unit>
     <unit id="425bab72-ae8c-437b-a9d1-01c26f3cd3e2">
@@ -20061,9 +20061,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Default |Enabled</source>
-        <target>默认 | 启用</target>
+        <target>默认 | 已启用</target>
       </segment>
     </unit>
     <unit id="350a2888-1671-4b14-85fb-e90fe05f5471">
@@ -20490,9 +20490,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Default (Disabled), Enabled, Disabled</source>
-        <target>选项 | 默认（禁用）、启用、禁用</target>
+        <target>选项 | 默认（已禁用）、已启用、已禁用</target>
       </segment>
     </unit>
     <unit id="d5440f08-be46-4bb5-9611-acf62d29da8c">
@@ -20501,9 +20501,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Default |Disabled</source>
-        <target>默认 | 禁用</target>
+        <target>默认 | 已禁用</target>
       </segment>
     </unit>
     <unit id="e4193edf-2a26-4d8b-9b56-822c9c9d7984">
@@ -20568,9 +20568,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Default (Enabled), Enabled, Disabled</source>
-        <target>选项 | 默认（启用）、启用、禁用</target>
+        <target>选项 | 默认（已启用）、已启用、已禁用</target>
       </segment>
     </unit>
     <unit id="1aa86ddd-74d7-4ff0-966e-0f6b5b2a5bdc">
@@ -20579,9 +20579,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Default |Enabled</source>
-        <target>默认 | 启用</target>
+        <target>默认 | 已启用</target>
       </segment>
     </unit>
     <unit id="5b7765ac-52bc-4f3f-b358-c0fca9c5839c">
@@ -21027,9 +21027,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Disabled, Enabled</source>
-        <target>选项 | 禁用、启用</target>
+        <target>选项 | 已禁用、已启用</target>
       </segment>
     </unit>
     <unit id="e6e6eecd-0f07-41ef-b142-8641fd359ad7">
@@ -21038,9 +21038,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Default |Disabled</source>
-        <target>默认 | 禁用</target>
+        <target>默认 | 已禁用</target>
       </segment>
     </unit>
     <unit id="f589b7fc-11ca-438d-82a1-5f6b67672536">
@@ -21202,9 +21202,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2457</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA on the left and applications in both channels: NVDA will speak in the left channel, while other applications will play sounds in both left and right channels.</source>
-        <target>NVDA on the left and applications in both channels: NVDA will speak in the left channel, while other applications will play sounds in both left and right channels.</target>
+        <target>NVDA 在左、其他应用双声道：NVDA 只在左声道中朗读，而其他应用程序在左右两侧双声道中播放声音。</target>
       </segment>
     </unit>
     <unit id="b8547fd4-f86b-4e86-ba9f-26c2a66b6833">
@@ -21819,27 +21819,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2561</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Key: `NVDA+2`</source>
-        <target>Key: `NVDA+2`</target>
+        <target>按键： `NVDA+2`</target>
       </segment>
     </unit>
     <unit id="11f90043-2a32-4862-afc7-3ddee8f95d23">
       <notes>
         <note appliesTo="source">line: 2563</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option controls when NVDA announces characters you type on the keyboard.</source>
-        <target>This option controls when NVDA announces characters you type on the keyboard.</target>
+        <target>此选项控制 NVDA 何时读出您在键盘上输入的字符。</target>
       </segment>
     </unit>
     <unit id="8e43a953-f8fd-4508-9673-dabd01dc478e">
       <notes>
         <note appliesTo="source">line: 2564</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The available options are:</source>
-        <target>The available options are:</target>
+        <target>可用选项包括：</target>
       </segment>
     </unit>
     <unit id="281c0b8c-6b55-4309-b9ec-5ca770fbebfa">
@@ -21847,9 +21847,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2566</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Off: NVDA will not announce typed characters.</source>
-        <target>Off: NVDA will not announce typed characters.</target>
+        <target>关闭：NVDA 不会读出输入的字符。</target>
       </segment>
     </unit>
     <unit id="aebd7ca5-21cf-46d5-acbe-b742ef581f10">
@@ -21857,9 +21857,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2567</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Only in edit controls: NVDA will only announce characters typed in edit controls and other areas where text can be typed.</source>
-        <target>Only in edit controls: NVDA will only announce characters typed in edit controls and other areas where text can be typed.</target>
+        <target>仅在编辑控件中：NVDA 仅会在编辑框和其他可以输入文本的区域读出输入的字符。</target>
       </segment>
     </unit>
     <unit id="c6a7b248-4d8d-47f4-8367-824786c8ba9a">
@@ -21867,9 +21867,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2568</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Always: NVDA will announce all typed characters.</source>
-        <target>Always: NVDA will announce all typed characters.</target>
+        <target>始终：NVDA 总是读出输入的字符。</target>
       </segment>
     </unit>
     <unit id="2f4682f5-35e2-4db5-94a6-c1f76274566e">
@@ -21887,27 +21887,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2574</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Key: `NVDA+3`</source>
-        <target>Key: `NVDA+3`</target>
+        <target>按键： `NVDA+3`</target>
       </segment>
     </unit>
     <unit id="612f678a-ef72-437b-b22e-3bfcddee6704">
       <notes>
         <note appliesTo="source">line: 2576</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option controls when NVDA announces words you type on the keyboard.</source>
-        <target>This option controls when NVDA announces words you type on the keyboard.</target>
+        <target>此选项控制NVDA何时读出您在键盘上输入的单词。</target>
       </segment>
     </unit>
     <unit id="0b609715-5487-4b01-adb4-191746108304">
       <notes>
         <note appliesTo="source">line: 2577</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The available options are:</source>
-        <target>The available options are:</target>
+        <target>可用选项包括：</target>
       </segment>
     </unit>
     <unit id="d81856ba-1816-4a29-b98c-cc93028ca7da">
@@ -21915,9 +21915,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2579</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Off: NVDA will not announce typed words.</source>
-        <target>Off: NVDA will not announce typed words.</target>
+        <target>关闭：NVDA 不会读出输入的单词。</target>
       </segment>
     </unit>
     <unit id="ca7e601f-4c49-47f6-8573-e17394dff85d">
@@ -21925,9 +21925,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2580</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Only in edit controls: NVDA will only announce words typed in edit controls and other areas where text can be typed.</source>
-        <target>Only in edit controls: NVDA will only announce words typed in edit controls and other areas where text can be typed.</target>
+        <target>仅在编辑控件中：NVDA 仅会在编辑框和其他可以输入文本的区域读出输入的单词。</target>
       </segment>
     </unit>
     <unit id="95a25130-fd56-4610-a203-0473fe0f1cf6">
@@ -21935,9 +21935,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2581</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Always: NVDA will announce all typed words.</source>
-        <target>Always: NVDA will announce all typed words.</target>
+        <target>始终：NVDA 总是读出输入的单词。</target>
       </segment>
     </unit>
     <unit id="b2d0d1c7-7e99-4043-8e5a-d2be8ef65ac1">
@@ -22120,9 +22120,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2617</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is on by default, though certain users may wish to turn this off, such as those typing Vietnamese with the UniKey typing software as it will cause incorrect character input.</source>
-        <target>This option is on by default, though certain users may wish to turn this off, such as those typing Vietnamese with the UniKey typing software as it will cause incorrect character input.</target>
+        <target>默认情况下，此选项启用，某些特定的用户可能希望将其关闭，如使用 UniKey 进行越南语输入会造成错误的字符输入。</target>
       </segment>
     </unit>
     <unit id="b8eeaba3-5aa0-4a82-ae96-35bec64fbdf2">
@@ -23198,9 +23198,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2818</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option, which is on by default, allows you to choose whether or not all visible candidates should be reported automatically when a candidate list appears or its page is changed.</source>
-        <target>This option, which is on by default, allows you to choose whether or not all visible candidates should be reported automatically when a candidate list appears or its page is changed.</target>
+        <target>此选项默认情况下启用，允许您选择是否在候选列表出现时或其页面被滚动时，自动读出所有候选列表上的可见候选。</target>
       </segment>
     </unit>
     <unit id="9e02c4d6-1100-420c-b385-73f1c0356f1e">
@@ -23216,9 +23216,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2820</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>However, for phonetic input methods such as Chinese New Phonetic, it may be more useful to turn this option off, as all the symbols will sound the same and you will have to use the arrow keys to navigate the list items individually to gain more information from the character descriptions for each candidate.</source>
-        <target>However, for phonetic input methods such as Chinese New Phonetic, it may be more useful to turn this option off, as all the symbols will sound the same and you will have to use the arrow keys to navigate the list items individually to gain more information from the character descriptions for each candidate.</target>
+        <target>通常使用拼音输入法时，关闭此选项可能更为实用。因为所有候选听起来都相同，您必须使用光标键在候选列表之中逐一进行浏览，从而在每个字符的字符描述中获取更多的信息。</target>
       </segment>
     </unit>
     <unit id="866b2c56-df03-4b8f-9a89-45f8a4dd7164">
@@ -23245,9 +23245,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2825</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For input methods where the selection can be changed with the arrow keys (such as Chinese New Phonetic) this is necessary, but for some input methods it may be more efficient typing with this option turned off.</source>
-        <target>For input methods where the selection can be changed with the arrow keys (such as Chinese New Phonetic) this is necessary, but for some input methods it may be more efficient typing with this option turned off.</target>
+        <target>对于那些可以使用光标键更改选择的输入法（如中文的新注音输入法）而言，这是必须的。但是，对于一些输入法来说，可能关闭此选项后，输入效率反而能够提高。</target>
       </segment>
     </unit>
     <unit id="f64dc3b8-21d6-42b8-bd7a-bd84a1019d13">
@@ -23368,9 +23368,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2844</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option allows you to choose whether or not NVDA should report new symbols as they appear in the composition string.</source>
-        <target>This option allows you to choose whether or not NVDA should report new symbols as they appear in the composition string.</target>
+        <target>此选项允许您选择是否允许 NVDA 读出存放在上屏(composition)字串中的新图形。</target>
       </segment>
     </unit>
     <unit id="a1b5af75-d370-4c8f-bc14-1632a5114f1a">
@@ -23817,9 +23817,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2923</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enabled by default, this option allows you to choose if gestures (such as key presses) that do not result in an NVDA command and are not considered to be a command key in general, should be trapped from going through to the document you are currently focused on.</source>
-        <target>Enabled by default, this option allows you to choose if gestures (such as key presses) that do not result in an NVDA command and are not considered to be a command key in general, should be trapped from going through to the document you are currently focused on.</target>
+        <target>默认启用，此选项允许您选择键盘按键和触屏手势，是否作为 NVDA 命令或其他快捷键，启用该选项命令将被拦截，以防止其键入到所聚焦的文档。</target>
       </segment>
     </unit>
     <unit id="1ce1a74c-1667-4e51-bb57-334c7e334d51">
@@ -24212,9 +24212,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2971</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Link type (destination to same page)</source>
-        <target>Link type (destination to same page)</target>
+        <target>链接类型（指向同一页面）</target>
       </segment>
     </unit>
     <unit id="2e38ba90-c950-45c4-8df2-91032b39ddfc">
@@ -24222,9 +24222,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2972</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Graphics</source>
-        <target>图像</target>
+        <target>图形</target>
       </segment>
     </unit>
     <unit id="ad2887e3-a500-410c-98dd-7f8e626bfdbc">
@@ -24476,9 +24476,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3009</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Speech: If speech is selected, when the amount of indentation changes, NVDA will say something like "twelve space" or "four tab."</source>
-        <target>Speech: If speech is selected, when the amount of indentation changes, NVDA will say something like "twelve space" or "four tab."</target>
+        <target>仅语音：如果选中该选项，当缩进个数发生变化时，NVDA 就会给出诸如“12 个空格”或“4 个制表符”这样的提示。</target>
       </segment>
     </unit>
     <unit id="7cf12fe1-796c-4d1d-9ece-bd9d5ebc795d">
@@ -24486,9 +24486,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3010</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Tones: If Tones is selected, when the amount of indentation changes, tones indicate the amount of change in indent.</source>
-        <target>Tones: If Tones is selected, when the amount of indentation changes, tones indicate the amount of change in indent.</target>
+        <target>仅声音： 若选中该选项，当缩进数量发生改变时，会以声音反馈缩进变化的量。</target>
       </segment>
     </unit>
     <unit id="0258dc16-c4c5-4495-b685-1df54be9deb3">
@@ -24765,9 +24765,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Options |Notify (Default), Update Automatically, Disabled </source>
-        <target>Options |Notify (Default), Update Automatically, Disabled </target>
+        <target>选项 | 通知（默认）、自动更新、已禁用</target>
       </segment>
     </unit>
     <unit id="c34bb40e-c6b2-4ca0-bb00-d067200fa417">
@@ -24798,9 +24798,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Notify |Notify when updates are available to add-ons </source>
-        <target>Notify |Notify when updates are available to add-ons </target>
+        <target>通知 | 当插件有可用更新时通知</target>
       </segment>
     </unit>
     <unit id="760d97ee-8493-4751-8fba-288f3e4e6c55">
@@ -24809,9 +24809,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Update Automatically |Automatically update add-ons in the background </source>
-        <target>Update Automatically |Automatically update add-ons in the background </target>
+        <target>自动更新 | 在后台自动更新插件</target>
       </segment>
     </unit>
     <unit id="83eb7c50-ecda-4938-a473-4e1c7c77b479">
@@ -24831,45 +24831,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#DefaultAddonUpdateChannel}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Default Update Channel</source>
-        <target>Default Update Channel</target>
+        <target>默认更新通道</target>
       </segment>
     </unit>
     <unit id="20fd982a-9a89-4d0f-97d5-71b6f530b16e">
       <notes>
         <note appliesTo="source">line: 3068</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When [Automatic add-on updates](#AutomaticAddonUpdates) are enabled, by default, add-ons only update to the same [channel](#AddonStoreFilterChannel).</source>
-        <target>When [Automatic add-on updates](#AutomaticAddonUpdates) are enabled, by default, add-ons only update to the same [channel](#AddonStoreFilterChannel).</target>
+        <target>当启用[自动更新插件](#AutomaticAddonUpdates)时，默认情况下插件仅会更新到与已安装版本相同[通道](#AddonStoreFilterChannel)的版本。</target>
       </segment>
     </unit>
     <unit id="2fd47649-6beb-4ca7-9fad-3bde5576629f">
       <notes>
         <note appliesTo="source">line: 3069</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, an installed beta version will only update to a newer beta version.</source>
-        <target>For example, an installed beta version will only update to a newer beta version.</target>
+        <target>例如：已安装的测试版插件仅会更新到较新的测试版。</target>
       </segment>
     </unit>
     <unit id="77bb92c7-2c71-4f6f-8b68-5ebe2a34ff0f">
       <notes>
         <note appliesTo="source">line: 3070</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option sets the default update channel for all add-ons.</source>
-        <target>This option sets the default update channel for all add-ons.</target>
+        <target>此选项用于为所有插件设置默认更新通道。</target>
       </segment>
     </unit>
     <unit id="84b10d60-1fcf-43ed-9090-3bc8700d05f5">
       <notes>
         <note appliesTo="source">line: 3071</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can also change the update channel for a [specific add-on individually from the Add-on Store](#AddonStoreUpdateChannel).</source>
-        <target>You can also change the update channel for a [specific add-on individually from the Add-on Store](#AddonStoreUpdateChannel).</target>
+        <target>您也可以通过插件商店[为单个插件修改更新通道](#AddonStoreUpdateChannel)。</target>
       </segment>
     </unit>
     <unit id="cd20a83a-5ddc-4238-be1d-ce0aa7802205">
@@ -24878,9 +24878,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Same (Default), Any, Do not update, Stable, Beta or dev, Beta, Dev </source>
-        <target> Options | Same (Default), Any, Do not update, Stable, Beta or dev, Beta, Dev </target>
+        <target> 选项 | 与已安装版本相同（默认）、不限、关闭自动更新、稳定版、测试版或开发版、测试版、开发版 </target>
       </segment>
     </unit>
     <unit id="5101407f-f7e1-4c59-9787-56bbf1380634">
@@ -24889,9 +24889,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Same </source>
-        <target> Default | Same </target>
+        <target> 默认 | 与已安装版本相同 </target>
       </segment>
     </unit>
     <unit id="824d4ae9-0463-40f8-a473-498bd8b04056">
@@ -24900,9 +24900,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source> Option | Behaviour </source>
-        <target> Option | Behaviour </target>
+        <target> 选项 | 行为 </target>
       </segment>
     </unit>
     <unit id="5cb8f85e-77d3-430f-9f0a-811376724f56">
@@ -24911,9 +24911,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Same | Add-ons will remain on their channel </source>
-        <target> Same | Add-ons will remain on their channel </target>
+        <target> 与已安装版本相同 | 插件仅会更新到当前通道的新版本 </target>
       </segment>
     </unit>
     <unit id="fe84c0ba-0cb3-48d8-bd5c-426ad813a896">
@@ -24922,9 +24922,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Any | Add-ons will automatically update to the latest version, regardless of channel </source>
-        <target> Any | Add-ons will automatically update to the latest version, regardless of channel </target>
+        <target> 不限 | 不考虑通道，自动更新到最新的可用版本 </target>
       </segment>
     </unit>
     <unit id="0e7bb3c4-6a44-4dc0-96c6-e3bad0925f90">
@@ -24933,9 +24933,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Do not update | Add-ons will not automatically update by default, you must enable them individually </source>
-        <target> Do not update | Add-ons will not automatically update by default, you must enable them individually </target>
+        <target> 关闭自动更新 | 默认禁用自动更新，可单独启用特定插件的更新</target>
       </segment>
     </unit>
     <unit id="6dd0d5a7-5741-4e63-bf0b-2b7903717aaa">
@@ -24944,9 +24944,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Stable | Add-ons will automatically update to stable versions </source>
-        <target> Stable | Add-ons will automatically update to stable versions </target>
+        <target> 稳定版 | 插件将自动更新到稳定版 </target>
       </segment>
     </unit>
     <unit id="755043a8-0834-4685-b287-945079bf214b">
@@ -24955,9 +24955,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Beta or dev | Add-ons will automatically update to beta or dev versions </source>
-        <target> Beta or dev | Add-ons will automatically update to beta or dev versions </target>
+        <target> 测试版或开发板 | 插件将自动更新到测试版或开发版 </target>
       </segment>
     </unit>
     <unit id="074fd46a-91aa-4415-a795-05b1e7560b49">
@@ -24966,9 +24966,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Beta | Add-ons will automatically update to beta versions </source>
-        <target> Beta | Add-ons will automatically update to beta versions </target>
+        <target> 测试版 | 插件将自动更新到测试版 </target>
       </segment>
     </unit>
     <unit id="a961c9bd-0d8d-490b-b76b-14d7115dcb44">
@@ -24977,9 +24977,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Dev | Add-ons will automatically update to dev versions </source>
-        <target> Dev | Add-ons will automatically update to dev versions </target>
+        <target> 开发板 | 插件将自动更新到开发版 </target>
       </segment>
     </unit>
     <unit id="f2c9de04-525d-4257-b675-bc95090423de">
@@ -24988,54 +24988,54 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#AllowIncompatibleAddonUpdates}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Allow automatic updates to install incompatible add-ons</source>
-        <target>Allow automatic updates to install incompatible add-ons</target>
+        <target>允许自动更新安装不兼容的插件</target>
       </segment>
     </unit>
     <unit id="9a6c7f72-bed4-4786-be93-ae684ab723b2">
       <notes>
         <note appliesTo="source">line: 3090</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This setting enables automatic updates to add-ons that may not be fully compatible with the current version of NVDA.</source>
-        <target>This setting enables automatic updates to add-ons that may not be fully compatible with the current version of NVDA.</target>
+        <target>此设置允许自动更新可能不完全兼容当前版本 NVDA 的插件。</target>
       </segment>
     </unit>
     <unit id="3a417004-d82a-4cb2-aa2e-af8740bfe4ce">
       <notes>
         <note appliesTo="source">line: 3091</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, this is disabled, meaning automatic updates will only upgrade to add-on versions marked as compatible with the current version of NVDA.</source>
-        <target>By default, this is disabled, meaning automatic updates will only upgrade to add-on versions marked as compatible with the current version of NVDA.</target>
+        <target>默认禁用该功能，即自动更新仅会更新标记为与当前版本 NVDA 兼容的插件。</target>
       </segment>
     </unit>
     <unit id="bca925ec-287d-400d-958b-0dcecb269433">
       <notes>
         <note appliesTo="source">line: 3092</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Automatic updates will still update an incompatible add-on version to a compatible version when it is released.</source>
-        <target>Automatic updates will still update an incompatible add-on version to a compatible version when it is released.</target>
+        <target>当兼容版本发布时，自动更新仍会将不兼容的插件更新到兼容版本。</target>
       </segment>
     </unit>
     <unit id="955b207c-1a8b-40d9-8128-5562ba762e23">
       <notes>
         <note appliesTo="source">line: 3093</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enabling this may be useful for switching over to using add-on breaking releases (the first release of the year).</source>
-        <target>Enabling this may be useful for switching over to using add-on breaking releases (the first release of the year).</target>
+        <target>启用此选项可能有助于过渡至使用插件兼容性破坏版本（年度首个版本）。</target>
       </segment>
     </unit>
     <unit id="ad61f6ad-b9fe-4117-a3b6-445c3a07d07b">
       <notes>
         <note appliesTo="source">line: 3094</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This is particularly useful for alpha and beta testers, who are testing compatibility of add-ons during the early stages of an add-on breaking release.</source>
-        <target>This is particularly useful for alpha and beta testers, who are testing compatibility of add-ons during the early stages of an add-on breaking release.</target>
+        <target>对于 alpha 和 beta 版的测试人员尤其有用，可在插件破坏性更新的早期阶段测试兼容性。</target>
       </segment>
     </unit>
     <unit id="ae02468e-ba87-4868-bd19-77304b444ae2">
@@ -25044,54 +25044,54 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#AddonStoreMetadataMirror}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mirror server</source>
-        <target>Mirror server</target>
+        <target>镜像服务器</target>
       </segment>
     </unit>
     <unit id="4b93a787-3809-4a37-b50b-9b37d36c5a85">
       <notes>
         <note appliesTo="source">line: 3098</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>These controls allow you to specify an alternative URL to download Add-on Store data from.</source>
-        <target>These controls allow you to specify an alternative URL to download Add-on Store data from.</target>
+        <target>这些控件允许指定替代网址以下载插件商店数据。</target>
       </segment>
     </unit>
     <unit id="e00a9820-461e-48c0-9768-79381ca3e9e1">
       <notes>
         <note appliesTo="source">line: 3099</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This may be of use in locations where access to the NV Access Add-on Store server is slow or unavailable.</source>
-        <target>This may be of use in locations where access to the NV Access Add-on Store server is slow or unavailable.</target>
+        <target>在访问 NV Access 插件商店服务器较慢或不可用的地区，此功能可能非常有用。</target>
       </segment>
     </unit>
     <unit id="6db5bc5d-4352-440c-86f3-5e434a2e1dfd">
       <notes>
         <note appliesTo="source">line: 3101</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The read-only text box shows the current mirror URL.</source>
-        <target>The read-only text box shows the current mirror URL.</target>
+        <target>只读文本框将显示当前的镜像网址。</target>
       </segment>
     </unit>
     <unit id="c31aa45c-52d3-432d-9da6-63de4ecabbd1">
       <notes>
         <note appliesTo="source">line: 3102</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If no mirror is in use (i.e. the NV Access Add-on Store server is being used), "No mirror" is displayed.</source>
-        <target>If no mirror is in use (i.e. the NV Access Add-on Store server is being used), "No mirror" is displayed.</target>
+        <target>若未使用任何镜像（即正在使用 NV Access 插件商店服务器），则会显示“不使用镜像”。</target>
       </segment>
     </unit>
     <unit id="5c1cbc23-5376-40c3-9f92-320c61ce131a">
       <notes>
         <note appliesTo="source">line: 3104</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you wish to change the Add-on Store mirror, press the "Change..." button to open the [Set Add-on Store Mirror dialog](#SetURLDialog).</source>
-        <target>If you wish to change the Add-on Store mirror, press the "Change..." button to open the [Set Add-on Store Mirror dialog](#SetURLDialog).</target>
+        <target>如需更改插件商店镜像，请按下“更改...”按钮以打开[设置插件商店镜像对话框](#SetURLDialog)</target>
       </segment>
     </unit>
     <unit id="41cbd374-e298-42ab-badc-9dd6efb312c8">
@@ -25205,27 +25205,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#SetURLDialog}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set Mirror Dialog</source>
-        <target>Set Mirror Dialog</target>
+        <target>设置镜像对话框</target>
       </segment>
     </unit>
     <unit id="b8b24625-92be-49a9-b30e-5079a4c3bc96">
       <notes>
         <note appliesTo="source">line: 3125</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This dialog allows you to specify the URL of a mirror to use when [updating NVDA](#GeneralSettingsCheckForUpdates) or [using the Add-on Store](#AddonsManager).</source>
-        <target>This dialog allows you to specify the URL of a mirror to use when [updating NVDA](#GeneralSettingsCheckForUpdates) or [using the Add-on Store](#AddonsManager).</target>
+        <target>此对话框允许您指定用于[更新 NVDA](#GeneralSettingsCheckForUpdates) 或[使用插件商店](#AddonsManager)时的镜像服务器网址。</target>
       </segment>
     </unit>
     <unit id="e6fbcabf-879b-44a0-aacc-2a0f7878f147">
       <notes>
         <note appliesTo="source">line: 3126</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This may be of use in locations where access to the NV Access servers for these functions is slow or unavailable.</source>
-        <target>This may be of use in locations where access to the NV Access servers for these functions is slow or unavailable.</target>
+        <target>在访问 NV Access 官方服务器较慢或不可用的地区，此功能可能非常有用。</target>
       </segment>
     </unit>
     <unit id="f73dfe76-9328-4ad1-8a98-4aae4490d98f">
@@ -25233,9 +25233,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3128</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When setting the [NVDA update mirror](#UpdateMirror), the title of this dialog will be "Set NVDA Update Mirror".</source>
-        <target>When setting the [NVDA update mirror](#UpdateMirror), the title of this dialog will be "Set NVDA Update Mirror".</target>
+        <target>当设置 [NVDA 更新镜像](#UpdateMirror)时，对话框标题将显示为“设置NVDA更新镜像”。</target>
       </segment>
     </unit>
     <unit id="19a0ca46-0cf7-4f44-a012-76fb71b7bd3b">
@@ -25243,9 +25243,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3129</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When setting the [Add-on Store mirror](#AddonStoreMetadataMirror), the title of this dialog will be "Set Add-on Store Mirror Server".</source>
-        <target>When setting the [Add-on Store mirror](#AddonStoreMetadataMirror), the title of this dialog will be "Set Add-on Store Mirror Server".</target>
+        <target>当设置[插件商店镜像](#AddonStoreMetadataMirror)时，对话框标题将显示为“设置插件商店镜像服务器”。</target>
       </segment>
     </unit>
     <unit id="8a9fda8d-8feb-4a2e-9bb2-54857a6b1d3a">
@@ -25254,45 +25254,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SetURLTextbox}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>URL</source>
-        <target>URL</target>
+        <target>网址</target>
       </segment>
     </unit>
     <unit id="4ed6a6c5-896a-4644-8b99-03e1c75afcd5">
       <notes>
         <note appliesTo="source">line: 3133</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enter the URL (web address) of the mirror you wish to use here.</source>
-        <target>Enter the URL (web address) of the mirror you wish to use here.</target>
+        <target>在此输入您要使用的镜像网址。</target>
       </segment>
     </unit>
     <unit id="af23ed2c-1ebe-4e3c-954e-114c91ebc45e">
       <notes>
         <note appliesTo="source">line: 3134</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Only HTTP and HTTPS URLs are supported.</source>
-        <target>Only HTTP and HTTPS URLs are supported.</target>
+        <target>仅支持 HTTP 和 HTTPS 协议的网址。</target>
       </segment>
     </unit>
     <unit id="eb8ca7c0-5d29-4578-8d2f-d82a2b5054f3">
       <notes>
         <note appliesTo="source">line: 3135</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For your privacy, NV Access recommends using HTTPS URLs whenever possible.</source>
-        <target>For your privacy, NV Access recommends using HTTPS URLs whenever possible.</target>
+        <target>为保护隐私安全，NV Access 建议尽可能使用 HTTPS 协议的网址。</target>
       </segment>
     </unit>
     <unit id="1baea992-7155-41e4-9d86-1a2732c418c3">
       <notes>
         <note appliesTo="source">line: 3137</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Leave this blank to use the default NV Access server.</source>
-        <target>Leave this blank to use the default NV Access server.</target>
+        <target>留空此字段将使用默认的 NV Access 官方服务器。</target>
       </segment>
     </unit>
     <unit id="cc6cb82c-2a45-463f-ba63-094caf917760">
@@ -25301,36 +25301,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SetURLTest}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Test...</source>
-        <target>Test...</target>
+        <target>测试...</target>
       </segment>
     </unit>
     <unit id="2d408ecc-d3a0-49ce-8e87-7fb1110b95e9">
       <notes>
         <note appliesTo="source">line: 3141</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Press this button to test the mirror URL you have entered.</source>
-        <target>Press this button to test the mirror URL you have entered.</target>
+        <target>按下此按钮可测试您输入的镜像网址。</target>
       </segment>
     </unit>
     <unit id="c4cdecb9-2f3e-488a-9dbe-aba87da6fe2b">
       <notes>
         <note appliesTo="source">line: 3142</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You must be connected to the internet for the test to succeed.</source>
-        <target>You must be connected to the internet for the test to succeed.</target>
+        <target>测试需要保持互联网连接。</target>
       </segment>
     </unit>
     <unit id="e4d23412-941b-43bc-a8a8-461f3d8250fe">
       <notes>
         <note appliesTo="source">line: 3143</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It is recommended that you always test the URL before saving it.</source>
-        <target>It is recommended that you always test the URL before saving it.</target>
+        <target>建议在保存前务必进行网址测试。</target>
       </segment>
     </unit>
     <unit id="e3d0c2c5-1a59-4caf-9b4f-67e824c90639">
@@ -25666,9 +25666,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3197</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Only where necessary: where the Microsoft Word object model is not available at all</source>
-        <target>Only where necessary: where the Microsoft Word object model is not available at all</target>
+        <target>仅必要时：Microsoft Word 对象模型完全不可用</target>
       </segment>
     </unit>
     <unit id="d38474d6-8394-449b-baed-21d03501240a">
@@ -25773,9 +25773,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Default (Enabled), Disabled, Enabled</source>
-        <target>选项 | 默认（启用）、禁用、启用</target>
+        <target>选项 | 默认（已启用）、已禁用、已启用</target>
       </segment>
     </unit>
     <unit id="2bc5ae6f-7ccb-4a3c-9a41-7be50e193712">
@@ -25784,9 +25784,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Default |Enabled</source>
-        <target>默认 | 启用</target>
+        <target>默认 | 已启用</target>
       </segment>
     </unit>
     <unit id="da629a99-abdc-4c7c-88de-de7930ed3ec1">
@@ -26179,9 +26179,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Options |Default (Enabled), Disabled, Enabled</source>
-        <target>选项 | 默认（启用）、禁用、启用</target>
+        <target>选项 | 默认（已启用）、已禁用、已启用</target>
       </segment>
     </unit>
     <unit id="292ed75b-1f8c-4582-b6d3-15635afafc36">
@@ -26190,9 +26190,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Default |Enabled</source>
-        <target>默认 | 启用</target>
+        <target>默认 | 已启用</target>
       </segment>
     </unit>
     <unit id="bc231099-ead7-4531-8662-ec83822dfd6b">
@@ -26581,36 +26581,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#TrimLeadingSilenceSpeech}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Trim leading silence in speech audio</source>
-        <target>Trim leading silence in speech audio</target>
+        <target>去除语音开头的静音</target>
       </segment>
     </unit>
     <unit id="a0439eac-a01a-4596-b651-b95700fd4bc7">
       <notes>
         <note appliesTo="source">line: 3338</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When enabled, NVDA will remove silence from the start of speech audio, which may improve the responsiveness of some speech synthesizers.</source>
-        <target>When enabled, NVDA will remove silence from the start of speech audio, which may improve the responsiveness of some speech synthesizers.</target>
+        <target>启用此选项后，NVDA 将去除语音音频起始部分的静音，这可能提升部分语音合成器的响应速度。</target>
       </segment>
     </unit>
     <unit id="6dc82e04-38d5-4e56-8922-c8174017cbad">
       <notes>
         <note appliesTo="source">line: 3339</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is enabled by default, and should only affect the silence at the beginning of speech.</source>
-        <target>This option is enabled by default, and should only affect the silence at the beginning of speech.</target>
+        <target>该选项默认开启，且仅会影响语音开始时的静音。</target>
       </segment>
     </unit>
     <unit id="df3db20e-89e8-438f-9608-977d65dbe68f">
       <notes>
         <note appliesTo="source">line: 3340</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you find that some necessary silence periods are also missing (e.g. pause between two sentences) when using a speech synthesizer add-on, you may turn this feature off entirely to resolve the issue.</source>
-        <target>If you find that some necessary silence periods are also missing (e.g. pause between two sentences) when using a speech synthesizer add-on, you may turn this feature off entirely to resolve the issue.</target>
+        <target>若您在使用语音合成器插件时发现必要的静音段落缺失（例如句间停顿），可关闭此功能以解决问题。</target>
       </segment>
     </unit>
     <unit id="c220247b-10ff-495a-ba07-7ca83b57a89a">
@@ -26619,45 +26619,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#UseWASAPIForSAPI4}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use WASAPI for SAPI 4 audio output</source>
-        <target>Use WASAPI for SAPI 4 audio output</target>
+        <target>SAPI 4 使用 WASAPI 输出音频</target>
       </segment>
     </unit>
     <unit id="6a99c36f-33d2-4a02-9572-9b6df4e1f31b">
       <notes>
         <note appliesTo="source">line: 3344</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option enables Microsoft Speech API version 4 (SAPI 4) voices to output audio via the Windows Audio Session API (WASAPI).</source>
-        <target>This option enables Microsoft Speech API version 4 (SAPI 4) voices to output audio via the Windows Audio Session API (WASAPI).</target>
+        <target>此选项允许 Microsoft Speech API version 4（SAPI 4）的语音通过 Windows 音频会话 API（WASAPI）输出音频。</target>
       </segment>
     </unit>
     <unit id="73d79f19-633b-4ab0-9975-abd1bd212926">
       <notes>
         <note appliesTo="source">line: 3345</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This can allow SAPI 4 voices to work with more features, such as audio ducking, leading silence trimming, and keeping audio device awake.</source>
-        <target>This can allow SAPI 4 voices to work with more features, such as audio ducking, leading silence trimming, and keeping audio device awake.</target>
+        <target>该功能可使 SAPI 4 语音支持更多特性，例如：音频闪避、去除语音开头的静音、音频设备保持唤醒等。</target>
       </segment>
     </unit>
     <unit id="79c46af5-44a3-49d7-86b7-e737d5440a24">
       <notes>
         <note appliesTo="source">line: 3346</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>However, some SAPI 4 voices might not work with the current WASAPI implementation.</source>
-        <target>However, some SAPI 4 voices might not work with the current WASAPI implementation.</target>
+        <target>但请注意，部分 SAPI 4 语音可能无法兼容当前的 WASAPI 实现方案。</target>
       </segment>
     </unit>
     <unit id="cddb15b9-7651-4c05-9478-b17653c2c94c">
       <notes>
         <note appliesTo="source">line: 3347</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you find that the SAPI 4 voice you are using stops working, you may disable this option.</source>
-        <target>If you find that the SAPI 4 voice you are using stops working, you may disable this option.</target>
+        <target>若您使用的 SAPI 4 语音出现异常，可通过禁用此选项来恢复。</target>
       </segment>
     </unit>
     <unit id="e21a8ba0-863c-413d-bdb2-fef30cfb7f17">
@@ -26666,9 +26666,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Options |Default (Enabled), Disabled, Enabled</source>
-        <target>Options |Default (Enabled), Disabled, Enabled</target>
+        <target>选项 | 默认（已启用）、已禁用、已启用</target>
       </segment>
     </unit>
     <unit id="38c5b121-abdc-4cab-aea7-297a9bb40e74">
@@ -26677,9 +26677,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Default |Enabled</source>
-        <target>Default |Enabled</target>
+        <target>默认 | 已启用</target>
       </segment>
     </unit>
     <unit id="9818ec02-721e-4b97-aa0e-668e024c4ab0">
@@ -27668,9 +27668,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Save configuration |`NVDA+control+c` |`NVDA+control+c` |Saves your current configuration so that it is not lost when you exit NVDA</source>
-        <target>Save configuration |`NVDA+control+c` |`NVDA+control+c` |Saves your current configuration so that it is not lost when you exit NVDA</target>
+        <target>保存设置 | NVDA+control+c | NVDA+control+c | 保存您的当前配置，当您退出 NVDA 时也不会丢失</target>
       </segment>
     </unit>
     <unit id="c2f0e356-e676-4641-bad3-db94e1e7f07b">
@@ -27679,9 +27679,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Revert configuration |`NVDA+control+r` |`NVDA+control+r` |Pressing once resets your configuration to when you last saved it. Pressing three times will reset it back to factory defaults.</source>
-        <target>Revert configuration |`NVDA+control+r` |`NVDA+control+r` |Pressing once resets your configuration to when you last saved it. Pressing three times will reset it back to factory defaults.</target>
+        <target>恢复配置 | NVDA+control+r | NVDA+control+r | 按一次重置您的设置到上一次保存的状态，连按三次恢复到默认的出厂设置。</target>
       </segment>
     </unit>
     <unit id="399befd7-919a-441c-8d48-a1800124f0df">
@@ -29157,45 +29157,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#AddonStoreSortByColumn}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Sorting the add-ons list by column</source>
-        <target>Sorting the add-ons list by column</target>
+        <target>对插件列表排序</target>
       </segment>
     </unit>
     <unit id="1bb2e9ff-fc4d-49f6-aa5f-70a21b94599c">
       <notes>
         <note appliesTo="source">line: 3748</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, the add-ons list is sorted by the add-ons' display name.</source>
-        <target>By default, the add-ons list is sorted by the add-ons' display name.</target>
+        <target>默认情况下，插件列表按插件的显示名称排序。</target>
       </segment>
     </unit>
     <unit id="f03b01ec-a7e3-41a1-b1ea-55979bffe91b">
       <notes>
         <note appliesTo="source">line: 3749</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The "Sort by column" combo box can be used to sort the list by the available columns for each tab.</source>
-        <target>The "Sort by column" combo box can be used to sort the list by the available columns for each tab.</target>
+        <target>通过排序组合框，可根据各选项卡的可用列对列表进行排序。</target>
       </segment>
     </unit>
     <unit id="a00e9891-da57-405e-8a8d-a429cc17e185">
       <notes>
         <note appliesTo="source">line: 3750</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, you may wish to sort add-ons by publisher, available version, etc.</source>
-        <target>For example, you may wish to sort add-ons by publisher, available version, etc.</target>
+        <target>例如，您可按发布者、可用版本等对插件进行排序。</target>
       </segment>
     </unit>
     <unit id="3c9d510e-9a68-4cc0-84c6-3297414ef299">
       <notes>
         <note appliesTo="source">line: 3751</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Add-ons can be sortered in ascending or descending order.</source>
-        <target>Add-ons can be sortered in ascending or descending order.</target>
+        <target>支持以升序或降序方式排列插件。</target>
       </segment>
     </unit>
     <unit id="10117f60-a5e0-435d-b6a0-273c46a23c9c">
@@ -29314,18 +29314,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3769</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If the download or installation fails you can retry the installation.</source>
-        <target>If the download or installation fails you can retry the installation.</target>
+        <target>如果下载或安装失败，您可重试安装。</target>
       </segment>
     </unit>
     <unit id="47c4b72a-5a2e-494a-9446-f052dc36d863">
       <notes>
         <note appliesTo="source">line: 3770</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It is also possible to cancel the install before exiting the Add-on Store.</source>
-        <target>It is also possible to cancel the install before exiting the Add-on Store.</target>
+        <target>还可在退出插件商店前取消安装。</target>
       </segment>
     </unit>
     <unit id="388e0839-ad45-4801-bc4d-59e6c6baeaae">
@@ -29507,9 +29507,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3799</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can disable an add-on if the add-on status indicates it is "enabled", or enable it if the add-on is "disabled".</source>
-        <target>You can disable an add-on if the add-on status indicates it is "enabled", or enable it if the add-on is "disabled".</target>
+        <target>如果插件状态显示“已启用”，您可以禁用该插件；反之，如果插件“已禁用”，则可以启用。</target>
       </segment>
     </unit>
     <unit id="ef663cad-62aa-4910-be3c-bb85f3a5ca15">
@@ -29636,27 +29636,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3817</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can manage the automatic update channels for add-ons from the [installed and updatable add-ons tabs](#AddonStoreFilterStatus).</source>
-        <target>You can manage the automatic update channels for add-ons from the [installed and updatable add-ons tabs](#AddonStoreFilterStatus).</target>
+        <target>您可通过[已安装的插件和可更新的插件选项卡](#AddonStoreFilterStatus)管理插件的自动更新通道。</target>
       </segment>
     </unit>
     <unit id="780ce0f9-5857-4cf1-834a-9312d9e6650c">
       <notes>
         <note appliesTo="source">line: 3818</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When [Automatic add-on updates](#AutomaticAddonUpdates) are enabled, add-ons will update to the same [channel](#AddonStoreFilterChannel) they were installed from by [default](#DefaultAddonUpdateChannel).</source>
-        <target>When [Automatic add-on updates](#AutomaticAddonUpdates) are enabled, add-ons will update to the same [channel](#AddonStoreFilterChannel) they were installed from by [default](#DefaultAddonUpdateChannel).</target>
+        <target>当[自动更新插件](#AutomaticAddonUpdates)功能启用时，[默认](#DefaultAddonUpdateChannel)会从与已安装版本相同的[通道](#AddonStoreFilterChannel)获取插件更新。</target>
       </segment>
     </unit>
     <unit id="0969abde-bf5b-4f56-a8d4-70d3a1c4699f">
       <notes>
         <note appliesTo="source">line: 3819</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>From an add-on's actions menu, using the submenu "Update channel", you can modify the channels an add-on will automatically update to.</source>
-        <target>From an add-on's actions menu, using the submenu "Update channel", you can modify the channels an add-on will automatically update to.</target>
+        <target>通过操作菜单中的“自动更新通道”子菜单，可修改插件的自动更新通道。</target>
       </segment>
     </unit>
     <unit id="a4138c24-a9cf-4483-b461-465aa34dff3d">
@@ -29665,9 +29665,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source> Option | Behaviour </source>
-        <target> Option | Behaviour </target>
+        <target> 选项 | 行为 </target>
       </segment>
     </unit>
     <unit id="d9ad535d-9ab9-4e31-ade2-3a1bd6db73f9">
@@ -29676,9 +29676,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Add-on will follow the [default update channel](#DefaultAddonUpdateChannel) </source>
-        <target> Default | Add-on will follow the [default update channel](#DefaultAddonUpdateChannel) </target>
+        <target>默认 | 插件将遵循[默认更新通道设置](#DefaultAddonUpdateChannel) </target>
       </segment>
     </unit>
     <unit id="51ed96cd-7c4f-4838-a405-edc4e62a55fc">
@@ -29687,9 +29687,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Same | Add-on will remain on the same channel </source>
-        <target> Same | Add-on will remain on the same channel </target>
+        <target> 与已安装版本相同 | 插件仅会更新到当前通道的新版本 </target>
       </segment>
     </unit>
     <unit id="ea73e2f1-8a12-4681-853a-ba80c8512130">
@@ -29698,9 +29698,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Any | Add-on will automatically update to the latest version, regardless of channel </source>
-        <target> Any | Add-on will automatically update to the latest version, regardless of channel </target>
+        <target> 不限 | 不考虑通道，自动更新到最新的可用版本 </target>
       </segment>
     </unit>
     <unit id="a09ffb72-24b7-49db-b7a7-71a49278e6a2">
@@ -29709,9 +29709,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Do not update | Add-on will not automatically update </source>
-        <target> Do not update | Add-on will not automatically update </target>
+        <target> 关闭自动更新 | 插件将不会自动更新</target>
       </segment>
     </unit>
     <unit id="7695251e-c87f-4695-adcb-48ccacd9fdd9">
@@ -29720,9 +29720,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Stable | Add-on will automatically update to stable versions </source>
-        <target> Stable | Add-on will automatically update to stable versions </target>
+        <target> 稳定版 | 插件将自动更新到稳定版 </target>
       </segment>
     </unit>
     <unit id="d90d5b13-1f79-4ace-bd21-2ab194f902db">
@@ -29731,9 +29731,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Beta or dev | Add-on will automatically update to beta or dev versions </source>
-        <target> Beta or dev | Add-on will automatically update to beta or dev versions </target>
+        <target> 测试版或开发板 | 插件将自动更新到测试版或开发版 </target>
       </segment>
     </unit>
     <unit id="9b6c04ef-201b-46f9-8b7d-b0d957510302">
@@ -29742,9 +29742,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Beta | Add-on will automatically update to beta versions </source>
-        <target> Beta | Add-on will automatically update to beta versions </target>
+        <target> 测试版 | 插件将自动更新到测试版 </target>
       </segment>
     </unit>
     <unit id="f24d40fa-d680-4e5e-8d1d-099b53422afa">
@@ -29753,9 +29753,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Dev | Add-on will automatically update to dev versions </source>
-        <target> Dev | Add-on will automatically update to dev versions </target>
+        <target> 开发板 | 插件将自动更新到开发版 </target>
       </segment>
     </unit>
     <unit id="258db609-7d25-4412-a50d-9353188df5e7">
@@ -30547,9 +30547,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3964</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For an even more extensive list of free and commercial synthesizers that you can purchase and download for use with NVDA, please see the [extra voices page](https://github.com/nvaccess/nvda/wiki/ExtraVoices).</source>
-        <target>For an even more extensive list of free and commercial synthesizers that you can purchase and download for use with NVDA, please see the [extra voices page](https://github.com/nvaccess/nvda/wiki/ExtraVoices).</target>
+        <target>要想查看更多您可以购买或下载的、可用于 NVDA 的免费或商业语音合成器的列表，请查看[extra voices 页面（英语）](https://github.com/nvaccess/nvda/wiki/ExtraVoices)（译者注：更多的语音合成器资源也可访问 NVDA 中文站[语音合成器集中下载页](https://www.nvdacn.com/tts.html)获取）。</target>
       </segment>
     </unit>
     <unit id="861cd6f6-afa0-4c1f-8a26-fa79e1125024">
@@ -33434,9 +33434,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4347</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Brailliant BI and B series of displays from [HumanWare](https://www.humanware.com/), including the BI 14, BI 32, BI 20X, BI 40, BI 40X and B 80, are supported when connected via USB or bluetooth.</source>
-        <target>The Brailliant BI and B series of displays from [HumanWare](https://www.humanware.com/), including the BI 14, BI 32, BI 20X, BI 40, BI 40X and B 80, are supported when connected via USB or bluetooth.</target>
+        <target>通过 USB 或蓝牙连接时，支持 [HumanWare](https://www.humanware.com/) 的 Brailliant BI 和 B 系列点显器，包括 BI 14、BI 32、BI 20X、BI 40、BI 40X 和 B 80。</target>
       </segment>
     </unit>
     <unit id="9434d525-52da-43e2-a715-7fa95cbf7eeb">
@@ -33520,9 +33520,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4359</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Following are the key assignments for the Brailliant BI/B and BrailleNote touch displays with NVDA.</source>
-        <target>Following are the key assignments for the Brailliant BI/B and BrailleNote touch displays with NVDA.</target>
+        <target>以下是 Brailliant BI/B 以及 BrailleNote touch 点显器使用 NVDA 时的按键分配。</target>
       </segment>
     </unit>
     <unit id="27b0263e-9e91-45ee-8b5b-9cc4ff9679ec">
@@ -36890,9 +36890,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4776</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For BrailleNote Touch, please refer to the [Brailliant BI Series / BrailleNote Touch](#HumanWareBrailliant) section.</source>
-        <target>For BrailleNote Touch, please refer to the [Brailliant BI Series / BrailleNote Touch](#HumanWareBrailliant) section.</target>
+        <target>对于 BrailleNote Touch，请参阅 [HumanWare Brailliant BI/B 系列 / BrailleNote Touch](#HumanWareBrailliant) 章节。</target>
       </segment>
     </unit>
     <unit id="6d556bc3-5777-4a38-bff1-18bde7cbb8e2">
@@ -40671,9 +40671,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>leftArrow key |space+dot3, joystick left or dpad left</source>
-        <target>leftArrow key |space+dot3, joystick left or dpad left</target>
+        <target>左光标键 |space+3 点, joystick left  or dpad left</target>
       </segment>
     </unit>
     <unit id="938b38fa-689b-47ee-af82-d2f783abe3f7">
@@ -40803,7 +40803,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#dotPad}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Dot Pad</source>
         <target>Dot Pad</target>
       </segment>
@@ -40812,81 +40812,81 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5255</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Dot Pad from Dot Inc is a device that can display refreshable tactile graphics and braille.</source>
-        <target>The Dot Pad from Dot Inc is a device that can display refreshable tactile graphics and braille.</target>
+        <target>Dot Inc 公司推出的 Dot Pad 是一款能够显示可刷新触觉图形和盲文的设备。</target>
       </segment>
     </unit>
     <unit id="4d400114-f9cf-4da1-b230-c3624bf96e5d">
       <notes>
         <note appliesTo="source">line: 5256</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA can display either a single line of braille on the devices dedicated braille display line, or multiple lines of braille on its tactile graphics area.</source>
-        <target>NVDA can display either a single line of braille on the devices dedicated braille display line, or multiple lines of braille on its tactile graphics area.</target>
+        <target>NVDA 既可以在设备专用盲文显示行显示单行盲文，也可以在触觉图形区域显示多行盲文。</target>
       </segment>
     </unit>
     <unit id="b9977f13-8322-4ae7-ba5f-1264edb1beb6">
       <notes>
         <note appliesTo="source">line: 5257</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The A300 model has a tactile graphics area of 120 by 80 dots, which can fit 8 lines of 20 cells each.</source>
-        <target>The A300 model has a tactile graphics area of 120 by 80 dots, which can fit 8 lines of 20 cells each.</target>
+        <target>A300 型号的触觉图形区域为 120×80 点阵规格，最多可容纳 8 行盲文（每行 20 个单元）。</target>
       </segment>
     </unit>
     <unit id="929fb3e0-8466-4669-a510-15f99638e268">
       <notes>
         <note appliesTo="source">line: 5259</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can configure whether NVDA displays braille on the dedicated braille display line or on the tactile graphics area via the Braille Destination option in NVDA's Braille settings for this driver.</source>
-        <target>You can configure whether NVDA displays braille on the dedicated braille display line or on the tactile graphics area via the Braille Destination option in NVDA's Braille settings for this driver.</target>
+        <target>您可通过 NVDA 盲文设置中该驱动的盲文输出目标选项，配置 NVDA 是在专用盲文行显示内容，还是在触觉图形区域显示。</target>
       </segment>
     </unit>
     <unit id="85e13159-cf4c-4954-91fe-a790dcc0b42c">
       <notes>
         <note appliesTo="source">line: 5261</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Panning keys are supported, but due to limited buttons on the device, other commands and routing capabilities are currently not available.</source>
-        <target>Panning keys are supported, but due to limited buttons on the device, other commands and routing capabilities are currently not available.</target>
+        <target>支持平移按键操作，但由于设备物理按键有限，目前暂不支持其他命令及定位盲文单元功能。</target>
       </segment>
     </unit>
     <unit id="1be86e5b-910e-45f8-8c63-13391f218c2e">
       <notes>
         <note appliesTo="source">line: 5263</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When selecting the Dot Pad driver in NVDA, you must manually select the USB / Bluetooth virtual serial port the Dot Pad is connected to.</source>
-        <target>When selecting the Dot Pad driver in NVDA, you must manually select the USB / Bluetooth virtual serial port the Dot Pad is connected to.</target>
+        <target>在 NVDA 中选择 Dot Pad 驱动时，需手动选择设备所连接的 USB 或蓝牙虚拟串行端口。</target>
       </segment>
     </unit>
     <unit id="3fc71799-81b7-48de-8ae5-29a4d7a2c92b">
       <notes>
         <note appliesTo="source">line: 5264</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This driver does not support auto detection.</source>
-        <target>This driver does not support auto detection.</target>
+        <target>此驱动程序不支持自动检测。</target>
       </segment>
     </unit>
     <unit id="61fc30b0-e187-44ee-8ef0-10096e52680f">
       <notes>
         <note appliesTo="source">line: 5266</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please note that due to hardware limitations, the Dot Pad will not refresh all dots correctly while your hand is on the device.</source>
-        <target>Please note that due to hardware limitations, the Dot Pad will not refresh all dots correctly while your hand is on the device.</target>
+        <target>请注意：因硬件限制，当手部接触设备时，Dot Pad 无法正确刷新所有触点。</target>
       </segment>
     </unit>
     <unit id="7561f3b4-5400-447c-84ea-e78144c615b4">
       <notes>
         <note appliesTo="source">line: 5267</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Make sure to lift your hand entirely off the device when navigating with NVDA, and only start reading again once it has fully updated.</source>
-        <target>Make sure to lift your hand entirely off the device when navigating with NVDA, and only start reading again once it has fully updated.</target>
+        <target>使用 NVDA 导航时，请确保双手完全离开设备表面，待内容完全刷新后再进行触摸阅读。</target>
       </segment>
     </unit>
     <unit id="b36e16e2-0cbd-4fc6-85eb-2d20bffe4934">
@@ -40895,9 +40895,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Name |Key</source>
-        <target> Name |Key</target>
+        <target> 名称 | 按键</target>
       </segment>
     </unit>
     <unit id="33db1f39-1697-468d-8fbb-23c6d7222011">
@@ -40906,9 +40906,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Scroll braille display back | `pan_left` </source>
-        <target>Scroll braille display back | `pan_left` </target>
+        <target>向后滚动盲文显示 | `pan_left` </target>
       </segment>
     </unit>
     <unit id="19b6b359-980e-4c5e-b7b1-c2896dba6c21">
@@ -40917,9 +40917,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Scroll braille display forward | `pan_right` </source>
-        <target>Scroll braille display forward | `pan_right` </target>
+        <target>向前滚动盲文显示 | `pan_right` </target>
       </segment>
     </unit>
     <unit id="b4d61299-abab-4dd4-94f4-2b490bad7b6b">
@@ -41111,9 +41111,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 5301</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Opening external documents from the NVDA menu, such as the user guide file.</source>
-        <target>Opening external documents from the NVDA menu, such as the user guide file.</target>
+        <target>从 NVDA 菜单中打开外部文档，例如用户指南。</target>
       </segment>
     </unit>
     <unit id="66707e65-701c-45c6-b665-372858e71fd9">
@@ -41672,9 +41672,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>None |`--create-portable-silent` |Creates a portable copy of NVDA (without starting the new copy). Requires `--portable-path` to be specified. This option suppresses warnings when writing to non-empty directories and may overwrite files without warning.</source>
-        <target>None |`--create-portable-silent` |Creates a portable copy of NVDA (without starting the new copy). Requires `--portable-path` to be specified. This option suppresses warnings when writing to non-empty directories and may overwrite files without warning.</target>
+        <target>无 | `--create-portable-silent` | 创建一个便携版（但不启动该便携版）。必须和 `--portable-path` 一起使用。注意，该选项在写入非空目录时不显示警告，这可能会导致在无警告的情况下覆盖文件。</target>
       </segment>
     </unit>
     <unit id="fce95a72-ddf4-486a-ba2e-df6635fc9198">
@@ -41692,27 +41692,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5383</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Just as you can silently install NVDA by passing the `--install-silent` command line option to NVDA, it can be silently uninstalled by passing the `/S` command to the uninstaller.</source>
-        <target>Just as you can silently install NVDA by passing the `--install-silent` command line option to NVDA, it can be silently uninstalled by passing the `/S` command to the uninstaller.</target>
+        <target>正如您可以通过向 NVDA 传递 `--install-silent` 命令行选项实现静默安装一样，通过向卸载程序传递 `/S` 参数也可以静默卸载 NVDA。</target>
       </segment>
     </unit>
     <unit id="c675632d-0479-418d-a36e-ea9d8058b22b">
       <notes>
         <note appliesTo="source">line: 5385</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA's uninstaller is called `uninstall.exe` and resides under the NVDA installation directory, `%ProgramFiles(x86)%\nvda` on 64-bit Windows, or `%ProgramFiles%\nvda` on 32-bit Windows.</source>
-        <target>NVDA's uninstaller is called `uninstall.exe` and resides under the NVDA installation directory, `%ProgramFiles(x86)%\nvda` on 64-bit Windows, or `%ProgramFiles%\nvda` on 32-bit Windows.</target>
+        <target>NVDA 的卸载程序名为 `uninstall.exe`，位于 NVDA 的安装目录下：64 位 Windows 系统路径为 `%ProgramFiles(x86)%\nvda`，32 位 Windows 系统路径为 `%ProgramFiles%\nvda`。</target>
       </segment>
     </unit>
     <unit id="8b3a8a3d-3f66-49c6-8793-3ffed70368ff">
       <notes>
         <note appliesTo="source">line: 5387</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The following are the command line options for NVDA's uninstaller:</source>
-        <target>The following are the command line options for NVDA's uninstaller:</target>
+        <target>以下是NVDA卸载程序支持的命令行选项：</target>
       </segment>
     </unit>
     <unit id="e9d76e04-7ac4-4e50-893e-fe3e656bc9ad">
@@ -41721,9 +41721,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source> Short |Long |Description</source>
-        <target> Short |Long |Description</target>
+        <target> 短版本 | 长版本 | 描述</target>
       </segment>
     </unit>
     <unit id="8f5be772-52a3-4594-82cc-a21476f421b2">
@@ -41732,9 +41732,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`/S` |None |Silently uninstall NVDA. </source>
-        <target>`/S` |None |Silently uninstall NVDA. </target>
+        <target>`/S` | 无 |静默卸载 NVDA。</target>
       </segment>
     </unit>
     <unit id="56e9eb75-58e9-489c-8556-1270dca7bfb2">
