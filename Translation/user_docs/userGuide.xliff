@@ -25064,7 +25064,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>This may be of use in locations where access to the NV Access Add-on Store server is slow or unavailable.</source>
-        <target>适用于访问 NV Access 插件商店服务器缓慢或受限的地区。</target>
+        <target>在访问 NV Access 插件商店服务器较慢或不可用的地区，此功能可能非常有用。</target>
       </segment>
     </unit>
     <unit id="6db5bc5d-4352-440c-86f3-5e434a2e1dfd">
@@ -25205,27 +25205,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#SetURLDialog}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set Mirror Dialog</source>
-        <target>Set Mirror Dialog</target>
+        <target>设置镜像对话框</target>
       </segment>
     </unit>
     <unit id="b8b24625-92be-49a9-b30e-5079a4c3bc96">
       <notes>
         <note appliesTo="source">line: 3125</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This dialog allows you to specify the URL of a mirror to use when [updating NVDA](#GeneralSettingsCheckForUpdates) or [using the Add-on Store](#AddonsManager).</source>
-        <target>This dialog allows you to specify the URL of a mirror to use when [updating NVDA](#GeneralSettingsCheckForUpdates) or [using the Add-on Store](#AddonsManager).</target>
+        <target>此对话框允许您指定用于[更新 NVDA](#GeneralSettingsCheckForUpdates) 或[使用插件商店](#AddonsManager)时的镜像服务器网址。</target>
       </segment>
     </unit>
     <unit id="e6fbcabf-879b-44a0-aacc-2a0f7878f147">
       <notes>
         <note appliesTo="source">line: 3126</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This may be of use in locations where access to the NV Access servers for these functions is slow or unavailable.</source>
-        <target>This may be of use in locations where access to the NV Access servers for these functions is slow or unavailable.</target>
+        <target>在访问 NV Access 官方服务器较慢或不可用的地区，此功能可能非常有用。</target>
       </segment>
     </unit>
     <unit id="f73dfe76-9328-4ad1-8a98-4aae4490d98f">
@@ -25233,9 +25233,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3128</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When setting the [NVDA update mirror](#UpdateMirror), the title of this dialog will be "Set NVDA Update Mirror".</source>
-        <target>When setting the [NVDA update mirror](#UpdateMirror), the title of this dialog will be "Set NVDA Update Mirror".</target>
+        <target>当设置 [NVDA 更新镜像](#UpdateMirror)时，对话框标题将显示为“设置NVDA更新镜像”。</target>
       </segment>
     </unit>
     <unit id="19a0ca46-0cf7-4f44-a012-76fb71b7bd3b">
@@ -25243,9 +25243,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3129</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When setting the [Add-on Store mirror](#AddonStoreMetadataMirror), the title of this dialog will be "Set Add-on Store Mirror Server".</source>
-        <target>When setting the [Add-on Store mirror](#AddonStoreMetadataMirror), the title of this dialog will be "Set Add-on Store Mirror Server".</target>
+        <target>当设置[插件商店镜像](#AddonStoreMetadataMirror)时，对话框标题将显示为“设置插件商店镜像服务器”。</target>
       </segment>
     </unit>
     <unit id="8a9fda8d-8feb-4a2e-9bb2-54857a6b1d3a">
@@ -25254,45 +25254,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SetURLTextbox}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>URL</source>
-        <target>URL</target>
+        <target>网址</target>
       </segment>
     </unit>
     <unit id="4ed6a6c5-896a-4644-8b99-03e1c75afcd5">
       <notes>
         <note appliesTo="source">line: 3133</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enter the URL (web address) of the mirror you wish to use here.</source>
-        <target>Enter the URL (web address) of the mirror you wish to use here.</target>
+        <target>在此输入您要使用的镜像网址。</target>
       </segment>
     </unit>
     <unit id="af23ed2c-1ebe-4e3c-954e-114c91ebc45e">
       <notes>
         <note appliesTo="source">line: 3134</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Only HTTP and HTTPS URLs are supported.</source>
-        <target>Only HTTP and HTTPS URLs are supported.</target>
+        <target>仅支持 HTTP 和 HTTPS 协议的网址。</target>
       </segment>
     </unit>
     <unit id="eb8ca7c0-5d29-4578-8d2f-d82a2b5054f3">
       <notes>
         <note appliesTo="source">line: 3135</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For your privacy, NV Access recommends using HTTPS URLs whenever possible.</source>
-        <target>For your privacy, NV Access recommends using HTTPS URLs whenever possible.</target>
+        <target>为保护隐私安全，NV Access 建议尽可能使用 HTTPS 协议的网址。</target>
       </segment>
     </unit>
     <unit id="1baea992-7155-41e4-9d86-1a2732c418c3">
       <notes>
         <note appliesTo="source">line: 3137</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Leave this blank to use the default NV Access server.</source>
-        <target>Leave this blank to use the default NV Access server.</target>
+        <target>留空此字段将使用默认的 NV Access 官方服务器。</target>
       </segment>
     </unit>
     <unit id="cc6cb82c-2a45-463f-ba63-094caf917760">
@@ -25301,36 +25301,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SetURLTest}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Test...</source>
-        <target>Test...</target>
+        <target>测试...</target>
       </segment>
     </unit>
     <unit id="2d408ecc-d3a0-49ce-8e87-7fb1110b95e9">
       <notes>
         <note appliesTo="source">line: 3141</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Press this button to test the mirror URL you have entered.</source>
-        <target>Press this button to test the mirror URL you have entered.</target>
+        <target>按下此按钮可测试您输入的镜像网址。</target>
       </segment>
     </unit>
     <unit id="c4cdecb9-2f3e-488a-9dbe-aba87da6fe2b">
       <notes>
         <note appliesTo="source">line: 3142</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You must be connected to the internet for the test to succeed.</source>
-        <target>You must be connected to the internet for the test to succeed.</target>
+        <target>测试需要保持互联网连接。</target>
       </segment>
     </unit>
     <unit id="e4d23412-941b-43bc-a8a8-461f3d8250fe">
       <notes>
         <note appliesTo="source">line: 3143</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It is recommended that you always test the URL before saving it.</source>
-        <target>It is recommended that you always test the URL before saving it.</target>
+        <target>建议在保存前务必进行网址测试。</target>
       </segment>
     </unit>
     <unit id="e3d0c2c5-1a59-4caf-9b4f-67e824c90639">
@@ -26581,36 +26581,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#TrimLeadingSilenceSpeech}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Trim leading silence in speech audio</source>
-        <target>Trim leading silence in speech audio</target>
+        <target>去除语音开头的静音</target>
       </segment>
     </unit>
     <unit id="a0439eac-a01a-4596-b651-b95700fd4bc7">
       <notes>
         <note appliesTo="source">line: 3338</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When enabled, NVDA will remove silence from the start of speech audio, which may improve the responsiveness of some speech synthesizers.</source>
-        <target>When enabled, NVDA will remove silence from the start of speech audio, which may improve the responsiveness of some speech synthesizers.</target>
+        <target>启用此选项后，NVDA 将去除语音音频起始部分的静音，这可能提升部分语音合成器的响应速度。</target>
       </segment>
     </unit>
     <unit id="6dc82e04-38d5-4e56-8922-c8174017cbad">
       <notes>
         <note appliesTo="source">line: 3339</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is enabled by default, and should only affect the silence at the beginning of speech.</source>
-        <target>This option is enabled by default, and should only affect the silence at the beginning of speech.</target>
+        <target>该选项默认开启，且仅会影响语音开始时的静音。</target>
       </segment>
     </unit>
     <unit id="df3db20e-89e8-438f-9608-977d65dbe68f">
       <notes>
         <note appliesTo="source">line: 3340</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you find that some necessary silence periods are also missing (e.g. pause between two sentences) when using a speech synthesizer add-on, you may turn this feature off entirely to resolve the issue.</source>
-        <target>If you find that some necessary silence periods are also missing (e.g. pause between two sentences) when using a speech synthesizer add-on, you may turn this feature off entirely to resolve the issue.</target>
+        <target>若您在使用语音合成器插件时发现必要的静音段落缺失（例如句间停顿），可关闭此功能以解决问题。</target>
       </segment>
     </unit>
     <unit id="c220247b-10ff-495a-ba07-7ca83b57a89a">
@@ -26619,45 +26619,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#UseWASAPIForSAPI4}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use WASAPI for SAPI 4 audio output</source>
-        <target>Use WASAPI for SAPI 4 audio output</target>
+        <target>SAPI 4 使用 WASAPI 输出音频</target>
       </segment>
     </unit>
     <unit id="6a99c36f-33d2-4a02-9572-9b6df4e1f31b">
       <notes>
         <note appliesTo="source">line: 3344</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option enables Microsoft Speech API version 4 (SAPI 4) voices to output audio via the Windows Audio Session API (WASAPI).</source>
-        <target>This option enables Microsoft Speech API version 4 (SAPI 4) voices to output audio via the Windows Audio Session API (WASAPI).</target>
+        <target>此选项允许 Microsoft Speech API version 4（SAPI 4）的语音通过 Windows 音频会话 API（WASAPI）输出音频。</target>
       </segment>
     </unit>
     <unit id="73d79f19-633b-4ab0-9975-abd1bd212926">
       <notes>
         <note appliesTo="source">line: 3345</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This can allow SAPI 4 voices to work with more features, such as audio ducking, leading silence trimming, and keeping audio device awake.</source>
-        <target>This can allow SAPI 4 voices to work with more features, such as audio ducking, leading silence trimming, and keeping audio device awake.</target>
+        <target>该功能可使 SAPI 4 语音支持更多特性，例如：音频闪避、去除语音开头的静音、音频设备保持唤醒等。</target>
       </segment>
     </unit>
     <unit id="79c46af5-44a3-49d7-86b7-e737d5440a24">
       <notes>
         <note appliesTo="source">line: 3346</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>However, some SAPI 4 voices might not work with the current WASAPI implementation.</source>
-        <target>However, some SAPI 4 voices might not work with the current WASAPI implementation.</target>
+        <target>但请注意，部分 SAPI 4 语音可能无法兼容当前的 WASAPI 实现方案。</target>
       </segment>
     </unit>
     <unit id="cddb15b9-7651-4c05-9478-b17653c2c94c">
       <notes>
         <note appliesTo="source">line: 3347</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you find that the SAPI 4 voice you are using stops working, you may disable this option.</source>
-        <target>If you find that the SAPI 4 voice you are using stops working, you may disable this option.</target>
+        <target>若您使用的 SAPI 4 语音出现异常，可通过禁用此选项来恢复。</target>
       </segment>
     </unit>
     <unit id="e21a8ba0-863c-413d-bdb2-fef30cfb7f17">
