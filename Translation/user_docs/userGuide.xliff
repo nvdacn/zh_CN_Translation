@@ -17630,9 +17630,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1837</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can also manually install the pending update from the Exit NVDA dialog (if enabled), from the NVDA menu, or when you perform a new check from the Help menu.</source>
-        <target>You can also manually install the pending update from the Exit NVDA dialog (if enabled), from the NVDA menu, or when you perform a new check from the Help menu.</target>
+        <target>如果开启了退出对话框，可在该对话框手动安装，亦可在 NVDA 菜单或检查更新时安装。</target>
       </segment>
     </unit>
     <unit id="1cf1f3b1-241c-49e1-8e33-18f8d9ad63e7">
@@ -17641,54 +17641,54 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#UpdateMirror}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Update Mirror</source>
-        <target>Update Mirror</target>
+        <target>更新镜像</target>
       </segment>
     </unit>
     <unit id="327044b7-f8f3-40dd-a31b-e0c24130e164">
       <notes>
         <note appliesTo="source">line: 1841</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>These controls allow you to specify an alternative URL to use to check for updates to NVDA.</source>
-        <target>These controls allow you to specify an alternative URL to use to check for updates to NVDA.</target>
+        <target>通过这些控件，您可以指定用于检查 NVDA 更新的备用网址。</target>
       </segment>
     </unit>
     <unit id="1eb3d0af-f174-4b79-97c9-3d8fd0e81748">
       <notes>
         <note appliesTo="source">line: 1842</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This may be of use in locations where access to the NV Access NVDA update server is slow or unavailable.</source>
-        <target>This may be of use in locations where access to the NV Access NVDA update server is slow or unavailable.</target>
+        <target>在访问 NV Access 官方更新服务器较慢或不可用的地区，此功能可能非常有用。</target>
       </segment>
     </unit>
     <unit id="facdcb0c-f97b-47e7-9838-1ed71029a871">
       <notes>
         <note appliesTo="source">line: 1844</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The read-only text box shows the current mirror URL.</source>
-        <target>The read-only text box shows the current mirror URL.</target>
+        <target>只读文本框将显示当前的镜像网址。</target>
       </segment>
     </unit>
     <unit id="0295eda0-cd06-4cd4-8f59-32fa3e7440ef">
       <notes>
         <note appliesTo="source">line: 1845</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If no mirror is in use (i.e. the NV Access update server is being used), "No mirror" is displayed.</source>
-        <target>If no mirror is in use (i.e. the NV Access update server is being used), "No mirror" is displayed.</target>
+        <target>若未使用任何镜像（即正在使用 NV Access 官方更新服务器），则会显示“不使用镜像”。</target>
       </segment>
     </unit>
     <unit id="468ff857-eaf0-49da-9123-cb31c941e3ef">
       <notes>
         <note appliesTo="source">line: 1847</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you wish to change the update mirror, press the "Change..." button to open the [Set Update Mirror dialog](#SetURLDialog).</source>
-        <target>If you wish to change the update mirror, press the "Change..." button to open the [Set Update Mirror dialog](#SetURLDialog).</target>
+        <target>如需更改更新镜像，请按下“更改...”按钮以打开[设置更新镜像对话框](#SetURLDialog)</target>
       </segment>
     </unit>
     <unit id="417226f3-93d8-41b4-b444-134a85fd13ed">
@@ -17704,9 +17704,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1850</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Contact the operator of the update mirror for details of their data handling policies to ensure you are comfortable with the way your information will be handled before setting an update mirror.</source>
-        <target>Contact the operator of the update mirror for details of their data handling policies to ensure you are comfortable with the way your information will be handled before setting an update mirror.</target>
+        <target>在设置更新镜像前，建议您联系镜像运营商了解其数据处理政策，确保您能接受其信息处理方式。</target>
       </segment>
     </unit>
     <unit id="47d9f3c2-2f74-45d0-874e-ee1f8b491fa2">
@@ -17715,45 +17715,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#PreventDisplayTurningOff}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Prevent display from turning off during say all or reading with braille</source>
-        <target>Prevent display from turning off during say all or reading with braille</target>
+        <target>在全文朗读或阅读盲文时禁止关闭显示器</target>
       </segment>
     </unit>
     <unit id="92438bd8-32e4-450d-a072-f6aee58f0eac">
       <notes>
         <note appliesTo="source">line: 1854</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This check box, when enabled, ensures that the display stays on when reading with say all or with braille (e.g. when pressing scroll buttons).</source>
-        <target>This check box, when enabled, ensures that the display stays on when reading with say all or with braille (e.g. when pressing scroll buttons).</target>
+        <target>启用此复选框，可确保在使用全文朗读或盲文阅读时（例如按下滚动按钮时）保持屏幕常亮。</target>
       </segment>
     </unit>
     <unit id="62b3430f-2c86-4cda-b6d7-5de458e5c8f7">
       <notes>
         <note appliesTo="source">line: 1855</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This avoids the situation where the screen unexpectedly locks during a say all.</source>
-        <target>This avoids the situation where the screen unexpectedly locks during a say all.</target>
+        <target>这样可以避免在全文朗读过程中屏幕意外锁定的情况。</target>
       </segment>
     </unit>
     <unit id="388ad5ce-4a07-474b-a814-f5b2494040d1">
       <notes>
         <note appliesTo="source">line: 1856</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is enabled by default.</source>
-        <target>This option is enabled by default.</target>
+        <target>该选项默认处于启用状态。</target>
       </segment>
     </unit>
     <unit id="4b258b12-7c8a-4691-bfc1-858ad4063732">
       <notes>
         <note appliesTo="source">line: 1857</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Consider disabling this option if you are suffering from a shorter battery life.</source>
-        <target>Consider disabling this option if you are suffering from a shorter battery life.</target>
+        <target>若您发现电池续航时间显著缩短，可考虑禁用此选项。</target>
       </segment>
     </unit>
     <unit id="b37d4d24-25d9-4ed9-8544-aee0219cfce2">
