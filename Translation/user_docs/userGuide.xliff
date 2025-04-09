@@ -24809,9 +24809,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Update Automatically |Automatically update add-ons in the background </source>
-        <target>Update Automatically |Automatically update add-ons in the background </target>
+        <target>自动更新 | 在后台自动更新插件</target>
       </segment>
     </unit>
     <unit id="83eb7c50-ecda-4938-a473-4e1c7c77b479">
@@ -24831,45 +24831,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#DefaultAddonUpdateChannel}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Default Update Channel</source>
-        <target>Default Update Channel</target>
+        <target>默认更新通道</target>
       </segment>
     </unit>
     <unit id="20fd982a-9a89-4d0f-97d5-71b6f530b16e">
       <notes>
         <note appliesTo="source">line: 3068</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When [Automatic add-on updates](#AutomaticAddonUpdates) are enabled, by default, add-ons only update to the same [channel](#AddonStoreFilterChannel).</source>
-        <target>When [Automatic add-on updates](#AutomaticAddonUpdates) are enabled, by default, add-ons only update to the same [channel](#AddonStoreFilterChannel).</target>
+        <target>当启用[自动更新插件](#AutomaticAddonUpdates)时，默认情况下插件仅会更新到与已安装版本相同[通道](#AddonStoreFilterChannel)的版本。</target>
       </segment>
     </unit>
     <unit id="2fd47649-6beb-4ca7-9fad-3bde5576629f">
       <notes>
         <note appliesTo="source">line: 3069</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, an installed beta version will only update to a newer beta version.</source>
-        <target>For example, an installed beta version will only update to a newer beta version.</target>
+        <target>例如：已安装的测试版插件仅会更新到较新的测试版。</target>
       </segment>
     </unit>
     <unit id="77bb92c7-2c71-4f6f-8b68-5ebe2a34ff0f">
       <notes>
         <note appliesTo="source">line: 3070</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option sets the default update channel for all add-ons.</source>
-        <target>This option sets the default update channel for all add-ons.</target>
+        <target>此选项用于为所有插件设置默认更新通道。</target>
       </segment>
     </unit>
     <unit id="84b10d60-1fcf-43ed-9090-3bc8700d05f5">
       <notes>
         <note appliesTo="source">line: 3071</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can also change the update channel for a [specific add-on individually from the Add-on Store](#AddonStoreUpdateChannel).</source>
-        <target>You can also change the update channel for a [specific add-on individually from the Add-on Store](#AddonStoreUpdateChannel).</target>
+        <target>您也可以通过插件商店[为单个插件修改更新通道](#AddonStoreUpdateChannel)。</target>
       </segment>
     </unit>
     <unit id="cd20a83a-5ddc-4238-be1d-ce0aa7802205">
@@ -24878,9 +24878,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Same (Default), Any, Do not update, Stable, Beta or dev, Beta, Dev </source>
-        <target> Options | Same (Default), Any, Do not update, Stable, Beta or dev, Beta, Dev </target>
+        <target> 选项 | 与已安装版本相同（默认）、不限、关闭自动更新、稳定版、测试版或开发版、测试版、开发版 </target>
       </segment>
     </unit>
     <unit id="5101407f-f7e1-4c59-9787-56bbf1380634">
@@ -24889,9 +24889,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Same </source>
-        <target> Default | Same </target>
+        <target> 默认 | 与已安装版本相同 </target>
       </segment>
     </unit>
     <unit id="824d4ae9-0463-40f8-a473-498bd8b04056">
@@ -24911,9 +24911,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Same | Add-ons will remain on their channel </source>
-        <target> Same | Add-ons will remain on their channel </target>
+        <target> 与已安装版本相同 | 插件仅会更新到当前通道的新版本 </target>
       </segment>
     </unit>
     <unit id="fe84c0ba-0cb3-48d8-bd5c-426ad813a896">
@@ -24922,9 +24922,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Any | Add-ons will automatically update to the latest version, regardless of channel </source>
-        <target> Any | Add-ons will automatically update to the latest version, regardless of channel </target>
+        <target> 不限 | 不考虑通道类型，自动更新到最新的可用版本 </target>
       </segment>
     </unit>
     <unit id="0e7bb3c4-6a44-4dc0-96c6-e3bad0925f90">
@@ -24933,9 +24933,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Do not update | Add-ons will not automatically update by default, you must enable them individually </source>
-        <target> Do not update | Add-ons will not automatically update by default, you must enable them individually </target>
+        <target> 关闭自动更新 | 默认禁用自动更新，可单独启用特定插件的更新</target>
       </segment>
     </unit>
     <unit id="6dd0d5a7-5741-4e63-bf0b-2b7903717aaa">
@@ -24944,9 +24944,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Stable | Add-ons will automatically update to stable versions </source>
-        <target> Stable | Add-ons will automatically update to stable versions </target>
+        <target> 稳定版 | 插件将自动更新到稳定版 </target>
       </segment>
     </unit>
     <unit id="755043a8-0834-4685-b287-945079bf214b">
@@ -24955,9 +24955,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Beta or dev | Add-ons will automatically update to beta or dev versions </source>
-        <target> Beta or dev | Add-ons will automatically update to beta or dev versions </target>
+        <target> 测试版或开发板 | 插件将自动更新到测试版或开发版 </target>
       </segment>
     </unit>
     <unit id="074fd46a-91aa-4415-a795-05b1e7560b49">
@@ -24966,9 +24966,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Beta | Add-ons will automatically update to beta versions </source>
-        <target> Beta | Add-ons will automatically update to beta versions </target>
+        <target> 测试版 | 插件将自动更新到测试版 </target>
       </segment>
     </unit>
     <unit id="a961c9bd-0d8d-490b-b76b-14d7115dcb44">
@@ -24977,9 +24977,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Dev | Add-ons will automatically update to dev versions </source>
-        <target> Dev | Add-ons will automatically update to dev versions </target>
+        <target> 开发板 | 插件将自动更新到开发版 </target>
       </segment>
     </unit>
     <unit id="f2c9de04-525d-4257-b675-bc95090423de">
@@ -24988,54 +24988,54 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#AllowIncompatibleAddonUpdates}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Allow automatic updates to install incompatible add-ons</source>
-        <target>Allow automatic updates to install incompatible add-ons</target>
+        <target>允许自动更新安装不兼容的插件</target>
       </segment>
     </unit>
     <unit id="9a6c7f72-bed4-4786-be93-ae684ab723b2">
       <notes>
         <note appliesTo="source">line: 3090</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This setting enables automatic updates to add-ons that may not be fully compatible with the current version of NVDA.</source>
-        <target>This setting enables automatic updates to add-ons that may not be fully compatible with the current version of NVDA.</target>
+        <target>此设置允许自动更新可能不完全兼容当前版本 NVDA 的插件。</target>
       </segment>
     </unit>
     <unit id="3a417004-d82a-4cb2-aa2e-af8740bfe4ce">
       <notes>
         <note appliesTo="source">line: 3091</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, this is disabled, meaning automatic updates will only upgrade to add-on versions marked as compatible with the current version of NVDA.</source>
-        <target>By default, this is disabled, meaning automatic updates will only upgrade to add-on versions marked as compatible with the current version of NVDA.</target>
+        <target>默认禁用该功能，即自动更新仅会更新标记为与当前版本 NVDA 兼容的插件。</target>
       </segment>
     </unit>
     <unit id="bca925ec-287d-400d-958b-0dcecb269433">
       <notes>
         <note appliesTo="source">line: 3092</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Automatic updates will still update an incompatible add-on version to a compatible version when it is released.</source>
-        <target>Automatic updates will still update an incompatible add-on version to a compatible version when it is released.</target>
+        <target>当兼容版本发布时，自动更新仍会将不兼容的插件更新到兼容版本。</target>
       </segment>
     </unit>
     <unit id="955b207c-1a8b-40d9-8128-5562ba762e23">
       <notes>
         <note appliesTo="source">line: 3093</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enabling this may be useful for switching over to using add-on breaking releases (the first release of the year).</source>
-        <target>Enabling this may be useful for switching over to using add-on breaking releases (the first release of the year).</target>
+        <target>启用此选项可能有助于过渡至使用插件兼容性破坏版本（年度首个版本）。</target>
       </segment>
     </unit>
     <unit id="ad61f6ad-b9fe-4117-a3b6-445c3a07d07b">
       <notes>
         <note appliesTo="source">line: 3094</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This is particularly useful for alpha and beta testers, who are testing compatibility of add-ons during the early stages of an add-on breaking release.</source>
-        <target>This is particularly useful for alpha and beta testers, who are testing compatibility of add-ons during the early stages of an add-on breaking release.</target>
+        <target>对于 alpha 和 beta 版的测试人员尤其有用，可在插件破坏性更新的早期阶段测试兼容性。</target>
       </segment>
     </unit>
     <unit id="ae02468e-ba87-4868-bd19-77304b444ae2">
@@ -25044,54 +25044,54 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#AddonStoreMetadataMirror}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mirror server</source>
-        <target>Mirror server</target>
+        <target>镜像服务器</target>
       </segment>
     </unit>
     <unit id="4b93a787-3809-4a37-b50b-9b37d36c5a85">
       <notes>
         <note appliesTo="source">line: 3098</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>These controls allow you to specify an alternative URL to download Add-on Store data from.</source>
-        <target>These controls allow you to specify an alternative URL to download Add-on Store data from.</target>
+        <target>这些控件允许指定替代网址以下载插件商店数据。</target>
       </segment>
     </unit>
     <unit id="e00a9820-461e-48c0-9768-79381ca3e9e1">
       <notes>
         <note appliesTo="source">line: 3099</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This may be of use in locations where access to the NV Access Add-on Store server is slow or unavailable.</source>
-        <target>This may be of use in locations where access to the NV Access Add-on Store server is slow or unavailable.</target>
+        <target>适用于访问 NV Access 插件商店服务器缓慢或受限的地区。</target>
       </segment>
     </unit>
     <unit id="6db5bc5d-4352-440c-86f3-5e434a2e1dfd">
       <notes>
         <note appliesTo="source">line: 3101</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The read-only text box shows the current mirror URL.</source>
-        <target>The read-only text box shows the current mirror URL.</target>
+        <target>只读文本框将显示当前的镜像网址。</target>
       </segment>
     </unit>
     <unit id="c31aa45c-52d3-432d-9da6-63de4ecabbd1">
       <notes>
         <note appliesTo="source">line: 3102</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If no mirror is in use (i.e. the NV Access Add-on Store server is being used), "No mirror" is displayed.</source>
-        <target>If no mirror is in use (i.e. the NV Access Add-on Store server is being used), "No mirror" is displayed.</target>
+        <target>若未使用任何镜像（即正在使用 NV Access 插件商店服务器），则会显示“不使用镜像”。</target>
       </segment>
     </unit>
     <unit id="5c1cbc23-5376-40c3-9f92-320c61ce131a">
       <notes>
         <note appliesTo="source">line: 3104</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you wish to change the Add-on Store mirror, press the "Change..." button to open the [Set Add-on Store Mirror dialog](#SetURLDialog).</source>
-        <target>If you wish to change the Add-on Store mirror, press the "Change..." button to open the [Set Add-on Store Mirror dialog](#SetURLDialog).</target>
+        <target>如需更改插件商店镜像，请按下“更改...”按钮以打开[设置插件商店镜像对话框](#SetURLDialog)</target>
       </segment>
     </unit>
     <unit id="41cbd374-e298-42ab-badc-9dd6efb312c8">
