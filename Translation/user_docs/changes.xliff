@@ -6658,9 +6658,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 151</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>In Visual Studio Code, NVDA no longer hijacks the `alt+upArrow` and `alt+downArrow` gestures for sentence navigation. (#17082, @LeonarddeR)</source>
-        <target>In Visual Studio Code, NVDA no longer hijacks the `alt+upArrow` and `alt+downArrow` gestures for sentence navigation. (#17082, @LeonarddeR)</target>
+        <target/>
       </segment>
     </unit>
     <unit id="7f91cc45-3074-45a9-9912-7872c8e23660">
@@ -6668,9 +6668,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 152</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Certain section elements are now correctly recognized as editable controls in Visual Studio Code. (#17573, @Cary-rowen)</source>
-        <target>Certain section elements are now correctly recognized as editable controls in Visual Studio Code. (#17573, @Cary-rowen)</target>
+        <target>Visual Studio Code 中的部分区域现能被正确识别为可编辑控件。 (#17573, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="d3d716d5-967e-4d21-9def-0aebbe12c4d6">
@@ -6678,18 +6678,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 153</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>In Notepad and other UIA documents, and Notepad++ documents on Windows 11, if the last line is empty, the "braille next line command" will move the cursor to the last line.</source>
-        <target>In Notepad and other UIA documents, and Notepad++ documents on Windows 11, if the last line is empty, the "braille next line command" will move the cursor to the last line.</target>
+        <target/>
       </segment>
     </unit>
     <unit id="549554ad-d4f3-4135-a0b2-427b8822b192">
       <notes>
         <note appliesTo="source">line: 154</note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>  In any document, if the cursor is on the last line, it will be moved to the end when using this command. (#17251, #17430, @nvdaes)</source>
-        <target>  In any document, if the cursor is on the last line, it will be moved to the end when using this command. (#17251, #17430, @nvdaes)</target>
+        <target/>
       </segment>
     </unit>
     <unit id="21d58f6d-40d8-40b6-8384-4acb0f33e4b7">
@@ -6697,9 +6697,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 155</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Configuration profiles:</source>
-        <target>Configuration profiles:</target>
+        <target>配置文件：</target>
       </segment>
     </unit>
     <unit id="696d05fd-78a6-4860-baa0-8258efd30a76">
@@ -6717,9 +6717,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>Fixed an issue where certain settings were explicitly saved to the active configuration profile even when the value of that setting was equal to the value in the base configuration. (#17157, @leonarddeR)</source>
-        <target>Fixed an issue where certain settings were explicitly saved to the active configuration profile even when the value of that setting was equal to the value in the base configuration. (#17157, @leonarddeR)</target>
+        <target/>
       </segment>
     </unit>
     <unit id="78681f8b-9948-4996-ac58-b50c72263be9">
@@ -6777,9 +6777,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 163</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA will no longer announce Windows 11 clipboard history entries when closing the window while items are present. (#17308, @josephsl)</source>
-        <target>NVDA will no longer announce Windows 11 clipboard history entries when closing the window while items are present. (#17308, @josephsl)</target>
+        <target>当存在项目时关闭窗口，NVDA 将不再读出 Windows 11 剪贴板历史条目。 (#17308, @josephsl)</target>
       </segment>
     </unit>
     <unit id="ef453176-3122-41c8-8fcb-6d4086323641">
@@ -6905,9 +6905,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 179</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated Comtypes to 1.4.6. (#17061, @LeonarddeR)</source>
-        <target>Updated Comtypes to 1.4.6. (#17061, @LeonarddeR)</target>
+        <target>将 Comtypes 更新到 1.4.6。 (#17061, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="4550952d-502b-44c6-890a-25177bd0c9bc">
@@ -6915,9 +6915,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 180</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated wxPython to 4.2.2. (#17181, @dpy013)</source>
-        <target>Updated wxPython to 4.2.2. (#17181, @dpy013)</target>
+        <target>将 wxPython 更新到 4.2.2. (#17181, @dpy013)</target>
       </segment>
     </unit>
     <unit id="c25adfab-1ee7-486b-bda1-8c2b3d2a9b38">
@@ -6925,9 +6925,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 181</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated SCons to 4.8.1. (#17254)</source>
-        <target>Updated SCons to 4.8.1. (#17254)</target>
+        <target>将 SCons 更新到 4.8.1。 (#17254)</target>
       </segment>
     </unit>
     <unit id="6fcbdb44-f212-492a-a51d-d10666a0b86d">
@@ -6935,9 +6935,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 182</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated sphinx to 8.1.2 and sphinx-rtd-theme to 3.0.1. (#17284, @josephsl)</source>
-        <target>Updated sphinx to 8.1.2 and sphinx-rtd-theme to 3.0.1. (#17284, @josephsl)</target>
+        <target>将 sphinx 更新到 8.1.2，sphinx-rtd-theme 更新到 3.0.1。 (#17284, @josephsl)</target>
       </segment>
     </unit>
     <unit id="d378a918-b595-4115-9b54-b70d079049c4">
@@ -6945,9 +6945,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 183</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated Robot Framework to 7.1.1. (#17329, @josephsl)</source>
-        <target>Updated Robot Framework to 7.1.1. (#17329, @josephsl)</target>
+        <target>将 Robot Framework 更新到 7.1.1。 (#17329, @josephsl)</target>
       </segment>
     </unit>
     <unit id="75258457-cc66-444c-a951-a5dfb02445ac">
@@ -6955,9 +6955,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 184</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated configobj to 5.1.0 commit `8be5462`. (#17328)</source>
-        <target>Updated configobj to 5.1.0 commit `8be5462`. (#17328)</target>
+        <target>将 configobj 更新到 5.1.0 commit `8be5462`。 (#17328)</target>
       </segment>
     </unit>
     <unit id="1579b4b6-f8f3-4301-b7d7-63db4c16ad48">
@@ -6965,9 +6965,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 185</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated pre-commit to 4.0.1. (#17260)</source>
-        <target>Updated pre-commit to 4.0.1. (#17260)</target>
+        <target>将 pre-commit 更新到 4.0.1. (#17260)</target>
       </segment>
     </unit>
     <unit id="b4c6d03b-41e5-4a40-b481-44c53bc19e96">
@@ -6975,9 +6975,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 186</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated typing-extensions to 4.12.2. (#17438, @josephsl)</source>
-        <target>Updated typing-extensions to 4.12.2. (#17438, @josephsl)</target>
+        <target>将 typing-extensions 更新到 4.12.2。 (#17438, @josephsl)</target>
       </segment>
     </unit>
     <unit id="abe47f44-49d3-4239-96d7-aba813cddc5c">
@@ -6985,9 +6985,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 187</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated licensecheck to 2024.3. (#17440, @josephsl)</source>
-        <target>Updated licensecheck to 2024.3. (#17440, @josephsl)</target>
+        <target>将 licensecheck 更新到 2024.3。 (#17440, @josephsl)</target>
       </segment>
     </unit>
     <unit id="12ade01a-9d03-4604-9af5-240baf51e52d">
@@ -6995,9 +6995,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 188</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated markdown to 3.7. (#17459, @josephsl)</source>
-        <target>Updated markdown to 3.7. (#17459, @josephsl)</target>
+        <target>将markdown 更新到 3.7。 (#17459, @josephsl)</target>
       </segment>
     </unit>
     <unit id="262181ec-d3b0-48c1-b993-bd2fb4b18aa0">
@@ -7005,9 +7005,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 189</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated nh3 0.2.19. (#17465, @josephsl)</source>
-        <target>Updated nh3 0.2.19. (#17465, @josephsl)</target>
+        <target>将 nh3 更新到 0.2.19。 (#17465, @josephsl)</target>
       </segment>
     </unit>
     <unit id="a6f35ae0-d203-417c-a65b-51520bd24472">
@@ -7015,9 +7015,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 190</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated nuitka to 2.5.4. (#17458, @josephsl)</source>
-        <target>Updated nuitka to 2.5.4. (#17458, @josephsl)</target>
+        <target>将 nuitka 更新到 2.5.4。 (#17458, @josephsl)</target>
       </segment>
     </unit>
     <unit id="88ba0166-e596-4ff7-9345-292cd03dc121">
@@ -7025,9 +7025,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 191</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated schedule to 1.2.2. (#17455, @josephsl)</source>
-        <target>Updated schedule to 1.2.2. (#17455, @josephsl)</target>
+        <target>将 schedule 更新到 1.2.2。 (#17455, @josephsl)</target>
       </segment>
     </unit>
     <unit id="a3ae718e-b280-4551-b7ec-799b497de2a6">
@@ -7035,9 +7035,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 192</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated requests to 2.32.3. (#17456, @josephsl)</source>
-        <target>Updated requests to 2.32.3. (#17456, @josephsl)</target>
+        <target>将 requests 更新到 2.32.3。 (#17456, @josephsl)</target>
       </segment>
     </unit>
     <unit id="93194069-424c-478d-b596-686c638a23da">
@@ -7153,9 +7153,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 204</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>Added the [VS Code workspace configuration for NVDA](https://nvaccess.org/nvaccess/vscode-nvda) as a git submodule. (#17003)</source>
-        <target>Added the [VS Code workspace configuration for NVDA](https://nvaccess.org/nvaccess/vscode-nvda) as a git submodule. (#17003)</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="a771a1b8-5ff9-45ee-b91f-ace15dafd1be">
@@ -7902,9 +7902,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 284</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Deprecations</source>
-        <target>Deprecations</target>
+        <target>弃用</target>
       </segment>
     </unit>
     <unit id="fe1f780d-96b6-4df1-a95b-659138704dcd">
