@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-09 23:27+0000\n"
-"PO-Revision-Date: 2025-04-10 12:42+0800\n"
+"POT-Creation-Date: 2025-04-10 06:57+0000\n"
+"PO-Revision-Date: 2025-04-10 19:18+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -18339,29 +18339,58 @@ msgstr "已连接"
 msgid "Disconnected"
 msgstr "已断开连接"
 
+#. Translators: A message indicating that the remote client is not connected.
+#: remoteClient\client.py:463
+#, fuzzy
+#| msgid "Not connected"
+msgctxt "remote"
+msgid "Not connected"
+msgstr "未连接"
+
+#. Translators: Presented when attempting to switch to controling a remote computer when connected as the controlled computer.
+#: remoteClient\client.py:467
+msgctxt "remote"
+msgid "Not the controlling computer"
+msgstr ""
+
+#. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
+#: remoteClient\client.py:471
+#, fuzzy
+#| msgctxt "remote"
+#| msgid "No one else is connected"
+msgctxt "remote"
+msgid "No controlled computers are connected"
+msgstr "当前无其他用户连接"
+
 #. Translators: Presented when sending keyboard keys from the controlling computer to the controlled computer.
-#: remoteClient\client.py:470
-msgid "Controlling remote machine."
+#: remoteClient\client.py:479
+#, fuzzy
+#| msgid "Controlling remote machine."
+msgctxt "remote"
+msgid "Controlling remote computer"
 msgstr "控制远程计算机。"
 
 #. Translators: Presented when keyboard control is back to the controlling computer.
-#: remoteClient\client.py:476
-msgid "Controlling local machine."
+#: remoteClient\client.py:485
+#, fuzzy
+#| msgid "Controlling local machine."
+msgctxt "remote"
+msgid "Controlling local computer"
 msgstr "控制本地计算机。"
 
 #. Translators: Message shown when trying to connect while already connected.
-#: remoteClient\client.py:517
+#: remoteClient\client.py:526
 msgid ""
 "NVDA Remote is already connected. Disconnect before opening a new connection."
 msgstr "NVDA 远程 已连接。开始新连接前请先断开。"
 
 #. Translators: Title of the connection error dialog.
-#: remoteClient\client.py:519
+#: remoteClient\client.py:528
 msgid "NVDA Remote Already Connected"
 msgstr "NVDA 远程 已连接"
 
 #. Translators: Ask the user if they want to control the remote computer.
-#: remoteClient\client.py:532
+#: remoteClient\client.py:541
 #, python-brace-format
 msgid "Do you wish to control the machine on server {server} with key {key}?"
 msgstr ""
@@ -18369,7 +18398,7 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
-#: remoteClient\client.py:536
+#: remoteClient\client.py:545
 #, python-brace-format
 msgid ""
 "Do you wish to allow this machine to be controlled on server {server} with "
@@ -18379,7 +18408,7 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
-#: remoteClient\client.py:542
+#: remoteClient\client.py:551
 msgid "NVDA Remote Connection Request"
 msgstr "NVDA 远程连接请求"
 
