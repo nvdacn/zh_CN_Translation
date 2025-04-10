@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-09 23:27+0000\n"
-"PO-Revision-Date: 2025-04-10 10:49+0800\n"
+"PO-Revision-Date: 2025-04-10 12:19+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -10397,33 +10397,27 @@ msgstr "段落符（¶）"
 
 #. Translators: Allow this computer to be controlled by the remote computer.
 #: config\configFlags.py:322
-#, fuzzy
-#| msgid "Allow this machine to be controlled"
 msgctxt "remote"
 msgid "Allow this machine to be controlled"
 msgstr "允许此计算机被控制"
 
 #. Translators: Allow this computer to control the remote computer.
 #: config\configFlags.py:324
-#, fuzzy
-#| msgid "Control another machine"
 msgctxt "remote"
 msgid "Control another machine"
 msgstr "控制另一台计算机"
 
 #. Translators: Use an existing Remote control server
 #: config\configFlags.py:352
-#, fuzzy
-#| msgid "editing"
 msgctxt "remote"
 msgid "Use existing"
-msgstr "正在编辑"
+msgstr "使用现有"
 
 #. Translators: Use NVDA as the Remote control server
 #: config\configFlags.py:354
 msgctxt "remote"
 msgid "Host locally"
-msgstr ""
+msgstr "本地托管"
 
 #. Translators: Label for an option in NVDA settings.
 #: config\featureFlagEnums.py:53
@@ -14173,35 +14167,27 @@ msgstr "设置插件商店镜像服务器"
 
 #. Translators: Label of a checkbox in Remote's settings
 #: gui\settingsDialogs.py:3329
-#, fuzzy
-#| msgid "Enable Remote Access"
 msgctxt "remote"
 msgid "Enable Remote Access"
 msgstr "启用远程访问"
 
 #. Translators: A checkbox in Remote settings to set whether sounds play instead of beeps.
 #: gui\settingsDialogs.py:3346
-#, fuzzy
-#| msgid "Play sounds instead of beeps"
 msgctxt "remote"
 msgid "&Play sounds instead of beeps"
-msgstr "用音效代替蜂鸣音"
+msgstr "用音效代替蜂鸣音(&P)"
 
 #. Translators: A checkbox in Remote settings to set whether NVDA should automatically connect to a control server on startup.
 #: gui\settingsDialogs.py:3355
-#, fuzzy
-#| msgid "Automatically connect to control server on startup"
 msgctxt "remote"
 msgid "Automatically &connect after NVDA starts"
-msgstr "启动时自动连接到控制服务器"
+msgstr "NVDA 启动时自动连接(&C)"
 
 #. Translators: A group of settings configuring how to connect if NVDA is set to automatically establish a Remote connection at startup.
 #: gui\settingsDialogs.py:3365
-#, fuzzy
-#| msgid "automatic color"
 msgctxt "remote"
 msgid "Automatic connection"
-msgstr "自动颜色"
+msgstr "自动连接"
 
 #. Translators: Label for a control in NVDA's Remote settings,
 #. allowing the user to select whether their computer is controlling or controlled.
@@ -14209,17 +14195,15 @@ msgstr "自动颜色"
 #: gui\settingsDialogs.py:3374 remoteClient\dialogs.py:293
 msgctxt "remote"
 msgid "&Mode:"
-msgstr ""
+msgstr "模式(&M)"
 
 #. Translators: Label for a control in NVDA's Remote settings,
 #. allowing users to choose whether they want to use an existing Remote relay server, or host their own.
 #. Translators: Label of the control allowing users to select whether to use a pre-existing Remote Access server, or to run their own.
 #: gui\settingsDialogs.py:3383 remoteClient\dialogs.py:300
-#, fuzzy
-#| msgid "Server"
 msgctxt "remote"
 msgid "&Server:"
-msgstr "服务器"
+msgstr "服务器(&S)"
 
 #. Translators: Label for the host field in NVDA's Remote settings.
 #. This is where users should enter the URL of the Remote server they want to use if they are not hosting their own.
@@ -14259,11 +14243,14 @@ msgid ""
 "\n"
 "Are you sure you want to continue? This action cannot be undone."
 msgstr ""
+"这将导致 NVDA 忘记所有之前受信任的远程服务器。\n"
+"当再次连接到之前受信任但未经验证的远程服务器时，系统将再次询问是否信任其证"
+"书。\n"
+"\n"
+"您确定要继续吗？确认后无法撤销。"
 
 #. Translators: This is the title of the dialog presented when the user tries to delete all stored trusted fingerprints.
 #: gui\settingsDialogs.py:3496
-#, fuzzy
-#| msgid "Delete all trusted fingerprints"
 msgctxt "remote"
 msgid "Delete all trusted fingerprints"
 msgstr "删除所有已信任的指纹"
@@ -14276,6 +14263,8 @@ msgid ""
 "automatically connect using an existing Remote Access server after NVDA "
 "starts."
 msgstr ""
+"为了在 NVDA 启动后自动通过现有远程访问服务器进行连接，必须在“远程”部分设置主"
+"机和密钥。"
 
 #. Translators: This message is presented when the user tries to save the settings with the port or key field empty.
 #: gui\settingsDialogs.py:3519
@@ -14285,14 +14274,14 @@ msgid ""
 "automatically connect using a locally hosted Remote Access server after NVDA "
 "starts."
 msgstr ""
+"为了在 NVDA 启动后自动通过本地托管的远程访问服务器进行连接，必须在“远程”部分"
+"设置端口和密钥。"
 
 #. Translators: Title of a dialog.
 #: gui\settingsDialogs.py:3525
-#, fuzzy
-#| msgid "Remote Error"
 msgctxt "remote"
 msgid "Remote Access Error"
-msgstr "远程错误"
+msgstr "远程访问错误"
 
 #. Translators: This is the label for the touch interaction settings panel.
 #: gui\settingsDialogs.py:3558
@@ -18314,11 +18303,9 @@ msgstr "未连接。"
 
 #. Translators: Reported when performing a Remote Access action, but there are no other computers in the channel.
 #: remoteClient\client.py:142
-#, fuzzy
-#| msgid "Not connected"
 msgctxt "remote"
 msgid "No one else is connected"
-msgstr "未连接"
+msgstr "当前无其他用户连接"
 
 #. Translators: Message shown when clipboard content cannot be sent to the remote computer.
 #: remoteClient\client.py:150
@@ -18337,11 +18324,9 @@ msgstr "无法连接到远程计算机"
 
 #. Translators: Title of the Remote Access connection dialog.
 #: remoteClient\client.py:249
-#, fuzzy
-#| msgid "Connect to a remote computer"
 msgctxt "remote"
 msgid "Connect to Another Computer"
-msgstr "连接到远程计算机"
+msgstr "连接到另一台计算机"
 
 #. Translators: Presented when connected to the remote computer.
 #: remoteClient\client.py:292
@@ -18425,19 +18410,15 @@ msgstr "必须设置主机。"
 
 #. Translators: Title of a dialog shown to users when asking a Remote control server to generate a key
 #: remoteClient\dialogs.py:74
-#, fuzzy
-#| msgid "&Generate Key"
 msgctxt "remote"
 msgid "Generating key"
-msgstr "生成秘钥(&G)"
+msgstr "正在生成密钥"
 
 #. Translators: Message on a dialog shown to users when asking a Remote control server to generate a key
 #: remoteClient\dialogs.py:76
-#, fuzzy
-#| msgid "&Generate Key"
 msgctxt "remote"
 msgid "Generating key..."
-msgstr "生成秘钥(&G)"
+msgstr "正在生成密钥..."
 
 #. Translators: Message shown to users when requesting that a Remote control server generate a key fails.
 #. {host} will be replaced with the address of the Remote control server.
@@ -18447,15 +18428,13 @@ msgctxt "remote"
 msgid ""
 "Unable to connect to {host}. Check that you have internet access, and that "
 "there are no mistakes in the host field."
-msgstr ""
+msgstr "无法连接到 {host}。请检查网络连接并确保主机输入正确。"
 
 #. Translators: Title of a dialog.
 #: remoteClient\dialogs.py:111
-#, fuzzy
-#| msgid "Recognition failed"
 msgctxt "remote"
 msgid "Host connection failed"
-msgstr "识别失败"
+msgstr "主机连接失败"
 
 #. Translators: Label of the field displaying the external IP address if using direct (client to server) connection.
 #: remoteClient\dialogs.py:175
@@ -18469,26 +18448,20 @@ msgstr "获取公网 IP (&I)"
 
 #. Translators: Label of the edit field to enter key (password) to secure the remote connection.
 #: remoteClient\dialogs.py:197
-#, fuzzy
-#| msgid "&Key:"
 msgid "&Key"
 msgstr "秘钥(&K)"
 
 #. Translators: Title of a dialog shown to users while attempting to detect their external IP address
 #: remoteClient\dialogs.py:218
-#, fuzzy
-#| msgid "Get External &IP"
 msgctxt "remote"
 msgid "Getting external IP"
-msgstr "获取公网 IP (&I)"
+msgstr "正在获取公网 IP"
 
 #. Translators: Message on a dialog shown to users while attempting to detect their external IP address
 #: remoteClient\dialogs.py:220
-#, fuzzy
-#| msgid "Get External &IP"
 msgctxt "remote"
 msgid "Getting external IP..."
-msgstr "获取公网 IP (&I)"
+msgstr "正在获取公网 IP..."
 
 #. Translators: Message shown when successfully getting external IP and the specified port is open
 #: remoteClient\dialogs.py:247
