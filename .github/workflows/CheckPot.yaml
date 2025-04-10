@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "20*"
+      - "!2025.1"
     paths:
       - 'Translation/LC_MESSAGES/*.po'
   schedule:
