@@ -24928,7 +24928,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Option |Behaviour </source>
         <target>选项 |行为 </target>
       </segment>
@@ -25241,18 +25241,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#RemoteSettings}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote Settings</source>
-        <target>Remote Settings</target>
+        <target>远程设置</target>
       </segment>
     </unit>
     <unit id="34d45e86-1a4c-470a-9fb6-4812a2ce7c7e">
       <notes>
         <note appliesTo="source">line: 3109</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This category allows you to configure the behaviour of [Remote Access](#RemoteAccess).</source>
-        <target>This category allows you to configure the behaviour of [Remote Access](#RemoteAccess).</target>
+        <target>该类别用于配置[远程访问](#RemoteAccess)功能的行为。</target>
       </segment>
     </unit>
     <unit id="e4703b50-8f75-4f41-bd21-2659efb04c3c">
@@ -25261,45 +25261,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteEnable}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enable Remote Access</source>
-        <target>Enable Remote Access</target>
+        <target>启用远程访问</target>
       </segment>
     </unit>
     <unit id="5ed75b2e-5083-4afc-8df2-a1ef193fdba2">
       <notes>
         <note appliesTo="source">line: 3113</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this checkbox to enable or disable NVDA's Remote Access feature.</source>
-        <target>Use this checkbox to enable or disable NVDA's Remote Access feature.</target>
+        <target>通过该复选框可启用或禁用 NVDA 的远程访问功能。</target>
       </segment>
     </unit>
     <unit id="9fada5ff-5a84-4a80-977e-ec584832d240">
       <notes>
         <note appliesTo="source">line: 3115</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When this is unchecked, the Remote Access feature is entirely unavailable.</source>
-        <target>When this is unchecked, the Remote Access feature is entirely unavailable.</target>
+        <target>当未选中时，远程访问功能将完全不可用。</target>
       </segment>
     </unit>
     <unit id="dda10917-5d77-41cd-8a44-b08932cadedb">
       <notes>
         <note appliesTo="source">line: 3117</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please note that in order to continue a Remote Access session on secure screens such as User Account Control prompts, you must enable this setting, save the changes, and then [copy your settings to NVDA's system configuration directory](#GeneralSettingsCopySettings).</source>
-        <target>Please note that in order to continue a Remote Access session on secure screens such as User Account Control prompts, you must enable this setting, save the changes, and then [copy your settings to NVDA's system configuration directory](#GeneralSettingsCopySettings).</target>
+        <target>请注意：若要在用户账户控制提示等安全屏幕上保持远程会话，必须启用此设置、保存更改后[将设置拷贝到 NVDA 系统配置目录](#GeneralSettingsCopySettings)。</target>
       </segment>
     </unit>
     <unit id="59c923d6-7942-4e2d-bd70-4916b46ad34a">
       <notes>
         <note appliesTo="source">line: 3119</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The following options are only available if Remote Access is enabled.</source>
-        <target>The following options are only available if Remote Access is enabled.</target>
+        <target>以下选项仅在启用远程访问时可用。</target>
       </segment>
     </unit>
     <unit id="cbb49390-0029-414e-a56a-fc61a7c52c32">
@@ -25308,36 +25308,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteSoundsOrBeeps}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Play sounds instead of beeps</source>
-        <target>Play sounds instead of beeps</target>
+        <target>用音效代替蜂鸣音</target>
       </segment>
     </unit>
     <unit id="4e3073a8-f782-4b03-9890-ccbf2f9e3cb2">
       <notes>
         <note appliesTo="source">line: 3123</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this option to select the type of audio cues played by Remote.</source>
-        <target>Use this option to select the type of audio cues played by Remote.</target>
+        <target>此选项用于选择远程事件触发的音频提示类型。</target>
       </segment>
     </unit>
     <unit id="1b4cd228-b711-4326-919d-d90e2067456e">
       <notes>
         <note appliesTo="source">line: 3125</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When checked, NVDA will produce natural-sounding audio cues for Remote events.</source>
-        <target>When checked, NVDA will produce natural-sounding audio cues for Remote events.</target>
+        <target>选中时，NVDA 将为远程事件播放自然音效。</target>
       </segment>
     </unit>
     <unit id="0d0af15b-2303-4501-8ab6-938e0f9d06e5">
       <notes>
         <note appliesTo="source">line: 3126</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When unchecked, NVDA will beep for Remote events.</source>
-        <target>When unchecked, NVDA will beep for Remote events.</target>
+        <target>未选中时，NVDA 将通过蜂鸣声提示远程事件。</target>
       </segment>
     </unit>
     <unit id="4b142507-9401-4d1f-b8da-cb443c3cb501">
@@ -25346,36 +25346,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnect}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Automatically connect after NVDA starts</source>
-        <target>Automatically connect after NVDA starts</target>
+        <target>NVDA 启动后自动连接</target>
       </segment>
     </unit>
     <unit id="a3c0240c-e753-44ff-9a12-10d41cd30396">
       <notes>
         <note appliesTo="source">line: 3130</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option allows you to automatically establish a Remote Access session when NVDA starts.</source>
-        <target>This option allows you to automatically establish a Remote Access session when NVDA starts.</target>
+        <target>此选项允许在 NVDA 启动时自动建立远程访问会话。</target>
       </segment>
     </unit>
     <unit id="620f9532-0216-4f60-bb66-8c743593e654">
       <notes>
         <note appliesTo="source">line: 3131</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This could be useful, for example, to control your home computer when away from home.</source>
-        <target>This could be useful, for example, to control your home computer when away from home.</target>
+        <target>例如，当您不在家时，此功能可用于控制家用计算机。</target>
       </segment>
     </unit>
     <unit id="a10b52e9-c203-4785-becd-4eae781c7d34">
       <notes>
         <note appliesTo="source">line: 3133</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use caution when enabling this option, as it may increase the risk of unauthorized access to your computer.</source>
-        <target>Use caution when enabling this option, as it may increase the risk of unauthorized access to your computer.</target>
+        <target>请谨慎启用此选项，因为可能增加计算机遭受未授权访问的风险。</target>
       </segment>
     </unit>
     <unit id="5015a520-5bed-409d-9f4f-743e2fa0cb6d">
@@ -25384,27 +25384,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectMode}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mode</source>
-        <target>Mode</target>
+        <target>模式</target>
       </segment>
     </unit>
     <unit id="ae432baf-3488-4305-8381-8aae0c4e2310">
       <notes>
         <note appliesTo="source">line: 3137</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Select the connection mode for automatic connections.</source>
-        <target>Select the connection mode for automatic connections.</target>
+        <target>选择自动连接的工作模式。</target>
       </segment>
     </unit>
     <unit id="f92b4b86-c3b5-4ce6-b4e4-2bf81ec20d86">
       <notes>
         <note appliesTo="source">line: 3139</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</target>
+        <target>此选项仅在选中[NVDA 启动后自动连接](#RemoteAutoconnect)时可用。</target>
       </segment>
     </unit>
     <unit id="cd41a94e-2ad8-4085-8167-bba3b861b438">
@@ -25413,9 +25413,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Option |Behaviour </source>
-        <target>Option |Behaviour </target>
+        <target>选项 |行为 </target>
       </segment>
     </unit>
     <unit id="ba9de544-6ae0-44fb-8da7-06c7fe807a4b">
@@ -25446,27 +25446,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectServer}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Server</source>
-        <target>Server</target>
+        <target>服务器</target>
       </segment>
     </unit>
     <unit id="6c98f242-7c5f-434e-acb7-8ce15b4b003b">
       <notes>
         <note appliesTo="source">line: 3148</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Select the server type for automatic connections.</source>
-        <target>Select the server type for automatic connections.</target>
+        <target>选择自动连接的服务器类型。</target>
       </segment>
     </unit>
     <unit id="f5886c51-a6c9-4ca7-850f-ed42eca20fea">
       <notes>
         <note appliesTo="source">line: 3150</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)时可用。</target>
       </segment>
     </unit>
     <unit id="35ae2c00-7dad-4f5a-8886-e3d3f723c788">
@@ -25475,9 +25475,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Option |Behaviour </source>
-        <target>Option |Behaviour </target>
+        <target>选项 |行为 </target>
       </segment>
     </unit>
     <unit id="ed2c76eb-ca00-46bf-a198-2a1edfe7e652">
@@ -25486,9 +25486,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use existing |Use an existing Remote Access server to mediate the connection (recommended). </source>
-        <target>Use existing |Use an existing Remote Access server to mediate the connection (recommended). </target>
+        <target>使用现有 | 通过既有远程访问服务器建立中继连接（推荐）。 </target>
       </segment>
     </unit>
     <unit id="c4229ecd-8563-4a67-8ed6-823b2f8f890b">
@@ -25497,9 +25497,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Host locally |Use this instance of NVDA as the Remote Access server (advanced). This option may require network configuration that is out of scope for this manual. </source>
-        <target>Host locally |Use this instance of NVDA as the Remote Access server (advanced). This option may require network configuration that is out of scope for this manual. </target>
+        <target>本地托管 | 将当前 NVDA 实例作为远程访问服务器（高级），此选项可能涉及超出本指南范围的网络配置。 </target>
       </segment>
     </unit>
     <unit id="e508195a-301a-4839-a056-a306d6f799a2">
@@ -25508,36 +25508,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectHost}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Host</source>
-        <target>Host</target>
+        <target>主机</target>
       </segment>
     </unit>
     <unit id="2b42f111-d711-46d4-93e9-f4baa41e1ea1">
       <notes>
         <note appliesTo="source">line: 3159</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this field to set the URL of the Remote Access server you would like to use for automatic connections.</source>
-        <target>Use this field to set the URL of the Remote Access server you would like to use for automatic connections.</target>
+        <target>在此字段设置自动连接使用的远程访问服务器网址。</target>
       </segment>
     </unit>
     <unit id="a2314d0b-fed3-4a5d-a629-782ecb20a197">
       <notes>
         <note appliesTo="source">line: 3160</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If the server uses a port other than 6837, include it after a colon (eg. `example.com:1234`).</source>
-        <target>If the server uses a port other than 6837, include it after a colon (eg. `example.com:1234`).</target>
+        <target>若服务器使用非 6837 端口，需在网址后附加冒号和端口号（如：`example.com:1234`）。</target>
       </segment>
     </unit>
     <unit id="1c48db19-a2bd-4c29-810c-6a7b38a6269a">
       <notes>
         <note appliesTo="source">line: 3162</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Use existing".</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Use existing".</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)且[服务器](#RemoteAutoconnectServer)设为“使用现有”时可用。</target>
       </segment>
     </unit>
     <unit id="3922ec7e-84f7-4733-b639-2617ff92e68a">
@@ -25546,27 +25546,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectPort}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Port</source>
-        <target>Port</target>
+        <target>端口</target>
       </segment>
     </unit>
     <unit id="f49141eb-1eed-4825-9e4c-f2a0fc51c141">
       <notes>
         <note appliesTo="source">line: 3166</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this field to set the TCP port you would like to use for automatic connections.</source>
-        <target>Use this field to set the TCP port you would like to use for automatic connections.</target>
+        <target>在此字段设置自动连接使用的 TCP 端口。</target>
       </segment>
     </unit>
     <unit id="37ce416a-0855-444d-a6cd-828aaba73600">
       <notes>
         <note appliesTo="source">line: 3168</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Host locally".</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Host locally".</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)且[服务器](#RemoteAutoconnectServer)设为“本地托管”时可用。</target>
       </segment>
     </unit>
     <unit id="951b1ca5-229b-4118-b4dd-f6056d1befe8">
@@ -25575,27 +25575,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectKey}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Key</source>
-        <target>Key</target>
+        <target>密钥</target>
       </segment>
     </unit>
     <unit id="b9bde79d-75c9-4096-b11b-84f41c61fb6f">
       <notes>
         <note appliesTo="source">line: 3172</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this field to set the key (password) you would like to use for automatic connections.</source>
-        <target>Use this field to set the key (password) you would like to use for automatic connections.</target>
+        <target>在此字段设置自动连接使用的身份验证密钥（密码）。</target>
       </segment>
     </unit>
     <unit id="cc411c22-798f-4e84-8d71-0d917fe47cd4">
       <notes>
         <note appliesTo="source">line: 3174</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)时可用。</target>
       </segment>
     </unit>
     <unit id="4214e903-3572-4c71-acef-65b3419d8335">
@@ -25604,36 +25604,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteDeleteFingerprints}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Delete all trusted fingerprints</source>
-        <target>Delete all trusted fingerprints</target>
+        <target>删除所有已信任的指纹</target>
       </segment>
     </unit>
     <unit id="91483535-71a7-4971-83d5-162e7c743e8d">
       <notes>
         <note appliesTo="source">line: 3178</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This button allows you to forget the fingerprints of all previously trusted Remote Access servers.</source>
-        <target>This button allows you to forget the fingerprints of all previously trusted Remote Access servers.</target>
+        <target>此按钮用于清除所有已信任远程访问服务器的数字指纹记录。</target>
       </segment>
     </unit>
     <unit id="bc1b799f-5b52-4b89-a4d6-6b67352474da">
       <notes>
         <note appliesTo="source">line: 3179</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This means that you will again be asked whether to connect to all unauthorized Remote Access servers, even ones that you have previously connected to.</source>
-        <target>This means that you will again be asked whether to connect to all unauthorized Remote Access servers, even ones that you have previously connected to.</target>
+        <target>执行后将重新要求确认所有未经授权的远程访问服务器连接，包括先前已连接过的服务器。</target>
       </segment>
     </unit>
     <unit id="869c3bb3-208a-45f7-8a08-e3b9c2e82afd">
       <notes>
         <note appliesTo="source">line: 3180</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You will be asked to confirm before all trusted fingerprints are deleted.</source>
-        <target>You will be asked to confirm before all trusted fingerprints are deleted.</target>
+        <target>删除前将进行二次确认。</target>
       </segment>
     </unit>
     <unit id="bd1a4107-5eb9-4232-8b24-d65f30d71059">
@@ -25649,9 +25649,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3183</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available if there are trusted fingerprints stored in your configuration.</source>
-        <target>This option is only available if there are trusted fingerprints stored in your configuration.</target>
+        <target>此选项仅在配置中存在受信指纹时可用。</target>
       </segment>
     </unit>
     <unit id="41cbd374-e298-42ab-badc-9dd6efb312c8">
