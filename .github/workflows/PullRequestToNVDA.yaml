@@ -102,7 +102,7 @@ jobs:
             const prParams = {
               owner: "${{ env.BaseOwner }}",
               repo: "nvda",
-              title: "Updated the symbols, gestures, character descriptions files in Simplified Chinese",
+              title: "Updated the symbols, gestures, character descriptions files for Simplified Chinese",
               head: "${{ env.HeadOwner }}:PullRequestToNVDA",
               base: "beta",
               body: `${{ steps.template.outputs.result }}`,

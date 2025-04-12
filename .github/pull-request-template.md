@@ -5,10 +5,10 @@ none
 none
 
 ### Description of user facing changes
-Updated the symbols, gestures, character descriptions files in Simplified Chinese.
+Updated the symbols, gestures, character descriptions files for Simplified Chinese.
 
 ### Description of development approach
-Updated the symbols, gestures, character descriptions files in Simplified Chinese.
+Updated the symbols, gestures, character descriptions files for Simplified Chinese.
 
 ### Testing strategy:
 Manual test after build
