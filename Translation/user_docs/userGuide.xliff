@@ -11663,18 +11663,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 896</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When moving around the document with review commands, the navigator object is automatically updated to the object found at the current review cursor position.</source>
-        <target>当使用查看命令在文档中移动时，导航对象将自动地更新到当前浏览光标所在位置的对象上。</target>
+        <target>当使用查看命令在文档中移动时，导航对象将自动地更新到当前查看光标所在位置的对象上。</target>
       </segment>
     </unit>
     <unit id="79bd8669-57c8-412a-b972-bbcb33ef01ab">
       <notes>
         <note appliesTo="source">line: 898</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Note that NVDA will switch to document review from object review automatically when moving around browse mode documents.</source>
-        <target>请注意，在浏览模式文档中移动时，NVDA 会自动从对象浏览切换到文档浏览。</target>
+        <target>请注意，在浏览模式文档中移动时，NVDA 会自动从对象查看切换到文档查看。</target>
       </segment>
     </unit>
     <unit id="bcd5460c-7330-42a1-a1c5-d86bbc2207ce">
@@ -11710,27 +11710,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 905</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When switching to screen review mode, the review cursor is placed at the screen position of the current [navigator object](#ObjectNavigation).</source>
-        <target>当切换到屏幕浏览模式时，查看光标将被放置在当前[导航对象](#ObjectNavigation)的屏幕位置上。</target>
+        <target>当切换到屏幕查看模式时，查看光标将被放置在当前[导航对象](#ObjectNavigation)的屏幕位置上。</target>
       </segment>
     </unit>
     <unit id="e900335c-26c0-483f-abec-7a143512384a">
       <notes>
         <note appliesTo="source">line: 906</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When moving around the screen with review commands, the navigator object is automatically updated to the object found at the screen position of the review cursor.</source>
-        <target>当使用查看命令在屏幕中移动时，导航对象将自动移动到当前浏览光标所在位置的对象上。</target>
+        <target>当使用查看命令在屏幕中移动时，导航对象将自动移动到当前查看光标所在位置的对象上。</target>
       </segment>
     </unit>
     <unit id="73360cb3-1171-4faf-aaa1-1f6967481393">
       <notes>
         <note appliesTo="source">line: 908</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Note that in some newer applications, NVDA may not see some or all text displayed on the screen due to the use of newer screen drawing technologies which are impossible to support at this time.</source>
-        <target>请注意，在一些新的程序中，NVDA 可能无法查看显示在屏幕上的部分或者全部文本，由于其使用了更新的屏幕拖拽技术，在此时支持是不可能的。</target>
+        <target>请注意，在某些较新的应用程序中，由于使用了目前暂时无法支持的较新屏幕绘制技术，NVDA 可能无法识别屏幕上显示的部分或全部文本。</target>
       </segment>
     </unit>
     <unit id="2a4128df-99f1-4842-8de4-69cd634fac80">
