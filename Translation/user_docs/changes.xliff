@@ -6073,7 +6073,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA is now translated into Bosnian. (#17953)</source>
         <target>NVDA 现被翻译为波斯尼亚语。 (#17953)</target>
       </segment>
@@ -19077,9 +19077,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1659</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`control+alt+home/end` to jump to first/last column.</source>
-        <target>`control+alt+home/end` to jump to first/last column.</target>
+        <target>`control+alt+home/end` 移动到第一列/最后一列。</target>
       </segment>
     </unit>
     <unit id="2418a26a-5e98-4898-9412-9f793704f9ac">
@@ -19087,9 +19087,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1660</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`control+alt+pageUp/pageDown` to jump to first/last row.</source>
-        <target>`control+alt+pageUp/pageDown` to jump to first/last row.</target>
+        <target>`control+alt+pageUp/pageDown` 移动到第一行/最后一行。</target>
       </segment>
     </unit>
     <unit id="b1f627c8-fc07-4685-ac3f-d161c84d1e69">
@@ -20081,9 +20081,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1776</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This release breaks compatibility with existing add-ons.</source>
-        <target>This release breaks compatibility with existing add-ons.</target>
+        <target>此版本将破坏现有插件的兼容性。</target>
       </segment>
     </unit>
     <unit id="89725995-9ea4-437a-8510-6955ae8ce368">
@@ -20271,9 +20271,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 1797</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This includes documents in Microsoft Word itself, and also the message reader and composer in Microsoft Outlook.</source>
-        <target>This includes documents in Microsoft Word itself, and also the message reader and composer in Microsoft Outlook.</target>
+        <target>除了 Word 文档本身， Microsoft Outlook 中的消息阅读器与编辑器也将受益于该特性。</target>
       </segment>
     </unit>
     <unit id="78743167-e8e1-4a95-95f4-0befb79c3a64">
@@ -22959,9 +22959,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2124</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This release breaks compatibility with existing add-ons.</source>
-        <target>This release breaks compatibility with existing add-ons.</target>
+        <target>此版本对插件 API 进行了兼容性改进，在您更新之后一些旧版插件可能因为兼容性原因被禁用，您可以访问 [NVDA 中文站](https://www.nvdacn.com)获取所需的新版插件。</target>
       </segment>
     </unit>
     <unit id="df187091-8c6c-4dd2-9528-19626ef9c5a6">
@@ -22969,9 +22969,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2125</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This release also drops support for Adobe Flash.</source>
-        <target>This release also drops support for Adobe Flash.</target>
+        <target>自本版起，也不再支持过时的 Adobe Flash。</target>
       </segment>
     </unit>
     <unit id="0ae34e5a-05b9-4e5a-9e58-de2a23510004">
@@ -24553,9 +24553,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2298</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Addresses multiple crashes</source>
-        <target>Addresses multiple crashes</target>
+        <target>解决了频繁崩溃的问题</target>
       </segment>
     </unit>
     <unit id="8ed8cf80-a717-4bb8-8102-c1180c82552c">
@@ -24563,9 +24563,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2299</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Adds Bashkir grade 1 Braille table</source>
-        <target>Adds Bashkir grade 1 Braille table</target>
+        <target>增加了巴什基尔 1 级盲文表</target>
       </segment>
     </unit>
     <unit id="626edef1-ed21-4417-9816-3cdf18ab457d">
@@ -24573,9 +24573,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2300</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Adds Coptic 8 dot computer braille table</source>
-        <target>Adds Coptic 8 dot computer braille table</target>
+        <target>增加了科普特 8 点计算机盲文表</target>
       </segment>
     </unit>
     <unit id="83f30084-c009-4868-b9a6-2638beb05956">
@@ -24583,9 +24583,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2301</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Adds Russian literary braille and Russian literary braille (detailed) tables</source>
-        <target>Adds Russian literary braille and Russian literary braille (detailed) tables</target>
+        <target>增加了俄罗斯盲文和俄罗斯盲文（详细）表</target>
       </segment>
     </unit>
     <unit id="6b02d810-aed8-4107-97bd-8393cf1a260d">
@@ -24593,9 +24593,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2302</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Adds Added Afrikaans grade 2 braille table</source>
-        <target>Adds Added Afrikaans grade 2 braille table</target>
+        <target>增加了南非荷兰语 2 级盲文表</target>
       </segment>
     </unit>
     <unit id="bb1db923-fc8f-4d3b-9d36-0f68df13e742">
@@ -24603,9 +24603,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2303</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Removes the Russian grade 1 Braille table</source>
-        <target>Removes the Russian grade 1 Braille table</target>
+        <target>删除了俄罗斯 1 级盲文表</target>
       </segment>
     </unit>
     <unit id="e893e084-50b9-498c-954a-66b017da0d2a">
@@ -25171,9 +25171,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2368</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This can be toggled on and off by a new NVDA Document Formatting option for Highlighting.</source>
-        <target>This can be toggled on and off by a new NVDA Document Formatting option for Highlighting.</target>
+        <target>可在 NVDA 的“文档格式”设置中打开或关闭该选项。</target>
       </segment>
     </unit>
     <unit id="3706e218-64a1-4974-910e-90641284ab61">
@@ -26724,9 +26724,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2554</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a script to enable screen curtain (until next restart with one press, or always while NVDA is running with two presses), no default gesture is assigned.</source>
-        <target>Added a script to enable screen curtain (until next restart with one press, or always while NVDA is running with two presses), no default gesture is assigned.</target>
+        <target>新增用于开关黑屏的首饰设置（按一次临时开启黑屏，直至下次重启 NVDA 后恢复，连按两次开启黑屏，需手动关闭），注意：未分配默认手势。</target>
       </segment>
     </unit>
     <unit id="d9af3b45-fbb5-4e05-a607-d22ac7e1c27e">
@@ -26734,9 +26734,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2555</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Can be enabled and configured via the 'vision' category in NVDA's settings dialog.</source>
-        <target>Can be enabled and configured via the 'vision' category in NVDA's settings dialog.</target>
+        <target>可以通过 NVDA 设置对话框中的“视觉”分类启用和配置。</target>
       </segment>
     </unit>
     <unit id="7f55e05a-6678-435a-b72c-c94cfd2a9d07">
@@ -26754,9 +26754,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2557</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Highlighting of the focus, navigator object, and browse mode caret position can be enabled and configured via the 'vision' category in NVDA's settings dialog.</source>
-        <target>Highlighting of the focus, navigator object, and browse mode caret position can be enabled and configured via the 'vision' category in NVDA's settings dialog.</target>
+        <target>可以通过 NVDA 设置对话框中的“视觉”分类来启用和设置焦点，导航器对象和浏览模式插入标记的高亮显示。</target>
       </segment>
     </unit>
     <unit id="a4bd98f5-7d85-4bba-ace8-956d6934bff0">
@@ -26764,9 +26764,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2558</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note: This feature is incompatible with the focus highlight add-on, however, the add-on can still be used while the built-in highlighter is disabled.</source>
-        <target>Note: This feature is incompatible with the focus highlight add-on, however, the add-on can still be used while the built-in highlighter is disabled.</target>
+        <target>注意： 此功能与“焦点高亮显示”插件不兼容，但是，在禁用该功能后，仍可使用插件。</target>
       </segment>
     </unit>
     <unit id="9fe3d82c-9055-4e0c-9b4d-d49aa17ad01d">
@@ -28022,9 +28022,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2697</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that when this option is disabled, you can still enable browse mode manually by pressing NVDA+space.</source>
-        <target>Note that when this option is disabled, you can still enable browse mode manually by pressing NVDA+space.</target>
+        <target>注意：关闭这个功能之后仍然可以用 NVDA 加空格键手动启用浏览模式。</target>
       </segment>
     </unit>
     <unit id="4e878d91-86b9-4bc7-a2c2-cd9bf3f1987b">
@@ -28082,9 +28082,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2703</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The gesture must be configured in the "Input gestures" dialog.</source>
-        <target>The gesture must be configured in the "Input gestures" dialog.</target>
+        <target>手势必须在“输入手势”对话框中设定。</target>
       </segment>
     </unit>
     <unit id="a4d9ec78-de78-43ab-b828-e99cb0a54362">
@@ -28102,9 +28102,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2705</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Additionally, Javadoc information can be read from the editor when it is present by using NVDA+d.</source>
-        <target>Additionally, Javadoc information can be read from the editor when it is present by using NVDA+d.</target>
+        <target>另外，当 Javadoc 信息被显示时，可以通过 NVDA+d 来阅读。</target>
       </segment>
     </unit>
     <unit id="4290ad2c-30fe-4dfb-a786-1a92784b1f5c">
@@ -28122,9 +28122,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2707</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Rubber band effect: NVDA sporadically undoes the last browse mode keystroke by jumping to the previous location.</source>
-        <target>Rubber band effect: NVDA sporadically undoes the last browse mode keystroke by jumping to the previous location.</target>
+        <target>NVDA 在使用跳转到上一个位置的快捷键时，偶尔会撤消上次的浏览模式的快捷键。</target>
       </segment>
     </unit>
     <unit id="0b0c0477-1ddf-470d-af21-3c92f5616995">
@@ -28132,9 +28132,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2708</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Edit boxes steal system focus when arrowing down through them on some websites.</source>
-        <target>Edit boxes steal system focus when arrowing down through them on some websites.</target>
+        <target>在某些网站上使用下光标浏览时，编辑框会获取系统焦点。</target>
       </segment>
     </unit>
     <unit id="87443c4d-ac48-433b-a3dc-2d9b34bec296">
@@ -28142,9 +28142,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2709</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Browse mode keystrokes are slow to respond.</source>
-        <target>Browse mode keystrokes are slow to respond.</target>
+        <target>浏览模式快捷键响应速度缓慢。</target>
       </segment>
     </unit>
     <unit id="9b6eb7e5-7e9d-46fb-a2b7-2cdd78fdadc0">
@@ -28776,9 +28776,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2787</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This will allow NVDA to track the mouse when a system is controlled remotely using TeamViewer or other remote control software.</source>
-        <target>This will allow NVDA to track the mouse when a system is controlled remotely using TeamViewer or other remote control software.</target>
+        <target>现在，当使用 TeamViewer 或其他远程协助软件远程控制系统时，将允许 NVDA 跟踪鼠标。</target>
       </segment>
     </unit>
     <unit id="fed57042-9776-481a-b4c1-3832591f9f25">
@@ -28826,9 +28826,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2792</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This works in Firefox 66 and later.</source>
-        <target>This works in Firefox 66 and later.</target>
+        <target>这适用于 Firefox 66 及更高版本。</target>
       </segment>
     </unit>
     <unit id="be07e380-e9b7-45f4-82f9-1aa88087ad53">
@@ -28836,9 +28836,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2793</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This does not work for certain list boxes (HTML select controls) in Chrome.</source>
-        <target>This does not work for certain list boxes (HTML select controls) in Chrome.</target>
+        <target>这不适用于 Chrome 中的某些列表框例如（HTML 选择控件）。This does not work for certain list boxes (HTML select controls) in Chrome.</target>
       </segment>
     </unit>
     <unit id="c7b16a5f-6265-4987-873a-f9a293faa4f6">
@@ -28996,9 +28996,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2811</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For developers who need to test code as it is being developed,  enable NVDA's developer scratchpad directory in the Advanced category of NVDA settings, and place your code in the 'scratchpad' directory found in the NVDA user configuration directory when this option is enabled.</source>
-        <target>For developers who need to test code as it is being developed,  enable NVDA's developer scratchpad directory in the Advanced category of NVDA settings, and place your code in the 'scratchpad' directory found in the NVDA user configuration directory when this option is enabled.</target>
+        <target>对于需要在开发过程中测试代码的开发者，请在 NVDA 设置的高级分类中启用允许从开发者实验目录加载自定义代码，并在启用此设置时将代码放在 NVDA 用户配置目录中的“试验”目录中。</target>
       </segment>
     </unit>
     <unit id="be5994b0-e951-4aae-a0ab-62ae42a3b274">
@@ -29931,9 +29931,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2929</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille and HumanWare BrailleNote and Brailliant BI/B displays are currently supported.</source>
-        <target>ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille and HumanWare BrailleNote and Brailliant BI/B displays are currently supported.</target>
+        <target>目前支持 ALVA，Baum/HumanWare/APH/Orbit，Eurobraille，Handy Tech，Hims，SuperBraille 和 HumanWare BrailleNote 和 Brailliant BI/B 盲文点显器。</target>
       </segment>
     </unit>
     <unit id="061a82fb-85fb-4d57-a51b-ed6cb3bc4c42">
@@ -29941,9 +29941,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2930</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can enable this feature by selecting the automatic option from the list of braille displays in NVDA's braille display selection dialog.</source>
-        <target>You can enable this feature by selecting the automatic option from the list of braille displays in NVDA's braille display selection dialog.</target>
+        <target>您可以通过 NVDA 设置的盲文选项中的盲文显示列表选择自动选项来启用此功能。</target>
       </segment>
     </unit>
     <unit id="85a345e0-3d62-4f5c-af90-10dd327f4af3">
@@ -29951,9 +29951,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2931</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Please consult the documentation for additional details.</source>
-        <target>Please consult the documentation for additional details.</target>
+        <target>有关其他详细信息，请参阅用户指南。</target>
       </segment>
     </unit>
     <unit id="3f00a1da-09b0-4a7c-9301-4937ef08b348">
@@ -30271,9 +30271,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2967</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Similar to other multiline text fields, When positioned at the start of a document in Braille, the display is now panned such that the first character of the document is at the start of the display. (#8406)</source>
-        <target>Similar to other multiline text fields, When positioned at the start of a document in Braille, the display is now panned such that the first character of the document is at the start of the display. (#8406)</target>
+        <target>与其他多行文本字段类似，当以盲文定位在文档的开头时，现在平移显示，使得文档的第一个字符位于显示的开头。(#8406)</target>
       </segment>
     </unit>
     <unit id="ea472bb4-5edd-4f6f-b1dc-6ce4a120b88b">
@@ -30281,9 +30281,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2968</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Reduced overly verbose focus presentation in both speech and braille when focusing a Word document. (#8407)</source>
-        <target>Reduced overly verbose focus presentation in both speech and braille when focusing a Word document. (#8407)</target>
+        <target>在聚焦 Word 文档时，减少语音和盲文中过于冗长的焦点显示。(#8407)</target>
       </segment>
     </unit>
     <unit id="22cd5464-d9b5-42d6-96ce-fbdc75740513">
@@ -30291,9 +30291,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2969</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Cursor routing in braille now works correctly when in a list in a Word document. (#7971)</source>
-        <target>Cursor routing in braille now works correctly when in a list in a Word document. (#7971)</target>
+        <target>盲文中的光标路由现在可以在 Word 文档的列表中正常工作。(#7971)</target>
       </segment>
     </unit>
     <unit id="d460d8e6-3197-4391-8fa8-c950f44e13d5">
@@ -30301,9 +30301,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2970</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Newly inserted bullets/numbers in a Word document are correctly reported in both speech and braille. (#7970)</source>
-        <target>Newly inserted bullets/numbers in a Word document are correctly reported in both speech and braille. (#7970)</target>
+        <target>在 Word 文档中新插入的项目符号/数字可以在语音和盲文中正确朗读。(#7970)</target>
       </segment>
     </unit>
     <unit id="4e6f3946-3750-47e0-8704-5e373f7b09e7">
@@ -30609,9 +30609,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3009</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can assign these new modifier toggles using the commands found under Emulated system keyboard keys in the Input gestures dialog.</source>
-        <target>You can assign these new modifier toggles using the commands found under Emulated system keyboard keys in the Input gestures dialog.</target>
+        <target>您可以使用“输入手势”对话框中的“模拟系统按键”下的命令指定这些新的修饰键切换。</target>
       </segment>
     </unit>
     <unit id="82c327d6-fe80-415a-8030-df9f0cdb3f85">
@@ -31067,9 +31067,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3067</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In Microsoft Word:  When in browse mode, cursor to an embedded chart and press enter to interact with it.</source>
-        <target>In Microsoft Word:  When in browse mode, cursor to an embedded chart and press enter to interact with it.</target>
+        <target>在 Microsoft Word 中：当处于浏览模式时，将光标移至嵌入的图表并按下回车键以与其交互。</target>
       </segment>
     </unit>
     <unit id="fb635116-e306-449e-9dd6-c05154f40469">
@@ -31077,9 +31077,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3068</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In Microsoft PowerPoint when editing a slide: tab to a chart object, and press enter or space to interact with the chart.</source>
-        <target>In Microsoft PowerPoint when editing a slide: tab to a chart object, and press enter or space to interact with the chart.</target>
+        <target>在 Microsoft PowerPoint 中编辑幻灯片时：浏览到图表对象，然后按 enter 或 space 与图表进行交互。</target>
       </segment>
     </unit>
     <unit id="d7cab9f4-98c1-4a56-a42a-fad2b7f9d5aa">
@@ -31087,9 +31087,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3069</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To stop interacting with a chart, press escape.</source>
-        <target>To stop interacting with a chart, press escape.</target>
+        <target>要停止与图表交互，请按 escape。</target>
       </segment>
     </unit>
     <unit id="759aef01-83a7-4917-be4f-7e000a01ecde">
@@ -31137,9 +31137,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3074</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA's braille input functionality can be used with these as well as other BC6 displays with firmware 3.0.0 and above.</source>
-        <target>NVDA's braille input functionality can be used with these as well as other BC6 displays with firmware 3.0.0 and above.</target>
+        <target>NVDA 的盲文输入功能可与这些以及固件 3.0.0 及更高版本的其他 BC6 点显器一起使用。</target>
       </segment>
     </unit>
     <unit id="36b0d652-de3a-40aa-afdd-ec409e1cd4c8">
@@ -31187,9 +31187,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3081</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Some keys , notably scroll keys, have been reassigned to follow the conventions used by Hims products. Consult the user guide for more details.</source>
-        <target>Some keys , notably scroll keys, have been reassigned to follow the conventions used by Hims products. Consult the user guide for more details.</target>
+        <target>某些键，特别是滚动键，已被重新分配，以遵循 Hims 产品使用的惯例。有关详细信息，请参阅用户指南。</target>
       </segment>
     </unit>
     <unit id="b97f8e8b-150a-4835-9988-2b5ded47312f">
@@ -31207,9 +31207,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3083</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To use the existing "touch typing" mode where simply lifting your finger off the key is enough to activate it, Enable this option in the new Touch Interaction settings dialog found in the Preferences menu.</source>
-        <target>To use the existing "touch typing" mode where simply lifting your finger off the key is enough to activate it, Enable this option in the new Touch Interaction settings dialog found in the Preferences menu.</target>
+        <target>要使用现有的“触摸打字”模式，只需将手指从键上抬起即可将其激活，在“首选项”菜单中的新触摸交互设置对话框中启用该选项。</target>
       </segment>
     </unit>
     <unit id="3ab9e494-41ce-4926-9228-b56c9d90f361">
@@ -31227,9 +31227,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3085</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that automatic tethering to review will only occur when using a review cursor or object navigation command. Scrolling will not activate this new behavior.</source>
-        <target>Note that automatic tethering to review will only occur when using a review cursor or object navigation command. Scrolling will not activate this new behavior.</target>
+        <target>请注意，只有在使用查看光标或对象导航命令时才会发生自动绑定审阅。滚动不会激活此新行为。</target>
       </segment>
     </unit>
     <unit id="b3b35b57-8a50-4d53-933a-e5fe2956ce59">
@@ -32294,9 +32294,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3210</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The language can be set from the new Windows 10 OCR dialog in NVDA Preferences.</source>
-        <target>The language can be set from the new Windows 10 OCR dialog in NVDA Preferences.</target>
+        <target>可以从 NVDA 首选项中的新 Windows 10 OCR 对话框中设置该语言。</target>
       </segment>
     </unit>
     <unit id="3f26d731-1fe9-4510-a43a-ee5f507f6fd0">
@@ -32304,9 +32304,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3211</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To recognize the content of the current navigator object, press NVDA+r.</source>
-        <target>To recognize the content of the current navigator object, press NVDA+r.</target>
+        <target>要识别当前导航对象的内容，请按 NVDA+r。</target>
       </segment>
     </unit>
     <unit id="28305525-968b-4843-bfe8-bddc4787c9cc">
@@ -32314,9 +32314,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3212</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the Content Recognition section of the User Guide for further details.</source>
-        <target>See the Content Recognition section of the User Guide for further details.</target>
+        <target>有关详细信息，请参阅“用户指南”的“内容识别”部分。</target>
       </segment>
     </unit>
     <unit id="2f321139-ea4a-4bdb-89ca-24c74fe03321">
@@ -32334,9 +32334,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3214</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For example, the "Fill display for context changes" and "Only when scrolling back" options can make working with lists and menus more efficient, since the items won't continually change their position on the display.</source>
-        <target>For example, the "Fill display for context changes" and "Only when scrolling back" options can make working with lists and menus more efficient, since the items won't continually change their position on the display.</target>
+        <target>例如，“上下文更改时填充显示”和“仅当回滚时”选项可以使列表和菜单浏览更加高效，因为这些项目不会持续更改其在点显器上的位置。</target>
       </segment>
     </unit>
     <unit id="c355b88f-974a-4637-a08c-b0e63cbaa81d">
@@ -32344,9 +32344,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3215</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the section on the "Focus context presentation" setting in the User Guide for further details and examples.</source>
-        <target>See the section on the "Focus context presentation" setting in the User Guide for further details and examples.</target>
+        <target>有关详细信息和示例，请参阅“用户指南”中“焦点上下文呈现”设置的一节。</target>
       </segment>
     </unit>
     <unit id="07d8870f-9a50-46a4-a283-d64da9140fda">
@@ -32454,9 +32454,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3228</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Previously, it always showed as much context information as possible, regardless of whether you have seen the same context information before.</source>
-        <target>Previously, it always showed as much context information as possible, regardless of whether you have seen the same context information before.</target>
+        <target>以前，它总是显示尽可能多的上下文信息，无论您以前是否看过相同的上下文信息。</target>
       </segment>
     </unit>
     <unit id="809f125a-8b60-402e-b739-3cd2bad7629e">
@@ -32464,9 +32464,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3229</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can revert to the old behaviour by changing the new "Focus context presentation" setting in the Braille Settings dialog to "Always fill display".</source>
-        <target>You can revert to the old behaviour by changing the new "Focus context presentation" setting in the Braille Settings dialog to "Always fill display".</target>
+        <target>您可以通过将“盲文设置”对话框中的新“焦点上下文呈现”设置更改为“始终填充显示”来恢复旧的行为。</target>
       </segment>
     </unit>
     <unit id="9e12282b-69a8-4174-92b6-3cf4f9f33375">
@@ -36435,9 +36435,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3712</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For backwards compatibility, in the constructor, displayName is optional and will be derived from displayNameWithAccelerator if not provided. However, if you intend to have an accelerator for a setting, both should be provided.</source>
-        <target>For backwards compatibility, in the constructor, displayName is optional and will be derived from displayNameWithAccelerator if not provided. However, if you intend to have an accelerator for a setting, both should be provided.</target>
+        <target>为了向后兼容，在构造函数中，displayName 是可选的，如果未提供，则将从 displayNameWithAccelerator 派生。但是，如果您打算为某个设置提供加速键，则应同时提供两者。</target>
       </segment>
     </unit>
     <unit id="14a96188-85f2-463b-84be-eeae0cf57d56">
@@ -36445,9 +36445,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3713</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The i18nName attribute is deprecated and may be removed in a future release.</source>
-        <target>The i18nName attribute is deprecated and may be removed in a future release.</target>
+        <target>i18nName 属性已弃用，可能会在未来版本中删除。</target>
       </segment>
     </unit>
     <unit id="c999e42e-b159-4bb7-8e71-07d1f13fd78a">
@@ -36863,9 +36863,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3769</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>However, For tables where rows have been merged, this will not work automatically. In this situation, you can still set column headers manually in NVDA with NVDA+shift+c.</source>
-        <target>However, For tables where rows have been merged, this will not work automatically. In this situation, you can still set column headers manually in NVDA with NVDA+shift+c.</target>
+        <target>如果列表被合并，列标题不能正常识别，您还可以手动使用“NVDA+Shift+C”设置列标题行。</target>
       </segment>
     </unit>
     <unit id="bba23ce0-4468-4030-9542-cf4d9bc04898">
@@ -37323,9 +37323,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3824</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA can also be started with add-ons disabled by using the --disable-addons command line option.</source>
-        <target>NVDA can also be started with add-ons disabled by using the --disable-addons command line option.</target>
+        <target>NVDA 也可以使用命令行选项 --disable-addons 来禁用插件。</target>
       </segment>
     </unit>
     <unit id="6936d24e-e663-4f9f-a8af-5584e83ea8cd">
@@ -37603,9 +37603,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3858</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the code documentation for appModuleHandler.AppModule for details.</source>
-        <target>See the code documentation for appModuleHandler.AppModule for details.</target>
+        <target>有关详细信息，请参阅 appModuleHandler.AppModule 的代码文档。</target>
       </segment>
     </unit>
     <unit id="56d609b4-f6bf-421f-99cd-1d077b044f1b">
@@ -37613,9 +37613,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3859</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Support for javaw.exe is implemented.</source>
-        <target>Support for javaw.exe is implemented.</target>
+        <target>实现了对 javaw.exe 的支持。</target>
       </segment>
     </unit>
     <unit id="aa4e7420-9af0-4ece-979d-5b070b082872">
@@ -37673,9 +37673,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3868</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Announcement of the current time when moving around with the arrow keys.</source>
-        <target>Announcement of the current time when moving around with the arrow keys.</target>
+        <target>使用光标键在日历中移动时朗读当前时间。</target>
       </segment>
     </unit>
     <unit id="7e6aacf2-449a-434a-9113-d89fcd080e32">
@@ -37683,9 +37683,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3869</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Indication if the selected time is within any appointments.</source>
-        <target>Indication if the selected time is within any appointments.</target>
+        <target>如果选择的时间以包含在日程中，做出提示。</target>
       </segment>
     </unit>
     <unit id="e851e290-962c-42c3-8f86-9df64671535e">
@@ -37693,9 +37693,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3870</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>announcement of the selected appointment when pressing tab.</source>
-        <target>announcement of the selected appointment when pressing tab.</target>
+        <target>使用 tab 键 移动时朗读选中的约会。</target>
       </segment>
     </unit>
     <unit id="630e2d2e-e05d-413a-975a-e289e1b8ae19">
@@ -37703,9 +37703,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3871</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Smart filtering of the date so as to only announce the date if the new selected time or appointment is on a different day to the last.</source>
-        <target>Smart filtering of the date so as to only announce the date if the new selected time or appointment is on a different day to the last.</target>
+        <target>智能日期过滤，仅在选择的约会或时间与上次选择的不同时读出日期。</target>
       </segment>
     </unit>
     <unit id="4b845545-ce79-428a-856a-73051729c355">
@@ -37723,9 +37723,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3873</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The ability to silence column headers (from, subject, etc.) by turning off the Report Table row and column headers option in Document Formatting settings.</source>
-        <target>The ability to silence column headers (from, subject, etc.) by turning off the Report Table row and column headers option in Document Formatting settings.</target>
+        <target>通过关闭“文档格式设置”对话框的“朗读行列标题”选项，可忽略对行列标题的朗读(如发件人、主题等)。</target>
       </segment>
     </unit>
     <unit id="3fe7aa1b-59fd-4847-a49d-47d826d59168">
@@ -37733,9 +37733,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3874</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The ability to use table navigation commands (control + alt + arrows) to move through the individual columns.</source>
-        <target>The ability to use table navigation commands (control + alt + arrows) to move through the individual columns.</target>
+        <target>允许使用表格导航命令(control + alt + 光标键)在单独的列之间移动。</target>
       </segment>
     </unit>
     <unit id="c127a0b2-4186-4fd1-8450-42639fa62fec">
@@ -37793,9 +37793,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3880</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Support of Excel defined name ranges to identify header cells (compatible with Jaws screen reader) .</source>
-        <target>Support of Excel defined name ranges to identify header cells (compatible with Jaws screen reader) .</target>
+        <target>支持识别标题单元的 Excel 自定义名称范围(与 JAWS 屏幕阅读器兼容)</target>
       </segment>
     </unit>
     <unit id="14e6257d-aa99-4ee4-9a75-8fbd5fc088fb">
@@ -37803,9 +37803,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3881</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The set column header (NVDA+shift+c) and set row header (NVDA+shift+r) commands now store the settings in the worksheet so that they are available the next time the sheet is opened, and will be available to other screen readers that support the defined name range scheme.</source>
-        <target>The set column header (NVDA+shift+c) and set row header (NVDA+shift+r) commands now store the settings in the worksheet so that they are available the next time the sheet is opened, and will be available to other screen readers that support the defined name range scheme.</target>
+        <target>使用命令“设置列标题”(NVDA+shift+c)和“设置行标题”(NVDA+shift+r)进行的设置现在存储在工作表内，因而，下次打开此表格时仍旧可用，且与其他支持自定义名称范围方案的屏幕阅读器兼容。</target>
       </segment>
     </unit>
     <unit id="180f2337-ec04-4610-b6e2-24680c73a068">
@@ -37813,9 +37813,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3882</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>These commands can also now be used multiple times per sheet to set different headers for different regions.</source>
-        <target>These commands can also now be used multiple times per sheet to set different headers for different regions.</target>
+        <target>在每个表格中还可多次使用此命令，为不同的区域设置不同的标题。</target>
       </segment>
     </unit>
     <unit id="ecde7d96-4a81-4661-ae2a-0bbbd4d40053">
@@ -37902,9 +37902,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3891</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Vertical page movement (pageUp and pageDown);</source>
-        <target>Vertical page movement (pageUp and pageDown);</target>
+        <target>垂直页面移动 (上翻页和下翻页);</target>
       </segment>
     </unit>
     <unit id="a6b08264-c92e-446a-b368-523b188e698a">
@@ -37912,9 +37912,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3892</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Horizontal page movement (alt+pageUp and alt+pageDown);</source>
-        <target>Horizontal page movement (alt+pageUp and alt+pageDown);</target>
+        <target>水平页面移动 (alt+上翻页和 alt+下翻页);</target>
       </segment>
     </unit>
     <unit id="ece6b7ce-e6ae-476d-9f96-16c6be365582">
@@ -37922,9 +37922,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3893</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Extend selection (the above keys with Shift added); and</source>
-        <target>Extend selection (the above keys with Shift added); and</target>
+        <target>扩展选择(上面的按键加上shift)</target>
       </segment>
     </unit>
     <unit id="f8e2edc1-b53e-424e-b9eb-1267490e6643">
@@ -37932,9 +37932,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3894</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Selecting the current region (control+shift+8).</source>
-        <target>Selecting the current region (control+shift+8).</target>
+        <target>选择当前区域 (control+shift+8)。</target>
       </segment>
     </unit>
     <unit id="91d752c9-de98-4214-b739-604c2f802c26">
@@ -37972,9 +37972,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3898</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The distance between the shape and each of the  slide edges is reported.</source>
-        <target>The distance between the shape and each of the  slide edges is reported.</target>
+        <target>形状对象与幻灯片边界的距离现在可被朗读。</target>
       </segment>
     </unit>
     <unit id="9aceb9a4-c52e-4c94-9184-19640b1a0a86">
@@ -37982,9 +37982,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3899</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If the shape covers or is covered by another shape, then the distance overlapped and the overlapped shape are reported.</source>
-        <target>If the shape covers or is covered by another shape, then the distance overlapped and the overlapped shape are reported.</target>
+        <target>如果形状对象覆盖着其他的形状或者当前形状对象被其他形状覆盖，覆盖距离和覆盖形状都会被读出。</target>
       </segment>
     </unit>
     <unit id="6db3db9e-1be6-4de8-bcdd-3ef4fa04fbdd">
@@ -37992,9 +37992,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3900</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To report this information at any time without moving a shape, press the report location command (NVDA+delete).</source>
-        <target>To report this information at any time without moving a shape, press the report location command (NVDA+delete).</target>
+        <target>在不希望移动形状的任何时候，可按下位置信息朗读命令“NVDA+数字键盘删除键”读出上述信息。</target>
       </segment>
     </unit>
     <unit id="c7d0ef30-036e-4923-8c2d-1bc59ba05da7">
@@ -38002,9 +38002,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3901</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When selecting a shape, if it is covered by another shape, NVDA will report that it is obscured.</source>
-        <target>When selecting a shape, if it is covered by another shape, NVDA will report that it is obscured.</target>
+        <target>当选定一个形状对象，如果它被其他形状覆盖，NVDA 会提示“被覆盖”。</target>
       </segment>
     </unit>
     <unit id="98d84b65-2809-4e12-bc2b-293132477816">
@@ -38022,9 +38022,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3903</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In standard edit fields and browse mode, the cursor position as a percentage through the content and its screen coordinates are reported.</source>
-        <target>In standard edit fields and browse mode, the cursor position as a percentage through the content and its screen coordinates are reported.</target>
+        <target>使用浏览模式浏览标准的编辑区域时，光标的位置（如位置所在内容的百分比和屏幕坐标）都将被读出。</target>
       </segment>
     </unit>
     <unit id="b8312daa-d18e-41c7-b3e6-8bf8cfbc0cf3">
@@ -38032,9 +38032,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3904</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>On shapes in PowerPoint Presentations, position of the shape relative to the slide and other shapes is reported.</source>
-        <target>On shapes in PowerPoint Presentations, position of the shape relative to the slide and other shapes is reported.</target>
+        <target>在 Powerpoint 演示的形状对象中，形状对象与幻灯片或其他形状的位置信息将被读出。</target>
       </segment>
     </unit>
     <unit id="78ff1a87-f781-4987-ada6-8e8710826814">
@@ -38042,9 +38042,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3905</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Pressing this command twice will produce the previous behaviour of reporting the location information for the entire control.</source>
-        <target>Pressing this command twice will produce the previous behaviour of reporting the location information for the entire control.</target>
+        <target>连按两次此命令将针对整个控件再度执行先前的动作，读出位置信息。</target>
       </segment>
     </unit>
     <unit id="675ef430-4821-4e27-bcec-a4686d68dc41">
@@ -38392,9 +38392,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3946</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is done via gettext.</source>
-        <target>This is done via gettext.</target>
+        <target>此功能通过 gettext 实现。</target>
       </segment>
     </unit>
     <unit id="8e9543d0-4bae-4f1a-b74a-b3b572cd1ba0">
@@ -38402,9 +38402,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3947</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that the text for the Create desktop shortcut option in the Install NVDA dialog, as well as the shortcut key in the User Guide, must also be updated.</source>
-        <target>Note that the text for the Create desktop shortcut option in the Install NVDA dialog, as well as the shortcut key in the User Guide, must also be updated.</target>
+        <target>请注意，在安装 NVDA 对话框，设置启动快捷方式的快捷键如果被更改，也应当在帮助文档中体现。</target>
       </segment>
     </unit>
     <unit id="444718ed-cf5d-4b40-9dca-4a05fc49ab5e">
@@ -42229,9 +42229,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4393</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See http://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts for more information.</source>
-        <target>See http://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts for more information.</target>
+        <target>有关详细信息，请参阅 http://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts for more information。</target>
       </segment>
     </unit>
     <unit id="b51a511e-70d5-4466-ba39-0afec058a03d">
@@ -50439,9 +50439,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5327</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For more info on eSpeak, or to find other versions, go to http://espeak.sourceforge.net/.</source>
-        <target>For more info on eSpeak, or to find other versions, go to http://espeak.sourceforge.net/.</target>
+        <target>有关 eSpeak 的更多信息或查找其他版本，请访问 http://espeak.sourceforge.net/。</target>
       </segment>
     </unit>
     <unit id="b6d72e06-2d7a-43ff-b1f7-e88a789d4fa4">
