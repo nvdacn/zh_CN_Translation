@@ -25631,7 +25631,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2420</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The majority of NVDA's classes are tracked including NVDAObjects, appModules, GlobalPlugins, SynthDrivers, and TreeInterceptors.</source>
         <target>The majority of NVDA's classes are tracked including NVDAObjects, appModules, GlobalPlugins, SynthDrivers, and TreeInterceptors.</target>
       </segment>
@@ -25641,7 +25641,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2421</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A class that needs to be tracked should inherit from garbageHandler.TrackedObject.</source>
         <target>A class that needs to be tracked should inherit from garbageHandler.TrackedObject.</target>
       </segment>
@@ -26614,7 +26614,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2543</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Basic Braille Plus 40</source>
         <target>Basic Braille Plus 40</target>
       </segment>
@@ -26624,7 +26624,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2544</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Basic Braille Plus 32</source>
         <target>Basic Braille Plus 32</target>
       </segment>
@@ -26634,7 +26634,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2545</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Connect Braille</source>
         <target>Connect Braille</target>
       </segment>
@@ -26694,7 +26694,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2551</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Figures are also reported. They are considered objects and therefore navigable with the o quick navigation key.</source>
         <target>Figures are also reported. They are considered objects and therefore navigable with the o quick navigation key.</target>
       </segment>
@@ -27364,7 +27364,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2624</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>win32api calls can be replaced with direct calls to win32 dll functions via ctypes.</source>
         <target>win32api calls can be replaced with direct calls to win32 dll functions via ctypes.</target>
       </segment>
@@ -27374,7 +27374,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2625</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>win32con constants should be defined in your files.</source>
         <target>win32con constants should be defined in your files.</target>
       </segment>
@@ -27404,7 +27404,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2628</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This functionality is handled by SynthDriver.speak.</source>
         <target>This functionality is handled by SynthDriver.speak.</target>
       </segment>
@@ -27434,7 +27434,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2631</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Instead, they should notify the synthDriverHandler.synthIndexReached action with the index, once all previous audio has finished playing before that index.</source>
         <target>Instead, they should notify the synthDriverHandler.synthIndexReached action with the index, once all previous audio has finished playing before that index.</target>
       </segment>
@@ -27494,7 +27494,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2637</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>getControlFieldSpeech</source>
         <target>getControlFieldSpeech</target>
       </segment>
@@ -27504,7 +27504,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2638</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>getFormatFieldSpeech</source>
         <target>getFormatFieldSpeech</target>
       </segment>
@@ -27514,7 +27514,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2639</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>getSpeechTextForProperties now called getPropertiesSpeech</source>
         <target>getSpeechTextForProperties now called getPropertiesSpeech</target>
       </segment>
@@ -27524,7 +27524,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2640</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>getIndentationSpeech</source>
         <target>getIndentationSpeech</target>
       </segment>
@@ -27534,7 +27534,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2641</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>getTableInfoSpeech</source>
         <target>getTableInfoSpeech</target>
       </segment>
@@ -27554,7 +27554,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2643</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the module documentation and textInfos.offsets module for example implementations.</source>
         <target>See the module documentation and textInfos.offsets module for example implementations.</target>
       </segment>
@@ -27574,7 +27574,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2645</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>AppModules removed:</source>
         <target>AppModules removed:</target>
       </segment>
@@ -27584,7 +27584,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2646</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Windows XP sound recorder.</source>
         <target>Windows XP sound recorder.</target>
       </segment>
@@ -27594,7 +27594,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2647</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Klango Player, which is abandoned software.</source>
         <target>Klango Player, which is abandoned software.</target>
       </segment>
@@ -27604,7 +27604,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2648</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>configobj.validate wrapper removed.</source>
         <target>configobj.validate wrapper removed.</target>
       </segment>
@@ -27614,7 +27614,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2649</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>New code should use from configobj import validate instead of import validate</source>
         <target>New code should use from configobj import validate instead of import validate</target>
       </segment>
@@ -27624,7 +27624,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2650</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>textInfos.Point and textInfos.Rect replaced by locationHelper.Point and locationHelper.RectLTRB respectively.</source>
         <target>textInfos.Point and textInfos.Rect replaced by locationHelper.Point and locationHelper.RectLTRB respectively.</target>
       </segment>
@@ -27634,7 +27634,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2651</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>braille.BrailleHandler._get_tether and braille.BrailleHandler.set_tether have been removed.</source>
         <target>braille.BrailleHandler._get_tether and braille.BrailleHandler.set_tether have been removed.</target>
       </segment>
@@ -27644,7 +27644,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2652</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>config.getConfigDirs has been removed.</source>
         <target>config.getConfigDirs has been removed.</target>
       </segment>
@@ -27654,7 +27654,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2653</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>config.ConfigManager.getConfigValidationParameter has been replaced by getConfigValidation</source>
         <target>config.ConfigManager.getConfigValidationParameter has been replaced by getConfigValidation</target>
       </segment>
@@ -27664,7 +27664,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2654</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>inputCore.InputGesture.logIdentifier property has been removed.</source>
         <target>inputCore.InputGesture.logIdentifier property has been removed.</target>
       </segment>
@@ -27674,7 +27674,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2655</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Use _get_identifiers in inputCore.InputGesture instead.</source>
         <target>Use _get_identifiers in inputCore.InputGesture instead.</target>
       </segment>
@@ -27684,7 +27684,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2656</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>synthDriverHandler.SynthDriver.speakText/speakCharacter have been removed.</source>
         <target>synthDriverHandler.SynthDriver.speakText/speakCharacter have been removed.</target>
       </segment>
@@ -27694,7 +27694,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2657</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Removed several synthDriverHandler.SynthSetting classes.</source>
         <target>Removed several synthDriverHandler.SynthSetting classes.</target>
       </segment>
@@ -27704,7 +27704,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2658</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Previously kept for backwards compatibility (#8214), now considered obsolete.</source>
         <target>Previously kept for backwards compatibility (#8214), now considered obsolete.</target>
       </segment>
@@ -27714,7 +27714,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2659</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Drivers that used the SynthSetting classes should be updated to use the DriverSetting classes.</source>
         <target>Drivers that used the SynthSetting classes should be updated to use the DriverSetting classes.</target>
       </segment>
@@ -27724,7 +27724,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2660</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Some legacy code has been removed, particularly:</source>
         <target>Some legacy code has been removed, particularly:</target>
       </segment>
@@ -27734,7 +27734,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2661</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Support for the Outlook pre 2003 message list.</source>
         <target>Support for the Outlook pre 2003 message list.</target>
       </segment>
@@ -27744,7 +27744,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2662</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>An overlay class for the classic start menu, only found in Windows Vista and earlier.</source>
         <target>An overlay class for the classic start menu, only found in Windows Vista and earlier.</target>
       </segment>
@@ -27754,7 +27754,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2663</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Dropped support for Skype 7, as it is definitely not working any more.</source>
         <target>Dropped support for Skype 7, as it is definitely not working any more.</target>
       </segment>
@@ -27774,7 +27774,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2665</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Add-ons can bundle their own providers in a visionEnhancementProviders folder.</source>
         <target>Add-ons can bundle their own providers in a visionEnhancementProviders folder.</target>
       </segment>
@@ -27784,7 +27784,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2666</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the vision and visionEnhancementProviders modules for the implementation of the framework and examples, respectively.</source>
         <target>See the vision and visionEnhancementProviders modules for the implementation of the framework and examples, respectively.</target>
       </segment>
@@ -27794,7 +27794,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2667</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Vision enhancement providers are enabled and configured via the 'vision' category in NVDA's settings dialog.</source>
         <target>Vision enhancement providers are enabled and configured via the 'vision' category in NVDA's settings dialog.</target>
       </segment>
@@ -27824,7 +27824,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2670</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This new constant allows walking over the text in a DisplayModelTextInfo in a way that more closely resembles how the text chunks are saved in the underlying model.</source>
         <target>This new constant allows walking over the text in a DisplayModelTextInfo in a way that more closely resembles how the text chunks are saved in the underlying model.</target>
       </segment>
@@ -27884,7 +27884,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2676</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Exceptions caused by the "chooseNVDAObjectOverlayClasses" and "event_NVDAObject_init" methods are now properly caught and logged.</source>
         <target>Exceptions caused by the "chooseNVDAObjectOverlayClasses" and "event_NVDAObject_init" methods are now properly caught and logged.</target>
       </segment>
@@ -28622,7 +28622,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2763</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that this shadows the gettext translation function also called "_". To access the translation function: del _</source>
         <target>Note that this shadows the gettext translation function also called "_". To access the translation function: del _</target>
       </segment>
@@ -29316,7 +29316,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2847</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>minimumNVDAVersion: The minimum required version of NVDA for an add-on to work properly.</source>
         <target>minimumNVDAVersion: The minimum required version of NVDA for an add-on to work properly.</target>
       </segment>
@@ -29326,7 +29326,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2848</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>lastTestedNVDAVersion: The last version of NVDA an add-on has been tested with.</source>
         <target>lastTestedNVDAVersion: The last version of NVDA an add-on has been tested with.</target>
       </segment>
@@ -29724,7 +29724,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2900</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>CustomCheckListBox is an accessible subclass of wx.CheckListBox.</source>
         <target>CustomCheckListBox is an accessible subclass of wx.CheckListBox.</target>
       </segment>
@@ -29734,7 +29734,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2901</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>AutoWidthColumnCheckListCtrl adds accessible check boxes to an AutoWidthColumnListCtrl, which itself is based on wx.ListCtrl.</source>
         <target>AutoWidthColumnCheckListCtrl adds accessible check boxes to an AutoWidthColumnListCtrl, which itself is based on wx.ListCtrl.</target>
       </segment>
@@ -29754,7 +29754,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2903</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the implementation of gui.nvdaControls.ListCtrlAccPropServer for more info.</source>
         <target>See the implementation of gui.nvdaControls.ListCtrlAccPropServer for more info.</target>
       </segment>
@@ -30371,7 +30371,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2979</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>listUsbDevices now yields dictionaries with device information including hardwareID and devicePath.</source>
         <target>listUsbDevices now yields dictionaries with device information including hardwareID and devicePath.</target>
       </segment>
@@ -30381,7 +30381,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2980</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Dictionaries yielded by listComPorts now also contain a usbID entry for COM ports with USB VID/PID information in their hardware ID.</source>
         <target>Dictionaries yielded by listComPorts now also contain a usbID entry for COM ports with USB VID/PID information in their hardware ID.</target>
       </segment>
@@ -30421,7 +30421,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2984</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>config.pre_configSave is used to be notified when NVDA's configuration is about to be saved, and config.post_configSave is called after configuration has been saved.</source>
         <target>config.pre_configSave is used to be notified when NVDA's configuration is about to be saved, and config.post_configSave is called after configuration has been saved.</target>
       </segment>
@@ -30431,7 +30431,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 2985</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>config.pre_configReset and config.post_configReset includes a factory defaults flag to specify if settings are reloaded from disk (false) or reset to defaults (true).</source>
         <target>config.pre_configReset and config.post_configReset includes a factory defaults flag to specify if settings are reloaded from disk (false) or reset to defaults (true).</target>
       </segment>
@@ -31427,7 +31427,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3109</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This flag defaults to true. If false, liblouis multi pass rules will be used for braille output.</source>
         <target>This flag defaults to true. If false, liblouis multi pass rules will be used for braille output.</target>
       </segment>
@@ -32025,7 +32025,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3179</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For example, if you have a key on your display bound to the alt key and another display key to downArrow, combining these keys will result in the emulation of alt+downArrow.</source>
         <target>For example, if you have a key on your display bound to the alt key and another display key to downArrow, combining these keys will result in the emulation of alt+downArrow.</target>
       </segment>
@@ -32045,7 +32045,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3181</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the baum driver as an example for this new functionality.</source>
         <target>See the baum driver as an example for this new functionality.</target>
       </segment>
@@ -32764,7 +32764,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3263</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The Windows 10 Tools and SDK are now also required, which can be enabled when installing Visual Studio.</source>
         <target>The Windows 10 Tools and SDK are now also required, which can be enabled when installing Visual Studio.</target>
       </segment>
@@ -32774,7 +32774,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3264</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the Installed Dependencies section of the readme for additional details.</source>
         <target>See the Installed Dependencies section of the readme for additional details.</target>
       </segment>
@@ -33173,7 +33173,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3314</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Subclasses no longer need to normalize identifiers before returning them from this property.</source>
         <target>Subclasses no longer need to normalize identifiers before returning them from this property.</target>
       </segment>
@@ -33183,7 +33183,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3315</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If you want normalized identifiers, there is now an InputGesture.normalizedIdentifiers property which normalizes the identifiers returned by the identifiers property .</source>
         <target>If you want normalized identifiers, there is now an InputGesture.normalizedIdentifiers property which normalizes the identifiers returned by the identifiers property .</target>
       </segment>
@@ -33213,7 +33213,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3318</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`speech.REASON_*` constants: `controlTypes.REASON_*` should be used instead. (#6846)</source>
         <target>`speech.REASON_*` constants: `controlTypes.REASON_*` should be used instead. (#6846)</target>
       </segment>
@@ -33223,7 +33223,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3319</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`i18nName` for synth settings: `displayName` and `displayNameWithAccelerator` should be used instead. (#6846, #5185)</source>
         <target>`i18nName` for synth settings: `displayName` and `displayNameWithAccelerator` should be used instead. (#6846, #5185)</target>
       </segment>
@@ -33233,7 +33233,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3320</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`config.validateConfig`. (#6846, #667)</source>
         <target>`config.validateConfig`. (#6846, #667)</target>
       </segment>
@@ -33243,7 +33243,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3321</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`config.save`: `config.conf.save` should be used instead. (#6846, #667)</source>
         <target>`config.save`: `config.conf.save` should be used instead. (#6846, #667)</target>
       </segment>
@@ -33273,7 +33273,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3324</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Unit tests and infrastructure are located in the tests/unit directory. See the docstring in the tests\unit\init.py file for details.</source>
         <target>Unit tests and infrastructure are located in the tests/unit directory. See the docstring in the tests\unit\init.py file for details.</target>
       </segment>
@@ -33283,7 +33283,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3325</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can run tests using "scons tests". See the "Running Tests" section of readme.md for details.</source>
         <target>You can run tests using "scons tests". See the "Running Tests" section of readme.md for details.</target>
       </segment>
@@ -33293,7 +33293,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3326</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If you are submitting a pull request for NVDA, you should first run the tests and ensure they pass.</source>
         <target>If you are submitting a pull request for NVDA, you should first run the tests and ensure they pass.</target>
       </segment>
@@ -35457,7 +35457,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3596</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When this is enabled (which is the default), it is essential that WavePlayer.idle be called when appropriate.</source>
         <target>When this is enabled (which is the default), it is essential that WavePlayer.idle be called when appropriate.</target>
       </segment>
@@ -35477,7 +35477,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3598</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Thread-safe braille display drivers can declare themselves as such using the BrailleDisplayDriver.isThreadSafe attribute. A driver must be thread-safe to benefit from the following features.</source>
         <target>Thread-safe braille display drivers can declare themselves as such using the BrailleDisplayDriver.isThreadSafe attribute. A driver must be thread-safe to benefit from the following features.</target>
       </segment>
@@ -35487,7 +35487,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3599</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Data is written to thread-safe braille display drivers in the background, thus improving performance.</source>
         <target>Data is written to thread-safe braille display drivers in the background, thus improving performance.</target>
       </segment>
@@ -35497,7 +35497,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3600</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>hwIo.Serial extends pyserial to call a callable when data is received instead of drivers having to poll.</source>
         <target>hwIo.Serial extends pyserial to call a callable when data is received instead of drivers having to poll.</target>
       </segment>
@@ -35507,7 +35507,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3601</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>hwIo.Hid provides support for braille displays communicating via USB HID.</source>
         <target>hwIo.Hid provides support for braille displays communicating via USB HID.</target>
       </segment>
@@ -35517,7 +35517,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3602</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>hwPortUtils and hwIo can optionally provide detailed debug logging, including devices found and all data sent and received.</source>
         <target>hwPortUtils and hwIo can optionally provide detailed debug logging, including devices found and all data sent and received.</target>
       </segment>
@@ -35537,7 +35537,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3604</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>MultitouchTracker objects now contain a childTrackers property which contains the MultiTouchTrackers the tracker was composed of. For example, 2 finger double tap has child trackers for two 2-finger taps. The 2-finger taps themselves have child trackers for two taps.</source>
         <target>MultitouchTracker objects now contain a childTrackers property which contains the MultiTouchTrackers the tracker was composed of. For example, 2 finger double tap has child trackers for two 2-finger taps. The 2-finger taps themselves have child trackers for two taps.</target>
       </segment>
@@ -35547,7 +35547,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3605</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>MultiTouchTracker objects now also contain a rawSingleTouchTracker property if the tracker was the result of one single finger doing a tap, flick or hover. The SingleTouchTracker allows access to the underlying ID assigned to the finger by the operating system and whether or not the finger is still in contact at the current time.</source>
         <target>MultiTouchTracker objects now also contain a rawSingleTouchTracker property if the tracker was the result of one single finger doing a tap, flick or hover. The SingleTouchTracker allows access to the underlying ID assigned to the finger by the operating system and whether or not the finger is still in contact at the current time.</target>
       </segment>
@@ -35557,7 +35557,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3606</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>TouchInputGestures now have x and y properties, removing the need to access the tracker for trivial cases.</source>
         <target>TouchInputGestures now have x and y properties, removing the need to access the tracker for trivial cases.</target>
       </segment>
@@ -35567,7 +35567,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3607</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>TouchInputGesturs now contain a preheldTracker property, which is a MultitouchTracker object representing the other fingers held while this action was being performed.</source>
         <target>TouchInputGesturs now contain a preheldTracker property, which is a MultitouchTracker object representing the other fingers held while this action was being performed.</target>
       </segment>
@@ -35587,7 +35587,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3609</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Plural tap and holds (e.g. double tap and hold)</source>
         <target>Plural tap and holds (e.g. double tap and hold)</target>
       </segment>
@@ -35597,7 +35597,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3610</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A generalized identifier with finger count removed for holds (e.g. hold+hover for 1finger_hold+hover).</source>
         <target>A generalized identifier with finger count removed for holds (e.g. hold+hover for 1finger_hold+hover).</target>
       </segment>
@@ -35746,7 +35746,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3629</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This requires Chrome version 47 or later.</source>
         <target>This requires Chrome version 47 or later.</target>
       </segment>
@@ -35886,7 +35886,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3647</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If you enabled this using a previous version of NVDA, you will need to disable it and enable it again in order for the change to take effect. Follow this procedure:</source>
         <target>If you enabled this using a previous version of NVDA, you will need to disable it and enable it again in order for the change to take effect. Follow this procedure:</target>
       </segment>
@@ -35896,7 +35896,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3648</note>
         <note appliesTo="source">prefix:     1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Open the General Settings dialog.</source>
         <target>Open the General Settings dialog.</target>
       </segment>
@@ -35906,7 +35906,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3649</note>
         <note appliesTo="source">prefix:     1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Uncheck the Automatically start NVDA after I log on to Windows checkbox.</source>
         <target>Uncheck the Automatically start NVDA after I log on to Windows checkbox.</target>
       </segment>
@@ -35916,7 +35916,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3650</note>
         <note appliesTo="source">prefix:     1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Press the OK button.</source>
         <target>Press the OK button.</target>
       </segment>
@@ -35926,7 +35926,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3651</note>
         <note appliesTo="source">prefix:     1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Open the General Settings dialog again.</source>
         <target>Open the General Settings dialog again.</target>
       </segment>
@@ -35936,7 +35936,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3652</note>
         <note appliesTo="source">prefix:     1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Check the Automatically start NVDA after I log on to Windows checkbox.</source>
         <target>Check the Automatically start NVDA after I log on to Windows checkbox.</target>
       </segment>
@@ -35946,7 +35946,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3653</note>
         <note appliesTo="source">prefix:     1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Press the OK button.</source>
         <target>Press the OK button.</target>
       </segment>
@@ -36754,7 +36754,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 3754</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>There is also speech.PhonemeCommand to insert specific pronunciation, but the current implementations only support a very limited number of phonemes.</source>
         <target>There is also speech.PhonemeCommand to insert specific pronunciation, but the current implementations only support a very limited number of phonemes.</target>
       </segment>
@@ -39092,7 +39092,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4030</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Support for aria-atomic updates and filtering of aria-busy updates. (#2640)</source>
         <target>Support for aria-atomic updates and filtering of aria-busy updates. (#2640)</target>
       </segment>
@@ -39102,7 +39102,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4031</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Alternative text (such as alt attribute or aria-label) is included if there is no other useful text. (#3329)</source>
         <target>Alternative text (such as alt attribute or aria-label) is included if there is no other useful text. (#3329)</target>
       </segment>
@@ -39112,7 +39112,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4032</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Live region updates are no longer silenced if they occur at the same time as the focus moves. (#3777)</source>
         <target>Live region updates are no longer silenced if they occur at the same time as the focus moves. (#3777)</target>
       </segment>
@@ -39152,7 +39152,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4036</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The initially focused control in a frame or dialog no longer fails to be reported when the frame or dialog comes to the foreground. (#3753)</source>
         <target>The initially focused control in a frame or dialog no longer fails to be reported when the frame or dialog comes to the foreground. (#3753)</target>
       </segment>
@@ -39162,7 +39162,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4037</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Unuseful position information is no longer announced for radio buttons (e.g. 1 of 1). (#3754)</source>
         <target>Unuseful position information is no longer announced for radio buttons (e.g. 1 of 1). (#3754)</target>
       </segment>
@@ -39172,7 +39172,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4038</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Better reporting of JComboBox controls (html no longer reported, better reporting of expanded and collapsed states). (#3755)</source>
         <target>Better reporting of JComboBox controls (html no longer reported, better reporting of expanded and collapsed states). (#3755)</target>
       </segment>
@@ -39182,7 +39182,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4039</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When reporting the text of dialogs, some text that was previously missing is now included. (#3757)</source>
         <target>When reporting the text of dialogs, some text that was previously missing is now included. (#3757)</target>
       </segment>
@@ -39192,7 +39192,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4040</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes to the name, value or description of the focused control is now reported more accurately. (#3770)</source>
         <target>Changes to the name, value or description of the focused control is now reported more accurately. (#3770)</target>
       </segment>
@@ -39282,7 +39282,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4051</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If there are multiple possibilities, you can press tab a second time to choose from a list.</source>
         <target>If there are multiple possibilities, you can press tab a second time to choose from a list.</target>
       </segment>
@@ -39862,7 +39862,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4121</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Object review reviews text just within the navigator object, document review reviews all text in a browse mode document (if any) and screen review reviews text on the screen for the current application.</source>
         <target>Object review reviews text just within the navigator object, document review reviews all text in a browse mode document (if any) and screen review reviews text on the screen for the current application.</target>
       </segment>
@@ -39872,7 +39872,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4122</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The commands that previously move to/from flat review now toggle between these new review modes.</source>
         <target>The commands that previously move to/from flat review now toggle between these new review modes.</target>
       </segment>
@@ -39882,7 +39882,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4123</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The navigator object automatically follows the review cursor such that it remains the deepest object at the position of the review cursor when in document or screen review modes.</source>
         <target>The navigator object automatically follows the review cursor such that it remains the deepest object at the position of the review cursor when in document or screen review modes.</target>
       </segment>
@@ -39892,7 +39892,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4124</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>After switching to screen review mode, NVDA will stay in this mode until you explicitly switch back to document or object review mode.</source>
         <target>After switching to screen review mode, NVDA will stay in this mode until you explicitly switch back to document or object review mode.</target>
       </segment>
@@ -39902,7 +39902,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4125</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When in document or object review mode, NVDA may automatically switch between these two modes depending on whether you are moving around a browse mode document or not.</source>
         <target>When in document or object review mode, NVDA may automatically switch between these two modes depending on whether you are moving around a browse mode document or not.</target>
       </segment>
@@ -40292,7 +40292,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4168</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Add-ons which depend on bisect (including the urllib2 module) should be updated to include this module.</source>
         <target>Add-ons which depend on bisect (including the urllib2 module) should be updated to include this module.</target>
       </segment>
@@ -41080,7 +41080,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4268</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is most useful for braille displays which support connection via a legacy serial port.</source>
         <target>This is most useful for braille displays which support connection via a legacy serial port.</target>
       </segment>
@@ -41090,7 +41090,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4269</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is done using the getPossiblePorts class method on the BrailleDisplayDriver class.</source>
         <target>This is done using the getPossiblePorts class method on the BrailleDisplayDriver class.</target>
       </segment>
@@ -41110,7 +41110,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4271</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Braille input is encompassed by the brailleInput.BrailleInputGesture class or a subclass thereof.</source>
         <target>Braille input is encompassed by the brailleInput.BrailleInputGesture class or a subclass thereof.</target>
       </segment>
@@ -41120,7 +41120,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4272</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Subclasses of braille.BrailleDisplayGesture (as implemented in braille display drivers) can also inherit from brailleInput.BrailleInputGesture. This allows display commands and braille input to be handled by the same gesture class.</source>
         <target>Subclasses of braille.BrailleDisplayGesture (as implemented in braille display drivers) can also inherit from brailleInput.BrailleInputGesture. This allows display commands and braille input to be handled by the same gesture class.</target>
       </segment>
@@ -41179,7 +41179,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4282</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Reporting and navigation of candidate lists;</source>
         <target>Reporting and navigation of candidate lists;</target>
       </segment>
@@ -41189,7 +41189,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4283</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Reporting and navigation of composition strings; and</source>
         <target>Reporting and navigation of composition strings; and</target>
       </segment>
@@ -41199,7 +41199,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4284</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Reporting of reading strings.</source>
         <target>Reporting of reading strings.</target>
       </segment>
@@ -41269,7 +41269,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4291</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Reading text directly under your finger while moving it around</source>
         <target>Reading text directly under your finger while moving it around</target>
       </segment>
@@ -41279,7 +41279,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4292</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Many gestures for performing object navigation, text review, and other NVDA commands.</source>
         <target>Many gestures for performing object navigation, text review, and other NVDA commands.</target>
       </segment>
@@ -41359,7 +41359,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4300</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In Reader XI, page labels are reported where present, reflecting changes to page numbering in different sections, etc. In earlier versions, this is not possible and only sequential page numbers are reported.</source>
         <target>In Reader XI, page labels are reported where present, reflecting changes to page numbering in different sections, etc. In earlier versions, this is not possible and only sequential page numbers are reported.</target>
       </segment>
@@ -42189,7 +42189,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4389</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is done using the pgettext(context, message) function.</source>
         <target>This is done using the pgettext(context, message) function.</target>
       </segment>
@@ -42199,7 +42199,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4390</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is supported for both NVDA itself and add-ons.</source>
         <target>This is supported for both NVDA itself and add-ons.</target>
       </segment>
@@ -42209,7 +42209,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4391</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>xgettext and msgfmt from GNU gettext must be used to create any PO and MO files. The Python tools do not support message contexts.</source>
         <target>xgettext and msgfmt from GNU gettext must be used to create any PO and MO files. The Python tools do not support message contexts.</target>
       </segment>
@@ -42219,7 +42219,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4392</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For xgettext, pass the --keyword=pgettext:1c,2 command line argument to enable inclusion of message contexts.</source>
         <target>For xgettext, pass the --keyword=pgettext:1c,2 command line argument to enable inclusion of message contexts.</target>
       </segment>
@@ -42656,7 +42656,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4452</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Inline information such as footnote and endnote numbers, heading levels, the existence of comments, table nesting levels, links, and text color;</source>
         <target>Inline information such as footnote and endnote numbers, heading levels, the existence of comments, table nesting levels, links, and text color;</target>
       </segment>
@@ -42666,7 +42666,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4453</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Reporting when entering document sections such as the comments story, footnotes and endnotes stories, and header and footer stories.</source>
         <target>Reporting when entering document sections such as the comments story, footnotes and endnotes stories, and header and footer stories.</target>
       </segment>
@@ -43246,7 +43246,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4517</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is used by braille to activate the position using cursor routing keys on a braille display. However, there may be other callers in future.</source>
         <target>This is used by braille to activate the position using cursor routing keys on a braille display. However, there may be other callers in future.</target>
       </segment>
@@ -43276,7 +43276,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4520</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>speech.REASON_* constants have been moved to controlTypes.</source>
         <target>speech.REASON_* constants have been moved to controlTypes.</target>
       </segment>
@@ -43286,7 +43286,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4521</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In controlTypes, speechRoleLabels and speechStateLabels have been renamed to just roleLabels and stateLabels, respectively.</source>
         <target>In controlTypes, speechRoleLabels and speechStateLabels have been renamed to just roleLabels and stateLabels, respectively.</target>
       </segment>
@@ -43855,7 +43855,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4588</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To support this, drivers must handle speech.LangChangeCommand in sequences past to SynthDriver.speak().</source>
         <target>To support this, drivers must handle speech.LangChangeCommand in sequences past to SynthDriver.speak().</target>
       </segment>
@@ -43865,7 +43865,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4589</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>SynthDriver objects should also provide the language argument to VoiceInfo objects (or override the language attribute to retrieve the current language). Otherwise, NVDA's user interface language will be used.</source>
         <target>SynthDriver objects should also provide the language argument to VoiceInfo objects (or override the language attribute to retrieve the current language). Otherwise, NVDA's user interface language will be used.</target>
       </segment>
@@ -45004,7 +45004,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4713</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This allows for embedded indexes, parameter changes, etc.</source>
         <target>This allows for embedded indexes, parameter changes, etc.</target>
       </segment>
@@ -45014,7 +45014,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4714</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Drivers should implement SynthDriver.speak() instead of SynthDriver.speakText() and SynthDriver.speakCharacter().</source>
         <target>Drivers should implement SynthDriver.speak() instead of SynthDriver.speakText() and SynthDriver.speakCharacter().</target>
       </segment>
@@ -45024,7 +45024,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4715</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The old methods will be used if SynthDriver.speak() is not implemented, but they are deprecated and will be removed in a future release.</source>
         <target>The old methods will be used if SynthDriver.speak() is not implemented, but they are deprecated and will be removed in a future release.</target>
       </segment>
@@ -45054,7 +45054,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4718</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For message dialogs, use wx.CallAfter(gui.messageBox, ...).</source>
         <target>For message dialogs, use wx.CallAfter(gui.messageBox, ...).</target>
       </segment>
@@ -45064,7 +45064,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4719</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For all other dialogs, real wx dialogs should be used instead.</source>
         <target>For all other dialogs, real wx dialogs should be used instead.</target>
       </segment>
@@ -45074,7 +45074,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4720</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A new gui.runScriptModalDialog() function simplifies using modal dialogs from scripts.</source>
         <target>A new gui.runScriptModalDialog() function simplifies using modal dialogs from scripts.</target>
       </segment>
@@ -45242,7 +45242,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4745</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Initially, this is supported in standard IAccessible2 editable text controls (such as in Mozilla applications), RichEdit controls (such as in Wordpad) and IBM Lotus Symphony text controls.</source>
         <target>Initially, this is supported in standard IAccessible2 editable text controls (such as in Mozilla applications), RichEdit controls (such as in Wordpad) and IBM Lotus Symphony text controls.</target>
       </segment>
@@ -45902,7 +45902,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4817</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Each source of input subclasses the base InputGesture class.</source>
         <target>Each source of input subclasses the base InputGesture class.</target>
       </segment>
@@ -45912,7 +45912,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4818</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Key presses on the system keyboard are encompassed by the keyboardHandler.KeyboardInputGesture class.</source>
         <target>Key presses on the system keyboard are encompassed by the keyboardHandler.KeyboardInputGesture class.</target>
       </segment>
@@ -45922,7 +45922,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4819</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Presses of buttons, wheels and other controls on a braille display are encompassed by subclasses of the braille.BrailleDisplayGesture class. These subclasses are provided by each braille display driver.</source>
         <target>Presses of buttons, wheels and other controls on a braille display are encompassed by subclasses of the braille.BrailleDisplayGesture class. These subclasses are provided by each braille display driver.</target>
       </segment>
@@ -45962,7 +45962,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4823</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>KeyboardInputGestures can be sent on to the OS using the send() method of the gesture.</source>
         <target>KeyboardInputGestures can be sent on to the OS using the send() method of the gesture.</target>
       </segment>
@@ -45992,7 +45992,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4826</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Locale gesture maps should be placed in locale\LANG\gestures.ini, where LANG is the language code.</source>
         <target>Locale gesture maps should be placed in locale\LANG\gestures.ini, where LANG is the language code.</target>
       </segment>
@@ -46002,7 +46002,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4827</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See inputCore.GlobalGestureMap for details of the file format.</source>
         <target>See inputCore.GlobalGestureMap for details of the file format.</target>
       </segment>
@@ -46022,7 +46022,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4829</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The NVDAObjects.window.DisplayModelLiveText overlay class can be used for objects which must retrieve text written to the display.</source>
         <target>The NVDAObjects.window.DisplayModelLiveText overlay class can be used for objects which must retrieve text written to the display.</target>
       </segment>
@@ -46032,7 +46032,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4830</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the mirc and putty app modules for usage examples.</source>
         <target>See the mirc and putty app modules for usage examples.</target>
       </segment>
@@ -46092,7 +46092,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4836</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The base implementation uses the language specified on the VoiceInfo objects in availableVoices. This is suitable for most synthesisers which support one language per voice.</source>
         <target>The base implementation uses the language specified on the VoiceInfo objects in availableVoices. This is suitable for most synthesisers which support one language per voice.</target>
       </segment>
@@ -46112,7 +46112,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4838</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Drivers can provide a global input gesture map to add bindings for scripts anywhere in NVDA.</source>
         <target>Drivers can provide a global input gesture map to add bindings for scripts anywhere in NVDA.</target>
       </segment>
@@ -46122,7 +46122,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4839</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>They can also provide their own scripts to perform display specific functions.</source>
         <target>They can also provide their own scripts to perform display specific functions.</target>
       </segment>
@@ -46132,7 +46132,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4840</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See braille.BrailleDisplayDriver for details and existing braille display drivers for examples.</source>
         <target>See braille.BrailleDisplayDriver for details and existing braille display drivers for examples.</target>
       </segment>
@@ -46172,7 +46172,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4844</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The cursor is now managed outside of the driver.</source>
         <target>The cursor is now managed outside of the driver.</target>
       </segment>
@@ -46182,7 +46182,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4845</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Existing drivers need only change their class statement accordingly and rename their _display method to display.</source>
         <target>Existing drivers need only change their class statement accordingly and rename their _display method to display.</target>
       </segment>
@@ -46291,7 +46291,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4860</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This allows for reading of controls which do not expose information in more direct/reliable ways.</source>
         <target>This allows for reading of controls which do not expose information in more direct/reliable ways.</target>
       </segment>
@@ -46301,7 +46301,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4861</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Controls made accessible by this feature include: some menu items which display icons (e.g. the Open With menu on files in Windows XP) (#151), editable text fields in Windows Live applications (#200), the errors list in Outlook Express (#582), the editable text control in TextPad (#605), lists in Eudora, many controls in Australian E-tax and the formula bar in Microsoft Excel.</source>
         <target>Controls made accessible by this feature include: some menu items which display icons (e.g. the Open With menu on files in Windows XP) (#151), editable text fields in Windows Live applications (#200), the errors list in Outlook Express (#582), the editable text control in TextPad (#605), lists in Eudora, many controls in Australian E-tax and the formula bar in Microsoft Excel.</target>
       </segment>
@@ -46391,7 +46391,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4870</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Currently, this is supported in documents in Mozilla applications such as Firefox (version 3.6.11 and later) and Thunderbird (version 3.1.5 and later). (#361)</source>
         <target>Currently, this is supported in documents in Mozilla applications such as Firefox (version 3.6.11 and later) and Thunderbird (version 3.1.5 and later). (#361)</target>
       </segment>
@@ -46411,7 +46411,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4872</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+numpad7  switches to flat review, placing the review cursor at the position of the current object, allowing you  to review the screen (or a document if within one) with the text review commands.</source>
         <target>NVDA+numpad7  switches to flat review, placing the review cursor at the position of the current object, allowing you  to review the screen (or a document if within one) with the text review commands.</target>
       </segment>
@@ -46421,7 +46421,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4873</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+numpad1 moves the review cursor into the object represented by the text at  the position of the review cursor, allowing you to navigate by object from that point.</source>
         <target>NVDA+numpad1 moves the review cursor into the object represented by the text at  the position of the review cursor, allowing you to navigate by object from that point.</target>
       </segment>
@@ -50429,7 +50429,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5326</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>eSpeak does not depend on any special software to be installed, so it can be used with NVDA on any computer, on a USB thumb drive, or anywhere.</source>
         <target>eSpeak does not depend on any special software to be installed, so it can be used with NVDA on any computer, on a USB thumb drive, or anywhere.</target>
       </segment>
@@ -50489,7 +50489,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5332</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>-m, --minimal: do not play startup/exit sounds and do not show the interface on startup if set to do so.</source>
         <target>-m, --minimal: do not play startup/exit sounds and do not show the interface on startup if set to do so.</target>
       </segment>
@@ -50499,7 +50499,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5333</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>-q, --quit: quit any other already running instance of NVDA and then exit</source>
         <target>-q, --quit: quit any other already running instance of NVDA and then exit</target>
       </segment>
@@ -50509,7 +50509,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5334</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>-s, --stderr-file fileName: specify where NVDA should place uncaught errors and exceptions</source>
         <target>-s, --stderr-file fileName: specify where NVDA should place uncaught errors and exceptions</target>
       </segment>
@@ -50519,7 +50519,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5335</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>-d, --debug-file fileName: specify where NVDA should place debug messages</source>
         <target>-d, --debug-file fileName: specify where NVDA should place debug messages</target>
       </segment>
@@ -50529,7 +50529,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5336</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>-c, --config-file: specify an alternative configuration file</source>
         <target>-c, --config-file: specify an alternative configuration file</target>
       </segment>
@@ -50539,7 +50539,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 5337</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>-h, -help: show a help message listing commandline arguments</source>
         <target>-h, -help: show a help message listing commandline arguments</target>
       </segment>
