@@ -8510,9 +8510,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 411</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you have already closed this dialog or are wanting to install from a portable copy, please choose the Install NVDA menu item found under Tools in the NVDA menu.</source>
-        <target>如果您已经关闭了这个窗口，或者想从便携版本安装，请在 NVDA 菜单中找到工具，选择下面的安装 NVDA 菜单项。</target>
+        <target>如果您已经关闭了这个窗口，或者想从便携版安装，请在 NVDA 菜单中找到工具，选择下面的安装 NVDA 菜单项。</target>
       </segment>
     </unit>
     <unit id="08d3f099-74ad-4e28-a1a1-4c5a5a49bbdd">
@@ -8689,9 +8689,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#CopyPortableConfigurationToCurrentUserAccount}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Copy Portable Configuration to Current User Account</source>
-        <target>拷贝便携版本配置到当前用户账户</target>
+        <target>拷贝便携版的设置到当前用户的配置文件夹</target>
       </segment>
     </unit>
     <unit id="b1bfd5ad-3fa2-4086-8689-521ea333ac54">
@@ -8716,9 +8716,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 442</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is only available when installing from a portable copy, not when installing directly from the downloaded Launcher package.</source>
-        <target>该选项只在由便携版本安装时可用，使用下载的安装程序包直接安装时不可用。</target>
+        <target>该选项只在由便携版安装时可用，使用下载的安装程序包直接安装时不可用。</target>
       </segment>
     </unit>
     <unit id="5c2d3e8c-a066-42b6-a79e-538eb0f35c11">
@@ -8736,27 +8736,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 446</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If creating a portable copy directly from the NVDA download package, press the Create Portable Copy button.</source>
-        <target>如果直接从下载的 NVDA 安装程序包创建便携版本，则点击创建便携版本按钮。</target>
+        <target>如果直接从下载的 NVDA 安装程序包创建便携版本，则点击创建便携版按钮。</target>
       </segment>
     </unit>
     <unit id="49340036-d89e-48bd-bd64-8273d9b5ea7c">
       <notes>
         <note appliesTo="source">line: 447</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you have already closed this dialog or you are running an installed copy of NVDA, choose the Create Portable copy menu item found under Tools in the NVDA menu.</source>
-        <target>如果您已经关闭了此对话框或者您正运行安装版本的 NVDA，可在 NVDA 菜单中找到工具，选择下面的创建便携版本菜单项。</target>
+        <target>如果您已经关闭了此对话框或者您正运行安装版的 NVDA，可在 NVDA 菜单中找到工具，选择下面的创建便携版菜单项。</target>
       </segment>
     </unit>
     <unit id="f4dda05c-4b51-49c7-a1d8-e4962589d4f4">
       <notes>
         <note appliesTo="source">line: 449</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The dialog that appears allows you to choose where the portable copy should be created.</source>
-        <target>弹出的对话框允许您选择存放便携版本的位置。</target>
+        <target>弹出的对话框允许您选择存放便携版的位置。</target>
       </segment>
     </unit>
     <unit id="0d26c448-0ef5-4e6e-820f-e9ca0cb495d8">
@@ -8772,9 +8772,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 451</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>By default, a new directory is created for the portable copy.</source>
-        <target>默认情况下，会为便携版本创建一个新目录。</target>
+        <target>默认情况下，会为便携版创建一个新目录。</target>
       </segment>
     </unit>
     <unit id="cbd0c31f-1a66-4850-bb5c-ade8a7aab5db">
@@ -8790,18 +8790,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 453</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If the existing directory is a portable copy of NVDA, that copy will be updated.</source>
-        <target>如果选择的目录是先前创建的 NVDA 的便携版本，那么会对其进行更新。</target>
+        <target>如果选择的目录是先前创建的 NVDA 便携版，那么会对其进行更新。</target>
       </segment>
     </unit>
     <unit id="03575707-e41f-4c99-b1b9-c449a1c0d312">
       <notes>
         <note appliesTo="source">line: 455</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>There is also an option to choose whether NVDA should copy the logged on user's current NVDA configuration for use with the newly created portable copy.</source>
-        <target>您还可以选择是否将当前登录用户的 NVDA 配置拷贝到新创建的便携版本中。</target>
+        <target>您还可以选择是否将当前登录用户的 NVDA 配置拷贝到新创建的便携版中。</target>
       </segment>
     </unit>
     <unit id="3e88ca65-810e-488f-b76b-c86f1328d312">
@@ -8817,18 +8817,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 457</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is only available when creating a portable copy from an installed copy, not when creating from the download package.</source>
-        <target>此选项只在从安装版本创建便携版本时可用，从下载的安装程序包创建便携版本时不可用。</target>
+        <target>此选项只在从安装版创建便携版时可用，从下载的安装程序包创建便携版时不可用。</target>
       </segment>
     </unit>
     <unit id="d98853c8-c76b-4bd3-a430-59dfca30e93f">
       <notes>
         <note appliesTo="source">line: 459</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Pressing Continue will create the portable copy.</source>
-        <target>点击继续就会创建便携版本。</target>
+        <target>点击继续就会创建便携版。</target>
       </segment>
     </unit>
     <unit id="e9525028-e10f-4691-8dab-79d15133b4a6">
@@ -8864,18 +8864,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 465</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you want to take NVDA with you on a USB thumb drive or other writable media, then you should choose to create a portable copy.</source>
-        <target>如果您想将 NVDA 放在 U 盘或其它便携媒体中随身携带，您可以选择创建一个便携版本。</target>
+        <target>如果您想将 NVDA 放在 U 盘或其它便携媒体中随身携带，您可以选择创建一个便携版。</target>
       </segment>
     </unit>
     <unit id="97a09c6b-3a11-4cf2-9d35-51025ca2a504">
       <notes>
         <note appliesTo="source">line: 466</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The installed copy is also able to create a portable copy of itself at any time.</source>
-        <target>已安装版可以随时创建为便携版。</target>
+        <target>已安装的版本可以随时创建为便携版。</target>
       </segment>
     </unit>
     <unit id="9cc059a1-9ad9-40fe-a0e0-b296a6c27da0">
@@ -8900,7 +8900,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 469</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Running the portable version directly from read-only media is not supported at this time.</source>
         <target>目前还不支持从只读媒体上直接运行便携版本。</target>
       </segment>
