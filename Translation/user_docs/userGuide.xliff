@@ -11379,9 +11379,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to start of selection in review |`NVDA+alt+home` |`NVDA+alt+home` |None |Moves the review cursor to the first character of the selected text</source>
-        <target>移动到选中文本的开始 |`NVDA+alt+home` |`NVDA+alt+home` |None | 将查看光标移动到选中文本的第一个字符并将其读出</target>
+        <target>移动到选中文本的开始 |`NVDA+alt+行首` |`NVDA+alt+行首` | 无 | 将查看光标移动到选中文本的第一个字符并将其读出</target>
       </segment>
     </unit>
     <unit id="277bf234-d0ff-4f3b-88c0-ebca5e179697">
@@ -11390,9 +11390,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to end of selection in review |`NVDA+alt+end` |`NVDA+alt+end` |None |Moves the review cursor to the last character of the selected text</source>
-        <target>移动到选中文本的结尾 |`NVDA+alt+end` |`NVDA+alt+end` |None | 将查看光标移动到选中文本的最后一个字符并将其读出</target>
+        <target>移动到选中文本的结尾 |`NVDA+alt+行尾` |`NVDA+alt+行尾` | 无 | 将查看光标移动到选中文本的最后一个字符并将其读出</target>
       </segment>
     </unit>
     <unit id="40d87ed7-b08f-4ea9-9d21-4db08d4f0e24">
