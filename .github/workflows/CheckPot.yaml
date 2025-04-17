@@ -68,6 +68,7 @@ jobs:
       - name: Install dependencies
         uses: ./.github/workflows/InstallDependencies
         with:
+          ref: master
           submodules: true
           Download-gettext: true
       - name: Configure environment
