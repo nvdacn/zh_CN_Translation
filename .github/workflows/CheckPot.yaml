@@ -4,12 +4,8 @@ on:
   push:
     branches:
       - "20*"
-      - "!2025.1"
     paths:
       - 'Translation/LC_MESSAGES/*.po'
-  schedule:
-    - cron: '0 2 * * 1-5'
-    - cron: '30 11 * * *'
   workflow_dispatch:
 concurrency:
   group: ${{ github.workflow }}-${{ github.repository }}
