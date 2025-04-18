@@ -88,7 +88,7 @@ jobs:
         id: template
         uses: chuhlomin/render-template@v1
         with:
-          template: ${{ github.workspace }}/.github/pull-request-template.md
+          template: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
           vars: |
             Owner: ${{ env.HeadOwner }}
             Commit: ${{ github.sha }}
