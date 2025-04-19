@@ -6,7 +6,7 @@
 
 如需测试翻译，请
 
-1. 在 [GitHub 的 Actions](https://github.com/nvdacn/zh_CN_Translation/actions) 页面选择由 `Build Translation Test` 工作流触发的操作。
+1. 在 [GitHub 的 Actions](https://github.com/nvdacn/zh_CN_Translation/actions) 页面选择由 [Build Translation Test 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/build.yaml)触发的操作。
 
    - alpha 版本请选择与您 NVDA 版本相同分支的操作。
    - beta 版本请选择 Uploads 分支的操作。
