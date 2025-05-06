@@ -56,6 +56,9 @@ jobs:
     needs: Check-NVDA-Repository-Update
     if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
+    env:
+      VSCMD_SKIP_SENDTELEMETRY: 1
+      SCONS_CACHE_MSVC_CONFIG: '${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json'
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v4
@@ -95,6 +98,14 @@ jobs:
               Write-Output "Branch name is ${{ github.ref_name }}. Skipping switch branch."
           }
           &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\Crowdin\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
+      - name: Set cache key for SCons MSVC Cache
+        shell: bash
+        run: echo "SCONS_CACHE_KEY=scons_msvc_cache-${RUNNER_OS}-${ImageVersion}" >> $GITHUB_ENV
+      - name: SCons MSVC Cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.SCONS_CACHE_MSVC_CONFIG }}
+          key: ${{ env.SCONS_CACHE_KEY }}
       - name: CheckPot
         shell: cmd
         run: |
