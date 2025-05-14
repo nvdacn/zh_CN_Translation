@@ -29288,7 +29288,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</source>
-        <target>在密钥字段输入一个高强度的随机密钥（或点击生成密钥按钮自动创建）。</target>
+        <target>在密钥字段输入一个难以猜测的长密钥，或点击生成密钥按钮自动创建。</target>
       </segment>
     </unit>
     <unit id="c6562b30-a5a0-42e4-9cca-38e9c7880eb4">
@@ -29307,7 +29307,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</source>
-        <target>注意：该密钥同时作为会话凭证和密码，必须保证不容易被猜测。</target>
+        <target>请注意：该密钥同时作为会话标识符和密码，因此必须确保其难以被猜测。</target>
       </segment>
     </unit>
     <unit id="4e76d0e7-ce86-4e4e-8189-2ccfcb7da8f8">
@@ -29327,7 +29327,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Provide the connection details (such as host and key) to the other person so they can connect.</source>
-        <target>将连接信息（主机地址与密钥）提供给对方。</target>
+        <target>将连接信息（如主机地址和密钥）提供给对方以便其连接。</target>
       </segment>
     </unit>
     <unit id="3f5e8a31-df5a-4fde-8994-ab58a2862b44">
@@ -29367,7 +29367,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>If connecting over the internet, you can press the "Get External IP" button to show your external IP (internet visible) address.</source>
-        <target>如果通过互联网连接，可点击获取公网 IP 按钮显示您的公网 IP 地址。</target>
+        <target>若通过互联网连接，可点击获取公网 IP 按钮显示您的公网 IP 地址。</target>
       </segment>
     </unit>
     <unit id="aa2e3179-151a-4738-9b56-e062a5333319">
@@ -29376,7 +29376,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>You will need to provide this external IP to the other person.</source>
-        <target>需将此 IP 告知对方。</target>
+        <target>需将此公网 IP 告知对方。</target>
       </segment>
     </unit>
     <unit id="3c02f05b-716a-44ea-a43b-a1ed03f5264b">
@@ -29386,7 +29386,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>If connecting over a local network, you will need to provide the other person with your local IP.</source>
-        <target>局域网连接时，需提供本机局域网 IP 地址。</target>
+        <target>若通过局域网连接，需提供本机局域网 IP 地址。</target>
       </segment>
     </unit>
     <unit id="f3375fe8-814b-4575-9b27-c0b18bd41afa">
@@ -29395,7 +29395,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Locating this is not covered in this documentation.</source>
-        <target>本文档不涵盖 IP 查询方法。</target>
+        <target>本文档不包含如何查找局域网 IP 地址的内容。</target>
       </segment>
     </unit>
     <unit id="65edbd6b-3f1e-4adb-a555-4fb4cbb42e81">
@@ -29403,18 +29403,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3774</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>For Port, enter the port you want to use for incoming Remote connections.</source>
-        <target></target>
+        <target>在端口字段输入用于远程连接的端口号。</target>
       </segment>
     </unit>
     <unit id="04dd0e4f-c6d9-4dcc-ba47-9c571106c73a">
       <notes>
         <note appliesTo="source">line: 3775</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The other person will also need this.</source>
-        <target>The other person will also need this.</target>
+        <target>对方同样需要此端口号。</target>
       </segment>
     </unit>
     <unit id="7f112026-41f8-425e-83b3-1aa35e99d106">
@@ -29422,9 +29422,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3776</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This should be a port that is not used by any other services.</source>
-        <target>This should be a port that is not used by any other services.</target>
+        <target>应选择未被其他服务占用的端口。</target>
       </segment>
     </unit>
     <unit id="be83df76-ec79-4c78-846d-bdfeb43094dc">
@@ -29432,9 +29432,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3777</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, Remote Access uses port 6837.</source>
-        <target>By default, Remote Access uses port 6837.</target>
+        <target>远程访问默认使用 6837 端口。</target>
       </segment>
     </unit>
     <unit id="c01ef72c-1bed-4db3-8cc0-80fc6e1a30e8">
@@ -29442,27 +29442,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3778</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If connecting over the internet, the port may need to be forwarded.</source>
-        <target>If connecting over the internet, the port may need to be forwarded.</target>
+        <target>通过互联网连接时可能需要端口转发。</target>
       </segment>
     </unit>
     <unit id="7c7e46ab-fd29-4691-ab41-452a2ef3eb15">
       <notes>
         <note appliesTo="source">line: 3779</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  This documentation does not cover how to forward ports.</source>
-        <target>  This documentation does not cover how to forward ports.</target>
+        <target>本文档不包含端口转发的教程。</target>
       </segment>
     </unit>
     <unit id="59c85e24-7c80-4162-901c-02379194a393">
       <notes>
         <note appliesTo="source">line: 3780</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  You may need to contact your network administrator to do this.</source>
-        <target>  You may need to contact your network administrator to do this.</target>
+        <target>您可能需要联系网络管理员完成此操作。</target>
       </segment>
     </unit>
     <unit id="d995902d-8e11-47a8-9306-aab1445ce6b9">
@@ -29470,18 +29470,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3781</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</source>
-        <target>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</target>
+        <target>在密钥字段输入一个难以猜测的长密钥，或点击生成密钥按钮自动创建。</target>
       </segment>
     </unit>
     <unit id="2cc72874-8ac8-405d-a2db-10b6eb8c491f">
       <notes>
         <note appliesTo="source">line: 3782</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You will need to provide this to the other person.</source>
-        <target>You will need to provide this to the other person.</target>
+        <target>需将此密钥告知对方。</target>
       </segment>
     </unit>
     <unit id="498f6517-451b-4d30-a1d3-e7797c624c4e">
@@ -29489,9 +29489,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3783</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</source>
-        <target>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</target>
+        <target>请注意：该密钥同时作为会话标识符和密码，因此必须确保其难以被猜测。</target>
       </segment>
     </unit>
     <unit id="6be70a23-825b-4949-a94c-5788cb14f373">
@@ -29499,9 +29499,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3784</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Press OK.</source>
-        <target>Press OK.</target>
+        <target>点击确定。</target>
       </segment>
     </unit>
     <unit id="67b5c476-ed76-40eb-9652-0f263a8d0a11">
@@ -29509,9 +29509,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3785</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Provide the connection details (such as host and key) to the other person so they can connect.</source>
-        <target>Provide the connection details (such as host and key) to the other person so they can connect.</target>
+        <target>将连接信息（如主机地址和密钥）提供给对方以便其连接。</target>
       </segment>
     </unit>
     <unit id="d11dbdb9-e13b-4316-accc-bff9461aaaf5">
@@ -29594,7 +29594,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Toggle Remote connection | `NVDA+alt+r` | Starts a new Remote Access session or, if a session is already in progress, disconnects from it. </source>
-        <target> 切换远程连接 | `NVDA+alt+r` | 建立新会话或断开现有会话。 </target>
+        <target> 切换远程连接 | `NVDA+alt+r` | 建立新远程访问会话，若已有会话则断开连接。 </target>
       </segment>
     </unit>
     <unit id="0b908760-a0ed-4689-800e-a09c29e5d649">
@@ -29605,7 +29605,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Toggle Control | `NVDA+alt+tab` | Switches between controlling the remote and local computer. </source>
-        <target> 切换控制权 | `NVDA+alt+tab` | 在控制本地计算机与控制远程计算机之间切换。 </target>
+        <target> 切换控制权 | `NVDA+alt+tab` | 在控制远程计算机与控制本地计算机之间切换。 </target>
       </segment>
     </unit>
     <unit id="2a6aa6a1-5c2e-4b73-9b05-8dd3a92e040d">
@@ -29627,7 +29627,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Copy link | None | Copies a link to the remote session to the clipboard. </source>
-        <target> 复制链接 | 无 | 将远程访问会话的链接复制到剪贴板。 </target>
+        <target> 复制链接 | 无 | 将远程会话的链接复制到剪贴板。 </target>
       </segment>
     </unit>
     <unit id="fc4bfc1d-4cb3-42ad-ad29-3d2021915725">
@@ -29660,7 +29660,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Send clipboard | None | Sends the contents of the clipboard to the remote computer. </source>
-        <target> 发送剪贴板 | 无 | 向远程计算机发送剪贴板内容。 </target>
+        <target> 发送剪贴板 | 无 | 将剪贴板内容发送到远程计算机。 </target>
       </segment>
     </unit>
     <unit id="94267446-c550-43a5-80a9-d9596e6f85fd">
