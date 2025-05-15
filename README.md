@@ -106,7 +106,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L
 - `C`、`U`、`K`、`D`、`L` 命令生成的文件位于 `Preview`文件夹下。
 - `T` 命令生成的文件位于`Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
 - `Z` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
-- `UPC`、`UPU` 和 `UPA` 命令使用前，需要将原始 xliff 文件复制到存储库的 `Crowdin\OldXLIFF` 文件夹，如未检测到所需文件，系统会从存储库的 `main` 分支提取。
+- `UPC`、`UPU` 和 `UPA` 命令使用前，需要将原始 xliff 文件复制到存储库的 `PotXliff` 文件夹，如未检测到所需文件，系统会从存储库的 `main` 分支提取。
 - 从 Crowdin 上传或下载文件时，需要 Crowdin 的个人访问令牌，可从 [Crowdin 的账号设置](https://zh.crowdin.com/settings#api-key)页面创建。
 
   - 创建令牌时，必须选中译文复选框并授予读写权限。

@@ -229,16 +229,16 @@ exit
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
-set TempFolder=%~dp0Crowdin\Temp
+set TempFolder=%~dp0PotXliff\Temp
 set OldFile=%TempFolder%\%FileName%.old
 set Parameter=--old "%OldFile%"
 IF EXIST "%TempFolder%" (rd /s /q "%TempFolder%")
 MKDir "%TempFolder%"
-IF Not EXIST "%~dp0Crowdin\OldXLIFF\%FileName%" (
-  git archive --output "./Crowdin/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
-  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0Crowdin\OldXLIFF"
+IF Not EXIST "%~dp0PotXliff\%FileName%" (
+  git archive --output "./PotXliff/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
+  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0PotXliff"
 )
-MKLINK /H "%OldFile%" "%~dp0Crowdin\OldXLIFF\%FileName%"
+MKLINK /H "%OldFile%" "%~dp0PotXliff\%FileName%"
 goto Upload
 
 Rem 上传已翻译的文件到 Crowdin
@@ -254,7 +254,7 @@ Exit
 
 Rem 清理本工具生成的所有文件  
 :CLE
-rd /s /q "%~dp0Crowdin"
+rd /s /q "%~dp0PotXliff"
 rd /s /q "%~dp0Preview"
-Git restore Crowdin/* Preview/*
+Git restore PotXliff/* Preview/*
 Exit
