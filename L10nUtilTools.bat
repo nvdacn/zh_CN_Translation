@@ -149,6 +149,32 @@ IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 "%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
 if /I "%CLI%"=="Z" (Exit)
 
+Rem 从给定的 nvda.pot 更新界面翻译字符串  
+:UDL
+Rem 设置 GettextTools 程序路径  
+for %%F in (
+  "%ProgramFiles(x86)%\Poedit\GettextTools\bin"
+  "%ProgramFiles%\Poedit\GettextTools\bin"
+) do (
+  if exist %%F (
+    set "Gettext=%%F"
+  )
+)
+if defined Gettext (
+  echo %%Gettext%% is set to !Gettext!.
+) Else (
+  echo Poedit program not found.
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('请安装 Poedit 后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件');window.close();"
+  exit /b 1
+)
+CD /D %Gettext% 
+msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0PotXliff\nvda.pot"
+Exit
+
 Rem 处理标签  
 :DLL
 :DLC
