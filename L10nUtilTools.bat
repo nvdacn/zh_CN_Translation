@@ -69,6 +69,7 @@ echo D：生成所有文档的 html 文件；
 echo L：生成界面翻译的 mo 文件；  
 echo T：生成翻译测试文件（不压缩）；  
 echo Z：生成翻译测试文件的压缩包；  
+echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
 echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；  
 echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
 echo UPL：上传已翻译的 nvda.po 文件到 Crowdin；  
@@ -148,6 +149,32 @@ Rem 生成翻译测试压缩包
 IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 "%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
 if /I "%CLI%"=="Z" (Exit)
+
+Rem 从给定的 nvda.pot 更新界面翻译字符串  
+:UDL
+Rem 设置 GettextTools 程序路径  
+for %%F in (
+  "%ProgramFiles(x86)%\Poedit\GettextTools\bin"
+  "%ProgramFiles%\Poedit\GettextTools\bin"
+) do (
+  if exist %%F (
+    set "Gettext=%%F"
+  )
+)
+if defined Gettext (
+  echo %%Gettext%% is set to !Gettext!.
+) Else (
+  echo Poedit program not found.
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('请安装 Poedit 后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件');window.close();"
+  exit /b 1
+)
+CD /D %Gettext% 
+msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0PotXliff\nvda.pot"
+Exit
 
 Rem 处理标签  
 :DLL
@@ -229,16 +256,16 @@ exit
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
-set TempFolder=%~dp0Crowdin\Temp
+set TempFolder=%~dp0PotXliff\Temp
 set OldFile=%TempFolder%\%FileName%.old
 set Parameter=--old "%OldFile%"
 IF EXIST "%TempFolder%" (rd /s /q "%TempFolder%")
 MKDir "%TempFolder%"
-IF Not EXIST "%~dp0Crowdin\OldXLIFF\%FileName%" (
-  git archive --output "./Crowdin/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
-  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0Crowdin\OldXLIFF"
+IF Not EXIST "%~dp0PotXliff\%FileName%" (
+  git archive --output "./PotXliff/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
+  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0PotXliff"
 )
-MKLINK /H "%OldFile%" "%~dp0Crowdin\OldXLIFF\%FileName%"
+MKLINK /H "%OldFile%" "%~dp0PotXliff\%FileName%"
 goto Upload
 
 Rem 上传已翻译的文件到 Crowdin
@@ -254,7 +281,7 @@ Exit
 
 Rem 清理本工具生成的所有文件  
 :CLE
-rd /s /q "%~dp0Crowdin"
+rd /s /q "%~dp0PotXliff"
 rd /s /q "%~dp0Preview"
-Git restore Crowdin/* Preview/*
+Git restore PotXliff/* Preview/*
 Exit
