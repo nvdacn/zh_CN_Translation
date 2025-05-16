@@ -6286,7 +6286,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Load the NV Access download page (Press `alt+d`, type the following address and press `enter`):</source>
         <target>加载 NV Access（或 NVDA 中文站）的下载页面（按 `Alt+d`，键入以下网址并按`回车`键）：</target>
       </segment>
@@ -6335,7 +6335,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If the file needs to be manually launched, press `alt+n` to move to the notification area, then `alt+r` to run the file (or the steps for your browser)</source>
         <target>如果下载的文件需要手动运行，请按 `Alt+n` 转到通知栏，然后按 `Alt+r` 运行该文件（也可使用适合您的浏览器的方法）。</target>
       </segment>
@@ -6626,7 +6626,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 163</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Installing also offers to create Start Menu and desktop shortcuts, and allow NVDA to be started with `control+alt+n`.</source>
         <target>安装版本还提供创建开始菜单和桌面快捷方式功能，并允许按 `Ctrl+Alt+N` 启动 NVDA。</target>
       </segment>
@@ -6733,7 +6733,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 177</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Press `alt+y` to accept the UAC prompt.</source>
         <target>按 `Alt+y` 接受此 UAC 提示。</target>
       </segment>
@@ -7066,7 +7066,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Start NVDA |`control+alt+n` |`control+alt+n` |Starts or restarts NVDA</source>
         <target>启动 NVDA | `Ctrl+Alt+N` | `Ctrl+Alt+N` | 启动或重启 NVDA</target>
       </segment>
@@ -7088,7 +7088,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Pause or restart speech |`shift` |`shift` |Instantly pauses speech. Pressing it again will continue speaking where it left off</source>
         <target>暂停或恢复语音 | `Shift` | `Shift` | 立即暂停朗读。再次按下会从刚刚停止的地方继续朗读</target>
       </segment>
@@ -7099,7 +7099,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Stop speech |`control` |`control` |Instantly stops speaking</source>
         <target>停止朗读 | `Ctrl` | `Ctrl` | 立即停止朗读</target>
       </segment>
@@ -7154,7 +7154,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Read selection |`NVDA+shift+upArrow` |`NVDA+shift+s` |Reads any selected text. Pressing twice will spell the information. Pressing three times will spell it using character description</source>
         <target>朗读选择的文本 | `NVDA+Shift+上光标` | `NVDA+Shift+s` | 朗读选择的所有文本。连按两次会拼读该信息。连按三次用字符描述拼读它</target>
       </segment>
@@ -7231,7 +7231,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Read status bar |`NVDA+end` |`NVDA+shift+end` |Reports the Status Bar if NVDA finds one. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
         <target>读出状态栏 | `NVDA+end` | `NVDA+Shift+end` | 如果 NVDA 能找到状态栏则将其读出。连按两次拼读该信息。连按三次复制该信息到剪贴板</target>
       </segment>
@@ -7319,7 +7319,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speak command keys |`NVDA+4` |`NVDA+4` |When enabled, NVDA will announce all non-character keys you type on the keyboard. This includes key combinations such as control plus another letter.</source>
         <target>朗读命令键 | `NVDA+4` | `NVDA+4` | 如果启用，NVDA 会读出您在键盘上键入的所有飞字符按键。也包括组合键，例如 Ctrl 加其他字母。</target>
       </segment>
@@ -7363,7 +7363,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next synth setting |`NVDA+control+rightArrow` |`NVDA+shift+control+rightArrow` |Moves to the next available speech setting after the current, wrapping around to the first setting again after the last</source>
         <target>移动到下一个合成器设置 | `NVDA+Ctrl+右光标` | `NVDA+Shift+Ctrl+右光标` | 移动到当前设置的下一个可用的语音设置，移动到最后一个设置后会再次循环至第一个</target>
       </segment>
@@ -7374,7 +7374,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous synth setting |`NVDA+control+leftArrow` |`NVDA+shift+control+leftArrow` |Moves to the next available speech setting before the current, wrapping around to the last setting after the first</source>
         <target>移动到上一个合成器设置 | `NVDA+Ctrl+左光标` |`NVDA+Shift+Ctrl+左光标` | 移动到当前设置的上一个可用的语音设置，移动到第一个设置后会再次循环至最后一个</target>
       </segment>
@@ -7385,7 +7385,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Increment current synth setting |`NVDA+control+upArrow` |`NVDA+shift+control+upArrow` |increases the current speech setting you are on. E.g. increases the rate, chooses the next voice, increases the volume</source>
         <target>增加当前合成器设置的值 | `NVDA+Ctrl+上光标` |`NVDA+Shift+Ctrl+上光标` | 增加当前所在语音设置的值，例如加快速度，选择下一个语音，增大音量</target>
       </segment>
@@ -7396,7 +7396,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Increment the current synth setting in larger steps |`NVDA+control+pageUp` |`NVDA+shift+control+pageUp` |Increases the value of the current speech setting you're on in larger steps. e.g. when you're on a voice setting, it will jump forward every 20 voices; when you're on slider settings (rate, pitch, etc) it will jump forward the value up to 20%</source>
         <target>以更大的步长增加当前语音选项的设置值 | `NVDA+Ctrl+上翻页` | `NVDA+Shift+Ctrl+上翻页` | 以更大的步长增加当前语音设置的值。例如当你处于语音设置时，每一次会跳过 20 个语音角色；当您处于滑块设置（速度、音调等）时，每次会增加 20%</target>
       </segment>
@@ -7407,7 +7407,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Decrement current synth setting |`NVDA+control+downArrow` |`NVDA+shift+control+downArrow` |decreases the current speech setting you are on. E.g. decreases the rate, chooses the previous voice, decreases the volume</source>
         <target>减小当前合成器设置的值 | `NVDA+Ctrl+下光标` |`NVDA+Shift+Ctrl+下光标` | 减小当前所在语音设置的值，例如减慢速度，选择上一个语音，减小音量</target>
       </segment>
@@ -7418,7 +7418,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Decrement the current synth setting in larger steps |`NVDA+control+pageDown` |`NVDA+shift+control+pageDown` |Decreases the value of the current speech setting you're on in larger steps. e.g. when you're on a voice setting, it will jump backward every 20 voices; when you're on a slider setting, it will jump backward the value up to 20%.</source>
         <target>以更大的步长减小当前语音选项的设置值 | `NVDA+Ctrl+下翻页` | `NVDA+Shift+Ctrl+下翻页` | 以更大的步长减小当前语音设置的值。例如当你处于语音设置时，每一次会跳过 20 个语音角色；当您处于滑块设置时，每次会减小 20%。</target>
       </segment>
@@ -7564,7 +7564,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move backwards |`shift+letter` |Press `shift` and any of the above letters to move to the previous element of that type</source>
         <target>反向移动 | `Shift`+字母 | 按 `Shift` 加上面列出的任意字母可移动到前一个相同类型的元素</target>
       </segment>
@@ -7622,7 +7622,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 293</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To open NVDA's general settings dialog directly, press `NVDA+control+g`.</source>
         <target>按 `NVDA+Ctrl+g` 可以直接打开 NVDA 常规设置对话框。</target>
       </segment>
@@ -7631,7 +7631,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 294</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Many settings screens have keystrokes to open them directly, such as `NVDA+control+s` for synthesizer, or `NVDA+control+v` for other voice options.</source>
         <target>许多 NVDA 设置界面都有直接打开它们的按键，例如 `NVDA+Ctrl+s` 打开合成器对话框，`NVDA+Ctrl+v` 可以打开其它语音设置的界面。</target>
       </segment>
@@ -7866,7 +7866,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 324</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To return to the list of add-ons, press `alt+a`, or `shift+tab` until reaching the list.</source>
         <target>要返回插件列表，按 `Alt+a`，或按 `Shift+tab` 直到回到列表。</target>
       </segment>
@@ -7895,7 +7895,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 328</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To search, press `alt+s` to jump to the "Search" field and type the text to search for.</source>
         <target>要搜索，请按 `Alt+s` 跳转到“搜索”字段并输入要搜索的文本。</target>
       </segment>
@@ -8081,7 +8081,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 351</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Press `control+tab` to move between the tabs of the Add-on Store.</source>
         <target>按 `Ctrl+tab` 在插件商店的选项卡之间移动。</target>
       </segment>
@@ -8182,7 +8182,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 363</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Press `control+tab` to get to this tab from anywhere in the Add-on Store.</source>
         <target>按 `Ctrl+tab` 可以从插件商店的其他选项卡切换到此选项卡。</target>
       </segment>
@@ -8649,7 +8649,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#CreateDesktopShortcut}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Create Desktop Shortcut (ctrl+alt+n)</source>
         <target>创建桌面快捷方式 (ctrl+Alt+n)</target>
       </segment>
@@ -8667,7 +8667,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 436</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If created, this shortcut will also be assigned a shortcut key of `control+alt+n`, allowing you to start NVDA at any time with this keystroke.</source>
         <target>如果创建，这个快捷方式还被分配一个快捷键——`Ctrl+Alt+N`，允许您在任何时候用此快捷键启动 NVDA。</target>
       </segment>
@@ -9016,7 +9016,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 487</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If you have installed NVDA with the installer, then starting NVDA is as simple as either pressing control+alt+n, or choosing NVDA from the NVDA menu under Programs on the Start Menu.</source>
         <target>如果您已安装了 NVDA 安装版，最简单的打开方式是按下快捷键 Ctrl+Alt+N，或从“开始菜单”中的“程序中找到 NVDA。</target>
       </segment>
@@ -9424,7 +9424,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 549</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To toggle touch interaction support, press NVDA+control+alt+t.</source>
         <target>要切换触摸屏支持，请按 NVDA + Ctrl + Alt + t。</target>
       </segment>
@@ -9876,7 +9876,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 625</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Alternatively, access the system tray by pressing `Windows+b`, `downArrow` to the NVDA icon, and open the context menu by pressing the `applications` key located next to the right control key on most keyboards.</source>
         <target>又或者，按下 `Windows+b` 访问系统托盘，按 `下光标键` 导航到 NVDA 图标，接着按下 `应用（applications）` 键打开上下文菜单，该键通常位于键盘上右侧 Ctrl 键旁边。</target>
       </segment>
@@ -9885,7 +9885,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 626</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>On a keyboard without an `applications` key, press `shift+f10` instead.</source>
         <target>在没有`应用（applications）`键的键盘上，可按下 `Shift+F10` 替代。</target>
       </segment>
@@ -9937,7 +9937,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Starts or restarts NVDA |Control+alt+n |Control+alt+n |none |Starts or restarts NVDA from the Desktop, if this Windows shortcut is enabled during NVDA's installation process. This is a Windows specific shortcut and therefore it cannot be reassigned in the input gestures dialog.</source>
         <target>启动或重启 NVDA | Control+Alt+n | Control+Alt+n | 无 | 如果安装 NVDA 时启用了桌面快捷方式，可以按这个快捷键启动或重启 NVDA。这个快捷键来源于 Windows 的快捷方式，因此无法在按键与手势对话框中重新分配。</target>
       </segment>
@@ -9948,7 +9948,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Stop speech |Control |control |2-finger tap |Instantly stops speaking</source>
         <target>停止朗读 | Control | Ctrl | 双指点击 | 立即停止朗读</target>
       </segment>
@@ -9959,7 +9959,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Pause Speech |shift |shift |none |Instantly pauses speech. Pressing it again will continue speaking where it left off (if pausing is supported by the current synthesizer)</source>
         <target>暂停朗读 | Shift | Shift | 无 | 立即暂停朗读，再次按下便会从刚刚停止的地方继续朗读（如果当前合成器可以支持暂停的话）。</target>
       </segment>
@@ -10014,7 +10014,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Toggle application sleep mode on and off |NVDA+shift+s |NVDA+shift+z |none |sleep mode disables all NVDA commands and speech/braille output for the current application. This is most useful in applications that provide their own speech or screen reading features. Press this command again to disable sleep mode - note that NVDA will only retain the Sleep Mode setting until it is restarted.</source>
         <target>切换程序睡眠模式的开关 | NVDA+Shift+s | NVDA+Shift+z | 无 | 为当前程序停用所有的 NVDA 命令、语音和盲文输出。此功能通常用于那些自身就提供语音或者屏幕阅读特性的程序。再次按下此快捷键将停用程序自身的声音模式。</target>
       </segment>
@@ -10058,7 +10058,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report battery status |NVDA+shift+b |Reports the battery status i.e. whether AC power is in use or the current charge percentage.</source>
         <target>读出电池状态 | NVDA+Shift+b | 读出电池状态，包括是否正在使用电源和充电的百分比。</target>
       </segment>
@@ -10392,7 +10392,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report Status Bar |NVDA+end |NVDA+shift+end |Reports the Status Bar if NVDA finds one. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
         <target>读出状态栏 |NVDA+end |NVDA+Shift+end |读出当前应用程序的状态栏，连按两次拼读该信息，连按三次复制该信息到剪贴板</target>
       </segment>
@@ -10403,7 +10403,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report Shortcut Key |`shift+numpad2` |`NVDA+control+shift+.` |Reports the shortcut (accelerator) key of the currently focused object</source>
         <target>读出当前所聚焦对象的快捷键 | `Shift+数字键盘2` | `NVDA+Ctrl+Shift+.` | 读出当前所聚焦对象的快捷键（或加速键）</target>
       </segment>
@@ -10503,7 +10503,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Read current text selection |NVDA+Shift+upArrow |NVDA+shift+s |Reads any currently selected text</source>
         <target>读出当前选择的文本 |NVDA+Shift+上光标 |NVDA+Shift+s |读出当前选择的所有文本</target>
       </segment>
@@ -10547,7 +10547,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Next sentence |alt+downArrow |alt+downArrow |Moves the caret to the next sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
         <target>下一个句子 |Alt+下光标 |Alt+下光标 |移动输入焦点到下一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
@@ -10558,7 +10558,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Previous sentence |alt+upArrow |alt+upArrow |Moves the caret to the previous sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
         <target>上一个句子 |Alt+上光标 |Alt+上光标 |移动输入焦点到上一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
@@ -10589,7 +10589,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous column |control+alt+leftArrow |Moves the system caret to the previous column (staying in the same row)</source>
         <target>移动到上一列 |Ctrl+Alt+左光标 |移动输入焦点到上一列（仍在同一行内）。</target>
       </segment>
@@ -10600,7 +10600,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next column |control+alt+rightArrow |Moves the system caret to the next column (staying in the same row)</source>
         <target>移动到下一列 |Ctrl+Alt+右光标 |移动输入焦点到下一列（仍在同一行内）。</target>
       </segment>
@@ -10611,7 +10611,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous row |control+alt+upArrow |Moves the system caret to the previous row (staying in the same column)</source>
         <target>移动到上一行 |Ctrl+Alt+上光标 |移动输入焦点到上一行（仍在同一列内）。</target>
       </segment>
@@ -10622,7 +10622,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next row |control+alt+downArrow |Moves the system caret to the next row (staying in the same column)</source>
         <target>移动到下一行 |Ctrl+Alt+下光标 |移动输入焦点到下一行（仍在同一列内）。</target>
       </segment>
@@ -10633,7 +10633,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first column |control+alt+home |Moves the system caret to the first column (staying in the same row)</source>
         <target>移动到第一列 |Ctrl+Alt+行首 |移动输入焦点到第一列（仍在同一行内）。</target>
       </segment>
@@ -10644,7 +10644,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to last column |control+alt+end |Moves the system caret to the last column (staying in the same row)</source>
         <target>移动到最后一列 |Ctrl+Alt+行尾 |移动输入焦点到最后一列（仍在同一行内）。</target>
       </segment>
@@ -10655,7 +10655,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first row |control+alt+pageUp |Moves the system caret to the first row (staying in the same column)</source>
         <target>移动到第一行 |Ctrl+Alt+上翻页 |移动输入焦点到第一行（仍在同一列内）。</target>
       </segment>
@@ -10666,7 +10666,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to last row |control+alt+pageDown |Moves the system caret to the last row (staying in the same column)</source>
         <target>移动到最后一行 |Ctrl+Alt+下翻页 |移动输入焦点到最后一行（仍在同一列内）。</target>
       </segment>
@@ -10677,7 +10677,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Say all in column |`NVDA+control+alt+downArrow` |Reads the column vertically from the current cell downwards to the last cell in the column.</source>
         <target>朗读当前列 | `NVDA+Ctrl+Alt+下光标` | 从当前单元格开始垂直向下朗读至当前列的最后一个单元格。</target>
       </segment>
@@ -10688,7 +10688,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Say all in row |`NVDA+control+alt+rightArrow` |Reads the row horizontally from the current cell rightwards to the last cell in the row.</source>
         <target>朗读当前行 | `NVDA+Ctrl+Alt+右光标` | 从当前单元格开始水平向右朗读至当前行的最后一个单元格。</target>
       </segment>
@@ -10699,7 +10699,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Read entire column |`NVDA+control+alt+upArrow` |Reads the current column vertically from top to bottom without moving the system caret.</source>
         <target>朗读当前列（不移动输入焦点） | `NVDA+Ctrl+Alt+上光标` | 在不移动输入焦点的情况下，从上到下垂直朗读当前列。</target>
       </segment>
@@ -10710,7 +10710,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Read entire row |`NVDA+control+alt+leftArrow` |Reads the current row horizontally from left to right without moving the system caret.</source>
         <target>朗读当前行（不移动输入焦点） | `NVDA+Ctrl+Alt+左光标` | 在不移动输入焦点的情况下，从左到右水平朗读当前行。</target>
       </segment>
@@ -10968,7 +10968,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current object |NVDA+numpad5 |NVDA+shift+o |none |Reports the current navigator object. Pressing twice spells the information, and pressing 3 times copies this object's name and value to the clipboard.</source>
         <target>读出当前对象 | NVDA+数字键盘5 | NVDA+Shift+o | 无 | 读出当前导航对象。连按两次拼读信息，连按三次复制此对象的名称和值到剪贴板。</target>
       </segment>
@@ -10979,7 +10979,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to containing object |NVDA+numpad8 |NVDA+shift+upArrow |flick up (object mode) |Moves to the object containing the current navigator object</source>
         <target>移动到父对象 | NVDA+数字键盘8 | NVDA+Shift+上光标 | 向上滑动（对象模式） | 移动导航对象到此对象的父对象</target>
       </segment>
@@ -10990,7 +10990,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous object |NVDA+numpad4 |NVDA+shift+leftArrow |none |Moves to the object before the current navigator object</source>
         <target>移动到此层级的上一个对象 | NVDA+数字键盘4 | NVDA+Shift+左光标 |两个手指向左滑动（对象模式） | 移动导航对象到此层级的前一个对象</target>
       </segment>
@@ -11001,7 +11001,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous object in flattened view |NVDA+numpad9 |NVDA+shift+[ |flick left (object mode) |Moves to the previous object in a flattened view of the object navigation hierarchy</source>
         <target>移动到上一个对象 | NVDA+数字键盘9 | NVDA+Shift+[ |向左滑动（对象模式） | 移动导航对象到前一个对象，忽略层级关系</target>
       </segment>
@@ -11012,7 +11012,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next object |NVDA+numpad6 |NVDA+shift+rightArrow |none |Moves to the object after the current navigator object</source>
         <target>移动到此层级的下一个对象 | NVDA+数字键盘6 | NVDA+Shift+右光标 | 两个手指向右滑动（对象模式） | 移动导航对象到此层级的后一个对象</target>
       </segment>
@@ -11023,7 +11023,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next object in flattened view |NVDA+numpad3 |NVDA+shift+] |flick right (object mode) |Moves to the next object in a flattened view of the object navigation hierarchy</source>
         <target>移动到下一个对象 | NVDA+数字键盘3 | NVDA+Shift+] | 向右滑动（对象模式） | 移动导航对象到后一个对象，忽略层级关系</target>
       </segment>
@@ -11034,7 +11034,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to first contained object |NVDA+numpad2 |NVDA+shift+downArrow |flick down (object mode) |Moves to the first object contained by the current navigator object</source>
         <target>移动到此对象的首个子对象 | NVDA+数字键盘2 | NVDA+Shift+下光标 | 向下滑动（对象模式） | 移动导航对象到此对象的第一个子对象</target>
       </segment>
@@ -11067,7 +11067,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move System focus or caret to current review position |NVDA+shift+numpadMinus |NVDA+shift+backspace |none |pressed once Moves the System focus to the current navigator object, pressed twice moves the system caret to the position of the review cursor</source>
         <target>移动焦点或系统输入焦点到当前查看位置 | NVDA+Shift+数字键盘减号 | NVDA+Shift+退格 | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统输入焦点移动到查看光标所在的位置</target>
       </segment>
@@ -11203,7 +11203,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to top line in review |shift+numpad7 |NVDA+control+home |none |Moves the review cursor to the top line of the text</source>
         <target>移动到查看文本的第一行 | Shift+数字键盘7 | NVDA+Ctrl+行首 | 无 | 移动查看光标到文本的第一行</target>
       </segment>
@@ -11225,7 +11225,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current line in review |numpad8 |NVDA+shift+. |none |Announces the current line of text where the review cursor is positioned. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
         <target>读出查看文本的当前行 | 数字键盘8 | NVDA+Shift+. | 无 | 读出查看光标所在位置的文本的当前航，连按两次拼读该行，连按三次用字符描述拼读该行。</target>
       </segment>
@@ -11247,7 +11247,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to bottom line in review |shift+numpad9 |NVDA+control+end |none |Moves the review cursor to the bottom line of text</source>
         <target>移动到查看文本的最后一行 | Shift+数字键盘9 | NVDA+Ctrl+行尾 | 无 | 移动查看光标到文本的最后一行</target>
       </segment>
@@ -11258,7 +11258,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous word in review |numpad4 |NVDA+control+leftArrow |2-finger flick left (text mode) |Moves the review cursor to the previous word in the text</source>
         <target>移动到查看文本的上一个词 | 数字键盘4 | NVDA+Ctrl+左光标 | 两个手指向左滑动（文本模式） | 移动查看光标到文本的上一个词</target>
       </segment>
@@ -11269,7 +11269,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report current word in review |numpad5 |NVDA+control+. |none |Announces the current word in the text where the review cursor is positioned. Pressing twice spells the word. Pressing three times spells the word using character descriptions.</source>
         <target>读出查看文本的当前词 | 数字键盘5 | NVDA+Ctrl+. | 无 | 读出查看光标所在位置的文本的当前词，连按两次拼读该词，连按三次用字符描述拼读该词。</target>
       </segment>
@@ -11280,7 +11280,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next word in review |numpad6 |NVDA+control+rightArrow |2-finger flick right (text mode) |Move the review cursor to the next word in the text</source>
         <target>移动到查看文本的下一个词 | 数字键盘6 | NVDA+Ctrl+右光标 | 两个手指向右滑动（文本模式） | 移动查看光标到文本的下一个词</target>
       </segment>
@@ -11291,7 +11291,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to start of line in review |shift+numpad1 |NVDA+home |none |Moves the review cursor to the start of the current line in the text</source>
         <target>移动到查看文本的行首 | Shift+数字键盘1 | NVDA+行首 | 无 | 移动查看光标到文本的当前行的行首</target>
       </segment>
@@ -11335,7 +11335,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to end of line in review |shift+numpad3 |NVDA+end |none |Moves the review cursor to the end of the current line of text</source>
         <target>移动到查看文本的行尾 | Shift+数字键盘3 | NVDA+行尾 | 无 | 移动查看光标到文本的当前行的行尾</target>
       </segment>
@@ -11346,7 +11346,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous page in review |`NVDA+pageUp` |`NVDA+shift+pageUp` |none |Moves the review cursor to the previous page of text if supported by the application</source>
         <target>移动到查看文本的上一页 | `NVDA+上翻页` | `NVDA+Shift+上翻页` | 无 | 如果应用程序支持，将查看光标移动到当前查看文本的上一页并将其读出</target>
       </segment>
@@ -11357,7 +11357,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next page in review |`NVDA+pageDown` |`NVDA+shift+pageDown` |none |Moves the review cursor to the next page of text if supported by the application</source>
         <target>移动到查看文本的下一页 | `NVDA+下翻页` | `NVDA+Shift+下翻页` | 无 | 如果应用程序支持，将查看光标移动到当前查看文本的下一页并将其读出</target>
       </segment>
@@ -11368,7 +11368,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to start of selection in review |`NVDA+alt+home` |`NVDA+alt+home` |None |Moves the review cursor to the first character of the selected text</source>
         <target>移动到选中文本的开始 |`NVDA+Alt+行首` |`NVDA+Alt+行首` | 无 | 将查看光标移动到选中文本的第一个字符并将其读出</target>
       </segment>
@@ -11379,7 +11379,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to end of selection in review |`NVDA+alt+end` |`NVDA+alt+end` |None |Moves the review cursor to the last character of the selected text</source>
         <target>移动到选中文本的结尾 |`NVDA+Alt+行尾` |`NVDA+Alt+行尾` | 无 | 将查看光标移动到选中文本的最后一个字符并将其读出</target>
       </segment>
@@ -11390,7 +11390,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Say all with review |numpadPlus |NVDA+shift+a |3-finger flick down (text mode) |Reads from the current position of the review cursor, moving it as it goes</source>
         <target>文本查看全文朗读 | 数字键盘加号 | NVDA+Shift+a | 三个手指向下滑动（文本模式） | 从查看光标所在位置开始朗读并随之移动</target>
       </segment>
@@ -11423,7 +11423,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to marked start for copy in review |NVDA+shift+f9 |NVDA+shift+f9 |none |Moves the review cursor to the position previously set start marker for copy</source>
         <target>移动到已标记的开始点 | NVDA+Shift+f9 | NVDA+Shift+f9 | 无 | 将查看光标移动到先前设置的开始复制标记的位置</target>
       </segment>
@@ -11434,7 +11434,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report text formatting |NVDA+shift+f |NVDA+shift+f |none |Reports the formatting of the text where the review cursor is currently situated. Pressing twice shows the information in browse mode</source>
         <target>读出文本格式 | NVDA+Shift+f | NVDA+Shift+f | 无 | 读出查看光标所在处文本的格式信息，连按两次可使用浏览模式显示该信息</target>
       </segment>
@@ -11851,7 +11851,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Left mouse button lock |shift+numpadDivide |NVDA+control+[ |none |Locks the left mouse button down. Press again to release it. To drag the mouse, press this key to lock the left button down and then move the mouse either physically or use one of the other mouse routing commands</source>
         <target>鼠标左键锁定 | Shift+数字键盘斜杠 | NVDA+Ctrl+[ | 点击并按住 | 按下并锁定鼠标左键，再按一次则松开。要想拖拽鼠标，按下此键并使用物理鼠标或其他鼠标导航命令进行移动</target>
       </segment>
@@ -11873,7 +11873,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Right mouse button lock |shift+numpadMultiply |NVDA+control+] |none |Locks the right mouse button down. Press again to release it. To drag the mouse, press this key to lock the right button down and then move the mouse either physically or use one of the other mouse routing commands</source>
         <target>鼠标右键锁定 | Shift+数字键盘星号 | NVDA+Ctrl+] | 无 | 按下并锁定鼠标右键，再按一次则松开。要想拖拽鼠标，按下此键并使用物理鼠标或其他鼠标导航命令进行移动</target>
       </segment>
@@ -11928,7 +11928,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move mouse to current navigator object |NVDA+numpadDivide |NVDA+shift+m |none |Moves the mouse to the location of the current navigator object and review cursor</source>
         <target>移动鼠标到当前导航对象 | NVDA+数字键盘斜杠 | NVDA+Shift+m | 无 | 移动鼠标到当前导航对象和查看光标的所在处</target>
       </segment>
@@ -11939,7 +11939,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Navigate to the object under the mouse |NVDA+numpadMultiply |NVDA+shift+n |none |Set the navigator object to the object located at the position of the mouse</source>
         <target>移动到鼠标下方的对象 | NVDA+数字键盘星号 | NVDA+Shift+n | 无 | 设置导航对象到鼠标的所在位置</target>
       </segment>
@@ -12230,7 +12230,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Find |NVDA+control+f |Pops up a dialog in which you can type some text to find in the current document. See [searching for text](#SearchingForText) for more information.</source>
         <target>查找 | NVDA+Ctrl+f | 弹出一个对话框，您可以输入一些文本在当前文档中进行查找。请查看[搜索文本](#SearchingForText)这一节了解详细情况。</target>
       </segment>
@@ -12252,7 +12252,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Find previous |NVDA+shift+f3 |Finds the previous occurrence of the text in the document you previously searched for</source>
         <target>查找上一个 | NVDA+Shift+f3 | 在当前文档查找上一个您先前键入的文本的结果</target>
       </segment>
@@ -12561,7 +12561,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to start of container |shift+comma |Moves to the start of the container (list, table, etc.) where the caret is positioned</source>
         <target>移动到容器的开始处 | Shift+逗号 | 移动到输入焦点所在容器的开头（列表、表格等）</target>
       </segment>
@@ -12599,7 +12599,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1033</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To toggle single letter navigation on and off for the current document, press NVDA+shift+space.</source>
         <target>要想在当前文档中切换单键导航功能的开关，请使用“NVDA+Shift+空格键”。</target>
       </segment>
@@ -12619,7 +12619,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1038</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can jump to the next or previous text paragraph by pressing `p` or `shift+p`.</source>
         <target>您可以按 `p` 或 `Shift+p` 跳到下一个或上一个文本段落。</target>
       </segment>
@@ -12724,7 +12724,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1053</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Additionally, this command is different from paragraph navigation commands `control+downArrow/upArrow`.</source>
         <target>此外，该命令与段落导航命令 `Ctrl+下光标/上光标`不同。</target>
       </segment>
@@ -12899,7 +12899,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1075</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For example, if you want to use the `y` / `shift+y` keys to quickly navigate through tabs, you would do the following:</source>
         <target>例如，若您想使用 `y`/`Shift+y` 键快速导航选项卡，您可以执行以下操作：</target>
       </segment>
@@ -12929,7 +12929,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1079</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Assign `y` key for found gesture.</source>
         <target>为该命令分配快捷键 `Shift+y`。</target>
       </segment>
@@ -13105,7 +13105,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Find text |NVDA+control+f |Opens the search dialog</source>
         <target>查找 | NVDA+Ctrl+f | 弹出搜索对话框</target>
       </segment>
@@ -13127,7 +13127,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Find previous |NVDA+shift+f3 |searches the previous occurrence of the current search term</source>
         <target>查找上一个 | NVDA+Shift+f3 | 在当前文档查找上一个您先前键入的文本的结果</target>
       </segment>
@@ -13214,7 +13214,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to containing browse mode document |NVDA+control+space |Moves the focus out of the current embedded object and into the document that contains it</source>
         <target>移动到浏览模式文档容器 | NVDA+Ctrl+空格 | 移动焦点到此嵌入对象之外，返回到包含此对象的文档</target>
       </segment>
@@ -13234,7 +13234,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1133</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>By default when selecting text with the `shift+arrow` keys in Browse Mode, a selection is only made within NVDA's Browse Mode representation of the document, and not within the application itself.</source>
         <target>默认情况下，在浏览模式下使用 `Shift+光标` 键选择文本时，仅在 NVDA 的浏览模式文档中进行选择，而非在应用程序本身中选择。</target>
       </segment>
@@ -13274,7 +13274,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Toggle Native Selection Mode on and off |`NVDA+shift+f10` |Toggles native selection mode on and off</source>
         <target>打开或关闭应用原生选择 | `NVDA+Shift+f10` | 打开或关闭应用原生选择</target>
       </segment>
@@ -13660,7 +13660,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Interact with math content |NVDA+alt+m |Begins interaction with math content.</source>
         <target>与数学内容交互 | NVDA+Alt+m | 开始与数学内容进行交互。</target>
       </segment>
@@ -15022,7 +15022,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1363</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To allow emulating keypresses where modifier keys are held down, NVDA provides commands to toggle the control, alt, shift, windows, and NVDA keys, along with commands for some combinations of those keys.</source>
         <target>为了可以模拟修饰键，NVDA 提供了按下或放开 Control、Alt、Shift、Windows 和 NVDA ，以及这些键的个别组合的功能。</target>
       </segment>
@@ -15049,7 +15049,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1366</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For example, to produce control+f, use the "Toggle control key" command and then type an f,</source>
         <target>例如，要按 Ctrl+f ，请使用“模拟按下货放开 Ctrl”命令，然后键入 f，</target>
       </segment>
@@ -15058,7 +15058,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1367</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>and to input control+alt+t, use either the "Toggle control key" and "Toggle alt key" commands, in either order, or the "Toggle control and alt keys" command, followed by typing a t.</source>
         <target>要按 Ctrl+Alt+t，请按任意顺序执行“模拟按下货放开 Ctrl”、“模拟按下货放开 Alt”或“模拟按下货放开 Ctrl +Alt”然后键入字母 “T”。</target>
       </segment>
@@ -15094,7 +15094,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1373</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This means that, to type alt+2 with a Braille code that uses a number sign, you must first toggle Alt and then type a number sign.</source>
         <target>这意味着，要按下带有盲文数字符号的快捷键，如 Alt+2，您必须首先模拟按下 Alt，然后键入数字符号。</target>
       </segment>
@@ -15297,7 +15297,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Toggles the state of the screen curtain |`NVDA+control+escape` |Enable to make the screen black or disable to show the contents of the screen. Pressed once, screen curtain is enabled until you restart NVDA. Pressed twice, screen curtain is enabled until you disable it.</source>
         <target>切换黑屏状态的开关 | `NVDA+Ctrl+escape` | 开启可使屏幕变黑，关闭则正常显示屏幕内容。按一次，临时开启黑屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭。</target>
       </segment>
@@ -15644,7 +15644,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Set column headers |`NVDA+shift+c` |Pressing this once tells NVDA this is the first header cell in the row that contains column headers, which should be automatically announced when moving between columns below this row. Pressing twice will clear the setting.</source>
         <target>设置列标题 | NVDA+Shift+c | 按一次，告诉 NVDA，这是包含列标题的行的第一个标题单元，当在其下方的列之间切换时，自动读出那一行的列标题，连按两次清除设置。</target>
       </segment>
@@ -15655,7 +15655,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Set row headers |`NVDA+shift+r` |Pressing this once tells NVDA this is the first header cell in the column that contains row headers, which should be automatically announced when moving between rows after this column. Pressing twice will clear the setting.</source>
         <target>设置行标题 | NVDA+Shift+r | 按一次，告诉 NVDA，这是包含行标题的列的第一个标题单元，当在其右方的行之间切换时，自动读出那一列的行标题，连按两次清除设置。</target>
       </segment>
@@ -15760,7 +15760,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1497</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To report any comments at the current caret position, press `NVDA+alt+c`.</source>
         <target>按下 `NVDA+Alt+c` 可以查看系统输入焦点所在处的任何批注。</target>
       </segment>
@@ -15858,7 +15858,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Set column headers |`NVDA+shift+c` |Pressing this once tells NVDA this is the first header cell in the row that contains column headers, which should be automatically announced when moving between columns below this row. Pressing twice will clear the setting.</source>
         <target>设置列标题 | NVDA+Shift+c | 按一次，告诉 NVDA，这是包含列标题的行的第一个标题单元，当在其下方的列之间切换时，自动读出那一行的列标题，连按两次清除设置。</target>
       </segment>
@@ -15869,7 +15869,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Set row headers |`NVDA+shift+r` |Pressing this once tells NVDA this is the first header cell in the column that contains row headers, which should be automatically announced when moving between rows after this column. Pressing twice will clear the setting.</source>
         <target>设置行标题 | NVDA+Shift+r | 按一次，告诉 NVDA，这是包含行标题的列的第一个标题单元，当在其右方的行之间切换时，自动读出那一列的行标题，连按两次清除设置。</target>
       </segment>
@@ -16076,7 +16076,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1546</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To report any notes for the currently focused cell, press `NVDA+alt+c`.</source>
         <target>要想读出当前聚焦单元的所有注释，请按 `NVDA+Alt+C`。</target>
       </segment>
@@ -16130,7 +16130,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1555</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To add or edit a certain note, in a focused cell, press shift+f2.</source>
         <target>按 Shift+f2 在焦点单元格添加或编辑注释。</target>
       </segment>
@@ -16251,7 +16251,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1578</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can access these using the Elements List or the f and shift+f form field single letter navigation keys.</source>
         <target>您可以使用“元素列表”对话框查看他们，或使用字母 F 和 Shift+F 进行跳转。</target>
       </segment>
@@ -16302,7 +16302,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Toggle speaker notes reading |control+shift+s |When in a running slide show, this command will toggle between the speaker notes for the slide and the content for the slide. This only affects what NVDA reads, not what is displayed on screen.</source>
         <target>切换大纲朗读 | Ctrl+Shift+s | 当进行幻灯片播放时，此命令将在幻灯片或者幻灯片内容的大纲之间切换。此命令仅作用于 NVDA 所朗读的内容，而不能作用于显示的内容。</target>
       </segment>
@@ -16335,7 +16335,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report remaining time |control+shift+r |Reports the remaining time of the currently playing track, if any.</source>
         <target>读出剩余时间 | Ctrl+Shift+r | 如果正在播放音乐，读出当前播放曲目的剩余时间。</target>
       </segment>
@@ -16346,7 +16346,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report elapsed time |control+shift+e |Reports the elapsed time of the currently playing track, if any.</source>
         <target>读出已播放时间 | Ctrl+Shift+e | 如果正在播放音乐，读出当前曲目的已播放时间。</target>
       </segment>
@@ -16357,7 +16357,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report track length |control+shift+t |Reports the length of the currently playing track, if any.</source>
         <target>读出总时长 | Ctrl+Shift+t | 如果正在播放音乐，读出当前曲目的总时长。</target>
       </segment>
@@ -16399,7 +16399,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report recent message |NVDA+control+1-4 |Reports one of the recent messages, depending on the number pressed; e.g. NVDA+control+2 reads the second most recent message.</source>
         <target>读出最近的消息 | NVDA+Ctrl+1-4 | 根据按下数字的不同读出最近的消息中的一条，例如 NVDA+Ctrl+2 读出第二条最近的消息。</target>
       </segment>
@@ -16441,7 +16441,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report notes for translators |`control+shift+a` |Reports any notes for translators. If pressed twice, presents the notes in browse mode</source>
         <target>读出翻译者注释 | `Ctrl+Shift+a` | 读出翻译者注释。连按两次，在浏览模式下显示该信息</target>
       </segment>
@@ -16452,7 +16452,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report Comment |`control+shift+c` |Reports any comment in the comments window. If pressed twice, presents the comment in browse mode</source>
         <target>读出注释 | `Ctrl+Shift+c` | 读出窗口内的注释。连按两次，在浏览模式下显示该信息</target>
       </segment>
@@ -16463,7 +16463,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report Old Source Text |`control+shift+o` |Reports the old source text, if any. If pressed twice, presents the text in browse mode</source>
         <target>读出先前的源文本 | `Ctrl+Shift+o` | 读出先前的源文本（如果有）。连按两次，在浏览模式下显示该信息</target>
       </segment>
@@ -16474,7 +16474,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report Translation Warning |`control+shift+w` |Reports a translation warning, if any. If pressed twice, presents the warning in browse mode</source>
         <target>读出翻译警告 | `Ctrl+Shift+w` | 读出翻译警告（如果有）。连按两次，在浏览模式下显示该信息</target>
       </segment>
@@ -16604,7 +16604,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1652</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To do this, first select text as you normally would in browse mode; e.g. by using shift and the cursor keys.</source>
         <target>为此，首先像在浏览模式下一样选择文本；例如通过使用 Shift 和光标键。</target>
       </segment>
@@ -16857,7 +16857,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Scroll up |control+upArrow |Scrolls the console window up, so earlier text can be read.</source>
         <target>向上滚动 | Ctrl+上光标 | 向上滚动控制台窗口以便查看前面的文本。</target>
       </segment>
@@ -16868,7 +16868,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Scroll down |control+downArrow |Scrolls the console window down, so later text can be read.</source>
         <target>向下滚动 | Ctrl+下光标 | 向下滚动控制台窗口以便查看后面的文本。</target>
       </segment>
@@ -17031,7 +17031,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1723</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To move between categories, use `tab` or `shift+tab` to reach the list of categories, and then use the up and down arrow keys to navigate the list.</source>
         <target>若要在类别之间切换，请按 `tab` 或者 `Shift+tab` 切换到类别列表，然后使用上下光标键浏览。</target>
       </segment>
@@ -17040,7 +17040,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1724</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>From anywhere in the dialog, you may also move forward one category by pressing `ctrl+tab`, or back one category by pressing `shift+ctrl+tab`.</source>
         <target>在对话框中的任意位置，还可使用 `ctrl+tab` 切换到下一个类别，或使用 `ctrl+Shift+tab` 切换到上一个类别。</target>
       </segment>
@@ -17134,7 +17134,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1742</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+g`</source>
         <target>按键：`NVDA+Ctrl+g`</target>
       </segment>
@@ -17538,7 +17538,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1806</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To make sure that all your settings are transferred, make sure to save your configuration first with control+NVDA+c or Save configuration in the NVDA menu.</source>
         <target>要确保您所有的配置都会被传送，请先使用“NVDA+Ctrl+c”或者 NVDA 菜单下的“保存设置”事先保存您的当前配置。</target>
       </segment>
@@ -17912,7 +17912,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1866</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+v`</source>
         <target>按键：`NVDA+Ctrl+v`</target>
       </segment>
@@ -18953,7 +18953,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2045</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+s`</source>
         <target>按键：`NVDA+Ctrl+s`</target>
       </segment>
@@ -19069,7 +19069,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to next synth setting |NVDA+control+rightArrow |NVDA+shift+control+rightArrow |Moves to the next available speech setting after the current, wrapping around to the first setting again after the last</source>
         <target>移动到下一个合成器设置 | `NVDA+Ctrl+右光标` | `NVDA+Shift+Ctrl+右光标` | 移动到当前设置的下一个可用的语音设置，移动到最后一个设置后会再次循环至第一个</target>
       </segment>
@@ -19080,7 +19080,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move to previous synth setting |NVDA+control+leftArrow |NVDA+shift+control+leftArrow |Moves to the next available speech setting before the current, wrapping around to the last setting after the first</source>
         <target>移动到上一个合成器设置 | `NVDA+Ctrl+左光标` |`NVDA+Shift+Ctrl+左光标` | 移动到当前设置的上一个可用的语音设置，移动到第一个设置后会再次循环至最后一个</target>
       </segment>
@@ -19091,7 +19091,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Increment current synth setting |NVDA+control+upArrow |NVDA+shift+control+upArrow |increases the current speech setting you are on. E.g. increases the rate, chooses the next voice, increases the volume</source>
         <target>增加当前合成器设置的值 | `NVDA+Ctrl+上光标` |`NVDA+Shift+Ctrl+上光标` | 增加当前所在语音设置的值，例如加快速度，选择下一个语音，增大音量</target>
       </segment>
@@ -19102,7 +19102,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Increment the current synth setting in a larger step |`NVDA+control+pageUp` |`NVDA+shift+control+pageUp` |Increases the value of the current speech setting you're on in larger steps. e.g. when you're on a voice setting, it will jump forward every 20 voices; when you're on slider settings (rate, pitch, etc) it will jump forward the value up to 20%</source>
         <target>以更大的步长增加当前语音选项的设置值 | `NVDA+Ctrl+上翻页` | `NVDA+Shift+Ctrl+上翻页` | 以更大的步长增加当前语音设置的值。例如当你处于语音设置时，每一次会跳过 20 个语音角色；当您处于滑块设置（速度、音调等）时，每次会增加 20%</target>
       </segment>
@@ -19113,7 +19113,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Decrement current synth setting |NVDA+control+downArrow |NVDA+shift+control+downArrow |decreases the current speech setting you are on. E.g. decreases the rate, chooses the previous voice, decreases the volume</source>
         <target>减小当前合成器设置的值 | `NVDA+Ctrl+下光标` |`NVDA+Shift+Ctrl+下光标` | 减小当前所在语音设置的值，例如减慢速度，选择上一个语音，减小音量</target>
       </segment>
@@ -19124,7 +19124,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Decrement the current synth setting in a larger step |`NVDA+control+pageDown` |`NVDA+shift+control+pageDown` |Decreases the value of the current speech setting you're on in larger steps. e.g. when you're on a voice setting, it will jump backward every 20 voices; when you're on a slider setting, it will jump backward the value up to 20%</source>
         <target>以更大的步长减小当前语音选项的设置值 | `NVDA+Ctrl+下翻页` | `NVDA+Shift+Ctrl+下翻页` | 以更大的步长减小当前语音设置的值。例如当你处于语音设置时，每一次会跳过 20 个语音角色；当您处于滑块设置时，每次会减小 20%</target>
       </segment>
@@ -19323,7 +19323,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2108</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+alt+t`</source>
         <target>按键：`NVDA+Alt+t`</target>
       </segment>
@@ -19611,7 +19611,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2163</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: NVDA+control+t</source>
         <target>按键: NVDA+Ctrl+t</target>
       </segment>
@@ -20740,7 +20740,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2349</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+a`</source>
         <target>按键：`NVDA+Ctrl+a`</target>
       </segment>
@@ -21029,7 +21029,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2401</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+u`</source>
         <target>按键：`NVDA+Ctrl+u`</target>
       </segment>
@@ -21078,7 +21078,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2413</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+shift+d`</source>
         <target>按键：`NVDA+Shift+d`</target>
       </segment>
@@ -21293,7 +21293,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Cycle Sound Split Mode |`NVDA+alt+s` |Cycles between sound split modes.</source>
         <target>切换声音拆分模式 | `NVDA+Alt+s` | 在声音拆分模式之间循环切换。</target>
       </segment>
@@ -21415,7 +21415,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2472</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This checkable list allows selecting which sound split modes are included when cycling between them using `NVDA+alt+s`.</source>
         <target>该可选择列表可以让您选择在按 `NVDA+Alt+s` 循环切换声音拆分模式时应该包含哪些拆分模式。</target>
       </segment>
@@ -21832,7 +21832,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2539</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+k`</source>
         <target>按键：`NVDA+Ctrl+k`</target>
       </segment>
@@ -22192,7 +22192,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2608</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When enabled, NVDA will announce all non-character keys you type on the keyboard. This includes key combinations such as control plus another letter.</source>
         <target>如果启用，NVDA 将读出您在键盘上键入的所有飞字符按键，这也包括组合键，例如 Ctrl 加其他字母。</target>
       </segment>
@@ -22355,7 +22355,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2636</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+m`</source>
         <target>按键：`NVDA+Ctrl+m`</target>
       </segment>
@@ -22688,7 +22688,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2694</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This setting can also be toggled using NVDA+control+alt+t.</source>
         <target>可以使用 NVDA+Ctrl+Alt+t 切换此设置。</target>
       </segment>
@@ -22893,7 +22893,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2739</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+o`</source>
         <target>按键：`NVDA+Ctrl+o`</target>
       </segment>
@@ -23018,7 +23018,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2760</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For example the File menu on a menu bar may have a shortcut key of alt+f.</source>
         <target>例如，菜单栏的“文件”菜单就可能包含快捷键 Alt+f。</target>
       </segment>
@@ -23538,7 +23538,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2854</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+b`</source>
         <target>按键：`NVDA+Ctrl+b`</target>
       </segment>
@@ -23996,7 +23996,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2934</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Key: `NVDA+control+d`</source>
         <target>按键：`NVDA+Ctrl+d`</target>
       </segment>
@@ -24715,7 +24715,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3029</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This combo box allows you to select the paragraph style to be used when navigating by paragraphs with `control+upArrow` and `control+downArrow`.</source>
         <target>此组合框用于选择当您使用`Ctrl+上光标`和`Ctrl+下光标`进行段落导航时要使用的段落导航模式。</target>
       </segment>
@@ -26429,7 +26429,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3311</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Windows 10 version 1709, Microsoft [added support for its UI Automation API to the console](https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-update/), bringing vastly improved performance and stability for screen readers that support it.</source>
         <target>在 Windows 10 版本 1709 中，Microsoft[向控制台添加了 UIA 接口的支持](https://devblogs.microsoft.com/commandline/whats-new-in-Windows-console-in-Windows-10-fall-creators-update/)，这一举措显著的改善了屏幕阅读器的性能和稳定性。</target>
       </segment>
@@ -27072,7 +27072,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3407</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>UIA notifications: This option defers the responsibility of determining what text to speak to Windows Terminal itself, meanning that NVDA no longer has to determine what text currently on-screen is "new".</source>
         <target>UIA 通知：此选项决定把如何用语音输出文本的职责转让给 Windows 终端自身，这意味着，NVDA 不必判断屏幕上的文本是不是新文本。</target>
       </segment>
@@ -28235,7 +28235,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Save configuration |`NVDA+control+c` |`NVDA+control+c` |Saves your current configuration so that it is not lost when you exit NVDA</source>
         <target>保存设置 | NVDA+Ctrl+c | NVDA+Ctrl+c | 保存您的当前配置，当您退出 NVDA 时也不会丢失</target>
       </segment>
@@ -28246,7 +28246,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Revert configuration |`NVDA+control+r` |`NVDA+control+r` |Pressing once resets your configuration to when you last saved it. Pressing three times will reset it back to factory defaults.</source>
         <target>恢复配置 | NVDA+Ctrl+r | NVDA+Ctrl+r | 按一次重置您的设置到上一次保存的状态，连按三次恢复到默认的出厂设置。</target>
       </segment>
@@ -28359,7 +28359,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3611</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA+control+p: Show the Configuration Profiles dialog.</source>
         <target>NVDA+Ctrl+p：显示“配置管理”对话框。</target>
       </segment>
@@ -29029,7 +29029,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3720</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Or from anywhere press `NVDA+alt+r`.</source>
         <target>或直接按 `NVDA+Alt+r` 快捷键。</target>
       </segment>
@@ -29497,7 +29497,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3784</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Press `NVDA+alt+tab` to toggle between controlling and returning to your own computer.</source>
         <target>按 `NVDA+Alt+tab` 在控制远程计算机与控制本地计算机之间切换。</target>
       </segment>
@@ -29578,7 +29578,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source> Toggle Remote connection | `NVDA+alt+r` | Starts a new Remote Access session or, if a session is already in progress, disconnects from it. </source>
         <target> 切换远程连接 | `NVDA+Alt+r` | 建立新远程访问会话，若已有会话则断开连接。 </target>
       </segment>
@@ -29589,7 +29589,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source> Toggle Control | `NVDA+alt+tab` | Switches between controlling the remote and local computer. </source>
         <target> 切换控制权 | `NVDA+Alt+tab` | 在控制远程计算机与控制本地计算机之间切换。 </target>
       </segment>
@@ -30097,7 +30097,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3872</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can reach it by pressing `shift+tab` from the list of add-ons.</source>
         <target>您可以从插件列表按 `Shift+tab` 找到该编辑框。</target>
       </segment>
@@ -30960,7 +30960,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Copy a fragment of the log to the clipboard |`NVDA+control+shift+f1` |When this command is pressed once, it sets a starting point for the log content that should be captured. When pressed a second time, it copies the log content since the start point to your clipboard.</source>
         <target>将日志片段复制到剪贴板 | `NVDA+Ctrl+Shift+f1` | 按一次，设置要捕获日志内容的起点。按第二次时，会将从起点开始的日志内容复制到剪贴板。</target>
       </segment>
@@ -31477,7 +31477,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Reload plugins |`NVDA+control+f3` |Reloads NVDA's global plugins and app modules.</source>
         <target>重新加载插件 | `NVDA+Ctrl+f3` | 重新加载 NVDA 的全局插件和应用程序模块。</target>
       </segment>
@@ -31488,7 +31488,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report loaded app module and executable |`NVDA+control+f1` |Report the name of the app module, if any, and the name of the executable associated with the application which has the keyboard focus.</source>
         <target>读出当前加载的应用程序模块和可执行文件名称 | `NVDA+Ctrl+f1` | 读出应用程序模块的名称（如果有）以及具有键盘焦点的应用程序所关联的可执行文件名。</target>
       </segment>
@@ -31872,7 +31872,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4149</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see [Supported languages and voices](https://support.microsoft.com/en-us/windows/appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01) for a list of available voices.</source>
         <target>可参考微软发布的[支持的语言和语音](https://support.microsoft.com/zh-cn/Windows/appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01)，获取可用语音列表和安装说明。</target>
       </segment>
@@ -33036,7 +33036,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>alt key |sp2, alt</source>
         <target>Alt 键 | sp2, Alt</target>
       </segment>
@@ -33168,7 +33168,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>windows key |sp1+sp2, windows</source>
         <target>Windows 键 | sp1+sp2, Windows</target>
       </segment>
@@ -33234,7 +33234,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>control key |control</source>
         <target>Ctrl 键 | Ctrl</target>
       </segment>
@@ -38457,7 +38457,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Shift+tab keys |shift+tab</source>
         <target>Shift+Tab 键 |Shift+tab</target>
       </segment>
