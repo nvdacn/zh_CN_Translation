@@ -69,6 +69,7 @@ echo D：生成所有文档的 html 文件；
 echo L：生成界面翻译的 mo 文件；  
 echo T：生成翻译测试文件（不压缩）；  
 echo Z：生成翻译测试文件的压缩包；  
+echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
 echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；  
 echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
 echo UPL：上传已翻译的 nvda.po 文件到 Crowdin；  
