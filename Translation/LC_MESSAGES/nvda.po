@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 01:06+0000\n"
-"PO-Revision-Date: 2025-05-16 10:54+0800\n"
-"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"PO-Revision-Date: 2025-05-16 03:40\n"
+"Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
-"X-Generator: Poedit 3.5\n"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
 #: NVDAHelper.py:486
@@ -3375,11 +3374,9 @@ msgstr[0] "以下插件安装失败：{}。"
 
 #. Translators: Shown when one or more actions on add-ons failed.
 #: core.py:116
-msgid ""
-"Some operations on add-ons failed. See the log file for more details.\n"
+msgid "Some operations on add-ons failed. See the log file for more details.\n"
 "{}"
-msgstr ""
-"对插件的某些操作失败。有关更多详细信息，请参阅日志文件。\n"
+msgstr "对插件的某些操作失败。有关更多详细信息，请参阅日志文件。\n"
 "{}"
 
 #. Translators: Title of message shown when requested action on add-ons failed.
@@ -3440,11 +3437,9 @@ msgstr "未知的命令行参数"
 
 #. Translators: A message informing the user that there are errors in the configuration file.
 #: core.py:161
-msgid ""
-"Your configuration file contains errors. Your configuration has been reset to factory defaults.\n"
+msgid "Your configuration file contains errors. Your configuration has been reset to factory defaults.\n"
 "More details about the errors can be found in the log file."
-msgstr ""
-"您的配置文件包含错误。您的配置已经被重置为默认设置。\n"
+msgstr "您的配置文件包含错误。您的配置已经被重置为默认设置。\n"
 "如需了解错误详细信息，请查看日志文件。"
 
 #. Translators: The title of the dialog to tell users that there are errors in the configuration file.
@@ -3453,11 +3448,9 @@ msgid "Configuration File Error"
 msgstr "配置文件错误"
 
 #: core.py:184
-msgid ""
-"Your gesture map file contains errors.\n"
+msgid "Your gesture map file contains errors.\n"
 "More details about the errors can be found in the log file."
-msgstr ""
-"您的手势映射文件包含错误。\n"
+msgstr "您的手势映射文件包含错误。\n"
 "如果需要了解此错误的详细信息，请查看日志文件。"
 
 #: core.py:187
@@ -4825,11 +4818,9 @@ msgstr "无替换文本"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 #: globalCommands.py:2358
-msgid ""
-"Character: {}\n"
+msgid "Character: {}\n"
 "Replacement: {}"
-msgstr ""
-"符号：{}\n"
+msgstr "符号：{}\n"
 "替换文本：{}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
@@ -8188,8 +8179,7 @@ msgstr "正在检查更新"
 #: updateCheck.py:409
 #, python-brace-format
 msgctxt "updateCheck"
-msgid ""
-"Make sure you are connected to the internet, and the NVDA update mirror URL is valid.\n"
+msgid "Make sure you are connected to the internet, and the NVDA update mirror URL is valid.\n"
 "Mirror URL: {url}"
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
@@ -8204,11 +8194,9 @@ msgstr "请检查网络连接后重试。"
 #: updateCheck.py:422
 #, python-brace-format
 msgctxt "updateCheck"
-msgid ""
-"Error checking for update.\n"
+msgid "Error checking for update.\n"
 "{tip}"
-msgstr ""
-"检查更新时出错。\n"
+msgstr "检查更新时出错。\n"
 "{tip}"
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
@@ -8313,14 +8301,12 @@ msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
 #: updateCheck.py:935
-msgid ""
-"We need your help in order to continue to improve NVDA.\n"
+msgid "We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are helping to fund full time development.\n"
 "If even $10 is donated for every download, we will be able to cover all of the ongoing costs of the project.\n"
 "All donations are received by NV Access, the non-profit organisation which develops NVDA.\n"
 "Thank you for your support."
-msgstr ""
-"我们需要您的帮助，以便持续改进 NVDA。\n"
+msgstr "我们需要您的帮助，以便持续改进 NVDA。\n"
 "此项目主要依靠捐赠和资助，您的捐赠将帮助用于全职开发。\n"
 "即使每次下载只有 10 美元的捐赠，我们也能够支付项目的所有持续费用。\n"
 "所有的捐款都由开发 NVDA 的非营利组织 NV Access 接收。\n"
@@ -8366,28 +8352,22 @@ msgstr "NVDA 贡献者版权所有 {years}"
 #. Translators: "About NVDA" dialog box message
 #: versionInfo.py:23
 #, python-brace-format
-msgid ""
-"{longName} ({name})\n"
+msgid "{longName} ({name})\n"
 "Version: {version} ({version_detailed})\n"
 "URL: {url}\n"
-"{copyright}\n"
-"\n"
+"{copyright}\n\n"
 "{name} is covered by the GNU General Public License (Version 2). You are free to share or change this software in any way you like as long as it is accompanied by the license and you make all source code available to anyone who wants it. This applies to both original and modified copies of this software, plus any derivative works.\n"
 "For further details, you can view the license from the Help menu.\n"
-"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
-"\n"
+"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n\n"
 "{name} is developed by NV Access, a non-profit organisation committed to helping and promoting free and open source solutions for blind and vision impaired people.\n"
 "If you find NVDA useful and want it to continue to improve, please consider donating to NV Access. You can do this by selecting Donate from the NVDA menu."
-msgstr ""
-"{longName}（{name}）\n"
+msgstr "{longName}（{name}）\n"
 "版本：{version} ({version_detailed})\n"
 "网址：{url}\n"
-"{copyright}\n"
-"\n"
+"{copyright}\n\n"
 "{name} 遵循 GNU 通用公共授权协议第二版， 您可以自由分享或者以任何方式修改本软件，但在重新发布时必须包含本协议，同时必须公开原版和修改版的源代码，并附上任何用本软件的源代码所产生的软件。\n"
 "关于本授权协议的详情,您可以通过“帮助”菜单的“版权信息”访问。\n"
-"您也可参看以下网页：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
-"\n"
+"您也可参看以下网页：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n\n"
 "{name} 是由非赢利组织“NV Access”开发的一个用于协助视障用户的免费且开放源代码的解决方案。\n"
 "若您觉的 NVDA 很实用，并希望他可以继续发展，请赞助“NV Access”。您可以通过“NVDA 菜单”下的“捐赠”菜单打开捐赠页面进行捐赠。"
 
@@ -8395,11 +8375,9 @@ msgstr ""
 #. from windows explorer and NVDA is not running.
 #: nvda_slave.pyw:115
 #, python-brace-format
-msgid ""
-"Cannot install NVDA add-on from {path}.\n"
+msgid "Cannot install NVDA add-on from {path}.\n"
 "You must be running NVDA to be able to install add-ons."
-msgstr ""
-"无法从 {path} 安装插件。\n"
+msgstr "无法从 {path} 安装插件。\n"
 "您必须先运行 NVDA 以使插件可以顺利的安装。"
 
 #. Translators: A title of the dialog shown when fetching add-on data from the store fails
@@ -8413,8 +8391,7 @@ msgstr "插件数据更新失败"
 #: addonStore\dataManager.py:219
 #, python-brace-format
 msgctxt "addonStore"
-msgid ""
-"Make sure you are connected to the internet, and the Add-on Store mirror URL is valid.\n"
+msgid "Make sure you are connected to the internet, and the Add-on Store mirror URL is valid.\n"
 "Mirror URL: {url}"
 msgstr "请检查网络连接，并确保插件商店镜像网址 {url} 有效。"
 
@@ -8759,8 +8736,7 @@ msgstr "已安装的不兼容插件(&A)"
 #, python-brace-format
 msgctxt "addonStore"
 msgid "An updated version of NVDA is required. NVDA version {nvdaVersion} or later."
-msgstr ""
-"需要更高版本的 NVDA。\n"
+msgstr "需要更高版本的 NVDA。\n"
 "NVDA {nvdaVersion} 或更高。"
 
 #. Translators: The reason an add-on is not compatible.
@@ -8770,8 +8746,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "addonStore"
 msgid "An updated version of this add-on is required. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. You can enable this add-on at your own risk. "
-msgstr ""
-"您安装的插件版本太旧，需要更新。\n"
+msgstr "您安装的插件版本太旧，需要更新。\n"
 "该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 {nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
 "您需要字形承担启用该插件的风险。"
 
@@ -8780,8 +8755,7 @@ msgstr ""
 #: addonStore\models\version.py:145
 msgctxt "addonStore"
 msgid "Your NVDA configuration contains add-ons that are incompatible with this version of NVDA. These add-ons will be disabled after installation. After installation, you will be able to manually re-enable these add-ons at your own risk. If you rely on these add-ons, please review the list to decide whether to continue with the installation. "
-msgstr ""
-"您的配置中含有与该版本 NVDA 不兼容的插件。\n"
+msgstr "您的配置中含有与该版本 NVDA 不兼容的插件。\n"
 "NVDA 安装后这些插件会被禁用。安装完成后您可以手动启用这些插件，但需自行承担风险。\n"
 "如果您依赖这些插件，请查看“不兼容的插件”列表以决定是否继续安装。"
 
@@ -11583,8 +11557,7 @@ msgstr "确保您已连接到互联网且网址正确。"
 #: gui\_SetURLDialog.py:209
 #, python-brace-format
 msgid "The URL you have entered failed the connection test. {tip}"
-msgstr ""
-"您输入的网址连接测试失败。\n"
+msgstr "您输入的网址连接测试失败。\n"
 "{tip}"
 
 #. Translators: Reported when last saved configuration has been applied by using revert to saved configuration option in NVDA menu.
@@ -11627,21 +11600,13 @@ msgstr "关于 NVDA"
 
 #. Translators: Explain the COM Registration Fixing tool to users before running
 #: gui\__init__.py:502
-msgid ""
-"Welcome to the COM Registration Fixing tool.\n"
-"\n"
-"Installing and uninstalling programs, as well as other events, can damage accessibility entries in the Windows registry. This can cause previously accessible elements to be presented incorrectly, or can cause \"unknown\" or \"pane\" to be spoken or brailled in some applications or Windows components, instead of the content you were expecting.\n"
-"\n"
-"This tool attempts to fix such common problems. Note that the tool must access the system registry, which requires administrative privileges.\n"
-"\n"
+msgid "Welcome to the COM Registration Fixing tool.\n\n"
+"Installing and uninstalling programs, as well as other events, can damage accessibility entries in the Windows registry. This can cause previously accessible elements to be presented incorrectly, or can cause \"unknown\" or \"pane\" to be spoken or brailled in some applications or Windows components, instead of the content you were expecting.\n\n"
+"This tool attempts to fix such common problems. Note that the tool must access the system registry, which requires administrative privileges.\n\n"
 "Press Continue to run the tool now."
-msgstr ""
-"欢迎使用 COM 注册修复工具。\n"
-"\n"
-"安装或卸载程序及其他事件可能会损坏 Windows 注册表中的辅助功能条目。这可能导致以前可访问的元素显示不正确，或在某些应用程序及 Windows 组件中输出“未知”或“窗格”，而不是您期望的内容。\n"
-"\n"
-"该工具将尝试修复此类常见问题。请注意，该工具必须访问系统注册表，这需要管理员权限。\n"
-"\n"
+msgstr "欢迎使用 COM 注册修复工具。\n\n"
+"安装或卸载程序及其他事件可能会损坏 Windows 注册表中的辅助功能条目。这可能导致以前可访问的元素显示不正确，或在某些应用程序及 Windows 组件中输出“未知”或“窗格”，而不是您期望的内容。\n\n"
+"该工具将尝试修复此类常见问题。请注意，该工具必须访问系统注册表，这需要管理员权限。\n\n"
 "按“继续”立即运行该工具。"
 
 #. Translators: The title of various dialogs displayed when using the COM Registration Fixing tool
@@ -11657,11 +11622,9 @@ msgstr "请稍候，NVDA 正在尝试修复系统中的 COM 注册……"
 #. Translators: message shown to the user on COM Registration Fix fail
 #: gui\__init__.py:569
 #, python-brace-format
-msgid ""
-"The COM Registration Fixing Tool was unsuccessful. This Windows error may provide more information.\n"
+msgid "The COM Registration Fixing Tool was unsuccessful. This Windows error may provide more information.\n"
 "{error}"
-msgstr ""
-"COM 注册修复工具未能成功运行。此 Windows 错误可能提供更多信息。\n"
+msgstr "COM 注册修复工具未能成功运行。此 Windows 错误可能提供更多信息。\n"
 "{error}"
 
 #. Translators: The title of a COM Registration Fixing Tool dialog, when the tool has failed
@@ -11671,8 +11634,7 @@ msgstr "COM 注册修复失败"
 
 #. Translators: Message shown when the COM Registration Fixing tool completes.
 #: gui\__init__.py:580
-msgid ""
-"The COM Registration Fixing Tool has completed successfully.\n"
+msgid "The COM Registration Fixing Tool has completed successfully.\n"
 "It is highly recommended that you restart your computer now, to make sure the changes take full effect."
 msgstr "COM 注册修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生效。"
 
@@ -12246,11 +12208,9 @@ msgstr "此配置的使用条件为："
 #. Translators: The confirmation prompt presented when creating a new configuration profile
 #. and the selected trigger is already associated.
 #: gui\configProfiles.py:494
-msgid ""
-"This trigger is already associated with another profile. If you continue, it will be removed from that profile and associated with this one.\n"
+msgid "This trigger is already associated with another profile. If you continue, it will be removed from that profile and associated with this one.\n"
 "Are you sure you want to continue?"
-msgstr ""
-"此关联已经与其他配置连接。如果您继续，旧的配置连接将被此连接替换。\n"
+msgstr "此关联已经与其他配置连接。如果您继续，旧的配置连接将被此连接替换。\n"
 "您希望继续吗？"
 
 #. Translators: An error displayed when the user attempts to create a configuration profile
@@ -12267,11 +12227,9 @@ msgstr "保存配置时发生错误，文件系统可能处于只读状态。"
 #. Translators: The prompt asking the user whether they wish to
 #. manually activate a configuration profile that has just been created.
 #: gui\configProfiles.py:556
-msgid ""
-"To edit this profile, you will need to manually activate it. Once you have finished editing, you will need to manually deactivate it to resume normal usage.\n"
+msgid "To edit this profile, you will need to manually activate it. Once you have finished editing, you will need to manually deactivate it to resume normal usage.\n"
 "Do you wish to manually activate it now?"
-msgstr ""
-"要想编辑此配置，您必须先将其激活。一旦您完成编辑，您必须手动禁用它已使配置恢复到原来的状态。\n"
+msgstr "要想编辑此配置，您必须先将其激活。一旦您完成编辑，您必须手动禁用它已使配置恢复到原来的状态。\n"
 "您希望现在就手动激活它吗？"
 
 #. Translators: The title of the confirmation dialog for manual activation of a created profile.
@@ -12394,13 +12352,10 @@ msgstr "重置(&D)"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
 #: gui\inputGestures.py:789
-msgid ""
-"Are you sure you want to reset all gestures to their factory defaults?\n"
-"\n"
+msgid "Are you sure you want to reset all gestures to their factory defaults?\n\n"
 "\t\t\tAll of your user defined gestures, whether previously set or defined during this session, will be lost.\n"
 "\t\t\tThis cannot be undone."
-msgstr ""
-"您是否要将所有按键与手势重置为默认值？\n"
+msgstr "您是否要将所有按键与手势重置为默认值？\n"
 "\t\t\t\n"
 "重置后，您先前保存和设置的所有按键与手势都将丢失且无法撤销。"
 
@@ -12720,14 +12675,10 @@ msgstr "默认（{}）"
 #. Translators: Content of the message displayed when a validation error occurs in the settings dialog
 #: gui\settingsDialogs.py:442
 #, python-brace-format
-msgid ""
-"{message}\n"
-"\n"
+msgid "{message}\n\n"
 "Category: \"{category}\"\n"
 "Option: \"{option}\""
-msgstr ""
-"“{option}”提示“{message}”\n"
-"\n"
+msgstr "“{option}”提示“{message}”\n\n"
 "该选项位于“{category}”类别下。"
 
 #. Translators: The title of the message box when a setting's configuration is not valid.
@@ -13049,8 +13000,7 @@ msgstr "光标移动时延迟字符描述(&D)"
 #. Translators: Warning shown when 'talk' speech mode is disabled in settings.
 #: gui\settingsDialogs.py:1923
 msgid "You did not choose Talk as one of your speech mode options. Please note that this may result in no speech output at all. Are you sure you want to continue?"
-msgstr ""
-"您将取消“正常朗读”作为可切换的语音模式之一。\n"
+msgstr "您将取消“正常朗读”作为可切换的语音模式之一。\n"
 "请注意，这可能导致没有语音输出。\n"
 "您确定要继续吗？"
 
@@ -13845,14 +13795,10 @@ msgstr "当 NVDA 在安全模式运行时，远程访问设置为只读状态。
 #. Translators: This message is presented when the user tries to delete all stored trusted fingerprints.
 #: gui\settingsDialogs.py:3513
 msgctxt "remote"
-msgid ""
-"This will cause NVDA to forget all previously trusted Remote Access servers. When connecting to a previously trusted unrecognised server, you will again be asked whether to trust its certificate.\n"
-"\n"
+msgid "This will cause NVDA to forget all previously trusted Remote Access servers. When connecting to a previously trusted unrecognised server, you will again be asked whether to trust its certificate.\n\n"
 "Are you sure you want to continue?"
-msgstr ""
-"这将导致 NVDA 忘记所有之前受信任的远程访问服务器。\n"
-"当连接到之前受信任但未经验证的服务器时，系统将再次询问是否信任其证书。\n"
-"\n"
+msgstr "这将导致 NVDA 忘记所有之前受信任的远程访问服务器。\n"
+"当连接到之前受信任但未经验证的服务器时，系统将再次询问是否信任其证书。\n\n"
 "您确定要继续吗？"
 
 #. Translators: This is the title of the dialog presented when the user tries to delete all stored trusted fingerprints.
@@ -14030,11 +13976,9 @@ msgstr "旧版"
 #. Note the '\n' is used to split this long label approximately in half.
 #: gui\settingsDialogs.py:3812
 msgctxt "advanced.uiaWithChromium"
-msgid ""
-"Use UIA with Microsoft Edge and other \n"
+msgid "Use UIA with Microsoft Edge and other \n"
 "&Chromium based browsers when available:"
-msgstr ""
-"在 Microsoft Edge 及其他基于 Chromium 内核的浏览器中\n"
+msgstr "在 Microsoft Edge 及其他基于 Chromium 内核的浏览器中\n"
 "启用 UIA 接口（如果可用）(&C)："
 
 #. Translators: Label for the default value of the Use UIA with Chromium combobox,
@@ -14261,8 +14205,7 @@ msgstr "警告！"
 #. Translators: This is a label appearing on the Advanced settings panel.
 #: gui\settingsDialogs.py:4300
 msgid "The following settings are for advanced users. Changing them may cause NVDA to function incorrectly. Please only change these if you know what you are doing or have been specifically instructed by NVDA developers."
-msgstr ""
-"以下设置适用于高级用户,修改这些设置可能会导致 NVDA 无法正常运行。\n"
+msgstr "以下设置适用于高级用户,修改这些设置可能会导致 NVDA 无法正常运行。\n"
 "只有在清楚要更改选项的含义、或在 NVDA 开发者的指导下，才可进行修改。"
 
 #. Translators: This is the label for a checkbox in the Advanced settings panel.
@@ -14437,11 +14380,9 @@ msgstr "无法加载 {providerName} 视觉增强提供程序"
 #. load multiple vision enhancement providers.
 #: gui\settingsDialogs.py:5061
 #, python-brace-format
-msgid ""
-"Could not load the following vision enhancement providers:\n"
+msgid "Could not load the following vision enhancement providers:\n"
 "{providerNames}"
-msgstr ""
-"无法加载以下视觉增强提供程序：\n"
+msgstr "无法加载以下视觉增强提供程序：\n"
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
@@ -14460,11 +14401,9 @@ msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 #. NVDA is unable to terminate multiple vision enhancement providers.
 #: gui\settingsDialogs.py:5092
 #, python-brace-format
-msgid ""
-"Could not gracefully terminate the following vision enhancement providers:\n"
+msgid "Could not gracefully terminate the following vision enhancement providers:\n"
 "{providerNames}"
-msgstr ""
-"无法正常终止以下视觉增强提供程序：\n"
+msgstr "无法正常终止以下视觉增强提供程序：\n"
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
@@ -14713,14 +14652,12 @@ msgstr "临时字典"
 
 #. Translators: The main message for the Welcome dialog when the user starts NVDA for the first time.
 #: gui\startupDialogs.py:38
-msgid ""
-"Most commands for controlling NVDA require you to hold down the NVDA key while pressing other keys.\n"
+msgid "Most commands for controlling NVDA require you to hold down the NVDA key while pressing other keys.\n"
 "By default, the Insert and numpad Insert keys may both be used as the NVDA key.\n"
 "You can also configure NVDA to use the CapsLock as the NVDA key.\n"
 "Press NVDA+n at any time to activate the NVDA menu.\n"
 "From this menu, you can configure NVDA, get help, and access other NVDA functions."
-msgstr ""
-"大多数控制 NVDA 的命令要求您在按住 NVDA 键的同时按其他键。\n"
+msgstr "大多数控制 NVDA 的命令要求您在按住 NVDA 键的同时按其他键。\n"
 "默认情况下，主键盘和数字键盘的插入键都可以用作 NVDA 键。\n"
 "您还可以将 NVDA 配置为使用大写锁定键作为 NVDA 键。\n"
 "随时可按 NVDA+n 激活 NVDA 菜单。\n"
@@ -14790,14 +14727,10 @@ msgstr "NVDA 使用数据收集"
 
 #. Translators: A message asking the user if they want to allow usage stats gathering
 #: gui\startupDialogs.py:282
-msgid ""
-"In order to improve NVDA in the future, NV Access wishes to collect usage data from running copies of NVDA.\n"
-"\n"
-"Data includes Operating System version, NVDA version, language, country of origin, plus certain NVDA configuration such as current synthesizer, braille display and braille table. No spoken or braille content will be ever sent to NV Access. Please refer to the User Guide for a current list of all data collected.\n"
-"\n"
+msgid "In order to improve NVDA in the future, NV Access wishes to collect usage data from running copies of NVDA.\n\n"
+"Data includes Operating System version, NVDA version, language, country of origin, plus certain NVDA configuration such as current synthesizer, braille display and braille table. No spoken or braille content will be ever sent to NV Access. Please refer to the User Guide for a current list of all data collected.\n\n"
 "Do you wish to allow NV Access to periodically collect this data in order to improve NVDA?"
-msgstr ""
-"为了在未来改进 NVDA，NV Access 希望从正在运行的 NVDA 副本收集使用数据。\n"
+msgstr "为了在未来改进 NVDA，NV Access 希望从正在运行的 NVDA 副本收集使用数据。\n"
 "数据包括操作系统版本、NVDA 版本、语言、所在国家/地区、以及某些 NVDA 配置，如语音合成器，盲文点显器和盲文表等。\n"
 "NVDA 不会将语音或盲文内容发送给 NV Access。\n"
 "关于收集数据的完整列表，请参阅用户指南的数据收集部分。\n"
@@ -15040,11 +14973,9 @@ msgstr "记住此选择"
 #: gui\addonStoreGui\controls\messageDialogs.py:118
 #, python-brace-format
 msgctxt "addonStore"
-msgid ""
-"Warning: add-on installation may result in downgrade: {name}. The installed add-on version cannot be compared with the add-on store version. Installed version: {oldVersion}. Available version: {version}.\n"
+msgid "Warning: add-on installation may result in downgrade: {name}. The installed add-on version cannot be compared with the add-on store version. Installed version: {oldVersion}. Available version: {version}.\n"
 "Proceed with installation anyway? "
-msgstr ""
-"警告：安装 {name} 可能会导致降级。无法将已安装的插件版本与插件商店的版本进行比较。已安装版本：{oldVersion}。可安装版本：{version}。\n"
+msgstr "警告：安装 {name} 可能会导致降级。无法将已安装的插件版本与插件商店的版本进行比较。已安装版本：{oldVersion}。可安装版本：{version}。\n"
 "您仍要安装该插件吗？"
 
 #. Translators: The title of a dialog presented when an error occurs.
@@ -15073,11 +15004,9 @@ msgstr "移除插件"
 #: gui\addonStoreGui\controls\messageDialogs.py:174
 #, python-brace-format
 msgctxt "addonStore"
-msgid ""
-"Warning: add-on is incompatible: {name} {version}. Check for an updated version of this add-on if possible. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. Installation may cause unstable behavior in NVDA.\n"
+msgid "Warning: add-on is incompatible: {name} {version}. Check for an updated version of this add-on if possible. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. Installation may cause unstable behavior in NVDA.\n"
 "Proceed with installation anyway? "
-msgstr ""
-"警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
+msgstr "警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
 "该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 {nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
 "安装该插件可能会导致 NVDA 不稳定或无法正常运行。是否仍要安装？"
 
@@ -15086,11 +15015,9 @@ msgstr ""
 #: gui\addonStoreGui\controls\messageDialogs.py:207
 #, python-brace-format
 msgctxt "addonStore"
-msgid ""
-"Warning: add-on is incompatible: {name} {version}. Check for an updated version of this add-on if possible. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. Enabling may cause unstable behavior in NVDA.\n"
+msgid "Warning: add-on is incompatible: {name} {version}. Check for an updated version of this add-on if possible. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. Enabling may cause unstable behavior in NVDA.\n"
 "Proceed with enabling anyway? "
-msgstr ""
-"警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
+msgstr "警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
 "该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 {nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
 "启用该插件可能会导致 NVDA 不稳定或无法正常运行。是否仍要启用？"
 
@@ -15116,12 +15043,10 @@ msgstr "插件安装失败"
 #. Translators: A message asking the user if they really wish to install an addon.
 #: gui\addonStoreGui\controls\messageDialogs.py:263
 #, python-brace-format
-msgid ""
-"Are you sure you want to install this add-on?\n"
+msgid "Are you sure you want to install this add-on?\n"
 "Only install add-ons from trusted sources.\n"
 "Addon: {summary} {version}"
-msgstr ""
-"您确定要安装此插件吗？\n"
+msgstr "您确定要安装此插件吗？\n"
 "请注意，仅安装来自可信来源的插件。\n"
 "插件: {summary} {version}"
 
@@ -15135,12 +15060,10 @@ msgstr "插件安装"
 #: gui\addonStoreGui\controls\messageDialogs.py:287
 #, python-brace-format
 msgctxt "addonStore"
-msgid ""
-"{summary} ({name})\n"
+msgid "{summary} ({name})\n"
 "Version: {version}\n"
 "Description: {description}\n"
-msgstr ""
-"{summary} ({name})\n"
+msgstr "{summary} ({name})\n"
 "版本：{version}\n"
 "描述：{description}\n"
 
@@ -18492,12 +18415,9 @@ msgstr "开启黑屏时播放声音(&P)"
 #. Translators: A warning shown when activating the screen curtain.
 #. the translation of "Screen Curtain" should match the "translated name"
 #: visionEnhancementProviders\screenCurtain.py:131
-msgid ""
-"Enabling Screen Curtain will make the screen of your computer completely black. Ensure you will be able to navigate without any use of your screen before continuing. \n"
-"\n"
+msgid "Enabling Screen Curtain will make the screen of your computer completely black. Ensure you will be able to navigate without any use of your screen before continuing. \n\n"
 "Do you wish to continue?"
-msgstr ""
-"开启黑屏将使计算机的屏幕完全变黑。在继续操作之前，请确保无需使用屏幕即可进行浏览。\n"
+msgstr "开启黑屏将使计算机的屏幕完全变黑。在继续操作之前，请确保无需使用屏幕即可进行浏览。\n"
 "您想继续吗？"
 
 #. Translators: option to enable screen curtain in the vision settings panel
@@ -18674,8 +18594,7 @@ msgstr "已连接"
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to control the computer on server {server} with key {key}?"
-msgstr ""
-"您要控制远程计算机嗎？\n"
+msgstr "您要控制远程计算机嗎？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
@@ -18683,8 +18602,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to allow this computer to be controlled on server {server} with key {key}?"
-msgstr ""
-"您要允许此计算机被控制吗？\n"
+msgstr "您要允许此计算机被控制吗？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
@@ -18813,20 +18731,13 @@ msgstr "安全警告"
 #: _remoteClient\dialogs.py:434
 #, python-brace-format
 msgctxt "remote"
-msgid ""
-"The certificate of this server could not be verified. Using the wrong fingerprint may allow a third party to access the Remote Access session.\n"
-"\n"
+msgid "The certificate of this server could not be verified. Using the wrong fingerprint may allow a third party to access the Remote Access session.\n\n"
 "Before continuing, please make sure that the following server certificate fingerprint is correct.\n"
-"Server SHA256 fingerprint: {fingerprint}\n"
-"\n"
+"Server SHA256 fingerprint: {fingerprint}\n\n"
 "Continue connecting anyway?"
-msgstr ""
-"该服务器的证书无法验证。使用错误的指纹可能会允许第三方访问远程访问会话。\n"
-"\n"
-"在继续之前，请确保以下服务器证书指纹正确。\n"
-"\n"
-"服务器 SHA256 指纹： {fingerprint}\n"
-"\n"
+msgstr "该服务器的证书无法验证。使用错误的指纹可能会允许第三方访问远程访问会话。\n\n"
+"在继续之前，请确保以下服务器证书指纹正确。\n\n"
+"服务器 SHA256 指纹： {fingerprint}\n\n"
 "您仍要继续连接吗？"
 
 #. Translators: A button to connect and remember the server with unauthorized certificate.
@@ -18942,3 +18853,4 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
