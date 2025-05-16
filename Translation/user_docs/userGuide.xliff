@@ -8649,9 +8649,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#CreateDesktopShortcut}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Create Desktop Shortcut (ctrl+alt+n)</source>
-        <target>创建桌面快捷方式 (ctrl+Alt+n)</target>
+        <target>创建桌面快捷方式（Ctrl+Alt+N）</target>
       </segment>
     </unit>
     <unit id="f61469c5-d8a7-4c3c-b525-4d568429171f">
@@ -9876,18 +9876,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 625</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Alternatively, access the system tray by pressing `Windows+b`, `downArrow` to the NVDA icon, and open the context menu by pressing the `applications` key located next to the right control key on most keyboards.</source>
-        <target>又或者，按下 `Windows+b` 访问系统托盘，按 `下光标键` 导航到 NVDA 图标，接着按下 `应用（applications）` 键打开上下文菜单，该键通常位于键盘上右侧 Ctrl 键旁边。</target>
+        <target>又或者，按下 `Windows+b` 访问系统托盘，按 `下光标键` 导航到 NVDA 图标，接着按下 `应用（application）` 键打开上下文菜单，该键通常位于键盘上右侧 Ctrl 键旁边。</target>
       </segment>
     </unit>
     <unit id="2a033c20-f3d6-4c80-af46-c0dfd78630dd">
       <notes>
         <note appliesTo="source">line: 626</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>On a keyboard without an `applications` key, press `shift+f10` instead.</source>
-        <target>在没有`应用（applications）`键的键盘上，可按下 `Shift+F10` 替代。</target>
+        <target>在没有`应用（application）`键的键盘上，可按下 `Shift+F10` 替代（译者注：当 NVDA 的语言设置为简体中文时，还可用 `NVDA+'` 替代）。</target>
       </segment>
     </unit>
     <unit id="402fae73-9615-48f9-aea8-64883b9e69db">
