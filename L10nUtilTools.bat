@@ -87,11 +87,14 @@ echo CLE：清理上述命令生成的所有文件；
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
 
-Rem 等待用户输入并跳转到用户输入的命令  
+Rem 等待用户输入  
 set /p CLI=
+
+Rem 跳转到用户输入的命令或退出  
 :goto
 cls
-goto %CLI%
+goto %CLI% >Nul
+Exit
 
 Rem 生成文档的流程，此部分命令会连续执行，直到符合输入的命令后退出  
 Rem 生成更新日志  
