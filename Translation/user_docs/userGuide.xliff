@@ -8649,7 +8649,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#CreateDesktopShortcut}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Create Desktop Shortcut (ctrl+alt+n)</source>
         <target>创建桌面快捷方式（Ctrl+Alt+N）</target>
       </segment>
@@ -9876,7 +9876,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 625</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Alternatively, access the system tray by pressing `Windows+b`, `downArrow` to the NVDA icon, and open the context menu by pressing the `applications` key located next to the right control key on most keyboards.</source>
         <target>又或者，按下 `Windows+b` 访问系统托盘，按 `下光标键` 导航到 NVDA 图标，接着按下 `应用（application）` 键打开上下文菜单，该键通常位于键盘上右侧 Ctrl 键旁边。</target>
       </segment>
@@ -9885,7 +9885,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 626</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>On a keyboard without an `applications` key, press `shift+f10` instead.</source>
         <target>在没有`应用（application）`键的键盘上，可按下 `Shift+F10` 替代（译者注：当 NVDA 的语言设置为简体中文时，还可用 `NVDA+'` 替代）。</target>
       </segment>
@@ -9937,7 +9937,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Starts or restarts NVDA |Control+alt+n |Control+alt+n |none |Starts or restarts NVDA from the Desktop, if this Windows shortcut is enabled during NVDA's installation process. This is a Windows specific shortcut and therefore it cannot be reassigned in the input gestures dialog.</source>
         <target>启动或重启 NVDA | Ctrl+Alt+n | Ctrl+Alt+n | 无 | 如果安装 NVDA 时启用了桌面快捷方式，可以按这个快捷键启动或重启 NVDA。这个快捷键来源于 Windows 的快捷方式，因此无法在按键与手势对话框中重新分配。</target>
       </segment>
@@ -9948,7 +9948,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Stop speech |Control |control |2-finger tap |Instantly stops speaking</source>
         <target>停止朗读 | Ctrl | Ctrl | 双指点击 | 立即停止朗读</target>
       </segment>
@@ -15022,7 +15022,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1363</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To allow emulating keypresses where modifier keys are held down, NVDA provides commands to toggle the control, alt, shift, windows, and NVDA keys, along with commands for some combinations of those keys.</source>
         <target>为了可以模拟修饰键，NVDA 提供了按下或放开 Ctrl、Alt、Shift、Windows 和 NVDA ，以及这些键的个别组合的功能。</target>
       </segment>
@@ -16879,7 +16879,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Scroll to start |control+home |Scrolls the console window to the beginning of the buffer.</source>
         <target>滚动到开头 | Ctrl+行首键 | 将控制台窗口滚动到缓冲区的开头。</target>
       </segment>
@@ -16890,7 +16890,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Scroll to end |control+end |Scrolls the console window to the end of the buffer.</source>
         <target>滚动到结尾 | Ctrl+行尾键 | 将控制台窗口滚动到缓冲区的末尾。</target>
       </segment>
@@ -18866,7 +18866,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2028</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The delayed character description will be cancelled if other text is spoken during that time, or if you press the `control` key.</source>
         <target>如果在读出描述期间朗读了其他内容，或者如果您按下了`Ctrl`键，延迟字符描述会被打断。</target>
       </segment>
