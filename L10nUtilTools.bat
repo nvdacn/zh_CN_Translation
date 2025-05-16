@@ -1,6 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 chcp 65001>Nul
+Title L10n Util Tools
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
 Rem 设置 nvdaL10nUtil 程序路径  
