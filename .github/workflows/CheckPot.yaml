@@ -97,7 +97,7 @@ jobs:
           } else {
               Write-Output "Branch name is ${{ github.ref_name }}. Skipping switch branch."
           }
-          &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\Crowdin\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
+          &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
       - name: SCons MSVC Cache
         uses: actions/cache@v4
         with:
