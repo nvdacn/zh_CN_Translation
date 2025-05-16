@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 01:06+0000\n"
-"PO-Revision-Date: 2025-05-16 10:44+0800\n"
+"PO-Revision-Date: 2025-05-16 10:54+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5651,22 +5651,22 @@ msgstr "翻译任何盲文输入"
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4152
 msgid "Virtually toggles the shift key to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 shift"
+msgstr "在盲文键盘上模拟按下或放开 Shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4161
 msgid "Virtually toggles the control key to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 control"
+msgstr "在盲文键盘上模拟按下或放开 Ctrl"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4170
 msgid "Virtually toggles the alt key to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 alt"
+msgstr "在盲文键盘上模拟按下或放开 Alt"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4180
 msgid "Virtually toggles the left windows key to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 左 windows"
+msgstr "在盲文键盘上模拟按下或放开 左 Windows"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4190
@@ -5676,32 +5676,32 @@ msgstr "在盲文键盘上模拟按下或放开 NVDA"
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4200
 msgid "Virtually toggles the control and shift keys to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 control 加 shift"
+msgstr "在盲文键盘上模拟按下或放开 Ctrl加Shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4212
 msgid "Virtually toggles the alt and shift keys to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 alt 加 shift"
+msgstr "在盲文键盘上模拟按下或放开 Alt加Shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4223
 msgid "Virtually toggles the left windows and shift keys to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 左 windows 加 shift"
+msgstr "在盲文键盘上模拟按下或放开 左 Windows加Shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4235
 msgid "Virtually toggles the NVDA and shift keys to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 nvda 加 shift"
+msgstr "在盲文键盘上模拟按下或放开 NVDA+Shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4246
 msgid "Virtually toggles the control and alt keys to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 ctrl 加 alt"
+msgstr "在盲文键盘上模拟按下或放开 Ctrl+Alt"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4257
 msgid "Virtually toggles the control, alt, and shift keys to emulate a keyboard shortcut with braille input"
-msgstr "在盲文键盘上模拟按下或放开 ctrl 加 alt 加 shift"
+msgstr "在盲文键盘上模拟按下或放开 Ctrl加Alt加Shift"
 
 #. Translators: Input help mode message for reload plugins command.
 #: globalCommands.py:4269
@@ -6447,42 +6447,42 @@ msgstr "插入"
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:151
 msgid "left control"
-msgstr "左control"
+msgstr "左 Ctrl"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:153
 msgid "right control"
-msgstr "右control"
+msgstr "右 Ctrl"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:155
 msgid "left windows"
-msgstr "左windows"
+msgstr "左 Windows"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:157
 msgid "left shift"
-msgstr "左shift"
+msgstr "左 Shift"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:159
 msgid "right shift"
-msgstr "右shift"
+msgstr "右 Shift"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:161
 msgid "left alt"
-msgstr "左alt"
+msgstr "左 Alt"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:163
 msgid "right alt"
-msgstr "右alt"
+msgstr "右 Alt"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:165
 msgid "right windows"
-msgstr "右windows"
+msgstr "右 Windows"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:167
@@ -12508,7 +12508,7 @@ msgstr "保留已存在的桌面图标(&K)"
 #. this change must also be reflected here.
 #: gui\installerGui.py:259
 msgid "Create &desktop icon and shortcut key (control+alt+n)"
-msgstr "创建桌面快捷方式并使用快捷键“Ctrl+Alt+n”(&D)"
+msgstr "创建桌面快捷方式并使用快捷键“Ctrl+Alt+N”(&D)"
 
 #. Translators: The label of a checkbox option in the Install NVDA dialog.
 #: gui\installerGui.py:266
@@ -18889,7 +18889,7 @@ msgstr "发送 Ctrl+Alt+Delete(&E)"
 #: _remoteClient\menu.py:70
 msgctxt "remote"
 msgid "Send control+alt+delete to the controlled computer."
-msgstr "向被控计算机发送 control+alt+delete。"
+msgstr "向被控计算机发送 Ctrl+Alt+Delete。"
 
 #. Translators: Label of the Remote Access submenu in the NVDA tools menu.
 #: _remoteClient\menu.py:81
