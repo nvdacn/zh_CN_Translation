@@ -57,12 +57,13 @@ beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L
    - 当准备让 NV Access 合并这些更改到 NVDA 时，请通知 PR 的作者或 NV Access 将 PR 标记为 Ready for review，在此之后不应再向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
 
 5. 仅可使用该功能上传 NVDA beta 开发周期的翻译。
-6. 当到达 NV Access 宣布的 Translatable string freeze 时间后，除非 NV Access 宣布延长 Translatable string freeze 的时间，否则不应再向 `Uploads` 分支推送任何翻译更改，同时请通过 GitHUB 打开将 `Uploads` 合并到 `main` 的 Pull request，并在翻译进入 NVDA 的稳定版本后合并该 PR。
+6. 当 NVDA 的 [beta 发布通道](https://download.nvaccess.org/releases/beta/)有新版本发布时，请通过 Pull request 将 `Uploads` 合并到 `main`。
 
-   - 如在 Translatable string freeze 后有其他翻译更改，请将其推送到适用于 alpha 开发周期的 `version_year.version_major` 分支。
-   - 应以 `YYYY.X翻译` 命名合并到 `main` 的 Pull request。
-   - 应使用Squash and merge 进行合并。
+   - 应以`发布版本号 翻译`（如 `2025.1beta1 翻译`）命名 PR。
+   - 应使用 Create a merge commit 进行合并。
    - PR 完成后还需将 `main` 合并回 `Uploads`，以避免合并冲突。
+
+7. 当到达 NV Access 宣布的 Translatable string freeze 时间后，除非 NV Access 宣布延长 Translatable string freeze 的时间，否则不应再向 `Uploads` 分支推送任何翻译更改，在此之后如有其他翻译更改，请将其推送到适用于 alpha 开发周期的 `version_year.version_major` 分支。
 
 ### L10nUtilTools.bat 的使用说明
 
@@ -120,7 +121,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L
 
 ### 其他注意事项
 
-1. 该存储库的 `main` 分支用于保存稳定版本的翻译以供将文档上传到 Crowdin 时的差异比较，因此除更新稳定版本的翻译外，不应向该分支提交任何更改。
+1. 该存储库的 `main` 分支用于保存发布版本的翻译以供将文档上传到 Crowdin 时的差异比较，因此除更新发布版本的翻译外，不应向该分支提交任何更改。
 2. 请尽量通过该存储库提交 NVDA 简体中文的翻译更改，以避免提交的翻译不慎被自动化流程覆盖的可能。
 
 [1]: #%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E7%BF%BB%E8%AF%91

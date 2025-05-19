@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 01:50+0000\n"
-"PO-Revision-Date: 2025-05-14 08:38+0800\n"
+"POT-Creation-Date: 2025-05-16 07:34+0000\n"
+"PO-Revision-Date: 2025-05-19 10:01+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6395,7 +6395,7 @@ msgstr "数字键盘 回车"
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:67
 msgid "escape"
-msgstr "esc"
+msgstr "Esc"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:71
@@ -6600,42 +6600,42 @@ msgstr "插入"
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:151
 msgid "left control"
-msgstr "左control"
+msgstr "左 Ctrl"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:153
 msgid "right control"
-msgstr "右control"
+msgstr "右 Ctrl"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:155
 msgid "left windows"
-msgstr "左windows"
+msgstr "左 Windows"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:157
 msgid "left shift"
-msgstr "左shift"
+msgstr "左 Shift"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:159
 msgid "right shift"
-msgstr "右shift"
+msgstr "右 Shift"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:161
 msgid "left alt"
-msgstr "左alt"
+msgstr "左 Alt"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:163
 msgid "right alt"
-msgstr "右alt"
+msgstr "右 Alt"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:165
 msgid "right windows"
-msgstr "右windows"
+msgstr "右 Windows"
 
 #. Translators: This is the name of a key on the keyboard.
 #: keyLabels.py:167
@@ -6646,7 +6646,7 @@ msgstr "中断"
 #: keyLabels.py:169
 msgctxt "keyLabel"
 msgid "tab"
-msgstr "tab"
+msgstr "Tab"
 
 #. Translators: One of the keyboard layouts for NVDA.
 #: keyboardHandler.py:462
@@ -12798,7 +12798,7 @@ msgstr "保留已存在的桌面图标(&K)"
 #. this change must also be reflected here.
 #: gui\installerGui.py:259
 msgid "Create &desktop icon and shortcut key (control+alt+n)"
-msgstr "创建桌面快捷方式并使用快捷键“Ctrl+Alt+n”(&D)"
+msgstr "创建桌面快捷方式并使用快捷键“Ctrl+Alt+N”(&D)"
 
 #. Translators: The label of a checkbox option in the Install NVDA dialog.
 #: gui\installerGui.py:266
@@ -19024,7 +19024,7 @@ msgstr "安全桌面"
 #: _remoteClient\client.py:523
 msgctxt "remote"
 msgid "Not the controlling computer"
-msgstr "非控制计算机"
+msgstr "非主控计算机"
 
 #. Translators: Displayed when muting speech and sounds from the remote computer
 #: _remoteClient\client.py:134
@@ -19090,7 +19090,7 @@ msgstr "已连接"
 #. Translators: Message shown when the connection to the remote computer is lost.
 #: _remoteClient\client.py:366 _remoteClient\cues.py:27
 msgid "Disconnected"
-msgstr "已断开连接"
+msgstr "已断开"
 
 #. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
 #: _remoteClient\client.py:527
@@ -19160,7 +19160,7 @@ msgstr "作为被控计算机连接"
 #: _remoteClient\cues.py:43
 msgctxt "remote"
 msgid "Clipboard sent"
-msgstr "剪贴板已发送"
+msgstr "已发送剪贴板"
 
 #. Translators: Message shown when the clipboard is successfully received from the remote computer.
 #: _remoteClient\cues.py:48
@@ -19305,11 +19305,9 @@ msgstr "连接"
 
 #. Translators: Message displayed when a remote computer tries to send control+alt+delete but UI Access is disabled.
 #: _remoteClient\localMachine.py:289
-#, fuzzy
-#| msgid "Unable to trigger Alt Control Delete from remote"
 msgctxt "remote"
 msgid "Unable to trigger control+alt+delete"
-msgstr "无法从远程触发 Alt Control Delete"
+msgstr "无法触发 Ctrl+Alt+Delete"
 
 #. Translators: Menu item in Remote Access submenu to mute speech and sounds from the remote computer.
 #: _remoteClient\menu.py:32
@@ -19347,18 +19345,15 @@ msgstr "将当前远程访问会话的链接复制到剪贴板。"
 
 #. Translators: Menu item in the Remote Access submenu to send Control+Alt+Delete to the remote computer.
 #: _remoteClient\menu.py:68
-#, fuzzy
-#| msgctxt "remote"
-#| msgid "Send ctrl+alt+del"
 msgctxt "remote"
 msgid "S&end control+alt+delete"
-msgstr "发送 Ctrl+Alt+Del(&E)"
+msgstr "发送 Ctrl+Alt+Delete(&E)"
 
 #. Translators: Tooltip for the Send Control+Alt+Delete menu item in the Remote Access submenu.
 #: _remoteClient\menu.py:70
 msgctxt "remote"
 msgid "Send control+alt+delete to the controlled computer."
-msgstr "向被控计算机发送 control+alt+delete。"
+msgstr "向被控计算机发送 Ctrl+Alt+Delete。"
 
 #. Translators: Label of the Remote Access submenu in the NVDA tools menu.
 #: _remoteClient\menu.py:81
