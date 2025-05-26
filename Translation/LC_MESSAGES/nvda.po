@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-22 03:03+0000\n"
+"POT-Creation-Date: 2025-05-26 02:02+0000\n"
 "PO-Revision-Date: 2025-05-25 23:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -717,7 +717,7 @@ msgid "⡎"
 msgstr "⡎"
 
 #. Translators: Braille when there are further details/annotations that can be fetched manually.
-#: braille.py:652 speech\speech.py:2087
+#: braille.py:652 speech\speech.py:2089
 msgid "details"
 msgstr "详细信息"
 
@@ -725,7 +725,7 @@ msgstr "详细信息"
 #. %s specifies the type of details (e.g. "has comment suggestion")
 #. Translators: Speaks when there are further details/annotations that can be fetched manually.
 #. %s specifies the type of details (e.g. "comment, suggestion, details")
-#: braille.py:662 speech\speech.py:2092
+#: braille.py:662 speech\speech.py:2094
 #, python-format
 msgid "has %s"
 msgstr "有 %s"
@@ -748,7 +748,7 @@ msgstr "vlnk"
 #. Translators: Spoken to indicate the position of an item in a group of items (such as a list).
 #. {number} is replaced with the number of the item in the group.
 #. {total} is replaced with the total number of items in the group.
-#: braille.py:755 speech\speech.py:2109
+#: braille.py:755 speech\speech.py:2111
 #, python-brace-format
 msgid "{number} of {total}"
 msgstr "，{total} 之 {number} 项"
@@ -2825,7 +2825,7 @@ msgstr "往上没有不同样式的文本"
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
-#: browseMode.py:1279 gui\settingsDialogs.py:2883
+#: browseMode.py:1236 gui\settingsDialogs.py:2883
 msgid "Lin&ks"
 msgstr "链接(&K)"
 
@@ -2833,7 +2833,7 @@ msgstr "链接(&K)"
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
-#: browseMode.py:1282 gui\settingsDialogs.py:2878
+#: browseMode.py:1239 gui\settingsDialogs.py:2878
 msgid "&Headings"
 msgstr "标题(&H)"
 
@@ -3334,8 +3334,8 @@ msgstr ""
 #: gui\configProfiles.py:539 gui\inputGestures.py:808 gui\inputGestures.py:822
 #: gui\installerGui.py:112 gui\installerGui.py:520 gui\installerGui.py:535
 #: gui\installerGui.py:607 gui\logViewer.py:112 gui\logViewer.py:143
-#: gui\message.py:161 gui\settingsDialogs.py:1076 gui\settingsDialogs.py:5419
-#: gui\settingsDialogs.py:5779 gui\startupDialogs.py:128
+#: gui\message.py:161 gui\settingsDialogs.py:1076 gui\settingsDialogs.py:5420
+#: gui\settingsDialogs.py:5780 gui\startupDialogs.py:128
 #: _remoteClient\dialogs.py:62 _remoteClient\dialogs.py:300
 #: _remoteClient\dialogs.py:384
 msgid "Error"
@@ -3615,13 +3615,13 @@ msgstr "配置管理"
 #. Advanced settings panel
 #. Translators: This is the label for the braille panel
 #: globalCommands.py:98 config\configFlags.py:279 gui\settingsDialogs.py:3866
-#: gui\settingsDialogs.py:4374
+#: gui\settingsDialogs.py:4375
 msgid "Braille"
 msgstr "盲文"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the vision panel
-#: globalCommands.py:101 gui\settingsDialogs.py:5187
+#: globalCommands.py:101 gui\settingsDialogs.py:5188
 msgid "Vision"
 msgstr "视觉"
 
@@ -6061,8 +6061,14 @@ msgstr "语音 Unicode 规范化 {state}"
 
 #. Translators: Describes a command.
 #: globalCommands.py:4724
-msgid "Toggles the state of the screen curtain, enable to make the screen black or disable to show the contents of the screen. Pressed once, screen curtain is enabled until you restart NVDA. Pressed twice, screen curtain is enabled until you disable it"
-msgstr "切换黑屏的开关，开启可使屏幕变黑，关闭则正常显示屏幕内容。 按一次，临时开启黑屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
+msgid ""
+"Toggles the state of the screen curtain, enable to make the screen black or "
+"disable to show the contents of the screen. Pressed once, screen curtain is "
+"enabled until you restart NVDA. Pressed twice, screen curtain is enabled "
+"until you disable it"
+msgstr ""
+"切换黑屏的开关，开启可使屏幕变黑，关闭则正常显示屏幕内容。 按一次，临时开启黑"
+"屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
 
 #. Translators: Reported when the screen curtain is disabled.
 #: globalCommands.py:4783
@@ -6095,7 +6101,7 @@ msgid "Could not enable screen curtain"
 msgstr "无法开启黑屏"
 
 #. Translators: Warning message when trying to enable the screen curtain when OCR is active.
-#: globalCommands.py:4862 visionEnhancementProviders\screenCurtain.py:281
+#: globalCommands.py:4862 visionEnhancementProviders\screenCurtain.py:287
 msgid "Could not enable screen curtain when performing content recognition"
 msgstr "识别期间无法开启黑屏"
 
@@ -10747,7 +10753,7 @@ msgid "tool tip"
 msgstr "工具提示"
 
 #. Translators: Identifies a link in webpage documents.
-#: controlTypes\role.py:250 speech\speech.py:2961
+#: controlTypes\role.py:250 speech\speech.py:2963
 msgid "link"
 msgstr "链接"
 
@@ -11286,12 +11292,12 @@ msgstr "字体大小"
 
 #. Translators: Describes text formatting.
 #. Translators: Reported when text is bolded.
-#: controlTypes\role.py:478 speech\speech.py:2838
+#: controlTypes\role.py:478 speech\speech.py:2840
 msgid "bold"
 msgstr "粗体"
 
 #. Translators: Describes text formatting.
-#: controlTypes\role.py:480 speech\speech.py:2849
+#: controlTypes\role.py:480 speech\speech.py:2851
 msgid "italic"
 msgstr "斜体"
 
@@ -11369,13 +11375,13 @@ msgstr "图表元素"
 
 #. Translators: Identifies deleted content.
 #. Translators: Reported when text is marked as having been deleted
-#: controlTypes\role.py:512 speech\speech.py:2765
+#: controlTypes\role.py:512 speech\speech.py:2767
 msgid "deleted"
 msgstr "已删除"
 
 #. Translators: Identifies inserted content.
 #. Translators: Reported when text is marked as having been inserted
-#: controlTypes\role.py:514 speech\speech.py:2754
+#: controlTypes\role.py:514 speech\speech.py:2756
 msgid "inserted"
 msgstr "已插入"
 
@@ -11621,7 +11627,7 @@ msgstr "有公式"
 
 #. Translators: a state that denotes the existance of a comment.
 #. Translators: Reported when text contains a generic comment.
-#: controlTypes\state.py:186 speech\speech.py:2976
+#: controlTypes\state.py:186 speech\speech.py:2978
 msgid "has comment"
 msgstr "有批注"
 
@@ -11704,7 +11710,7 @@ msgstr "拖拽完成"
 #. Translators: This is spoken when NVDA moves to an empty line.
 #. Translators: This is spoken when the line is considered blank.
 #: documentNavigation\paragraphHelper.py:128 speech\speech.py:231
-#: speech\speech.py:454 speech\speech.py:1860
+#: speech\speech.py:454 speech\speech.py:1862
 msgid "blank"
 msgstr "空白"
 
@@ -11751,7 +11757,7 @@ msgstr "您输入的网址尚未经过连接测试。是否要直接保存而不
 #. Translators: Title of warning dialog
 #: gui\_SetURLDialog.py:113 gui\configProfiles.py:498 gui\installerGui.py:334
 #: gui\settingsDialogs.py:1038 gui\settingsDialogs.py:1929
-#: visionEnhancementProviders\screenCurtain.py:146 _remoteClient\dialogs.py:285
+#: visionEnhancementProviders\screenCurtain.py:152 _remoteClient\dialogs.py:285
 msgid "Warning"
 msgstr "警告"
 
@@ -12649,7 +12655,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:5667 gui\speechDict.py:215
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:5668 gui\speechDict.py:215
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13130,7 +13136,9 @@ msgstr "在欢迎界面启用 NVDA（需要管理员权限）"
 #. settings to be used in secure screens such as User Account
 #. Control (UAC) dialog).
 #: gui\settingsDialogs.py:912
-msgid "Use currently saved settings during sign-in and on secure screens (requires administrator privileges)"
+msgid ""
+"Use currently saved settings during sign-in and on secure screens (requires "
+"administrator privileges)"
 msgstr "应用以保存的配置到欢迎界面和其他安全界面（需要管理员权限）"
 
 #. Translators: The label of a checkbox in general settings to toggle automatic checking for updated versions of NVDA.
@@ -13165,7 +13173,8 @@ msgstr "修改..."
 
 #. Translators: The label of a checkbox in general settings.
 #: gui\settingsDialogs.py:992
-msgid "Prevent &display from turning off during say all or reading with braille"
+msgid ""
+"Prevent &display from turning off during say all or reading with braille"
 msgstr "在全文朗读或阅读盲文时禁止关闭显示器(&D)"
 
 #. Translators: Title of the dialog used to change NVDA's update server mirror URL.
@@ -13176,8 +13185,13 @@ msgstr "设置 NVDA 更新镜像"
 #. Translators: A message to warn the user when attempting to copy current
 #. settings to system settings.
 #: gui\settingsDialogs.py:1032
-msgid "Add-ons were detected in your user settings directory. Copying these to the system profile could be a security risk. Do you still wish to copy your settings?"
-msgstr "NVDA 可检测用户配置目录中存在的插件，拷贝此设置到系统配置目录内可能要面临安全风险，您仍要复制此设置吗？"
+msgid ""
+"Add-ons were detected in your user settings directory. Copying these to the "
+"system profile could be a security risk. Do you still wish to copy your "
+"settings?"
+msgstr ""
+"NVDA 可检测用户配置目录中存在的插件，拷贝此设置到系统配置目录内可能要面临安全"
+"风险，您仍要复制此设置吗？"
 
 #. Translators: The title of the dialog presented while settings are being copied
 #: gui\settingsDialogs.py:1045
@@ -13192,7 +13206,9 @@ msgstr "请等待，正在拷贝设置到系统配置。"
 
 #. Translators: a message dialog asking to retry or cancel when copying settings  fails
 #: gui\settingsDialogs.py:1059
-msgid "Unable to copy a file. Perhaps it is currently being used by another process or you have run out of disc space on the drive you are copying to."
+msgid ""
+"Unable to copy a file. Perhaps it is currently being used by another process "
+"or you have run out of disc space on the drive you are copying to."
 msgstr "无法拷贝文件，此文件正被其他程序使用或您已经把它移除。"
 
 #. Translators: the title of a retry cancel dialog when copying settings  fails
@@ -13252,7 +13268,7 @@ msgstr "语音合成器"
 #. it appears in the context of a synthesizer group on the speech settings panel.
 #. Translators: This is the label for the button used to change braille display,
 #. it appears in the context of a braille display group on the braille settings panel.
-#: gui\settingsDialogs.py:1213 gui\settingsDialogs.py:4395
+#: gui\settingsDialogs.py:1213 gui\settingsDialogs.py:4396
 msgid "C&hange..."
 msgstr "修改(&H)..."
 
@@ -13299,7 +13315,7 @@ msgstr "处理字符和标点时信任语音的语言(&T)"
 
 #. Translators: This is a label for a combo-box in the Speech settings panel.
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:1740 gui\settingsDialogs.py:4948
+#: gui\settingsDialogs.py:1740 gui\settingsDialogs.py:4949
 msgid "Unicode normali&zation"
 msgstr "Unicode 规范化(&Z)"
 
@@ -13350,8 +13366,12 @@ msgstr "光标移动时延迟字符描述(&D)"
 
 #. Translators: Warning shown when 'talk' speech mode is disabled in settings.
 #: gui\settingsDialogs.py:1924
-msgid "You did not choose Talk as one of your speech mode options. Please note that this may result in no speech output at all. Are you sure you want to continue?"
-msgstr "您将取消“正常朗读”作为可切换的语音模式之一。\n"
+msgid ""
+"You did not choose Talk as one of your speech mode options. Please note that "
+"this may result in no speech output at all. Are you sure you want to "
+"continue?"
+msgstr ""
+"您将取消“正常朗读”作为可切换的语音模式之一。\n"
 "请注意，这可能导致没有语音输出。\n"
 "您确定要继续吗？"
 
@@ -13560,8 +13580,13 @@ msgstr "读出上屏字串(&C)"
 
 #. Translators: This is a label appearing on the Object Presentation settings panel.
 #: gui\settingsDialogs.py:2359
-msgid "Configure how much information NVDA will present about controls. These options apply to focus reporting and NVDA object navigation, but not when reading text content e.g. web content with browse mode."
-msgstr "配置 NVDA 要读出哪些控件信息。这些选项适用于系统焦点导航和 NVDA 的对象导航，但不适用于阅读场景下的文本内容，例如使用浏览模式呈现的网页。"
+msgid ""
+"Configure how much information NVDA will present about controls. These "
+"options apply to focus reporting and NVDA object navigation, but not when "
+"reading text content e.g. web content with browse mode."
+msgstr ""
+"配置 NVDA 要读出哪些控件信息。这些选项适用于系统焦点导航和 NVDA 的对象导航，"
+"但不适用于阅读场景下的文本内容，例如使用浏览模式呈现的网页。"
 
 #. Translators: This is the label for the object presentation panel.
 #: gui\settingsDialogs.py:2365
@@ -13723,7 +13748,9 @@ msgstr "文档格式"
 
 #. Translators: This is a label appearing on the document formatting settings panel.
 #: gui\settingsDialogs.py:2650
-msgid "The following options control the types of document formatting reported by NVDA."
+msgid ""
+"The following options control the types of document formatting reported by "
+"NVDA."
 msgstr "以下选项控制了 NVDA 对各类型文档格式信息朗读的开关."
 
 #. Translators: This is the label for a group of document formatting options in the
@@ -14114,7 +14141,7 @@ msgstr "主机(&H)"
 #. This is the port on which the local control server will be accessible,
 #. if the user has chosen to host their own.
 #. Translators: The label for a setting in braille settings to choose the connection port (if the selected braille display supports port selection).
-#: gui\settingsDialogs.py:3406 gui\settingsDialogs.py:4473
+#: gui\settingsDialogs.py:3406 gui\settingsDialogs.py:4474
 #: _remoteClient\dialogs.py:202
 msgid "&Port:"
 msgstr "端口(&P):"
@@ -14295,7 +14322,9 @@ msgstr "总是"
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:3768
-msgid "Use UI Automation to access Microsoft &Excel spreadsheet controls when available"
+msgid ""
+"Use UI Automation to access Microsoft &Excel spreadsheet controls when "
+"available"
 msgstr "在 Excel 中启用 UIA 接口（如果可用）(&E)"
 
 #. Translators: This is the label for a combo box for selecting the
@@ -14404,7 +14433,9 @@ msgstr "在所有的增强终端读出密码 （可提高性能）(&P)"
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:3898
-msgid "Use enhanced t&yped character support in legacy Windows Console when available"
+msgid ""
+"Use enhanced t&yped character support in legacy Windows Console when "
+"available"
 msgstr "在旧版 Windows 控制台使用增强型字符支持 （如果可用）(&Y)"
 
 #. Translators: This is the label for a combo box for selecting a
@@ -14513,227 +14544,233 @@ msgstr "调试日志"
 
 #. Translators: This is the label for a list in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4100
+#: gui\settingsDialogs.py:4101
 msgid "Enabled logging categories"
 msgstr "已启用的日志记录类型"
 
 #. Translators: Label for the Play a sound for logged errors combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4120
+#: gui\settingsDialogs.py:4121
 msgid "Play a sound for logged e&rrors:"
 msgstr "日志记录后播放错误提示音(&R)："
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
-#: gui\settingsDialogs.py:4123
+#: gui\settingsDialogs.py:4124
 msgctxt "advanced.playErrorSound"
 msgid "Only in NVDA test versions"
 msgstr "仅测试版"
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
-#: gui\settingsDialogs.py:4125
+#: gui\settingsDialogs.py:4126
 msgctxt "advanced.playErrorSound"
 msgid "Yes"
 msgstr "是"
 
 #. Translators: This is the label for a textfield in the
 #. advanced settings panel.
-#: gui\settingsDialogs.py:4138
+#: gui\settingsDialogs.py:4139
 msgid "Regular expression for text paragraph navigation"
 msgstr "文本段落导航的正则表达式"
 
 #. Translators: Message shown when invalid text paragraph regex entered
-#: gui\settingsDialogs.py:4160
+#: gui\settingsDialogs.py:4161
 #, python-format
 msgid "Failed to compile text paragraph regular expression: %s"
 msgstr "表达式 %s 无法解析"
 
 #. Translators: This is the label for the Advanced settings panel.
-#: gui\settingsDialogs.py:4290
+#: gui\settingsDialogs.py:4291
 msgid "Advanced"
 msgstr "高级"
 
 #. Translators: This is the label to warn users about the Advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4295
+#: gui\settingsDialogs.py:4296
 msgid "Warning!"
 msgstr "警告！"
 
 #. Translators: This is a label appearing on the Advanced settings panel.
-#: gui\settingsDialogs.py:4299
-msgid "The following settings are for advanced users. Changing them may cause NVDA to function incorrectly. Please only change these if you know what you are doing or have been specifically instructed by NVDA developers."
-msgstr "以下设置适用于高级用户,修改这些设置可能会导致 NVDA 无法正常运行。\n"
+#: gui\settingsDialogs.py:4300
+msgid ""
+"The following settings are for advanced users. Changing them may cause NVDA "
+"to function incorrectly. Please only change these if you know what you are "
+"doing or have been specifically instructed by NVDA developers."
+msgstr ""
+"以下设置适用于高级用户,修改这些设置可能会导致 NVDA 无法正常运行。\n"
 "只有在清楚要更改选项的含义、或在 NVDA 开发者的指导下，才可进行修改。"
 
 #. Translators: This is the label for a checkbox in the Advanced settings panel.
-#: gui\settingsDialogs.py:4326
-msgid "I understand that changing these settings may cause NVDA to function incorrectly."
+#: gui\settingsDialogs.py:4327
+msgid ""
+"I understand that changing these settings may cause NVDA to function "
+"incorrectly."
 msgstr "我清楚更改这些设置可能导致 NVDA 无法正常运行。"
 
 #. Translators: This is the label for a button in the Advanced settings panel
-#: gui\settingsDialogs.py:4337
+#: gui\settingsDialogs.py:4338
 msgid "Restore defaults"
 msgstr "恢复默认值"
 
 #. Translators: A label for the braille display on the braille panel.
-#: gui\settingsDialogs.py:4380
+#: gui\settingsDialogs.py:4381
 msgid "Braille display"
 msgstr "盲文点显器"
 
 #. Translators: This is the label for the braille display selection dialog.
-#: gui\settingsDialogs.py:4449
+#: gui\settingsDialogs.py:4450
 msgid "Select Braille Display"
 msgstr "选择盲文点显器"
 
 #. Translators: The label for a setting in braille settings to choose a braille display.
-#: gui\settingsDialogs.py:4458
+#: gui\settingsDialogs.py:4459
 msgid "Braille &display:"
 msgstr "点显器(&D):"
 
 #. Translators: The label for a setting in braille settings to enable displays for automatic detection.
-#: gui\settingsDialogs.py:4464
+#: gui\settingsDialogs.py:4465
 msgid "&Displays to detect automatically:"
 msgstr "自动检测的点显器(&D):"
 
 #. Translators: The message in a dialog presented when NVDA is unable to load the selected
 #. braille display.
-#: gui\settingsDialogs.py:4580
+#: gui\settingsDialogs.py:4581
 #, python-brace-format
 msgid "Could not load the {display} display."
 msgstr "无法加载 {display} 显示。"
 
 #. Translators: The title in a dialog presented when NVDA is unable to load the selected
 #. braille display.
-#: gui\settingsDialogs.py:4583
+#: gui\settingsDialogs.py:4584
 msgid "Braille Display Error"
 msgstr "点显器错误"
 
 #. Translators: The label for a setting in braille settings to select the output table (the braille table used to read braille text on the braille display).
-#: gui\settingsDialogs.py:4616
+#: gui\settingsDialogs.py:4617
 msgid "&Output table:"
 msgstr "输出表(&O):"
 
 #. Translators: An option in Braille settings to select a braille table automatically, according to the current language.
-#: gui\settingsDialogs.py:4624 gui\settingsDialogs.py:4651
+#: gui\settingsDialogs.py:4625 gui\settingsDialogs.py:4652
 #, python-brace-format
 msgid "Automatic ({name})"
 msgstr "自动（{name}）"
 
 #. Translators: The label for a setting in braille settings to select the input table (the braille table used to type braille characters on a braille keyboard).
-#: gui\settingsDialogs.py:4643
+#: gui\settingsDialogs.py:4644
 msgid "&Input table:"
 msgstr "输入表(&I):"
 
 #. Translators: The label for a setting in braille settings to select which braille mode to use
-#: gui\settingsDialogs.py:4669
+#: gui\settingsDialogs.py:4670
 msgid "Braille mode:"
 msgstr "盲文模式："
 
 #. Translators: The label for a setting in braille settings to expand the current word under cursor to computer braille.
-#: gui\settingsDialogs.py:4684
+#: gui\settingsDialogs.py:4685
 msgid "E&xpand to computer braille for the word at the cursor"
 msgstr "将光标所在单词转换为计算机盲文(&X)"
 
 #. Translators: The label for a setting in braille settings to show the cursor.
-#: gui\settingsDialogs.py:4692
+#: gui\settingsDialogs.py:4693
 msgid "&Show cursor"
 msgstr "显示光标位置(&S)"
 
 #. Translators: The label for a setting in braille settings to enable cursor blinking.
-#: gui\settingsDialogs.py:4701
+#: gui\settingsDialogs.py:4702
 msgid "Blink cursor"
 msgstr "闪烁光标(&B)"
 
 #. Translators: The label for a setting in braille settings to change cursor blink rate in milliseconds (1 second is 1000 milliseconds).
-#: gui\settingsDialogs.py:4712
+#: gui\settingsDialogs.py:4713
 msgid "Cursor blink rate (ms)"
 msgstr "光标闪烁频率（毫秒）(&R)"
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to focus.
-#: gui\settingsDialogs.py:4734
+#: gui\settingsDialogs.py:4735
 msgid "Cursor shape for &focus:"
 msgstr "系统焦点的光标形状(&F)："
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to review.
-#: gui\settingsDialogs.py:4750
+#: gui\settingsDialogs.py:4751
 msgid "Cursor shape for &review:"
 msgstr "查看光标的光标形状(&R)："
 
 #. Translators: The label for a setting in braille settings to combobox enabling user
 #. to decide if braille messages should be shown and automatically disappear from braille display.
-#: gui\settingsDialogs.py:4772
+#: gui\settingsDialogs.py:4773
 msgid "Show messages"
 msgstr "显示消息"
 
 #. Translators: The label for a setting in braille settings to change how long a message stays on the braille display (in seconds).
-#: gui\settingsDialogs.py:4794
+#: gui\settingsDialogs.py:4795
 msgid "Message &timeout (sec)"
 msgstr "消息显示时间（秒）(&T)"
 
 #. Translators: The label for a setting in braille settings to set whether braille should be tethered to focus or review cursor.
-#: gui\settingsDialogs.py:4813
+#: gui\settingsDialogs.py:4814
 msgid "Tether B&raille:"
 msgstr "盲文显示跟随到(&R)："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4837
+#: gui\settingsDialogs.py:4838
 msgid "Move system caret when ro&uting review cursor"
 msgstr "移动查看光标时移动系统输入光标(&U)"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
-#: gui\settingsDialogs.py:4853
+#: gui\settingsDialogs.py:4854
 msgid "Read by &paragraph"
 msgstr "按段落阅读(&P)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel to select paragraph start markers.
-#: gui\settingsDialogs.py:4862
+#: gui\settingsDialogs.py:4863
 msgid "Paragraph start marker:"
 msgstr "段落开始标记："
 
 #. Translators: The label for a setting in braille settings to select how the context for the focus object should be presented on a braille display.
-#: gui\settingsDialogs.py:4877
+#: gui\settingsDialogs.py:4878
 msgid "Focus context presentation:"
 msgstr "聚焦到上下文："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4898
+#: gui\settingsDialogs.py:4899
 msgid "Show se&lection"
 msgstr "盲文选择指示光标(&L)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4910
+#: gui\settingsDialogs.py:4911
 msgid "Formatting &display"
 msgstr "格式信息的显示方式(&D)"
 
 #. Translators: The label for a setting in braille settings to speak the character under the cursor when cursor routing in text.
-#: gui\settingsDialogs.py:4919
+#: gui\settingsDialogs.py:4920
 msgid "Spea&k character when routing cursor in text"
 msgstr "定位文本光标后读出光标所在处的字符(&K)"
 
 #. Translators: The label for a setting in braille settings to speak the current line or paragraph when navigating by them with braille.
-#: gui\settingsDialogs.py:4927
+#: gui\settingsDialogs.py:4928
 msgid "Speak when navigating by &line or paragraph"
 msgstr "按行或段落导航时读出内容(&L)"
 
 #. Translators: The label for a setting in braille settings to enable word wrap
 #. (try to avoid splitting words at the end of the braille display).
-#: gui\settingsDialogs.py:4940
+#: gui\settingsDialogs.py:4941
 msgid "Avoid splitting &words when possible"
 msgstr "若可能，尽量避免拆分单词(&W)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:4959
+#: gui\settingsDialogs.py:4960
 msgid "I&nterrupt speech while scrolling"
 msgstr "滚动时打断语音(&I)"
 
 #. Translators: This message is presented when
 #. NVDA is unable to load a single vision enhancement provider.
-#: gui\settingsDialogs.py:5053
+#: gui\settingsDialogs.py:5054
 #, python-brace-format
 msgid "Could not load the {providerName} vision enhancement provider"
 msgstr "无法加载 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when NVDA is unable to
 #. load multiple vision enhancement providers.
-#: gui\settingsDialogs.py:5060
+#: gui\settingsDialogs.py:5061
 #, python-brace-format
 msgid ""
 "Could not load the following vision enhancement providers:\n"
@@ -14743,13 +14780,13 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
-#: gui\settingsDialogs.py:5066 gui\settingsDialogs.py:5096
+#: gui\settingsDialogs.py:5067 gui\settingsDialogs.py:5097
 msgid "Vision Enhancement Provider Error"
 msgstr "视觉增强程序加载错误"
 
 #. Translators: This message is presented when
 #. NVDA is unable to gracefully terminate a single vision enhancement provider.
-#: gui\settingsDialogs.py:5083
+#: gui\settingsDialogs.py:5084
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the {providerName} vision enhancement provider"
@@ -14757,7 +14794,7 @@ msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when
 #. NVDA is unable to terminate multiple vision enhancement providers.
-#: gui\settingsDialogs.py:5091
+#: gui\settingsDialogs.py:5092
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the following vision enhancement providers:\n"
@@ -14767,119 +14804,121 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
-#: gui\settingsDialogs.py:5191
+#: gui\settingsDialogs.py:5192
 msgid "Configure visual aids."
 msgstr "配置视觉辅助。"
 
 #. Translators: Enable checkbox on a vision enhancement provider on the vision settings category panel
-#: gui\settingsDialogs.py:5363
+#: gui\settingsDialogs.py:5364
 msgid "Enable"
 msgstr "启用"
 
 #. Translators: Options label on a vision enhancement provider on the vision settings category panel
 #. Translators: The label for a group box containing the NVDA highlighter options.
-#: gui\settingsDialogs.py:5370
+#: gui\settingsDialogs.py:5371
 #: visionEnhancementProviders\NVDAHighlighter.py:307
 #: visionEnhancementProviders\screenCurtain.py:251
 msgid "Options:"
 msgstr "选项："
 
 #. Translators: Shown when there is an error showing the GUI for a vision enhancement provider
-#: gui\settingsDialogs.py:5416
-msgid "Unable to configure user interface for Vision Enhancement Provider, it can not be enabled."
+#: gui\settingsDialogs.py:5417
+msgid ""
+"Unable to configure user interface for Vision Enhancement Provider, it can "
+"not be enabled."
 msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法启用。"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:5461
+#: gui\settingsDialogs.py:5462
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:5507
+#: gui\settingsDialogs.py:5508
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:5542
+#: gui\settingsDialogs.py:5543
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:5547
+#: gui\settingsDialogs.py:5548
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:5577
+#: gui\settingsDialogs.py:5578
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:5591
+#: gui\settingsDialogs.py:5592
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5600
+#: gui\settingsDialogs.py:5601
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:5610
+#: gui\settingsDialogs.py:5611
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:5612 gui\speechDict.py:191
+#: gui\settingsDialogs.py:5613 gui\speechDict.py:191
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:5614
+#: gui\settingsDialogs.py:5615
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:5617
+#: gui\settingsDialogs.py:5618
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:5621
+#: gui\settingsDialogs.py:5622
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:5639 gui\speechDict.py:55
+#: gui\settingsDialogs.py:5640 gui\speechDict.py:55
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:5648
+#: gui\settingsDialogs.py:5649
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:5655
+#: gui\settingsDialogs.py:5656
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:5670
+#: gui\settingsDialogs.py:5671
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:5777
+#: gui\settingsDialogs.py:5778
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
@@ -17262,7 +17301,7 @@ msgstr "细线垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. No pattern
-#: NVDAObjects\window\excel.py:280 speech\speech.py:2737
+#: NVDAObjects\window\excel.py:280 speech\speech.py:2739
 msgid "none"
 msgstr "无"
 
@@ -18236,43 +18275,43 @@ msgid "selection removed"
 msgstr "移除所选"
 
 #. Translators: Speaks current row number (example output: row 3).
-#: speech\speech.py:2030 speech\speech.py:3079
+#: speech\speech.py:2032 speech\speech.py:3081
 #, python-format
 msgid "row %s"
 msgstr "%s 行"
 
 #. Translators: Speaks the row span added to the current row number (example output: through 5).
-#: speech\speech.py:2034
+#: speech\speech.py:2036
 #, python-brace-format
 msgid "through {endRow}"
 msgstr "合并到 {endRow} 行"
 
 #. Translators: Speaks current column number (example output: column 3).
-#: speech\speech.py:2050 speech\speech.py:3075
+#: speech\speech.py:2052 speech\speech.py:3077
 #, python-format
 msgid "column %s"
 msgstr "%s 列"
 
 #. Translators: Speaks the column span added to the current column number (example output: through 5).
-#: speech\speech.py:2054
+#: speech\speech.py:2056
 #, python-brace-format
 msgid "through {endCol}"
 msgstr "合并到 {endCol} 列"
 
 #. Translators: Speaks the row and column span added to the current row and column numbers
 #. (example output: through row 5 column 3).
-#: speech\speech.py:2063
+#: speech\speech.py:2065
 #, python-brace-format
 msgid "through row {row} column {column}"
 msgstr "合并到 {row} 行 {column} 列"
 
 #. Translators: Speaks when there are further details/annotations that can be fetched manually.
-#: speech\speech.py:2097
+#: speech\speech.py:2099
 msgid "has details"
 msgstr "有详细信息"
 
 #. Translators: Speaks the item level in treeviews (example output: level 2).
-#: speech\speech.py:2119
+#: speech\speech.py:2121
 #, python-format
 msgid "level %s"
 msgstr "%s 级"
@@ -18280,20 +18319,20 @@ msgstr "%s 级"
 #. Translators: Main part of the compound string to speak number of columns and rows in a table
 #. Example: If the reported compound string is "with 3 rows and 2 columns", {rowCountTranslation} will be
 #. replaced by "3 rows" and {colCountTranslation} by "2 columns"
-#: speech\speech.py:2143
+#: speech\speech.py:2145
 #, python-brace-format
 msgid "with {rowCountTranslation} and {colCountTranslation}"
 msgstr "共 {rowCountTranslation} {colCountTranslation}"
 
 #. Translators: Speaks number of columns (example output: with 4 columns).
-#: speech\speech.py:2149
+#: speech\speech.py:2151
 #, python-format
 msgid "with %s column"
 msgid_plural "with %s columns"
 msgstr[0] "共 %s 列"
 
 #. Translators: Speaks number of rows (example output: with 2 rows).
-#: speech\speech.py:2152
+#: speech\speech.py:2154
 #, python-format
 msgid "with %s row"
 msgid_plural "with %s rows"
@@ -18301,7 +18340,7 @@ msgstr[0] "共 %s 行"
 
 #. Translators: Sub-part of the compound string to speak number of rows and columns in a table.
 #. Example: If the full compound string is "table with 3 rwos and 2 columns", this substring is "3 rows".
-#: speech\speech.py:2160
+#: speech\speech.py:2162
 #, python-brace-format
 msgid "{rowCount} row"
 msgid_plural "{rowCount} rows"
@@ -18309,35 +18348,35 @@ msgstr[0] "{rowCount} 行"
 
 #. Translators: Sub-part of the compound string to speak number of rows and columns in a table.
 #. Example: If the full compound string is "table with 3 rwos and 2 columns", this substring is "2 columns".
-#: speech\speech.py:2170
+#: speech\speech.py:2172
 #, python-brace-format
 msgid "{columnCount} column"
 msgid_plural "{columnCount} columns"
 msgstr[0] "{columnCount} 列"
 
 #. Translators: Number of items in a list (example output: list with 5 items).
-#: speech\speech.py:2359
+#: speech\speech.py:2361
 #, python-format
 msgid "with %s item"
 msgid_plural "with %s items"
 msgstr[0] "%s 项"
 
 #. Translators: Indicates end of something (example output: at the end of a list, speaks out of list).
-#: speech\speech.py:2503 speech\speech.py:2961
+#: speech\speech.py:2505 speech\speech.py:2963
 #, python-format
 msgid "out of %s"
 msgstr "%s 离开"
 
 #. Translators: Indicates the page number in a document.
 #. %s will be replaced with the page number.
-#: speech\speech.py:2571
+#: speech\speech.py:2573
 #, python-format
 msgid "page %s"
 msgstr "第 %s 页"
 
 #. Translators: Indicates the section number in a document.
 #. %s will be replaced with the section number.
-#: speech\speech.py:2578
+#: speech\speech.py:2580
 #, python-format
 msgid "section %s"
 msgstr "区域 %s"
@@ -18345,51 +18384,51 @@ msgstr "区域 %s"
 #. Translators: Indicates the text column number in a document.
 #. {0} will be replaced with the text column number.
 #. {1} will be replaced with the number of text columns.
-#: speech\speech.py:2598
+#: speech\speech.py:2600
 #, python-brace-format
 msgid "column {0} of {1}"
 msgstr "{1} 之 {0} 列"
 
 #. Translators: Indicates the text column number in a document.
 #. %s will be replaced with the number of text columns.
-#: speech\speech.py:2603
+#: speech\speech.py:2605
 #, python-format
 msgid "%s column"
 msgid_plural "%s columns"
 msgstr[0] "%s 列"
 
 #. Translators: Indicates the text column number in a document.
-#: speech\speech.py:2607
+#: speech\speech.py:2609
 #, python-brace-format
 msgid "column {columnNumber}"
 msgstr "{columnNumber} 列"
 
-#: speech\speech.py:2613
+#: speech\speech.py:2615
 msgid "continuous section break"
 msgstr "连续区域分割"
 
-#: speech\speech.py:2615
+#: speech\speech.py:2617
 msgid "new column section break"
 msgstr "新列区域分割"
 
-#: speech\speech.py:2617
+#: speech\speech.py:2619
 msgid "new page section break"
 msgstr "新页面区域分割"
 
-#: speech\speech.py:2619
+#: speech\speech.py:2621
 msgid "even pages section break"
 msgstr "偶数页区域分割"
 
-#: speech\speech.py:2621
+#: speech\speech.py:2623
 msgid "odd pages section break"
 msgstr "奇数页区域分割"
 
-#: speech\speech.py:2627
+#: speech\speech.py:2629
 msgid "column break"
 msgstr "列分割"
 
 #. Translators: Speaks the heading level (example output: heading level 2).
-#: speech\speech.py:2642
+#: speech\speech.py:2644
 #, python-format
 msgid "heading level %d"
 msgstr "%d 级标题"
@@ -18397,19 +18436,19 @@ msgstr "%d 级标题"
 #. Translators: Indicates the style of text.
 #. A style is a collection of formatting settings and depends on the application.
 #. %s will be replaced with the name of the style.
-#: speech\speech.py:2665
+#: speech\speech.py:2667
 #, python-format
 msgid "style %s"
 msgstr "样式 %s"
 
 #. Translators: Indicates that text has reverted to the default style.
 #. A style is a collection of formatting settings and depends on the application.
-#: speech\speech.py:2669
+#: speech\speech.py:2671
 msgid "default style"
 msgstr "默认样式"
 
 #. Translators: Indicates that cell does not have border lines.
-#: speech\speech.py:2679
+#: speech\speech.py:2681
 msgid "no border lines"
 msgstr "无边界"
 
@@ -18417,7 +18456,7 @@ msgstr "无边界"
 #. This occurs when, for example, a gradient pattern is applied to a spreadsheet cell.
 #. {color1} will be replaced with the first background color.
 #. {color2} will be replaced with the second background color.
-#: speech\speech.py:2710
+#: speech\speech.py:2712
 #, python-brace-format
 msgid "{color1} to {color2}"
 msgstr "{color1} 到 {color2}"
@@ -18425,248 +18464,248 @@ msgstr "{color1} 到 {color2}"
 #. Translators: Reported when both the text and background colors change.
 #. {color} will be replaced with the text color.
 #. {backgroundColor} will be replaced with the background color.
-#: speech\speech.py:2716
+#: speech\speech.py:2718
 #, python-brace-format
 msgid "{color} on {backgroundColor}"
 msgstr "文字顏色：{color}，背景顏色：{backgroundColor}"
 
 #. Translators: Reported when the text color changes (but not the background color).
 #. {color} will be replaced with the text color.
-#: speech\speech.py:2724
+#: speech\speech.py:2726
 #, python-brace-format
 msgid "{color}"
 msgstr "文字顏色：{color}"
 
 #. Translators: Reported when the background color changes (but not the text color).
 #. {backgroundColor} will be replaced with the background color.
-#: speech\speech.py:2728
+#: speech\speech.py:2730
 #, python-brace-format
 msgid "{backgroundColor} background"
 msgstr "背景顏色：{backgroundColor}"
 
-#: speech\speech.py:2738
+#: speech\speech.py:2740
 #, python-brace-format
 msgid "background pattern {pattern}"
 msgstr "背景样式 {pattern}"
 
 #. Translators: Indicates the line number of the text.
 #. %s will be replaced with the line number.
-#: speech\speech.py:2745
+#: speech\speech.py:2747
 #, python-format
 msgid "line %s"
 msgstr "%s 行"
 
 #. Translators: Reported when text is no longer marked as having been inserted.
-#: speech\speech.py:2757
+#: speech\speech.py:2759
 msgid "not inserted"
 msgstr "不插入"
 
 #. Translators: Reported when text is no longer marked as having been  deleted.
-#: speech\speech.py:2768
+#: speech\speech.py:2770
 msgid "not deleted"
 msgstr "不删除"
 
 #. Translators: Reported when text is revised.
-#: speech\speech.py:2776
+#: speech\speech.py:2778
 #, python-format
 msgid "revised %s"
 msgstr "%s 已修订"
 
 #. Translators: Reported when text is not revised.
-#: speech\speech.py:2779
+#: speech\speech.py:2781
 #, python-format
 msgid "no revised %s"
 msgstr "不修订 %s"
 
 #. Translators: Reported when text is marked
-#: speech\speech.py:2788
+#: speech\speech.py:2790
 msgid "marked"
 msgstr "已标记"
 
 #. Translators: Reported when text is no longer marked
-#: speech\speech.py:2791
+#: speech\speech.py:2793
 msgid "not marked"
 msgstr "不标记"
 
 #. Translators: Reported when text is color-highlighted
-#: speech\speech.py:2801
+#: speech\speech.py:2803
 #, python-brace-format
 msgid "highlighted in {color}"
 msgstr "以 {color} 突出显示"
 
 #. Translators: Reported when text is no longer marked
-#: speech\speech.py:2804
+#: speech\speech.py:2806
 msgid "not highlighted"
 msgstr "未突出显示"
 
 #. Translators: Reported when text is marked as strong (e.g. bold)
-#: speech\speech.py:2814
+#: speech\speech.py:2816
 msgid "strong"
 msgstr "显眼"
 
 #. Translators: Reported when text is no longer marked as strong (e.g. bold)
-#: speech\speech.py:2817
+#: speech\speech.py:2819
 msgid "not strong"
 msgstr "不显眼"
 
 #. Translators: Reported when text is marked as emphasised
-#: speech\speech.py:2826
+#: speech\speech.py:2828
 msgid "emphasised"
 msgstr "以强调"
 
 #. Translators: Reported when text is no longer marked as emphasised
-#: speech\speech.py:2829
+#: speech\speech.py:2831
 msgid "not emphasised"
 msgstr "不强调"
 
 #. Translators: Reported when text is not bolded.
-#: speech\speech.py:2841
+#: speech\speech.py:2843
 msgid "no bold"
 msgstr "非粗体"
 
 #. Translators: Reported when text is not italicized.
-#: speech\speech.py:2852
+#: speech\speech.py:2854
 msgid "no italic"
 msgstr "非斜体"
 
 #. Translators: Reported when text is formatted with double strikethrough.
 #. See http://en.wikipedia.org/wiki/Strikethrough
-#: speech\speech.py:2862
+#: speech\speech.py:2864
 msgid "double strikethrough"
 msgstr "双删除线"
 
 #. Translators: Reported when text is formatted with strikethrough.
 #. See http://en.wikipedia.org/wiki/Strikethrough
-#: speech\speech.py:2866
+#: speech\speech.py:2868
 msgid "strikethrough"
 msgstr "删除线"
 
 #. Translators: Reported when text is formatted without strikethrough.
 #. See http://en.wikipedia.org/wiki/Strikethrough
-#: speech\speech.py:2871
+#: speech\speech.py:2873
 msgid "no strikethrough"
 msgstr "无删除线"
 
 #. Translators: Reported when text is underlined.
-#: speech\speech.py:2878
+#: speech\speech.py:2880
 msgid "underlined"
 msgstr "已加下划线"
 
 #. Translators: Reported when text is not underlined.
-#: speech\speech.py:2881
+#: speech\speech.py:2883
 msgid "not underlined"
 msgstr "未加下划线"
 
 #. Translators: Reported when text is hidden.
-#: speech\speech.py:2889
+#: speech\speech.py:2891
 msgid "hidden"
 msgstr "隐藏"
 
 #. Translators: Reported when text is not hidden.
-#: speech\speech.py:2892
+#: speech\speech.py:2894
 msgid "not hidden"
 msgstr "未隐藏"
 
 #. Translators: the label for paragraph format left indent
-#: speech\speech.py:2920
+#: speech\speech.py:2922
 msgid "left indent"
 msgstr "左端缩进"
 
 #. Translators: the message when there is no paragraph format left indent
-#: speech\speech.py:2922
+#: speech\speech.py:2924
 msgid "no left indent"
 msgstr "没有左端缩进"
 
 #. Translators: the label for paragraph format right indent
-#: speech\speech.py:2926
+#: speech\speech.py:2928
 msgid "right indent"
 msgstr "右端缩进"
 
 #. Translators: the message when there is no paragraph format right indent
-#: speech\speech.py:2928
+#: speech\speech.py:2930
 msgid "no right indent"
 msgstr "没有右端缩进"
 
 #. Translators: the label for paragraph format hanging indent
-#: speech\speech.py:2932
+#: speech\speech.py:2934
 msgid "hanging indent"
 msgstr "悬挂式缩进"
 
 #. Translators: the message when there is no paragraph format hanging indent
-#: speech\speech.py:2934
+#: speech\speech.py:2936
 msgid "no hanging indent"
 msgstr "没有悬挂式缩进"
 
 #. Translators: the label for paragraph format first line indent
-#: speech\speech.py:2938
+#: speech\speech.py:2940
 msgid "first line indent"
 msgstr "首行缩进"
 
 #. Translators: the message when there is no paragraph format first line indent
-#: speech\speech.py:2940
+#: speech\speech.py:2942
 msgid "no first line indent"
 msgstr "没有首行缩进"
 
 #. Translators: a type of line spacing (E.g. single line spacing)
-#: speech\speech.py:2956
+#: speech\speech.py:2958
 #, python-format
 msgid "line spacing %s"
 msgstr "行间距为 %s"
 
 #. Translators: Reported when text contains a draft comment.
-#: speech\speech.py:2970
+#: speech\speech.py:2972
 msgid "has draft comment"
 msgstr "有草稿批注"
 
 #. Translators: Reported when text contains a resolved comment.
-#: speech\speech.py:2973
+#: speech\speech.py:2975
 msgid "has resolved comment"
 msgstr "有已解决的批注"
 
 #. Translators: Reported when text no longer contains a comment.
-#: speech\speech.py:2980
+#: speech\speech.py:2982
 msgid "out of comment"
 msgstr "离开批注"
 
 #. Translators: Reported when text contains a bookmark
-#: speech\speech.py:2988
+#: speech\speech.py:2990
 msgid "bookmark"
 msgstr "书签"
 
 #. Translators: Reported when text no longer contains a bookmark
-#: speech\speech.py:2992
+#: speech\speech.py:2994
 msgid "out of bookmark"
 msgstr "离开书签"
 
 #. Translators: Reported when text contains a spelling error.
-#: speech\speech.py:3000
+#: speech\speech.py:3002
 msgid "spelling error"
 msgstr "拼写错误"
 
 #. Translators: Reported when moving out of text containing a spelling error.
-#: speech\speech.py:3003
+#: speech\speech.py:3005
 msgid "out of spelling error"
 msgstr "离开拼写错误"
 
 #. Translators: Reported when text contains a grammar error.
-#: speech\speech.py:3013
+#: speech\speech.py:3015
 msgid "grammar error"
 msgstr "语法错误"
 
 #. Translators: Reported when moving out of text containing a grammar error.
-#: speech\speech.py:3016
+#: speech\speech.py:3018
 msgid "out of grammar error"
 msgstr "离开语法错误"
 
 #. Translators: Indicates end of a table.
-#: speech\speech.py:3052
+#: speech\speech.py:3054
 msgid "out of table"
 msgstr "离开表格"
 
 #. Translators: Main part of the compound string to report a table
 #. Example: If the reported compound string is "table with 2 columns and 3 rows", {colCountTranslation}
 #. will be replaced by "2 columns" and {rowCountTranslation} by "3 rows"
-#: speech\speech.py:3067
+#: speech\speech.py:3069
 #, python-brace-format
 msgid "table with {columnCountText} and {rowCountText}"
 msgstr "包含 {columnCountText} {rowCountText} 的表格"
