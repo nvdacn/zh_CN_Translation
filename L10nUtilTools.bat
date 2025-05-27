@@ -133,6 +133,7 @@ MKLINK /H "%~dp0Preview\Test\locale\zh_CN\characterDescriptions.dic" "%~dp0Trans
 MKLINK /H "%~dp0Preview\Test\locale\zh_CN\gestures.ini" "%~dp0Translation\miscDeps\gestures.ini"
 MKLINK /H "%~dp0Preview\Test\locale\zh_CN\symbols.dic" "%~dp0Translation\miscDeps\symbols.dic"
 MKDir "%~dp0Preview\Test\documentation\zh_CN"
+MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\favicon.ico" "%~dp0Preview\favicon.ico"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\numberedHeadings.css" "%~dp0Preview\numberedHeadings.css"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\styles.css" "%~dp0Preview\styles.css"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\changes.html" "%~dp0Preview\changes.html"
