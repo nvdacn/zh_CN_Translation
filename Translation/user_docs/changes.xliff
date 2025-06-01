@@ -5631,7 +5631,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Automatic updates (#3208):</source>
-        <target>自动更新 (#3208)：</target>
+        <target>自动更新：(#3208)</target>
       </segment>
     </unit>
     <unit id="be447b8c-de47-440b-82be-128cedf70413">
@@ -5821,7 +5821,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When editing in PowerPoint text boxes, you can now move per sentence with `alt+upArrow`/`alt+downArrow`. (#17015, @LeonarddeR)</source>
-        <target>在 PowerPoint 文本框中编辑时，可以使用`alt+上光标`/`alt+下光标`逐句移动。(#17015, @LeonarddeR)</target>
+        <target>在 PowerPoint 文本框中编辑时，可以使用 `alt+上光标`/`alt+下光标`逐句移动。(#17015, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="ceef0fe5-5dbb-4469-965e-41b41569ffd9">
@@ -5831,7 +5831,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Word, the selection update is now reported when using Word commands to extend or reduce the selection (`f8` or `shift+f8`). (#3293, @CyrilleB79)</source>
-        <target>在 Word 中使用扩展或缩小选区命令（`f8` 或 `shift+f8`）时，会读出选区更新。 (#3293, @CyrilleB79)</target>
+        <target>在 Word 中使用扩展或缩小选区命令（`f8` 或 `shift+f8`）时，会读出选区更新。(#3293, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="3e3c1bbf-28dd-40e1-baf0-0ac2d8c6da56">
@@ -6041,7 +6041,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA is now able to report caret changes when pressing `alt+upArrow` or `alt+downArrow` gestures, for example in Visual Studio Code. (#17652, @LeonarddeR)</source>
-        <target>支持在按  alt+上光标 或  alt+下光标  时读出输入焦点的改变（例如在 Visual Studio Code 中）。(#17652, @LeonarddeR)</target>
+        <target>支持在按 `alt+上光标`或 ` alt+下光标`时读出输入焦点的改变（例如在 Visual Studio Code 中）。(#17652, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="1d64e38e-067e-4266-badc-8554ffddfcc4">
@@ -6528,7 +6528,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Fixed an issue where some USB braille displays were not properly detected by NVDA. (#18114, @christiancomaschi)</source>
-        <target>修复了NVDA未正确检测到某些USB盲文点显器的问题。(#18114, @christiancomaschi)</target>
+        <target>修复了NVDA未正确检测到某些 USB 盲文点显器的问题。(#18114, @christiancomaschi)</target>
       </segment>
     </unit>
     <unit id="366e7f76-c067-4311-a3b2-6abc79869852">
@@ -6548,7 +6548,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The command to "Report the destination URL of a link" now works as expected when using the legacy object model in Word, Outlook, Excel and PowerPoint. (#17292, #17362, #17435, @CyrilleB79)</source>
-        <target>修复了 在 Word、Outlook、Excel、PowerPoint 使用旧版对象模型时，读出链接网址命令不生效的错误。(#17292, #17362, #17435, @CyrilleB79)</target>
+        <target>修复了在 Word、Outlook、Excel、PowerPoint 使用旧版对象模型时，读出链接网址命令不生效的错误。(#17292, #17362, #17435, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="51a15094-f57b-43cb-8df2-c01d8e94f3a9">
@@ -6578,7 +6578,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Caret reporting no longer breaks when text contains wide characters, such as emoji. (#17006 , @LeonarddeR)</source>
-        <target>修复了包含宽字符（例如emoji字符）时，光标位置不准确的错误。(#17006 , @LeonarddeR)</target>
+        <target>修复了包含宽字符（例如 emoji 字符）时，光标位置不准确的错误。(#17006 , @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="849f0377-dcce-4823-9592-38272a968f44">
@@ -6697,7 +6697,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Visual Studio Code, NVDA no longer hijacks the `alt+upArrow` and `alt+downArrow` gestures for sentence navigation. (#17082, @LeonarddeR)</source>
-        <target>修复了在Visual Studio Code中，NVDA强制使用`Alt+下光标`和`Alt+上光标`用于句子导航的问题。(#17082, @LeonarddeR)</target>
+        <target>修复了在 Visual Studio Code中，NVDA 强制使用 `Alt+下光标`和 `Alt+上光标`用于句子导航的问题。(#17082, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="7f91cc45-3074-45a9-9912-7872c8e23660">
@@ -7192,7 +7192,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Added the [VS Code workspace configuration for NVDA](https://nvaccess.org/nvaccess/vscode-nvda) as a git submodule. (#17003)</source>
-        <target>将 [NVDA 的 VS Code 工作区配置](https://nvaccess.org/nvaccess/vscode-nvda) 添加为 git 子模块。(#17003)</target>
+        <target>将 [NVDA 的 VS Code 工作区配置](https://nvaccess.org/nvaccess/vscode-nvda)添加为 git 子模块。(#17003)</target>
       </segment>
     </unit>
     <unit id="a771a1b8-5ff9-45ee-b91f-ace15dafd1be">
