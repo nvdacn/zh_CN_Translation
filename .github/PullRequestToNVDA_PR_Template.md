@@ -4,10 +4,13 @@ none
 ### Summary of the issue:
 none
 
-### Description of user facing changes
+### Description of user facing changes:
 Updated the symbols, gestures, character descriptions files for Simplified Chinese.
 
-### Description of development approach
+### Description of developer facing changes:
+none
+
+### Description of development approach:
 Updated the symbols, gestures, character descriptions files for Simplified Chinese.
 
 ### Testing strategy:
