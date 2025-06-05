@@ -5631,7 +5631,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Automatic updates (#3208):</source>
-        <target>自动更新 (#3208)：</target>
+        <target>自动更新：(#3208)</target>
       </segment>
     </unit>
     <unit id="be447b8c-de47-440b-82be-128cedf70413">
@@ -5821,7 +5821,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When editing in PowerPoint text boxes, you can now move per sentence with `alt+upArrow`/`alt+downArrow`. (#17015, @LeonarddeR)</source>
-        <target>在 PowerPoint 文本框中编辑时，可以使用`alt+上光标`/`alt+下光标`逐句移动。(#17015, @LeonarddeR)</target>
+        <target>在 PowerPoint 文本框中编辑时，可以使用 `alt+上光标`/`alt+下光标`逐句移动。(#17015, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="ceef0fe5-5dbb-4469-965e-41b41569ffd9">
@@ -5831,7 +5831,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Word, the selection update is now reported when using Word commands to extend or reduce the selection (`f8` or `shift+f8`). (#3293, @CyrilleB79)</source>
-        <target>在 Word 中使用扩展或缩小选区命令（`f8` 或 `shift+f8`）时，会读出选区更新。 (#3293, @CyrilleB79)</target>
+        <target>在 Word 中使用扩展或缩小选区命令（`f8` 或 `shift+f8`）时，会读出选区更新。(#3293, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="3e3c1bbf-28dd-40e1-baf0-0ac2d8c6da56">
@@ -6041,7 +6041,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA is now able to report caret changes when pressing `alt+upArrow` or `alt+downArrow` gestures, for example in Visual Studio Code. (#17652, @LeonarddeR)</source>
-        <target>支持在按  alt+上光标 或  alt+下光标  时读出输入焦点的改变（例如在 Visual Studio Code 中）。(#17652, @LeonarddeR)</target>
+        <target>支持在按 `alt+上光标`或 ` alt+下光标`时读出输入焦点的改变（例如在 Visual Studio Code 中）。(#17652, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="1d64e38e-067e-4266-badc-8554ffddfcc4">
@@ -6378,7 +6378,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The keyboard settings for "Speak typed characters" and "Speak typed words" now have three options: Off, Only in edit controls, and Always. (#17505, @Cary-rowen)</source>
-        <target>“读出输入字符”和“读出输入单词”的键盘设置现包含三个选项：关闭、仅在编辑控件中、始终。(#17505, @Cary-rowen)</target>
+        <target>“读出输入的字符”和“读出输入的单词”的键盘设置现包含三个选项：关闭、仅在编辑控件中、始终。(#17505, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="40802643-728a-4a88-a06c-ce4062fde34b">
@@ -6388,7 +6388,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>By default, "Speak typed characters" is now set to "Only in edit controls".</source>
-        <target>“读出输入字符”选项的默认值已更改为“仅在编辑控件中”。</target>
+        <target>“读出输入的字符”选项的默认值已更改为“仅在编辑控件中”。</target>
       </segment>
     </unit>
     <unit id="684378a3-2c36-43c7-bd73-5fb6088d09be">
@@ -6528,7 +6528,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Fixed an issue where some USB braille displays were not properly detected by NVDA. (#18114, @christiancomaschi)</source>
-        <target>修复了NVDA未正确检测到某些USB盲文点显器的问题。(#18114, @christiancomaschi)</target>
+        <target>修复了NVDA未正确检测到某些 USB 盲文点显器的问题。(#18114, @christiancomaschi)</target>
       </segment>
     </unit>
     <unit id="366e7f76-c067-4311-a3b2-6abc79869852">
@@ -6548,7 +6548,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The command to "Report the destination URL of a link" now works as expected when using the legacy object model in Word, Outlook, Excel and PowerPoint. (#17292, #17362, #17435, @CyrilleB79)</source>
-        <target>修复了 在 Word、Outlook、Excel、PowerPoint 使用旧版对象模型时，读出链接网址命令不生效的错误。(#17292, #17362, #17435, @CyrilleB79)</target>
+        <target>修复了在 Word、Outlook、Excel、PowerPoint 使用旧版对象模型时，读出链接网址命令不生效的错误。(#17292, #17362, #17435, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="51a15094-f57b-43cb-8df2-c01d8e94f3a9">
@@ -6578,7 +6578,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Caret reporting no longer breaks when text contains wide characters, such as emoji. (#17006 , @LeonarddeR)</source>
-        <target>修复了包含宽字符（例如emoji字符）时，光标位置不准确的错误。(#17006 , @LeonarddeR)</target>
+        <target>修复了包含宽字符（例如 emoji 字符）时，光标位置不准确的错误。(#17006 , @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="849f0377-dcce-4823-9592-38272a968f44">
@@ -6697,7 +6697,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Visual Studio Code, NVDA no longer hijacks the `alt+upArrow` and `alt+downArrow` gestures for sentence navigation. (#17082, @LeonarddeR)</source>
-        <target>修复了在Visual Studio Code中，NVDA强制使用`Alt+下光标`和`Alt+上光标`用于句子导航的问题。(#17082, @LeonarddeR)</target>
+        <target>修复了在 Visual Studio Code中，NVDA 强制使用 `Alt+下光标`和 `Alt+上光标`用于句子导航的问题。(#17082, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="7f91cc45-3074-45a9-9912-7872c8e23660">
@@ -6826,7 +6826,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>If the plugins are reloaded while a browseable message is opened, NVDA will no longer fail to report subsequent focus moves. (#17323, @CyrilleB79)</source>
-        <target>修复了在可浏览的消息窗口打开期间重新加载插件后，NVDA 无法朗读后续焦点移动的问题。(#17323, @CyrilleB79)</target>
+        <target>修复了在浏览模式下显示期间重新加载插件导致 NVDA 无法朗读后续焦点移动的问题。(#17323, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="9b6f55a2-fd8d-4330-885b-86ca19a9121c">
@@ -7082,9 +7082,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 196</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`ui.browseableMessage` may now be called with options to present a button for copying to clipboard, and/or a button for closing the window. (#17018, @XLTechie)</source>
-        <target>`ui.browseableMessage` may now be called with options to present a button for copying to clipboard, and/or a button for closing the window. (#17018, @XLTechie)</target>
+        <target>支持调用 `ui.browseableMessage`，并传入选项以显示一个用于复制到剪贴板的按钮，和/或一个用于关闭窗口的按钮。(#17018, @XLTechie)</target>
       </segment>
     </unit>
     <unit id="f830dcf1-2e5a-4e46-aef3-9804ef5f4a72">
@@ -7092,9 +7092,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 197</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Several additions to identify link types (#16994, @LeonarddeR, @nvdaes)</source>
-        <target>Several additions to identify link types (#16994, @LeonarddeR, @nvdaes)</target>
+        <target>新增了若干用于识别链接类型的功能。(#16994, @LeonarddeR, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="cac7dcb5-4532-4419-9690-ad545b399dd1">
@@ -7102,9 +7102,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 198</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A new `utils.urlUtils` module with different functions to determine link types</source>
-        <target>A new `utils.urlUtils` module with different functions to determine link types</target>
+        <target>新增了一个 `utils.urlUtils` 模块，其中包含用于确定链接类型的不同函数</target>
       </segment>
     </unit>
     <unit id="dee4e572-24b8-43d2-b08c-cc57c7c96479">
@@ -7112,9 +7112,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 199</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A new `INTERNAL_LINK` state has been added to `controlTypes.states.State`</source>
-        <target>A new `INTERNAL_LINK` state has been added to `controlTypes.states.State`</target>
+        <target>`controlTypes.states.State` 中新增了 `INTERNAL_LINK` 状态</target>
       </segment>
     </unit>
     <unit id="61c898f6-8877-4d1f-afef-4934e7777418">
@@ -7122,18 +7122,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 200</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A new `linkType` property has been added on `NVDAObject`.</source>
-        <target>A new `linkType` property has been added on `NVDAObject`.</target>
+        <target>`NVDAObject` 上新增了 `linkType` 属性。默认情况下，如果存在 `treeInterceptor`，它会查询该拦截器。</target>
       </segment>
     </unit>
     <unit id="44bc7823-6141-4c62-a951-4ba6a51101c2">
       <notes>
         <note appliesTo="source">line: 201</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>  It queries the `treeInterceptor` by default, if any.</source>
-        <target>  It queries the `treeInterceptor` by default, if any.</target>
+        <target>  `BrowseModeTreeInterceptor` 对象新增了 `documentUrl` 属性。</target>
       </segment>
     </unit>
     <unit id="259f65e2-6a9d-46cc-a46f-af3070023d50">
@@ -7141,9 +7141,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 202</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`BrowseModeTreeInterceptor` object has a new `documentUrl` property</source>
-        <target>`BrowseModeTreeInterceptor` object has a new `documentUrl` property</target>
+        <target>`BrowseModeTreeInterceptor` 对象新增了 `getLinkTypeInDocument` 方法，该方法接受一个 URL 来检查对象的链接类型</target>
       </segment>
     </unit>
     <unit id="de636144-fa45-4867-8141-e2a62738e554">
@@ -7151,9 +7151,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 203</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`BrowseModeTreeInterceptor` object has a new `getLinkTypeInDocument` method which accepts an URL to check the link type of the object</source>
-        <target>`BrowseModeTreeInterceptor` object has a new `getLinkTypeInDocument` method which accepts an URL to check the link type of the object</target>
+        <target>`BrowseModeTreeInterceptor` 对象新增了 `getLinkTypeInDocument` 方法，该方法接受一个 URL 来检查对象的链接类型</target>
       </segment>
     </unit>
     <unit id="c2b534ac-3a55-4b29-94f9-ad5b6f027ec2">
@@ -7161,18 +7161,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 204</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A `toggleBooleanValue` helper function has been added to `globalCommands`.</source>
-        <target>A `toggleBooleanValue` helper function has been added to `globalCommands`.</target>
+        <target>`globalCommands` 中新增了 `toggleBooleanValue` 辅助函数。</target>
       </segment>
     </unit>
     <unit id="1455e683-29ef-4faa-9bfd-b4a72b68d3b4">
       <notes>
         <note appliesTo="source">line: 205</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>  It can be used in scripts to report the result when a boolean is toggled in `config.conf`</source>
-        <target>  It can be used in scripts to report the result when a boolean is toggled in `config.conf`</target>
+        <target>  当切换 `config.conf` 中的布尔值时，可以调用它来读出结果</target>
       </segment>
     </unit>
     <unit id="c44d183a-ac5f-413f-bdcb-2db30e78478c">
@@ -7180,9 +7180,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 206</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Removed the requirement to indent function parameter lists by two tabs from NVDA's Coding Standards, to be compatible with modern automatic linting. (#17126, @XLTechie)</source>
-        <target>Removed the requirement to indent function parameter lists by two tabs from NVDA's Coding Standards, to be compatible with modern automatic linting. (#17126, @XLTechie)</target>
+        <target>已从 NVDA 的编码标准中移除函数参数列表必须缩进两个制表符的要求，以兼容现代自动代码风格检查工具。(#17126, @XLTechie)</target>
       </segment>
     </unit>
     <unit id="d75192da-5513-428e-acf1-0ca1a731e356">
@@ -7190,9 +7190,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 207</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added the [VS Code workspace configuration for NVDA](https://nvaccess.org/nvaccess/vscode-nvda) as a git submodule. (#17003)</source>
-        <target>Added the [VS Code workspace configuration for NVDA](https://nvaccess.org/nvaccess/vscode-nvda) as a git submodule. (#17003)</target>
+        <target>将 [NVDA 的 VS Code 工作区配置](https://nvaccess.org/nvaccess/vscode-nvda)添加为 git 子模块。(#17003)</target>
       </segment>
     </unit>
     <unit id="a771a1b8-5ff9-45ee-b91f-ace15dafd1be">
@@ -7200,9 +7200,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 208</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A new function, `gui.guiHelper.wxCallOnMain`, has been added, which allows safely and synchronously calling wx functions from non-GUI threads, and getting their return value. (#17304)</source>
-        <target>A new function, `gui.guiHelper.wxCallOnMain`, has been added, which allows safely and synchronously calling wx functions from non-GUI threads, and getting their return value. (#17304)</target>
+        <target>新增了函数 `gui.guiHelper.wxCallOnMain`，允许从非 GUI 线程安全且同步地调用 `wx` 函数，并获取其返回值。(#17304)</target>
       </segment>
     </unit>
     <unit id="8fd15fd3-8d53-4120-8f63-4cc8a84fe3fe">
@@ -7210,9 +7210,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 209</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A new message dialog API has been added to `gui.message`. (#13007)</source>
-        <target>A new message dialog API has been added to `gui.message`. (#13007)</target>
+        <target>`gui.message` 中新增了消息对话框 API。(#13007)</target>
       </segment>
     </unit>
     <unit id="49ee2db0-a789-48ce-8e80-ca5d340f71d0">
@@ -7220,9 +7220,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 210</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added classes: `ReturnCode`, `EscapeCode`, `DialogType`, `Button`, `DefaultButton`, `DefaultButtonSet`, `MessageDialog`.</source>
-        <target>Added classes: `ReturnCode`, `EscapeCode`, `DialogType`, `Button`, `DefaultButton`, `DefaultButtonSet`, `MessageDialog`.</target>
+        <target>新增了类：`ReturnCode`、`EscapeCode`、`DialogType`、`Button`、`DefaultButton`、`DefaultButtonSet`、`MessageDialog`。</target>
       </segment>
     </unit>
     <unit id="7ab344be-de64-4dab-b41c-9ae3fc0861a5">
@@ -7230,9 +7230,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 211</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In the `brailleTables` module, a `getDefaultTableForCurrentLang` function has been added (#17222, @nvdaes)</source>
-        <target>In the `brailleTables` module, a `getDefaultTableForCurrentLang` function has been added (#17222, @nvdaes)</target>
+        <target>在 `brailleTables` 模块中，新增了 `getDefaultTableForCurrentLang` 函数。(#17222, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="67041708-d5c8-4a14-bd83-8ab0271a4a17">
@@ -7240,9 +7240,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 212</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added an `updateCheck.UpdateInfo` data class, which encapsulates metadata about NVDA updates. (#17310, @christopherpross)</source>
-        <target>Added an `updateCheck.UpdateInfo` data class, which encapsulates metadata about NVDA updates. (#17310, @christopherpross)</target>
+        <target>新增了 `updateCheck.UpdateInfo` 数据类，用于封装 NVDA 更新相关的元数据。(#17310, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="cb2381e8-6bf9-4d5f-9e2b-b3c4b25cb1e5">
@@ -7250,9 +7250,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 213</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Retrieving the `labeledBy` property now works for:</source>
-        <target>Retrieving the `labeledBy` property now works for:</target>
+        <target>现在，检索 `labeledBy` 属性适用于：</target>
       </segment>
     </unit>
     <unit id="3432e7ce-2a19-4f2d-9624-ce845f2a3f18">
@@ -7260,9 +7260,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 214</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>objects in applications implementing the `labelled-by` IAccessible2 relation. (#17436, @michaelweghorn)</source>
-        <target>objects in applications implementing the `labelled-by` IAccessible2 relation. (#17436, @michaelweghorn)</target>
+        <target>实现了 `labelled-by` IAccessible2 关系的应用中的对象。(#17436, @michaelweghorn)</target>
       </segment>
     </unit>
     <unit id="cbf5a0c8-8493-4394-96e7-18dcbaa9be23">
@@ -7270,9 +7270,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 215</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>UIA elements supporting the corresponding `LabeledBy` UIA property. (#17442, @michaelweghorn)</source>
-        <target>UIA elements supporting the corresponding `LabeledBy` UIA property. (#17442, @michaelweghorn)</target>
+        <target>支持相应 `LabeledBy` UIA 属性的 UIA 元素。(#17442, @michaelweghorn)</target>
       </segment>
     </unit>
     <unit id="cac514b7-2f5c-44c6-abf5-d3607b42270f">
@@ -7280,9 +7280,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 216</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added the ability to associate `wx.ComboBox` and a label `wx.StaticText` using `gui.guiHelper.associateElements`. (#17476)</source>
-        <target>Added the ability to associate `wx.ComboBox` and a label `wx.StaticText` using `gui.guiHelper.associateElements`. (#17476)</target>
+        <target>新增了使用 `gui.guiHelper.associateElements` 关联 `wx.ComboBox` 和标签 `wx.StaticText` 的功能。(#17476)</target>
       </segment>
     </unit>
     <unit id="78be28c4-19ad-44d9-8812-1edfa0e36e1f">
@@ -7290,9 +7290,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 217</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added the following extension points (#17428, @ctoth):</source>
-        <target>Added the following extension points (#17428, @ctoth):</target>
+        <target>新增了以下扩展点 (#17428, @ctoth)：</target>
       </segment>
     </unit>
     <unit id="507ce590-7b3b-47bc-8350-f7b633903931">
@@ -7300,9 +7300,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 218</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`inputCore.decide_handleRawKey`: called on each keypress</source>
-        <target>`inputCore.decide_handleRawKey`: called on each keypress</target>
+        <target>`inputCore.decide_handleRawKey`：每次按下按键时调用</target>
       </segment>
     </unit>
     <unit id="7064ba5c-faea-413f-870c-c29a8a253791">
@@ -7310,9 +7310,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 219</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`speech.extensions.post_speechPaused`: called when speech is paused or unpaused</source>
-        <target>`speech.extensions.post_speechPaused`: called when speech is paused or unpaused</target>
+        <target>`speech.extensions.post_speechPaused`：当语音暂停或取消暂停时调用</target>
       </segment>
     </unit>
     <unit id="021bb8d6-e0a9-4a71-98e6-787a7d6fbafb">
@@ -7320,9 +7320,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 220</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes to braille display auto detection registration in `bdDetect.DriverRegistrar`: (#17521, @LeonarddeR)</source>
-        <target>Changes to braille display auto detection registration in `bdDetect.DriverRegistrar`: (#17521, @LeonarddeR)</target>
+        <target>`bdDetect.DriverRegistrar` 中盲文显示器自动检测注册的变更：(#17521, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="c1341a05-008c-4dd0-9bc5-6bf78e939e9a">
@@ -7330,9 +7330,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 221</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added the `addUsbDevice` method to register one USB device at a time.</source>
-        <target>Added the `addUsbDevice` method to register one USB device at a time.</target>
+        <target>新增了 `addUsbDevice` 方法，用于一次注册一个 USB 设备。</target>
       </segment>
     </unit>
     <unit id="1ad5cfa4-8bdb-40fe-b56a-e63825969a9e">
@@ -7340,9 +7340,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 222</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added the `matchFunc` parameter to `addUsbDevices` which is also available on `addUsbDevice`.</source>
-        <target>Added the `matchFunc` parameter to `addUsbDevices` which is also available on `addUsbDevice`.</target>
+        <target>`addUsbDevices` 中新增了 `matchFunc` 参数，该参数也可用于 `addUsbDevice`。</target>
       </segment>
     </unit>
     <unit id="8ea7b14f-4f8e-4ad5-9066-cb57feeb484a">
@@ -7350,9 +7350,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 223</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This way device detection can be constrained further in cases where a VID/PID-combination is shared by multiple devices across multiple drivers, or when a HID device offers multiple endpoints, for example.</source>
-        <target>This way device detection can be constrained further in cases where a VID/PID-combination is shared by multiple devices across multiple drivers, or when a HID device offers multiple endpoints, for example.</target>
+        <target>通过这种方式，在 VID/PID 组合被多个驱动程序中的多个设备共享，或者 HID 设备提供多个端点等情况下，可以进一步约束设备检测。</target>
       </segment>
     </unit>
     <unit id="70642aad-ad05-4e1d-9857-d70f4a5c2788">
@@ -7360,9 +7360,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 224</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>See the method documentation as well as examples in the albatross and brailliantB drivers for more information.</source>
-        <target>See the method documentation as well as examples in the albatross and brailliantB drivers for more information.</target>
+        <target>更多信息请参阅该方法的文档以及 `albatross` 和 `brailliantB` 驱动程序中的示例。</target>
       </segment>
     </unit>
     <unit id="9eb504df-0e58-4986-8c84-17398d88aae1">
@@ -7370,9 +7370,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 225</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a new function, `utils.mmdevice.getOutputDevices`, to enumerate audio output devices. (#17678)</source>
-        <target>Added a new function, `utils.mmdevice.getOutputDevices`, to enumerate audio output devices. (#17678)</target>
+        <target>新增了函数 `utils.mmdevice.getOutputDevices`，用于枚举音频输出设备。(#17678)</target>
       </segment>
     </unit>
     <unit id="bfa1561c-d4ce-4023-9bbe-63669a769de4">
@@ -7380,9 +7380,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 226</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a new extension point `pre_synthSpeak` in `synthDriverHandler`, which will be called before the speech manager calls `speak` of the current synthesizer. (#17648)</source>
-        <target>Added a new extension point `pre_synthSpeak` in `synthDriverHandler`, which will be called before the speech manager calls `speak` of the current synthesizer. (#17648)</target>
+        <target>在 `synthDriverHandler` 中新增了扩展点 `pre_synthSpeak`，将在语音管理器调用当前语音合成器的 `speak` 方法之前被调用。(#17648)</target>
       </segment>
     </unit>
     <unit id="342307ed-48af-4d3c-9cd8-1ac7652e233d">
@@ -7390,9 +7390,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 227</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA supports the `text-indent` IAccessible2 object attribute. (#13052, @michaelweghorn)</source>
-        <target>NVDA supports the `text-indent` IAccessible2 object attribute. (#13052, @michaelweghorn)</target>
+        <target>NVDA 支持 `text-indent` IAccessible2 对象属性。(#13052, @michaelweghorn)</target>
       </segment>
     </unit>
     <unit id="c5d12832-4657-4a1d-89af-013b41356b01">
@@ -7400,9 +7400,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 228</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When a script using `gesture.send` is triggered with a gesture that includes `numLock` as a modifier, Num Lock is no longer turned off. (#10827, @CyrilleB79)</source>
-        <target>When a script using `gesture.send` is triggered with a gesture that includes `numLock` as a modifier, Num Lock is no longer turned off. (#10827, @CyrilleB79)</target>
+        <target>修复了使用包含 `numLock` 作为修饰键的手势触发调用 `gesture.send` 的脚本时，Num Lock 键会被关闭的问题。(#10827, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="6bdd7ded-e1ca-4393-9462-4070a144afe1">
@@ -7438,18 +7438,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 235</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `addonStore.network.BASE_URL` constant has been removed.</source>
-        <target>The `addonStore.network.BASE_URL` constant has been removed.</target>
+        <target>常量 `addonStore.network.BASE_URL` 已移除。</target>
       </segment>
     </unit>
     <unit id="d49cfec1-e327-4a29-b794-aa51b7a13f2e">
       <notes>
         <note appliesTo="source">line: 236</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>As the Add-on Store base URL is now configurable directly within NVDA, no replacement is planned. (#17099)</source>
-        <target>As the Add-on Store base URL is now configurable directly within NVDA, no replacement is planned. (#17099)</target>
+        <target>由于现在可以直接在 NVDA 中设置插件商店的基础 URL，因此未计划提供替代方案。(#17099)</target>
       </segment>
     </unit>
     <unit id="333f2599-5699-4d9c-80cf-1eb15e4fd7a9">
@@ -7457,18 +7457,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 237</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `updateCheck.CHECK_URL` constant has been removed.</source>
-        <target>The `updateCheck.CHECK_URL` constant has been removed.</target>
+        <target>常量 `updateCheck.CHECK_URL` 已移除。</target>
       </segment>
     </unit>
     <unit id="7d996341-4b3b-4866-8dbc-d25db96c8ea5">
       <notes>
         <note appliesTo="source">line: 238</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>As the NVDA update check URL is now configurable directly within NVDA, no replacement is planned. (#17151)</source>
-        <target>As the NVDA update check URL is now configurable directly within NVDA, no replacement is planned. (#17151)</target>
+        <target>由于现在可以直接在 NVDA 中配置 NVDA 更新检查 URL，因此未计划提供替代方案。(#17151)</target>
       </segment>
     </unit>
     <unit id="e26e0bef-9637-4672-b839-784015934a24">
@@ -7476,9 +7476,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 239</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`NVDAObjects.UIA.winConsoleUIA.WinTerminalUIA` has been removed with no public replacement. (#14047, #16820, @codeofdusk)</source>
-        <target>`NVDAObjects.UIA.winConsoleUIA.WinTerminalUIA` has been removed with no public replacement. (#14047, #16820, @codeofdusk)</target>
+        <target>`NVDAObjects.UIA.winConsoleUIA.WinTerminalUIA` 已移除，且无公开替代方案。(#14047, #16820, @codeofdusk)</target>
       </segment>
     </unit>
     <unit id="be632d31-3334-43da-856b-53edc2a8519e">
@@ -7486,9 +7486,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 240</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`NVDAObjects.IAccessible.ia2TextMozilla.FakeEmbeddingTextInfo` has been removed. (#16768, @jcsteh)</source>
-        <target>`NVDAObjects.IAccessible.ia2TextMozilla.FakeEmbeddingTextInfo` has been removed. (#16768, @jcsteh)</target>
+        <target>`NVDAObjects.IAccessible.ia2TextMozilla.FakeEmbeddingTextInfo` 已移除。(#16768, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="872ac159-1321-4bfd-b26e-08ebe213aa1f">
@@ -7496,9 +7496,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 241</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The following symbols in `appModules.soffice` have been renamed (#6915, @michaelweghorn):</source>
-        <target>The following symbols in `appModules.soffice` have been renamed (#6915, @michaelweghorn):</target>
+        <target>`appModules.soffice` 中的以下符号已重命名 (#6915, @michaelweghorn)：</target>
       </segment>
     </unit>
     <unit id="8cdcfc97-c967-462d-84e2-5ff74e2aa1c0">
@@ -7506,9 +7506,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 242</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`SymphonyDocument.announceToolbarButtonToggle` to `SymphonyDocument.announceFormattingGestureChange`</source>
-        <target>`SymphonyDocument.announceToolbarButtonToggle` to `SymphonyDocument.announceFormattingGestureChange`</target>
+        <target>`SymphonyDocument.announceToolbarButtonToggle` 重命名为 `SymphonyDocument.announceFormattingGestureChange`</target>
       </segment>
     </unit>
     <unit id="822612c9-ebc7-4417-a7e0-338d62dcc24d">
@@ -7516,9 +7516,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 243</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`SymphonyDocument.script_toggleTextAttribute` to `SymphonyDocument.script_changeTextFormatting`</source>
-        <target>`SymphonyDocument.script_toggleTextAttribute` to `SymphonyDocument.script_changeTextFormatting`</target>
+        <target>`SymphonyDocument.script_toggleTextAttribute` 重命名为 `SymphonyDocument.script_changeTextFormatting`</target>
       </segment>
     </unit>
     <unit id="0210d03a-6788-4f24-b02b-4287a44df1a2">
@@ -7526,9 +7526,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 244</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `space` keyword argument for `brailleDisplayDrivers.seikantk.InputGesture` now expects an `int` rather than a `bool`. (#17047, @school510587)</source>
-        <target>The `space` keyword argument for `brailleDisplayDrivers.seikantk.InputGesture` now expects an `int` rather than a `bool`. (#17047, @school510587)</target>
+        <target>`brailleDisplayDrivers.seikantk.InputGesture` 的 `space` 关键字参数现在需要 `int` 类型的值，而非 `bool` 类型。(#17047, @school510587)</target>
       </segment>
     </unit>
     <unit id="8fcf8cf1-b8eb-4969-a6cd-9ac5365bdc6e">
@@ -7536,9 +7536,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 245</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `[upgrade]` configuration section including `[upgrade][newLaptopKeyboardLayout]` has been removed. (#17191)</source>
-        <target>The `[upgrade]` configuration section including `[upgrade][newLaptopKeyboardLayout]` has been removed. (#17191)</target>
+        <target>配置节 `[upgrade]` 及其下的 `[upgrade][newLaptopKeyboardLayout]` 已移除。(#17191)</target>
       </segment>
     </unit>
     <unit id="2f3993c8-c583-4085-ada0-66d312e8bf5c">
@@ -7546,9 +7546,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 246</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`updateCheck.checkForUpdate` now returns an `UpdateInfo` object instead of a dictionary. (#17310, @christopherpross)</source>
-        <target>`updateCheck.checkForUpdate` now returns an `UpdateInfo` object instead of a dictionary. (#17310, @christopherpross)</target>
+        <target>`updateCheck.checkForUpdate` 现在返回 `UpdateInfo` 对象，而非字典。(#17310, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="05fb0e93-f435-45f5-8b51-c9ca2448e8e8">
@@ -7556,9 +7556,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 247</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The constructors of `updateCheck.UpdateResultDialog` and `updateCheck.UpdateDownloader` have been updated to take `UpdateInfo` objects instead of dictionaries of metadata. (#17310, @christopherpross)</source>
-        <target>The constructors of `updateCheck.UpdateResultDialog` and `updateCheck.UpdateDownloader` have been updated to take `UpdateInfo` objects instead of dictionaries of metadata. (#17310, @christopherpross)</target>
+        <target>`updateCheck.UpdateResultDialog` 和 `updateCheck.UpdateDownloader` 的构造函数已更新，现在接受 `UpdateInfo` 对象，而非元数据字典。(#17310, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="227fb95b-7daa-4f55-b512-b146ba443f21">
@@ -7566,9 +7566,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 248</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Due to the retirement of NVDA's winmm support (#17496, #17532, #17678):</source>
-        <target>Due to the retirement of NVDA's winmm support (#17496, #17532, #17678):</target>
+        <target>由于 NVDA 终止了对 `winmm` 的支持 (#17496, #17532, #17678)：</target>
       </segment>
     </unit>
     <unit id="fbadf501-1174-4d52-a933-8fd755594c82">
@@ -7576,9 +7576,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 249</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The following symbols have been removed from `nvwave` without replacements: `CALLBACK_EVENT`, `CALLBACK_FUNCTION`, `CALLBACK_NULL`, `HWAVEOUT`, `LPHWAVEOUT`, `LPWAVEFORMATEX`, `LPWAVEHDR`, `MAXPNAMELEN`, `MMSYSERR_NOERROR`, `usingWasapiWavePlayer`, `WAVEHDR`, `WAVEOUTCAPS`, `waveOutProc`, `WAVE_MAPPER`, `WHDR_DONE`, `WinmmWavePlayer`, and `winmm`.</source>
-        <target>The following symbols have been removed from `nvwave` without replacements: `CALLBACK_EVENT`, `CALLBACK_FUNCTION`, `CALLBACK_NULL`, `HWAVEOUT`, `LPHWAVEOUT`, `LPWAVEFORMATEX`, `LPWAVEHDR`, `MAXPNAMELEN`, `MMSYSERR_NOERROR`, `usingWasapiWavePlayer`, `WAVEHDR`, `WAVEOUTCAPS`, `waveOutProc`, `WAVE_MAPPER`, `WHDR_DONE`, `WinmmWavePlayer`, and `winmm`.</target>
+        <target>已从 `nvwave` 中移除以下符号，且无替代方案：`CALLBACK_EVENT`、`CALLBACK_FUNCTION`、`CALLBACK_NULL`、`HWAVEOUT`、`LPHWAVEOUT`、`LPWAVEFORMATEX`、`LPWAVEHDR`、`MAXPNAMELEN`、`MMSYSERR_NOERROR`、`usingWasapiWavePlayer`、`WAVEHDR`、`WAVEOUTCAPS`、`waveOutProc`、`WAVE_MAPPER`、`WHDR_DONE`、`WinmmWavePlayer` 和 `winmm`。</target>
       </segment>
     </unit>
     <unit id="577f916f-e5ff-4f67-bf13-1037f6c060c2">
@@ -7586,18 +7586,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 250</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The following symbols have been removed from `nvwave`: `getOutputDeviceNames`, `outputDeviceIDToName`, `outputDeviceNameToID`.</source>
-        <target>The following symbols have been removed from `nvwave`: `getOutputDeviceNames`, `outputDeviceIDToName`, `outputDeviceNameToID`.</target>
+        <target>已从 `nvwave` 中移除以下符号：`getOutputDeviceNames`、`outputDeviceIDToName`、`outputDeviceNameToID`。</target>
       </segment>
     </unit>
     <unit id="39543c90-9b62-4b2b-9cd5-9d2147534302">
       <notes>
         <note appliesTo="source">line: 251</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>  Use `utils.mmdevice.getOutputDevices` instead.</source>
-        <target>  Use `utils.mmdevice.getOutputDevices` instead.</target>
+        <target>  请改用 `utils.mmdevice.getOutputDevices`。</target>
       </segment>
     </unit>
     <unit id="662ad44f-58f9-4174-947f-bd3bfc29e426">
@@ -7605,18 +7605,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 252</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`nvwave.WasapiWavePlayer` has been renamed to `WavePlayer`.</source>
-        <target>`nvwave.WasapiWavePlayer` has been renamed to `WavePlayer`.</target>
+        <target>`nvwave.WasapiWavePlayer` 已重命名为 `WavePlayer`。</target>
       </segment>
     </unit>
     <unit id="d6569b4b-453e-4611-8ff0-03207d5f5419">
       <notes>
         <note appliesTo="source">line: 253</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>  Additionally, the method signature of its `__init__` has changed as follows:</source>
-        <target>  Additionally, the method signature of its `__init__` has changed as follows:</target>
+        <target>  此外，其 `__init__` 方法签名变更如下：</target>
       </segment>
     </unit>
     <unit id="8ddc3742-3862-46c8-ab55-edceda0c301f">
@@ -7624,9 +7624,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 254</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `outputDevice` parameter should now only be passed string arguments.</source>
-        <target>The `outputDevice` parameter should now only be passed string arguments.</target>
+        <target>`outputDevice` 参数现在只应传递字符串类型的参数。</target>
       </segment>
     </unit>
     <unit id="52f69654-6bf0-4424-8854-6d692a3906cb">
@@ -7634,9 +7634,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 255</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The deprecated `closeWhenIdle` and `buffered` parameters have been removed.</source>
-        <target>The deprecated `closeWhenIdle` and `buffered` parameters have been removed.</target>
+        <target>已弃用的 `closeWhenIdle` 和 `buffered` 参数已移除。</target>
       </segment>
     </unit>
     <unit id="b7ec61e8-747a-4f68-b201-96c0a4c30770">
@@ -7644,9 +7644,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 256</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`gui.settingsDialogs.AdvancedPanelControls.wasapiComboBox` has been removed.</source>
-        <target>`gui.settingsDialogs.AdvancedPanelControls.wasapiComboBox` has been removed.</target>
+        <target>`gui.settingsDialogs.AdvancedPanelControls.wasapiComboBox` 已移除。</target>
       </segment>
     </unit>
     <unit id="47799452-2417-46fc-90e0-5607790777ea">
@@ -7654,9 +7654,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 257</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `WASAPI` key has been removed from the `audio` section of the config spec.</source>
-        <target>The `WASAPI` key has been removed from the `audio` section of the config spec.</target>
+        <target>配置中 `audio` 部分的 `WASAPI` 键已移除。</target>
       </segment>
     </unit>
     <unit id="084a8e31-cab7-4df0-acdd-3ff8a39a8222">
@@ -7664,18 +7664,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 258</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The configuration key `config.conf["speech"]["outputDevice"]` has been removed.</source>
-        <target>The configuration key `config.conf["speech"]["outputDevice"]` has been removed.</target>
+        <target>配置键 `config.conf["speech"]["outputDevice"]` 已移除。</target>
       </segment>
     </unit>
     <unit id="8490fab4-0b9d-4216-b6d8-b267def08f96">
       <notes>
         <note appliesTo="source">line: 259</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>    It has been replaced by `config.conf["audio"]["outputDevice"]`, which stores a Windows core audio endpoint device ID. (#17547)</source>
-        <target>    It has been replaced by `config.conf["audio"]["outputDevice"]`, which stores a Windows core audio endpoint device ID. (#17547)</target>
+        <target>    它已被 `config.conf["audio"]["outputDevice"]` 替代，该配置键存储 Windows 核心音频端点设备 ID。(#17547)</target>
       </segment>
     </unit>
     <unit id="14f25227-0c94-49fc-9975-82ba830e61f9">
@@ -7683,9 +7683,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 260</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In `NVDAObjects.window.scintilla.ScintillaTextInfo`, if no text is selected, the `collapse` method is overriden to expand to line if the `end` parameter is set to `True` (#17431, @nvdaes)</source>
-        <target>In `NVDAObjects.window.scintilla.ScintillaTextInfo`, if no text is selected, the `collapse` method is overriden to expand to line if the `end` parameter is set to `True` (#17431, @nvdaes)</target>
+        <target>在 `NVDAObjects.window.scintilla.ScintillaTextInfo` 中，如果未选择文本，且 `end` 参数设置为 `True`，则 `collapse` 方法将被重写以扩展到当前行。(#17431, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="93869b50-ae5b-4e7e-8c6f-c9aa18b631a5">
@@ -7693,9 +7693,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 261</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The following symbols have been removed with no replacement: `languageHandler.getLanguageCliArgs`, `__main__.quitGroup` and `__main__.installGroup` . (#17486, @CyrilleB79)</source>
-        <target>The following symbols have been removed with no replacement: `languageHandler.getLanguageCliArgs`, `__main__.quitGroup` and `__main__.installGroup` . (#17486, @CyrilleB79)</target>
+        <target>以下符号已移除，且无替代方案：`languageHandler.getLanguageCliArgs`、`__main__.quitGroup` 和 `__main__.installGroup`。(#17486, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="a7ae2825-da24-40b3-9bbc-5fc0ee33bdf4">
@@ -7703,9 +7703,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 262</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Prefix matching on command line flags, e.g. using `--di` for `--disable-addons` is no longer supported. (#11644, @CyrilleB79)</source>
-        <target>Prefix matching on command line flags, e.g. using `--di` for `--disable-addons` is no longer supported. (#11644, @CyrilleB79)</target>
+        <target>命令行标志的前缀匹配（例如使用 `--di` 代替 `--disable-addons`）不再受支持。(#11644, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="11c8a574-cd62-472f-a316-7c67a40ac0a2">
@@ -7713,9 +7713,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 263</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `useAsFallBack` keyword argument of `bdDetect.DriverRegistrar` has been renamed to `useAsFallback`. (#17521, @LeonarddeR)</source>
-        <target>The `useAsFallBack` keyword argument of `bdDetect.DriverRegistrar` has been renamed to `useAsFallback`. (#17521, @LeonarddeR)</target>
+        <target>`bdDetect.DriverRegistrar` 的 `useAsFallBack` 关键字参数已重命名为 `useAsFallback`。(#17521, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="71b8b516-e75c-4407-9ba5-7ab117a53ade">
@@ -7723,18 +7723,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 264</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `[addonStore][showWarning]` configuration setting has been removed.</source>
-        <target>The `[addonStore][showWarning]` configuration setting has been removed.</target>
+        <target>配置设置 `[addonStore][showWarning]` 已移除。</target>
       </segment>
     </unit>
     <unit id="a43d4b19-d45c-4288-ac8d-624267663153">
       <notes>
         <note appliesTo="source">line: 265</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Instead use `addonStore.dataManager.addonDataManager.storeSettings.showWarning`. (#17597)</source>
-        <target>Instead use `addonStore.dataManager.addonDataManager.storeSettings.showWarning`. (#17597)</target>
+        <target>请改用 `addonStore.dataManager.addonDataManager.storeSettings.showWarning`。(#17597)</target>
       </segment>
     </unit>
     <unit id="d8c0275a-6fb2-41ed-9174-aa1f80709f7f">
@@ -7742,36 +7742,36 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 266</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`ui.browseableMessage` now takes a parameter `sanitizeHtmlFunc`.</source>
-        <target>`ui.browseableMessage` now takes a parameter `sanitizeHtmlFunc`.</target>
+        <target>`ui.browseableMessage` 现在接受 `sanitizeHtmlFunc` 参数。</target>
       </segment>
     </unit>
     <unit id="44017a67-0864-45c9-8c30-8c7a25dce611">
       <notes>
         <note appliesTo="source">line: 267</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This defaults to `nh3.clean` with default arguments.</source>
-        <target>This defaults to `nh3.clean` with default arguments.</target>
+        <target>该参数默认为使用默认参数的 `nh3.clean`。</target>
       </segment>
     </unit>
     <unit id="37c0a3c5-c9ea-4d91-9bee-ea5fd79f2ab0">
       <notes>
         <note appliesTo="source">line: 268</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This means any HTML passed into `ui.browseableMessage` using `isHtml=True` is now sanitized by default.</source>
-        <target>This means any HTML passed into `ui.browseableMessage` using `isHtml=True` is now sanitized by default.</target>
+        <target>这意味着现在默认情况下，任何使用 `isHtml=True` 传递给 `ui.browseableMessage` 的 HTML 都会被清理。</target>
       </segment>
     </unit>
     <unit id="b53343dc-c951-455c-9e3e-ded8c440df4b">
       <notes>
         <note appliesTo="source">line: 269</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To change sanitization rules, such as whitelisting tags or attributes, create a function that calls `nh3.clean` with the desired parameters. (#16985)</source>
-        <target>To change sanitization rules, such as whitelisting tags or attributes, create a function that calls `nh3.clean` with the desired parameters. (#16985)</target>
+        <target>要更改清理规则（例如，将标签或属性列入白名单），请创建一个使用所需参数调用 `nh3.clean` 的函数。(#16985)</target>
       </segment>
     </unit>
     <unit id="3e8bc4e4-f48d-40f4-85aa-47543969ef4a">
@@ -7779,18 +7779,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 270</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`updateCheck.UpdateAskInstallDialog` no longer automatically performs an action when the update or postpone buttons are pressed.</source>
-        <target>`updateCheck.UpdateAskInstallDialog` no longer automatically performs an action when the update or postpone buttons are pressed.</target>
+        <target>当按下更新或推迟按钮时，`updateCheck.UpdateAskInstallDialog` 不再自动执行操作。</target>
       </segment>
     </unit>
     <unit id="ad18ea79-7875-4b36-9542-d54d0c25d2f1">
       <notes>
         <note appliesTo="source">line: 271</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Instead, a `callback` property has been added, which returns a function that performs the appropriate action when called with the return value from the dialog. (#17582)</source>
-        <target>Instead, a `callback` property has been added, which returns a function that performs the appropriate action when called with the return value from the dialog. (#17582)</target>
+        <target>取而代之的是，新增了 `callback` 属性，该属性返回一个函数，当使用对话框的返回值调用此函数时，它会执行相应的操作。(#17582)</target>
       </segment>
     </unit>
     <unit id="33c12780-3f43-4bab-878b-0550be08cc6b">
@@ -7798,9 +7798,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 272</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Dialogs opened with `gui.runScriptModalDialog` are now recognised as modal by NVDA. (#17582)</source>
-        <target>Dialogs opened with `gui.runScriptModalDialog` are now recognised as modal by NVDA. (#17582)</target>
+        <target>通过 `gui.runScriptModalDialog` 打开的对话框现在被 NVDA 识别为模态对话框。(#17582)</target>
       </segment>
     </unit>
     <unit id="3172f598-1375-4940-b753-cb9259c35a32">
@@ -7808,9 +7808,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 273</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The following API symbols related to the setting "Automatically set system focus to focusable elements" have been removed with no replacement: (#17598)</source>
-        <target>The following API symbols related to the setting "Automatically set system focus to focusable elements" have been removed with no replacement: (#17598)</target>
+        <target>以下与“自动将焦点跳转到可聚焦元素”设置相关的 API 符号已移除，且无替代方案：(#17598)</target>
       </segment>
     </unit>
     <unit id="ad466f04-33c6-46ce-abb2-f5420872df92">
@@ -7818,7 +7818,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 274</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`globalCommands.GlobalCommands.script_toggleAutoFocusFocusableElements`</source>
         <target>`globalCommands.GlobalCommands.script_toggleAutoFocusFocusableElements`</target>
       </segment>
@@ -7828,7 +7828,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 275</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`config.conf["virtualBuffers"]["autoFocusFocusableElements"]`</source>
         <target>`config.conf["virtualBuffers"]["autoFocusFocusableElements"]`</target>
       </segment>
@@ -7838,7 +7838,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 276</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`gui.settingsDialogs.BrowseModePanel.autoFocusFocusableElementsCheckBox`</source>
         <target>`gui.settingsDialogs.BrowseModePanel.autoFocusFocusableElementsCheckBox`</target>
       </segment>
@@ -7848,9 +7848,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 277</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Because SAPI5 voices now use `nvwave.WavePlayer` to output audio: (#17592, @gexgd0419)</source>
-        <target>Because SAPI5 voices now use `nvwave.WavePlayer` to output audio: (#17592, @gexgd0419)</target>
+        <target>由于 SAPI5 语音现在使用 `nvwave.WavePlayer` 输出音频：(#17592, @gexgd0419)</target>
       </segment>
     </unit>
     <unit id="5f464cd6-4964-43a2-93c5-08af8277a87c">
@@ -7858,9 +7858,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 278</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`synthDrivers.sapi5.SPAudioState` has been removed.</source>
-        <target>`synthDrivers.sapi5.SPAudioState` has been removed.</target>
+        <target>`synthDrivers.sapi5.SPAudioState` 已移除。</target>
       </segment>
     </unit>
     <unit id="e365e8e1-b659-4932-bad1-8f608423f782">
@@ -7868,9 +7868,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 279</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`synthDrivers.sapi5.SynthDriver.ttsAudioStream` has been removed.</source>
-        <target>`synthDrivers.sapi5.SynthDriver.ttsAudioStream` has been removed.</target>
+        <target>`synthDrivers.sapi5.SynthDriver.ttsAudioStream` 已移除。</target>
       </segment>
     </unit>
     <unit id="9590f641-efc6-4d14-b9cd-8e38c4b56948">
@@ -7878,9 +7878,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 280</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Instances of `autoSettingsUtils.driverSetting.DriverSetting` with an `id` that starts with an underscore (_) are no longer shown in NVDA's settings. (#17599)</source>
-        <target>Instances of `autoSettingsUtils.driverSetting.DriverSetting` with an `id` that starts with an underscore (_) are no longer shown in NVDA's settings. (#17599)</target>
+        <target>ID 以小写下划线 (`_`) 开头的 `autoSettingsUtils.driverSetting.DriverSetting` 实例将不再显示在 NVDA 的设置中。(#17599)</target>
       </segment>
     </unit>
     <unit id="fab1aaa9-0036-4135-9cb8-836111ab8cdd">
@@ -7888,9 +7888,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 281</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changed keyboard typing echo configuration from boolean to integer values. (#17505, @Cary-rowen)</source>
-        <target>Changed keyboard typing echo configuration from boolean to integer values. (#17505, @Cary-rowen)</target>
+        <target>将键盘键入朗读的配置从布尔值更改为整数值。(#17505, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="116997f3-0ea9-445c-86bb-65ad059b2a35">
@@ -7898,9 +7898,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 282</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`config.conf["keyboard"]["speakTypedCharacters"]` and `config.conf["keyboard"]["speakTypedWords"]` now use integer values.</source>
-        <target>`config.conf["keyboard"]["speakTypedCharacters"]` and `config.conf["keyboard"]["speakTypedWords"]` now use integer values.</target>
+        <target>`config.conf["keyboard"]["speakTypedCharacters"]` 和 `config.conf["keyboard"]["speakTypedWords"]` 现在使用整数值。</target>
       </segment>
     </unit>
     <unit id="e88c69b3-c60f-472f-8621-7aca6e55f8a1">
@@ -7908,9 +7908,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 283</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added `TypingEcho` enum in `config.configFlags` to represent these modes, 0=Off, 1=Only in edit controls, 2=Always.</source>
-        <target>Added `TypingEcho` enum in `config.configFlags` to represent these modes, 0=Off, 1=Only in edit controls, 2=Always.</target>
+        <target>`config.configFlags` 中新增了 `TypingEcho` 枚举来表示这些模式：0=关闭，1=仅在编辑控件中，2=总是。</target>
       </segment>
     </unit>
     <unit id="4f0e140d-4728-4619-8197-799e9fd66a58">
@@ -7918,9 +7918,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 284</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`gui.settingsDialogs.KeyboardSettingsPanel.wordsCheckBox` and `gui.settingsDialogs.KeyboardSettingsPanel.charsCheckBox` has been removed.</source>
-        <target>`gui.settingsDialogs.KeyboardSettingsPanel.wordsCheckBox` and `gui.settingsDialogs.KeyboardSettingsPanel.charsCheckBox` has been removed.</target>
+        <target>`gui.settingsDialogs.KeyboardSettingsPanel.wordsCheckBox` 和 `gui.settingsDialogs.KeyboardSettingsPanel.charsCheckBox` 已移除。</target>
       </segment>
     </unit>
     <unit id="04d111ad-b9b3-4c2e-8bc7-5b88205402cb">
@@ -7928,9 +7928,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 285</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `winUser.paint` has been renamed from `painStruct` to `paintStruct`, fixing a bug where passing in a `PAINTSTRUCT` would raise an exception. (#17744)</source>
-        <target>The `winUser.paint` has been renamed from `painStruct` to `paintStruct`, fixing a bug where passing in a `PAINTSTRUCT` would raise an exception. (#17744)</target>
+        <target>`winUser.paint` 已从 `painStruct` 重命名为 `paintStruct`，从而修复了传递 `PAINTSTRUCT` 时会引发异常的错误。(#17744)</target>
       </segment>
     </unit>
     <unit id="fc314efc-1925-4df5-a470-eb27713a4541">
@@ -7938,9 +7938,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 286</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`documentationUtils.getDocFilePath` and `installer.getDocFilePath` no longer look for `.txt` files in locale documentation folders. (#17911, @CyrilleB79)</source>
-        <target>`documentationUtils.getDocFilePath` and `installer.getDocFilePath` no longer look for `.txt` files in locale documentation folders. (#17911, @CyrilleB79)</target>
+        <target>`documentationUtils.getDocFilePath` 和 `installer.getDocFilePath` 不再在区域设置文档文件夹中查找 `.txt` 文件。(#17911, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="41fa4790-85cb-44cc-b488-094f433cf11a">
@@ -7948,9 +7948,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 287</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`config.conf["documentFormatting"]["reportFontAttributes"]` has been removed, use `config.conf["documentFormatting"]["fontAttributeReporting"]` instead. (#18066)</source>
-        <target>`config.conf["documentFormatting"]["reportFontAttributes"]` has been removed, use `config.conf["documentFormatting"]["fontAttributeReporting"]` instead. (#18066)</target>
+        <target>`config.conf["documentFormatting"]["reportFontAttributes"]` 已移除，请改用 `config.conf["documentFormatting"]["fontAttributeReporting"]`。(#18066)</target>
       </segment>
     </unit>
     <unit id="4d069b38-94df-463c-83d7-4d56d8cb7800">
@@ -7958,9 +7958,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 288</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`config.conf["speech"]["includeCLDR"]` has been removed, check/modify whether `config.conf["speech"]["symbolDictionaries"]` contains `"cldr"` instead. (#18066)</source>
-        <target>`config.conf["speech"]["includeCLDR"]` has been removed, check/modify whether `config.conf["speech"]["symbolDictionaries"]` contains `"cldr"` instead. (#18066)</target>
+        <target>`config.conf["speech"]["includeCLDR"]` 已移除，请检查/修改 `config.conf["speech"]["symbolDictionaries"]` 是否包含 `"cldr"` 作为替代。(#18066)</target>
       </segment>
     </unit>
     <unit id="0c75c50e-2285-44e5-a6fe-df71c3aadb41">
@@ -7978,18 +7978,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 292</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `braille.filter_displaySize` extension point is deprecated.</source>
-        <target>The `braille.filter_displaySize` extension point is deprecated.</target>
+        <target>扩展点 `braille.filter_displaySize` 已弃用。</target>
       </segment>
     </unit>
     <unit id="3331d68a-b53f-4855-af14-406fc9ff590e">
       <notes>
         <note appliesTo="source">line: 293</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Please use `braille.filter_displayDimensions` instead. (#17011)</source>
-        <target>Please use `braille.filter_displayDimensions` instead. (#17011)</target>
+        <target>请改用 `braille.filter_displayDimensions`。(#17011)</target>
       </segment>
     </unit>
     <unit id="de9b3076-22ab-48f2-b33a-9d582ec4feae">
@@ -7997,18 +7997,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 294</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `gui.message.messageBox` and `gui.runScriptModalDialog` functions, and `gui.nvdaControls.MessageDialog` class are deprecated.</source>
-        <target>The `gui.message.messageBox` and `gui.runScriptModalDialog` functions, and `gui.nvdaControls.MessageDialog` class are deprecated.</target>
+        <target>函数 `gui.message.messageBox`、`gui.runScriptModalDialog` 以及类 `gui.nvdaControls.MessageDialog` 已弃用。</target>
       </segment>
     </unit>
     <unit id="150482de-fa4d-4f59-be58-5f6597fcd6fb">
       <notes>
         <note appliesTo="source">line: 295</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Use `gui.message.MessageDialog` instead. (#17582)</source>
-        <target>Use `gui.message.MessageDialog` instead. (#17582)</target>
+        <target>请改用 `gui.message.MessageDialog`。(#17582)</target>
       </segment>
     </unit>
     <unit id="4bfafdfe-8f26-4c52-9e0b-c293e44679c5">
@@ -8016,9 +8016,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 296</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The following symbols are deprecated (#17486, @CyrilleB79):</source>
-        <target>The following symbols are deprecated (#17486, @CyrilleB79):</target>
+        <target>以下符号已弃用 (#17486, @CyrilleB79)：</target>
       </segment>
     </unit>
     <unit id="d2ef79a6-f33f-48d8-a5e9-8cbd85d2267d">
@@ -8026,9 +8026,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 297</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`NoConsoleOptionParser`, `stringToBool`, `stringToLang` in `__main__`; use the same symbols in `argsParsing` instead.</source>
-        <target>`NoConsoleOptionParser`, `stringToBool`, `stringToLang` in `__main__`; use the same symbols in `argsParsing` instead.</target>
+        <target>`__main__` 中的 `NoConsoleOptionParser`、`stringToBool`、`stringToLang` 已弃用；请改用 `argsParsing` 中的同名符号。</target>
       </segment>
     </unit>
     <unit id="5f2f7a0d-c6d9-4b9d-a0fe-a737c73f9105">
@@ -8036,9 +8036,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 298</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`__main__.parser`; use `argsParsing.getParser()` instead.</source>
-        <target>`__main__.parser`; use `argsParsing.getParser()` instead.</target>
+        <target>`__main__.parser` 已弃用；请改用 `argsParsing.getParser()`。</target>
       </segment>
     </unit>
     <unit id="6e7ca70d-4ef6-46f1-bfc3-74d2a5201557">
@@ -8046,9 +8046,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 299</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`bdDetect.DeviceType` is deprecated in favour of `bdDetect.ProtocolType` and `bdDetect.CommunicationType` to take into account the fact that both HID and Serial communication can take place over USB and Bluetooth. (#17537 , @LeonarddeR)</source>
-        <target>`bdDetect.DeviceType` is deprecated in favour of `bdDetect.ProtocolType` and `bdDetect.CommunicationType` to take into account the fact that both HID and Serial communication can take place over USB and Bluetooth. (#17537 , @LeonarddeR)</target>
+        <target>`bdDetect.DeviceType` 已弃用，推荐使用 `bdDetect.ProtocolType` 和 `bdDetect.CommunicationType`，以便更清晰地体现 HID 和串行通信均可通过 USB 和蓝牙进行。(#17537 , @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="c5897f9a-e347-4570-8d21-633a7cbcac67">
@@ -10470,9 +10470,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 606</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed math attributes being read in Adobe Reader, this resulted in poor or wrong speech and braille. (#17980)</source>
-        <target>Fixed math attributes being read in Adobe Reader, this resulted in poor or wrong speech and braille. (#17980)</target>
+        <target>修复了 Adobe Reader 中数学属性被读出的问题，此问题曾导致语音和盲文输出效果不佳或错误。(#17980)</target>
       </segment>
     </unit>
     <unit id="9256c01c-6cae-4f8c-b79f-a847b001ae15">
