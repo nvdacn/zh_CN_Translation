@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 07:25+0000\n"
+"POT-Creation-Date: 2025-06-11 01:02+0000\n"
 "PO-Revision-Date: 2025-06-11 08:56+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -7203,11 +7203,11 @@ msgid ""
 "Mirror URL: {url}"
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
-#. Translators: A suggestion of what to do when fetching add-on data from the store fails and the default metadata URL is being used.
+#. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
 #: updateCheck.py:416
 msgctxt "updateCheck"
-msgid "Make sure you are connected to the internet and try again."
-msgstr "请检查网络连接后重试。"
+msgid "Unable to establish a connection to the NV Access server."
+msgstr ""
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
 #. tip will be replaced with a context sensitive suggestion of next steps.
@@ -7447,11 +7447,13 @@ msgid ""
 "Mirror URL: {url}"
 msgstr "请检查网络连接，并确保插件商店镜像网址 {url} 有效。"
 
-#. Translators: A suggestion of what to do when fetching add-on data from the store fails and the default metadata URL is being used.
+#. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
 #: addonStore\dataManager.py:223
+#, fuzzy
+#| msgid "Unable to connect to the remote computer"
 msgctxt "addonStore"
-msgid "Make sure you are connected to the internet and try again."
-msgstr "请检查网络连接后重试。"
+msgid "Unable to establish a connection to the Add-on Store server."
+msgstr "无法连接到远程计算机"
 
 #. Translators: A message shown when fetching add-on data from the store fails
 #: addonStore\dataManager.py:256
@@ -8700,7 +8702,7 @@ msgstr "候选"
 
 #. Translators: presented when there is no emoji when searching for one
 #. in Windows 10 Fall Creators Update and later.
-#: appModules\windowsinternal_composableshell_experiences_textinput_inputapp.py:234
+#: appModules\windowsinternal_composableshell_experiences_textinput_inputapp.py:240
 msgid "No emoji"
 msgstr "没有表情符号"
 
@@ -19427,6 +19429,14 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgctxt "updateCheck"
+#~ msgid "Make sure you are connected to the internet and try again."
+#~ msgstr "请检查网络连接后重试。"
+
+#~ msgctxt "addonStore"
+#~ msgid "Make sure you are connected to the internet and try again."
+#~ msgstr "请检查网络连接后重试。"
 
 #~ msgctxt "remote"
 #~ msgid "&Play sounds instead of beeps"
