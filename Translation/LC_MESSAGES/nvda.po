@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 01:02+0000\n"
-"PO-Revision-Date: 2025-06-11 08:56+0800\n"
+"PO-Revision-Date: 2025-06-11 09:36+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -7207,7 +7207,7 @@ msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 #: updateCheck.py:416
 msgctxt "updateCheck"
 msgid "Unable to establish a connection to the NV Access server."
-msgstr ""
+msgstr "无法连接到 NV Access 服务器。"
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
 #. tip will be replaced with a context sensitive suggestion of next steps.
@@ -7449,11 +7449,9 @@ msgstr "请检查网络连接，并确保插件商店镜像网址 {url} 有效�
 
 #. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
 #: addonStore\dataManager.py:223
-#, fuzzy
-#| msgid "Unable to connect to the remote computer"
 msgctxt "addonStore"
 msgid "Unable to establish a connection to the Add-on Store server."
-msgstr "无法连接到远程计算机"
+msgstr "无法连接到插件商店服务器。"
 
 #. Translators: A message shown when fetching add-on data from the store fails
 #: addonStore\dataManager.py:256
@@ -9435,23 +9433,19 @@ msgstr "西班牙语希腊文本"
 #. braille settings dialog.
 #: brailleTables\__tables.py:256
 msgid "Hebrew (Biblical) IHBC"
-msgstr ""
+msgstr "希伯来语（圣经）盲文（IHBC 标准）"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 #: brailleTables\__tables.py:259
-#, fuzzy
-#| msgid "Hebrew (Biblical) grade 1"
 msgid "Hebrew (Biblical) full cantillation"
-msgstr "希伯来语（圣经） 1 级盲文"
+msgstr "希伯来语（圣经）盲文（含诵读音标注）"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 #: brailleTables\__tables.py:262
-#, fuzzy
-#| msgid "Hebrew (Biblical) grade 1"
 msgid "Hebrew (Biblical) Slim"
-msgstr "希伯来语（圣经） 1 级盲文"
+msgstr "希伯来语（圣经）盲文（精简）"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
