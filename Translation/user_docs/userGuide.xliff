@@ -7143,9 +7143,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read current line |`NVDA+upArrow` |`NVDA+l` |Reads the line. Pressing twice spells the line. Pressing three times spells the line using character descriptions (Alpha, Bravo, Charlie, etc)</source>
-        <target>朗读当前行 | `NVDA+上光标` | `NVDA+l` | 朗读当前行。连按两次拼读该行。连按三次用字符解释的方式拼读该行（如 Alpha，Bravo，Charlie 等。）</target>
+        <target>朗读当前行 | `NVDA+上光标` | `NVDA+l` | 朗读当前行。连按两次逐字朗读。连按三次逐字解释（如 Alpha，Bravo，Charlie 等。）</target>
       </segment>
     </unit>
     <unit id="01d3bac2-112e-48ce-b082-4259aa5a3d78">
@@ -7154,9 +7154,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read selection |`NVDA+shift+upArrow` |`NVDA+shift+s` |Reads any selected text. Pressing twice will spell the information. Pressing three times will spell it using character description</source>
-        <target>朗读选择的文本 | `NVDA+Shift+上光标` | `NVDA+Shift+s` | 朗读选择的所有文本。连按两次会拼读该信息。连按三次用字符描述拼读它</target>
+        <target>朗读选择的文本 | `NVDA+Shift+上光标` | `NVDA+Shift+s` | 朗读选择的所有文本。连按两次逐字朗读，连按三次逐字解释</target>
       </segment>
     </unit>
     <unit id="d098a3f2-5157-413c-8126-69af29d5371e">
@@ -7165,9 +7165,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read clipboard text |`NVDA+c` |`NVDA+c` |Reads any text on the clipboard. Pressing twice will spell the information. Pressing three times will spell it using character description</source>
-        <target>朗读剪贴板文本 | `NVDA+c` | `NVDA+c` | 朗读剪贴板中的任何文本。连按两次会拼读该信息。连按三次用字符描述拼读它</target>
+        <target>朗读剪贴板文本 | `NVDA+c` | `NVDA+c` | 朗读剪贴板中的任何文本。连按两次逐字朗读，连按三次逐字解释</target>
       </segment>
     </unit>
     <unit id="c4c7d16e-ae6a-440c-ae16-9fd7f68c29c6">
@@ -7209,9 +7209,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report focus |`NVDA+tab` |`NVDA+tab` |Reports the current control which has focus.  Pressing twice will spell the information. Pressing three times will spell it using character description</source>
-        <target>读出焦点 | `NVDA+Tab` | `NVDA+Tab` | 读出当前焦点所在的控件。连按两次拼读该信息。连按三次用字符描述拼读该信息</target>
+        <target>读出焦点 | `NVDA+Tab` | `NVDA+Tab` | 读出当前焦点所在的控件。连按两次逐字朗读。连按三次逐字解释</target>
       </segment>
     </unit>
     <unit id="ee421381-d65d-469c-91eb-d40598555843">
@@ -7231,9 +7231,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read status bar |`NVDA+end` |`NVDA+shift+end` |Reports the Status Bar if NVDA finds one. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>读出状态栏 | `NVDA+行尾` | `NVDA+Shift+行尾` | 如果 NVDA 能找到状态栏则将其读出。连按两次拼读该信息。连按三次复制该信息到剪贴板</target>
+        <target>读出状态栏 | `NVDA+行尾` | `NVDA+Shift+行尾` | 如果 NVDA 能找到状态栏则将其读出。连按两次逐字朗读。连按三次复制该信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="a75f1632-754c-4439-86c6-256844758f34">
@@ -10359,9 +10359,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report current focus |NVDA+tab |NVDA+tab |announces the current object or control that has the System focus. Pressing twice will spell the information</source>
-        <target>读出当前焦点 |NVDA+Tab |NVDA+Tab |读出当前焦点所在的对象和控件，连按两次将拼读此信息</target>
+        <target>读出当前焦点 |NVDA+Tab |NVDA+Tab |读出当前焦点所在的对象和控件，连按两次逐字朗读，连按三次逐字解释</target>
       </segment>
     </unit>
     <unit id="c8ce15b7-d2fa-4afc-8c80-935b7ddacaa3">
@@ -10370,9 +10370,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report title |NVDA+t |NVDA+t |Reports the title of the currently active window. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>读出标题 |NVDA+t |NVDA+t |读出当前激活窗口的标题，连按两次将拼读此信息，连按三次将复制此信息到剪贴板</target>
+        <target>读出标题 |NVDA+t |NVDA+t |读出当前激活窗口的标题，连按两次逐字朗读，连按三次复制此信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="86d0bd11-fd8c-47d3-8c36-2c63c876776e">
@@ -10392,9 +10392,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report Status Bar |NVDA+end |NVDA+shift+end |Reports the Status Bar if NVDA finds one. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>读出状态栏 |NVDA+行尾 |NVDA+Shift+行尾 |读出当前应用程序的状态栏，连按两次拼读该信息，连按三次复制该信息到剪贴板</target>
+        <target>读出状态栏 |NVDA+行尾 |NVDA+Shift+行尾 |读出当前应用程序的状态栏，连按两次逐字朗读，连按三次复制该信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="352a4366-9b83-4eff-babb-37d3e3308fbe">
@@ -10492,9 +10492,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read current line |NVDA+upArrow |NVDA+l |Reads the line where the system caret is currently situated. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
-        <target>读出当前行 |NVDA+上光标 |NVDA+l |读出系统输入焦点所在的行，连按两次拼读该行，连按三次用字符描述拼读该行。</target>
+        <target>读出当前行 |NVDA+上光标 |NVDA+l |读出系统输入焦点所在的行，连按两次逐字朗读，连按三次逐字解释。</target>
       </segment>
     </unit>
     <unit id="2ad65d11-02eb-4651-b40f-0446bb0f61af">
@@ -10503,9 +10503,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read current text selection |NVDA+Shift+upArrow |NVDA+shift+s |Reads any currently selected text</source>
-        <target>读出当前选择的文本 |NVDA+Shift+上光标 |NVDA+Shift+s |读出当前选择的所有文本</target>
+        <target>读出当前选择的文本 |NVDA+Shift+上光标 |NVDA+Shift+s |读出当前选择的所有文本，连按两次逐字朗读，连按三次逐字解释，连按四次在浏览模式下显示</target>
       </segment>
     </unit>
     <unit id="5410c0d1-f10a-4ef4-a914-3d37e0930862">
@@ -11225,9 +11225,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report current line in review |numpad8 |NVDA+shift+. |none |Announces the current line of text where the review cursor is positioned. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
-        <target>读出查看文本的当前行 | 数字键盘8 | NVDA+Shift+. | 无 | 读出查看光标所在位置的文本的当前航，连按两次拼读该行，连按三次用字符描述拼读该行。</target>
+        <target>读出查看文本的当前行 | 数字键盘8 | NVDA+Shift+. | 无 | 读出查看光标所在位置的文本的当前航，连按两次逐字朗读，连按三次逐字解释。</target>
       </segment>
     </unit>
     <unit id="0f4a8091-c712-4667-b7f4-32a374c4636f">
@@ -11269,9 +11269,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report current word in review |numpad5 |NVDA+control+. |none |Announces the current word in the text where the review cursor is positioned. Pressing twice spells the word. Pressing three times spells the word using character descriptions.</source>
-        <target>读出查看文本的当前词 | 数字键盘5 | NVDA+Ctrl+. | 无 | 读出查看光标所在位置的文本的当前词，连按两次拼读该词，连按三次用字符描述拼读该词。</target>
+        <target>读出查看文本的当前词 | 数字键盘5 | NVDA+Ctrl+. | 无 | 读出查看光标所在位置的文本的当前词，连按两次逐字朗读，连按三次逐字解释。</target>
       </segment>
     </unit>
     <unit id="fb8f2ac5-ee38-46d7-85b7-c1a8a0befde7">
@@ -11313,9 +11313,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Report current character in review |numpad2 |NVDA+. |none |Announces the current character on the line of text where the review cursor is positioned. Pressing twice reports a description or example of that character. Pressing three times reports the numeric value of the character in decimal and hexadecimal.</source>
-        <target>读出查看文本的当前字 | 数字键盘2 | NVDA+. | 无 | 读出查看光标所在行的当前字符，连按两次读出该字符的描述或范例，连按三次读出字符的十进制和十六进制值。</target>
+        <target>读出查看文本的当前字 | 数字键盘2 | NVDA+. | 无 | 读出查看光标所在行的当前字符，连按两次解释该字符，连按三次读出该字符的十进制和十六进制值。</target>
       </segment>
     </unit>
     <unit id="882a011e-d5f0-4226-8a00-4e703c9291d6">
@@ -18591,18 +18591,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1982</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Note that manually added or edited character descriptions are saved as part of your user settings.</source>
-        <target>请注意，手动添加或编辑的字符描述将保存为用户设置的一部分。</target>
+        <target>请注意，手动添加或编辑的符号说明将保存为用户设置的一部分。</target>
       </segment>
     </unit>
     <unit id="184a7332-c707-4bd7-ba99-0a615448c132">
       <notes>
         <note appliesTo="source">line: 1983</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Therefore, if you change the description of a particular emoji, your custom description will be spoken for that emoji regardless of whether this option is enabled.</source>
-        <target>因此，如果您更改特定表情符号的说明，则无论是否启用此选项，该表情符号按照自定义说明拼读。</target>
+        <target>因此，如果您更改特定表情符号的说明，则无论是否启用此选项，该表情符号按照自定义说明朗读。</target>
       </segment>
     </unit>
     <unit id="930a5558-1ee9-4d0b-9a43-3997532dca67">
@@ -23346,9 +23346,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2821</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>However, for phonetic input methods such as Chinese New Phonetic, it may be more useful to turn this option off, as all the symbols will sound the same and you will have to use the arrow keys to navigate the list items individually to gain more information from the character descriptions for each candidate.</source>
-        <target>通常使用拼音输入法时，关闭此选项可能更为实用。因为所有候选听起来都相同，您必须使用光标键在候选列表之中逐一进行浏览，从而在每个字符的字符描述中获取更多的信息。</target>
+        <target>通常使用拼音输入法时，关闭此选项可能更为实用。因为所有候选听起来都相同，您必须使用光标键在候选列表之中逐一进行浏览，从而在每个字符的解释中获取更多信息。</target>
       </segment>
     </unit>
     <unit id="866b2c56-df03-4b8f-9a89-45f8a4dd7164">
@@ -23395,27 +23395,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#InputCompositionCandidateIncludesShortCharacterDescription}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Always include short character descriptions for candidates</source>
-        <target>读出候选字词时总包含短字符描述</target>
+        <target>读出候选字词时逐字解释</target>
       </segment>
     </unit>
     <unit id="10a12a8e-1f58-4aa9-9040-fbe2a763cc2d">
       <notes>
         <note appliesTo="source">line: 2831</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option, which is on by default, allows you to choose whether or not NVDA should provide a short description for each character in a candidate, either when it's selected or when it's automatically read when the candidate list appears.</source>
-        <target>这个选项默认时启用，允许您选择是否希望在候选列表出现后，在选择的候选发生改变时或自动朗读候选时，为每一个候选字符分别读出它的短描述。</target>
+        <target>这个选项默认启用，允许您选择是否希望在候选列表出现后，在选择的候选发生改变时或自动朗读候选时，为每一个候选字符读出解释。</target>
       </segment>
     </unit>
     <unit id="33671715-fb71-4d68-b3be-4bf8ca0837fa">
       <notes>
         <note appliesTo="source">line: 2832</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Note that for locales such as Chinese, the announcement of extra character descriptions for the selected candidate is not affected by this option.</source>
-        <target>请注意，在某些区域设置，此选项中读出选择的候选包含的短字符描述这一特性无效。</target>
+        <target>请注意，在某些区域设置，所选候选字的额外解释不受此选项影响。</target>
       </segment>
     </unit>
     <unit id="204c869b-f39b-4148-89cb-d999f237ee4f">

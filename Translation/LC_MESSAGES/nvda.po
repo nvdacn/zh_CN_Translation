@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 01:02+0000\n"
-"PO-Revision-Date: 2025-06-14 09:25+0800\n"
+"PO-Revision-Date: 2025-06-14 10:17+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2571,9 +2571,7 @@ msgid ""
 "Reports the current line under the application cursor. Pressing this key "
 "twice will spell the current line. Pressing three times will spell the line "
 "using character descriptions."
-msgstr ""
-"读出应用程序焦点所在行的内容，连按两次逐字朗读这一行，连按三次用短字符描述逐"
-"字解释。"
+msgstr "读出应用程序焦点所在行的内容，连按两次逐字朗读，连按三次逐字解释。"
 
 #. Translators: Input help mode message for left mouse click command.
 #: globalCommands.py:280
@@ -2632,8 +2630,8 @@ msgid ""
 "twice spells this information. Pressing three times spells it using "
 "character descriptions. Pressing four times shows it in a browsable message. "
 msgstr ""
-"读出编辑控件或文档中已选择的文本，连按两次逐字朗读，连按三次用短字符描述逐字"
-"解释，连按四次在浏览模式下显示。"
+"读出编辑控件或文档中已选择的文本，连按两次逐字朗读，连按三次逐字解释，连按四"
+"次在浏览模式下显示。"
 
 #. Translators: The message reported after selected text
 #. Translators: This is spoken to indicate what has just been selected.
@@ -3386,7 +3384,7 @@ msgid ""
 "information, and pressing three times Copies name and value of this object "
 "to the clipboard"
 msgstr ""
-"读出当前导航对象，连按两次拼读该信息，连按三次则拷贝该对象的名称和值到剪贴板"
+"读出当前导航对象，连按两次逐字朗读，连按三次则拷贝该对象的名称和值到剪贴板"
 
 #. Translators: Reported when the user tries to perform a command related to the navigator object
 #. but there is no current navigator object.
@@ -3566,7 +3564,7 @@ msgid ""
 "Reports the line of the current navigator object where the review cursor is "
 "situated. If this key is pressed twice, the current line will be spelled. "
 "Pressing three times will spell the line using character descriptions."
-msgstr "读出查看光标的所在行；连按两次拼读该行；连按三次竹字描述该行。"
+msgstr "读出查看光标的所在行；连按两次逐字朗读；连按三次逐字解释。"
 
 #. Translators: Input help mode message for move review cursor to next line command.
 #: globalCommands.py:1853
@@ -3614,7 +3612,7 @@ msgid ""
 "Speaks the word of the current navigator object where the review cursor is "
 "situated. Pressing twice spells the word. Pressing three times spells the "
 "word using character descriptions"
-msgstr "读出查看光标所在的单词，连按两次拼读该单词，连按三次则竹字描述该单词"
+msgstr "读出查看光标所在的单词，连按两次逐字朗读，连按三次逐字解释"
 
 #. Translators: Input help mode message for move review cursor to next word command.
 #: globalCommands.py:2052
@@ -3833,7 +3831,7 @@ msgstr "没有附加的详细信息"
 msgid ""
 "Reports the object with focus. If pressed twice, spells the information. "
 "Pressing three times spells it using character descriptions."
-msgstr "读出有焦点的对象，连按两次逐字朗读，连按三次用短字符描述逐字解释。"
+msgstr "读出有焦点的对象，连按两次逐字朗读，连按三次逐字解释。"
 
 #. Translators: Reported when there is no status line for the current program or window.
 #: globalCommands.py:2880
@@ -3853,7 +3851,7 @@ msgstr "无状态栏信息"
 #. Translators: Input help mode message for command which spells content of the status bar.
 #: globalCommands.py:2907
 msgid "Spells the current application status bar."
-msgstr "拼读当前应用程序的状态栏。"
+msgstr "逐字朗读当前应用程序的状态栏。"
 
 #. Translators: Input help mode message for command which copies status bar content to the clipboard.
 #: globalCommands.py:2925
@@ -3877,8 +3875,7 @@ msgstr "读出当前应用程序的状态栏，并将导航对象移动到该状
 msgid ""
 "Reads the current application status bar. If pressed twice, spells the "
 "information. If pressed three times, copies the status bar to the clipboard"
-msgstr ""
-"读出当前应用程序的状态栏，连按两次拼读该信息，连按三次复制该信息到剪贴板"
+msgstr "读出当前应用程序的状态栏，连按两次逐字朗读，连按三次复制该信息到剪贴板"
 
 #. Translators: Description for a keyboard command which reports the
 #. accelerator key of the currently focused object.
@@ -3927,7 +3924,7 @@ msgid ""
 "pressed twice, spells the title. If pressed three times, copies the title to "
 "the clipboard"
 msgstr ""
-"读出前台窗口或应用程序的标题。连按两次拼读标题，连按三次则复制标题到剪贴板"
+"读出前台窗口或应用程序的标题。连按两次逐字朗读，连按三次复制标题到剪贴板"
 
 #. Translators: Reported when there is no title text for current program or window.
 #: globalCommands.py:3062
@@ -4472,8 +4469,7 @@ msgstr "盲文 Unicode 规范化 {state}"
 msgid ""
 "Reports the text on the Windows clipboard. Pressing twice spells this "
 "information. Pressing three times spells it using character descriptions."
-msgstr ""
-"读出 Windows 剪贴板中的文本，连按两次逐字朗读，连按三次用短字符描述逐字解释。"
+msgstr "读出 Windows 剪贴板中的文本，连按两次逐字朗读，连按三次逐字解释。"
 
 #. Translators: Presented when there is no text on the clipboard.
 #: globalCommands.py:3888
@@ -13588,7 +13584,7 @@ msgstr "读出选中的候选字词(&S)"
 #. Input composition settings panel.
 #: gui\settingsDialogs.py:2297
 msgid "Always include short character &description when announcing candidates"
-msgstr "读出候选字词时总包含短字符描述(&D)"
+msgstr "读出候选字词时逐字解释(&D)"
 
 #. Translators: This is the label for a checkbox in the
 #. Input composition settings panel.
