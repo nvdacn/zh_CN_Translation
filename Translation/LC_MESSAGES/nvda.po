@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 01:02+0000\n"
-"PO-Revision-Date: 2025-06-11 09:36+0800\n"
+"PO-Revision-Date: 2025-06-14 09:25+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3302,17 +3302,17 @@ msgstr "%s符号"
 #: globalCommands.py:1223
 msgid ""
 "Toggles on and off delayed descriptions for characters on cursor movement"
-msgstr "切换光标移动时延迟字符描述的开关"
+msgstr "切换移动光标后读出字符解释的开关"
 
 #. Translators: The message announced when toggling the delayed character description setting.
 #: globalCommands.py:1231
 msgid "delayed character descriptions on"
-msgstr "开启光标移动时延迟字符描述"
+msgstr "开启移动光标后读出字符解释"
 
 #. Translators: The message announced when toggling the delayed character description setting.
 #: globalCommands.py:1234
 msgid "delayed character descriptions off"
-msgstr "关闭光标移动时延迟字符描述"
+msgstr "关闭移动光标后读出字符解释"
 
 #. Translators: Input help mode message for move mouse to navigator object command.
 #: globalCommands.py:1239
@@ -13386,7 +13386,7 @@ msgstr "循环语音模式中可用的模式(&M)"
 #. Translators: This is the label for a checkbox in the voice settings panel.
 #: gui\settingsDialogs.py:1868
 msgid "&Delayed descriptions for characters on cursor movement"
-msgstr "光标移动时延迟字符描述(&D)"
+msgstr "移动光标后读出字符解释(&D)"
 
 #. Translators: Warning shown when 'talk' speech mode is disabled in settings.
 #: gui\settingsDialogs.py:1924

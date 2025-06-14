@@ -18808,9 +18808,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#delayedCharacterDescriptions}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Delayed descriptions for characters on cursor movement</source>
-        <target>光标移动时延迟字符描述</target>
+        <target>移动光标后读出字符解释</target>
       </segment>
     </unit>
     <unit id="7629faf1-ed0e-472d-9745-2f5a697139ec">
@@ -18839,9 +18839,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2023</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When this setting is checked, NVDA will say the character description when you move by characters.</source>
-        <target>选中该选项后，NVDA 会在您按字符移动时读出字符描述。</target>
+        <target>选中该选项后，NVDA 会在您按字符移动时读出字符解释。</target>
       </segment>
     </unit>
     <unit id="0a3937c3-e3eb-462a-95ee-b878b7b3e42b">
@@ -18866,9 +18866,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2028</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The delayed character description will be cancelled if other text is spoken during that time, or if you press the `control` key.</source>
-        <target>如果在读出描述期间朗读了其他内容，或者如果您按下了`Ctrl`键，延迟字符描述会被打断。</target>
+        <target>如果在读出解释期间朗读了其他内容，或者如果您按下了 `Ctrl` 键，字符解释会被打断。</target>
       </segment>
     </unit>
     <unit id="3046bf0a-6788-49a0-8f8a-f38b07eb47f4">
