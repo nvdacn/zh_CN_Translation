@@ -5421,7 +5421,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>2025.1.2</source>
         <target>2025.1.2</target>
       </segment>
@@ -5430,9 +5430,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is a patch release to fix a bug.</source>
-        <target>This is a patch release to fix a bug.</target>
+        <target>这是一个修复错误的补丁版本。</target>
       </segment>
     </unit>
     <unit id="2948bf90-58ac-4a6a-831e-c2700a4a108c">
@@ -5440,9 +5440,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Bug fixes</source>
-        <target>Bug fixes</target>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="9032ce45-08ec-4d9a-85a8-38a88deebde1">
@@ -5450,9 +5450,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Certain Microsoft Word versions before version 16.0.18226 will no longer crash on opening. (#18280)</source>
-        <target>Certain Microsoft Word versions before version 16.0.18226 will no longer crash on opening. (#18280)</target>
+        <target>修复了某些低于 16.0.18226 版本的 Microsoft Word 打开时崩溃的问题。(#18280)</target>
       </segment>
     </unit>
     <unit id="44bcdd27-2c10-4085-9dee-76fc5d2677d8">
