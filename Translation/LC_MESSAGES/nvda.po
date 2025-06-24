@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 07:38+0000\n"
-"PO-Revision-Date: 2025-06-24 09:24+0800\n"
+"PO-Revision-Date: 2025-06-24 17:04+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4977,31 +4977,24 @@ msgstr "在声音拆分模式之间循环切换"
 
 #. Translators: Input help mode message for report language for caret command.
 #: globalCommands.py:4939
-#, fuzzy
-#| msgid ""
-#| "Reports formatting info for the text under the caret. If pressed twice, "
-#| "presents the information in browse mode"
 msgctxt "reportLanguage"
 msgid ""
 "Reports the language for the text under the caret. If pressed twice, "
 "presents the information in browse mode"
-msgstr "读出当前光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
+msgstr "读出光标处文本的语言。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
 #: globalCommands.py:4960
-#, fuzzy, python-brace-format
-#| msgid "Automatic language switching (when supported)"
+#, python-brace-format
 msgctxt "reportLanguage"
 msgid "{languageDescription} (not supported)"
-msgstr "自动语言切换（若支持）(&L)"
+msgstr "{languageDescription}（不支持）"
 
 #. Translators: title for report caret language dialog.
 #: globalCommands.py:4969
-#, fuzzy
-#| msgid "Unable to mark log position"
 msgctxt "reportLanguage"
 msgid "Language at caret position"
-msgstr "无法标记日志位置"
+msgstr "光标处文本的语言"
 
 #. Translators: Documentation string for the script that toggles whether the output from the remote computer is muted.
 #: globalCommands.py:4974
@@ -10389,24 +10382,18 @@ msgstr "段落符（¶）"
 
 #. Translators: A label for an option to report when the language of the text being read is not supported by the current synthesizer.
 #: config\configFlags.py:313
-#, fuzzy
-#| msgid "Speech"
 msgctxt "reportLanguage"
 msgid "Speech"
 msgstr "语音"
 
 #. Translators: A label for an option to report when the language of the text being read is not supported by the current synthesizer.
 #: config\configFlags.py:315
-#, fuzzy
-#| msgid "Beep"
 msgctxt "reportLanguage"
 msgid "Beep"
-msgstr "发出提示音"
+msgstr "提示音"
 
 #. Translators: A label for an option to report when the language of the text being read is not supported by the current synthesizer.
 #: config\configFlags.py:317
-#, fuzzy
-#| msgid "Off"
 msgctxt "reportLanguage"
 msgid "Off"
 msgstr "关闭"
@@ -13395,18 +13382,16 @@ msgstr "自动方言切换（若支持）(&D)"
 
 #. Translators: This is the label for a checkbox in the voice settings panel. If checked, the language of the text been read will be reported.
 #: gui\settingsDialogs.py:1712
-#, fuzzy
-#| msgid "Report mouse &shape changes"
 msgctxt "reportLanguage"
 msgid "Report lan&guage changes"
-msgstr "读出鼠标形状改变(&S)"
+msgstr "读出语言更改(&G)"
 
 #. Translators: This is a label for a combobox in the Voice settings panel to select
 #. reporting when the language of the text being read is not supported by the current synthesizer.
 #: gui\settingsDialogs.py:1728
 msgctxt "reportLanguage"
 msgid "Report when switching to language is not s&upported by synthesizer"
-msgstr ""
+msgstr "切换到合成器不支持的语言时提示(&U)"
 
 #. Translators: This is the label for a combobox in the
 #. voice settings panel (possible choices are none, some, most and all).
@@ -18316,12 +18301,10 @@ msgstr "{val:g} pt 段落前空格"
 
 #. Translators: Reported when the language of the text being read is not supported by the current synthesizer.
 #: speech\languageHandling.py:43
-#, fuzzy, python-brace-format
-#| msgctxt "addonStore"
-#| msgid "Add-on not supported %s"
+#, python-brace-format
 msgctxt "languageNotSupported"
 msgid "{lang} (not supported)"
-msgstr "插件不支持 %s"
+msgstr "{lang}（不支持）"
 
 #. Translators: Name of the speech mode which disables speech output.
 #: speech\speech.py:98
