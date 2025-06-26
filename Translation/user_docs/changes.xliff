@@ -5907,9 +5907,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In WinUI 3 apps including Microsoft Copilot and parts of Windows 11 File Explorer, NVDA will no longer fail to announce controls when using mouse and touch interaction. (#17407, #17771, @josephsl)</source>
-        <target>In WinUI 3 apps including Microsoft Copilot and parts of Windows 11 File Explorer, NVDA will no longer fail to announce controls when using mouse and touch interaction. (#17407, #17771, @josephsl)</target>
+        <target>修复了在 WinUI 3 的应用（如 Microsoft Copilot 和 Windows 11 文件资源管理器的部分组件）中，使用鼠标和触摸交互时，NVDA 无法读出控件信息的问题。(#17407, #17771, @josephsl)</target>
       </segment>
     </unit>
     <unit id="66e6038e-9c92-4f78-8ca0-931d53599ee0">
@@ -5917,9 +5917,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed some rare cases where NVDA playing sounds could result in unexpected errors. (#17918, @LeonarddeR)</source>
-        <target>Fixed some rare cases where NVDA playing sounds could result in unexpected errors. (#17918, @LeonarddeR)</target>
+        <target>修复了 NVDA 播放音效时可能引发意外错误的罕见情况。(#17918, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="c3a7e291-6454-4680-b1a7-fd4369f90405">
@@ -5927,9 +5927,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>In Microsoft Word, when UIA is enabled, NVDA will no longer braille redundant table end markers when the cursor is in a table cell. (#15828, @LeonarddeR)</source>
-        <target>In Microsoft Word, when UIA is enabled, NVDA will no longer braille redundant table end markers when the cursor is in a table cell. (#15828, @LeonarddeR)</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="4427930b-22ca-47a1-8dee-2483373f2dbe">
@@ -5937,9 +5937,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 62</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Geekbench 6.4, NVDA can again read the ribbon and options within. (#17892, @mzanm)</source>
-        <target>In Geekbench 6.4, NVDA can again read the ribbon and options within. (#17892, @mzanm)</target>
+        <target>修复了无法朗读 Geekbench 6.4 的功能区和内部选项的问题。(#17892, @mzanm)</target>
       </segment>
     </unit>
     <unit id="b714a33a-03b8-49b1-8d0a-e4a4acd902d2">
@@ -5967,9 +5967,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Windows 11 Notepad, NVDA will announce values typed into the "Line number" field of the "Go to line" dialog when "speak typed characters" is set to "only in edit controls". (#18208, @josephsl)</source>
-        <target>In Windows 11 Notepad, NVDA will announce values typed into the "Line number" field of the "Go to line" dialog when "speak typed characters" is set to "only in edit controls". (#18208, @josephsl)</target>
+        <target>修复了在 Windows 11 记事本中，当读出输入的字符设置为仅在编辑控件中时，NVDA 无法读出转到行对话框行号字段中输入值的错误。(#18208, @josephsl)</target>
       </segment>
     </unit>
     <unit id="60f1da11-e150-4032-9097-aff9bb78c9ec">
@@ -5977,9 +5977,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In the Start Menu in Windows 11 24H2: (#17951, @jcsteh)</source>
-        <target>In the Start Menu in Windows 11 24H2: (#17951, @jcsteh)</target>
+        <target>Windows 11 24H2 开始菜单的改进(#17951, @jcsteh)：</target>
       </segment>
     </unit>
     <unit id="d792c6fc-3164-43a8-b863-a66435c358d7">
@@ -5987,9 +5987,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer sometimes incorrectly switches to browse mode soon after entering the Start Menu.</source>
-        <target>NVDA no longer sometimes incorrectly switches to browse mode soon after entering the Start Menu.</target>
+        <target>修复了进入开始菜单后偶尔错误地切换到浏览模式的问题。</target>
       </segment>
     </unit>
     <unit id="02458b35-16ed-43a2-9b81-7e1dfe1abde0">
@@ -5997,9 +5997,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer sometimes freezes when navigating in browse mode.</source>
-        <target>NVDA no longer sometimes freezes when navigating in browse mode.</target>
+        <target>修复了在浏览模式下导航时偶尔冻结的问题。</target>
       </segment>
     </unit>
     <unit id="46f2364c-fb06-48ad-abae-1e072d21cd21">
@@ -6007,9 +6007,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Search suggestions are now reported reliably.</source>
-        <target>Search suggestions are now reported reliably.</target>
+        <target>现能可靠地读出搜索建议。</target>
       </segment>
     </unit>
     <unit id="7a37c4b1-5426-4bb4-9546-388362694c0e">
@@ -6017,9 +6017,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Windows 11, NVDA will no longer announce emoji panel items twice while browsing them. (#18236, @josephsl)</source>
-        <target>In Windows 11, NVDA will no longer announce emoji panel items twice while browsing them. (#18236, @josephsl)</target>
+        <target>修复了在 Windows 11 中浏览表情符号面板时会重复读出项目的错误。(#18236, @josephsl)</target>
       </segment>
     </unit>
     <unit id="fd77332b-d60c-4817-8306-f55632ba0018">
@@ -6027,9 +6027,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In focus mode in web browsers, it is now possible to review and spell the labels of controls when those labels are specifically provided for accessibility; e.g. via `aria-label` or `aria-labelledby`. (#15159, @jcsteh)</source>
-        <target>In focus mode in web browsers, it is now possible to review and spell the labels of controls when those labels are specifically provided for accessibility; e.g. via `aria-label` or `aria-labelledby`. (#15159, @jcsteh)</target>
+        <target>修复了无法在浏览器的焦点模式下查看和逐字解释专门为无障碍功能提供的控件标签（如通过 `aria-label` 或 `aria-labelledby` 提供的标签）的问题。(#15159, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="49efea65-1510-4c7c-8956-1d0e51d21751">
@@ -6037,9 +6037,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It is now possible to review and spell the labels of controls in Google Chrome menus and dialogs. (#11285, @jcsteh)</source>
-        <target>It is now possible to review and spell the labels of controls in Google Chrome menus and dialogs. (#11285, @jcsteh)</target>
+        <target>修复了无法查看和逐字解释 Google Chrome 菜单和对话框的控件标签的问题。(#11285, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="d20c0153-d1c5-477c-9099-28a28dbef92d">
@@ -6076,9 +6076,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated SCons to 4.9.1. (#18069, @dpy013)</source>
-        <target>Updated SCons to 4.9.1. (#18069, @dpy013)</target>
+        <target>将 SCons 更新到 4.9.1。(#18069, @dpy013)</target>
       </segment>
     </unit>
     <unit id="8d58e256-4c65-4c11-9503-015570425b68">
@@ -6086,9 +6086,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated NSIS to 3.11 (#18027, @dpy013)</source>
-        <target>Updated NSIS to 3.11 (#18027, @dpy013)</target>
+        <target>将 NSIS 更新到 3.11。(#18027, @dpy013)</target>
       </segment>
     </unit>
     <unit id="9aa0c4a9-0b44-4259-93c1-4b45b5abbc76">
@@ -6096,9 +6096,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated Ruff to 0.11.12. (#17671)</source>
-        <target>Updated Ruff to 0.11.12. (#17671)</target>
+        <target>将 Ruff 更新到 0.11.12。(#17671)</target>
       </segment>
     </unit>
     <unit id="f58b3483-5950-4042-8b54-7006c4052ff7">
@@ -6106,9 +6106,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated pre-commit to 4.2.0. (#17671)</source>
-        <target>Updated pre-commit to 4.2.0. (#17671)</target>
+        <target>将 pre-commit 更新到 4.2.0。(#17671)</target>
       </segment>
     </unit>
     <unit id="c812c954-dd45-4ea3-80ab-6a2ec00e5ecb">
@@ -6116,9 +6116,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated pyright to 1.1.401. (#17671)</source>
-        <target>Updated pyright to 1.1.401. (#17671)</target>
+        <target>将 pyright 更新到 1.1.401。(#17671)</target>
       </segment>
     </unit>
     <unit id="4f704675-7579-4e42-9c71-4056505f83cd">
