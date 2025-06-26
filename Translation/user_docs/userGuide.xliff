@@ -7319,9 +7319,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Report language |Not assigned |Not assigned |Reports text language. Pressing twice shows the information in a window</source>
-        <target>Report language |Not assigned |Not assigned |Reports text language. Pressing twice shows the information in a window</target>
+        <target>读出语言 | 未分配 | 未分配 | 读出光标处文本的语言。连按两次，在浏览模式下显示该信息</target>
       </segment>
     </unit>
     <unit id="85eb7fc3-aea0-4669-b0a9-ecb073bebfc7">
@@ -7564,9 +7564,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Heading level 1, 2, etc. |`1`, `2`, etc. |Move to the next heading at the specified level</source>
-        <target>Heading level 1, 2, etc. |`1`, `2`, etc. |Move to the next heading at the specified level</target>
+        <target>1、2、... 级标题 | `1`、`2`、... | 移动到下一个指定级别的标题</target>
       </segment>
     </unit>
     <unit id="fa89304d-255f-4e5b-b042-1cce779b56e0">
@@ -9021,9 +9021,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 480</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Command Prompt and PowerShell running in admin mode</source>
-        <target>Command Prompt and PowerShell running in admin mode</target>
+        <target>以管理员身份运行的命令提示符和Windows PowerShell</target>
       </segment>
     </unit>
     <unit id="576ff76a-f4c6-4ed0-b722-caf2aab44ce8">
@@ -9031,9 +9031,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 481</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Task Manager</source>
-        <target>Task Manager</target>
+        <target>任务管理器</target>
       </segment>
     </unit>
     <unit id="8b090b65-7f9a-4583-8fe5-9c1569a76b39">
@@ -9041,9 +9041,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 482</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Windows 11 Voice Access</source>
-        <target>Windows 11 Voice Access</target>
+        <target>Windows 11 语音访问</target>
       </segment>
     </unit>
     <unit id="9247705a-e595-4ad8-8289-e13959a42522">
@@ -13348,27 +13348,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1139</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>However, NVDA has a Native Selection Mode which can be turned on in particular Browse Mode documents which can support it.</source>
-        <target>However, NVDA has a Native Selection Mode which can be turned on in particular Browse Mode documents which can support it.</target>
+        <target>但是，NVDA 有一个应用原生选择模式，可在特定的浏览模式文档中打开。</target>
       </segment>
     </unit>
     <unit id="7657ffc2-f9a7-40ee-a0e8-e888bdc9407d">
       <notes>
         <note appliesTo="source">line: 1140</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Native Selection causes the document's native selection to follow NVDA's Browse Mode selection, which enables details such as formatting, links, and tables to be copied.</source>
-        <target>Native Selection causes the document's native selection to follow NVDA's Browse Mode selection, which enables details such as formatting, links, and tables to be copied.</target>
+        <target>应用原生选择功能使文档的实际选择跟随 NVDA 的浏览模式选择，从而支持复制格式、链接和表格等详细信息。</target>
       </segment>
     </unit>
     <unit id="83202642-35db-40fb-a987-90107d68dcf6">
       <notes>
         <note appliesTo="source">line: 1141</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Currently, Native Selection Mode is supported in:</source>
-        <target>Currently, Native Selection Mode is supported in:</target>
+        <target>目前，以下程序支持应用原生选择模式：</target>
       </segment>
     </unit>
     <unit id="5d42ddfe-2210-4db7-83c7-cfa24e0d6487">
@@ -13376,9 +13376,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1143</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mozilla Firefox</source>
-        <target>Mozilla Firefox</target>
+        <target>Mozilla Firefox（火狐浏览器）</target>
       </segment>
     </unit>
     <unit id="8fce8189-1766-4811-ab4c-a3def790a7c0">
@@ -13386,9 +13386,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1144</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mozilla Thunderbird</source>
-        <target>Mozilla Thunderbird</target>
+        <target>Mozilla Thunderbird（雷鸟邮件客户端）</target>
       </segment>
     </unit>
     <unit id="8252f830-c763-4e24-917f-93202a61aaa3">
@@ -13396,9 +13396,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1145</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Chrome, Edge, and any browser based on Chromium 134 or newer</source>
-        <target>Chrome, Edge, and any browser based on Chromium 134 or newer</target>
+        <target>Google Chrome、Microsoft Edge 以及基于 Chromium 134 或更高版本的浏览器</target>
       </segment>
     </unit>
     <unit id="0c220da6-bf37-40be-b1a7-95859acd96c7">
