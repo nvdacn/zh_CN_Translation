@@ -5513,7 +5513,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>2025.2</source>
         <target>2025.2</target>
       </segment>
@@ -5522,45 +5522,45 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This release includes improvements in Windows 11, browse mode, and Microsoft Word.</source>
-        <target>This release includes improvements in Windows 11, browse mode, and Microsoft Word.</target>
+        <target>本版包含对 Windows 11、浏览模式和 Microsoft Word 等方面的多项改进。</target>
       </segment>
     </unit>
     <unit id="2a308ac5-5f0a-4c1e-8c23-53afdc84e34e">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In browse mode, quick navigation keys for headings 7 through 9 have been added.</source>
-        <target>In browse mode, quick navigation keys for headings 7 through 9 have been added.</target>
+        <target>在浏览模式中，新增了快速导航到 7 到 9 级标题的快捷键。</target>
       </segment>
     </unit>
     <unit id="5e686bd8-3ca6-484b-8ea7-611c9c29ee28">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Elements List and Find dialogs no longer cause application profiles to be deactivated.</source>
-        <target>The Elements List and Find dialogs no longer cause application profiles to be deactivated.</target>
+        <target>元素列表和查找对话框不再导致应用程序配置被禁用。</target>
       </segment>
     </unit>
     <unit id="ef9e6f1f-c57b-46b0-85ee-1e5fae216d29">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Microsoft Edge, notifications like "loading complete" no longer stop say all.</source>
-        <target>In Microsoft Edge, notifications like "loading complete" no longer stop say all.</target>
+        <target>在 Microsoft Edge 中，"加载完成"等通知不再中断全文朗读。</target>
       </segment>
     </unit>
     <unit id="a4a20527-5e76-4cda-8a76-6982ce7f5254">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Microsoft Word, when using the shortcuts to switch to page view or outline view, the new view is now reported.</source>
-        <target>In Microsoft Word, when using the shortcuts to switch to page view or outline view, the new view is now reported.</target>
+        <target>在 Microsoft Word 中，使用快捷键切换到页面视图或大纲视图时会读出新视图状态。</target>
       </segment>
     </unit>
     <unit id="143c1d01-c1de-4946-9607-4f4c8af4c3b9">
@@ -5576,54 +5576,54 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On Windows 11, NVDA will no longer announce emoji panel items twice while browsing them.</source>
-        <target>On Windows 11, NVDA will no longer announce emoji panel items twice while browsing them.</target>
+        <target>在 Windows 11 中，浏览表情符号面板时不再重复朗读。</target>
       </segment>
     </unit>
     <unit id="b3dc7d8e-5d20-4b05-8f3e-9d71a7d8c113">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Performance and reliability in the Start Menu on Windows 11 24H2 has been improved.</source>
-        <target>Performance and reliability in the Start Menu on Windows 11 24H2 has been improved.</target>
+        <target>Windows 11 24H2 开始菜单的性能和稳定性已得到改进。</target>
       </segment>
     </unit>
     <unit id="26fdd219-5b92-436b-8206-a7621acb7004">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On Windows 11 24H2 and newer, window state will be announced when resizing windows with `Windows+arrow` keys.</source>
-        <target>On Windows 11 24H2 and newer, window state will be announced when resizing windows with `Windows+arrow` keys.</target>
+        <target>在 Windows 11 24H2 或更高版本中，使用 Windows+光标键调整窗口大小时会读出窗口状态。</target>
       </segment>
     </unit>
     <unit id="63a9b533-bc32-4110-9ed5-db29c23a7b6a">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Support has also been added for Windows 11 Voice Access.</source>
-        <target>Support has also been added for Windows 11 Voice Access.</target>
+        <target>新增了对 Windows 11 语音访问功能的支持。</target>
       </segment>
     </unit>
     <unit id="64028b60-b984-4329-9a44-434710b47933">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Options have been added to report the language of the text being read, and report when the language is not supported by the current synthesizer.</source>
-        <target>Options have been added to report the language of the text being read, and report when the language is not supported by the current synthesizer.</target>
+        <target>新增了读出正在阅读文本语言的选项，以及当语言不被当前语音合成器支持时进行提示的功能。</target>
       </segment>
     </unit>
     <unit id="1aee3e3d-479d-4061-ab52-67a8a08ada75">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Support for the NLS eReader Zoomax braille display has been added.</source>
-        <target>Support for the NLS eReader Zoomax braille display has been added.</target>
+        <target>新增了对 NLS eReader Zoomax 盲文点显器的支持。</target>
       </segment>
     </unit>
     <unit id="3765445c-c19a-44d0-be3e-e76a4afbc7db">
@@ -5639,27 +5639,27 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 25</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>LibLouis has been updated, adding new Biblical Hebrew, Russian 6 dot computer braille and Thai Grade 2 braille tables.</source>
-        <target>LibLouis has been updated, adding new Biblical Hebrew, Russian 6 dot computer braille and Thai Grade 2 braille tables.</target>
+        <target>LibLouis 已更新，新增了圣经希伯来语、俄语 6 点计算机盲文和泰语 2 级盲文表。</target>
       </segment>
     </unit>
     <unit id="999c51f6-2fbc-4da7-8a52-ba56e1caa4f0">
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>eSpeak NG has been updated, adding support for Aromanian, Crimean Tatar, Mongolian, and Pashto.</source>
-        <target>eSpeak NG has been updated, adding support for Aromanian, Crimean Tatar, Mongolian, and Pashto.</target>
+        <target>更新了 eSpeak NG，新增对阿罗马尼亚语、克里米亚鞑靼语、蒙古语和普什图语的支持。</target>
       </segment>
     </unit>
     <unit id="c3886e8f-9d32-4855-9d4a-6aed02356a15">
       <notes>
         <note appliesTo="source">line: 28</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>There have also been a number of other fixes and improvements, including to mouse and touch interaction, Windows 11 Notepad, Google Chrome.</source>
-        <target>There have also been a number of other fixes and improvements, including to mouse and touch interaction, Windows 11 Notepad, Google Chrome.</target>
+        <target>还包括对鼠标和触摸交互、Windows 11 记事本和 Google Chrome 的多项修复和改进。</target>
       </segment>
     </unit>
     <unit id="55d30bab-021d-40d2-bba9-54988a117d6f">
@@ -5667,9 +5667,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>New Features</source>
-        <target>New Features</target>
+        <target>新特性</target>
       </segment>
     </unit>
     <unit id="3e86a50e-1bde-4b0a-9158-f61ed667e2a0">
@@ -5787,9 +5787,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changes</source>
-        <target>Changes</target>
+        <target>改进</target>
       </segment>
     </unit>
     <unit id="5d04ebb6-a06a-41f2-9a65-4c80de9f749f">
@@ -5797,9 +5797,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Component updates:</source>
-        <target>Component updates:</target>
+        <target>组件更新：</target>
       </segment>
     </unit>
     <unit id="c647dc99-dee4-408a-be38-d79ba3ed10e9">
@@ -5897,9 +5897,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Bug Fixes</source>
-        <target>Bug Fixes</target>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="b7ec2e04-e695-4474-95d2-1851bc6ed982">
@@ -6047,18 +6047,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changes for Developers</source>
-        <target>Changes for Developers</target>
+        <target>开发者需要了解的变化</target>
       </segment>
     </unit>
     <unit id="d265f758-9b3b-4124-afe0-3b7f62c51f58">
       <notes>
         <note appliesTo="source">line: 76</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please refer to [the developer guide](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
-        <target>Please refer to [the developer guide](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</target>
+        <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API)。</target>
       </segment>
     </unit>
     <unit id="d63f10d6-b535-4a37-80cb-2096ebb48685">
@@ -6066,9 +6066,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Component updates:</source>
-        <target>Component updates:</target>
+        <target>组件更新：</target>
       </segment>
     </unit>
     <unit id="5735c4e6-904f-4656-ad83-98fbd6d88cef">
