@@ -5567,9 +5567,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 13</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When UIA is enabled, redundant table end markers are no longer brailled when the cursor is in a table cell.</source>
-        <target>When UIA is enabled, redundant table end markers are no longer brailled when the cursor is in a table cell.</target>
+        <target>启用 UIA 后，当光标位于表格单元格内时，盲文将不再显示冗余的表格结束标记。</target>
       </segment>
     </unit>
     <unit id="d6db06f7-4b2e-4450-a815-858cacaeccf4">
@@ -5630,9 +5630,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 23</note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Support for cursor routing with the point and click action on the Humanware Monarch has been added.</source>
-        <target/>
+        <target>新增支持在 Humanware Monarch 设备上通过点击操作进行光标定位。</target>
       </segment>
     </unit>
     <unit id="917320f4-1f28-45e1-886a-6ec79f2fbf62">
@@ -5757,9 +5757,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>Unassigned commands have been added to open the NVDA settings dialog in the following categories: Vision, Windows OCR, Add-on Store and Advanced. (#18313, @CyrilleB79)</source>
-        <target/>
+        <target>新增了快速打开以下类别的 NVDA 设置对话框的未分配命令：视觉、Windows OCR、插件商店和高级。(#18313, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="005198eb-9158-4a5c-a2ed-44e996b21d31">
@@ -5927,9 +5927,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment>
+      <segment state="translated">
         <source>In Microsoft Word, when UIA is enabled, NVDA will no longer braille redundant table end markers when the cursor is in a table cell. (#15828, @LeonarddeR)</source>
-        <target></target>
+        <target>修复了在 Microsoft Word 中启用 UIA 后，当光标位于表格单元格内时，盲文会显示冗余表格结束标记的错误。(#15828, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="4427930b-22ca-47a1-8dee-2483373f2dbe">
@@ -5947,9 +5947,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer fails to read check list items in Microsoft Loop when viewed in Google Chrome / Microsoft Edge. (#18130)</source>
-        <target>NVDA no longer fails to read check list items in Microsoft Loop when viewed in Google Chrome / Microsoft Edge. (#18130)</target>
+        <target>修复了 NVDA 在 Google Chrome 和 Microsoft Edge 中无法正确朗读 Microsoft Loop 清单项目的问题。(#18130)</target>
       </segment>
     </unit>
     <unit id="2562bb0b-07e0-4096-8583-1092051654e9">
@@ -5957,9 +5957,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now respects its line number reporting setting in Microsoft SQL Server Management Studio 21. (#18176, @LeonarddeR)</source>
-        <target>NVDA now respects its line number reporting setting in Microsoft SQL Server Management Studio 21. (#18176, @LeonarddeR)</target>
+        <target>修复了在 Microsoft SQL Server Management Studio 21 中无法正确朗读行号的问题。(#18176, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="53c6df7c-78ef-42eb-bd14-915cc00af54b">
