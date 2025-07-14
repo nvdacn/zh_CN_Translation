@@ -243,6 +243,11 @@ Rem 从 Crowdin 下载已翻译的文件
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
 %L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
+IF NOT EXIST "%DownloadFilename%" (
+  echo Error: %FileName% download failed.
+  Git restore "%GitAddPath%/%FileName%"
+  exit /b 1
+)
 if /I %Action%==DownloadAndCommit (goto Commit)
 Exit
 
