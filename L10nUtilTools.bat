@@ -94,7 +94,7 @@ Rem 跳转到用户输入的命令或退出
 :goto
 cls
 goto %CLI% >Nul
-Exit
+exit
 
 Rem 生成文档的流程，此部分命令会连续执行，直到符合输入的命令后退出  
 Rem 生成更新日志  
@@ -104,26 +104,26 @@ Rem 生成更新日志
 :Z
 IF EXIST "%~dp0Preview\changes.html" (del /f /q "%~dp0Preview\changes.html")
 %L10nUtil% xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
-if /I "%CLI%"=="C" (Exit)
+if /I "%CLI%"=="C" (exit /b %errorlevel%)
 
 Rem 生成用户指南  
 :U
 IF EXIST "%~dp0Preview\userGuide.html" (del /f /q "%~dp0Preview\userGuide.html")
 %L10nUtil% xliff2html -t userGuide "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\userGuide.html"
-if /I "%CLI%"=="U" (Exit)
+if /I "%CLI%"=="U" (exit /b %errorlevel%)
 
 Rem 生成热键快速参考  
 :K
 IF EXIST "%~dp0Preview\keyCommands.html" (del /f /q "%~dp0Preview\keyCommands.html")
 %L10nUtil% xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
-if /I "%CLI%"=="K" (Exit)
-if /I "%CLI%"=="D" (Exit)
+if /I "%CLI%"=="K" (exit /b %errorlevel%)
+if /I "%CLI%"=="D" (exit /b %errorlevel%)
 
 Rem 生成界面翻译  
 :L
 IF EXIST "%~dp0Preview\nvda.mo" (del /f /q "%~dp0Preview\nvda.mo")
 "%~dp0Tools\msgfmt.exe" -o "%~dp0Preview\nvda.mo" "%~dp0Translation\LC_MESSAGES\nvda.po"
-if /I "%CLI%"=="L" (Exit)
+if /I "%CLI%"=="L" (exit /b %errorlevel%)
 
 Rem 生成NVDA翻译目录结构  
 IF EXIST "%~dp0Preview\Test" (rd /s /q "%~dp0Preview\Test")
@@ -139,7 +139,7 @@ MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\styles.css" "%~dp0Preview\style
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\changes.html" "%~dp0Preview\changes.html"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\keyCommands.html" "%~dp0Preview\keyCommands.html"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\userGuide.html" "%~dp0Preview\userGuide.html"
-if /I "%CLI%"=="T" (Exit)
+if /I "%CLI%"=="T" (exit /b %errorlevel%)
 
 Rem 获取当前分支名称、系统的日期和时间作为翻译测试压缩包的部分名称  
 for /f "delims=" %%o in ('git branch --show-current') do set Branch=%%o
@@ -153,7 +153,7 @@ If "%DateTime:~4,1%" == " " (
 Rem 生成翻译测试压缩包  
 IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 "%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
-if /I "%CLI%"=="Z" (Exit)
+if /I "%CLI%"=="Z" (exit /b %errorlevel%)
 
 Rem 从给定的 nvda.pot 更新界面翻译字符串  
 :UDL
@@ -179,7 +179,7 @@ IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
 )
 CD /D %Gettext% 
 msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0PotXliff\nvda.pot"
-Exit
+exit /b %errorlevel%
 
 Rem 处理标签  
 :DLL
@@ -239,7 +239,7 @@ for %%i in (L C U) do (
   )
 )
 if /I %Action%==DownloadAndCommit (goto Commit)
-exit
+exit /b %errorlevel%
 
 Rem 从 Crowdin 下载已翻译的文件  
 :DownloadFiles
@@ -253,7 +253,7 @@ IF NOT EXIST "%DownloadFilename%" (
   exit /b 1
 )
 if /I %Action%==DownloadAndCommit (goto Commit)
-Exit
+exit /b %errorlevel%
 
 Rem 将下载的翻译文件提交到存储库  
 :Commit
@@ -266,7 +266,7 @@ if /I %Type%==All (
 )
 git add %AddFileList%
 git commit -m "%CommitMSG%"
-exit
+exit /b %errorlevel%
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
@@ -291,7 +291,7 @@ if /I %Type%==Docs (
 )
 :Upload
 %L10nUtil% uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
-Exit
+exit /b %errorlevel%
 
 Rem 清理本工具生成的所有文件  
 :CLE
@@ -299,4 +299,4 @@ rd /s /q "%~dp0Crowdin"
 rd /s /q "%~dp0PotXliff"
 rd /s /q "%~dp0Preview"
 Git restore PotXliff/* Preview/*
-Exit
+exit /b %errorlevel%
