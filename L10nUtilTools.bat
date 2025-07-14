@@ -234,7 +234,7 @@ Rem **A 系列命令：通过循环调用另一个L10nUtilTools.bat来分别处�
 for %%i in (L C U) do (
   cmd /C "%~dp0L10nUtilTools" %Parameter%%%i
   if not !errorlevel! equ 0 (
-    echo Error: Command %Parameter%%%i failed with exit code !errorlevel!
+    echo Error: Command %Parameter%%%i failed with exit code !errorlevel!.
     exit /b !errorlevel!
   )
 )
