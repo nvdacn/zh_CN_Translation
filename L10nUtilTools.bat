@@ -232,10 +232,10 @@ goto %Action%
 Rem **A 系列命令：通过循环调用另一个L10nUtilTools.bat来分别处理  
 :All
 for %%i in (L C U) do (
-  Start /Wait /D "%~dp0" L10nUtilTools %Parameter%%%i
-  if not %errorlevel% equ 0 (
-    echo Error: Command %Parameter%%%i failed with exit code %errorlevel%
-    exit /b %errorlevel%
+  cmd /C "%~dp0L10nUtilTools" %Parameter%%%i
+  if not !errorlevel! equ 0 (
+    echo Error: Command %Parameter%%%i failed with exit code !errorlevel!
+    exit /b !errorlevel!
   )
 )
 if /I %Action%==DownloadAndCommit (goto Commit)
