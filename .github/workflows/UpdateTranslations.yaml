@@ -1,0 +1,41 @@
+name: Update Translations
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Update-Translations:
+    name: Update translation from Crowdin
+    if: github.repository == 'nvdacn/zh_CN_Translation'
+    runs-on: windows-latest
+    steps:
+      - name: Checkout ${{ github.repository }} repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install dependencies
+        uses: ./.github/workflows/InstallDependencies
+      - name: Configure environment
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
+          $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+        if: success()
+      - name: Process Translations
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+        if: success()
+      - name: Commit & Push
+        shell: pwsh
+        run: |
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+              git commit -m "更新翻译（从 Crowdin）"
+              git push origin ${{ github.ref_name }}
+          } else {
+              Write-Host "No changes to commit, skipping commit and push."
+          }
