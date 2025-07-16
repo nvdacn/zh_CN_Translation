@@ -252,6 +252,9 @@ if not %errorlevel% equ 0 (
   Git restore "%GitAddPath%/%FileName%"
   exit /b %errorlevel%
 )
+if /I %Type%==LC_MESSAGES (
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1"
+)
 if /I %Action%==DownloadAndCommit (goto Commit)
 exit /b %errorlevel%
 
