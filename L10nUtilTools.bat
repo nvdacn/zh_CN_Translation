@@ -233,7 +233,7 @@ Rem **A 系列命令：通过循环调用另一个L10nUtilTools.bat来分别处�
 :All
 for %%i in (L C U) do (
   cmd /C "%~dp0L10nUtilTools" %Parameter%%%i
-  if not !errorlevel! equ 0 (
+  if !errorlevel! neq 0 (
     echo Error: Command %Parameter%%%i failed with exit code !errorlevel!.
     exit /b !errorlevel!
   )
@@ -247,7 +247,7 @@ Rem 从 Crowdin 下载已翻译的文件
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
 %L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
-if not %errorlevel% equ 0 (
+if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
   Git restore "%GitAddPath%/%FileName%"
   exit /b %errorlevel%
