@@ -268,8 +268,13 @@ if /I %Type%==All (
   set CommitMSG=更新 %FileName%（从 Crowdin）
 )
 git add %AddFileList%
-git commit -m "%CommitMSG%"
-exit /b %errorlevel%
+git diff --cached --quiet
+if %errorlevel% neq 0 (
+  git commit -m "%CommitMSG%"
+) else (
+  echo No changes to commit, skipping commit.
+)
+exit /b 0
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
