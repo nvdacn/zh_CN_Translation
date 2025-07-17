@@ -1,18 +1,20 @@
-name: Update Translations
+name: Update Translations from Crowdin
 
 on:
   workflow_dispatch:
 
 jobs:
   Update-Translations:
-    name: Update translation from Crowdin
-    if: github.repository == 'nvdacn/zh_CN_Translation'
+    name: Update translations
+    # if: github.repository == 'nvdacn/zh_CN_Translation'
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # ref: Uploads
+          ref: main
       - name: Install dependencies
         uses: ./.github/workflows/InstallDependencies
       - name: Configure environment
@@ -24,18 +26,31 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
         if: success()
-      - name: Process Translations
-        shell: pwsh
+      - name: Update Translations
         run: |
-          $ErrorActionPreference = 'Stop'
-        if: success()
+          ${{ github.workspace }}/L10nUtilTools.bat DLA
+          git add --update Translation
       - name: Commit & Push
+        id: check-changes
         shell: pwsh
         run: |
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新翻译（从 Crowdin）"
-              git push origin ${{ github.ref_name }}
+              git push origin
+              echo "has_changes=true" >> $env:GITHUB_OUTPUT
           } else {
               Write-Host "No changes to commit, skipping commit and push."
+              echo "has_changes=false" >> $env:GITHUB_OUTPUT
           }
+      - name: Manually trigger build workflow
+        if: steps.check-changes.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'build.yaml',
+              ref: 'main'
+            });
