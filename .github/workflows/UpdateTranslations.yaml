@@ -13,8 +13,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # ref: Uploads
-          ref: main
+          ref: Uploads
       - name: Install dependencies
         uses: ./.github/workflows/InstallDependencies
       - name: Configure environment
@@ -52,5 +51,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'build.yaml',
-              ref: 'main'
+              ref: 'Uploads'
             });
