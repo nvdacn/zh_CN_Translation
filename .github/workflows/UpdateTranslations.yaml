@@ -6,7 +6,7 @@ on:
 jobs:
   Update-Translations:
     name: Update translations
-    # if: github.repository == 'nvdacn/zh_CN_Translation'
+    if: github.repository == 'nvdacn/zh_CN_Translation'
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
