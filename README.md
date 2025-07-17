@@ -37,7 +37,8 @@
 ### beta 开发周期的翻译
 
 可在  `Uploads` 分支翻译 beta 开发周期的所有翻译。具体注意事项，请参看[自动上传翻译][1]章节。
-beta 开发周期的界面消息和文档的翻译字符串可在本地通过 `L10nUtilTools.bat` 的相关命令从 Crowdin 下载。具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
+beta 开发周期的界面消息和文档的翻译字符串可手动运行 [Update Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateTranslations.yaml)进行更新，或在本地通过 `L10nUtilTools.bat` 的相关命令更新。
+`L10nUtilTools.bat` 的具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
 
 ### 自动上传翻译
 
