@@ -22,18 +22,24 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-      - name: Check for differences between Uploads and main
+      - name: Check if Uploads is ahead of main
         id: check-diff
         run: |
-          if git diff --quiet main Uploads; then
-            echo "No differences between main and Uploads"
-            echo "has_diff=false" >> $GITHUB_OUTPUT
+          git fetch origin main:main
+          if [ $(git rev-parse main) = $(git rev-parse Uploads) ]; then
+            echo "main and Uploads are identical"
+            echo "should_create_pr=false" >> $GITHUB_OUTPUT
           else
-            echo "Differences found between main and Uploads"
-            echo "has_diff=true" >> $GITHUB_OUTPUT
+            if [ $(git rev-list --count main..Uploads) -gt 0 ]; then
+              echo "Uploads has commits not in main"
+              echo "should_create_pr=true" >> $GITHUB_OUTPUT
+            else
+              echo "main is up-to-date or ahead of Uploads"
+              echo "should_create_pr=false" >> $GITHUB_OUTPUT
+            fi
           fi
       - name: Find existing PR or create new one
-        if: steps.check-diff.outputs.has_diff == 'true'
+        if: steps.check-diff.outputs.should_create_pr == 'true'
         id: create-pr
         run: |
           EXISTING_PR=$(gh pr list --base main --head Uploads --state open --json number -q '.[0]')
@@ -57,7 +63,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Sync main to Uploads
-        if: steps.check-diff.outputs.has_diff == 'true'
+        if: steps.check-diff.outputs.should_create_pr == 'true'
         run: |
           git fetch origin
           git merge --ff-only origin/main
