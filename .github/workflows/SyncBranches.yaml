@@ -1,0 +1,62 @@
+name: Sync Uploads and Main Branches
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_title:
+        description: 'Pull request title (optional)'
+        required: false
+
+jobs:
+  sync-branches:
+    runs-on: ubuntu-latest
+    env:
+      PR_TITLE: ${{ inputs.pr_title || '将 Uploads 合并到 main' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: Uploads
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+      - name: Check for differences between Uploads and main
+        id: check-diff
+        run: |
+          if git diff --quiet main Uploads; then
+            echo "No differences between main and Uploads"
+            echo "has_diff=false" >> $GITHUB_OUTPUT
+          else
+            echo "Differences found between main and Uploads"
+            echo "has_diff=true" >> $GITHUB_OUTPUT
+          fi
+      - name: Find existing PR or create new one
+        if: steps.check-diff.outputs.has_diff == 'true'
+        id: create-pr
+        run: |
+          EXISTING_PR=$(gh pr list --base main --head Uploads --state open --json number -q '.[0]')
+          if [ -n "$EXISTING_PR" ]; then
+            PR_NUMBER=$(echo "$EXISTING_PR" | jq -r '.number')
+          else
+            PR_URL=$(gh pr create --base main --head Uploads --title "$PR_TITLE" --body "")
+            PR_NUMBER=$(echo "$PR_URL" | sed -E 's/.*\/([0-9]+)$/\1/')
+          fi
+          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Merge PR
+        id: merge-pr
+        if: steps.create-pr.outputs.pr_number != ''
+        run: |
+          echo "Merging PR #${{ steps.create-pr.outputs.pr_number }}..."
+          gh pr merge "${{ steps.create-pr.outputs.pr_number }}" --merge --subject "$PR_TITLE #(${{ steps.create-pr.outputs.pr_number }})"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Sync main to Uploads
+        if: steps.check-diff.outputs.has_diff == 'true'
+        run: |
+          git fetch origin
+          git merge --ff-only origin/main
+          git push origin Uploads:Uploads
