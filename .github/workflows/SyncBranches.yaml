@@ -53,7 +53,7 @@ jobs:
         if: steps.create-pr.outputs.pr_number != ''
         run: |
           echo "Merging PR #${{ steps.create-pr.outputs.pr_number }}..."
-          gh pr merge "${{ steps.create-pr.outputs.pr_number }}" --merge --subject "$PR_TITLE (#${{ steps.create-pr.outputs.pr_number }})"
+          gh pr merge "${{ steps.create-pr.outputs.pr_number }}" --merge --subject "$PR_TITLE (#${{ steps.create-pr.outputs.pr_number }})" --body ""
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Sync main to Uploads
