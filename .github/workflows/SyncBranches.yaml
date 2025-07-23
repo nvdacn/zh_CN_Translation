@@ -39,10 +39,12 @@ jobs:
           EXISTING_PR=$(gh pr list --base main --head Uploads --state open --json number -q '.[0]')
           if [ -n "$EXISTING_PR" ]; then
             PR_NUMBER=$(echo "$EXISTING_PR" | jq -r '.number')
+            PR_URL=$(echo "$EXISTING_PR" | jq -r '.url')
           else
             PR_URL=$(gh pr create --base main --head Uploads --title "$PR_TITLE" --body "")
             PR_NUMBER=$(echo "$PR_URL" | sed -E 's/.*\/([0-9]+)$/\1/')
           fi
+          echo "PR: $PR_URL"
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ github.token }}
