@@ -58,7 +58,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
    - 当准备让 NV Access 合并这些更改到 NVDA 时，请通知 PR 的作者或 NV Access 将 PR 标记为 Ready for review，在此之后不应再向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
 
 5. 仅可使用该功能上传 NVDA beta 开发周期的翻译。
-6. 当 NVDA 的 [beta 发布通道](https://download.nvaccess.org/releases/beta/)有新版本发布，或有非常重大的更改需要同步到 `main` 分支时，请通过 Pull request 将 `Uploads` 合并到 `main`。
+6. 当 NVDA 的 [beta 发布通道](https://download.nvaccess.org/releases/beta/)有新版本发布时，请通过 Pull request 将 `Uploads` 合并到 `main`。
 
    - 应以`发布版本号 翻译`（如 `2025.1beta1 翻译`）命名 PR。
    - 应使用 Create a merge commit 进行合并。
