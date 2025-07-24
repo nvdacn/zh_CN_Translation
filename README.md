@@ -23,7 +23,7 @@
 可在 `version_year.version_major` 分支提前翻译 alpha 开发周期的界面消息、手势、字符以及符号描述，修改或完善现有翻译，以供 alpha 测试。
 
 当有提交推送到 `version_year.version_major` 分支且修改了 `nvda.po` 文件时，GitHub Actions 将自动从 NVDA 源代码更新alpha 开发周期界面消息的翻译字符串。
-还可通过在任意分支运行 `CheckPot.yaml` 工作流进行更新。
+还可通过在任意分支运行 [Automatically update NVDA.po 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/CheckPot.yaml)进行更新。
 更新后的nvda.po文件会被提交回 `version_year.version_major` 分支。
 
 由于文档的翻译字符串必须由 NV Access 构建，在 alpha 开发周期将无法翻译。
@@ -37,7 +37,7 @@
 ### beta 开发周期的翻译
 
 可在  `Uploads` 分支翻译 beta 开发周期的所有翻译。具体注意事项，请参看[自动上传翻译][1]章节。
-beta 开发周期的界面消息和文档的翻译字符串可手动运行 [Update Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateTranslations.yaml)进行更新，或在本地通过 `L10nUtilTools.bat` 的相关命令更新。
+beta 开发周期的界面消息和文档的翻译字符串可在任意分支手动运行 [Update Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateTranslations.yaml)进行更新，或在本地通过 `L10nUtilTools.bat` 的相关命令更新。
 `L10nUtilTools.bat` 的具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
 
 ### 自动上传翻译
@@ -63,6 +63,8 @@ beta 开发周期的界面消息和文档的翻译字符串可手动运行 [Upda
    - 应以`发布版本号 翻译`（如 `2025.1beta1 翻译`）命名 PR。
    - 应使用 Create a merge commit 进行合并。
    - PR 完成后还需将 `main` 合并回 `Uploads`，以避免合并冲突。
+
+   还可通过在任意分支手动运行 [Sync Uploads and main branches 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/SyncBranches.yaml)来自动完成上述操作。
 
 7. 当到达 NV Access 宣布的 Translatable string freeze 时间后，除非 NV Access 宣布延长 Translatable string freeze 的时间，否则不应再向 `Uploads` 分支推送任何翻译更改，在此之后如有其他翻译更改，请将其推送到适用于 alpha 开发周期的 `version_year.version_major` 分支。
 
