@@ -303,7 +303,6 @@ exit /b %errorlevel%
 
 Rem 清理本工具生成的所有文件  
 :CLE
-rd /s /q "%~dp0Crowdin"
 rd /s /q "%~dp0PotXliff"
 rd /s /q "%~dp0Preview"
 Git restore PotXliff/* Preview/*
