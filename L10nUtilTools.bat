@@ -218,20 +218,28 @@ for %%i in (L C U K) do (
   )
 )
 
-Rem 生成NVDA翻译目录结构  
+Rem 生成 NVDA 翻译目录结构  
 IF EXIST "%~dp0Preview\Test" (rd /s /q "%~dp0Preview\Test")
 MKDir "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES"
 MKLINK /H "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES\nvda.mo" "%~dp0Preview\nvda.mo"
-MKLINK /H "%~dp0Preview\Test\locale\zh_CN\characterDescriptions.dic" "%~dp0Translation\miscDeps\characterDescriptions.dic"
-MKLINK /H "%~dp0Preview\Test\locale\zh_CN\gestures.ini" "%~dp0Translation\miscDeps\gestures.ini"
-MKLINK /H "%~dp0Preview\Test\locale\zh_CN\symbols.dic" "%~dp0Translation\miscDeps\symbols.dic"
+for %%f in (
+  characterDescriptions.dic
+  gestures.ini
+ symbols.dic
+) do (
+  MKLINK /H "%~dp0Preview\Test\locale\zh_CN\%%f" "%~dp0Translation\miscDeps\%%f"
+)
 MKDir "%~dp0Preview\Test\documentation\zh_CN"
-MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\favicon.ico" "%~dp0Preview\favicon.ico"
-MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\numberedHeadings.css" "%~dp0Preview\numberedHeadings.css"
-MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\styles.css" "%~dp0Preview\styles.css"
-MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\changes.html" "%~dp0Preview\changes.html"
-MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\keyCommands.html" "%~dp0Preview\keyCommands.html"
-MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\userGuide.html" "%~dp0Preview\userGuide.html"
+for %%f in (
+  favicon.ico
+  numberedHeadings.css
+  styles.css
+ changes.html
+ keyCommands.html
+  userGuide.html
+) do (
+MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\%%f" "%~dp0Preview\%%f"
+)
 if /I "%Type%" == "Test" (
   set ExitCode=%errorlevel%
   goto Quit
