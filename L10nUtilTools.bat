@@ -56,7 +56,7 @@ for %%R in (%replacements%) do (
 )
 set "CLI=%CLIPart1%%CLIPart2%"
 echo %%CLI%% is set to %CLI%, start executing the command.
-goto %CLI%
+goto goto
 
 Rem 打印可用命令  
 :Echo
