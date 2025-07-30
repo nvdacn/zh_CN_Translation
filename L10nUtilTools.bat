@@ -5,7 +5,7 @@ Title L10n Util Tools
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
 Rem 设置 nvdaL10nUtil 程序路径  
-set "L10nUtil="
+set ExitCode=0
 for %%F in (
   "%ProgramFiles%\NVDA\l10nUtil.exe"
   "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
@@ -104,26 +104,41 @@ Rem 生成更新日志
 :Z
 IF EXIST "%~dp0Preview\changes.html" (del /f /q "%~dp0Preview\changes.html")
 %L10nUtil% xliff2html -t changes "%~dp0Translation\user_docs\changes.xliff" "%~dp0Preview\changes.html"
-if /I "%CLI%"=="C" (exit /b %errorlevel%)
+if /I "%CLI%"=="C" (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 
 Rem 生成用户指南  
 :U
 IF EXIST "%~dp0Preview\userGuide.html" (del /f /q "%~dp0Preview\userGuide.html")
 %L10nUtil% xliff2html -t userGuide "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\userGuide.html"
-if /I "%CLI%"=="U" (exit /b %errorlevel%)
+if /I "%CLI%"=="U" (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 
 Rem 生成热键快速参考  
 :K
 IF EXIST "%~dp0Preview\keyCommands.html" (del /f /q "%~dp0Preview\keyCommands.html")
 %L10nUtil% xliff2html -t keyCommands "%~dp0Translation\user_docs\userGuide.xliff" "%~dp0Preview\keyCommands.html"
-if /I "%CLI%"=="K" (exit /b %errorlevel%)
-if /I "%CLI%"=="D" (exit /b %errorlevel%)
+if /I "%CLI%"=="K" (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
+if /I "%CLI%"=="D" (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 
 Rem 生成界面翻译  
 :L
 IF EXIST "%~dp0Preview\nvda.mo" (del /f /q "%~dp0Preview\nvda.mo")
 "%~dp0Tools\msgfmt.exe" -o "%~dp0Preview\nvda.mo" "%~dp0Translation\LC_MESSAGES\nvda.po"
-if /I "%CLI%"=="L" (exit /b %errorlevel%)
+if /I "%CLI%"=="L" (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 
 Rem 生成NVDA翻译目录结构  
 IF EXIST "%~dp0Preview\Test" (rd /s /q "%~dp0Preview\Test")
@@ -139,7 +154,10 @@ MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\styles.css" "%~dp0Preview\style
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\changes.html" "%~dp0Preview\changes.html"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\keyCommands.html" "%~dp0Preview\keyCommands.html"
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\userGuide.html" "%~dp0Preview\userGuide.html"
-if /I "%CLI%"=="T" (exit /b %errorlevel%)
+if /I "%CLI%"=="T" (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 
 Rem 获取当前分支名称、系统的日期和时间作为翻译测试压缩包的部分名称  
 for /f "delims=" %%o in ('git branch --show-current') do set Branch=%%o
@@ -153,7 +171,10 @@ If "%DateTime:~4,1%" == " " (
 Rem 生成翻译测试压缩包  
 IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 "%~dp0Tools\7Zip\7z.exe" a -sccUTF-8 -y -tzip "%~dp0Preview\Archive\NVDA_%Branch%_翻译测试（解压到NVDA程序文件夹）_%VersionInfo%.zip" "%~dp0Preview\Test\documentation" "%~dp0Preview\Test\locale"
-if /I "%CLI%"=="Z" (exit /b %errorlevel%)
+if /I "%CLI%"=="Z" (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 
 Rem 从给定的 nvda.pot 更新界面翻译字符串  
 :UDL
@@ -179,7 +200,8 @@ IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
 )
 CD /D %Gettext% 
 msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0PotXliff\nvda.pot"
-exit /b %errorlevel%
+set ExitCode=%errorlevel%
+goto Quit
 
 Rem 处理标签  
 :DLL
@@ -249,14 +271,15 @@ IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
 %L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
 if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
+  set ExitCode=%errorlevel%
   Git restore "%GitAddPath%/%FileName%"
-  exit /b %errorlevel%
+  goto Quit
 )
 if /I %Type%==LC_MESSAGES (
 powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1"
 )
 if /I %Action%==DownloadAndCommit (goto Commit)
-exit /b %errorlevel%
+exit /b 0
 
 Rem 将下载的翻译文件提交到存储库  
 :Commit
@@ -299,11 +322,24 @@ if /I %Type%==Docs (
 )
 :Upload
 %L10nUtil% uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
-exit /b %errorlevel%
+set ExitCode=%errorlevel%
+goto Quit
 
 Rem 清理本工具生成的所有文件  
 :CLE
 rd /s /q "%~dp0PotXliff"
 rd /s /q "%~dp0Preview"
 Git restore PotXliff/* Preview/*
-exit /b %errorlevel%
+set ExitCode=%errorlevel%
+goto Quit
+
+Rem 处理退出代码  
+:Quit
+if /I "%GITHUB_ACTIONS%" == "true" (exit /b %ExitCode%)
+if %ExitCode% neq 0 (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+  echo 请按任意键退出...
+  Pause>Nul
+  exit /b %ExitCode%
+)
+exit /b 0
