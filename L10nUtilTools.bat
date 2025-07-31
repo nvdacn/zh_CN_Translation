@@ -151,18 +151,21 @@ if /I  %CLI:~0,2%==DC (
 if /I  %CLI:~0,2%==UP (set Action=UploadFiles)
 if /I %CLI:~2,1%==T (
   set Type=Test
-  goto TranslationTest
+  set CallForEachParameter=L C U K
+  goto CallForEach
 )
 if /I %CLI:~2,1%==Z (
   set Type=Archive
-  goto TranslationTest
+  set CallForEachParameter=L C U K
+  goto CallForEach
 )
 if /I %CLI:~2,1%==A (
   set Type=All
+  set CallForEachParameter=L C U
   if /I %Action%==DownloadAndCommit (
     set Parameter=DL
   )
-  goto All
+  goto CallForEach
 )
 if /I %CLI:~2,1%==L (
   set Type=LC_MESSAGES
@@ -208,17 +211,8 @@ if /I "%Type%" == "Docs" (
 )
 goto Quit
 
-Rem GET 和 GEZ 命令的文件生成阶段：通过循环调用另一个 L10nUtilTools.bat 来分别处理  
-:TranslationTest
-for %%i in (L C U K) do (
-  cmd /C "%~dp0L10nUtilTools" %Parameter%%%i
-  if !errorlevel! neq 0 (
-    echo Error: Command %Parameter%%%i failed with exit code !errorlevel!.
-    exit /b !errorlevel!
-  )
-)
-
 Rem 生成 NVDA 翻译目录结构  
+:TranslationTest
 IF EXIST "%~dp0Preview\Test" (rd /s /q "%~dp0Preview\Test")
 MKDir "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES"
 MKLINK /H "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES\nvda.mo" "%~dp0Preview\nvda.mo"
@@ -260,16 +254,17 @@ IF EXIST "%~dp0Preview\Archive" (rd /s /q "%~dp0Preview\Archive")
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem A 系列命令：通过循环调用另一个L10nUtilTools.bat来分别处理  
-:All
-for %%i in (L C U) do (
+Rem GET 和 GEZ 命令的文件生成阶段以及 A 系列命令：通过循环调用另一个L10nUtilTools.bat来分别处理  
+:CallForEach
+for %%i in (%CallForEachParameter%) do (
   cmd /C "%~dp0L10nUtilTools" %Parameter%%%i
   if !errorlevel! neq 0 (
     echo Error: Command %Parameter%%%i failed with exit code !errorlevel!.
     exit /b !errorlevel!
   )
 )
-if /I %Action%==DownloadAndCommit (goto Commit)
+if /I "%Action%" == "GenerateFiles" (goto TranslationTest)
+if /I "%Action%" == "DownloadAndCommit" (goto Commit)
 exit /b %errorlevel%
 
 Rem 从 Crowdin 下载已翻译的文件  
