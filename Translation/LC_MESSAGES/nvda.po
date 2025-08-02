@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-29 02:09+0000\n"
+"POT-Creation-Date: 2025-08-02 05:14+0000\n"
 "PO-Revision-Date: 2025-07-29 10:12+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -5039,7 +5039,7 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: A message indicating that the remote client is not connected.
 #: globalCommands.py:5008 _remoteClient\client.py:125
 #: _remoteClient\client.py:149 _remoteClient\client.py:171
-#: _remoteClient\client.py:187 _remoteClient\client.py:522
+#: _remoteClient\client.py:187 _remoteClient\client.py:545
 msgctxt "remote"
 msgid "Not connected"
 msgstr "未连接"
@@ -8062,7 +8062,7 @@ msgid "No message yet"
 msgstr "依然没有新消息"
 
 #. Translators: This Outlook Express message has an attachment
-#: appModules\msimn.py:20 appModules\outlook.py:545
+#: appModules\msimn.py:20 appModules\outlook.py:571
 msgid "has attachment"
 msgstr "包含附件"
 
@@ -8137,7 +8137,7 @@ msgid "BCC:"
 msgstr "密送:"
 
 #. Translators: Displayed in outlook or live mail to indicate an email is unread
-#: appModules\msimn.py:161 appModules\outlook.py:95 appModules\outlook.py:521
+#: appModules\msimn.py:161 appModules\outlook.py:97 appModules\outlook.py:547
 msgid "unread"
 msgstr "未读"
 
@@ -8186,91 +8186,91 @@ msgid "Editing profile {profile}"
 msgstr "编辑配置 {profile}"
 
 #. Translators: the last action taken on an Outlook mail message
-#: appModules\outlook.py:55
+#: appModules\outlook.py:57
 msgid "replied"
 msgstr "已回复"
 
 #. Translators: the last action taken on an Outlook mail message
-#: appModules\outlook.py:57
+#: appModules\outlook.py:59
 msgid "replied all"
 msgstr "全部回复"
 
 #. Translators: the last action taken on an Outlook mail message
-#: appModules\outlook.py:59
+#: appModules\outlook.py:61
 msgid "forwarded"
 msgstr "已转发"
 
 #. Translators: for a high importance email
-#: appModules\outlook.py:69
+#: appModules\outlook.py:71
 msgid "high importance"
 msgstr "高优先级"
 
 #. Translators: For a low importance email
-#: appModules\outlook.py:71
+#: appModules\outlook.py:73
 msgid "low importance"
 msgstr "低优先级"
 
 #. Translators: This is presented in outlook or live mail, email subject
-#: appModules\outlook.py:89 appModules\outlook.py:105
+#: appModules\outlook.py:91 appModules\outlook.py:107
 #, python-format
 msgid "subject: %s"
 msgstr "主题: %s"
 
 #. Translators: This is presented in outlook or live mail, email received time
-#: appModules\outlook.py:91
+#: appModules\outlook.py:93
 #, python-format
 msgid "received: %s"
 msgstr "收件时间: %s"
 
 #. Translators: This is presented in outlook or live mail, indicating email attachments
-#: appModules\outlook.py:98
+#: appModules\outlook.py:100
 msgid "attachment"
 msgstr "附件"
 
 #. Translators: This is presented in outlook or live mail, email sent date
-#: appModules\outlook.py:107
+#: appModules\outlook.py:109
 #, python-format
 msgid "sent: %s"
 msgstr "发送日期: %s"
 
 #. Translators: The title for the dialog shown while Microsoft Outlook initializes.
-#: appModules\outlook.py:136
+#: appModules\outlook.py:138
 msgid "Waiting for Outlook..."
 msgstr "正在等待OutLook..."
 
 #. Translators: a message reporting the date of a all day Outlook calendar entry
-#: appModules\outlook.py:384
+#: appModules\outlook.py:410
 #, python-brace-format
 msgid "{date} (all day)"
 msgstr "{date} 全天"
 
 #. Translators: a message reporting the time range (i.e. start time to end time) of an Outlook calendar entry
-#: appModules\outlook.py:395
+#: appModules\outlook.py:421
 #, python-brace-format
 msgid "{startTime} to {endTime}"
 msgstr "{startTime}到{endTime}"
 
 #. Translators: Part of a message reported when on a calendar appointment with one or more categories
 #. in Microsoft Outlook.
-#: appModules\outlook.py:421
+#: appModules\outlook.py:447
 #, python-brace-format
 msgid "category {categories}"
 msgid_plural "categories {categories}"
 msgstr[0] "类别 {categories}"
 
 #. Translators: A message reported when on a calendar appointment with category in Microsoft Outlook
-#: appModules\outlook.py:446
+#: appModules\outlook.py:472
 #, python-brace-format
 msgid "Appointment {subject}, {time}"
 msgstr "日程{subject}，{time}"
 
 #. Translators: a message when the current time slot on an Outlook Calendar has an appointment
-#: appModules\outlook.py:492
+#: appModules\outlook.py:518
 msgid "Has appointment"
 msgstr "有日程"
 
 #. Translators: the email is a meeting request
-#: appModules\outlook.py:559
+#: appModules\outlook.py:585
 msgid "meeting request"
 msgstr "会议请求"
 
@@ -16197,7 +16197,7 @@ msgstr "移动焦点和导航对象到最后一行"
 msgid "Composition"
 msgstr "上屏"
 
-#: NVDAObjects\IAccessible\__init__.py:2500
+#: NVDAObjects\IAccessible\__init__.py:2502
 msgid "Taskbar"
 msgstr "任务栏"
 
@@ -19207,7 +19207,7 @@ msgstr "安全桌面"
 #. Translators: Presented when attempting to send control+alt+delete when connected as the controlled computer.
 #. Translators: Presented when attempting to switch to controling a remote computer when connected as the controlled computer.
 #: _remoteClient\client.py:129 _remoteClient\client.py:190
-#: _remoteClient\client.py:526
+#: _remoteClient\client.py:549
 msgctxt "remote"
 msgid "Not the controlling computer"
 msgstr "非主控计算机"
@@ -19240,64 +19240,29 @@ msgid "Copied link"
 msgstr "复制链接"
 
 #. Translators: Title of the Remote Access disconnection confirmation dialog.
-#: _remoteClient\client.py:226
+#: _remoteClient\client.py:227
 msgctxt "remote"
 msgid "Confirm Disconnection"
 msgstr "确认断开连接"
 
 #. Translators: Message shown when disconnecting from the remote computer.
-#: _remoteClient\client.py:230
+#: _remoteClient\client.py:231
 msgctxt "remote"
 msgid "Are you sure you want to disconnect from the Remote Access session?"
 msgstr "您确定要断开远程访问会话的连接吗？"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:282
+#: _remoteClient\client.py:290
 msgid "Error Connecting"
 msgstr "连接错误"
 
 #. Translators: Message shown when unable to connect to the remote computer.
-#: _remoteClient\client.py:284
+#: _remoteClient\client.py:292
 msgid "Unable to connect to the remote computer"
 msgstr "无法连接到远程计算机"
 
-#. Translators: Title of the Remote Access connection dialog.
-#: _remoteClient\client.py:308
-msgctxt "remote"
-msgid "Connect to Another Computer"
-msgstr "连接到另一台计算机"
-
-#. Translators: Presented when connected to the remote computer.
-#: _remoteClient\client.py:351
-msgid "Connected"
-msgstr "已连接"
-
-#. Translators: Presented when connection to a remote computer was interupted.
-#. Translators: Message shown when the connection to the remote computer is lost.
-#: _remoteClient\client.py:369 _remoteClient\cues.py:27
-msgid "Disconnected"
-msgstr "已断开"
-
-#. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
-#: _remoteClient\client.py:530
-msgctxt "remote"
-msgid "No controlled computers are connected"
-msgstr "被控计算机未连接"
-
-#. Translators: Presented when keyboard control is back to the controlling computer.
-#: _remoteClient\client.py:544
-msgctxt "remote"
-msgid "Controlling local computer"
-msgstr "控制本地计算机"
-
-#. Translators: Presented when sending keyboard keys from the controlling computer to the controlled computer.
-#: _remoteClient\client.py:553
-msgctxt "remote"
-msgid "Controlling remote computer"
-msgstr "控制远程计算机"
-
 #. Translators: Message shown when trying to connect while already connected.
-#: _remoteClient\client.py:617
+#: _remoteClient\client.py:315 _remoteClient\client.py:640
 msgctxt "remote"
 msgid ""
 "A Remote Access session is already in progress. Disconnect before starting a "
@@ -19305,13 +19270,48 @@ msgid ""
 msgstr "远程访问会话已在进行中。开始新会话前请先断开连接。"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:620
+#: _remoteClient\client.py:318 _remoteClient\client.py:643
 msgctxt "remote"
 msgid "Already Connected"
 msgstr "已连接"
 
+#. Translators: Title of the Remote Access connection dialog.
+#: _remoteClient\client.py:329
+msgctxt "remote"
+msgid "Connect to Another Computer"
+msgstr "连接到另一台计算机"
+
+#. Translators: Presented when connected to the remote computer.
+#: _remoteClient\client.py:373
+msgid "Connected"
+msgstr "已连接"
+
+#. Translators: Presented when connection to a remote computer was interupted.
+#. Translators: Message shown when the connection to the remote computer is lost.
+#: _remoteClient\client.py:391 _remoteClient\cues.py:28
+msgid "Disconnected"
+msgstr "已断开"
+
+#. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
+#: _remoteClient\client.py:553
+msgctxt "remote"
+msgid "No controlled computers are connected"
+msgstr "被控计算机未连接"
+
+#. Translators: Presented when keyboard control is back to the controlling computer.
+#: _remoteClient\client.py:567
+msgctxt "remote"
+msgid "Controlling local computer"
+msgstr "控制本地计算机"
+
+#. Translators: Presented when sending keyboard keys from the controlling computer to the controlled computer.
+#: _remoteClient\client.py:576
+msgctxt "remote"
+msgid "Controlling remote computer"
+msgstr "控制远程计算机"
+
 #. Translators: Ask the user if they want to control the remote computer.
-#: _remoteClient\client.py:635
+#: _remoteClient\client.py:658
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to control the computer on server {server} with key {key}?"
@@ -19320,7 +19320,7 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
-#: _remoteClient\client.py:641
+#: _remoteClient\client.py:664
 #, python-brace-format
 msgctxt "remote"
 msgid ""
@@ -19331,25 +19331,25 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
-#: _remoteClient\client.py:647
+#: _remoteClient\client.py:670
 msgctxt "remote"
 msgid "Remote Access Connection Request"
 msgstr "远程访问连接请求"
 
 #. Translators: Presented in direct (client to server) Remote Access connection when the controlled computer is ready.
-#: _remoteClient\cues.py:32
+#: _remoteClient\cues.py:33
 msgctxt "remote"
 msgid "Connected as controlled computer"
 msgstr "作为被控计算机连接"
 
 #. Translators: Message shown when the clipboard is successfully sent to the remote computer.
-#: _remoteClient\cues.py:43
+#: _remoteClient\cues.py:44
 msgctxt "remote"
 msgid "Clipboard sent"
 msgstr "已发送剪贴板"
 
 #. Translators: Message shown when the clipboard is successfully received from the remote computer.
-#: _remoteClient\cues.py:48
+#: _remoteClient\cues.py:49
 msgid "Clipboard received"
 msgstr "已接收剪贴板"
 
