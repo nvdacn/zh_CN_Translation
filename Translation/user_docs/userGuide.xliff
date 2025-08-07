@@ -10537,18 +10537,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 726</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When an [object](#Objects) that allows navigation and/or editing of text is [focused](#SystemFocus), you can move through the text using the system caret, also known as the edit cursor.</source>
-        <target>当一个[对象](#Objects)允许导航和/或编辑文字并拥有[焦点](#SystemFocus)时，您可以使用输入焦点（或被称之为编辑光标）在文本之间移动。</target>
+        <target>当一个[对象](#Objects)允许导航和/或编辑文字并拥有[焦点](#SystemFocus)时，您可以使用系统光标（亦称编辑光标或系统插入符）在文本之间移动。</target>
       </segment>
     </unit>
     <unit id="c3081147-95c8-4f8d-810f-c9e66a1fe7fe">
       <notes>
         <note appliesTo="source">line: 728</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When the focus is on an object that has the system caret, you can use the arrow keys, page up, page down, home, end, etc. to move through the text.</source>
-        <target>当焦点在一个拥有输入焦点的对象上时，您可以使用光标键、上翻页、下翻页、行首、行尾等等按键在文本之间移动。</target>
+        <target>当焦点在一个拥有系统光标的对象上时，您可以使用光标键、上翻页、下翻页、行首、行尾等等按键在文本之间移动。</target>
       </segment>
     </unit>
     <unit id="01599c90-d1df-40f9-b0e3-1bb78938adc4">
@@ -10661,9 +10661,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Next sentence |alt+downArrow |alt+downArrow |Moves the caret to the next sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>下一个句子 |Alt+下光标 |Alt+下光标 |移动输入焦点到下一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>下一个句子 |Alt+下光标 |Alt+下光标 |移动光标到下一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="18d6985b-ec14-4b1b-af15-5500989ce367">
@@ -10672,9 +10672,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Previous sentence |alt+upArrow |alt+upArrow |Moves the caret to the previous sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>上一个句子 |Alt+上光标 |Alt+上光标 |移动输入焦点到上一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>上一个句子 |Alt+上光标 |Alt+上光标 |移动光标到上一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="f2c5e713-d2a2-4c3e-8d24-898fa503ee8e">
@@ -10703,9 +10703,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to previous column |control+alt+leftArrow |Moves the system caret to the previous column (staying in the same row)</source>
-        <target>移动到上一列 |Ctrl+Alt+左光标 |移动输入焦点到上一列（仍在同一行内）。</target>
+        <target>移动到上一列 |Ctrl+Alt+左光标 |移动系统光标到上一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="cf7fd9d6-6833-4e6c-be5f-fd45b81c60c3">
@@ -10714,9 +10714,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to next column |control+alt+rightArrow |Moves the system caret to the next column (staying in the same row)</source>
-        <target>移动到下一列 |Ctrl+Alt+右光标 |移动输入焦点到下一列（仍在同一行内）。</target>
+        <target>移动到下一列 |Ctrl+Alt+右光标 |移动系统光标到下一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="c1ebef62-7afe-4736-864b-79cb1d2aafc8">
@@ -10725,9 +10725,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to previous row |control+alt+upArrow |Moves the system caret to the previous row (staying in the same column)</source>
-        <target>移动到上一行 |Ctrl+Alt+上光标 |移动输入焦点到上一行（仍在同一列内）。</target>
+        <target>移动到上一行 |Ctrl+Alt+上光标 |移动系统光标到上一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="faf419fa-b417-492b-bbec-57c80a5acc94">
@@ -10736,9 +10736,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to next row |control+alt+downArrow |Moves the system caret to the next row (staying in the same column)</source>
-        <target>移动到下一行 |Ctrl+Alt+下光标 |移动输入焦点到下一行（仍在同一列内）。</target>
+        <target>移动到下一行 |Ctrl+Alt+下光标 |移动系统光标到下一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="86767d89-da97-4458-b94e-09822b579bf6">
@@ -10747,9 +10747,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to first column |control+alt+home |Moves the system caret to the first column (staying in the same row)</source>
-        <target>移动到第一列 |Ctrl+Alt+行首 |移动输入焦点到第一列（仍在同一行内）。</target>
+        <target>移动到第一列 |Ctrl+Alt+行首 |移动系统光标到第一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="b5e4b078-2378-4623-acc0-fdb959a7c634">
@@ -10758,9 +10758,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to last column |control+alt+end |Moves the system caret to the last column (staying in the same row)</source>
-        <target>移动到最后一列 |Ctrl+Alt+行尾 |移动输入焦点到最后一列（仍在同一行内）。</target>
+        <target>移动到最后一列 |Ctrl+Alt+行尾 |移动系统光标到最后一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="58d6aa77-614b-45ff-8cbe-3c33b060e18d">
@@ -10769,9 +10769,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to first row |control+alt+pageUp |Moves the system caret to the first row (staying in the same column)</source>
-        <target>移动到第一行 |Ctrl+Alt+上翻页 |移动输入焦点到第一行（仍在同一列内）。</target>
+        <target>移动到第一行 |Ctrl+Alt+上翻页 |移动系统光标到第一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="eb0028cf-84d9-4431-881e-07d8ebff5cb5">
@@ -10780,9 +10780,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to last row |control+alt+pageDown |Moves the system caret to the last row (staying in the same column)</source>
-        <target>移动到最后一行 |Ctrl+Alt+下翻页 |移动输入焦点到最后一行（仍在同一列内）。</target>
+        <target>移动到最后一行 |Ctrl+Alt+下翻页 |移动系统光标到最后一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="2e267e49-04e6-4706-817f-f8b0619ee70e">
@@ -10813,9 +10813,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read entire column |`NVDA+control+alt+upArrow` |Reads the current column vertically from top to bottom without moving the system caret.</source>
-        <target>朗读当前列（不移动输入焦点） | `NVDA+Ctrl+Alt+上光标` | 在不移动输入焦点的情况下，从上到下垂直朗读当前列。</target>
+        <target>朗读当前列（不移动系统光标） | `NVDA+Ctrl+Alt+上光标` | 在不移动系统光标的情况下，从上到下垂直朗读当前列。</target>
       </segment>
     </unit>
     <unit id="6cac6768-fb95-40f4-a4c6-4edaecc9a3a5">
@@ -10824,9 +10824,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Read entire row |`NVDA+control+alt+leftArrow` |Reads the current row horizontally from left to right without moving the system caret.</source>
-        <target>朗读当前行（不移动输入焦点） | `NVDA+Ctrl+Alt+左光标` | 在不移动输入焦点的情况下，从左到右水平朗读当前行。</target>
+        <target>朗读当前行（不移动系统光标） | `NVDA+Ctrl+Alt+左光标` | 在不移动系统光标的情况下，从左到右水平朗读当前行。</target>
       </segment>
     </unit>
     <unit id="3f7a569a-ff51-4ccf-849e-629b45d1e22d">
@@ -10844,18 +10844,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 767</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Most of the time, you will work with applications using commands which move the [focus](#SystemFocus) and the [caret](#SystemCaret).</source>
-        <target>很多时候，您会在与某个程序进行交互时使用一些需要移动[焦点](#SystemFocus)和[输入焦点](#SystemCaret)的命令。</target>
+        <target>很多时候，您会在与某个程序进行交互时使用一些需要移动[焦点](#SystemFocus)和[光标](#SystemCaret)的命令。</target>
       </segment>
     </unit>
     <unit id="7460b2f3-c8b2-4db4-b4c9-9d0de66e25e3">
       <notes>
         <note appliesTo="source">line: 768</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>However, sometimes, you may wish to explore the current application or the Operating System without moving the focus or caret.</source>
-        <target>然而，有时候，您会希望在不移动焦点和输入焦点的情况下浏览当前的应用程序或者操作系统。</target>
+        <target>然而，有时候，您会希望在不移动焦点和光标的情况下浏览当前的应用程序或者操作系统。</target>
       </segment>
     </unit>
     <unit id="e56e77af-77b5-484b-b589-742ee079f031">
@@ -12675,9 +12675,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move to start of container |shift+comma |Moves to the start of the container (list, table, etc.) where the caret is positioned</source>
-        <target>移动到容器的开始处 | Shift+逗号 | 移动到输入焦点所在容器的开头（列表、表格等）</target>
+        <target>移动到容器的开始处 | Shift+逗号 | 移动到光标所在容器的开头（列表、表格等）</target>
       </segment>
     </unit>
     <unit id="80b6ff05-0ade-473d-babc-af8f5958228f">
@@ -12686,9 +12686,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move past end of container |comma |Moves past the end of the container (list, table, etc.) where the caret is positioned</source>
-        <target>移动到容器的结尾处 | 逗号 | 移动到输入焦点所在容器的结尾（列表、表格等）</target>
+        <target>移动到容器的结尾处 | 逗号 | 移动到光标所在容器的结尾（列表、表格等）</target>
       </segment>
     </unit>
     <unit id="33a302d1-6a82-4080-9c98-20ab42a571ae">
@@ -19737,9 +19737,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2158</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When follow cursors is selected, the braille display will follow either the system focus/caret or the navigator object/review cursor, depending on what braille is tethered to.</source>
-        <target>选择跟随光标后，盲文点显器将跟随系统焦点/输入焦点或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
+        <target>选择跟随光标后，盲文点显器将跟随系统焦点/光标或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
       </segment>
     </unit>
     <unit id="52d88a5e-4e39-4a6a-93d4-8dc82422aa04">
@@ -20007,27 +20007,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2209</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both.</source>
-        <target>此选项允许您选择是否希望点显器跟随系统焦点/输入焦点、导航对象/查看光标或自动。</target>
+        <target>此选项允许您选择是否希望点显器跟随系统焦点/光标、导航对象/查看光标或自动。</target>
       </segment>
     </unit>
     <unit id="e4daa63c-3a5c-41f2-8b01-a8604310d25f">
       <notes>
         <note appliesTo="source">line: 2210</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When "automatically" is selected, NVDA will follow the system focus and caret by default.</source>
-        <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或输入焦点。</target>
+        <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或光标。</target>
       </segment>
     </unit>
     <unit id="ca25560b-db7b-444b-9841-54484d0aca6a">
       <notes>
         <note appliesTo="source">line: 2211</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In this case, when the navigator object or the review cursor position is changed by means of explicit user interaction, NVDA will tether to review temporarily, until the focus or the caret changes.</source>
-        <target>此时，如果用户操作改变了导航对象或查看光标，NVDA 会让盲文光标暂时跟随查看光标，直到系统焦点或者输入焦点改变为止。</target>
+        <target>此时，如果用户操作改变了导航对象或查看光标，NVDA 会让盲文光标暂时跟随查看光标，直到系统焦点或者系统光标改变为止。</target>
       </segment>
     </unit>
     <unit id="6f2884c5-d573-46d4-959f-e9e1c5e4a896">
@@ -20036,25 +20036,25 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>If you want it to follow the focus and caret only, you need to configure braille to be tethered to focus.</source>
-        <target>如果您想让盲文光标只跟随系统焦点或系统光标，需要把这个设置改成焦点。</target>
+        <target>如果您想让盲文光标只跟随系统焦点或光标，需要把这个设置改成焦点。</target>
       </segment>
     </unit>
     <unit id="55b97300-83dc-4d1f-a3a3-8bd8d873fb20">
       <notes>
         <note appliesTo="source">line: 2213</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In this case, braille will not follow the NVDA navigator during object navigation or the review cursor during review.</source>
-        <target>此时，盲文光标不会跟随查看光标或导航对象。</target>
+        <target>此时，盲文光标不会跟随导航对象或查看光标。</target>
       </segment>
     </unit>
     <unit id="cbbd1a7d-e72c-4b92-af24-c107d5ac2ca4">
       <notes>
         <note appliesTo="source">line: 2214</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you want braille to follow object navigation and text review instead, you need to configure braille to be tethered to review.</source>
-        <target>如果您想让盲文光标只跟随文本查看或对象导航，需要把这个设置改成查看光标。</target>
+        <target>如果您想让盲文光标只跟随对象导航或文本查看，需要把这个设置改成查看光标。</target>
       </segment>
     </unit>
     <unit id="f2c3797f-379e-42b1-beeb-ef37c95307db">
@@ -20063,7 +20063,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>In this case, Braille will not follow system focus and system caret.</source>
-        <target>此时盲文光标不再跟随系统焦点或系统光标。</target>
+        <target>此时盲文光标不再跟随系统焦点或光标。</target>
       </segment>
     </unit>
     <unit id="8227c48e-3d11-412e-80c2-437ff9ccf394">
@@ -20090,9 +20090,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2220</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is set to Never by default, meaning that routing will never move the caret when routing the review cursor.</source>
-        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动输入焦点。</target>
+        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动系统光标。</target>
       </segment>
     </unit>
     <unit id="18819352-c975-41e2-90ca-8b90ce810da5">
@@ -20101,16 +20101,16 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>When this option is set to Always, and [braille tethering](#BrailleTether) is set to "automatically" or "to review", pressing a cursor routing key will also move the system caret or focus when supported.</source>
-        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统光标或系统焦点。</target>
+        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统光标或焦点。</target>
       </segment>
     </unit>
     <unit id="46ca02cd-2af4-499f-8602-bcbd2ff791cc">
       <notes>
         <note appliesTo="source">line: 2223</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When the current review mode is [Screen Review](#ScreenReview), there is no physical caret.</source>
-        <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理输入焦点。</target>
+        <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理光标。</target>
       </segment>
     </unit>
     <unit id="f8faf4f6-91a5-418b-bf22-a0e188491b12">
@@ -20135,9 +20135,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2227</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can also set this option to only move the caret when tethered automatically.</source>
-        <target>您还可以将该选项设置为“仅当盲文光标设为自动跟随时”移动输入焦点。</target>
+        <target>您还可以将该选项设置为“仅当盲文光标设为自动跟随时”移动系统光标。</target>
       </segment>
     </unit>
     <unit id="cbb48d99-500d-4aca-a29a-ac5e1706e9b3">
@@ -20146,7 +20146,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>In that case, pressing a cursor routing key will only move the system caret or focus when NVDA is tethered to the review cursor automatically, whereas no movement will occur when manually tethered to the review cursor.</source>
-        <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统光标或系统焦点，而手动跟随到查看光标时不会发生任何移动。</target>
+        <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统光标或焦点，而手动跟随到查看光标时不会发生任何移动。</target>
       </segment>
     </unit>
     <unit id="e84a54fe-a113-409d-9f14-106f86f7c453">
@@ -24276,9 +24276,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrowseModeSettingsAutoPassThroughOnCaretMove}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Automatic focus mode for caret movement</source>
-        <target>输入焦点移动时的自动焦点模式</target>
+        <target>光标移动时的自动焦点模式</target>
       </segment>
     </unit>
     <unit id="46641c37-bd81-4c45-89ba-002ea998402c">

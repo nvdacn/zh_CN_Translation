@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 05:14+0000\n"
-"PO-Revision-Date: 2025-08-07 11:11+0800\n"
+"PO-Revision-Date: 2025-08-07 12:01+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2380,14 +2380,14 @@ msgstr "从当前单元格开始垂直向下朗读至当前列的最后一个单
 msgid ""
 "Reads the current row horizontally from left to right without moving the "
 "system caret."
-msgstr "在不移动输入焦点的情况下，从左到右水平朗读当前行。"
+msgstr "在不移动系统光标的情况下，从左到右水平朗读当前行。"
 
 #. Translators: the description for the speak column command
 #: documentBase.py:571
 msgid ""
 "Reads the current column vertically from top to bottom without moving the "
 "system caret."
-msgstr "在不移动输入焦点的情况下，从上到下垂直朗读当前列。"
+msgstr "在不移动系统光标的情况下，从上到下垂直朗读当前列。"
 
 #. Translators: The message announced when toggling the include layout tables browse mode setting.
 #: documentBase.py:581
@@ -3482,7 +3482,7 @@ msgstr "移动焦点"
 #. Translators: Reported when there is no caret.
 #: globalCommands.py:1585 globalCommands.py:2624
 msgid "No caret"
-msgstr "没有输入焦点"
+msgstr "没有光标"
 
 #. Translators: Input help mode message for move to parent object command.
 #: globalCommands.py:1593
@@ -3773,7 +3773,7 @@ msgstr "从查看光标处朗读到文本末端的同时，光标随之移动"
 msgid ""
 "Reads from the system caret up to the end of the text, moving the caret as "
 "it goes"
-msgstr "从输入焦点的位置朗读到文本末端的同时，输入焦点随之移动"
+msgstr "从系统光标的位置朗读到文本末端的同时，光标随之移动"
 
 #. Translators: Reported when trying to obtain formatting information (such as font name, indentation and so on) but there is no formatting information for the text under cursor.
 #: globalCommands.py:2576 globalCommands.py:2587 globalCommands.py:4110
@@ -4052,17 +4052,17 @@ msgstr "读出动态内容更新"
 #: globalCommands.py:3225
 msgid ""
 "Toggles on and off the movement of the review cursor due to the caret moving."
-msgstr "切换是否允许查看光标跟随输入焦点移动。"
+msgstr "切换是否允许查看光标跟随光标移动。"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3232
 msgid "caret moves review cursor off"
-msgstr "关闭查看光标随输入焦点移动"
+msgstr "关闭查看光标随光标移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3236
 msgid "caret moves review cursor on"
-msgstr "打开查看光标随输入焦点移动"
+msgstr "打开查看光标随光标移动"
 
 #. Translators: Input help mode message for toggle focus moves navigator object command.
 #: globalCommands.py:3242
@@ -11276,7 +11276,7 @@ msgstr "边框"
 #. Translators: Identifies a caret object.
 #: controlTypes\role.py:409
 msgid "caret"
-msgstr "输入焦点"
+msgstr "光标"
 
 #. Translators: Identifies a character field (should not be confused with edit fields).
 #: controlTypes\role.py:411 textInfos\__init__.py:329
@@ -13895,7 +13895,7 @@ msgstr "焦点改变时切换到焦点模式(&F)"
 #. browse mode settings panel.
 #: gui\settingsDialogs.py:2635
 msgid "Automatic focus mode for caret movement"
-msgstr "输入焦点移动时的自动焦点模式支持(&F)"
+msgstr "光标移动时的自动焦点模式支持(&F)"
 
 #. Translators: This is the label for a checkbox in the
 #. browse mode settings panel.
