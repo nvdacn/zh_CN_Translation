@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 05:14+0000\n"
-"PO-Revision-Date: 2025-08-07 12:01+0800\n"
+"PO-Revision-Date: 2025-08-07 12:37+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3444,7 +3444,7 @@ msgstr "读出查看光标处文本或对象的位置信息，连按两次获取
 msgid ""
 "Reports information about the location of the text or object at the position "
 "of system caret. Pressing twice may provide further detail."
-msgstr "读出光标处文本或对象的位置信息，连按两次获取更详细的信息。"
+msgstr "读出系统光标处文本或对象的位置信息，连按两次获取更详细的信息。"
 
 #. Translators: Input help mode message for move navigator object to current focus command.
 #: globalCommands.py:1521
@@ -3464,7 +3464,7 @@ msgstr "移动到焦点"
 msgid ""
 "Pressed once sets the keyboard focus to the navigator object, pressed twice "
 "sets the system caret to the position of the review cursor"
-msgstr "按一次设置键盘焦点到导航对象，按两次设置系统光标到查看光标位置"
+msgstr "按一次设置键盘焦点到导航对象，连按两次设置系统光标到查看光标的所在处"
 
 #. Translators: Reported when:
 #. 1. There is no focusable object e.g. cannot use tab and shift tab to move to controls.
@@ -3807,19 +3807,19 @@ msgstr "读出当前查看光标处的文本格式信息。连按两次，在浏
 #. Translators: Input help mode message for report formatting at caret command.
 #: globalCommands.py:2662
 msgid "Reports formatting info for the text under the caret."
-msgstr "读出当前光标处的文本格式信息。"
+msgstr "读出当前光标处文本的格式信息。"
 
 #. Translators: Input help mode message for show formatting at caret position command.
 #: globalCommands.py:2671
 msgid "Presents, in browse mode, formatting info for the text under the caret."
-msgstr "在浏览模式下，显示当前光标处的文本格式信息。"
+msgstr "在浏览模式下，显示当前光标处文本的格式信息。"
 
 #. Translators: Input help mode message for report formatting at caret command.
 #: globalCommands.py:2680
 msgid ""
 "Reports formatting info for the text under the caret. If pressed twice, "
 "presents the information in browse mode"
-msgstr "读出当前光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
+msgstr "读出当前光标处文本的格式信息。连按两次，在浏览模式下显示该信息"
 
 #. Translators: the description for the reportDetailsSummary script.
 #: globalCommands.py:2746
@@ -4052,17 +4052,17 @@ msgstr "读出动态内容更新"
 #: globalCommands.py:3225
 msgid ""
 "Toggles on and off the movement of the review cursor due to the caret moving."
-msgstr "切换是否允许查看光标跟随光标移动。"
+msgstr "切换是否允许查看光标跟随系统光标移动。"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3232
 msgid "caret moves review cursor off"
-msgstr "关闭查看光标随光标移动"
+msgstr "关闭查看光标随系统光标移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3236
 msgid "caret moves review cursor on"
-msgstr "打开查看光标随光标移动"
+msgstr "打开查看光标随系统光标移动"
 
 #. Translators: Input help mode message for toggle focus moves navigator object command.
 #: globalCommands.py:3242
@@ -4342,7 +4342,7 @@ msgstr "{brailleMode}"
 #: globalCommands.py:3696
 msgid ""
 "Cycle through the braille move system caret when routing review cursor states"
-msgstr "在移动查看光标时移动系统输入光标的选项之间循环切换"
+msgstr "在移动查看光标时移动系统光标的选项之间循环切换"
 
 #. Translators: Reported when action is unavailable because braille tether is to focus.
 #: globalCommands.py:3706
@@ -4354,13 +4354,13 @@ msgstr "盲文显示跟随到焦点时该操作不可用"
 #: globalCommands.py:3722
 #, python-format
 msgid "Braille move system caret when routing review cursor default (%s)"
-msgstr "盲文移动查看光标时移动系统输入光标默认（%s）"
+msgstr "盲文移动查看光标时移动系统光标默认（%s）"
 
 #. Translators: Used when reporting braille move system caret when routing review cursor state.
 #: globalCommands.py:3730
 #, python-format
 msgid "Braille move system caret when routing review cursor %s"
-msgstr "盲文移动查看光标时移动系统输入光标（%s）"
+msgstr "盲文移动查看光标时移动系统光标（%s）"
 
 #. Translators: Input help mode message for toggle braille focus context presentation command.
 #: globalCommands.py:3738
@@ -14698,7 +14698,7 @@ msgstr "可编辑"
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:4088
 msgid "Caret movement timeout (in ms)"
-msgstr "光标移动超时（单位: 毫秒）"
+msgstr "光标移动超时（毫秒）"
 
 #. Translators: This is the label for a checkbox control in the
 #. Advanced settings panel.
@@ -14883,7 +14883,7 @@ msgstr "盲文显示跟随到(&R)："
 #. Translators: This is a label for a combo-box in the Braille settings panel.
 #: gui\settingsDialogs.py:4888
 msgid "Move system caret when ro&uting review cursor"
-msgstr "移动查看光标时移动系统输入光标(&U)"
+msgstr "移动查看光标时移动系统光标(&U)"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
 #: gui\settingsDialogs.py:4904
