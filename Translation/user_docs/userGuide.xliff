@@ -10815,7 +10815,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Read entire column |`NVDA+control+alt+upArrow` |Reads the current column vertically from top to bottom without moving the system caret.</source>
-        <target>朗读当前列（不移动系统光标） | `NVDA+Ctrl+Alt+上光标` | 在不移动系统光标的情况下，从上到下垂直朗读当前列。</target>
+        <target>朗读当前列 | `NVDA+Ctrl+Alt+上光标` | 在不移动系统光标的情况下，从上到下垂直朗读当前列。</target>
       </segment>
     </unit>
     <unit id="6cac6768-fb95-40f4-a4c6-4edaecc9a3a5">
@@ -10826,7 +10826,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Read entire row |`NVDA+control+alt+leftArrow` |Reads the current row horizontally from left to right without moving the system caret.</source>
-        <target>朗读当前行（不移动系统光标） | `NVDA+Ctrl+Alt+左光标` | 在不移动系统光标的情况下，从左到右水平朗读当前行。</target>
+        <target>朗读当前行 | `NVDA+Ctrl+Alt+左光标` | 在不移动系统光标的情况下，从左到右水平朗读当前行。</target>
       </segment>
     </unit>
     <unit id="3f7a569a-ff51-4ccf-849e-629b45d1e22d">
@@ -20009,7 +20009,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both.</source>
-        <target>此选项允许您选择是否希望点显器跟随系统焦点/光标、导航对象/查看光标或自动。</target>
+        <target>此选项允许您选择是否希望点显器跟随系统焦点/系统光标、导航对象/查看光标或自动。</target>
       </segment>
     </unit>
     <unit id="e4daa63c-3a5c-41f2-8b01-a8604310d25f">
@@ -20018,7 +20018,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>When "automatically" is selected, NVDA will follow the system focus and caret by default.</source>
-        <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或光标。</target>
+        <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或系统光标。</target>
       </segment>
     </unit>
     <unit id="ca25560b-db7b-444b-9841-54484d0aca6a">
@@ -20036,7 +20036,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>If you want it to follow the focus and caret only, you need to configure braille to be tethered to focus.</source>
-        <target>如果您想让盲文光标只跟随系统焦点或光标，需要把这个设置改成焦点。</target>
+        <target>如果您想让盲文光标只跟随系统焦点或系统光标，需要把这个设置改成焦点。</target>
       </segment>
     </unit>
     <unit id="55b97300-83dc-4d1f-a3a3-8bd8d873fb20">
@@ -20063,7 +20063,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>In this case, Braille will not follow system focus and system caret.</source>
-        <target>此时盲文光标不再跟随系统焦点或光标。</target>
+        <target>此时盲文光标不再跟随系统焦点或系统光标。</target>
       </segment>
     </unit>
     <unit id="8227c48e-3d11-412e-80c2-437ff9ccf394">
@@ -23211,9 +23211,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReviewCursorFollowMouse}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Follow mouse cursor</source>
-        <target>跟随鼠标</target>
+        <target>跟随鼠标移动</target>
       </segment>
     </unit>
     <unit id="d2fc1740-fa34-4643-9821-7b73c20fe004">
@@ -27027,7 +27027,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>To "Report summary of any annotation details at the system caret", press NVDA+d.</source>
-        <target>“读出系统光标处的详细信息摘要”，请按 NVDA+d。</target>
+        <target>若要读出系统光标处的详细信息摘要，请按 NVDA+d。</target>
       </segment>
     </unit>
     <unit id="d9c402ee-7d43-494d-bb01-68e87f40dd5e">
@@ -31567,9 +31567,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4080</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This is often used to move the caret or trigger the action for a control.</source>
-        <target>通常用于移动输入光标或激活控件。</target>
+        <target>通常用于移动光标或激活控件。</target>
       </segment>
     </unit>
     <unit id="2c498646-ce2e-44fc-a3bd-40a1c8d070fb">
@@ -39266,7 +39266,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Move System focus or caret to current review position |F9</source>
-        <target>移动焦点或系统光标到当前查看位置 |F9</target>
+        <target>移动系统焦点或光标到当前查看位置 |F9</target>
       </segment>
     </unit>
     <unit id="0f81e010-10e8-4c73-9cdf-53af4031e0af">
