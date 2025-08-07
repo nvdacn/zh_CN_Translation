@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 05:14+0000\n"
-"PO-Revision-Date: 2025-07-29 10:12+0800\n"
+"PO-Revision-Date: 2025-08-07 11:11+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2427,7 +2427,7 @@ msgstr "对象导航"
 #. Translators: The name of a category of NVDA commands.
 #: globalCommands.py:84
 msgid "System caret"
-msgstr "系统输入焦点"
+msgstr "系统光标"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the mouse settings panel.
@@ -3464,7 +3464,7 @@ msgstr "移动到焦点"
 msgid ""
 "Pressed once sets the keyboard focus to the navigator object, pressed twice "
 "sets the system caret to the position of the review cursor"
-msgstr "按一次设置键盘焦点到导航对象，按两次设置系统输入焦点到查看光标位置"
+msgstr "按一次设置键盘焦点到导航对象，按两次设置系统光标到查看光标位置"
 
 #. Translators: Reported when:
 #. 1. There is no focusable object e.g. cannot use tab and shift tab to move to controls.
@@ -3824,7 +3824,7 @@ msgstr "读出当前光标处的文本格式信息。连按两次，在浏览模
 #. Translators: the description for the reportDetailsSummary script.
 #: globalCommands.py:2746
 msgid "Report summary of any annotation details at the system caret."
-msgstr "读出系统输入焦点处的详细信息摘要。"
+msgstr "读出系统光标处的详细信息摘要。"
 
 #. Translators: message given when there is no annotation details for the reportDetailsSummary script.
 #: globalCommands.py:2764
@@ -13699,7 +13699,7 @@ msgstr "跟随系统焦点(&F)"
 #. review cursor settings panel.
 #: gui\settingsDialogs.py:2285
 msgid "Follow System &Caret"
-msgstr "跟随系统输入焦点(&C)"
+msgstr "跟随系统光标(&C)"
 
 #. Translators: This is the label for a checkbox in the
 #. review cursor settings panel.
@@ -16289,7 +16289,7 @@ msgstr "无法在行标题中找到 {rowNumber} 行 {columnNumber} 列"
 msgid ""
 "Reports the text of the comment where the system caret is located.If pressed "
 "twice, presents the information in browse mode."
-msgstr "读出系统输入焦点所在的批注文本。连按两次，在浏览模式下显示该信息。"
+msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式下显示该信息。"
 
 #. Translators: a message when there is no comment to report in Microsoft Word
 #: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:720
@@ -16538,7 +16538,7 @@ msgstr "当前文档不支持句子导航"
 msgid ""
 "Reports the text of the comment where the system caret is located. If "
 "pressed twice, presents the information in a browsable message"
-msgstr "读出系统输入焦点所在的批注文本。连按两次，在浏览模式下显示该信息"
+msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
