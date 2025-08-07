@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 05:14+0000\n"
-"PO-Revision-Date: 2025-08-07 12:37+0800\n"
+"POT-Creation-Date: 2025-08-07 06:31+0000\n"
+"PO-Revision-Date: 2025-08-07 14:28+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -108,7 +108,7 @@ msgstr "未知"
 
 #. Translators: This is presented when errors are found in an appModule
 #. (example output: error in appModule explorer).
-#: appModuleHandler.py:290
+#: appModuleHandler.py:289
 #, python-format
 msgid "Error in appModule %s"
 msgstr "错误的程序模块 %s"
@@ -1683,7 +1683,7 @@ msgstr "标题(&H)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1242 NVDAObjects\window\excel.py:753
+#: browseMode.py:1242 NVDAObjects\window\excel.py:752
 msgid "&Form fields"
 msgstr "表单(&F)"
 
@@ -2298,7 +2298,7 @@ msgstr "未选择文本"
 #: displayModel.py:576 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
 #: NVDAObjects\UIA\__init__.py:195 NVDAObjects\window\edit.py:345
-#: NVDAObjects\window\edit.py:714 NVDAObjects\window\excel.py:1353
+#: NVDAObjects\window\edit.py:714 NVDAObjects\window\excel.py:1352
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1225
 #: virtualBuffers\adobeAcrobat.py:83
 #, python-format
@@ -3558,7 +3558,7 @@ msgstr "将查看光标移动到当前查看文本的上一行并将其读出"
 #: globalCommands.py:1805 globalCommands.py:1911 globalCommands.py:2003
 #: appModules\nvda.py:137
 msgid "Top"
-msgstr "顶端"
+msgstr "顶部"
 
 #. Translators: Input help mode message for read current line under review cursor command.
 #: globalCommands.py:1826
@@ -4723,7 +4723,7 @@ msgstr "链接未指向确切地址"
 
 #. Translators: Title of the browseable message when requesting the destination of a graphical link.
 #. Translators: A destination for braille output.
-#: globalCommands.py:4364 brailleDisplayDrivers\dotPad\driver.py:257
+#: globalCommands.py:4364 brailleDisplayDrivers\dotPad\driver.py:306
 msgid "Graphic"
 msgstr "图形"
 
@@ -5110,47 +5110,47 @@ msgstr "杂项"
 #. if the default key causes problems for the normal locale keyboard layout.
 #. The key must be formatted as described in this article:
 #. http://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
-#: installer.py:438
+#: installer.py:436
 msgid "CTRL+ALT+N"
 msgstr "CTRL+ALT+N"
 
 #. Translators: A label for a shortcut in start menu and a menu entry in NVDA menu (to go to NVDA website).
-#: installer.py:461
+#: installer.py:459
 msgid "NVDA web site"
 msgstr "NVDA 官方网站"
 
 #. Translators: A label for a shortcut item in start menu to uninstall NVDA from the computer.
-#: installer.py:470
+#: installer.py:468
 msgid "Uninstall NVDA"
 msgstr "卸载 NVDA"
 
 #. Translators: A label for a shortcut item in start menu to open current user's NVDA configuration directory.
-#: installer.py:480
+#: installer.py:478
 msgid "Explore NVDA user configuration directory"
 msgstr "浏览 NVDA 用户配置目录"
 
 #. Translators: The label of the NVDA Documentation menu in the Start Menu.
-#: installer.py:491
+#: installer.py:489
 msgid "Documentation"
 msgstr "文档"
 
 #. Translators: The label of the Start Menu item to open the Commands Quick Reference document.
-#: installer.py:494
+#: installer.py:492
 msgid "Commands Quick Reference"
 msgstr "热键快速参考"
 
 #. Translators: A label for a shortcut in start menu to open NVDA user guide.
-#: installer.py:503
+#: installer.py:501
 msgid "User Guide"
 msgstr "用户指南"
 
 #. Translators: A label for a shortcut in start menu to open NVDA what's new.
-#: installer.py:512
+#: installer.py:510
 msgid "What's new"
 msgstr "更新日志"
 
 #. Translators: A file extension label for NVDA add-on package.
-#: installer.py:582
+#: installer.py:580
 msgid "NVDA add-on package"
 msgstr "NVDA 插件包"
 
@@ -9054,17 +9054,17 @@ msgstr ""
 "改为最大 {maxCells}，然后根据需要重启 Albatross 和 NVDA。"
 
 #. Translators: Description of the DotPad Braille / Tactile Graphic display.
-#: brailleDisplayDrivers\dotPad\driver.py:81
+#: brailleDisplayDrivers\dotPad\driver.py:82
 msgid "DotPad Braille / Tactile Graphic display"
 msgstr "DotPad 盲文/触觉图形显示"
 
 #. Translators: Label for a setting that allows the user to choose the destination for braille output.
-#: brailleDisplayDrivers\dotPad\driver.py:102
+#: brailleDisplayDrivers\dotPad\driver.py:112
 msgid "Braille destination"
 msgstr "输出类型"
 
 #. Translators: A destination for braille output.
-#: brailleDisplayDrivers\dotPad\driver.py:251
+#: brailleDisplayDrivers\dotPad\driver.py:300
 msgid "Text"
 msgstr "文本"
 
@@ -17397,221 +17397,221 @@ msgstr "未知颜色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Excel controls the pattern.
-#: NVDAObjects\window\excel.py:236
+#: NVDAObjects\window\excel.py:235
 msgid "automatic"
 msgstr "自动"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Checkerboard
-#: NVDAObjects\window\excel.py:239
+#: NVDAObjects\window\excel.py:238
 msgid "diagonal crosshatch"
 msgstr "对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Criss-cross lines
-#: NVDAObjects\window\excel.py:242
+#: NVDAObjects\window\excel.py:241
 msgid "thin diagonal crosshatch"
 msgstr "薄对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark diagonal lines running from the upper left to the lower right
-#: NVDAObjects\window\excel.py:245
+#: NVDAObjects\window\excel.py:244
 msgid "reverse diagonal stripe"
 msgstr "反向对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 12.5% gray
-#: NVDAObjects\window\excel.py:249
+#: NVDAObjects\window\excel.py:248
 #, no-python-format
 msgid "12.5% gray"
 msgstr "12.5% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 25% gray
-#: NVDAObjects\window\excel.py:253
+#: NVDAObjects\window\excel.py:252
 #, no-python-format
 msgid "25% gray"
 msgstr "25% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 50% gray
-#: NVDAObjects\window\excel.py:257
+#: NVDAObjects\window\excel.py:256
 #, no-python-format
 msgid "50% gray"
 msgstr "50% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 75% gray
-#: NVDAObjects\window\excel.py:261
+#: NVDAObjects\window\excel.py:260
 #, no-python-format
 msgid "75% gray"
 msgstr "75% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 6.25% gray
-#: NVDAObjects\window\excel.py:265
+#: NVDAObjects\window\excel.py:264
 #, no-python-format
 msgid "6.25% gray"
 msgstr "6.25% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Grid
-#: NVDAObjects\window\excel.py:268
+#: NVDAObjects\window\excel.py:267
 msgid "thin horizontal crosshatch"
 msgstr "细的水平线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark horizontal lines
-#: NVDAObjects\window\excel.py:271
+#: NVDAObjects\window\excel.py:270
 msgid "horizontal stripe"
 msgstr "水平条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light diagonal lines running from the upper left to the lower right
-#: NVDAObjects\window\excel.py:274
+#: NVDAObjects\window\excel.py:273
 msgid "thin reverse diagonal stripe"
 msgstr "薄反向对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light horizontal lines
-#: NVDAObjects\window\excel.py:277
+#: NVDAObjects\window\excel.py:276
 msgid "thin horizontal stripe"
 msgstr "细线水平条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light diagonal lines running from the lower left to the upper right
-#: NVDAObjects\window\excel.py:280
+#: NVDAObjects\window\excel.py:279
 msgid "thin diagonal stripe"
 msgstr "薄对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light vertical bars
-#: NVDAObjects\window\excel.py:283
+#: NVDAObjects\window\excel.py:282
 msgid "thin vertical stripe"
 msgstr "细线垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. No pattern
-#: NVDAObjects\window\excel.py:286 speech\speech.py:2737
+#: NVDAObjects\window\excel.py:285 speech\speech.py:2737
 msgid "none"
 msgstr "无"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 75% dark moire
-#: NVDAObjects\window\excel.py:289
+#: NVDAObjects\window\excel.py:288
 msgid "thick diagonal crosshatch"
 msgstr "厚对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Solid color
-#: NVDAObjects\window\excel.py:292
+#: NVDAObjects\window\excel.py:291
 msgid "solid"
 msgstr "原色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark diagonal lines running from the lower left to the upper right
-#: NVDAObjects\window\excel.py:295
+#: NVDAObjects\window\excel.py:294
 msgid "diagonal stripe"
 msgstr "对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark vertical bars
-#: NVDAObjects\window\excel.py:298
+#: NVDAObjects\window\excel.py:297
 msgid "vertical stripe"
 msgstr "垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
-#: NVDAObjects\window\excel.py:300
+#: NVDAObjects\window\excel.py:299
 msgid "linear gradient"
 msgstr "线性渐变"
 
 #. Translators: A type of background pattern in Microsoft Excel.
-#: NVDAObjects\window\excel.py:302
+#: NVDAObjects\window\excel.py:301
 msgid "rectangular gradient"
 msgstr "矩形渐变"
 
 #. Translators: the description for the elements list command in Microsoft Excel.
-#: NVDAObjects\window\excel.py:734
+#: NVDAObjects\window\excel.py:733
 msgid "Lists various types of elements in this spreadsheet"
 msgstr "在此列表中列举了各种类型的元素"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:744 NVDAObjects\window\winword.py:2159
+#: NVDAObjects\window\excel.py:743 NVDAObjects\window\winword.py:2159
 msgid "&Charts"
 msgstr "图表(&C)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:747
+#: NVDAObjects\window\excel.py:746
 msgid "N&otes"
 msgstr "注释(&O)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:750
+#: NVDAObjects\window\excel.py:749
 msgid "Fo&rmulas"
 msgstr "公式(&R)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:756
+#: NVDAObjects\window\excel.py:755
 msgid "&Sheets"
 msgstr "表格(&S)"
 
 #. Translators: Used to express an address range in excel.
-#: NVDAObjects\window\excel.py:788 NVDAObjects\window\excel.py:1803
+#: NVDAObjects\window\excel.py:787 NVDAObjects\window\excel.py:1802
 #, python-brace-format
 msgid "{start} through {end}"
 msgstr "{start} 到 {end}"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1277 NVDAObjects\window\winword.py:1700
+#: NVDAObjects\window\excel.py:1276 NVDAObjects\window\winword.py:1700
 msgid "Bold off"
 msgstr "关闭粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1279 NVDAObjects\window\winword.py:1697
+#: NVDAObjects\window\excel.py:1278 NVDAObjects\window\winword.py:1697
 msgid "Bold on"
 msgstr "打开粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1291 NVDAObjects\window\winword.py:1718
+#: NVDAObjects\window\excel.py:1290 NVDAObjects\window\winword.py:1718
 msgid "Italic off"
 msgstr "关闭斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1293 NVDAObjects\window\winword.py:1715
+#: NVDAObjects\window\excel.py:1292 NVDAObjects\window\winword.py:1715
 msgid "Italic on"
 msgstr "打开斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1305 NVDAObjects\window\winword.py:1747
+#: NVDAObjects\window\excel.py:1304 NVDAObjects\window\winword.py:1747
 msgid "Underline off"
 msgstr "关闭下划线"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1307
+#: NVDAObjects\window\excel.py:1306
 msgid "Underline on"
 msgstr "打开下划线"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1319
+#: NVDAObjects\window\excel.py:1318
 msgid "Strikethrough off"
 msgstr "删除线关"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1321
+#: NVDAObjects\window\excel.py:1320
 msgid "Strikethrough on"
 msgstr "删除线开"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1674
+#: NVDAObjects\window\excel.py:1673
 msgid ""
 "Sets the current cell as start of column header. Pressing once will set this "
 "cell as the first column header for any cell lower and to the right of it "
@@ -17622,31 +17622,31 @@ msgstr ""
 "其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的列标题设置。"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1686
+#: NVDAObjects\window\excel.py:1685
 #, python-brace-format
 msgid "Set {address} as start of column headers"
 msgstr "设置 {address} 为列标题的开始单元"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1690
+#: NVDAObjects\window\excel.py:1689
 #, python-brace-format
 msgid "Already set {address} as start of column headers"
 msgstr "{address} 已设为列标题的开始单元"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1695
+#: NVDAObjects\window\excel.py:1694
 #, python-brace-format
 msgid "Removed {address} from column headers"
 msgstr "{address} 已从列标题中移除"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1699
+#: NVDAObjects\window\excel.py:1698
 #, python-brace-format
 msgid "Cannot find {address} in column headers"
 msgstr "无法再列标题中找到 {address}"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1705
+#: NVDAObjects\window\excel.py:1704
 msgid ""
 "Sets the current cell as start of row headers. Pressing once will set this "
 "cell as the first row header for any cell lower and to the right of it "
@@ -17657,47 +17657,47 @@ msgstr ""
 "其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的行标题设置。"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1717
+#: NVDAObjects\window\excel.py:1716
 #, python-brace-format
 msgid "Set {address} as start of row headers"
 msgstr "设置 {address} 为航标题的开始单元"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1721
+#: NVDAObjects\window\excel.py:1720
 #, python-brace-format
 msgid "Already set {address} as start of row headers"
 msgstr "{address} 已设为行标题的开始单元"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1726
+#: NVDAObjects\window\excel.py:1725
 #, python-brace-format
 msgid "Removed {address}    from row headers"
 msgstr "{address} 已从行标题中移除"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1729
+#: NVDAObjects\window\excel.py:1728
 #, python-brace-format
 msgid "Cannot find {address}    in row headers"
 msgstr "无法在行标题中找到 {address}"
 
 #. Translators: a message reported in the get location text script for Excel. {0} is replaced with the name of the excel worksheet, and {1} is replaced with the row and column identifier EG "G4"
-#: NVDAObjects\window\excel.py:1831
+#: NVDAObjects\window\excel.py:1830
 #, python-brace-format
 msgid "Sheet {0}, {1}"
 msgstr "表格 {0}、{1}"
 
-#: NVDAObjects\window\excel.py:1911
+#: NVDAObjects\window\excel.py:1910
 #, python-brace-format
 msgid "Input Message is {title}: {message}"
 msgstr "输入消息为 {title}：{message}"
 
-#: NVDAObjects\window\excel.py:1913
+#: NVDAObjects\window\excel.py:1912
 #, python-brace-format
 msgid "Input Message is {message}"
 msgstr "输入的消息为 {message}"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1928
+#: NVDAObjects\window\excel.py:1927
 msgid ""
 "Reports the note on the current cell. If pressed twice, presents the "
 "information in browse mode"
@@ -17705,22 +17705,22 @@ msgstr "读出当前单元格的注释。连按两次，在浏览模式下显示
 
 #. Translators: title for note on the current Excel cell dialog.
 #. Translators: Title for the note editing  dialog
-#: NVDAObjects\window\excel.py:1945 NVDAObjects\window\excel.py:1964
+#: NVDAObjects\window\excel.py:1944 NVDAObjects\window\excel.py:1963
 msgid "Note"
 msgstr "注释"
 
 #. Translators: A message in Excel when there is no note
-#: NVDAObjects\window\excel.py:1949
+#: NVDAObjects\window\excel.py:1948
 msgid "Not on a note"
 msgstr "不在注释中"
 
 #. Translators: the description  for a script for Excel
-#: NVDAObjects\window\excel.py:1953
+#: NVDAObjects\window\excel.py:1952
 msgid "Opens the note editing dialog"
 msgstr "打开注释编辑对话框"
 
 #. Translators: Dialog text for the note editing dialog
-#: NVDAObjects\window\excel.py:1962
+#: NVDAObjects\window\excel.py:1961
 #, python-brace-format
 msgid "Editing note for cell {address}"
 msgstr "正在编辑单元 {address} 的注释"
@@ -17728,7 +17728,7 @@ msgstr "正在编辑单元 {address} 的注释"
 #. Translators: This is presented in Excel to show the current selection, for example 'a1 c3 through a10 c10'
 #. Beware to keep two spaces between the address and the content. Otherwise some synthesizer
 #. may mix the address and the content when the cell contains a 3-digit number.
-#: NVDAObjects\window\excel.py:2018
+#: NVDAObjects\window\excel.py:2017
 #, python-brace-format
 msgid "{firstAddress}  {firstContent} through {lastAddress}  {lastContent}"
 msgstr "{firstAddress}  {firstContent} 到 {lastAddress}  {lastContent}"
@@ -19490,7 +19490,7 @@ msgid "Connect"
 msgstr "连接"
 
 #. Translators: Message displayed when a remote computer tries to send control+alt+delete but UI Access is disabled.
-#: _remoteClient\localMachine.py:289
+#: _remoteClient\localMachine.py:290
 msgctxt "remote"
 msgid "Unable to trigger control+alt+delete"
 msgstr "无法触发 Ctrl+Alt+Delete"
