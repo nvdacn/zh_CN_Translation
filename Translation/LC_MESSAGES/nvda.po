@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-07 06:31+0000\n"
-"PO-Revision-Date: 2025-08-07 14:28+0800\n"
+"PO-Revision-Date: 2025-08-07 15:53+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2380,14 +2380,14 @@ msgstr "从当前单元格开始垂直向下朗读至当前列的最后一个单
 msgid ""
 "Reads the current row horizontally from left to right without moving the "
 "system caret."
-msgstr "在不移动输入焦点的情况下，从左到右水平朗读当前行。"
+msgstr "在不移动系统光标的情况下，从左到右水平朗读当前行。"
 
 #. Translators: the description for the speak column command
 #: documentBase.py:571
 msgid ""
 "Reads the current column vertically from top to bottom without moving the "
 "system caret."
-msgstr "在不移动输入焦点的情况下，从上到下垂直朗读当前列。"
+msgstr "在不移动系统光标的情况下，从上到下垂直朗读当前列。"
 
 #. Translators: The message announced when toggling the include layout tables browse mode setting.
 #: documentBase.py:581
@@ -2427,7 +2427,7 @@ msgstr "对象导航"
 #. Translators: The name of a category of NVDA commands.
 #: globalCommands.py:84
 msgid "System caret"
-msgstr "系统输入焦点"
+msgstr "系统光标"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the mouse settings panel.
@@ -3444,7 +3444,7 @@ msgstr "读出查看光标处文本或对象的位置信息，连按两次获取
 msgid ""
 "Reports information about the location of the text or object at the position "
 "of system caret. Pressing twice may provide further detail."
-msgstr "读出光标处文本或对象的位置信息，连按两次获取更详细的信息。"
+msgstr "读出系统光标处文本或对象的位置信息，连按两次获取更详细的信息。"
 
 #. Translators: Input help mode message for move navigator object to current focus command.
 #: globalCommands.py:1521
@@ -3464,7 +3464,7 @@ msgstr "移动到焦点"
 msgid ""
 "Pressed once sets the keyboard focus to the navigator object, pressed twice "
 "sets the system caret to the position of the review cursor"
-msgstr "按一次设置键盘焦点到导航对象，按两次设置系统输入焦点到查看光标位置"
+msgstr "按一次设置键盘焦点到导航对象，连按两次设置系统光标到查看光标的所在处"
 
 #. Translators: Reported when:
 #. 1. There is no focusable object e.g. cannot use tab and shift tab to move to controls.
@@ -3482,7 +3482,7 @@ msgstr "移动焦点"
 #. Translators: Reported when there is no caret.
 #: globalCommands.py:1585 globalCommands.py:2624
 msgid "No caret"
-msgstr "没有输入焦点"
+msgstr "没有光标"
 
 #. Translators: Input help mode message for move to parent object command.
 #: globalCommands.py:1593
@@ -3773,7 +3773,7 @@ msgstr "从查看光标处朗读到文本末端的同时，光标随之移动"
 msgid ""
 "Reads from the system caret up to the end of the text, moving the caret as "
 "it goes"
-msgstr "从输入焦点的位置朗读到文本末端的同时，输入焦点随之移动"
+msgstr "从系统光标的位置朗读到文本末端的同时，光标随之移动"
 
 #. Translators: Reported when trying to obtain formatting information (such as font name, indentation and so on) but there is no formatting information for the text under cursor.
 #: globalCommands.py:2576 globalCommands.py:2587 globalCommands.py:4110
@@ -3807,24 +3807,24 @@ msgstr "读出当前查看光标处的文本格式信息。连按两次，在浏
 #. Translators: Input help mode message for report formatting at caret command.
 #: globalCommands.py:2662
 msgid "Reports formatting info for the text under the caret."
-msgstr "读出当前光标处的文本格式信息。"
+msgstr "读出光标处文本的格式信息。"
 
 #. Translators: Input help mode message for show formatting at caret position command.
 #: globalCommands.py:2671
 msgid "Presents, in browse mode, formatting info for the text under the caret."
-msgstr "在浏览模式下，显示当前光标处的文本格式信息。"
+msgstr "在浏览模式下，显示光标处文本的格式信息。"
 
 #. Translators: Input help mode message for report formatting at caret command.
 #: globalCommands.py:2680
 msgid ""
 "Reports formatting info for the text under the caret. If pressed twice, "
 "presents the information in browse mode"
-msgstr "读出当前光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
+msgstr "读出光标处文本的格式信息。连按两次，在浏览模式下显示该信息"
 
 #. Translators: the description for the reportDetailsSummary script.
 #: globalCommands.py:2746
 msgid "Report summary of any annotation details at the system caret."
-msgstr "读出系统输入焦点处的详细信息摘要。"
+msgstr "读出系统光标处的详细信息摘要。"
 
 #. Translators: message given when there is no annotation details for the reportDetailsSummary script.
 #: globalCommands.py:2764
@@ -4052,17 +4052,17 @@ msgstr "读出动态内容更新"
 #: globalCommands.py:3225
 msgid ""
 "Toggles on and off the movement of the review cursor due to the caret moving."
-msgstr "切换是否允许查看光标跟随输入焦点移动。"
+msgstr "切换是否允许查看光标跟随系统光标移动。"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3232
 msgid "caret moves review cursor off"
-msgstr "关闭查看光标随输入焦点移动"
+msgstr "关闭查看光标随系统光标移动"
 
 #. Translators: presented when toggled.
 #: globalCommands.py:3236
 msgid "caret moves review cursor on"
-msgstr "打开查看光标随输入焦点移动"
+msgstr "打开查看光标随系统光标移动"
 
 #. Translators: Input help mode message for toggle focus moves navigator object command.
 #: globalCommands.py:3242
@@ -4342,7 +4342,7 @@ msgstr "{brailleMode}"
 #: globalCommands.py:3696
 msgid ""
 "Cycle through the braille move system caret when routing review cursor states"
-msgstr "在移动查看光标时移动系统输入光标的选项之间循环切换"
+msgstr "在移动查看光标时移动系统光标的选项之间循环切换"
 
 #. Translators: Reported when action is unavailable because braille tether is to focus.
 #: globalCommands.py:3706
@@ -4354,13 +4354,13 @@ msgstr "盲文显示跟随到焦点时该操作不可用"
 #: globalCommands.py:3722
 #, python-format
 msgid "Braille move system caret when routing review cursor default (%s)"
-msgstr "盲文移动查看光标时移动系统输入光标默认（%s）"
+msgstr "盲文移动查看光标时移动系统光标默认（%s）"
 
 #. Translators: Used when reporting braille move system caret when routing review cursor state.
 #: globalCommands.py:3730
 #, python-format
 msgid "Braille move system caret when routing review cursor %s"
-msgstr "盲文移动查看光标时移动系统输入光标（%s）"
+msgstr "盲文移动查看光标时移动系统光标（%s）"
 
 #. Translators: Input help mode message for toggle braille focus context presentation command.
 #: globalCommands.py:3738
@@ -11276,7 +11276,7 @@ msgstr "边框"
 #. Translators: Identifies a caret object.
 #: controlTypes\role.py:409
 msgid "caret"
-msgstr "输入焦点"
+msgstr "光标"
 
 #. Translators: Identifies a character field (should not be confused with edit fields).
 #: controlTypes\role.py:411 textInfos\__init__.py:329
@@ -13699,7 +13699,7 @@ msgstr "跟随系统焦点(&F)"
 #. review cursor settings panel.
 #: gui\settingsDialogs.py:2285
 msgid "Follow System &Caret"
-msgstr "跟随系统输入焦点(&C)"
+msgstr "跟随系统光标(&C)"
 
 #. Translators: This is the label for a checkbox in the
 #. review cursor settings panel.
@@ -13895,7 +13895,7 @@ msgstr "焦点改变时切换到焦点模式(&F)"
 #. browse mode settings panel.
 #: gui\settingsDialogs.py:2635
 msgid "Automatic focus mode for caret movement"
-msgstr "输入焦点移动时的自动焦点模式支持(&F)"
+msgstr "光标移动时的自动焦点模式支持(&F)"
 
 #. Translators: This is the label for a checkbox in the
 #. browse mode settings panel.
@@ -14698,7 +14698,7 @@ msgstr "可编辑"
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:4088
 msgid "Caret movement timeout (in ms)"
-msgstr "光标移动超时（单位: 毫秒）"
+msgstr "光标移动超时（毫秒）"
 
 #. Translators: This is the label for a checkbox control in the
 #. Advanced settings panel.
@@ -14883,7 +14883,7 @@ msgstr "盲文显示跟随到(&R)："
 #. Translators: This is a label for a combo-box in the Braille settings panel.
 #: gui\settingsDialogs.py:4888
 msgid "Move system caret when ro&uting review cursor"
-msgstr "移动查看光标时移动系统输入光标(&U)"
+msgstr "移动查看光标时移动系统光标(&U)"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
 #: gui\settingsDialogs.py:4904
@@ -16289,7 +16289,7 @@ msgstr "无法在行标题中找到 {rowNumber} 行 {columnNumber} 列"
 msgid ""
 "Reports the text of the comment where the system caret is located.If pressed "
 "twice, presents the information in browse mode."
-msgstr "读出系统输入焦点所在的批注文本。连按两次，在浏览模式下显示该信息。"
+msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式下显示该信息。"
 
 #. Translators: a message when there is no comment to report in Microsoft Word
 #: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:720
@@ -16538,7 +16538,7 @@ msgstr "当前文档不支持句子导航"
 msgid ""
 "Reports the text of the comment where the system caret is located. If "
 "pressed twice, presents the information in a browsable message"
-msgstr "读出系统输入焦点所在的批注文本。连按两次，在浏览模式下显示该信息"
+msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
