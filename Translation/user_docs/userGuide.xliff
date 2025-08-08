@@ -7207,7 +7207,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Say all |`NVDA+downArrow` |`NVDA+a` |Starts reading from the current position, moving it along as it goes</source>
-        <target>全文朗读 | `NVDA+下光标` | `NVDA+a` | 从系统输入焦点的当前位置开始朗读，焦点会随着朗读的内容移动</target>
+        <target>全文朗读 | `NVDA+下光标` | `NVDA+a` | 从系统光标的当前位置开始朗读，光标会随着朗读的内容移动</target>
       </segment>
     </unit>
     <unit id="fd3fa8cf-7c58-4704-862c-d2744715c7b1">
@@ -10530,7 +10530,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Navigating with the System Caret</source>
-        <target>使用系统输入焦点进行导航</target>
+        <target>使用系统光标进行导航</target>
       </segment>
     </unit>
     <unit id="ac853982-5546-4707-9c52-1951dc94cb40">
@@ -10539,7 +10539,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When an [object](#Objects) that allows navigation and/or editing of text is [focused](#SystemFocus), you can move through the text using the system caret, also known as the edit cursor.</source>
-        <target>当一个[对象](#Objects)允许导航和/或编辑文字并拥有[焦点](#SystemFocus)时，您可以使用输入焦点（或被称之为编辑光标）在文本之间移动。</target>
+        <target>当一个[对象](#Objects)允许导航和/或编辑文字并拥有[焦点](#SystemFocus)时，您可以使用系统光标（亦称编辑光标或系统插入符）在文本之间移动。</target>
       </segment>
     </unit>
     <unit id="c3081147-95c8-4f8d-810f-c9e66a1fe7fe">
@@ -10548,7 +10548,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When the focus is on an object that has the system caret, you can use the arrow keys, page up, page down, home, end, etc. to move through the text.</source>
-        <target>当焦点在一个拥有输入焦点的对象上时，您可以使用光标键、上翻页、下翻页、行首、行尾等等按键在文本之间移动。</target>
+        <target>当焦点在一个拥有系统光标的对象上时，您可以使用光标键、上翻页、下翻页、行首、行尾等等按键在文本之间移动。</target>
       </segment>
     </unit>
     <unit id="01599c90-d1df-40f9-b0e3-1bb78938adc4">
@@ -10575,7 +10575,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>NVDA provides the following key commands in relation to the system caret:</source>
-        <target>NVDA 提供下列与系统输入焦点相关的快捷命令：</target>
+        <target>NVDA 提供下列与系统光标相关的快捷命令：</target>
       </segment>
     </unit>
     <unit id="146a484b-fcf5-44d1-8b7a-368e3e9c7309">
@@ -10597,7 +10597,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Say all |NVDA+downArrow |NVDA+a |Starts reading from the current position of the system caret, moving it along as it goes</source>
-        <target>全文朗读 |NVDA+下光标 |NVDA+a |从系统输入焦点的当前位置开始朗读，焦点会随着朗读的内容移动</target>
+        <target>全文朗读 |NVDA+下光标 |NVDA+a |从系统光标的当前位置开始朗读，光标会随着朗读的内容移动</target>
       </segment>
     </unit>
     <unit id="4c5405b9-09e7-44d7-915f-6d145a7b2b10">
@@ -10608,7 +10608,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read current line |NVDA+upArrow |NVDA+l |Reads the line where the system caret is currently situated. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
-        <target>读出当前行 | `NVDA+上光标` | `NVDA+L` | 读出系统输入焦点所在的行，连按两次逐字朗读，连按三次逐字解释。</target>
+        <target>读出当前行 | `NVDA+上光标` | `NVDA+L` | 读出系统光标的所在行，连按两次逐字朗读，连按三次逐字解释。</target>
       </segment>
     </unit>
     <unit id="2ad65d11-02eb-4651-b40f-0446bb0f61af">
@@ -10630,7 +10630,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report text formatting |NVDA+f |NVDA+f |Reports the formatting of the text where the caret is currently situated. Pressing twice shows the information in browse mode</source>
-        <target>读出文本格式 | `NVDA+F` | `NVDA+F` | 读出系统输入焦点当前位置的文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
+        <target>读出文本格式 | `NVDA+F` | `NVDA+F` | 读出系统光标处文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
       </segment>
     </unit>
     <unit id="9df76723-e7c4-4e1b-aa7a-65a16cb3c311">
@@ -10652,7 +10652,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report caret location |NVDA+numpadDelete |NVDA+delete |Reports information about the location of the text or object at the position of system caret. For example, this might include the percentage through the document, the distance from the edge of the page or the exact screen position. Pressing twice may provide further detail.</source>
-        <target>读出输入焦点的位置信息 | `NVDA+数字键盘删除` | `NVDA+删除` | 读出系统输入焦点处文本或对象的位置信息。例如，可能包括输入焦点位置在文档内的百分比、与页面边缘的距离或确切的屏幕位置。连按两次获取详细信息。</target>
+        <target>读出光标的位置信息 | `NVDA+数字键盘删除` | `NVDA+删除` | 读出系统光标处文本或对象的位置信息。例如，可能包括光标位置在文档内的百分比、与页面边缘的距离或确切的屏幕位置。连按两次获取详细信息。</target>
       </segment>
     </unit>
     <unit id="d1c8387b-90cf-464d-821d-583c2a373e34">
@@ -10663,7 +10663,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Next sentence |alt+downArrow |alt+downArrow |Moves the caret to the next sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>下一个句子 | `Alt+下光标` | `Alt+下光标` | 移动输入焦点到下一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>下一个句子 | `Alt+下光标` | `Alt+下光标` | 移动光标到下一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="18d6985b-ec14-4b1b-af15-5500989ce367">
@@ -10674,16 +10674,16 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Previous sentence |alt+upArrow |alt+upArrow |Moves the caret to the previous sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>上一个句子 | `Alt+上光标` | `Alt+上光标` | 移动输入焦点到上一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>上一个句子 | `Alt+上光标` | `Alt+上光标` | 移动光标到上一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="f2c5e713-d2a2-4c3e-8d24-898fa503ee8e">
       <notes>
         <note appliesTo="source">line: 746</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When within a table, the following key commands are also available:</source>
-        <target>当处于一个列表之内时，还可使用以下键盘命令：</target>
+        <target>当处于表格中时，还可使用以下键盘命令：</target>
       </segment>
     </unit>
     <unit id="3721a417-e94a-4e20-97d0-c4c477d430e6">
@@ -10705,7 +10705,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to previous column |control+alt+leftArrow |Moves the system caret to the previous column (staying in the same row)</source>
-        <target>移动到上一列 | `Ctrl+Alt+左光标` | 移动输入焦点到上一列（仍在同一行内）。</target>
+        <target>移动到上一列 | `Ctrl+Alt+左光标` | 移动系统光标到上一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="cf7fd9d6-6833-4e6c-be5f-fd45b81c60c3">
@@ -10716,7 +10716,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to next column |control+alt+rightArrow |Moves the system caret to the next column (staying in the same row)</source>
-        <target>移动到下一列 | `Ctrl+Alt+右光标` | 移动输入焦点到下一列（仍在同一行内）。</target>
+        <target>移动到下一列 | `Ctrl+Alt+右光标` | 移动系统光标到下一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="c1ebef62-7afe-4736-864b-79cb1d2aafc8">
@@ -10727,7 +10727,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to previous row |control+alt+upArrow |Moves the system caret to the previous row (staying in the same column)</source>
-        <target>移动到上一行 | `Ctrl+Alt+上光标` | 移动输入焦点到上一行（仍在同一列内）。</target>
+        <target>移动到上一行 | `Ctrl+Alt+上光标` | 移动系统光标到上一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="faf419fa-b417-492b-bbec-57c80a5acc94">
@@ -10738,7 +10738,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to next row |control+alt+downArrow |Moves the system caret to the next row (staying in the same column)</source>
-        <target>移动到下一行 | `Ctrl+Alt+下光标` | 移动输入焦点到下一行（仍在同一列内）。</target>
+        <target>移动到下一行 | `Ctrl+Alt+下光标` | 移动系统光标到下一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="86767d89-da97-4458-b94e-09822b579bf6">
@@ -10749,7 +10749,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to first column |control+alt+home |Moves the system caret to the first column (staying in the same row)</source>
-        <target>移动到第一列 | `Ctrl+Alt+行首` | 移动输入焦点到第一列（仍在同一行内）。</target>
+        <target>移动到第一列 | `Ctrl+Alt+行首` | 移动系统光标到第一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="b5e4b078-2378-4623-acc0-fdb959a7c634">
@@ -10760,7 +10760,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to last column |control+alt+end |Moves the system caret to the last column (staying in the same row)</source>
-        <target>移动到最后一列 | `Ctrl+Alt+行尾` | 移动输入焦点到最后一列（仍在同一行内）。</target>
+        <target>移动到最后一列 | `Ctrl+Alt+行尾` | 移动系统光标到最后一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="58d6aa77-614b-45ff-8cbe-3c33b060e18d">
@@ -10771,7 +10771,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to first row |control+alt+pageUp |Moves the system caret to the first row (staying in the same column)</source>
-        <target>移动到第一行 | `Ctrl+Alt+上翻页` | 移动输入焦点到第一行（仍在同一列内）。</target>
+        <target>移动到第一行 | `Ctrl+Alt+上翻页` | 移动系统光标到第一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="eb0028cf-84d9-4431-881e-07d8ebff5cb5">
@@ -10782,7 +10782,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to last row |control+alt+pageDown |Moves the system caret to the last row (staying in the same column)</source>
-        <target>移动到最后一行 | `Ctrl+Alt+下翻页` | 移动输入焦点到最后一行（仍在同一列内）。</target>
+        <target>移动到最后一行 | `Ctrl+Alt+下翻页` | 移动系统光标到最后一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="2e267e49-04e6-4706-817f-f8b0619ee70e">
@@ -10815,7 +10815,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read entire column |`NVDA+control+alt+upArrow` |Reads the current column vertically from top to bottom without moving the system caret.</source>
-        <target>朗读当前列（不移动输入焦点） | `NVDA+Ctrl+Alt+上光标` | 在不移动输入焦点的情况下，从上到下垂直朗读当前列。</target>
+        <target>朗读当前列 | `NVDA+Ctrl+Alt+上光标` | 在不移动系统光标的情况下，从上到下垂直朗读当前列。</target>
       </segment>
     </unit>
     <unit id="6cac6768-fb95-40f4-a4c6-4edaecc9a3a5">
@@ -10826,7 +10826,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read entire row |`NVDA+control+alt+leftArrow` |Reads the current row horizontally from left to right without moving the system caret.</source>
-        <target>朗读当前行（不移动输入焦点） | `NVDA+Ctrl+Alt+左光标` | 在不移动输入焦点的情况下，从左到右水平朗读当前行。</target>
+        <target>朗读当前行 | `NVDA+Ctrl+Alt+左光标` | 在不移动系统光标的情况下，从左到右水平朗读当前行。</target>
       </segment>
     </unit>
     <unit id="3f7a569a-ff51-4ccf-849e-629b45d1e22d">
@@ -10846,7 +10846,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Most of the time, you will work with applications using commands which move the [focus](#SystemFocus) and the [caret](#SystemCaret).</source>
-        <target>很多时候，您会在与某个程序进行交互时使用一些需要移动[焦点](#SystemFocus)和[输入焦点](#SystemCaret)的命令。</target>
+        <target>很多时候，您会在与某个程序进行交互时使用一些需要移动[焦点](#SystemFocus)和[光标](#SystemCaret)的命令。</target>
       </segment>
     </unit>
     <unit id="7460b2f3-c8b2-4db4-b4c9-9d0de66e25e3">
@@ -10855,7 +10855,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>However, sometimes, you may wish to explore the current application or the Operating System without moving the focus or caret.</source>
-        <target>然而，有时候，您会希望在不移动焦点和输入焦点的情况下浏览当前的应用程序或者操作系统。</target>
+        <target>然而，有时候，您会希望在不移动焦点和光标的情况下浏览当前的应用程序或者操作系统。</target>
       </segment>
     </unit>
     <unit id="e56e77af-77b5-484b-b589-742ee079f031">
@@ -11161,7 +11161,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to focus object |NVDA+numpadMinus |NVDA+backspace |none |Moves to the object that currently has the system focus, and also places the review cursor at the position of the System caret, if it is showing</source>
-        <target>移动到焦点对象 | `NVDA+数字键盘减号` | `NVDA+退格` | 无 | 移动到系统焦点所在的对象，也会将查看光标移动到系统输入焦点的所在处（如果有显示）</target>
+        <target>移动到焦点对象 | `NVDA+数字键盘减号` | `NVDA+退格` | 无 | 移动到系统焦点所在的对象，也会将查看光标移动到系统光标的所在处（如果有显示）</target>
       </segment>
     </unit>
     <unit id="02f43332-dbef-4a8a-831c-592667c68a02">
@@ -11183,7 +11183,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move System focus or caret to current review position |NVDA+shift+numpadMinus |NVDA+shift+backspace |none |pressed once Moves the System focus to the current navigator object, pressed twice moves the system caret to the position of the review cursor</source>
-        <target>移动焦点或系统输入焦点到当前查看位置 | `NVDA+Shift+数字键盘减号` | `NVDA+Shift+退格` | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统输入焦点移动到查看光标所在的位置</target>
+        <target>移动焦点或系统光标到当前查看位置 | `NVDA+Shift+数字键盘减号` | `NVDA+Shift+退格` | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统光标移动到查看光标的所在处</target>
       </segment>
     </unit>
     <unit id="ef240f08-ade8-4eac-9b4a-903acc5a149e">
@@ -11243,7 +11243,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This is mostly useful in places (including Windows command consoles) where there is no [system caret](#SystemCaret).</source>
-        <target>此功能通常用于包括 Windows 命令控制台在内的那些没有[系统输入焦点](#SystemCaret)的地方。</target>
+        <target>此功能通常用于包括 Windows 命令控制台在内的那些没有[系统光标](#SystemCaret)的地方。</target>
       </segment>
     </unit>
     <unit id="cc055480-439d-4ba5-81a2-a6155508dd91">
@@ -11261,7 +11261,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When moving the review cursor, the System caret does not follow along, so you can review text without losing your editing position.</source>
-        <target>当移动查看光标时，系统输入焦点不会跟随移动，因此，您可以在不丢失编辑位置的前提下进行文本查看。</target>
+        <target>当移动查看光标时，系统光标不会跟随移动，因此，您可以在不丢失编辑位置的前提下进行文本查看。</target>
       </segment>
     </unit>
     <unit id="d416934b-ec20-475c-81ac-5de7e8fd09bc">
@@ -11270,7 +11270,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>However, by default, when the System caret moves, the review cursor follows along.</source>
-        <target>但在默认情况下，当系统输入焦点移动时，查看光标将跟随移动。</target>
+        <target>但在默认情况下，当系统光标移动时，查看光标将跟随移动。</target>
       </segment>
     </unit>
     <unit id="54186a71-5e63-4c20-a839-bffe13b2621b">
@@ -11528,7 +11528,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Select then Copy to review cursor |NVDA+f10 |NVDA+f10 |none |On the first press, text is selected from the position previously set as start marker up to and including the review cursor's current position. If the system caret can reach the text, it will be moved to the selected text. After pressing this key stroke a second time, the text will be copied to the Windows clipboard</source>
-        <target>标记结束点 | NVDA+f10 | NVDA+f10 | 无 | 按一次，选中开始点和结束点之间的文本，同时尝试将系统输入焦点移动到选定的文本；连按两次，把开始点和结束点之间的文本复制到剪贴板</target>
+        <target>标记结束点 | NVDA+f10 | NVDA+f10 | 无 | 按一次，选中开始点和结束点之间的文本，同时尝试将系统光标移动到选定的文本；连按两次，把开始点和结束点之间的文本复制到剪贴板</target>
       </segment>
     </unit>
     <unit id="6df1fca6-062b-4ab7-b0cc-79ded1527f59">
@@ -12201,7 +12201,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>All of NVDA's [system caret](#SystemCaret) key commands will work in this mode; e.g. say all, report formatting, table navigation commands, etc.</source>
-        <target>所有 NVDA 的[系统输入焦点](#SystemCaret)快捷键都可以正常的在此模式下工作，例如全文朗读、朗读格式、表格导航快捷键等等。</target>
+        <target>所有 NVDA 的[系统光标](#SystemCaret)快捷键都可以正常的在此模式下工作，例如全文朗读、朗读格式、表格导航快捷键等等。</target>
       </segment>
     </unit>
     <unit id="92099f33-3a99-48e2-a33f-0a7e5d980f03">
@@ -12677,7 +12677,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to start of container |shift+comma |Moves to the start of the container (list, table, etc.) where the caret is positioned</source>
-        <target>移动到容器的开始处 | `Shift+逗号` | 移动到输入焦点所在容器的开头（列表、表格等）</target>
+        <target>移动到容器的开始处 | `Shift+逗号` | 移动到光标所在容器的开头（列表、表格等）</target>
       </segment>
     </unit>
     <unit id="80b6ff05-0ade-473d-babc-af8f5958228f">
@@ -12688,7 +12688,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move past end of container |comma |Moves past the end of the container (list, table, etc.) where the caret is positioned</source>
-        <target>移动到容器的结尾处 | 逗号 | 移动到输入焦点所在容器的结尾（列表、表格等）</target>
+        <target>移动到容器的结尾处 | 逗号 | 移动到光标所在容器的结尾（列表、表格等）</target>
       </segment>
     </unit>
     <unit id="33a302d1-6a82-4080-9c98-20ab42a571ae">
@@ -13792,7 +13792,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>By default, the review cursor follows the system caret, so you can usually use the system caret to move to the desired content.</source>
-        <target>默认情况下，查看光标会跟随系统输入焦点，所以，实际上您可以直接使用系统输入焦点移动到期望的内容。</target>
+        <target>默认情况下，查看光标会跟随系统光标，所以，实际上您可以直接使用系统光标移动到期望的内容。</target>
       </segment>
     </unit>
     <unit id="2227465e-d77d-413a-96ea-733610c468da">
@@ -15924,7 +15924,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To report any comments at the current caret position, press `NVDA+alt+c`.</source>
-        <target>按下 `NVDA+Alt+c` 可以查看系统输入焦点所在处的任何批注。</target>
+        <target>按下 `NVDA+Alt+c` 可以查看系统光标所在处的任何批注。</target>
       </segment>
     </unit>
     <unit id="846cb9bb-a1ca-46be-b615-34fbf38ec7a4">
@@ -19739,7 +19739,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When follow cursors is selected, the braille display will follow either the system focus/caret or the navigator object/review cursor, depending on what braille is tethered to.</source>
-        <target>选择跟随光标后，盲文点显器将跟随系统焦点/输入焦点或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
+        <target>选择跟随光标后，盲文点显器将跟随系统焦点/光标或导航对象/查看光标，具体取决于“盲文显示跟随”设置。</target>
       </segment>
     </unit>
     <unit id="52d88a5e-4e39-4a6a-93d4-8dc82422aa04">
@@ -19797,7 +19797,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>It applies to the system caret and review cursor, but not to the selection indicator.</source>
-        <target>该设置会应用到系统输入焦点和查看光标，而并不会作用于选择指示器。换言之，此选项对选择指示器无效。</target>
+        <target>该设置会应用到系统光标和查看光标，而并不会作用于选择指示器。换言之，此选项对选择指示器无效。</target>
       </segment>
     </unit>
     <unit id="b02eb09c-be15-4f67-8a28-7451a4c32296">
@@ -20009,7 +20009,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both.</source>
-        <target>此选项允许您选择是否希望点显器跟随系统焦点/输入焦点、导航对象/查看光标或自动。</target>
+        <target>此选项允许您选择是否希望点显器跟随系统焦点/系统光标、导航对象/查看光标或自动。</target>
       </segment>
     </unit>
     <unit id="e4daa63c-3a5c-41f2-8b01-a8604310d25f">
@@ -20018,7 +20018,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When "automatically" is selected, NVDA will follow the system focus and caret by default.</source>
-        <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或输入焦点。</target>
+        <target>如果选中了“自动”，盲文光标会默认跟随系统焦点或系统光标。</target>
       </segment>
     </unit>
     <unit id="ca25560b-db7b-444b-9841-54484d0aca6a">
@@ -20027,7 +20027,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>In this case, when the navigator object or the review cursor position is changed by means of explicit user interaction, NVDA will tether to review temporarily, until the focus or the caret changes.</source>
-        <target>此时，如果用户操作改变了导航对象或查看光标，NVDA 会让盲文光标暂时跟随查看光标，直到系统焦点或者输入焦点改变为止。</target>
+        <target>此时，如果用户操作改变了导航对象或查看光标，NVDA 会让盲文光标暂时跟随查看光标，直到系统焦点或者系统光标改变为止。</target>
       </segment>
     </unit>
     <unit id="6f2884c5-d573-46d4-959f-e9e1c5e4a896">
@@ -20036,7 +20036,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>If you want it to follow the focus and caret only, you need to configure braille to be tethered to focus.</source>
-        <target>如果您想让盲文光标只跟随系统焦点或系统输入焦点，需要把这个设置改成焦点。</target>
+        <target>如果您想让盲文光标只跟随系统焦点或系统光标，需要把这个设置改成焦点。</target>
       </segment>
     </unit>
     <unit id="55b97300-83dc-4d1f-a3a3-8bd8d873fb20">
@@ -20045,7 +20045,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>In this case, braille will not follow the NVDA navigator during object navigation or the review cursor during review.</source>
-        <target>此时，盲文光标不会跟随查看光标或导航对象。</target>
+        <target>此时，盲文光标不会跟随导航对象或查看光标。</target>
       </segment>
     </unit>
     <unit id="cbbd1a7d-e72c-4b92-af24-c107d5ac2ca4">
@@ -20054,7 +20054,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>If you want braille to follow object navigation and text review instead, you need to configure braille to be tethered to review.</source>
-        <target>如果您想让盲文光标只跟随文本查看或对象导航，需要把这个设置改成查看光标。</target>
+        <target>如果您想让盲文光标只跟随对象导航或文本查看，需要把这个设置改成查看光标。</target>
       </segment>
     </unit>
     <unit id="f2c3797f-379e-42b1-beeb-ef37c95307db">
@@ -20063,7 +20063,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>In this case, Braille will not follow system focus and system caret.</source>
-        <target>此时盲文光标不再跟随系统焦点或系统输入焦点。</target>
+        <target>此时盲文光标不再跟随系统焦点或系统光标。</target>
       </segment>
     </unit>
     <unit id="8227c48e-3d11-412e-80c2-437ff9ccf394">
@@ -20074,7 +20074,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move system caret when routing review cursor</source>
-        <target>移动查看光标时移动系统输入焦点</target>
+        <target>移动查看光标时移动系统光标</target>
       </segment>
     </unit>
     <unit id="b089cc37-a9d0-4b76-93d3-29b98b24d035">
@@ -20083,7 +20083,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This setting determines if the system caret should also be moved with a routing button press.</source>
-        <target>此设置决定是否应该在按下盲文点显器上的定位按键后移动系统输入焦点。</target>
+        <target>此设置决定是否应该在按下盲文点显器上的定位按键后移动系统光标。</target>
       </segment>
     </unit>
     <unit id="c584e728-9e32-48a9-8a4d-79c857e2e618">
@@ -20092,7 +20092,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This option is set to Never by default, meaning that routing will never move the caret when routing the review cursor.</source>
-        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动输入焦点。</target>
+        <target>在默认情况下，此选项设置为“从不”，这意味着在点显器上按下定位按键移动查看光标时从不移动系统光标。</target>
       </segment>
     </unit>
     <unit id="18819352-c975-41e2-90ca-8b90ce810da5">
@@ -20101,7 +20101,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When this option is set to Always, and [braille tethering](#BrailleTether) is set to "automatically" or "to review", pressing a cursor routing key will also move the system caret or focus when supported.</source>
-        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统输入焦点或系统焦点。</target>
+        <target>当此选项设置为“总是”，且[盲文光标跟随](#BrailleTether)设置为“自动”或“查看光标”时，按盲文点显器上的定位按键也将在支持时移动系统光标或焦点。</target>
       </segment>
     </unit>
     <unit id="46ca02cd-2af4-499f-8602-bcbd2ff791cc">
@@ -20110,7 +20110,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When the current review mode is [Screen Review](#ScreenReview), there is no physical caret.</source>
-        <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理输入焦点。</target>
+        <target>若当前查看模式为[屏幕查看](#ScreenReview)时，没有物理光标。</target>
       </segment>
     </unit>
     <unit id="f8faf4f6-91a5-418b-bf22-a0e188491b12">
@@ -20137,7 +20137,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>You can also set this option to only move the caret when tethered automatically.</source>
-        <target>您还可以将该选项设置为“仅当盲文光标设为自动跟随时”移动输入焦点。</target>
+        <target>您还可以将该选项设置为“仅当盲文光标设为自动跟随时”移动系统光标。</target>
       </segment>
     </unit>
     <unit id="cbb48d99-500d-4aca-a29a-ac5e1706e9b3">
@@ -20146,7 +20146,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>In that case, pressing a cursor routing key will only move the system caret or focus when NVDA is tethered to the review cursor automatically, whereas no movement will occur when manually tethered to the review cursor.</source>
-        <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统输入焦点或系统焦点，而手动跟随到查看光标时不会发生任何移动。</target>
+        <target>在这种情况下，当 NVDA 自动跟随查看光标时，按光标定位键只会移动系统光标或焦点，而手动跟随到查看光标时不会发生任何移动。</target>
       </segment>
     </unit>
     <unit id="e84a54fe-a113-409d-9f14-106f86f7c453">
@@ -20164,7 +20164,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To toggle move system caret when routing review cursor from anywhere, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>如需随时切换“移动查看光标时移动系统输入焦点”模式，请在[按键与首饰](#InputGestures)中分配一个快捷键。</target>
+        <target>如需随时切换“移动查看光标时移动系统光标”模式，请在[按键与首饰](#InputGestures)中分配一个快捷键。</target>
       </segment>
     </unit>
     <unit id="0fb5939a-9b15-4e4f-b08f-a42393f13419">
@@ -23184,7 +23184,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Follow System Caret</source>
-        <target>跟随系统输入焦点</target>
+        <target>跟随系统光标</target>
       </segment>
     </unit>
     <unit id="ea4a15be-588c-4ecf-9629-c82361bcf8c4">
@@ -23202,7 +23202,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When enabled, the review cursor will automatically be moved to the position of the System caret each time it moves.</source>
-        <target>如果启用，查看光标将在每次系统输入焦点移动时自动移动到其所在位置。</target>
+        <target>如果启用，查看光标将在每次系统光标移动时自动移动到其所在位置。</target>
       </segment>
     </unit>
     <unit id="43321f81-8d82-486d-b275-96b570c60d2f">
@@ -23213,7 +23213,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Follow mouse cursor</source>
-        <target>跟随鼠标</target>
+        <target>跟随鼠标移动</target>
       </segment>
     </unit>
     <unit id="d2fc1740-fa34-4643-9821-7b73c20fe004">
@@ -24278,7 +24278,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Automatic focus mode for caret movement</source>
-        <target>输入焦点移动时的自动焦点模式</target>
+        <target>光标移动时的自动焦点模式</target>
       </segment>
     </unit>
     <unit id="46641c37-bd81-4c45-89ba-002ea998402c">
@@ -24946,7 +24946,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>By default, NVDA will detect the formatting at the position of the System caret / Review Cursor, and in some instances may detect formatting on the rest of the line, only if it is not going to cause a performance decrease.</source>
-        <target>默认情况下，NVDA 会检测系统输入焦点或查看光标所在位置的格式信息，某些情况也会检测这一行的剩余部分，前提是这样做不会降低执行效率。</target>
+        <target>默认情况下，NVDA 会检测系统光标或查看光标所在位置的格式信息，某些情况也会检测这一行的剩余部分，前提是这样做不会降低执行效率。</target>
       </segment>
     </unit>
     <unit id="51cdd305-2ad1-4ec7-9213-e6920512fb91">
@@ -25197,7 +25197,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>You may toggle through the available paragraph styles from anywhere by assigning a key in the [Input Gestures dialog](#InputGestures).</source>
-        <target>您可以在[按键与手势对话框](#InputGestures)的“系统输入焦点”类别下分配一个快捷键，用于随时在段落导航模式之间循环切换。</target>
+        <target>您可以在[按键与手势对话框](#InputGestures)的“系统光标”类别下分配一个快捷键，用于随时在段落导航模式之间循环切换。</target>
       </segment>
     </unit>
     <unit id="9bdf175e-b215-4ca7-a07d-5bbdd2406bb4">
@@ -27027,7 +27027,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To "Report summary of any annotation details at the system caret", press NVDA+d.</source>
-        <target>“读出系统输入焦点处的详细信息摘要”，请按 NVDA+d。</target>
+        <target>若要读出系统光标处的详细信息摘要，请按 NVDA+d。</target>
       </segment>
     </unit>
     <unit id="d9c402ee-7d43-494d-bb01-68e87f40dd5e">
@@ -31569,7 +31569,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This is often used to move the caret or trigger the action for a control.</source>
-        <target>通常用于移动输入光标或激活控件。</target>
+        <target>通常用于移动光标或激活控件。</target>
       </segment>
     </unit>
     <unit id="2c498646-ce2e-44fc-a3bd-40a1c8d070fb">
@@ -39266,7 +39266,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move System focus or caret to current review position |F9</source>
-        <target>移动焦点或系统输入焦点到当前查看位置 |F9</target>
+        <target>移动系统焦点或光标到当前查看位置 |F9</target>
       </segment>
     </unit>
     <unit id="0f81e010-10e8-4c73-9cdf-53af4031e0af">
