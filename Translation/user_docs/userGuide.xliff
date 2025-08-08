@@ -6361,7 +6361,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Load the NV Access download page (Press `alt+d`, type the following address and press `enter`):</source>
-        <target>加载 NV Access（或 NVDA 中文站）的下载页面（按 `Alt+d`，键入以下网址并按`回车`键）：</target>
+        <target>加载 NV Access（或 NVDA 中文站）的下载页面（按 `Alt+D`，键入以下网址并按`回车`键）：</target>
       </segment>
     </unit>
     <unit id="ae6109cd-b625-4506-90af-5cc92afa215b">
@@ -6410,7 +6410,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>If the file needs to be manually launched, press `alt+n` to move to the notification area, then `alt+r` to run the file (or the steps for your browser)</source>
-        <target>如果下载的文件需要手动运行，请按 `Alt+n` 转到通知栏，然后按 `Alt+r` 运行该文件（也可使用适合您的浏览器的方法）。</target>
+        <target>如果下载的文件需要手动运行，请按 `Alt+N` 转到通知栏，然后按 `Alt+R` 运行该文件（也可使用适合您的浏览器的方法）。</target>
       </segment>
     </unit>
     <unit id="92dd6fe9-c6f5-4013-97b6-41917db77a0e">
@@ -6505,7 +6505,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>You may need to wait a few seconds while a temporary copy of NVDA loads.</source>
-        <target>加载NVDA临时副本时可能需要等待几秒钟。</target>
+        <target>加载 NVDA 临时副本时可能需要等待几秒钟。</target>
       </segment>
     </unit>
     <unit id="97e4ff0f-5201-4d72-a2a6-48230d50cb8f">
@@ -6808,7 +6808,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Press `alt+y` to accept the UAC prompt.</source>
-        <target>按 `Alt+y` 接受此 UAC 提示。</target>
+        <target>按 `Alt+Y` 接受此 UAC 提示。</target>
       </segment>
     </unit>
     <unit id="32c0ccba-4015-4e38-9265-b079649929da">
@@ -7061,7 +7061,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The default NVDA modifier key is either the `numpadZero`, (with `numLock` off), or the `insert` key, near the `delete`, `home` and `end` keys.</source>
-        <target>默认的 NVDA 键为`数字键盘0`（仅当`数字锁定`为关闭状态时），以及`插入键（Insert）`（位于 `删除（Delete）`，`行首（Home）` 及 `行尾（End）` 键附近）。</target>
+        <target>默认的 NVDA 键为`数字键盘0`（仅当`数字锁定`为关闭状态时），以及`插入`键（`Insert`）（位于`删除`（`Delete`），`行首`（`Home`）及`行尾`（`End`）键附近）。</target>
       </segment>
     </unit>
     <unit id="9f959b1e-cff6-4c3d-b398-f4749c8ccafa">
@@ -7218,7 +7218,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read current line |`NVDA+upArrow` |`NVDA+l` |Reads the line. Pressing twice spells the line. Pressing three times spells the line using character descriptions (Alpha, Bravo, Charlie, etc)</source>
-        <target>朗读当前行 | `NVDA+上光标` | `NVDA+l` | 朗读当前行。连按两次逐字朗读。连按三次逐字解释（如 Alpha，Bravo，Charlie 等。）</target>
+        <target>朗读当前行 | `NVDA+上光标` | `NVDA+L` | 朗读当前行。连按两次逐字朗读。连按三次逐字解释（如 Alpha，Bravo，Charlie 等。）</target>
       </segment>
     </unit>
     <unit id="01d3bac2-112e-48ce-b082-4259aa5a3d78">
@@ -7229,7 +7229,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read selection |`NVDA+shift+upArrow` |`NVDA+shift+s` |Reads any selected text. Pressing twice will spell the information. Pressing three times will spell it using character description</source>
-        <target>朗读选择的文本 | `NVDA+Shift+上光标` | `NVDA+Shift+s` | 朗读选择的所有文本。连按两次逐字朗读，连按三次逐字解释</target>
+        <target>朗读选择的文本 | `NVDA+Shift+上光标` | `NVDA+Shift+S` | 朗读选择的所有文本。连按两次逐字朗读，连按三次逐字解释</target>
       </segment>
     </unit>
     <unit id="d098a3f2-5157-413c-8126-69af29d5371e">
@@ -7240,7 +7240,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read clipboard text |`NVDA+c` |`NVDA+c` |Reads any text on the clipboard. Pressing twice will spell the information. Pressing three times will spell it using character description</source>
-        <target>朗读剪贴板文本 | `NVDA+c` | `NVDA+c` | 朗读剪贴板中的任何文本。连按两次逐字朗读，连按三次逐字解释</target>
+        <target>朗读剪贴板文本 | `NVDA+C` | `NVDA+C` | 朗读剪贴板中的任何文本。连按两次逐字朗读，连按三次逐字解释</target>
       </segment>
     </unit>
     <unit id="c4c7d16e-ae6a-440c-ae16-9fd7f68c29c6">
@@ -7328,7 +7328,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report text formatting |`NVDA+f` |`NVDA+f` |Reports text formatting. Pressing twice shows the information in a window</source>
-        <target>读出文本格式 | `NVDA+f` | `NVDA+f` | 读出文本的格式信息。连按两次在一个窗口中显示此信息</target>
+        <target>读出文本格式 | `NVDA+F` | `NVDA+F` | 读出文本的格式信息。连按两次在一个窗口中显示此信息</target>
       </segment>
     </unit>
     <unit id="681079da-c91c-474f-9e42-3292d558c0d8">
@@ -7383,7 +7383,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Speak typed characters |`NVDA+2` |`NVDA+2` |Controls when NVDA announces characters you type. </source>
-        <target>读出输入的字符 |`NVDA+2` |`NVDA+2` |控制 NVDA 何时读出输入的字符。 </target>
+        <target>读出输入的字符 | `NVDA+2` | `NVDA+2` | 控制 NVDA 何时读出输入的字符。 </target>
       </segment>
     </unit>
     <unit id="7bdd8d70-455c-410f-b0c7-697a0396b2c5">
@@ -7394,7 +7394,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Speak typed words |`NVDA+3` |`NVDA+3` |Controls when NVDA announces words you type. </source>
-        <target>读出输入的单词 |`NVDA+3` |`NVDA+3` |控制 NVDA 何时读出输入的单词。 </target>
+        <target>读出输入的单词 | `NVDA+3` | `NVDA+3` | 控制 NVDA 何时读出输入的单词。 </target>
       </segment>
     </unit>
     <unit id="9109e753-2205-4e8b-9054-6d39bb42d68c">
@@ -7708,7 +7708,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To open NVDA's general settings dialog directly, press `NVDA+control+g`.</source>
-        <target>按 `NVDA+Ctrl+g` 可以直接打开 NVDA 常规设置对话框。</target>
+        <target>按 `NVDA+Ctrl+G` 可以直接打开 NVDA 常规设置对话框。</target>
       </segment>
     </unit>
     <unit id="0d0ad9ac-f3db-403d-9331-b5080f827747">
@@ -7717,7 +7717,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Many settings screens have keystrokes to open them directly, such as `NVDA+control+s` for synthesizer, or `NVDA+control+v` for other voice options.</source>
-        <target>许多 NVDA 设置界面都有直接打开它们的按键，例如 `NVDA+Ctrl+s` 打开合成器对话框，`NVDA+Ctrl+v` 可以打开其它语音设置的界面。</target>
+        <target>许多 NVDA 设置界面都有直接打开它们的按键，例如 `NVDA+Ctrl+S` 打开合成器对话框，`NVDA+Ctrl+V` 可以打开其它语音设置的界面。</target>
       </segment>
     </unit>
     <unit id="0de12c34-a59f-4e59-ad3b-157ea59029df">
@@ -7791,7 +7791,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Press `spacebar` if you have read the warning and do not need to see it next time.</source>
-        <target>如果您已阅读并理解该警告且不需要下次再次看到它，请按`空格键`。</target>
+        <target>如果您已阅读并理解该警告且不需要下次再次看到它，请按`空格`键。</target>
       </segment>
     </unit>
     <unit id="97402faa-8b7c-4e79-b1e6-aa5d47f5667e">
@@ -7827,7 +7827,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Press `NVDA+n` to open the NVDA menu, then `t` for tools, then `a` for Add-on Store.</source>
-        <target>按 `NVDA+n` 打开 NVDA 菜单，然后按 `t` 进入工具菜单，再按 `a` 打开插件商店。</target>
+        <target>按 `NVDA+N` 打开 NVDA 菜单，然后按 `T` 进入工具菜单，再按 `A` 打开插件商店。</target>
       </segment>
     </unit>
     <unit id="f7eba436-dd46-45d9-8747-0edae146ca7c">
@@ -7952,7 +7952,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To return to the list of add-ons, press `alt+a`, or `shift+tab` until reaching the list.</source>
-        <target>要返回插件列表，按 `Alt+a`，或按 `Shift+Tab` 直到回到列表。</target>
+        <target>要返回插件列表，按 `Alt+A`，或按 `Shift+Tab` 直到回到列表。</target>
       </segment>
     </unit>
     <unit id="e5602553-a009-41a0-86c2-61839a224161">
@@ -7981,7 +7981,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To search, press `alt+s` to jump to the "Search" field and type the text to search for.</source>
-        <target>要搜索，请按 `Alt+s` 跳转到“搜索”字段并输入要搜索的文本。</target>
+        <target>要搜索，请按 `Alt+S` 跳转到“搜索”字段并输入要搜索的文本。</target>
       </segment>
     </unit>
     <unit id="687f9b52-d9fb-47d7-bb40-bc915278c267">
@@ -8058,7 +8058,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To install the add-on, press `i` or `downArrow` to "Install" and press `enter`.</source>
-        <target>要安装插件，按 `i` 或`下光标`找到“安装”并按`回车键`。</target>
+        <target>要安装插件，按 `I` 或`下光标`找到“安装”并按`回车`键。</target>
       </segment>
     </unit>
     <unit id="79656b9c-5ee6-4cda-ac15-8a1888ec17d2">
@@ -9982,7 +9982,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Access the system tray by pressing `Windows+b`, `downArrow` to the NVDA icon, and press `enter`.</source>
-        <target>按下 `Windows+b` 访问系统托盘，按 `下光标键` 导航到 NVDA 图标，接着按下`回车`键。</target>
+        <target>按下 `Windows+B` 访问系统托盘，按`下光标`键导航到 NVDA 图标，接着按下`回车`键。</target>
       </segment>
     </unit>
     <unit id="67beef39-ce82-4855-8546-c71314f5c837">
@@ -9992,7 +9992,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Alternatively, access the system tray by pressing `Windows+b`, `downArrow` to the NVDA icon, and open the context menu by pressing the `applications` key located next to the right control key on most keyboards.</source>
-        <target>又或者，按下 `Windows+b` 访问系统托盘，按 `下光标键` 导航到 NVDA 图标，接着按下 `应用（application）` 键打开上下文菜单，该键通常位于键盘上右侧 `Ctrl` 键旁边。</target>
+        <target>又或者，按下 `Windows+B` 访问系统托盘，按`下光标`键导航到 NVDA 图标，接着按下 `应用`（`Application`）键打开上下文菜单，该键通常位于键盘上右侧 `Ctrl` 键旁边。</target>
       </segment>
     </unit>
     <unit id="2a033c20-f3d6-4c80-af46-c0dfd78630dd">
@@ -10001,7 +10001,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>On a keyboard without an `applications` key, press `shift+f10` instead.</source>
-        <target>在没有`应用（application）`键的键盘上，可按下 `Shift+F10` 替代（译者注：当 NVDA 的语言设置为简体中文时，还可用 `NVDA+'` 来模拟 `application` 键）。</target>
+        <target>在没有`应用`（`Application`）键的键盘上，可按下 `Shift+F10` 替代（译者注：当 NVDA 的语言设置为简体中文时，还可用 `NVDA+'` 来模拟 `Application` 键）。</target>
       </segment>
     </unit>
     <unit id="402fae73-9615-48f9-aea8-64883b9e69db">
@@ -10053,7 +10053,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Starts or restarts NVDA |Control+alt+n |Control+alt+n |none |Starts or restarts NVDA from the Desktop, if this Windows shortcut is enabled during NVDA's installation process. This is a Windows specific shortcut and therefore it cannot be reassigned in the input gestures dialog.</source>
-        <target>启动或重启 NVDA | Ctrl+Alt+n | Ctrl+Alt+n | 无 | 如果安装 NVDA 时启用了桌面快捷方式，可以按这个快捷键启动或重启 NVDA。这个快捷键来源于 Windows 的快捷方式，因此无法在按键与手势对话框中重新分配。</target>
+        <target>启动或重启 NVDA | Ctrl+Alt+N | Ctrl+Alt+N | 无 | 如果安装 NVDA 时启用了桌面快捷方式，可以按这个快捷键启动或重启 NVDA。这个快捷键来源于 Windows 的快捷方式，因此无法在按键与手势对话框中重新分配。</target>
       </segment>
     </unit>
     <unit id="73f13c07-1f79-4a49-bca7-45a7313887df">
@@ -10130,7 +10130,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Toggle application sleep mode on and off |NVDA+shift+s |NVDA+shift+z |none |sleep mode disables all NVDA commands and speech/braille output for the current application. This is most useful in applications that provide their own speech or screen reading features. Press this command again to disable sleep mode - note that NVDA will only retain the Sleep Mode setting until it is restarted.</source>
-        <target>切换程序睡眠模式的开关 | NVDA+Shift+s | NVDA+Shift+z | 无 | 为当前程序停用所有的 NVDA 命令、语音和盲文输出。此功能通常用于那些自身就提供语音或者屏幕阅读特性的程序。再次按下此快捷键将停用睡眠模式。请注意，NVDA仅在重新启动之前保留睡眠模式设置。</target>
+        <target>切换程序睡眠模式的开关 | NVDA+Shift+S | NVDA+Shift+Z | 无 | 为当前程序停用所有的 NVDA 命令、语音和盲文输出。此功能通常用于那些自身就提供语音或者屏幕阅读特性的程序。再次按下此快捷键将停用睡眠模式。请注意，NVDA仅在重新启动之前保留睡眠模式设置。</target>
       </segment>
     </unit>
     <unit id="8e1f9b64-2d41-4a3d-8b01-80878e5ecd96">
@@ -10163,7 +10163,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report date/time |NVDA+f12 |Pressing once reports the current time, pressing twice reports the date</source>
-        <target>读出日期/时间 | NVDA+f12 | 按一次读出当前时间，连按两次读出日期</target>
+        <target>读出日期/时间 | NVDA+F12 | 按一次读出当前时间，连按两次读出日期</target>
       </segment>
     </unit>
     <unit id="7e48dfd6-6c99-4fc5-9013-dd3ac5a776af">
@@ -10174,7 +10174,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report battery status |NVDA+shift+b |Reports the battery status i.e. whether AC power is in use or the current charge percentage.</source>
-        <target>读出电池状态 | NVDA+Shift+b | 读出电池状态，包括是否正在使用电源和充电的百分比。</target>
+        <target>读出电池状态 | NVDA+Shift+B | 读出电池状态，包括是否正在使用电源和充电的百分比。</target>
       </segment>
     </unit>
     <unit id="bd33763c-def7-4e8e-ae75-85a6443b17cb">
@@ -10185,7 +10185,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report clipboard text |NVDA+c |Reports the Text on the clipboard if there is any.</source>
-        <target>读出剪贴板文本 | NVDA+c | 读出剪贴板内的任何字符。</target>
+        <target>读出剪贴板文本 | NVDA+C | 读出剪贴板内的任何字符。</target>
       </segment>
     </unit>
     <unit id="e7ae8c0c-5eec-4f66-b71f-085145fa04ef">
@@ -10426,7 +10426,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The most common way of navigating around Windows with NVDA is to simply move the system focus using standard Windows keyboard commands, such as pressing tab and shift+tab to move forward and back between controls, pressing alt to get to the menu bar and then using the arrows to navigate menus, and using alt+tab to move between running applications.</source>
-        <target>使用 NVDA 在 Windows 系统中导航的最常用方法是使用标准的系统键盘命令简单的移动系统焦点，如使用 Tab 或者 Shift+Tab 在控件之间前后移动、按下 Alt 转到菜单栏后使用光标键在菜单中导航和使用 Alt+Tab 在正在运行的程序之间切换。</target>
+        <target>使用 NVDA 在 Windows 系统中导航的最常用方法是使用标准的系统键盘命令简单的移动系统焦点，如使用 `Tab` 或者 `Shift+Tab` 在控件之间前后移动、按下 `Alt` 转到菜单栏后使用光标键在菜单中导航和使用 `Alt+Tab` 在正在运行的程序之间切换。</target>
       </segment>
     </unit>
     <unit id="c8a54a23-0f79-4360-8497-3afaa82f7947">
@@ -10475,7 +10475,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current focus |NVDA+tab |NVDA+tab |announces the current object or control that has the System focus. Pressing twice will spell the information</source>
-        <target>读出当前焦点 |NVDA+Tab |NVDA+Tab |读出当前焦点所在的对象和控件，连按两次逐字朗读，连按三次逐字解释</target>
+        <target>读出当前焦点 | `NVDA+Tab` | `NVDA+Tab` | 读出当前焦点所在的对象和控件，连按两次逐字朗读，连按三次逐字解释</target>
       </segment>
     </unit>
     <unit id="c8ce15b7-d2fa-4afc-8c80-935b7ddacaa3">
@@ -10486,7 +10486,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report title |NVDA+t |NVDA+t |Reports the title of the currently active window. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>读出标题 |NVDA+t |NVDA+t |读出当前激活窗口的标题，连按两次逐字朗读，连按三次复制此信息到剪贴板</target>
+        <target>读出标题 | `NVDA+T` | `NVDA+T` | 读出当前激活窗口的标题，连按两次逐字朗读，连按三次复制此信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="86d0bd11-fd8c-47d3-8c36-2c63c876776e">
@@ -10508,7 +10508,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report Status Bar |NVDA+end |NVDA+shift+end |Reports the Status Bar if NVDA finds one. Pressing twice will spell the information. Pressing three times will copy it to the clipboard</source>
-        <target>读出状态栏 |NVDA+行尾 |NVDA+Shift+行尾 |读出当前应用程序的状态栏，连按两次逐字朗读，连按三次复制该信息到剪贴板</target>
+        <target>读出状态栏 | `NVDA+行`尾 | `NVDA+Shift+行尾` | 读出当前应用程序的状态栏，连按两次逐字朗读，连按三次复制该信息到剪贴板</target>
       </segment>
     </unit>
     <unit id="352a4366-9b83-4eff-babb-37d3e3308fbe">
@@ -10608,7 +10608,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read current line |NVDA+upArrow |NVDA+l |Reads the line where the system caret is currently situated. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
-        <target>读出当前行 |NVDA+上光标 |NVDA+l |读出系统光标的所在行，连按两次逐字朗读，连按三次逐字解释。</target>
+        <target>读出当前行 | `NVDA+上光标` | `NVDA+L` | 读出系统光标的所在行，连按两次逐字朗读，连按三次逐字解释。</target>
       </segment>
     </unit>
     <unit id="2ad65d11-02eb-4651-b40f-0446bb0f61af">
@@ -10619,7 +10619,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Read current text selection |NVDA+Shift+upArrow |NVDA+shift+s |Reads any currently selected text</source>
-        <target>读出当前选择的文本 |NVDA+Shift+上光标 |NVDA+Shift+s |读出当前选择的所有文本，连按两次逐字朗读，连按三次逐字解释，连按四次在浏览模式下显示</target>
+        <target>读出当前选择的文本 | `NVDA+Shift+上光标` | `NVDA+Shift+S` | 读出当前选择的所有文本，连按两次逐字朗读，连按三次逐字解释，连按四次在浏览模式下显示</target>
       </segment>
     </unit>
     <unit id="5410c0d1-f10a-4ef4-a914-3d37e0930862">
@@ -10630,7 +10630,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report text formatting |NVDA+f |NVDA+f |Reports the formatting of the text where the caret is currently situated. Pressing twice shows the information in browse mode</source>
-        <target>读出文本格式 |NVDA+f |NVDA+f |读出系统光标处文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
+        <target>读出文本格式 | `NVDA+F` | `NVDA+F` | 读出系统光标处文本的格式信息，连按两次可使用浏览模式显示格式信息</target>
       </segment>
     </unit>
     <unit id="9df76723-e7c4-4e1b-aa7a-65a16cb3c311">
@@ -10641,7 +10641,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report link destination |`NVDA+k` |`NVDA+k` |Pressing once speaks the destination URL of the link at the current caret or focus position. Pressing twice shows it in a window for more careful review</source>
-        <target>读出链接网址 |NVDA+k |NVDA+k |读出当前光标或焦点所在链接指向的网址。连按两次在浏览模式下显示该信息，便于仔细查看</target>
+        <target>读出链接网址 | `NVDA+k` | `NVDA+k` | 读出当前光标或焦点所在链接指向的网址。连按两次在浏览模式下显示该信息，便于仔细查看</target>
       </segment>
     </unit>
     <unit id="2a490217-b233-4a4f-a523-08c5f31232a6">
@@ -10663,7 +10663,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Next sentence |alt+downArrow |alt+downArrow |Moves the caret to the next sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>下一个句子 |Alt+下光标 |Alt+下光标 |移动光标到下一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>下一个句子 | `Alt+下光标` | `Alt+下光标` | 移动光标到下一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="18d6985b-ec14-4b1b-af15-5500989ce367">
@@ -10674,7 +10674,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Previous sentence |alt+upArrow |alt+upArrow |Moves the caret to the previous sentence and announces it. (only supported in Microsoft Word and Outlook)</source>
-        <target>上一个句子 |Alt+上光标 |Alt+上光标 |移动光标到上一个句子仅在 word 和 Outlook 中受到支持。</target>
+        <target>上一个句子 | `Alt+上光标` | `Alt+上光标` | 移动光标到上一个句子仅在 word 和 Outlook 中受到支持。</target>
       </segment>
     </unit>
     <unit id="f2c5e713-d2a2-4c3e-8d24-898fa503ee8e">
@@ -10705,7 +10705,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to previous column |control+alt+leftArrow |Moves the system caret to the previous column (staying in the same row)</source>
-        <target>移动到上一列 |Ctrl+Alt+左光标 |移动系统光标到上一列（仍在同一行内）。</target>
+        <target>移动到上一列 | `Ctrl+Alt+左光标` | 移动系统光标到上一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="cf7fd9d6-6833-4e6c-be5f-fd45b81c60c3">
@@ -10716,7 +10716,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to next column |control+alt+rightArrow |Moves the system caret to the next column (staying in the same row)</source>
-        <target>移动到下一列 |Ctrl+Alt+右光标 |移动系统光标到下一列（仍在同一行内）。</target>
+        <target>移动到下一列 | `Ctrl+Alt+右光标` | 移动系统光标到下一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="c1ebef62-7afe-4736-864b-79cb1d2aafc8">
@@ -10727,7 +10727,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to previous row |control+alt+upArrow |Moves the system caret to the previous row (staying in the same column)</source>
-        <target>移动到上一行 |Ctrl+Alt+上光标 |移动系统光标到上一行（仍在同一列内）。</target>
+        <target>移动到上一行 | `Ctrl+Alt+上光标` | 移动系统光标到上一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="faf419fa-b417-492b-bbec-57c80a5acc94">
@@ -10738,7 +10738,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to next row |control+alt+downArrow |Moves the system caret to the next row (staying in the same column)</source>
-        <target>移动到下一行 |Ctrl+Alt+下光标 |移动系统光标到下一行（仍在同一列内）。</target>
+        <target>移动到下一行 | `Ctrl+Alt+下光标` | 移动系统光标到下一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="86767d89-da97-4458-b94e-09822b579bf6">
@@ -10749,7 +10749,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to first column |control+alt+home |Moves the system caret to the first column (staying in the same row)</source>
-        <target>移动到第一列 |Ctrl+Alt+行首 |移动系统光标到第一列（仍在同一行内）。</target>
+        <target>移动到第一列 | `Ctrl+Alt+行首` | 移动系统光标到第一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="b5e4b078-2378-4623-acc0-fdb959a7c634">
@@ -10760,7 +10760,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to last column |control+alt+end |Moves the system caret to the last column (staying in the same row)</source>
-        <target>移动到最后一列 |Ctrl+Alt+行尾 |移动系统光标到最后一列（仍在同一行内）。</target>
+        <target>移动到最后一列 | `Ctrl+Alt+行尾` | 移动系统光标到最后一列（仍在同一行内）。</target>
       </segment>
     </unit>
     <unit id="58d6aa77-614b-45ff-8cbe-3c33b060e18d">
@@ -10771,7 +10771,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to first row |control+alt+pageUp |Moves the system caret to the first row (staying in the same column)</source>
-        <target>移动到第一行 |Ctrl+Alt+上翻页 |移动系统光标到第一行（仍在同一列内）。</target>
+        <target>移动到第一行 | `Ctrl+Alt+上翻页` | 移动系统光标到第一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="eb0028cf-84d9-4431-881e-07d8ebff5cb5">
@@ -10782,7 +10782,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to last row |control+alt+pageDown |Moves the system caret to the last row (staying in the same column)</source>
-        <target>移动到最后一行 |Ctrl+Alt+下翻页 |移动系统光标到最后一行（仍在同一列内）。</target>
+        <target>移动到最后一行 | `Ctrl+Alt+下翻页` | 移动系统光标到最后一行（仍在同一列内）。</target>
       </segment>
     </unit>
     <unit id="2e267e49-04e6-4706-817f-f8b0619ee70e">
@@ -11084,7 +11084,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current object |NVDA+numpad5 |NVDA+shift+o |none |Reports the current navigator object. Pressing twice spells the information, and pressing 3 times copies this object's name and value to the clipboard.</source>
-        <target>读出当前对象 | NVDA+数字键盘5 | NVDA+Shift+o | 无 | 读出当前导航对象。连按两次拼读信息，连按三次复制此对象的名称和值到剪贴板。</target>
+        <target>读出当前对象 | `NVDA+数字键盘5` | `NVDA+Shift+O` | 无 | 读出当前导航对象。连按两次逐字朗读，连按三次复制此对象的名称和值到剪贴板。</target>
       </segment>
     </unit>
     <unit id="63656216-1d52-479f-9911-1ed21f56c1f0">
@@ -11095,7 +11095,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to containing object |NVDA+numpad8 |NVDA+shift+upArrow |flick up (object mode) |Moves to the object containing the current navigator object</source>
-        <target>移动到父对象 | NVDA+数字键盘8 | NVDA+Shift+上光标 | 向上滑动（对象模式） | 移动导航对象到此对象的父对象</target>
+        <target>移动到父对象 | `NVDA+数字键盘8` | `NVDA+Shift+上光标` | `向上滑动`（对象模式） | 移动导航对象到此对象的父对象</target>
       </segment>
     </unit>
     <unit id="8fb6b8fa-e7b4-4937-9ef0-02ffd3f2b79d">
@@ -11106,7 +11106,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to previous object |NVDA+numpad4 |NVDA+shift+leftArrow |none |Moves to the object before the current navigator object</source>
-        <target>移动到此层级的上一个对象 | NVDA+数字键盘4 | NVDA+Shift+左光标 |两个手指向左滑动（对象模式） | 移动导航对象到此层级的前一个对象</target>
+        <target>移动到此层级的上一个对象 | `NVDA+数字键盘4` | `NVDA+Shift+左光标` | `2指向左滑动`（对象模式） | 移动导航对象到此层级的前一个对象</target>
       </segment>
     </unit>
     <unit id="54c108f3-9659-44ba-9387-74319d43c206">
@@ -11117,7 +11117,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to previous object in flattened view |NVDA+numpad9 |NVDA+shift+[ |flick left (object mode) |Moves to the previous object in a flattened view of the object navigation hierarchy</source>
-        <target>移动到上一个对象 | NVDA+数字键盘9 | NVDA+Shift+[ |向左滑动（对象模式） | 移动导航对象到前一个对象，忽略层级关系</target>
+        <target>移动到上一个对象 | `NVDA+数字键盘9` | `NVDA+Shift+[` | `向左滑动`（对象模式） | 移动导航对象到前一个对象，忽略层级关系</target>
       </segment>
     </unit>
     <unit id="57585044-d4a0-490a-91ac-4b70b9d5fd0a">
@@ -11128,7 +11128,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to next object |NVDA+numpad6 |NVDA+shift+rightArrow |none |Moves to the object after the current navigator object</source>
-        <target>移动到此层级的下一个对象 | NVDA+数字键盘6 | NVDA+Shift+右光标 | 两个手指向右滑动（对象模式） | 移动导航对象到此层级的后一个对象</target>
+        <target>移动到此层级的下一个对象 | `NVDA+数字键盘6` | `NVDA+Shift+右光标` | `2指向右滑动`（对象模式） | 移动导航对象到此层级的后一个对象</target>
       </segment>
     </unit>
     <unit id="d67372e6-9150-41fc-945b-ad639d95485d">
@@ -11139,7 +11139,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to next object in flattened view |NVDA+numpad3 |NVDA+shift+] |flick right (object mode) |Moves to the next object in a flattened view of the object navigation hierarchy</source>
-        <target>移动到下一个对象 | NVDA+数字键盘3 | NVDA+Shift+] | 向右滑动（对象模式） | 移动导航对象到后一个对象，忽略层级关系</target>
+        <target>移动到下一个对象 | `NVDA+数字键盘3` | `NVDA+Shift+]` | `向右滑动`（对象模式） | 移动导航对象到后一个对象，忽略层级关系</target>
       </segment>
     </unit>
     <unit id="050bd906-77f4-43d3-8366-fb64c244511f">
@@ -11150,7 +11150,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to first contained object |NVDA+numpad2 |NVDA+shift+downArrow |flick down (object mode) |Moves to the first object contained by the current navigator object</source>
-        <target>移动到此对象的首个子对象 | NVDA+数字键盘2 | NVDA+Shift+下光标 | 向下滑动（对象模式） | 移动导航对象到此对象的第一个子对象</target>
+        <target>移动到此对象的首个子对象 | `NVDA+数字键盘2` | `NVDA+Shift+下光标` | `向下滑动`（对象模式） | 移动导航对象到此对象的第一个子对象</target>
       </segment>
     </unit>
     <unit id="201af03b-8c31-4973-b218-202be0930980">
@@ -11161,7 +11161,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to focus object |NVDA+numpadMinus |NVDA+backspace |none |Moves to the object that currently has the system focus, and also places the review cursor at the position of the System caret, if it is showing</source>
-        <target>移动到焦点对象 | NVDA+数字键盘减号 | NVDA+退格 | 无 | 移动到系统焦点所在的对象，也会将查看光标移动到系统光标的所在处（如果有显示）</target>
+        <target>移动到焦点对象 | `NVDA+数字键盘减号` | `NVDA+退格` | 无 | 移动到系统焦点所在的对象，也会将查看光标移动到系统光标的所在处（如果有显示）</target>
       </segment>
     </unit>
     <unit id="02f43332-dbef-4a8a-831c-592667c68a02">
@@ -11183,7 +11183,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move System focus or caret to current review position |NVDA+shift+numpadMinus |NVDA+shift+backspace |none |pressed once Moves the System focus to the current navigator object, pressed twice moves the system caret to the position of the review cursor</source>
-        <target>移动焦点或系统光标到当前查看位置 | NVDA+Shift+数字键盘减号 | NVDA+Shift+退格 | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统光标移动到查看光标的所在处</target>
+        <target>移动焦点或系统光标到当前查看位置 | `NVDA+Shift+数字键盘减号` | `NVDA+Shift+退格` | 无 | 按一次把系统焦点移动到当前导航对象，按两次把系统光标移动到查看光标的所在处</target>
       </segment>
     </unit>
     <unit id="ef240f08-ade8-4eac-9b4a-903acc5a149e">
@@ -11319,7 +11319,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to top line in review |shift+numpad7 |NVDA+control+home |none |Moves the review cursor to the top line of the text</source>
-        <target>移动到查看文本的第一行 | Shift+数字键盘7 | NVDA+Ctrl+行首 | 无 | 移动查看光标到文本的第一行</target>
+        <target>移动到查看文本的第一行 | `Shift+数字键盘7` | `NVDA+Ctrl+行首` | 无 | 移动查看光标到文本的第一行</target>
       </segment>
     </unit>
     <unit id="3291f745-57a2-4fd0-8d42-a8588ab969d9">
@@ -11341,7 +11341,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current line in review |numpad8 |NVDA+shift+. |none |Announces the current line of text where the review cursor is positioned. Pressing twice spells the line. Pressing three times spells the line using character descriptions.</source>
-        <target>读出查看文本的当前行 | 数字键盘8 | NVDA+Shift+. | 无 | 读出查看光标所在位置的文本的当前航，连按两次逐字朗读，连按三次逐字解释。</target>
+        <target>读出查看文本的当前行 | `数字键盘8` | `NVDA+Shift+.` | 无 | 读出查看光标所在位置的文本的当前航，连按两次逐字朗读，连按三次逐字解释。</target>
       </segment>
     </unit>
     <unit id="0f4a8091-c712-4667-b7f4-32a374c4636f">
@@ -11363,7 +11363,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to bottom line in review |shift+numpad9 |NVDA+control+end |none |Moves the review cursor to the bottom line of text</source>
-        <target>移动到查看文本的最后一行 | Shift+数字键盘9 | NVDA+Ctrl+行尾 | 无 | 移动查看光标到文本的最后一行</target>
+        <target>移动到查看文本的最后一行 | `Shift+数字键盘9` | `NVDA+Ctrl+行尾` | 无 | 移动查看光标到文本的最后一行</target>
       </segment>
     </unit>
     <unit id="f88b17d1-8c22-4405-89b2-a25d9fb7a14f">
@@ -11374,7 +11374,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to previous word in review |numpad4 |NVDA+control+leftArrow |2-finger flick left (text mode) |Moves the review cursor to the previous word in the text</source>
-        <target>移动到查看文本的上一个词 | 数字键盘4 | NVDA+Ctrl+左光标 | 两个手指向左滑动（文本模式） | 移动查看光标到文本的上一个词</target>
+        <target>移动到查看文本的上一个词 | `数字键盘4` | `NVDA+Ctrl+左光标` | 两个手指向左滑动（文本模式） | 移动查看光标到文本的上一个词</target>
       </segment>
     </unit>
     <unit id="2d3bc5b1-1764-4ca0-863b-5d0040afa464">
@@ -11385,7 +11385,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current word in review |numpad5 |NVDA+control+. |none |Announces the current word in the text where the review cursor is positioned. Pressing twice spells the word. Pressing three times spells the word using character descriptions.</source>
-        <target>读出查看文本的当前词 | 数字键盘5 | NVDA+Ctrl+. | 无 | 读出查看光标所在位置的文本的当前词，连按两次逐字朗读，连按三次逐字解释。</target>
+        <target>读出查看文本的当前词 | `数字键盘5` | `NVDA+Ctrl+.` | 无 | 读出查看光标所在位置的文本的当前词，连按两次逐字朗读，连按三次逐字解释。</target>
       </segment>
     </unit>
     <unit id="fb8f2ac5-ee38-46d7-85b7-c1a8a0befde7">
@@ -11396,7 +11396,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to next word in review |numpad6 |NVDA+control+rightArrow |2-finger flick right (text mode) |Move the review cursor to the next word in the text</source>
-        <target>移动到查看文本的下一个词 | 数字键盘6 | NVDA+Ctrl+右光标 | 两个手指向右滑动（文本模式） | 移动查看光标到文本的下一个词</target>
+        <target>移动到查看文本的下一个词 | `数字键盘6` | `NVDA+Ctrl+右光标` | `2指向右滑动`（文本模式） | 移动查看光标到文本的下一个词</target>
       </segment>
     </unit>
     <unit id="ea10e2c1-3dc7-441b-96c6-b3aadaf2cdf2">
@@ -11407,7 +11407,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to start of line in review |shift+numpad1 |NVDA+home |none |Moves the review cursor to the start of the current line in the text</source>
-        <target>移动到查看文本的行首 | Shift+数字键盘1 | NVDA+行首 | 无 | 移动查看光标到文本的当前行的行首</target>
+        <target>移动到查看文本的行首 | `Shift+数字键盘1` | `NVDA+行首` | 无 | 移动查看光标到文本的当前行的行首</target>
       </segment>
     </unit>
     <unit id="26012fd3-5082-46b2-94b9-95cb7c7173f7">
@@ -11429,7 +11429,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report current character in review |numpad2 |NVDA+. |none |Announces the current character on the line of text where the review cursor is positioned. Pressing twice reports a description or example of that character. Pressing three times reports the numeric value of the character in decimal and hexadecimal.</source>
-        <target>读出查看文本的当前字 | 数字键盘2 | NVDA+. | 无 | 读出查看光标所在行的当前字符，连按两次解释该字符，连按三次读出该字符的十进制和十六进制值。</target>
+        <target>读出查看文本的当前字 | `数字键盘2` | `NVDA+.` | 无 | 读出查看光标所在行的当前字符，连按两次解释该字符，连按三次读出该字符的十进制和十六进制值。</target>
       </segment>
     </unit>
     <unit id="882a011e-d5f0-4226-8a00-4e703c9291d6">
@@ -11451,7 +11451,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to end of line in review |shift+numpad3 |NVDA+end |none |Moves the review cursor to the end of the current line of text</source>
-        <target>移动到查看文本的行尾 | Shift+数字键盘3 | NVDA+行尾 | 无 | 移动查看光标到文本的当前行的行尾</target>
+        <target>移动到查看文本的行尾 | `Shift+数字键盘3` | `NVDA+行尾` | 无 | 移动查看光标到文本的当前行的行尾</target>
       </segment>
     </unit>
     <unit id="4d6adb2b-60c1-4520-9dfa-0f2cc5e34be8">
@@ -11506,7 +11506,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Say all with review |numpadPlus |NVDA+shift+a |3-finger flick down (text mode) |Reads from the current position of the review cursor, moving it as it goes</source>
-        <target>文本查看全文朗读 | 数字键盘加号 | NVDA+Shift+a | 三个手指向下滑动（文本模式） | 从查看光标所在位置开始朗读并随之移动</target>
+        <target>文本查看全文朗读 | `数字键盘加号` | `NVDA+Shift+A` | 三个手指向下滑动（文本模式） | 从查看光标所在位置开始朗读并随之移动</target>
       </segment>
     </unit>
     <unit id="025c1550-198b-4c73-9234-53de940dccf0">
@@ -11539,7 +11539,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to marked start for copy in review |NVDA+shift+f9 |NVDA+shift+f9 |none |Moves the review cursor to the position previously set start marker for copy</source>
-        <target>移动到已标记的开始点 | NVDA+Shift+f9 | NVDA+Shift+f9 | 无 | 将查看光标移动到先前设置的开始复制标记的位置</target>
+        <target>移动到已标记的开始点 | `NVDA+Shift+F9` | `NVDA+Shift+F9` | 无 | 将查看光标移动到先前设置的开始复制标记的位置</target>
       </segment>
     </unit>
     <unit id="02fe8cca-514a-425e-a134-9446fd18a1f8">
@@ -11550,7 +11550,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Report text formatting |NVDA+shift+f |NVDA+shift+f |none |Reports the formatting of the text where the review cursor is currently situated. Pressing twice shows the information in browse mode</source>
-        <target>读出文本格式 | NVDA+Shift+f | NVDA+Shift+f | 无 | 读出查看光标所在处文本的格式信息，连按两次可使用浏览模式显示该信息</target>
+        <target>读出文本格式 | `NVDA+Shift+F` | `NVDA+Shift+F` | 无 | 读出查看光标所在处文本的格式信息，连按两次可使用浏览模式显示该信息</target>
       </segment>
     </unit>
     <unit id="a3ceceb9-38ef-4589-a3b2-f5225cbdc7ee">
@@ -11967,7 +11967,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Left mouse button lock |shift+numpadDivide |NVDA+control+[ |none |Locks the left mouse button down. Press again to release it. To drag the mouse, press this key to lock the left button down and then move the mouse either physically or use one of the other mouse routing commands</source>
-        <target>鼠标左键锁定 | Shift+数字键盘斜杠 | NVDA+Ctrl+[ | 点击并按住 | 按下并锁定鼠标左键，再按一次则松开。要想拖拽鼠标，按下此键并使用物理鼠标或其他鼠标导航命令进行移动</target>
+        <target>按下或松开鼠标左键 | `Shift+数字键盘斜杠` | `NVDA+Ctrl+[` | 无 | 按下并锁定鼠标左键，再按一次则松开。要想拖拽鼠标，按下此键并使用物理鼠标或其他鼠标导航命令进行移动</target>
       </segment>
     </unit>
     <unit id="523c27db-b6d9-4e64-8dc5-05bfa889b7ca">
@@ -11989,7 +11989,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Right mouse button lock |shift+numpadMultiply |NVDA+control+] |none |Locks the right mouse button down. Press again to release it. To drag the mouse, press this key to lock the right button down and then move the mouse either physically or use one of the other mouse routing commands</source>
-        <target>鼠标右键锁定 | Shift+数字键盘星号 | NVDA+Ctrl+] | 无 | 按下并锁定鼠标右键，再按一次则松开。要想拖拽鼠标，按下此键并使用物理鼠标或其他鼠标导航命令进行移动</target>
+        <target>按下或松开鼠标右键 | `Shift+数字键盘星号` | `NVDA+Ctrl+]` | 无 | 按下并锁定鼠标右键，再按一次则松开。要想拖拽鼠标，按下此键并使用物理鼠标或其他鼠标导航命令进行移动</target>
       </segment>
     </unit>
     <unit id="14d2a644-a0ac-444b-bd04-009335c193fd">
@@ -12044,7 +12044,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move mouse to current navigator object |NVDA+numpadDivide |NVDA+shift+m |none |Moves the mouse to the location of the current navigator object and review cursor</source>
-        <target>移动鼠标到当前导航对象 | NVDA+数字键盘斜杠 | NVDA+Shift+m | 无 | 移动鼠标到当前导航对象和查看光标的所在处</target>
+        <target>移动鼠标到当前导航对象 | `NVDA+数字键盘斜杠` | `NVDA+Shift+M` | 无 | 移动鼠标到当前导航对象和查看光标的所在处</target>
       </segment>
     </unit>
     <unit id="5365c824-75be-4ba1-94d8-a0293a1411d8">
@@ -12055,7 +12055,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Navigate to the object under the mouse |NVDA+numpadMultiply |NVDA+shift+n |none |Set the navigator object to the object located at the position of the mouse</source>
-        <target>移动到鼠标下方的对象 | NVDA+数字键盘星号 | NVDA+Shift+n | 无 | 设置导航对象到鼠标的所在位置</target>
+        <target>移动到鼠标下方的对象 | `NVDA+数字键盘星号` | `NVDA+Shift+N` | 无 | 设置导航对象到鼠标的所在位置</target>
       </segment>
     </unit>
     <unit id="48c90ca3-a104-4fd4-bca4-af089a2a1848">
@@ -12282,7 +12282,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Pressing escape will switch back to browse mode.</source>
-        <target>按 ESC 返回到浏览模式。</target>
+        <target>按 `Esc` 返回到浏览模式。</target>
       </segment>
     </unit>
     <unit id="f7d89255-aa54-472e-a7e2-b4947726a2f2">
@@ -12335,7 +12335,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Refresh browse mode document |NVDA+f5 |Reloads the current document content (useful if certain content seems to be missing from the document. Not available in Microsoft Word and Outlook.)</source>
-        <target>刷新浏览模式文档 | NVDA+f5 | 重新加载当前文档的内容（对于那些丢失了原来文档内容的情况非常实用，但不可用于 Microsoft Word 和 Outlook）。</target>
+        <target>刷新浏览模式文档 |` NVDA+F5` | 重新加载当前文档的内容（对于那些丢失了原来文档内容的情况非常实用，但不可用于 Microsoft Word 和 Outlook）。</target>
       </segment>
     </unit>
     <unit id="e3890a13-d0bb-4dc3-b111-24169873618a">
@@ -12346,7 +12346,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Find |NVDA+control+f |Pops up a dialog in which you can type some text to find in the current document. See [searching for text](#SearchingForText) for more information.</source>
-        <target>查找 | NVDA+Ctrl+f | 弹出一个对话框，您可以输入一些文本在当前文档中进行查找。请查看[搜索文本](#SearchingForText)这一节了解详细情况。</target>
+        <target>查找 | `NVDA+Ctrl+F` | 弹出一个对话框，您可以输入一些文本在当前文档中进行查找。请查看[搜索文本](#SearchingForText)这一节了解详细情况。</target>
       </segment>
     </unit>
     <unit id="7324371f-00e3-4243-9abd-a473c8d33ad8">
@@ -12368,7 +12368,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Find previous |NVDA+shift+f3 |Finds the previous occurrence of the text in the document you previously searched for</source>
-        <target>查找上一个 | NVDA+Shift+f3 | 在当前文档查找上一个您先前键入的文本的结果</target>
+        <target>查找上一个 | `NVDA+Shift+F3` | 在当前文档查找上一个您先前键入的文本的结果</target>
       </segment>
     </unit>
     <unit id="1f3491e6-1f5a-4128-9bbc-883a933a8060">
@@ -12677,7 +12677,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to start of container |shift+comma |Moves to the start of the container (list, table, etc.) where the caret is positioned</source>
-        <target>移动到容器的开始处 | Shift+逗号 | 移动到光标所在容器的开头（列表、表格等）</target>
+        <target>移动到容器的开始处 | `Shift+逗号` | 移动到光标所在容器的开头（列表、表格等）</target>
       </segment>
     </unit>
     <unit id="80b6ff05-0ade-473d-babc-af8f5958228f">
@@ -12715,7 +12715,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To toggle single letter navigation on and off for the current document, press NVDA+shift+space.</source>
-        <target>要想在当前文档中切换单键导航功能的开关，请使用“NVDA+Shift+空格键”。</target>
+        <target>要想在当前文档中切换单键导航功能的开关，请使用 `NVDA+Shift+空格`键。</target>
       </segment>
     </unit>
     <unit id="e816d95a-0d13-4ca4-8958-3a4ee8fff0f7">
@@ -12735,7 +12735,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>You can jump to the next or previous text paragraph by pressing `p` or `shift+p`.</source>
-        <target>您可以按 `p` 或 `Shift+p` 跳到下一个或上一个文本段落。</target>
+        <target>您可以按 `P` 或 `Shift+P` 跳到下一个或上一个文本段落。</target>
       </segment>
     </unit>
     <unit id="2476bde4-82ba-42fe-8d7f-f9020f5e31dc">
@@ -13015,7 +13015,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, if you want to use the `y` / `shift+y` keys to quickly navigate through tabs, you would do the following:</source>
-        <target>例如，若您想使用 `y`/`Shift+y` 键快速导航选项卡，您可以执行以下操作：</target>
+        <target>例如，若您想使用 `Y`/`Shift+Y` 键快速导航选项卡，您可以执行以下操作：</target>
       </segment>
     </unit>
     <unit id="21210946-7ab8-4451-82fb-ed02924ba6be">
@@ -13045,7 +13045,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Assign `y` key for found gesture.</source>
-        <target>为该命令分配快捷键 `Shift+y`。</target>
+        <target>为该命令分配快捷键 `Shift+Y`。</target>
       </segment>
     </unit>
     <unit id="25277a4b-fda7-49b5-ad6c-5376ea421f4c">
@@ -13221,7 +13221,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Find text |NVDA+control+f |Opens the search dialog</source>
-        <target>查找 | NVDA+Ctrl+f | 弹出搜索对话框</target>
+        <target>查找 | `NVDA+Ctrl+F` | 弹出搜索对话框</target>
       </segment>
     </unit>
     <unit id="812c76e4-840b-4efb-aa15-01970e403b58">
@@ -13243,7 +13243,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Find previous |NVDA+shift+f3 |searches the previous occurrence of the current search term</source>
-        <target>查找上一个 | NVDA+Shift+f3 | 在当前文档查找上一个您先前键入的文本的结果</target>
+        <target>查找上一个 | `NVDA+Shift+F3` | 在当前文档查找上一个您先前键入的文本的结果</target>
       </segment>
     </unit>
     <unit id="d337fba7-a786-4b8a-a727-857b09989837">
@@ -13330,7 +13330,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Move to containing browse mode document |NVDA+control+space |Moves the focus out of the current embedded object and into the document that contains it</source>
-        <target>移动到浏览模式文档容器 | NVDA+Ctrl+空格 | 移动焦点到此嵌入对象之外，返回到包含此对象的文档</target>
+        <target>移动到浏览模式文档容器 | `NVDA+Ctrl+空格` | 移动焦点到此嵌入对象之外，返回到包含此对象的文档</target>
       </segment>
     </unit>
     <unit id="159c984b-8a70-40f1-8ac1-44b63934a254">
@@ -13438,7 +13438,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Toggle Native Selection Mode on and off |`NVDA+shift+f10` |Toggles native selection mode on and off</source>
-        <target>打开或关闭应用原生选择 | `NVDA+Shift+f10` | 打开或关闭应用原生选择</target>
+        <target>打开或关闭应用原生选择 | `NVDA+Shift+F10` | 打开或关闭应用原生选择</target>
       </segment>
     </unit>
     <unit id="697894f9-5274-436f-b6ce-7c09c46e564d">
@@ -13447,7 +13447,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When Native Selection Mode is turned on, copying the selection with `control+c` will also use the application's own copy functionality, meaning that rich content will be copied to the clipboard, rather than plain text.</source>
-        <target>当应用原生选择打开时，使用 `Ctrl+c` 复制时，将使用应用程序的复制功能，这意味着格式信息等丰富内容将被复制到剪贴板，而不仅是纯文本。</target>
+        <target>当应用原生选择打开时，使用 `Ctrl+C` 复制时，将使用应用程序的复制功能，这意味着格式信息等丰富内容将被复制到剪贴板，而不仅是纯文本。</target>
       </segment>
     </unit>
     <unit id="b66523f3-53a5-4c1f-b7b3-8fc7db052b9a">
@@ -15150,7 +15150,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Commonly-used keys, such as the arrow keys or pressing Alt to reach menus, can be mapped directly to Braille inputs.</source>
-        <target>常用的按键（例如光标键或按 Alt 进入菜单栏）可以直接映射到盲文键盘。</target>
+        <target>常用的按键（例如`光标`键或按 `Alt` 进入菜单栏）可以直接映射到盲文键盘。</target>
       </segment>
     </unit>
     <unit id="16a600a7-5680-4933-a07e-0da06c03e402">
@@ -15177,7 +15177,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>While this approach is useful for commonly-pressed or unique keys (such as Tab), you may not want to assign a unique set of keys to each keyboard shortcut.</source>
-        <target>虽然这种方法对于常用键或唯一键（例如 Tab）很有用，但您可能不会为每个键盘快捷键都分配一组模拟按键。</target>
+        <target>虽然这种方法对于常用键或唯一键（例如 `Tab`）很有用，但您可能不会为每个键盘快捷键都分配一组模拟按键。</target>
       </segment>
     </unit>
     <unit id="0523a6a0-acf3-4447-a95e-00897c751d35">
@@ -15186,7 +15186,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To allow emulating keypresses where modifier keys are held down, NVDA provides commands to toggle the control, alt, shift, windows, and NVDA keys, along with commands for some combinations of those keys.</source>
-        <target>为了可以模拟修饰键，NVDA 提供了按下或放开 Ctrl、Alt、Shift、Windows 和 NVDA ，以及这些键的个别组合的功能。</target>
+        <target>为了可以模拟修饰键，NVDA 提供了按下或放开 `Ctrl`、`Alt`、`Shift`、`Windows` 和 `NVDA`，以及这些键的个别组合的功能。</target>
       </segment>
     </unit>
     <unit id="c1fb7d09-16ae-4431-bf00-936f49781bf3">
@@ -15213,7 +15213,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, to produce control+f, use the "Toggle control key" command and then type an f,</source>
-        <target>例如，要按 Ctrl+f ，请使用“模拟按下货放开 Ctrl”命令，然后键入 f，</target>
+        <target>例如，要按 `Ctrl+F` ，请使用“模拟按下货放开 `Ctrl`”命令，然后键入 `F`，</target>
       </segment>
     </unit>
     <unit id="2fe5b5c9-723c-4756-ab44-207ef3e7fc51">
@@ -15222,7 +15222,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>and to input control+alt+t, use either the "Toggle control key" and "Toggle alt key" commands, in either order, or the "Toggle control and alt keys" command, followed by typing a t.</source>
-        <target>要按 Ctrl+Alt+t，请按任意顺序执行“模拟按下货放开 Ctrl”、“模拟按下货放开 Alt”或“模拟按下货放开 Ctrl +Alt”然后键入字母 “T”。</target>
+        <target>要按 `Ctrl+Alt+T`，请按任意顺序执行“模拟按下货放开 `Ctrl`”、“模拟按下货放开 `Alt`”或“模拟按下货放开 `Ctrl+Alt`”然后键入字母“T”。</target>
       </segment>
     </unit>
     <unit id="66ce438d-72f5-41b7-9499-dcbc4231540f">
@@ -15258,7 +15258,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This means that, to type alt+2 with a Braille code that uses a number sign, you must first toggle Alt and then type a number sign.</source>
-        <target>这意味着，要按下带有盲文数字符号的快捷键，如 Alt+2，您必须首先模拟按下 Alt，然后键入数字符号。</target>
+        <target>这意味着，要按下带有盲文数字符号的快捷键，如 `Alt+2`，您必须首先模拟按下 `Alt`，然后键入数字符号。</target>
       </segment>
     </unit>
     <unit id="cc490d20-d042-49ee-a1f4-35c35f4c0045">
@@ -15314,7 +15314,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>NVDA's vision settings can be changed in the [vision category](#VisionSettings) of the [NVDA Settings](#NVDASettings) dialog.</source>
-        <target>可在[NVDA 设置](#NVDASettings)对话框的[视觉类别](#VisionSettings)中更改 NVDA 的视觉设置。</target>
+        <target>可在 [NVDA 设置](#NVDASettings)对话框的[视觉类别](#VisionSettings)中更改 NVDA 的视觉设置。</target>
       </segment>
     </unit>
     <unit id="11fb8b6f-9062-4ace-82bc-5a98bb991100">
@@ -15439,7 +15439,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>You can enable the Screen Curtain in the [vision category](#VisionSettings) of the [NVDA Settings](#NVDASettings) dialog.</source>
-        <target>您可在[NVDA 设置](#NVDASettings)对话框的[视觉](#VisionSettings)类别中开启黑屏。</target>
+        <target>您可在 [NVDA 设置](#NVDASettings)对话框的[视觉](#VisionSettings)类别中开启黑屏。</target>
       </segment>
     </unit>
     <unit id="509daff7-ab17-402a-925b-6110a9cb8e0d">
