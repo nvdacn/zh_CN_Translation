@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 06:31+0000\n"
+"POT-Creation-Date: 2025-08-12 05:26+0000\n"
 "PO-Revision-Date: 2025-08-07 15:53+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2171,8 +2171,8 @@ msgstr ""
 #. Translators: Title of error dialog
 #. Translators: Title of a dialog
 #: core.py:120 documentationUtils.py:74 updateCheck.py:430 updateCheck.py:745
-#: updateCheck.py:917 gui\__init__.py:238 gui\__init__.py:246
-#: gui\__init__.py:263 gui\addonGui.py:145 gui\addonGui.py:265
+#: updateCheck.py:917 gui\__init__.py:239 gui\__init__.py:247
+#: gui\__init__.py:264 gui\addonGui.py:145 gui\addonGui.py:265
 #: gui\addonGui.py:280 gui\configProfiles.py:182 gui\configProfiles.py:219
 #: gui\configProfiles.py:272 gui\configProfiles.py:284
 #: gui\configProfiles.py:293 gui\configProfiles.py:337
@@ -2182,8 +2182,8 @@ msgstr ""
 #: gui\installerGui.py:658 gui\logViewer.py:112 gui\logViewer.py:143
 #: gui\message.py:161 gui\settingsDialogs.py:1077 gui\settingsDialogs.py:5470
 #: gui\settingsDialogs.py:5830 gui\startupDialogs.py:128
-#: _remoteClient\dialogs.py:62 _remoteClient\dialogs.py:300
-#: _remoteClient\dialogs.py:384
+#: _remoteClient\dialogs.py:66 _remoteClient\dialogs.py:305
+#: _remoteClient\dialogs.py:423
 msgid "Error"
 msgstr "错误"
 
@@ -5067,22 +5067,31 @@ msgctxt "remote"
 msgid "Switches whether the keyboard controls the local or remote computer"
 msgstr "切换键盘要控制的计算机（本地或远程）"
 
+#. Translators: Documentation string for the script that sends alt+ctrl+del to the remote computer
+#: globalCommands.py:5059
+#, fuzzy
+#| msgctxt "remote"
+#| msgid "Send control+alt+delete to the controlled computer."
+msgctxt "remote"
+msgid "Sends control+alt+delete to the controlled computer."
+msgstr "向被控计算机发送 Ctrl+Alt+Delete。"
+
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5088
+#: globalCommands.py:5100
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5093
+#: globalCommands.py:5105
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5098
+#: globalCommands.py:5110
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -5090,7 +5099,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5114
+#: globalCommands.py:5126
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -7403,7 +7412,7 @@ msgstr "请捐赠"
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:957 gui\__init__.py:700
+#: updateCheck.py:957 gui\__init__.py:701
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
@@ -7454,7 +7463,7 @@ msgstr ""
 #: updateCheck.py:1018 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
 #: gui\installerGui.py:348 gui\installerGui.py:473 gui\settingsDialogs.py:1039
 #: gui\settingsDialogs.py:1979 visionEnhancementProviders\screenCurtain.py:152
-#: _remoteClient\dialogs.py:285
+#: _remoteClient\dialogs.py:290
 msgid "Warning"
 msgstr "警告"
 
@@ -11905,7 +11914,7 @@ msgstr "已成功连接到给定网址。"
 #. Translators: The message title displayed when copying configuration to system settings was successful.
 #. Translators: Title of success dialog
 #: gui\_SetURLDialog.py:177 gui\installerGui.py:141 gui\installerGui.py:669
-#: gui\settingsDialogs.py:1083 _remoteClient\dialogs.py:274
+#: gui\settingsDialogs.py:1083 _remoteClient\dialogs.py:279
 msgid "Success"
 msgstr "成功"
 
@@ -11952,45 +11961,45 @@ msgstr ""
 "{tip}"
 
 #. Translators: Reported when last saved configuration has been applied by using revert to saved configuration option in NVDA menu.
-#: gui\__init__.py:211
+#: gui\__init__.py:212
 msgid "Configuration applied"
 msgstr "配置以应用"
 
 #. Translators: Reported when configuration has been restored to defaults,
 #. by using restore configuration to factory defaults item in NVDA menu.
-#: gui\__init__.py:220
+#: gui\__init__.py:221
 msgid "Configuration restored to factory defaults"
 msgstr "恢复默认设置"
 
 #. Translators: Reported when current configuration has been saved.
-#: gui\__init__.py:231
+#: gui\__init__.py:232
 msgid "Configuration saved"
 msgstr "配置以保存"
 
 #. Translators: Message shown when current configuration cannot be saved,
 #. such as when running NVDA from a CD.
-#: gui\__init__.py:236
+#: gui\__init__.py:237
 msgid "Could not save configuration - probably read only file system"
 msgstr "无法保存设置，文件系统可能处于只读状态"
 
 #. Translators: Message shown when current configuration cannot be saved, for an unknown reason.
-#: gui\__init__.py:244
+#: gui\__init__.py:245
 msgid "Could not save configuration; see the log for more details."
 msgstr "无法保存设置，更多详细信息请参见日志。"
 
 #. Translators: Message shown when trying to open an unavailable category of a multi category settings dialog.
 #. Example: when trying to open touch interaction settings on an unsupported system.
-#: gui\__init__.py:261
+#: gui\__init__.py:262
 msgid "The settings panel you tried to open is unavailable on this system."
 msgstr "您尝试打开的设置面板在此系统上不可用。"
 
 #. Translators: The title of the dialog to show about info for NVDA.
-#: gui\__init__.py:401 gui\__init__.py:848
+#: gui\__init__.py:402 gui\__init__.py:849
 msgid "About NVDA"
 msgstr "关于 NVDA"
 
 #. Translators: Explain the COM Registration Fixing tool to users before running
-#: gui\__init__.py:516
+#: gui\__init__.py:517
 msgid ""
 "Welcome to the COM Registration Fixing tool.\n"
 "\n"
@@ -12017,18 +12026,18 @@ msgstr ""
 "按“继续”立即运行该工具。"
 
 #. Translators: The title of various dialogs displayed when using the COM Registration Fixing tool
-#: gui\__init__.py:541
+#: gui\__init__.py:542
 msgid "Fix COM Registrations"
 msgstr "COM 注册修复"
 
 #. Translators: The message displayed while NVDA is running the COM Registration fixing tool
-#: gui\__init__.py:556
+#: gui\__init__.py:557
 msgid ""
 "Please wait while NVDA attempts to fix your system's COM registrations..."
 msgstr "请稍候，NVDA 正在尝试修复系统中的 COM 注册……"
 
 #. Translators: message shown to the user on COM Registration Fix fail
-#: gui\__init__.py:583
+#: gui\__init__.py:584
 #, python-brace-format
 msgid ""
 "The COM Registration Fixing Tool was unsuccessful. This Windows error may "
@@ -12039,12 +12048,12 @@ msgstr ""
 "{error}"
 
 #. Translators: The title of a COM Registration Fixing Tool dialog, when the tool has failed
-#: gui\__init__.py:587
+#: gui\__init__.py:588
 msgid "COM Registration Fixing Tool Failed"
 msgstr "COM 注册修复失败"
 
 #. Translators: Message shown when the COM Registration Fixing tool completes.
-#: gui\__init__.py:594
+#: gui\__init__.py:595
 msgid ""
 "The COM Registration Fixing Tool has completed successfully.\n"
 "It is highly recommended that you restart your computer now, to make sure "
@@ -12053,239 +12062,239 @@ msgstr ""
 "COM 注册修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生效。"
 
 #. Translators: The label for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:621
+#: gui\__init__.py:622
 msgid "&Settings..."
 msgstr "设置(&S)..."
 
 #. Translators: The description for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:623
+#: gui\__init__.py:624
 msgid "NVDA settings"
 msgstr "NVDA 设置"
 
 #. Translators: The label for a submenu under NvDA Preferences menu to select speech dictionaries.
-#: gui\__init__.py:628
+#: gui\__init__.py:629
 msgid "Speech &dictionaries"
 msgstr "朗读字典(&D)"
 
 #. Translators: The label for the menu item to open Punctuation/symbol pronunciation dialog.
-#: gui\__init__.py:630
+#: gui\__init__.py:631
 msgid "&Punctuation/symbol pronunciation..."
 msgstr "标点符号读音(&P)..."
 
 #. Translators: The label for the menu item to open the Input Gestures dialog.
-#: gui\__init__.py:633
+#: gui\__init__.py:634
 msgid "I&nput gestures..."
 msgstr "按键与手势(&N)..."
 
 #. Translators: The label for Preferences submenu in NVDA menu.
-#: gui\__init__.py:636
+#: gui\__init__.py:637
 msgid "&Preferences"
 msgstr "选项(&P)"
 
 #. Translators: The label for the menu item to open NVDA Log Viewer.
-#: gui\__init__.py:641
+#: gui\__init__.py:642
 msgid "View &log"
 msgstr "查看日志(&L)"
 
 #. Translators: The label for the menu item to toggle Speech Viewer.
-#: gui\__init__.py:647
+#: gui\__init__.py:648
 msgid "&Speech viewer"
 msgstr "朗读查看器(&S)"
 
 #. Translators: The label for the menu item to toggle Braille Viewer.
-#: gui\__init__.py:655
+#: gui\__init__.py:656
 msgid "&Braille viewer"
 msgstr "盲文查看器(&B)"
 
 #. Translators: The label of a menu item to open the Add-on store
-#: gui\__init__.py:667
+#: gui\__init__.py:668
 msgid "&Add-on store..."
 msgstr "插件商店(&A)..."
 
 #. Translators: The label for the menu item to open NVDA Python Console.
-#: gui\__init__.py:672
+#: gui\__init__.py:673
 msgid "&Python console"
 msgstr "Python 控制台(&P)"
 
 #. Translators: The label for the menu item to create a portable copy of NVDA from an installed or another portable version.
-#: gui\__init__.py:677
+#: gui\__init__.py:678
 msgid "&Create portable copy..."
 msgstr "创建便携版(&C)..."
 
 #. Translators: The label for the menu item to install NVDA on the computer.
-#: gui\__init__.py:681
+#: gui\__init__.py:682
 msgid "&Install NVDA..."
 msgstr "安装 NVDA(&I)"
 
 #. Translators: The label for the menu item to run the COM registration fix tool
-#: gui\__init__.py:684
+#: gui\__init__.py:685
 msgid "Run COM Registration Fixing tool..."
 msgstr "运行 COM 注册修复工具(&R)..."
 
 #. Translators: The label for the menu item to reload plugins.
-#: gui\__init__.py:688
+#: gui\__init__.py:689
 msgid "Reload plugins"
 msgstr "重新加载插件(&G)"
 
 #. Translators: The label for the Tools submenu in NVDA menu.
-#: gui\__init__.py:691
+#: gui\__init__.py:692
 msgid "&Tools"
 msgstr "工具(&T)"
 
 #. Translators: The label for the menu item to exit NVDA
 #. Translators: The label for a menu item in NVDA log viewer to exit.
 #. Translators: The label for a button to exit the NVDA launcher.
-#: gui\__init__.py:709 gui\logViewer.py:58 gui\startupDialogs.py:207
+#: gui\__init__.py:710 gui\logViewer.py:58 gui\startupDialogs.py:207
 msgid "E&xit"
 msgstr "退出(&X)"
 
 #. Translators: The help string for the menu item to exit NVDA
 #. Translators: The title of the dialog to exit NVDA
-#: gui\__init__.py:711 gui\exit.py:79
+#: gui\__init__.py:712 gui\exit.py:79
 msgid "Exit NVDA"
 msgstr "退出 NVDA"
 
 #. Translators: The label for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:746
+#: gui\__init__.py:747
 msgid "&Default dictionary..."
 msgstr "默认字典(&D)..."
 
 #. Translators: The help text for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:748
+#: gui\__init__.py:749
 msgid ""
 "A dialog where you can set default dictionary by adding dictionary entries "
 "to the list"
 msgstr "“默认字典”对话框，可以添加和管理默认字典"
 
 #. Translators: The label for the menu item to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:754
+#: gui\__init__.py:755
 msgid "&Voice dictionary..."
 msgstr "语音字典(&V)..."
 
 #. Translators: The help text for the menu item
 #. to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:758
+#: gui\__init__.py:759
 msgid ""
 "A dialog where you can set voice-specific dictionary by adding dictionary "
 "entries to the list"
 msgstr "“语音字典”对话框，可以添加和管理合成器字典"
 
 #. Translators: The label for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:766
+#: gui\__init__.py:767
 msgid "&Temporary dictionary..."
 msgstr "临时字典(&T)..."
 
 #. Translators: The help text for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:768
+#: gui\__init__.py:769
 msgid ""
 "A dialog where you can set temporary dictionary by adding dictionary entries "
 "to the edit box"
 msgstr "“临时字典”对话框，可以添加和管理临时字典"
 
 #. Translators: The label for the menu item to open the Configuration Profiles dialog.
-#: gui\__init__.py:776
+#: gui\__init__.py:777
 msgid "&Configuration profiles..."
 msgstr "管理配置(&C)..."
 
 #. Translators: The label for the menu item to revert to saved configuration.
-#: gui\__init__.py:781
+#: gui\__init__.py:782
 msgid "&Revert to saved configuration"
 msgstr "重新应用以保存的设置(&R)"
 
 #. Translators: The help text for the menu item to revert to saved configuration.
-#: gui\__init__.py:783
+#: gui\__init__.py:784
 msgid "Reset all settings to saved state"
 msgstr "重置所有设置到已保存的状态"
 
 #. Translators: The label for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:790
+#: gui\__init__.py:791
 msgid "Reset configuration to &factory defaults"
 msgstr "重置设置为默认值(&F)"
 
 #. Translators: The help text for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:793
+#: gui\__init__.py:794
 msgid "Reset all settings to default state"
 msgstr "重置所有设置到默认状态"
 
 #. Translators: The label for the menu item to save current settings.
-#: gui\__init__.py:800
+#: gui\__init__.py:801
 msgid "&Save configuration"
 msgstr "保存设置(&S)"
 
 #. Translators: The help text for the menu item to save current settings.
-#: gui\__init__.py:802
+#: gui\__init__.py:803
 msgid "Write the current configuration to nvda.ini"
 msgstr "将现在的设置写入 nvda.ini"
 
 #. Translators: The label of a menu item to open NVDA user guide.
-#: gui\__init__.py:811
+#: gui\__init__.py:812
 msgid "&User Guide"
 msgstr "用户指南(&U)"
 
 #. Translators: The label of a menu item to open the Commands Quick Reference document.
-#: gui\__init__.py:814
+#: gui\__init__.py:815
 msgid "Commands &Quick Reference"
 msgstr "热键快速参考(&Q)"
 
 #. Translators: The label for the menu item to open What's New document.
-#: gui\__init__.py:817
+#: gui\__init__.py:818
 msgid "What's &new"
 msgstr "更新日志(&N)"
 
 #. Translators: The label for the menu item to view the NVDA website
-#: gui\__init__.py:823
+#: gui\__init__.py:824
 msgid "NV Access &web site"
 msgstr "NV Access 网站(&W)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:826
+#: gui\__init__.py:827
 msgid "&Help, training and support"
 msgstr "帮助、培训和支持(&H)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:829
+#: gui\__init__.py:830
 msgid "NV Access &shop"
 msgstr "NV Access 商店(&S)"
 
 #. Translators: The label for the menu item to view the NVDA License.
-#: gui\__init__.py:835
+#: gui\__init__.py:836
 msgid "L&icense"
 msgstr "版权信息(&I)"
 
 #. Translators: The label for the menu item to open NVDA Welcome Dialog.
-#: gui\__init__.py:839
+#: gui\__init__.py:840
 msgid "We&lcome dialog..."
 msgstr "欢迎对话框(&L)"
 
 #. Translators: The label of a menu item to manually check for an updated version of NVDA.
-#: gui\__init__.py:844
+#: gui\__init__.py:845
 msgid "&Check for update..."
 msgstr "检查更新(&C)..."
 
 #. Translators: The label for the menu item to open About dialog to get information about NVDA.
-#: gui\__init__.py:848
+#: gui\__init__.py:849
 msgid "&About..."
 msgstr "关于(&A)..."
 
 #. Translators: The label for the Help submenu in NVDA menu.
-#: gui\__init__.py:852
+#: gui\__init__.py:853
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. Translators: The label for the menu item to run a pending update.
-#: gui\__init__.py:868
+#: gui\__init__.py:869
 msgid "Install pending &update"
 msgstr "安装之前推迟的更新(&U)"
 
 #. Translators: The description for the menu item to run a pending update.
-#: gui\__init__.py:870
+#: gui\__init__.py:871
 msgid "Execute a previously downloaded NVDA update"
 msgstr "安装之前下载的 NVDA 更新"
 
 #. Translators: Announced periodically to indicate progress for an indeterminate progress bar.
-#: gui\__init__.py:947
+#: gui\__init__.py:955
 msgid "Please wait"
 msgstr "请等待"
 
@@ -14287,7 +14296,7 @@ msgstr "自动连接"
 #. Translators: Label for a control in Remote Access settings,
 #. allowing the user to select whether their computer is controlling or controlled.
 #. Translators: Label of the control allowing users to set whether they are the controlling or controlled computer in the Remote Access connection dialog.
-#: gui\settingsDialogs.py:3428 _remoteClient\dialogs.py:318
+#: gui\settingsDialogs.py:3428 _remoteClient\dialogs.py:324
 msgctxt "remote"
 msgid "&Mode:"
 msgstr "模式(&M)"
@@ -14295,7 +14304,7 @@ msgstr "模式(&M)"
 #. Translators: Label for a control in Remote Access settings,
 #. allowing users to choose whether they want to use an existing server, or host their own.
 #. Translators: Label of the control allowing users to select whether to use a pre-existing Remote Access server, or to run their own.
-#: gui\settingsDialogs.py:3437 _remoteClient\dialogs.py:325
+#: gui\settingsDialogs.py:3437 _remoteClient\dialogs.py:334
 msgctxt "remote"
 msgid "&Server:"
 msgstr "服务器(&S)"
@@ -14303,7 +14312,7 @@ msgstr "服务器(&S)"
 #. Translators: Label for the host field in Remote Access settings.
 #. This is where users should enter the URL of the Remote Access server they want to use if they are not hosting their own.
 #. Translators: The label of an edit field in connect dialog to enter name or address of the remote computer.
-#: gui\settingsDialogs.py:3447 _remoteClient\dialogs.py:41
+#: gui\settingsDialogs.py:3447 _remoteClient\dialogs.py:45
 msgid "&Host:"
 msgstr "主机(&H)"
 
@@ -14312,14 +14321,14 @@ msgstr "主机(&H)"
 #. if the user has chosen to host their own.
 #. Translators: The label for a setting in braille settings to choose the connection port (if the selected braille display supports port selection).
 #: gui\settingsDialogs.py:3456 gui\settingsDialogs.py:4524
-#: _remoteClient\dialogs.py:202
+#: _remoteClient\dialogs.py:206
 msgid "&Port:"
 msgstr "端口(&P):"
 
 #. Translators: Label for a control in Remote Access settings,
 #. Where users set the key for their connection.
 #. Translators: Label of the edit field to enter key (password) to secure the Remote Access connection.
-#: gui\settingsDialogs.py:3477 _remoteClient\dialogs.py:46
+#: gui\settingsDialogs.py:3477 _remoteClient\dialogs.py:50
 msgid "&Key:"
 msgstr "秘钥(&K)"
 
@@ -19354,30 +19363,30 @@ msgid "Clipboard received"
 msgstr "已接收剪贴板"
 
 #. Translators: The button used to generate a random key/password.
-#: _remoteClient\dialogs.py:50 _remoteClient\dialogs.py:211
+#: _remoteClient\dialogs.py:54 _remoteClient\dialogs.py:216
 msgid "&Generate Key"
 msgstr "生成秘钥(&G)"
 
 #. Translators: A message box displayed when the host field is empty and the user tries to generate a key.
-#: _remoteClient\dialogs.py:60
+#: _remoteClient\dialogs.py:64
 msgid "Host must be set."
 msgstr "必须设置主机。"
 
 #. Translators: Title of a dialog shown to users when asking a Remote Access server to generate a key
-#: _remoteClient\dialogs.py:74
+#: _remoteClient\dialogs.py:78
 msgctxt "remote"
 msgid "Generating key"
 msgstr "正在生成密钥"
 
 #. Translators: Message on a dialog shown to users when asking a Remote Access server to generate a key
-#: _remoteClient\dialogs.py:76
+#: _remoteClient\dialogs.py:80
 msgctxt "remote"
 msgid "Generating key..."
 msgstr "正在生成密钥..."
 
 #. Translators: Message shown to users when requesting that a Remote Access server generate a key fails.
 #. {host} will be replaced with the address of the Remote Access server.
-#: _remoteClient\dialogs.py:120
+#: _remoteClient\dialogs.py:124
 #, python-brace-format
 msgctxt "remote"
 msgid ""
@@ -19386,48 +19395,48 @@ msgid ""
 msgstr "无法连接到 {host}。请检查网络连接并确保主机输入正确。"
 
 #. Translators: Title of a dialog.
-#: _remoteClient\dialogs.py:123
+#: _remoteClient\dialogs.py:127
 msgctxt "remote"
 msgid "Host connection failed"
 msgstr "主机连接失败"
 
 #. Translators: Label of the field displaying the external IP address if using direct (client to server) connection.
-#: _remoteClient\dialogs.py:187
+#: _remoteClient\dialogs.py:191
 msgid "&External IP:"
 msgstr "公网 IP (&E):"
 
 #. Translators: Used in server mode to obtain the external IP address for the server (controlled computer) for direct connection.
-#: _remoteClient\dialogs.py:192
+#: _remoteClient\dialogs.py:196
 msgid "Get External &IP"
 msgstr "获取公网 IP (&I)"
 
 #. Translators: Label of the edit field to enter key (password) to secure the Remote Access connection.
-#: _remoteClient\dialogs.py:209
+#: _remoteClient\dialogs.py:214
 msgctxt "remote"
 msgid "&Key"
 msgstr "秘钥(&K)"
 
 #. Translators: Title of a dialog shown to users while attempting to detect their external IP address
-#: _remoteClient\dialogs.py:230
+#: _remoteClient\dialogs.py:235
 msgctxt "remote"
 msgid "Getting external IP"
 msgstr "正在获取公网 IP"
 
 #. Translators: Message on a dialog shown to users while attempting to detect their external IP address
-#: _remoteClient\dialogs.py:232
+#: _remoteClient\dialogs.py:237
 msgctxt "remote"
 msgid "Getting external IP..."
 msgstr "正在获取公网 IP..."
 
 #. Translators: Message shown when successfully getting external IP and the specified port is open
-#: _remoteClient\dialogs.py:272
+#: _remoteClient\dialogs.py:277
 #, python-brace-format
 msgid "Successfully retrieved IP address. Port {port} is open."
 msgstr "成功检索 IP 地址，端口 {port} 已打开。"
 
 #. Translators: Message shown when IP was retrieved but the specified port is not forwarded
 #. {port} will be replaced with the actual port number
-#: _remoteClient\dialogs.py:283
+#: _remoteClient\dialogs.py:288
 #, python-brace-format
 msgid ""
 "Retrieved external IP, but port {port} is most likely not currently "
@@ -19435,30 +19444,30 @@ msgid ""
 msgstr "检索到公网 IP，但端口 {port} 可能未转发。"
 
 #. Translators: Error message when unable to get IP address from portcheck server
-#: _remoteClient\dialogs.py:298
+#: _remoteClient\dialogs.py:303
 msgid ""
 "Unable to contact portcheck server, please manually retrieve your IP address"
 msgstr "无法连接端口检测服务器，请手动检索 IP 地址"
 
 #. Translators: Message displayed when the host or key field is empty and the user tries to connect.
-#: _remoteClient\dialogs.py:368
+#: _remoteClient\dialogs.py:407
 msgid "Both host and key must be set."
 msgstr "必须设置主机和秘钥。"
 
 #. Translators: Message displayed when the port or key field is empty and the user tries to connect.
-#: _remoteClient\dialogs.py:376
+#: _remoteClient\dialogs.py:415
 msgid "Both port and key must be set."
 msgstr "必须设置端口和秘钥。"
 
 #. Translators: Title of the dialog presented when attempting to connect to a server with an untrusted certificate.
-#: _remoteClient\dialogs.py:429
+#: _remoteClient\dialogs.py:473
 msgctxt "remote"
 msgid "Security Warning"
 msgstr "安全警告"
 
 #. Translators: Message presented when attempting to connect to a server with an untrusted certificate.
 #. {fingerprint} will be replaced with the SHA256 fingerprint of the server certificate.
-#: _remoteClient\dialogs.py:434
+#: _remoteClient\dialogs.py:478
 #, python-brace-format
 msgctxt "remote"
 msgid ""
@@ -19480,12 +19489,12 @@ msgstr ""
 "您仍要继续连接吗？"
 
 #. Translators: A button to connect and remember the server with unauthorized certificate.
-#: _remoteClient\dialogs.py:449
+#: _remoteClient\dialogs.py:493
 msgid "Connect and do not ask again for this server"
 msgstr "连接且不再询问该服务器"
 
 #. Translators: A button to connect and ask again for the server with unauthorized certificate.
-#: _remoteClient\dialogs.py:451
+#: _remoteClient\dialogs.py:495
 msgid "Connect"
 msgstr "连接"
 
