@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12 05:26+0000\n"
-"PO-Revision-Date: 2025-08-07 15:53+0800\n"
+"PO-Revision-Date: 2025-08-12 13:46+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5017,7 +5017,7 @@ msgstr "静音或恢复来自远程计算机的语音"
 #: globalCommands.py:4984
 msgctxt "remote"
 msgid "Sends the contents of the clipboard to the remote computer"
-msgstr "将剪贴板的内容发送到远程计算机"
+msgstr "发送剪贴板的内容到远程计算机"
 
 #. Translators: Documentation string for the script that copies a link to the Remote Access session to the clipboard.
 #: globalCommands.py:4992
@@ -5069,12 +5069,9 @@ msgstr "切换键盘要控制的计算机（本地或远程）"
 
 #. Translators: Documentation string for the script that sends alt+ctrl+del to the remote computer
 #: globalCommands.py:5059
-#, fuzzy
-#| msgctxt "remote"
-#| msgid "Send control+alt+delete to the controlled computer."
 msgctxt "remote"
 msgid "Sends control+alt+delete to the controlled computer."
-msgstr "向被控计算机发送 Ctrl+Alt+Delete。"
+msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
