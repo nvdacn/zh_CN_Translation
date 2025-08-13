@@ -219,7 +219,7 @@ MKLINK /H "%~dp0Preview\Test\locale\zh_CN\LC_MESSAGES\nvda.mo" "%~dp0Preview\nvd
 for %%f in (
   characterDescriptions.dic
   gestures.ini
- symbols.dic
+  symbols.dic
 ) do (
   MKLINK /H "%~dp0Preview\Test\locale\zh_CN\%%f" "%~dp0Translation\miscDeps\%%f"
 )
@@ -228,8 +228,8 @@ for %%f in (
   favicon.ico
   numberedHeadings.css
   styles.css
- changes.html
- keyCommands.html
+  changes.html
+  keyCommands.html
   userGuide.html
 ) do (
 MKLINK /H "%~dp0Preview\Test\documentation\zh_CN\%%f" "%~dp0Preview\%%f"
