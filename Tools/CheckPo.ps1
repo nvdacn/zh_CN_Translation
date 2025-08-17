@@ -1,8 +1,17 @@
 # 检查 nvda.po 文件的差异，如果只修改了 `POT-Creation-Date` 和 `PO-Revision-Date` 行则还原  
-$filePath = "Translation/LC_MESSAGES/nvda.po"
+param(
+    [Parameter(Mandatory=$true, HelpMessage="The path to the po file to be checked")]
+    [string]$file
+)
 
 # 获取文件的 git diff 输出  
-$diffOutput = git diff --unified=0 $filePath
+$diffOutput = git diff --unified=0 $file
+
+# 检查是否有有效的 diff 输出  
+if (-not $diffOutput) {
+    Write-Host "No file modification was detected"
+    exit 0
+}
 
 # 初始化变量  
 $onlyDateChanges = $true
@@ -22,7 +31,7 @@ foreach ($line in $diffOutput -split "`n") {
 # 根据检查结果执行操作  
 if ($onlyDateChanges) {
     Write-Host "Detected only date line modifications. Reverting file..."
-    Git restore $filePath
+    Git restore $file
 } else {
     Write-Host "Substantial changes detected. Keeping modifications."
 }

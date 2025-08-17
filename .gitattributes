@@ -1,6 +1,7 @@
 eol=lf
 *	text=auto
 *.bat eol=crlf
+*.ps1 eol=crlf
 
 # Files which should not be renormalized
 *.dic   -text
