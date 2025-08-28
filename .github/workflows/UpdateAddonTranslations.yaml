@@ -1,0 +1,86 @@
+name: Update Addons Translations from Crowdin
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      Addon_ID:
+        description: 'Add-on ID, multiple separated by spaces(optional)'
+        required: false
+
+jobs:
+  Determine-Branch:
+    runs-on: ubuntu-latest
+    outputs:
+      branch: ${{ steps.Determine_branch.outputs.Branch }}
+    steps:
+      - name: Checkout NVDA buildVersion.py
+        uses: actions/checkout@v5
+        with:
+          repository: nvaccess/nvda
+          ref: master
+          path: ${{ github.workspace }}/NVDA
+          sparse-checkout: source/buildVersion.py
+      - name: Determine branch name
+        id: Determine_branch
+        run: |
+          versionFile="${{ github.workspace }}/NVDA/source/buildVersion.py"
+          versionYear=$(grep -oP 'version_year\s*=\s*\K\d+' "$versionFile")
+          versionMajor=$(grep -oP 'version_major\s*=\s*\K\d+' "$versionFile")
+          branchName="$versionYear.$versionMajor"
+          echo "Branch=$branchName" >> $GITHUB_OUTPUT
+      - name: Check branch exists
+        id: check_branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              const result = await github.rest.repos.getBranch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                branch: '${{ steps.Determine_branch.outputs.Branch }}'
+              });
+              console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} exists`);
+              return true;
+            } catch (error) {
+              if (error.status === 404) {
+                console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} does not exist`);
+                return false;
+              }
+              throw error;
+            }
+          result-encoding: string
+      - name: Manually trigger CheckPot workflow
+        if: steps.check_branch.outputs.result != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'CheckPot.yaml',
+              ref: 'Uploads'
+            });
+
+  Update-Addon-Translations:
+    name: Update addon translations from Crowdin
+    needs: Determine-Branch
+    runs-on: windows-latest
+    steps:
+      - name: Checkout ${{ github.repository }} repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: ${{ needs.Determine-Branch.outputs.branch }}
+      - name: List directories
+        if: ${{ !github.event.inputs.Addon_ID }}
+        id: dir_list
+        shell: pwsh
+        run: |
+          $dirs = Get-ChildItem -Path "${{ github.workspace }}\Translation" -Directory | Select-Object -ExpandProperty Name
+          $dirsString = $dirs -join " "
+          Write-Output "dirs=$dirsString" >> $env:GITHUB_OUTPUT
+      - name: Display output
+        run: |
+          echo "directories: ${{ github.event.inputs.Addon_ID || steps.dir_list.outputs.dirs }}"
