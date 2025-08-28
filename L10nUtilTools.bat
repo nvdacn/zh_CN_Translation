@@ -329,6 +329,26 @@ if /I %Type%==Docs (
 set ExitCode=%errorlevel%
 goto Quit
 
+Rem 处理针对插件翻译的标签，初始化变量  
+:UAP
+:UAX
+:DAP
+:DAX
+if not "%GITHUB_ACTIONS%" == "true" (exit /b 0)
+set L10nUtil=python "%~dp0Tools\CrowdinRegistration\utils\l10nUtil.py"
+if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
+if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
+if /I "%CLI:~2,1%"=="P" (
+  set Type=LC_MESSAGES
+  set FileName=%2.po
+)
+if /I "%CLI:~2,1%"=="X" (
+  set FileName=%2.xliff
+)
+set TranslationPath=%~dp0Translation\Addons\%2
+IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
+goto %Action%
+
 Rem 清理本工具生成的所有文件  
 :CLE
 rd /s /q "%~dp0PotXliff"
