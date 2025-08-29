@@ -78,12 +78,10 @@ jobs:
       - name: Configure environment
         shell: pwsh
         run: |
-          $ErrorActionPreference = 'Stop'
           $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
           $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-        if: success()
       - name: List directories
         if: ${{ !github.event.inputs.Addon_ID }}
         id: dir_list
@@ -105,4 +103,14 @@ jobs:
               & cmd /c "$L10nUtil DAP $addonId"
               & cmd /c "$L10nUtil DAX $addonId"
               git add "Translation/Addons/$addonId"
+          }
+      - name: Commit & Push
+        shell: pwsh
+        run: |
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+              git commit -m "更新插件翻译（从 Crowdin）"
+              git push origin
+          } else {
+              Write-Host "No changes to commit, skipping commit and push."
           }
