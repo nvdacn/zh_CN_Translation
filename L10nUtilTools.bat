@@ -4,34 +4,7 @@ chcp 65001>Nul
 Title L10n Util Tools
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
-Rem 设置 nvdaL10nUtil 程序路径  
-for %%F in (
-  "%ProgramFiles%\NVDA\l10nUtil.exe"
-  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
-  "%~dp0Tools\NVDA\source\l10nUtil.py"
-) do (
-  if exist %%F (
-    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
-      set "L10nUtil=uv --directory "%~dp0Tools\NVDA" run %%F"
-    ) else (
-      set "L10nUtil=%%F"
-    )
-  )
-  if defined L10nUtil (
-    echo %%l10nUtil%% is set to !l10nUtil!.
-    goto CheckCLI
-  )
-)
-
-Rem 检查 %L10nUtil% 是否存在  
-if not defined L10nUtil (
-  echo l10nUtil program not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
-  exit /b 1
-)
-
 Rem 判断是否从命令行传入参数  
-:CheckCLI
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
@@ -123,7 +96,7 @@ msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvd
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem 处理标签，初始化变量  
+Rem 设置 nvdaL10nUtil 程序路径  
 :GEC
 :GEU
 :GEK
@@ -142,6 +115,33 @@ Rem 处理标签，初始化变量
 :UPC
 :UPU
 :UPA
+for %%F in (
+  "%ProgramFiles%\NVDA\l10nUtil.exe"
+  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
+  "%~dp0Tools\NVDA\source\l10nUtil.py"
+) do (
+  if exist %%F (
+    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
+      set "L10nUtil=uv --directory "%~dp0Tools\NVDA" run %%F"
+    ) else (
+      set "L10nUtil=%%F"
+    )
+  )
+  if defined L10nUtil (
+    echo %%l10nUtil%% is set to !l10nUtil!.
+    goto ProcessingNVDATags
+  )
+)
+
+Rem 检查 %L10nUtil% 是否存在  
+if not defined L10nUtil (
+  echo l10nUtil program not found.
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+
+Rem 处理针对 NVDA 翻译的标签，初始化变量  
+:ProcessingNVDATags
 if /I  %CLI:~0,2%==GE (set Action=GenerateFiles)
 if /I  %CLI:~0,2%==DL (set Action=DownloadFiles)
 if /I  %CLI:~0,2%==DC (
