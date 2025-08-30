@@ -55,6 +55,7 @@ jobs:
           fi
 
   Determine-Branch:
+    name: Determine branch
     if: ${{ vars.RunCheckPot }}
     runs-on: ubuntu-latest
     outputs:
