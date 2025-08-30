@@ -164,7 +164,7 @@ jobs:
           git add "Translation/LC_MESSAGES/nvda.po"
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
-              git commit -m "更新界面消息翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
+              git commit -m "更新 NVDA 界面消息翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
               git push origin ${{ needs.Determine-Branch.outputs.branch }}:${{ needs.Determine-Branch.outputs.branch }}
           } else {
               Write-Host "No changes to commit, skipping commit and push."
