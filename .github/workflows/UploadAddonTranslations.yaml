@@ -52,15 +52,17 @@ jobs:
           foreach ($file in $changedFiles) {
               Write-Host "$file has changed"
               $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
-              if ($baseName -ieq "nvda") {
-                  $FilePath = "Translation/LC_MESSAGES/$baseName.po"
+              $fileExtension = [System.IO.Path]::GetExtension($file)
+              if ($fileExtension -ieq ".po") {
+                  $actionType = "UAP"
               } else {
-                  $FilePath = "Translation/user_docs/$baseName.xliff"
+                  $actionType = "UAX"
               }
+              $FilePath = "Translation/Addons/$baseName/$baseName$fileExtension"
               if (Test-Path $FilePath) {
                   Write-Host "Uploading $file to Crowdin..."
                   Write-Host "has_changes=true" >> $env:GITHUB_OUTPUT
-                  & cmd /c "$L10nUtil UP_$baseName"
+                  & cmd /c "$L10nUtil $actionType $baseName"
               } else {
                   Write-Host "File $FilePath not found, skipping processing."
               }
