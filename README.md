@@ -6,7 +6,7 @@
 
 如需测试翻译，请
 
-1. 在 [GitHub 的 Actions](https://github.com/nvdacn/zh_CN_Translation/actions) 页面选择由 [Build Translation Test 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/build.yaml)触发的操作。
+1. 在 [GitHub 的 Actions](https://github.com/nvdacn/zh_CN_Translation/actions) 页面选择由 [Build NVDA translation test files 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/build.yaml)触发的操作。
 
    - alpha 版本请选择与您 NVDA 版本相同分支的操作。
    - beta 版本请选择 Uploads 分支的操作。
@@ -37,7 +37,7 @@
 ### beta 开发周期的翻译
 
 可在  `Uploads` 分支翻译 beta 开发周期的所有翻译。具体注意事项，请参看[自动上传翻译][1]章节。
-beta 开发周期的界面消息和文档的翻译字符串可在任意分支手动运行 [Update Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateTranslations.yaml)进行更新，或在本地通过 `L10nUtilTools.bat` 的相关命令更新。
+beta 开发周期的界面消息和文档的翻译字符串可在任意分支手动运行 [Update NVDA Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateTranslations.yaml)进行更新，或在本地通过 `L10nUtilTools.bat` 的相关命令更新。
 `L10nUtilTools.bat` 的具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
 
 ### 自动上传翻译
