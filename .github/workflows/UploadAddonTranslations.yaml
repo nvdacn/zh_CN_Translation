@@ -1,0 +1,79 @@
+name: Upload Addon translations to Crowdin
+
+on:
+  push:
+    branches:
+      - '20*'
+    paths:
+      - 'Translation/Addons/**'
+
+jobs:
+  Process-Translations:
+    name: Upload translation to Crowdin
+    runs-on: windows-latest
+    steps:
+      - name: Checkout ${{ github.repository }} repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Install dependencies
+        uses: ./.github/workflows/InstallDependenciesForAddon
+      - name: Configure environment
+        shell: pwsh
+        run: |
+          $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
+          $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+      - name: Process Translations
+        id: check-changes
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $GIT_BEFORE = "${{ github.event.before }}"
+          $IsBeforeValid = $false
+          $L10nUtil = "${{ github.workspace }}/L10nUtilTools.bat"
+          git branch main remotes/origin/main
+          if (-not [string]::IsNullOrEmpty($GIT_BEFORE)) {
+              git rev-parse --verify -q "$GIT_BEFORE^{commit}" > $null 2>&1
+              if ($LASTEXITCODE -eq 0) {
+                  $IsBeforeValid = $true
+              }
+          }
+          if ($IsBeforeValid) {
+              Write-Host "Comparing changes in range: $GIT_BEFORE"
+              $diffRange = "$GIT_BEFORE..HEAD"
+          } else {
+              Write-Host "Fallback: Fetching latest main branch"
+              $MainHead = (git rev-parse "main")
+              $diffRange = "$MainHead..HEAD"
+          }
+          $changedFiles = git diff --name-only $diffRange -- "Translation/Addons/*"
+          foreach ($file in $changedFiles) {
+              Write-Host "$file has changed"
+              $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+              if ($baseName -ieq "nvda") {
+                  $FilePath = "Translation/LC_MESSAGES/$baseName.po"
+              } else {
+                  $FilePath = "Translation/user_docs/$baseName.xliff"
+              }
+              if (Test-Path $FilePath) {
+                  Write-Host "Uploading $file to Crowdin..."
+                  Write-Host "has_changes=true" >> $env:GITHUB_OUTPUT
+                  & cmd /c "$L10nUtil UP_$baseName"
+              } else {
+                  Write-Host "File $FilePath not found, skipping processing."
+              }
+          }
+        if: success()
+      - name: Manually trigger UpdateAddonTranslations workflow
+        if: steps.check-changes.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'build.yaml',
+              ref: '${{ github.ref_name }}'
+            });
