@@ -11,6 +11,7 @@ on:
 
 jobs:
   Determine-Branch:
+    name: Determine branch
     runs-on: ubuntu-latest
     outputs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}
@@ -36,10 +37,10 @@ jobs:
         with:
           script: |
             try {
-              const result = await github.rest.repos.getBranch({
+              await github.rest.git.getRef({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                branch: '${{ steps.Determine_branch.outputs.Branch }}'
+                ref: 'heads/${{ steps.Determine_branch.outputs.Branch }}'
               });
               console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} exists`);
               return true;
