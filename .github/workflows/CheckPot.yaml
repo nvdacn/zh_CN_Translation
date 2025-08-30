@@ -6,6 +6,9 @@ on:
       - "20*"
     paths:
       - 'Translation/LC_MESSAGES/*.po'
+  schedule:
+    - cron: '0 0,3,6,9,12 * * 1-5'
+    - cron: '0 12 * * 6,0'
   workflow_dispatch:
 concurrency:
   group: ${{ github.workflow }}-${{ github.repository }}
@@ -14,7 +17,7 @@ concurrency:
 jobs:
   Check-NVDA-Repository-Update:
     name: Check NVDA repository update
-    if: github.repository == 'nvdacn/zh_CN_Translation'
+    if: ${{ vars.RunCheckPot }}
     runs-on: ubuntu-latest
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
@@ -51,9 +54,71 @@ jobs:
             echo "Cached SHA: $(cat .sha_cache/latest_sha)"
           fi
 
+  Determine-Branch:
+    if: ${{ vars.RunCheckPot }}
+    runs-on: ubuntu-latest
+    outputs:
+      branch: ${{ steps.Determine_branch.outputs.Branch }}
+    steps:
+      - name: Checkout NVDA buildVersion.py
+        uses: actions/checkout@v5
+        with:
+          repository: nvaccess/nvda
+          ref: master
+          path: ${{ github.workspace }}/NVDA
+          sparse-checkout: source/buildVersion.py
+      - name: Determine branch name
+        id: Determine_branch
+        run: |
+          versionFile="${{ github.workspace }}/NVDA/source/buildVersion.py"
+          versionYear=$(grep -oP 'version_year\s*=\s*\K\d+' "$versionFile")
+          versionMajor=$(grep -oP 'version_major\s*=\s*\K\d+' "$versionFile")
+          branchName="$versionYear.$versionMajor"
+          echo "Branch=$branchName" >> $GITHUB_OUTPUT
+      - name: Check branch exists
+        id: check_branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.git.getRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: 'heads/${{ steps.Determine_branch.outputs.Branch }}'
+              });
+              console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} exists`);
+              return true;
+            } catch (error) {
+              if (error.status === 404) {
+                console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} does not exist`);
+                return false;
+              }
+              throw error;
+            }
+          result-encoding: string
+      - name: Create branch
+        if: steps.check_branch.outputs.result != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const UploadsSHA = await github.rest.git.getRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'heads/SHA'
+            });
+            await github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/heads/${{ steps.Determine_branch.outputs.Branch }}`,
+              sha: UploadsSHA.data.object.sha
+            });
+            console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} created successfully from Uploads`);
+
   Update-NVDA-po:
     name: Automatically update NVDA.po
-    needs: Check-NVDA-Repository-Update
+    needs: 
+      - Check-NVDA-Repository-Update
+      - Determine-Branch
     if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
     steps:
@@ -61,6 +126,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          ref: ${{ needs.Determine-Branch.outputs.branch }}
       - name: Install dependencies
         uses: ./.github/workflows/InstallDependencies
         with:
@@ -80,23 +146,6 @@ jobs:
           cd "${{ github.workspace }}"
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          $versionFile = "${{ github.workspace }}/Tools/NVDA/source/buildVersion.py"
-          $versionYear = (Select-String -Path $versionFile -Pattern 'version_year\s*=\s*(\d+)').Matches.Groups[1].Value
-          $versionMajor = (Select-String -Path $versionFile -Pattern 'version_major\s*=\s*(\d+)').Matches.Groups[1].Value
-          $branchName = "$versionYear.$versionMajor"
-          echo "Branch=$branchName" >> $env:GITHUB_OUTPUT
-          if ($branchName -ne "${{ github.ref_name }}") {
-              git ls-remote --exit-code --heads origin "$branchName"
-              if ($LASTEXITCODE -eq 0) {
-                  Write-Output "Branch $branchName exists. Checking out..."
-                  git checkout -b $branchName remotes/origin/$branchName
-              } else {
-                  Write-Output "Branch $branchName does not exist. Creating from Uploads..."
-                  git checkout -b $branchName remotes/origin/Uploads
-              }
-          } else {
-              Write-Output "Branch name is ${{ github.ref_name }}. Skipping switch branch."
-          }
           &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
       - name: SCons MSVC Cache
         uses: actions/cache@v4
@@ -116,7 +165,7 @@ jobs:
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新界面消息翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
-              git push origin ${{ steps.Set_Environment_Variables.outputs.Branch }}:${{ steps.Set_Environment_Variables.outputs.Branch }}
+              git push origin ${{ needs.Determine-Branch.outputs.branch }}:${{ needs.Determine-Branch.outputs.branch }}
           } else {
               Write-Host "No changes to commit, skipping commit and push."
           }
