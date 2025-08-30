@@ -22,8 +22,13 @@
 
 可在 `version_year.version_major` 分支提前翻译 alpha 开发周期的界面消息、手势、字符以及符号描述，修改或完善现有翻译，以供 alpha 测试。
 
-当有提交推送到 `version_year.version_major` 分支且修改了 `nvda.po` 文件时，GitHub Actions 将自动从 NVDA 源代码更新alpha 开发周期界面消息的翻译字符串。
-还可通过在任意分支运行 [Automatically update NVDA.po 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/CheckPot.yaml)进行更新。
+alpha 开发周期界面消息的翻译字符串将由 GitHub Actions 在满足下列条件时从 NVDA 源代码自动更新：
+
+- 推送到 `version_year.version_major` 分支的提交且修改了 `nvda.po` 文件
+- 每天 11:00(UTC)
+- 每周一至周五 00:00、03:00、06:00、09:00(UTC)
+- 手动在任意分支运行 [Automatically update NVDA.po 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/CheckPot.yaml)
+
 更新后的nvda.po文件会被提交回 `version_year.version_major` 分支。
 
 由于文档的翻译字符串必须由 NV Access 构建，在 alpha 开发周期将无法翻译。

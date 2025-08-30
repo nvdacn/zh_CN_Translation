@@ -7,8 +7,8 @@ on:
     paths:
       - 'Translation/LC_MESSAGES/*.po'
   schedule:
-    - cron: '0 0,3,6,9,12 * * 1-5'
-    - cron: '0 12 * * 6,0'
+    - cron: '0 0,3,6,9 * * 1-5'
+    - cron: '0 11 * * *'
   workflow_dispatch:
 concurrency:
   group: ${{ github.workflow }}-${{ github.repository }}
