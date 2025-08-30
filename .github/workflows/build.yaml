@@ -1,4 +1,4 @@
-name: Build Translation Test
+name: Build NVDA translation test files
 
 on:
   push:
@@ -17,6 +17,7 @@ on:
 
 jobs:
   build:
+    name: Build translation test files
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
