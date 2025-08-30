@@ -104,7 +104,7 @@ jobs:
             const UploadsSHA = await github.rest.git.getRef({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              ref: 'heads/SHA'
+              ref: 'heads/Uploads'
             });
             await github.rest.git.createRef({
               owner: context.repo.owner,
