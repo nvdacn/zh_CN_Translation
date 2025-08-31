@@ -331,24 +331,30 @@ set ExitCode=%errorlevel%
 goto Quit
 
 Rem 处理针对插件翻译的标签，初始化变量  
+:MXA
 :UAP
 :UAX
 :DAP
 :DAX
-if not "%GITHUB_ACTIONS%" == "true" (exit /b 0)
+set AddonName=%2
+if not defined AddonName (
+  cls
+  echo 请输入插件 ID，按回车键确认。  
+  set /p AddonName=
+)
 set L10nUtil=python "%~dp0Tools\CrowdinRegistration\utils\l10nUtil.py"
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
 if /I "%CLI:~2,1%"=="P" (
   set Type=LC_MESSAGES
-  set CrowdinFilePath=%2.pot
+  set CrowdinFilePath=%AddonName%.pot
   set FileName=nvda.po
 )
 if /I "%CLI:~2,1%"=="X" (
-  set CrowdinFilePath=%2.xliff
+  set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
 )
-set TranslationPath=%~dp0Translation\Addons\%2
+set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
 goto %Action%
 
