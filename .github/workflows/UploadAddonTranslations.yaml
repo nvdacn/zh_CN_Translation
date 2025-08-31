@@ -51,6 +51,7 @@ jobs:
           $changedFiles = git diff --name-only $diffRange -- "Translation/Addons/*"
           foreach ($file in $changedFiles) {
               Write-Host "$file has changed"
+              $AddonID = [System.IO.Path]::GetFileName([System.IO.Path]::GetDirectoryName($file))
               $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
               $fileExtension = [System.IO.Path]::GetExtension($file)
               if ($fileExtension -ieq ".po") {
@@ -58,11 +59,11 @@ jobs:
               } else {
                   $actionType = "UAX"
               }
-              $FilePath = "Translation/Addons/$baseName/$baseName$fileExtension"
+              $FilePath = "Translation/Addons/$AddonID/$baseName$fileExtension"
               if (Test-Path $FilePath) {
                   Write-Host "Uploading $file to Crowdin..."
-                  Write-Host "has_changes=true" >> $env:GITHUB_OUTPUT
-                  & cmd /c "$L10nUtil $actionType $baseName"
+                  echo "has_changes=true" >> $env:GITHUB_OUTPUT
+                  & cmd /c "$L10nUtil $actionType $AddonID"
               } else {
                   Write-Host "File $FilePath not found, skipping processing."
               }
@@ -76,6 +77,6 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              workflow_id: 'build.yaml',
+              workflow_id: 'UpdateAddonTranslations.yaml',
               ref: '${{ github.ref_name }}'
             });
