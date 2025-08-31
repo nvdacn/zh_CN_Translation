@@ -2,7 +2,9 @@
 
 该存储库用于日常维护 NVDA 简体中文翻译。
 
-### 翻译测试
+## 翻译 NVDA 主程序
+
+### 测试翻译
 
 如需测试翻译，请
 
@@ -73,7 +75,24 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 7. 当到达 NV Access 宣布的 Translatable string freeze 时间后，除非 NV Access 宣布延长 Translatable string freeze 的时间，否则不应再向 `Uploads` 分支推送任何翻译更改，在此之后如有其他翻译更改，请将其推送到适用于 alpha 开发周期的 `version_year.version_major` 分支。
 
-### L10nUtilTools.bat 的使用说明
+## 翻译 NVDA 插件
+
+该存储库可自动上传和下载在 [Crowdin 的 nvdaAddons 项目](https://zh.crowdin.com/project/nvdaaddons)中注册的插件的翻译。
+
+- 可在 `version_year.version_major` 分支的 `Translation/Addons` 文件夹提交针对这些插件的翻译。
+
+  - 应以插件 ID 命名存储插件翻译的文件夹。
+  - 插件的界面翻译命名为 `nvda.po`。
+  - 插件的文档翻译命名为 `readme.xliff`。
+
+- 提交到该存储库的插件翻译会在每天00:00(UTC) 自动更新。
+- 还可在任意分支手动运行 [Update Addons Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateAddonTranslations.yaml)来新增或更新指定的插件翻译。
+
+  - 留空 Add-on ID 字段会更新该存储库已有插件的翻译。
+  - 在 Add-on ID 字段填写特定的插件 ID，如该存储库不包含该插件的翻译，则将其下载到存储库，否则更新该插件的翻译。
+  - 如需填写多个插件 ID，多个ID之间使用空格（ ）分隔。
+
+## L10nUtilTools.bat 的使用说明
 
 通过该工具，可快速调用 nvdaL10nUtil 及其他程序对翻译进行处理，主要可
 
