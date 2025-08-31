@@ -343,6 +343,12 @@ if not defined AddonName (
   set /p AddonName=
 )
 set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
+IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
+  cls
+  echo 请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
+  set /p PersonalCrowdinRegistrationSourcePath=
+  MKLINK /J "%CrowdinRegistrationSourcePath%" "!PersonalCrowdinRegistrationSourcePath!"
+)
 set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
