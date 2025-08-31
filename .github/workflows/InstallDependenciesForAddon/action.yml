@@ -12,6 +12,12 @@ runs:
         ref: main
         path: ${{ github.workspace }}/Tools/CrowdinRegistration
         sparse-checkout: utils
+    - name: Checkout miscDeps
+      uses: actions/checkout@v5
+      with:
+        repository: nvaccess/nvda-misc-deps
+        path: ${{ github.workspace }}/Tools/CrowdinRegistration/miscDeps
+        sparse-checkout: tools
     - name: Set up python
       uses: actions/setup-python@v5
       with:
