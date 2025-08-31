@@ -331,7 +331,7 @@ set ExitCode=%errorlevel%
 goto Quit
 
 Rem 处理针对插件翻译的标签，初始化变量  
-:MXA
+:MXX
 :UAP
 :UAX
 :DAP
@@ -344,6 +344,7 @@ if not defined AddonName (
 )
 set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
 set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
+if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
 if /I "%CLI:~2,1%"=="P" (
@@ -358,6 +359,13 @@ if /I "%CLI:~2,1%"=="X" (
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
 goto %Action%
+
+Rem 从插件的 Markdown 文档生成 xliff
+:GenerateAddonXLIFF
+Python "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
+set ExitCode=%errorlevel%
+move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
+goto Quit
 
 Rem 清理本工具生成的所有文件  
 :CLE
