@@ -342,7 +342,8 @@ if not defined AddonName (
   echo 请输入插件 ID，按回车键确认。  
   set /p AddonName=
 )
-set L10nUtil=python "%~dp0Tools\CrowdinRegistration\utils\l10nUtil.py"
+set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
+set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
 if /I "%CLI:~2,1%"=="P" (
