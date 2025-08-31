@@ -142,54 +142,54 @@ if not defined L10nUtil (
 
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
 :ProcessingNVDATags
-if /I  %CLI:~0,2%==GE (set Action=GenerateFiles)
-if /I  %CLI:~0,2%==DL (set Action=DownloadFiles)
-if /I  %CLI:~0,2%==DC (
+if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
+if /I "%CLI:~0,2%"=="DL" (set Action=DownloadFiles)
+if /I "%CLI:~0,2%"=="DC" (
   cd /d "%~dp0"
   set Action=DownloadAndCommit
 )
-if /I  %CLI:~0,2%==UP (set Action=UploadFiles)
-if /I %CLI:~2,1%==T (
+if /I "%CLI:~0,2%"=="UP" (set Action=UploadFiles)
+if /I "%CLI:~2,1%"=="T" (
   set Type=Test
   set CallForEachParameter=L C U K
   goto CallForEach
 )
-if /I %CLI:~2,1%==Z (
+if /I "%CLI:~2,1%"=="Z" (
   set Type=Archive
   set CallForEachParameter=L C U K
   goto CallForEach
 )
-if /I %CLI:~2,1%==A (
+if /I "%CLI:~2,1%"=="A" (
   set Type=All
   set CallForEachParameter=L C U
-  if /I %Action%==DownloadAndCommit (
+  if /I "%Action%"=="DownloadAndCommit" (
     set Parameter=DL
   )
   goto CallForEach
 )
-if /I %CLI:~2,1%==L (
+if /I "%CLI:~2,1%"=="L" (
   set Type=LC_MESSAGES
   set GitAddPath=Translation/LC_MESSAGES
   set TranslationPath=%~dp0Translation\LC_MESSAGES
   set FileName=nvda.po
   set ShortName=nvda
 )
-if /I %CLI:~2,1%==C (
+if /I "%CLI:~2,1%"=="C" (
   set Type=Docs
   set FileName=changes.xliff
   set ShortName=changes
 )
-if /I %CLI:~2,1%==U (
+if /I "%CLI:~2,1%"=="U" (
   set Type=Docs
   set FileName=userGuide.xliff
   set ShortName=userGuide
 )
-if /I %CLI:~2,1%==K (
+if /I "%CLI:~2,1%"=="K" (
   set Type=Docs
   set FileName=userGuide.xliff
   set ShortName=keyCommands
 )
-if /I %Type%==Docs (
+if /I "%Type%"=="Docs" (
   set GitAddPath=Translation/user_docs
   set TranslationPath=%~dp0Translation\user_docs
 )
@@ -280,15 +280,15 @@ if %errorlevel% neq 0 (
   Git restore "%GitAddPath%/%FileName%"
   goto Quit
 )
-if /I %Type%==LC_MESSAGES (
-powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1"
+if /I "%Type%"=="LC_MESSAGES" (
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1" "%DownloadFilename%"
 )
-if /I %Action%==DownloadAndCommit (goto Commit)
+if /I "%Action%"=="DownloadAndCommit" (goto Commit)
 exit /b 0
 
 Rem 将下载的翻译文件提交到存储库  
 :Commit
-if /I %Type%==All (
+if /I "%Type%"=="All" (
   set AddFileList="Translation/LC_MESSAGES/*.po" "Translation/user_docs/*.xliff"
   set CommitMSG=更新翻译（从 Crowdin）
 ) else (
@@ -320,7 +320,7 @@ goto Upload
 
 Rem 上传已翻译的文件到 Crowdin
 :UploadFiles
-if /I %Type%==Docs (
+if /I "%Type%"=="Docs" (
   goto ReadyUpload
 ) else (
   set Parameter= 
