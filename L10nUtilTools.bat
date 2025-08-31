@@ -193,6 +193,7 @@ if /I %Type%==Docs (
   set GitAddPath=Translation/user_docs
   set TranslationPath=%~dp0Translation\user_docs
 )
+set CrowdinFilePath=%FileName%
 goto %Action%
 
 Rem 生成翻译预览系列命令  
@@ -272,7 +273,7 @@ Rem 从 Crowdin 下载已翻译的文件
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
-%L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
+%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%"
 if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
   set ExitCode=%errorlevel%
@@ -325,7 +326,7 @@ if /I %Type%==Docs (
   set Parameter= 
 )
 :Upload
-%L10nUtil% uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
+%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter%
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -340,10 +341,12 @@ if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
 if /I "%CLI:~2,1%"=="P" (
   set Type=LC_MESSAGES
-  set FileName=%2.po
+  set CrowdinFilePath=%2.pot
+  set FileName=nvda.po
 )
 if /I "%CLI:~2,1%"=="X" (
-  set FileName=%2.xliff
+  set CrowdinFilePath=%2.xliff
+  set FileName=readme.xliff
 )
 set TranslationPath=%~dp0Translation\Addons\%2
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
