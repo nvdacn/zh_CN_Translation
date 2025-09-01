@@ -347,9 +347,10 @@ IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
   set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
   set TargetPath=%CrowdinRegistrationSourcePath%
   set VerifyFile=utils\l10nUtil.py
+  set PathSetSuccessfully=CrowdinRegistrationPathSetSuccessfully
   goto SetPersonalSourcePath
 )
-:PathSetSuccessfully
+:CrowdinRegistrationPathSetSuccessfully
 set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
@@ -384,7 +385,7 @@ IF NOT EXIST "%PersonalSourcePath%\%VerifyFile%" (
   goto SetPersonalSourcePath
 )
 MKLINK /J "%TargetPath%" "%PersonalSourcePath%"
-goto PathSetSuccessfully
+goto %PathSetSuccessfully%
 
 Rem 清理本工具生成的所有文件  
 :CLE
