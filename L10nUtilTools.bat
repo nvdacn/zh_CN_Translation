@@ -346,7 +346,7 @@ set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
 IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
   set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
   set TargetPath=%CrowdinRegistrationSourcePath%
-  set VerifyFile=utils\l10nUtil.py"
+  set VerifyFile=utils\l10nUtil.py
   goto SetPersonalSourcePath
 )
 :PathSetSuccessfully
