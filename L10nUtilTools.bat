@@ -372,8 +372,9 @@ Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
 Python "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
 set ExitCode=%errorlevel%
+if %ExitCode% neq 0 (goto Quit)
 move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
-goto Quit
+exit /b 0
 
 Rem 设置本地存储库路径  
 :SetPersonalSourcePath
