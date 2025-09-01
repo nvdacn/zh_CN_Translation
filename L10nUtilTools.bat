@@ -344,11 +344,12 @@ if not defined AddonName (
 )
 set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
 IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
-  cls
-  echo 请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
-  set /p PersonalCrowdinRegistrationSourcePath=
-  MKLINK /J "%CrowdinRegistrationSourcePath%" "!PersonalCrowdinRegistrationSourcePath!"
+  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%CrowdinRegistrationSourcePath%
+  set VerifyFile=utils\l10nUtil.py"
+  goto SetPersonalSourcePath
 )
+:PathSetSuccessfully
 set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
@@ -372,6 +373,18 @@ Python "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXli
 set ExitCode=%errorlevel%
 move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
 goto Quit
+
+Rem 设置本地存储库路径  
+:SetPersonalSourcePath
+cls
+echo %PromptInformation%
+set /p PersonalSourcePath=
+IF NOT EXIST "%PersonalSourcePath%\%VerifyFile%" (
+  set PromptInformation=存储库路径输入错误，请重新输入。  
+  goto SetPersonalSourcePath
+)
+MKLINK /J "%TargetPath%" "%PersonalSourcePath%"
+goto PathSetSuccessfully
 
 Rem 清理本工具生成的所有文件  
 :CLE
