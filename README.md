@@ -168,6 +168,16 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 1. 该存储库的 `main` 分支用于保存发布版本的翻译以供将文档上传到 Crowdin 时的差异比较，因此除更新发布版本的翻译外，不应向该分支提交任何更改。
 2. 请尽量通过该存储库提交 NVDA 简体中文的翻译更改，以避免提交的翻译不慎被自动化流程覆盖的可能。
+3. 该存储库的部分工作流的正常运行依赖于指定的存储库[变量](https://docs.github.com/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)和[机密](https://docs.github.com/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets#creating-secrets-for-a-repository)。
+   Fork 该存储库时，只有正确设置这些变量和机密，相应的工作流才能正常运行。
+   这些变量和机密的名称、值、影响的工作流及作用如下：
+
+   | 类型 | 名称 | 值 | 影响的工作流 | 作用 |
+   | --- | --- | --- | --- | --- |
+   | 变量 | Run_CheckPot_Workflow | 任意内容 | `CheckPot.yaml` | 避免该工作流在 Fork 存储库中自动运行 |
+   | 变量 | Run_Addon_Translations_Workflow | 任意内容 | `UpdateAddonTranslations.yaml`、`UploadAddonTranslations.yaml` | 避免这些工作流在 Fork 存储库中自动运行 |
+   | 机密 | NVDA_CROWDIN | 具有译文读写权限的 [Crowdin 个人访问令牌](https://zh.crowdin.com/settings#api-key) | `UpdateAddonTranslations.yaml`、`UpdateTranslations.yaml`、`Upload.yaml`、`UploadAddonTranslations.yaml` | 从 Crowdin 上传和下载翻译时使用 |
+   | 机密 | PULLREQUESTTONVDA | 具有 public_repo 和 workflow 权限的 [GitHUB Personal Access Tokens (Classic)](https://github.com/settings/tokens/new) | `PullRequestToNVDA.yaml` | 在 nvaccess/nvda 存储库创建 PR 时使用 |
 
 [1]: #%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E7%BF%BB%E8%AF%91
 [2]: #l10nutiltoolsbat-%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
