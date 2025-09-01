@@ -8,11 +8,13 @@ on:
       - "20*"
     paths:
       - 'Translation/**'
+      - '!Translation/Addons/**'
   pull_request:
     branches:
       - "*"
     paths:
       - 'Translation/**'
+      - '!Translation/Addons/**'
   workflow_dispatch:
 
 jobs:
