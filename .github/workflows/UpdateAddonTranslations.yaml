@@ -15,6 +15,7 @@ concurrency:
 jobs:
   Determine-Branch:
     name: Determine branch
+    if: ${{ vars.Run_Addon_Translations_Workflow }}
     runs-on: ubuntu-latest
     outputs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}

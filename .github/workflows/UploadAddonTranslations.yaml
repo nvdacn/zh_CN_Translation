@@ -10,6 +10,7 @@ on:
 jobs:
   Process-Translations:
     name: Upload translation to Crowdin
+    if: ${{ vars.Run_Addon_Translations_Workflow }}
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
