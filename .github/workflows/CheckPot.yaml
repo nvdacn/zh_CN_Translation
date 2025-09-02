@@ -17,7 +17,7 @@ concurrency:
 jobs:
   Check-NVDA-Repository-Update:
     name: Check NVDA repository update
-    if: ${{ vars.RunCheckPot }}
+    if: ${{ vars.Run_CheckPot_Workflow }}
     runs-on: ubuntu-latest
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
@@ -56,7 +56,7 @@ jobs:
 
   Determine-Branch:
     name: Determine branch
-    if: ${{ vars.RunCheckPot }}
+    if: ${{ vars.Run_CheckPot_Workflow }}
     runs-on: ubuntu-latest
     outputs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}
