@@ -65,7 +65,7 @@ jobs:
       - name: Check for existing PR
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.PULLREQUESTTONVDA }}
           script: |
@@ -94,7 +94,7 @@ jobs:
             Commit: ${{ github.sha }}
       - name: Create PR via API
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.PULLREQUESTTONVDA }}
           script: |
