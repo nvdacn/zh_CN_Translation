@@ -416,6 +416,12 @@ IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
 set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
 if NOT "%GITHUB_ACTIONS%" == "true" (
   uv --directory "%CrowdinRegistrationSourcePath%" sync
+  if !errorlevel! neq 0 (
+    mshta "javascript:new ActiveXObject('wscript.shell').popup('CrowdinRegistration 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+    echo 请按任意键退出...
+    Pause>Nul
+    exit /b 1
+  )
   cls
 )
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
