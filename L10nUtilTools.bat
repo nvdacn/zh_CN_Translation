@@ -413,7 +413,11 @@ IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
   goto SetPersonalSourcePath
 )
 :CrowdinRegistrationPathSetSuccessfully
-set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
+set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
+if NOT "%GITHUB_ACTIONS%" == "true" (
+  uv --directory "%CrowdinRegistrationSourcePath%" sync
+  cls
+)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
