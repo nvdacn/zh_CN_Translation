@@ -72,7 +72,7 @@ msgstr "搜索区"
 #: aria.py:91
 msgctxt "aria"
 msgid "form"
-msgstr "区域"
+msgstr "表单区"
 
 #. Translators: An audio ducking mode which specifies how NVDA affects the volume of other applications.
 #. See the Audio Ducking Mode section of the User Guide for details.
@@ -560,7 +560,7 @@ msgstr "填满显示上下文变更"
 #. This was the pre NVDA 2017.3 default.
 #: braille.py:371
 msgid "Always fill display"
-msgstr "盲文显示排满点显器的所有格"
+msgstr "始终填满显示区域"
 
 #. Translators: The label for a braille focus context presentation setting that
 #. always shows the object with focus at the very left of the braille display
@@ -755,7 +755,7 @@ msgstr "¶"
 #. Translators: Label for a setting in braille settings dialog.
 #: braille.py:3685
 msgid "Dot firm&ness"
-msgstr "点字硬度(&N)"
+msgstr "盲点硬度(&N)"
 
 #. Translators: Label for a setting in braille settings dialog.
 #: braille.py:3698
@@ -4853,7 +4853,7 @@ msgstr "刷新"
 #. Translators: This is the name of the stop key found on multimedia keyboards for controlling the web-browser.
 #: keyLabels.py:21
 msgid "browser stop"
-msgstr "浏览器已停止"
+msgstr "浏览器停止"
 
 #. Translators: This is the name of the back key found on multimedia keyboards to goto the search page of the web-browser.
 #: keyLabels.py:23
@@ -6034,7 +6034,7 @@ msgstr "线形标注"
 #: msoAutoShapeTypes.py:498
 msgctxt "shape"
 msgid "Callout with horizontal accent bar"
-msgstr "带垂直强调线的线形标注"
+msgstr "带水平强调线的线形标注"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -6048,7 +6048,7 @@ msgstr "带边框和强调线的线形标注"
 #: msoAutoShapeTypes.py:507
 msgctxt "shape"
 msgid "Callout with horizontal line"
-msgstr "带垂直强调线的线形标注"
+msgstr "带水平强调线的线形标注"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -7148,7 +7148,7 @@ msgstr "{longName}（{name}）\n"
 msgid "Cannot install NVDA add-on from {path}.\n"
 "You must be running NVDA to be able to install add-ons."
 msgstr "无法从 {path} 安装插件。\n"
-"您必须先运行 NVDA 以使插件可以顺利的安装。"
+"您必须先运行 NVDA 才能安装。"
 
 #. Translators: A title of the dialog shown when fetching add-on data from the store fails
 #: addonStore\dataManager.py:212
@@ -7534,7 +7534,7 @@ msgstr "您的配置中含有与该版本 NVDA 不兼容的插件。\n"
 #: addonStore\models\version.py:157
 msgctxt "addonStore"
 msgid "I understand that incompatible add-ons will be disabled and can be manually re-enabled at my own risk after installation."
-msgstr "我知道这些不兼容的插件将被禁用，安装后可以手动启用，我将字形承担可能的风险。"
+msgstr "我知道这些不兼容的插件将被禁用，安装后可以手动启用，我将自行承担可能的风险。"
 
 #: appModules\calc.py:57
 msgid "Display"
@@ -11948,7 +11948,7 @@ msgstr "插件安装"
 #: gui\addonGui.py:182
 #, python-brace-format
 msgid "You are about to install version {newVersion} of {summary}, which appears to be already installed. Would you still like to update?"
-msgstr "插件 {summary} 的 {newVersion} 版本已经安装。是否更新？"
+msgstr "插件 {summary} 的 {newVersion} 版本似乎已经安装。是否更新？"
 
 #. Translators: A message asking if the user wishes to update a previously installed
 #. add-on with this one.
@@ -17218,12 +17218,12 @@ msgstr "右下对角线"
 #. Translators: border positions in Microsoft Excel.
 #: NVDAObjects\window\excelCellBorder.py:35
 msgid "horizontal borders except outside"
-msgstr "无外侧水平边界"
+msgstr "内部水平边框"
 
 #. Translators: border positions in Microsoft Excel.
 #: NVDAObjects\window\excelCellBorder.py:37
 msgid "vertical borders except outside"
-msgstr "无外侧垂直边界"
+msgstr "内部垂直边框"
 
 #. Translators: border styles in Microsoft Excel.
 #: NVDAObjects\window\excelCellBorder.py:52
