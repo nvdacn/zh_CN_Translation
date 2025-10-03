@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-03 06:00+0000\n"
+"POT-Creation-Date: 2025-10-03 09:17+0000\n"
 "PO-Revision-Date: 2025-10-03 14:25+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -7040,8 +7040,9 @@ msgstr "{action}两次"
 
 #. Translators: a touch screen action performed 3 times
 #: touchHandler.py:163
-#, python-brace-format
-msgid "tripple {action}"
+#, fuzzy, python-brace-format
+#| msgid "tripple {action}"
+msgid "triple {action}"
 msgstr "{action}三次"
 
 #. Translators: a touch screen action performed 4 times
