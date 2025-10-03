@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-03 06:00+0000\n"
-"PO-Revision-Date: 2025-09-25 12:14+0800\n"
+"PO-Revision-Date: 2025-10-03 14:25+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -644,22 +644,16 @@ msgstr "⡎"
 #. Translators: Brailled at the start of invalid spelling text.
 #. This is the English letter "e" in braille.
 #: braille.py:461
-#, fuzzy
-#| msgctxt "braille formatting symbol"
-#| msgid "⠃"
 msgctxt "braille formatting symbol"
 msgid "⠑"
-msgstr "⠃"
+msgstr "⠑"
 
 #. Translators: Brailled at the end of invalid spelling text.
 #. This is the English letter "e" plus dot 7 in braille.
 #: braille.py:464
-#, fuzzy
-#| msgctxt "braille formatting symbol"
-#| msgid "⡃"
 msgctxt "braille formatting symbol"
 msgid "⡑"
-msgstr "⡃"
+msgstr "⡑"
 
 #. Translators: Braille when there are further details/annotations that can be fetched manually.
 #: braille.py:677 speech\speech.py:2103
@@ -2468,11 +2462,9 @@ msgstr "远程访问"
 
 #. Translators: The name of a category of NVDA commands.
 #: globalCommands.py:131
-#, fuzzy
-#| msgid "Table description"
 msgctxt "imageDesc"
 msgid "Image Descriptions"
-msgstr "表格描述"
+msgstr "图像描述"
 
 #. Translators: Reported when there are no settings to configure in synth settings ring
 #. (example: when there is no setting for language).
@@ -2870,24 +2862,18 @@ msgstr "{mode}提示拼写错误"
 
 #. Translators: Input help mode message for command to toggle report spelling errors in braille.
 #: globalCommands.py:815
-#, fuzzy
-#| msgid "Toggles on and off the reporting of spelling errors"
 msgid "Toggles reporting spelling errors in braille"
-msgstr "切换读出拼写错误的开关"
+msgstr "切换以盲文呈现拼写错误的开关"
 
 #. Translators: Message presented when turning on reporting spelling errors in braille.
 #: globalCommands.py:825
-#, fuzzy
-#| msgid "report spelling errors off"
 msgid "Report spelling errors in braille on"
-msgstr "不读拼写错误"
+msgstr "打开以盲文呈现拼写错误"
 
 #. Translators: Message presented when turning off reporting spelling errors in braille.
 #: globalCommands.py:828
-#, fuzzy
-#| msgid "report spelling errors off"
 msgid "Report spelling errors in braille off"
-msgstr "不读拼写错误"
+msgstr "关闭以盲文呈现拼写错误"
 
 #. Translators: Input help mode message for toggle report pages command.
 #: globalCommands.py:832
@@ -4173,12 +4159,9 @@ msgstr "打开“远程访问”设置"
 
 #. Translators: Input help mode message for go to local captioner settings command.
 #: globalCommands.py:3478
-#, fuzzy
-#| msgctxt "remote"
-#| msgid "Shows the Remote Access settings"
 msgctxt "imageDesc"
 msgid "Shows the AI image descriptions settings"
-msgstr "打开“远程访问”设置"
+msgstr "打开“AI 图像描述”设置"
 
 #. Translators: Input help mode message for go to Add-on Store settings command.
 #: globalCommands.py:3487
@@ -5062,13 +5045,13 @@ msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 #: globalCommands.py:5103
 msgctxt "imageDesc"
 msgid "Get an AI generated image description"
-msgstr ""
+msgstr "获取由 AI 生成的图像描述"
 
 #. Translators: Description for the toggle image captioning script
 #: globalCommands.py:5112
 msgctxt "imageDesc"
 msgid "Toggle image captioning"
-msgstr ""
+msgstr "切换图像描述的开关"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
@@ -10418,8 +10401,6 @@ msgstr "语音和提示音"
 
 #. Translators: A value used as choice in a checklist box in the document formatting dialog to report spelling errors in braille.
 #: config\configFlags.py:215
-#, fuzzy
-#| msgid "Braille"
 msgctxt "reportSpellingErrorsSetting"
 msgid "Braille"
 msgstr "盲文"
@@ -14457,19 +14438,15 @@ msgstr "远程访问错误"
 
 #. Translators: This is the label for the local captioner settings panel.
 #: gui\settingsDialogs.py:3671
-#, fuzzy
-#| msgid "Table description"
 msgctxt "imageDesc"
 msgid "AI Image Descriptions"
-msgstr "表格描述"
+msgstr "AI 图像描述"
 
 #. Translators: A configuration in settings dialog.
 #: gui\settingsDialogs.py:3684
-#, fuzzy
-#| msgid "Enabled logging categories"
 msgctxt "imageDesc"
 msgid "Enable image captioner"
-msgstr "已启用的日志记录类型"
+msgstr "启用图像描述"
 
 #. Translators: This is the label for the touch interaction settings panel.
 #: gui\settingsDialogs.py:3705
@@ -16227,24 +16204,18 @@ msgstr "无法禁用插件：{addon}"
 
 #. Translators: title of dialog when download successfully
 #: gui\_localCaptioner\messageDialogs.py:32
-#, fuzzy
-#| msgctxt "addonStore"
-#| msgid "Download failed"
 msgctxt "imageDesc"
 msgid "Download successful"
-msgstr "下载失败"
+msgstr "下载成功"
 
 #. Translators: label of dialog when downloading image captioning
 #: gui\_localCaptioner\messageDialogs.py:36
 msgctxt "imageDesc"
 msgid "Image captioning installed successfully."
-msgstr ""
+msgstr "图像描述已成功安装。"
 
 #. Translators: title of dialog when fail to download
 #: gui\_localCaptioner\messageDialogs.py:57
-#, fuzzy
-#| msgctxt "addonStore"
-#| msgid "Download failed"
 msgctxt "imageDesc"
 msgid "Download failed"
 msgstr "下载失败"
@@ -16253,27 +16224,25 @@ msgstr "下载失败"
 #: gui\_localCaptioner\messageDialogs.py:61
 msgctxt "imageDesc"
 msgid "Image captioning download failed. Would you like to retry?"
-msgstr ""
+msgstr "图像描述下载失败。是否重试？"
 
 #. Translators: message when image captioning is still downloading
 #: gui\_localCaptioner\messageDialogs.py:77
 msgctxt "imageDesc"
 msgid "image captioning is still downloading, please wait..."
-msgstr ""
+msgstr "图像描述仍在下载中，请稍候..."
 
 #. Translators: title of dialog when downloading Image captioning
 #: gui\_localCaptioner\messageDialogs.py:88
-#, fuzzy
-#| msgid "Confirm Deletion"
 msgctxt "imageDesc"
 msgid "Confirm download"
-msgstr "确认删除"
+msgstr "确认下载"
 
 #. Translators: label of dialog when downloading image captioning
 #: gui\_localCaptioner\messageDialogs.py:92
 msgctxt "imageDesc"
 msgid "Image captioning not installed. Would you like to install (235 MB)?"
-msgstr ""
+msgstr "未安装图像描述。您要安装吗（235 MB）？"
 
 #. Translators: Describes a command.
 #: mathPres\__init__.py:132
@@ -19459,45 +19428,39 @@ msgstr "安全桌面"
 
 #. Translators: error message when an image description cannot be generated
 #: _localCaptioner\imageDescriber.py:78
-#, fuzzy
-#| msgid "has long description"
 msgctxt "imageDesc"
 msgid "Failed to generate description"
-msgstr "包含长描述"
+msgstr "生成描述失败"
 
 #. Translators: Message when image description is not enabled
 #: _localCaptioner\imageDescriber.py:118
 msgctxt "imageDesc"
 msgid "image description is not enabled"
-msgstr ""
+msgstr "未启用图像描述"
 
 #. Translators: Message when starting image recognition
 #: _localCaptioner\imageDescriber.py:127
-#, fuzzy
-#| msgid "Table description"
 msgctxt "imageDesc"
 msgid "getting image description..."
-msgstr "表格描述"
+msgstr "获取图像描述中..."
 
 #. Translators: error message when fail to load model
 #: _localCaptioner\imageDescriber.py:160
 msgctxt "imageDesc"
 msgid "failed to load image captioner"
-msgstr ""
+msgstr "无法加载图像描述"
 
 #. Translators: Message when successfully load the model
 #: _localCaptioner\imageDescriber.py:165
 msgctxt "imageDesc"
 msgid "image captioning on"
-msgstr ""
+msgstr "打开图像描述"
 
 #. Translators: Message when image captioning terminates
 #: _localCaptioner\imageDescriber.py:184
-#, fuzzy
-#| msgid "Change tracking off"
 msgctxt "imageDesc"
 msgid "image captioning off"
-msgstr "更改跟踪关"
+msgstr "关闭图像描述"
 
 #. Translators: Presented when attempting to mute or unmute Remote Access when connected as the controlled computer.
 #. Translators: Presented when attempting to send control+alt+delete when connected as the controlled computer.
