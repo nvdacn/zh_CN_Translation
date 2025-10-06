@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-03 09:17+0000\n"
+"POT-Creation-Date: 2025-10-06 09:21+0000\n"
 "PO-Revision-Date: 2025-10-03 18:45+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -16203,46 +16203,71 @@ msgid "Could not disable the add-on: {addon}."
 msgstr "无法禁用插件：{addon}"
 
 #. Translators: title of dialog when download successfully
-#: gui\_localCaptioner\messageDialogs.py:32
+#: gui\_localCaptioner\messageDialogs.py:51
 msgctxt "imageDesc"
 msgid "Download successful"
 msgstr "下载成功"
 
 #. Translators: label of dialog when downloading image captioning
-#: gui\_localCaptioner\messageDialogs.py:36
+#: gui\_localCaptioner\messageDialogs.py:55
 msgctxt "imageDesc"
 msgid "Image captioning installed successfully."
 msgstr "图像描述已成功安装。"
 
 #. Translators: title of dialog when fail to download
-#: gui\_localCaptioner\messageDialogs.py:57
+#: gui\_localCaptioner\messageDialogs.py:78
 msgctxt "imageDesc"
 msgid "Download failed"
 msgstr "下载失败"
 
 #. Translators: label of dialog when fail to download image captioning
-#: gui\_localCaptioner\messageDialogs.py:61
+#: gui\_localCaptioner\messageDialogs.py:82
 msgctxt "imageDesc"
 msgid "Image captioning download failed. Would you like to retry?"
 msgstr "图像描述下载失败。是否重试？"
 
 #. Translators: message when image captioning is still downloading
-#: gui\_localCaptioner\messageDialogs.py:77
+#: gui\_localCaptioner\messageDialogs.py:96
 msgctxt "imageDesc"
 msgid "image captioning is still downloading, please wait..."
 msgstr "图像描述仍在下载中，请稍候..."
 
 #. Translators: title of dialog when downloading Image captioning
-#: gui\_localCaptioner\messageDialogs.py:88
+#: gui\_localCaptioner\messageDialogs.py:109
 msgctxt "imageDesc"
 msgid "Confirm download"
 msgstr "确认下载"
 
 #. Translators: label of dialog when downloading image captioning
-#: gui\_localCaptioner\messageDialogs.py:92
+#: gui\_localCaptioner\messageDialogs.py:113
 msgctxt "imageDesc"
 msgid "Image captioning not installed. Would you like to install (235 MB)?"
 msgstr "未安装图像描述。您要安装吗（235 MB）？"
+
+#. Translators: The title of the dialog displayed while downloading image descriptioner.
+#: gui\_localCaptioner\messageDialogs.py:123
+#, fuzzy
+#| msgctxt "imageDesc"
+#| msgid "Image Descriptions"
+msgctxt "imageDesc"
+msgid "Downloading Image Descriptioner"
+msgstr "图像描述"
+
+#. Translators: The progress message indicating that a connection is being established.
+#: gui\_localCaptioner\messageDialogs.py:125
+#, fuzzy
+#| msgid "Connecting"
+msgctxt "imageDesc"
+msgid "Connecting"
+msgstr "正在连接"
+
+#. Translators: The progress message indicating that a download is in progress.
+#: gui\_localCaptioner\messageDialogs.py:149
+#, fuzzy
+#| msgid "Downloading"
+msgctxt "imageDesc"
+msgid "downloading"
+msgstr "正在下载"
 
 #. Translators: Describes a command.
 #: mathPres\__init__.py:132
@@ -19445,19 +19470,19 @@ msgid "getting image description..."
 msgstr "获取图像描述中..."
 
 #. Translators: error message when fail to load model
-#: _localCaptioner\imageDescriber.py:160
+#: _localCaptioner\imageDescriber.py:161
 msgctxt "imageDesc"
 msgid "failed to load image captioner"
 msgstr "无法加载图像描述"
 
 #. Translators: Message when successfully load the model
-#: _localCaptioner\imageDescriber.py:165
+#: _localCaptioner\imageDescriber.py:166
 msgctxt "imageDesc"
 msgid "image captioning on"
 msgstr "打开图像描述"
 
 #. Translators: Message when image captioning terminates
-#: _localCaptioner\imageDescriber.py:184
+#: _localCaptioner\imageDescriber.py:185
 msgctxt "imageDesc"
 msgid "image captioning off"
 msgstr "关闭图像描述"
