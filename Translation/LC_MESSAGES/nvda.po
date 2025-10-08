@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-08 09:20+0000\n"
-"PO-Revision-Date: 2025-10-06 17:24+0800\n"
+"PO-Revision-Date: 2025-10-08 18:20+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -12517,10 +12517,8 @@ msgstr "禁用远程访问时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because screen curtain is enabled.
 #: gui\blockAction.py:104
-#, fuzzy
-#| msgid "Action unavailable while Windows is locked"
 msgid "Action unavailable while screen curtain is enabled"
-msgstr "Windows 锁定时该操作不可用"
+msgstr "开启黑屏时该操作不可用"
 
 #. Translators: The title of the Configuration Profiles dialog.
 #: gui\configProfiles.py:36
