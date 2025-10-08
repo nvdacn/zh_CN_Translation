@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 09:21+0000\n"
+"POT-Creation-Date: 2025-10-08 09:20+0000\n"
 "PO-Revision-Date: 2025-10-06 17:24+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -5048,27 +5048,27 @@ msgid "Get an AI generated image description"
 msgstr "获取由 AI 生成的图像描述"
 
 #. Translators: Description for the toggle image captioning script
-#: globalCommands.py:5112
+#: globalCommands.py:5113
 msgctxt "imageDesc"
 msgid "Toggle image captioning"
 msgstr "切换图像描述的开关"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5151
+#: globalCommands.py:5153
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5156
+#: globalCommands.py:5158
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5161
+#: globalCommands.py:5163
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -5076,7 +5076,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5177
+#: globalCommands.py:5179
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -12477,43 +12477,50 @@ msgid "Incompatible reason"
 msgstr "不兼容原因"
 
 #. Translators: Reported when an action cannot be performed because NVDA is in a secure screen
-#: gui\blockAction.py:53
+#: gui\blockAction.py:65
 msgid "Action unavailable in secure context"
 msgstr "该操作在安全模式下不可用"
 
 #. Translators: Reported when an action cannot be performed because NVDA has been installed
 #. from the Windows Store.
-#: gui\blockAction.py:59
+#: gui\blockAction.py:71
 msgid "Action unavailable in NVDA Windows Store version"
 msgstr "该操作在 Windows Store 版本中不可用"
 
 #. Translators: Reported when an action cannot be performed because NVDA is waiting
 #. for a response from a modal dialog
-#: gui\blockAction.py:65
+#: gui\blockAction.py:77
 msgid "Action unavailable while a dialog requires a response"
 msgstr "对话框需要响应时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because Windows is locked.
-#: gui\blockAction.py:71
+#: gui\blockAction.py:83
 msgid "Action unavailable while Windows is locked"
 msgstr "Windows 锁定时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because NVDA is running the launcher temporary
 #. version
-#: gui\blockAction.py:77
+#: gui\blockAction.py:89
 msgid "Action unavailable in a temporary version of NVDA"
 msgstr "该操作在 NVDA 临时副本中不可用"
 
 #. Translators: Reported when trying to toggle an unsupported setting in speech output mode.
-#: gui\blockAction.py:82
+#: gui\blockAction.py:94
 msgid "Action unavailable while the braille mode is set to speech output"
 msgstr "盲文模式设置为语音输出时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because Remote Access functionality is disabled.
-#: gui\blockAction.py:87
+#: gui\blockAction.py:99
 msgctxt "remote"
 msgid "Action unavailable when Remote Access is disabled"
 msgstr "禁用远程访问时该操作不可用"
+
+#. Translators: Reported when an action cannot be performed because screen curtain is enabled.
+#: gui\blockAction.py:104
+#, fuzzy
+#| msgid "Action unavailable while Windows is locked"
+msgid "Action unavailable while screen curtain is enabled"
+msgstr "Windows 锁定时该操作不可用"
 
 #. Translators: The title of the Configuration Profiles dialog.
 #: gui\configProfiles.py:36
