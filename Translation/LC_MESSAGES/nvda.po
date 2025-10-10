@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-09 06:27+0000\n"
+"POT-Creation-Date: 2025-10-10 01:16+0000\n"
 "PO-Revision-Date: 2025-10-08 18:20+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2059,26 +2059,26 @@ msgid "brown-yellow"
 msgstr "棕黄色"
 
 #. Translators: Shown when one or more add-ons failed to update.
-#: core.py:85
+#: core.py:86
 msgid "The following add-on failed to update: {}."
 msgid_plural "The following add-ons failed to update: {}."
 msgstr[0] "以下插件更新失败：{}。"
 
 #. Translators: Shown when one or more add-ons failed to be uninstalled.
-#: core.py:94
+#: core.py:95
 msgid "The following add-on failed to uninstall: {}."
 msgid_plural "The following add-ons failed to uninstall: {}."
 msgstr[0] "以下插件移除失败：{}。"
 
 #. Translators: Shown when one or more add-ons failed to be installed.
-#: core.py:103
+#: core.py:104
 msgid "The following add-on failed to be installed: {}."
 msgid_plural "The following add-ons failed to be installed: {}."
 msgstr[0] "以下插件安装失败：{}。"
 
 #. Translators: Shown when one or more actions on add-ons failed.
 #. {failureMsg} will be replaced with the specific error message.
-#: core.py:117
+#: core.py:118
 #, python-brace-format
 msgid ""
 "Some operations on add-ons failed. See the log file for more details.\n"
@@ -2114,8 +2114,8 @@ msgstr ""
 #. Translators: A title of a message box displayed when the host field is empty and the user tries to generate a key.
 #. Translators: Title of error dialog
 #. Translators: Title of a dialog
-#: core.py:120 documentationUtils.py:74 updateCheck.py:438 updateCheck.py:753
-#: updateCheck.py:925 gui\__init__.py:238 gui\__init__.py:246
+#: core.py:121 documentationUtils.py:74 updateCheck.py:421 updateCheck.py:736
+#: updateCheck.py:908 gui\__init__.py:238 gui\__init__.py:246
 #: gui\__init__.py:263 gui\addonGui.py:145 gui\addonGui.py:265
 #: gui\addonGui.py:280 gui\configProfiles.py:182 gui\configProfiles.py:219
 #: gui\configProfiles.py:272 gui\configProfiles.py:284
@@ -2132,19 +2132,19 @@ msgid "Error"
 msgstr "错误"
 
 #. Translators: Shown when NVDA has been started with unknown command line parameters.
-#: core.py:148
+#: core.py:149
 #, python-brace-format
 msgid "The following command line parameters are unknown to NVDA: {params}"
 msgstr "NVDA 无法处理以下未知的命令行参数：{params}"
 
 #. Translators: Title of the dialog letting user know
 #. that command line parameters they provided are unknown.
-#: core.py:153
+#: core.py:154
 msgid "Unknown command line parameters"
 msgstr "未知的命令行参数"
 
 #. Translators: A message informing the user that there are errors in the configuration file.
-#: core.py:162
+#: core.py:163
 msgid ""
 "Your configuration file contains errors. Your configuration has been reset "
 "to factory defaults.\n"
@@ -2154,11 +2154,11 @@ msgstr ""
 "如需了解错误详细信息，请查看日志文件。"
 
 #. Translators: The title of the dialog to tell users that there are errors in the configuration file.
-#: core.py:167
+#: core.py:168
 msgid "Configuration File Error"
 msgstr "配置文件错误"
 
-#: core.py:185
+#: core.py:186
 msgid ""
 "Your gesture map file contains errors.\n"
 "More details about the errors can be found in the log file."
@@ -2166,17 +2166,17 @@ msgstr ""
 "您的手势映射文件包含错误。\n"
 "如果需要了解此错误的详细信息，请查看日志文件。"
 
-#: core.py:188
+#: core.py:189
 msgid "gesture map File Error"
 msgstr "手势映射文件错误"
 
 #. Translators: This is spoken when NVDA is starting.
-#: core.py:796
+#: core.py:802
 msgid "Loading NVDA. Please wait..."
 msgstr "正在加载 NVDA，请稍后……"
 
 #. Translators: This is shown on a braille display (if one is connected) when NVDA starts.
-#: core.py:942
+#: core.py:948
 msgid "NVDA started"
 msgstr "NVDA 已启动"
 
@@ -7223,18 +7223,18 @@ msgid "Copied: {text}"
 msgstr "已复制 {text}"
 
 #. Translators: The title of the dialog displayed while manually checking for an NVDA update.
-#: updateCheck.py:406
+#: updateCheck.py:389
 msgid "Checking for Update"
 msgstr "正在检查更新"
 
 #. Translators: The progress message displayed while manually checking for an NVDA update.
-#: updateCheck.py:408
+#: updateCheck.py:391
 msgid "Checking for update"
 msgstr "正在检查更新"
 
 #. Translators: A suggestion of what to do when checking for NVDA updates fails and an update mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: updateCheck.py:417
+#: updateCheck.py:400
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -7244,14 +7244,14 @@ msgid ""
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
 #. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
-#: updateCheck.py:424
+#: updateCheck.py:407
 msgctxt "updateCheck"
 msgid "Unable to establish a connection to the NV Access server."
 msgstr "无法连接到 NV Access 服务器。"
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
 #. tip will be replaced with a context sensitive suggestion of next steps.
-#: updateCheck.py:430
+#: updateCheck.py:413
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -7263,18 +7263,18 @@ msgstr ""
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
 #. Translators: The title of the dialog asking the user to apply an NVDA update.
-#: updateCheck.py:501 updateCheck.py:641
+#: updateCheck.py:484 updateCheck.py:624
 msgid "NVDA Update"
 msgstr "NVDA 更新"
 
 #. Translators: A message indicating that no update to NVDA is available.
-#: updateCheck.py:517
+#: updateCheck.py:500
 msgid "No update available."
 msgstr "无可用更新。"
 
 #. Translators: A message indicating that an update to NVDA has been downloaded and is ready to be
 #. applied.
-#: updateCheck.py:522
+#: updateCheck.py:505
 #, python-brace-format
 msgid ""
 "Update to NVDA version {version} has been downloaded and is ready to be "
@@ -7283,88 +7283,88 @@ msgstr "NVDA 版本 {version} 已下载并准备就绪。"
 
 #. Translators: The label of a button to review add-ons prior to NVDA update.
 #. Translators: The label of a button to launch the add-on compatibility review dialog.
-#: updateCheck.py:547 updateCheck.py:669 gui\installerGui.py:286
+#: updateCheck.py:530 updateCheck.py:652 gui\installerGui.py:286
 msgid "&Review add-ons..."
 msgstr "查看插件(&R)..."
 
 #. Translators: The label of a button to apply a pending NVDA update.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:553
+#: updateCheck.py:536
 #, python-brace-format
 msgid "&Update to NVDA {version}"
 msgstr "更新到 NVDA {version}(&U)"
 
 #. Translators: The label of a button to re-download a pending NVDA update.
-#: updateCheck.py:563
+#: updateCheck.py:546
 msgid "Re-&download update"
 msgstr "重新下载更新(&R)"
 
 #. Translators: A message indicating that an updated version of NVDA is available.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:568
+#: updateCheck.py:551
 #, python-brace-format
 msgid "NVDA version {version} is available."
 msgstr "NVDA 新版本 {version} 可用。"
 
 #. Translators: The label of a button to download an NVDA update.
-#: updateCheck.py:572
+#: updateCheck.py:555
 msgid "&Download update"
 msgstr "下载更新(&D)"
 
 #. Translators: The label of a button to remind the user later about performing some action.
-#: updateCheck.py:577 gui\startupDialogs.py:310
+#: updateCheck.py:560 gui\startupDialogs.py:310
 msgid "Remind me &later"
 msgstr "稍后提醒我(&L)"
 
 #. Translators: The label of a button to close a dialog.
 #. Translators: The close button on an NVDA dialog. This button will dismiss the dialog.
-#: updateCheck.py:586 gui\addonGui.py:378
+#: updateCheck.py:569 gui\addonGui.py:378
 msgid "&Close"
 msgstr "关闭(&C)"
 
 #. Translators: A message indicating that an update to NVDA is ready to be applied.
-#: updateCheck.py:645
+#: updateCheck.py:628
 #, python-brace-format
 msgid "Update to NVDA version {version} is ready to be applied.\n"
 msgstr "NVDA 版本 {version} 已准备就绪。\n"
 
 #. Translators: The label of a button to update NVDA.
-#: updateCheck.py:672
+#: updateCheck.py:655
 msgid "&Update now"
 msgstr "立即更新(&U)"
 
 #. Translators: The label of a button to postpone an NVDA update.
-#: updateCheck.py:685
+#: updateCheck.py:668
 msgid "&Postpone update"
 msgstr "推迟更新(&D)"
 
 #. Translators: The message when a downloaded update file could not be preserved.
-#: updateCheck.py:751
+#: updateCheck.py:734
 msgid "Unable to postpone update."
 msgstr "无法推迟更新."
 
 #. Translators: The title of the dialog displayed while downloading an NVDA update.
-#: updateCheck.py:810
+#: updateCheck.py:793
 msgid "Downloading Update"
 msgstr "正在下载更新"
 
 #. Translators: The progress message indicating that a connection is being established.
-#: updateCheck.py:812
+#: updateCheck.py:795
 msgid "Connecting"
 msgstr "正在连接"
 
 #. Translators: The progress message indicating that a download is in progress.
-#: updateCheck.py:905
+#: updateCheck.py:888
 msgid "Downloading"
 msgstr "正在下载"
 
 #. Translators: A message indicating that an error occurred while downloading an update to NVDA.
-#: updateCheck.py:924
+#: updateCheck.py:907
 msgid "Error downloading update."
 msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
-#: updateCheck.py:947
+#: updateCheck.py:930
 msgid ""
 "We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are "
@@ -7382,32 +7382,32 @@ msgstr ""
 "感谢您对我们的支持。"
 
 #. Translators: The title of the dialog requesting donations from users.
-#: updateCheck.py:956
+#: updateCheck.py:939
 msgid "Please Donate"
 msgstr "请捐赠"
 
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:965 gui\__init__.py:721
+#: updateCheck.py:948 gui\__init__.py:721
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
 #. Translators: The label of the button to decline donation
 #. in the "Please Donate" dialog.
-#: updateCheck.py:970
+#: updateCheck.py:953
 msgid "&Not now"
 msgstr "暂不捐赠(&N)"
 
 #. Translators: The label of a button to indicate that the user is finished donating
 #. in the "Please Donate" dialog.
-#: updateCheck.py:986
+#: updateCheck.py:969
 msgid "&Done"
 msgstr "捐赠完毕(&D)"
 
 #. Translators: Message shown to users when attempting to update NVDA
 #. on a computer which is being remotely controlled via NVDA Remote Access
-#: updateCheck.py:1015 gui\installerGui.py:452
+#: updateCheck.py:998 gui\installerGui.py:452
 msgid ""
 "Updating NVDA when connected to NVDA Remote Access as the controlled "
 "computer is not recommended. "
@@ -7415,7 +7415,7 @@ msgstr "不建议在作为被控计算机连接到 NVDA 远程访问时更新 NV
 
 #. Translators: Message shown to users when attempting to update NVDA from an installed copy
 #. on a computer which is being remotely controlled via NVDA Remote Access.
-#: updateCheck.py:1020
+#: updateCheck.py:1003
 msgid ""
 "The currently active connection may not be continued during or after the "
 "update. Even if the connection is continued, you will be unable to respond "
@@ -7437,7 +7437,7 @@ msgstr ""
 #. copy settings for use in secure screens.
 #. Translators: Title of the warning message.
 #. Translators: Title of warning dialog
-#: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
+#: updateCheck.py:1009 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
 #: gui\installerGui.py:344 gui\installerGui.py:469 gui\settingsDialogs.py:1040
 #: gui\settingsDialogs.py:1980 visionEnhancementProviders\screenCurtain.py:99
 #: _remoteClient\dialogs.py:291
@@ -7510,14 +7510,14 @@ msgstr ""
 "您必须先运行 NVDA 才能安装。"
 
 #. Translators: A title of the dialog shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:212
+#: addonStore\dataManager.py:213
 msgctxt "addonStore"
 msgid "Add-on data update failure"
 msgstr "插件数据更新失败"
 
 #. Translators: A suggestion of what to do when fetching add-on data from the store fails and a metadata mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: addonStore\dataManager.py:217
+#: addonStore\dataManager.py:218
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -7527,19 +7527,19 @@ msgid ""
 msgstr "请检查网络连接，并确保插件商店镜像网址 {url} 有效。"
 
 #. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
-#: addonStore\dataManager.py:223
+#: addonStore\dataManager.py:224
 msgctxt "addonStore"
 msgid "Unable to establish a connection to the Add-on Store server."
 msgstr "无法连接到插件商店服务器。"
 
 #. Translators: A message shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:256
+#: addonStore\dataManager.py:257
 msgctxt "addonStore"
 msgid "Unable to fetch latest add-on data for compatible add-ons."
 msgstr "无法获取兼容插件的最新数据。"
 
 #. Translators: A message shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:292
+#: addonStore\dataManager.py:293
 msgctxt "addonStore"
 msgid "Unable to fetch latest add-on data for incompatible add-ons."
 msgstr "无法获取不兼容插件的最新数据。"
@@ -7571,27 +7571,41 @@ msgid "Failed to install add-on from %s"
 msgstr "从 %s 安装插件失败"
 
 #. Translators: A title for a dialog notifying a user of an add-on download failure.
-#: addonStore\network.py:243
+#: addonStore\network.py:251
 msgctxt "addonStore"
 msgid "Add-on download failure"
 msgstr "插件下载失败"
 
+#. Translators: A message to the user if an add-on download fails.
+#. url is replaced with the base URL of the add-on download e.g. (github.com).
+#. fingerprint is replaced with the SHA256 fingerprint of the certificate.
+#: addonStore\network.py:271
+#, python-brace-format
+msgctxt "addonStore"
+msgid ""
+"The website where you are downloading the add-on from has a certificate that "
+"is not trusted. Do you want to trust the root certificate for {url}? This "
+"will allow you to download add-ons from this website in the future. Only do "
+"this if you trust the website. The certificate's SHA256 fingerprint is: "
+"{fingerprint}. "
+msgstr ""
+
 #. Translators: A message to the user if an add-on download fails
-#: addonStore\network.py:266
+#: addonStore\network.py:291 addonStore\network.py:322
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Unable to download add-on: {name}"
 msgstr "插件 {name} 无法下载"
 
 #. Translators: A message to the user if an add-on download fails
-#: addonStore\network.py:276
+#: addonStore\network.py:332
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Unable to save add-on as a file: {name}"
 msgstr "插件 {name} 无法另存为文件"
 
 #. Translators: A message to the user if an add-on download is not safe
-#: addonStore\network.py:288
+#: addonStore\network.py:344
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Add-on download not safe: checksum failed for {name}"
