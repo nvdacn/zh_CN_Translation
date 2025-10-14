@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-14 06:26+0000\n"
-"PO-Revision-Date: 2025-10-10 09:28+0800\n"
+"PO-Revision-Date: 2025-10-14 14:44+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5043,21 +5043,15 @@ msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 
 #. Translators: Description for the image caption script
 #: globalCommands.py:5105
-#, fuzzy
-#| msgctxt "imageDesc"
-#| msgid "Get an AI generated image description"
 msgctxt "imageDesc"
 msgid "Get an AI-generated image description of the navigator object."
-msgstr "获取由 AI 生成的图像描述"
+msgstr "使用 AI 生成当前导航对象的图像描述"
 
 #. Translators: Description for the toggle image captioning script
 #: globalCommands.py:5118
-#, fuzzy
-#| msgctxt "imageDesc"
-#| msgid "failed to load image captioner"
 msgctxt "imageDesc"
 msgid "Load or unload the image captioner"
-msgstr "无法加载图像描述"
+msgstr "切换是否加载图像描述的开关"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
@@ -19447,10 +19441,8 @@ msgstr "已断开电源"
 
 #. Translators: Reported when battery time is less than 1 minute.
 #: winAPI\_powerTracking.py:228
-#, fuzzy
-#| msgid "{hourText} and {minuteText} remaining"
 msgid "Less than 1 minute remaining"
-msgstr "剩余 {hourText} {minuteText}"
+msgstr "剩余不到 1 分钟"
 
 #. Translators: This is the hour string part of the estimated remaining runtime of the laptop battery.
 #. E.g. if the full string is "1 hour and 34 minutes remaining", this string is "1 hour".
@@ -19478,18 +19470,16 @@ msgstr "剩余 {hourText} {minuteText}"
 #. Translators: Reported when only hours remaining for battery life.
 #. E.g. "2 hours remaining"
 #: winAPI\_powerTracking.py:265
-#, fuzzy, python-brace-format
-#| msgid "{hourText} and {minuteText} remaining"
+#, python-brace-format
 msgid "{hourText} remaining"
-msgstr "剩余 {hourText} {minuteText}"
+msgstr "剩余 {hourText}"
 
 #. Translators: Reported when only minutes remaining for battery life.
 #. E.g. "30 minutes remaining"
 #: winAPI\_powerTracking.py:271
-#, fuzzy, python-brace-format
-#| msgid "{hourText} and {minuteText} remaining"
+#, python-brace-format
 msgid "{minuteText} remaining"
-msgstr "剩余 {hourText} {minuteText}"
+msgstr "剩余 {minuteText}"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 #: winAPI\secureDesktop.py:53
