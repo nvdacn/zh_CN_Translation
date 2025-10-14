@@ -6059,7 +6059,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>both AMD64 and ARM64 variants of Windows 11 are supported, including Copilot+ PCs.</source>
-        <target>支持 Windows 的 AMD64 和 ARM64 版本，包括 Copilot+ PC。</target>
+        <target>支持 Windows 11 的 AMD64 和 ARM64 版本，包括 Copilot+ PC。</target>
       </segment>
     </unit>
     <unit id="ce25b9cf-8b2c-44f9-a22e-5b47ebf572a5">
@@ -6079,7 +6079,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Note that Windows 10 versions older than 22H2 and Windows Server versions older than 2022 are no longer under active support by NV Access.</source>
-        <target>请注意，低于版本 22H2 的 Windows 10 和低于 2022 的 Windows Server 不再受 NV Access 的主动支持。</target>
+        <target>注意，低于版本 22H2 的 Windows 10 和低于 2022 的 Windows Server 不再受 NV Access 的主动支持。</target>
       </segment>
     </unit>
     <unit id="e24c9ba8-0668-4378-82a9-3a170ed73b7f">
@@ -20995,9 +20995,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source> ⠑ ("e")| Start spelling error </source>
-        <target> ⠑ ("e")| Start spelling error </target>
+        <target> ⠑（“e”） | 拼写错误开始 </target>
       </segment>
     </unit>
     <unit id="b2c02b43-b1a5-4a3b-ba2a-2db57ced89c7">
@@ -21006,9 +21006,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source> ⡑ ("e" with dot 7) | End spelling error </source>
-        <target> ⡑ ("e" with dot 7) | End spelling error </target>
+        <target> ⡑（“e”+7 点） | 拼写错误结束 </target>
       </segment>
     </unit>
     <unit id="d3e37afb-f884-4413-98a7-d9195d313527">
@@ -22799,16 +22799,16 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When enabled, a short buzzer sound will be played when a word you type contains a spelling error.</source>
-        <target>启用后，当您键入的单词包含拼写错误时，将发出短促的蜂鸣声。</target>
+        <target>启用后，当您输入的单词包含拼写错误时，将播放短促的提示音。</target>
       </segment>
     </unit>
     <unit id="4c393aee-fabd-4320-83c0-ef347480e5f0">
       <notes>
         <note appliesTo="source">line: 2676</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This option is only available if [reporting of spelling errors](#reportSpellingErrors) is enabled in NVDA's Document Formatting Settings.</source>
-        <target>This option is only available if [reporting of spelling errors](#reportSpellingErrors) is enabled in NVDA's Document Formatting Settings.</target>
+        <target>仅当文档格式设置对话框的“[拼写错误](#reportSpellingErrors)”选项启用时，此选项才生效。</target>
       </segment>
     </unit>
     <unit id="c6c0276b-40ff-437e-a935-b4c145f14cb4">
@@ -24795,9 +24795,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3024</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Spelling errors [(Off, Speech, Sound, braille)](#reportSpellingErrors)</source>
-        <target>Spelling errors [(Off, Speech, Sound, braille)](#reportSpellingErrors)</target>
+        <target>拼写错误[（关闭、语音、提示音、盲文）](#reportSpellingErrors)</target>
       </segment>
     </unit>
     <unit id="97d0bcd4-9d76-4196-851a-d147426e4b36">
@@ -25191,27 +25191,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReportSpellingErrors}</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Spelling error reporting</source>
-        <target>Spelling error reporting</target>
+        <target>提示拼写错误</target>
       </segment>
     </unit>
     <unit id="39626ffc-c714-4ea5-b4f9-d7cf8c281224">
       <notes>
         <note appliesTo="source">line: 3075</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This option allows you to configure how spelling errors are reported while reading text.</source>
-        <target>This option allows you to configure how spelling errors are reported while reading text.</target>
+        <target>此选项允许您配置在阅读文本时如何提示拼写错误。</target>
       </segment>
     </unit>
     <unit id="e4c4fd97-f5e3-4283-816c-88c317b4a2ed">
       <notes>
         <note appliesTo="source">line: 3076</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This checklist box has three options:</source>
-        <target>This checklist box has three options:</target>
+        <target>包含三个选项：</target>
       </segment>
     </unit>
     <unit id="40c1b4db-aba4-4954-9cf0-8f9b2ec4f40a">
@@ -25219,9 +25219,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3078</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Speech: NVDA will say "spelling error" when a spelling error is encountered while reading text</source>
-        <target>Speech: NVDA will say "spelling error" when a spelling error is encountered while reading text</target>
+        <target>语音：当阅读文本时遇到拼写错误，NVDA 将读出“拼写错误”</target>
       </segment>
     </unit>
     <unit id="eea8042b-acba-436d-90ff-c21e09a4828f">
@@ -25229,18 +25229,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3079</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Sound: NVDA will play a short buzzer sound when a spelling error is encountered while reading text</source>
-        <target>Sound: NVDA will play a short buzzer sound when a spelling error is encountered while reading text</target>
+        <target>提示音：当阅读文本时遇到拼写错误，NVDA 将播放短促的提示音</target>
       </segment>
     </unit>
     <unit id="136c94dd-8c24-4ab2-8d87-f59cc381c906">
       <notes>
         <note appliesTo="source">line: 3080</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When navigating word by word or character by character, "out of spelling error" is also reported if the "Speech" or "Sound" option is selected.</source>
-        <target>When navigating word by word or character by character, "out of spelling error" is also reported if the "Speech" or "Sound" option is selected.</target>
+        <target>当逐词或逐字导航时，如果选择了“语音”或“提示音”选项，在离开拼写错误区域时会读出“离开拼写错误”。</target>
       </segment>
     </unit>
     <unit id="d695c4e3-9e54-4cbf-bd88-e8bb39860041">
@@ -25248,18 +25248,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3081</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Braille: NVDA will indicate spelling errors in braille.</source>
-        <target>Braille: NVDA will indicate spelling errors in braille.</target>
+        <target>盲文：NVDA 将以盲文呈现拼写错误。</target>
       </segment>
     </unit>
     <unit id="358909be-91dd-4463-b7f3-8a5722f15ca6">
       <notes>
         <note appliesTo="source">line: 3082</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To have spelling errors reported in braille, [formatting display with tags](#BrailleFormattingDisplayTags) must be enabled.</source>
-        <target>To have spelling errors reported in braille, [formatting display with tags](#BrailleFormattingDisplayTags) must be enabled.</target>
+        <target>要以盲文呈现拼写错误，必须将[格式信息的显示方式](#BrailleFormattingDisplayTags)设置为标记。</target>
       </segment>
     </unit>
     <unit id="0ced121a-a147-4079-9e5c-00e91a05d5ab">
@@ -25275,45 +25275,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3085</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In these cases, spelling errors can be reported just in braille.</source>
-        <target>In these cases, spelling errors can be reported just in braille.</target>
+        <target>在这些情况下，拼写错误只能通过盲文呈现。</target>
       </segment>
     </unit>
     <unit id="a1fabef4-8ec8-4630-ab8f-ef474399b841">
       <notes>
         <note appliesTo="source">line: 3087</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>By default, spelling errors will be reported with speech.</source>
-        <target>By default, spelling errors will be reported with speech.</target>
+        <target>默认情况下，拼写错误将通过语音进行提示。</target>
       </segment>
     </unit>
     <unit id="cc02c901-2843-4541-9684-a2a18fa31c73">
       <notes>
         <note appliesTo="source">line: 3089</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To cycle through available options to report spelling errors via audio, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>To cycle through available options to report spelling errors via audio, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</target>
+        <target>要循环切换是否以音频提示拼写错误，请使用[按键与手势对话框](#InputGestures)分配自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="d0515726-f915-4e7e-a146-b271ec54ebc6">
       <notes>
         <note appliesTo="source">line: 3090</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The available options are: Off, Speech, Sound, Speech and sound.</source>
-        <target>The available options are: Off, Speech, Sound, Speech and sound.</target>
+        <target>可用选项包括：关闭、语音、提示音、语音和提示音。</target>
       </segment>
     </unit>
     <unit id="3cbf61a3-ea51-46d6-b71c-1b375ab77e6d">
       <notes>
         <note appliesTo="source">line: 3092</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can also assign a custom gesture to toggle the reporting of spelling errors in braille using the [Input Gestures dialog](#InputGestures).</source>
-        <target>You can also assign a custom gesture to toggle the reporting of spelling errors in braille using the [Input Gestures dialog](#InputGestures).</target>
+        <target>您还可在[按键与手势对话框](#InputGestures)为是否以盲文呈现拼写错误的切换开关分配自定义快捷键</target>
       </segment>
     </unit>
     <unit id="224870b6-bb34-4022-9bc7-828a1c3b3582">
@@ -25362,7 +25362,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Speech: If speech is selected, when the amount of indentation changes, NVDA will say something like "twelve space" or "four tab."</source>
-        <target>仅语音：如果选中该选项，当缩进个数发生变化时，NVDA 就会给出诸如“12 个空格”或“4 个制表符”这样的提示。</target>
+        <target>语音：若选择该选项，当缩进个数发生变化时，NVDA 就会给出诸如“12 个空格”或“4 个制表符”这样的提示。</target>
       </segment>
     </unit>
     <unit id="7cf12fe1-796c-4d1d-9ece-bd9d5ebc795d">
@@ -25372,7 +25372,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Tones: If Tones is selected, when the amount of indentation changes, tones indicate the amount of change in indent.</source>
-        <target>仅声音： 若选中该选项，当缩进数量发生改变时，会以声音反馈缩进变化的量。</target>
+        <target>提示音：若选择该选项，当缩进数量发生改变时，会以声音反馈缩进变化的量。</target>
       </segment>
     </unit>
     <unit id="0258dc16-c4c5-4495-b685-1df54be9deb3">
@@ -25391,7 +25391,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Both Speech and Tones: This option reads indentation using both of the above methods.</source>
-        <target>语音和声音：此选项将同时使用上述两种方式来提示缩进。</target>
+        <target>语音和提示音：此选项将同时使用上述两种方式来提示缩进。</target>
       </segment>
     </unit>
     <unit id="9a9aa9cf-19d0-42a2-86bc-dbd630af91b5">
