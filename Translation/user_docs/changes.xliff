@@ -7483,9 +7483,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 200</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is a patch release to fix a security issue and a bug.</source>
-        <target>This is a patch release to fix a security issue and a bug.</target>
+        <target>这是一个修复安全问题和错误的补丁版本。</target>
       </segment>
     </unit>
     <unit id="24b7efb2-8901-4659-992d-c74e1c41cd85">
@@ -7493,18 +7493,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 202</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Security fixes</source>
-        <target>Security fixes</target>
+        <target>安全修复</target>
       </segment>
     </unit>
     <unit id="2065249b-6b1e-4bbb-a5ec-03a37cc677d2">
       <notes>
         <note appliesTo="source">line: 204</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</source>
-        <target>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</target>
+        <target>请遵循 NVDA 的[安全政策](https://github.com/nvaccess/nvda/blob/master/security.md)负责任地披露安全问题。</target>
       </segment>
     </unit>
     <unit id="67d27746-c848-4499-8a9e-3c6f28fd3631">
@@ -7512,9 +7512,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 206</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed a vulnerability which could prevent access to secure screens via Remote Access. ([GHSA-vr27-g5ph-xvq2](https://github.com/nvaccess/nvda/security/advisories/GHSA-vr27-g5ph-xvq2))</source>
-        <target>Fixed a vulnerability which could prevent access to secure screens via Remote Access. ([GHSA-vr27-g5ph-xvq2](https://github.com/nvaccess/nvda/security/advisories/GHSA-vr27-g5ph-xvq2))</target>
+        <target>修复了可能阻止通过远程访问功能访问安全屏幕的漏洞。([GHSA-vr27-g5ph-xvq2](https://github.com/nvaccess/nvda/security/advisories/GHSA-vr27-g5ph-xvq2))</target>
       </segment>
     </unit>
     <unit id="45f82a73-7afa-432f-b872-fcf32449a88c">
@@ -8050,9 +8050,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 279</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Updated detours to `9764cebcb1a75940e68fa83d6730ffaf0f669401`. (#18447, @LeonarddeR)</source>
-        <target>Updated detours to `9764cebcb1a75940e68fa83d6730ffaf0f669401`. (#18447, @LeonarddeR)</target>
+        <target>将 detours 更新到 `9764cebcb1a75940e68fa83d6730ffaf0f669401`。(#18447, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="88291cfa-0f96-4df6-ba8d-0c27e7c95ec8">
@@ -8060,9 +8060,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 280</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Updated SCons to 4.10.0. (#19016, @LeonarddeR)</source>
-        <target>Updated SCons to 4.10.0. (#19016, @LeonarddeR)</target>
+        <target>将 SCons 更新到 4.10.0。(#19016, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="81bf02b2-48fc-4b1f-9c88-f5d28d15110d">
