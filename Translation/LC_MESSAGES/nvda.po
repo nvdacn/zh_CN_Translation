@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-06 06:28+0000\n"
+"POT-Creation-Date: 2025-11-14 03:44+0000\n"
 "PO-Revision-Date: 2025-11-03 13:37+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -14047,8 +14047,10 @@ msgstr "文档信息"
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
 #: gui\settingsDialogs.py:2798
-msgid "No&tes and comments"
-msgstr "注释和批注(&T)"
+#, fuzzy
+#| msgid "Comments"
+msgid "Commen&ts"
+msgstr "批注"
 
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
@@ -19907,6 +19909,9 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "No&tes and comments"
+#~ msgstr "注释和批注(&T)"
 
 #, python-brace-format
 #~ msgctxt "addonStore"
