@@ -7929,7 +7929,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 239</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>2025.3.2</source>
         <target>2025.3.2</target>
       </segment>
@@ -7938,9 +7938,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 241</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is a patch release to fix a security issue.</source>
-        <target>This is a patch release to fix a security issue.</target>
+        <target>这是一个修复安全问题的补丁版本。</target>
       </segment>
     </unit>
     <unit id="c0b81011-3881-4516-9e1b-c4f785524036">
@@ -7948,18 +7948,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 243</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Security fixes</source>
-        <target>Security fixes</target>
+        <target>安全修复</target>
       </segment>
     </unit>
     <unit id="01289c60-c601-4620-842f-4f691a22316b">
       <notes>
         <note appliesTo="source">line: 245</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</source>
-        <target>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</target>
+        <target>请遵循 NVDA 的[安全政策](https://github.com/nvaccess/nvda/blob/master/security.md)负责任地披露安全问题。</target>
       </segment>
     </unit>
     <unit id="eb66c384-4048-4211-a679-17fc642b4df1">
@@ -7967,9 +7967,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 247</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed a vulnerability which could prevent access to secure screens via Remote Access. ([GHSA-42v6-wjv6-h3jj](https://github.com/nvaccess/nvda/security/advisories/ghsa-42v6-wjv6-h3jj))</source>
-        <target>Fixed a vulnerability which could prevent access to secure screens via Remote Access. ([GHSA-42v6-wjv6-h3jj](https://github.com/nvaccess/nvda/security/advisories/ghsa-42v6-wjv6-h3jj))</target>
+        <target>修复了可能阻止通过远程访问功能访问安全界面的漏洞。([GHSA-42v6-wjv6-h3jj](https://github.com/nvaccess/nvda/security/advisories/ghsa-42v6-wjv6-h3jj))</target>
       </segment>
     </unit>
     <unit id="c9e0aaa1-5f71-4ebf-9364-ab0109d04b8e">
@@ -8017,7 +8017,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Fixed a vulnerability which could prevent access to secure screens via Remote Access. ([GHSA-vr27-g5ph-xvq2](https://github.com/nvaccess/nvda/security/advisories/GHSA-vr27-g5ph-xvq2))</source>
-        <target>修复了可能阻止通过远程访问功能访问安全屏幕的漏洞。([GHSA-vr27-g5ph-xvq2](https://github.com/nvaccess/nvda/security/advisories/GHSA-vr27-g5ph-xvq2))</target>
+        <target>修复了可能阻止通过远程访问功能访问安全界面的漏洞。([GHSA-vr27-g5ph-xvq2](https://github.com/nvaccess/nvda/security/advisories/GHSA-vr27-g5ph-xvq2))</target>
       </segment>
     </unit>
     <unit id="45f82a73-7afa-432f-b872-fcf32449a88c">
