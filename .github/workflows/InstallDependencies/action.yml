@@ -50,6 +50,7 @@ runs:
       run: |
         if not "${{ inputs.submodules }}"=="true" (
           cd /d "${{ github.workspace }}\Tools\NVDA"
+          git submodule update --init include/nvda-mathcat
           git submodule update --init miscDeps
         )
         echo UV_MANAGED_PYTHON=true>> "%GITHUB_ENV%"
