@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 03:49+0000\n"
+"POT-Creation-Date: 2025-11-17 09:23+0000\n"
 "PO-Revision-Date: 2025-11-14 12:40+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1713,7 +1713,7 @@ msgstr "移到元素的结尾处，例如列表或表格"
 
 #. Translators: the description for the toggleScreenLayout script.
 #. Translators: the description for the toggleScreenLayout script on virtualBuffers.
-#: browseMode.py:2614 virtualBuffers\__init__.py:692
+#: browseMode.py:2614 virtualBuffers\__init__.py:694
 msgid ""
 "Toggles on and off if the screen layout is preserved while rendering the "
 "document content"
@@ -9035,45 +9035,45 @@ msgid "Waiting for Powerpoint..."
 msgstr "正在等待PowerPoint..."
 
 #. Translators: LibreOffice, report selected range of cell coordinates with their values
-#: appModules\soffice.py:358
+#: appModules\soffice.py:359
 #, python-brace-format
 msgid "{firstAddress} {firstValue} through {lastAddress} {lastValue}"
 msgstr "{firstAddress} {firstValue} 到 {lastAddress} {lastValue}"
 
 #. Translators: LibreOffice, report range of cell coordinates
-#: appModules\soffice.py:373
+#: appModules\soffice.py:374
 #, python-brace-format
 msgid "{firstAddress} through {lastAddress}"
 msgstr "{firstAddress} 到 {lastAddress}"
 
 #. Translators: a message when toggling formatting (e.g. bold, italic) in LibreOffice
-#: appModules\soffice.py:397
+#: appModules\soffice.py:398
 #, python-brace-format
 msgid "{textAttribute} on"
 msgstr "{textAttribute} 开"
 
 #. Translators: a message when toggling formatting (e.g. bold, italic) in LibreOffice
-#: appModules\soffice.py:400
+#: appModules\soffice.py:401
 #, python-brace-format
 msgid "{textAttribute} off"
 msgstr "{textAttribute} 关"
 
 #. Translators: a measurement in inches
-#: appModules\soffice.py:422 NVDAObjects\IAccessible\__init__.py:120
+#: appModules\soffice.py:423 NVDAObjects\IAccessible\__init__.py:120
 #, python-brace-format
 msgid "{val:.2f} inch"
 msgid_plural "{val:.2f} inches"
 msgstr[0] "{val:.2f} 英寸"
 
 #. Translators: a measurement in centimetres
-#: appModules\soffice.py:430 NVDAObjects\IAccessible\__init__.py:128
+#: appModules\soffice.py:431 NVDAObjects\IAccessible\__init__.py:128
 #, python-brace-format
 msgid "{val:.2f} centimetre"
 msgid_plural "{val:.2f} centimetres"
 msgstr[0] "{val:.2f} 厘米"
 
 #. Translators: LibreOffice, report cursor position in the current page
-#: appModules\soffice.py:448
+#: appModules\soffice.py:449
 #, python-brace-format
 msgid ""
 "cursor positioned {horizontalDistance} from left edge of page, "
@@ -20021,27 +20021,27 @@ msgid "Lock screen not secure while using NVDA"
 msgstr "在 NVDA 运行过程中锁定屏幕不安全"
 
 #. Translators: Reported when a page reloads (example: after refreshing a webpage).
-#: virtualBuffers\__init__.py:602
+#: virtualBuffers\__init__.py:604
 msgid "Refreshed"
 msgstr "已刷新"
 
 #. Translators: Reported while loading a document.
-#: virtualBuffers\__init__.py:617
+#: virtualBuffers\__init__.py:619
 msgid "Loading document..."
 msgstr "正在加载文档……"
 
 #. Translators: the description for the refreshBuffer script on virtualBuffers.
-#: virtualBuffers\__init__.py:687
+#: virtualBuffers\__init__.py:689
 msgid "Refreshes the document content"
 msgstr "刷新文档内容"
 
 #. Translators: Presented when use screen layout option is toggled.
-#: virtualBuffers\__init__.py:702
+#: virtualBuffers\__init__.py:704
 msgid "Use screen layout on"
 msgstr "打开屏幕布局"
 
 #. Translators: Presented when use screen layout option is toggled.
-#: virtualBuffers\__init__.py:705
+#: virtualBuffers\__init__.py:707
 msgid "Use screen layout off"
 msgstr "关闭屏幕布局"
 
