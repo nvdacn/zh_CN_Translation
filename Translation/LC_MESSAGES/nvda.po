@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 01:20+0000\n"
-"PO-Revision-Date: 2025-11-14 12:40+0800\n"
+"PO-Revision-Date: 2025-11-21 12:47+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4113,10 +4113,8 @@ msgstr "打开“音频”设置"
 
 #. Translators: Input help mode message for go to privacy and security settings command.
 #: globalCommands.py:3391
-#, fuzzy
-#| msgid "Shows NVDA's review cursor settings"
 msgid "Shows NVDA's privacy and security settings"
-msgstr "打开“查看光标”设置"
+msgstr "打开“隐私和安全”设置"
 
 #. Translators: Input help mode message for go to vision settings command.
 #: globalCommands.py:3400
@@ -14223,10 +14221,8 @@ msgstr "在对象位置信息不可用时进行推测(&P)"
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
 #: gui\settingsDialogs.py:2495
-#, fuzzy
-#| msgid "Report when lists support &multiple selection"
 msgid "Report when objects support &multiple selection"
-msgstr "读出列表的可多选状态(&M)"
+msgstr "读出对象的可多选状态(&M)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -15577,7 +15573,7 @@ msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法�
 #. Translators: The title of the privacy and security category in NVDA's settings.
 #: gui\settingsDialogs.py:5982
 msgid "Privacy and Security"
-msgstr ""
+msgstr "隐私和安全"
 
 #. Translators: Name for a feature that disables output to the screen,
 #. making it black.
@@ -16769,7 +16765,7 @@ msgstr "确认下载"
 #: gui\_localCaptioner\messageDialogs.py:113
 msgctxt "imageDesc"
 msgid "Image captioning not installed. Would you like to install (235 MB)?"
-msgstr "未安装图像描述。您要安装吗（235 MB）？"
+msgstr "图像描述尚未安装。是否立即安装（235 MB）？"
 
 #. Translators: The title of the dialog displayed while downloading image descriptioner.
 #: gui\_localCaptioner\messageDialogs.py:123
@@ -16791,22 +16787,16 @@ msgstr "正在下载"
 
 #. Translators: title of dialog when enable image desc
 #: gui\_localCaptioner\messageDialogs.py:180
-#, fuzzy
-#| msgctxt "imageDesc"
-#| msgid "AI Image Descriptions"
 msgctxt "imageDesc"
 msgid "Enable AI image descriptions"
-msgstr "AI 图像描述"
+msgstr "启用 AI 图像描述"
 
 #. Translators: label of dialog when enable image desc
 #: gui\_localCaptioner\messageDialogs.py:184
-#, fuzzy
-#| msgctxt "imageDesc"
-#| msgid "Image captioning not installed. Would you like to install (235 MB)?"
 msgctxt "imageDesc"
 msgid ""
 "AI image description is not enabled, would you like to enable it right now?"
-msgstr "未安装图像描述。您要安装吗（235 MB）？"
+msgstr "AI 图像描述尚未启用，是否立即启用？"
 
 #. Translators: Describes a command.
 #: mathPres\__init__.py:132
@@ -19411,16 +19401,12 @@ msgstr "{val:g} pt 段落前空格"
 #. Translators: Description for a Screen Curtain setting that shows a warning when enabling
 #. the screen curtain.
 #: screenCurtain\_screenCurtain.py:28
-#, fuzzy
-#| msgid "Always &show a warning when loading Screen Curtain"
 msgctxt "screenCurtain"
 msgid "Always &show a warning when enabling Screen Curtain"
 msgstr "开启黑屏时始终显示警告(&S)"
 
 #. Translators: Warning message when trying to enable the screen curtain when OCR is active.
 #: screenCurtain\_screenCurtain.py:33
-#, fuzzy
-#| msgid "Could not enable screen curtain when performing content recognition"
 msgctxt "screenCurtain"
 msgid "Cannot enable screen curtain while performing content recognition"
 msgstr "识别期间无法开启黑屏"
