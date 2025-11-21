@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-20 01:19+0000\n"
+"POT-Creation-Date: 2025-11-21 01:20+0000\n"
 "PO-Revision-Date: 2025-11-14 12:40+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -14223,7 +14223,9 @@ msgstr "在对象位置信息不可用时进行推测(&P)"
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
 #: gui\settingsDialogs.py:2495
-msgid "Report when lists support &multiple selection"
+#, fuzzy
+#| msgid "Report when lists support &multiple selection"
+msgid "Report when objects support &multiple selection"
 msgstr "读出列表的可多选状态(&M)"
 
 #. Translators: This is the label for a checkbox in the
@@ -16786,6 +16788,25 @@ msgstr "正在连接"
 msgctxt "imageDesc"
 msgid "downloading"
 msgstr "正在下载"
+
+#. Translators: title of dialog when enable image desc
+#: gui\_localCaptioner\messageDialogs.py:180
+#, fuzzy
+#| msgctxt "imageDesc"
+#| msgid "AI Image Descriptions"
+msgctxt "imageDesc"
+msgid "Enable AI image descriptions"
+msgstr "AI 图像描述"
+
+#. Translators: label of dialog when enable image desc
+#: gui\_localCaptioner\messageDialogs.py:184
+#, fuzzy
+#| msgctxt "imageDesc"
+#| msgid "Image captioning not installed. Would you like to install (235 MB)?"
+msgctxt "imageDesc"
+msgid ""
+"AI image description is not enabled, would you like to enable it right now?"
+msgstr "未安装图像描述。您要安装吗（235 MB）？"
 
 #. Translators: Describes a command.
 #: mathPres\__init__.py:132
@@ -20212,32 +20233,26 @@ msgctxt "imageDesc"
 msgid "Failed to generate description"
 msgstr "生成描述失败"
 
-#. Translators: Message when image description is not enabled
-#: _localCaptioner\imageDescriber.py:118
-msgctxt "imageDesc"
-msgid "image description is not enabled"
-msgstr "未启用图像描述"
-
 #. Translators: Message when starting image recognition
-#: _localCaptioner\imageDescriber.py:127
+#: _localCaptioner\imageDescriber.py:129
 msgctxt "imageDesc"
 msgid "getting image description..."
 msgstr "获取图像描述中..."
 
 #. Translators: error message when fail to load model
-#: _localCaptioner\imageDescriber.py:161
+#: _localCaptioner\imageDescriber.py:163
 msgctxt "imageDesc"
 msgid "failed to load image captioner"
 msgstr "无法加载图像描述"
 
 #. Translators: Message when successfully load the model
-#: _localCaptioner\imageDescriber.py:166
+#: _localCaptioner\imageDescriber.py:168
 msgctxt "imageDesc"
 msgid "image captioning on"
 msgstr "打开图像描述"
 
 #. Translators: Message when image captioning terminates
-#: _localCaptioner\imageDescriber.py:185
+#: _localCaptioner\imageDescriber.py:187
 msgctxt "imageDesc"
 msgid "image captioning off"
 msgstr "关闭图像描述"
@@ -20635,6 +20650,10 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgctxt "imageDesc"
+#~ msgid "image description is not enabled"
+#~ msgstr "未启用图像描述"
 
 #~ msgid "No&tes and comments"
 #~ msgstr "注释和批注(&T)"
