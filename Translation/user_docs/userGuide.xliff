@@ -6578,9 +6578,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 86</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA is available under the GNU General Public License version 2 or later, with two special exceptions.</source>
-        <target>NVDA is available under the GNU General Public License version 2 or later, with two special exceptions.</target>
+        <target>NVDA 受《GNU 通用公共许可证条款（第二版或更高版本）》的保护，不过有两个例外。</target>
       </segment>
     </unit>
     <unit id="cf2fd589-25ab-4568-b27b-dc509a2e0387">
@@ -6623,9 +6623,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 92</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For further details, access the license document from the NVDA menu under the "Help" section.</source>
-        <target>For further details, access the license document from the NVDA menu under the "Help" section.</target>
+        <target>有关更多详细信息，请从 NVDA 菜单的“帮助”子菜单查看完整的授权协议。</target>
       </segment>
     </unit>
     <unit id="a5187732-8518-41a7-9a6a-a209c13b3ebe">
@@ -11056,9 +11056,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Report language |none |none |Reports text language. Pressing twice shows the information in a window</source>
-        <target>Report language |none |none |Reports text language. Pressing twice shows the information in a window</target>
+        <target>读出语言 | 无 | 无 | 读出光标处文本的语言。连按两次，在浏览模式下显示该信息</target>
       </segment>
     </unit>
     <unit id="9df76723-e7c4-4e1b-aa7a-65a16cb3c311">
@@ -16439,9 +16439,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1491</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can enable Screen Curtain in the [Privacy and Security category](#PrivacyAndSecuritySettings) of the [NVDA Settings](#NVDASettings) dialog.</source>
-        <target>You can enable Screen Curtain in the [Privacy and Security category](#PrivacyAndSecuritySettings) of the [NVDA Settings](#NVDASettings) dialog.</target>
+        <target>您可在 [NVDA 设置](#NVDASettings)对话框的[隐私和安全](#PrivacyAndSecuritySettings)类别中开启黑屏。</target>
       </segment>
     </unit>
     <unit id="509daff7-ab17-402a-925b-6110a9cb8e0d">
@@ -16470,36 +16470,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1501</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When Screen Curtain is enabled, features that rely on what is literally on screen will not function.</source>
-        <target>When Screen Curtain is enabled, features that rely on what is literally on screen will not function.</target>
+        <target>如果启用黑屏，所有依靠屏幕显示内容而执行的动作均不可用。</target>
       </segment>
     </unit>
     <unit id="02c2503a-715a-42d4-b2f4-b5c27dfc1369">
       <notes>
         <note appliesTo="source">line: 1502</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, you cannot [use OCR](#Win10Ocr) or [get AI image descriptions](#LocalCaptioner).</source>
-        <target>For example, you cannot [use OCR](#Win10Ocr) or [get AI image descriptions](#LocalCaptioner).</target>
+        <target>如[执行 OCR](#Win10Ocr)、[获取图像描述](#LocalCaptioner)等。</target>
       </segment>
     </unit>
     <unit id="186924d2-4574-4f54-88c8-f203e6b33288">
       <notes>
         <note appliesTo="source">line: 1503</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Some screenshot utilities also may not work.</source>
-        <target>Some screenshot utilities also may not work.</target>
+        <target>某些截图工具也可能无法正常工作。</target>
       </segment>
     </unit>
     <unit id="002145a3-909c-48ef-90c3-a591cb9905a3">
       <notes>
         <note appliesTo="source">line: 1505</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please note that while Windows Magnifier is running and inverted screen colors are being used, Screen Curtain cannot be enabled.</source>
-        <target>Please note that while Windows Magnifier is running and inverted screen colors are being used, Screen Curtain cannot be enabled.</target>
+        <target>请注意，当启用 Windows 放大镜且使用“反色”功能时，无法启用黑屏。</target>
       </segment>
     </unit>
     <unit id="db268119-b152-4431-bbe7-44da8add31e6">
@@ -19737,9 +19737,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2068</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, the latin letter "h" can also be presented as "𝐡" (bold), "ℎ" (italic), etc. but will always be spoken as "h" when normalization is enabled.</source>
-        <target>For example, the latin letter "h" can also be presented as "𝐡" (bold), "ℎ" (italic), etc. but will always be spoken as "h" when normalization is enabled.</target>
+        <target>例如，拉丁字母“h”也可以表示为“𝐡”（粗体）、“ℎ”（斜体）等，但启用规范化后，这些字符总是会被发音为“h”。</target>
       </segment>
     </unit>
     <unit id="95809e9d-dba1-46cf-ab64-5f16b2499444">
@@ -20483,9 +20483,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set the first value of the current synth setting |none |none |Select the first value of the current speech setting, e.g. set rate to 0 or select the first available voice</source>
-        <target>Set the first value of the current synth setting |none |none |Select the first value of the current speech setting, e.g. set rate to 0 or select the first available voice</target>
+        <target>设置当前语音选项为第一个值 | 无 | 无 | 选择当前语音设置的第一个值，例如将速度设置为 0 或选择第一个可用语音</target>
       </segment>
     </unit>
     <unit id="67a52464-62ec-49b8-a8c1-b57ff954debb">
@@ -20494,9 +20494,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Set the last value of the current synth setting |none |none |Select the last value of the current speech setting, e.g. set rate to 100 or select the last available voice</source>
-        <target>Set the last value of the current synth setting |none |none |Select the last value of the current speech setting, e.g. set rate to 100 or select the last available voice</target>
+        <target>设置当前语音选项为最后一个值 | 无 | 无 | 选择当前语音设置的最后一个值，例如将速度设置为 100 或选择最后一个可用语音</target>
       </segment>
     </unit>
     <unit id="b2785bb3-60ac-45aa-aa2d-23dcf6ab795a">
@@ -22949,18 +22949,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#PrivacyAndSecuritySettings}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Privacy and Security</source>
-        <target>Privacy and Security</target>
+        <target>隐私和安全</target>
       </segment>
     </unit>
     <unit id="89136ca1-b58c-41a4-95a6-0e27dba369f5">
       <notes>
         <note appliesTo="source">line: 2622</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This category allows you to adjust settings that affect your privacy and security while using NVDA.</source>
-        <target>This category allows you to adjust settings that affect your privacy and security while using NVDA.</target>
+        <target>该类别用于调整在使用 NVDA 时影响隐私和安全的设置。</target>
       </segment>
     </unit>
     <unit id="4f86399f-ba0c-4bb7-9daa-b31b68fbf30f">
@@ -22969,72 +22969,72 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ScreenCurtainEnable}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Make screen black (immediate effect)</source>
-        <target>Make screen black (immediate effect)</target>
+        <target>开启黑屏（立即生效）</target>
       </segment>
     </unit>
     <unit id="33cc8923-eb10-4dc6-a5db-10fc2cb8f949">
       <notes>
         <note appliesTo="source">line: 2626</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option enables and disables the [Screen Curtain](#VisionScreenCurtain).</source>
-        <target>This option enables and disables the [Screen Curtain](#VisionScreenCurtain).</target>
+        <target>此选项用于启用或禁用[黑屏](#VisionScreenCurtain)。</target>
       </segment>
     </unit>
     <unit id="52efba1d-226c-4ae2-963e-f6a59d6a1e33">
       <notes>
         <note appliesTo="source">line: 2627</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Note that Screen Curtain is activated or deactivated as soon as the checkbox is checked or unchecked.</source>
-        <target>Note that Screen Curtain is activated or deactivated as soon as the checkbox is checked or unchecked.</target>
+        <target>请注意，黑屏会随着复选框的选中或取消而立即开启或关闭。</target>
       </segment>
     </unit>
     <unit id="b04da53d-ca2a-4a39-ba90-41dd3afc8f08">
       <notes>
         <note appliesTo="source">line: 2629</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, when you check this box, a warning that your screen will become black after activation will be displayed.</source>
-        <target>By default, when you check this box, a warning that your screen will become black after activation will be displayed.</target>
+        <target>默认情况下，当选中此复选框时，将显示警告，提示您的屏幕将在激活这个选项后变黑。</target>
       </segment>
     </unit>
     <unit id="17a0b989-d376-4182-a3d4-e068071eee59">
       <notes>
         <note appliesTo="source">line: 2630</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Before continuing, ensure you have enabled speech / braille and will be able to control your computer without the use of the screen.</source>
-        <target>Before continuing, ensure you have enabled speech / braille and will be able to control your computer without the use of the screen.</target>
+        <target>在继续操作之前，请确保已启用语音/盲文功能，并且能够在不使用屏幕的情况下控制计算机。</target>
       </segment>
     </unit>
     <unit id="2955889d-6d6f-43a4-a2c2-b8d32275453b">
       <notes>
         <note appliesTo="source">line: 2631</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you are sure, you can choose the "Yes" button to enable Screen Curtain.</source>
-        <target>If you are sure, you can choose the "Yes" button to enable Screen Curtain.</target>
+        <target>如果确定，可以选择“是”按钮启用黑屏。</target>
       </segment>
     </unit>
     <unit id="7d556623-8f06-4c9d-91b8-30f9a21f68a3">
       <notes>
         <note appliesTo="source">line: 2632</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Select "No" if you no longer wish to enable Screen Curtain.</source>
-        <target>Select "No" if you no longer wish to enable Screen Curtain.</target>
+        <target>如果您不再希望启用黑屏，请选择“否”。</target>
       </segment>
     </unit>
     <unit id="5044c2f0-6bf5-441d-93a6-75b1b6d7f0c4">
       <notes>
         <note appliesTo="source">line: 2633</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you no longer want to see this warning message every time, you can change this behaviour in the dialog that displays the message.</source>
-        <target>If you no longer want to see this warning message every time, you can change this behaviour in the dialog that displays the message.</target>
+        <target>如果您不想每次都看到此警告消息，则可以在显示该消息的对话框中更改此行为。 </target>
       </segment>
     </unit>
     <unit id="2a27a394-672f-494c-8cf3-59d9a38761aa">
@@ -23224,27 +23224,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2666</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Note that checking and unchecking the "Enable Highlighting" check box will also change the state of the three other check boxes accordingly.</source>
-        <target>Note that checking and unchecking the "Enable Highlighting" check box will also change the state of the three other check boxes accordingly.</target>
+        <target>请注意，选中或取消选中“启用高亮显示”复选框也将相应地更改其他三个复选框的状态。</target>
       </segment>
     </unit>
     <unit id="2ec52e2b-9d6d-4b94-a0a5-af277ed176bf">
       <notes>
         <note appliesTo="source">line: 2667</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Therefore, if "Enable Highlighting" is off and you check this check box, the other three check boxes will also be checked automatically.</source>
-        <target>Therefore, if "Enable Highlighting" is off and you check this check box, the other three check boxes will also be checked automatically.</target>
+        <target>因此，若“启用焦点高亮显示”当前处于未选中状态，此时您将其选中，则其他三个复选框也将被自动选中。</target>
       </segment>
     </unit>
     <unit id="012f6bab-27a4-4ee9-be21-dfada7a151c2">
       <notes>
         <note appliesTo="source">line: 2668</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If you only want to highlight the focus and leave the navigator object and browse mode check boxes unchecked, the state of the "Enable Highlighting" check box will be half checked.</source>
-        <target>如果只选中“高亮显示系统焦点”，而不选中“高亮显示导航对象”和“高亮显示浏览光标”，则“启用高亮显示”复选框的状态将变为“部分选中”。</target>
+        <target>如果只选中“高亮显示系统焦点”，而不选中“高亮显示导航对象”和“高亮显示浏览模式光标”，则“启用高亮显示”复选框的状态将变为“部分选中”。</target>
       </segment>
     </unit>
     <unit id="3a1bc9fb-109f-4068-99fb-8802ca564647">
@@ -33199,9 +33199,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4317</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Add-ons can be sorted in ascending or descending order.</source>
-        <target>Add-ons can be sorted in ascending or descending order.</target>
+        <target>支持以升序或降序方式排列插件。</target>
       </segment>
     </unit>
     <unit id="10117f60-a5e0-435d-b6a0-273c46a23c9c">
@@ -34398,9 +34398,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4504</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The COM Registration Fixing Tool attempts to fix these issues by repairing accessibility entries in the registry.</source>
-        <target>The COM Registration Fixing Tool attempts to fix these issues by repairing accessibility entries in the registry.</target>
+        <target>COM 注册修复工具会尝试通过修复注册表中的无障碍访问条目来解决这些问题。</target>
       </segment>
     </unit>
     <unit id="bd84720e-3e8e-4bc3-97c3-7a22976b0d64">
@@ -43117,9 +43117,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`control+end` key |`rightKeypadRight+rightKeypadDown`</source>
-        <target>`control+end` key |`rightKeypadRight+rightKeypadDown`</target>
+        <target>`Ctrl+行尾` 键 |`rightKeypadRight+rightKeypadDown`</target>
       </segment>
     </unit>
     <unit id="07bd8eca-ba86-4eae-b708-575312597884">
@@ -45293,9 +45293,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 5897</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Manually initiating a new [Remote Access](#RemoteAccess) session (sessions previously configured to [automatically connect](#RemoteAutoconnect) will still be started)</source>
-        <target>Manually initiating a new [Remote Access](#RemoteAccess) session (sessions previously configured to [automatically connect](#RemoteAutoconnect) will still be started)</target>
+        <target>手动建立新的[远程访问](#RemoteAccess)会话（之前配置为[自动连接](#RemoteAutoconnect)的会话仍将启动）</target>
       </segment>
     </unit>
     <unit id="4ae4d726-7d09-4b4c-afd1-cc62d664bdb6">
@@ -45343,9 +45343,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 5902</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Opening external documents from the NVDA menu, such as the User Guide</source>
-        <target>Opening external documents from the NVDA menu, such as the User Guide</target>
+        <target>从 NVDA 菜单中打开外部文档，如用户指南</target>
       </segment>
     </unit>
     <unit id="66707e65-701c-45c6-b665-372858e71fd9">
