@@ -24557,18 +24557,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReportMultiSelect}</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Report when objects support multiple selection</source>
-        <target>Report when objects support multiple selection</target>
+        <target>读出对象的可多选状态</target>
       </segment>
     </unit>
     <unit id="da9f4ea0-1ca6-49c7-9381-b05d2825c9b3">
       <notes>
         <note appliesTo="source">line: 2917</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When this option is enabled, NVDA will report when an object, such as a list box, supports selecting multiple items.</source>
-        <target>When this option is enabled, NVDA will report when an object, such as a list box, supports selecting multiple items.</target>
+        <target>启用此选项后，当对象（如列表框）支持选中多个项目时，NVDA 将给出提示。</target>
       </segment>
     </unit>
     <unit id="aba743e9-539a-4778-8acd-13fa6d73be77">
@@ -26301,9 +26301,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3186</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This may be useful when reading a document where blank lines are used to separate indented blocks of text, such as in programming source code.</source>
-        <target>This may be useful when reading a document where blank lines are used to separate indented blocks of text, such as in programming source code.</target>
+        <target>在阅读使用空行来分隔缩进文本块的文档时（例如在个别编程语言的源代码中），这可能很有用。</target>
       </segment>
     </unit>
     <unit id="603616f5-4091-4d86-8c9a-81f9a3e2c11d">
