@@ -21,7 +21,7 @@ jobs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}
     steps:
       - name: Checkout NVDA buildVersion.py
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: nvaccess/nvda
           ref: master
@@ -74,7 +74,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           ref: ${{ needs.Determine-Branch.outputs.branch }}

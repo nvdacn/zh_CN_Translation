@@ -17,9 +17,9 @@ jobs:
       HeadOwner: nvdacn
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Checkout NVDA repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: nvaccess/nvda.git
           token: ${{ secrets.PULLREQUESTTONVDA }}

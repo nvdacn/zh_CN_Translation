@@ -22,7 +22,7 @@ runs:
 
   steps:
     - name: Checkout NVDA repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         repository: nvaccess/nvda.git
         ref: ${{ inputs.ref }}
