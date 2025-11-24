@@ -23,7 +23,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Install dependencies
         uses: ./.github/workflows/InstallDependencies
       - run: ${{ github.workspace }}/L10nUtilTools.bat BD_TEST
