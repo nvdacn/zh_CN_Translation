@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 01:20+0000\n"
+"POT-Creation-Date: 2025-11-26 03:43+0000\n"
 "PO-Revision-Date: 2025-11-22 13:49+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2423,7 +2423,7 @@ msgstr "工具"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: a touch screen gesture
-#: globalCommands.py:109 touchHandler.py:232
+#: globalCommands.py:109 touchHandler.py:233
 msgid "Touch screen"
 msgstr "触摸屏"
 
@@ -7366,40 +7366,40 @@ msgstr "声调"
 msgid "Use modern audio output system (WASAPI)"
 msgstr "使用现代音频输出系统（WASAPI）"
 
-#: touchHandler.py:59
+#: touchHandler.py:60
 msgid "text mode"
 msgstr "文本模式"
 
-#: touchHandler.py:60
+#: touchHandler.py:61
 msgid "object mode"
 msgstr "对象模式"
 
 #. Translators: a touch screen action performed once
-#: touchHandler.py:159
+#: touchHandler.py:160
 #, python-brace-format
 msgid "single {action}"
 msgstr "{action}一次"
 
 #. Translators: a touch screen action performed twice
-#: touchHandler.py:161
+#: touchHandler.py:162
 #, python-brace-format
 msgid "double {action}"
 msgstr "{action}两次"
 
 #. Translators: a touch screen action performed 3 times
-#: touchHandler.py:163
+#: touchHandler.py:164
 #, python-brace-format
 msgid "triple {action}"
 msgstr "{action}三次"
 
 #. Translators: a touch screen action performed 4 times
-#: touchHandler.py:165
+#: touchHandler.py:166
 #, python-brace-format
 msgid "quadruple {action}"
 msgstr "{action}四次"
 
 #. Translators: a touch screen action using multiple fingers
-#: touchHandler.py:225
+#: touchHandler.py:226
 #, python-brace-format
 msgid "{numFingers} finger {action}"
 msgid_plural "{numFingers} finger {action}"
