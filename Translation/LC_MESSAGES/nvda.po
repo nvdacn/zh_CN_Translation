@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-26 03:43+0000\n"
+"POT-Creation-Date: 2025-11-28 00:51+0000\n"
 "PO-Revision-Date: 2025-11-22 13:49+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -20220,25 +20220,25 @@ msgid "Failed to generate description"
 msgstr "生成描述失败"
 
 #. Translators: Message when starting image recognition
-#: _localCaptioner\imageDescriber.py:129
+#: _localCaptioner\imageDescriber.py:136
 msgctxt "imageDesc"
 msgid "getting image description..."
 msgstr "获取图像描述中..."
 
 #. Translators: error message when fail to load model
-#: _localCaptioner\imageDescriber.py:163
+#: _localCaptioner\imageDescriber.py:170
 msgctxt "imageDesc"
 msgid "failed to load image captioner"
 msgstr "无法加载图像描述"
 
 #. Translators: Message when successfully load the model
-#: _localCaptioner\imageDescriber.py:168
+#: _localCaptioner\imageDescriber.py:175
 msgctxt "imageDesc"
 msgid "image captioning on"
 msgstr "打开图像描述"
 
 #. Translators: Message when image captioning terminates
-#: _localCaptioner\imageDescriber.py:187
+#: _localCaptioner\imageDescriber.py:194
 msgctxt "imageDesc"
 msgid "image captioning off"
 msgstr "关闭图像描述"
