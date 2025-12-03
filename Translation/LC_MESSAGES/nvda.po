@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-03 09:17+0000\n"
-"PO-Revision-Date: 2025-12-03 12:04+0800\n"
+"PO-Revision-Date: 2025-12-03 19:33+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1611,31 +1611,23 @@ msgstr "往上没有不同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1228
-#, fuzzy
-#| msgid "moves to the next frame"
 msgid "moves to the next reference"
-msgstr "移到下一个框架"
+msgstr "移到下一个引用标记"
 
 #. Translators: Message presented when the browse mode element is not found.
 #: browseMode.py:1230
-#, fuzzy
-#| msgid "no next frame"
 msgid "no next reference"
-msgstr "往下没有框架"
+msgstr "往下没有引用标记"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1232
-#, fuzzy
-#| msgid "moves to the previous frame"
 msgid "moves to the previous reference"
-msgstr "移到上一个框架"
+msgstr "移到上一个引用标记"
 
 #. Translators: Message presented when the browse mode element is not found.
 #: browseMode.py:1234
-#, fuzzy
-#| msgid "no previous frame"
 msgid "no previous reference"
-msgstr "往上没有框架"
+msgstr "往上没有引用标记"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
@@ -17535,10 +17527,8 @@ msgstr "错误(&E)"
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
 #: NVDAObjects\UIA\wordDocument.py:79 NVDAObjects\window\winword.py:2228
-#, fuzzy
-#| msgid "&Preferences"
 msgid "&References"
-msgstr "选项(&P)"
+msgstr "引用标记(&R)"
 
 #. Translators: The label shown for an insertion change
 #: NVDAObjects\UIA\wordDocument.py:96
@@ -17563,22 +17553,21 @@ msgstr "轨迹偏移：{text}"
 #: NVDAObjects\UIA\wordDocument.py:141
 #, python-brace-format
 msgid "footnote reference: {text}"
-msgstr ""
+msgstr "脚注引用：{text}"
 
 #. Translators: The label shown for an endnote in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the endnote.
 #: NVDAObjects\UIA\wordDocument.py:145
 #, python-brace-format
 msgid "endnote reference: {text}"
-msgstr ""
+msgstr "尾注引用：{text}"
 
 #. Translators: The label shown for a reference in the NVDA Elements List dialog in Microsoft Word.
 #. {name} will be replaced with the name of the reference.
 #: NVDAObjects\UIA\wordDocument.py:151
-#, fuzzy, python-brace-format
-#| msgid "&Preferences"
+#, python-brace-format
 msgid "reference: {name}"
-msgstr "选项(&P)"
+msgstr "引用标记：{name}"
 
 #. Translators: The message reported for a comment in Microsoft Word
 #: NVDAObjects\UIA\wordDocument.py:203
@@ -19243,7 +19232,7 @@ msgstr "拼读： {text}"
 #: NVDAObjects\window\winword.py:653
 #, python-brace-format
 msgid "footnote reference {number}: {text}"
-msgstr ""
+msgstr "脚注 {number}：{text}"
 
 #. Translators: The label shown for a endnote reference in the NVDA Elements List dialog in Microsoft Word.
 #. {number} will be replaced with the endnote number.
@@ -19251,7 +19240,7 @@ msgstr ""
 #: NVDAObjects\window\winword.py:664
 #, python-brace-format
 msgid "endnote reference {number}: {text}"
-msgstr ""
+msgstr "尾注 {number}：{text}"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
 #: NVDAObjects\window\winword.py:874
