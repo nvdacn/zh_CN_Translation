@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 06:19+0000\n"
-"PO-Revision-Date: 2025-12-03 19:33+0800\n"
+"PO-Revision-Date: 2025-12-05 15:11+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3893,24 +3893,18 @@ msgstr "打开鼠标导航"
 
 #. Translators: Input help mode message for toggle mouse audio coordinates command.
 #: globalCommands.py:3047
-#, fuzzy
-#| msgid "Toggles the reporting of information as the mouse moves"
 msgid "Toggles beeps that report mouse coordinates as the mouse moves"
-msgstr "开关鼠标移动时的信息朗读"
+msgstr "打开或关闭鼠标移动时播放音频坐标"
 
 #. Translators: Reported when mouse audio coordinates are toggled on.
 #: globalCommands.py:3052
-#, fuzzy
-#| msgid "report table cell coordinates on"
 msgid "Mouse audio coordinates on"
-msgstr "读出表格的单元坐标"
+msgstr "打开鼠标移动时播放音频坐标"
 
 #. Translators: Reported when mouse audio coordinates are toggled off.
 #: globalCommands.py:3054
-#, fuzzy
-#| msgid "report table cell coordinates off"
 msgid "Mouse audio coordinates off"
-msgstr "不读表格的单元坐标"
+msgstr "关闭鼠标移动时播放音频坐标"
 
 #. Translators: Input help mode message for toggle mouse text unit resolution command.
 #: globalCommands.py:3064
