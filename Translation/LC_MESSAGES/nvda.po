@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 06:19+0000\n"
+"POT-Creation-Date: 2025-12-05 07:16+0000\n"
 "PO-Revision-Date: 2025-12-05 15:11+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -383,7 +383,7 @@ msgstr "hlght"
 #. Translators: Displayed in braille when an object is a comment.
 #. Translators: Displayed in braille when there is a comment for a spreadsheet cell or piece of text in a document.
 #. Translators: Brailled when text contains a generic comment.
-#: braille.py:234 braille.py:283 braille.py:1234
+#: braille.py:234 braille.py:283 braille.py:1242
 msgid "cmnt"
 msgstr "cmnt"
 
@@ -655,8 +655,28 @@ msgctxt "braille formatting symbol"
 msgid "⡑"
 msgstr "⡑"
 
+#. Translators: Brailled at the start of invalid grammar text.
+#. This is the English letter "g" in braille.
+#: braille.py:470
+#, fuzzy
+#| msgctxt "braille formatting symbol"
+#| msgid "⠃"
+msgctxt "braille formatting symbol"
+msgid "⠛"
+msgstr "⠃"
+
+#. Translators: Brailled at the end of invalid grammar text.
+#. This is the English letter "g" plus dot 7 in braille.
+#: braille.py:473
+#, fuzzy
+#| msgctxt "braille formatting symbol"
+#| msgid "⡃"
+msgctxt "braille formatting symbol"
+msgid "⡛"
+msgstr "⡃"
+
 #. Translators: Braille when there are further details/annotations that can be fetched manually.
-#: braille.py:678 speech\speech.py:2103
+#: braille.py:686 speech\speech.py:2103
 msgid "details"
 msgstr "详细信息"
 
@@ -664,25 +684,25 @@ msgstr "详细信息"
 #. %s specifies the type of details (e.g. "has comment suggestion")
 #. Translators: Speaks when there are further details/annotations that can be fetched manually.
 #. %s specifies the type of details (e.g. "comment, suggestion, details")
-#: braille.py:688 speech\speech.py:2108
+#: braille.py:696 speech\speech.py:2108
 #, python-format
 msgid "has %s"
 msgstr "有 %s"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
-#: braille.py:729 braille.py:1212
+#: braille.py:737 braille.py:1220
 #, python-format
 msgid "h%s"
 msgstr "h%s"
 
 #. Translators: Displayed in braille for a link which has been visited.
-#: braille.py:735
+#: braille.py:743
 msgid "vlnk"
 msgstr "vlnk"
 
 #. Translators: Displayed in braille for a multi select list.
-#: braille.py:748
+#: braille.py:756
 msgid "mslst"
 msgstr "mslst"
 
@@ -692,65 +712,65 @@ msgstr "mslst"
 #. Translators: Spoken to indicate the position of an item in a group of items (such as a list).
 #. {number} is replaced with the number of the item in the group.
 #. {total} is replaced with the total number of items in the group.
-#: braille.py:801 speech\speech.py:2125
+#: braille.py:809 speech\speech.py:2125
 #, python-brace-format
 msgid "{number} of {total}"
 msgstr "，{total} 之 {number} 项"
 
 #. Translators: Displayed in braille when an object (e.g. a tree view item) has a hierarchical level.
 #. %s is replaced with the level.
-#: braille.py:806
+#: braille.py:814
 #, python-format
 msgid "lv %s"
 msgstr "%s 级"
 
 #. Translators: Displayed in braille for the table cell row numbers when a cell spans multiple rows.
 #. Occurences of %s are replaced with the corresponding row numbers.
-#: braille.py:813
+#: braille.py:821
 #, python-brace-format
 msgid "r{rowNumber}-{rowSpan}"
 msgstr "{rowNumber} 到 {rowSpan} 行"
 
 #. Translators: Displayed in braille for a table cell row number.
 #. %s is replaced with the row number.
-#: braille.py:820
+#: braille.py:828
 #, python-brace-format
 msgid "r{rowNumber}"
 msgstr "{rowNumber} 行"
 
 #. Translators: Displayed in braille for the table cell column numbers when a cell spans multiple columns.
 #. Occurences of %s are replaced with the corresponding column numbers.
-#: braille.py:830
+#: braille.py:838
 #, python-brace-format
 msgid "c{columnNumber}-{columnSpan}"
 msgstr "{columnNumber} 到 {columnSpan} 列"
 
 #. Translators: Displayed in braille for a table cell column number.
 #. %s is replaced with the column number.
-#: braille.py:837
+#: braille.py:845
 #, python-brace-format
 msgid "c{columnNumber}"
 msgstr "{columnNumber} 列"
 
 #. Translators: Displayed in braille at the end of a control field such as a list or table.
 #. %s is replaced with the control's role.
-#: braille.py:1054
+#: braille.py:1062
 #, python-format
 msgid "%s end"
 msgstr "%s 行尾"
 
 #. Translators: Brailled when text contains a draft comment.
-#: braille.py:1228
+#: braille.py:1236
 msgid "drft cmnt"
 msgstr "草稿批注"
 
 #. Translators: Brailled when text contains a resolved comment.
-#: braille.py:1231
+#: braille.py:1239
 msgid "rslvd cmnt"
 msgstr "已解决批注"
 
 #. Translators: brailled when text contains a bookmark
-#: braille.py:1242
+#: braille.py:1250
 msgid "bkmk"
 msgstr "书签"
 
@@ -762,40 +782,40 @@ msgstr "书签"
 #. consider overwriting this (e.g. for Ge'ez ፨).
 #. You can also use Unicode Braille such as ⠘⠏.
 #. Ensure this is consistent with other strings with the context "paragraphMarker".
-#: braille.py:1269
+#: braille.py:1277
 msgctxt "paragraphMarker"
 msgid "¶"
 msgstr "¶"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3751
+#: braille.py:3759
 msgid "Dot firm&ness"
 msgstr "盲点硬度(&N)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3764
+#: braille.py:3772
 msgid "Braille inp&ut"
 msgstr "启用盲文输入(&U)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3774
+#: braille.py:3782
 msgid "&HID keyboard input simulation"
 msgstr "模拟 HID 键盘(&H)"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#: braille.py:3938
+#: braille.py:3946
 msgid "Unknown braille display"
 msgstr "未知盲文点显器"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#: braille.py:3979
+#: braille.py:3987
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
 msgstr "蓝牙串行设备：{port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
-#: braille.py:3988 brailleDisplayDrivers\ecoBraille.py:399
+#: braille.py:3996 brailleDisplayDrivers\ecoBraille.py:399
 #: brailleDisplayDrivers\papenmeier_serial.py:81
 #, python-brace-format
 msgid "Serial: {portName}"
@@ -2870,29 +2890,38 @@ msgstr "读出文本样式"
 
 #. Translators: Input help mode message for toggle report spelling errors command.
 #: globalCommands.py:795
-msgid "Cycles through options for how to report spelling errors"
+#, fuzzy
+#| msgid "Cycles through options for how to report spelling errors"
+msgid "Cycles through options for how to report spelling or grammar errors"
 msgstr "在拼写错误的提示方式之间循环切换"
 
-#. Translators: Reported when the user cycles through the choices to report spelling errors.
+#. Translators: Reported when the user cycles through the choices to report spelling or grammar errors.
 #. {mode} will be replaced with the mode; e.g. Off, Speech, Sound, Speech and sound.
 #: globalCommands.py:807
-#, python-brace-format
-msgid "Report spelling errors {mode}"
+#, fuzzy, python-brace-format
+#| msgid "Report spelling errors {mode}"
+msgid "Report errors {mode}"
 msgstr "{mode}提示拼写错误"
 
-#. Translators: Input help mode message for command to toggle report spelling errors in braille.
+#. Translators: Input help mode message for command to toggle report spelling or grammar errors in braille.
 #: globalCommands.py:814
-msgid "Toggles reporting spelling errors in braille"
+#, fuzzy
+#| msgid "Toggles reporting spelling errors in braille"
+msgid "Toggles reporting spelling or grammar errors in braille"
 msgstr "切换以盲文呈现拼写错误的开关"
 
-#. Translators: Message presented when turning on reporting spelling errors in braille.
+#. Translators: Message presented when turning on reporting spelling or grammar errors in braille.
 #: globalCommands.py:824
-msgid "Report spelling errors in braille on"
+#, fuzzy
+#| msgid "Report spelling errors in braille on"
+msgid "Report errors in braille on"
 msgstr "打开以盲文呈现拼写错误"
 
-#. Translators: Message presented when turning off reporting spelling errors in braille.
+#. Translators: Message presented when turning off reporting spelling errors or grammar in braille.
 #: globalCommands.py:827
-msgid "Report spelling errors in braille off"
+#, fuzzy
+#| msgid "Report spelling errors in braille off"
+msgid "Report errors in braille off"
 msgstr "关闭以盲文呈现拼写错误"
 
 #. Translators: Input help mode message for toggle report pages command.
@@ -14590,7 +14619,9 @@ msgstr "编辑者修订(&E)"
 #. Translators: This is the label for a checklist in the
 #. document formatting settings panel.
 #: gui\settingsDialogs.py:3162
-msgid "Spelling e&rrors"
+#, fuzzy
+#| msgid "Spelling e&rrors"
+msgid "Spelling or grammar e&rrors"
 msgstr "拼写错误(&R)"
 
 #. Translators: This is the label for a group of document formatting options in the
@@ -19584,7 +19615,7 @@ msgid "selection removed"
 msgstr "移除所选"
 
 #. Translators: Speaks current row number (example output: row 3).
-#: speech\speech.py:2046 speech\speech.py:3096
+#: speech\speech.py:2046 speech\speech.py:3097
 #, python-format
 msgid "row %s"
 msgstr "%s 行"
@@ -19596,7 +19627,7 @@ msgid "through {endRow}"
 msgstr "合并到 {endRow} 行"
 
 #. Translators: Speaks current column number (example output: column 3).
-#: speech\speech.py:2066 speech\speech.py:3092
+#: speech\speech.py:2066 speech\speech.py:3093
 #, python-format
 msgid "column %s"
 msgstr "%s 列"
@@ -19997,24 +20028,24 @@ msgid "out of spelling error"
 msgstr "离开拼写错误"
 
 #. Translators: Reported when text contains a grammar error.
-#: speech\speech.py:3030
+#: speech\speech.py:3034
 msgid "grammar error"
 msgstr "语法错误"
 
 #. Translators: Reported when moving out of text containing a grammar error.
-#: speech\speech.py:3033
+#: speech\speech.py:3037
 msgid "out of grammar error"
 msgstr "离开语法错误"
 
 #. Translators: Indicates end of a table.
-#: speech\speech.py:3069
+#: speech\speech.py:3070
 msgid "out of table"
 msgstr "离开表格"
 
 #. Translators: Main part of the compound string to report a table
 #. Example: If the reported compound string is "table with 2 columns and 3 rows", {colCountTranslation}
 #. will be replaced by "2 columns" and {rowCountTranslation} by "3 rows"
-#: speech\speech.py:3084
+#: speech\speech.py:3085
 #, python-brace-format
 msgid "table with {columnCountText} and {rowCountText}"
 msgstr "包含 {columnCountText} {rowCountText} 的表格"
