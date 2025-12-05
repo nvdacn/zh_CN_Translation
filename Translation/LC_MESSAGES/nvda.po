@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 07:16+0000\n"
-"PO-Revision-Date: 2025-12-05 15:11+0800\n"
+"PO-Revision-Date: 2025-12-05 18:57+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -658,22 +658,16 @@ msgstr "⡑"
 #. Translators: Brailled at the start of invalid grammar text.
 #. This is the English letter "g" in braille.
 #: braille.py:470
-#, fuzzy
-#| msgctxt "braille formatting symbol"
-#| msgid "⠃"
 msgctxt "braille formatting symbol"
 msgid "⠛"
-msgstr "⠃"
+msgstr "⠛"
 
 #. Translators: Brailled at the end of invalid grammar text.
 #. This is the English letter "g" plus dot 7 in braille.
 #: braille.py:473
-#, fuzzy
-#| msgctxt "braille formatting symbol"
-#| msgid "⡃"
 msgctxt "braille formatting symbol"
 msgid "⡛"
-msgstr "⡃"
+msgstr "⡛"
 
 #. Translators: Braille when there are further details/annotations that can be fetched manually.
 #: braille.py:686 speech\speech.py:2103
@@ -2890,39 +2884,30 @@ msgstr "读出文本样式"
 
 #. Translators: Input help mode message for toggle report spelling errors command.
 #: globalCommands.py:795
-#, fuzzy
-#| msgid "Cycles through options for how to report spelling errors"
 msgid "Cycles through options for how to report spelling or grammar errors"
-msgstr "在拼写错误的提示方式之间循环切换"
+msgstr "在拼写或语法错误的提示方式之间循环切换"
 
 #. Translators: Reported when the user cycles through the choices to report spelling or grammar errors.
 #. {mode} will be replaced with the mode; e.g. Off, Speech, Sound, Speech and sound.
 #: globalCommands.py:807
-#, fuzzy, python-brace-format
-#| msgid "Report spelling errors {mode}"
+#, python-brace-format
 msgid "Report errors {mode}"
-msgstr "{mode}提示拼写错误"
+msgstr "{mode}提示拼写或语法错误"
 
 #. Translators: Input help mode message for command to toggle report spelling or grammar errors in braille.
 #: globalCommands.py:814
-#, fuzzy
-#| msgid "Toggles reporting spelling errors in braille"
 msgid "Toggles reporting spelling or grammar errors in braille"
-msgstr "切换以盲文呈现拼写错误的开关"
+msgstr "切换以盲文呈现拼写或语法错误的开关"
 
 #. Translators: Message presented when turning on reporting spelling or grammar errors in braille.
 #: globalCommands.py:824
-#, fuzzy
-#| msgid "Report spelling errors in braille on"
 msgid "Report errors in braille on"
-msgstr "打开以盲文呈现拼写错误"
+msgstr "打开以盲文呈现拼写或语法错误"
 
 #. Translators: Message presented when turning off reporting spelling errors or grammar in braille.
 #: globalCommands.py:827
-#, fuzzy
-#| msgid "Report spelling errors in braille off"
 msgid "Report errors in braille off"
-msgstr "关闭以盲文呈现拼写错误"
+msgstr "关闭以盲文呈现拼写或语法错误"
 
 #. Translators: Input help mode message for toggle report pages command.
 #: globalCommands.py:831
@@ -14619,10 +14604,8 @@ msgstr "编辑者修订(&E)"
 #. Translators: This is the label for a checklist in the
 #. document formatting settings panel.
 #: gui\settingsDialogs.py:3162
-#, fuzzy
-#| msgid "Spelling e&rrors"
 msgid "Spelling or grammar e&rrors"
-msgstr "拼写错误(&R)"
+msgstr "拼写或语法错误(&R)"
 
 #. Translators: This is the label for a group of document formatting options in the
 #. document formatting settings panel
