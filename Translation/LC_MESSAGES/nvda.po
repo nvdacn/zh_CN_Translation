@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-09 04:27+0000\n"
-"PO-Revision-Date: 2025-12-05 18:57+0800\n"
+"PO-Revision-Date: 2025-12-09 12:30+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20333,12 +20333,10 @@ msgstr "生成描述失败"
 #. Translators: Presented when an AI image description has been generated.
 #. {description} will be replaced with the generated image description.
 #: _localCaptioner\imageDescriber.py:85
-#, fuzzy, python-brace-format
-#| msgctxt "poedit"
-#| msgid "No {description}"
+#, python-brace-format
 msgctxt "imageDesc"
 msgid "Could be: {description}"
-msgstr "无 {description}"
+msgstr "可能是{description}"
 
 #. Translators: Message when starting image recognition
 #: _localCaptioner\imageDescriber.py:141
