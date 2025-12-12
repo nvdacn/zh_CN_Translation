@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-10 06:20+0000\n"
+"POT-Creation-Date: 2025-12-12 03:53+0000\n"
 "PO-Revision-Date: 2025-12-09 05:31\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -669,7 +669,7 @@ msgid "⡛"
 msgstr "⡛"
 
 #. Translators: Braille when there are further details/annotations that can be fetched manually.
-#: braille.py:686 speech\speech.py:2103
+#: braille.py:686 speech\speech.py:2116
 msgid "details"
 msgstr "详细信息"
 
@@ -677,7 +677,7 @@ msgstr "详细信息"
 #. %s specifies the type of details (e.g. "has comment suggestion")
 #. Translators: Speaks when there are further details/annotations that can be fetched manually.
 #. %s specifies the type of details (e.g. "comment, suggestion, details")
-#: braille.py:696 speech\speech.py:2108
+#: braille.py:696 speech\speech.py:2121
 #, python-format
 msgid "has %s"
 msgstr "有 %s"
@@ -705,7 +705,7 @@ msgstr "mslst"
 #. Translators: Spoken to indicate the position of an item in a group of items (such as a list).
 #. {number} is replaced with the number of the item in the group.
 #. {total} is replaced with the total number of items in the group.
-#: braille.py:809 speech\speech.py:2125
+#: braille.py:809 speech\speech.py:2138
 #, python-brace-format
 msgid "{number} of {total}"
 msgstr "，{total} 之 {number} 项"
@@ -2622,7 +2622,7 @@ msgstr ""
 #. Translators: This is spoken to indicate what has just been selected.
 #. The text preceding 'selected' is intentional.
 #. For example 'hello world selected'
-#: globalCommands.py:401 speech\speech.py:1244
+#: globalCommands.py:401 speech\speech.py:1257
 #, python-format
 msgid "%s selected"
 msgstr "%s 已选择"
@@ -5096,22 +5096,36 @@ msgctxt "imageDesc"
 msgid "Load or unload the image captioner"
 msgstr "切换是否加载图像描述的开关"
 
+#. Translators: Description for the repeat last speech script
+#: globalCommands.py:5139
+msgid ""
+"Repeat the last spoken information. Pressing twice shows it in a browsable "
+"message. "
+msgstr ""
+
+#. Translators: title for report last spoken information dialog.
+#: globalCommands.py:5157
+#, fuzzy
+#| msgid "Table information"
+msgid "Last spoken information"
+msgstr "表格信息"
+
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5169
+#: globalCommands.py:5193
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5174
+#: globalCommands.py:5198
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5179
+#: globalCommands.py:5203
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -5119,7 +5133,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5195
+#: globalCommands.py:5219
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -7593,7 +7607,7 @@ msgstr "Ctrl+Shift+C"
 #. Translators: Spoken instead of a lengthy text when copied to clipboard.
 #. Translators: This is spoken when the user has selected a large portion of text.
 #. Example output "1000 characters"
-#: ui.py:308 speech\speech.py:1269
+#: ui.py:308 speech\speech.py:1282
 #, python-format
 msgid "%d character"
 msgid_plural "%d characters"
@@ -11354,7 +11368,7 @@ msgid "tool tip"
 msgstr "工具提示"
 
 #. Translators: Identifies a link in webpage documents.
-#: controlTypes\role.py:250 speech\speech.py:2977
+#: controlTypes\role.py:250 speech\speech.py:2990
 msgid "link"
 msgstr "链接"
 
@@ -11893,12 +11907,12 @@ msgstr "字体大小"
 
 #. Translators: Describes text formatting.
 #. Translators: Reported when text is bolded.
-#: controlTypes\role.py:478 speech\speech.py:2854
+#: controlTypes\role.py:478 speech\speech.py:2867
 msgid "bold"
 msgstr "粗体"
 
 #. Translators: Describes text formatting.
-#: controlTypes\role.py:480 speech\speech.py:2865
+#: controlTypes\role.py:480 speech\speech.py:2878
 msgid "italic"
 msgstr "斜体"
 
@@ -11976,13 +11990,13 @@ msgstr "图表元素"
 
 #. Translators: Identifies deleted content.
 #. Translators: Reported when text is marked as having been deleted
-#: controlTypes\role.py:512 speech\speech.py:2781
+#: controlTypes\role.py:512 speech\speech.py:2794
 msgid "deleted"
 msgstr "已删除"
 
 #. Translators: Identifies inserted content.
 #. Translators: Reported when text is marked as having been inserted
-#: controlTypes\role.py:514 speech\speech.py:2770
+#: controlTypes\role.py:514 speech\speech.py:2783
 msgid "inserted"
 msgstr "已插入"
 
@@ -12228,7 +12242,7 @@ msgstr "有公式"
 
 #. Translators: a state that denotes the existance of a comment.
 #. Translators: Reported when text contains a generic comment.
-#: controlTypes\state.py:187 speech\speech.py:2992
+#: controlTypes\state.py:187 speech\speech.py:3005
 msgid "has comment"
 msgstr "有批注"
 
@@ -12316,8 +12330,8 @@ msgstr "拖拽完成"
 #. Translators: This is spoken when the line is considered blank.
 #. Translators: This is spoken when NVDA moves to an empty line.
 #. Translators: This is spoken when the line is considered blank.
-#: documentNavigation\paragraphHelper.py:128 speech\speech.py:237
-#: speech\speech.py:460 speech\speech.py:1876
+#: documentNavigation\paragraphHelper.py:128 speech\speech.py:250
+#: speech\speech.py:473 speech\speech.py:1889
 msgid "blank"
 msgstr "空白"
 
@@ -18581,7 +18595,7 @@ msgstr "细线垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. No pattern
-#: NVDAObjects\window\excel.py:295 speech\speech.py:2753
+#: NVDAObjects\window\excel.py:295 speech\speech.py:2766
 msgid "none"
 msgstr "无"
 
@@ -19552,110 +19566,110 @@ msgid "{lang} (not supported)"
 msgstr "{lang}（不支持）"
 
 #. Translators: Name of the speech mode which disables speech output.
-#: speech\speech.py:102
+#: speech\speech.py:104
 msgctxt "speechModes"
 msgid "off"
 msgstr "不朗读"
 
 #. Translators: Name of the speech mode which will cause NVDA to beep instead of speaking.
-#: speech\speech.py:104
+#: speech\speech.py:106
 msgctxt "speechModes"
 msgid "beeps"
 msgstr "提示音"
 
 #. Translators: Name of the speech mode which causes NVDA to speak normally.
-#: speech\speech.py:106
+#: speech\speech.py:108
 msgctxt "speechModes"
 msgid "talk"
 msgstr "正常朗读"
 
 #. Translators: Name of the on-demand speech mode,
 #. in which NVDA only speaks in response to commands that report content.
-#: speech\speech.py:109
+#: speech\speech.py:111
 msgctxt "speechModes"
 msgid "on-demand"
 msgstr "手动朗读"
 
 #. Translators: cap will be spoken before the given letter when it is capitalized.
-#: speech\speech.py:389
+#: speech\speech.py:402
 #, python-format
 msgid "cap %s"
 msgstr "大写 %s"
 
 #. Translators: 'Normalized' will be spoken after the given letter when it is normalized.
-#: speech\speech.py:396
+#: speech\speech.py:409
 #, python-format
 msgid "%s normalized"
 msgstr "%s 规范化"
 
 #. Translators: This is spoken when the given line has no indentation.
-#: speech\speech.py:1048
+#: speech\speech.py:1061
 msgid "no indent"
 msgstr "无缩进"
 
 #. Translators: This is spoken to indicate that some text is already selected.
 #. 'selected' preceding text is intentional.
 #. For example 'selected hello world'
-#: speech\speech.py:1225
+#: speech\speech.py:1238
 #, python-format
 msgid "selected %s"
 msgstr "%s 已选择"
 
 #. Translators: This is spoken to indicate what has been unselected. for example 'hello unselected'
-#: speech\speech.py:1343
+#: speech\speech.py:1356
 #, python-format
 msgid "%s unselected"
 msgstr "%s 未选择"
 
 #. Translators: This is spoken to indicate when the previous selection was removed and a new selection was made. for example 'hello world selected instead'
-#: speech\speech.py:1350
+#: speech\speech.py:1363
 #, python-format
 msgid "%s selected instead"
 msgstr "%s 作为覆盖选择"
 
 #. Translators: Reported when selection is removed.
-#: speech\speech.py:1353
+#: speech\speech.py:1366
 msgid "selection removed"
 msgstr "移除所选"
 
 #. Translators: Speaks current row number (example output: row 3).
-#: speech\speech.py:2046 speech\speech.py:3097
+#: speech\speech.py:2059 speech\speech.py:3110
 #, python-format
 msgid "row %s"
 msgstr "%s 行"
 
 #. Translators: Speaks the row span added to the current row number (example output: through 5).
-#: speech\speech.py:2050
+#: speech\speech.py:2063
 #, python-brace-format
 msgid "through {endRow}"
 msgstr "合并到 {endRow} 行"
 
 #. Translators: Speaks current column number (example output: column 3).
-#: speech\speech.py:2066 speech\speech.py:3093
+#: speech\speech.py:2079 speech\speech.py:3106
 #, python-format
 msgid "column %s"
 msgstr "%s 列"
 
 #. Translators: Speaks the column span added to the current column number (example output: through 5).
-#: speech\speech.py:2070
+#: speech\speech.py:2083
 #, python-brace-format
 msgid "through {endCol}"
 msgstr "合并到 {endCol} 列"
 
 #. Translators: Speaks the row and column span added to the current row and column numbers
 #. (example output: through row 5 column 3).
-#: speech\speech.py:2079
+#: speech\speech.py:2092
 #, python-brace-format
 msgid "through row {row} column {column}"
 msgstr "合并到 {row} 行 {column} 列"
 
 #. Translators: Speaks when there are further details/annotations that can be fetched manually.
-#: speech\speech.py:2113
+#: speech\speech.py:2126
 msgid "has details"
 msgstr "有详细信息"
 
 #. Translators: Speaks the item level in treeviews (example output: level 2).
-#: speech\speech.py:2135
+#: speech\speech.py:2148
 #, python-format
 msgid "level %s"
 msgstr "%s 级"
@@ -19663,20 +19677,20 @@ msgstr "%s 级"
 #. Translators: Main part of the compound string to speak number of columns and rows in a table
 #. Example: If the reported compound string is "with 3 rows and 2 columns", {rowCountTranslation} will be
 #. replaced by "3 rows" and {colCountTranslation} by "2 columns"
-#: speech\speech.py:2159
+#: speech\speech.py:2172
 #, python-brace-format
 msgid "with {rowCountTranslation} and {colCountTranslation}"
 msgstr "共 {rowCountTranslation} {colCountTranslation}"
 
 #. Translators: Speaks number of columns (example output: with 4 columns).
-#: speech\speech.py:2165
+#: speech\speech.py:2178
 #, python-format
 msgid "with %s column"
 msgid_plural "with %s columns"
 msgstr[0] "共 %s 列"
 
 #. Translators: Speaks number of rows (example output: with 2 rows).
-#: speech\speech.py:2168
+#: speech\speech.py:2181
 #, python-format
 msgid "with %s row"
 msgid_plural "with %s rows"
@@ -19684,7 +19698,7 @@ msgstr[0] "共 %s 行"
 
 #. Translators: Sub-part of the compound string to speak number of rows and columns in a table.
 #. Example: If the full compound string is "table with 3 rwos and 2 columns", this substring is "3 rows".
-#: speech\speech.py:2176
+#: speech\speech.py:2189
 #, python-brace-format
 msgid "{rowCount} row"
 msgid_plural "{rowCount} rows"
@@ -19692,35 +19706,35 @@ msgstr[0] "{rowCount} 行"
 
 #. Translators: Sub-part of the compound string to speak number of rows and columns in a table.
 #. Example: If the full compound string is "table with 3 rwos and 2 columns", this substring is "2 columns".
-#: speech\speech.py:2186
+#: speech\speech.py:2199
 #, python-brace-format
 msgid "{columnCount} column"
 msgid_plural "{columnCount} columns"
 msgstr[0] "{columnCount} 列"
 
 #. Translators: Number of items in a list (example output: list with 5 items).
-#: speech\speech.py:2375
+#: speech\speech.py:2388
 #, python-format
 msgid "with %s item"
 msgid_plural "with %s items"
 msgstr[0] "%s 项"
 
 #. Translators: Indicates end of something (example output: at the end of a list, speaks out of list).
-#: speech\speech.py:2519 speech\speech.py:2977
+#: speech\speech.py:2532 speech\speech.py:2990
 #, python-format
 msgid "out of %s"
 msgstr "%s 离开"
 
 #. Translators: Indicates the page number in a document.
 #. %s will be replaced with the page number.
-#: speech\speech.py:2587
+#: speech\speech.py:2600
 #, python-format
 msgid "page %s"
 msgstr "第 %s 页"
 
 #. Translators: Indicates the section number in a document.
 #. %s will be replaced with the section number.
-#: speech\speech.py:2594
+#: speech\speech.py:2607
 #, python-format
 msgid "section %s"
 msgstr "区域 %s"
@@ -19728,51 +19742,51 @@ msgstr "区域 %s"
 #. Translators: Indicates the text column number in a document.
 #. {0} will be replaced with the text column number.
 #. {1} will be replaced with the number of text columns.
-#: speech\speech.py:2614
+#: speech\speech.py:2627
 #, python-brace-format
 msgid "column {0} of {1}"
 msgstr "{1} 之 {0} 列"
 
 #. Translators: Indicates the text column number in a document.
 #. %s will be replaced with the number of text columns.
-#: speech\speech.py:2619
+#: speech\speech.py:2632
 #, python-format
 msgid "%s column"
 msgid_plural "%s columns"
 msgstr[0] "%s 列"
 
 #. Translators: Indicates the text column number in a document.
-#: speech\speech.py:2623
+#: speech\speech.py:2636
 #, python-brace-format
 msgid "column {columnNumber}"
 msgstr "{columnNumber} 列"
 
-#: speech\speech.py:2629
+#: speech\speech.py:2642
 msgid "continuous section break"
 msgstr "连续区域分割"
 
-#: speech\speech.py:2631
+#: speech\speech.py:2644
 msgid "new column section break"
 msgstr "新列区域分割"
 
-#: speech\speech.py:2633
+#: speech\speech.py:2646
 msgid "new page section break"
 msgstr "新页面区域分割"
 
-#: speech\speech.py:2635
+#: speech\speech.py:2648
 msgid "even pages section break"
 msgstr "偶数页区域分割"
 
-#: speech\speech.py:2637
+#: speech\speech.py:2650
 msgid "odd pages section break"
 msgstr "奇数页区域分割"
 
-#: speech\speech.py:2643
+#: speech\speech.py:2656
 msgid "column break"
 msgstr "列分割"
 
 #. Translators: Speaks the heading level (example output: heading level 2).
-#: speech\speech.py:2658
+#: speech\speech.py:2671
 #, python-format
 msgid "heading level %d"
 msgstr "%d 级标题"
@@ -19780,19 +19794,19 @@ msgstr "%d 级标题"
 #. Translators: Indicates the style of text.
 #. A style is a collection of formatting settings and depends on the application.
 #. %s will be replaced with the name of the style.
-#: speech\speech.py:2681
+#: speech\speech.py:2694
 #, python-format
 msgid "style %s"
 msgstr "样式 %s"
 
 #. Translators: Indicates that text has reverted to the default style.
 #. A style is a collection of formatting settings and depends on the application.
-#: speech\speech.py:2685
+#: speech\speech.py:2698
 msgid "default style"
 msgstr "默认样式"
 
 #. Translators: Indicates that cell does not have border lines.
-#: speech\speech.py:2695
+#: speech\speech.py:2708
 msgid "no border lines"
 msgstr "无边界"
 
@@ -19800,7 +19814,7 @@ msgstr "无边界"
 #. This occurs when, for example, a gradient pattern is applied to a spreadsheet cell.
 #. {color1} will be replaced with the first background color.
 #. {color2} will be replaced with the second background color.
-#: speech\speech.py:2726
+#: speech\speech.py:2739
 #, python-brace-format
 msgid "{color1} to {color2}"
 msgstr "{color1} 到 {color2}"
@@ -19808,248 +19822,248 @@ msgstr "{color1} 到 {color2}"
 #. Translators: Reported when both the text and background colors change.
 #. {color} will be replaced with the text color.
 #. {backgroundColor} will be replaced with the background color.
-#: speech\speech.py:2732
+#: speech\speech.py:2745
 #, python-brace-format
 msgid "{color} on {backgroundColor}"
 msgstr "文字颜色：{color}，背景颜色：{backgroundColor}"
 
 #. Translators: Reported when the text color changes (but not the background color).
 #. {color} will be replaced with the text color.
-#: speech\speech.py:2740
+#: speech\speech.py:2753
 #, python-brace-format
 msgid "{color}"
 msgstr "文字颜色：{color}"
 
 #. Translators: Reported when the background color changes (but not the text color).
 #. {backgroundColor} will be replaced with the background color.
-#: speech\speech.py:2744
+#: speech\speech.py:2757
 #, python-brace-format
 msgid "{backgroundColor} background"
 msgstr "背景颜色：{backgroundColor}"
 
-#: speech\speech.py:2754
+#: speech\speech.py:2767
 #, python-brace-format
 msgid "background pattern {pattern}"
 msgstr "背景样式 {pattern}"
 
 #. Translators: Indicates the line number of the text.
 #. %s will be replaced with the line number.
-#: speech\speech.py:2761
+#: speech\speech.py:2774
 #, python-format
 msgid "line %s"
 msgstr "%s 行"
 
 #. Translators: Reported when text is no longer marked as having been inserted.
-#: speech\speech.py:2773
+#: speech\speech.py:2786
 msgid "not inserted"
 msgstr "不插入"
 
 #. Translators: Reported when text is no longer marked as having been  deleted.
-#: speech\speech.py:2784
+#: speech\speech.py:2797
 msgid "not deleted"
 msgstr "不删除"
 
 #. Translators: Reported when text is revised.
-#: speech\speech.py:2792
+#: speech\speech.py:2805
 #, python-format
 msgid "revised %s"
 msgstr "%s 已修订"
 
 #. Translators: Reported when text is not revised.
-#: speech\speech.py:2795
+#: speech\speech.py:2808
 #, python-format
 msgid "no revised %s"
 msgstr "不修订 %s"
 
 #. Translators: Reported when text is marked
-#: speech\speech.py:2804
+#: speech\speech.py:2817
 msgid "marked"
 msgstr "已标记"
 
 #. Translators: Reported when text is no longer marked
-#: speech\speech.py:2807
+#: speech\speech.py:2820
 msgid "not marked"
 msgstr "不标记"
 
 #. Translators: Reported when text is color-highlighted
-#: speech\speech.py:2817
+#: speech\speech.py:2830
 #, python-brace-format
 msgid "highlighted in {color}"
 msgstr "以 {color} 突出显示"
 
 #. Translators: Reported when text is no longer marked
-#: speech\speech.py:2820
+#: speech\speech.py:2833
 msgid "not highlighted"
 msgstr "未突出显示"
 
 #. Translators: Reported when text is marked as strong (e.g. bold)
-#: speech\speech.py:2830
+#: speech\speech.py:2843
 msgid "strong"
 msgstr "显眼"
 
 #. Translators: Reported when text is no longer marked as strong (e.g. bold)
-#: speech\speech.py:2833
+#: speech\speech.py:2846
 msgid "not strong"
 msgstr "不显眼"
 
 #. Translators: Reported when text is marked as emphasised
-#: speech\speech.py:2842
+#: speech\speech.py:2855
 msgid "emphasised"
 msgstr "以强调"
 
 #. Translators: Reported when text is no longer marked as emphasised
-#: speech\speech.py:2845
+#: speech\speech.py:2858
 msgid "not emphasised"
 msgstr "不强调"
 
 #. Translators: Reported when text is not bolded.
-#: speech\speech.py:2857
+#: speech\speech.py:2870
 msgid "no bold"
 msgstr "非粗体"
 
 #. Translators: Reported when text is not italicized.
-#: speech\speech.py:2868
+#: speech\speech.py:2881
 msgid "no italic"
 msgstr "非斜体"
 
 #. Translators: Reported when text is formatted with double strikethrough.
 #. See http://en.wikipedia.org/wiki/Strikethrough
-#: speech\speech.py:2878
+#: speech\speech.py:2891
 msgid "double strikethrough"
 msgstr "双删除线"
 
 #. Translators: Reported when text is formatted with strikethrough.
 #. See http://en.wikipedia.org/wiki/Strikethrough
-#: speech\speech.py:2882
+#: speech\speech.py:2895
 msgid "strikethrough"
 msgstr "删除线"
 
 #. Translators: Reported when text is formatted without strikethrough.
 #. See http://en.wikipedia.org/wiki/Strikethrough
-#: speech\speech.py:2887
+#: speech\speech.py:2900
 msgid "no strikethrough"
 msgstr "无删除线"
 
 #. Translators: Reported when text is underlined.
-#: speech\speech.py:2894
+#: speech\speech.py:2907
 msgid "underlined"
 msgstr "已加下划线"
 
 #. Translators: Reported when text is not underlined.
-#: speech\speech.py:2897
+#: speech\speech.py:2910
 msgid "not underlined"
 msgstr "未加下划线"
 
 #. Translators: Reported when text is hidden.
-#: speech\speech.py:2905
+#: speech\speech.py:2918
 msgid "hidden"
 msgstr "隐藏"
 
 #. Translators: Reported when text is not hidden.
-#: speech\speech.py:2908
+#: speech\speech.py:2921
 msgid "not hidden"
 msgstr "未隐藏"
 
 #. Translators: the label for paragraph format left indent
-#: speech\speech.py:2936
+#: speech\speech.py:2949
 msgid "left indent"
 msgstr "左端缩进"
 
 #. Translators: the message when there is no paragraph format left indent
-#: speech\speech.py:2938
+#: speech\speech.py:2951
 msgid "no left indent"
 msgstr "没有左端缩进"
 
 #. Translators: the label for paragraph format right indent
-#: speech\speech.py:2942
+#: speech\speech.py:2955
 msgid "right indent"
 msgstr "右端缩进"
 
 #. Translators: the message when there is no paragraph format right indent
-#: speech\speech.py:2944
+#: speech\speech.py:2957
 msgid "no right indent"
 msgstr "没有右端缩进"
 
 #. Translators: the label for paragraph format hanging indent
-#: speech\speech.py:2948
+#: speech\speech.py:2961
 msgid "hanging indent"
 msgstr "悬挂式缩进"
 
 #. Translators: the message when there is no paragraph format hanging indent
-#: speech\speech.py:2950
+#: speech\speech.py:2963
 msgid "no hanging indent"
 msgstr "没有悬挂式缩进"
 
 #. Translators: the label for paragraph format first line indent
-#: speech\speech.py:2954
+#: speech\speech.py:2967
 msgid "first line indent"
 msgstr "首行缩进"
 
 #. Translators: the message when there is no paragraph format first line indent
-#: speech\speech.py:2956
+#: speech\speech.py:2969
 msgid "no first line indent"
 msgstr "没有首行缩进"
 
 #. Translators: a type of line spacing (E.g. single line spacing)
-#: speech\speech.py:2972
+#: speech\speech.py:2985
 #, python-format
 msgid "line spacing %s"
 msgstr "行间距为 %s"
 
 #. Translators: Reported when text contains a draft comment.
-#: speech\speech.py:2986
+#: speech\speech.py:2999
 msgid "has draft comment"
 msgstr "有草稿批注"
 
 #. Translators: Reported when text contains a resolved comment.
-#: speech\speech.py:2989
+#: speech\speech.py:3002
 msgid "has resolved comment"
 msgstr "有已解决的批注"
 
 #. Translators: Reported when text no longer contains a comment.
-#: speech\speech.py:2996
+#: speech\speech.py:3009
 msgid "out of comment"
 msgstr "离开批注"
 
 #. Translators: Reported when text contains a bookmark
-#: speech\speech.py:3004
+#: speech\speech.py:3017
 msgid "bookmark"
 msgstr "书签"
 
 #. Translators: Reported when text no longer contains a bookmark
-#: speech\speech.py:3008
+#: speech\speech.py:3021
 msgid "out of bookmark"
 msgstr "离开书签"
 
 #. Translators: Reported when text contains a spelling error.
-#: speech\speech.py:3020
+#: speech\speech.py:3033
 msgid "spelling error"
 msgstr "拼写错误"
 
 #. Translators: Reported when moving out of text containing a spelling error.
-#: speech\speech.py:3023
+#: speech\speech.py:3036
 msgid "out of spelling error"
 msgstr "离开拼写错误"
 
 #. Translators: Reported when text contains a grammar error.
-#: speech\speech.py:3034
+#: speech\speech.py:3047
 msgid "grammar error"
 msgstr "语法错误"
 
 #. Translators: Reported when moving out of text containing a grammar error.
-#: speech\speech.py:3037
+#: speech\speech.py:3050
 msgid "out of grammar error"
 msgstr "离开语法错误"
 
 #. Translators: Indicates end of a table.
-#: speech\speech.py:3070
+#: speech\speech.py:3083
 msgid "out of table"
 msgstr "离开表格"
 
 #. Translators: Main part of the compound string to report a table
 #. Example: If the reported compound string is "table with 2 columns and 3 rows", {colCountTranslation}
 #. will be replaced by "2 columns" and {rowCountTranslation} by "3 rows"
-#: speech\speech.py:3085
+#: speech\speech.py:3098
 #, python-brace-format
 msgid "table with {columnCountText} and {rowCountText}"
 msgstr "包含 {columnCountText} {rowCountText} 的表格"
