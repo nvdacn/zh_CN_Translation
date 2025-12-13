@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-12 05:23+0000\n"
-"PO-Revision-Date: 2025-12-13 09:42\n"
+"PO-Revision-Date: 2025-12-13 09:55\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14019,7 +14019,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "math"
 msgid "Automatic ({name})"
-msgstr ""
+msgstr "自动（{name}）"
 
 #. Translators: label for combobox to specify how braille dots should be modified when navigating/selecting subexprs
 #: gui\settingsDialogs.py:2974
@@ -14494,7 +14494,7 @@ msgstr "AI 图像描述"
 #: gui\settingsDialogs.py:4036
 msgctxt "imageDesc"
 msgid "Warning: AI image descriptions are experimental. Do not use this feature in circumstances where inaccurate descriptions could cause harm."
-msgstr ""
+msgstr "警告：AI 图像描述功能目前处于实验阶段。请勿在描述不准确时可能导致危害的场景使用此功能。"
 
 #. Translators: A configuration in settings dialog.
 #: gui\settingsDialogs.py:4055
@@ -16284,7 +16284,9 @@ msgctxt "imageDesc"
 msgid "AI image descriptions are currently disabled.\n\n"
 "Warning: AI image descriptions are experimental. Do not use this feature in circumstances where inaccurate descriptions could cause harm.\n\n"
 "Would you like to temporarily enable AI image descriptions now?"
-msgstr ""
+msgstr "AI 图像描述功能尚未启用。\n\n"
+"警告：AI 图像描述功能目前处于实验阶段。请勿在描述不准确时可能导致危害的场景使用此功能。\n\n"
+"是否要临时启用 AI 图像描述功能？"
 
 #. Translators: Describes a command.
 #: mathPres\__init__.py:132
@@ -18895,7 +18897,7 @@ msgstr "无法开启黑屏"
 #: screenCurtain\_screenCurtain.py:45
 msgctxt "screenCurtain"
 msgid "There was a problem enabling Screen Curtain. The contents of your screen are still visible. You may attempt to enable Screen Curtain manually."
-msgstr ""
+msgstr "开启黑屏时出现问题。屏幕内容仍然可见。您可尝试手动开启黑屏。"
 
 #. Translators: A warning shown when activating the screen curtain.
 #. the translation of "Screen Curtain" should match the "translated name"
