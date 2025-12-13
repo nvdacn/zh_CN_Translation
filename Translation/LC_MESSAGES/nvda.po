@@ -2681,14 +2681,14 @@ msgstr "切换到上一个可用的语音控制选项"
 #. Translators: Input help mode message for toggling keyboard layout.
 #: globalCommands.py:574
 msgid "Toggles between desktop and laptop keyboard layout"
-msgstr ""
+msgstr "切换键盘布局（台式机或笔记本）"
 
 #. Translators: Reported when the user toggles keyboard layout.
 #. {layout} will be replaced with the new keyboard layout, i.e. desktop or laptop
 #: globalCommands.py:587
 #, python-brace-format
 msgid "{layout} layout"
-msgstr ""
+msgstr "{layout}布局"
 
 #. Translators: Input help mode message for cycling the reporting of typed characters.
 #: globalCommands.py:592
@@ -5110,17 +5110,13 @@ msgstr "切换是否加载图像描述的开关"
 
 #. Translators: Description for the repeat last speech script
 #: globalCommands.py:5162
-msgid ""
-"Repeat the last spoken information. Pressing twice shows it in a browsable "
-"message. "
-msgstr ""
+msgid "Repeat the last spoken information. Pressing twice shows it in a browsable message. "
+msgstr "重复上次读出的内容。连按两次在浏览模式下显示该信息。"
 
 #. Translators: title for report last spoken information dialog.
 #: globalCommands.py:5180
-#, fuzzy
-#| msgid "Table information"
 msgid "Last spoken information"
-msgstr "表格信息"
+msgstr "上次读出的内容"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
