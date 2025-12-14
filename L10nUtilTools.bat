@@ -77,9 +77,11 @@ Pause>Nul
 echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；  
 echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
 echo UAP：上传指定插件的界面翻译到 Crowdin；  
-echo UAX：上传指定插件的文档翻译到 Crowdin；  
+echo UAX：上传指定插件的 xliff 文档翻译到 Crowdin；  
+echo UAM：上传指定插件的文档翻译到 Crowdin；  
 echo DAP：从 Crowdin 下载指定插件的界面翻译；  
-echo DAX：从 Crowdin 下载指定插件的文档翻译；  
+echo DAX：从 Crowdin 下载指定插件的 xliff 文档翻译；  
+echo DAM：从 Crowdin 下载指定插件的文档翻译；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
@@ -418,8 +420,10 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :MXX
 :UAP
 :UAX
+:UAM
 :DAP
 :DAX
+:DAM
 set AddonName=%2
 if not defined AddonName (
   cls
@@ -463,6 +467,11 @@ if /I "%CLI:~2,1%"=="P" (
 if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
+  set ShortName=readme
+)
+if /I "%CLI:~2,1%"=="M" (
+  set CrowdinFilePath=%AddonName%.md
+  set FileName=readme.md
   set ShortName=readme
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
