@@ -28,7 +28,7 @@ jobs:
         uses: ./.github/workflows/InstallDependencies
       - run: ${{ github.workspace }}/L10nUtilTools.bat BD_TEST
       - name: Upload Output
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: NVDA_TranslationTest
           path: ${{ github.workspace }}/Preview/Test/*
