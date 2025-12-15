@@ -35,7 +35,7 @@ jobs:
           echo "CACHE_KEY=nvda-sha-$current_sha" >> $GITHUB_ENV
       - name: Check SHA cache
         id: cache_sha
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .sha_cache
           key: ${{ env.CACHE_KEY }}
@@ -149,7 +149,7 @@ jobs:
           git config --global user.email "actions@github.com"
           &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
       - name: SCons MSVC Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ${{ env.SCONS_CACHE_MSVC_CONFIG }}
           key: ${{ env.SCONS_CACHE_KEY }}
