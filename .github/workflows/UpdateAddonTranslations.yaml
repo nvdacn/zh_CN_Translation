@@ -106,7 +106,7 @@ jobs:
           foreach ($addonId in $addonIds) {
               Write-Output "Processing addon: $addonId"
               & cmd /c "$L10nUtil DAP $addonId"
-              & cmd /c "$L10nUtil DAX $addonId"
+              & cmd /c "$L10nUtil DAM $addonId"
               git add "Translation/Addons/$addonId"
           }
       - name: Commit & Push

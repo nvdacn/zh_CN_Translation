@@ -53,7 +53,7 @@ jobs:
               if ($fileExtension -ieq ".po") {
                   $actionType = "UAP"
               } else {
-                  $actionType = "UAX"
+                  $actionType = "UAM"
               }
               $FilePath = "Translation/Addons/$AddonID/$baseName$fileExtension"
               if (Test-Path $FilePath) {
