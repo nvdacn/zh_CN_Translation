@@ -166,10 +166,8 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | `GMX`\* | 使用指定插件的 readme.xliff 生成 Markdown 文件。 |
 | `MXX`\* | 使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件。 |
 | `UAP`\* | 上传指定插件的界面翻译到 Crowdin。 |
-| `UAX`\* | 上传指定插件的 xliff 文档翻译到 Crowdin。 |
 | `UAM`\* | 上传指定插件的文档翻译到 Crowdin。 |
 | `DAP`\* | 从 Crowdin 下载指定插件的界面翻译。 |
-| `DAX`\* | 从 Crowdin 下载指定插件的 xliff 文档翻译。 |
 | `DAM`\* | 从 Crowdin 下载指定插件的文档翻译。 |
 
 #### 通用命令
