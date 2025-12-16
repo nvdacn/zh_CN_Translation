@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-16 00:57+0000\n"
-"PO-Revision-Date: 2025-12-13 09:55\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2025-12-16 15:10+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
+"X-Generator: Poedit 3.8\n"
 
 #. Translators: shown when an addon API version string is unknown
 #. Translators: The word for an unknown control type.
@@ -2681,14 +2682,14 @@ msgstr "切换到上一个可用的语音控制选项"
 #. Translators: Input help mode message for toggling keyboard layout.
 #: globalCommands.py:574
 msgid "Toggles between desktop and laptop keyboard layout"
-msgstr "切换键盘布局（台式机或笔记本）"
+msgstr "切换键盘配置（台式机或笔记本）"
 
 #. Translators: Reported when the user toggles keyboard layout.
 #. {layout} will be replaced with the new keyboard layout, i.e. desktop or laptop
 #: globalCommands.py:587
 #, python-brace-format
 msgid "{layout} layout"
-msgstr "{layout}布局"
+msgstr "{layout}配置"
 
 #. Translators: Input help mode message for cycling the reporting of typed characters.
 #: globalCommands.py:592
