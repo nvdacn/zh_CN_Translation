@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-29 09:22+0000\n"
+"POT-Creation-Date: 2025-12-30 03:58+0000\n"
 "PO-Revision-Date: 2025-12-16 15:10+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1385,261 +1385,289 @@ msgstr "往上没有错误"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1082
+#, fuzzy
+#| msgid "moves to the next link"
+msgid "moves to the next slider"
+msgstr "移到下一个链接"
+
+#. Translators: Message presented when the browse mode element is not found.
+#: browseMode.py:1084
+#, fuzzy
+#| msgid "no next link"
+msgid "no next slider"
+msgstr "往下没有链接"
+
+#. Translators: Input help message for a quick navigation command in browse mode.
+#: browseMode.py:1086
+#, fuzzy
+#| msgid "moves to the previous link"
+msgid "moves to the previous slider"
+msgstr "移到上一个链接"
+
+#. Translators: Message presented when the browse mode element is not found.
+#: browseMode.py:1088
+#, fuzzy
+#| msgid "no previous link"
+msgid "no previous slider"
+msgstr "往上没有链接"
+
+#. Translators: Input help message for a quick navigation command in browse mode.
+#: browseMode.py:1094
 msgid "moves to the next article"
 msgstr "移到下一篇文章"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1084
+#: browseMode.py:1096
 msgid "no next article"
 msgstr "往下没有文章"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1086
+#: browseMode.py:1098
 msgid "moves to the previous article"
 msgstr "移到上一篇文章"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1088
+#: browseMode.py:1100
 msgid "no previous article"
 msgstr "往上没有文章"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1094
+#: browseMode.py:1106
 msgid "moves to the next grouping"
 msgstr "移到下一个分组"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1096
+#: browseMode.py:1108
 msgid "no next grouping"
 msgstr "往下没有分组"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1098
+#: browseMode.py:1110
 msgid "moves to the previous grouping"
 msgstr "移到上一个分组"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1100
+#: browseMode.py:1112
 msgid "no previous grouping"
 msgstr "往上没有分组"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1106
+#: browseMode.py:1118
 msgid "moves to the next tab"
 msgstr "移到下一个选项卡"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1108
+#: browseMode.py:1120
 msgid "no next tab"
 msgstr "往下没有选项卡"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1110
+#: browseMode.py:1122
 msgid "moves to the previous tab"
 msgstr "移到上一个选项卡"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1112
+#: browseMode.py:1124
 msgid "no previous tab"
 msgstr "往上没有选项卡"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1118
+#: browseMode.py:1130
 msgid "moves to the next figure"
 msgstr "移到下一个插图"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1120
+#: browseMode.py:1132
 msgid "no next figure"
 msgstr "往下没有插图"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1122
+#: browseMode.py:1134
 msgid "moves to the previous figure"
 msgstr "移到上一个插图"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1124
+#: browseMode.py:1136
 msgid "no previous figure"
 msgstr "往上没有插图"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1130
+#: browseMode.py:1142
 msgid "moves to the next menu item"
 msgstr "移到下一个菜单项目"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1132
+#: browseMode.py:1144
 msgid "no next menu item"
 msgstr "往下没有菜单项目"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1134
+#: browseMode.py:1146
 msgid "moves to the previous menu item"
 msgstr "移到上一个菜单项目"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1136
+#: browseMode.py:1148
 msgid "no previous menu item"
 msgstr "往上没有菜单项目"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1142
+#: browseMode.py:1154
 msgid "moves to the next toggle button"
 msgstr "移到下一个切换按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1144
+#: browseMode.py:1156
 msgid "no next toggle button"
 msgstr "往下没有切换按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1146
+#: browseMode.py:1158
 msgid "moves to the previous toggle button"
 msgstr "移到上一个切换按钮"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1148
+#: browseMode.py:1160
 msgid "no previous toggle button"
 msgstr "往上没有切换按钮"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1154
+#: browseMode.py:1166
 msgid "moves to the next progress bar"
 msgstr "移到下一个进度栏"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1156
+#: browseMode.py:1168
 msgid "no next progress bar"
 msgstr "往下没有进度栏"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1158
+#: browseMode.py:1170
 msgid "moves to the previous progress bar"
 msgstr "移到上一个进度栏"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1160
+#: browseMode.py:1172
 msgid "no previous progress bar"
 msgstr "往上没有进度栏"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1166
+#: browseMode.py:1178
 msgid "moves to the next math formula"
 msgstr "移到下一个数学公式"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1168
+#: browseMode.py:1180
 msgid "no next math formula"
 msgstr "往下没有数学公式"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1170
+#: browseMode.py:1182
 msgid "moves to the previous math formula"
 msgstr "移到上一个数学公式"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1172
+#: browseMode.py:1184
 msgid "no previous math formula"
 msgstr "往上没有数学公式"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1178
+#: browseMode.py:1190
 msgid "moves to the next text paragraph"
 msgstr "移到下一个文本段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1180
+#: browseMode.py:1192
 msgid "no next text paragraph"
 msgstr "往下没有文本段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1182
+#: browseMode.py:1194
 msgid "moves to the previous text paragraph"
 msgstr "移到上一个文本段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1184
+#: browseMode.py:1196
 msgid "no previous text paragraph"
 msgstr "往上没有文本段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1191
+#: browseMode.py:1203
 msgid "moves to the next vertically aligned paragraph"
 msgstr "移到下一个垂直对齐的段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1193
+#: browseMode.py:1205
 msgid "no next vertically aligned paragraph"
 msgstr "往下没有垂直对齐的段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1195
+#: browseMode.py:1207
 msgid "moves to the previous vertically aligned paragraph"
 msgstr "移到上一个垂直对齐的段落"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1197
+#: browseMode.py:1209
 msgid "no previous vertically aligned paragraph"
 msgstr "往上没有垂直对齐的段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1204
+#: browseMode.py:1216
 msgid "moves to the next same style text"
 msgstr "移到下一处相同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1206
+#: browseMode.py:1218
 msgid "No next same style text"
 msgstr "往下没有相同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1208
+#: browseMode.py:1220
 msgid "moves to the previous same style text"
 msgstr "移到上一处相同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1210
+#: browseMode.py:1222
 msgid "No previous same style text"
 msgstr "往上没有相同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1216
+#: browseMode.py:1228
 msgid "moves to the next different style text"
 msgstr "移到下一处不同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1218
+#: browseMode.py:1230
 msgid "No next different style text"
 msgstr "往下没有不同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1220
+#: browseMode.py:1232
 msgid "moves to the previous different style text"
 msgstr "移到上一处不同样式的文本"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1222
+#: browseMode.py:1234
 msgid "No previous different style text"
 msgstr "往上没有不同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1228
+#: browseMode.py:1240
 msgid "moves to the next reference"
 msgstr "移到下一个引用标记"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1230
+#: browseMode.py:1242
 msgid "no next reference"
 msgstr "往下没有引用标记"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
-#: browseMode.py:1232
+#: browseMode.py:1244
 msgid "moves to the previous reference"
 msgstr "移到上一个引用标记"
 
 #. Translators: Message presented when the browse mode element is not found.
-#: browseMode.py:1234
+#: browseMode.py:1246
 msgid "no previous reference"
 msgstr "往上没有引用标记"
 
@@ -1647,7 +1675,7 @@ msgstr "往上没有引用标记"
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
-#: browseMode.py:1249 gui\settingsDialogs.py:3316
+#: browseMode.py:1261 gui\settingsDialogs.py:3316
 msgid "Lin&ks"
 msgstr "链接(&K)"
 
@@ -1655,42 +1683,42 @@ msgstr "链接(&K)"
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
-#: browseMode.py:1252 gui\settingsDialogs.py:3311
+#: browseMode.py:1264 gui\settingsDialogs.py:3311
 msgid "&Headings"
 msgstr "标题(&H)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1255 NVDAObjects\window\excel.py:762
+#: browseMode.py:1267 NVDAObjects\window\excel.py:762
 msgid "&Form fields"
 msgstr "表单(&F)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1258
+#: browseMode.py:1270
 msgid "&Buttons"
 msgstr "按钮(&B)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1261
+#: browseMode.py:1273
 msgid "Lan&dmarks"
 msgstr "路标(&D)"
 
 #. Translators: The title of the browse mode Elements List dialog.
-#: browseMode.py:1274
+#: browseMode.py:1286
 msgid "Elements List"
 msgstr "元素列表"
 
 #. Translators: The label of a group of radio buttons to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1285
+#: browseMode.py:1297
 msgid "Type:"
 msgstr "类型："
 
 #. Translators: The label of an editable text field to filter the elements
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1314
+#: browseMode.py:1326
 msgid "Filter b&y:"
 msgstr "查找(&Y)："
 
@@ -1698,34 +1726,34 @@ msgstr "查找(&Y)："
 #. Beware not to set an accelerator that would collide with other controls in this dialog, such as an
 #. element type radio label.
 #. Translators: a message reported when the action at the position of the review cursor or navigator object is performed.
-#: browseMode.py:1326 globalCommands.py:1765
+#: browseMode.py:1338 globalCommands.py:1765
 msgid "Activate"
 msgstr "激活"
 
 #. Translators: The label of a button to move to an element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1331
+#: browseMode.py:1343
 msgid "&Move to"
 msgstr "移动到(&M)"
 
 #. Translators: the message presented when the activateLongDescription script cannot locate a long description to activate.
-#: browseMode.py:1793
+#: browseMode.py:1805
 msgid "No long description"
 msgstr "无长描述"
 
 #. Translators: the description for the activateLongDescription script on browseMode documents.
-#: browseMode.py:1796
+#: browseMode.py:1808
 msgid "Shows the long description at this position if one is found."
 msgstr "显示所指位置的对象的长描述（如果能找到）。"
 
 #. Translators: Reported when the user attempts to move to the start or end of a container
 #. (list, table, etc.) but there is no container.
-#: browseMode.py:2259 browseMode.py:2280
+#: browseMode.py:2271 browseMode.py:2292
 msgid "Not in a container"
 msgstr "不在容器中"
 
 #. Translators: Description for the Move to start of container command in browse mode.
-#: browseMode.py:2270
+#: browseMode.py:2282
 msgid "Moves to the start of the container element, such as a list or table"
 msgstr "移到元素的开始处，例如列表或表格"
 
@@ -1735,56 +1763,56 @@ msgstr "移到元素的开始处，例如列表或表格"
 #. Translators: a message reported when review cursor is at the bottom line of the current navigator object.
 #. Translators: Reported when attempting to move to the next result in the Python Console
 #. output pane while there is no next result.
-#: browseMode.py:2289 globalCommands.py:1915 globalCommands.py:1993
+#: browseMode.py:2301 globalCommands.py:1915 globalCommands.py:1993
 #: globalCommands.py:2113 appModules\nvda.py:146
 msgid "Bottom"
 msgstr "底部"
 
 #. Translators: Description for the Move past end of container command in browse mode.
-#: browseMode.py:2298
+#: browseMode.py:2310
 msgid "Moves past the end of the container element, such as a list or table"
 msgstr "移到元素的结尾处，例如列表或表格"
 
 #. Translators: the description for the toggleScreenLayout script.
 #. Translators: the description for the toggleScreenLayout script on virtualBuffers.
-#: browseMode.py:2627 virtualBuffers\__init__.py:694
+#: browseMode.py:2639 virtualBuffers\__init__.py:694
 msgid ""
 "Toggles on and off if the screen layout is preserved while rendering the "
 "document content"
 msgstr "切换是否根据屏幕布局浏览文档内容"
 
 #. Translators: The message reported for not supported toggling of screen layout
-#: browseMode.py:2633
+#: browseMode.py:2645
 msgid "Not supported in this document."
 msgstr "在此文档不支持。"
 
 #. Translators: input help message for toggle native selection command
-#: browseMode.py:2646
+#: browseMode.py:2658
 msgid "Toggles native selection mode on and off"
 msgstr "打开或关闭应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2652
+#: browseMode.py:2664
 msgid "Native selection mode unsupported in this browse mode document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: the message when native selection mode cannot be turned off in this browse mode document.
-#: browseMode.py:2655
+#: browseMode.py:2667
 msgid "Native selection mode cannot be turned off in this browse mode document"
 msgstr "此文档无法禁用应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2667
+#: browseMode.py:2679
 msgid "Native selection mode unsupported in this document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: reported when native selection mode is toggled on.
-#: browseMode.py:2671
+#: browseMode.py:2683
 msgid "Native app selection mode enabled"
 msgstr "启用应用原生选择"
 
 #. Translators: reported when native selection mode is toggled off.
-#: browseMode.py:2679
+#: browseMode.py:2691
 msgid "Native app selection mode disabled"
 msgstr "禁用应用原生选择"
 
