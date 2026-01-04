@@ -8940,7 +8940,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 372</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The Elements List and Find dialogs no longer cause application profiles to be deactivated.</source>
         <target>修复了打开元素列表或查找对话框导致应用程序配置被意外禁用的问题。</target>
       </segment>
@@ -8949,7 +8949,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 373</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Edge, notifications like "loading complete" no longer stop say all.</source>
         <target>解决了在 Microsoft Edge 中，"加载完成"等通知会打断全文朗读的问题。</target>
       </segment>
@@ -8967,7 +8967,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 376</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When UIA is enabled, redundant table end markers are no longer brailled when the cursor is in a table cell.</source>
         <target>修复了启用 UIA 后，当光标位于表格单元格内时，会以盲文显示冗余表格结束标记的问题。</target>
       </segment>
@@ -8976,7 +8976,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 378</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>On Windows 11, NVDA will no longer announce emoji panel items twice while browsing them.</source>
         <target>修复了在 Windows 11 中，浏览表情符号面板中的项目会重复朗读的问题。</target>
       </segment>
@@ -8985,7 +8985,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 379</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Performance and reliability in the Start Menu on Windows 11 24H2 has been improved.</source>
         <target>改进了 Windows 11 24H2 开始菜单的性能和稳定性。</target>
       </segment>
@@ -8994,7 +8994,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 380</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>On Windows 11 24H2 and newer, window state will be announced when resizing windows with `Windows+arrow` keys.</source>
         <target>支持在 Windows 11 24H2 或更高版本中，使用 `Windows+光标`键调整窗口大小过程中读出窗口状态。</target>
       </segment>
@@ -9012,7 +9012,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 383</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Options have been added to report the language of the text being read, and report when the language is not supported by the current synthesizer.</source>
         <target>新增了读出正在阅读文本语言的选项，可选择在当前语音合成器不支持所朗读的文本语言时给出提示。</target>
       </segment>
@@ -9107,7 +9107,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 398</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report if the language of the text being read is not supported.</source>
         <target>遇到合成器不支持的语言时给出提示。</target>
       </segment>
@@ -9137,7 +9137,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 401</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It is now possible to route to any braille cell on the Humanware Monarch multiline braille device, using their point and click action. (#18248)</source>
         <target>Humanware Monarch 多行盲文设备支持通过点按操作定位至任意盲文单元格。(#18248)</target>
       </segment>
@@ -9287,7 +9287,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 418</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When the Elements List or Find dialog is opened, NVDA won't change the configuration profile, similar to the behavior in other NVDA dialogs. (#18160, @nvdaes)</source>
         <target>修复了打开元素列表或查找对话框会导致配置切换的问题，现在与打开其他 NVDA 对话框的行为保持一致。(#18160, @nvdaes)</target>
       </segment>
@@ -9297,7 +9297,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 419</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Edge, NVDA will no longer cancel say all when notifications such as "loading complete" are announced. (#17986, @josephsl)</source>
         <target>修复了在 Microsoft Edge 中，类似“加载完成”的通知会打断全文朗读的问题。(#17986, @josephsl)</target>
       </segment>
@@ -9307,7 +9307,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 420</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA will now warn before updating when connected as the controlled computer with NVDA Remote Access. (#18455)</source>
         <target>若作为被控计算机连接 NVDA 远程访问时，NVDA 将在更新前发出警告。(#18455)</target>
       </segment>
