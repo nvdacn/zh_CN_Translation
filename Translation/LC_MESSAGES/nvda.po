@@ -7730,7 +7730,7 @@ msgstr "稍后提醒我(&L)"
 
 #. Translators: The label of a button to close a dialog.
 #. Translators: The close button on an NVDA dialog. This button will dismiss the dialog.
-#: updateCheck.py:586 gui\addonGui.py:378
+#: updateCheck.py:586 gui\addonGui.py:371
 msgid "&Close"
 msgstr "关闭(&C)"
 
@@ -12798,14 +12798,14 @@ msgstr ""
 "插件修改已经成功应用。您必须重启 NVDA 才能使此更改生效。您要立即重启吗？"
 
 #. Translators: Title for message asking if the user wishes to restart NVDA as addons have been added or removed.
-#: gui\addonGui.py:36
+#: gui\addonGui.py:35
 msgid "Restart NVDA"
 msgstr "重新启动 NVDA"
 
 #. Translators: A button in the addon installation warning / blocked dialog which shows
 #. more information about the addon
 #. Translators: The label for a button in Add-ons Manager dialog to show information about the selected add-on.
-#: gui\addonGui.py:65 gui\addonGui.py:103 gui\addonGui.py:374
+#: gui\addonGui.py:64 gui\addonGui.py:102 gui\addonGui.py:367
 msgid "&About add-on..."
 msgstr "关于插件(&A)..."
 
@@ -12815,7 +12815,7 @@ msgstr "关于插件(&A)..."
 #. Translators: The label of a Yes button in a dialog
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. agree to enabling the curtain.
-#: gui\addonGui.py:73 gui\message.py:328 gui\startupDialogs.py:302
+#: gui\addonGui.py:72 gui\message.py:328 gui\startupDialogs.py:302
 #: screenCurtain\_screenCurtain.py:109
 msgid "&Yes"
 msgstr "是(&Y)"
@@ -12826,19 +12826,19 @@ msgstr "是(&Y)"
 #. Translators: The label of a No button in a dialog
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. disagree to enabling the curtain.
-#: gui\addonGui.py:83 gui\message.py:330 gui\startupDialogs.py:306
+#: gui\addonGui.py:82 gui\message.py:330 gui\startupDialogs.py:306
 #: screenCurtain\_screenCurtain.py:118
 msgid "&No"
 msgstr "否(&N)"
 
 #. Translators: A button in the addon installation blocked dialog which will dismiss the dialog.
 #. Translators: An ok button on a message dialog.
-#: gui\addonGui.py:111 gui\message.py:326
+#: gui\addonGui.py:110 gui\message.py:326
 msgid "OK"
 msgstr "确定"
 
 #. Translators: The message displayed when an error occurs when opening an add-on package for adding.
-#: gui\addonGui.py:143
+#: gui\addonGui.py:136
 #, python-format
 msgid ""
 "Failed to open add-on package file at %s - missing file or invalid file "
@@ -12847,13 +12847,13 @@ msgstr "无法打开 add-on 文件！ %s 文件丢失或者格式错误"
 
 #. Translators: A title for the dialog asking if the user wishes to update a previously installed
 #. add-on with this one.
-#: gui\addonGui.py:177
+#: gui\addonGui.py:170
 msgid "Add-on Installation"
 msgstr "插件安装"
 
 #. Translators: A message asking if the user wishes to update an add-on with the same version
 #. currently installed according to the version number.
-#: gui\addonGui.py:182
+#: gui\addonGui.py:175
 #, python-brace-format
 msgid ""
 "You are about to install version {newVersion} of {summary}, which appears to "
@@ -12862,7 +12862,7 @@ msgstr "插件 {summary} 的 {newVersion} 版本似乎已经安装。是否更�
 
 #. Translators: A message asking if the user wishes to update a previously installed
 #. add-on with this one.
-#: gui\addonGui.py:190
+#: gui\addonGui.py:183
 #, python-brace-format
 msgid ""
 "A version of this add-on is already installed. Would you like to update "
@@ -12871,34 +12871,34 @@ msgstr ""
 "插件 {summary} 的 {curVersion} 版本已经安装。是否更新到 {newVersion} ？"
 
 #. Translators: The title of the dialog presented while an Addon is being installed.
-#: gui\addonGui.py:238
+#: gui\addonGui.py:231
 msgid "Installing Add-on"
 msgstr "正在安装插件包"
 
 #. Translators: The message displayed while an addon is being installed.
-#: gui\addonGui.py:240
+#: gui\addonGui.py:233
 msgid "Please wait while the add-on is being installed."
 msgstr "请稍后，正在安装插件。"
 
 #. Translators: The message displayed when an error occurs when installing an add-on package.
-#: gui\addonGui.py:263
+#: gui\addonGui.py:256
 #, python-format
 msgid "Failed to install add-on from %s"
 msgstr "从 %s 安装插件时出错"
 
 #. Translators: The message displayed when an add-on cannot be installed due to NVDA running as a Windows Store app
-#: gui\addonGui.py:278
+#: gui\addonGui.py:271
 msgid "Add-ons cannot be installed in the Windows Store version of NVDA"
 msgstr "插件无法安装在 Windows 商店版本的 NVDA 中"
 
 #. Translators: The title of the Incompatible Addons Dialog
-#: gui\addonGui.py:339
+#: gui\addonGui.py:332
 msgid "Incompatible Add-ons"
 msgstr "不兼容的插件"
 
 #. Translators: The title of the Incompatible Addons Dialog.
 #. {version} will be replaced with the API version number.
-#: gui\addonGui.py:350
+#: gui\addonGui.py:343
 #, python-brace-format
 msgid ""
 "The following add-ons are incompatible with NVDA version {version}. These "
@@ -12909,22 +12909,22 @@ msgstr ""
 "进一步帮助。"
 
 #. Translators: the label for the addons list in the incompatible addons dialog.
-#: gui\addonGui.py:358
+#: gui\addonGui.py:351
 msgid "Incompatible add-ons"
 msgstr "不兼容的插件"
 
 #. Translators: The label for a column in add-ons list used to identify add-on package name (example: package is OCR).
-#: gui\addonGui.py:366
+#: gui\addonGui.py:359
 msgid "Package"
 msgstr "包名"
 
 #. Translators: The label for a column in add-ons list used to identify add-on's running status (example: status is running).
-#: gui\addonGui.py:368
+#: gui\addonGui.py:361
 msgid "Version"
 msgstr "版本"
 
 #. Translators: The label for a column in add-ons list used to provide some explanation about incompatibility
-#: gui\addonGui.py:370
+#: gui\addonGui.py:363
 msgid "Incompatible reason"
 msgstr "不兼容原因"
 
