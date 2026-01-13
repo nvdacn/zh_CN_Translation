@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-13 05:09+0000\n"
-"PO-Revision-Date: 2025-12-30 13:44+0800\n"
+"PO-Revision-Date: 2026-01-13 14:50+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14400,20 +14400,18 @@ msgstr "语音"
 
 #. Translators: Select an impairment for MathCAT
 #: gui\settingsDialogs.py:2756
-#, fuzzy
 #| msgid "alignment"
 msgctxt "math"
 msgid "Impairment:"
-msgstr "对齐"
+msgstr ""
 
 #. Translators: MathCAT language option
 #: gui\settingsDialogs.py:2768
-#, fuzzy
 #| msgctxt "math"
 #| msgid "Language"
 msgctxt "math"
 msgid "Language:"
-msgstr "语言"
+msgstr ""
 
 #. Translators: MathCAT decimal separator option.
 #: gui\settingsDialogs.py:2780
@@ -14423,19 +14421,17 @@ msgstr ""
 
 #. Translators: Select a speech style.
 #: gui\settingsDialogs.py:2795
-#, fuzzy
 #| msgid "Speech"
 msgctxt "math"
 msgid "Speech style:"
-msgstr "语音"
+msgstr ""
 
 #. Translators: MathCAT's verbosity setting
 #: gui\settingsDialogs.py:2811
-#, fuzzy
 #| msgid "&Speech viewer"
 msgctxt "math"
 msgid "Speech verbosity:"
-msgstr "朗读查看器(&S)"
+msgstr ""
 
 #. Translators: MathCAT's relative speed setting
 #: gui\settingsDialogs.py:2823
@@ -14457,11 +14453,10 @@ msgstr ""
 
 #. Translators: label for combobox to specify how verbose/terse the speech should be
 #: gui\settingsDialogs.py:2851
-#, fuzzy
 #| msgid "has formula"
 msgctxt "math"
 msgid "Chemical formulae:"
-msgstr "有公式"
+msgstr ""
 
 #. Translators: label for combobox to specify whether the expression is spoken or described (an overview)
 #: gui\settingsDialogs.py:2863
@@ -14477,11 +14472,10 @@ msgstr ""
 
 #. Translators: "Describe" the expression after moving to it
 #: gui\settingsDialogs.py:2868
-#, fuzzy
 #| msgid "Screen review"
 msgctxt "math"
 msgid "Describe overview"
-msgstr "屏幕查看模式"
+msgstr ""
 
 #. Translators: Text for the navigation group.
 #: gui\settingsDialogs.py:2882
@@ -14491,11 +14485,10 @@ msgstr ""
 
 #. Translators: label for combobox to specify one of three modes use to navigate math expressions
 #: gui\settingsDialogs.py:2889
-#, fuzzy
 #| msgid "Object navigation"
 msgctxt "math"
 msgid "Default navigation mode:"
-msgstr "对象导航"
+msgstr ""
 
 #. Translators: label for check box that determines whether MathCAT
 #. reverts to the user-selected "default navigation mode" when
@@ -14533,11 +14526,10 @@ msgstr "盲文"
 
 #. Translators: label for combobox to specify which braille code to use
 #: gui\settingsDialogs.py:2953
-#, fuzzy
 #| msgid "&Output table:"
 msgctxt "math"
 msgid "Output code:"
-msgstr "输出表(&O):"
+msgstr ""
 
 #. Translators: An option in Math settings to select a braille code automatically,
 #. according to NVDA's language.
@@ -14549,11 +14541,10 @@ msgstr "自动（{name}）"
 
 #. Translators: label for combobox to specify how braille dots should be modified when navigating/selecting subexprs
 #: gui\settingsDialogs.py:2977
-#, fuzzy
 #| msgid "Highlight navigator &object"
 msgctxt "math"
 msgid "Highlight navigation focus with dots 7 and 8"
-msgstr "高亮显示导航对象(&O)"
+msgstr ""
 
 #. Translators: This is the label for the document formatting panel.
 #. Translators: This is the label for a group of advanced options in the
