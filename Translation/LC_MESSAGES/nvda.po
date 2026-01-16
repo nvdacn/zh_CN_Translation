@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-13 05:09+0000\n"
+"POT-Creation-Date: 2026-01-16 06:21+0000\n"
 "PO-Revision-Date: 2026-01-13 14:50+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -15822,7 +15822,7 @@ msgstr "字典项目(&D)"
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 #. Translators: title for Word comment dialog.
 #: gui\speechDict.py:185 NVDAObjects\IAccessible\winword.py:375
-#: NVDAObjects\UIA\wordDocument.py:811
+#: NVDAObjects\UIA\wordDocument.py:843
 msgid "Comment"
 msgstr "注释"
 
@@ -17289,7 +17289,7 @@ msgid ""
 msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式下显示该信息。"
 
 #. Translators: a message when there is no comment to report in Microsoft Word
-#: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:815
+#: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:847
 msgid "No comments"
 msgstr "无批注"
 
@@ -17553,12 +17553,12 @@ msgid "Comment: {comment} by {author} on {date}"
 msgstr "批注： {comment} 由 {author} 创建于 {date}"
 
 #. Translators: a message when navigating by sentence is unavailable in MS Word
-#: NVDAObjects\UIA\wordDocument.py:757
+#: NVDAObjects\UIA\wordDocument.py:802
 msgid "Navigating by sentence not supported in this document"
 msgstr "当前文档不支持句子导航"
 
 #. Translators: a description for a script that reports the comment at the caret.
-#: NVDAObjects\UIA\wordDocument.py:793
+#: NVDAObjects\UIA\wordDocument.py:825
 msgid ""
 "Reports the text of the comment where the system caret is located. If "
 "pressed twice, presents the information in a browsable message"
@@ -17566,7 +17566,7 @@ msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
-#: NVDAObjects\UIA\wordDocument.py:824
+#: NVDAObjects\UIA\wordDocument.py:856
 msgid ""
 "Command not supported in this type of document. The tables have their first "
 "row cells automatically set as column headers."
@@ -17574,7 +17574,7 @@ msgstr "此类文档不支持的命令。表格的第一行单元格将被自动
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
-#: NVDAObjects\UIA\wordDocument.py:835
+#: NVDAObjects\UIA\wordDocument.py:867
 msgid ""
 "Command not supported in this type of document. The tables have their first "
 "column cells automatically set as row headers."
