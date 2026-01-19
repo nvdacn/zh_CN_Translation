@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-19 06:25+0000\n"
-"PO-Revision-Date: 2026-01-13 14:50+0800\n"
+"PO-Revision-Date: 2026-01-19 20:04+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4279,10 +4279,8 @@ msgstr "打开“按键与手势”对话框"
 
 #. Translators: Input help mode message for go to magnifier settings command.
 #: globalCommands.py:3596
-#, fuzzy
-#| msgid "Shows NVDA's general settings"
 msgid "Shows NVDA's magnifier settings"
-msgstr "打开“常规”设置"
+msgstr "打开“放大镜”设置"
 
 #. Translators: Input help mode message for the report current configuration profile command.
 #: globalCommands.py:3606
@@ -5011,30 +5009,28 @@ msgstr "开启临时黑屏，重启 NVDA 后恢复"
 
 #. Translators: Describes a command.
 #: globalCommands.py:4973
-#, fuzzy
-#| msgid "Toggle the braille cursor on and off"
 msgid "Toggles the magnifier on and off"
-msgstr "切换盲文光标的开关"
+msgstr "切换放大镜的开关"
 
 #. Translators: Describes a command.
 #: globalCommands.py:4987
 msgid "Increases the magnification level of the magnifier"
-msgstr ""
+msgstr "提高放大级别"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5001
 msgid "Decreases the magnification level of the magnifier"
-msgstr ""
+msgstr "降低放大级别"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5015
 msgid "Toggle filter of the magnifier"
-msgstr ""
+msgstr "切换颜色滤镜"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5028
 msgid "Toggle focus mode for the full-screen magnifier"
-msgstr ""
+msgstr "切换全屏聚焦模式"
 
 #. Translators: Describe a command.
 #: globalCommands.py:5041
@@ -15678,31 +15674,27 @@ msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法�
 #. Translators: This is the label for the magnifier settings panel.
 #: gui\settingsDialogs.py:5920
 msgid "Magnifier"
-msgstr ""
+msgstr "放大镜"
 
 #. Translators: The label for a setting in magnifier settings to select the default zoom level.
 #: gui\settingsDialogs.py:5934
-#, fuzzy
-#| msgid "Default output device"
 msgid "Default &zoom level:"
-msgstr "默认输出设备"
+msgstr "默认放大级别(&Z)"
 
 #. Translators: The label for a setting in magnifier settings to select the default filter
 #: gui\settingsDialogs.py:5963
-#, fuzzy
-#| msgid "Default dictionary"
 msgid "Default &filter:"
-msgstr "默认字典"
+msgstr "默认颜色滤镜(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select the default full-screen mode
 #: gui\settingsDialogs.py:5978
 msgid "Default &fullscreen mode:"
-msgstr ""
+msgstr "默认全屏模式(&F)"
 
 #. Translators: The label for a checkbox to keep the mouse pointer centered in the magnifier view
 #: gui\settingsDialogs.py:5996
 msgid "Keep &mouse pointer centered in magnifier view"
-msgstr ""
+msgstr "在放大视图中保持鼠标指针居中(&M)"
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
 #: gui\settingsDialogs.py:6020
@@ -20345,7 +20337,7 @@ msgstr "安全桌面"
 #: _magnifier\commands.py:43
 msgctxt "magnifier"
 msgid "Exiting magnifier"
-msgstr ""
+msgstr "关闭放大镜"
 
 #. Translators: Message announced when trying to start magnifier while Screen Curtain is active.
 #: _magnifier\commands.py:52
@@ -20353,7 +20345,7 @@ msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier: Screen Curtain is active. Please disable Screen "
 "Curtain first."
-msgstr ""
+msgstr "无法启动放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Message announced when starting the NVDA magnifier.
 #: _magnifier\commands.py:66
@@ -20363,34 +20355,36 @@ msgid ""
 "Starting magnifier with {zoomLevel} zoom level, {filter} filter, and "
 "{fullscreenMode} full-screen mode"
 msgstr ""
+"打开放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}，全屏模式："
+"{fullscreenMode}"
 
 #. Translators: Message announced when zooming in with {zoomLevel} being the target zoom level.
 #: _magnifier\commands.py:87
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Zooming in with {zoomLevel} level"
-msgstr ""
+msgstr "提高到 {zoomLevel} 倍"
 
 #. Translators: Message announced when zooming out with {zoomLevel} being the target zoom level.
 #: _magnifier\commands.py:104
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Zooming out with {zoomLevel} level"
-msgstr ""
+msgstr "降低到 {zoomLevel} 倍"
 
 #. Translators: Message announced when changing the color filter with {filter} being the new color filter.
 #: _magnifier\commands.py:126
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Color filter changed to {filter}"
-msgstr ""
+msgstr "{filter}颜色滤镜"
 
 #. Translators: Message announced when changing the full-screen mode with {mode} being the new full-screen mode.
 #: _magnifier\commands.py:152
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Full-screen mode changed to {mode}"
-msgstr ""
+msgstr "{mode}全屏模式"
 
 #. Translators: Message announced when trying to start spotlight mode while it's already active.
 #: _magnifier\commands.py:175
@@ -20416,7 +20410,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{zoomLevel}x"
-msgstr ""
+msgstr "{zoomLevel} 倍"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
 #: _magnifier\magnifier.py:95
@@ -20424,13 +20418,13 @@ msgctxt "magnifier"
 msgid ""
 "Cannot enable magnifier: screen curtain is active. Please disable screen "
 "curtain first."
-msgstr ""
+msgstr "无法启用放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
 #: _magnifier\magnifier.py:140
 msgctxt "magnifier"
 msgid "Magnifier is active, disabling it before enabling screen curtain"
-msgstr ""
+msgstr "已开启放大镜，开启黑屏前请先将其关闭。"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
 #: _magnifier\magnifier.py:158
@@ -20448,25 +20442,25 @@ msgstr ""
 #: _magnifier\utils\types.py:43
 msgctxt "magnifier action"
 msgid "trying to zoom in"
-msgstr ""
+msgstr "尝试放大"
 
 #. Translators: Action description for zooming out.
 #: _magnifier\utils\types.py:45
 msgctxt "magnifier action"
 msgid "trying to zoom out"
-msgstr ""
+msgstr "尝试缩小"
 
 #. Translators: Action description for toggling color filters.
 #: _magnifier\utils\types.py:47
 msgctxt "magnifier action"
 msgid "trying to toggle filters"
-msgstr ""
+msgstr "尝试切换颜色滤镜"
 
 #. Translators: Action description for changing full-screen mode.
 #: _magnifier\utils\types.py:49
 msgctxt "magnifier action"
 msgid "trying to change full-screen mode"
-msgstr ""
+msgstr "尝试更改全屏模式"
 
 #. Translators: Action description for starting spotlight mode.
 #: _magnifier\utils\types.py:51
@@ -20476,71 +20470,57 @@ msgstr ""
 
 #. Translators: Magnifier type - full-screen mode.
 #: _magnifier\utils\types.py:66
-#, fuzzy
-#| msgid "Touch screen"
 msgctxt "magnifier"
 msgid "Fullscreen"
-msgstr "触摸屏"
+msgstr "全屏"
 
 #. Translators: Magnifier type - docked mode.
 #: _magnifier\utils\types.py:68
-#, fuzzy
-#| msgid "unlocked"
 msgctxt "magnifier"
 msgid "Docked"
-msgstr "未锁定"
+msgstr "停靠"
 
 #. Translators: Magnifier type - lens mode.
 #: _magnifier\utils\types.py:70
 msgctxt "magnifier"
 msgid "Lens"
-msgstr ""
+msgstr "镜头"
 
 #. Translators: Magnifier focus mode - center mouse/focus on screen.
 #: _magnifier\utils\types.py:113
-#, fuzzy
-#| msgid "enter"
 msgctxt "magnifier"
 msgid "Center"
-msgstr "回车"
+msgstr "居中"
 
 #. Translators: Magnifier focus mode - follow focus at screen borders.
 #: _magnifier\utils\types.py:115
-#, fuzzy
-#| msgid "border"
 msgctxt "magnifier"
 msgid "Border"
-msgstr "边框"
+msgstr ""
 
 #. Translators: Magnifier focus mode - maintain relative position.
 #: _magnifier\utils\types.py:117
-#, fuzzy
-#| msgid "Selective"
 msgctxt "magnifier"
 msgid "Relative"
-msgstr "选择性注册"
+msgstr "相对"
 
 #. Translators: Magnifier color filter - no filter applied.
 #: _magnifier\utils\types.py:130
-#, fuzzy
-#| msgid "Normal view"
 msgctxt "magnifier"
 msgid "Normal"
-msgstr "常规视图"
+msgstr "正常"
 
 #. Translators: Magnifier color filter - grayscale/black and white.
 #: _magnifier\utils\types.py:132
 msgctxt "magnifier"
 msgid "Grayscale"
-msgstr ""
+msgstr "灰度"
 
 #. Translators: Magnifier color filter - inverted colors.
 #: _magnifier\utils\types.py:134
-#, fuzzy
-#| msgid "inserted"
 msgctxt "magnifier"
 msgid "Inverted"
-msgstr "已插入"
+msgstr "反转"
 
 #. Translators: Presented when attempting to mute or unmute Remote Access when connected as the controlled computer.
 #. Translators: Presented when attempting to send control+alt+delete when connected as the controlled computer.
