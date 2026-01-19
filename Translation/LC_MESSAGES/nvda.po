@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-16 02:48+0000\n"
-"PO-Revision-Date: 2026-01-16 06:56\n"
+"POT-Creation-Date: 2026-01-19 03:27+0000\n"
+"PO-Revision-Date: 2026-01-19 11:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4696,85 +4696,85 @@ msgid "Toggles the state of the screen curtain, enable to make the screen black 
 msgstr "切换黑屏的开关，开启可使屏幕变黑，关闭则正常显示屏幕内容。 按一次，临时开启黑屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
 
 #. Translators: Reported when the screen curtain is not available.
-#: globalCommands.py:4820
+#: globalCommands.py:4819
 msgid "Screen curtain not available"
 msgstr "黑屏不可用"
 
 #. Translators: Reported when the screen curtain is disabled.
-#: globalCommands.py:4866
+#: globalCommands.py:4865
 msgid "Screen curtain disabled"
 msgstr "关闭黑屏"
 
 #. Translators: Reported when the screen curtain could not be enabled.
-#: globalCommands.py:4873
+#: globalCommands.py:4872
 msgid "Could not disable screen curtain"
 msgstr "不能关闭黑屏"
 
 #. Translators: Reported when the screen curtain is enabled.
-#: globalCommands.py:4889
+#: globalCommands.py:4888
 msgid "Screen curtain enabled"
 msgstr "开启黑屏"
 
 #. Translators: Reported when the screen curtain is temporarily enabled.
-#: globalCommands.py:4892
+#: globalCommands.py:4891
 msgid "Temporary Screen curtain, enabled until next restart"
 msgstr "开启临时黑屏，重启 NVDA 后恢复"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4940
+#: globalCommands.py:4939
 msgid "Cycles through paragraph navigation styles"
 msgstr "在段落导航模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4954
+#: globalCommands.py:4953
 msgid "Cycles through sound split modes"
 msgstr "在声音拆分模式之间循环切换"
 
 #. Translators: Input help mode message for report language for caret command.
-#: globalCommands.py:4966
+#: globalCommands.py:4965
 msgctxt "reportLanguage"
 msgid "Reports the language for the text under the caret. If pressed twice, presents the information in browse mode"
 msgstr "读出光标处文本的语言。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Reported when the language of the text at caret is not defined.
-#: globalCommands.py:4981
+#: globalCommands.py:4980
 msgctxt "reportLanguage"
 msgid "Unknown language"
 msgstr "未知语言"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
-#: globalCommands.py:4992
+#: globalCommands.py:4991
 #, python-brace-format
 msgctxt "reportLanguage"
 msgid "{languageDescription} (not supported)"
 msgstr "{languageDescription}（不支持）"
 
 #. Translators: title for report caret language dialog.
-#: globalCommands.py:5001
+#: globalCommands.py:5000
 msgctxt "reportLanguage"
 msgid "Language at caret position"
 msgstr "光标处文本的语言"
 
 #. Translators: Documentation string for the script that toggles whether the output from the remote computer is muted.
-#: globalCommands.py:5006
+#: globalCommands.py:5005
 msgctxt "remote"
 msgid "Mutes or unmutes the speech coming from the remote computer"
 msgstr "静音或恢复来自远程计算机的语音"
 
 #. Translators: Documentation string for the script that sends the contents of the clipboard to the remote computer.
-#: globalCommands.py:5016
+#: globalCommands.py:5015
 msgctxt "remote"
 msgid "Sends the contents of the clipboard to the remote computer"
 msgstr "发送剪贴板的内容到远程计算机"
 
 #. Translators: Documentation string for the script that copies a link to the Remote Access session to the clipboard.
-#: globalCommands.py:5024
+#: globalCommands.py:5023
 msgctxt "remote"
 msgid "Copies a link to the current Remote Access session to the clipboard"
 msgstr "将当前远程访问会话的链接复制到剪贴板"
 
 #. Translators: Documentation string for the script that disconnects a Remote Access session.
-#: globalCommands.py:5034
+#: globalCommands.py:5033
 msgctxt "remote"
 msgid "Disconnects from the current Remote Access session"
 msgstr "断开与当前远程访问会话的连接"
@@ -4785,7 +4785,7 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: Message shown when trying to copy the link to connect to the remote computer while not connected.
 #. Translators: Message shown when attempting to send control+alt+delete when no session is connected.
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:5040 _remoteClient\client.py:135
+#: globalCommands.py:5039 _remoteClient\client.py:135
 #: _remoteClient\client.py:162 _remoteClient\client.py:184
 #: _remoteClient\client.py:200 _remoteClient\client.py:566
 msgctxt "remote"
@@ -4793,50 +4793,50 @@ msgid "Not connected"
 msgstr "未连接"
 
 #. Translators: Documentation string for the script that starts a new Remote Access session.
-#: globalCommands.py:5046
+#: globalCommands.py:5045
 msgctxt "remote"
 msgid "Connects to a remote computer"
 msgstr "连接到远程计算机"
 
 #. Translators: A message indicating that the remote client is already connected.
-#: globalCommands.py:5057
+#: globalCommands.py:5056
 msgid "Already connected"
 msgstr "已连接"
 
 #. Translators: Describes the script that creates a new Remote Access session, or disconnects it if one already exists.
-#: globalCommands.py:5063
+#: globalCommands.py:5062
 msgctxt "remote"
 msgid "Toggles whether Remote Access is connected"
 msgstr "切换远程访问的连接状态"
 
 #. Translators: Documentation string for the script that toggles the control between guest and host computers.
-#: globalCommands.py:5078
+#: globalCommands.py:5077
 msgctxt "remote"
 msgid "Switches whether the keyboard controls the local or remote computer"
 msgstr "切换键盘要控制的计算机（本地或远程）"
 
 #. Translators: Documentation string for the script that sends alt+ctrl+del to the remote computer
-#: globalCommands.py:5091
+#: globalCommands.py:5090
 msgctxt "remote"
 msgid "Sends control+alt+delete to the controlled computer."
 msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5132
+#: globalCommands.py:5131
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5137
+#: globalCommands.py:5136
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5142
+#: globalCommands.py:5141
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -4844,7 +4844,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5158
+#: globalCommands.py:5157
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -5341,14 +5341,14 @@ msgid "keyboard, all layouts"
 msgstr "键盘，所有布局"
 
 #. Translators: the label for the Windows default NVDA interface language.
-#: languageHandler.py:151
+#: languageHandler.py:157
 msgid "User default"
 msgstr "用户默认"
 
 #. Translators: The pattern defining how languages are displayed and sorted in in the general
 #. setting panel language list. Use "{desc}, {lc}" (most languages) to display first full language
 #. name and then ISO; use "{lc}, {desc}" to display first ISO language code and then full language name.
-#: languageHandler.py:282
+#: languageHandler.py:288
 #, python-brace-format
 msgid "{desc}, {lc}"
 msgstr "{desc}，{lc}"
