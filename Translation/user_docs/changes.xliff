@@ -9459,7 +9459,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When using NVDA Remote Access, speech from User Account Control screens on the remote computer now works reliably. (#18101, @jcsteh)</source>
-        <target>修复了使用远程访问时，远程计算机用户帐户控制界面的语音偶尔无声的问题。(#18101，@jcsteh)</target>
+        <target>修复了使用远程访问时，远程计算机用户用户账户控制界面的语音偶尔无声的问题。(#18101，@jcsteh)</target>
       </segment>
     </unit>
     <unit id="d20c0153-d1c5-477c-9099-28a28dbef92d">
@@ -28887,7 +28887,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Added the --copy-portable-config command line parameter that allows you to automatically copy the provided configuration to the user account when silently installing NVDA. (#9676)</source>
-        <target>增加了 --copy-portable-config 命令行参数，使用该参数，可以在静默安装便携版 NVDA 时将配置自动复制到用户帐户目录。(#9676)</target>
+        <target>增加了 --copy-portable-config 命令行参数，使用该参数，可以在静默安装便携版 NVDA 时将配置自动复制到用户账户目录。(#9676)</target>
       </segment>
     </unit>
     <unit id="4ebca734-2759-4c26-9cd5-716a1b4b7294">
@@ -29377,7 +29377,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer crashes when using English US grade 2 and expand to computer Braille at the cursor is on, when displaying certain content such as a URL in Braille. (#11754)</source>
-        <target>修复了使用“美式英语二级点字”输出表并且开启“将光标所在单词转换为电脑点字”时，使用盲文显示 URL 或某些内容而引发 NVDA 崩溃的Bug。(#11754)</target>
+        <target>修复了使用“美式英语二级盲文”输出表并且开启“将光标所在单词转换为电脑盲文”时，使用盲文显示 URL 或某些内容而引发 NVDA 崩溃的Bug。(#11754)</target>
       </segment>
     </unit>
     <unit id="e46e13db-6749-4d01-ab2e-479bf58290a4">
@@ -30703,7 +30703,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA can again read and interact with math equations in Microsoft Word. (#10803)</source>
-        <target>NVDA 现在可以再次读取 Microsoft Word 中的数学方程式并与之交互。(#10803)</target>
+        <target>NVDA 现在可以再次读取 Microsoft Word 中的数学公式并与之交互。(#10803)</target>
       </segment>
     </unit>
     <unit id="e74fdaf0-dbd4-4d50-9ac6-d6fd51dcd3e6">
@@ -33140,7 +33140,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>New braille tables: Afrikaans, Arabic 8 dot computer braille, Arabic grade 2, Spanish grade 2. (#4435, #9186)</source>
-        <target>新盲文表：南非荷兰语盲文表、阿拉伯语八点电脑点字、 阿拉伯语二级点字、西班牙语二级点字。(#4435, #9186)</target>
+        <target>新盲文表：南非荷兰语盲文表、阿拉伯语八点电脑盲文、 阿拉伯语二级盲文、西班牙语二级盲文。(#4435, #9186)</target>
       </segment>
     </unit>
     <unit id="fc80d00a-7bf5-412e-9926-f1255e708d87">
@@ -33808,7 +33808,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>New braille tables: Chinese (China, Mandarin) grade 1 and grade 2. (#5553)</source>
-        <target>新盲文表： 中文中国汉语现行点字，中文中国汉语双拼点字。(#5553)</target>
+        <target>新盲文表： 中文中国汉语现行盲文，中文中国汉语双拼盲文。(#5553)</target>
       </segment>
     </unit>
     <unit id="80cfde54-9ac8-4860-a93e-8af98e57d27b">
@@ -34295,7 +34295,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>New braille tables: Czech 8 dot, Central Kurdish, Esperanto, Hungarian, Swedish 8 dot computer braille. (#8226, #8437)</source>
-        <target>新的盲文表: 捷克语 8 点电脑点字, 中库尔德语一级点字, 世界语一级点字, 匈牙利语一级点字, 匈牙利语八点电脑点字。(#8226, #8437)</target>
+        <target>新的盲文表: 捷克语 8 点电脑盲文, 中库尔德语一级盲文, 世界语一级盲文, 匈牙利语一级盲文, 匈牙利语八点电脑盲文。(#8226, #8437)</target>
       </segment>
     </unit>
     <unit id="ad75c8b3-7c8c-4200-bcde-393d1c3a4194">
@@ -35143,7 +35143,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer fails to read focused controls in the Microsoft Account sign-in screen in Settings after entering an email address. (#7997)</source>
-        <target>修复输入电子邮件地址后，NVDA 不再无法在设置中的 Microsoft 帐户登录屏幕中朗读集中控件的 BUG。(#7997)</target>
+        <target>修复输入电子邮件地址后，NVDA 不再无法在设置中的 Microsoft 账户登录屏幕中朗读集中控件的 BUG。(#7997)</target>
       </segment>
     </unit>
     <unit id="addacd84-8a08-4399-9ab1-d41334a0cf76">
@@ -36039,7 +36039,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>New braille translation tables: Croatian grade 1, Vietnamese grade 1. (#7518, #7565)</source>
-        <target>新盲文表：克罗地亚语 1 级点字，越南语 1 级点字(#7518，#7565)</target>
+        <target>新盲文表：克罗地亚语 1 级盲文，越南语 1 级盲文(#7518，#7565)</target>
       </segment>
     </unit>
     <unit id="6f177bdd-a714-4906-a851-1adb5b4523f4">
@@ -36628,7 +36628,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>You can now enter Unicode braille characters from the braille keyboard on a braille display by selecting Unicode braille as the input table in Braille Settings. (#6449)</source>
-        <target>您现在可以通过在 点字设置里选择 Unicode 盲文表，然后使用点显器上的点字键盘的方式输入 Unicode 字符。(#6449)</target>
+        <target>您现在可以通过在 盲文设置里选择 Unicode 盲文表，然后使用点显器上的盲文键盘的方式输入 Unicode 字符。(#6449)</target>
       </segment>
     </unit>
     <unit id="ccef792c-875a-4c59-94ab-d2b9c7c0779e">
@@ -36648,7 +36648,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>New braille translation tables: Danish 8 dot computer braille, Lithuanian, Persian 8 dot computer braille, Persian grade 1, Slovenian 8 dot computer braille. (#6188, #6550, #6773, #7367)</source>
-        <target>新盲文翻译表：丹麦 8 点电脑点字，立陶宛语盲文点字，波斯语 8 点电脑点字，波斯语一级点字，斯洛维尼亚语 8 点电脑点字。(#6188,#6550,#6773,#7367)</target>
+        <target>新盲文翻译表：丹麦 8 点电脑盲文，立陶宛语盲文盲文，波斯语 8 点电脑盲文，波斯语一级盲文，斯洛维尼亚语 8 点电脑盲文。(#6188,#6550,#6773,#7367)</target>
       </segment>
     </unit>
     <unit id="1a9629c4-c791-4881-a00f-7f03100adedf">
@@ -36658,7 +36658,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Improved English (U.S.) 8 dot computer braille table, including support for bullets, the euro sign and accented letters. (#6836)</source>
-        <target>改进英文（美国） 8 点电脑盲文点字，包括支持着重号，欧元符号和重音字母。(#6836)</target>
+        <target>改进英文（美国） 8 点电脑盲文盲文，包括支持着重号，欧元符号和重音字母。(#6836)</target>
       </segment>
     </unit>
     <unit id="3c0e623c-7acf-484e-bc09-94b815e6d3a3">
@@ -36818,7 +36818,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The default braille table is now Unified English Braille Code grade 1. (#6952)</source>
-        <target>默认盲文表现在是统一英语盲文代码一级点字(#6952)</target>
+        <target>默认盲文表现在是统一英语盲文代码一级盲文(#6952)</target>
       </segment>
     </unit>
     <unit id="566c7b9d-c7d6-4b99-b76b-71ab693364d4">
@@ -40469,7 +40469,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Highlights of this release include initial support for Windows 10; the ability to disable single letter navigation in browse mode (useful for some web apps); improvements in Internet Explorer; and fixes for garbled text when typing in certain applications with braille enabled.</source>
-        <target>此次更新的亮点包括对 Windows10的初步支持，允许停用浏览模式的单键导航（对于某些  web 程序很有用），增强对 Internet Explorer 的支持，在点字输出打开的前提下输出乱码的解决。</target>
+        <target>此次更新的亮点包括对 Windows10的初步支持，允许停用浏览模式的单键导航（对于某些  web 程序很有用），增强对 Internet Explorer 的支持，在盲文输出打开的前提下输出乱码的解决。</target>
       </segment>
     </unit>
     <unit id="6ed2c515-bc3a-41c2-86e3-aa9a57f7ae1b">
@@ -40539,7 +40539,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>New braille translation tables: Finnish 6 dot, Irish grade 1, Irish grade 2, Korean grade 1 (2006), Korean grade 2 (2006). (#5137, #5074, #5097)</source>
-        <target>新的盲文翻译表: 芬兰 6 点点字、爱尔兰1级点字、爱尔兰2级点字、韩语1级点字(2006)、韩语2级点字(2006)。(#5137, #5074, #5097)</target>
+        <target>新的盲文翻译表: 芬兰 6 点盲文、爱尔兰1级盲文、爱尔兰2级盲文、韩语1级盲文(2006)、韩语2级盲文(2006)。(#5137, #5074, #5097)</target>
       </segment>
     </unit>
     <unit id="d6acbf5b-aeda-4948-8e74-83235c8ed2a9">
@@ -42276,7 +42276,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Microsoft Excel: speech and braille feedback for many more selection movement shortcuts (#4211) including:</source>
-        <target>Microsoft Excel: 为更多的移动选择命令提供语音和点字反馈 (#4211) 包括:</target>
+        <target>Microsoft Excel: 为更多的移动选择命令提供语音和盲文反馈 (#4211) 包括:</target>
       </segment>
     </unit>
     <unit id="a77bfb7f-af74-4ba6-83bf-4b8050aabd7f">
