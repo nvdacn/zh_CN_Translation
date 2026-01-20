@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-19 06:25+0000\n"
-"PO-Revision-Date: 2026-01-19 20:04+0800\n"
+"PO-Revision-Date: 2026-01-20 10:20+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5035,7 +5035,7 @@ msgstr "切换全屏聚焦模式"
 #. Translators: Describe a command.
 #: globalCommands.py:5041
 msgid "Launch spotlight if magnifier is full-screen"
-msgstr ""
+msgstr "若为全屏放大，则暂时显示完整画面"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5055
@@ -20390,13 +20390,13 @@ msgstr "{mode}全屏模式"
 #: _magnifier\commands.py:175
 msgctxt "magnifier"
 msgid "Spotlight mode is already active"
-msgstr ""
+msgstr "已显示完整画面"
 
 #. Translators: Message announced when spotlight mode is started.
 #: _magnifier\commands.py:185
 msgctxt "magnifier"
 msgid "Spotlight mode started"
-msgstr ""
+msgstr "暂时显示完整画面"
 
 #. Translators: Message announced that the magnifier is not full-screen.
 #: _magnifier\commands.py:234
@@ -20430,13 +20430,13 @@ msgstr "已开启放大镜，开启黑屏前请先将其关闭。"
 #: _magnifier\magnifier.py:158
 msgctxt "magnifier"
 msgid "Magnifier was active before screen curtain, re-enabling it"
-msgstr ""
+msgstr "已重启放大镜"
 
 #. Translators: Message announced when stopping the magnifier spotlight.
 #: _magnifier\utils\spotlightManager.py:69
 msgctxt "magnifier"
 msgid "Magnifier spotlight stopped"
-msgstr ""
+msgstr "显示放大画面"
 
 #. Translators: Action description for zooming in.
 #: _magnifier\utils\types.py:43
@@ -20466,7 +20466,7 @@ msgstr "尝试更改全屏模式"
 #: _magnifier\utils\types.py:51
 msgctxt "magnifier action"
 msgid "trying to start spotlight mode"
-msgstr ""
+msgstr "尝试显示完整画面"
 
 #. Translators: Magnifier type - full-screen mode.
 #: _magnifier\utils\types.py:66
@@ -20496,7 +20496,7 @@ msgstr "居中"
 #: _magnifier\utils\types.py:115
 msgctxt "magnifier"
 msgid "Border"
-msgstr ""
+msgstr "边缘"
 
 #. Translators: Magnifier focus mode - maintain relative position.
 #: _magnifier\utils\types.py:117
