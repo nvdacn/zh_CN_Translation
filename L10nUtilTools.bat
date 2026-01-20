@@ -472,7 +472,7 @@ if /I "%CLI:~2,1%"=="M" (
   findstr /i "%AddonName%.xliff" "%CrowdinRegistrationSourcePath%\utils\files.json" >nul
   if not !errorlevel! EQU 1 (
     set CrowdinFilePath=%AddonName%.xliff
-    set FileName=%AddonName%.xliff
+    set FileName=readme.xliff
   )
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
