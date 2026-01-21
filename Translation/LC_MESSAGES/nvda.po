@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 06:25+0000\n"
+"POT-Creation-Date: 2026-01-21 06:22+0000\n"
 "PO-Revision-Date: 2026-01-20 10:20+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -5104,9 +5104,9 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: Message shown when trying to copy the link to connect to the remote computer while not connected.
 #. Translators: Message shown when attempting to send control+alt+delete when no session is connected.
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:5155 _remoteClient\client.py:135
-#: _remoteClient\client.py:162 _remoteClient\client.py:184
-#: _remoteClient\client.py:200 _remoteClient\client.py:566
+#: globalCommands.py:5155 _remoteClient\client.py:136
+#: _remoteClient\client.py:163 _remoteClient\client.py:185
+#: _remoteClient\client.py:201 _remoteClient\client.py:596
 msgctxt "remote"
 msgid "Not connected"
 msgstr "未连接"
@@ -7870,8 +7870,11 @@ msgid ""
 "should only proceed if you have physical access to the controlled computer.\n"
 "\n"
 "Are you sure you want to continue?"
-msgstr "更新期间或更新后，当前活动连接可能无法保持。即使连接保持，您也将无法从主控计算机响应用户账户控制（UAC）提示。\n"
-"仅在您能物理访问被控计算机的情况下才可继续操作。\n\n"
+msgstr ""
+"更新期间或更新后，当前活动连接可能无法保持。即使连接保持，您也将无法从主控计"
+"算机响应用户账户控制（UAC）提示。\n"
+"仅在您能物理访问被控计算机的情况下才可继续操作。\n"
+"\n"
 "您确定要继续吗？"
 
 #. Translators: The title of a dialog.
@@ -13543,8 +13546,10 @@ msgid ""
 "the controlled computer.\n"
 "\n"
 "Are you sure you want to continue?"
-msgstr "您将无法从主控计算机响应用户账户控制（UAC）提示。\n"
-"仅在您能物理访问被控计算机的情况下才可继续操作。\n\n"
+msgstr ""
+"您将无法从主控计算机响应用户账户控制（UAC）提示。\n"
+"仅在您能物理访问被控计算机的情况下才可继续操作。\n"
+"\n"
 "您确定要继续吗？"
 
 #. Translators: The title of the Create Portable NVDA dialog.
@@ -20393,12 +20398,20 @@ msgctxt "magnifier"
 msgid "Spotlight mode started"
 msgstr "暂时显示完整画面"
 
-#. Translators: Message announced that the magnifier is not full-screen.
-#: _magnifier\commands.py:234
+#. Translators: Message announced when the magnifier is not active.
+#: _magnifier\commands.py:209
 #, python-brace-format
 msgctxt "magnifier"
-msgid "Magnifier is not full-screen when {action}"
+msgid "Cannot {action} when Magnifier is not active."
 msgstr ""
+
+#. Translators: Message announced when the magnifier is not full-screen.
+#: _magnifier\commands.py:234
+#, fuzzy, python-brace-format
+#| msgid "Launch spotlight if magnifier is full-screen"
+msgctxt "magnifier"
+msgid "Cannot {action} when Magnifier is not full-screen."
+msgstr "若为全屏放大，则暂时显示完整画面"
 
 #. Translators: Zoom level string shown in settings and messages.
 #: _magnifier\config.py:41
@@ -20408,7 +20421,7 @@ msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:95
+#: _magnifier\magnifier.py:104
 msgctxt "magnifier"
 msgid ""
 "Cannot enable magnifier: screen curtain is active. Please disable screen "
@@ -20416,13 +20429,13 @@ msgid ""
 msgstr "无法启用放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
-#: _magnifier\magnifier.py:140
+#: _magnifier\magnifier.py:149
 msgctxt "magnifier"
 msgid "Magnifier is active, disabling it before enabling screen curtain"
 msgstr "已开启放大镜，开启黑屏前请先将其关闭。"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
-#: _magnifier\magnifier.py:158
+#: _magnifier\magnifier.py:167
 msgctxt "magnifier"
 msgid "Magnifier was active before screen curtain, re-enabling it"
 msgstr "已重启放大镜"
@@ -20436,31 +20449,43 @@ msgstr "显示放大画面"
 #. Translators: Action description for zooming in.
 #: _magnifier\utils\types.py:43
 msgctxt "magnifier action"
-msgid "trying to zoom in"
-msgstr "尝试放大"
+msgid "zoom in"
+msgstr ""
 
 #. Translators: Action description for zooming out.
 #: _magnifier\utils\types.py:45
+#, fuzzy
+#| msgctxt "magnifier action"
+#| msgid "trying to zoom out"
 msgctxt "magnifier action"
-msgid "trying to zoom out"
+msgid "zoom out"
 msgstr "尝试缩小"
 
 #. Translators: Action description for toggling color filters.
 #: _magnifier\utils\types.py:47
+#, fuzzy
+#| msgctxt "magnifier action"
+#| msgid "trying to toggle filters"
 msgctxt "magnifier action"
-msgid "trying to toggle filters"
+msgid "toggle filters"
 msgstr "尝试切换颜色滤镜"
 
 #. Translators: Action description for changing full-screen mode.
 #: _magnifier\utils\types.py:49
+#, fuzzy
+#| msgctxt "magnifier action"
+#| msgid "trying to change full-screen mode"
 msgctxt "magnifier action"
-msgid "trying to change full-screen mode"
+msgid "change full-screen mode"
 msgstr "尝试更改全屏模式"
 
 #. Translators: Action description for starting spotlight mode.
 #: _magnifier\utils\types.py:51
+#, fuzzy
+#| msgctxt "magnifier action"
+#| msgid "trying to start spotlight mode"
 msgctxt "magnifier action"
-msgid "trying to start spotlight mode"
+msgid "start spotlight mode"
 msgstr "尝试显示完整画面"
 
 #. Translators: Magnifier type - full-screen mode.
@@ -20520,63 +20545,79 @@ msgstr "反转"
 #. Translators: Presented when attempting to mute or unmute Remote Access when connected as the controlled computer.
 #. Translators: Presented when attempting to send control+alt+delete when connected as the controlled computer.
 #. Translators: Presented when attempting to switch to controling a remote computer when connected as the controlled computer.
-#: _remoteClient\client.py:139 _remoteClient\client.py:203
-#: _remoteClient\client.py:570
+#: _remoteClient\client.py:140 _remoteClient\client.py:204
+#: _remoteClient\client.py:600
 msgctxt "remote"
 msgid "Not the controlling computer"
 msgstr "非主控计算机"
 
 #. Translators: Displayed when muting speech and sounds from the remote computer
-#: _remoteClient\client.py:143
+#: _remoteClient\client.py:144
 msgid "Muted remote"
 msgstr "远程静音"
 
 #. Translators: Displayed when unmuting speech and sounds from the remote computer
-#: _remoteClient\client.py:145
+#: _remoteClient\client.py:146
 msgid "Unmuted remote"
 msgstr "取消远程静音"
 
 #. Translators: Reported when performing a Remote Access action, but there are no other computers in the channel.
-#: _remoteClient\client.py:166
+#: _remoteClient\client.py:167
 msgctxt "remote"
 msgid "No one else is connected"
 msgstr "当前无其他用户连接"
 
 #. Translators: Message shown when clipboard content cannot be sent to the remote computer.
-#: _remoteClient\client.py:174
+#: _remoteClient\client.py:175
 msgctxt "remote"
 msgid "Unable to send clipboard"
 msgstr "无法发送剪贴板"
 
 #. Translators: A message indicating that a link has been copied to the clipboard.
-#: _remoteClient\client.py:189
+#: _remoteClient\client.py:190
 msgid "Copied link"
 msgstr "复制链接"
 
 #. Translators: Title of the Remote Access disconnection confirmation dialog.
-#: _remoteClient\client.py:240
+#: _remoteClient\client.py:245
 msgctxt "remote"
 msgid "Confirm Disconnection"
 msgstr "确认断开连接"
 
 #. Translators: Message shown when disconnecting from the remote computer.
-#: _remoteClient\client.py:244
+#: _remoteClient\client.py:249
 msgctxt "remote"
 msgid "Are you sure you want to disconnect from the Remote Access session?"
 msgstr "您确定要断开远程访问会话的连接吗？"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:304
+#: _remoteClient\client.py:318
 msgid "Error Connecting"
 msgstr "连接错误"
 
 #. Translators: Message shown when unable to connect to the remote computer.
-#: _remoteClient\client.py:306
+#: _remoteClient\client.py:320
+msgid "Unable to connect to the remote computer"
+msgstr "无法连接到远程计算机"
+
+#. Translators: Title of the connection error dialog.
+#: _remoteClient\client.py:333
+#, fuzzy
+#| msgid "Error Connecting"
+msgctxt "remote"
+msgid "Error Connecting"
+msgstr "连接错误"
+
+#. Translators: Message shown when unable to connect to the remote computer.
+#: _remoteClient\client.py:335
+#, fuzzy
+#| msgid "Unable to connect to the remote computer"
+msgctxt "remote"
 msgid "Unable to connect to the remote computer"
 msgstr "无法连接到远程计算机"
 
 #. Translators: Message shown when trying to connect while already connected.
-#: _remoteClient\client.py:329 _remoteClient\client.py:675
+#: _remoteClient\client.py:358 _remoteClient\client.py:705
 msgctxt "remote"
 msgid ""
 "A Remote Access session is already in progress. Disconnect before starting a "
@@ -20584,42 +20625,42 @@ msgid ""
 msgstr "远程访问会话已在进行中。开始新会话前请先断开连接。"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:332 _remoteClient\client.py:678
+#: _remoteClient\client.py:361 _remoteClient\client.py:708
 msgctxt "remote"
 msgid "Already Connected"
 msgstr "已连接"
 
 #. Translators: Title of the Remote Access connection dialog.
-#: _remoteClient\client.py:343
+#: _remoteClient\client.py:372
 msgctxt "remote"
 msgid "Connect to Another Computer"
 msgstr "连接到另一台计算机"
 
 #. Translators: Presented when connected to the remote computer.
-#: _remoteClient\client.py:390
+#: _remoteClient\client.py:419
 msgid "Connected"
 msgstr "已连接"
 
 #. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
-#: _remoteClient\client.py:574
+#: _remoteClient\client.py:604
 msgctxt "remote"
 msgid "No controlled computers are connected"
 msgstr "被控计算机未连接"
 
 #. Translators: Presented when keyboard control is back to the controlling computer.
-#: _remoteClient\client.py:588
+#: _remoteClient\client.py:618
 msgctxt "remote"
 msgid "Controlling local computer"
 msgstr "控制本地计算机"
 
 #. Translators: Presented when sending keyboard keys from the controlling computer to the controlled computer.
-#: _remoteClient\client.py:603
+#: _remoteClient\client.py:633
 msgctxt "remote"
 msgid "Controlling remote computer"
 msgstr "控制远程计算机"
 
 #. Translators: Ask the user if they want to control the remote computer.
-#: _remoteClient\client.py:693
+#: _remoteClient\client.py:723
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to control the computer on server {server} with key {key}?"
@@ -20628,7 +20669,7 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
-#: _remoteClient\client.py:699
+#: _remoteClient\client.py:729
 #, python-brace-format
 msgctxt "remote"
 msgid ""
@@ -20639,7 +20680,7 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
-#: _remoteClient\client.py:705
+#: _remoteClient\client.py:735
 msgctxt "remote"
 msgid "Remote Access Connection Request"
 msgstr "远程访问连接请求"
@@ -20910,6 +20951,10 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgctxt "magnifier action"
+#~ msgid "trying to zoom in"
+#~ msgstr "尝试放大"
 
 #~ msgctxt "imageDesc"
 #~ msgid "Image Descriptions"
