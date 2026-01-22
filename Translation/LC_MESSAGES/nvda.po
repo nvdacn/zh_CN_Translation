@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-22 00:59+0000\n"
+"POT-Creation-Date: 2026-01-22 09:24+0000\n"
 "PO-Revision-Date: 2026-01-22 09:28+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1766,45 +1766,44 @@ msgid "Moves past the end of the container element, such as a list or table"
 msgstr "移到元素的结尾处，例如列表或表格"
 
 #. Translators: the description for the toggleScreenLayout script.
-#. Translators: the description for the toggleScreenLayout script on virtualBuffers.
-#: browseMode.py:2639 virtualBuffers\__init__.py:694
+#: browseMode.py:2648
 msgid ""
 "Toggles on and off if the screen layout is preserved while rendering the "
 "document content"
 msgstr "切换是否根据屏幕布局浏览文档内容"
 
 #. Translators: The message reported for not supported toggling of screen layout
-#: browseMode.py:2645
+#: browseMode.py:2657
 msgid "Not supported in this document."
 msgstr "在此文档不支持。"
 
 #. Translators: input help message for toggle native selection command
-#: browseMode.py:2658
+#: browseMode.py:2670
 msgid "Toggles native selection mode on and off"
 msgstr "打开或关闭应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2664
+#: browseMode.py:2676
 msgid "Native selection mode unsupported in this browse mode document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: the message when native selection mode cannot be turned off in this browse mode document.
-#: browseMode.py:2667
+#: browseMode.py:2679
 msgid "Native selection mode cannot be turned off in this browse mode document"
 msgstr "此文档无法禁用应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2679
+#: browseMode.py:2691
 msgid "Native selection mode unsupported in this document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: reported when native selection mode is toggled on.
-#: browseMode.py:2683
+#: browseMode.py:2695
 msgid "Native app selection mode enabled"
 msgstr "启用应用原生选择"
 
 #. Translators: reported when native selection mode is toggled off.
-#: browseMode.py:2691
+#: browseMode.py:2703
 msgid "Native app selection mode disabled"
 msgstr "禁用应用原生选择"
 
@@ -19854,27 +19853,27 @@ msgid "Lock screen not secure while using NVDA"
 msgstr "在 NVDA 运行过程中锁定屏幕不安全"
 
 #. Translators: Reported when a page reloads (example: after refreshing a webpage).
-#: virtualBuffers\__init__.py:604
+#: virtualBuffers\__init__.py:603
 msgid "Refreshed"
 msgstr "已刷新"
 
 #. Translators: Reported while loading a document.
-#: virtualBuffers\__init__.py:619
+#: virtualBuffers\__init__.py:618
 msgid "Loading document..."
 msgstr "正在加载文档……"
 
 #. Translators: the description for the refreshBuffer script on virtualBuffers.
-#: virtualBuffers\__init__.py:689
+#: virtualBuffers\__init__.py:688
 msgid "Refreshes the document content"
 msgstr "刷新文档内容"
 
 #. Translators: Presented when use screen layout option is toggled.
-#: virtualBuffers\__init__.py:704
+#: virtualBuffers\__init__.py:696
 msgid "Use screen layout on"
 msgstr "打开屏幕布局"
 
 #. Translators: Presented when use screen layout option is toggled.
-#: virtualBuffers\__init__.py:707
+#: virtualBuffers\__init__.py:699
 msgid "Use screen layout off"
 msgstr "关闭屏幕布局"
 
