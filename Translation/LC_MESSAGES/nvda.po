@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-22 00:59+0000\n"
-"PO-Revision-Date: 2026-01-20 10:20+0800\n"
+"PO-Revision-Date: 2026-01-22 09:28+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20055,15 +20055,14 @@ msgstr "暂时显示完整画面"
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not active."
-msgstr ""
+msgstr "放大镜未开启时无法{action}。"
 
 #. Translators: Message announced when the magnifier is not full-screen.
 #: _magnifier\commands.py:234
-#, fuzzy, python-brace-format
-#| msgid "Launch spotlight if magnifier is full-screen"
+#, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not full-screen."
-msgstr "若为全屏放大，则暂时显示完整画面"
+msgstr "非全屏放大时无法{action}。"
 
 #. Translators: Zoom level string shown in settings and messages.
 #: _magnifier\config.py:41
@@ -20102,43 +20101,31 @@ msgstr "显示放大画面"
 #: _magnifier\utils\types.py:43
 msgctxt "magnifier action"
 msgid "zoom in"
-msgstr ""
+msgstr "放大"
 
 #. Translators: Action description for zooming out.
 #: _magnifier\utils\types.py:45
-#, fuzzy
-#| msgctxt "magnifier action"
-#| msgid "trying to zoom out"
 msgctxt "magnifier action"
 msgid "zoom out"
-msgstr "尝试缩小"
+msgstr "缩小"
 
 #. Translators: Action description for toggling color filters.
 #: _magnifier\utils\types.py:47
-#, fuzzy
-#| msgctxt "magnifier action"
-#| msgid "trying to toggle filters"
 msgctxt "magnifier action"
 msgid "toggle filters"
-msgstr "尝试切换颜色滤镜"
+msgstr "切换颜色滤镜"
 
 #. Translators: Action description for changing full-screen mode.
 #: _magnifier\utils\types.py:49
-#, fuzzy
-#| msgctxt "magnifier action"
-#| msgid "trying to change full-screen mode"
 msgctxt "magnifier action"
 msgid "change full-screen mode"
-msgstr "尝试更改全屏模式"
+msgstr "更改全屏模式"
 
 #. Translators: Action description for starting spotlight mode.
 #: _magnifier\utils\types.py:51
-#, fuzzy
-#| msgctxt "magnifier action"
-#| msgid "trying to start spotlight mode"
 msgctxt "magnifier action"
 msgid "start spotlight mode"
-msgstr "尝试显示完整画面"
+msgstr "显示完整画面"
 
 #. Translators: Magnifier type - full-screen mode.
 #: _magnifier\utils\types.py:66
@@ -20254,16 +20241,12 @@ msgstr "无法连接到远程计算机"
 
 #. Translators: Title of the connection error dialog.
 #: _remoteClient\client.py:333
-#, fuzzy
-#| msgid "Error Connecting"
 msgctxt "remote"
 msgid "Error Connecting"
 msgstr "连接错误"
 
 #. Translators: Message shown when unable to connect to the remote computer.
 #: _remoteClient\client.py:335
-#, fuzzy
-#| msgid "Unable to connect to the remote computer"
 msgctxt "remote"
 msgid "Unable to connect to the remote computer"
 msgstr "无法连接到远程计算机"
