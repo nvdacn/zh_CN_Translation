@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-23 09:22+0000\n"
-"PO-Revision-Date: 2026-01-22 09:28+0800\n"
+"PO-Revision-Date: 2026-01-23 18:17+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14080,7 +14080,7 @@ msgstr ""
 #: gui\settingsDialogs.py:2760
 msgctxt "math"
 msgid "Language:"
-msgstr ""
+msgstr "语言："
 
 #. Translators: MathCAT decimal separator option.
 #: gui\settingsDialogs.py:2772
@@ -16192,11 +16192,9 @@ msgstr "插件已更新，请重启 NVDA 使更改生效"
 
 #. Translators: The title of the dialog which allows users to select which add-ons to copy to the system profile.
 #: gui\addonStoreGui\controls\messageDialogs.py:668
-#, fuzzy
-#| msgid "Copy current &user configuration"
 msgctxt "addonStore"
 msgid "Copy Add-ons to System-wide Configuration"
-msgstr "拷贝当前用户配置(&U)"
+msgstr "拷贝插件到系统配置"
 
 #. Translators: Explanatory text in the dialog which allows users to select which add-ons to copy to NVDA's system config.
 #: gui\addonStoreGui\controls\messageDialogs.py:681
@@ -16210,14 +16208,17 @@ msgid ""
 "\n"
 "Check only the add-ons you wish to copy to the system-wide configuration."
 msgstr ""
+"您的 NVDA 配置中当前至少启用了一个插件。如果这些插件在安全界面运行，其将拥有"
+"高于管理员级别的系统访问权限。\n"
+"强烈建议您仅拷贝在登录和安全界面使用 NVDA 时绝对必需的插件。\n"
+"\n"
+"请仅选中您要拷贝到系统配置的插件。"
 
 #. Translators: The label of the list which allows users to select which add-ons to copy to the system profile
 #: gui\addonStoreGui\controls\messageDialogs.py:693
-#, fuzzy
-#| msgid "Add-on Store"
 msgctxt "addonStore"
 msgid "Add-ons"
-msgstr "插件商店"
+msgstr "插件"
 
 #. Translators: The label for a column in the copy add-ons dialog that displays the name of the add-on
 #. Translators: The name of the column that contains names of addons.
@@ -16237,24 +16238,18 @@ msgstr "作者"
 
 #. Translators: The label for a column in the copy add-ons dialog that displays the version of the add-on
 #: gui\addonStoreGui\controls\messageDialogs.py:703
-#, fuzzy
-#| msgid "Version"
 msgctxt "addonStore"
 msgid "Version"
 msgstr "版本"
 
 #. Translators: The label for a button in the copy add-ons dialog which will initiate the copy process
 #: gui\addonStoreGui\controls\messageDialogs.py:718
-#, fuzzy
-#| msgid "&Continue"
 msgctxt "addonStore"
 msgid "&Continue"
 msgstr "继续(&C)"
 
 #. Translators: The label for a button in the copy add-ons dialog which will abandon the copy process
 #: gui\addonStoreGui\controls\messageDialogs.py:721
-#, fuzzy
-#| msgid "Cancel"
 msgctxt "addonStore"
 msgid "Cancel"
 msgstr "取消"
@@ -16272,21 +16267,18 @@ msgid_plural ""
 "Using these add-ons during sign-in and on secure screens is a serious "
 "security risk."
 msgstr[0] ""
+"您要将 {num} 个插件拷贝到 NVDA 的系统配置。在登录期间和安全界面使用插件会带来"
+"严重的安全风险。"
 
 #. Translators: A prompt asking the user to confirm whether to perform an action.
 #: gui\addonStoreGui\controls\messageDialogs.py:801
-#, fuzzy
-#| msgctxt "remote"
-#| msgid "Are you sure you want to disconnect from the Remote Access session?"
 msgctxt "addonStore"
 msgid "Are you sure you want to continue?"
-msgstr "您确定要断开远程访问会话的连接吗？"
+msgstr "您确定要继续吗？"
 
 #. Translators: The title of the warning dialog displayed when trying to
 #. copy add-ons for use on secure screens.
 #: gui\addonStoreGui\controls\messageDialogs.py:805
-#, fuzzy
-#| msgid "Warning"
 msgctxt "addonStore"
 msgid "Warning"
 msgstr "警告"
@@ -16674,7 +16666,7 @@ msgstr ""
 #: mathPres\MathCAT\localization.py:280
 msgctxt "math"
 msgid "Automatic (Use Voice's Language)"
-msgstr ""
+msgstr "自动（使用语音语言）"
 
 #. Translators: Learning disabilities includes dyslexia and ADHD
 #. category of impairment that MathCAT supports: people with learning disabilities
@@ -16699,7 +16691,7 @@ msgstr "低视力"
 #: mathPres\MathCAT\preferences.py:48
 msgctxt "math"
 msgid "Automatic"
-msgstr ""
+msgstr "自动"
 
 #. Translators: options for decimal separator -- "Custom" = user sets it
 #. Currently there is no UI for how it is done yet, but eventually there will be a dialog that pops up to set it
