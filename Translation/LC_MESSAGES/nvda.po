@@ -5034,7 +5034,7 @@ msgstr "切换全屏聚焦模式"
 #. Translators: Describe a command.
 #: globalCommands.py:5041
 msgid "Launch spotlight if magnifier is full-screen"
-msgstr "若为全屏放大，则暂时显示完整画面"
+msgstr "若为全屏放大，则暂时显示标准视图"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5055
@@ -20041,13 +20041,13 @@ msgstr "{mode}全屏模式"
 #: _magnifier\commands.py:175
 msgctxt "magnifier"
 msgid "Spotlight mode is already active"
-msgstr "已显示完整画面"
+msgstr "已显示标准视图"
 
 #. Translators: Message announced when spotlight mode is started.
 #: _magnifier\commands.py:185
 msgctxt "magnifier"
 msgid "Spotlight mode started"
-msgstr "暂时显示完整画面"
+msgstr "暂时显示标准视图"
 
 #. Translators: Message announced when the magnifier is not active.
 #: _magnifier\commands.py:209
@@ -20094,7 +20094,7 @@ msgstr "已重启放大镜"
 #: _magnifier\utils\spotlightManager.py:69
 msgctxt "magnifier"
 msgid "Magnifier spotlight stopped"
-msgstr "显示放大画面"
+msgstr "显示放大视图"
 
 #. Translators: Action description for zooming in.
 #: _magnifier\utils\types.py:43
@@ -20124,7 +20124,7 @@ msgstr "更改全屏模式"
 #: _magnifier\utils\types.py:51
 msgctxt "magnifier action"
 msgid "start spotlight mode"
-msgstr "显示完整画面"
+msgstr "显示标准视图"
 
 #. Translators: Magnifier type - full-screen mode.
 #: _magnifier\utils\types.py:66
