@@ -16252,17 +16252,9 @@ msgstr "取消"
 #| "configuration. Using these add-ons during sign-in and on secure screens "
 #| "is a serious security risk."
 msgctxt "addonStore"
-msgid ""
-"You have selected to copy {num} add-on to NVDA's system-wide configuration. "
-"Using this add-on during sign-in and on secure screens is a serious security "
-"risk."
-msgid_plural ""
-"You have selected to copy {num} add-ons to NVDA's system-wide configuration. "
-"Using these add-ons during sign-in and on secure screens is a serious "
-"security risk."
-msgstr[0] ""
-"您要将 {num} 个插件拷贝到 NVDA 的系统配置。在登录期间和安全界面使用插件会带来"
-"严重的安全风险。"
+msgid "You have selected to copy {num} add-on to NVDA's system-wide configuration. Using this add-on during sign-in and on secure screens is a serious security risk."
+msgid_plural "You have selected to copy {num} add-ons to NVDA's system-wide configuration. Using these add-ons during sign-in and on secure screens is a serious security risk."
+msgstr[0] "您要将 {num} 个插件拷贝到 NVDA 的系统配置。在登录期间和安全界面使用插件会带来严重的安全风险。"
 
 #. Translators: A prompt asking the user to confirm whether to perform an action.
 #: gui\addonStoreGui\controls\messageDialogs.py:801
@@ -19821,12 +19813,12 @@ msgstr "Windows OneCore 语音"
 #. Translators: Description for a speech synthesizer.
 #: synthDrivers\sapi4_32.py:18
 msgid "Microsoft Speech API version 4"
-msgstr ""
+msgstr "Microsoft Speech API version 4"
 
 #. Translators: Description for a speech synthesizer.
 #: synthDrivers\sapi5_32.py:15
 msgid "Microsoft Speech API version 5 (32 bit)"
-msgstr ""
+msgstr "Microsoft Speech API version 5（32 位）"
 
 #. Translators: Description for a speech synthesizer.
 #: synthDrivers\silence.py:16
