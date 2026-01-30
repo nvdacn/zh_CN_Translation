@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-30 04:26+0000\n"
-"PO-Revision-Date: 2026-01-30 16:52+0800\n"
+"PO-Revision-Date: 2026-01-30 16:54+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -15748,11 +15748,7 @@ msgstr "取消"
 
 #. Translators: A message to warn the user when attempting to copy add-ons for use on secure screens
 #: gui\addonStoreGui\controls\messageDialogs.py:791
-#, fuzzy, python-brace-format
-#| msgctxt "addonStore"
-#| msgid "You have selected to copy 1 add-on to NVDA's system-wide configuration. Using this add-on during sign-in and on secure screens is a serious security risk."
-#| msgid_plural ""
-#| "You have selected to copy {num} add-ons to NVDA's system-wide configuration. Using these add-ons during sign-in and on secure screens is a serious security risk."
+#, python-brace-format
 msgctxt "addonStore"
 msgid "You have selected to copy {num} add-on to NVDA's system-wide configuration. Using this add-on during sign-in and on secure screens is a serious security risk."
 msgid_plural "You have selected to copy {num} add-ons to NVDA's system-wide configuration. Using these add-ons during sign-in and on secure screens is a serious security risk."
@@ -19210,27 +19206,23 @@ msgstr "整词匹配(&W)"
 
 #. Translators: A type of speech dictionary.
 #: speechDictHandler\types.py:57
-#, fuzzy
-#| msgid "Temporary dictionary"
 msgid "Temporary"
-msgstr "临时字典"
+msgstr "临时"
 
 #. Translators: A type of speech dictionary.
 #: speechDictHandler\types.py:59
 msgid "Voice specific"
-msgstr ""
+msgstr "语音"
 
 #. Translators: A type of speech dictionary.
 #: speechDictHandler\types.py:61
-#, fuzzy
-#| msgid "Default (Yes)"
 msgid "Default"
-msgstr "默认（是）"
+msgstr "默认"
 
 #. Translators: A type of speech dictionary.
 #: speechDictHandler\types.py:63
 msgid "Built-in"
-msgstr ""
+msgstr "内置"
 
 #. Translators: name of the default espeak varient.
 #: synthDrivers\_espeak.py:416
