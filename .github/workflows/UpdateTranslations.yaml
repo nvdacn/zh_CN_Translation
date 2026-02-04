@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
           ref: Uploads
       - name: Install dependencies
-        uses: ./.github/workflows/InstallDependencies
+        uses: ./.github/actions/InstallDependencies
       - name: Configure environment
         shell: pwsh
         run: |
