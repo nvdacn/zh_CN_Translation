@@ -11,15 +11,15 @@ on:
 jobs:
   Process-Translations:
     name: Upload translation to Crowdin
-    if: github.repository == 'nvdacn/zh_CN_Translation'
+    if: ${{ vars.Run_NVDA_Translations_Workflow }}
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - name: Install dependencies
-        uses: ./.github/workflows/InstallDependencies
+        uses: ./.github/actions/InstallDependencies
       - name: Configure environment
         shell: pwsh
         run: |
@@ -92,7 +92,7 @@ jobs:
           }
       - name: Manually trigger build workflow
         if: steps.check-changes.outputs.has_changes == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             await github.rest.actions.createWorkflowDispatch({

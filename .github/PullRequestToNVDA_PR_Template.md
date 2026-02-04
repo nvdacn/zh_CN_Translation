@@ -21,5 +21,3 @@ none
 
 ### Remark
 This PR is automatically created by GitHub Actions via https://github.com/{{ .Owner }}/zh_CN_Translation/commit/{{ .Commit }}
-
-@coderabbitai summary

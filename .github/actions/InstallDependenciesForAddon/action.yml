@@ -1,0 +1,20 @@
+name: Install dependencies for addon
+
+description: 'Install dependencies for addon'
+runs:
+  using: "composite"
+
+  steps:
+    - name: Checkout CrowdinRegistration repository
+      uses: actions/checkout@v6
+      with:
+        repository: nvdaaddons/CrowdinRegistration
+        ref: main
+        path: ${{ github.workspace }}/Tools/CrowdinRegistration
+        sparse-checkout: utils
+    - name: Install uv
+      uses: astral-sh/setup-uv@v6
+    - name: Prepare Python Dependencies
+      shell: cmd
+      run: |
+        uv --directory "${{ github.workspace }}\Tools\CrowdinRegistration" sync

@@ -35,7 +35,7 @@ jobs:
           echo "CACHE_KEY=nvda-sha-$current_sha" >> $GITHUB_ENV
       - name: Check SHA cache
         id: cache_sha
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .sha_cache
           key: ${{ env.CACHE_KEY }}
@@ -62,7 +62,7 @@ jobs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}
     steps:
       - name: Checkout NVDA buildVersion.py
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: nvaccess/nvda
           ref: master
@@ -78,7 +78,7 @@ jobs:
           echo "Branch=$branchName" >> $GITHUB_OUTPUT
       - name: Check branch exists
         id: check_branch
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             try {
@@ -99,7 +99,7 @@ jobs:
           result-encoding: string
       - name: Create branch
         if: steps.check_branch.outputs.result != 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const UploadsSHA = await github.rest.git.getRef({
@@ -124,12 +124,12 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           ref: ${{ needs.Determine-Branch.outputs.branch }}
       - name: Install dependencies
-        uses: ./.github/workflows/InstallDependencies
+        uses: ./.github/actions/InstallDependencies
         with:
           ref: master
           submodules: true
@@ -149,7 +149,7 @@ jobs:
           git config --global user.email "actions@github.com"
           &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
       - name: SCons MSVC Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ${{ env.SCONS_CACHE_MSVC_CONFIG }}
           key: ${{ env.SCONS_CACHE_KEY }}
@@ -172,7 +172,7 @@ jobs:
               Write-Host "No changes to commit, skipping commit and push."
           }
       - name: Upload Output
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: NVDA.pot
           path: ${{ github.workspace }}/Tools/NVDA/output/*

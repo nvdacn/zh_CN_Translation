@@ -31,17 +31,35 @@ set "CLI=%CLIPart1%%CLIPart2%"
 echo %%CLI%% is set to %CLI%, start executing the command.
 goto goto
 
-Rem 打印可用命令  
+Rem 打印欢迎语  
 :Echo
 cls
-echo 欢迎使用 L10nUtilTools，请输入要执行的操作，按回车键确认。  
+echo 欢迎使用 L10nUtilTools，请输入要执行的命令，按回车键确认。  
+echo 如需查看可用命令，请输入 help 并按回车键。  
+
+Rem 等待用户输入  
+set /p CLI=
+goto goto
+
+Rem 打印可用命令  
+:help
+cls
+echo 此工具目前支持下列命令：  
 echo GEC：生成更新日志的 html 文件；  
 echo GEU：生成用户指南的 html 文件；  
 echo GEK：生成热键快速参考的 html 文件；  
 echo GEL：生成界面翻译的 mo 文件；  
 echo GET：生成翻译测试文件（不压缩）；  
 echo GEZ：生成翻译测试文件的压缩包；  
+echo GMC：生成更新日志的 Markdown 文件；  
+echo GMU：生成用户指南的 Markdown 文件；  
+echo MHC：从先前创建的 Markdown 文档生成更新日志的 html 文件；  
+echo MHU：从先前创建的 Markdown 文档生成用户指南的 html 文件；  
+echo MXC：从先前创建的 Markdown 文档生成更新日志的 xliff 文件；  
+echo MXU：从先前创建的 Markdown 文档生成用户指南的 xliff 文件；  
 echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
+echo 按任意键继续查看...  
+Pause>Nul
 echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；  
 echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
 echo UPL：上传已翻译的 nvda.po 文件到 Crowdin；  
@@ -54,12 +72,22 @@ echo DCC：从 Crowdin 下载已翻译的 changes.xliff 文件并将其提交到
 echo DCU：从 Crowdin 下载已翻译的 userGuide.xliff 文件并将其提交到存储库；  
 echo DCL：从 Crowdin 下载已翻译的 nvda.po 文件并将其提交到存储库；  
 echo DCA：从 Crowdin 下载所有已翻译的文件并将其提交到存储库；  
+echo 按任意键继续查看...  
+Pause>Nul
+echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；  
+echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
+echo UAP：上传指定插件的界面翻译到 Crowdin；  
+echo UAM：上传指定插件的文档翻译到 Crowdin；  
+echo DAP：从 Crowdin 下载指定插件的界面翻译；  
+echo DAM：从 Crowdin 下载指定插件的文档翻译；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
-
-Rem 等待用户输入  
-set /p CLI=
+echo 有关这些命令的更多信息，请阅读 README.md 中的《L10nUtilTools.bat 的使用说明》章节。  
+choice /M "如需返回输入命令界面请按 1，退出此工具请按 0。" /c 10 /N
+set Select=%errorlevel%
+if /I "%Select%" == "1" (goto echo)
+exit /b 0
 
 Rem 初始化变量，跳转到用户输入的命令或退出  
 :goto
@@ -103,6 +131,12 @@ Rem 设置 nvdaL10nUtil 程序路径
 :GEL
 :GET
 :GEZ
+:GMC
+:GMU
+:MHC
+:MHU
+:MXC
+:MXU
 :DLL
 :DLC
 :DLU
@@ -143,6 +177,9 @@ if not defined L10nUtil (
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
 :ProcessingNVDATags
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
+if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
+if /I "%CLI:~0,2%"=="MH" (set Action=GenerateHTML)
+if /I "%CLI:~0,2%"=="MX" (set Action=GenerateXLIFF)
 if /I "%CLI:~0,2%"=="DL" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="DC" (
   cd /d "%~dp0"
@@ -268,6 +305,52 @@ if /I "%Action%" == "GenerateFiles" (goto TranslationTest)
 if /I "%Action%" == "DownloadAndCommit" (goto Commit)
 exit /b %errorlevel%
 
+Rem 生成文档的 Markdown 版本
+:GenerateMarkdown
+IF NOT EXIST "%~dp0Preview\Markdown" (MKDir "%~dp0Preview\Markdown")
+IF EXIST "%~dp0Preview\Markdown\%ShortName%.md" (del /f /q "%~dp0Preview\Markdown\%ShortName%.md")
+%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0Preview\Markdown\%ShortName%.md"
+set ExitCode=!errorlevel!
+goto Quit
+
+Rem 从 Markdown 文件生成 HTML 文件  
+:GenerateHTML
+IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
+%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0Preview\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
+set ExitCode=!errorlevel!
+goto Quit
+
+Rem 从 Markdown 文档生成 xliff
+:GenerateXLIFF
+set NVDASourceCodePath=%~dp0Tools\NVDA
+IF NOT EXIST "%NVDASourceCodePath%" (
+  set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%NVDASourceCodePath%
+  set VerifyFile=source\markdownTranslate.py
+  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+:NVDASourceCodePathSetSuccessfully
+powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
+if %errorlevel% neq 0 (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+  echo 请按任意键退出...
+  Pause>Nul
+  exit /b 1
+)
+IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
+uv --directory "%NVDASourceCodePath%" run "%NVDASourceCodePath%\source\markdownTranslate.py" translateXliff -x "%NVDASourceCodePath%\user_docs\en\%FileName%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+set ExitCode=%errorlevel%
+goto Quit
+
 Rem 从 Crowdin 下载已翻译的文件  
 :DownloadFiles
 :DownloadAndCommit
@@ -330,12 +413,13 @@ if /I "%Type%"=="Docs" (
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem 处理针对插件翻译的标签，初始化变量  
+Rem 处理针对插件翻译的标签，初始化变量及运行环境  
+:GMX
 :MXX
 :UAP
-:UAX
+:UAM
 :DAP
-:DAX
+:DAM
 set AddonName=%2
 if not defined AddonName (
   cls
@@ -351,7 +435,23 @@ IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
   goto SetPersonalSourcePath
 )
 :CrowdinRegistrationPathSetSuccessfully
-set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
+IF NOT EXIST "%CrowdinRegistrationSourcePath%\miscDeps" (
+  MKDir "%CrowdinRegistrationSourcePath%\miscDeps\tools"
+  echo *>"%CrowdinRegistrationSourcePath%\miscDeps\.gitignore"
+  MKLINK /H "%CrowdinRegistrationSourcePath%\miscDeps\tools\msgfmt.exe" "%~dp0Tools\msgfmt.exe"
+)
+set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
+if NOT "%GITHUB_ACTIONS%" == "true" (
+  uv --directory "%CrowdinRegistrationSourcePath%" sync
+  if !errorlevel! neq 0 (
+    mshta "javascript:new ActiveXObject('wscript.shell').popup('CrowdinRegistration 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+    echo 请按任意键退出...
+    Pause>Nul
+    exit /b 1
+  )
+  cls
+)
+if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
@@ -363,6 +463,17 @@ if /I "%CLI:~2,1%"=="P" (
 if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
+  set ShortName=readme
+)
+if /I "%CLI:~2,1%"=="M" (
+  set CrowdinFilePath=%AddonName%.md
+  set FileName=readme.md
+  set ShortName=readme
+  findstr /i "%AddonName%.xliff" "%CrowdinRegistrationSourcePath%\utils\files.json" >nul
+  if not !errorlevel! EQU 1 (
+    set CrowdinFilePath=%AddonName%.xliff
+    set FileName=%AddonName%.xliff
+  )
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
@@ -370,7 +481,7 @@ goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
-Python "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
+uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\addons\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
 set ExitCode=%errorlevel%
 if %ExitCode% neq 0 (goto Quit)
 move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
@@ -390,9 +501,9 @@ goto %PathSetSuccessfully%
 
 Rem 清理本工具生成的所有文件  
 :CLE
-rd /s /q "%~dp0PotXliff"
-rd /s /q "%~dp0Preview"
-Git restore PotXliff/* Preview/*
+git clean -fX "%~dp0PotXliff"
+git clean -fX "%~dp0Preview"
+git clean -fX "%~dp0Translation\Addons"
 set ExitCode=%errorlevel%
 goto Quit
 

@@ -22,7 +22,7 @@ runs:
 
   steps:
     - name: Checkout NVDA repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         repository: nvaccess/nvda.git
         ref: ${{ inputs.ref }}
@@ -31,7 +31,7 @@ runs:
     - name: Cache gettext
       id: cache-gettext
       if: ${{ inputs.Download-gettext == 'true' }}
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: ${{ github.workspace }}/PotXliff/Temp/gettext.zip
         key: gettext.zip
@@ -43,11 +43,6 @@ runs:
         file-name: gettext.zip
         location: ${{ github.workspace }}/PotXliff/Temp
         sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        architecture: x86
     - name: Install uv
       uses: astral-sh/setup-uv@v5
     - name: Create Python virtual environment
@@ -55,6 +50,8 @@ runs:
       run: |
         if not "${{ inputs.submodules }}"=="true" (
           cd /d "${{ github.workspace }}\Tools\NVDA"
+          git submodule update --init include/nvda-mathcat
           git submodule update --init miscDeps
         )
-        uv sync --directory "${{ github.workspace }}\Tools\NVDA"
+        echo UV_MANAGED_PYTHON=true>> "%GITHUB_ENV%"
+        uv --managed-python --directory "${{ github.workspace }}\Tools\NVDA" sync

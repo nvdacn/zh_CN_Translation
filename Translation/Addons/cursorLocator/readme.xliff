@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/cursorLocator/d1bc7cd22845a1264f4d7f6c869c6b0d9e6dcf7a/readme.md">
+    <skeleton>
+# $(ID:437b2e0d-73f7-417d-8a72-0e6651d8135e)
+* $(ID:13501259-993a-4893-9bdf-a24cfaf7be83)
+
+$(ID:a72d2733-fb65-41e8-bfb0-044a2e4cb7e0)
+
+$(ID:80c8938d-a217-43bf-9fda-0a7815c70617)
+
+## $(ID:7da24f33-d8e7-4667-b55c-5564b753e2fa)
+
+$(ID:baac2337-e4b6-420b-bbed-e45ead14a418)
+
+$(ID:ca008998-bb81-4c62-a6fe-6afe1c098019)
+
+* $(ID:2c7311ac-37a0-4d6e-be12-522d1bf0a271)
+* $(ID:55e6cc1e-aa94-4fc0-8192-c97ac2389862)
+* $(ID:1d9b9c4f-629d-437a-a93a-d60afb4f46fc)
+* $(ID:64c1a316-bc31-4a99-908a-6a041f05a6c5)
+* $(ID:a902b4a4-fa50-48d6-9237-e89fea430df5)
+* $(ID:f066ab70-14fc-473d-be5d-c828dbe5e169)
+* $(ID:dd53a78c-d2ff-4f28-ac6f-4eb6b59390a4)
+* $(ID:9c734a9e-18cb-4b0a-bcaf-b276802b533b)
+* $(ID:295e1261-b089-4886-9e5b-f76fce58e48a)
+
+## $(ID:c68fb320-194b-4656-be03-dc07956ebba0)
+
+$(ID:6d643a32-5aa4-41a9-804e-cd2d8cb028e5)
+
+* $(ID:f340a9e7-1657-42be-8fc7-f4e08640abca)
+* $(ID:fa93e5eb-13a0-4c64-8c2c-39c20fe9d06f)
+
+## $(ID:f4aa7135-6834-4cae-aab8-21f7653262c5)
+* $(ID:058b014e-9b51-47f1-beeb-b596b89ec58e)
+
+## $(ID:2dec7a5a-7e8d-4259-93e2-60b3465a3b8a)
+* $(ID:260d0a73-48aa-48d6-b46d-7ab91e1e5f3e)
+* $(ID:ad0e8f10-6b35-4e7e-8df0-0e114abdb76f)
+
+## $(ID:75eda8df-4448-4a09-8463-e59c051a90e7)
+* $(ID:56d7d0fa-b442-434e-899a-92949a3a0e86)
+
+
+
+</skeleton>
+    <unit id="437b2e0d-73f7-417d-8a72-0e6651d8135e">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="final">
+        <source>Cursor Locator #</source>
+        <target>Cursor Locator #</target>
+      </segment>
+    </unit>
+    <unit id="13501259-993a-4893-9bdf-a24cfaf7be83">
+      <notes>
+        <note appliesTo="source">line: 3</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Authors: Noelia Ruiz Martínez, Sergio Gómez Codina.</source>
+        <target>作者：Noelia Ruiz Martínez、Sergio Gómez Codina。</target>
+      </segment>
+    </unit>
+    <unit id="a72d2733-fb65-41e8-bfb0-044a2e4cb7e0">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+      </notes>
+      <segment state="final">
+        <source>This add-on makes possible to know the position of the system caret respect to the start of the current line, while typing to add text in documents or multiline controls.</source>
+        <target>此插件可以在文档或多行控件中输入文本时了解系统光标相对于当前行开头的位置。</target>
+      </segment>
+    </unit>
+    <unit id="80c8938d-a217-43bf-9fda-0a7815c70617">
+      <notes>
+        <note appliesTo="source">line: 7</note>
+      </notes>
+      <segment state="final">
+        <source>This feature deppends on the visual appearance of applications. Therefore, you may need to disable line adjustment or configure the add-on for different programs.</source>
+        <target>此功能取决于应用程序的视觉外观。因此，您可能需要禁用对行的调整或为不同的程序配置插件。</target>
+      </segment>
+    </unit>
+    <unit id="7da24f33-d8e7-4667-b55c-5564b753e2fa">
+      <notes>
+        <note appliesTo="source">line: 9</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Cursor Locator settings ##</source>
+        <target>Cursor Locator 设置 ##</target>
+      </segment>
+    </unit>
+    <unit id="baac2337-e4b6-420b-bbed-e45ead14a418">
+      <notes>
+        <note appliesTo="source">line: 11</note>
+      </notes>
+      <segment state="final">
+        <source>This panel is available from NVDA's menu, Preferences submenu, Settings dialog.</source>
+        <target>此面板可从 NVDA 的菜单、选项子菜单、设置对话框中找到。</target>
+      </segment>
+    </unit>
+    <unit id="ca008998-bb81-4c62-a6fe-6afe1c098019">
+      <notes>
+        <note appliesTo="source">line: 13</note>
+      </notes>
+      <segment state="final">
+        <source>It provides the following options:</source>
+        <target>它提供以下选项：</target>
+      </segment>
+    </unit>
+    <unit id="2c7311ac-37a0-4d6e-be12-522d1bf0a271">
+      <notes>
+        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Report line length: You can type or choose a line length (number of characters between 0 and 600), which will be announced by a hight tone when it's reached. (The default value is 80 characters).</source>
+        <target>提示行长度：您可以输入或选择行长度（字符数介于 0 到 600 之间），达到时会以高音宣布。 （默认值为 80 个字符）。</target>
+      </segment>
+    </unit>
+    <unit id="55e6cc1e-aa94-4fc0-8192-c97ac2389862">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Maximum number of beeps for start of line notification: You can type or select a value between 0 and 600. The default value is 0.</source>
+        <target>行首提示的最大哔声次数：您可以键入或选择 0 到 600 之间的值。默认值为 0。</target>
+      </segment>
+    </unit>
+    <unit id="1d9b9c4f-629d-437a-a93a-d60afb4f46fc">
+      <notes>
+        <note appliesTo="source">line: 17</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Maximum number of beeps for end of line notification: You can type or select a value between 0 and 600. The default value is 0.</source>
+        <target>行尾提示的最大哔声次数：您可以键入或选择 0 到 600 之间的值。默认值为 0。</target>
+      </segment>
+    </unit>
+    <unit id="64c1a316-bc31-4a99-908a-6a041f05a6c5">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Pitch of sound for start of line: You can type or select a value between 20 and 20000. (The default value is 400 hertzs).</source>
+        <target>行首提示的音高：您可以键入或选择一个介于 20 和 20000 之间的值。（默认值为 400 赫兹）。</target>
+      </segment>
+    </unit>
+    <unit id="a902b4a4-fa50-48d6-9237-e89fea430df5">
+      <notes>
+        <note appliesTo="source">line: 19</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Length of sound for start of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).</source>
+        <target>行首提示的声音长度：您可以键入或选择一个介于 20 和 2000 之间的值。（默认值为 50 毫秒）。</target>
+      </segment>
+    </unit>
+    <unit id="f066ab70-14fc-473d-be5d-c828dbe5e169">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Test sound for start of line: Press this button to test the configured sound for start of line.</source>
+        <target>测试行首声音：按下此按钮可测试配置的行首声音。</target>
+      </segment>
+    </unit>
+    <unit id="dd53a78c-d2ff-4f28-ac6f-4eb6b59390a4">
+      <notes>
+        <note appliesTo="source">line: 21</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Pitch of sound for end of line: You can type or select a value between 20 and 20000. (The default value is 1000 hertzs).</source>
+        <target>行尾提示音高：您可以键入或选择一个介于 20 和 20000 之间的值。（默认值为 1000 赫兹）。</target>
+      </segment>
+    </unit>
+    <unit id="9c734a9e-18cb-4b0a-bcaf-b276802b533b">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Length of sound for end of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).</source>
+        <target>行尾提示的声音长度：您可以键入或选择一个介于 20 和 2000 之间的值。（默认值为 50 毫秒）。</target>
+      </segment>
+    </unit>
+    <unit id="295e1261-b089-4886-9e5b-f76fce58e48a">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Test sound for end of line: Press this button to test the configured sound for end of line.</source>
+        <target>测试行尾声音：按下此按钮可测试配置的行尾声音。</target>
+      </segment>
+    </unit>
+    <unit id="c68fb320-194b-4656-be03-dc07956ebba0">
+      <notes>
+        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Commands ##</source>
+        <target>命令 ##</target>
+      </segment>
+    </unit>
+    <unit id="6d643a32-5aa4-41a9-804e-cd2d8cb028e5">
+      <notes>
+        <note appliesTo="source">line: 27</note>
+      </notes>
+      <segment state="final">
+        <source>You can modify the gestures to the following commands trought the NVDA's menu, Preferences submenu, Input gestures dialog:</source>
+        <target>您可以通过 NVDA 的菜单、选项子菜单、按键与手势对话框将手势修改为以下命令：</target>
+      </segment>
+    </unit>
+    <unit id="f340a9e7-1657-42be-8fc7-f4e08640abca">
+      <notes>
+        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA+control+shift+l: When possible, reports the lenght of the current line (System caret category).</source>
+        <target>NVDA+control+shift+l：如果可能，报告当前行的长度（系统输入焦点）。</target>
+      </segment>
+    </unit>
+    <unit id="fa93e5eb-13a0-4c64-8c2c-39c20fe9d06f">
+      <notes>
+        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Not assigned: Shows the Cursor Locator settings dialog (Config category).</source>
+        <target>未分配：显示 Cursor Locator 设置对话框（配置）。</target>
+      </segment>
+    </unit>
+    <unit id="f4aa7135-6834-4cae-aab8-21f7653262c5">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 3.0 ##</source>
+        <target>3.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="058b014e-9b51-47f1-beeb-b596b89ec58e">
+      <notes>
+        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Compatible with NVDA 2023.1.</source>
+        <target>兼容 NVDA 2023.1。</target>
+      </segment>
+    </unit>
+    <unit id="2dec7a5a-7e8d-4259-93e2-60b3465a3b8a">
+      <notes>
+        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 2.0 ##</source>
+        <target>2.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="260d0a73-48aa-48d6-b46d-7ab91e1e5f3e">
+      <notes>
+        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added ability to repeat notifications when reaching end and start of line.</source>
+        <target>添加了在到达行尾和行首时重复提示的功能。</target>
+      </segment>
+    </unit>
+    <unit id="ad0e8f10-6b35-4e7e-8df0-0e114abdb76f">
+      <notes>
+        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added support for Office documents, and Notepad on Windows 11.</source>
+        <target>在 Windows 11 上添加了对 Office 文档和记事本的支持。</target>
+      </segment>
+    </unit>
+    <unit id="75eda8df-4448-4a09-8463-e59c051a90e7">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 1.0 ##</source>
+        <target>1.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="56d7d0fa-b442-434e-899a-92949a3a0e86">
+      <notes>
+        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Initial version</source>
+        <target>初始版本</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
