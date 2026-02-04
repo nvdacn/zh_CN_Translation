@@ -79,7 +79,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ needs.Determine-Branch.outputs.branch }}
       - name: Install dependencies
-        uses: ./.github/workflows/InstallDependenciesForAddon
+        uses: ./.github/actions/InstallDependenciesForAddon
       - name: Configure environment
         shell: pwsh
         run: |
