@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-04 01:07+0000\n"
-"PO-Revision-Date: 2026-01-30 16:54+0800\n"
+"PO-Revision-Date: 2026-02-04 09:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19777,24 +19777,22 @@ msgstr "整词匹配(&W)"
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
 #: speechDictHandler\types.py:48
 msgid "&Part of word"
-msgstr ""
+msgstr "部分匹配(&P)"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
 #: speechDictHandler\types.py:50
-#, fuzzy
-#| msgid "Start marked"
 msgid "&Start of word"
-msgstr "开始点已标记"
+msgstr "匹配词首(&S)"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
 #: speechDictHandler\types.py:52
 msgid "E&nd of word"
-msgstr ""
+msgstr "匹配词尾(&N)"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
 #: speechDictHandler\types.py:54
 msgid "&Unix shell-style wildcards"
-msgstr ""
+msgstr "Unix shell 风格通配符(&U)"
 
 #. Translators: A type of speech dictionary.
 #: speechDictHandler\types.py:74
