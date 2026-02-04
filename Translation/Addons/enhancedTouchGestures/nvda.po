@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-09-05 14:28+0000\n"
-"PO-Revision-Date: 2025-09-05 23:44\n"
+"POT-Creation-Date: 2026-02-02 03:47+0000\n"
+"PO-Revision-Date: 2026-02-04 08:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,33 +17,40 @@ msgstr ""
 "X-Crowdin-File: enhancedTouchGestures.pot\n"
 "X-Crowdin-File-ID: 210\n"
 
+#. Translators: dialog title shown when trying to install the add-on on unsupported systems.
+#: addon/installTasks.py:24
+msgid "Enhanced Touch Gestures install warning"
+msgstr "触摸屏手势增强安装警告"
+
+#. No touch hardware whatsoever
+#. Translators: dialog text shown when trying to install the add-on on unsupported systems.
+#: addon/installTasks.py:29
+msgid "This device does not support touch interaction. A touch capable device is required to use add-on features."
+msgstr "此设备不支持触摸交互。需要具有触摸屏的设备才能使用插件功能。"
+
+#. Portable NVDA running on a touch capable hardware
+#. Translators: dialog text shown when trying to install the add-on on unsupported systems.
+#: addon/installTasks.py:33
+msgid "You are using a portable copy of NVDA and the device supports touch interaction. NVDA must be installed to use add-on features."
+msgstr "您正在使用 NVDA 便携版，该设备支持触摸交互。必须安装 NVDA 才能使用插件功能。"
+
 #. Translators: The gestures category for this add-on in input gestures dialog (2013.3 or later).
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon/globalPlugins/enhancedTouchGestures.py:33 buildVars.py:21
+#: addon/globalPlugins/enhancedTouchGestures.py:40 buildVars.py:21
 msgid "Enhanced Touch Gestures"
 msgstr "触摸屏手势增强"
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:250
-msgid "Toggles touch keyboard"
-msgstr "切换触摸键盘"
-
-#. Translators: message shown when touch keyboard button is not found.
-#: addon/globalPlugins/enhancedTouchGestures.py:264
-msgid "Cannot activate touch keyboard"
-msgstr "无法激活触摸键盘"
+#: addon/globalPlugins/enhancedTouchGestures.py:265
+msgid "Emulates pressing tab on the system keyboard"
+msgstr "在系统键盘上模拟按下 Tab 键"
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:269
-msgid "Toggles voice dictation"
-msgstr "切换语音听写"
-
-#. Translators: message shown when dictation command is unavailable.
-#: addon/globalPlugins/enhancedTouchGestures.py:280
-msgid "Dictation is supported on Windows 10 Version 1709 or later"
-msgstr "Windows 10 版本 1709 或更高支持听写"
+#: addon/globalPlugins/enhancedTouchGestures.py:273
+msgid "Emulates pressing shift+tab on the system keyboard"
+msgstr "在系统键盘上模拟按下 Shift+Tab 键"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
@@ -56,6 +63,22 @@ msgstr "一套附加的触摸手势，涵盖了导航和帮助命令。\n"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
-msgid "* Made the add-on code more robust with help from Pyright (a Python static type checker)."
-msgstr "* 在Pyright（Python静态类型检查器）的帮助下，使插件代码更加健壮。"
+msgid "* NVDA 2025.3.2 or later is required.\n"
+"* A warning will be presented when installing the add-on on computers without touchscreens or portable NVDA version is in use.\n"
+"* Gestures from the add-on will not be shown in input gestures dialog when the add-on is installed on a portable NVDA version.\n"
+"* Touch gesture changes, including pressing Tab (three finger flick right), pressing Shift+Tab (three finger flick left), reporting focused object (four finger flick left), and reporting navigator object (four finger flick right).\n"
+"* Removed touch keyboard and dictation toggle gestures due to reliability issues with the former and dictation being replaced by Voice Access in Windows 11.\n"
+"* Removed progress bar output settings toggle gesture (one finger triple tap).\n"
+"* Added screen curtain toggle gesture (three finger triple tap).\n"
+"* Read current window gesture (three finger flick down) will be limited to object touch mode.\n"
+"* Added embedded object and text paragraph navigation to web touch mode."
+msgstr "* 需要 NVDA 2025.3.2 或更高版本。\n"
+"* 在没有触摸屏或使用便携版 NVDA 的计算机上安装此插件时，将显示警告。\n"
+"* 在便携版 NVDA 安装此插件时，插件的相关手势不会显示在按键与手势对话框中。\n"
+"* 触摸手势更改，包括：按下 Tab 键（三指右滑）、按下 Shift+Tab 键（三指左滑）、朗读焦点对象（四指左滑）以及朗读导航对象（四指右滑）。\n"
+"* 移除了触摸键盘和听写开关手势，因触摸键盘存在可靠性问题，且 Windows 11 中听写功能已被语音访问取代。\n"
+"* 移除了进度条输出设置开关手势（单指三击）。\n"
+"* 新增了黑屏开关手势（三指三击）。\n"
+"* 朗读当前窗口手势（三指下滑）将仅可在对象触摸模式使用。\n"
+"*在网页触摸模式下添加了嵌入式对象和文本段落导航功能。"
 
