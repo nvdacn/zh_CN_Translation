@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-03 04:30+0000\n"
+"POT-Creation-Date: 2026-02-04 01:07+0000\n"
 "PO-Revision-Date: 2026-01-30 16:54+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2245,7 +2245,7 @@ msgstr "请输入您要查找的文本"
 
 #. Translators: An option in find dialog to perform case-sensitive search.
 #. Translators: This is a label for a checkbox in add dictionary entry dialog.
-#: cursorManager.py:60 gui\speechDict.py:56
+#: cursorManager.py:60 gui\speechDict.py:60
 msgid "Case &sensitive"
 msgstr "匹配大小写(&S)"
 
@@ -5644,7 +5644,7 @@ msgstr "%s 未知"
 #. Translators: a state that denotes a control is currently on
 #. E.g. a switch control.
 #: keyboardHandler.py:633 synthSettingsRing.py:117 controlTypes\state.py:202
-#: gui\speechDict.py:191
+#: gui\speechDict.py:195
 msgid "on"
 msgstr "开"
 
@@ -5653,7 +5653,7 @@ msgstr "开"
 #. which disables reporting of progress bars.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
 #: keyboardHandler.py:633 synthSettingsRing.py:117 controlTypes\state.py:231
-#: gui\settingsDialogs.py:2379 gui\speechDict.py:191
+#: gui\settingsDialogs.py:2379 gui\speechDict.py:195
 msgid "off"
 msgstr "关"
 
@@ -12969,13 +12969,13 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:6393 gui\speechDict.py:208
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:6393 gui\speechDict.py:212
 msgid "&Add"
 msgstr "添加(&A)"
 
 #. Translators: The label of a button to remove a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in speech dictionaries dialog to remove existing entries.
-#: gui\inputGestures.py:620 gui\speechDict.py:220
+#: gui\inputGestures.py:620 gui\speechDict.py:224
 msgid "&Remove"
 msgstr "移除(&R)"
 
@@ -15410,7 +15410,7 @@ msgstr "符号"
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:6338 gui\speechDict.py:184
+#: gui\settingsDialogs.py:6338 gui\speechDict.py:188
 msgid "Replacement"
 msgstr "替换文本"
 
@@ -15433,7 +15433,7 @@ msgstr "更改所选符号"
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6365 gui\speechDict.py:48
+#: gui\settingsDialogs.py:6365 gui\speechDict.py:52
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
@@ -15460,113 +15460,113 @@ msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
 
 #. Translators: This is the label for the edit dictionary entry dialog.
-#: gui\speechDict.py:37
+#: gui\speechDict.py:41
 msgid "Edit Dictionary Entry"
 msgstr "修改字典项目"
 
 #. Translators: This is a label for an edit field in add dictionary entry dialog.
-#: gui\speechDict.py:43
+#: gui\speechDict.py:47
 msgid "&Pattern"
 msgstr "原文本(&P)"
 
 #. Translators: This is a label for an edit field in add dictionary entry dialog.
-#: gui\speechDict.py:52
+#: gui\speechDict.py:56
 msgid "&Comment"
 msgstr "注释(&C)"
 
 #. Translators: This is a label for a set of radio buttons in add dictionary entry dialog.
-#: gui\speechDict.py:60
+#: gui\speechDict.py:64
 msgid "&Type"
 msgstr "类型(&T)"
 
 #. Translators: This is an error message to let the user know that the pattern field
 #. in the dictionary entry is not valid.
-#: gui\speechDict.py:86
+#: gui\speechDict.py:90
 msgid "A pattern is required."
 msgstr "必须提供来源文本特征."
 
 #. Translators: The title of an error message raised by the Dictionary Entry dialog
-#: gui\speechDict.py:88 gui\speechDict.py:111 gui\speechDict.py:129
+#: gui\speechDict.py:92 gui\speechDict.py:115 gui\speechDict.py:133
 msgid "Dictionary Entry Error"
 msgstr "字典条目错误"
 
 #. Translators: This is an error message to let the user know that the dictionary entry is not valid.
-#: gui\speechDict.py:109
+#: gui\speechDict.py:113
 #, python-brace-format
 msgid "Regular Expression error in the pattern field: \"{error}\"."
 msgstr "原文本中的正则表达式错误：“{error}”。"
 
 #. Translators: This is an error message to let the user know that the dictionary entry is not valid.
-#: gui\speechDict.py:127
+#: gui\speechDict.py:131
 #, python-brace-format
 msgid "Regular Expression error in the replacement field: \"{error}\"."
 msgstr "替换文本中的正则表达式错误：“{error}”。"
 
 #. Translators: The label for the list box of dictionary entries in speech dictionary dialog.
-#: gui\speechDict.py:171
+#: gui\speechDict.py:175
 msgid "&Dictionary entries"
 msgstr "字典项目(&D)"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 #. Translators: title for Word comment dialog.
-#: gui\speechDict.py:178 NVDAObjects\IAccessible\winword.py:375
+#: gui\speechDict.py:182 NVDAObjects\IAccessible\winword.py:375
 #: NVDAObjects\UIA\wordDocument.py:843
 msgid "Comment"
 msgstr "注释"
 
 #. Translators: The label for a column in dictionary entries list used to identify pattern
 #. (original word or a pattern).
-#: gui\speechDict.py:181
+#: gui\speechDict.py:185
 msgid "Pattern"
 msgstr "原文本"
 
 #. Translators: The label for a column in dictionary entries list used to identify
 #. whether the entry is case sensitive or not.
-#: gui\speechDict.py:187
+#: gui\speechDict.py:191
 msgid "case"
 msgstr "大小写匹配"
 
 #. Translators: The label for a column in dictionary entries list used to identify
 #. whether the entry is a regular expression, matches whole words, or matches anywhere.
-#: gui\speechDict.py:190
+#: gui\speechDict.py:194
 msgid "Type"
 msgstr "类型"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-#: gui\speechDict.py:214
+#: gui\speechDict.py:218
 msgid "&Edit"
 msgstr "编辑(&E)"
 
 #. Translators: The label for a button on the Speech Dictionary dialog.
 #. Translators: The title on a prompt for confirmation on the Speech Dictionary dialog.
-#: gui\speechDict.py:228 gui\speechDict.py:308
+#: gui\speechDict.py:232 gui\speechDict.py:312
 msgid "Remove all"
 msgstr "移除全部"
 
 #. Translators: This is the label for the add dictionary entry dialog.
-#: gui\speechDict.py:250
+#: gui\speechDict.py:254
 msgid "Add Dictionary Entry"
 msgstr "添加字典项目"
 
 #. Translators: A prompt for confirmation on the Speech Dictionary dialog.
-#: gui\speechDict.py:306
+#: gui\speechDict.py:310
 msgid "Are you sure you want to remove all the entries in this dictionary?"
 msgstr "您确定要删除此字典中的所有条目吗？"
 
 #. Translators: Title for default speech dictionary dialog.
-#: gui\speechDict.py:327
+#: gui\speechDict.py:331
 msgid "Default dictionary"
 msgstr "默认字典"
 
 #. Translators: Title for voice dictionary for the current voice such as current eSpeak variant.
-#: gui\speechDict.py:337
+#: gui\speechDict.py:341
 #, python-format
 msgid "Voice dictionary (%s)"
 msgstr "语音字典(%s)"
 
 #. Translators: Title for temporary speech dictionary dialog (the voice dictionary that is active as long
 #. as NvDA is running).
-#: gui\speechDict.py:348
+#: gui\speechDict.py:352
 msgid "Temporary dictionary"
 msgstr "临时字典"
 
@@ -19760,37 +19760,59 @@ msgid "table with {columnCountText} and {rowCountText}"
 msgstr "包含 {columnCountText} {rowCountText} 的表格"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
-#: speechDictHandler\types.py:33
+#: speechDictHandler\types.py:42
 msgid "&Anywhere"
 msgstr "不限(&A)"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
-#: speechDictHandler\types.py:35
+#: speechDictHandler\types.py:44
 msgid "Regular &expression"
 msgstr "正则表达式(&E)"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
-#: speechDictHandler\types.py:37
+#: speechDictHandler\types.py:46
 msgid "Whole &word"
 msgstr "整词匹配(&W)"
 
+#. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
+#: speechDictHandler\types.py:48
+msgid "&Part of word"
+msgstr ""
+
+#. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
+#: speechDictHandler\types.py:50
+#, fuzzy
+#| msgid "Start marked"
+msgid "&Start of word"
+msgstr "开始点已标记"
+
+#. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
+#: speechDictHandler\types.py:52
+msgid "E&nd of word"
+msgstr ""
+
+#. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
+#: speechDictHandler\types.py:54
+msgid "&Unix shell-style wildcards"
+msgstr ""
+
 #. Translators: A type of speech dictionary.
-#: speechDictHandler\types.py:57
+#: speechDictHandler\types.py:74
 msgid "Temporary"
 msgstr "临时"
 
 #. Translators: A type of speech dictionary.
-#: speechDictHandler\types.py:59
+#: speechDictHandler\types.py:76
 msgid "Voice specific"
 msgstr "语音"
 
 #. Translators: A type of speech dictionary.
-#: speechDictHandler\types.py:61
+#: speechDictHandler\types.py:78
 msgid "Default"
 msgstr "默认"
 
 #. Translators: A type of speech dictionary.
-#: speechDictHandler\types.py:63
+#: speechDictHandler\types.py:80
 msgid "Built-in"
 msgstr "内置"
 
