@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-06 06:41+0000\n"
+"POT-Creation-Date: 2026-02-06 09:34+0000\n"
 "PO-Revision-Date: 2026-02-04 09:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -19843,6 +19843,13 @@ msgstr "Windows OneCore 语音"
 #: synthDrivers\sapi4_32.py:18
 msgid "Microsoft Speech API version 4"
 msgstr "Microsoft Speech API version 4"
+
+#. Translators: Description for a speech synthesizer.
+#: synthDrivers\sapi5.py:558
+#, fuzzy
+#| msgid "Microsoft Speech API version 5 (32 bit)"
+msgid "Microsoft Speech API version 5 (64 bit)"
+msgstr "Microsoft Speech API version 5（32 位）"
 
 #. Translators: Description for a speech synthesizer.
 #: synthDrivers\sapi5_32.py:15
