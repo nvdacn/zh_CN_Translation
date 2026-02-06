@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 01:07+0000\n"
+"POT-Creation-Date: 2026-02-06 04:43+0000\n"
 "PO-Revision-Date: 2026-02-04 09:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -16208,7 +16208,7 @@ msgstr "插件"
 #. Translators: The label for a column in the copy add-ons dialog that displays the name of the add-on
 #. Translators: The name of the column that contains names of addons.
 #: gui\addonStoreGui\controls\messageDialogs.py:699
-#: gui\addonStoreGui\viewModels\addonList.py:62
+#: gui\addonStoreGui\viewModels\addonList.py:69
 msgctxt "addonStore"
 msgid "Name"
 msgstr "名称"
@@ -16216,7 +16216,7 @@ msgstr "名称"
 #. Translators: The label for a column in the copy add-ons dialog that displays the add-on's author
 #. Translators: The name of the column that contains the addon's author.
 #: gui\addonStoreGui\controls\messageDialogs.py:701
-#: gui\addonStoreGui\viewModels\addonList.py:96
+#: gui\addonStoreGui\viewModels\addonList.py:103
 msgctxt "addonStore"
 msgid "Author"
 msgstr "作者"
@@ -16269,62 +16269,62 @@ msgid "Warning"
 msgstr "警告"
 
 #. Translators: The title of the addonStore dialog where the user can find and download add-ons
-#: gui\addonStoreGui\controls\storeDialog.py:38
+#: gui\addonStoreGui\controls\storeDialog.py:39
 msgctxt "addonStore"
 msgid "Add-on Store"
 msgstr "插件商店"
 
 #. Translators: The label for a button in add-ons Store dialog to install an external add-on.
-#: gui\addonStoreGui\controls\storeDialog.py:120
+#: gui\addonStoreGui\controls\storeDialog.py:122
 msgctxt "addonStore"
 msgid "Install from e&xternal source"
 msgstr "从外部源安装(&X)"
 
 #. Translators: Banner notice that is displayed in the Add-on Store.
-#: gui\addonStoreGui\controls\storeDialog.py:132
+#: gui\addonStoreGui\controls\storeDialog.py:134
 msgctxt "addonStore"
 msgid "Note: NVDA was started with add-ons disabled"
 msgstr "注意：NVDA 是在禁用插件的情况下启动的"
 
 #. Translators: The label of a selection field to sort the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:154
+#: gui\addonStoreGui\controls\storeDialog.py:156
 msgctxt "addonStore"
 msgid "Sort by colu&mn:"
 msgstr "排序(&M)"
 
 #. Translators: The label of a selection field to filter the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:163
+#: gui\addonStoreGui\controls\storeDialog.py:165
 msgctxt "addonStore"
 msgid "Cha&nnel:"
 msgstr "通道(&N)"
 
 #. Translators: The label of a checkbox to filter the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:171
+#: gui\addonStoreGui\controls\storeDialog.py:173
 msgctxt "addonStore"
 msgid "Include &incompatible add-ons"
 msgstr "包含不兼容插件(&I)"
 
 #. Translators: The label of a selection field to filter the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:185
+#: gui\addonStoreGui\controls\storeDialog.py:187
 msgctxt "addonStore"
 msgid "Ena&bled/disabled:"
 msgstr "启用/禁用(&B)"
 
 #. Translators: The label of a text field to filter the list of add-ons in the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:193
+#: gui\addonStoreGui\controls\storeDialog.py:195
 msgctxt "addonStore"
 msgid "&Search:"
 msgstr "搜索(&S)"
 
 #. Translators: Title for message shown prior to installing add-ons when closing the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:219
+#: gui\addonStoreGui\controls\storeDialog.py:227
 msgctxt "addonStore"
 msgid "Add-on installation"
 msgstr "插件安装"
 
 #. Translators: Message shown while installing add-ons after closing the add-on store dialog
 #. The placeholder {num} will be replaced with the number of add-ons to be installed
-#: gui\addonStoreGui\controls\storeDialog.py:227
+#: gui\addonStoreGui\controls\storeDialog.py:235
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Installing {num} add-on, please wait."
@@ -16333,7 +16333,7 @@ msgstr[0] "{num} 个插件正在安装，请稍候。"
 
 #. Translators: Message shown prior to installing add-ons when closing the add-on store dialog
 #. The placeholder {num} will be replaced with the number of add-ons to be installed
-#: gui\addonStoreGui\controls\storeDialog.py:238
+#: gui\addonStoreGui\controls\storeDialog.py:246
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Download of {num} add-on in progress, cancel downloading?"
@@ -16342,14 +16342,14 @@ msgstr[0] "{num} 个插件正在下载，要取消下载吗？"
 
 #. Translators: The label of the add-on list in the add-on store; {category} is replaced by the selected
 #. tab's name.
-#: gui\addonStoreGui\controls\storeDialog.py:320
+#: gui\addonStoreGui\controls\storeDialog.py:328
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{category}:"
 msgstr "{category}："
 
 #. Translators: the label for the NVDA add-on package file type in the Choose add-on dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:413
+#: gui\addonStoreGui\controls\storeDialog.py:451
 #, python-brace-format
 msgctxt "addonStore"
 msgid "NVDA Add-on Package (*.{ext})"
@@ -16357,69 +16357,75 @@ msgstr "NVDA 插件包 (*.{ext})"
 
 #. Translators: The message displayed in the dialog that
 #. allows you to choose an add-on package for installation.
-#: gui\addonStoreGui\controls\storeDialog.py:418
+#: gui\addonStoreGui\controls\storeDialog.py:456
 msgctxt "addonStore"
 msgid "Choose Add-on Package File"
 msgstr "选择插件包"
 
+#. Translators: The name of a sorting option for the add-on store to sort by search relevance
+#: gui\addonStoreGui\viewModels\addonList.py:62
+msgctxt "addonStore"
+msgid "Relevance"
+msgstr ""
+
 #. Translators: The name of the column that contains the status of the addon.
 #. e.g. available, downloading installing
-#: gui\addonStoreGui\viewModels\addonList.py:68
+#: gui\addonStoreGui\viewModels\addonList.py:75
 msgctxt "addonStore"
 msgid "Status"
 msgstr "状态"
 
 #. Translators: The name of the column that contains the installed addon's version string.
-#: gui\addonStoreGui\viewModels\addonList.py:73
+#: gui\addonStoreGui\viewModels\addonList.py:80
 msgctxt "addonStore"
 msgid "Installed version"
 msgstr "已安装版本"
 
 #. Translators: The name of the column that contains the available addon's version string.
-#: gui\addonStoreGui\viewModels\addonList.py:79
+#: gui\addonStoreGui\viewModels\addonList.py:86
 msgctxt "addonStore"
 msgid "Available version"
 msgstr "可用版本"
 
 #. Translators: The name of the column that contains the channel of the addon (e.g stable, beta, dev).
-#: gui\addonStoreGui\viewModels\addonList.py:85
+#: gui\addonStoreGui\viewModels\addonList.py:92
 msgctxt "addonStore"
 msgid "Channel"
 msgstr "通道"
 
 #. Translators: The name of the column that contains the addon's publisher.
-#: gui\addonStoreGui\viewModels\addonList.py:90
+#: gui\addonStoreGui\viewModels\addonList.py:97
 msgctxt "addonStore"
 msgid "Publisher"
 msgstr "发布者"
 
 #. Translators: The name of the column that contains the publication date of the add-on.
-#: gui\addonStoreGui\viewModels\addonList.py:102
+#: gui\addonStoreGui\viewModels\addonList.py:109
 msgctxt "addonStore"
 msgid "Publication date"
 msgstr "发布日期"
 
 #. Translators: The name of the column that contains the installation date of the add-on.
-#: gui\addonStoreGui\viewModels\addonList.py:107
+#: gui\addonStoreGui\viewModels\addonList.py:114
 msgctxt "addonStore"
 msgid "Install date"
 msgstr "安装日期"
 
 #. Translators: The name of the column that contains the minimum version of NVDA required for this add-on.
-#: gui\addonStoreGui\viewModels\addonList.py:113
+#: gui\addonStoreGui\viewModels\addonList.py:120
 msgctxt "addonStore"
 msgid "Minimum NVDA version"
 msgstr "NVDA 版本最低要求"
 
 #. Translators: The name of the column that contains the last version of NVDA tested with this add-on.
-#: gui\addonStoreGui\viewModels\addonList.py:118
+#: gui\addonStoreGui\viewModels\addonList.py:125
 msgctxt "addonStore"
 msgid "Last tested NVDA version"
 msgstr "最后测试的 NVDA 版本"
 
 #. Translators: An option of a combo box to sort columns in the add-on store, in ascending order.
 #. {column} will be replaced with the column display string.
-#: gui\addonStoreGui\viewModels\addonList.py:400
+#: gui\addonStoreGui\viewModels\addonList.py:450
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{column} (ascending)"
@@ -16427,7 +16433,7 @@ msgstr "{column}（升序）"
 
 #. Translators: An option of a combo box to sort columns in the add-on store, in descending order.
 #. {column} will be replaced with the column display string.
-#: gui\addonStoreGui\viewModels\addonList.py:410
+#: gui\addonStoreGui\viewModels\addonList.py:460
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{column} (descending)"
