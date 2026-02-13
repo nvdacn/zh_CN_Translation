@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-10 04:58+0000\n"
+"POT-Creation-Date: 2026-02-13 06:47+0000\n"
 "PO-Revision-Date: 2026-02-04 09:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -7022,97 +7022,97 @@ msgid "&Show Speech Viewer on Startup"
 msgstr "启动时显示朗读查看器(&S)"
 
 #. Translators: Label for a setting in voice settings dialog.
-#: synthDriverHandler.py:127
+#: synthDriverHandler.py:122
 msgid "&Language"
 msgstr "语言(&L)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:130
+#: synthDriverHandler.py:125
 msgctxt "synth setting"
 msgid "Language"
 msgstr "语言"
 
 #. Translators: Label for a setting in voice settings dialog.
-#: synthDriverHandler.py:139
+#: synthDriverHandler.py:134
 msgid "&Voice"
 msgstr "语音(&V)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:142
+#: synthDriverHandler.py:137
 msgctxt "synth setting"
 msgid "Voice"
 msgstr "语音"
 
 #. Translators: Label for a setting in voice settings dialog.
-#: synthDriverHandler.py:151
+#: synthDriverHandler.py:146
 msgid "V&ariant"
 msgstr "变声(&A)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:154
+#: synthDriverHandler.py:149
 msgctxt "synth setting"
 msgid "Variant"
 msgstr "变声"
 
 #. Translators: Label for a setting in voice settings dialog.
-#: synthDriverHandler.py:163
+#: synthDriverHandler.py:158
 msgid "&Rate"
 msgstr "速度(&R)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:167
+#: synthDriverHandler.py:162
 msgctxt "synth setting"
 msgid "Rate"
 msgstr "速度"
 
 #. Translators: This is the name of the rate boost voice toggle
 #. which further increases the speaking rate when enabled.
-#: synthDriverHandler.py:177
+#: synthDriverHandler.py:172
 msgid "Rate boos&t"
 msgstr "语速加倍(&T)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:179
+#: synthDriverHandler.py:174
 msgctxt "synth setting"
 msgid "Rate boost"
 msgstr "语速加倍"
 
 #. Translators: Label for a setting in voice settings dialog.
-#: synthDriverHandler.py:189
+#: synthDriverHandler.py:184
 msgid "V&olume"
 msgstr "音量(&O)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:194
+#: synthDriverHandler.py:189
 msgctxt "synth setting"
 msgid "Volume"
 msgstr "音量"
 
 #. Translators: Label for a setting in voice settings dialog.
-#: synthDriverHandler.py:203
+#: synthDriverHandler.py:198
 msgid "&Pitch"
 msgstr "音调(&P)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:207
+#: synthDriverHandler.py:202
 msgctxt "synth setting"
 msgid "Pitch"
 msgstr "音调"
 
 #. Translators: Label for a setting in voice settings dialog.
-#: synthDriverHandler.py:216
+#: synthDriverHandler.py:211
 msgid "&Inflection"
 msgstr "声调(&I)"
 
 #. Translators: Label for a setting in synth settings ring.
-#: synthDriverHandler.py:220
+#: synthDriverHandler.py:215
 msgctxt "synth setting"
 msgid "Inflection"
 msgstr "声调"
 
 #. Translators: Label for a setting in voice settings dialog.
 #. "WASAPI" is an acronym for an audio output framework, and should be translated as-is.
-#: synthDriverHandler.py:230
+#: synthDriverHandler.py:225
 msgid "Use modern audio output system (WASAPI)"
 msgstr "使用现代音频输出系统（WASAPI）"
 
@@ -16333,14 +16333,14 @@ msgid "&Search:"
 msgstr "搜索(&S)"
 
 #. Translators: Title for message shown prior to installing add-ons when closing the add-on store dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:227
+#: gui\addonStoreGui\controls\storeDialog.py:221
 msgctxt "addonStore"
 msgid "Add-on installation"
 msgstr "插件安装"
 
 #. Translators: Message shown while installing add-ons after closing the add-on store dialog
 #. The placeholder {num} will be replaced with the number of add-ons to be installed
-#: gui\addonStoreGui\controls\storeDialog.py:235
+#: gui\addonStoreGui\controls\storeDialog.py:229
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Installing {num} add-on, please wait."
@@ -16349,7 +16349,7 @@ msgstr[0] "{num} 个插件正在安装，请稍候。"
 
 #. Translators: Message shown prior to installing add-ons when closing the add-on store dialog
 #. The placeholder {num} will be replaced with the number of add-ons to be installed
-#: gui\addonStoreGui\controls\storeDialog.py:246
+#: gui\addonStoreGui\controls\storeDialog.py:240
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Download of {num} add-on in progress, cancel downloading?"
@@ -16358,14 +16358,14 @@ msgstr[0] "{num} 个插件正在下载，要取消下载吗？"
 
 #. Translators: The label of the add-on list in the add-on store; {category} is replaced by the selected
 #. tab's name.
-#: gui\addonStoreGui\controls\storeDialog.py:328
+#: gui\addonStoreGui\controls\storeDialog.py:322
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{category}:"
 msgstr "{category}："
 
 #. Translators: the label for the NVDA add-on package file type in the Choose add-on dialog.
-#: gui\addonStoreGui\controls\storeDialog.py:451
+#: gui\addonStoreGui\controls\storeDialog.py:445
 #, python-brace-format
 msgctxt "addonStore"
 msgid "NVDA Add-on Package (*.{ext})"
@@ -16373,7 +16373,7 @@ msgstr "NVDA 插件包 (*.{ext})"
 
 #. Translators: The message displayed in the dialog that
 #. allows you to choose an add-on package for installation.
-#: gui\addonStoreGui\controls\storeDialog.py:456
+#: gui\addonStoreGui\controls\storeDialog.py:450
 msgctxt "addonStore"
 msgid "Choose Add-on Package File"
 msgstr "选择插件包"
