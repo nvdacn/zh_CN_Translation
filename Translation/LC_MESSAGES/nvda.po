@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-17 06:45+0000\n"
+"POT-Creation-Date: 2026-02-18 09:38+0000\n"
 "PO-Revision-Date: 2026-02-04 09:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -14119,7 +14119,7 @@ msgid "The following options control the presentation of mathematical content."
 msgstr ""
 
 #. Translators: options for Copy math to clipboard as -- speech text
-#: gui\settingsDialogs.py:2760 mathPres\MathCAT\preferences.py:140
+#: gui\settingsDialogs.py:2760 mathPres\MathCAT\preferences.py:139
 msgctxt "math"
 msgid "Speech"
 msgstr "语音"
@@ -16703,146 +16703,146 @@ msgstr "自动（使用语音语言）"
 
 #. Translators: Learning disabilities includes dyslexia and ADHD
 #. category of impairment that MathCAT supports: people with learning disabilities
-#: mathPres\MathCAT\preferences.py:30
+#: mathPres\MathCAT\preferences.py:29
 msgctxt "math"
 msgid "Learning disabilities"
 msgstr ""
 
 #. Translators: category of impairment that MathCAT supports: people who are blind
-#: mathPres\MathCAT\preferences.py:32
+#: mathPres\MathCAT\preferences.py:31
 msgctxt "math"
 msgid "Blindness"
 msgstr "全盲"
 
 #. Translators: category of impairment that MathCAT supports: people who have low vision
-#: mathPres\MathCAT\preferences.py:34
+#: mathPres\MathCAT\preferences.py:33
 msgctxt "math"
 msgid "Low vision"
 msgstr "低视力"
 
 #. Translators: options for decimal separator -- "Auto" = automatically pick the choice based on the language
-#: mathPres\MathCAT\preferences.py:48
+#: mathPres\MathCAT\preferences.py:47
 msgctxt "math"
 msgid "Automatic"
 msgstr "自动"
 
 #. Translators: options for decimal separator -- "Custom" = user sets it
 #. Currently there is no UI for how it is done yet, but eventually there will be a dialog that pops up to set it
-#: mathPres\MathCAT\preferences.py:55
+#: mathPres\MathCAT\preferences.py:54
 msgctxt "math"
 msgid "Custom"
 msgstr ""
 
 #. Translators: options for speech verbosity -- "terse" = use less words
 #. Translators: options for navigation verbosity -- "terse" = use less words
-#: mathPres\MathCAT\preferences.py:68 mathPres\MathCAT\preferences.py:116
+#: mathPres\MathCAT\preferences.py:67 mathPres\MathCAT\preferences.py:115
 msgctxt "math"
 msgid "Terse"
 msgstr ""
 
 #. Translators: options for speech verbosity -- "medium" = try to be neither too terse nor too verbose
 #. Translators: options for navigation verbosity -- "medium" = try to be nether too terse nor too verbose words
-#: mathPres\MathCAT\preferences.py:70 mathPres\MathCAT\preferences.py:118
+#: mathPres\MathCAT\preferences.py:69 mathPres\MathCAT\preferences.py:117
 msgctxt "math"
 msgid "Medium"
 msgstr ""
 
 #. Translators: options for speech verbosity -- "verbose" = use more words
 #. Translators: options for navigation verbosity -- "verbose" = use more words
-#: mathPres\MathCAT\preferences.py:72 mathPres\MathCAT\preferences.py:120
+#: mathPres\MathCAT\preferences.py:71 mathPres\MathCAT\preferences.py:119
 msgctxt "math"
 msgid "Verbose"
 msgstr ""
 
 #. Translators: values for chemistry options with example speech in parenthesis
-#: mathPres\MathCAT\preferences.py:84
+#: mathPres\MathCAT\preferences.py:83
 msgctxt "math"
 msgid "Spell it out (H 2 O)"
 msgstr ""
 
 #. Translators: values for chemistry options with example speech in parenthesis (never interpret as chemistry)
-#: mathPres\MathCAT\preferences.py:86
+#: mathPres\MathCAT\preferences.py:85
 msgctxt "math"
 msgid "Off (H sub 2 O)"
 msgstr ""
 
 #. Translators: names of different modes of navigation. "Enhanced" mode understands math structure
-#: mathPres\MathCAT\preferences.py:99
+#: mathPres\MathCAT\preferences.py:98
 msgctxt "math"
 msgid "Enhanced"
 msgstr ""
 
 #. Translators: "Simple" walks by character expect for things like fractions, roots, and scripts
-#: mathPres\MathCAT\preferences.py:101
+#: mathPres\MathCAT\preferences.py:100
 msgctxt "math"
 msgid "Simple"
 msgstr ""
 
 #. Translators: "Character" moves around by character, automatically moving into fractions, etc
-#: mathPres\MathCAT\preferences.py:103
+#: mathPres\MathCAT\preferences.py:102
 msgctxt "math"
 msgid "Character"
 msgstr ""
 
 #. Translators: options for Copy expression to clipboard as -- "MathML"
-#: mathPres\MathCAT\preferences.py:134
+#: mathPres\MathCAT\preferences.py:133
 msgctxt "math"
 msgid "MathML"
 msgstr ""
 
 #. Translators: options for Copy math to clipboard as -- "LaTeX"
-#: mathPres\MathCAT\preferences.py:136
+#: mathPres\MathCAT\preferences.py:135
 msgctxt "math"
 msgid "LaTeX"
 msgstr ""
 
 #. Translators: options for Copy math to clipboard as -- "ASCIIMath"
-#: mathPres\MathCAT\preferences.py:138
+#: mathPres\MathCAT\preferences.py:137
 msgctxt "math"
 msgid "ASCIIMath"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8: don't highlight
-#: mathPres\MathCAT\preferences.py:154
+#: mathPres\MathCAT\preferences.py:153
 msgctxt "math"
 msgid "Off"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8:
 #. only the first character of the current navigation node uses dots 7 & 8
-#: mathPres\MathCAT\preferences.py:157
+#: mathPres\MathCAT\preferences.py:156
 msgctxt "math"
 msgid "First character"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8:
 #. only the first and last character of the current navigation node uses dots 7 & 8
-#: mathPres\MathCAT\preferences.py:160
+#: mathPres\MathCAT\preferences.py:159
 msgctxt "math"
 msgid "Endpoints"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8:
 #. all the characters for the current navigation node use dots 7 & 8
-#: mathPres\MathCAT\preferences.py:163
+#: mathPres\MathCAT\preferences.py:162
 msgctxt "math"
 msgid "All"
 msgstr ""
 
 #. Translators: ClearSpeak is a speech style developed by ETS for use on high-stakes tests such as the SAT
-#: mathPres\MathCAT\preferences.py:176
+#: mathPres\MathCAT\preferences.py:175
 msgctxt "math"
 msgid "ClearSpeak"
 msgstr ""
 
 #. Translators: SimpleSpeak is a speech style that tries to minimize speech by speaking simple expressions without bracketing words
-#: mathPres\MathCAT\preferences.py:178
+#: mathPres\MathCAT\preferences.py:177
 msgctxt "math"
 msgid "SimpleSpeak"
 msgstr ""
 
 #. Translators: LiteralSpeak is a speech style with no language-specific rules that reads math character by character
-#: mathPres\MathCAT\preferences.py:180
+#: mathPres\MathCAT\preferences.py:179
 msgctxt "math"
 msgid "LiteralSpeak"
 msgstr ""
