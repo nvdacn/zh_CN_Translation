@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 04:31+0000\n"
+"POT-Creation-Date: 2026-02-23 06:54+0000\n"
 "PO-Revision-Date: 2026-02-04 09:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2178,7 +2178,7 @@ msgstr ""
 #: gui\installerGui.py:122 gui\installerGui.py:632 gui\installerGui.py:647
 #: gui\installerGui.py:719 gui\logViewer.py:112 gui\logViewer.py:143
 #: gui\message.py:160 gui\settingsDialogs.py:1042 gui\settingsDialogs.py:5899
-#: gui\settingsDialogs.py:6540 gui\startupDialogs.py:127
+#: gui\settingsDialogs.py:6562 gui\startupDialogs.py:127
 #: _remoteClient\dialogs.py:67 _remoteClient\dialogs.py:306
 #: _remoteClient\dialogs.py:430
 msgid "Error"
@@ -2294,8 +2294,8 @@ msgstr "未选择文本"
 #. Translators: Abbreviation for points, a measurement of font size.
 #: displayModel.py:556 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
-#: NVDAObjects\UIA\__init__.py:195 NVDAObjects\window\edit.py:345
-#: NVDAObjects\window\edit.py:708 NVDAObjects\window\excel.py:1362
+#: NVDAObjects\UIA\__init__.py:195 NVDAObjects\window\edit.py:339
+#: NVDAObjects\window\edit.py:702 NVDAObjects\window\excel.py:1362
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1272
 #: virtualBuffers\adobeAcrobat.py:83
 #, python-format
@@ -11313,7 +11313,7 @@ msgid "directory pane"
 msgstr "目录窗格"
 
 #. Translators: Identifies an object that is embedded in a document.
-#: controlTypes\role.py:347 NVDAObjects\window\edit.py:873
+#: controlTypes\role.py:347 NVDAObjects\window\edit.py:865
 msgid "embedded object"
 msgstr "嵌入式对象"
 
@@ -13015,7 +13015,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:6428 gui\speechDict.py:212
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:6450 gui\speechDict.py:212
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13482,7 +13482,7 @@ msgstr "类别(&C)："
 #. Translators: This is the label for the general settings panel.
 #. Translators: name of a grouping in Privacy and Security settings
 #. which contains miscellaneous settings.
-#: gui\settingsDialogs.py:807 gui\settingsDialogs.py:6093
+#: gui\settingsDialogs.py:807 gui\settingsDialogs.py:6098
 msgid "General"
 msgstr "常规"
 
@@ -15437,111 +15437,111 @@ msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: gui\settingsDialogs.py:6085
+#: gui\settingsDialogs.py:6090
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: The label for a setting in privacy and security settings to select NVDA's logging level
-#: gui\settingsDialogs.py:6100
+#: gui\settingsDialogs.py:6105
 msgid "L&ogging level:"
 msgstr "日志记录级别(&O):"
 
 #. Translators: The label of a checkbox in privacy and security settings to toggle allowing of usage stats gathering
-#: gui\settingsDialogs.py:6122
+#: gui\settingsDialogs.py:6127
 msgid "Allow NV Access to gather NVDA usage statistics"
 msgstr "允许 NV Access 收集 NVDA 使用统计信息"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:6217
+#: gui\settingsDialogs.py:6239
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:6268
+#: gui\settingsDialogs.py:6290
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:6303
+#: gui\settingsDialogs.py:6325
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:6308
+#: gui\settingsDialogs.py:6330
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:6338
+#: gui\settingsDialogs.py:6360
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:6352
+#: gui\settingsDialogs.py:6374
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6361
+#: gui\settingsDialogs.py:6383
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:6371
+#: gui\settingsDialogs.py:6393
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:6373 gui\speechDict.py:188
+#: gui\settingsDialogs.py:6395 gui\speechDict.py:188
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:6375
+#: gui\settingsDialogs.py:6397
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:6378
+#: gui\settingsDialogs.py:6400
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:6382
+#: gui\settingsDialogs.py:6404
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6400 gui\speechDict.py:52
+#: gui\settingsDialogs.py:6422 gui\speechDict.py:52
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:6409
+#: gui\settingsDialogs.py:6431
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:6416
+#: gui\settingsDialogs.py:6438
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:6431
+#: gui\settingsDialogs.py:6453
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:6538
+#: gui\settingsDialogs.py:6560
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
@@ -18270,15 +18270,15 @@ msgstr "系列 {seriesName} 的图例项标示 {seriesCount} 的 {seriesIndex}"
 #. Translators: The background color as reported in Wordpad (Automatic) or NVDA log viewer.
 #. Translators: The text color as reported in Wordpad (Automatic) or NVDA log viewer.
 #. Translators: The background color as reported in Wordpad (Automatic) or NVDA log viewer.
-#: NVDAObjects\window\edit.py:382 NVDAObjects\window\edit.py:391
-#: NVDAObjects\window\edit.py:752 NVDAObjects\window\edit.py:764
+#: NVDAObjects\window\edit.py:376 NVDAObjects\window\edit.py:385
+#: NVDAObjects\window\edit.py:746 NVDAObjects\window\edit.py:758
 #, python-brace-format
 msgid "{color} (default color)"
 msgstr "{color}（默认颜色）"
 
 #. Translators: The color of text cannot be detected.
 #. Translators: The background color cannot be detected.
-#: NVDAObjects\window\edit.py:758 NVDAObjects\window\edit.py:770
+#: NVDAObjects\window\edit.py:752 NVDAObjects\window\edit.py:764
 msgid "Unknown color"
 msgstr "未知颜色"
 
