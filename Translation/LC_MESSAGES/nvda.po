@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-25 03:25+0000\n"
-"PO-Revision-Date: 2026-02-25 11:22+0800\n"
+"PO-Revision-Date: 2026-02-25 12:12+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -10662,8 +10662,6 @@ msgstr "是"
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
 #: config\configFlags.py:465
-#, fuzzy
-#| msgid "No"
 msgctxt "advanced.playErrorSound"
 msgid "No"
 msgstr "否"
@@ -12673,7 +12671,7 @@ msgstr "禁用远程访问时该操作不可用"
 #. Translators: The title of the dialog shown after resetting configuration to factory defaults.
 #: gui\configManagement.py:27
 msgid "Factory Defaults Restored"
-msgstr ""
+msgstr "重置设置为默认值"
 
 #. Translators: The message shown in the dialog after the configuration has been reset to factory defaults.
 #. The user can choose to keep the factory defaults or undo the reset.
@@ -12683,18 +12681,20 @@ msgid ""
 "Choose OK to keep factory defaults, or Undo to restore your previous "
 "configuration."
 msgstr ""
+"您的配置已重置为默认值。\n"
+"选择“确定”保留默认值，或选择“撤消”恢复先前的配置。"
 
 #. Translators: The label of the undo button in the factory defaults reset dialog.
 #. Pressing this button restores the previous configuration.
 #: gui\configManagement.py:38
 msgid "&Undo"
-msgstr ""
+msgstr "撤消(&U)"
 
 #. Translators: Reported when a factory reset has been undone
 #. and the previous configuration has been restored.
 #: gui\configManagement.py:68
 msgid "Factory reset undone. Previous configuration restored."
-msgstr ""
+msgstr "已撤销默认值。先前的配置已恢复。"
 
 #. Translators: The title of the Configuration Profiles dialog.
 #: gui\configProfiles.py:36
@@ -13340,11 +13340,7 @@ msgstr "请为便携版文件选择一个目录。"
 #. Translators: The message displayed when the user has not specified an absolute destination directory
 #. in the Create Portable NVDA dialog.
 #: gui\installerGui.py:642
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "Please specify the absolute path where the portable copy should be "
-#| "created. It may include system variables (e.g. %temp%, %homepath%) and "
-#| "must start with a drive letter (e.g. C:\\). Current path: {path}. "
+#, python-brace-format
 msgid ""
 "Please specify the absolute path where the portable copy should be created. "
 "It may include system variables (e.g. %temp%, %homepath%) and must start "
@@ -13757,10 +13753,8 @@ msgstr "用于处理字符和符号的额外字典(&X)"
 
 #. Translators: Label of the list where user can enable or disable speech dictionaries.
 #: gui\settingsDialogs.py:1861
-#, fuzzy
-#| msgid "Speech &dictionaries"
 msgid "Sp&eech dictionaries:"
-msgstr "朗读字典(&D)"
+msgstr "朗读字典(&E)："
 
 #. Translators: Label of the list where user can select speech modes that will be available.
 #: gui\settingsDialogs.py:1875
@@ -15419,11 +15413,8 @@ msgstr "默认全屏模式(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select whether true center is used in full-screen mode
 #: gui\settingsDialogs.py:6031
-#, fuzzy
-#| msgctxt "magnifier action"
-#| msgid "change full-screen mode"
 msgid "Use &true center in fullscreen mode"
-msgstr "更改全屏模式"
+msgstr "在全屏模式下保持焦点居中(&T)"
 
 #. Translators: The label for a checkbox to keep the mouse pointer centered in the magnifier view
 #: gui\settingsDialogs.py:6045
@@ -16446,7 +16437,7 @@ msgstr "选择插件包"
 #: gui\addonStoreGui\viewModels\addonList.py:62
 msgctxt "addonStore"
 msgid "Relevance"
-msgstr ""
+msgstr "相关性"
 
 #. Translators: The name of the column that contains the status of the addon.
 #. e.g. available, downloading installing
@@ -19853,8 +19844,6 @@ msgstr "临时字典"
 
 #. Translators: Name of the default speech dictionary.
 #: speechDictHandler\definitions.py:56
-#, fuzzy
-#| msgid "Default dictionary"
 msgid "Default Dictionary"
 msgstr "默认字典"
 
