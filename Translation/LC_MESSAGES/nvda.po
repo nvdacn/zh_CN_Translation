@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-25 01:15+0000\n"
-"PO-Revision-Date: 2026-02-04 09:55+0800\n"
+"PO-Revision-Date: 2026-02-25 11:22+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -13116,10 +13116,8 @@ msgstr "请单击“确定”启动安装的副本。"
 #. Translators: The message displayed to the user after NVDA is installed
 #. and the installer is about to close without starting the installed copy.
 #: gui\installerGui.py:145
-#, fuzzy
-#| msgid "Please press OK to start the installed copy."
 msgid "Please press OK to close the installer."
-msgstr "请单击“确定”启动安装的副本。"
+msgstr "请单击“确定”关闭安装程序。"
 
 #. Translators: The title of the Install NVDA dialog.
 #: gui\installerGui.py:209
@@ -13195,20 +13193,14 @@ msgstr ""
 #. Translators: A warning presented when the installer is unable to determine
 #. the state of the current NVDA installation.
 #: gui\installerGui.py:366
-#, fuzzy
-#| msgid ""
-#| "You are attempting to install an earlier version of NVDA than the version "
-#| "currently installed. If you really wish to revert to an earlier version, "
-#| "you should first cancel this installation and completely uninstall NVDA "
-#| "before installing the earlier version."
 msgid ""
 "An existing NVDA installation has been detected, but its version cannot be "
 "determined. If you are attempting to install an earlier version of NVDA, you "
 "should first cancel this installation and completely uninstall NVDA before "
 "installing the earlier version."
 msgstr ""
-"您正在试图安装一个比现有的版本还要早的 NVDA 版本，如果您真的想恢复到这个版"
-"本，那么请先取消安装进程，在完全卸载当前版本之后再次进行安装。"
+"检测到已安装 NVDA，但无法确定其版本。如果您试图安装早期版本的 NVDA，那么请先"
+"取消安装进程，在完全卸载当前版本之后再次进行安装。"
 
 #. Translators: The label of a button to proceed with installation,
 #. even though this is not recommended.
@@ -13224,6 +13216,8 @@ msgid ""
 "earlier version. Downgrading NVDA is not recommended. You should cancel this "
 "operation and create a new portable copy instead. "
 msgstr ""
+"您正试图用早期版本替换现有的 NVDA 便携版。不建议降级 NVDA。您应取消此操作并创"
+"建新的 NVDA 便携版。"
 
 #. Translators: A warning presented when the installer is unable to determine
 #. the state of the current NVDA installation.
@@ -13234,6 +13228,8 @@ msgid ""
 "earlier version of NVDA, you should cancel this operation and create a new "
 "portable copy. "
 msgstr ""
+"在所选目录中检测到 NVDA 便携版，但无法确定其版本。如果您试图降级到早期版本的 "
+"NVDA，则应取消此操作并创建新的 NVDA 便携版。"
 
 #. Translators: The message displayed when the user has specified a destination directory
 #. that already has a portable copy in the Create Portable NVDA dialog.
@@ -13344,11 +13340,17 @@ msgstr "请为便携版文件选择一个目录。"
 #. Translators: The message displayed when the user has not specified an absolute destination directory
 #. in the Create Portable NVDA dialog.
 #: gui\installerGui.py:642
+#, fuzzy
+#| msgid ""
+#| "Please specify the absolute path where the portable copy should be "
+#| "created. It may include system variables (e.g. %temp%, %homepath%) and "
+#| "must start with a drive letter (e.g. C:\\). Current path: {path}. "
 msgid ""
 "Please specify the absolute path where the portable copy should be created. "
 "It may include system variables (%temp%, %homepath%, etc.)."
 msgstr ""
-"请指定存放便携版的绝对路径。可以包括系统变量（%temp%、%homepath% 等）。"
+"请指定存放便携版的绝对路径。可以包括系统变量（%temp%、%homepath% 等），但必须"
+"以驱动器号开头（例如C:\\）。当前路径：{path}。"
 
 #. Translators: The message displayed when the user cancels the creation of a portable copy of NVDA.
 #: gui\installerGui.py:693
@@ -19934,10 +19936,8 @@ msgstr "Microsoft Speech API version 4"
 
 #. Translators: Description for a speech synthesizer.
 #: synthDrivers\sapi5.py:558
-#, fuzzy
-#| msgid "Microsoft Speech API version 5 (32 bit)"
 msgid "Microsoft Speech API version 5 (64 bit)"
-msgstr "Microsoft Speech API version 5（32 位）"
+msgstr "Microsoft Speech API version 5（64 位）"
 
 #. Translators: Description for a speech synthesizer.
 #: synthDrivers\sapi5_32.py:15
