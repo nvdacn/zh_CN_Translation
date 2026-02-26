@@ -13380,19 +13380,16 @@ msgstr "请为便携版文件选择一个目录。"
 #. Translators: The message displayed when the user has not specified an absolute destination directory
 #. in the Create Portable NVDA dialog.
 #: gui\installerGui.py:642
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "Please specify the absolute path where the portable copy should be "
-#| "created. It may include system variables (e.g. %temp%, %homepath%) and "
-#| "must start with a drive letter (e.g. C:\\). Current path: {path}. "
+#, python-brace-format
 msgid ""
 "Please specify the absolute path where the portable copy should be created. "
 "It must start with a drive letter (e.g. C:). It may include system variables "
 "(e.g. %temp%, %homepath%) as placeholders for parts of the path.\n"
 "Current path: {path}. "
 msgstr ""
-"请指定存放便携版的绝对路径。可以包括系统变量（%temp%、%homepath% 等），但必须"
-"以驱动器号开头（例如C:\\）。当前路径：{path}。"
+"请指定存放便携版的绝对路径。必须以驱动器号开头（例如C:\\）。可以包括系统变量"
+"（%temp%、%homepath% 等）作为部分路径的占位符。\n"
+"当前路径：{path}。"
 
 #. Translators: The message displayed when the user cancels the creation of a portable copy of NVDA.
 #: gui\installerGui.py:695
