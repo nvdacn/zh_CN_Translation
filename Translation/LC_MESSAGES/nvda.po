@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-26 09:39+0000\n"
-"PO-Revision-Date: 2026-02-25 12:12+0800\n"
+"PO-Revision-Date: 2026-02-26 19:42+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5024,44 +5024,42 @@ msgstr "降低放大级别"
 #. Translators: Describes a command.
 #: globalCommands.py:5015
 msgid "Pan the magnifier view to the left"
-msgstr ""
+msgstr "左移放大视图"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5029
 msgid "Pan the magnifier view to the right"
-msgstr ""
+msgstr "右移放大视图"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5043
 msgid "Pan the magnifier view up"
-msgstr ""
+msgstr "上移放大视图"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5057
-#, fuzzy
-#| msgid "Toggles the magnifier on and off"
 msgid "Pan the magnifier view down"
-msgstr "切换放大镜的开关"
+msgstr "下移放大视图"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5071
 msgid "Pan the magnifier view to left edge"
-msgstr ""
+msgstr "平移放大视图到左边"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5085
 msgid "Pan the magnifier view to right edge"
-msgstr ""
+msgstr "平移放大视图到右边"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5099
 msgid "Pan the magnifier view to top edge"
-msgstr ""
+msgstr "平移放大视图到顶边"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5113
 msgid "Pan the magnifier view to bottom edge"
-msgstr ""
+msgstr "平移放大视图到底边"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5127
@@ -15451,7 +15449,7 @@ msgstr "默认放大级别(&Z)"
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
 #: gui\settingsDialogs.py:6002
 msgid "&Panning step size (%):"
-msgstr ""
+msgstr "平移步长（%）(&P)："
 
 #. Translators: The label for a setting in magnifier settings to select the default filter
 #: gui\settingsDialogs.py:6021
@@ -20255,35 +20253,27 @@ msgstr "安全桌面"
 
 #. Translators: Short name for the left edge, used in messages.
 #: _magnifier\commands.py:35 _magnifier\commands.py:55
-#, fuzzy
-#| msgid "left"
 msgctxt "magnifier"
 msgid "left"
 msgstr "左"
 
 #. Translators: Short name for the right edge, used in messages.
 #: _magnifier\commands.py:40 _magnifier\commands.py:60
-#, fuzzy
-#| msgid "right"
 msgctxt "magnifier"
 msgid "right"
 msgstr "右"
 
 #. Translators: Short name for the top edge, used in messages.
 #: _magnifier\commands.py:45 _magnifier\commands.py:65
-#, fuzzy
-#| msgid "stop"
 msgctxt "magnifier"
 msgid "top"
-msgstr "停止"
+msgstr "顶"
 
 #. Translators: Short name for the bottom edge, used in messages.
 #: _magnifier\commands.py:50 _magnifier\commands.py:70
-#, fuzzy
-#| msgid "Bottom"
 msgctxt "magnifier"
 msgid "bottom"
-msgstr "底部"
+msgstr "底"
 
 #. Translators: Message announced when stopping the NVDA magnifier.
 #: _magnifier\commands.py:87
@@ -20312,11 +20302,10 @@ msgstr ""
 
 #. Translators: Message announced when arriving at the {edge} edge.
 #: _magnifier\commands.py:151
-#, fuzzy, python-brace-format
-#| msgid "left edge"
+#, python-brace-format
 msgctxt "magnifier"
 msgid "{edge} edge"
-msgstr "左边界"
+msgstr "{edge}边"
 
 #. Translators: Message announced when changing the color filter with {filter} being the new color filter.
 #: _magnifier\commands.py:173
@@ -20405,65 +20394,51 @@ msgstr "缩小"
 
 #. Translators: Action description for panning left.
 #: _magnifier\utils\types.py:55
-#, fuzzy
-#| msgid "align left"
 msgctxt "magnifier action"
 msgid "pan left"
-msgstr "左对齐"
+msgstr "左移"
 
 #. Translators: Action description for panning right.
 #: _magnifier\utils\types.py:57
-#, fuzzy
-#| msgid "align right"
 msgctxt "magnifier action"
 msgid "pan right"
-msgstr "右对齐"
+msgstr "右移"
 
 #. Translators: Action description for panning up.
 #: _magnifier\utils\types.py:59
 msgctxt "magnifier action"
 msgid "pan up"
-msgstr ""
+msgstr "上移"
 
 #. Translators: Action description for panning down.
 #: _magnifier\utils\types.py:61
-#, fuzzy
-#| msgid "page down"
 msgctxt "magnifier action"
 msgid "pan down"
-msgstr "下翻页"
+msgstr "下移"
 
 #. Translators: Action description for panning to left edge.
 #: _magnifier\utils\types.py:63
-#, fuzzy
-#| msgid "left edge"
 msgctxt "magnifier action"
 msgid "pan to left edge"
-msgstr "左边界"
+msgstr "移到左边"
 
 #. Translators: Action description for panning to right edge.
 #: _magnifier\utils\types.py:65
-#, fuzzy
-#| msgid "right edge"
 msgctxt "magnifier action"
 msgid "pan to right edge"
-msgstr "右边界"
+msgstr "移到右边"
 
 #. Translators: Action description for panning to top edge.
 #: _magnifier\utils\types.py:67
-#, fuzzy
-#| msgid "top edge"
 msgctxt "magnifier action"
 msgid "pan to top edge"
-msgstr "上边"
+msgstr "移到顶边"
 
 #. Translators: Action description for panning to bottom edge.
 #: _magnifier\utils\types.py:69
-#, fuzzy
-#| msgid "bottom edge"
 msgctxt "magnifier action"
 msgid "pan to bottom edge"
-msgstr "底边"
+msgstr "移到底边"
 
 #. Translators: Action description for toggling color filters.
 #: _magnifier\utils\types.py:71
