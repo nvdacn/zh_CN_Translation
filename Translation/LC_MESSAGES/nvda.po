@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-25 03:25+0000\n"
+"POT-Creation-Date: 2026-02-26 01:08+0000\n"
 "PO-Revision-Date: 2026-02-25 12:12+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2175,10 +2175,10 @@ msgstr ""
 #: gui\configProfiles.py:293 gui\configProfiles.py:337
 #: gui\configProfiles.py:515 gui\configProfiles.py:530
 #: gui\configProfiles.py:541 gui\inputGestures.py:808 gui\inputGestures.py:822
-#: gui\installerGui.py:122 gui\installerGui.py:632 gui\installerGui.py:648
-#: gui\installerGui.py:720 gui\logViewer.py:112 gui\logViewer.py:143
+#: gui\installerGui.py:122 gui\installerGui.py:632 gui\installerGui.py:649
+#: gui\installerGui.py:721 gui\logViewer.py:112 gui\logViewer.py:143
 #: gui\message.py:160 gui\settingsDialogs.py:1043 gui\settingsDialogs.py:5925
-#: gui\settingsDialogs.py:6588 gui\startupDialogs.py:127
+#: gui\settingsDialogs.py:6609 gui\startupDialogs.py:127
 #: _remoteClient\dialogs.py:67 _remoteClient\dialogs.py:306
 #: _remoteClient\dialogs.py:430
 msgid "Error"
@@ -5023,31 +5023,73 @@ msgstr "降低放大级别"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5015
+msgid "Pan the magnifier view to the left"
+msgstr ""
+
+#. Translators: Describes a command.
+#: globalCommands.py:5029
+msgid "Pan the magnifier view to the right"
+msgstr ""
+
+#. Translators: Describes a command.
+#: globalCommands.py:5043
+msgid "Pan the magnifier view up"
+msgstr ""
+
+#. Translators: Describes a command.
+#: globalCommands.py:5057
+#, fuzzy
+#| msgid "Toggles the magnifier on and off"
+msgid "Pan the magnifier view down"
+msgstr "切换放大镜的开关"
+
+#. Translators: Describes a command.
+#: globalCommands.py:5071
+msgid "Pan the magnifier view to left edge"
+msgstr ""
+
+#. Translators: Describes a command.
+#: globalCommands.py:5085
+msgid "Pan the magnifier view to right edge"
+msgstr ""
+
+#. Translators: Describes a command.
+#: globalCommands.py:5099
+msgid "Pan the magnifier view to top edge"
+msgstr ""
+
+#. Translators: Describes a command.
+#: globalCommands.py:5113
+msgid "Pan the magnifier view to bottom edge"
+msgstr ""
+
+#. Translators: Describes a command.
+#: globalCommands.py:5127
 msgid "Toggle filter of the magnifier"
 msgstr "切换颜色滤镜"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5029
+#: globalCommands.py:5141
 msgid "Toggle focus mode for the full-screen magnifier"
 msgstr "切换全屏聚焦模式"
 
 #. Translators: Describe a command.
-#: globalCommands.py:5042
+#: globalCommands.py:5154
 msgid "Launch spotlight if magnifier is full-screen"
 msgstr "若为全屏放大，则暂时显示标准视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5056
+#: globalCommands.py:5168
 msgid "Cycles through paragraph navigation styles"
 msgstr "在段落导航模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5070
+#: globalCommands.py:5182
 msgid "Cycles through sound split modes"
 msgstr "在声音拆分模式之间循环切换"
 
 #. Translators: Input help mode message for report language for caret command.
-#: globalCommands.py:5082
+#: globalCommands.py:5194
 msgctxt "reportLanguage"
 msgid ""
 "Reports the language for the text under the caret. If pressed twice, "
@@ -5055,44 +5097,44 @@ msgid ""
 msgstr "读出光标处文本的语言。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Reported when the language of the text at caret is not defined.
-#: globalCommands.py:5097
+#: globalCommands.py:5209
 msgctxt "reportLanguage"
 msgid "Unknown language"
 msgstr "未知语言"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
-#: globalCommands.py:5108
+#: globalCommands.py:5220
 #, python-brace-format
 msgctxt "reportLanguage"
 msgid "{languageDescription} (not supported)"
 msgstr "{languageDescription}（不支持）"
 
 #. Translators: title for report caret language dialog.
-#: globalCommands.py:5117
+#: globalCommands.py:5229
 msgctxt "reportLanguage"
 msgid "Language at caret position"
 msgstr "光标处文本的语言"
 
 #. Translators: Documentation string for the script that toggles whether the output from the remote computer is muted.
-#: globalCommands.py:5122
+#: globalCommands.py:5234
 msgctxt "remote"
 msgid "Mutes or unmutes the speech coming from the remote computer"
 msgstr "静音或恢复来自远程计算机的语音"
 
 #. Translators: Documentation string for the script that sends the contents of the clipboard to the remote computer.
-#: globalCommands.py:5132
+#: globalCommands.py:5244
 msgctxt "remote"
 msgid "Sends the contents of the clipboard to the remote computer"
 msgstr "发送剪贴板的内容到远程计算机"
 
 #. Translators: Documentation string for the script that copies a link to the Remote Access session to the clipboard.
-#: globalCommands.py:5140
+#: globalCommands.py:5252
 msgctxt "remote"
 msgid "Copies a link to the current Remote Access session to the clipboard"
 msgstr "将当前远程访问会话的链接复制到剪贴板"
 
 #. Translators: Documentation string for the script that disconnects a Remote Access session.
-#: globalCommands.py:5150
+#: globalCommands.py:5262
 msgctxt "remote"
 msgid "Disconnects from the current Remote Access session"
 msgstr "断开与当前远程访问会话的连接"
@@ -5103,7 +5145,7 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: Message shown when trying to copy the link to connect to the remote computer while not connected.
 #. Translators: Message shown when attempting to send control+alt+delete when no session is connected.
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:5156 _remoteClient\client.py:136
+#: globalCommands.py:5268 _remoteClient\client.py:136
 #: _remoteClient\client.py:163 _remoteClient\client.py:185
 #: _remoteClient\client.py:201 _remoteClient\client.py:596
 msgctxt "remote"
@@ -5111,62 +5153,62 @@ msgid "Not connected"
 msgstr "未连接"
 
 #. Translators: Documentation string for the script that starts a new Remote Access session.
-#: globalCommands.py:5162
+#: globalCommands.py:5274
 msgctxt "remote"
 msgid "Connects to a remote computer"
 msgstr "连接到远程计算机"
 
 #. Translators: A message indicating that the remote client is already connected.
-#: globalCommands.py:5173
+#: globalCommands.py:5285
 msgid "Already connected"
 msgstr "已连接"
 
 #. Translators: Describes the script that creates a new Remote Access session, or disconnects it if one already exists.
-#: globalCommands.py:5179
+#: globalCommands.py:5291
 msgctxt "remote"
 msgid "Toggles whether Remote Access is connected"
 msgstr "切换远程访问的连接状态"
 
 #. Translators: Documentation string for the script that toggles the control between guest and host computers.
-#: globalCommands.py:5194
+#: globalCommands.py:5306
 msgctxt "remote"
 msgid "Switches whether the keyboard controls the local or remote computer"
 msgstr "切换键盘要控制的计算机（本地或远程）"
 
 #. Translators: Documentation string for the script that sends alt+ctrl+del to the remote computer
-#: globalCommands.py:5207
+#: globalCommands.py:5319
 msgctxt "remote"
 msgid "Sends control+alt+delete to the controlled computer."
 msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 
 #. Translators: Description for the repeat last speech script
-#: globalCommands.py:5218
+#: globalCommands.py:5330
 msgid ""
 "Repeat the last spoken information. Pressing twice shows it in a browsable "
 "message. "
 msgstr "重复上次朗读的内容。连按两次在浏览模式下显示该信息。"
 
 #. Translators: title for report last spoken information dialog.
-#: globalCommands.py:5236
+#: globalCommands.py:5348
 msgid "Last spoken information"
 msgstr "上次朗读的内容"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5272
+#: globalCommands.py:5384
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5277
+#: globalCommands.py:5389
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5282
+#: globalCommands.py:5394
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -5174,7 +5216,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5298
+#: globalCommands.py:5410
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -12093,7 +12135,7 @@ msgstr "已成功连接到给定网址。"
 #. Translators: Title of a dialog shown when a portable copy of NVDA is created.
 #. Translators: The message title displayed when copying configuration to system settings was successful.
 #. Translators: Title of success dialog
-#: gui\_SetURLDialog.py:177 gui\installerGui.py:148 gui\installerGui.py:731
+#: gui\_SetURLDialog.py:177 gui\installerGui.py:148 gui\installerGui.py:732
 #: gui\settingsDialogs.py:1049 _remoteClient\dialogs.py:280
 msgid "Success"
 msgstr "成功"
@@ -13015,7 +13057,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:6476 gui\speechDict.py:212
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:6497 gui\speechDict.py:212
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13086,7 +13128,7 @@ msgstr ""
 
 #. Translators: the title of a retry cancel dialog when NVDA installation fails
 #. Translators: the title of a retry cancel dialog when NVDA portable copy creation  fails
-#: gui\installerGui.py:106 gui\installerGui.py:712
+#: gui\installerGui.py:106 gui\installerGui.py:713
 msgid "File in Use"
 msgstr "文件正在使用"
 
@@ -13340,45 +13382,50 @@ msgstr "请为便携版文件选择一个目录。"
 #. Translators: The message displayed when the user has not specified an absolute destination directory
 #. in the Create Portable NVDA dialog.
 #: gui\installerGui.py:642
-#, python-brace-format
+#, fuzzy, python-brace-format
+#| msgid ""
+#| "Please specify the absolute path where the portable copy should be "
+#| "created. It may include system variables (e.g. %temp%, %homepath%) and "
+#| "must start with a drive letter (e.g. C:\\). Current path: {path}. "
 msgid ""
 "Please specify the absolute path where the portable copy should be created. "
-"It may include system variables (e.g. %temp%, %homepath%) and must start "
-"with a drive letter (e.g. C:\\). Current path: {path}. "
+"It must start with a drive letter (e.g. C:). It may include system variables "
+"(e.g. %temp%, %homepath%) as placeholders for parts of the path.\n"
+"Current path: {path}. "
 msgstr ""
 "请指定存放便携版的绝对路径。可以包括系统变量（%temp%、%homepath% 等），但必须"
 "以驱动器号开头（例如C:\\）。当前路径：{path}。"
 
 #. Translators: The message displayed when the user cancels the creation of a portable copy of NVDA.
-#: gui\installerGui.py:694
+#: gui\installerGui.py:695
 msgid "Portable copy creation cancelled."
 msgstr "取消创建便携版。"
 
 #. Translators: The title of the dialog presented while a portable copy of NVDA is being created.
-#: gui\installerGui.py:699
+#: gui\installerGui.py:700
 msgid "Creating Portable Copy"
 msgstr "正在创建便携版"
 
 #. Translators: The message displayed while a portable copy of NVDA is being created.
-#: gui\installerGui.py:701
+#: gui\installerGui.py:702
 msgid "Please wait while a portable copy of NVDA is created."
 msgstr "正在创建 NVDA 便携版，请稍后。"
 
 #. Translators: a message dialog asking to retry or cancel when NVDA portable copy creation fails
-#: gui\installerGui.py:710
+#: gui\installerGui.py:711
 msgid "NVDA is unable to remove or overwrite a file."
 msgstr "NVDA 无法替换或覆盖一个文件。"
 
 #. Translators: The message displayed when an error occurs while creating a portable copy of NVDA.
 #. {error} will be replaced with the specific error message.
-#: gui\installerGui.py:718
+#: gui\installerGui.py:719
 #, python-brace-format
 msgid "Failed to create portable copy: {error}."
 msgstr "无法创建便携版 {error}。"
 
 #. Translators: The message displayed when a portable copy of NVDA has been successfully created.
 #. {dir} will be replaced with the destination directory.
-#: gui\installerGui.py:729
+#: gui\installerGui.py:730
 #, python-brace-format
 msgid "Successfully created a portable copy of NVDA at {dir}"
 msgstr "已在 {dir} 成功创建了便携版。"
@@ -13481,7 +13528,7 @@ msgstr "类别(&C)："
 #. Translators: This is the label for the general settings panel.
 #. Translators: name of a grouping in Privacy and Security settings
 #. which contains miscellaneous settings.
-#: gui\settingsDialogs.py:808 gui\settingsDialogs.py:6124
+#: gui\settingsDialogs.py:808 gui\settingsDialogs.py:6145
 msgid "General"
 msgstr "常规"
 
@@ -15401,148 +15448,153 @@ msgstr "放大镜"
 msgid "Default &zoom level:"
 msgstr "默认放大级别(&Z)"
 
-#. Translators: The label for a setting in magnifier settings to select the default filter
+#. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
 #: gui\settingsDialogs.py:6002
+msgid "&Panning step size (%):"
+msgstr ""
+
+#. Translators: The label for a setting in magnifier settings to select the default filter
+#: gui\settingsDialogs.py:6021
 msgid "Default &filter:"
 msgstr "默认颜色滤镜(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select the default full-screen mode
-#: gui\settingsDialogs.py:6017
+#: gui\settingsDialogs.py:6036
 msgid "Default &fullscreen mode:"
 msgstr "默认全屏模式(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select whether true center is used in full-screen mode
-#: gui\settingsDialogs.py:6031
+#: gui\settingsDialogs.py:6050
 msgid "Use &true center in fullscreen mode"
 msgstr "在全屏模式下保持焦点居中(&T)"
 
 #. Translators: The label for a checkbox to keep the mouse pointer centered in the magnifier view
-#: gui\settingsDialogs.py:6045
+#: gui\settingsDialogs.py:6064
 msgid "Keep &mouse pointer centered in magnifier view"
 msgstr "在放大视图中保持鼠标指针居中(&M)"
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
-#: gui\settingsDialogs.py:6070
+#: gui\settingsDialogs.py:6091
 msgid "Privacy and Security"
 msgstr "隐私和安全"
 
 #. Translators: Name for a feature that disables output to the screen,
 #. making it black.
-#: gui\settingsDialogs.py:6079
+#: gui\settingsDialogs.py:6100
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: option to enable screen curtain in the privacy and security settings panel
-#: gui\settingsDialogs.py:6088
+#: gui\settingsDialogs.py:6109
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: gui\settingsDialogs.py:6116
+#: gui\settingsDialogs.py:6137
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: The label for a setting in privacy and security settings to select NVDA's logging level
-#: gui\settingsDialogs.py:6131
+#: gui\settingsDialogs.py:6152
 msgid "L&ogging level:"
 msgstr "日志记录级别(&O):"
 
 #. Translators: The label of a checkbox in privacy and security settings to toggle allowing of usage stats gathering
-#: gui\settingsDialogs.py:6153
+#: gui\settingsDialogs.py:6174
 msgid "Allow NV Access to gather NVDA usage statistics"
 msgstr "允许 NV Access 收集 NVDA 使用统计信息"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:6265
+#: gui\settingsDialogs.py:6286
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:6316
+#: gui\settingsDialogs.py:6337
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:6351
+#: gui\settingsDialogs.py:6372
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:6356
+#: gui\settingsDialogs.py:6377
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:6386
+#: gui\settingsDialogs.py:6407
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:6400
+#: gui\settingsDialogs.py:6421
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6409
+#: gui\settingsDialogs.py:6430
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:6419
+#: gui\settingsDialogs.py:6440
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:6421 gui\speechDict.py:188
+#: gui\settingsDialogs.py:6442 gui\speechDict.py:188
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:6423
+#: gui\settingsDialogs.py:6444
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:6426
+#: gui\settingsDialogs.py:6447
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:6430
+#: gui\settingsDialogs.py:6451
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6448 gui\speechDict.py:52
+#: gui\settingsDialogs.py:6469 gui\speechDict.py:52
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:6457
+#: gui\settingsDialogs.py:6478
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:6464
+#: gui\settingsDialogs.py:6485
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:6479
+#: gui\settingsDialogs.py:6500
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:6586
+#: gui\settingsDialogs.py:6607
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
@@ -16725,7 +16777,7 @@ msgstr ""
 
 #. Translators: menu item -- use the language of the voice chosen in the NVDA speech settings dialog
 #. "Auto" == "Automatic" -- other items in menu are "English (en)", etc., so this matches that style
-#: mathPres\MathCAT\localization.py:280
+#: mathPres\MathCAT\localization.py:279
 msgctxt "math"
 msgid "Automatic (Use Voice's Language)"
 msgstr "自动（使用语音语言）"
@@ -20201,14 +20253,46 @@ msgstr "剩余 {minuteText}"
 msgid "Secure Desktop"
 msgstr "安全桌面"
 
+#. Translators: Short name for the left edge, used in messages.
+#: _magnifier\commands.py:35 _magnifier\commands.py:55
+#, fuzzy
+#| msgid "left"
+msgctxt "magnifier"
+msgid "left"
+msgstr "左"
+
+#. Translators: Short name for the right edge, used in messages.
+#: _magnifier\commands.py:40 _magnifier\commands.py:60
+#, fuzzy
+#| msgid "right"
+msgctxt "magnifier"
+msgid "right"
+msgstr "右"
+
+#. Translators: Short name for the top edge, used in messages.
+#: _magnifier\commands.py:45 _magnifier\commands.py:65
+#, fuzzy
+#| msgid "stop"
+msgctxt "magnifier"
+msgid "top"
+msgstr "停止"
+
+#. Translators: Short name for the bottom edge, used in messages.
+#: _magnifier\commands.py:50 _magnifier\commands.py:70
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "magnifier"
+msgid "bottom"
+msgstr "底部"
+
 #. Translators: Message announced when stopping the NVDA magnifier.
-#: _magnifier\commands.py:43
+#: _magnifier\commands.py:87
 msgctxt "magnifier"
 msgid "Exiting magnifier"
 msgstr "关闭放大镜"
 
 #. Translators: Message announced when trying to start magnifier while Screen Curtain is active.
-#: _magnifier\commands.py:52
+#: _magnifier\commands.py:96
 msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier: Screen Curtain is active. Please disable Screen "
@@ -20216,7 +20300,7 @@ msgid ""
 msgstr "无法启动放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Message announced when starting the NVDA magnifier.
-#: _magnifier\commands.py:66
+#: _magnifier\commands.py:110
 #, python-brace-format
 msgctxt "magnifier"
 msgid ""
@@ -20226,69 +20310,63 @@ msgstr ""
 "开启放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}，全屏模式："
 "{fullscreenMode}"
 
-#. Translators: Message announced when zooming in with {zoomLevel} being the target zoom level.
-#: _magnifier\commands.py:87
-#, python-brace-format
+#. Translators: Message announced when arriving at the {edge} edge.
+#: _magnifier\commands.py:151
+#, fuzzy, python-brace-format
+#| msgid "left edge"
 msgctxt "magnifier"
-msgid "Zooming in with {zoomLevel} level"
-msgstr "提高到 {zoomLevel} 倍"
-
-#. Translators: Message announced when zooming out with {zoomLevel} being the target zoom level.
-#: _magnifier\commands.py:104
-#, python-brace-format
-msgctxt "magnifier"
-msgid "Zooming out with {zoomLevel} level"
-msgstr "降低到 {zoomLevel} 倍"
+msgid "{edge} edge"
+msgstr "左边界"
 
 #. Translators: Message announced when changing the color filter with {filter} being the new color filter.
-#: _magnifier\commands.py:126
+#: _magnifier\commands.py:173
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Color filter changed to {filter}"
 msgstr "{filter}颜色滤镜"
 
 #. Translators: Message announced when changing the full-screen mode with {mode} being the new full-screen mode.
-#: _magnifier\commands.py:152
+#: _magnifier\commands.py:199
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Full-screen mode changed to {mode}"
 msgstr "{mode}全屏模式"
 
 #. Translators: Message announced when trying to start spotlight mode while it's already active.
-#: _magnifier\commands.py:175
+#: _magnifier\commands.py:222
 msgctxt "magnifier"
 msgid "Spotlight mode is already active"
 msgstr "已显示标准视图"
 
 #. Translators: Message announced when spotlight mode is started.
-#: _magnifier\commands.py:185
+#: _magnifier\commands.py:232
 msgctxt "magnifier"
 msgid "Spotlight mode started"
 msgstr "暂时显示标准视图"
 
 #. Translators: Message announced when the magnifier is not active.
-#: _magnifier\commands.py:209
+#: _magnifier\commands.py:256
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not active."
 msgstr "放大镜未开启时无法{action}。"
 
 #. Translators: Message announced when the magnifier is not full-screen.
-#: _magnifier\commands.py:234
+#: _magnifier\commands.py:281
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not full-screen."
 msgstr "非全屏放大时无法{action}。"
 
-#. Translators: Zoom level string shown in settings and messages.
-#: _magnifier\config.py:41
+#. Translators: Message announced when zooming in with {zoomLevel} being the target zoom level.
+#: _magnifier\config.py:26
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:98
+#: _magnifier\magnifier.py:127
 msgctxt "magnifier"
 msgid ""
 "Cannot enable magnifier: screen curtain is active. Please disable screen "
@@ -20296,13 +20374,13 @@ msgid ""
 msgstr "无法启用放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
-#: _magnifier\magnifier.py:143
+#: _magnifier\magnifier.py:172
 msgctxt "magnifier"
 msgid "Magnifier is active, disabling it before enabling screen curtain"
 msgstr "已开启放大镜，开启黑屏前请先将其关闭。"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
-#: _magnifier\magnifier.py:161
+#: _magnifier\magnifier.py:190
 msgctxt "magnifier"
 msgid "Magnifier was active before screen curtain, re-enabling it"
 msgstr "已重启放大镜"
@@ -20314,85 +20392,147 @@ msgid "Magnifier spotlight stopped"
 msgstr "显示放大视图"
 
 #. Translators: Action description for zooming in.
-#: _magnifier\utils\types.py:43
+#: _magnifier\utils\types.py:51
 msgctxt "magnifier action"
 msgid "zoom in"
 msgstr "放大"
 
 #. Translators: Action description for zooming out.
-#: _magnifier\utils\types.py:45
+#: _magnifier\utils\types.py:53
 msgctxt "magnifier action"
 msgid "zoom out"
 msgstr "缩小"
 
+#. Translators: Action description for panning left.
+#: _magnifier\utils\types.py:55
+#, fuzzy
+#| msgid "align left"
+msgctxt "magnifier action"
+msgid "pan left"
+msgstr "左对齐"
+
+#. Translators: Action description for panning right.
+#: _magnifier\utils\types.py:57
+#, fuzzy
+#| msgid "align right"
+msgctxt "magnifier action"
+msgid "pan right"
+msgstr "右对齐"
+
+#. Translators: Action description for panning up.
+#: _magnifier\utils\types.py:59
+msgctxt "magnifier action"
+msgid "pan up"
+msgstr ""
+
+#. Translators: Action description for panning down.
+#: _magnifier\utils\types.py:61
+#, fuzzy
+#| msgid "page down"
+msgctxt "magnifier action"
+msgid "pan down"
+msgstr "下翻页"
+
+#. Translators: Action description for panning to left edge.
+#: _magnifier\utils\types.py:63
+#, fuzzy
+#| msgid "left edge"
+msgctxt "magnifier action"
+msgid "pan to left edge"
+msgstr "左边界"
+
+#. Translators: Action description for panning to right edge.
+#: _magnifier\utils\types.py:65
+#, fuzzy
+#| msgid "right edge"
+msgctxt "magnifier action"
+msgid "pan to right edge"
+msgstr "右边界"
+
+#. Translators: Action description for panning to top edge.
+#: _magnifier\utils\types.py:67
+#, fuzzy
+#| msgid "top edge"
+msgctxt "magnifier action"
+msgid "pan to top edge"
+msgstr "上边"
+
+#. Translators: Action description for panning to bottom edge.
+#: _magnifier\utils\types.py:69
+#, fuzzy
+#| msgid "bottom edge"
+msgctxt "magnifier action"
+msgid "pan to bottom edge"
+msgstr "底边"
+
 #. Translators: Action description for toggling color filters.
-#: _magnifier\utils\types.py:47
+#: _magnifier\utils\types.py:71
 msgctxt "magnifier action"
 msgid "toggle filters"
 msgstr "切换颜色滤镜"
 
 #. Translators: Action description for changing full-screen mode.
-#: _magnifier\utils\types.py:49
+#: _magnifier\utils\types.py:73
 msgctxt "magnifier action"
 msgid "change full-screen mode"
 msgstr "更改全屏模式"
 
 #. Translators: Action description for starting spotlight mode.
-#: _magnifier\utils\types.py:51
+#: _magnifier\utils\types.py:75
 msgctxt "magnifier action"
 msgid "start spotlight mode"
 msgstr "显示标准视图"
 
 #. Translators: Magnifier type - full-screen mode.
-#: _magnifier\utils\types.py:66
+#: _magnifier\utils\types.py:90
 msgctxt "magnifier"
 msgid "Fullscreen"
 msgstr "全屏"
 
 #. Translators: Magnifier type - docked mode.
-#: _magnifier\utils\types.py:68
+#: _magnifier\utils\types.py:92
 msgctxt "magnifier"
 msgid "Docked"
 msgstr "停靠"
 
 #. Translators: Magnifier type - lens mode.
-#: _magnifier\utils\types.py:70
+#: _magnifier\utils\types.py:94
 msgctxt "magnifier"
 msgid "Lens"
 msgstr "镜头"
 
 #. Translators: Magnifier focus mode - center mouse/focus on screen.
-#: _magnifier\utils\types.py:114
+#: _magnifier\utils\types.py:138
 msgctxt "magnifier"
 msgid "Center"
 msgstr "居中"
 
 #. Translators: Magnifier focus mode - follow focus at screen borders.
-#: _magnifier\utils\types.py:116
+#: _magnifier\utils\types.py:140
 msgctxt "magnifier"
 msgid "Border"
 msgstr "边缘"
 
 #. Translators: Magnifier focus mode - maintain relative position.
-#: _magnifier\utils\types.py:118
+#: _magnifier\utils\types.py:142
 msgctxt "magnifier"
 msgid "Relative"
 msgstr "相对"
 
 #. Translators: Magnifier color filter - no filter applied.
-#: _magnifier\utils\types.py:131
+#: _magnifier\utils\types.py:155
 msgctxt "magnifier"
 msgid "Normal"
 msgstr "正常"
 
 #. Translators: Magnifier color filter - grayscale/black and white.
-#: _magnifier\utils\types.py:133
+#: _magnifier\utils\types.py:157
 msgctxt "magnifier"
 msgid "Grayscale"
 msgstr "灰度"
 
 #. Translators: Magnifier color filter - inverted colors.
-#: _magnifier\utils\types.py:135
+#: _magnifier\utils\types.py:159
 msgctxt "magnifier"
 msgid "Inverted"
 msgstr "反转"
@@ -20802,6 +20942,16 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#, python-brace-format
+#~ msgctxt "magnifier"
+#~ msgid "Zooming in with {zoomLevel} level"
+#~ msgstr "提高到 {zoomLevel} 倍"
+
+#, python-brace-format
+#~ msgctxt "magnifier"
+#~ msgid "Zooming out with {zoomLevel} level"
+#~ msgstr "降低到 {zoomLevel} 倍"
 
 #~ msgid ""
 #~ "Add-ons were detected in your user settings directory. Copying these to "
