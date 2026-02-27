@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-27 06:40+0000\n"
-"PO-Revision-Date: 2026-02-26 19:42+0800\n"
+"PO-Revision-Date: 2026-02-27 20:24+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17026,8 +17026,7 @@ msgstr ""
 
 #. Translators: This is presented to inform the user of a progress bar percentage.
 #: NVDAObjects\behaviors.py:83 winAPI\_powerTracking.py:217
-#, fuzzy, python-format
-#| msgid "%d percent"
+#, python-format
 msgid "%d percent"
 msgid_plural "%d percent"
 msgstr[0] "百分之 %d"
