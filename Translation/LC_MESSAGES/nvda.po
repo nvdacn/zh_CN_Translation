@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 09:39+0000\n"
+"POT-Creation-Date: 2026-02-27 04:30+0000\n"
 "PO-Revision-Date: 2026-02-26 19:42+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -17019,11 +17019,12 @@ msgstr ""
 "{top:.1f}，宽度为百分之 {width:.1f}，高度为百分之 {height:.1f}"
 
 #. Translators: This is presented to inform the user of a progress bar percentage.
-#. Translators: This is presented to inform the user of the current battery percentage.
-#: NVDAObjects\behaviors.py:83 winAPI\_powerTracking.py:216
-#, python-format
+#: NVDAObjects\behaviors.py:83 winAPI\_powerTracking.py:217
+#, fuzzy, python-format
+#| msgid "%d percent"
 msgid "%d percent"
-msgstr "百分之 %d"
+msgid_plural "%d percent"
+msgstr[0] "百分之 %d"
 
 #. Translators: Announced in braille when suggestions appear when search term is entered
 #. in various search fields such as Start search box in Windows 10.
@@ -20202,13 +20203,13 @@ msgid "Unplugged"
 msgstr "已断开电源"
 
 #. Translators: Reported when battery time is less than 1 minute.
-#: winAPI\_powerTracking.py:228
+#: winAPI\_powerTracking.py:231
 msgid "Less than 1 minute remaining"
 msgstr "剩余不到 1 分钟"
 
 #. Translators: This is the hour string part of the estimated remaining runtime of the laptop battery.
 #. E.g. if the full string is "1 hour and 34 minutes remaining", this string is "1 hour".
-#: winAPI\_powerTracking.py:239
+#: winAPI\_powerTracking.py:242
 #, python-brace-format
 msgid "{hours:d} hour"
 msgid_plural "{hours:d} hours"
@@ -20216,7 +20217,7 @@ msgstr[0] "{hours:d} 小时"
 
 #. Translators: This is the minute string part of the estimated remaining runtime of the laptop battery.
 #. E.g. if the full string is "1 hour and 34 minutes remaining", this string is "34 minutes".
-#: winAPI\_powerTracking.py:249
+#: winAPI\_powerTracking.py:252
 #, python-brace-format
 msgid "{minutes:d} minute"
 msgid_plural "{minutes:d} minutes"
@@ -20224,21 +20225,21 @@ msgstr[0] "{minutes:d} 分"
 
 #. Translators: This is the main string for the estimated remaining runtime of the laptop battery.
 #. E.g. hourText is replaced by "1 hour" and minuteText by "34 minutes".
-#: winAPI\_powerTracking.py:259
+#: winAPI\_powerTracking.py:262
 #, python-brace-format
 msgid "{hourText} and {minuteText} remaining"
 msgstr "剩余 {hourText} {minuteText}"
 
 #. Translators: Reported when only hours remaining for battery life.
 #. E.g. "2 hours remaining"
-#: winAPI\_powerTracking.py:265
+#: winAPI\_powerTracking.py:268
 #, python-brace-format
 msgid "{hourText} remaining"
 msgstr "剩余 {hourText}"
 
 #. Translators: Reported when only minutes remaining for battery life.
 #. E.g. "30 minutes remaining"
-#: winAPI\_powerTracking.py:271
+#: winAPI\_powerTracking.py:274
 #, python-brace-format
 msgid "{minuteText} remaining"
 msgstr "剩余 {minuteText}"
