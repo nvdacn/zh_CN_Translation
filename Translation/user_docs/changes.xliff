@@ -9038,7 +9038,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 348</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>2025.3.3</source>
         <target>2025.3.3</target>
       </segment>
@@ -9047,9 +9047,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 350</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This is a patch release to fix a security issue.</source>
-        <target>This is a patch release to fix a security issue.</target>
+        <target>这是一个修复安全问题的补丁版本。</target>
       </segment>
     </unit>
     <unit id="8342a3b8-d831-4e36-989f-2f51124e47d6">
@@ -9057,18 +9057,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 352</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Security fixes</source>
-        <target>Security fixes</target>
+        <target>安全修复</target>
       </segment>
     </unit>
     <unit id="d678a1c4-d31f-4f81-ba2c-78855a880a44">
       <notes>
         <note appliesTo="source">line: 354</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</source>
-        <target>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</target>
+        <target>请遵循 NVDA 的[安全政策](https://github.com/nvaccess/nvda/blob/master/security.md)负责任地披露安全问题。</target>
       </segment>
     </unit>
     <unit id="b74c39f7-be02-4efe-9415-9b0fe8877198">
@@ -9076,9 +9076,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 356</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Prevents a situation where NVDA may unexpectedly run as an administrator. [GHSA-cq78-fjp7-3rp5](https://github.com/nvaccess/nvda/security/advisories/ghsa-cq78-fjp7-3rp5)</source>
-        <target>Prevents a situation where NVDA may unexpectedly run as an administrator. [GHSA-cq78-fjp7-3rp5](https://github.com/nvaccess/nvda/security/advisories/ghsa-cq78-fjp7-3rp5)</target>
+        <target>修复了 NVDA 可能意外以管理员身份运行的问题。[GHSA-cq78-fjp7-3rp5](https://github.com/nvaccess/nvda/security/advisories/GHSA-cq78-fjp7-3rp5)</target>
       </segment>
     </unit>
     <unit id="95f97cbc-24c2-4812-8dfe-58c3e1e7b291">
