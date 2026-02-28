@@ -7865,18 +7865,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#TheSynthSettingsRing}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The synth settings ring</source>
-        <target>合成器设置</target>
+        <target>循环切换合成器设置</target>
       </segment>
     </unit>
     <unit id="930e523a-9a2a-4c92-840d-dd4f24128e74">
       <notes>
         <note appliesTo="source">line: 263</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The synth settings ring is a set of key commands that allow you to move through the most common speech settings and easily control them from anywhere while running NVDA.</source>
-        <target>The synth settings ring is a set of key commands that allow you to move through the most common speech settings and easily control them from anywhere while running NVDA.</target>
+        <target>循环切换合成器设置是一组快捷命令，允许您在运行 NVDA 时浏览最常用的语音设置，并随时随地轻松控制它们。</target>
       </segment>
     </unit>
     <unit id="ea947c56-399f-4018-9a79-b68d25f7d965">
@@ -12497,9 +12497,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Toggle mouse audio coordinates |none |none |none |Toggles whether NVDA plays audio beeps that report the mouse position as it moves.</source>
-        <target>Toggle mouse audio coordinates |none |none |none |Toggles whether NVDA plays audio beeps that report the mouse position as it moves.</target>
+        <target>切换鼠标移动时播放音频坐标 | 无 | 无 | 无 |切换 NVDA 是否在鼠标移动时播放声音用以提示鼠标位置。</target>
       </segment>
     </unit>
     <unit id="48c90ca3-a104-4fd4-bca4-af089a2a1848">
@@ -22353,9 +22353,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2523</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Audio ducking is not available when using [Microsoft Speech API version 4 (SAPI 4)](#SAPI4) or 32 bit [Microsoft Speech API version 5 (SAPI 5)](#SAPI5) voices.</source>
-        <target>Audio ducking is not available when using [Microsoft Speech API version 4 (SAPI 4)](#SAPI4) or 32 bit [Microsoft Speech API version 5 (SAPI 5)](#SAPI5) voices.</target>
+        <target>使用 [Microsoft Speech API version 4（SAPI 4）](#SAPI4)或 32 位 [Microsoft Speech API version 5（SAPI 5）](#SAPI5) 语音时，音频闪避不可用。</target>
       </segment>
     </unit>
     <unit id="cbf8c229-6f61-41cf-9bd5-87fdca9386eb">
@@ -26262,9 +26262,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3179</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>You can also assign a custom gesture to toggle the reporting of errors in braille using the [Input Gestures dialog](#InputGestures).</source>
-        <target>您还可在[按键与手势对话框](#InputGestures)为是否以盲文呈现拼写或语法错误的切换开关分配自定义快捷键</target>
+        <target>您还可在[按键与手势对话框](#InputGestures)为是否以盲文呈现拼写或语法错误的切换开关分配自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="224870b6-bb34-4022-9bc7-828a1c3b3582">
@@ -28736,99 +28736,99 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3617</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This dialog allows you to choose which of your [add-ons](#AddonsManager) to [copy to NVDA's system-wide configuration](#GeneralSettingsCopySettings), which is used during sign-in and on [secure screens](#SecureScreens).</source>
-        <target>This dialog allows you to choose which of your [add-ons](#AddonsManager) to [copy to NVDA's system-wide configuration](#GeneralSettingsCopySettings), which is used during sign-in and on [secure screens](#SecureScreens).</target>
+        <target>此对话框允许您选择将哪些[插件](#AddonsManager)[拷贝到 NVDA 的系统配置](#GeneralSettingsCopySettings)，该配置将在登录时和[安全界面](#SecureScreens)使用。</target>
       </segment>
     </unit>
     <unit id="e5686cc3-98f5-4bba-bd26-8e6982b826be">
       <notes>
         <note appliesTo="source">line: 3618</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, NVDA will not copy any of your add-ons to the system-wide configuration.</source>
-        <target>By default, NVDA will not copy any of your add-ons to the system-wide configuration.</target>
+        <target>默认情况下，NVDA 不会拷贝任何插件到系统配置。</target>
       </segment>
     </unit>
     <unit id="e21544ee-caba-4d34-a9b2-e423ef89e065">
       <notes>
         <note appliesTo="source">line: 3620</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Copying add-ons to the system-wide configuration is a serious security risk.</source>
-        <target>Copying add-ons to the system-wide configuration is a serious security risk.</target>
+        <target>将插件拷贝到系统配置存在严重的安全风险。</target>
       </segment>
     </unit>
     <unit id="6ad80be6-44d5-44d3-ac80-6fa40d50a9be">
       <notes>
         <note appliesTo="source">line: 3621</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA uses this configuration when running on secure screens, including the sign-in and User Account Control (UAC) screens.</source>
-        <target>NVDA uses this configuration when running on secure screens, including the sign-in and User Account Control (UAC) screens.</target>
+        <target>NVDA 在安全界面运行时（包括登录界面和用户账户控制（UAC）界面）会使用此配置。</target>
       </segment>
     </unit>
     <unit id="41ab7772-62ff-407f-9c99-0d1b10924724">
       <notes>
         <note appliesTo="source">line: 3622</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When running on secure screens, NVDA runs as the system user, which has privileges even greater than administrators.</source>
-        <target>When running on secure screens, NVDA runs as the system user, which has privileges even greater than administrators.</target>
+        <target>在安全界面运行时，NVDA 以系统用户的身份运行，其权限甚至高于管理员。</target>
       </segment>
     </unit>
     <unit id="9718e22f-2b97-467d-9dc1-df2ed07564fa">
       <notes>
         <note appliesTo="source">line: 3623</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This means that many of the usual security and privacy features of Windows, like User Account Control (UAC), do not apply.</source>
-        <target>This means that many of the usual security and privacy features of Windows, like User Account Control (UAC), do not apply.</target>
+        <target>这意味着 Windows 的许多常规安全和隐私功能（例如用户账户控制（UAC））将不再适用。</target>
       </segment>
     </unit>
     <unit id="1189fd16-5d7d-4f9d-b6af-2ab06873055f">
       <notes>
         <note appliesTo="source">line: 3624</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Allowing add-ons to run in this environment grants them unrestricted access to your entire system.</source>
-        <target>Allowing add-ons to run in this environment grants them unrestricted access to your entire system.</target>
+        <target>允许插件在此环境运行，等同于让它们获得对整个系统的无限制访问权限。</target>
       </segment>
     </unit>
     <unit id="2edf4d02-9c8e-4259-986f-e4bb58d65794">
       <notes>
         <note appliesTo="source">line: 3626</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To copy one or more add-ons to the system-wide configuration, check them in the list of add-ons.</source>
-        <target>To copy one or more add-ons to the system-wide configuration, check them in the list of add-ons.</target>
+        <target>可在插件列表选择要拷贝到系统配置的插件。</target>
       </segment>
     </unit>
     <unit id="f75a744e-8950-4dfa-9d1f-8a6546d5c048">
       <notes>
         <note appliesTo="source">line: 3627</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You are strongly recommended to leave all add-ons that you do not require to access secure screens unchecked.</source>
-        <target>You are strongly recommended to leave all add-ons that you do not require to access secure screens unchecked.</target>
+        <target>强烈建议您取消选中那些在访问安全界面时不需要的插件。</target>
       </segment>
     </unit>
     <unit id="eec22e97-5216-4082-88a6-792a2c55c00b">
       <notes>
         <note appliesTo="source">line: 3629</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please note that you may only copy currently enabled add-ons to the system-wide configuration.</source>
-        <target>Please note that you may only copy currently enabled add-ons to the system-wide configuration.</target>
+        <target>请注意，您只能将当前已启用的插件拷贝到系统配置。</target>
       </segment>
     </unit>
     <unit id="3365d724-9d0e-4cd0-88f3-08645f2f7977">
       <notes>
         <note appliesTo="source">line: 3630</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Add-ons that are "pending restart" cannot be copied.</source>
-        <target>Add-ons that are "pending restart" cannot be copied.</target>
+        <target>无法拷贝状态为“重启后生效”的插件。</target>
       </segment>
     </unit>
     <unit id="e3d0c2c5-1a59-4caf-9b4f-67e824c90639">
@@ -30135,9 +30135,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3832</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This can allow SAPI 4 voices to work with more features, such as leading silence trimming and keeping audio device awake.</source>
-        <target>This can allow SAPI 4 voices to work with more features, such as leading silence trimming and keeping audio device awake.</target>
+        <target>该功能可使 SAPI 4 语音支持更多特性，例如：去除语音开头的静音、音频设备保持唤醒等。</target>
       </segment>
     </unit>
     <unit id="6b1daae4-93c0-4a87-a437-b6b0da25616f">
@@ -34780,18 +34780,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4562</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA supports both 32-bit and 64-bit SAPI5 voices.</source>
-        <target>NVDA supports both 32-bit and 64-bit SAPI5 voices.</target>
+        <target>NVDA 支持 32 位和 64 位的 SAPI 5 语音。</target>
       </segment>
     </unit>
     <unit id="ee0723b9-9315-4238-981f-cc63e0846d91">
       <notes>
         <note appliesTo="source">line: 4563</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For the best performance and feature compatibility, 64-bit voices should be preferred.</source>
-        <target>For the best performance and feature compatibility, 64-bit voices should be preferred.</target>
+        <target>为了获得最佳性能和功能兼容性，应首选 64 位语音。</target>
       </segment>
     </unit>
     <unit id="58603ade-f768-4b49-9674-875490f18148">
@@ -34807,18 +34807,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4566</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When using the 32-bit or 64-bit SAPI 5 synthesizer with NVDA, the available voices (accessed from the [Speech category](#SpeechSettings) of the [NVDA Settings](#NVDASettings) dialog or by the [Synth Settings Ring](#SynthSettingsRing)) will contain all the voices from all the installed 32-bit or 64-bit SAPI 5 engines found on your system, respectively.</source>
-        <target>When using the 32-bit or 64-bit SAPI 5 synthesizer with NVDA, the available voices (accessed from the [Speech category](#SpeechSettings) of the [NVDA Settings](#NVDASettings) dialog or by the [Synth Settings Ring](#SynthSettingsRing)) will contain all the voices from all the installed 32-bit or 64-bit SAPI 5 engines found on your system, respectively.</target>
+        <target>在 NVDA 中使用 32 位或 64 位 SAPI 5 合成器时，可以在“NVDA 设置”下的“语音设置类别”或通过循环切换合成器设置找到已安装的 32 位或 64 位的所有 SAPI5 语音。</target>
       </segment>
     </unit>
     <unit id="20a40a6b-4ea7-480f-a275-d95fc120706c">
       <notes>
         <note appliesTo="source">line: 4567</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you are unable to find a SAPI 5 voice that is installed on your system, try switching to the other SAPI 5 synthesizer using the [Select Synthesizer dialog](#SelectSynthesizer).</source>
-        <target>If you are unable to find a SAPI 5 voice that is installed on your system, try switching to the other SAPI 5 synthesizer using the [Select Synthesizer dialog](#SelectSynthesizer).</target>
+        <target>如果您找不到系统上安装的 SAPI 5 语音，请尝试使用[选择合成器对话框](#SelectSynthesizer)切换到另一个 SAPI 5 合成器。</target>
       </segment>
     </unit>
     <unit id="96f14247-84d5-4bec-96d0-f0d9c6751874">
@@ -45554,18 +45554,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5928</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When running on a secure screen, NVDA uses its system-wide configuration for preferences.</source>
-        <target>When running on a secure screen, NVDA uses its system-wide configuration for preferences.</target>
+        <target>NVDA 在安全界面使用其系统配置作为首选项。</target>
       </segment>
     </unit>
     <unit id="446bb7f1-b91d-4de7-913c-9d56f2f060d2">
       <notes>
         <note appliesTo="source">line: 5929</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA user preferences can be copied [for use on secure screens](#GeneralSettingsCopySettings).</source>
-        <target>NVDA user preferences can be copied [for use on secure screens](#GeneralSettingsCopySettings).</target>
+        <target>可以将用户配置[应用到安全界面](#GeneralSettingsCopySettings)。</target>
       </segment>
     </unit>
     <unit id="0627dff2-dc87-4db5-b4b2-77beb45ed1a9">
