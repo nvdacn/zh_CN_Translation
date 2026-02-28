@@ -5986,270 +5986,270 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This release includes built-in support for reading math content with MathCAT.</source>
-        <target>This release includes built-in support for reading math content with MathCAT.</target>
+        <target>此版本内置了对使用 MathCAT 阅读数学内容的支持。</target>
       </segment>
     </unit>
     <unit id="557a0d6f-5412-4c2f-8fde-77af154e7840">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>There have been several improvements to speech.</source>
-        <target>There have been several improvements to speech.</target>
+        <target>语音方面有几项改进。</target>
       </segment>
     </unit>
     <unit id="f90f2423-eaaf-402d-b317-97215590d2f2">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Spelling errors can now be reported with a sound instead of speech when reading.</source>
-        <target>Spelling errors can now be reported with a sound instead of speech when reading.</target>
+        <target>现可用声音提示阅读时的拼写错误。</target>
       </segment>
     </unit>
     <unit id="dba7c1fc-ef43-417b-9aa1-b140e19c2704">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can now configure NVDA to automatically say all after successfully recognising content, such as with Windows OCR.</source>
-        <target>You can now configure NVDA to automatically say all after successfully recognising content, such as with Windows OCR.</target>
+        <target>您可配置 NVDA 在成功识别内容（例如使用 Windows OCR）后自动读出所有内容。</target>
       </segment>
     </unit>
     <unit id="66c6028a-b902-4990-a8e4-b8c6c1bacf40">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer reports the language being read as unsupported when the synthesizer supports the language but not the specific dialect.</source>
-        <target>NVDA no longer reports the language being read as unsupported when the synthesizer supports the language but not the specific dialect.</target>
+        <target>若合成器支持某种语言但不支持特定方言，NVDA 不再提示该语言不受支持。</target>
       </segment>
     </unit>
     <unit id="7cfdf681-a55a-43e6-a838-9507a6f69c99">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now supports 64-bit SAPI 5 voices.</source>
-        <target>NVDA now supports 64-bit SAPI 5 voices.</target>
+        <target>现已支持 64 位 SAPI 5 语音。</target>
       </segment>
     </unit>
     <unit id="247f4625-b0e5-4b28-9321-df208a665e91">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille support has also been improved.</source>
-        <target>Braille support has also been improved.</target>
+        <target>盲文支持也得到了改进。</target>
       </segment>
     </unit>
     <unit id="1ed9b765-a9c8-4d51-b618-436a0edb6a36">
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It now continues to work when switching to a secure screen, like the sign-in screen or User Account Control dialog.</source>
-        <target>It now continues to work when switching to a secure screen, like the sign-in screen or User Account Control dialog.</target>
+        <target>当切换到安全界面（如登录界面或用户账户控制对话框）时，盲文点显器可以继续工作。</target>
       </segment>
     </unit>
     <unit id="62c68ed7-f77f-4904-8620-cebcf50f5ac3">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA messages from the local computer are now shown in braille when controlling a computer via Remote Access.</source>
-        <target>NVDA messages from the local computer are now shown in braille when controlling a computer via Remote Access.</target>
+        <target>通过远程访问控制计算机时，来自本地计算机的 NVDA 消息也会以盲文显示。</target>
       </segment>
     </unit>
     <unit id="341e3448-dcd4-4d7d-a272-cbed5156b725">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Spelling errors and the number of items in a list in browse mode can now be shown in braille.</source>
-        <target>Spelling errors and the number of items in a list in browse mode can now be shown in braille.</target>
+        <target>浏览模式下的拼写错误和列表项目数量也可用盲文显示。</target>
       </segment>
     </unit>
     <unit id="51bdb759-7df7-4fc3-bda6-6e493dbf9ecf">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Other braille bug fixes, including in Microsoft Outlook and LibreOffice Writer, have also been added.</source>
-        <target>Other braille bug fixes, including in Microsoft Outlook and LibreOffice Writer, have also been added.</target>
+        <target>还修复了其他的一些有关盲文的错误，包括在 Microsoft Outlook 和 LibreOffice Writer 中的问题。</target>
       </segment>
     </unit>
     <unit id="6b0a5a33-752b-4c98-abb7-6cd97803c4a6">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In browse mode in web browsers, NVDA no longer treats controls with 0 width or height as invisible.</source>
-        <target>In browse mode in web browsers, NVDA no longer treats controls with 0 width or height as invisible.</target>
+        <target>在浏览器中的浏览模式下，NVDA 不再将宽度或高度为 0 的控件视为不可见元素。</target>
       </segment>
     </unit>
     <unit id="d60e3915-b303-4ed0-82cd-deb8c648b4bc">
       <notes>
         <note appliesTo="source">line: 21</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This may make it possible to access previously inaccessible "screen reader only" content on some websites.</source>
-        <target>This may make it possible to access previously inaccessible "screen reader only" content on some websites.</target>
+        <target>这或许能访问那些网站上以前无法访问的“仅屏幕阅读器可见”的内容。</target>
       </segment>
     </unit>
     <unit id="92d96b3c-4716-403b-bc6b-26191f6f0ce6">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Malformed links no longer prevent NVDA from reading content in Google Chrome and other Chromium-based browsers.</source>
-        <target>Malformed links no longer prevent NVDA from reading content in Google Chrome and other Chromium-based browsers.</target>
+        <target>修复了格式错误的链接会阻止 NVDA 在 Google Chrome 和其他基于 Chromium 的浏览器中继续阅读。</target>
       </segment>
     </unit>
     <unit id="a3b62581-b296-4612-bfec-a914f1507be8">
       <notes>
         <note appliesTo="source">line: 23</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The browse mode highlighter now appears on content recognition results, such as when using Windows OCR.</source>
-        <target>The browse mode highlighter now appears on content recognition results, such as when using Windows OCR.</target>
+        <target>浏览模式的高亮显示框现在会落在内容识别结果上，例如在使用 Windows OCR 时。</target>
       </segment>
     </unit>
     <unit id="f90b4aff-d4e3-4d07-b7ad-a5f511a1e16d">
       <notes>
         <note appliesTo="source">line: 24</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Microsoft Word, unassigned Quick Navigation commands to jump to references have been added.</source>
-        <target>In Microsoft Word, unassigned Quick Navigation commands to jump to references have been added.</target>
+        <target>在 Microsoft Word 中，添加了跳转到引用标记的未分配的单键导航命令。</target>
       </segment>
     </unit>
     <unit id="4ddf7aee-cc0f-4755-a693-df7d9225fdf6">
       <notes>
         <note appliesTo="source">line: 25</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>They are also now shown in the elements list.</source>
-        <target>They are also now shown in the elements list.</target>
+        <target>元素列表中也会显示引用标记。</target>
       </segment>
     </unit>
     <unit id="1e2f52d5-9e0e-4e4a-bc3d-542c9460ebf0">
       <notes>
         <note appliesTo="source">line: 27</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It is now possible to view virus scan results for an add-on from the Add-on Store.</source>
-        <target>It is now possible to view virus scan results for an add-on from the Add-on Store.</target>
+        <target>可在插件商店中查看插件的病毒扫描结果。</target>
       </segment>
     </unit>
     <unit id="8f32b2a2-e820-4475-84d6-d0ac5df2db40">
       <notes>
         <note appliesTo="source">line: 28</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For add-ons that include one, you can also view an add-on's changelog.</source>
-        <target>For add-ons that include one, you can also view an add-on's changelog.</target>
+        <target>对于包含更新日志的插件，还可查看其更新日志。</target>
       </segment>
     </unit>
     <unit id="f9449628-ea2e-4694-a0e6-9c6273ab721c">
       <notes>
         <note appliesTo="source">line: 29</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The reliability of background add-on updates has been improved.</source>
-        <target>The reliability of background add-on updates has been improved.</target>
+        <target>提高了后台插件更新的稳定性。</target>
       </segment>
     </unit>
     <unit id="13eefb56-5068-410d-a034-5d1e43fc7209">
       <notes>
         <note appliesTo="source">line: 31</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A new "Privacy and Security" category has been added to NVDA's settings dialog.</source>
-        <target>A new "Privacy and Security" category has been added to NVDA's settings dialog.</target>
+        <target>NVDA 设置对话框中新增了“隐私和安全”类别。</target>
       </segment>
     </unit>
     <unit id="82f370d4-a531-4562-b168-969eab8b67ee">
       <notes>
         <note appliesTo="source">line: 32</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The "Logging level" and "Allow NV Access to gather NVDA usage statistics" settings have been moved here from the "General" category.</source>
-        <target>The "Logging level" and "Allow NV Access to gather NVDA usage statistics" settings have been moved here from the "General" category.</target>
+        <target>“日志级别”和“允许 NV Access 收集 NVDA 使用统计信息”设置已从“常规”类别移至此处。</target>
       </segment>
     </unit>
     <unit id="078a0ee5-9c13-4f89-9b3a-1e41fdeb96df">
       <notes>
         <note appliesTo="source">line: 33</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The settings for Screen Curtain have also been moved here from the "Vision" category.</source>
-        <target>The settings for Screen Curtain have also been moved here from the "Vision" category.</target>
+        <target>黑屏设置也从“视觉”类别移至此处。</target>
       </segment>
     </unit>
     <unit id="a1ace9ac-2b01-4647-bf49-58632a6f3834">
       <notes>
         <note appliesTo="source">line: 34</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Additionally, Screen Curtain's settings are now configuration profile independent.</source>
-        <target>Additionally, Screen Curtain's settings are now configuration profile independent.</target>
+        <target>此外，黑屏的设置现在不受独立配置影响。</target>
       </segment>
     </unit>
     <unit id="9bfeb960-887f-45bf-8c35-96fc76a508c5">
       <notes>
         <note appliesTo="source">line: 36</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The NVDA interface is now translated to Cambodian.</source>
-        <target>The NVDA interface is now translated to Cambodian.</target>
+        <target>NVDA 界面现已被翻译成柬埔寨语。</target>
       </segment>
     </unit>
     <unit id="19a7240a-f93e-4c11-8fd4-30d83c65d0a1">
       <notes>
         <note appliesTo="source">line: 37</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Liblouis, Unicode CLDR and eSpeak NG have been updated.</source>
-        <target>Liblouis, Unicode CLDR and eSpeak NG have been updated.</target>
+        <target>Liblouis、Unicode CLDR 和 eSpeak NG 已更新。</target>
       </segment>
     </unit>
     <unit id="b877b4a6-d31c-4b14-9416-0e23dc162330">
       <notes>
         <note appliesTo="source">line: 38</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Added tables for English Grade 3, Japanese (Rokuten Kanji), and Macedonian uncontracted braille.</source>
-        <target>Added tables for English Grade 3, Japanese (Rokuten Kanji), and Macedonian uncontracted braille.</target>
+        <target>添加了英语 3 级、日语（六点汉字）和马其顿语非缩写盲文表。</target>
       </segment>
     </unit>
     <unit id="8ec2fb1c-0288-49a5-ac5e-51f4c2e1d38c">
       <notes>
         <note appliesTo="source">line: 39</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Improved the Biblical Hebrew, Unified English Braille, Greek International, Hungarian, Norwegian, Portuguese 8-dot and Slovakian braille tables.</source>
-        <target>Improved the Biblical Hebrew, Unified English Braille, Greek International, Hungarian, Norwegian, Portuguese 8-dot and Slovakian braille tables.</target>
+        <target>改进了圣经希伯来语、统一英语、希腊语国际、匈牙利语、挪威语、葡萄牙语 8 点和斯洛伐克语盲文表。</target>
       </segment>
     </unit>
     <unit id="3f64274d-c9ad-4c0f-ad2e-d5ceafbf6101">
       <notes>
         <note appliesTo="source">line: 40</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Emoji localizations for Luxembourgish have been added.</source>
-        <target>Emoji localizations for Luxembourgish have been added.</target>
+        <target>添加了卢森堡语的表情符号本地化。</target>
       </segment>
     </unit>
     <unit id="6359d78a-a8d8-4e52-9cb4-f500e8c0b216">
       <notes>
         <note appliesTo="source">line: 42</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>There have also been many other bug fixes and improvements.</source>
-        <target>There have also been many other bug fixes and improvements.</target>
+        <target>还有许多其他错误修复和改进。</target>
       </segment>
     </unit>
     <unit id="6891b73d-313e-41b5-9087-9aa3810247ec">
@@ -6295,9 +6295,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 49</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>We recommend updating to Windows 11, or when that's not possible, to the latest Windows 10 version (22H2).</source>
-        <target>We recommend updating to Windows 11, or when that's not possible, to the latest Windows 10 version (22H2).</target>
+        <target>我们建议更新到 Windows 11，如果无法更新，请更新到最新的 Windows 10 22H2版本。</target>
       </segment>
     </unit>
     <unit id="f84afda2-f1eb-40a8-b0f2-c9efe82bfa5a">
@@ -6305,18 +6305,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>32-bit Windows is no longer supported.</source>
-        <target>32-bit Windows is no longer supported.</target>
+        <target>不再支持 32 位 Windows。</target>
       </segment>
     </unit>
     <unit id="5073fe23-b70b-4bd4-9e28-1f58f3d2c1ec">
       <notes>
         <note appliesTo="source">line: 51</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Windows 10 on ARM is also no longer supported.</source>
-        <target>Windows 10 on ARM is also no longer supported.</target>
+        <target>也不再支持 ARM 上的 Windows 10。</target>
       </segment>
     </unit>
     <unit id="cae56f4e-9dba-4a0c-82af-73e986d1a270">
@@ -6324,9 +6324,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Wiris MathPlayer is no longer supported.</source>
-        <target>Wiris MathPlayer is no longer supported.</target>
+        <target>不再支持 Wiris MathPlayer。</target>
       </segment>
     </unit>
     <unit id="5cb1fee7-3fef-42b7-bff5-63e1e255f196">
