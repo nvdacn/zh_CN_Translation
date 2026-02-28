@@ -6835,9 +6835,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Improved user notifications when connecting as the controlled computer fails. (#19103, @tareh7z)</source>
-        <target>Improved user notifications when connecting as the controlled computer fails. (#19103, @tareh7z)</target>
+        <target>修复了作为被控计算机连接失败时没有通知的问题。(#19103, @tareh7z)</target>
       </segment>
     </unit>
     <unit id="ccd07160-b0d2-4b55-b53d-8dff177b82b3">
@@ -6845,9 +6845,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA will no longer open multiple disconnection confirmation dialogs if the action is triggered repeatedly. (#19442, @Cary-rowen)</source>
-        <target>NVDA will no longer open multiple disconnection confirmation dialogs if the action is triggered repeatedly. (#19442, @Cary-rowen)</target>
+        <target>修复了重复触发断开连接操作时 NVDA 打开多个确认对话框的问题。(#19442, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="3391f057-cf3d-4a04-a165-76652551b2af">
@@ -6855,9 +6855,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 112</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA installer:</source>
-        <target>NVDA installer:</target>
+        <target>NVDA 安装程序：</target>
       </segment>
     </unit>
     <unit id="129061cf-3f6e-42d1-a67d-f2325384aa12">
@@ -6865,9 +6865,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA should now correctly identify downgrades and show the downgrade warning dialog appropriately, including for portable copies. (#19631, #18291)</source>
-        <target>NVDA should now correctly identify downgrades and show the downgrade warning dialog appropriately, including for portable copies. (#19631, #18291)</target>
+        <target>修复了 NVDA 无法正确识别降级并显示降级警告对话框的问题，包括对便携版的情况。(#19631, #18291)</target>
       </segment>
     </unit>
     <unit id="0475575d-11a6-4169-98be-40f20e265b45">
@@ -6875,9 +6875,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 114</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA will now retain the "Use NVDA during sign-in" setting and desktop shortcut more consistently. (#19631)</source>
-        <target>NVDA will now retain the "Use NVDA during sign-in" setting and desktop shortcut more consistently. (#19631)</target>
+        <target>修复了 NVDA 未能正确保留“在欢迎界面启用 NVDA”设置和桌面快捷方式的问题。(#19631)</target>
       </segment>
     </unit>
     <unit id="4b44a032-6b74-431b-9881-f30627ffe230">
@@ -6885,9 +6885,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 115</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed `&lt;` not being escaped in MathML in PDF documents. (#18520, @NSoiffer)</source>
-        <target>Fixed `&lt;` not being escaped in MathML in PDF documents. (#18520, @NSoiffer)</target>
+        <target>*   修复了 PDF 文档中 MathML 的 `&lt;` 未被转义的问题。(#18520, @NSoiffer)</target>
       </segment>
     </unit>
     <unit id="c93c4854-790a-45fa-bd47-8f87bc2b6d82">
@@ -6895,9 +6895,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 116</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When unicode normalization is enabled for speech, navigating by character will again correctly announce combining diacritic characters like acute ( &amp;#x0301; ). (#18722, @LeonarddeR)</source>
-        <target>When unicode normalization is enabled for speech, navigating by character will again correctly announce combining diacritic characters like acute ( &amp;#x0301; ). (#18722, @LeonarddeR)</target>
+        <target>修复了当为语音启用 Unicode 规范化时，按字符导航无法正确朗读组合变音符号（如 &amp;#x0301;）的问题。(#18722, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="af979d49-07b6-421f-91e4-a9c2cf179465">
@@ -6905,9 +6905,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed cases where NVDA was unable to retrieve information for an application, such as product name, version and architecture. (#18826, @LeonarddeR)</source>
-        <target>Fixed cases where NVDA was unable to retrieve information for an application, such as product name, version and architecture. (#18826, @LeonarddeR)</target>
+        <target>修复了 NVDA 无法检索应用程序信息（如产品名称、版本和架构）的问题。(#18826, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="427605ce-b181-4122-a090-29ff1ba69183">
@@ -6915,9 +6915,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 118</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When reporting the location of the caret in classic versions of Notepad and other Win32 edit controls, text position is now more accurate. (#18767, @LeonarddeR)</source>
-        <target>When reporting the location of the caret in classic versions of Notepad and other Win32 edit controls, text position is now more accurate. (#18767, @LeonarddeR)</target>
+        <target>修复了在经典版记事本和其他 Win32 编辑控件中读出光标位置时，文本位置不准确的问题。(#18767, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="ea999d4c-1186-4ace-ae20-02f710aa4ea3">
@@ -6925,9 +6925,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer fails to read the contents of wx Web View controls. (#17273, @LeonarddeR)</source>
-        <target>NVDA no longer fails to read the contents of wx Web View controls. (#17273, @LeonarddeR)</target>
+        <target>修复了 NVDA 无法读取 wx Web View 控件内容的问题。(#17273, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="b73dd62e-f769-4ab4-8720-0af37891d679">
@@ -6935,9 +6935,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 120</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When NVDA is configured to update add-ons automatically in the background, add-ons can be properly updated. (#18965, @nvdaes)</source>
-        <target>When NVDA is configured to update add-ons automatically in the background, add-ons can be properly updated. (#18965, @nvdaes)</target>
+        <target>修复了当 NVDA 配置为后台自动更新插件时，插件无法正常更新的问题。(#18965, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="db74f572-b257-43da-a4c7-ac4df59727b4">
@@ -6945,9 +6945,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 121</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Attempting to install an add-on that requires a newer version of NVDA from File Explorer no longer fails silently or shows the incompatible add-ons dialog. (#19260, #19261)</source>
-        <target>Attempting to install an add-on that requires a newer version of NVDA from File Explorer no longer fails silently or shows the incompatible add-ons dialog. (#19260, #19261)</target>
+        <target>修复了从文件资源管理器尝试安装需要更新版本 NVDA 的插件时，静默失败或显示不兼容插件对话框的问题。(#19260, #19261)</target>
       </segment>
     </unit>
     <unit id="4c88efcb-6051-44c3-9ee9-b5e567ffe627">
@@ -6955,9 +6955,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed a case where braille output would fail with an error. (#19025, @LeonarddeR)</source>
-        <target>Fixed a case where braille output would fail with an error. (#19025, @LeonarddeR)</target>
+        <target>修复了盲文输出因错误而失败的问题。(#19025, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="ccd83634-4a3b-4776-b712-e95ba7d6f95f">
@@ -6965,9 +6965,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 123</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Battery time announcements now skip redundant "0 hours" and "0 minutes" and use proper singular/plural forms. (#9003, @tareh7z)</source>
-        <target>Battery time announcements now skip redundant "0 hours" and "0 minutes" and use proper singular/plural forms. (#9003, @tareh7z)</target>
+        <target>修复了读出电池可用时间包含冗余的“0 小时”和“0 分钟”以及单复数形式错误的问题。(#9003, @tareh7z)</target>
       </segment>
     </unit>
     <unit id="f9f223fb-984d-4773-9047-25bbe133496c">
@@ -6975,9 +6975,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 124</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When a synthesizer has a fallback language for the current dialect, the language of the text being read will no longer be reported as unsupported. (#18876, @nvdaes)</source>
-        <target>When a synthesizer has a fallback language for the current dialect, the language of the text being read will no longer be reported as unsupported. (#18876, @nvdaes)</target>
+        <target>修复了当合成器具有当前方言的回退语言时，正在阅读的文本语言被提示为不支持的问题。(#18876, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="db341fde-aad6-45ec-9b44-002ae80f83de">
@@ -6985,9 +6985,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 125</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If the speech synthesizer is set to eSpeak NG and it fails to load when NVDA starts, NVDA will now attempt to fall back to OneCore before resorting to no speech. (#19603)</source>
-        <target>If the speech synthesizer is set to eSpeak NG and it fails to load when NVDA starts, NVDA will now attempt to fall back to OneCore before resorting to no speech. (#19603)</target>
+        <target>修复了当语音合成器设置为 eSpeak NG 且在 NVDA 启动时加载失败，NVDA 未尝试回退到 OneCore 而直接无声的问题。(#19603)</target>
       </segment>
     </unit>
     <unit id="f39627b7-6521-49c9-9ccb-934da48686ae">
@@ -6995,9 +6995,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 126</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Certain settings will no longer erroneously be saved to disk when running NVDA from the launcher. (#18171)</source>
-        <target>Certain settings will no longer erroneously be saved to disk when running NVDA from the launcher. (#18171)</target>
+        <target>修复了从安装程序运行 NVDA 时，某些设置被错误保存到磁盘的问题。(#18171)</target>
       </segment>
     </unit>
     <unit id="be74c141-b61c-43ba-88a3-dafe9eef9a6e">
@@ -7005,9 +7005,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 127</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Incorrect information is no longer displayed in braille when navigating the list of messages in Outlook Classic. (#18993, @nvdaes)</source>
-        <target>Incorrect information is no longer displayed in braille when navigating the list of messages in Outlook Classic. (#18993, @nvdaes)</target>
+        <target>修复了在经典版 Outlook 中导航邮件列表时盲文显示错误信息的问题。(#18993, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="69222afd-891c-4406-9a43-995bd9a1a7e4">
@@ -7015,9 +7015,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 128</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now detects and stops repeated crash loops to prevent system lockups when startup failures occur. (#19133, @derekriemer)</source>
-        <target>NVDA now detects and stops repeated crash loops to prevent system lockups when startup failures occur. (#19133, @derekriemer)</target>
+        <target>修复了 NVDA 未检测并停止重复的崩溃循环，导致启动失败时系统锁定的问题。(#19133, @derekriemer)</target>
       </segment>
     </unit>
     <unit id="8072c301-67ee-4657-8779-10c09b8b9558">
@@ -7025,9 +7025,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 129</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When moving Braille to the next line in LibreOffice Writer when the caret is at the start of the last line, it will now consistently move to the end of the document. (#19152, @LeonarddeR, @nvdaes)</source>
-        <target>When moving Braille to the next line in LibreOffice Writer when the caret is at the start of the last line, it will now consistently move to the end of the document. (#19152, @LeonarddeR, @nvdaes)</target>
+        <target>修复了在 LibreOffice Writer 中当光标位于最后一行开头时，将盲文移动到下一行无法一致地移动到文档末尾的问题。(#19152, @LeonarddeR, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="d75949e9-fde2-447f-9a0a-10a8ca999c25">
@@ -7035,9 +7035,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 130</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The browse mode cursor highlighter now appears on content recognition results, such as when using Windows OCR. (#19168, @hwf1324)</source>
-        <target>The browse mode cursor highlighter now appears on content recognition results, such as when using Windows OCR. (#19168, @hwf1324)</target>
+        <target>修复了浏览模式的高亮显示框未落在内容识别结果上的问题，例如在使用 Windows OCR 时。(#19168, @hwf1324)</target>
       </segment>
     </unit>
     <unit id="4cc3cb26-6848-433b-b577-af06e4655b57">
@@ -7045,9 +7045,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 131</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In the Input Gestures dialog, gestures including an operator while Num Lock is on will now be correctly displayed. (#19214, @CyrilleB79)</source>
-        <target>In the Input Gestures dialog, gestures including an operator while Num Lock is on will now be correctly displayed. (#19214, @CyrilleB79)</target>
+        <target>修复了在输入手势对话框中，包含 Num Lock 开启的符号的手势无法正确显示的问题。(#19214, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="ea814725-447e-4c50-9973-b105e9a5da43">
@@ -7055,9 +7055,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 132</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Chromium browsers, if a document contains links with a malformed URL, reading the document will be possible again. (#19125, @nvdaes)</source>
-        <target>In Chromium browsers, if a document contains links with a malformed URL, reading the document will be possible again. (#19125, @nvdaes)</target>
+        <target>修复了在 Chromium 浏览器中，如果文档包含格式错误的网址链接，无法阅读文档的问题。(#19125, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="ed1d8504-4752-4923-b28e-cc5c7a4adad6">
@@ -7065,9 +7065,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 133</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer plays a sound for spelling errors while typing if speech mode is set to on-demand or off. (#19323, @CyrilleB79)</source>
-        <target>NVDA no longer plays a sound for spelling errors while typing if speech mode is set to on-demand or off. (#19323, @CyrilleB79)</target>
+        <target>修复了当语音模式设置为手动朗读或不朗读时，NVDA 在输入时仍为拼写错误播放提示音的问题。(#19323, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="df5f5692-6290-413f-a194-3db3486e5682">
