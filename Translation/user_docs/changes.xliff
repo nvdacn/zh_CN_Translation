@@ -6033,7 +6033,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA now supports 64-bit SAPI 5 voices.</source>
-        <target>现已支持 64 位 SAPI 5 语音。</target>
+        <target>支持了 64 位 SAPI 5 语音。</target>
       </segment>
     </unit>
     <unit id="247f4625-b0e5-4b28-9321-df208a665e91">
@@ -6069,7 +6069,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Spelling errors and the number of items in a list in browse mode can now be shown in braille.</source>
-        <target>浏览模式下的拼写错误和列表项目数量也可用盲文显示。</target>
+        <target>拼写错误和浏览模式下的列表项目数量也可用盲文显示。</target>
       </segment>
     </unit>
     <unit id="51bdb759-7df7-4fc3-bda6-6e493dbf9ecf">
@@ -6087,7 +6087,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In browse mode in web browsers, NVDA no longer treats controls with 0 width or height as invisible.</source>
-        <target>在浏览器中的浏览模式下，NVDA 不再将宽度或高度为 0 的控件视为不可见元素。</target>
+        <target>在浏览器的浏览模式下，NVDA 不再将宽度或高度为 0 的控件视为不可见元素。</target>
       </segment>
     </unit>
     <unit id="d60e3915-b303-4ed0-82cd-deb8c648b4bc">
@@ -6105,7 +6105,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Malformed links no longer prevent NVDA from reading content in Google Chrome and other Chromium-based browsers.</source>
-        <target>修复了格式错误的链接会阻止 NVDA 在 Google Chrome 和其他基于 Chromium 的浏览器中继续阅读。</target>
+        <target>修复了格式错误的链接会阻止 NVDA 在 Google Chrome 和其他基于 Chromium 的浏览器中继续阅读的问题。</target>
       </segment>
     </unit>
     <unit id="a3b62581-b296-4612-bfec-a914f1507be8">
@@ -6747,7 +6747,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>It currently includes Screen Curtain's settings (previously in the "Vision" category), and the "Logging level" and "Allow NV Access to gather NVDA usage statistics" settings (previously in the "General" category). (#19177, #19296)</source>
-        <target>目前包含原“视觉”类别的黑屏设置，原“常规”类别的“日志记录级别”和“允许 NV Access 收集 NVDA 使用统计信息”设置。(#19177, #19296)</target>
+        <target>目前包含此前位于“视觉”类别的黑屏设置，位于“常规”类别的“日志记录级别”和“允许 NV Access 收集 NVDA 使用统计信息”设置。(#19177, #19296)</target>
       </segment>
     </unit>
     <unit id="a0f6c32f-ee90-4c07-aa60-2b02d14dff28">
@@ -6767,7 +6767,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA no longer warns about or copies disabled add-ons. (#8274, #9020)</source>
-        <target>NVDA 不再警告或复制已禁用的插件。(#8274, #9020)</target>
+        <target>NVDA 不再警告或拷贝已禁用的插件。(#8274, #9020)</target>
       </segment>
     </unit>
     <unit id="03729f42-d189-4fd8-ba23-34df5b5833ca">
@@ -6777,7 +6777,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>By default, NVDA doesn't copy any add-ons; you must select any you wish to include. (#12879)</source>
-        <target>默认情况下，NVDA 不会复制任何插件；您必须选择希望包含的插件。(#12879)</target>
+        <target>默认情况下，NVDA 不会拷贝任何插件；您必须选择希望包含的插件。(#12879)</target>
       </segment>
     </unit>
     <unit id="fda995ef-799d-45f2-bd7a-11f51ccbdf7d">
@@ -6837,7 +6837,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Improved user notifications when connecting as the controlled computer fails. (#19103, @tareh7z)</source>
-        <target>修复了作为被控计算机连接失败时没有通知的问题。(#19103, @tareh7z)</target>
+        <target>修复了作为被控计算机连接失败时没有用户通知的问题。(#19103, @tareh7z)</target>
       </segment>
     </unit>
     <unit id="ccd07160-b0d2-4b55-b53d-8dff177b82b3">
@@ -6867,7 +6867,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA should now correctly identify downgrades and show the downgrade warning dialog appropriately, including for portable copies. (#19631, #18291)</source>
-        <target>修复了 NVDA 无法正确识别降级并显示降级警告对话框的问题，包括对便携版的情况。(#19631, #18291)</target>
+        <target>修复了 NVDA 无法正确识别降级并显示降级警告对话框的问题，包括便携版。(#19631, #18291)</target>
       </segment>
     </unit>
     <unit id="0475575d-11a6-4169-98be-40f20e265b45">
@@ -6887,7 +6887,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Fixed `&lt;` not being escaped in MathML in PDF documents. (#18520, @NSoiffer)</source>
-        <target>*   修复了 PDF 文档中 MathML 的 `&lt;` 未被转义的问题。(#18520, @NSoiffer)</target>
+        <target>修复了 PDF 文档中 MathML 的 `&lt;` 符号未被转义的问题。(#18520, @NSoiffer)</target>
       </segment>
     </unit>
     <unit id="c93c4854-790a-45fa-bd47-8f87bc2b6d82">
@@ -7027,7 +7027,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>When moving Braille to the next line in LibreOffice Writer when the caret is at the start of the last line, it will now consistently move to the end of the document. (#19152, @LeonarddeR, @nvdaes)</source>
-        <target>修复了在 LibreOffice Writer 中当光标位于最后一行开头时，将盲文移动到下一行无法一致地移动到文档末尾的问题。(#19152, @LeonarddeR, @nvdaes)</target>
+        <target>修复了在 LibreOffice Writer 中当光标位于最后一行开头时，将盲文移动到下一行无法移动到文档末尾的问题。(#19152, @LeonarddeR, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="d75949e9-fde2-447f-9a0a-10a8ca999c25">
@@ -7047,7 +7047,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In the Input Gestures dialog, gestures including an operator while Num Lock is on will now be correctly displayed. (#19214, @CyrilleB79)</source>
-        <target>修复了在输入手势对话框中，包含 Num Lock 开启的符号的手势无法正确显示的问题。(#19214, @CyrilleB79)</target>
+        <target>修复了在按键与手势对话框中，包含 Num Lock 开启时符号按键的手势无法正确显示的问题。(#19214, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="ea814725-447e-4c50-9973-b105e9a5da43">
@@ -7057,7 +7057,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Chromium browsers, if a document contains links with a malformed URL, reading the document will be possible again. (#19125, @nvdaes)</source>
-        <target>修复了在 Chromium 浏览器中，如果文档包含格式错误的网址链接，无法阅读文档的问题。(#19125, @nvdaes)</target>
+        <target>修复了在 Chromium 浏览器中，如果文档包含格式错误的网址链接，则无法阅读文档的问题。(#19125, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="ed1d8504-4752-4923-b28e-cc5c7a4adad6">
@@ -7223,9 +7223,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 152</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>cryptography to 46.0.5 (#19196, #19601)</source>
-        <target>cryptography to 46.0.5 (#19196, #19601)</target>
+        <target>将 cryptography 更新到 46.0.5。(#19196, #19601)</target>
       </segment>
     </unit>
     <unit id="526f0619-b2a1-40e2-9d06-1eb5be925f37">
@@ -7323,9 +7323,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 162</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Setuptools to 80.10.2 (#19196, #19524)</source>
-        <target>Setuptools to 80.10.2 (#19196, #19524)</target>
+        <target>将 Setuptools 更新到 80.10.2。(#19196, #19524)</target>
       </segment>
     </unit>
     <unit id="3a35a12d-9508-4d10-8fd3-146c3b914bc7">
