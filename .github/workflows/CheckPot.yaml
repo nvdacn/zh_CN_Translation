@@ -61,59 +61,9 @@ jobs:
     outputs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}
     steps:
-      - name: Checkout NVDA buildVersion.py
-        uses: actions/checkout@v6
-        with:
-          repository: nvaccess/nvda
-          ref: master
-          path: ${{ github.workspace }}/NVDA
-          sparse-checkout: source/buildVersion.py
       - name: Determine branch name
         id: Determine_branch
-        run: |
-          versionFile="${{ github.workspace }}/NVDA/source/buildVersion.py"
-          versionYear=$(grep -oP 'version_year\s*=\s*\K\d+' "$versionFile")
-          versionMajor=$(grep -oP 'version_major\s*=\s*\K\d+' "$versionFile")
-          branchName="$versionYear.$versionMajor"
-          echo "Branch=$branchName" >> $GITHUB_OUTPUT
-      - name: Check branch exists
-        id: check_branch
-        uses: actions/github-script@v8
-        with:
-          script: |
-            try {
-              await github.rest.git.getRef({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                ref: 'heads/${{ steps.Determine_branch.outputs.Branch }}'
-              });
-              console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} exists`);
-              return true;
-            } catch (error) {
-              if (error.status === 404) {
-                console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} does not exist`);
-                return false;
-              }
-              throw error;
-            }
-          result-encoding: string
-      - name: Create branch
-        if: steps.check_branch.outputs.result != 'true'
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const UploadsSHA = await github.rest.git.getRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: 'heads/Uploads'
-            });
-            await github.rest.git.createRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: `refs/heads/${{ steps.Determine_branch.outputs.Branch }}`,
-              sha: UploadsSHA.data.object.sha
-            });
-            console.log(`Branch ${{ steps.Determine_branch.outputs.Branch }} created successfully from Uploads`);
+        uses: nvdacn/zh_CN_Translation/.github/actions/DetermineBranch@Uploads
 
   Update-NVDA-po:
     name: Automatically update NVDA.po

@@ -1,0 +1,67 @@
+name: Determine branch
+
+description: 'Determine the branch name based on the NVDA version, and support automatic creation when the branch does not exist'
+
+outputs:
+  branch:
+    description: 'The determined branch name'
+    value: ${{ steps.Determine_branch_name.outputs.BranchName }}
+
+runs:
+  using: "composite"
+
+  steps:
+    - name: Checkout NVDA buildVersion.py
+      uses: actions/checkout@v6
+      with:
+        repository: nvaccess/nvda
+        ref: master
+        path: ${{ github.workspace }}/NVDA
+        sparse-checkout: source/buildVersion.py
+    - name: Determine branch name
+      id: Determine_branch_name
+      shell: bash
+      run: |
+        versionFile="${{ github.workspace }}/NVDA/source/buildVersion.py"
+        versionYear=$(grep -oP 'version_year\s*=\s*\K\d+' "$versionFile")
+        versionMajor=$(grep -oP 'version_major\s*=\s*\K\d+' "$versionFile")
+        branchName="$versionYear.$versionMajor"
+        echo "BranchName=$branchName" >> $GITHUB_OUTPUT
+    - name: Check branch exists
+      id: check_branch
+      uses: actions/github-script@v8
+      with:
+        script: |
+          try {
+            await github.rest.git.getRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'heads/${{ steps.Determine_branch_name.outputs.BranchName }}'
+            });
+            console.log(`Branch ${{ steps.Determine_branch_name.outputs.BranchName }} exists`);
+            return true;
+          } catch (error) {
+            if (error.status === 404) {
+              console.log(`Branch ${{ steps.Determine_branch_name.outputs.BranchName }} does not exist`);
+              return false;
+            }
+            throw error;
+          }
+        result-encoding: string
+    - name: Create branch
+      if: steps.check_branch.outputs.result != 'true'
+      uses: actions/github-script@v8
+      with:
+        script: |
+          const UploadsSHA = await github.rest.git.getRef({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            ref: 'heads/Uploads'
+          });
+          await github.rest.git.createRef({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            ref: `refs/heads/${{ steps.Determine_branch_name.outputs.BranchName }}`,
+            sha: UploadsSHA.data.object.sha
+          });
+          console.log(`Branch ${{ steps.Determine_branch_name.outputs.BranchName }} created successfully from Uploads`);
