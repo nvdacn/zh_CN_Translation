@@ -157,7 +157,7 @@ jobs:
         shell: cmd
         run: |
           cd /d ${{ github.workspace }}\Tools\NVDA
-          scons checkPot --all-cores
+          runcheckpot.bat --all-cores
       - name: Update NVDA.po
         shell: pwsh
         run: |
