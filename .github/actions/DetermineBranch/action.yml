@@ -1,9 +1,11 @@
 name: Determine branch
 
-description: 'Determine the branch name based on the NVDA version, and support automatic creation when the branch does not exist.'
+description: 'Determine the branch name based on the NVDA version, and support automatic creation when the branch does not exist'
 
 outputs:
-  branch: ${{ steps.Determine_branch_name.outputs.BranchName }}
+  branch:
+    description: 'The determined branch name'
+    value: ${{ steps.Determine_branch_name.outputs.BranchName }}
 
 runs:
   using: "composite"
