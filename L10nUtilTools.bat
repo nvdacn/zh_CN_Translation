@@ -278,12 +278,15 @@ if /I "%Type%" == "Test" (
 )
 
 Rem 获取当前分支名称、系统的日期和时间作为翻译测试压缩包的部分名称  
-for /f "delims=" %%o in ('git branch --show-current') do set Branch=%%o
-set DateTime=%date:~8,2%%date:~11,2%%time:~0,2%%time:~3,2%
-If "%DateTime:~4,1%" == " " (
-  set VersionInfo=%DateTime:~0,4%0%DateTime:~5,3%
-) Else (
-  set VersionInfo=%DateTime%
+for /f "usebackq delims=" %%o in (
+  `git branch --show-current`
+) do (
+  set "Branch=%%o"
+)
+for /f "usebackq delims=" %%i in (
+  `powershell -Command "Get-Date -Format 'MMddHHmm'"`
+) do (
+  set "VersionInfo=%%i"
 )
 
 Rem 生成翻译测试压缩包  
