@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2026-03-06 19:52+0000\n"
-"PO-Revision-Date: 2026-03-09 05:16\n"
+"PO-Revision-Date: 2026-03-09 05:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -96,7 +96,7 @@ msgstr "{fmt}（12 小时制）"
 #. Translators: This is a choice in a list of sounds.
 #: addon/globalPlugins/clock/paths.py:33
 msgid "Custom"
-msgstr ""
+msgstr "自定义"
 
 #: addon/globalPlugins/clock/__init__.py:74
 #, python-brace-format
@@ -223,7 +223,7 @@ msgstr "读出时钟命令面板中的可用命令。"
 #. Translators: Message presented in input help mode.
 #: addon/globalPlugins/clock/__init__.py:433
 msgid "Lists available commands in clock command layer, showing them in browse mode."
-msgstr ""
+msgstr "以浏览模式显示时钟命令面板中的可用命令。"
 
 #. Translators: Message presented in input help mode.
 #: addon/globalPlugins/clock/__init__.py:445
@@ -276,7 +276,7 @@ msgstr "关闭"
 #. Translators: This is a choice of the auto announce choices combo box.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:41
 msgid "every 5 minutes"
-msgstr ""
+msgstr "每 5 分钟"
 
 #. Translators: This is a choice of the auto announce choices combo box.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:43
@@ -372,7 +372,7 @@ msgstr "免打扰时段结束"
 #: addon/globalPlugins/clock/clockSettingsGUI.py:128
 #: addon/globalPlugins/clock/clockSettingsGUI.py:384
 msgid "Add custom sound"
-msgstr ""
+msgstr "添加自定义声音"
 
 #. Translators: the hour label in quiet hours group.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:147
@@ -388,7 +388,7 @@ msgstr "分:"
 
 #: addon/globalPlugins/clock/clockSettingsGUI.py:198
 msgid "Choose a custom sound file"
-msgstr ""
+msgstr "选择自定义声音文件"
 
 #. Translators: This is the label for the alarm settings panel.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:340
@@ -437,7 +437,7 @@ msgstr "暂停(&P)"
 
 #: addon/globalPlugins/clock/clockSettingsGUI.py:413
 msgid "Choose a custom alarm sound file"
-msgstr ""
+msgstr "选择自定义闹钟声音文件"
 
 #. Translators: The message displayed after a countdown for an alarm has been chosen.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:455
@@ -458,12 +458,17 @@ msgid "An advanced clock and calendar for NVDA.\n"
 "NVDA+F12 pressed twice quickly, get current date.\n"
 "NVDA+F12 pressed three times quickly, reports the current day, the week number, the current year and the remaining days before the end of the year.\n"
 "For other instructions, press  actions button in add-on store, then go to help."
-msgstr ""
+msgstr "NVDA 的时钟日历插件。\n"
+"NVDA+F12，读出当前时间。\n"
+"NVDA+F12 连按两次，读出当前日期。\n"
+"NVDA+F12连按三次，读出当前日期、周数、当前年份和本年剩余天数。\n"
+"有关该插件的其他说明，请按插件商店中的操作按钮，然后点击帮助进行查看。"
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:33
 msgid "Changes for 20260221.0.1\n"
 "Using the latest version of the addonTemplate."
-msgstr ""
+msgstr "20260221.0.1 的更改\n"
+"使用最新版本的插件模板。"
 
