@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-09-15 07:55+0000\n"
-"PO-Revision-Date: 2025-09-15 08:22\n"
+"POT-Creation-Date: 2026-03-09 03:47+0000\n"
+"PO-Revision-Date: 2026-03-09 06:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -18,10 +18,10 @@ msgstr ""
 "X-Crowdin-File-ID: 412\n"
 
 #. Translators: This is the label for the Numpad Nav Mode settings category in NVDA Settings panel.
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information found in Add-ons Manager.
-#: addon/globalPlugins/numpadNavMode.py:49 buildVars.py:22
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon/globalPlugins/numpadNavMode.py:49 buildVars.py:21
 msgid "Numpad Nav Mode"
 msgstr "数字键盘模式切换"
 
@@ -56,33 +56,41 @@ msgid "Initial numlock state is configuration profile dependent"
 msgstr "初始数字锁定状态取决于配置文件"
 
 #. Translators: returned as part of some user messages
-#: addon/globalPlugins/numpadNavMode.py:246
+#: addon/globalPlugins/numpadNavMode.py:250
 msgid "NVDA"
 msgstr "NVDA 导航"
 
 #. Translators: returned as part of some user messages
-#: addon/globalPlugins/numpadNavMode.py:249
+#: addon/globalPlugins/numpadNavMode.py:253
 msgid "Windows"
 msgstr "Windows 编辑"
 
 #. Translators: description of the Numpad Nav Mode toggle gesture for keyboard help
-#: addon/globalPlugins/numpadNavMode.py:281
+#: addon/globalPlugins/numpadNavMode.py:285
 msgid "Toggles the numpad between NVDA navigation and Windows navigation modes."
 msgstr "将数字键盘在 NVDA 导航和 Windows 编辑模式之间切换。"
 
 #. Translators: message given to the user when the numpad's mode changes between NVDA and Windows nav
 #. Note: the variable given to format() is already translated.
-#: addon/globalPlugins/numpadNavMode.py:292
+#: addon/globalPlugins/numpadNavMode.py:296
 msgid "Numpad mode {}."
 msgstr "{}模式。"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:25
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid "Allows switching the numpad between NVDA navigation mode, and Windows navigation mode.\n"
 "Especially useful if migrating from Jaws; or for laptop users preferring laptop mode, but who have a numpad and want to use it for arrow keys, etc.\n"
 "The add-on also gives control of numlock state when starting NVDA or changing profiles."
 msgstr "允许将数字键盘在 NVDA 导航和 Windows 编辑模式之间切换。\n"
 "此插件对于喜欢笔记本键盘布局且希望将数字键盘用作光标键的用户十分有用。\n"
 "此插件还可在启动 NVDA 或更改配置文件时控制数字锁定状态。"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:31
+msgid "* NVDA 2026.1 compatibility.\n"
+"* Made the add-on code more robust with help from Pyright (a Python static type checker)."
+msgstr "* 兼容 NVDA 2026.1。\n"
+"* 在 Pyright（Python 静态类型检查器）的帮助下，使插件代码更加健壮。"
 
