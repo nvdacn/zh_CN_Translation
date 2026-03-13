@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-13 05:17+0000\n"
-"PO-Revision-Date: 2026-02-27 20:24+0800\n"
+"PO-Revision-Date: 2026-03-13 13:32+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -9565,10 +9565,8 @@ msgstr "西班牙语 2 级盲文"
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 #: brailleTables\__tables.py:201
-#, fuzzy
-#| msgid "Romanian 6 dot"
 msgid "Estonian 6 dot"
-msgstr "罗马尼亚语 6 点盲文"
+msgstr "爱沙尼亚语 6 点盲文"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -9747,10 +9745,8 @@ msgstr "国际音标盲文"
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 #: brailleTables\__tables.py:313
-#, fuzzy
-#| msgid "Lithuanian 6 dot"
 msgid "Italian 6 dot"
-msgstr "立陶宛语 6 点盲文"
+msgstr "意大利语 6 点盲文"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -13111,7 +13107,7 @@ msgstr "保存按键与手势设置时出错，文件系统可能处于只读状
 msgid ""
 "Successfully updated your installation of NVDA. It is recommended to restart "
 "Windows after updating. NVDA may malfunction without a restart."
-msgstr ""
+msgstr "NVDA 更新成功。建议在更新后重启 Windows，否则 NVDA 可能出现故障。"
 
 #. Translators: The message displayed when NVDA has been successfully installed,
 #. shown in the post-install dialog.
@@ -13119,33 +13115,27 @@ msgstr ""
 msgid ""
 "Successfully installed NVDA. It is recommended to restart Windows after "
 "installing. NVDA may malfunction without a restart."
-msgstr ""
+msgstr "NVDA 安装成功。建议在安装后重启 Windows，否则 NVDA 可能出现故障。"
 
 #. Translators: Button in the post-install dialog to restart Windows immediately.
 #: gui\installerGui.py:95
-#, fuzzy
-#| msgid "Restart &now"
 msgid "Restart &Windows"
-msgstr "现在重启(&Y)"
+msgstr "重启 Windows(&W)"
 
 #. Translators: Button in the post-install dialog to start the newly installed NVDA.
 #: gui\installerGui.py:98
-#, fuzzy
-#| msgid "Restart NVDA"
 msgid "&Start NVDA"
-msgstr "重新启动 NVDA"
+msgstr "启动 NVDA(&S)"
 
 #. Translators: Button in the post-install dialog to exit NVDA.
 #: gui\installerGui.py:100
-#, fuzzy
-#| msgid "Exit NVDA"
 msgid "E&xit NVDA"
-msgstr "退出 NVDA"
+msgstr "退出 NVDA(&X)"
 
 #. Translators: Message shown when Windows restart fails after NVDA installation.
 #: gui\installerGui.py:111
 msgid "Failed to restart Windows. Please restart Windows manually."
-msgstr ""
+msgstr "重启 Windows 失败。请手动重启 Windows。"
 
 #. Translators: The title of the dialog presented while NVDA is being updated.
 #: gui\installerGui.py:151
@@ -13160,7 +13150,7 @@ msgstr "正在安装 NVDA"
 #. Translators: The message displayed while NVDA is being updated.
 #: gui\installerGui.py:156
 msgid "Please wait while your previous installation of NVDA is being updated."
-msgstr "请稍后，正在升级您的 NVDA。"
+msgstr "请稍后，正在更新 NVDA。"
 
 #. Translators: The message displayed while NVDA is being installed.
 #: gui\installerGui.py:159
@@ -20400,7 +20390,7 @@ msgstr "无法启用放大镜：黑屏已开启，请先关闭黑屏。"
 #: _magnifier\magnifier.py:172
 msgctxt "magnifier"
 msgid "Magnifier is active, disabling it before enabling screen curtain"
-msgstr "已开启放大镜，开启黑屏前请先将其关闭。"
+msgstr "已开启放大镜，开启黑屏前请先将其关闭"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
 #: _magnifier\magnifier.py:190
