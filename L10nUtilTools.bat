@@ -112,11 +112,11 @@ if defined Gettext (
   echo %%Gettext%% is set to !Gettext!.
 ) Else (
   echo Poedit program not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('请安装 Poedit 后重试。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请安装 Poedit 后重试。',5,'错误')"
   exit /b 1
 )
 IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件')"
   exit /b 1
 )
 CD /D %Gettext% 
@@ -170,7 +170,7 @@ for %%F in (
 Rem 检查 %L10nUtil% 是否存在  
 if not defined L10nUtil (
   echo l10nUtil program not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误')"
   exit /b 1
 )
 
@@ -319,7 +319,7 @@ goto Quit
 Rem 从 Markdown 文件生成 HTML 文件  
 :GenerateHTML
 IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误')"
   exit /b 1
 )
 IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
@@ -340,13 +340,13 @@ IF NOT EXIST "%NVDASourceCodePath%" (
 :NVDASourceCodePathSetSuccessfully
 powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
 if %errorlevel% neq 0 (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
   echo 请按任意键退出...
   Pause>Nul
   exit /b 1
 )
 IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
 )
 move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
@@ -447,7 +447,7 @@ set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegis
 if NOT "%GITHUB_ACTIONS%" == "true" (
   uv --directory "%CrowdinRegistrationSourcePath%" sync
   if !errorlevel! neq 0 (
-    mshta "javascript:new ActiveXObject('wscript.shell').popup('CrowdinRegistration 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+    powershell -command "(New-Object -ComObject wscript.shell).Popup('CrowdinRegistration 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
     echo 请按任意键退出...
     Pause>Nul
     exit /b 1
@@ -514,7 +514,7 @@ Rem 处理退出代码
 :Quit
 if /I "%GITHUB_ACTIONS%" == "true" (exit /b %ExitCode%)
 if %ExitCode% neq 0 (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误')"
   echo 请按任意键退出...
   Pause>Nul
   exit /b %ExitCode%
