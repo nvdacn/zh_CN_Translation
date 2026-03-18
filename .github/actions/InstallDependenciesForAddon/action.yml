@@ -13,7 +13,7 @@ runs:
         path: ${{ github.workspace }}/Tools/CrowdinRegistration
         sparse-checkout: utils
     - name: Install uv
-      uses: astral-sh/setup-uv@v6
+      uses: astral-sh/setup-uv@v7
     - name: Prepare Python Dependencies
       shell: cmd
       run: |

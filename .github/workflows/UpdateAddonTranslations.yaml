@@ -43,28 +43,10 @@ jobs:
           $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-      - name: List directories
-        if: ${{ !github.event.inputs.Addon_ID }}
-        id: dir_list
-        shell: pwsh
-        run: |
-          $dirs = Get-ChildItem -Path "${{ github.workspace }}\Translation\Addons" -Directory | Select-Object -ExpandProperty Name
-          $dirsString = $dirs -join " "
-          Write-Output "dirs=$dirsString" >> $env:GITHUB_OUTPUT
       - name: Fetch translations
-        shell: pwsh
         env:
-          AddonID: ${{ github.event.inputs.Addon_ID || steps.dir_list.outputs.dirs }}
-        run: |
-          $ErrorActionPreference = 'Stop'
-          $L10nUtil = "${{ github.workspace }}/L10nUtilTools.bat"
-          $addonIds = $env:AddonID -split ' '
-          foreach ($addonId in $addonIds) {
-              Write-Output "Processing addon: $addonId"
-              & cmd /c "$L10nUtil DAP $addonId"
-              & cmd /c "$L10nUtil DAM $addonId"
-              git add "Translation/Addons/$addonId"
-          }
+          AddonID: ${{ github.event.inputs.Addon_ID }}
+        run: .github/Scripts/UpdateAddonTranslations.ps1
       - name: Commit & Push
         shell: pwsh
         run: |
