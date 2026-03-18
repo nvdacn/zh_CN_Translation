@@ -72,9 +72,6 @@ jobs:
       - Determine-Branch
     if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
-    env:
-      VSCMD_SKIP_SENDTELEMETRY: '1'
-      SCONS_CACHE_MSVC_CONFIG: '${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json'
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
@@ -87,15 +84,14 @@ jobs:
           ref: master
           submodules: true
           Download-gettext: true
+          set-variable: true
       - name: SCons MSVC Cache
         uses: actions/cache@v5
         with:
           path: ${{ env.SCONS_CACHE_MSVC_CONFIG }}
-          key: scons_msvc_cache-${{ env.RUNNER_OS }}-${{ env.ImageVersion }}
+          key: ${{ env.SCONS_CACHE_KEY }}
       - name: Run CheckPot.ps1
-        shell: pwsh
-        run: |
-          "${{ github.workspace }}/.github/Scripts/CheckPot.ps1"
+        run: .github/Scripts/CheckPot.ps1
       - name: Upload Output
         uses: actions/upload-artifact@v7
         with:

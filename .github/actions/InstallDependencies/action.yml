@@ -1,6 +1,7 @@
 name: Install dependencies
 
 description: 'Install dependencies'
+
 inputs:
   ref:
     description: >
@@ -17,6 +18,11 @@ inputs:
     description: >
       Whether to Download gettext.
     default: false
+  set-variable:
+    description: >
+      Whether to set variable.
+    default: false
+
 runs:
   using: "composite"
 
@@ -52,6 +58,11 @@ runs:
           cd /d "${{ github.workspace }}\Tools\NVDA"
           git submodule update --init include/nvda-mathcat
           git submodule update --init miscDeps
+        )
+        if "${{ inputs.set-variable }}"=="true" (
+          echo "VSCMD_SKIP_SENDTELEMETRY=1">> "%GITHUB_ENV%"
+          echo "SCONS_CACHE_MSVC_CONFIG=${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json">> "%GITHUB_ENV%"
+          echo "SCONS_CACHE_KEY=scons_msvc_cache-%RUNNER_OS%-%ImageVersion%">> "%GITHUB_ENV%"
         )
         echo UV_MANAGED_PYTHON=true>> "%GITHUB_ENV%"
         uv --managed-python --directory "${{ github.workspace }}\Tools\NVDA" sync
