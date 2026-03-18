@@ -16,3 +16,5 @@ if ($LASTEXITCODE -ne 0) {
 } else {
     Write-Host "No changes to commit, skipping commit and push."
 }
+
+exit

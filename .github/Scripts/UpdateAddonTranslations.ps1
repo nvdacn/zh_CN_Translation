@@ -19,4 +19,3 @@ foreach ($addonId in $addonIds) {
 }
 
 exit
-
