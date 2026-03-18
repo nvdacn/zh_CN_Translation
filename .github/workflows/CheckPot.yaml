@@ -72,12 +72,14 @@ jobs:
       - Determine-Branch
     # if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
+    env:
+      branch: ${{ needs.Determine-Branch.outputs.branch }}
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          ref: ${{ needs.Determine-Branch.outputs.branch }}
+          ref: ${{ env.branch }}
       - name: Install dependencies
         uses: ./.github/actions/InstallDependencies
         with:
