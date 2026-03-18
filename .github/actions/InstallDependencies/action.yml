@@ -20,7 +20,7 @@ inputs:
     default: false
   set-variable:
     description: >
-      Whether to set variable.
+      Whether to Set cache variables.
     default: false
 
 runs:
@@ -51,6 +51,13 @@ runs:
         sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
     - name: Install uv
       uses: astral-sh/setup-uv@v5
+    - name: Set cache variables
+      if: ${{ inputs.set-variable == 'true' }}
+      shell: pwsh
+      run: |
+        echo "VSCMD_SKIP_SENDTELEMETRY=1" >> $env:GITHUB_ENV
+        echo "SCONS_CACHE_MSVC_CONFIG=${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json" >> $env:GITHUB_ENV
+        echo "SCONS_CACHE_KEY=scons_msvc_cache-$env:RUNNER_OS-$env:ImageVersion" >> $env:GITHUB_ENV
     - name: Create Python virtual environment
       shell: cmd
       run: |
@@ -58,11 +65,6 @@ runs:
           cd /d "${{ github.workspace }}\Tools\NVDA"
           git submodule update --init include/nvda-mathcat
           git submodule update --init miscDeps
-        )
-        if "${{ inputs.set-variable }}"=="true" (
-          echo "VSCMD_SKIP_SENDTELEMETRY=1">> "%GITHUB_ENV%"
-          echo "SCONS_CACHE_MSVC_CONFIG=${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json">> "%GITHUB_ENV%"
-          echo "SCONS_CACHE_KEY=scons_msvc_cache-%RUNNER_OS%-%ImageVersion%">> "%GITHUB_ENV%"
         )
         echo UV_MANAGED_PYTHON=true>> "%GITHUB_ENV%"
         uv --managed-python --directory "${{ github.workspace }}\Tools\NVDA" sync
