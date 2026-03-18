@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 git config --global user.name "GitHub Actions"
 git config --global user.email "actions@github.com"
-&7z.exe e "$env:GITHUB_WORKSPACE\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"$env:GITHUB_WORKSPACE\Tools"
+&7z.exe e "$env:GITHUB_WORKSPACE\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"$env:GITHUB_WORKSPACE\Tools" -bsp0 -bso0
 cd "$env:GITHUB_WORKSPACE\Tools\NVDA"
 $commit = (git rev-parse HEAD).Substring(0,8)
 .\runcheckpot.bat --all-cores
