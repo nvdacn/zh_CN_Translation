@@ -72,6 +72,9 @@ jobs:
       - Determine-Branch
     if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
+    env:
+      VSCMD_SKIP_SENDTELEMETRY: '1'
+      SCONS_CACHE_MSVC_CONFIG: '${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json'
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
@@ -84,43 +87,15 @@ jobs:
           ref: master
           submodules: true
           Download-gettext: true
-      - name: Configure environment
-        id: Set_Environment_Variables
-        shell: pwsh
-        run: |
-          echo "VSCMD_SKIP_SENDTELEMETRY=1" >> $env:GITHUB_ENV
-          echo "SCONS_CACHE_MSVC_CONFIG=${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json" >> $env:GITHUB_ENV
-          echo "SCONS_CACHE_KEY=scons_msvc_cache-$env:RUNNER_OS-$env:ImageVersion" >> $env:GITHUB_ENV
-          cd "${{ github.workspace }}/Tools/NVDA"
-          $commit = (git rev-parse HEAD).Substring(0,8)
-          echo "commit=$commit" >> $env:GITHUB_OUTPUT
-          cd "${{ github.workspace }}"
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          &"${{ github.workspace }}\Tools\7Zip\7z.exe" e "${{ github.workspace }}\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"${{ github.workspace }}\Tools"
       - name: SCons MSVC Cache
         uses: actions/cache@v5
         with:
           path: ${{ env.SCONS_CACHE_MSVC_CONFIG }}
-          key: ${{ env.SCONS_CACHE_KEY }}
-      - name: CheckPot
-        shell: cmd
-        run: |
-          cd /d ${{ github.workspace }}\Tools\NVDA
-          scons checkPot --all-cores
-      - name: Update NVDA.po
+          key: scons_msvc_cache-${{ env.RUNNER_OS }}-${{ env.ImageVersion }}
+      - name: Run CheckPot.ps1
         shell: pwsh
         run: |
-          &"${{ github.workspace }}\Tools\msgmerge.exe" --update  --backup=none --previous "${{ github.workspace }}\Translation\LC_MESSAGES\nvda.po" "${{ github.workspace }}\Tools\NVDA\output\nvda.pot"
-          git add "Translation/LC_MESSAGES/nvda.po"
-          git diff --cached --quiet
-          if ($LASTEXITCODE -ne 0) {
-              git commit -m "更新 NVDA 界面消息翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
-              git pull --rebase
-              git push origin ${{ needs.Determine-Branch.outputs.branch }}:${{ needs.Determine-Branch.outputs.branch }}
-          } else {
-              Write-Host "No changes to commit, skipping commit and push."
-          }
+          "${{ github.workspace }}/.github/Scripts/CheckPot.ps1"
       - name: Upload Output
         uses: actions/upload-artifact@v7
         with:
