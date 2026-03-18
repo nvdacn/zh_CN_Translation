@@ -9,6 +9,9 @@ if (-not $AddonID) {
 
 $addonIds = $AddonID -split ' '
 foreach ($addonId in $addonIds) {    
+    if ([string]::IsNullOrWhiteSpace($addonId)) {
+        continue
+    }
     Write-Output "Processing add-on: $addonId"
     & cmd /c "$L10nUtil DAP $addonId"
     & cmd /c "$L10nUtil DAM $addonId"
