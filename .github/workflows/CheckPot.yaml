@@ -70,7 +70,7 @@ jobs:
     needs: 
       - Check-NVDA-Repository-Update
       - Determine-Branch
-    # if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
+    if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
     env:
       branch: ${{ needs.Determine-Branch.outputs.branch }}
