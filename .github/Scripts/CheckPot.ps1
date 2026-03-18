@@ -4,7 +4,7 @@ git config --global user.email "actions@github.com"
 &7z.exe e "$env:GITHUB_WORKSPACE\PotXliff\Temp\gettext.zip" "bin\msgmerge.exe" -aoa -o"$env:GITHUB_WORKSPACE\Tools"
 cd "$env:GITHUB_WORKSPACE\Tools\NVDA"
 $commit = (git rev-parse HEAD).Substring(0,8)
-&runcheckpot.bat --all-cores
+.\runcheckpot.bat --all-cores
 cd "$env:GITHUB_WORKSPACE"
 &"$env:GITHUB_WORKSPACE\Tools\msgmerge.exe" --update  --backup=none --previous "$env:GITHUB_WORKSPACE\Translation\LC_MESSAGES\nvda.po" "$env:GITHUB_WORKSPACE\Tools\NVDA\output\nvda.pot"
 git add "Translation/LC_MESSAGES/nvda.po"
