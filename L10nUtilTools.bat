@@ -149,30 +149,25 @@ Rem 设置 nvdaL10nUtil 程序路径
 :UPC
 :UPU
 :UPA
-for %%F in (
-  "%ProgramFiles%\NVDA\l10nUtil.exe"
-  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
-  "%~dp0Tools\NVDA\source\l10nUtil.py"
-) do (
-  if exist %%F (
-    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
-      set "L10nUtil=uv --directory "%~dp0Tools\NVDA" run %%F"
-    ) else (
-      set "L10nUtil=%%F"
-    )
-  )
-  if defined L10nUtil (
-    echo %%l10nUtil%% is set to !l10nUtil!.
-    goto ProcessingNVDATags
-  )
+set L10NSourceCodePath=%~dp0Tools\NVDAL10n
+set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
+if "%GITHUB_ACTIONS%" == "true" (goto ProcessingNVDATags)
+IF NOT EXIST "%L10NSourceCodePath%" (
+  set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%L10NSourceCodePath%
+  set VerifyFile=source\l10nUtil.py
+  set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
 )
-
-Rem 检查 %L10nUtil% 是否存在  
-if not defined L10nUtil (
-  echo l10nUtil program not found.
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误')"
+:NVDAL10NSourceCodePathSetSuccessfully
+uv --directory "%L10NSourceCodePath%" sync
+if !errorlevel! neq 0 (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDAL10n 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
+  echo 请按任意键退出...
+  Pause>Nul
   exit /b 1
 )
+cls
 
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
 :ProcessingNVDATags
