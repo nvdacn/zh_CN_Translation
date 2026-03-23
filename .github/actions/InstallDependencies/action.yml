@@ -3,37 +3,34 @@ name: Install dependencies
 description: 'Install dependencies'
 
 inputs:
+  fetch-repo:
+    description: 'The repository name that needs to be fetched'
+    default: ${{ github.workflow == 'Automatically update NVDA.po' && 'nvda' || 'nvdaL10n' }}
   ref:
-    description: >
-      The branch, tag or SHA to checkout. When checking out the repository that
-      triggered a workflow, this defaults to the reference or SHA for that
-      event.  Otherwise, uses the default branch.
-    default: ${{ (github.ref_name == 'Uploads' || github.base_ref == 'Uploads' || github.ref_name == 'main' || github.base_ref == 'main') && 'beta' || 'master' }}
+    description: 'Branch name that needs to be checked out'
+    default: 'main'
   submodules:
-    description: >
-      Whether to checkout submodules: `true` to checkout submodules or `recursive` to
-      recursively checkout submodules.
-    default: false
+    description: 'Whether to checkout submodules'
+    default: true
   Download-gettext:
-    description: >
-      Whether to Download gettext.
+    description: 'Whether to Download gettext'
     default: false
   set-variable:
-    description: >
-      Whether to Set cache variables.
+    description: 'Whether to Set cache variables'
     default: false
 
 runs:
   using: "composite"
 
   steps:
-    - name: Checkout NVDA repository
+    - name: Checkout ${{ inputs.fetch-repo }} repository
       uses: actions/checkout@v6
       with:
-        repository: nvaccess/nvda.git
+        # repository: nvaccess/${{ inputs.fetch-repo }}
+        repository: nvdaes/${{ inputs.fetch-repo }}
         ref: ${{ inputs.ref }}
         submodules: ${{ inputs.submodules }}
-        path: ${{ github.workspace }}/Tools/NVDA
+        path: ${{ github.workspace }}/Tools/${{ inputs.fetch-repo }}
     - name: Cache gettext
       id: cache-gettext
       if: ${{ inputs.Download-gettext == 'true' }}
@@ -61,10 +58,5 @@ runs:
     - name: Create Python virtual environment
       shell: cmd
       run: |
-        if not "${{ inputs.submodules }}"=="true" (
-          cd /d "${{ github.workspace }}\Tools\NVDA"
-          git submodule update --init include/nvda-mathcat
-          git submodule update --init miscDeps
-        )
         echo UV_MANAGED_PYTHON=true>> "%GITHUB_ENV%"
-        uv --managed-python --directory "${{ github.workspace }}\Tools\NVDA" sync
+        uv --managed-python --directory "${{ github.workspace }}\Tools\${{ inputs.fetch-repo }}" sync
