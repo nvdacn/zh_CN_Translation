@@ -2,9 +2,31 @@
 setlocal enabledelayedexpansion
 chcp 65001>Nul
 Title L10n Util Tools
-
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
+
+Rem 设置 L10nUtil 程序路径  
+set L10NSourceCodePath=%~dp0Tools\NVDAL10n
+set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
+if "%GITHUB_ACTIONS%" == "true" (goto CheckCLI)
+IF NOT EXIST "%L10NSourceCodePath%" (
+  set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%L10NSourceCodePath%
+  set VerifyFile=source\l10nUtil.py
+  set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+:NVDAL10NSourceCodePathSetSuccessfully
+uv --directory "%L10NSourceCodePath%" sync
+if !errorlevel! neq 0 (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDAL10n 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
+  echo 请按任意键退出...
+  Pause>Nul
+  exit /b 1
+)
+cls
+
 Rem 判断是否从命令行传入参数  
+:CheckCLI
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
@@ -124,7 +146,6 @@ msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvd
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem 设置 nvdaL10nUtil 程序路径  
 :GEC
 :GEU
 :GEK
@@ -149,28 +170,7 @@ Rem 设置 nvdaL10nUtil 程序路径
 :UPC
 :UPU
 :UPA
-set L10NSourceCodePath=%~dp0Tools\NVDAL10n
-set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
-if "%GITHUB_ACTIONS%" == "true" (goto ProcessingNVDATags)
-IF NOT EXIST "%L10NSourceCodePath%" (
-  set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
-  set TargetPath=%L10NSourceCodePath%
-  set VerifyFile=source\l10nUtil.py
-  set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
-  goto SetPersonalSourcePath
-)
-:NVDAL10NSourceCodePathSetSuccessfully
-uv --directory "%L10NSourceCodePath%" sync
-if !errorlevel! neq 0 (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDAL10n 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
-  echo 请按任意键退出...
-  Pause>Nul
-  exit /b 1
-)
-cls
-
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
-:ProcessingNVDATags
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI:~0,2%"=="MH" (set Action=GenerateHTML)
