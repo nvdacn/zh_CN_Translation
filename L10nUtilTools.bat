@@ -125,7 +125,7 @@ Rem 初始化变量，跳转到用户输入的命令或退出
 set ExitCode=0
 set Parameter=%CLI:~0,2%
 cls
-goto %CLI% >Nul
+goto %CLI% >nul 2>nul
 exit
 
 Rem 从给定的 nvda.pot 更新界面翻译字符串  
