@@ -226,6 +226,7 @@ if /I "%Type%"=="Docs" (
   set TranslationPath=%~dp0Translation\user_docs
 )
 set CrowdinFilePath=%FileName%
+set "Config=--config=nvda"
 goto %Action%
 
 Rem 生成翻译预览系列命令  
@@ -354,7 +355,7 @@ Rem 从 Crowdin 下载已翻译的文件
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
-%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%"
+%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%" %Config%
 if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
   set ExitCode=%errorlevel%
@@ -404,10 +405,10 @@ Rem 上传已翻译的文件到 Crowdin
 if /I "%Type%"=="Docs" (
   goto ReadyUpload
 ) else (
-  set Parameter= 
+  set "Parameter="
 )
 :Upload
-%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter%
+%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter% %Config%
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -459,6 +460,7 @@ if /I "%CLI:~2,1%"=="M" (
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
+set "Config=--config=addon"
 goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
