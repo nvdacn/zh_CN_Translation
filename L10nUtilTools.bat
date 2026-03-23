@@ -328,7 +328,7 @@ set NVDASourceCodePath=%~dp0Tools\NVDA
 IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
-  set VerifyFile=source\markdownTranslate.py
+  set VerifyFile=ensureuv.ps1
   set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
   goto SetPersonalSourcePath
 )
@@ -433,22 +433,6 @@ IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
   goto SetPersonalSourcePath
 )
 :CrowdinRegistrationPathSetSuccessfully
-IF NOT EXIST "%CrowdinRegistrationSourcePath%\miscDeps" (
-  MKDir "%CrowdinRegistrationSourcePath%\miscDeps\tools"
-  echo *>"%CrowdinRegistrationSourcePath%\miscDeps\.gitignore"
-  MKLINK /H "%CrowdinRegistrationSourcePath%\miscDeps\tools\msgfmt.exe" "%~dp0Tools\msgfmt.exe"
-)
-set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
-if NOT "%GITHUB_ACTIONS%" == "true" (
-  uv --directory "%CrowdinRegistrationSourcePath%" sync
-  if !errorlevel! neq 0 (
-    powershell -command "(New-Object -ComObject wscript.shell).Popup('CrowdinRegistration 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
-    echo 请按任意键退出...
-    Pause>Nul
-    exit /b 1
-  )
-  cls
-)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
