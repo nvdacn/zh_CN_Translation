@@ -338,24 +338,17 @@ set NVDASourceCodePath=%~dp0Tools\NVDA
 IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
-  set VerifyFile=ensureuv.ps1
+  set "VerifyFile=user_docs\en\userGuide.xliff"
   set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
   goto SetPersonalSourcePath
 )
 :NVDASourceCodePathSetSuccessfully
-powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
-if %errorlevel% neq 0 (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
-  echo 请按任意键退出...
-  Pause>Nul
-  exit /b 1
-)
 IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
 )
 move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
-uv --directory "%NVDASourceCodePath%" run "%NVDASourceCodePath%\source\markdownTranslate.py" translateXliff -x "%NVDASourceCodePath%\user_docs\en\%FileName%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%NVDASourceCodePath%\user_docs\en\%FileName%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
