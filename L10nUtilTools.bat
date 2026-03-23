@@ -15,10 +15,19 @@ IF NOT EXIST "%L10NSourceCodePath%" (
   set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
   goto SetPersonalSourcePath
 )
+
 :NVDAL10NSourceCodePathSetSuccessfully
+Rem 检查是否安装 uv
+where uv >nul 2>nul
+if "!errorlevel!" neq "0" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未检测到 uv 包管理器，请先安装 uv 后再运行此脚本。',10,'错误',16)"
+  exit /b 1
+)
+
+Rem 配置 Python虚拟环境  
 uv --directory "%L10NSourceCodePath%" sync
 if !errorlevel! neq 0 (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDAL10n 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDAL10n 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误',16)"
   echo 请按任意键退出...
   Pause>Nul
   exit /b 1
