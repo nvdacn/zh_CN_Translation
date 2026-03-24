@@ -454,7 +454,7 @@ if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=readme.md
   set ShortName=%AddonName%
-  findstr /i "%AddonName%.xliff" "%CrowdinRegistrationSourcePath%\utils\files.json" >nul
+  findstr /i "%AddonName%.xliff" "%L10NSourceCodePath%\data\addonTemplate.yaml" >nul
   if not !errorlevel! EQU 1 (
     set CrowdinFilePath=%AddonName%.xliff
     set FileName=readme.xliff
