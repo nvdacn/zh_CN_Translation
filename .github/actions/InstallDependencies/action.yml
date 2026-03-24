@@ -26,8 +26,7 @@ runs:
     - name: Checkout ${{ inputs.fetch-repo }} repository
       uses: actions/checkout@v6
       with:
-        # repository: nvaccess/${{ inputs.fetch-repo }}
-        repository: nvdaes/${{ inputs.fetch-repo }}
+        repository: nvaccess/${{ inputs.fetch-repo }}
         ref: ${{ inputs.ref }}
         submodules: ${{ inputs.submodules }}
         path: ${{ github.workspace }}/Tools/${{ inputs.fetch-repo }}
