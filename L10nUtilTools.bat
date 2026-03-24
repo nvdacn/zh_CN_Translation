@@ -11,6 +11,7 @@ if "%GITHUB_ACTIONS%" == "true" (goto CheckCLI)
 IF NOT EXIST "%L10NSourceCodePath%" (
   IF EXIST "%~dp0Tools\l10nUtil.exe" (
     set "L10nUtil="%~dp0Tools\l10nUtil.exe""
+    set "L10NSourceCodePath=exe"
     goto CheckCLI
   )
   set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
@@ -348,6 +349,10 @@ IF NOT EXIST "%NVDASourceCodePath%" (
   goto SetPersonalSourcePath
 )
 :NVDASourceCodePathSetSuccessfully
+if /I "%L10NSourceCodePath%" =="exe" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
+  exit /b 1
+)
 IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
