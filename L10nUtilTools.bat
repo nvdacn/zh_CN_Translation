@@ -448,12 +448,12 @@ if /I "%CLI:~2,1%"=="P" (
 if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
-  set ShortName=readme
+  set ShortName=%AddonName%
 )
 if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=readme.md
-  set ShortName=readme
+  set ShortName=%AddonName%
   findstr /i "%AddonName%.xliff" "%CrowdinRegistrationSourcePath%\utils\files.json" >nul
   if not !errorlevel! EQU 1 (
     set CrowdinFilePath=%AddonName%.xliff
@@ -467,7 +467,7 @@ goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
-uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\addons\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\addons\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%~dp0PotXliff\%AddonName%.xliff"
 set ExitCode=%errorlevel%
 if %ExitCode% neq 0 (goto Quit)
 move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
