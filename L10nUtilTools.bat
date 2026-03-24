@@ -352,7 +352,7 @@ IF NOT EXIST "%SourceXLIFFPath%" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 "%SourceXLIFFPath%"，请确保该文件存在后重试。',5,'错误',16)"
   exit /b 1
 )
-move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
+move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%ShortName%.xliff"
 uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
