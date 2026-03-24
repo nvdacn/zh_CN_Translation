@@ -335,6 +335,7 @@ goto Quit
 Rem 从 Markdown 文档生成 xliff
 :GenerateXLIFF
 set NVDASourceCodePath=%~dp0Tools\NVDA
+set "SourceXLIFFPath=%NVDASourceCodePath%\user_docs\en\%ShortName%.xliff"
 IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
@@ -347,8 +348,12 @@ IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
 )
+IF NOT EXIST "%SourceXLIFFPath%" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 "%SourceXLIFFPath%"，请确保该文件存在后重试。',5,'错误',16)"
+  exit /b 1
+)
 move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
-uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%NVDASourceCodePath%\user_docs\en\%FileName%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -459,19 +464,15 @@ goto %Action%
 Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
 set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
+set "SourceXLIFFPath=%CrowdinRegistrationSourcePath%\addons\%AddonName%\%ShortName%.xliff"
 IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
   set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
   set TargetPath=%CrowdinRegistrationSourcePath%
   set VerifyFile=utils\l10nUtil.py
-  set PathSetSuccessfully=CrowdinRegistrationPathSetSuccessfully
+  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
   goto SetPersonalSourcePath
 )
-:CrowdinRegistrationPathSetSuccessfully
-uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\addons\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%~dp0PotXliff\%AddonName%.xliff"
-set ExitCode=%errorlevel%
-if %ExitCode% neq 0 (goto Quit)
-move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
-exit /b 0
+goto NVDASourceCodePathSetSuccessfully
 
 Rem 设置本地存储库路径  
 :SetPersonalSourcePath
