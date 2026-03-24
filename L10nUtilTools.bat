@@ -9,6 +9,10 @@ set L10NSourceCodePath=%~dp0Tools\NVDAL10n
 set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
 if "%GITHUB_ACTIONS%" == "true" (goto CheckCLI)
 IF NOT EXIST "%L10NSourceCodePath%" (
+  IF EXIST "%~dp0Tools\l10nUtil.exe" (
+    set "L10nUtil="%~dp0Tools\l10nUtil.exe""
+    goto CheckCLI
+  )
   set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%L10NSourceCodePath%
   set VerifyFile=source\l10nUtil.py
