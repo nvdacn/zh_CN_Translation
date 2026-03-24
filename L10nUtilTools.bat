@@ -427,15 +427,6 @@ if not defined AddonName (
   echo 请输入插件 ID，按回车键确认。  
   set /p AddonName=
 )
-set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
-IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
-  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
-  set TargetPath=%CrowdinRegistrationSourcePath%
-  set VerifyFile=utils\l10nUtil.py
-  set PathSetSuccessfully=CrowdinRegistrationPathSetSuccessfully
-  goto SetPersonalSourcePath
-)
-:CrowdinRegistrationPathSetSuccessfully
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
@@ -467,6 +458,15 @@ goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
+set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
+IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
+  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%CrowdinRegistrationSourcePath%
+  set VerifyFile=utils\l10nUtil.py
+  set PathSetSuccessfully=CrowdinRegistrationPathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+:CrowdinRegistrationPathSetSuccessfully
 uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\addons\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%~dp0PotXliff\%AddonName%.xliff"
 set ExitCode=%errorlevel%
 if %ExitCode% neq 0 (goto Quit)
