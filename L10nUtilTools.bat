@@ -459,7 +459,13 @@ if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=readme.md
   set ShortName=%AddonName%
-  findstr /i "%AddonName%.xliff" "%L10NSourceCodePath%\data\addonTemplate.yaml" >nul
+  set "ConfigFilename=%L10NSourceCodePath%\config\addonTemplate.yaml"
+  IF NOT EXIST "!ConfigFilename!" (
+    set "ConfigFilename=%~dp0Tools\l10nUtil.yaml"
+    %L10nUtil% writeConfig --config="!ConfigFilename!" --id=780748
+    set "Config=--config="!ConfigFilename!""
+  )
+  findstr /i "%AddonName%.xliff" "!ConfigFilename!" >nul 2>nul
   if not !errorlevel! EQU 1 (
     set CrowdinFilePath=%AddonName%.xliff
     set FileName=readme.xliff
