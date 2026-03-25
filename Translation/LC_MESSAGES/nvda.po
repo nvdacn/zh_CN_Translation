@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 07:06+0000\n"
+"POT-Creation-Date: 2026-03-25 04:53+0000\n"
 "PO-Revision-Date: 2026-03-19 11:05+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -7161,6 +7161,11 @@ msgstr "声调"
 #: synthDriverHandler.py:225
 msgid "Use modern audio output system (WASAPI)"
 msgstr "使用现代音频输出系统（WASAPI）"
+
+#. Translators: Label for a setting toggle in voice settings dialog.
+#: synthDriverHandler.py:236
+msgid "Natural pause after punctuation"
+msgstr ""
 
 #: touchHandler.py:60
 msgid "text mode"
@@ -16759,13 +16764,13 @@ msgid "VirusTotal scan results"
 msgstr "VirusTotal 扫描结果"
 
 #. Translators: Label for an action that shows changelog for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:274
+#: gui\addonStoreGui\viewModels\store.py:275
 msgctxt "addonStore"
 msgid "&What's new"
 msgstr "更新日志(&W)"
 
 #. Translators: Title for a message showing changes for the current add-on version.
-#: gui\addonStoreGui\viewModels\store.py:282
+#: gui\addonStoreGui\viewModels\store.py:283
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Changes for {curVersion}"
@@ -16773,7 +16778,7 @@ msgstr "{curVersion} 版本更新日志"
 
 #. Translators: The message displayed when the add-on cannot be enabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:378
+#: gui\addonStoreGui\viewModels\store.py:379
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not enable the add-on: {addon}."
@@ -16781,7 +16786,7 @@ msgstr "无法启用插件：{addon}"
 
 #. Translators: The message displayed when the add-on cannot be disabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:385
+#: gui\addonStoreGui\viewModels\store.py:386
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not disable the add-on: {addon}."
