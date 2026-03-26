@@ -513,7 +513,7 @@ Rem 处理退出代码
 :Quit
 if /I "%GITHUB_ACTIONS%" == "true" (exit /b %ExitCode%)
 if %ExitCode% neq 0 (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误')"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误',16)" >nul
   echo 请按任意键退出...
   Pause>Nul
   exit /b %ExitCode%
