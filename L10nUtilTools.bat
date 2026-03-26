@@ -435,6 +435,8 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :UAM
 :DAP
 :DAM
+set "ConfigFilename=%~dp0Tools\l10nUtil.yaml"
+set "Config=--config="!ConfigFilename!""
 set AddonName=%2
 if not defined AddonName (
   cls
@@ -445,6 +447,11 @@ if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckAddonID.ps1" "%~dp0Tools\Scripts\ProjectList.txt"
+if %errorlevel% neq 0 (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 if /I "%CLI:~2,1%"=="P" (
   set Type=LC_MESSAGES
   set CrowdinFilePath=%AddonName%.pot
@@ -459,12 +466,6 @@ if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=readme.md
   set ShortName=%AddonName%
-  set "ConfigFilename=%L10NSourceCodePath%\config\addonTemplate.yaml"
-  IF NOT EXIST "!ConfigFilename!" (
-    set "ConfigFilename=%~dp0Tools\l10nUtil.yaml"
-    %L10nUtil% writeConfig --config="!ConfigFilename!" --id=780748
-    set "Config=--config="!ConfigFilename!""
-  )
   findstr /i "%AddonName%.xliff" "!ConfigFilename!" >nul 2>nul
   if not !errorlevel! EQU 1 (
     set CrowdinFilePath=%AddonName%.xliff
@@ -473,7 +474,6 @@ if /I "%CLI:~2,1%"=="M" (
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
-set "Config=--config=addon"
 goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
