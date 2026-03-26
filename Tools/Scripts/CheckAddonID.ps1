@@ -19,12 +19,13 @@ Write-Host "Checking add-on ID validity..."
 foreach ($line in (Get-Content $ProjectListFile | Where-Object { $_ -notmatch '^\s*#' })) {
     if ($line -match '^([^=]+)=(.+)$') {
         $projectId = $Matches[1].Trim()
-        $searchPattern = $ExecutionContext.InvokeCommand.ExpandString($Matches[2].Trim())+'.'
+        $searchPattern = $ExecutionContext.InvokeCommand.ExpandString($Matches[2].Trim())
         # Execute command to write configuration
         $cmdLine = '%l10nUtil% writeConfig %Config% --id='+$projectId+' >nul'
         & cmd /c $cmdLine
-        # Check if the configuration file contains the expected pattern
-        if ((Get-Content $configFilename -Raw) -match [regex]::Escape($searchPattern)) {
+        # Check if the configuration file contains any of the expected patterns
+        $pattern = "\b" + [regex]::Escape($searchPattern) + "\.(po|xliff|md)\b"
+        if ((Get-Content $configFilename -Raw) -match $pattern) {
             $found = $true
             break
         }
@@ -36,4 +37,4 @@ if (-not $found) {
     exit 1
 }
 
-exit 
+exit
