@@ -507,6 +507,9 @@ Rem 清理本工具生成的所有文件
 git clean -fX "%~dp0PotXliff"
 git clean -fX "%~dp0Preview"
 git clean -fX "%~dp0Translation\Addons"
+for /f "delims=" %%a in ('dir /ad /b /s "%~dp0Translation\Addons" ^| sort /r') do (
+  rd "%%a" 2>nul
+)
 set ExitCode=%errorlevel%
 goto Quit
 
