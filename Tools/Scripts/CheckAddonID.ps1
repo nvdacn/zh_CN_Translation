@@ -15,12 +15,13 @@ if ($env:Action -ne "DownloadFiles" -and $env:Action -ne "UploadFiles") {
 $configFilename = $env:ConfigFilename
 
 # Read and filter the file
+Write-Host "Checking add-on ID validity..."
 foreach ($line in (Get-Content $ProjectListFile | Where-Object { $_ -notmatch '^\s*#' })) {
     if ($line -match '^([^=]+)=(.+)$') {
         $projectId = $Matches[1].Trim()
         $searchPattern = $ExecutionContext.InvokeCommand.ExpandString($Matches[2].Trim())+'.'
         # Execute command to write configuration
-        $cmdLine = '%l10nUtil% writeConfig %Config% --id='+$projectId
+        $cmdLine = '%l10nUtil% writeConfig %Config% --id='+$projectId+' >nul'
         & cmd /c $cmdLine
         # Check if the configuration file contains the expected pattern
         if ((Get-Content $configFilename -Raw) -match [regex]::Escape($searchPattern)) {
