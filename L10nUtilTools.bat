@@ -474,6 +474,7 @@ if /I "%CLI:~2,1%"=="M" (
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
+set GitAddPath=Translation/Addons/%AddonName%
 goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
