@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-26 02:06+0000\n"
+"POT-Creation-Date: 2026-03-30 02:08+0000\n"
 "PO-Revision-Date: 2026-03-28 16:48+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -7538,7 +7538,7 @@ msgstr "请捐赠"
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:965 gui\__init__.py:738
+#: updateCheck.py:965 gui\__init__.py:741
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
@@ -7720,27 +7720,27 @@ msgid "Failed to install add-on from %s"
 msgstr "从 %s 安装插件失败"
 
 #. Translators: A title for a dialog notifying a user of an add-on download failure.
-#: addonStore\network.py:243
+#: addonStore\network.py:256
 msgctxt "addonStore"
 msgid "Add-on download failure"
 msgstr "插件下载失败"
 
 #. Translators: A message to the user if an add-on download fails
-#: addonStore\network.py:266
+#: addonStore\network.py:279
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Unable to download add-on: {name}"
 msgstr "插件 {name} 无法下载"
 
 #. Translators: A message to the user if an add-on download fails
-#: addonStore\network.py:276
+#: addonStore\network.py:289
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Unable to save add-on as a file: {name}"
 msgstr "插件 {name} 无法另存为文件"
 
 #. Translators: A message to the user if an add-on download is not safe
-#: addonStore\network.py:288
+#: addonStore\network.py:301
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Add-on download not safe: checksum failed for {name}"
@@ -12242,12 +12242,12 @@ msgid "&Copy version number"
 msgstr "复制版本号(&C)"
 
 #. Translators: The title of the dialog to show about info for NVDA.
-#: gui\__init__.py:437 gui\__init__.py:886
+#: gui\__init__.py:437 gui\__init__.py:889
 msgid "About NVDA"
 msgstr "关于 NVDA"
 
 #. Translators: Explain the COM Registration Fixing tool to users before running
-#: gui\__init__.py:554
+#: gui\__init__.py:557
 msgid ""
 "Welcome to the COM Registration Fixing tool.\n"
 "\n"
@@ -12274,18 +12274,18 @@ msgstr ""
 "按“继续”立即运行该工具。"
 
 #. Translators: The title of various dialogs displayed when using the COM Registration Fixing tool
-#: gui\__init__.py:579
+#: gui\__init__.py:582
 msgid "Fix COM Registrations"
 msgstr "COM 注册修复"
 
 #. Translators: The message displayed while NVDA is running the COM Registration fixing tool
-#: gui\__init__.py:594
+#: gui\__init__.py:597
 msgid ""
 "Please wait while NVDA attempts to fix your system's COM registrations..."
 msgstr "请稍候，NVDA 正在尝试修复系统中的 COM 注册……"
 
 #. Translators: message shown to the user on COM Registration Fix fail
-#: gui\__init__.py:621
+#: gui\__init__.py:624
 #, python-brace-format
 msgid ""
 "The COM Registration Fixing Tool was unsuccessful. This Windows error may "
@@ -12296,12 +12296,12 @@ msgstr ""
 "{error}"
 
 #. Translators: The title of a COM Registration Fixing Tool dialog, when the tool has failed
-#: gui\__init__.py:625
+#: gui\__init__.py:628
 msgid "COM Registration Fixing Tool Failed"
 msgstr "COM 注册修复失败"
 
 #. Translators: Message shown when the COM Registration Fixing tool completes.
-#: gui\__init__.py:632
+#: gui\__init__.py:635
 msgid ""
 "The COM Registration Fixing Tool has completed successfully.\n"
 "It is highly recommended that you restart your computer now, to make sure "
@@ -12310,239 +12310,239 @@ msgstr ""
 "COM 注册修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生效。"
 
 #. Translators: The label for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:659
+#: gui\__init__.py:662
 msgid "&Settings..."
 msgstr "设置(&S)..."
 
 #. Translators: The description for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:661
+#: gui\__init__.py:664
 msgid "NVDA settings"
 msgstr "NVDA 设置"
 
 #. Translators: The label for a submenu under NvDA Preferences menu to select speech dictionaries.
-#: gui\__init__.py:666
+#: gui\__init__.py:669
 msgid "Speech &dictionaries"
 msgstr "朗读字典(&D)"
 
 #. Translators: The label for the menu item to open Punctuation/symbol pronunciation dialog.
-#: gui\__init__.py:668
+#: gui\__init__.py:671
 msgid "&Punctuation/symbol pronunciation..."
 msgstr "标点符号读音(&P)..."
 
 #. Translators: The label for the menu item to open the Input Gestures dialog.
-#: gui\__init__.py:671
+#: gui\__init__.py:674
 msgid "I&nput gestures..."
 msgstr "按键与手势(&N)..."
 
 #. Translators: The label for Preferences submenu in NVDA menu.
-#: gui\__init__.py:674
+#: gui\__init__.py:677
 msgid "&Preferences"
 msgstr "选项(&P)"
 
 #. Translators: The label for the menu item to open NVDA Log Viewer.
-#: gui\__init__.py:679
+#: gui\__init__.py:682
 msgid "View &log"
 msgstr "查看日志(&L)"
 
 #. Translators: The label for the menu item to toggle Speech Viewer.
-#: gui\__init__.py:685
+#: gui\__init__.py:688
 msgid "&Speech viewer"
 msgstr "朗读查看器(&S)"
 
 #. Translators: The label for the menu item to toggle Braille Viewer.
-#: gui\__init__.py:693
+#: gui\__init__.py:696
 msgid "&Braille viewer"
 msgstr "盲文查看器(&B)"
 
 #. Translators: The label of a menu item to open the Add-on store
-#: gui\__init__.py:705
+#: gui\__init__.py:708
 msgid "&Add-on store..."
 msgstr "插件商店(&A)..."
 
 #. Translators: The label for the menu item to open NVDA Python Console.
-#: gui\__init__.py:710
+#: gui\__init__.py:713
 msgid "&Python console"
 msgstr "Python 控制台(&P)"
 
 #. Translators: The label for the menu item to create a portable copy of NVDA from an installed or another portable version.
-#: gui\__init__.py:715
+#: gui\__init__.py:718
 msgid "&Create portable copy..."
 msgstr "创建便携版(&C)..."
 
 #. Translators: The label for the menu item to install NVDA on the computer.
-#: gui\__init__.py:719
+#: gui\__init__.py:722
 msgid "&Install NVDA..."
 msgstr "安装 NVDA(&I)"
 
 #. Translators: The label for the menu item to run the COM registration fix tool
-#: gui\__init__.py:722
+#: gui\__init__.py:725
 msgid "Run COM Registration Fixing tool..."
 msgstr "运行 COM 注册修复工具(&R)..."
 
 #. Translators: The label for the menu item to reload plugins.
-#: gui\__init__.py:726
+#: gui\__init__.py:729
 msgid "Reload plugins"
 msgstr "重新加载插件(&G)"
 
 #. Translators: The label for the Tools submenu in NVDA menu.
-#: gui\__init__.py:729
+#: gui\__init__.py:732
 msgid "&Tools"
 msgstr "工具(&T)"
 
 #. Translators: The label for the menu item to exit NVDA
 #. Translators: The label for a menu item in NVDA log viewer to exit.
 #. Translators: The label for a button to exit the NVDA launcher.
-#: gui\__init__.py:747 gui\logViewer.py:58 gui\startupDialogs.py:206
+#: gui\__init__.py:750 gui\logViewer.py:58 gui\startupDialogs.py:206
 msgid "E&xit"
 msgstr "退出(&X)"
 
 #. Translators: The help string for the menu item to exit NVDA
 #. Translators: The title of the dialog to exit NVDA
-#: gui\__init__.py:749 gui\exit.py:79
+#: gui\__init__.py:752 gui\exit.py:79
 msgid "Exit NVDA"
 msgstr "退出 NVDA"
 
 #. Translators: The label for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:784
+#: gui\__init__.py:787
 msgid "&Default dictionary..."
 msgstr "默认字典(&D)..."
 
 #. Translators: The help text for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:786
+#: gui\__init__.py:789
 msgid ""
 "A dialog where you can set default dictionary by adding dictionary entries "
 "to the list"
 msgstr "“默认字典”对话框，可以添加和管理默认字典"
 
 #. Translators: The label for the menu item to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:792
+#: gui\__init__.py:795
 msgid "&Voice dictionary..."
 msgstr "语音字典(&V)..."
 
 #. Translators: The help text for the menu item
 #. to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:796
+#: gui\__init__.py:799
 msgid ""
 "A dialog where you can set voice-specific dictionary by adding dictionary "
 "entries to the list"
 msgstr "“语音字典”对话框，可以添加和管理合成器字典"
 
 #. Translators: The label for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:804
+#: gui\__init__.py:807
 msgid "&Temporary dictionary..."
 msgstr "临时字典(&T)..."
 
 #. Translators: The help text for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:806
+#: gui\__init__.py:809
 msgid ""
 "A dialog where you can set temporary dictionary by adding dictionary entries "
 "to the edit box"
 msgstr "“临时字典”对话框，可以添加和管理临时字典"
 
 #. Translators: The label for the menu item to open the Configuration Profiles dialog.
-#: gui\__init__.py:814
+#: gui\__init__.py:817
 msgid "&Configuration profiles..."
 msgstr "管理配置(&C)..."
 
 #. Translators: The label for the menu item to revert to saved configuration.
-#: gui\__init__.py:819
+#: gui\__init__.py:822
 msgid "&Revert to saved configuration"
 msgstr "重新应用已保存的配置(&R)"
 
 #. Translators: The help text for the menu item to revert to saved configuration.
-#: gui\__init__.py:821
+#: gui\__init__.py:824
 msgid "Reset all settings to saved state"
 msgstr "重置所有设置到已保存的状态"
 
 #. Translators: The label for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:828
+#: gui\__init__.py:831
 msgid "Reset configuration to &factory defaults"
 msgstr "重置设置为默认值(&F)"
 
 #. Translators: The help text for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:831
+#: gui\__init__.py:834
 msgid "Reset all settings to default state"
 msgstr "重置所有设置到默认状态"
 
 #. Translators: The label for the menu item to save current settings.
-#: gui\__init__.py:838
+#: gui\__init__.py:841
 msgid "&Save configuration"
 msgstr "保存设置(&S)"
 
 #. Translators: The help text for the menu item to save current settings.
-#: gui\__init__.py:840
+#: gui\__init__.py:843
 msgid "Write the current configuration to nvda.ini"
 msgstr "将现在的设置写入 nvda.ini"
 
 #. Translators: The label of a menu item to open NVDA user guide.
-#: gui\__init__.py:849
+#: gui\__init__.py:852
 msgid "&User Guide"
 msgstr "用户指南(&U)"
 
 #. Translators: The label of a menu item to open the Commands Quick Reference document.
-#: gui\__init__.py:852
+#: gui\__init__.py:855
 msgid "Commands &Quick Reference"
 msgstr "热键快速参考(&Q)"
 
 #. Translators: The label for the menu item to open What's New document.
-#: gui\__init__.py:855
+#: gui\__init__.py:858
 msgid "What's &new"
 msgstr "更新日志(&N)"
 
 #. Translators: The label for the menu item to view the NVDA website
-#: gui\__init__.py:861
+#: gui\__init__.py:864
 msgid "NV Access &web site"
 msgstr "NV Access 网站(&W)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:864
+#: gui\__init__.py:867
 msgid "&Help, training and support"
 msgstr "帮助、培训和支持(&H)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:867
+#: gui\__init__.py:870
 msgid "NV Access &shop"
 msgstr "NV Access 商店(&S)"
 
 #. Translators: The label for the menu item to view the NVDA License.
-#: gui\__init__.py:873
+#: gui\__init__.py:876
 msgid "L&icense"
 msgstr "版权信息(&I)"
 
 #. Translators: The label for the menu item to open NVDA Welcome Dialog.
-#: gui\__init__.py:877
+#: gui\__init__.py:880
 msgid "We&lcome dialog..."
 msgstr "欢迎对话框(&L)"
 
 #. Translators: The label of a menu item to manually check for an updated version of NVDA.
-#: gui\__init__.py:882
+#: gui\__init__.py:885
 msgid "&Check for update..."
 msgstr "检查更新(&C)..."
 
 #. Translators: The label for the menu item to open About dialog to get information about NVDA.
-#: gui\__init__.py:886
+#: gui\__init__.py:889
 msgid "&About..."
 msgstr "关于(&A)..."
 
 #. Translators: The label for the Help submenu in NVDA menu.
-#: gui\__init__.py:890
+#: gui\__init__.py:893
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. Translators: The label for the menu item to run a pending update.
-#: gui\__init__.py:906
+#: gui\__init__.py:909
 msgid "Install pending &update"
 msgstr "安装之前推迟的更新(&U)"
 
 #. Translators: The description for the menu item to run a pending update.
-#: gui\__init__.py:908
+#: gui\__init__.py:911
 msgid "Execute a previously downloaded NVDA update"
 msgstr "安装之前下载的 NVDA 更新"
 
 #. Translators: Announced periodically to indicate progress for an indeterminate progress bar.
-#: gui\__init__.py:992
+#: gui\__init__.py:995
 msgid "Please wait"
 msgstr "请等待"
 
@@ -16790,59 +16790,64 @@ msgid "Error in brailling math: see NVDA error log for details"
 msgstr ""
 
 #. Translators: this message alerts users to an error in navigating math.
-#: mathPres\MathCAT\MathCAT.py:165
+#: mathPres\MathCAT\MathCAT.py:170
 msgctxt "math"
 msgid "Error in navigating math"
 msgstr ""
 
 #. Translators: this message alerts users to an error brailling math.
-#: mathPres\MathCAT\MathCAT.py:185
+#: mathPres\MathCAT\MathCAT.py:190
 msgctxt "math"
 msgid "Error in brailling math"
 msgstr ""
 
+#. Translators: Description of a MathCAT navigation gesture.
+#: mathPres\MathCAT\MathCAT.py:196
+msgid "Navigates within math"
+msgstr ""
+
 #. Translators: Message to be announced during Keyboard Help
-#: mathPres\MathCAT\MathCAT.py:191
+#: mathPres\MathCAT\MathCAT.py:202
 msgid "Copy navigation focus to clipboard"
 msgstr ""
 
 #. Translators: Name of the section in "Input gestures" dialog.
-#: mathPres\MathCAT\MathCAT.py:193
+#: mathPres\MathCAT\MathCAT.py:204
 msgid "Clipboard"
 msgstr "剪贴板"
 
 #. Translators: copy to clipboard
-#: mathPres\MathCAT\MathCAT.py:239
+#: mathPres\MathCAT\MathCAT.py:250
 msgctxt "math"
 msgid "copy as "
 msgstr ""
 
 #. Translators: this message directs users to look in the log file
-#: mathPres\MathCAT\MathCAT.py:340
+#: mathPres\MathCAT\MathCAT.py:351
 msgctxt "math"
 msgid "Error navigating math"
 msgstr ""
 
 #. Translators: this message reports when invalid math is found.
-#: mathPres\MathCAT\MathCAT.py:363
+#: mathPres\MathCAT\MathCAT.py:374
 msgctxt "math"
 msgid "Invalid math formatting found"
 msgstr ""
 
 #. Translators: this message reports an error in speaking math.
-#: mathPres\MathCAT\MathCAT.py:390
+#: mathPres\MathCAT\MathCAT.py:401
 msgctxt "math"
 msgid "Error in speaking math."
 msgstr ""
 
 #. Translators: this message reports illegal MathML.
-#: mathPres\MathCAT\MathCAT.py:415
+#: mathPres\MathCAT\MathCAT.py:426
 msgctxt "math"
 msgid "Illegal MathML found."
 msgstr ""
 
 #. Translators: this message reports an error in brailling math.
-#: mathPres\MathCAT\MathCAT.py:422
+#: mathPres\MathCAT\MathCAT.py:433
 msgctxt "math"
 msgid "Error in brailling math."
 msgstr ""
