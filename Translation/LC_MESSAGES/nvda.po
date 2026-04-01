@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-01 05:22+0000\n"
-"PO-Revision-Date: 2026-03-28 16:48+0800\n"
+"PO-Revision-Date: 2026-04-01 15:40+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -936,10 +936,9 @@ msgstr "往上没有 {i} 级标题"
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #. {i} will be replaced with the heading level number.
 #: browseMode.py:660
-#, fuzzy, python-brace-format
-#| msgid "heading level %d"
+#, python-brace-format
 msgid "headings level {i}"
-msgstr "%d 级标题"
+msgstr "{i} 级标题"
 
 #. Translators: the description for the Elements List command in browse mode.
 #: browseMode.py:675
@@ -953,38 +952,32 @@ msgstr "激活文档中的当前对象"
 
 #. Translators: The default element type in browse mode touch navigation (navigates all content).
 #: browseMode.py:807
-#, fuzzy
-#| msgid "Default"
 msgid "default"
 msgstr "默认"
 
 #. Translators: Input help message for a browse mode touch navigation command in browse mode.
 #: browseMode.py:816
 msgid "Selects the next element type for browse mode touch navigation"
-msgstr ""
+msgstr "选择下一个元素类型，用于触摸浏览模式"
 
 #. Translators: Input help message for a browse mode touch navigation command in browse mode.
 #: browseMode.py:835
 msgid "Selects the previous element type for browse mode touch navigation"
-msgstr ""
+msgstr "选择上一个元素类型，用于触摸浏览模式"
 
 #. Translators: Input help message for a browse mode touch navigation command in browse mode.
 #: browseMode.py:854
 msgid ""
 "Moves to the next element of the selected type in browse mode touch "
 "navigation"
-msgstr ""
+msgstr "移到下一个相同类型的元素，用于触摸浏览模式"
 
 #. Translators: Input help message for a browse mode touch navigation command in browse mode.
 #: browseMode.py:871
-#, fuzzy
-#| msgid ""
-#| "Moves to the previous object in a flattened view of the object navigation "
-#| "hierarchy"
 msgid ""
 "Moves to the previous element of the selected type in browse mode touch "
 "navigation"
-msgstr "移动导航对象到上一个对象"
+msgstr "移到上一个相同类型的元素，用于触摸浏览模式"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:912
@@ -1008,8 +1001,6 @@ msgstr "往上没有标题"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:920
-#, fuzzy
-#| msgid "heading"
 msgid "headings"
 msgstr "标题"
 
@@ -1035,8 +1026,6 @@ msgstr "往上没有表格"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:936
-#, fuzzy
-#| msgid "table"
 msgid "tables"
 msgstr "表格"
 
@@ -1062,8 +1051,6 @@ msgstr "往上没有链接"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:950
-#, fuzzy
-#| msgid "link"
 msgid "links"
 msgstr "链接"
 
@@ -1089,10 +1076,8 @@ msgstr "往上没有已访问的链接"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:964
-#, fuzzy
-#| msgid "no next visited link"
 msgid "visited links"
-msgstr "往下没有已访问的链接"
+msgstr "已访问的链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:970
@@ -1116,10 +1101,8 @@ msgstr "往上没有未访问的链接"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:978
-#, fuzzy
-#| msgid "no next unvisited link"
 msgid "unvisited links"
-msgstr "往下没有未访问的链接"
+msgstr "未访问的链接"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:984
@@ -1143,10 +1126,8 @@ msgstr "往上没有表单"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:992
-#, fuzzy
-#| msgid "&Form fields"
 msgid "form fields"
-msgstr "表单(&F)"
+msgstr "表单"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:998
@@ -1170,8 +1151,6 @@ msgstr "往上没有列表"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1007
-#, fuzzy
-#| msgid "list"
 msgid "lists"
 msgstr "列表"
 
@@ -1197,8 +1176,6 @@ msgstr "往上没有列表项目"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1021
-#, fuzzy
-#| msgid "list item"
 msgid "list items"
 msgstr "列表项目"
 
@@ -1224,8 +1201,6 @@ msgstr "往上没有按钮"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1035
-#, fuzzy
-#| msgid "button"
 msgid "buttons"
 msgstr "按钮"
 
@@ -1251,10 +1226,8 @@ msgstr "往上没有编辑框"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1050
-#, fuzzy
-#| msgid "no next edit field"
 msgid "edit fields"
-msgstr "往下没有编辑框"
+msgstr "编辑框"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1056
@@ -1278,8 +1251,6 @@ msgstr "往上没有框架"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1065
-#, fuzzy
-#| msgid "frame"
 msgid "frames"
 msgstr "框架"
 
@@ -1305,8 +1276,6 @@ msgstr "往上没有分隔符"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1079
-#, fuzzy
-#| msgid "separator"
 msgid "separators"
 msgstr "分隔符"
 
@@ -1332,8 +1301,6 @@ msgstr "往上没有单选按钮"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1093
-#, fuzzy
-#| msgid "radio button"
 msgid "radio buttons"
 msgstr "单选按钮"
 
@@ -1359,8 +1326,6 @@ msgstr "往上没有组合框"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1107
-#, fuzzy
-#| msgid "combo box"
 msgid "combo boxes"
 msgstr "组合框"
 
@@ -1386,8 +1351,6 @@ msgstr "往上没有复选框"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1121
-#, fuzzy
-#| msgid "check box"
 msgid "check boxes"
 msgstr "复选框"
 
@@ -1413,8 +1376,6 @@ msgstr "往上没有图形"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1135
-#, fuzzy
-#| msgid "graphic"
 msgid "graphics"
 msgstr "图形"
 
@@ -1440,8 +1401,6 @@ msgstr "往上没有引用区"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1149
-#, fuzzy
-#| msgid "block quote"
 msgid "block quotes"
 msgstr "引用区"
 
@@ -1468,7 +1427,7 @@ msgstr "链接前没有文本"
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1164
 msgid "non-link blocks"
-msgstr ""
+msgstr "非链接文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1170
@@ -1492,8 +1451,6 @@ msgstr "往上没有路标"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1179
-#, fuzzy
-#| msgid "landmark"
 msgid "landmarks"
 msgstr "路标"
 
@@ -1519,8 +1476,6 @@ msgstr "往上没有嵌入式对象"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1193
-#, fuzzy
-#| msgid "embedded object"
 msgid "embedded objects"
 msgstr "嵌入式对象"
 
@@ -1546,10 +1501,8 @@ msgstr "往上没有批注"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1207
-#, fuzzy
-#| msgid "Annotations"
 msgid "annotations"
-msgstr "注释"
+msgstr "批注"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1213
@@ -1573,10 +1526,8 @@ msgstr "往上没有错误"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1221
-#, fuzzy
-#| msgid "&Errors"
 msgid "errors"
-msgstr "错误(&E)"
+msgstr "错误"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1227
@@ -1600,8 +1551,6 @@ msgstr "往上没有滑块"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1235
-#, fuzzy
-#| msgid "slider"
 msgid "sliders"
 msgstr "滑块"
 
@@ -1627,8 +1576,6 @@ msgstr "往上没有文章"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1249
-#, fuzzy
-#| msgid "article"
 msgid "articles"
 msgstr "文章"
 
@@ -1654,8 +1601,6 @@ msgstr "往上没有分组"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1263
-#, fuzzy
-#| msgid "grouping"
 msgid "groupings"
 msgstr "分组"
 
@@ -1682,7 +1627,7 @@ msgstr "往上没有选项卡"
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1277
 msgid "tabs"
-msgstr ""
+msgstr "选项卡"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1283
@@ -1706,8 +1651,6 @@ msgstr "往上没有插图"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1291
-#, fuzzy
-#| msgid "figure"
 msgid "figures"
 msgstr "插图"
 
@@ -1733,8 +1676,6 @@ msgstr "往上没有菜单项目"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1305
-#, fuzzy
-#| msgid "menu item"
 msgid "menu items"
 msgstr "菜单项目"
 
@@ -1760,8 +1701,6 @@ msgstr "往上没有切换按钮"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1319
-#, fuzzy
-#| msgid "toggle button"
 msgid "toggle buttons"
 msgstr "切换按钮"
 
@@ -1787,8 +1726,6 @@ msgstr "往上没有进度栏"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1333
-#, fuzzy
-#| msgid "progress bar"
 msgid "progress bars"
 msgstr "进度栏"
 
@@ -1814,10 +1751,8 @@ msgstr "往上没有数学公式"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1347
-#, fuzzy
-#| msgid "has formula"
 msgid "math formulas"
-msgstr "有公式"
+msgstr "数学公式"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1353
@@ -1841,10 +1776,8 @@ msgstr "往上没有文本段落"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1362
-#, fuzzy
-#| msgid "No next paragraph"
 msgid "text paragraphs"
-msgstr "往下没有段落"
+msgstr "文本段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1368
@@ -1868,10 +1801,8 @@ msgstr "往上没有垂直对齐的段落"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1377
-#, fuzzy
-#| msgid "No next paragraph"
 msgid "vertical paragraphs"
-msgstr "往下没有段落"
+msgstr "垂直对齐的段落"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1383
@@ -1895,10 +1826,8 @@ msgstr "往上没有相同样式的文本"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1391
-#, fuzzy
-#| msgid "style"
 msgid "same style"
-msgstr "样式"
+msgstr "相同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1397
@@ -1922,10 +1851,8 @@ msgstr "往上没有不同样式的文本"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1405
-#, fuzzy
-#| msgid "No next different style text"
 msgid "different style"
-msgstr "往下没有不同样式的文本"
+msgstr "不同样式的文本"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1411
@@ -1949,10 +1876,8 @@ msgstr "往上没有引用标记"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1420
-#, fuzzy
-#| msgid "&Preferences"
 msgid "references"
-msgstr "选项(&P)"
+msgstr "引用标记"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
@@ -7464,8 +7389,6 @@ msgstr "对象模式"
 
 #. Translators: The name of a touch mode used when in browse mode.
 #: touchHandler.py:70 touchHandler.py:92
-#, fuzzy
-#| msgid "Browse mode"
 msgid "browse mode"
 msgstr "浏览模式"
 
@@ -14516,11 +14439,8 @@ msgstr "拦截所有非命令手势，以防止意外的文档写入(&A)"
 
 #. Translators: Label for the list of browse mode touch navigation element types in browse mode settings.
 #: gui\settingsDialogs.py:2673
-#, fuzzy
-#| msgctxt "math"
-#| msgid "Default navigation mode:"
 msgid "T&ouch navigation elements:"
-msgstr "默认导航模式："
+msgstr "触摸导航元素(&O)："
 
 #. Translators: Title of the math settings panel.
 #: gui\settingsDialogs.py:2710
@@ -17081,11 +17001,8 @@ msgstr "Math 交互不被支持。"
 
 #. Translators: The name of the category of MathCAT navigation commands in the Input Gestures dialog.
 #: mathPres\MathCAT\MathCAT.py:50
-#, fuzzy
-#| msgctxt "aria"
-#| msgid "navigation"
 msgid "MathCat navigation"
-msgstr "导航区"
+msgstr ""
 
 #. Translators: this message reports an error in starting navigation of math.
 #: mathPres\MathCAT\MathCAT.py:92
@@ -17175,19 +17092,15 @@ msgstr "自动"
 
 #. Translators: Input help message for the command to move to the previous item in math.
 #: mathPres\MathCAT\navCommands.py:26
-#, fuzzy
-#| msgid "moves to the previous list item"
 msgctxt "math"
 msgid "Move to previous item in math"
-msgstr "移到上一个列表项目"
+msgstr ""
 
 #. Translators: Input help message for the command to move to the next item in math.
 #: mathPres\MathCAT\navCommands.py:32
-#, fuzzy
-#| msgid "moves to the next visited link"
 msgctxt "math"
 msgid "Move to next item in math"
-msgstr "移到下一个已访问的链接"
+msgstr ""
 
 #. Translators: Input help message for the command to zoom out in math.
 #: mathPres\MathCAT\navCommands.py:38
@@ -17203,19 +17116,15 @@ msgstr ""
 
 #. Translators: Input help message for the command to move to the previous table cell or digit in math.
 #: mathPres\MathCAT\navCommands.py:50
-#, fuzzy
-#| msgid "moves to the previous table column"
 msgctxt "math"
 msgid "Move to previous table cell or digit in math"
-msgstr "移到表格内的上一列"
+msgstr ""
 
 #. Translators: Input help message for the command to move to the next table cell or digit in math.
 #: mathPres\MathCAT\navCommands.py:56
-#, fuzzy
-#| msgid "report table cell coordinates on"
 msgctxt "math"
 msgid "Move to next table cell or digit in math"
-msgstr "读出表格的单元坐标"
+msgstr ""
 
 #. Translators: Input help message for the command to move to the cell or digit above in math.
 #: mathPres\MathCAT\navCommands.py:62
@@ -17231,11 +17140,9 @@ msgstr ""
 
 #. Translators: Input help message for the command to read the previous item in math.
 #: mathPres\MathCAT\navCommands.py:74
-#, fuzzy
-#| msgid "no previous visited link"
 msgctxt "math"
 msgid "Read previous item in math"
-msgstr "往上没有已访问的链接"
+msgstr ""
 
 #. Translators: Input help message for the command to read the next item in math.
 #: mathPres\MathCAT\navCommands.py:81
@@ -17245,21 +17152,15 @@ msgstr ""
 
 #. Translators: Input help message for the command to change the math navigation mode to larger.
 #: mathPres\MathCAT\navCommands.py:88
-#, fuzzy
-#| msgctxt "math"
-#| msgid "Default navigation mode:"
 msgctxt "math"
 msgid "Change math navigation mode to larger"
-msgstr "默认导航模式："
+msgstr ""
 
 #. Translators: Input help message for the command to change the math navigation mode to smaller.
 #: mathPres\MathCAT\navCommands.py:94
-#, fuzzy
-#| msgctxt "math"
-#| msgid "Default navigation mode:"
 msgctxt "math"
 msgid "Change math navigation mode to smaller"
-msgstr "默认导航模式："
+msgstr ""
 
 #. Translators: Input help message for the command to describe the previous item in math.
 #: mathPres\MathCAT\navCommands.py:100
@@ -17287,35 +17188,27 @@ msgstr ""
 
 #. Translators: Input help message for the command to report the current position in math.
 #: mathPres\MathCAT\navCommands.py:126
-#, fuzzy
-#| msgid "Report object &position information"
 msgctxt "math"
 msgid "Report current position in math"
-msgstr "读出对象的位置信息(&P)"
+msgstr ""
 
 #. Translators: Input help message for the command to report the global position in math.
 #: mathPres\MathCAT\navCommands.py:133
-#, fuzzy
-#| msgid "Report object &position information"
 msgctxt "math"
 msgid "Report global position in math"
-msgstr "读出对象的位置信息(&P)"
+msgstr ""
 
 #. Translators: Input help message for the command to read the current item in math.
 #: mathPres\MathCAT\navCommands.py:140
-#, fuzzy
-#| msgid "Reads the current application status bar."
 msgctxt "math"
 msgid "Read current item in math"
-msgstr "读出当前应用程序的状态栏。"
+msgstr ""
 
 #. Translators: Input help message for the command to read the current table cell in math.
 #: mathPres\MathCAT\navCommands.py:147
-#, fuzzy
-#| msgid "report table cell coordinates on"
 msgctxt "math"
 msgid "Read current table cell in math"
-msgstr "读出表格的单元坐标"
+msgstr ""
 
 #. Translators: Input help message for the command to toggle math speech mode between read and describe.
 #: mathPres\MathCAT\navCommands.py:154
@@ -17349,11 +17242,9 @@ msgstr ""
 
 #. Translators: Input help message for the command to move to the end of a math expression.
 #: mathPres\MathCAT\navCommands.py:185
-#, fuzzy
-#| msgid "Move to the next result"
 msgctxt "math"
 msgid "Move to end of math expression"
-msgstr "移到下一个结果"
+msgstr ""
 
 #. Translators: Input help message for the command to move to the end of a line in math.
 #: mathPres\MathCAT\navCommands.py:191
