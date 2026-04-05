@@ -204,7 +204,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 - 从 Crowdin 下载的已翻译文件会直接替换存储库的原始文件，在执行下载命令前，请确保原始翻译文件已提交并上传到 Crowdin。
 - 下载并提交系列命令只会提交已下载的翻译文件到本地存储库，可手动将其推送到远程仓库或撤销更改。
-- `MXX` 命令使用前需要将指定插件的 `readme.md` 文档复制到 `Preview\Markdown` 文件夹下，随后通过该命令即可以 [CrowdinRegistration](https://github.com/nvdaaddons/CrowdinRegistration) 本地代码仓库当前分支的相应插件文档的 xliff 文件为模板生成所需 readme.xliff 文件。
+- `MXX` 命令使用前需要将指定插件的 `readme.md` 文档重命名为插件 ID.md 并复制到 `Preview\Markdown` 文件夹下，随后通过该命令即可以 [CrowdinRegistration](https://github.com/nvdaaddons/CrowdinRegistration) 本地代码仓库当前分支的相应插件文档的 xliff 文件为模板生成所需 readme.xliff 文件。
 
   生成的文件会直接替换存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
 
