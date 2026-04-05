@@ -5,10 +5,10 @@ description: 'Install dependencies'
 inputs:
   fetch-repo:
     description: 'The repository name that needs to be fetched'
-    default: ${{ github.workflow == 'Automatically update NVDA.po' && 'nvda' || 'nvdaL10n' }}
+    # default: ${{ github.workflow == 'Automatically update NVDA.po' && 'nvda' || 'nvdaL10n' }}
+    default: ${{ contains(github.workflow, 'Addon') && 'nvdaL10n' || 'nvda' }}
   ref:
     description: 'Branch name that needs to be checked out'
-    default: 'main'
   submodules:
     description: 'Whether to checkout submodules'
     default: true

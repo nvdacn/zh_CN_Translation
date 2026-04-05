@@ -4,14 +4,26 @@ chcp 65001>Nul
 Title L10n Util Tools
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
 
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+goto CheckCLI
+:L10nUtil
+
 Rem 设置 L10nUtil 程序路径  
 set L10NSourceCodePath=%~dp0Tools\NVDAL10n
 set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
-if "%GITHUB_ACTIONS%" == "true" (goto CheckCLI)
+if "%GITHUB_ACTIONS%" == "true" (
+  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+  goto setConfigFilename
+
+  goto CheckCLI
+)
 IF NOT EXIST "%L10NSourceCodePath%" (
   IF EXIST "%~dp0Tools\l10nUtil.exe" (
     set "L10nUtil="%~dp0Tools\l10nUtil.exe""
     set "L10NSourceCodePath=exe"
+  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+  goto setConfigFilename
+
     goto CheckCLI
   )
   set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
@@ -38,6 +50,9 @@ if !errorlevel! neq 0 (
   exit /b 1
 )
 cls
+
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+goto setConfigFilename
 
 Rem 判断是否从命令行传入参数  
 :CheckCLI
@@ -184,7 +199,33 @@ goto Quit
 :UPC
 :UPU
 :UPA
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+for %%F in (
+  "%ProgramFiles%\NVDA\l10nUtil.exe"
+  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
+  "%~dp0Tools\NVDA\source\l10nUtil.py"
+) do (
+  if exist %%F (
+    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
+      set "L10nUtil=uv --directory "%~dp0Tools\NVDA" run %%F"
+    ) else (
+      set "L10nUtil=%%F"
+    )
+  )
+  if defined L10nUtil (
+    echo %%l10nUtil%% is set to !l10nUtil!.
+    goto ProcessingNVDATags
+  )
+)
+Rem 检查 %L10nUtil% 是否存在  
+if not defined L10nUtil (
+  echo l10nUtil program not found.
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
+:ProcessingNVDATags
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI:~0,2%"=="MH" (set Action=GenerateHTML)
@@ -240,7 +281,8 @@ if /I "%Type%"=="Docs" (
   set TranslationPath=%~dp0Translation\user_docs
 )
 set CrowdinFilePath=%FileName%
-set "Config=--config=nvda"
+Rem 在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时取消注释下一行  
+::set "Config=--config=nvda"
 goto %Action%
 
 Rem 生成翻译预览系列命令  
@@ -435,6 +477,10 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :UAM
 :DAP
 :DAM
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+goto L10nUtil
+:setConfigFilename
+
 set "ConfigFilename=%~dp0Tools\l10nUtil.yaml"
 set "Config=--config="!ConfigFilename!""
 set AddonName=%2
