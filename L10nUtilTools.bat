@@ -223,9 +223,9 @@ if not defined L10nUtil (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误')"
   exit /b 1
 )
+:ProcessingNVDATags
 
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
-:ProcessingNVDATags
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI:~0,2%"=="MH" (set Action=GenerateHTML)
@@ -391,7 +391,6 @@ IF NOT EXIST "%NVDASourceCodePath%" (
   goto SetPersonalSourcePath
 )
 :NVDASourceCodePathSetSuccessfully
-
 Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 if not defined L10NSourceCodePath (
   set "goto=L10NExe"
