@@ -2,9 +2,60 @@
 setlocal enabledelayedexpansion
 chcp 65001>Nul
 Title L10n Util Tools
-
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
+
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+goto CheckCLI
+:L10nUtil
+
+Rem 设置 L10nUtil 程序路径  
+set L10NSourceCodePath=%~dp0Tools\NVDAL10n
+set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
+if "%GITHUB_ACTIONS%" == "true" (
+  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+  goto %goto%
+
+  goto CheckCLI
+)
+IF NOT EXIST "%L10NSourceCodePath%" (
+  IF EXIST "%~dp0Tools\l10nUtil.exe" (
+    set "L10nUtil="%~dp0Tools\l10nUtil.exe""
+    set "L10NSourceCodePath=exe"
+  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+  goto %goto%
+
+    goto CheckCLI
+  )
+  set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%L10NSourceCodePath%
+  set VerifyFile=source\l10nUtil.py
+  set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+
+:NVDAL10NSourceCodePathSetSuccessfully
+Rem 检查是否安装 uv
+where uv >nul 2>nul
+if "!errorlevel!" neq "0" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未检测到 uv 包管理器，请先安装 uv 后再运行此脚本。',10,'错误',16)"
+  exit /b 1
+)
+
+Rem 配置 Python虚拟环境  
+uv --directory "%L10NSourceCodePath%" sync
+if !errorlevel! neq 0 (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDAL10n 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误',16)"
+  echo 请按任意键退出...
+  Pause>Nul
+  exit /b 1
+)
+cls
+
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+goto %goto%
+
 Rem 判断是否从命令行传入参数  
+:CheckCLI
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
@@ -94,7 +145,7 @@ Rem 初始化变量，跳转到用户输入的命令或退出
 set ExitCode=0
 set Parameter=%CLI:~0,2%
 cls
-goto %CLI% >Nul
+goto %CLI% >nul 2>nul
 exit
 
 Rem 从给定的 nvda.pot 更新界面翻译字符串  
@@ -124,7 +175,6 @@ msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvd
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem 设置 nvdaL10nUtil 程序路径  
 :GEC
 :GEU
 :GEK
@@ -149,6 +199,7 @@ Rem 设置 nvdaL10nUtil 程序路径
 :UPC
 :UPU
 :UPA
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 for %%F in (
   "%ProgramFiles%\NVDA\l10nUtil.exe"
   "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
@@ -166,16 +217,15 @@ for %%F in (
     goto ProcessingNVDATags
   )
 )
-
 Rem 检查 %L10nUtil% 是否存在  
 if not defined L10nUtil (
   echo l10nUtil program not found.
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误')"
   exit /b 1
 )
+:ProcessingNVDATags
 
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
-:ProcessingNVDATags
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI:~0,2%"=="MH" (set Action=GenerateHTML)
@@ -231,6 +281,8 @@ if /I "%Type%"=="Docs" (
   set TranslationPath=%~dp0Translation\user_docs
 )
 set CrowdinFilePath=%FileName%
+Rem 在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时取消注释下一行  
+::set "Config=--config=nvda"
 goto %Action%
 
 Rem 生成翻译预览系列命令  
@@ -330,27 +382,36 @@ goto Quit
 Rem 从 Markdown 文档生成 xliff
 :GenerateXLIFF
 set NVDASourceCodePath=%~dp0Tools\NVDA
+set "SourceXLIFFPath=%NVDASourceCodePath%\user_docs\en\%ShortName%.xliff"
 IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
-  set VerifyFile=source\markdownTranslate.py
+  set "VerifyFile=user_docs\en\userGuide.xliff"
   set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
   goto SetPersonalSourcePath
 )
 :NVDASourceCodePathSetSuccessfully
-powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
-if %errorlevel% neq 0 (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
-  echo 请按任意键退出...
-  Pause>Nul
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+if not defined L10NSourceCodePath (
+  set "goto=L10NExe"
+  goto L10nUtil
+)
+:L10NExe
+
+if /I "%L10NSourceCodePath%" =="exe" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
   exit /b 1
 )
 IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
 )
-move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
-uv --directory "%NVDASourceCodePath%" run "%NVDASourceCodePath%\source\markdownTranslate.py" translateXliff -x "%NVDASourceCodePath%\user_docs\en\%FileName%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+IF NOT EXIST "%SourceXLIFFPath%" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 "%SourceXLIFFPath%"，请确保该文件存在后重试。',5,'错误',16)"
+  exit /b 1
+)
+move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%ShortName%.xliff"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -359,7 +420,7 @@ Rem 从 Crowdin 下载已翻译的文件
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
-%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%"
+%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%" %Config%
 if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
   set ExitCode=%errorlevel%
@@ -409,10 +470,10 @@ Rem 上传已翻译的文件到 Crowdin
 if /I "%Type%"=="Docs" (
   goto ReadyUpload
 ) else (
-  set Parameter= 
+  set "Parameter="
 )
 :Upload
-%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter%
+%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter% %Config%
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -423,41 +484,28 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :UAM
 :DAP
 :DAM
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+set "goto=setConfigFilename"
+goto L10nUtil
+:setConfigFilename
+
+set "ConfigFilename=%~dp0Tools\l10nUtil.yaml"
+set "Config=--config="!ConfigFilename!""
 set AddonName=%2
 if not defined AddonName (
   cls
   echo 请输入插件 ID，按回车键确认。  
   set /p AddonName=
 )
-set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
-IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
-  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
-  set TargetPath=%CrowdinRegistrationSourcePath%
-  set VerifyFile=utils\l10nUtil.py
-  set PathSetSuccessfully=CrowdinRegistrationPathSetSuccessfully
-  goto SetPersonalSourcePath
-)
-:CrowdinRegistrationPathSetSuccessfully
-IF NOT EXIST "%CrowdinRegistrationSourcePath%\miscDeps" (
-  MKDir "%CrowdinRegistrationSourcePath%\miscDeps\tools"
-  echo *>"%CrowdinRegistrationSourcePath%\miscDeps\.gitignore"
-  MKLINK /H "%CrowdinRegistrationSourcePath%\miscDeps\tools\msgfmt.exe" "%~dp0Tools\msgfmt.exe"
-)
-set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
-if NOT "%GITHUB_ACTIONS%" == "true" (
-  uv --directory "%CrowdinRegistrationSourcePath%" sync
-  if !errorlevel! neq 0 (
-    powershell -command "(New-Object -ComObject wscript.shell).Popup('CrowdinRegistration 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误')"
-    echo 请按任意键退出...
-    Pause>Nul
-    exit /b 1
-  )
-  cls
-)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckAddonID.ps1" "%~dp0Tools\Scripts\ProjectList.txt"
+if %errorlevel% neq 0 (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 if /I "%CLI:~2,1%"=="P" (
   set Type=LC_MESSAGES
   set CrowdinFilePath=%AddonName%.pot
@@ -466,13 +514,13 @@ if /I "%CLI:~2,1%"=="P" (
 if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
-  set ShortName=readme
+  set ShortName=%AddonName%
 )
 if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=readme.md
-  set ShortName=readme
-  findstr /i "%AddonName%.xliff" "%CrowdinRegistrationSourcePath%\utils\files.json" >nul
+  set ShortName=%AddonName%
+  findstr /i "%AddonName%.xliff" "!ConfigFilename!" >nul 2>nul
   if not !errorlevel! EQU 1 (
     set CrowdinFilePath=%AddonName%.xliff
     set FileName=readme.xliff
@@ -480,15 +528,21 @@ if /I "%CLI:~2,1%"=="M" (
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
+set GitAddPath=Translation/Addons/%AddonName%
 goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
-uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\addons\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
-set ExitCode=%errorlevel%
-if %ExitCode% neq 0 (goto Quit)
-move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
-exit /b 0
+set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
+set "SourceXLIFFPath=%CrowdinRegistrationSourcePath%\addons\%AddonName%\%ShortName%.xliff"
+IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
+  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%CrowdinRegistrationSourcePath%
+  set VerifyFile=utils\l10nUtil.py
+  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+goto NVDASourceCodePathSetSuccessfully
 
 Rem 设置本地存储库路径  
 :SetPersonalSourcePath
@@ -517,7 +571,7 @@ Rem 处理退出代码
 :Quit
 if /I "%GITHUB_ACTIONS%" == "true" (exit /b %ExitCode%)
 if %ExitCode% neq 0 (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误')"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误',16)" >nul
   echo 请按任意键退出...
   Pause>Nul
   exit /b %ExitCode%
