@@ -220,7 +220,7 @@ for %%F in (
 Rem 检查 %L10nUtil% 是否存在  
 if not defined L10nUtil (
   echo l10nUtil program not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误')"
   exit /b 1
 )
 
