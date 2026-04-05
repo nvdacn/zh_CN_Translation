@@ -182,7 +182,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 ### 注意
 
-- 如要使用 nvdaL10n 提供的 l10nUtil，需根据 [Installation and Building an Executable](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/download/latest/l10nUtil.exe) 并将其放在本存储库的 `Tools` 文件夹中；
+- 如要使用 nvdaL10n 提供的 l10nUtil，需根据 [Installation and Building an Executable](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe)，并将下载的文件放在本存储库的 `Tools` 文件夹中；
 - 执行标有 `*` 的命令时，可能需要与该工具进行交互或配置必要的运行环境，请根据提示输入信息或配置运行环境后，该命令才可正确执行。
 - `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
