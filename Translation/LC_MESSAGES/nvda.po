@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 05:08+0000\n"
+"POT-Creation-Date: 2026-04-08 07:15+0000\n"
 "PO-Revision-Date: 2026-04-01 15:40+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -14455,7 +14455,7 @@ msgid "The following options control the presentation of mathematical content."
 msgstr "以下选项控制数学内容的呈现方式。"
 
 #. Translators: options for Copy math to clipboard as -- speech text
-#: gui\settingsDialogs.py:2787 mathPres\MathCAT\preferences.py:142
+#: gui\settingsDialogs.py:2787 mathPres\MathCAT\preferences.py:140
 msgctxt "math"
 msgid "Speech"
 msgstr "语音"
@@ -17077,18 +17077,11 @@ msgstr ""
 #. Translators: {lang} is the name of the language in that language,
 #. and {code} is the code for that language variant,
 #. e.g. "en-UK" for English (United Kingdom).
-#: mathPres\MathCAT\localization.py:102
+#: mathPres\MathCAT\localization.py:86
 #, python-brace-format
 msgctxt "math"
 msgid "{lang} ({code})"
 msgstr ""
-
-#. Translators: Math language settings menu item: Automatic uses the voice's language.
-#. Translators: options for decimal separator -- "Auto" = automatically pick the choice based on the language
-#: mathPres\MathCAT\localization.py:144 mathPres\MathCAT\preferences.py:50
-msgctxt "math"
-msgid "Automatic"
-msgstr "自动"
 
 #. Translators: Input help message for the command to move to the previous item in math.
 #: mathPres\MathCAT\navCommands.py:26
@@ -17294,122 +17287,128 @@ msgstr ""
 
 #. Translators: Learning disabilities includes dyslexia and ADHD
 #. category of impairment that MathCAT supports: people with learning disabilities
-#: mathPres\MathCAT\preferences.py:32
+#: mathPres\MathCAT\preferences.py:30
 msgctxt "math"
 msgid "Learning disabilities"
 msgstr ""
 
 #. Translators: category of impairment that MathCAT supports: people who are blind
-#: mathPres\MathCAT\preferences.py:34
+#: mathPres\MathCAT\preferences.py:32
 msgctxt "math"
 msgid "Blindness"
 msgstr "全盲"
 
 #. Translators: category of impairment that MathCAT supports: people who have low vision
-#: mathPres\MathCAT\preferences.py:36
+#: mathPres\MathCAT\preferences.py:34
 msgctxt "math"
 msgid "Low vision"
 msgstr "低视力"
 
+#. Translators: options for decimal separator -- "Auto" = automatically pick the choice based on the language
+#: mathPres\MathCAT\preferences.py:48
+msgctxt "math"
+msgid "Automatic"
+msgstr "自动"
+
 #. Translators: options for decimal separator -- "Custom" = user sets it
 #. Currently there is no UI for how it is done yet, but eventually there will be a dialog that pops up to set it
-#: mathPres\MathCAT\preferences.py:57
+#: mathPres\MathCAT\preferences.py:55
 msgctxt "math"
 msgid "Custom"
 msgstr ""
 
 #. Translators: options for speech verbosity -- "terse" = use less words
 #. Translators: options for navigation verbosity -- "terse" = use less words
-#: mathPres\MathCAT\preferences.py:70 mathPres\MathCAT\preferences.py:118
+#: mathPres\MathCAT\preferences.py:68 mathPres\MathCAT\preferences.py:116
 msgctxt "math"
 msgid "Terse"
 msgstr ""
 
 #. Translators: options for speech verbosity -- "medium" = try to be neither too terse nor too verbose
 #. Translators: options for navigation verbosity -- "medium" = try to be nether too terse nor too verbose words
-#: mathPres\MathCAT\preferences.py:72 mathPres\MathCAT\preferences.py:120
+#: mathPres\MathCAT\preferences.py:70 mathPres\MathCAT\preferences.py:118
 msgctxt "math"
 msgid "Medium"
 msgstr ""
 
 #. Translators: options for speech verbosity -- "verbose" = use more words
 #. Translators: options for navigation verbosity -- "verbose" = use more words
-#: mathPres\MathCAT\preferences.py:74 mathPres\MathCAT\preferences.py:122
+#: mathPres\MathCAT\preferences.py:72 mathPres\MathCAT\preferences.py:120
 msgctxt "math"
 msgid "Verbose"
 msgstr ""
 
 #. Translators: values for chemistry options with example speech in parenthesis
-#: mathPres\MathCAT\preferences.py:86
+#: mathPres\MathCAT\preferences.py:84
 msgctxt "math"
 msgid "Spell it out (H 2 O)"
 msgstr ""
 
 #. Translators: values for chemistry options with example speech in parenthesis (never interpret as chemistry)
-#: mathPres\MathCAT\preferences.py:88
+#: mathPres\MathCAT\preferences.py:86
 msgctxt "math"
 msgid "Off (H sub 2 O)"
 msgstr ""
 
 #. Translators: names of different modes of navigation. "Enhanced" mode understands math structure
-#: mathPres\MathCAT\preferences.py:101
+#: mathPres\MathCAT\preferences.py:99
 msgctxt "math"
 msgid "Enhanced"
 msgstr ""
 
 #. Translators: "Simple" walks by character expect for things like fractions, roots, and scripts
-#: mathPres\MathCAT\preferences.py:103
+#: mathPres\MathCAT\preferences.py:101
 msgctxt "math"
 msgid "Simple"
 msgstr ""
 
 #. Translators: "Character" moves around by character, automatically moving into fractions, etc
-#: mathPres\MathCAT\preferences.py:105
+#: mathPres\MathCAT\preferences.py:103
 msgctxt "math"
 msgid "Character"
 msgstr ""
 
 #. Translators: options for Copy expression to clipboard as -- "MathML"
-#: mathPres\MathCAT\preferences.py:136
+#: mathPres\MathCAT\preferences.py:134
 msgctxt "math"
 msgid "MathML"
 msgstr ""
 
 #. Translators: options for Copy math to clipboard as -- "LaTeX"
-#: mathPres\MathCAT\preferences.py:138
+#: mathPres\MathCAT\preferences.py:136
 msgctxt "math"
 msgid "LaTeX"
 msgstr ""
 
 #. Translators: options for Copy math to clipboard as -- "ASCIIMath"
-#: mathPres\MathCAT\preferences.py:140
+#: mathPres\MathCAT\preferences.py:138
 msgctxt "math"
 msgid "ASCIIMath"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8: don't highlight
-#: mathPres\MathCAT\preferences.py:156
+#: mathPres\MathCAT\preferences.py:154
 msgctxt "math"
 msgid "Off"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8:
 #. only the first character of the current navigation node uses dots 7 & 8
-#: mathPres\MathCAT\preferences.py:159
+#: mathPres\MathCAT\preferences.py:157
 msgctxt "math"
 msgid "First character"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8:
 #. only the first and last character of the current navigation node uses dots 7 & 8
-#: mathPres\MathCAT\preferences.py:162
+#: mathPres\MathCAT\preferences.py:160
 msgctxt "math"
 msgid "Endpoints"
 msgstr ""
 
 #. Translators: Math option for using dots 7 and 8:
 #. all the characters for the current navigation node use dots 7 & 8
-#: mathPres\MathCAT\preferences.py:165
+#: mathPres\MathCAT\preferences.py:163
 msgctxt "math"
 msgid "All"
 msgstr ""
