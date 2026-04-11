@@ -5994,9 +5994,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This release includes support for reading math content with MathCAT, which is now built-in to NVDA.</source>
-        <target>This release includes support for reading math content with MathCAT, which is now built-in to NVDA.</target>
+        <target>此版本包含使用 MathCAT 阅读数学内容的支持，MathCAT 现已内置于 NVDA。</target>
       </segment>
     </unit>
     <unit id="557a0d6f-5412-4c2f-8fde-77af154e7840">
@@ -6012,18 +6012,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Spelling and grammar errors can now be reported with a sound instead of speech when reading.</source>
-        <target>Spelling and grammar errors can now be reported with a sound instead of speech when reading.</target>
+        <target>现可用提示音而非语音提示阅读时的拼写和语法错误。</target>
       </segment>
     </unit>
     <unit id="a7c77d1e-58ec-40fc-85b3-b992cf789571">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can now configure NVDA to automatically say all after successfully recognizing content, such as with Windows OCR.</source>
-        <target>You can now configure NVDA to automatically say all after successfully recognizing content, such as with Windows OCR.</target>
+        <target>您可配置 NVDA 在成功识别内容（例如使用 Windows OCR）后自动读出所有内容。</target>
       </segment>
     </unit>
     <unit id="66c6028a-b902-4990-a8e4-b8c6c1bacf40">
@@ -6068,16 +6068,16 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA messages from the local computer are now shown in braille when controlling a computer via Remote Access.</source>
-        <target>通过远程访问控制计算机时，来自本地计算机的 NVDA 消息也会以盲文显示。</target>
+        <target>通过远程访问控制计算机时，来自本地计算机的 NVDA 消息会以盲文显示。</target>
       </segment>
     </unit>
     <unit id="d269bb7e-d1df-45ae-bc9d-1a0388b61db8">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Spelling and grammar errors, as well as the number of items in a list in browse mode, can now be shown in braille.</source>
-        <target>Spelling and grammar errors, as well as the number of items in a list in browse mode, can now be shown in braille.</target>
+        <target>拼写和语法错误以及浏览模式下的列表项目数量也可用盲文显示。</target>
       </segment>
     </unit>
     <unit id="51bdb759-7df7-4fc3-bda6-6e493dbf9ecf">
@@ -6452,7 +6452,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>While reading text, spelling and grammar errors can now be reported with a sound instead of speech. (#4233, #19257, @jcsteh, @CyrilleB79, @nvdaes)</source>
-        <target>在阅读文本时，拼写和语法错误现可用声音而非语音来提示。(#4233, #19257, @jcsteh, @CyrilleB79, @nvdaes)</target>
+        <target>在阅读文本时，拼写和语法错误现可用提示音而非语音进行提示。(#4233, #19257, @jcsteh, @CyrilleB79, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="22d0f128-f6b5-4ab8-9938-495ff85111e4">
@@ -6567,9 +6567,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA no longer supports 32-bit Windows or Windows 10 on ARM.</source>
-        <target>NVDA no longer supports 32-bit Windows or Windows 10 on ARM.</target>
+        <target>NVDA 不再支持 32 位 Windows 或 ARM 上的 Windows 10。</target>
       </segment>
     </unit>
     <unit id="17a9f3cb-531f-4e16-be3e-6312ca1f2aa5">
@@ -6903,9 +6903,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 116</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When Unicode normalization is enabled for speech, navigating by character will again correctly announce combining diacritic characters like acute ( &amp;#x0301; ). (#18722, @LeonarddeR)</source>
-        <target>When Unicode normalization is enabled for speech, navigating by character will again correctly announce combining diacritic characters like acute ( &amp;#x0301; ). (#18722, @LeonarddeR)</target>
+        <target>修复了当为语音启用 Unicode 规范化时，按字符导航无法正确朗读组合变音符号（如 &amp;#x0301;）的问题。(#18722, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="af979d49-07b6-421f-91e4-a9c2cf179465">
@@ -6963,9 +6963,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The Add-on Store no longer fails to reopen after an add-on has been installed. (#19900, @CyrilleB79)</source>
-        <target>The Add-on Store no longer fails to reopen after an add-on has been installed. (#19900, @CyrilleB79)</target>
+        <target>修复了安装插件后插件商店无法重新打开的问题。(#19900, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="4c88efcb-6051-44c3-9ee9-b5e567ffe627">
