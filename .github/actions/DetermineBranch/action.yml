@@ -29,7 +29,7 @@ runs:
         echo "BranchName=$branchName" >> $GITHUB_OUTPUT
     - name: Check branch exists
       id: check_branch
-      uses: actions/github-script@v8
+      uses: actions/github-script@v9
       with:
         script: |
           try {
@@ -50,7 +50,7 @@ runs:
         result-encoding: string
     - name: Create branch
       if: steps.check_branch.outputs.result != 'true'
-      uses: actions/github-script@v8
+      uses: actions/github-script@v9
       with:
         script: |
           const UploadsSHA = await github.rest.git.getRef({
