@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-16 02:24+0000\n"
-"PO-Revision-Date: 2026-04-16 11:08+0800\n"
+"PO-Revision-Date: 2026-04-16 14:19+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -12499,20 +12499,6 @@ msgstr "关于 NVDA"
 
 #. Translators: Explain the System Accessibility Repair Tool to users before running
 #: gui\__init__.py:557
-#, fuzzy
-#| msgid ""
-#| "Welcome to the COM Registration Fixing tool.\n"
-#| "\n"
-#| "Installing and uninstalling programs, as well as other events, can damage "
-#| "accessibility entries in the Windows registry. This can cause previously "
-#| "accessible elements to be presented incorrectly, or can cause \"unknown\" "
-#| "or \"pane\" to be spoken or brailled in some applications or Windows "
-#| "components, instead of the content you were expecting.\n"
-#| "\n"
-#| "This tool attempts to fix such common problems. Note that the tool must "
-#| "access the system registry, which requires administrative privileges.\n"
-#| "\n"
-#| "Press Continue to run the tool now."
 msgid ""
 "Welcome to the System Accessibility Repair Tool.\n"
 "\n"
@@ -12527,7 +12513,7 @@ msgid ""
 "\n"
 "Press Continue to run the tool now."
 msgstr ""
-"欢迎使用 COM 注册修复工具。\n"
+"欢迎使用系统辅助功能修复工具。\n"
 "\n"
 "安装或卸载程序及其他事件可能会损坏 Windows 注册表中的辅助功能条目。这可能导致"
 "以前可访问的元素显示不正确，或在某些应用程序及 Windows 组件中输出“未知”或“窗"
@@ -12541,51 +12527,40 @@ msgstr ""
 #. Translators: The title of various dialogs displayed when using the System Accessibility Repair Tool
 #: gui\__init__.py:582
 msgid "System Accessibility Repair Tool"
-msgstr ""
+msgstr "系统辅助功能修复工具"
 
 #. Translators: The message displayed while NVDA is running the System Accessibility Repair Tool
 #: gui\__init__.py:597
-#, fuzzy
-#| msgid ""
-#| "Please wait while NVDA attempts to fix your system's COM registrations..."
 msgid ""
 "Please wait while NVDA attempts to repair your system's accessibility "
 "registrations..."
-msgstr "请稍候，NVDA 正在尝试修复系统中的 COM 注册……"
+msgstr "请稍候，NVDA 正在尝试修复系统中的辅助功能注册……"
 
 #. Translators: message shown to the user on System Accessibility Repair fail
 #: gui\__init__.py:624
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "The COM Registration Fixing Tool was unsuccessful. This Windows error may "
-#| "provide more information.\n"
-#| "{error}"
+#, python-brace-format
 msgid ""
 "The System Accessibility Repair Tool was unsuccessful. This Windows error "
 "may provide more information.\n"
 "{error}"
 msgstr ""
-"COM 注册修复工具未能成功运行。此 Windows 错误可能提供更多信息。\n"
+"系统辅助功能修复工具未能成功运行。此 Windows 错误可能提供更多信息。\n"
 "{error}"
 
 #. Translators: The title of a System Accessibility Repair Tool dialog, when the tool has failed
 #: gui\__init__.py:628
 msgid "System Accessibility Repair Failed"
-msgstr ""
+msgstr "系统辅助功能修复失败"
 
 #. Translators: Message shown when the System Accessibility Repair Tool completes.
 #: gui\__init__.py:635
-#, fuzzy
-#| msgid ""
-#| "The COM Registration Fixing Tool has completed successfully.\n"
-#| "It is highly recommended that you restart your computer now, to make sure "
-#| "the changes take full effect."
 msgid ""
 "The System Accessibility Repair Tool has completed successfully.\n"
 "It is highly recommended that you restart your computer now, to make sure "
 "the changes take full effect."
 msgstr ""
-"COM 注册修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生效。"
+"系统辅助功能修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生"
+"效。"
 
 #. Translators: The label for the menu item to open NVDA Settings dialog.
 #: gui\__init__.py:662
@@ -12655,7 +12630,7 @@ msgstr "安装 NVDA(&I)"
 #. Translators: The label for the menu item to run the System Accessibility Repair Tool
 #: gui\__init__.py:725
 msgid "Run System Accessibility Repair Tool..."
-msgstr ""
+msgstr "运行系统辅助功能修复工具(&R)..."
 
 #. Translators: The label for the menu item to reload plugins.
 #: gui\__init__.py:729
