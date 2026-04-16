@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-16 02:24+0000\n"
-"PO-Revision-Date: 2026-04-01 15:40+0800\n"
+"PO-Revision-Date: 2026-04-16 11:08+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3153,29 +3153,23 @@ msgstr "关闭以盲文呈现拼写或语法错误"
 
 #. Translators: Input help mode message for command to toggle braille automatic scroll.
 #: globalCommands.py:846
-#, fuzzy
-#| msgid "Toggles braille mode"
 msgid "Toggles braille automatic scroll"
-msgstr "切换盲文模式"
+msgstr "打开或关闭自动滚动盲文显示"
 
 #. Translators: Message reported when automatic scrolling has been enabled in braille.
 #: globalCommands.py:854
-#, fuzzy
-#| msgid "Automatic refresh enabled"
 msgid "Automatic scrolling enabled"
-msgstr "启用自动刷新"
+msgstr "启用自动滚动"
 
 #. Translators: Message reported when automatic scrolling has been disabled in braille.
 #: globalCommands.py:862
-#, fuzzy
-#| msgid "Automatic refresh disabled"
 msgid "Automatic scrolling disabled"
-msgstr "禁用自动刷新"
+msgstr "禁用自动滚动"
 
 #. Translators: Input help mode message for command to increase the rate for braille automatic scroll.
 #: globalCommands.py:867
 msgid "Increases the rate for braille automatic scroll"
-msgstr ""
+msgstr "提高自动滚动盲文显示的速度"
 
 #. Translators: Message shown when increasing the braille auto scroll rate.
 #. {rate} will be replaced with the rate as a whole number from 0 to 100.
@@ -3184,12 +3178,12 @@ msgstr ""
 #: globalCommands.py:875 globalCommands.py:887
 #, python-brace-format
 msgid "Scroll rate {rate}"
-msgstr ""
+msgstr "滚动速度 {rate}"
 
 #. Translators: Input help mode message for command to decrease the rate for braille automatic scroll.
 #: globalCommands.py:879
 msgid "Decreases the rate for braille automatic scroll"
-msgstr ""
+msgstr "降低自动滚动盲文显示的速度"
 
 #. Translators: Input help mode message for toggle report pages command.
 #: globalCommands.py:891
@@ -15703,10 +15697,8 @@ msgstr "滚动时打断语音(&I)"
 
 #. Translators: The label for a setting in braille settings to change the rate for autoscroll.
 #: gui\settingsDialogs.py:5516
-#, fuzzy
-#| msgid "automatic color"
 msgid "Auto&matic scroll rate"
-msgstr "自动颜色"
+msgstr "自动滚动的速度(&M)"
 
 #. Translators: This message is presented when
 #. NVDA is unable to load a single vision enhancement provider.
