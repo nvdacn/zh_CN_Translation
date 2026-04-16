@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 10:11+0000\n"
+"POT-Creation-Date: 2026-04-16 02:24+0000\n"
 "PO-Revision-Date: 2026-04-01 15:40+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -12503,10 +12503,24 @@ msgstr "复制版本号(&C)"
 msgid "About NVDA"
 msgstr "关于 NVDA"
 
-#. Translators: Explain the COM Registration Fixing tool to users before running
+#. Translators: Explain the System Accessibility Repair Tool to users before running
 #: gui\__init__.py:557
+#, fuzzy
+#| msgid ""
+#| "Welcome to the COM Registration Fixing tool.\n"
+#| "\n"
+#| "Installing and uninstalling programs, as well as other events, can damage "
+#| "accessibility entries in the Windows registry. This can cause previously "
+#| "accessible elements to be presented incorrectly, or can cause \"unknown\" "
+#| "or \"pane\" to be spoken or brailled in some applications or Windows "
+#| "components, instead of the content you were expecting.\n"
+#| "\n"
+#| "This tool attempts to fix such common problems. Note that the tool must "
+#| "access the system registry, which requires administrative privileges.\n"
+#| "\n"
+#| "Press Continue to run the tool now."
 msgid ""
-"Welcome to the COM Registration Fixing tool.\n"
+"Welcome to the System Accessibility Repair Tool.\n"
 "\n"
 "Installing and uninstalling programs, as well as other events, can damage "
 "accessibility entries in the Windows registry. This can cause previously "
@@ -12530,37 +12544,50 @@ msgstr ""
 "\n"
 "按“继续”立即运行该工具。"
 
-#. Translators: The title of various dialogs displayed when using the COM Registration Fixing tool
+#. Translators: The title of various dialogs displayed when using the System Accessibility Repair Tool
 #: gui\__init__.py:582
-msgid "Fix COM Registrations"
-msgstr "COM 注册修复"
+msgid "System Accessibility Repair Tool"
+msgstr ""
 
-#. Translators: The message displayed while NVDA is running the COM Registration fixing tool
+#. Translators: The message displayed while NVDA is running the System Accessibility Repair Tool
 #: gui\__init__.py:597
+#, fuzzy
+#| msgid ""
+#| "Please wait while NVDA attempts to fix your system's COM registrations..."
 msgid ""
-"Please wait while NVDA attempts to fix your system's COM registrations..."
+"Please wait while NVDA attempts to repair your system's accessibility "
+"registrations..."
 msgstr "请稍候，NVDA 正在尝试修复系统中的 COM 注册……"
 
-#. Translators: message shown to the user on COM Registration Fix fail
+#. Translators: message shown to the user on System Accessibility Repair fail
 #: gui\__init__.py:624
-#, python-brace-format
+#, fuzzy, python-brace-format
+#| msgid ""
+#| "The COM Registration Fixing Tool was unsuccessful. This Windows error may "
+#| "provide more information.\n"
+#| "{error}"
 msgid ""
-"The COM Registration Fixing Tool was unsuccessful. This Windows error may "
-"provide more information.\n"
+"The System Accessibility Repair Tool was unsuccessful. This Windows error "
+"may provide more information.\n"
 "{error}"
 msgstr ""
 "COM 注册修复工具未能成功运行。此 Windows 错误可能提供更多信息。\n"
 "{error}"
 
-#. Translators: The title of a COM Registration Fixing Tool dialog, when the tool has failed
+#. Translators: The title of a System Accessibility Repair Tool dialog, when the tool has failed
 #: gui\__init__.py:628
-msgid "COM Registration Fixing Tool Failed"
-msgstr "COM 注册修复失败"
+msgid "System Accessibility Repair Failed"
+msgstr ""
 
-#. Translators: Message shown when the COM Registration Fixing tool completes.
+#. Translators: Message shown when the System Accessibility Repair Tool completes.
 #: gui\__init__.py:635
+#, fuzzy
+#| msgid ""
+#| "The COM Registration Fixing Tool has completed successfully.\n"
+#| "It is highly recommended that you restart your computer now, to make sure "
+#| "the changes take full effect."
 msgid ""
-"The COM Registration Fixing Tool has completed successfully.\n"
+"The System Accessibility Repair Tool has completed successfully.\n"
 "It is highly recommended that you restart your computer now, to make sure "
 "the changes take full effect."
 msgstr ""
@@ -12631,10 +12658,10 @@ msgstr "创建便携版(&C)..."
 msgid "&Install NVDA..."
 msgstr "安装 NVDA(&I)"
 
-#. Translators: The label for the menu item to run the COM registration fix tool
+#. Translators: The label for the menu item to run the System Accessibility Repair Tool
 #: gui\__init__.py:725
-msgid "Run COM Registration Fixing tool..."
-msgstr "运行 COM 注册修复工具(&R)..."
+msgid "Run System Accessibility Repair Tool..."
+msgstr ""
 
 #. Translators: The label for the menu item to reload plugins.
 #: gui\__init__.py:729
@@ -21459,6 +21486,15 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "Fix COM Registrations"
+#~ msgstr "COM 注册修复"
+
+#~ msgid "COM Registration Fixing Tool Failed"
+#~ msgstr "COM 注册修复失败"
+
+#~ msgid "Run COM Registration Fixing tool..."
+#~ msgstr "运行 COM 注册修复工具(&R)..."
 
 #, python-format
 #~ msgid "%s mode"
