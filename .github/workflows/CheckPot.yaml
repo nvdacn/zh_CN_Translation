@@ -66,7 +66,7 @@ jobs:
         uses: nvdacn/zh_CN_Translation/.github/actions/DetermineBranch@Uploads
 
   Update-NVDA-po:
-    name: Automatically update NVDA.po
+    name: Update NVDA.po
     needs: 
       - Check-NVDA-Repository-Update
       - Determine-Branch
