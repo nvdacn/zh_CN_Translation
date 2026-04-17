@@ -56,7 +56,7 @@ jobs:
 
   Determine-Branch:
     name: Determine branch
-    if: ${{ vars.Run_CheckPot_Workflow }}
+    if: ${{ vars.Run_CheckPot_Workflow1 }}
     uses: ./.github/workflows/DetermineBranch.yaml
     secrets: inherit
 
