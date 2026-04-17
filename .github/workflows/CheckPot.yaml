@@ -57,7 +57,7 @@ jobs:
   Determine-Branch:
     name: Determine branch
     if: ${{ vars.Run_CheckPot_Workflow }}
-    uses: ./.github/workflows/determine-branch.yml
+    uses: ./.github/workflows/DetermineBranch.yaml
     secrets: inherit
 
   Update-NVDA-po:
