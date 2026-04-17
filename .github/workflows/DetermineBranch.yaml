@@ -9,6 +9,7 @@ on:
 
 jobs:
   determine-branch:
+    name: Determine branch
     runs-on: ubuntu-latest
     outputs:
       branch: ${{ steps.Determine_branch_name.outputs.BranchName }}
