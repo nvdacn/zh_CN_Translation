@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-22 10:18+0000\n"
+"POT-Creation-Date: 2026-04-23 07:47+0000\n"
 "PO-Revision-Date: 2026-04-16 14:19+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -21030,8 +21030,14 @@ msgctxt "magnifier"
 msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
+#. Translators: Message announced when the magnifier stops due to an unrecoverable error.
+#: _magnifier\fullscreenMagnifier.py:164
+msgctxt "magnifier"
+msgid "Magnifier stopped due to an error. Please restart it."
+msgstr ""
+
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:128
+#: _magnifier\magnifier.py:130
 msgctxt "magnifier"
 msgid ""
 "Cannot enable magnifier: screen curtain is active. Please disable screen "
@@ -21039,13 +21045,13 @@ msgid ""
 msgstr "无法启用放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
-#: _magnifier\magnifier.py:177
+#: _magnifier\magnifier.py:222
 msgctxt "magnifier"
 msgid "Magnifier is active, disabling it before enabling screen curtain"
 msgstr "已开启放大镜，开启黑屏前请先将其关闭"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
-#: _magnifier\magnifier.py:195
+#: _magnifier\magnifier.py:240
 msgctxt "magnifier"
 msgid "Magnifier was active before screen curtain, re-enabling it"
 msgstr "已重启放大镜"
