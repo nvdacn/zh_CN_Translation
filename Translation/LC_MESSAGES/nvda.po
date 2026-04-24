@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 07:47+0000\n"
+"POT-Creation-Date: 2026-04-24 02:15+0000\n"
 "PO-Revision-Date: 2026-04-16 14:19+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -20953,7 +20953,7 @@ msgid "Color filter changed to {filter}"
 msgstr "{filter}颜色滤镜"
 
 #. Translators: Message announced when toggling a follow setting with {setting} being the name of the setting and {state} being either "enabled" or "disabled".
-#: _magnifier\commands.py:202
+#: _magnifier\commands.py:200
 #, fuzzy, python-brace-format
 #| msgid "{weight} {style}"
 msgctxt "magnifier"
@@ -20961,7 +20961,7 @@ msgid "{setting} {state}"
 msgstr "{weight} {style}"
 
 #. Translators: State of the follow setting being toggled enabled.
-#: _magnifier\commands.py:208
+#: _magnifier\commands.py:206
 #, fuzzy
 #| msgid "Enabled"
 msgctxt "magnifier"
@@ -20969,7 +20969,7 @@ msgid "enabled"
 msgstr "已启用"
 
 #. Translators: State of the follow setting being toggled disabled.
-#: _magnifier\commands.py:214
+#: _magnifier\commands.py:212
 #, fuzzy
 #| msgid "disabled"
 msgctxt "magnifier"
@@ -20977,47 +20977,49 @@ msgid "disabled"
 msgstr "已禁用"
 
 #. Translators: State of all follow settings being toggled disabled.
-#: _magnifier\commands.py:233
+#: _magnifier\commands.py:230
 #, fuzzy
 #| msgid "Automatic scrolling disabled"
 msgctxt "magnifier"
 msgid "All follow settings disabled"
 msgstr "禁用自动滚动"
 
-#. Translators: State of all follow settings being toggled enabled.
-#: _magnifier\commands.py:239
+#. Translators: State of all follow settings being restored.
+#: _magnifier\commands.py:236
+#, fuzzy
+#| msgid "Automatic scrolling disabled"
 msgctxt "magnifier"
-msgid "All follow settings enabled"
-msgstr ""
+msgid "All follow settings restored"
+msgstr "禁用自动滚动"
 
 #. Translators: Message announced when changing the full-screen mode with {mode} being the new full-screen mode.
-#: _magnifier\commands.py:265
+#: _magnifier\commands.py:262
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Full-screen mode changed to {mode}"
 msgstr "{mode}全屏模式"
 
 #. Translators: Message announced when trying to start spotlight mode while it's already active.
-#: _magnifier\commands.py:288
+#: _magnifier\commands.py:285
 msgctxt "magnifier"
 msgid "Spotlight mode is already active"
 msgstr "已显示标准视图"
 
 #. Translators: Message announced when spotlight mode is started.
-#: _magnifier\commands.py:298
+#: _magnifier\commands.py:295
 msgctxt "magnifier"
 msgid "Spotlight mode started"
 msgstr "暂时显示标准视图"
 
 #. Translators: Message announced when the magnifier is not active.
-#: _magnifier\commands.py:322
+#: _magnifier\commands.py:319
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not active."
 msgstr "放大镜未开启时无法{action}。"
 
 #. Translators: Message announced when the magnifier is not full-screen.
-#: _magnifier\commands.py:347
+#: _magnifier\commands.py:344
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not full-screen."
