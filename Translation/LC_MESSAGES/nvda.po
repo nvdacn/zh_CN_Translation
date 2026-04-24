@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 07:47+0000\n"
-"PO-Revision-Date: 2026-04-24 10:42+0800\n"
+"PO-Revision-Date: 2026-04-24 14:05+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5318,38 +5318,28 @@ msgstr "切换颜色滤镜"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5211
-#, fuzzy
-#| msgid "Toggle filter of the magnifier"
 msgid "Toggle follow mouse for the magnifier"
-msgstr "切换颜色滤镜"
+msgstr "切换是否跟随鼠标"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5224
-#, fuzzy
-#| msgid "Toggle filter of the magnifier"
 msgid "Toggle follow system focus for the magnifier"
-msgstr "切换颜色滤镜"
+msgstr "切换是否跟随系统焦点"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5237
-#, fuzzy
-#| msgid "Toggle filter of the magnifier"
 msgid "Toggle follow review cursor for the magnifier"
-msgstr "切换颜色滤镜"
+msgstr "切换是否跟随查看光标"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5250
-#, fuzzy
-#| msgid "Toggle filter of the magnifier"
 msgid "Toggle follow navigator object for the magnifier"
-msgstr "切换颜色滤镜"
+msgstr "切换是否跟随导航对象"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5263
-#, fuzzy
-#| msgid "Toggle filter of the magnifier"
 msgid "Toggle all follow modes for the magnifier"
-msgstr "切换颜色滤镜"
+msgstr "切换放大镜的跟随开关"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5276
@@ -15815,38 +15805,28 @@ msgstr "在全屏模式下保持焦点居中(&T)"
 
 #. Translators: This is the label for a group of focus options in the magnifier settings panel
 #: gui\settingsDialogs.py:6131
-#, fuzzy
-#| msgid "Focus mode"
 msgid "Focus"
-msgstr "焦点模式"
+msgstr "聚焦"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the mouse
 #: gui\settingsDialogs.py:6139
-#, fuzzy
-#| msgid "Follow &mouse cursor"
 msgid "Follow &mouse"
-msgstr "跟随鼠标移动(&M)"
+msgstr "跟随鼠标(&M)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the system focus
 #: gui\settingsDialogs.py:6141
-#, fuzzy
-#| msgid "Follow system &focus"
 msgid "Follow &system focus"
-msgstr "跟随系统焦点(&F)"
+msgstr "跟随系统焦点(&S)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the review cursor
 #: gui\settingsDialogs.py:6143
-#, fuzzy
-#| msgid "Follow &mouse cursor"
 msgid "Follow &review cursor"
-msgstr "跟随鼠标移动(&M)"
+msgstr "跟随查看光标(&R)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the navigator object
 #: gui\settingsDialogs.py:6146
-#, fuzzy
-#| msgid "No navigator object"
 msgid "Follow &navigator object"
-msgstr "没有导航对象"
+msgstr "跟随导航对象(&N)"
 
 #. Translators: The label for a checkbox to keep the mouse pointer centered in the magnifier view
 #: gui\settingsDialogs.py:6159
@@ -20957,44 +20937,35 @@ msgid "Color filter changed to {filter}"
 msgstr "{filter}颜色滤镜"
 
 #. Translators: Message announced when toggling a follow setting with {setting} being the name of the setting and {state} being either "enabled" or "disabled".
-#: _magnifier\commands.py:206
-#, fuzzy, python-brace-format
-#| msgid "{weight} {style}"
+#: _magnifier\commands.py:202
+#, python-brace-format
 msgctxt "magnifier"
 msgid "{setting} {state}"
-msgstr "{weight} {style}"
+msgstr "{state}跟随{setting}"
 
 #. Translators: State of the follow setting being toggled enabled.
-#: _magnifier\commands.py:212
-#, fuzzy
-#| msgid "Enabled"
+#: _magnifier\commands.py:208
 msgctxt "magnifier"
 msgid "enabled"
-msgstr "已启用"
+msgstr "启用"
 
 #. Translators: State of the follow setting being toggled disabled.
-#: _magnifier\commands.py:218
-#, fuzzy
-#| msgid "disabled"
+#: _magnifier\commands.py:214
 msgctxt "magnifier"
 msgid "disabled"
-msgstr "已禁用"
+msgstr "禁用"
 
 #. Translators: State of all follow settings being toggled disabled.
-#: _magnifier\commands.py:236
-#, fuzzy
-#| msgid "Automatic scrolling disabled"
+#: _magnifier\commands.py:233
 msgctxt "magnifier"
 msgid "All follow settings disabled"
-msgstr "禁用自动滚动"
+msgstr "禁用跟随"
 
 #. Translators: State of all follow settings being restored.
 #: _magnifier\commands.py:242
-#, fuzzy
-#| msgid "Automatic scrolling disabled"
 msgctxt "magnifier"
 msgid "All follow settings restored"
-msgstr "禁用自动滚动"
+msgstr "恢复跟随"
 
 #. Translators: Message announced when changing the full-screen mode with {mode} being the new full-screen mode.
 #: _magnifier\commands.py:268
@@ -21040,7 +21011,7 @@ msgstr "{zoomLevel} 倍"
 #: _magnifier\fullscreenMagnifier.py:164
 msgctxt "magnifier"
 msgid "Magnifier stopped due to an error. Please restart it."
-msgstr ""
+msgstr "放大镜因错误而停止。请将其重启。"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
 #: _magnifier\magnifier.py:130
@@ -21130,12 +21101,9 @@ msgstr "移到底边"
 
 #. Translators: Action description for toggling settings.
 #: _magnifier\utils\types.py:72
-#, fuzzy
-#| msgctxt "magnifier action"
-#| msgid "toggle filters"
 msgctxt "magnifier action"
 msgid "toggle follow settings"
-msgstr "切换颜色滤镜"
+msgstr "切换跟随设置"
 
 #. Translators: Action description for toggling color filters.
 #: _magnifier\utils\types.py:74
@@ -21157,35 +21125,27 @@ msgstr "显示标准视图"
 
 #. Translators: Focus type for magnifier to follow - mouse cursor.
 #: _magnifier\utils\types.py:94
-#, fuzzy
-#| msgid "Mouse"
 msgctxt "magnifier follow focus type"
 msgid "Mouse"
 msgstr "鼠标"
 
 #. Translators: Focus type for magnifier to follow - system focus (active element).
 #: _magnifier\utils\types.py:96
-#, fuzzy
-#| msgid "System focus"
 msgctxt "magnifier follow focus type"
 msgid "System focus"
 msgstr "系统焦点"
 
 #. Translators: Focus type for magnifier to follow - review cursor position.
 #: _magnifier\utils\types.py:98
-#, fuzzy
-#| msgid "Review Cursor"
 msgctxt "magnifier follow focus type"
 msgid "Review cursor"
 msgstr "查看光标"
 
 #. Translators: Focus type for magnifier to follow - navigator object position.
 #: _magnifier\utils\types.py:100
-#, fuzzy
-#| msgid "No navigator object"
 msgctxt "magnifier follow focus type"
 msgid "Navigator object"
-msgstr "没有导航对象"
+msgstr "导航对象"
 
 #. Translators: Magnifier type - full-screen mode.
 #: _magnifier\utils\types.py:115
