@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-24 05:33+0000\n"
-"PO-Revision-Date: 2026-04-16 14:19+0800\n"
+"POT-Creation-Date: 2026-04-23 07:47+0000\n"
+"PO-Revision-Date: 2026-04-24 10:42+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -10996,7 +10996,7 @@ msgstr "调试（DEBUG）"
 #. Translators: One of the log levels of NVDA (the secrets mode logs debug messages without redacting secrets).
 #: config\configFlags.py:440
 msgid "secrets"
-msgstr ""
+msgstr "机密（SECRETS）"
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
 #: config\configFlags.py:463
@@ -15866,13 +15866,14 @@ msgid ""
 "Only enable this temporarily if you explicitly need unredacted diagnostic "
 "logs. Do you want to continue?"
 msgstr ""
+"将日志记录级别设置为“机密”会将敏感信息（包括密码、API 密钥或其他私有数据）未"
+"经编辑地写入日志。仅在明确需要未经过滤的诊断日志时才应临时启用此级别。是否继"
+"续？"
 
 #. Translators: Title of the warning dialog shown when enabling the secrets log level.
 #: gui\settingsDialogs.py:6208
-#, fuzzy
-#| msgid "L&ogging level:"
 msgid "High risk logging level"
-msgstr "日志记录级别(&O):"
+msgstr "高风险日志级别"
 
 #. Translators: Warning shown when enabling a logging level above info from NVDA settings.
 #: gui\settingsDialogs.py:6213
@@ -15882,6 +15883,9 @@ msgid ""
 "higher logging levels temporarily while troubleshooting. Do you want to "
 "continue?"
 msgstr ""
+"将日志记录级别设置为高于“信息”级别可能会在日志中记录敏感信息，例如输入的内"
+"容、语音输出或其他私密数据。仅在排查问题时才应临时启用高风险日志级别。是否继"
+"续？"
 
 #. Translators: Name for a feature that disables output to the screen,
 #. making it black.
