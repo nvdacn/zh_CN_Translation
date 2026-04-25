@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-17 08:42+0000\n"
-"PO-Revision-Date: 2025-09-06 12:12\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-04-25 03:52+0200\n"
+"PO-Revision-Date: 2026-04-25 02:08\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -15,20 +15,20 @@ msgstr ""
 "X-Crowdin-Project-ID: 780748\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: readonlyProfiles.pot\n"
-"X-Crowdin-File-ID: 248\n"
+"X-Crowdin-File-ID: 618\n"
 
 #. Translators: Message presented in input help mode.
-#: addon/globalPlugins/readonlyProfiles.py:35
+#: addon\globalPlugins\readonlyProfiles.py:35
 msgid "Saves the current configuration to the most recent profile"
-msgstr "将当前配置保存到最近使用的配置文件。"
+msgstr "将当前配置保存到最近使用的配置。"
 
 #. Translators: Message presented when the user tries to save normal configuration.
-#: addon/globalPlugins/readonlyProfiles.py:43
+#: addon\globalPlugins\readonlyProfiles.py:43
 msgid "Normal configuration cannot be saved with this command"
 msgstr "此操作无法保存通用配置"
 
 #. Translators: Message presented when a profile is saved.
-#: addon/globalPlugins/readonlyProfiles.py:47
+#: addon\globalPlugins\readonlyProfiles.py:47
 #, python-brace-format
 msgid "Saved profile: {profile}"
 msgstr "配置已保存到 {profile}"
@@ -36,13 +36,19 @@ msgstr "配置已保存到 {profile}"
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
-#: buildVars.py:23
+#: buildVars.py:21
 msgid "Readonly Profiles"
-msgstr "手动保存配置文件"
+msgstr "手动保存配置"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#: buildVars.py:24
 msgid "Don't save profiles automatically. Press NVDA+shift+p to save the most recent profile."
-msgstr "禁止自动保存配置文件。按 NVDA+Shift+P 可保存最近使用的配置文件。"
+msgstr "禁止自动保存配置。按 NVDA+Shift+P 可保存最近使用的配置。"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "* Compatible with NVDA 2026.1."
+msgstr "* 与 NVDA 2026.1 兼容。"
 
