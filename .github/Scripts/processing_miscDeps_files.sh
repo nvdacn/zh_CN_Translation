@@ -8,6 +8,9 @@ git config --global user.name "GitHub Actions"
 git config --global user.email "actions@github.com"
 git switch -c PullRequestToNVDA origin/beta
 echo "Current branch: $(git branch --show-current)"
+
+commit_msg="Update"
+
 for f in \
   characterDescriptions.dic \
   gestures.ini \
@@ -19,13 +22,18 @@ do
   fi
   echo "Copying from: $miscDepsPath/$f"
   cp -f "$miscDepsPath/$f" "$ZHCNPath/"
+  if ! git diff --quiet "$ZHCNPath/$f" 2>/dev/null; then
+    commit_msg="$commit_msg $f,"
+  fi
   git add "$ZHCNPath/$f"
 done
-if [ -z "$(git status --porcelain)" ]; then
+
+if git diff --cached --quiet; then
   echo "No changes to commit."
   echo "changes_exist=false" >> $GITHUB_OUTPUT
 else
-  git commit -m "Update translations"
+  commit_msg="${commit_msg%,}"
+  git commit -m "$commit_msg"
   git push --force NVDACN PullRequestToNVDA:PullRequestToNVDA
   echo "changes_exist=true" >> $GITHUB_OUTPUT
 fi
