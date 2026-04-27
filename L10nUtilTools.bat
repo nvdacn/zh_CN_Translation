@@ -125,9 +125,13 @@ echo DCL：从 Crowdin 下载已翻译的 nvda.po 文件并将其提交到存储
 echo DCA：从 Crowdin 下载所有已翻译的文件并将其提交到存储库；  
 echo 按任意键继续查看...  
 Pause>Nul
+echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；  
+echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
 echo UAP：上传指定插件的界面翻译到 Crowdin；  
+echo UAX：上传指定插件的 xliff 文档翻译到 Crowdin；  
 echo UAM：上传指定插件的文档翻译到 Crowdin；  
 echo DAP：从 Crowdin 下载指定插件的界面翻译；  
+echo DAX：从 Crowdin 下载指定插件的 xliff 文档翻译；  
 echo DAM：从 Crowdin 下载指定插件的文档翻译；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
@@ -379,16 +383,16 @@ goto Quit
 
 Rem 从 Markdown 文档生成 xliff
 :GenerateXLIFF
-set NVDASourceCodePath=%~dp0Tools\NVDA
+set "NVDASourceCodePath=%~dp0Tools\XLIFFTemplate\NVDA"
 set "SourceXLIFFPath=%NVDASourceCodePath%\user_docs\en\%ShortName%.xliff"
 IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
-  set "VerifyFile=user_docs\en\userGuide.xliff"
-  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  set "VerifyFile=user_docs\en\%ShortName%.xliff"
+  set "PathSetSuccessfully=XLIFFTemplatePathSetSuccessfully"
   goto SetPersonalSourcePath
 )
-:NVDASourceCodePathSetSuccessfully
+:XLIFFTemplatePathSetSuccessfully
 Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 if not defined L10NSourceCodePath (
   set "goto=L10NExe"
@@ -408,7 +412,9 @@ IF NOT EXIST "%SourceXLIFFPath%" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 "%SourceXLIFFPath%"，请确保该文件存在后重试。',5,'错误',16)"
   exit /b 1
 )
-move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%ShortName%.xliff"
+IF EXIST "%TranslationPath%\%FileName%" (
+  move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%ShortName%.xliff"
+)
 uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
@@ -476,9 +482,13 @@ set ExitCode=%errorlevel%
 goto Quit
 
 Rem 处理针对插件翻译的标签，初始化变量及运行环境  
+:GMX
+:MXX
 :UAP
+:UAX
 :UAM
 :DAP
+:DAX
 :DAM
 Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 set "goto=setConfigFilename"
@@ -493,6 +503,8 @@ if not defined AddonName (
   echo 请输入插件 ID，按回车键确认。  
   set /p AddonName=
 )
+if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
+if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
 powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckAddonID.ps1" "%~dp0Tools\Scripts\ProjectList.txt"
@@ -505,6 +517,11 @@ if /I "%CLI:~2,1%"=="P" (
   set CrowdinFilePath=%AddonName%.pot
   set FileName=nvda.po
 )
+if /I "%CLI:~2,1%"=="X" (
+  set CrowdinFilePath=%AddonName%.xliff
+  set FileName=readme.xliff
+  set ShortName=%AddonName%
+)
 if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=readme.md
@@ -514,6 +531,19 @@ set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
 set GitAddPath=Translation/Addons/%AddonName%
 goto %Action%
+
+Rem 从插件的 Markdown 文档生成 xliff
+:GenerateAddonXLIFF
+set "AddonSourcePath=%~dp0Tools\XLIFFTemplate\%AddonName%"
+set "SourceXLIFFPath=%AddonSourcePath%\%AddonName%.xliff"
+IF NOT EXIST "%AddonSourcePath%" (
+  set "PromptInformation=请输入您的本地 %AddonName% 插件的存储库路径（无需引号），按回车键确认。"
+  set "TargetPath=%AddonSourcePath%"
+  set "VerifyFile=%AddonName%.xliff"
+  set "PathSetSuccessfully=XLIFFTemplatePathSetSuccessfully"
+  goto SetPersonalSourcePath
+)
+goto XLIFFTemplatePathSetSuccessfully
 
 Rem 设置本地存储库路径  
 :SetPersonalSourcePath
