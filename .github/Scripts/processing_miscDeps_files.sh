@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 cd "$ZHCNPath"
 echo "Current directory: $(pwd)"
@@ -6,7 +7,7 @@ echo "Configuring git..."
 git remote add NVDACN https://github.com/$HeadOwner/nvda.git
 git config --global user.name "GitHub Actions"
 git config --global user.email "actions@github.com"
-git switch -c PullRequestToNVDA origin/beta
+git switch -C PullRequestToNVDA origin/beta
 echo "Current branch: $(git branch --show-current)"
 
 commit_msg="Update"
