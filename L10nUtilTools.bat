@@ -383,12 +383,12 @@ goto Quit
 
 Rem 从 Markdown 文档生成 xliff
 :GenerateXLIFF
-set NVDASourceCodePath=%~dp0Tools\NVDA
+set "NVDASourceCodePath=%~dp0Tools\XLIFFTemplate\NVDA"
 set "SourceXLIFFPath=%NVDASourceCodePath%\user_docs\en\%ShortName%.xliff"
 IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
-  set "VerifyFile=user_docs\en\userGuide.xliff"
+  set "VerifyFile=user_docs\en\%ShortName%.xliff"
   set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
   goto SetPersonalSourcePath
 )
