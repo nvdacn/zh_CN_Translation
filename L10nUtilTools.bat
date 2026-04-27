@@ -125,6 +125,8 @@ echo DCL：从 Crowdin 下载已翻译的 nvda.po 文件并将其提交到存储
 echo DCA：从 Crowdin 下载所有已翻译的文件并将其提交到存储库；  
 echo 按任意键继续查看...  
 Pause>Nul
+echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；  
+echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
 echo UAP：上传指定插件的界面翻译到 Crowdin；  
 echo UAM：上传指定插件的文档翻译到 Crowdin；  
 echo DAP：从 Crowdin 下载指定插件的界面翻译；  
@@ -476,6 +478,8 @@ set ExitCode=%errorlevel%
 goto Quit
 
 Rem 处理针对插件翻译的标签，初始化变量及运行环境  
+:GMX
+:MXX
 :UAP
 :UAM
 :DAP
@@ -493,6 +497,8 @@ if not defined AddonName (
   echo 请输入插件 ID，按回车键确认。  
   set /p AddonName=
 )
+if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
+if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
 powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckAddonID.ps1" "%~dp0Tools\Scripts\ProjectList.txt"
@@ -505,15 +511,38 @@ if /I "%CLI:~2,1%"=="P" (
   set CrowdinFilePath=%AddonName%.pot
   set FileName=nvda.po
 )
+if /I "%CLI:~2,1%"=="X" (
+  set CrowdinFilePath=%AddonName%.xliff
+  set FileName=readme.xliff
+  set ShortName=%AddonName%
+)
 if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=readme.md
   set ShortName=%AddonName%
+  findstr /i "%AddonName%.xliff" "!ConfigFilename!" >nul 2>nul
+  if not !errorlevel! EQU 1 (
+    set CrowdinFilePath=%AddonName%.xliff
+    set FileName=readme.xliff
+  )
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
 set GitAddPath=Translation/Addons/%AddonName%
 goto %Action%
+
+Rem 从插件的 Markdown 文档生成 xliff
+:GenerateAddonXLIFF
+set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
+set "SourceXLIFFPath=%CrowdinRegistrationSourcePath%\addons\%AddonName%\%ShortName%.xliff"
+IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
+  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%CrowdinRegistrationSourcePath%
+  set VerifyFile=utils\l10nUtil.py
+  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+goto NVDASourceCodePathSetSuccessfully
 
 Rem 设置本地存储库路径  
 :SetPersonalSourcePath
