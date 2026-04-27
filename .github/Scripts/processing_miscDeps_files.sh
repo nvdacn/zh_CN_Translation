@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd "$ZHCNPath"
 echo "Current directory: $(pwd)"
 echo "Configuring git..."
