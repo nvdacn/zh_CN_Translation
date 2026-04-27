@@ -532,12 +532,12 @@ goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
-set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
-set "SourceXLIFFPath=%CrowdinRegistrationSourcePath%\addons\%AddonName%\%ShortName%.xliff"
-IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
-  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
-  set TargetPath=%CrowdinRegistrationSourcePath%
-  set VerifyFile=utils\l10nUtil.py
+set "AddonSourcePath=%~dp0Tools\XLIFFTemplate\%AddonName%"
+set "SourceXLIFFPath=%AddonSourcePath%\%AddonName%.xliff"
+IF NOT EXIST "%AddonSourcePath%" (
+  set "PromptInformation=请输入您的本地 %AddonName% 插件的存储库路径（无需引号），按回车键确认。"
+  set "TargetPath=%AddonSourcePath%"
+  set "VerifyFile=%AddonName%.xliff"
   set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
   goto SetPersonalSourcePath
 )
