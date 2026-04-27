@@ -60,6 +60,7 @@ jobs:
         with:
           template: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
           vars: |
+            Changes: ${{ env.PRTitle }}
             Owner: ${{ env.HeadOwner }}
             Commit: ${{ github.sha }}
       - name: Create PR via API
@@ -72,7 +73,7 @@ jobs:
             const prParams = {
               owner: "${{ env.BaseOwner }}",
               repo: "nvda",
-              title: "Updated the symbols, gestures, character descriptions files for Simplified Chinese",
+              title: "${{ env.PRTitle }}",
               head: "${{ env.HeadOwner }}:PullRequestToNVDA",
               base: "beta",
               body: `${{ steps.template.outputs.result }}`,

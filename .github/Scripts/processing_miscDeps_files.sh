@@ -36,4 +36,5 @@ else
   git commit -m "$commit_msg"
   git push --force NVDACN PullRequestToNVDA:PullRequestToNVDA
   echo "changes_exist=true" >> $GITHUB_OUTPUT
+  echo "PRTitle=$commit_msg for Simplified Chinese" >> $GITHUB_ENV
 fi
