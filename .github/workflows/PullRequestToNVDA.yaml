@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BaseOwner: wmhn1872265132
-      HeadOwner: nvdacn
+      HeadOwner: ${{ github.repository_owner }}
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
