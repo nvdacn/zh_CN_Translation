@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BaseOwner: nvaccess
-      HeadOwner: nvdacn
+      HeadOwner: ${{ github.repository_owner }}
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
@@ -33,35 +33,7 @@ jobs:
           miscDepsPath: ${{ github.workspace }}/Translation/miscDeps
           ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
         run: |
-          cd "$ZHCNPath"
-          echo "Current directory: $(pwd)"
-          echo "Configuring git..."
-          git remote add NVDACN https://github.com/${{ env.HeadOwner }}/nvda.git
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git switch -c PullRequestToNVDA origin/beta
-          echo "Current branch: $(git branch --show-current)"
-          for f in \
-            characterDescriptions.dic \
-            gestures.ini \
-            symbols.dic
-          do
-            echo "Processing file: $f"
-            if [ -f "$ZHCNPath/$f" ]; then
-              rm -f "$ZHCNPath/$f"
-            fi
-            echo "Copying from: $miscDepsPath/$f"
-            cp -f "$miscDepsPath/$f" "$ZHCNPath/"
-            git add "$ZHCNPath/$f"
-          done
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes to commit."
-            echo "changes_exist=false" >> $GITHUB_OUTPUT
-          else
-            git commit -m "Update translations"
-            git push --force NVDACN PullRequestToNVDA:PullRequestToNVDA
-            echo "changes_exist=true" >> $GITHUB_OUTPUT
-          fi
+          ./.github/Scripts/processing_miscDeps_files.sh
       - name: Check for existing PR
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
@@ -90,6 +62,7 @@ jobs:
         with:
           template: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
           vars: |
+            Changes: ${{ env.PRTitle }}
             Owner: ${{ env.HeadOwner }}
             Commit: ${{ github.sha }}
       - name: Create PR via API
@@ -102,7 +75,7 @@ jobs:
             const prParams = {
               owner: "${{ env.BaseOwner }}",
               repo: "nvda",
-              title: "Updated the symbols, gestures, character descriptions files for Simplified Chinese",
+              title: "${{ env.PRTitle }}",
               head: "${{ env.HeadOwner }}:PullRequestToNVDA",
               base: "beta",
               body: `${{ steps.template.outputs.result }}`,
