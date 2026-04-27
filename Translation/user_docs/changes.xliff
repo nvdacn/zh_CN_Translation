@@ -7131,7 +7131,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 142</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Add-on authors are now able to provide a changelog for an add-on version via the `changelog` manifest key. (#14041, @josephsl)</source>
         <target>插件作者现在可以通过 `changelog` 清单键为某个插件版本提供更新日志。(#14041, @josephsl)</target>
       </segment>
@@ -7141,7 +7141,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 143</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The changelog should document changes between previous and latest add-on versions, and can be formatted in markdown.</source>
         <target>更新日志应记录上一版本与最新版本之间的变化，并可使用 Markdown 格式。</target>
       </segment>
@@ -7191,7 +7191,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 148</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>enabled the Node.js-backed server (`pyright[nodejs]`) for faster and more reliable analysis.</source>
         <target>启用了基于 Node.js 的服务器（`pyright[nodejs]`），以获得更快、更可靠的分析。</target>
       </segment>
@@ -7411,7 +7411,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 170</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This introduces support to build NVDA with Visual Studio 2026.</source>
         <target>此项变更支持使用 Visual Studio 2026 构建 NVDA。</target>
       </segment>
@@ -7421,7 +7421,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 171</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>X64 NVDAHelper libraries are now also built for the [ARM64EC architecture](https://learn.microsoft.com/en-us/windows/arm/arm64ec).</source>
         <target>现在也会为 [ARM64EC 体系结构](https://learn.microsoft.com/en-us/windows/arm/arm64ec)构建 X64 NVDAHelper 库。</target>
       </segment>
@@ -7430,7 +7430,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 172</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>On ARM64 machines with Windows 11, these ARM64EC libraries are loaded instead of their X64 equivalents. (#18570, @leonarddeR)</source>
         <target>在运行 Windows 11 的 ARM64 设备上，会加载这些 ARM64EC 库，而不是对应的 X64 库。(#18570, @leonarddeR)</target>
       </segment>
@@ -7440,7 +7440,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 173</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA is now licensed under "GPL-2 or later".</source>
         <target>NVDA 现在采用“GPL-2 或更高版本”许可。</target>
       </segment>
@@ -7450,7 +7450,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 174</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In `braille.py`, the `FormattingMarker` class has a new `shouldBeUsed` method, to determine if the formatting marker key should be reported (#7608, @nvdaes)</source>
         <target>在 `braille.py` 中，`FormattingMarker` 类新增 `shouldBeUsed` 方法，用于确定是否应报告格式标记键。(#7608, @nvdaes)</target>
       </segment>
@@ -7460,7 +7460,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 175</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added `api.fakeNVDAObjectClasses` set and `api.isFakeNVDAObject` function to identify fake NVDAObject instances. (#19168, @hwf1324)</source>
         <target>新增 `api.fakeNVDAObjectClasses` 集合和 `api.isFakeNVDAObject` 函数，用于识别伪 NVDAObject 实例。(#19168, @hwf1324)</target>
       </segment>
@@ -7470,7 +7470,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 176</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA no longer includes the Microsoft Universal C Runtime. (#19508)</source>
         <target>NVDA 不再包含 Microsoft Universal C Runtime。(#19508)</target>
       </segment>
@@ -7480,7 +7480,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 177</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`synthDriverHandler.setSynth` and `synthDriverHandler.findAndSetNextSynth` now attempt to find fallback synthesizers starting from the start of `defaultSynthPriorityList`, rather than starting immediately after `name` or `currentSynthName`, respectively. (#19603)</source>
         <target>`synthDriverHandler.setSynth` 和 `synthDriverHandler.findAndSetNextSynth` 现在会从 `defaultSynthPriorityList` 开头开始查找后备合成器，而不是分别从 `name` 或 `currentSynthName` 之后开始查找。(#19603)</target>
       </segment>
@@ -7490,7 +7490,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 178</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`gui.installerGui.doInstall` parameter `startOnLogon` default value is now `False`. (#19631)</source>
         <target>`gui.installerGui.doInstall` 参数 `startOnLogon` 的默认值现在为 `False`。(#19631)</target>
       </segment>
@@ -7528,7 +7528,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 185</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA is now built with Python 3.13.12, 64-bit. (#18591, #19111, #19351, #19572, @LeonarddeR, @dpy013)</source>
         <target>NVDA 现在使用 64 位 Python 3.13.12 构建。(#18591, #19111, #19351, #19572, @LeonarddeR, @dpy013)</target>
       </segment>
@@ -7538,7 +7538,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 186</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>typing_extensions have been removed.</source>
         <target>已移除 typing_extensions。</target>
       </segment>
@@ -7547,7 +7547,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 187</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>These should be supported natively in Python 3.13. (#18689)</source>
         <target>这些功能应已由 Python 3.13 原生支持。(#18689)</target>
       </segment>
@@ -7557,7 +7557,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 188</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`copyrightYears` and `url` have been moved from `versionInfo` to `buildVersion`. (#18682)</source>
         <target>`copyrightYears` 和 `url` 已从 `versionInfo` 移至 `buildVersion`。(#18682)</target>
       </segment>
@@ -7567,7 +7567,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 189</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed behavior of `TextInfo.collapse()` - previously it was moving TextInfo to the next paragraph in some cases. (#18320, @mltony)</source>
         <target>修复了 `TextInfo.collapse()` 的行为；此前在某些情况下，它会将 TextInfo 移到下一段。(#18320, @mltony)</target>
       </segment>
@@ -7577,7 +7577,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 190</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed behavior of `OffsetTextInfo.move()` - previously it wouldn't move to the very end of the document unless moving by character. (#18348, @mltony)</source>
         <target>修复了 `OffsetTextInfo.move()` 的行为；此前除非按字符移动，否则它不会移动到文档最末尾。(#18348, @mltony)</target>
       </segment>
@@ -7587,7 +7587,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 191</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAHelper.localLib` is now a module, not a `ctypes.CDLL`.</source>
         <target>`NVDAHelper.localLib` 现在是一个模块，而不是 `ctypes.CDLL`。</target>
       </segment>
@@ -7596,7 +7596,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 192</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Most API consumers should not be impacted by this change.</source>
         <target>大多数 API 使用者不应受此变更影响。</target>
       </segment>
@@ -7605,7 +7605,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 193</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `NVDAHelper.localLib.dll` for access to the `ctypes.CDLL` if necessary. (#18207)</source>
         <target>如有必要，请使用 `NVDAHelper.localLib.dll` 访问 `ctypes.CDLL`。(#18207)</target>
       </segment>
@@ -7615,7 +7615,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 194</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`UIAHandler.autoSelectDetectionAvailable` has been removed with no replacement. (#18684, @josephsl)</source>
         <target>`UIAHandler.autoSelectDetectionAvailable` 已移除，且没有替代项。(#18684, @josephsl)</target>
       </segment>
@@ -7625,7 +7625,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 195</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been removed from `installer` with no direct replacement: `programFilesPath`, `getStartMenuFolder`, `getInstallPath`. (#18851)</source>
         <target>以下符号已从 `installer` 移除，且没有直接替代项：`programFilesPath`, `getStartMenuFolder`, `getInstallPath`。(#18851)</target>
       </segment>
@@ -7635,7 +7635,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 196</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `bool` configuration key `[documentFormatting][reportSpellingErrors]` has been removed.</source>
         <target>`[documentFormatting][reportSpellingErrors]`（`bool` 类型配置项）已移除。</target>
       </segment>
@@ -7644,7 +7644,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 197</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use the `int` configuration key `[reportSpellingErrors2]` instead. (#17997, @CyrilleB79)</source>
         <target>请改用 `int` 类型配置项 `[reportSpellingErrors2]`。(#17997, @CyrilleB79)</target>
       </segment>
@@ -7654,7 +7654,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 198</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAObjects.window.GhostWindowFromHungWindow` has been removed with no replacement. (#18883)</source>
         <target>`NVDAObjects.window.GhostWindowFromHungWindow` 已移除，且没有替代项。(#18883)</target>
       </segment>
@@ -7664,7 +7664,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 199</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`winUser.Input_I` and `winUser.PUL` have been removed, with no replacement. (#18883)</source>
         <target>`winUser.Input_I` 和 `winUser.PUL` 已移除，且没有替代项。(#18883)</target>
       </segment>
@@ -7674,7 +7674,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 200</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `inputButtonCaps` property on `hwIo.hid.Hid` objects now correctly returns an array of `hidpi.HIDP_BUTTON_CAPS` structures rather than `HIDP_VALUE_CAPS` structures. (#18902)</source>
         <target>`hwIo.hid.Hid` 对象的 `inputButtonCaps` 属性现在会正确返回 `hidpi.HIDP_BUTTON_CAPS` 结构数组，而不是 `HIDP_VALUE_CAPS` 结构数组。(#18902)</target>
       </segment>
@@ -7684,7 +7684,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 201</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`speech.speech.IDT_TONE_DURATION` has been removed.</source>
         <target>`speech.speech.IDT_TONE_DURATION` 已移除。</target>
       </segment>
@@ -7693,7 +7693,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 202</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Call `speech.speech.getIndentToneDuration` instead. (#18898)</source>
         <target>请改为调用 `speech.speech.getIndentToneDuration`。(#18898)</target>
       </segment>
@@ -7703,7 +7703,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 203</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `rgpszUsageIdentifier` member of the `updateCheck.CERT_USAGE_MATCH` struct is now of type `POINTER(LPSTR)` rather than `c_void_p` to correctly align with Microsoft documentation. (#18956)</source>
         <target>`updateCheck.CERT_USAGE_MATCH` 结构的 `rgpszUsageIdentifier` 成员类型现在为 `POINTER(LPSTR)`，而不是 `c_void_p`，以便与 Microsoft 文档正确保持一致。(#18956)</target>
       </segment>
@@ -7713,7 +7713,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 204</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `UpdatableAddonsDialog.addonsList` is an instance of `gui.addonStoreGui.controls.addonList.AddonVirtualList`. (#18816, @nvdaes)</source>
         <target>`UpdatableAddonsDialog.addonsList` 是 `gui.addonStoreGui.controls.addonList.AddonVirtualList` 的实例。(#18816, @nvdaes)</target>
       </segment>
@@ -7723,7 +7723,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 205</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`gui.nvdaControls.TabbableScrolledPanel` has been removed.</source>
         <target>`gui.nvdaControls.TabbableScrolledPanel` 已移除。</target>
       </segment>
@@ -7732,7 +7732,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 206</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `wx.lib.scrolledpanel.ScrolledPanel` directly instead. (#17751)</source>
         <target>请直接改用 `wx.lib.scrolledpanel.ScrolledPanel`。(#17751)</target>
       </segment>
@@ -7742,7 +7742,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 207</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been removed from `appModules.explorer` with no replacement: `SuggestionListItem`, `SearchBoxClient`, `GridTileElement`, `GridListTileElement`, `GridGroup`, `ImmersiveLauncher`. (#18757, @josephsl)</source>
         <target>以下符号已从 `appModules.explorer` 移除，且没有替代项：`SuggestionListItem`, `SearchBoxClient`, `GridTileElement`, `GridListTileElement`, `GridGroup`, `ImmersiveLauncher`。(#18757, @josephsl)</target>
       </segment>
@@ -7752,7 +7752,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 208</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `ftdi2` module has been significantly refactored: (#19105)</source>
         <target>`ftdi2` 模块已进行重大重构：(#19105)</target>
       </segment>
@@ -7762,7 +7762,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 209</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It is now a package.</source>
         <target>该模块现在是一个包。</target>
       </segment>
@@ -7772,7 +7772,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 210</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`MAX_DESCRIPTION_SIZE` has been moved to `ftd2xx.MAX_DESCRIPTION_SIZE`, and reduced to 64 in accordance with the D2XX Programmer’s Guide.</source>
         <target>`MAX_DESCRIPTION_SIZE` 已移至 `ftd2xx.MAX_DESCRIPTION_SIZE`，并根据《D2XX Programmer’s Guide》缩减为 64。</target>
       </segment>
@@ -7782,7 +7782,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 211</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`FT_OK` has been removed.</source>
         <target>`FT_OK` 已移除。</target>
       </segment>
@@ -7791,7 +7791,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 212</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `ftd2xx.FT_MESSAGE.OK` instead.</source>
         <target>  请改用 `ftd2xx.FT_MESSAGE.OK`。</target>
       </segment>
@@ -7801,7 +7801,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 213</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `FT_LIST_*` constants have been removed.</source>
         <target>`FT_LIST_*` 常量已移除。</target>
       </segment>
@@ -7810,7 +7810,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 214</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use the `ftd2xx.FT_LIST` enum instead.</source>
         <target>  请改用 `ftd2xx.FT_LIST` 枚举。</target>
       </segment>
@@ -7820,7 +7820,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 215</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `FT_OPEN_BY_SERIAL_NUMBER` constant has been removed.</source>
         <target>`FT_OPEN_BY_SERIAL_NUMBER` 常量已移除。</target>
       </segment>
@@ -7829,7 +7829,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 216</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `ftd2xx.FT_OPEN_BY.SERIAL_NUMBER` instead.</source>
         <target>  请改用 `ftd2xx.FT_OPEN_BY.SERIAL_NUMBER`。</target>
       </segment>
@@ -7839,7 +7839,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 217</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `FT_PURGE_RX` and `FT_PURGE_TX` constants have been removed.</source>
         <target>`FT_PURGE_RX` 和 `FT_PURGE_TX` 常量已移除。</target>
       </segment>
@@ -7848,7 +7848,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 218</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `ftd2xx.FT_PURGE.RX` and `ftd2xx.FT_PURGE.TX` instead.</source>
         <target>  请改用 `ftd2xx.FT_PURGE.RX` 和 `ftd2xx.FT_PURGE.TX`。</target>
       </segment>
@@ -7858,7 +7858,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 219</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`FtdiBitModes` has been moved to `ftd2xx.FT_BITMODE`.</source>
         <target>`FtdiBitModes` 已移至 `ftd2xx.FT_BITMODE`。</target>
       </segment>
@@ -7868,7 +7868,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 220</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `ft_messages` list has been replaced with the `ftd2xx.FT_MESSAGE` enum.</source>
         <target>`ft_messages` 列表已替换为 `ftd2xx.FT_MESSAGE` 枚举。</target>
       </segment>
@@ -7878,7 +7878,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 221</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`ft` has been removed.</source>
         <target>`ft` 已移除。</target>
       </segment>
@@ -7887,7 +7887,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 222</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `ftd2xx.dll` instead.</source>
         <target>  请改用 `ftd2xx.dll`。</target>
       </segment>
@@ -7897,7 +7897,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 223</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`FTDeviceError` has been moved to `ftd2xx.FTDeviceError`.</source>
         <target>`FTDeviceError` 已移至 `ftd2xx.FTDeviceError`。</target>
       </segment>
@@ -7907,7 +7907,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 224</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`DeviceListInfoNode` has been moved to `ftd2xx.FT_DEVICE_LIST_INFO_NODE`.</source>
         <target>`DeviceListInfoNode` 已移至 `ftd2xx.FT_DEVICE_LIST_INFO_NODE`。</target>
       </segment>
@@ -7916,7 +7916,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 225</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Additionally, in accordance with the D2XX Programmer's Guide:</source>
         <target>  此外，根据《D2XX Programmer's Guide》：</target>
       </segment>
@@ -7926,7 +7926,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 226</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `LocID` field has been renamed to `LocId`.</source>
         <target>`LocID` 字段已重命名为 `LocId`。</target>
       </segment>
@@ -7936,7 +7936,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 227</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `none` field has been renamed to `ftHandle`.</source>
         <target>`none` 字段已重命名为 `ftHandle`。</target>
       </segment>
@@ -7946,7 +7946,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 228</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `ftExceptionDecorator` function has been removed, with no public replacement.</source>
         <target>`ftExceptionDecorator` 函数已移除，且没有公开替代项。</target>
       </segment>
@@ -7956,7 +7956,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 229</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `_PY_*` functions have been replaced with `ftd2xx.FT_*` direct FFI bindings.</source>
         <target>`_PY_*` 函数已替换为 `ftd2xx.FT_*` 直接 FFI 绑定。</target>
       </segment>
@@ -7965,7 +7965,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 230</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  These bindings have type declarations, so are potentially incompatible with existing code.</source>
         <target>  这些绑定带有类型声明，因此可能与现有代码不兼容。</target>
       </segment>
@@ -7975,7 +7975,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 231</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following functions have been renamed:</source>
         <target>以下函数已重命名：</target>
       </segment>
@@ -7985,7 +7985,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 232</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`list_devices` to `listDevices`;</source>
         <target>`list_devices` 重命名为 `listDevices`；</target>
       </segment>
@@ -7995,7 +7995,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 233</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`create_device_info_list` to `createDeviceInfoList`;</source>
         <target>`create_device_info_list` 重命名为 `createDeviceInfoList`；</target>
       </segment>
@@ -8005,7 +8005,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 234</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`get_device_info_detail` to `getDeviceInfoDetail`;</source>
         <target>`get_device_info_detail` 重命名为 `getDeviceInfoDetail`；</target>
       </segment>
@@ -8015,7 +8015,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 235</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`get_device_info_list` to `getDeviceInfoList`; and</source>
         <target>`get_device_info_list` 重命名为 `getDeviceInfoList`；以及</target>
       </segment>
@@ -8025,7 +8025,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 236</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`open_ex` to `openEx`.</source>
         <target>`open_ex` 重命名为 `openEx`。</target>
       </segment>
@@ -8035,7 +8035,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 237</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following methods on the `FTD2XX` class have been renamed:</source>
         <target>`FTD2XX` 类中的以下方法已重命名：</target>
       </segment>
@@ -8045,7 +8045,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 238</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`set_baud_rate` to `setBaudRate`;</source>
         <target>`set_baud_rate` 重命名为 `setBaudRate`；</target>
       </segment>
@@ -8055,7 +8055,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 239</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`set_timeouts` to `setTimeouts`;</source>
         <target>`set_timeouts` 重命名为 `setTimeouts`；</target>
       </segment>
@@ -8065,7 +8065,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 240</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`set_latency_timer` to `setLatencyTimer`;</source>
         <target>`set_latency_timer` 重命名为 `setLatencyTimer`；</target>
       </segment>
@@ -8075,7 +8075,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 241</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`set_bit_mode` to `setBitMode`;</source>
         <target>`set_bit_mode` 重命名为 `setBitMode`；</target>
       </segment>
@@ -8085,7 +8085,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 242</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`set_usb_parameters` to `setUsbParameters`;</source>
         <target>`set_usb_parameters` 重命名为 `setUsbParameters`；</target>
       </segment>
@@ -8095,7 +8095,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 243</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`get_queue_status` to `getQueueStatus`; and</source>
         <target>`get_queue_status` 重命名为 `getQueueStatus`；以及</target>
       </segment>
@@ -8105,7 +8105,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 244</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`reset_device` to `resetDevice`.</source>
         <target>`reset_device` 重命名为 `resetDevice`。</target>
       </segment>
@@ -8115,7 +8115,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 245</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `FTD2XX.purge` method now raises `ValueError` if the `toPurge` argument is not one of "TX", "RX" or "TXRX".</source>
         <target>如果 `toPurge` 参数不是“TX”、“RX”或“TXRX”之一，`FTD2XX.purge` 方法现在会引发 `ValueError`。</target>
       </segment>
@@ -8125,7 +8125,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 246</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The deprecated `winVersion.isFullScreenMagnificationAvailable` function has been removed. (#19177)</source>
         <target>已弃用的 `winVersion.isFullScreenMagnificationAvailable` 函数已移除。(#19177)</target>
       </segment>
@@ -8135,7 +8135,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 247</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `visionEnhancementProviders.screenCurtain` module has been replaced with the `screenCurtain` subpackage. (#19177)</source>
         <target>`visionEnhancementProviders.screenCurtain` 模块已替换为 `screenCurtain` 子包。(#19177)</target>
       </segment>
@@ -8145,7 +8145,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 248</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have no public replacement: `playToggleSoundsCheckBoxText`, `ScreenCurtainGuiPanel`, `ScreenCurtainProvider`, `ScreenCurtainSettings`, `screenCurtainTranslatedName`, `TRANSFORM_BLACK`, `VisionEnhancementProvider`, `WarnOnLoadDialog`, `warnOnLoadCheckBoxText`, `warnOnLoadText`.</source>
         <target>以下符号没有公开替代项：`playToggleSoundsCheckBoxText`, `ScreenCurtainGuiPanel`, `ScreenCurtainProvider`, `ScreenCurtainSettings`, `screenCurtainTranslatedName`, `TRANSFORM_BLACK`, `VisionEnhancementProvider`, `WarnOnLoadDialog`, `warnOnLoadCheckBoxText`, `warnOnLoadText`。</target>
       </segment>
@@ -8155,7 +8155,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 249</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>All public symbols defined on `Magnification` are now accessible from `winBindings.magnification`. (#18958)</source>
         <target>`Magnification` 中定义的所有公共符号现在都可从 `winBindings.magnification` 访问。(#18958)</target>
       </segment>
@@ -8165,7 +8165,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 250</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`MAGCOLOREFFECT` has been moved to `winBindings.magnification`. (#18958)</source>
         <target>`MAGCOLOREFFECT` 已移至 `winBindings.magnification`。(#18958)</target>
       </segment>
@@ -8175,7 +8175,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 251</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`isScreenFullyBlack` has been moved to `NVDAHelper.localLib`. (#18958)</source>
         <target>`isScreenFullyBlack` 已移至 `NVDAHelper.localLib`。(#18958)</target>
       </segment>
@@ -8185,7 +8185,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 252</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`config.conf["vision"]["screenCurtain"]` has been moved to `config.conf["screenCurtain"]`. (#19177)</source>
         <target>`config.conf["vision"]["screenCurtain"]` 已移至 `config.conf["screenCurtain"]`。(#19177)</target>
       </segment>
@@ -8195,7 +8195,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 253</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `comInterfaces.MathPlayer` and `mathPres.mathPlayer` modules have been removed. (#19239)</source>
         <target>`comInterfaces.MathPlayer` 和 `mathPres.mathPlayer` 模块已移除。(#19239)</target>
       </segment>
@@ -8205,7 +8205,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 254</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been removed from `gui.settingsDialogs.GeneralSettingsPanel` without replacement: `logLevelList`, `allowUsageStatsCheckBox`. (#19296)</source>
         <target>以下符号已从 `gui.settingsDialogs.GeneralSettingsPanel` 移除，且没有替代项：`logLevelList`, `allowUsageStatsCheckBox`。(#19296)</target>
       </segment>
@@ -8215,7 +8215,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 255</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`gui.settingsDialogs.GeneralSettingsPanel.LOG_LEVELS` has been removed.</source>
         <target>`gui.settingsDialogs.GeneralSettingsPanel.LOG_LEVELS` 已移除。</target>
       </segment>
@@ -8224,7 +8224,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 256</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `config.configFlags.LoggingLevel` instead. (#19296)</source>
         <target>请改用 `config.configFlags.LoggingLevel`。(#19296)</target>
       </segment>
@@ -8234,7 +8234,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 257</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Changes to Microsoft Speech API version 4 and 5: (#19432)</source>
         <target>Microsoft Speech API version 4 和 5 的变更：(#19432)</target>
       </segment>
@@ -8244,7 +8244,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 258</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`synthDrivers.sapi4` (name: "sapi4") has been removed.</source>
         <target>`synthDrivers.sapi4` (name: "sapi4") 已移除。</target>
       </segment>
@@ -8253,7 +8253,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 259</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `synthDrivers.sapi4_32` (name: "sapi4_32") instead.</source>
         <target>  请改用 `synthDrivers.sapi4_32` (name: "sapi4_32")。</target>
       </segment>
@@ -8263,7 +8263,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 260</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`synthDrivers.sapi5` (name: "sapi5") now refers to the 64-bit SAPI 5 synth driver.</source>
         <target>`synthDrivers.sapi5`（名称：“sapi5”）现在指 64 位 SAPI 5 合成器驱动。</target>
       </segment>
@@ -8272,7 +8272,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 261</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `synthDrivers.sapi5_32` (name: "sapi5_32") for the 32-bit SAPI 5 driver.</source>
         <target>  请使用 `synthDrivers.sapi5_32`（名称：“sapi5_32”）作为 32 位 SAPI 5 驱动。</target>
       </segment>
@@ -8282,7 +8282,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 262</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`config.setSystemConfigToCurrentConfig` now takes a `Collection` of add-on IDs (as strings) to copy to the system configuration.</source>
         <target>`config.setSystemConfigToCurrentConfig` 现在接受由插件 ID（字符串）组成的 `Collection`，用于指定要复制到系统配置的插件。</target>
       </segment>
@@ -8291,7 +8291,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 263</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Only add-ons with the given IDs will be copied. (#19446)</source>
         <target>只会复制给定 ID 对应的插件。(#19446)</target>
       </segment>
@@ -8301,7 +8301,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 264</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`browseMode.ElementsListDialog.filterTimer` has been removed. (#19702)</source>
         <target>`browseMode.ElementsListDialog.filterTimer` 已移除。(#19702)</target>
       </segment>
@@ -8311,7 +8311,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 265</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The type of the `installDate` property of `addonStore.models.addon.AddonManifestModel` and `addonStore.models.addon.InstalledAddonStoreModel` is now `datetime | None`. (#19901, @CyrilleB79)</source>
         <target>`addonStore.models.addon.AddonManifestModel` 和 `addonStore.models.addon.InstalledAddonStoreModel` 的 `installDate` 属性类型现在为 `datetime | None`。(#19901, @CyrilleB79)</target>
       </segment>
@@ -8331,7 +8331,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 269</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`winVersion.WIN81` is deprecated. (#18684, @josephsl)</source>
         <target>`winVersion.WIN81` 已弃用。(#18684, @josephsl)</target>
       </segment>
@@ -8341,7 +8341,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 270</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAHelper.versionedLibPath` is deprecated.</source>
         <target>`NVDAHelper.versionedLibPath` 已弃用。</target>
       </segment>
@@ -8350,7 +8350,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 271</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `NVDAState.ReadPaths.versionedLibX86Path` instead. (#18207)</source>
         <target>请改用 `NVDAState.ReadPaths.versionedLibX86Path`。(#18207)</target>
       </segment>
@@ -8360,7 +8360,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 272</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAHelper.coreArchLibPath` is deprecated.</source>
         <target>`NVDAHelper.coreArchLibPath` 已弃用。</target>
       </segment>
@@ -8369,7 +8369,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 273</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `NVDAState.ReadPaths.coreArchLibPath` instead. (#18207)</source>
         <target>请改用 `NVDAState.ReadPaths.coreArchLibPath`。(#18207)</target>
       </segment>
@@ -8379,7 +8379,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 274</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAHelper.LOCAL_WIN10_DLL_PATH` is deprecated.</source>
         <target>`NVDAHelper.LOCAL_WIN10_DLL_PATH` 已弃用。</target>
       </segment>
@@ -8388,7 +8388,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 275</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `NVDAState.ReadPaths.nvdaHelperLocalWin10Dll` instead. (#18207)</source>
         <target>请改用 `NVDAState.ReadPaths.nvdaHelperLocalWin10Dll`。(#18207)</target>
       </segment>
@@ -8398,7 +8398,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 276</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `NVDAHelper` to `NVDAHelper.localLib`: `generateBeep`, `VBuf_getTextInRange`.</source>
         <target>以下符号已从 `NVDAHelper` 移至 `NVDAHelper.localLib`：`generateBeep`, `VBuf_getTextInRange`。</target>
       </segment>
@@ -8407,7 +8407,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 277</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `NVDAHelper` is deprecated. (#18207)</source>
         <target>通过 `NVDAHelper` 访问这些符号的做法已弃用。(#18207)</target>
       </segment>
@@ -8417,7 +8417,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 278</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAHelper.onSsmlMarkReached` is deprecated.</source>
         <target>`NVDAHelper.onSsmlMarkReached` 已弃用。</target>
       </segment>
@@ -8426,7 +8426,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 279</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `NVDAHelper.localLib.nvdaController_onSsmlMarkReached` instead. (#18207)</source>
         <target>请改用 `NVDAHelper.localLib.nvdaController_onSsmlMarkReached`。(#18207)</target>
       </segment>
@@ -8436,7 +8436,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 280</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAObjects.window.excel.ExcelCellInfo` is deprecated.</source>
         <target>`NVDAObjects.window.excel.ExcelCellInfo` 已弃用。</target>
       </segment>
@@ -8445,7 +8445,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 281</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `NVDAHelper.localLib.EXCEL_CELLINFO` instead. (#18207)</source>
         <target>请改用 `NVDAHelper.localLib.EXCEL_CELLINFO`。(#18207)</target>
       </segment>
@@ -8455,7 +8455,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 282</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`nvwave.WAVEFORMATEX` is deprecated.</source>
         <target>`nvwave.WAVEFORMATEX` 已弃用。</target>
       </segment>
@@ -8464,7 +8464,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 283</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.mmeapi.WAVEFORMATEX` instead. (#18207)</source>
         <target>请改用 `winBindings.mmeapi.WAVEFORMATEX`。(#18207)</target>
       </segment>
@@ -8474,7 +8474,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 284</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `winuser` to `winBindings.user32`: `GUITHREADINFO`, `HWINEVENTHOOK`, `WINEVENTPROC`, `WNDCLASSEXW`, `WNDPROC`, `PAINTSTRUCT`.</source>
         <target>以下符号已从 `winuser` 移至 `winBindings.user32`：`GUITHREADINFO`, `HWINEVENTHOOK`, `WINEVENTPROC`, `WNDCLASSEXW`, `WNDPROC`, `PAINTSTRUCT`。</target>
       </segment>
@@ -8483,7 +8483,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 285</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `winuser` is deprecated. (#18207, #18883)</source>
         <target>通过 `winuser` 访问这些符号的做法已弃用。(#18207, #18883)</target>
       </segment>
@@ -8493,7 +8493,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 286</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `hwPortUtils` to `winBindings.bthprops`: `BLUETOOTH_ADDRESS`, `BLUETOOTH_DEVICE_INFO`, `BLUETOOTH_MAX_NAME_SIZE`, `BluetoothGetDeviceInfo`.</source>
         <target>以下符号已从 `hwPortUtils` 移至 `winBindings.bthprops`：`BLUETOOTH_ADDRESS`, `BLUETOOTH_DEVICE_INFO`, `BLUETOOTH_MAX_NAME_SIZE`, `BluetoothGetDeviceInfo`。</target>
       </segment>
@@ -8502,7 +8502,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 287</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `hwPortUtils` is deprecated. (#18571)</source>
         <target>通过 `hwPortUtils` 访问这些符号的做法已弃用。(#18571)</target>
       </segment>
@@ -8512,7 +8512,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 288</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`hwPortUtils.BTH_ADDR` is deprecated.</source>
         <target>`hwPortUtils.BTH_ADDR` 已弃用。</target>
       </segment>
@@ -8521,7 +8521,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 289</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.bthprops.BLUETOOTH_ADDRESS` instead. (#18571)</source>
         <target>请改用 `winBindings.bthprops.BLUETOOTH_ADDRESS`。(#18571)</target>
       </segment>
@@ -8531,7 +8531,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 290</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `hwPortUtils` to `winBindings.cfgmgr32`: `CM_Get_Device_ID`, `CR_SUCCESS`, `MAX_DEVICE_ID_LEN`.</source>
         <target>以下符号已从 `hwPortUtils` 移至 `winBindings.cfgmgr32`：`CM_Get_Device_ID`, `CR_SUCCESS`, `MAX_DEVICE_ID_LEN`。</target>
       </segment>
@@ -8540,7 +8540,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 291</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `hwPortUtils` is deprecated. (#18571)</source>
         <target>通过 `hwPortUtils` 访问这些符号的做法已弃用。(#18571)</target>
       </segment>
@@ -8550,7 +8550,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 292</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbol has been moved from `hwPortUtils` to `winBindings.hid`: `HIDD_ATTRIBUTES`.</source>
         <target>以下符号已从 `hwPortUtils` 移至 `winBindings.hid`：`HIDD_ATTRIBUTES`。</target>
       </segment>
@@ -8559,7 +8559,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 293</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to this symbol via `hwPortUtils` is deprecated. (#18571)</source>
         <target>通过 `hwPortUtils` 访问此符号的做法已弃用。(#18571)</target>
       </segment>
@@ -8569,7 +8569,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 294</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`hwIo.hid.hidDll` is deprecated.</source>
         <target>`hwIo.hid.hidDll` 已弃用。</target>
       </segment>
@@ -8578,7 +8578,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 295</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.hid.dll` instead. (#18902)</source>
         <target>请改用 `winBindings.hid.dll`。(#18902)</target>
       </segment>
@@ -8588,7 +8588,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 296</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `hwPortUtils` to `winBindings.setupapi`: `DEVPKEY_Device_BusReportedDeviceDesc`, `DEVPROPKEY`, `GUID_CLASS_COMPORT`, `GUID_DEVINTERFACE_USB_DEVICE`, `HDEVINFO`, `PSP_DEVICE_INTERFACE_DATA`, `PSP_DEVICE_INTERFACE_DETAIL_DATA`, `PSP_DEVINFO_DATA`, `SP_DEVICE_INTERFACE_DATA`, `SP_DEVINFO_DATA`, `SetupDiDestroyDeviceInfoList`, `SetupDiEnumDeviceInfo`, `SetupDiEnumDeviceInterfaces`, `SetupDiGetClassDevs`, `SetupDiGetDeviceInterfaceDetail`, `SetupDiGetDeviceProperty`, `SetupDiGetDeviceRegistryProperty`, `SetupDiOpenDevRegKey`, `SIZEOF_SP_DEVICE_INTERFACE_DETAIL_DATA_W`.</source>
         <target>以下符号已从 `hwPortUtils` 移至 `winBindings.setupapi`：`DEVPKEY_Device_BusReportedDeviceDesc`, `DEVPROPKEY`, `GUID_CLASS_COMPORT`, `GUID_DEVINTERFACE_USB_DEVICE`, `HDEVINFO`, `PSP_DEVICE_INTERFACE_DATA`, `PSP_DEVICE_INTERFACE_DETAIL_DATA`, `PSP_DEVINFO_DATA`, `SP_DEVICE_INTERFACE_DATA`, `SP_DEVINFO_DATA`, `SetupDiDestroyDeviceInfoList`, `SetupDiEnumDeviceInfo`, `SetupDiEnumDeviceInterfaces`, `SetupDiGetClassDevs`, `SetupDiGetDeviceInterfaceDetail`, `SetupDiGetDeviceProperty`, `SetupDiGetDeviceRegistryProperty`, `SetupDiOpenDevRegKey`, `SIZEOF_SP_DEVICE_INTERFACE_DETAIL_DATA_W`。</target>
       </segment>
@@ -8597,7 +8597,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 297</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `hwPortUtils` is deprecated. (#18571)</source>
         <target>通过 `hwPortUtils` 访问这些符号的做法已弃用。(#18571)</target>
       </segment>
@@ -8607,7 +8607,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 298</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `DIGCF_*`, `SPDRP_*`, `DICS_FLAG_*`, and `DIREG_*` constants in `hwPortUtils` are deprecated.</source>
         <target>`hwPortUtils` 中的 `DIGCF_*`, `SPDRP_*`, `DICS_FLAG_*` 和 `DIREG_*` 常量已弃用。</target>
       </segment>
@@ -8616,7 +8616,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 299</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use their `Enum` counterparts from `winBindings.setupapi` instead. (#18571)</source>
         <target>请改用 `winBindings.setupapi` 中对应的 `Enum`。(#18571)</target>
       </segment>
@@ -8626,7 +8626,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 300</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`hwPortUtils.dummy`, `hwPortUtils.INVALID_HANDLE_VALUE` and `hwPortUtils.ValidHandle` are deprecated, with no planned replacement. (#18571)</source>
         <target>`hwPortUtils.dummy`, `hwPortUtils.INVALID_HANDLE_VALUE` 和 `hwPortUtils.ValidHandle` 已弃用，且没有计划中的替代项。(#18571)</target>
       </segment>
@@ -8636,7 +8636,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 301</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`hwPortUtils.ERROR_INSUFFICIENT_BUFFER` and `hwPortUtils.ERROR_NO_MORE_ITEMS` are deprecated.</source>
         <target>`hwPortUtils.ERROR_INSUFFICIENT_BUFFER` 和 `hwPortUtils.ERROR_NO_MORE_ITEMS` 已弃用。</target>
       </segment>
@@ -8645,7 +8645,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 302</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winAPI.SystemErrorCodes.INSUFFICIENT_BUFFER` and `winAPI.SystemErrorCodes.NO_MORE_ITEMS` instead. (#18571)</source>
         <target>请改用 `winAPI.SystemErrorCodes.INSUFFICIENT_BUFFER` 和 `winAPI.SystemErrorCodes.NO_MORE_ITEMS`。(#18571)</target>
       </segment>
@@ -8655,7 +8655,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 303</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`addonHandler.BUNDLE_EXTENSION` has been moved to `config.registry.ADDON_BUNDLE_EXTENSION`. (#18851)</source>
         <target>`addonHandler.BUNDLE_EXTENSION` 已移至 `config.registry.ADDON_BUNDLE_EXTENSION`。(#18851)</target>
       </segment>
@@ -8665,7 +8665,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 304</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`addonHandler.NVDA_ADDON_PROG_ID` has been moved to `config.registry.NVDA_ADDON_PROG_ID`. (#18851)</source>
         <target>`addonHandler.NVDA_ADDON_PROG_ID` 已移至 `config.registry.NVDA_ADDON_PROG_ID`。(#18851)</target>
       </segment>
@@ -8675,7 +8675,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 305</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`installer.defaultInstallPath` has been moved to `NVDAState.WritePaths.defaultInstallDir`. (#18851)</source>
         <target>`installer.defaultInstallPath` 已移至 `NVDAState.WritePaths.defaultInstallDir`。(#18851)</target>
       </segment>
@@ -8685,7 +8685,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 306</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`fonts.gdi32`, `screenBitmap.gdi32` and `winGDI.gdi32` are deprecated.</source>
         <target>`fonts.gdi32`, `screenBitmap.gdi32` 和 `winGDI.gdi32` 已弃用。</target>
       </segment>
@@ -8694,7 +8694,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 307</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.gdi32.dll` instead. (#18860)</source>
         <target>请改用 `winBindings.gdi32.dll`。(#18860)</target>
       </segment>
@@ -8704,7 +8704,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 308</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`shellapi.shell32` is deprecated.</source>
         <target>`shellapi.shell32` 已弃用。</target>
       </segment>
@@ -8713,7 +8713,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 309</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.shell32.dll` instead. (#18860)</source>
         <target>请改用 `winBindings.shell32.dll`。(#18860)</target>
       </segment>
@@ -8723,7 +8723,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 310</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `shellapi` to `winBindings.shell32`: `SHELLEXECUTEINFO`, `SHELLEXECUTEINFOW`.</source>
         <target>以下符号已从 `shellapi` 移至 `winBindings.shell32`：`SHELLEXECUTEINFO`, `SHELLEXECUTEINFOW`。</target>
       </segment>
@@ -8732,7 +8732,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 311</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `shellapi` is deprecated. (#18860)</source>
         <target>通过 `shellapi` 访问这些符号的做法已弃用。(#18860)</target>
       </segment>
@@ -8742,7 +8742,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 312</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`winGDI.gdiplus` is deprecated.</source>
         <target>`winGDI.gdiplus` 已弃用。</target>
       </segment>
@@ -8751,7 +8751,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 313</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.gdiplus.dll` instead. (#18860)</source>
         <target>请改用 `winBindings.gdiplus.dll`。(#18860)</target>
       </segment>
@@ -8761,7 +8761,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 314</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `winGDI` to `winBindings.gdi32`: `RGBQUAD`, `BITMAPINFOHEADER`, `BITMAPINFO`.</source>
         <target>以下符号已从 `winGDI` 移至 `winBindings.gdi32`：`RGBQUAD`, `BITMAPINFOHEADER`, `BITMAPINFO`。</target>
       </segment>
@@ -8770,7 +8770,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 315</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `winGDI` is deprecated. (#18860)</source>
         <target>通过 `winGDI` 访问这些符号的做法已弃用。(#18860)</target>
       </segment>
@@ -8780,7 +8780,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 316</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `winGDI` to `winBindings.gdiplus`: `GdiplusStartupInput`, `GdiplusStartupOutput`.</source>
         <target>以下符号已从 `winGDI` 移至 `winBindings.gdiplus`：`GdiplusStartupInput`, `GdiplusStartupOutput`。</target>
       </segment>
@@ -8789,7 +8789,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 317</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `winGDI` is deprecated. (#18860)</source>
         <target>通过 `winGDI` 访问这些符号的做法已弃用。(#18860)</target>
       </segment>
@@ -8799,7 +8799,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 318</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `winKernel` to `winBindings.advapi32`: `PROCESS_INFORMATION`, `STARTUPINFO`, `STARTUPINFOW`.</source>
         <target>以下符号已从 `winKernel` 移至 `winBindings.advapi32`：`PROCESS_INFORMATION`, `STARTUPINFO`, `STARTUPINFOW`。</target>
       </segment>
@@ -8808,7 +8808,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 319</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `winKernel` is deprecated. (#18860)</source>
         <target>通过 `winKernel` 访问这些符号的做法已弃用。(#18860)</target>
       </segment>
@@ -8818,7 +8818,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 320</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`winKernel.advapi32` is deprecated.</source>
         <target>`winKernel.advapi32` 已弃用。</target>
       </segment>
@@ -8827,7 +8827,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 321</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.advapi32.dll` instead. (#18860)</source>
         <target>请改用 `winBindings.advapi32.dll`。(#18860)</target>
       </segment>
@@ -8837,7 +8837,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 322</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`NVDAHelper.bstrReturn` is deprecated, with no planned replacement. (#18858)</source>
         <target>`NVDAHelper.bstrReturn` 已弃用，且没有计划中的替代项。(#18858)</target>
       </segment>
@@ -8847,7 +8847,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 323</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`contentRecog.uwpOcr.uwpOcr_Callback` is deprecated.</source>
         <target>`contentRecog.uwpOcr.uwpOcr_Callback` 已弃用。</target>
       </segment>
@@ -8856,7 +8856,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 324</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `NVDAHelper.localWin10.uwpOcr_Callback` instead. (#18858)</source>
         <target>请改用 `NVDAHelper.localWin10.uwpOcr_Callback`。(#18858)</target>
       </segment>
@@ -8866,7 +8866,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 325</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`touchHelper.SM_MAXIMUMTOUCHES` is deprecated.</source>
         <target>`touchHelper.SM_MAXIMUMTOUCHES` 已弃用。</target>
       </segment>
@@ -8875,7 +8875,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 326</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winAPI.winUser.constants.SystemMetrics.MAXIMUM_TOUCHES` instead. (#18883)</source>
         <target>请改用 `winAPI.winUser.constants.SystemMetrics.MAXIMUM_TOUCHES`。(#18883)</target>
       </segment>
@@ -8885,7 +8885,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 327</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`screenBitmap.user32`, `winAPI.winUser.functions.user32`, `winGDI.user32`, and `winUser.user32` are deprecated.</source>
         <target>`screenBitmap.user32`, `winAPI.winUser.functions.user32`, `winGDI.user32` 和 `winUser.user32` 已弃用。</target>
       </segment>
@@ -8894,7 +8894,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 328</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.user32.dll` instead. (#18883)</source>
         <target>请改用 `winBindings.user32.dll`。(#18883)</target>
       </segment>
@@ -8904,7 +8904,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 329</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `HardwareInput`, `Input`, `KeyBdInput`, `MouseInput` and `NMHdrStruct` structures from `winUser` are deprecated.</source>
         <target>`winUser` 中的 `HardwareInput`, `Input`, `KeyBdInput`, `MouseInput` 和 `NMHdrStruct` 结构已弃用。</target>
       </segment>
@@ -8913,7 +8913,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 330</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `HARDWAREINPUT`, `INPUT`, `KEYBDINPUT`, `MOUSEINPUT` and `NMHDR` from `winBindings.user32` instead. (#18883, #19808)</source>
         <target>请改用 `winBindings.user32` 中的 `HARDWAREINPUT`, `INPUT`, `KEYBDINPUT`, `MOUSEINPUT` 和 `NMHDR`。(#18883, #19808)</target>
       </segment>
@@ -8923,7 +8923,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 331</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `winKernel` to `winBindings.kernel32`: `FILETIME`, `SYSTEMTIME` and `TIME_ZONE_INFORMATION`.</source>
         <target>以下符号已从 `winKernel` 移至 `winBindings.kernel32`：`FILETIME`, `SYSTEMTIME` 和 `TIME_ZONE_INFORMATION`。</target>
       </segment>
@@ -8932,7 +8932,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 332</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `winKernel` is deprecated. (#18896)</source>
         <target>通过 `winKernel` 访问这些符号的做法已弃用。(#18896)</target>
       </segment>
@@ -8942,7 +8942,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 333</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `wincon` to `winBindings.kernel32`: `COORD`, `CONSOLE_SCREEN_BUFFER_INFO`, `CONSOLE_SELECTION_INFO`, `CHAR_INFO` and `PHANDLER_ROUTINE`.</source>
         <target>以下符号已从 `wincon` 移至 `winBindings.kernel32`：`COORD`, `CONSOLE_SCREEN_BUFFER_INFO`, `CONSOLE_SELECTION_INFO`, `CHAR_INFO` 和 `PHANDLER_ROUTINE`。</target>
       </segment>
@@ -8951,7 +8951,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 334</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `wincon` is deprecated. (#18896)</source>
         <target>通过 `wincon` 访问这些符号的做法已弃用。(#18896)</target>
       </segment>
@@ -8961,7 +8961,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 335</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`appModuleHandler.processEntry32W` has been moved to `winBindings.kernel32.PROCESSENTRY32W`. (#18896)</source>
         <target>`appModuleHandler.processEntry32W` 已移至 `winBindings.kernel32.PROCESSENTRY32W`。(#18896)</target>
       </segment>
@@ -8971,7 +8971,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 336</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`winKernel.kernel32` is deprecated.</source>
         <target>`winKernel.kernel32` 已弃用。</target>
       </segment>
@@ -8980,7 +8980,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 337</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `winBindings.kernel32.dll` instead. (#18896)</source>
         <target>请改用 `winBindings.kernel32.dll`。(#18896)</target>
       </segment>
@@ -8990,7 +8990,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 338</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `LVS_*` constants from `NVDAObjects.IAccessible.sysListView32` are deprecated.</source>
         <target>`NVDAObjects.IAccessible.sysListView32` 中的 `LVS_*` 常量已弃用。</target>
       </segment>
@@ -8999,7 +8999,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 339</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use the `ListViewWindowStyle` enumeration instead. (#18926, @LeonarddeR)</source>
         <target>请改用 `ListViewWindowStyle` 枚举。(#18926, @LeonarddeR)</target>
       </segment>
@@ -9009,7 +9009,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 340</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `INPUT_MOUSE`, `INPUT_KEYBOARD`, `KEYEVENTF_KEYUP` and `KEYEVENTF_UNICODE` constants from `winUser` are deprecated.</source>
         <target>`winUser` 中的 `INPUT_MOUSE`, `INPUT_KEYBOARD`, `KEYEVENTF_KEYUP` 和 `KEYEVENTF_UNICODE` 常量已弃用。</target>
       </segment>
@@ -9018,7 +9018,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 341</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `INPUT_TYPE.MOUSE`, `INPUT_TYPE.KEYBOARD`, `KEYEVENTF.KEYUP` and `KEYEVENTF.UNICODE` from `winBindings.user32` instead. (#18947)</source>
         <target>请改用 `winBindings.user32` 中的 `INPUT_TYPE.MOUSE`, `INPUT_TYPE.KEYBOARD`, `KEYEVENTF.KEYUP` 和 `KEYEVENTF.UNICODE`。(#18947)</target>
       </segment>
@@ -9028,7 +9028,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 342</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The following symbols have been moved from `updateCheck` to `winBindings.crypt32`: `CERT_USAGE_MATCH`, `CERT_CHAIN_PARA`.</source>
         <target>以下符号已从 `updateCheck` 移至 `winBindings.crypt32`：`CERT_USAGE_MATCH`, `CERT_CHAIN_PARA`。</target>
       </segment>
@@ -9037,7 +9037,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 343</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Access to these symbols via `updateCheck` is deprecated. (#18956)</source>
         <target>通过 `updateCheck` 访问这些符号的做法已弃用。(#18956)</target>
       </segment>
@@ -9047,7 +9047,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 344</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`textInfos.OffsetsTextInfo.allowMoveToOffsetPastEnd` is deprecated.</source>
         <target>`textInfos.OffsetsTextInfo.allowMoveToOffsetPastEnd` 已弃用。</target>
       </segment>
@@ -9056,7 +9056,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 345</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use the `OffsetsTextInfo.allowMoveToUnitOffsetPastEnd` method instead. (#19152, @LeonarddeR)</source>
         <target>请改用 `OffsetsTextInfo.allowMoveToUnitOffsetPastEnd` 方法。(#19152, @LeonarddeR)</target>
       </segment>
@@ -9066,7 +9066,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 346</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`installer.comparePreviousInstall` is deprecated with no planned replacement. (#19631)</source>
         <target>`installer.comparePreviousInstall` 已弃用，且没有计划中的替代项。(#19631)</target>
       </segment>
@@ -9076,7 +9076,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 347</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Deprecations in `addonHandler`: (#19564)</source>
         <target>`addonHandler` 中的弃用项：(#19564)</target>
       </segment>
@@ -9086,7 +9086,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 348</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`stateFilename` is deprecated.</source>
         <target>`stateFilename` 已弃用。</target>
       </segment>
@@ -9095,7 +9095,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 349</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `STATE_FILENAME` instead.</source>
         <target>  请改用 `STATE_FILENAME`。</target>
       </segment>
@@ -9105,7 +9105,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 350</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`AddonsState.fromPickledDict` is deprecated.</source>
         <target>`AddonsState.fromPickledDict` 已弃用。</target>
       </segment>
@@ -9114,7 +9114,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 351</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Use `AddonsState.fromDict` instead.</source>
         <target>  请改用 `AddonsState.fromDict`。</target>
       </segment>
