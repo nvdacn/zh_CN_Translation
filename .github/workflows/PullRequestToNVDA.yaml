@@ -4,14 +4,16 @@ on:
   push:
     branches:
       - "Uploads"
-      - "FixupPullRequestToNVDA"
+    paths:
+      - 'Translation/miscDeps/*'
 
 jobs:
   Pull-Request-To-NVDA:
     name: Pull Request to NVDA
+    if: ${{ vars.Run_NVDA_Translations_Workflow }}
     runs-on: ubuntu-latest
     env:
-      BaseOwner: wmhn1872265132
+      BaseOwner: nvaccess
       HeadOwner: ${{ github.repository_owner }}
     steps:
       - name: Checkout ${{ github.repository }} repository
