@@ -389,10 +389,10 @@ IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
   set "VerifyFile=user_docs\en\%ShortName%.xliff"
-  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  set "PathSetSuccessfully=XLIFFTemplatePathSetSuccessfully"
   goto SetPersonalSourcePath
 )
-:NVDASourceCodePathSetSuccessfully
+:XLIFFTemplatePathSetSuccessfully
 Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 if not defined L10NSourceCodePath (
   set "goto=L10NExe"
@@ -540,10 +540,10 @@ IF NOT EXIST "%AddonSourcePath%" (
   set "PromptInformation=请输入您的本地 %AddonName% 插件的存储库路径（无需引号），按回车键确认。"
   set "TargetPath=%AddonSourcePath%"
   set "VerifyFile=%AddonName%.xliff"
-  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  set "PathSetSuccessfully=XLIFFTemplatePathSetSuccessfully"
   goto SetPersonalSourcePath
 )
-goto NVDASourceCodePathSetSuccessfully
+goto XLIFFTemplatePathSetSuccessfully
 
 Rem 设置本地存储库路径  
 :SetPersonalSourcePath
