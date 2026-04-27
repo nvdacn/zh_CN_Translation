@@ -7627,7 +7627,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been removed from `installer` with no direct replacement: `programFilesPath`, `getStartMenuFolder`, `getInstallPath`. (#18851)</source>
-        <target>以下符号已从 `installer` 移除，且没有直接替代项：`programFilesPath`, `getStartMenuFolder`, `getInstallPath`。(#18851)</target>
+        <target>以下符号已从 `installer` 移除，且没有直接替代项：`programFilesPath`、`getStartMenuFolder`、`getInstallPath`。(#18851)</target>
       </segment>
     </unit>
     <unit id="5ccf0f27-f5a7-4de9-b819-96b64bd17843">
@@ -7705,7 +7705,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The `rgpszUsageIdentifier` member of the `updateCheck.CERT_USAGE_MATCH` struct is now of type `POINTER(LPSTR)` rather than `c_void_p` to correctly align with Microsoft documentation. (#18956)</source>
-        <target>`updateCheck.CERT_USAGE_MATCH` 结构的 `rgpszUsageIdentifier` 成员类型现在为 `POINTER(LPSTR)`，而不是 `c_void_p`，以便与 Microsoft 文档正确保持一致。(#18956)</target>
+        <target>`updateCheck.CERT_USAGE_MATCH` 结构的 `rgpszUsageIdentifier` 成员类型现在为 `POINTER(LPSTR)`，而不是 `c_void_p`，以便与 Microsoft 文档保持一致。(#18956)</target>
       </segment>
     </unit>
     <unit id="40d08dc8-cdf5-4c02-ac66-7d49d8642669">
@@ -7744,7 +7744,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been removed from `appModules.explorer` with no replacement: `SuggestionListItem`, `SearchBoxClient`, `GridTileElement`, `GridListTileElement`, `GridGroup`, `ImmersiveLauncher`. (#18757, @josephsl)</source>
-        <target>以下符号已从 `appModules.explorer` 移除，且没有替代项：`SuggestionListItem`, `SearchBoxClient`, `GridTileElement`, `GridListTileElement`, `GridGroup`, `ImmersiveLauncher`。(#18757, @josephsl)</target>
+        <target>以下符号已从 `appModules.explorer` 移除，且没有替代项：`SuggestionListItem`、`SearchBoxClient`、`GridTileElement`、`GridListTileElement`、`GridGroup`、`ImmersiveLauncher`。(#18757, @josephsl)</target>
       </segment>
     </unit>
     <unit id="376668f2-d12e-4f7a-938f-d51f098d07ca">
@@ -8147,7 +8147,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have no public replacement: `playToggleSoundsCheckBoxText`, `ScreenCurtainGuiPanel`, `ScreenCurtainProvider`, `ScreenCurtainSettings`, `screenCurtainTranslatedName`, `TRANSFORM_BLACK`, `VisionEnhancementProvider`, `WarnOnLoadDialog`, `warnOnLoadCheckBoxText`, `warnOnLoadText`.</source>
-        <target>以下符号没有公开替代项：`playToggleSoundsCheckBoxText`, `ScreenCurtainGuiPanel`, `ScreenCurtainProvider`, `ScreenCurtainSettings`, `screenCurtainTranslatedName`, `TRANSFORM_BLACK`, `VisionEnhancementProvider`, `WarnOnLoadDialog`, `warnOnLoadCheckBoxText`, `warnOnLoadText`。</target>
+        <target>以下符号没有公开替代项：`playToggleSoundsCheckBoxText`、`ScreenCurtainGuiPanel`、`ScreenCurtainProvider`、`ScreenCurtainSettings`、`screenCurtainTranslatedName`、`TRANSFORM_BLACK`、`VisionEnhancementProvider`、`WarnOnLoadDialog`、`warnOnLoadCheckBoxText`、`warnOnLoadText`。</target>
       </segment>
     </unit>
     <unit id="8e3d8f5a-fa2e-4edf-98ea-4f0944667717">
@@ -8207,7 +8207,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been removed from `gui.settingsDialogs.GeneralSettingsPanel` without replacement: `logLevelList`, `allowUsageStatsCheckBox`. (#19296)</source>
-        <target>以下符号已从 `gui.settingsDialogs.GeneralSettingsPanel` 移除，且没有替代项：`logLevelList`, `allowUsageStatsCheckBox`。(#19296)</target>
+        <target>以下符号已从 `gui.settingsDialogs.GeneralSettingsPanel` 移除，且没有替代项：`logLevelList`、`allowUsageStatsCheckBox`。(#19296)</target>
       </segment>
     </unit>
     <unit id="b72798af-9c26-4871-bafa-01ef0ba52427">
@@ -8400,7 +8400,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `NVDAHelper` to `NVDAHelper.localLib`: `generateBeep`, `VBuf_getTextInRange`.</source>
-        <target>以下符号已从 `NVDAHelper` 移至 `NVDAHelper.localLib`：`generateBeep`, `VBuf_getTextInRange`。</target>
+        <target>以下符号已从 `NVDAHelper` 移至 `NVDAHelper.localLib`：`generateBeep`、`VBuf_getTextInRange`。</target>
       </segment>
     </unit>
     <unit id="7ba0b67a-c79c-4beb-80e8-8dd0288c1b7c">
@@ -8476,7 +8476,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `winuser` to `winBindings.user32`: `GUITHREADINFO`, `HWINEVENTHOOK`, `WINEVENTPROC`, `WNDCLASSEXW`, `WNDPROC`, `PAINTSTRUCT`.</source>
-        <target>以下符号已从 `winuser` 移至 `winBindings.user32`：`GUITHREADINFO`, `HWINEVENTHOOK`, `WINEVENTPROC`, `WNDCLASSEXW`, `WNDPROC`, `PAINTSTRUCT`。</target>
+        <target>以下符号已从 `winuser` 移至 `winBindings.user32`：`GUITHREADINFO`、`HWINEVENTHOOK`、`WINEVENTPROC`、`WNDCLASSEXW`、`WNDPROC`、`PAINTSTRUCT`。</target>
       </segment>
     </unit>
     <unit id="a0e15bce-4213-4e9e-b6e9-08f73cbd070e">
@@ -8495,7 +8495,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `hwPortUtils` to `winBindings.bthprops`: `BLUETOOTH_ADDRESS`, `BLUETOOTH_DEVICE_INFO`, `BLUETOOTH_MAX_NAME_SIZE`, `BluetoothGetDeviceInfo`.</source>
-        <target>以下符号已从 `hwPortUtils` 移至 `winBindings.bthprops`：`BLUETOOTH_ADDRESS`, `BLUETOOTH_DEVICE_INFO`, `BLUETOOTH_MAX_NAME_SIZE`, `BluetoothGetDeviceInfo`。</target>
+        <target>以下符号已从 `hwPortUtils` 移至 `winBindings.bthprops`：`BLUETOOTH_ADDRESS`、`BLUETOOTH_DEVICE_INFO`、`BLUETOOTH_MAX_NAME_SIZE`、`BluetoothGetDeviceInfo`。</target>
       </segment>
     </unit>
     <unit id="8cbe3679-6b8f-4e91-bfeb-09accb16a7ef">
@@ -8533,7 +8533,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `hwPortUtils` to `winBindings.cfgmgr32`: `CM_Get_Device_ID`, `CR_SUCCESS`, `MAX_DEVICE_ID_LEN`.</source>
-        <target>以下符号已从 `hwPortUtils` 移至 `winBindings.cfgmgr32`：`CM_Get_Device_ID`, `CR_SUCCESS`, `MAX_DEVICE_ID_LEN`。</target>
+        <target>以下符号已从 `hwPortUtils` 移至 `winBindings.cfgmgr32`：`CM_Get_Device_ID`、`CR_SUCCESS`、`MAX_DEVICE_ID_LEN`。</target>
       </segment>
     </unit>
     <unit id="a88ed0f7-dd85-49d9-b708-8eafd1200d7d">
@@ -8590,7 +8590,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `hwPortUtils` to `winBindings.setupapi`: `DEVPKEY_Device_BusReportedDeviceDesc`, `DEVPROPKEY`, `GUID_CLASS_COMPORT`, `GUID_DEVINTERFACE_USB_DEVICE`, `HDEVINFO`, `PSP_DEVICE_INTERFACE_DATA`, `PSP_DEVICE_INTERFACE_DETAIL_DATA`, `PSP_DEVINFO_DATA`, `SP_DEVICE_INTERFACE_DATA`, `SP_DEVINFO_DATA`, `SetupDiDestroyDeviceInfoList`, `SetupDiEnumDeviceInfo`, `SetupDiEnumDeviceInterfaces`, `SetupDiGetClassDevs`, `SetupDiGetDeviceInterfaceDetail`, `SetupDiGetDeviceProperty`, `SetupDiGetDeviceRegistryProperty`, `SetupDiOpenDevRegKey`, `SIZEOF_SP_DEVICE_INTERFACE_DETAIL_DATA_W`.</source>
-        <target>以下符号已从 `hwPortUtils` 移至 `winBindings.setupapi`：`DEVPKEY_Device_BusReportedDeviceDesc`, `DEVPROPKEY`, `GUID_CLASS_COMPORT`, `GUID_DEVINTERFACE_USB_DEVICE`, `HDEVINFO`, `PSP_DEVICE_INTERFACE_DATA`, `PSP_DEVICE_INTERFACE_DETAIL_DATA`, `PSP_DEVINFO_DATA`, `SP_DEVICE_INTERFACE_DATA`, `SP_DEVINFO_DATA`, `SetupDiDestroyDeviceInfoList`, `SetupDiEnumDeviceInfo`, `SetupDiEnumDeviceInterfaces`, `SetupDiGetClassDevs`, `SetupDiGetDeviceInterfaceDetail`, `SetupDiGetDeviceProperty`, `SetupDiGetDeviceRegistryProperty`, `SetupDiOpenDevRegKey`, `SIZEOF_SP_DEVICE_INTERFACE_DETAIL_DATA_W`。</target>
+        <target>以下符号已从 `hwPortUtils` 移至 `winBindings.setupapi`：`DEVPKEY_Device_BusReportedDeviceDesc`、`DEVPROPKEY`、`GUID_CLASS_COMPORT`、`GUID_DEVINTERFACE_USB_DEVICE`、`HDEVINFO`、`PSP_DEVICE_INTERFACE_DATA`、`PSP_DEVICE_INTERFACE_DETAIL_DATA`、`PSP_DEVINFO_DATA`、`SP_DEVICE_INTERFACE_DATA`、`SP_DEVINFO_DATA`、`SetupDiDestroyDeviceInfoList`、`SetupDiEnumDeviceInfo`、`SetupDiEnumDeviceInterfaces`、`SetupDiGetClassDevs`、`SetupDiGetDeviceInterfaceDetail`、`SetupDiGetDeviceProperty`、`SetupDiGetDeviceRegistryProperty`、`SetupDiOpenDevRegKey`、`SIZEOF_SP_DEVICE_INTERFACE_DETAIL_DATA_W`。</target>
       </segment>
     </unit>
     <unit id="60db6947-c6b4-4edd-bbae-0e22fad0f3a5">
@@ -8609,7 +8609,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The `DIGCF_*`, `SPDRP_*`, `DICS_FLAG_*`, and `DIREG_*` constants in `hwPortUtils` are deprecated.</source>
-        <target>`hwPortUtils` 中的 `DIGCF_*`, `SPDRP_*`, `DICS_FLAG_*` 和 `DIREG_*` 常量已弃用。</target>
+        <target>`hwPortUtils` 中的 `DIGCF_*`、`SPDRP_*`、`DICS_FLAG_*` 和 `DIREG_*` 常量已弃用。</target>
       </segment>
     </unit>
     <unit id="cc1eeac7-4fef-469c-a732-2c621c8fb6c2">
@@ -8628,7 +8628,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>`hwPortUtils.dummy`, `hwPortUtils.INVALID_HANDLE_VALUE` and `hwPortUtils.ValidHandle` are deprecated, with no planned replacement. (#18571)</source>
-        <target>`hwPortUtils.dummy`, `hwPortUtils.INVALID_HANDLE_VALUE` 和 `hwPortUtils.ValidHandle` 已弃用，且没有计划中的替代项。(#18571)</target>
+        <target>`hwPortUtils.dummy`、`hwPortUtils.INVALID_HANDLE_VALUE` 和 `hwPortUtils.ValidHandle` 已弃用，且没有计划中的替代项。(#18571)</target>
       </segment>
     </unit>
     <unit id="d3f3239c-4efd-4ec6-82b5-160b65b70c8a">
@@ -8687,7 +8687,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>`fonts.gdi32`, `screenBitmap.gdi32` and `winGDI.gdi32` are deprecated.</source>
-        <target>`fonts.gdi32`, `screenBitmap.gdi32` 和 `winGDI.gdi32` 已弃用。</target>
+        <target>`fonts.gdi32`、`screenBitmap.gdi32` 和 `winGDI.gdi32` 已弃用。</target>
       </segment>
     </unit>
     <unit id="10ad8772-cc94-43fb-94a6-a0c2ad6019a5">
@@ -8725,7 +8725,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `shellapi` to `winBindings.shell32`: `SHELLEXECUTEINFO`, `SHELLEXECUTEINFOW`.</source>
-        <target>以下符号已从 `shellapi` 移至 `winBindings.shell32`：`SHELLEXECUTEINFO`, `SHELLEXECUTEINFOW`。</target>
+        <target>以下符号已从 `shellapi` 移至 `winBindings.shell32`：`SHELLEXECUTEINFO`、`SHELLEXECUTEINFOW`。</target>
       </segment>
     </unit>
     <unit id="d6179c40-fd9f-480b-9858-9d7d862e650f">
@@ -8763,7 +8763,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `winGDI` to `winBindings.gdi32`: `RGBQUAD`, `BITMAPINFOHEADER`, `BITMAPINFO`.</source>
-        <target>以下符号已从 `winGDI` 移至 `winBindings.gdi32`：`RGBQUAD`, `BITMAPINFOHEADER`, `BITMAPINFO`。</target>
+        <target>以下符号已从 `winGDI` 移至 `winBindings.gdi32`：`RGBQUAD`、`BITMAPINFOHEADER`、`BITMAPINFO`。</target>
       </segment>
     </unit>
     <unit id="41339eda-e992-45ff-8335-302beaea3f34">
@@ -8782,7 +8782,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `winGDI` to `winBindings.gdiplus`: `GdiplusStartupInput`, `GdiplusStartupOutput`.</source>
-        <target>以下符号已从 `winGDI` 移至 `winBindings.gdiplus`：`GdiplusStartupInput`, `GdiplusStartupOutput`。</target>
+        <target>以下符号已从 `winGDI` 移至 `winBindings.gdiplus`：`GdiplusStartupInput`、`GdiplusStartupOutput`。</target>
       </segment>
     </unit>
     <unit id="a8e0e927-d73d-4aee-ace4-3e1a4429a015">
@@ -8801,7 +8801,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `winKernel` to `winBindings.advapi32`: `PROCESS_INFORMATION`, `STARTUPINFO`, `STARTUPINFOW`.</source>
-        <target>以下符号已从 `winKernel` 移至 `winBindings.advapi32`：`PROCESS_INFORMATION`, `STARTUPINFO`, `STARTUPINFOW`。</target>
+        <target>以下符号已从 `winKernel` 移至 `winBindings.advapi32`：`PROCESS_INFORMATION`、`STARTUPINFO`、`STARTUPINFOW`。</target>
       </segment>
     </unit>
     <unit id="168fcbb9-f0e5-4c9a-a271-d02edfe94417">
@@ -8887,7 +8887,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>`screenBitmap.user32`, `winAPI.winUser.functions.user32`, `winGDI.user32`, and `winUser.user32` are deprecated.</source>
-        <target>`screenBitmap.user32`, `winAPI.winUser.functions.user32`, `winGDI.user32` 和 `winUser.user32` 已弃用。</target>
+        <target>`screenBitmap.user32`、`winAPI.winUser.functions.user32`、`winGDI.user32` 和 `winUser.user32` 已弃用。</target>
       </segment>
     </unit>
     <unit id="f820cfb9-d67d-41ff-8cf3-4a4b9823f8ff">
@@ -8906,7 +8906,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The `HardwareInput`, `Input`, `KeyBdInput`, `MouseInput` and `NMHdrStruct` structures from `winUser` are deprecated.</source>
-        <target>`winUser` 中的 `HardwareInput`, `Input`, `KeyBdInput`, `MouseInput` 和 `NMHdrStruct` 结构已弃用。</target>
+        <target>`winUser` 中的 `HardwareInput`、`Input`、`KeyBdInput`、`MouseInput` 和 `NMHdrStruct` 结构已弃用。</target>
       </segment>
     </unit>
     <unit id="3436f6a1-8be4-44af-ab0d-83d1a868c286">
@@ -8915,7 +8915,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Use `HARDWAREINPUT`, `INPUT`, `KEYBDINPUT`, `MOUSEINPUT` and `NMHDR` from `winBindings.user32` instead. (#18883, #19808)</source>
-        <target>请改用 `winBindings.user32` 中的 `HARDWAREINPUT`, `INPUT`, `KEYBDINPUT`, `MOUSEINPUT` 和 `NMHDR`。(#18883, #19808)</target>
+        <target>请改用 `winBindings.user32` 中的 `HARDWAREINPUT`、`INPUT`、`KEYBDINPUT`、`MOUSEINPUT` 和 `NMHDR`。(#18883, #19808)</target>
       </segment>
     </unit>
     <unit id="f9346b23-f4d3-436d-b044-3d7d73b4e406">
@@ -8925,7 +8925,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `winKernel` to `winBindings.kernel32`: `FILETIME`, `SYSTEMTIME` and `TIME_ZONE_INFORMATION`.</source>
-        <target>以下符号已从 `winKernel` 移至 `winBindings.kernel32`：`FILETIME`, `SYSTEMTIME` 和 `TIME_ZONE_INFORMATION`。</target>
+        <target>以下符号已从 `winKernel` 移至 `winBindings.kernel32`：`FILETIME`、`SYSTEMTIME` 和 `TIME_ZONE_INFORMATION`。</target>
       </segment>
     </unit>
     <unit id="b4cb00dd-a85c-451f-94d3-5b08e5e2b07f">
@@ -8944,7 +8944,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `wincon` to `winBindings.kernel32`: `COORD`, `CONSOLE_SCREEN_BUFFER_INFO`, `CONSOLE_SELECTION_INFO`, `CHAR_INFO` and `PHANDLER_ROUTINE`.</source>
-        <target>以下符号已从 `wincon` 移至 `winBindings.kernel32`：`COORD`, `CONSOLE_SCREEN_BUFFER_INFO`, `CONSOLE_SELECTION_INFO`, `CHAR_INFO` 和 `PHANDLER_ROUTINE`。</target>
+        <target>以下符号已从 `wincon` 移至 `winBindings.kernel32`：`COORD`、`CONSOLE_SCREEN_BUFFER_INFO`、`CONSOLE_SELECTION_INFO`、`CHAR_INFO` 和 `PHANDLER_ROUTINE`。</target>
       </segment>
     </unit>
     <unit id="3d148196-f4c7-4f00-b38c-b14222c718b2">
@@ -9011,7 +9011,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The `INPUT_MOUSE`, `INPUT_KEYBOARD`, `KEYEVENTF_KEYUP` and `KEYEVENTF_UNICODE` constants from `winUser` are deprecated.</source>
-        <target>`winUser` 中的 `INPUT_MOUSE`, `INPUT_KEYBOARD`, `KEYEVENTF_KEYUP` 和 `KEYEVENTF_UNICODE` 常量已弃用。</target>
+        <target>`winUser` 中的 `INPUT_MOUSE`、`INPUT_KEYBOARD`、`KEYEVENTF_KEYUP` 和 `KEYEVENTF_UNICODE` 常量已弃用。</target>
       </segment>
     </unit>
     <unit id="8912a094-baa9-43a8-964a-93b766536ec8">
@@ -9020,7 +9020,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Use `INPUT_TYPE.MOUSE`, `INPUT_TYPE.KEYBOARD`, `KEYEVENTF.KEYUP` and `KEYEVENTF.UNICODE` from `winBindings.user32` instead. (#18947)</source>
-        <target>请改用 `winBindings.user32` 中的 `INPUT_TYPE.MOUSE`, `INPUT_TYPE.KEYBOARD`, `KEYEVENTF.KEYUP` 和 `KEYEVENTF.UNICODE`。(#18947)</target>
+        <target>请改用 `winBindings.user32` 中的 `INPUT_TYPE.MOUSE`、`INPUT_TYPE.KEYBOARD`、`KEYEVENTF.KEYUP` 和 `KEYEVENTF.UNICODE`。(#18947)</target>
       </segment>
     </unit>
     <unit id="a6ac938e-8bad-4639-a75e-d7c354d03c69">
@@ -9030,7 +9030,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The following symbols have been moved from `updateCheck` to `winBindings.crypt32`: `CERT_USAGE_MATCH`, `CERT_CHAIN_PARA`.</source>
-        <target>以下符号已从 `updateCheck` 移至 `winBindings.crypt32`：`CERT_USAGE_MATCH`, `CERT_CHAIN_PARA`。</target>
+        <target>以下符号已从 `updateCheck` 移至 `winBindings.crypt32`：`CERT_USAGE_MATCH`、`CERT_CHAIN_PARA`。</target>
       </segment>
     </unit>
     <unit id="be461677-8008-40be-9c21-b9fa713bf768">
@@ -22580,7 +22580,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>`NVDAObject.hasDetails`, `NVDAObject.detailsSummary`, `NVDAObject.detailsRole` has been deprecated.</source>
-        <target>`NVDAObject.hasDetails`, `NVDAObject.detailsSummary`, `NVDAObject.detailsRole` 不推荐使用。</target>
+        <target>`NVDAObject.hasDetails`、`NVDAObject.detailsSummary`、`NVDAObject.detailsRole` 不推荐使用。</target>
       </segment>
     </unit>
     <unit id="01568ca0-81d1-4cbf-af54-7502690a433d">
@@ -27811,7 +27811,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>`LOCALE_SLANGUAGE`, `LOCALE_SLIST` and `LOCALE_SLANGDISPLAYNAME` are moved to the `LOCALE` enum in languageHandler.</source>
-        <target>`LOCALE_SLANGUAGE`, `LOCALE_SLIST` 和 `LOCALE_SLANGDISPLAYNAME` 已被迁移到 languageHandler 中的 `LOCALE` 枚举。</target>
+        <target>`LOCALE_SLANGUAGE`、`LOCALE_SLIST` 和 `LOCALE_SLANGDISPLAYNAME` 已被迁移到 languageHandler 中的 `LOCALE` 枚举。</target>
       </segment>
     </unit>
     <unit id="492fed9b-7bfb-49eb-bf4d-99eb6db33502">
@@ -28270,7 +28270,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>`roleLabels`, `stateLabels` and `negativeStateLabels` have been deprecated, usages such as `roleLabels[ROLE_*]` should be replaced to their equivalent `Role.*.displayString` or `State.*.negativeDisplayString`.</source>
-        <target>`roleLabels`, `stateLabels` 和 `negativeStateLabels` 已经被弃用， 用法如 `roleLabels[ROLE_*]` 应该用 `Role.*.displayString` 或 `State.*.negativeDisplayString` 代替。</target>
+        <target>`roleLabels`、`stateLabels` 和 `negativeStateLabels` 已经被弃用， 用法如 `roleLabels[ROLE_*]` 应该用 `Role.*.displayString` 或 `State.*.negativeDisplayString` 代替。</target>
       </segment>
     </unit>
     <unit id="1b6cf5f4-c309-4696-9674-f50ec76d154f">
