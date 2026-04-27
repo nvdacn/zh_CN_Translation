@@ -31,7 +31,7 @@ jobs:
           miscDepsPath: ${{ github.workspace }}/Translation/miscDeps
           ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
         run: |
-          ./.github/scripts/processing_miscDeps_files.sh
+          ./.github/Scripts/processing_miscDeps_files.sh
       - name: Check for existing PR
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
