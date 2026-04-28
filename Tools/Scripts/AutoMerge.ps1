@@ -71,8 +71,8 @@ if ($poConflicts.Count -gt 0) {
         Write-Host "正在处理: $poFile"
 
         # 提取 po 文件
-        git show HEAD:$poFile > $tempCurrent 2>$null
-        git show Uploads:$poFile > $tempUploads 2>$null
+        git show HEAD:$poFile | Out-File -FilePath $tempCurrent -Encoding utf8
+        git show Uploads:$poFile | Out-File -FilePath $tempUploads -Encoding utf8
 
         # 标记当前文件为已解决冲突
         git add $poFile
@@ -102,7 +102,7 @@ if ($poConflicts.Count -gt 0) {
 
         # 将此前读取的内容追加到当前文件末尾
         if ($obsoleteContent) {
-            Add-Content $poFile "`r`n$obsoleteContent"
+            Add-Content -Path $poFile -Value "`r`n$obsoleteContent" -Encoding utf8
         }
 
         # 使用 msgmerge 将从当前分支提取的文件合并到当前文件
