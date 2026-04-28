@@ -65,8 +65,8 @@ if ($poConflicts.Count -gt 0) {
         $fileName = [System.IO.Path]::GetFileName($poFile)
         $index = [array]::IndexOf($poConflicts, $poFile) + 1
         $baseName = "$($fileName.Replace('.po', ''))_$index.po"
-        $tempCurrent = Join-Path $potXliffDir "current_$baseName"
-        $tempUploads = Join-Path $potXliffDir "uploads_$baseName"
+        $tempCurrent = "PotXliff\current_$baseName"
+        $tempUploads = "PotXliff\uploads_$baseName"
 
         Write-Host "正在处理: $poFile"
 
