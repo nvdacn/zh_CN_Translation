@@ -1,3 +1,7 @@
+# 设置编码
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+chcp 65001 > $null
+
 # 弹窗函数
 function Show-Popup {
     param([string]$Message, [string]$Title = "Auto Merge", [int]$Timeout = 10, [int]$IconType = 16)
