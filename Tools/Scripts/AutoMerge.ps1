@@ -50,11 +50,24 @@ if (-not $conflictFiles) {
 # 有合并冲突，定义必须变量
 $poConflicts = @()
 $msgmerge = "C:\Program Files\Poedit\GettextTools\bin\msgmerge.exe"
+$tempFolder = "$PSScriptRoot/../../PotXliff/Temp"
+$sevenZipPath = "Tools\7Zip\7z.exe"
 
 foreach ($file in $conflictFiles) {
     if ($file -like "*.po") {
         $poConflicts += $file
     }
+}
+
+# 从存储库指定分支提取 po 文件的函数
+function ExtractPOFileFromRepo {
+    param([string]$BranchName, [string]$PoFilePath, [string]$OutputPath)
+    $zipFile = [System.IO.Path]::GetFileName($OutputPath) + ".zip"
+    $extractedFile = "PotXliff\$fileName"
+    Write-Host "  从 [$BranchName] 分支提取 $PoFilePath ..."
+    git archive --output "$tempFolder/$zipFile" $BranchName $PoFilePath
+    & $sevenZipPath -sccUTF-8 -bsp0 -bso0 e "$tempFolder\$zipFile" $PoFilePath -aoa -o"PotXliff"
+    Move-Item -Path $extractedFile -Destination $OutputPath -Force
 }
 
 # 处理 .po 文件的冲突
@@ -72,8 +85,12 @@ if ($poConflicts.Count -gt 0) {
         Write-Host "正在处理: $poFile"
 
         # 提取 po 文件
-#        git show HEAD:$poFile | Out-File -FilePath $tempCurrent -Encoding utf8
-#        git show Uploads:$poFile | Out-File -FilePath $tempUploads -Encoding utf8
+        if (Test-Path $tempFolder) {
+            Remove-Item -Path $tempFolder -Recurse -Force
+        }
+        New-Item -Path $tempFolder -ItemType Directory -Force | Out-Null
+        ExtractPOFileFromRepo -BranchName $currentBranch -PoFilePath $poFile -OutputPath $tempCurrent
+        ExtractPOFileFromRepo -BranchName "Uploads" -PoFilePath $poFile -OutputPath $tempUploads
 
         # 使用 msgmerge 将 Uploads 的文件合并到当前文件
         & $msgmerge --previous --quiet --output-file=$tempContent $tempCurrent $tempUploads
