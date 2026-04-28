@@ -41,13 +41,10 @@ if (-not $conflictFiles) {
 
 # 有合并冲突，定义必须变量
 $poConflicts = @()
-$otherConflicts = @()
 
 foreach ($file in $conflictFiles) {
     if ($file -like "*.po") {
         $poConflicts += $file
-    } else {
-        $otherConflicts += $file
     }
 }
 
