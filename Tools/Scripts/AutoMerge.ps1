@@ -26,6 +26,10 @@ if (-not $uploadsExists) {
     exit 1
 }
 
+# 拉取上游分支
+Write-Host "正在拉取上游分支..."
+git pull --rebase --ff-only --quiet
+
 # 尝试合并 Uploads 到当前分支
 Write-Host "正在将 Uploads 分支合并到 $currentBranch..."
 git merge Uploads --no-commit --no-ff 2>&1
