@@ -1,3 +1,5 @@
+﻿# encoding: utf-8-bom
+
 # 设置编码
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 chcp 65001 > $null
@@ -13,7 +15,7 @@ $currentBranch = git branch --show-current
 
 # 检查当前分支是否为 Uploads
 if ($currentBranch -eq "Uploads") {
-    Show-Popup "Current branch is Uploads, merge operation is not allowed." "Error" 10 16
+    Show-Popup "Current branch is Uploads, merge operation is not allowed." "错误" 10 16
     exit 1
 }
 
