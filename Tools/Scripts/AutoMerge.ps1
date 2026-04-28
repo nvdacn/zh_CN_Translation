@@ -4,6 +4,10 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 chcp 65001 > $null
 
+# 设置工作目录
+Set-Location "$PSScriptRoot\..\.."
+Write-Host "当前工作目录: $(Get-Location)"
+
 # 弹窗函数
 function Show-Popup {
     param([string]$Message, [string]$Title = "自动合并", [int]$Timeout = 10, [int]$IconType = 16)
@@ -45,6 +49,7 @@ if (-not $conflictFiles) {
 
 # 有合并冲突，定义必须变量
 $poConflicts = @()
+$msgmerge = "C:\Program Files\Poedit\GettextTools\bin\msgmerge.exe"
 
 foreach ($file in $conflictFiles) {
     if ($file -like "*.po") {
@@ -60,8 +65,8 @@ if ($poConflicts.Count -gt 0) {
         $fileName = [System.IO.Path]::GetFileName($poFile)
         $index = [array]::IndexOf($poConflicts, $poFile) + 1
         $baseName = "$($fileName.Replace('.po', ''))_$index.po"
-        $tempCurrent = "current_$baseName"
-        $tempUploads = "uploads_$baseName"
+        $tempCurrent = Join-Path $potXliffDir "current_$baseName"
+        $tempUploads = Join-Path $potXliffDir "uploads_$baseName"
 
         Write-Host "正在处理: $poFile"
 
@@ -76,7 +81,7 @@ if ($poConflicts.Count -gt 0) {
         Copy-Item $tempCurrent $poFile -Force
 
         # 使用 msgmerge 将 Uploads 的文件合并到当前文件
-        & msgmerge.exe --update $poFile $tempUploads 2>$null
+        & $msgmerge --update $poFile $tempUploads 2>$null
 
         # 查找以 #~ 开头的行，读取从该行到文件末尾的所有内容
         $obsoleteContent = ""
@@ -87,9 +92,9 @@ if ($poConflicts.Count -gt 0) {
                 $startIndex = $i
                 break
             }
-            if ($startIndex -ne -1) {
-                $obsoleteContent = $lines[$startIndex..($lines.Count-1)] -join "`r`n"
-            }
+        }
+        if ($startIndex -ne -1) {
+            $obsoleteContent = $lines[$startIndex..($lines.Count-1)] -join "`r`n"
         }
 
         # 复制从 Uploads 分支提取的文件替换当前文件
@@ -101,7 +106,7 @@ if ($poConflicts.Count -gt 0) {
         }
 
         # 使用 msgmerge 将从当前分支提取的文件合并到当前文件
-        & msgmerge.exe --update $poFile $tempCurrent 2>$null
+        & $msgmerge --update $poFile $tempCurrent 2>$null
 
         # 将处理后的文件加入暂存区
         git add $poFile
