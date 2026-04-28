@@ -7915,19 +7915,19 @@ msgstr "发送日期: %s"
 #. Translators: The title for the dialog shown while Microsoft Outlook initializes.
 #: appModules\outlook.py:138
 msgid "Waiting for Outlook..."
-msgstr "正在等待OutLook..."
+msgstr "正在等待 OutLook..."
 
 #. Translators: a message reporting the date of a all day Outlook calendar entry
 #: appModules\outlook.py:410
 #, python-brace-format
 msgid "{date} (all day)"
-msgstr "{date} 全天"
+msgstr "{date}（全天）"
 
 #. Translators: a message reporting the time range (i.e. start time to end time) of an Outlook calendar entry
 #: appModules\outlook.py:421
 #, python-brace-format
 msgid "{startTime} to {endTime}"
-msgstr "{startTime}到{endTime}"
+msgstr "{startTime} 到 {endTime}"
 
 #. Translators: Part of a message reported when on a calendar appointment with one or more categories
 #. in Microsoft Outlook.
@@ -18239,11 +18239,11 @@ msgstr "尾注"
 
 #: NVDAObjects\window\winword.py:445
 msgid "Even pages footer"
-msgstr "偶数页页脚"
+msgstr "偶数页脚"
 
 #: NVDAObjects\window\winword.py:446
 msgid "Even pages header"
-msgstr "偶数页页首"
+msgstr "偶数页首"
 
 #: NVDAObjects\window\winword.py:447
 msgid "First page footer"
@@ -19742,4 +19742,3 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
-
