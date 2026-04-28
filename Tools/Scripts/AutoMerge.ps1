@@ -66,26 +66,21 @@ if ($poConflicts.Count -gt 0) {
         $index = [array]::IndexOf($poConflicts, $poFile) + 1
         $baseName = "$($fileName.Replace('.po', ''))_$index.po"
         $tempCurrent = "PotXliff\current_$baseName"
+        $tempContent = "PotXliff\Content_$baseName"
         $tempUploads = "PotXliff\uploads_$baseName"
 
         Write-Host "正在处理: $poFile"
 
         # 提取 po 文件
-        git show HEAD:$poFile | Out-File -FilePath $tempCurrent -Encoding utf8
-        git show Uploads:$poFile | Out-File -FilePath $tempUploads -Encoding utf8
-
-        # 标记当前文件为已解决冲突
-        git add $poFile
-
-        # 复制当前分支提取的文件替换冲突的文件
-        Copy-Item $tempCurrent $poFile -Force
+#        git show HEAD:$poFile | Out-File -FilePath $tempCurrent -Encoding utf8
+#        git show Uploads:$poFile | Out-File -FilePath $tempUploads -Encoding utf8
 
         # 使用 msgmerge 将 Uploads 的文件合并到当前文件
-        & $msgmerge --update $poFile $tempUploads 2>$null
+        & $msgmerge --previous --quiet --output-file=$tempContent $tempCurrent $tempUploads
 
         # 查找以 #~ 开头的行，读取从该行到文件末尾的所有内容
         $obsoleteContent = ""
-        $lines = Get-Content $poFile
+        $lines = Get-Content $tempContent
         $startIndex = -1
         for ($i = 0; $i -lt $lines.Count; $i++) {
             if ($lines[$i] -match "^#~") {
@@ -97,16 +92,13 @@ if ($poConflicts.Count -gt 0) {
             $obsoleteContent = $lines[$startIndex..($lines.Count-1)] -join "`r`n"
         }
 
-        # 复制从 Uploads 分支提取的文件替换当前文件
-        Copy-Item $tempUploads $poFile -Force
-
         # 将此前读取的内容追加到当前文件末尾
         if ($obsoleteContent) {
-            Add-Content -Path $poFile -Value "`r`n$obsoleteContent" -Encoding utf8
+            Add-Content -Path $tempUploads -Value "$obsoleteContent" -Encoding utf8
         }
 
         # 使用 msgmerge 将从当前分支提取的文件合并到当前文件
-        & $msgmerge --update $poFile $tempCurrent 2>$null
+        & $msgmerge --previous --quiet --output-file=$poFile $tempUploads $tempCurrent
 
         # 将处理后的文件加入暂存区
         git add $poFile
