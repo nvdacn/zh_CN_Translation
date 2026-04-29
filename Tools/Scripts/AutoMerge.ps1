@@ -8,6 +8,9 @@ chcp 65001 > $null
 Set-Location "$PSScriptRoot\..\.."
 Write-Host "当前工作目录: $(Get-Location)"
 
+# 提交消息
+$commitMessage = "合并 Uploads 分支的更改"
+
 # 弹窗函数
 function Show-Popup {
     param([string]$Message, [string]$Title = "自动合并", [int]$Timeout = 10, [int]$IconType = 16)
@@ -41,7 +44,7 @@ git merge Uploads --no-commit --no-ff 2>&1
 $conflictFiles = git diff --name-only --diff-filter=U
 if (-not $conflictFiles) {
     # 无冲突，直接提交
-    git commit --no-edit
+    git commit -m $commitMessage
     Write-Host "合并成功。"
     exit 0
 }
@@ -136,6 +139,6 @@ if ($remainingConflicts) {
 }
 
 # 所有冲突已解决，提交合并
-git commit --no-edit
+git commit -m $commitMessage
 Write-Host "所有冲突已解决，合并成功提交。"
 exit 0
