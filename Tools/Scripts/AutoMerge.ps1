@@ -40,8 +40,12 @@ git merge Uploads --no-commit --no-ff --quiet
 $conflictFiles = git diff --name-only --diff-filter=U
 if (-not $conflictFiles) {
     # 无冲突，直接提交
-    git commit -m $commitMessage
-    Write-Host "合并成功。"
+    if (git diff --cached --quiet) {
+        Write-Host "未检测到更改。"
+    } else {
+        git commit -m $commitMessage
+        Write-Host "合并成功。"
+    }
     exit 0
 }
 
@@ -135,13 +139,11 @@ if ($remainingConflicts) {
 }
 
 # 所有冲突已解决，提交合并
-    # 所有冲突已解决，提交合并
-    if (git diff --cached --quiet) {
-        Write-Host "没有检测到更改，无需提交。"
-    } else {
-        git commit -m $commitMessage
-        Write-Host "所有冲突已解决，合并提交成功。"
-    }
-    exit 0
-Write-Host "所有冲突已解决，合并提交成功。"
+if (git diff --cached --quiet) {
+    Write-Host "未检测到更改，无需提交。"
+} else {
+    git commit -m $commitMessage
+    Write-Host "所有冲突已解决，合并提交成功。"
+}
+
 exit 0
