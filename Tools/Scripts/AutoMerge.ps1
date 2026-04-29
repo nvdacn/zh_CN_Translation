@@ -8,13 +8,21 @@ chcp 65001 > $null
 Set-Location "$PSScriptRoot\..\.."
 Write-Host "当前工作目录: $(Get-Location)"
 
-# 提交消息
-$commitMessage = "合并 Uploads 分支的更改"
-
 # 弹窗函数
 function Show-Popup {
     param([string]$Message, [string]$Title = "自动合并", [int]$Timeout = 10, [int]$IconType = 16)
     (New-Object -ComObject wscript.shell).Popup($Message, $Timeout, $Title, $IconType)
+}
+
+# 提交函数
+function Commit {
+    param([string]$NoChangesMessage, [string]$SuccessMessage)
+    if (git diff --cached --quiet) {
+        Write-Host $NoChangesMessage
+    } else {
+        git commit -m "合并 Uploads 分支的更改"
+        Write-Host $SuccessMessage
+    }
 }
 
 # 获取当前分支名
@@ -40,12 +48,7 @@ git merge Uploads --no-commit --no-ff --quiet
 $conflictFiles = git diff --name-only --diff-filter=U
 if (-not $conflictFiles) {
     # 无冲突，直接提交
-    if (git diff --cached --quiet) {
-        Write-Host "未检测到更改。"
-    } else {
-        git commit -m $commitMessage
-        Write-Host "合并成功。"
-    }
+    Commit -NoChangesMessage "未检测到更改。" -SuccessMessage "合并成功。"
     exit 0
 }
 
@@ -139,11 +142,6 @@ if ($remainingConflicts) {
 }
 
 # 所有冲突已解决，提交合并
-if (git diff --cached --quiet) {
-    Write-Host "未检测到更改，无需提交。"
-} else {
-    git commit -m $commitMessage
-    Write-Host "所有冲突已解决，合并提交成功。"
-}
+Commit -NoChangesMessage "未检测到更改，无需提交。" -SuccessMessage "所有冲突已解决，合并提交成功。"
 
 exit 0
