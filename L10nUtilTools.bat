@@ -166,7 +166,7 @@ if defined Gettext (
   echo %%Gettext%% is set to !Gettext!.
 ) Else (
   echo Poedit program not found.
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('请安装 Poedit 后重试。',5,'错误'),16"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请安装 Poedit 后重试。',5,'错误',16)"
   exit /b 1
 )
 if /I "%CLI%"=="UTC" (goto MergeBranch)
