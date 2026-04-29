@@ -172,12 +172,12 @@ if defined Gettext (
 if /I "%CLI%"=="UTC" (goto MergeBranch)
 
 Rem 从给定的 nvda.pot 更新界面翻译字符串  
-IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件')"
+IF NOT EXIST "%~dp0ProcessTranslation\PotPo\nvda.pot" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请将要合并的 nvda.pot 文件复制到 ProcessTranslation\PotPo 文件夹后重试。',5,'未找到文件',16)"
   exit /b 1
 )
 CD /D %Gettext% 
-msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0PotXliff\nvda.pot"
+msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0ProcessTranslation\PotPo\nvda.pot"
 set ExitCode=%errorlevel%
 goto Quit
 
