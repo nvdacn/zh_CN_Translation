@@ -52,6 +52,12 @@ $poConflicts = @()
 $msgmerge = "C:\Program Files\Poedit\GettextTools\bin\msgmerge.exe"
 $tempFolder = "$PSScriptRoot/../../PotXliff/Temp"
 $sevenZipPath = "Tools\7Zip\7z.exe"
+$testOutputPath = "F:\1"  # 测试输出目录
+
+# 确保测试目录存在
+if (-not (Test-Path $testOutputPath)) {
+    New-Item -Path $testOutputPath -ItemType Directory -Force | Out-Null
+}
 
 foreach ($file in $conflictFiles) {
     if ($file -like "*.po") {
@@ -95,23 +101,31 @@ if ($poConflicts.Count -gt 0) {
         # 使用 msgmerge 将 Uploads 的文件合并到当前文件
         & $msgmerge --previous --quiet --output-file=$tempContent $tempCurrent $tempUploads
 
-        # 查找以 #~ 开头的行，读取从该行到文件末尾的所有内容
-        $obsoleteContent = ""
-        $lines = Get-Content $tempContent
-        $startIndex = -1
+        # === 改进部分：在变量中处理 #~ 开头的内容 ===
+        # 读取源文件（LF 格式）
+        $fileContent = Get-Content -Path $tempContent -Raw -Encoding UTF8
+
+        # 统一按 LF 分割处理
+        $lines = $fileContent -split "`n"
+
+        # 查找以 #~ 开头的行
+        $startLine = -1
         for ($i = 0; $i -lt $lines.Count; $i++) {
             if ($lines[$i] -match "^#~") {
-                $startIndex = $i
+                $startLine = $i
                 break
             }
         }
-        if ($startIndex -ne -1) {
-            $obsoleteContent = $lines[$startIndex..($lines.Count-1)] -join "`r`n"
+
+        $obsoleteContent = ""
+        if ($startLine -ne -1) {
+            # 提取从该行到文件末尾的所有内容，保持 LF 格式
+            $obsoleteContent = $lines[$startLine..($lines.Count-1)] -join "`r`n"
         }
 
-        # 将此前读取的内容追加到当前文件末尾
+        # 将处理后的内容追加到 tempUploads 文件
         if ($obsoleteContent) {
-            Add-Content -Path $tempUploads -Value "$obsoleteContent" -Encoding utf8
+            Add-Content -Path $tempUploads -Value $obsoleteContent -Encoding UTF8
         }
 
         # 使用 msgmerge 将从当前分支提取的文件合并到当前文件
