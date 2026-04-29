@@ -22,7 +22,7 @@ $currentBranch = git branch --show-current
 
 # 检查当前分支能否执行合并操作
 if ($currentBranch -eq "Uploads" -or $currentBranch -eq "main") {
-    Show-Popup "当前分支不允许执行合并操作。" "错误" 10 16
+    Show-Popup "当前分支不支持自动合并。" "错误" 10 16
     exit 1
 }
 
@@ -34,7 +34,7 @@ if (-not (git branch --list Uploads)) {
 
 # 尝试合并 Uploads 到当前分支
 Write-Host "正在将 Uploads 分支合并到 $currentBranch..."
-git merge Uploads --no-commit --no-ff 2>&1
+git merge Uploads --no-commit --no-ff --quiet
 
 # 检查是否有冲突
 $conflictFiles = git diff --name-only --diff-filter=U
@@ -48,9 +48,10 @@ if (-not $conflictFiles) {
 # 有合并冲突，定义必须变量
 $poConflicts = @()
 $msgmerge = "C:\Program Files\Poedit\GettextTools\bin\msgmerge.exe"
-$tempFolder = "$PSScriptRoot/../../PotXliff/Temp"
+$tempFolder = "$PSScriptRoot\..\..\PotXliff\Temp"
 $sevenZipPath = "Tools\7Zip\7z.exe"
 
+# 获取存在合并冲突的 po 文件列表
 foreach ($file in $conflictFiles) {
     if ($file -like "*.po") {
         $poConflicts += $file
@@ -68,10 +69,17 @@ function ExtractPOFileFromRepo {
     Move-Item -Path $extractedFile -Destination $OutputPath -Force
 }
 
-# 处理 .po 文件的冲突
+# 准备处理冲突的 po 文件
 if ($poConflicts.Count -gt 0) {
-    Write-Host "发现 $($poConflicts.Count) 个 .po 文件存在冲突，正在处理..."
+    Write-Host "发现 $($poConflicts.Count) 个 po 文件存在冲突，正在处理..."
 
+    # 重建临时目录
+    if (Test-Path $tempFolder) {
+        Remove-Item -Path $tempFolder -Recurse -Force
+    }
+    New-Item -Path $tempFolder -ItemType Directory -Force | Out-Null
+
+    # 开始处理冲突的 po 文件
     foreach ($poFile in $poConflicts) {
         $fileName = [System.IO.Path]::GetFileName($poFile)
         $index = [array]::IndexOf($poConflicts, $poFile) + 1
@@ -79,21 +87,16 @@ if ($poConflicts.Count -gt 0) {
         $tempCurrent = "PotXliff\current_$baseName"
         $tempContent = "PotXliff\Content_$baseName"
         $tempUploads = "PotXliff\uploads_$baseName"
-
-        Write-Host "正在处理: $poFile"
+        Write-Host "正在处理 $poFile"
 
         # 提取 po 文件
-        if (Test-Path $tempFolder) {
-            Remove-Item -Path $tempFolder -Recurse -Force
-        }
-        New-Item -Path $tempFolder -ItemType Directory -Force | Out-Null
         ExtractPOFileFromRepo -BranchName $currentBranch -PoFilePath $poFile -OutputPath $tempCurrent
         ExtractPOFileFromRepo -BranchName "Uploads" -PoFilePath $poFile -OutputPath $tempUploads
 
-        # 使用 msgmerge 将 Uploads 的文件合并到当前文件
+        # 使用 msgmerge 将 Uploads 分支的文件合并到当前分支的文件
         & $msgmerge --previous --quiet --output-file=$tempContent $tempCurrent $tempUploads
 
-        # 提取以 #~ 开头的内容
+        # 读取已合并的文件内容
         $lines = (Get-Content -Path $tempContent -Raw -Encoding UTF8) -split "`n"
 
         # 查找以 #~ 开头的行
@@ -105,24 +108,20 @@ if ($poConflicts.Count -gt 0) {
             }
         }
 
+        # 提取从 #~ 第一次出现的行到文件末尾的所有内容，并将其追加到 tempUploads 文件
         if ($startLine -ne -1) {
-            # 提取从该行到文件末尾的所有内容，保持 LF 格式
             $obsoleteContent = $lines[$startLine..($lines.Count-1)] -join "`r`n"
-
-            # 将处理后的内容追加到 tempUploads 文件
             Add-Content -Path $tempUploads -Value $obsoleteContent -Encoding UTF8
         }
 
-        # 使用 msgmerge 将从当前分支提取的文件合并到当前文件
+        # 使用 msgmerge 将从当前分支提取的文件合并到从 Uploads 分支提取的文件
         & $msgmerge --previous --quiet --output-file=$poFile $tempUploads $tempCurrent
 
-        # 将处理后的文件加入暂存区
+        # 处理完成，将处理后的文件加入暂存区
         git add $poFile
-        
-        Write-Host "已完成: $poFile"
+        Write-Host "$poFile 处理完成"
     }
-    
-    Write-Host "所有 $($poConflicts.Count) 个 .po 文件已处理完成。"
+    Write-Host "所有 $($poConflicts.Count) 个 po 文件处理完成。"
 }
 
 # 检查是否还有其他冲突文件
@@ -130,11 +129,12 @@ $remainingConflicts = git diff --name-only --diff-filter=U
 if ($remainingConflicts) {
     Write-Host "剩余未解决的冲突文件："
     $remainingConflicts | ForEach-Object { Write-Host "  $_" }
-    Show-Popup "仍存在未解决的冲突文件，请手动解决合并冲突后提交。" "合并冲突" 15 48
+    Show-Popup "仍存在合并冲突的文件，请手动解决冲突后自行提交。" "无法处理的合并冲突" 15 48
+    Read-Host "按回车键退出"
     exit 2
 }
 
 # 所有冲突已解决，提交合并
 git commit -m $commitMessage
-Write-Host "所有冲突已解决，合并成功提交。"
+Write-Host "所有冲突已解决，合并提交成功。"
 exit 0
