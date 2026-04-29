@@ -97,7 +97,7 @@ if ($poConflicts.Count -gt 0) {
         & $msgmerge --previous --quiet --output-file=$tempContent $tempCurrent $tempUploads
 
         # 读取已合并的文件内容
-        $lines = (Get-Content -Path $tempContent -Raw -Encoding UTF8) -split "`n"
+        $lines = Get-Content -Path $tempContent -Encoding UTF8
 
         # 查找以 #~ 开头的行
         $startLine = -1
@@ -110,7 +110,7 @@ if ($poConflicts.Count -gt 0) {
 
         # 提取从 #~ 第一次出现的行到文件末尾的所有内容，并将其追加到 tempUploads 文件
         if ($startLine -ne -1) {
-            $obsoleteContent = $lines[$startLine..($lines.Count-1)] -join "`r`n"
+            $obsoleteContent = $lines[$startLine..($lines.Count-1)]
             Add-Content -Path $tempUploads -Value $obsoleteContent -Encoding UTF8
         }
 
