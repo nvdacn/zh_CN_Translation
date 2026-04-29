@@ -150,8 +150,8 @@ cls
 goto %CLI% >nul 2>nul
 exit
 
-Rem 从给定的 nvda.pot 更新界面翻译字符串  
 :UDL
+:UTC
 Rem 设置 GettextTools 程序路径  
 for %%F in (
   "%ProgramFiles(x86)%\Poedit\GettextTools\bin"
@@ -165,9 +165,12 @@ if defined Gettext (
   echo %%Gettext%% is set to !Gettext!.
 ) Else (
   echo Poedit program not found.
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('请安装 Poedit 后重试。',5,'错误')"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请安装 Poedit 后重试。',5,'错误'),16"
   exit /b 1
 )
+if /I "%CLI%"=="UTC" (goto MergeBranch)
+
+Rem 从给定的 nvda.pot 更新界面翻译字符串  
 IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件')"
   exit /b 1
@@ -556,6 +559,11 @@ IF NOT EXIST "%PersonalSourcePath%\%VerifyFile%" (
 )
 MKLINK /J "%TargetPath%" "%PersonalSourcePath%"
 goto %PathSetSuccessfully%
+
+Rem 将 Uploads 分支合并到当前分支，并自动解决 po 文件的合并冲突  
+:MergeBranch
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\AutoMerge.ps1"
+exit /b 0
 
 Rem 清理本工具生成的所有文件  
 :CLE

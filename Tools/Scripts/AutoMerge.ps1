@@ -47,7 +47,7 @@ if (-not $conflictFiles) {
 
 # 有合并冲突，定义必须变量
 $poConflicts = @()
-$msgmerge = "C:\Program Files\Poedit\GettextTools\bin\msgmerge.exe"
+$msgmerge = Join-Path $env:Gettext "msgmerge.exe"
 $tempFolder = "$PSScriptRoot\..\..\PotXliff\Temp"
 $sevenZipPath = "Tools\7Zip\7z.exe"
 
