@@ -564,7 +564,7 @@ goto %PathSetSuccessfully%
 Rem 将 Uploads 分支合并到当前分支，并自动解决 po 文件的合并冲突  
 :MergeBranch
 powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\AutoMerge.ps1"
-exit /b 0
+exit /b %errorlevel%
 
 Rem 清理本工具生成的所有文件  
 :CLE
