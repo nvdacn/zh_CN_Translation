@@ -135,6 +135,13 @@ if ($remainingConflicts) {
 }
 
 # 所有冲突已解决，提交合并
-git commit -m $commitMessage
+    # 所有冲突已解决，提交合并
+    if (git diff --cached --quiet) {
+        Write-Host "没有检测到更改，无需提交。"
+    } else {
+        git commit -m $commitMessage
+        Write-Host "所有冲突已解决，合并提交成功。"
+    }
+    exit 0
 Write-Host "所有冲突已解决，合并提交成功。"
 exit 0
