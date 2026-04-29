@@ -368,20 +368,20 @@ exit /b %errorlevel%
 
 Rem 生成文档的 Markdown 版本
 :GenerateMarkdown
-IF NOT EXIST "%~dp0Preview\Markdown" (MKDir "%~dp0Preview\Markdown")
-IF EXIST "%~dp0Preview\Markdown\%ShortName%.md" (del /f /q "%~dp0Preview\Markdown\%ShortName%.md")
-%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0Preview\Markdown\%ShortName%.md"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown" (MKDir "%~dp0ProcessTranslation\Markdown")
+IF EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (del /f /q "%~dp0ProcessTranslation\Markdown\%ShortName%.md")
+%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Markdown\%ShortName%.md"
 set ExitCode=!errorlevel!
 goto Quit
 
 Rem 从 Markdown 文件生成 HTML 文件  
 :GenerateHTML
-IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误')"
   exit /b 1
 )
 IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
-%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0Preview\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
+%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0ProcessTranslation\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
 set ExitCode=!errorlevel!
 goto Quit
 
@@ -408,7 +408,7 @@ if /I "%L10NSourceCodePath%" =="exe" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
   exit /b 1
 )
-IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
 )
@@ -419,7 +419,7 @@ IF NOT EXIST "%SourceXLIFFPath%" (
 IF EXIST "%TranslationPath%\%FileName%" (
   move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%ShortName%.xliff"
 )
-uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
