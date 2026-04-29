@@ -133,6 +133,7 @@ echo UAM：上传指定插件的文档翻译到 Crowdin；
 echo DAP：从 Crowdin 下载指定插件的界面翻译；  
 echo DAX：从 Crowdin 下载指定插件的 xliff 文档翻译；  
 echo DAM：从 Crowdin 下载指定插件的文档翻译；  
+echo UTC：将 Uploads 分支合并到当前分支，并自动解决 po 文件的合并冲突；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
