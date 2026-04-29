@@ -24,8 +24,7 @@ if ($currentBranch -eq "Uploads" -or $currentBranch -eq "main") {
 }
 
 # 检查本地是否存在 Uploads 分支
-$uploadsExists = git branch --list Uploads
-if (-not $uploadsExists) {
+if (-not (git branch --list Uploads)) {
     Show-Popup "本地不存在 Uploads 分支，请创建该分支后重试。" "错误" 10 16
     exit 1
 }
@@ -52,12 +51,6 @@ $poConflicts = @()
 $msgmerge = "C:\Program Files\Poedit\GettextTools\bin\msgmerge.exe"
 $tempFolder = "$PSScriptRoot/../../PotXliff/Temp"
 $sevenZipPath = "Tools\7Zip\7z.exe"
-$testOutputPath = "F:\1"  # 测试输出目录
-
-# 确保测试目录存在
-if (-not (Test-Path $testOutputPath)) {
-    New-Item -Path $testOutputPath -ItemType Directory -Force | Out-Null
-}
 
 foreach ($file in $conflictFiles) {
     if ($file -like "*.po") {
@@ -69,7 +62,7 @@ foreach ($file in $conflictFiles) {
 function ExtractPOFileFromRepo {
     param([string]$BranchName, [string]$PoFilePath, [string]$OutputPath)
     $zipFile = [System.IO.Path]::GetFileName($OutputPath) + ".zip"
-    $extractedFile = "PotXliff\$fileName"
+    $extractedFile = "PotXliff\$([System.IO.Path]::GetFileName($PoFilePath))"
     Write-Host "  从 [$BranchName] 分支提取 $PoFilePath ..."
     git archive --output "$tempFolder/$zipFile" $BranchName $PoFilePath
     & $sevenZipPath -sccUTF-8 -bsp0 -bso0 e "$tempFolder\$zipFile" $PoFilePath -aoa -o"PotXliff"
@@ -101,12 +94,8 @@ if ($poConflicts.Count -gt 0) {
         # 使用 msgmerge 将 Uploads 的文件合并到当前文件
         & $msgmerge --previous --quiet --output-file=$tempContent $tempCurrent $tempUploads
 
-        # === 改进部分：在变量中处理 #~ 开头的内容 ===
-        # 读取源文件（LF 格式）
-        $fileContent = Get-Content -Path $tempContent -Raw -Encoding UTF8
-
-        # 统一按 LF 分割处理
-        $lines = $fileContent -split "`n"
+        # 提取以 #~ 开头的内容
+        $lines = (Get-Content -Path $tempContent -Raw -Encoding UTF8) -split "`n"
 
         # 查找以 #~ 开头的行
         $startLine = -1
@@ -117,14 +106,11 @@ if ($poConflicts.Count -gt 0) {
             }
         }
 
-        $obsoleteContent = ""
         if ($startLine -ne -1) {
             # 提取从该行到文件末尾的所有内容，保持 LF 格式
             $obsoleteContent = $lines[$startLine..($lines.Count-1)] -join "`r`n"
-        }
 
-        # 将处理后的内容追加到 tempUploads 文件
-        if ($obsoleteContent) {
+            # 将处理后的内容追加到 tempUploads 文件
             Add-Content -Path $tempUploads -Value $obsoleteContent -Encoding UTF8
         }
 
