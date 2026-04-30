@@ -417,7 +417,7 @@ IF NOT EXIST "%SourceXLIFFPath%" (
   exit /b 1
 )
 IF EXIST "%TranslationPath%\%FileName%" (
-  move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%ShortName%.xliff"
+  move /Y "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Xliff\%ShortName%.xliff"
 )
 uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
@@ -461,16 +461,15 @@ exit /b 0
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
-set TempFolder=%~dp0PotXliff\Temp
-set OldFile=%TempFolder%\%FileName%.old
-set Parameter=--old "%OldFile%"
-IF EXIST "%TempFolder%" (rd /s /q "%TempFolder%")
-MKDir "%TempFolder%"
-IF Not EXIST "%~dp0PotXliff\%FileName%" (
-  git archive --output "./PotXliff/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
-  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0PotXliff"
+set "ArchiveFolder=%~dp0ProcessTranslation\Archive"
+set "XliffFolder=%~dp0ProcessTranslation\Xliff"
+set "Parameter=--old "%XliffFolder%\%FileName%""
+IF EXIST "%ArchiveFolder%" (rd /s /q "%ArchiveFolder%")
+MKDir "%ArchiveFolder%"
+IF Not EXIST "%XliffFolder%\%FileName%" (
+  git archive --output "%ArchiveFolder%/%FileName%.zip" main %GitAddPath%/%FileName%
+  "%~dp0Tools\7Zip\7z.exe" -sccUTF-8 -bsp0 -bso0 e "%ArchiveFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%XliffFolder%"
 )
-MKLINK /H "%OldFile%" "%~dp0PotXliff\%FileName%"
 goto Upload
 
 Rem 上传已翻译的文件到 Crowdin
@@ -569,6 +568,7 @@ exit /b %errorlevel%
 Rem 清理本工具生成的所有文件  
 :CLE
 git clean -fX "%~dp0PotXliff"
+git clean -fX "%~dp0ProcessTranslation"
 git clean -fX "%~dp0Preview"
 git clean -fX "%~dp0Translation\Addons"
 for /f "delims=" %%a in ('dir /ad /b /s "%~dp0Translation\Addons" ^| sort /r') do (
