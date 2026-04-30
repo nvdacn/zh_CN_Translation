@@ -55,7 +55,7 @@ if (-not $conflictFiles) {
 # 有合并冲突，定义必须变量
 $poConflicts = @()
 $msgmerge = Join-Path ($env:Gettext -replace '"', '') "msgmerge.exe"
-$tempFolder = "$PSScriptRoot\..\..\PotXliff\Temp"
+$tempFolder = "$PSScriptRoot\..\..\ProcessTranslation\Archive"
 $sevenZipPath = "Tools\7Zip\7z.exe"
 
 # 获取存在合并冲突的 po 文件列表
@@ -69,10 +69,10 @@ foreach ($file in $conflictFiles) {
 function ExtractPOFileFromRepo {
     param([string]$BranchName, [string]$PoFilePath, [string]$OutputPath)
     $zipFile = [System.IO.Path]::GetFileName($OutputPath) + ".zip"
-    $extractedFile = "PotXliff\$([System.IO.Path]::GetFileName($PoFilePath))"
+    $extractedFile = "ProcessTranslation\PotPo\$([System.IO.Path]::GetFileName($PoFilePath))"
     Write-Host "  从 [$BranchName] 分支提取 $PoFilePath ..."
     git archive --output "$tempFolder/$zipFile" $BranchName $PoFilePath
-    & $sevenZipPath -sccUTF-8 -bsp0 -bso0 e "$tempFolder\$zipFile" $PoFilePath -aoa -o"PotXliff"
+    & $sevenZipPath -sccUTF-8 -bsp0 -bso0 e "$tempFolder\$zipFile" $PoFilePath -aoa -o"ProcessTranslation\PotPo"
     Move-Item -Path $extractedFile -Destination $OutputPath -Force
 }
 
@@ -91,9 +91,9 @@ if ($poConflicts.Count -gt 0) {
         $fileName = [System.IO.Path]::GetFileName($poFile)
         $index = [array]::IndexOf($poConflicts, $poFile) + 1
         $baseName = "$($fileName.Replace('.po', ''))_$index.po"
-        $tempCurrent = "PotXliff\current_$baseName"
-        $tempContent = "PotXliff\Content_$baseName"
-        $tempUploads = "PotXliff\uploads_$baseName"
+        $tempCurrent = "ProcessTranslation\PotPo\current_$baseName"
+        $tempContent = "ProcessTranslation\PotPo\Content_$baseName"
+        $tempUploads = "ProcessTranslation\PotPo\uploads_$baseName"
         Write-Host "正在处理 $poFile"
 
         # 提取 po 文件
