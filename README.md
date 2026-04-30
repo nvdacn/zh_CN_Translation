@@ -27,8 +27,8 @@
 此存储库根目录所包含的文件和文件夹的作用简述如下：
 
 - `.github`：用于存储 GitHUB 相关的文件，如工作流文件、PR 模板文件等；
-- `PotXliff`：用于供 L10nUtilTools.bat 存储临时文件，有关详细信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
-- `Preview`：用于存储 L10nUtilTools.bat 生成的翻译预览文件以及将 MD 转换为 XLIFF 的原始 Markdown 文件，有关详细信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
+- `Preview`：用于存储 L10nUtilTools.bat 生成的翻译预览文件，有关详细信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
+- `ProcessTranslation`：用于存储 L10nUtilTools.bat 处理翻译文件时的必要文件或临时文件，如 Pot 翻译模板文件、Markdown 文件、上传 XLIFF 文档时的比较文件等，这些文件应按其文件类型存储于相应的子文件夹中。有关更多信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
 - `Tools`：用于存储 L10nUtilTools.bat 所调用的工具和存储库源代码或其链接；
 - `Translation`：用于存储所有需要翻译的文件，这也是主要的工作文件夹，其中
 
@@ -190,7 +190,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
 - `GEZ` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
-- `GMC`、`GMU` 命令生成的文件位于 `Preview\Markdown` 文件夹下。
+- `GMC`、`GMU`、`GMX` 命令生成的文件位于 `ProcessTranslation\Markdown` 文件夹下。
 - `MXC`、`MXU` 命令使用前需要根据 [创建 NVDA 开发环境（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/dev/createDevEnvironment.md)文档准备 NVDA 本地代码仓库并配置 Python 环境。
 
   准备必须环境后，通过上述命令即可以 NVDA 本地代码仓库当前分支的 `user_docs\en` 中的相应 xliff 文件为模板生成所需 xliff 文件。
@@ -198,8 +198,9 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
   生成的文件会直接替换存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
 
   由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件直接提交到本存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
-- `UDL` 命令使用前，需要将用于更新 nvda.po 的 nvda.pot 翻译模板复制到存储库的 `PotXliff` 文件夹，并且该命令会直接替换存储库的原始 nvda.po 文件，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
-- `UPC`、`UPU` 和 `UPA` 命令使用前，需要将原始 xliff 文件复制到存储库的 `PotXliff` 文件夹，如未检测到所需文件，系统会从存储库的 `main` 分支提取。
+
+- `UDL` 命令使用前，需要将用于更新 nvda.po 的 nvda.pot 翻译模板复制到存储库的 `ProcessTranslation\PotPo` 文件夹，并且该命令会直接替换存储库的原始 nvda.po 文件，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
+- `UPC`、`UPU` 和 `UPA` 命令使用前，需要将原始 xliff 文件复制到存储库的 `ProcessTranslation\Xliff` 文件夹，如未检测到所需文件，系统会从存储库的 `main` 分支提取。
 - 从 Crowdin 上传或下载文件时，需要 Crowdin 的个人访问令牌，可从 [Crowdin 的账号设置](https://zh.crowdin.com/settings#api-key)页面创建。
 
   - 创建令牌时，必须选中译文复选框并授予读写权限。
@@ -207,7 +208,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 - 从 Crowdin 下载的已翻译文件会直接替换存储库的原始文件，在执行下载命令前，请确保原始翻译文件已提交并上传到 Crowdin。
 - 下载并提交系列命令只会提交已下载的翻译文件到本地存储库，可手动将其推送到远程仓库或撤销更改。
-- `MXX` 命令使用前需要将指定插件的 `readme.md` 文档重命名为插件 ID.md 并复制到 `Preview\Markdown` 文件夹下，随后通过该命令即可以 [CrowdinRegistration](https://github.com/nvdaaddons/CrowdinRegistration) 本地代码仓库当前分支的相应插件文档的 xliff 文件为模板生成所需 readme.xliff 文件。
+- `MXX` 命令使用前需要将指定插件的 `readme.md` 文档重命名为插件 ID.md 并复制到 `ProcessTranslation\Markdown` 文件夹下，随后通过该命令即可以相应插件本地代码仓库当前分支文档的 xliff 文件为模板生成所需 readme.xliff 文件。
 
   生成的文件会直接替换存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
 
