@@ -467,7 +467,7 @@ set "Parameter=--old "%XliffFolder%\%FileName%""
 IF EXIST "%ArchiveFolder%" (rd /s /q "%ArchiveFolder%")
 MKDir "%ArchiveFolder%"
 IF Not EXIST "%XliffFolder%\%FileName%" (
-  git archive --output "%ArchiveFolder%/%FileName%.zip" main %GitAddPath%/%FileName%
+  git archive --output "%ArchiveFolder%\%FileName%.zip" main %GitAddPath%/%FileName%
   "%~dp0Tools\7Zip\7z.exe" -sccUTF-8 -bsp0 -bso0 e "%ArchiveFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%XliffFolder%"
 )
 goto Upload
