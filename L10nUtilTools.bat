@@ -528,7 +528,7 @@ if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
   set ShortName=%AddonName%
-  set "MarkdownFile=!ShortName!.md"
+  set "MarkdownFile=%AddonName%.md"
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 if /I "%CLI:~2,1%"=="M" (
