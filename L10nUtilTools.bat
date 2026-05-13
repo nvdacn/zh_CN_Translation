@@ -372,8 +372,8 @@ exit /b %errorlevel%
 Rem 生成文档的 Markdown 版本
 :GenerateMarkdown
 IF NOT EXIST "%~dp0ProcessTranslation\Markdown" (MKDir "%~dp0ProcessTranslation\Markdown")
-IF EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (del /f /q "%~dp0ProcessTranslation\Markdown\%ShortName%.md")
-%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Markdown\%ShortName%.md"
+IF EXIST "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" (del /f /q "%~dp0ProcessTranslation\Markdown\%MarkdownFile%")
+%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Markdown\%MarkdownFile%"
 set ExitCode=!errorlevel!
 goto Quit
 
@@ -411,8 +411,8 @@ if /I "%L10NSourceCodePath%" =="exe" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
   exit /b 1
 )
-IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %MarkdownFile%，请先创建该文件后重试。',5,'错误',16)"
   exit /b 1
 )
 IF NOT EXIST "%SourceXLIFFPath%" (
@@ -422,7 +422,7 @@ IF NOT EXIST "%SourceXLIFFPath%" (
 IF EXIST "%TranslationPath%\%FileName%" (
   move /Y "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Xliff\%ShortName%.xliff"
 )
-uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -527,6 +527,7 @@ if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
   set ShortName=%AddonName%
+  set "MarkdownFile=!ShortName!.md"
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 if /I "%CLI:~2,1%"=="M" (
