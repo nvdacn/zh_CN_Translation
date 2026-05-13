@@ -191,6 +191,7 @@ goto Quit
 :GMU
 :MHC
 :MHU
+:MHK
 :MXC
 :MXU
 :DLL
@@ -277,9 +278,11 @@ if /I "%CLI:~2,1%"=="U" (
   set FileName=userGuide.xliff
   set ShortName=userGuide
 )
+set "MarkdownFile=%ShortName%.md"
 if /I "%CLI:~2,1%"=="K" (
   set Type=Docs
   set FileName=userGuide.xliff
+  set "MarkdownFile=userGuide.md"
   set ShortName=keyCommands
 )
 if /I "%Type%"=="Docs" (
@@ -376,12 +379,12 @@ goto Quit
 
 Rem 从 Markdown 文件生成 HTML 文件  
 :GenerateHTML
-IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误')"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %MarkdownFile%，请先生成该文件后重试。',5,'错误',16)"
   exit /b 1
 )
 IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
-%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0ProcessTranslation\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
+%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" "%~dp0Preview\%ShortName%.html"
 set ExitCode=!errorlevel!
 goto Quit
 
