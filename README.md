@@ -144,6 +144,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | `GMU` | 生成用户指南的 Markdown 文件。 |
 | `MHC` | 从先前创建的 Markdown 文档生成更新日志的 html 文件。 |
 | `MHU` | 从先前创建的 Markdown 文档生成用户指南的 html 文件。 |
+| `MHK` | 从先前创建的用户指南 Markdown 文档生成热键快速参考的 html 文件。 |
 | `MXC`\* | 从先前创建的 Markdown 文档生成更新日志的 xliff 文件。 |
 | `MXU`\* | 从先前创建的 Markdown 文档生成用户指南的 xliff 文件。 |
 | `UDL`\* | 从给定的 nvda.pot 更新 nvda.po 的翻译字符串。 |
@@ -186,7 +187,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 - 如要使用 nvdaL10n 提供的 l10nUtil，需根据 [Installation and Building an Executable（英语）](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe)，并将下载的文件放在此存储库的 `Tools` 文件夹中；
 - 执行标有 `*` 的命令时，可能需要与该工具进行交互或配置必要的运行环境，请根据提示输入信息或配置运行环境后，该命令才可正确执行。
-- `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
+- `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU`、`MHK` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
 - `GEZ` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
 - `GMC`、`GMU`、`GMX` 命令生成的文件位于 `ProcessTranslation\Markdown` 文件夹下。

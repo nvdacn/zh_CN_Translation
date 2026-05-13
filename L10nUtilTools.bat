@@ -106,6 +106,7 @@ echo GMC：生成更新日志的 Markdown 文件；
 echo GMU：生成用户指南的 Markdown 文件；  
 echo MHC：从先前创建的 Markdown 文档生成更新日志的 html 文件；  
 echo MHU：从先前创建的 Markdown 文档生成用户指南的 html 文件；  
+echo MHK：从先前创建的用户指南 Markdown 文档生成热键快速参考的 html 文件；  
 echo MXC：从先前创建的 Markdown 文档生成更新日志的 xliff 文件；  
 echo MXU：从先前创建的 Markdown 文档生成用户指南的 xliff 文件；  
 echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
