@@ -6154,7 +6154,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>2026.2</source>
         <target>2026.2</target>
       </segment>
@@ -6163,108 +6163,108 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This release includes a new built-in Magnifier feature, improvements to touch gestures and navigation, and expanded speech and braille capabilities.</source>
-        <target>This release includes a new built-in Magnifier feature, improvements to touch gestures and navigation, and expanded speech and braille capabilities.</target>
+        <target>本版包含全新的内置放大镜功能、触摸手势和导航改进，以及语音和盲文功能的扩展。</target>
       </segment>
     </unit>
     <unit id="63d28b49-1495-4de8-878f-f7c12fd4ed84">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Magnifier provides zoom and color filtering options to assist users with visual impairments.</source>
-        <target>The Magnifier provides zoom and color filtering options to assist users with visual impairments.</target>
+        <target>放大镜提供了有助于视障用户使用的缩放和颜色滤镜选项。</target>
       </segment>
     </unit>
     <unit id="2239327d-841b-4cc3-a147-0a8763970496">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Magnifier currently only supports fullscreen mode, with docked modes planned in a future release.</source>
-        <target>The Magnifier currently only supports fullscreen mode, with docked modes planned in a future release.</target>
+        <target>当前放大镜仅支持全屏模式，停靠模式计划在后续版本中推出。</target>
       </segment>
     </unit>
     <unit id="534b348a-7d50-4ab8-82d5-5110b7d3f7e5">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Touch support has been significantly expanded with new pinch gestures and touch-based browse mode navigation for web content.</source>
-        <target>Touch support has been significantly expanded with new pinch gestures and touch-based browse mode navigation for web content.</target>
+        <target>触摸支持得到显著扩展，新增捏合手势以及基于触摸浏览模式下的网页内容导航。</target>
       </segment>
     </unit>
     <unit id="70fa7fb9-f970-4fb6-b2c6-230b1936d48b">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can now navigate between links, headings, form fields, and other elements using touch flicks.</source>
-        <target>You can now navigate between links, headings, form fields, and other elements using touch flicks.</target>
+        <target>现在您可以通过触摸滑动在链接、标题、表单字段和其他元素间导航。</target>
       </segment>
     </unit>
     <unit id="e0c83db4-ad69-41c1-ada1-18041e5335e1">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Speech features have been enhanced with support for custom speech dictionaries that can be provided by add-ons and new dictionary entry types for more granular control.</source>
-        <target>Speech features have been enhanced with support for custom speech dictionaries that can be provided by add-ons and new dictionary entry types for more granular control.</target>
+        <target>语音功能已得到增强，支持插件提供的自定义语音字典，并新增字典条目类型以实现精细控制。</target>
       </segment>
     </unit>
     <unit id="08349e4f-f444-4952-8ee3-1faf968dbb04">
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A new voice setting for OneCore voices was added to control pauses after punctuation.</source>
-        <target>A new voice setting for OneCore voices was added to control pauses after punctuation.</target>
+        <target>OneCore 语音新增了用于控制标点符号后停顿的语音设置。</target>
       </segment>
     </unit>
     <unit id="4b57e390-23b1-4bb4-8de1-c956bfb1d96f">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A new command allows repeating the last spoken information, with the ability to display it in a browsable message.</source>
-        <target>A new command allows repeating the last spoken information, with the ability to display it in a browsable message.</target>
+        <target>新增了 `NVDA+x` 命令，用于重复最近朗读的信息，还支持在浏览模式下显示。</target>
       </segment>
     </unit>
     <unit id="5b09b1d8-f98a-4bd5-ba1a-9228b79d9bad">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The default gesture to repeat the last spoken information is `NVDA+x`, which can be changed in the Input Gestures dialog.</source>
-        <target>The default gesture to repeat the last spoken information is `NVDA+x`, which can be changed in the Input Gestures dialog.</target>
+        <target>可在“按键与手势”对话框中更改该命令的默认快捷键。</target>
       </segment>
     </unit>
     <unit id="286da168-5231-479b-8ff2-c6e251ee7077">
       <notes>
         <note appliesTo="source">line: 19</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The braille display can now automatically scroll and DotPad devices support multi-button combinations.</source>
-        <target>The braille display can now automatically scroll and DotPad devices support multi-button combinations.</target>
+        <target>盲文点显器支持自动滚动，DotPad 设备支持多键组合。</target>
       </segment>
     </unit>
     <unit id="bf820cf5-dfee-47f3-8918-1a00c6b7a664">
       <notes>
         <note appliesTo="source">line: 21</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Liblouis has been updated with new Italian and Estonian braille tables.</source>
-        <target>Liblouis has been updated with new Italian and Estonian braille tables.</target>
+        <target>Liblouis 已更新，新增意大利语和爱沙尼亚语盲文表。</target>
       </segment>
     </unit>
     <unit id="b4192a13-6451-4fd3-897f-c2a631effad7">
       <notes>
         <note appliesTo="source">line: 23</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When resetting NVDA to factory defaults, an Undo button is now available to restore the previous configuration.</source>
-        <target>When resetting NVDA to factory defaults, an Undo button is now available to restore the previous configuration.</target>
+        <target>将 NVDA 恢复为默认设置时，提供了“撤消”按钮用以恢复之前的配置。</target>
       </segment>
     </unit>
     <unit id="c3b29ad4-4a8a-4d76-bbf6-19df3cb19546">
