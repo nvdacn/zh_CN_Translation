@@ -6997,18 +6997,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changes for Developers</source>
-        <target>Changes for Developers</target>
+        <target>开发者需要了解的变化</target>
       </segment>
     </unit>
     <unit id="10327e8f-73dd-48a5-abd2-dd09ff340fef">
       <notes>
         <note appliesTo="source">line: 107</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please refer to [the developer guide](https://download.nvaccess.org/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
-        <target>Please refer to [the developer guide](https://download.nvaccess.org/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</target>
+        <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://download.nvaccess.org/documentation/developerGuide.html#API)。</target>
       </segment>
     </unit>
     <unit id="5cbaebe9-ac84-433b-aaf9-f511bcf3b895">
@@ -7016,9 +7016,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Clarified NV Access's policy on API breaking changes in the [Developer Guide](https://download.nvaccess.org/documentation/developerGuide.html#API). (#19599)</source>
-        <target>Clarified NV Access's policy on API breaking changes in the [Developer Guide](https://download.nvaccess.org/documentation/developerGuide.html#API). (#19599)</target>
+        <target>在[开发者指南](https://download.nvaccess.org/documentation/developerGuide.html#API)中阐明了 NV Access 关于 API 破坏性变更的政策。(#19599)</target>
       </segment>
     </unit>
     <unit id="7c335ba5-44f5-41fe-9dd9-2ad8f9c047a0">
@@ -7026,9 +7026,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated components:</source>
-        <target>Updated components:</target>
+        <target>组件更新：</target>
       </segment>
     </unit>
     <unit id="15fdec00-b275-45cc-9d0a-bae51896fdf6">
@@ -7036,9 +7036,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Ruff to 0.15.9. (#19736, #19908)</source>
-        <target>Ruff to 0.15.9. (#19736, #19908)</target>
+        <target>将 Ruff 更新到 0.15.9。(#19736, #19908)</target>
       </segment>
     </unit>
     <unit id="92cd5eeb-cf53-45f4-a68d-dac075385cd9">
@@ -7046,9 +7046,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 112</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>uv to 0.11.7. (#19736, #19908, #19968)</source>
-        <target>uv to 0.11.7. (#19736, #19908, #19968)</target>
+        <target>将 uv 更新到 0.11.7。(#19736, #19908, #19968)</target>
       </segment>
     </unit>
     <unit id="91f46535-62cf-484e-878a-3f53cd1bef4f">
@@ -7056,9 +7056,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Requests to 2.33.0. (#19877)</source>
-        <target>Requests to 2.33.0. (#19877)</target>
+        <target>将 Requests 更新到 2.33.0。(#19877)</target>
       </segment>
     </unit>
     <unit id="cba1249c-5ee3-4842-ab2a-a860c82ce18e">
@@ -7066,9 +7066,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 114</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>cryptography to 46.0.7. (#19877, #19968)</source>
-        <target>cryptography to 46.0.7. (#19877, #19968)</target>
+        <target>将 cryptography 更新到 46.0.7。(#19877, #19968)</target>
       </segment>
     </unit>
     <unit id="6cae5eda-e5d2-4f51-a814-1ef5210e88f3">
@@ -7076,9 +7076,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 115</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Python to 3.13.13. (#20231, @dpy013)</source>
-        <target>Python to 3.13.13. (#20231, @dpy013)</target>
+        <target>将 Python 更新到 3.13.13。(#20231, @dpy013)</target>
       </segment>
     </unit>
     <unit id="4f3c6ec3-30df-4ec6-9934-175b65a2be68">
@@ -7487,9 +7487,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 169</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changes for Developers</source>
-        <target>Changes for Developers</target>
+        <target>开发者需要了解的变化</target>
       </segment>
     </unit>
     <unit id="c6d8d68d-f9d5-4604-9e67-5258e620e7ad">
