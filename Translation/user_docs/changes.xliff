@@ -6807,9 +6807,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Bug Fixes</source>
-        <target>Bug Fixes</target>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="3d8e7f65-d898-4c1f-aa1b-1ee897dd85f2">
@@ -6817,9 +6817,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Add-on Store:</source>
-        <target>Add-on Store:</target>
+        <target>插件商店：</target>
       </segment>
     </unit>
     <unit id="31dff8e6-8c4f-4d3c-9500-fd0be6caf739">
@@ -6827,9 +6827,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer crashes when the Add-on Store download directory cannot be cleaned up due to file permission errors. (#19202, @christopherpross)</source>
-        <target>NVDA no longer crashes when the Add-on Store download directory cannot be cleaned up due to file permission errors. (#19202, @christopherpross)</target>
+        <target>修复了当因文件权限错误无法清理插件商店下载目录时，NVDA 崩溃的问题。(#19202, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="b6c22b8b-431a-48db-a8b6-52d09261614a">
@@ -6837,9 +6837,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>After cancelling an add-on download and reopening the Add-on Store, downloading another add-on no longer fails. (#20015, @Cary-rowen)</source>
-        <target>After cancelling an add-on download and reopening the Add-on Store, downloading another add-on no longer fails. (#20015, @Cary-rowen)</target>
+        <target>修复了取消插件下载并重新打开插件商店后，下载其他插件失败的问题。(#20015, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="466642ed-1b63-488e-99b6-0441afae5c59">
@@ -6847,9 +6847,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Configuration profile triggers now activate when the Add-on Store is open. (#19583, @bramd)</source>
-        <target>Configuration profile triggers now activate when the Add-on Store is open. (#19583, @bramd)</target>
+        <target>修复了打开插件商店时未激活独立配置的问题。(#19583, @bramd)</target>
       </segment>
     </unit>
     <unit id="3f1a6c91-6128-45cf-aa29-400ca3d1ace5">
@@ -6857,9 +6857,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed an error that could occur when NVDA checked whether a language is supported for a synthesizer with invalid languages. (#20080, @nvdaes)</source>
-        <target>Fixed an error that could occur when NVDA checked whether a language is supported for a synthesizer with invalid languages. (#20080, @nvdaes)</target>
+        <target>修复了当 NVDA 检查某个带有无效语言的语音合成器是否支持某语言时可能发生的错误。(#20080, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="9146d041-7a88-4ddd-86a4-75901098f944">
@@ -6867,9 +6867,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA will attempt to recover more quickly from freezes in some applications, especially those written in Java. (#14396, @thgcode)</source>
-        <target>NVDA will attempt to recover more quickly from freezes in some applications, especially those written in Java. (#14396, @thgcode)</target>
+        <target>修复了 NVDA 在某些应用（尤其是 Java 编写的应用）中卡死后，无法快速恢复的问题。(#14396, @thgcode)</target>
       </segment>
     </unit>
     <unit id="3f080fd6-4c5f-4e13-abf4-66e2ad24386f">
@@ -6877,9 +6877,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Firefox browse mode, the accessible name of form controls (such as checkboxes and radio buttons) is now correctly announced when the control has an `aria-label` and an associated `&lt;label&gt;` element that contains only `aria-hidden` content. (#19409, @bramd)</source>
-        <target>In Firefox browse mode, the accessible name of form controls (such as checkboxes and radio buttons) is now correctly announced when the control has an `aria-label` and an associated `&lt;label&gt;` element that contains only `aria-hidden` content. (#19409, @bramd)</target>
+        <target>修复了在 Firefox 浏览模式下，当表单控件（如复选框和单选按钮）具有 `aria-label` 且关联的 `&lt;label&gt;` 元素仅包含 `aria-hidden` 内容时，其可访问名称未被正确朗读的问题。(#19409, @bramd)</target>
       </segment>
     </unit>
     <unit id="c507f011-b58b-444a-a3d0-93b922b63bd2">
@@ -6887,9 +6887,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The "Toggles on and off if the screen layout is preserved while rendering the document content" item in the "Browse mode" category of the Input Gestures dialog now behaves correctly. (#18378)</source>
-        <target>The "Toggles on and off if the screen layout is preserved while rendering the document content" item in the "Browse mode" category of the Input Gestures dialog now behaves correctly. (#18378)</target>
+        <target>修复了“按键与手势”对话框中“浏览模式”类别下的“切换是否根据屏幕布局浏览文档内容”选项行为不正确的问题。(#18378)</target>
       </segment>
     </unit>
     <unit id="46e2d6dc-1335-4678-ad59-f44cd323de0f">
@@ -6897,9 +6897,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Microsoft Word with UIA enabled, page changes are now correctly announced when navigating table rows that span multiple pages. (#19386, @akj)</source>
-        <target>In Microsoft Word with UIA enabled, page changes are now correctly announced when navigating table rows that span multiple pages. (#19386, @akj)</target>
+        <target>修复了在启用 UIA 的 Microsoft Word 中，导航跨多页的表格行时，页面变更未被正确朗读的问题。(#19386, @akj)</target>
       </segment>
     </unit>
     <unit id="9ec14e36-02f1-44f0-ad8c-366cfcf7f7de">
@@ -6907,9 +6907,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed excessive resource usage and highlight flickering when using Visual Highlight. (#17434, @hwf1324)</source>
-        <target>Fixed excessive resource usage and highlight flickering when using Visual Highlight. (#17434, @hwf1324)</target>
+        <target>修复了使用视觉高亮时，资源占用过高和高亮闪烁的问题。(#17434, @hwf1324)</target>
       </segment>
     </unit>
     <unit id="46f5b2cc-76cb-460a-a744-969f63d29832">
@@ -6917,9 +6917,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille should no longer stop following focus when moving around in the Microsoft Copilot application. (#19646, @Emil-18)</source>
-        <target>Braille should no longer stop following focus when moving around in the Microsoft Copilot application. (#19646, @Emil-18)</target>
+        <target>修复了在 Microsoft Copilot 应用中移动时，盲文停止跟随焦点的问题。(#19646, @Emil-18)</target>
       </segment>
     </unit>
     <unit id="6bbd3536-a844-4718-81bf-693a96b63a62">
@@ -6927,9 +6927,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The `NVDA+k` command now correctly reports the destination of links containing formatted text, such as bold or italics. (#19428, @Cary-rowen)</source>
-        <target>The `NVDA+k` command now correctly reports the destination of links containing formatted text, such as bold or italics. (#19428, @Cary-rowen)</target>
+        <target>修复了 `NVDA+K` 命令未正确读出包含格式化文本（如粗体或斜体）的链接目标的问题。(#19428, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="e0054285-9543-47b4-b53e-60ee91375652">
@@ -6937,9 +6937,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Capital indicators are now correctly announced when selecting single characters. (#19505, @cary-rowen)</source>
-        <target>Capital indicators are now correctly announced when selecting single characters. (#19505, @cary-rowen)</target>
+        <target>修复了选中单个字符时，未正确给出大写提示的问题。(#19505, @cary-rowen)</target>
       </segment>
     </unit>
     <unit id="95b8da77-ffb6-4e97-8615-411ef76125fe">
@@ -6947,9 +6947,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>MathML in Chromium is more reliably read after NVDA starts or restarts. (#20049, @RyanMcCleary)</source>
-        <target>MathML in Chromium is more reliably read after NVDA starts or restarts. (#20049, @RyanMcCleary)</target>
+        <target>修复了 NVDA 启动或重启后，阅读 Chromium 中的 MathML 不稳定的问题。(#20049, @RyanMcCleary)</target>
       </segment>
     </unit>
     <unit id="bc08aaac-f6ee-4d5f-88cf-aa9969288650">
@@ -6957,9 +6957,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Decorative Unicode letters such as negative squared, negative circled, and regional indicator symbol characters are now normalized to their base Latin letters when Unicode normalization is enabled. (#19608, @bramd)</source>
-        <target>Decorative Unicode letters such as negative squared, negative circled, and regional indicator symbol characters are now normalized to their base Latin letters when Unicode normalization is enabled. (#19608, @bramd)</target>
+        <target>修复了启用 Unicode 规范化后，装饰性 Unicode 字母（如负平方、负圆圈和区域指示符字符）未被规范化为基本拉丁字母的问题。(#19608, @bramd)</target>
       </segment>
     </unit>
     <unit id="3b3c32e3-e1eb-442e-85a0-db79cd82aa8e">
@@ -6967,9 +6967,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed NVDA freezing when navigating in JetBrains IDEs. (#16741, @christopherpross)</source>
-        <target>Fixed NVDA freezing when navigating in JetBrains IDEs. (#16741, @christopherpross)</target>
+        <target>修复了在 JetBrains IDE 中导航时 NVDA 卡死的问题。(#16741, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="b1cc6fad-19e7-4315-8619-2ecf732787a2">
@@ -6977,9 +6977,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Speech dictionary entries of type Whole word now correctly handle words containing Unicode combining marks (e.g. Hebrew niqqud, Arabic harakat). (#20013, @LeonarddeR)</source>
-        <target>Speech dictionary entries of type Whole word now correctly handle words containing Unicode combining marks (e.g. Hebrew niqqud, Arabic harakat). (#20013, @LeonarddeR)</target>
+        <target>修复了类型为“整词匹配”的语音字典条目无法正确处理包含 Unicode 组合标记（如希伯来语的 niqqud、阿拉伯语的 harakat）的单词的问题。(#20013, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="e4f21899-9b3b-4c5d-94bd-f1d2422d9127">
@@ -6987,9 +6987,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In particular, Whole word entries no longer incorrectly match inside larger words when those words contain combining marks.</source>
-        <target>In particular, Whole word entries no longer incorrectly match inside larger words when those words contain combining marks.</target>
+        <target>特别是，修复了当长单词包含组合标记时，“整词匹配”条目错误地匹配了该长单词内部的问题。</target>
       </segment>
     </unit>
     <unit id="65db2ddc-f0be-4fd8-97a0-b2ff4dc641a9">
@@ -7438,9 +7438,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 160</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Bug Fixes</source>
-        <target>Bug Fixes</target>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="55bcd891-f1ba-4ff9-89e9-f6166908295b">
