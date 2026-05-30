@@ -7362,7 +7362,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 147</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>2026.1.1</source>
         <target>2026.1.1</target>
       </segment>
@@ -7371,27 +7371,27 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 149</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This is a patch release to fix security issues.</source>
-        <target>This is a patch release to fix security issues.</target>
+        <target>这是一个修复安全问题的补丁版本。</target>
       </segment>
     </unit>
     <unit id="5e5c2d9d-b8bd-4dbc-bc26-0211ccb2b859">
       <notes>
         <note appliesTo="source">line: 150</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A bug fix is also included for an issue introduced in 2026.1 with how `ctrl+f` is handled in File Explorer.</source>
-        <target>A bug fix is also included for an issue introduced in 2026.1 with how `ctrl+f` is handled in File Explorer.</target>
+        <target>此外，还修复了 2026.1 版本中引入的关于文件资源管理器处理 `Ctrl+F` 方式的问题。</target>
       </segment>
     </unit>
     <unit id="a6e5e362-66af-44df-ba77-37cd1bd2dcd8">
       <notes>
         <note appliesTo="source">line: 151</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A change introduced in 2026.1 with how NVDA handles connection issues with Remote Access was removed.</source>
-        <target>A change introduced in 2026.1 with how NVDA handles connection issues with Remote Access was removed.</target>
+        <target>移除了 2026.1 版本中引入的关于 NVDA 处理远程访问连接问题的更改。</target>
       </segment>
     </unit>
     <unit id="c0ac123f-19a9-4113-815e-39ead62de217">
@@ -7399,18 +7399,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 153</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Security fixes</source>
-        <target>Security fixes</target>
+        <target>安全修复</target>
       </segment>
     </unit>
     <unit id="154719a4-d36f-46e8-8cd1-f299d242b78f">
       <notes>
         <note appliesTo="source">line: 155</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</source>
-        <target>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</target>
+        <target>请遵循 NVDA 的[安全政策](https://github.com/nvaccess/nvda/blob/master/security.md)负责任地披露安全问题。</target>
       </segment>
     </unit>
     <unit id="317dfc45-6f60-423c-aa37-eff87fc9a158">
@@ -7418,9 +7418,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed an issue which could cause NVDA to connect to an untrusted Remote Access server. ([GHSA-m268-mc77-j2cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-m268-mc77-j2cr))</source>
-        <target>Fixed an issue which could cause NVDA to connect to an untrusted Remote Access server. ([GHSA-m268-mc77-j2cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-m268-mc77-j2cr))</target>
+        <target>修复了可能导致 NVDA 连接到不受信任的远程访问服务器的问题。([GHSA-m268-mc77-j2cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-m268-mc77-j2cr))</target>
       </segment>
     </unit>
     <unit id="1e0d50c1-2f0a-4cd6-ba2a-a0a39596cec6">
@@ -7428,9 +7428,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 158</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Prevents a situation which could cause unselected add-ons to be copied to the system-wide configuration. ([GHSA-669f-7gpr-5vqm](https://github.com/nvaccess/nvda/security/advisories/GHSA-669f-7gpr-5vqm))</source>
-        <target>Prevents a situation which could cause unselected add-ons to be copied to the system-wide configuration. ([GHSA-669f-7gpr-5vqm](https://github.com/nvaccess/nvda/security/advisories/GHSA-669f-7gpr-5vqm))</target>
+        <target>防止了未选中的插件被拷贝到系统配置的情况。([GHSA-669f-7gpr-5vqm](https://github.com/nvaccess/nvda/security/advisories/GHSA-669f-7gpr-5vqm))</target>
       </segment>
     </unit>
     <unit id="6fccf36b-d520-4756-8a6e-4825cc477bf5">
@@ -7448,9 +7448,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 162</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In File Explorer, pressing `ctrl+f` once again focuses the search box without subsequently reporting a pane. (#20021, @Cary-rowen)</source>
-        <target>In File Explorer, pressing `ctrl+f` once again focuses the search box without subsequently reporting a pane. (#20021, @Cary-rowen)</target>
+        <target>修复了在文件资源管理器中，按 `Ctrl+F` 一次未正确聚焦到搜索框且会朗读窗格的问题。(#20021, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="af74bc3c-a99c-4b71-9cd9-aae06dfa5747">
@@ -7458,9 +7458,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 164</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changes</source>
-        <target>Changes</target>
+        <target>改进</target>
       </segment>
     </unit>
     <unit id="a5494131-1590-45a3-ae68-150b6fbebc65">
@@ -7468,18 +7468,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 166</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote Access once again attempts automatic reconnection after a failed initial connection as the controlled computer, rather than failing immediately.</source>
-        <target>Remote Access once again attempts automatic reconnection after a failed initial connection as the controlled computer, rather than failing immediately.</target>
+        <target>作为被控计算机时，远程访问在初始连接失败后会再次尝试自动重新连接，而不是立即失败。</target>
       </segment>
     </unit>
     <unit id="eb5096c1-7bff-45c7-a899-e66f7e5df8fd">
       <notes>
         <note appliesTo="source">line: 167</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This means that headless or otherwise physically inaccessible machines configured to automatically connect at startup will be reachable once the network is available. (#20122)</source>
-        <target>This means that headless or otherwise physically inaccessible machines configured to automatically connect at startup will be reachable once the network is available. (#20122)</target>
+        <target>    这意味着，配置为在启动时自动连接的无头计算机或其他物理上无法访问的计算机，在网络可用时将能够被连接。(#20122)</target>
       </segment>
     </unit>
     <unit id="71450862-373e-4763-ad6a-034bfe272e44">
@@ -7497,9 +7497,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 171</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The `winBindings.cfgmgr32` module is now included in NVDA binary builds. (#20089, @Cary-rowen)</source>
-        <target>The `winBindings.cfgmgr32` module is now included in NVDA binary builds. (#20089, @Cary-rowen)</target>
+        <target>`winBindings.cfgmgr32` 模块已包含在 NVDA 二进制构建中。(#20089, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="2e9d82f2-0de8-4bed-a883-13977785e1c4">
