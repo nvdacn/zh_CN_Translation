@@ -6154,7 +6154,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>2026.2</source>
         <target>2026.2</target>
       </segment>
@@ -6163,7 +6163,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This release includes a new built-in Magnifier feature, improvements to touch gestures and navigation, and expanded speech and braille capabilities.</source>
         <target>本版包含全新的内置放大镜功能、触摸手势和导航改进，以及语音和盲文功能的扩展。</target>
       </segment>
@@ -6172,7 +6172,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The Magnifier provides zoom and color filtering options to assist users with visual impairments.</source>
         <target>放大镜提供了有助于视障用户使用的缩放和颜色滤镜选项。</target>
       </segment>
@@ -6181,7 +6181,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The Magnifier currently only supports fullscreen mode, with docked modes planned in a future release.</source>
         <target>当前放大镜仅支持全屏模式，停靠模式计划在后续版本中推出。</target>
       </segment>
@@ -6190,7 +6190,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Touch support has been significantly expanded with new pinch gestures and touch-based browse mode navigation for web content.</source>
         <target>触摸支持得到显著扩展，新增捏合手势以及基于触摸浏览模式下的网页内容导航。</target>
       </segment>
@@ -6199,7 +6199,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can now navigate between links, headings, form fields, and other elements using touch flicks.</source>
         <target>现在您可以通过触摸滑动在链接、标题、表单字段和其他元素间导航。</target>
       </segment>
@@ -6208,7 +6208,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech features have been enhanced with support for custom speech dictionaries that can be provided by add-ons and new dictionary entry types for more granular control.</source>
         <target>语音功能已得到增强，支持插件提供的自定义语音字典，并新增字典条目类型以实现精细控制。</target>
       </segment>
@@ -6217,7 +6217,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A new voice setting for OneCore voices was added to control pauses after punctuation.</source>
         <target>OneCore 语音新增了用于控制标点符号后停顿的语音设置。</target>
       </segment>
@@ -6226,7 +6226,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A new command allows repeating the last spoken information, with the ability to display it in a browsable message.</source>
         <target>新增了 `NVDA+x` 命令，用于重复最近朗读的信息，还支持在浏览模式下显示。</target>
       </segment>
@@ -6235,7 +6235,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The default gesture to repeat the last spoken information is `NVDA+x`, which can be changed in the Input Gestures dialog.</source>
         <target>可在“按键与手势”对话框中更改该命令的默认快捷键。</target>
       </segment>
@@ -6244,7 +6244,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 19</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The braille display can now automatically scroll and DotPad devices support multi-button combinations.</source>
         <target>盲文点显器支持自动滚动，DotPad 设备支持多键组合。</target>
       </segment>
@@ -6253,7 +6253,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 21</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Liblouis has been updated with new Italian and Estonian braille tables.</source>
         <target>Liblouis 已更新，新增意大利语和爱沙尼亚语盲文表。</target>
       </segment>
@@ -6262,7 +6262,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 23</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When resetting NVDA to factory defaults, an Undo button is now available to restore the previous configuration.</source>
         <target>将 NVDA 恢复为默认设置时，提供了“撤消”按钮用以恢复之前的配置。</target>
       </segment>
@@ -6272,7 +6272,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Important notes</source>
         <target>重要提示</target>
       </segment>
@@ -6282,7 +6282,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>New Features</source>
         <target>新特性</target>
       </segment>
@@ -6292,7 +6292,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Magnifier:</source>
         <target>放大镜：</target>
       </segment>
@@ -6302,7 +6302,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA now includes a built-in Magnifier feature that allows you to zoom and magnify parts of the screen. (#19228, @Boumtchack)</source>
         <target>NVDA 现内置放大镜功能，允许您对屏幕的部分区域进行放大。(#19228, @Boumtchack)</target>
       </segment>
@@ -6312,7 +6312,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The magnifier supports various zoom levels, color filters (normal, grayscale, inverted), and different focus tracking modes.</source>
         <target>放大镜支持多种缩放级别、颜色滤镜（正常、灰度、反色）以及不同的焦点跟踪模式。</target>
       </segment>
@@ -6322,7 +6322,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Color filters can help users with visual impairments or light sensitivity by inverting or desaturating screen colors.</source>
         <target>颜色滤镜可以通过反转或降低屏幕颜色饱和度来帮助有视力障碍或对光线敏感的用户。</target>
       </segment>
@@ -6332,7 +6332,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A spotlight mode is available for presentations or focused reading tasks.</source>
         <target>支持暂时显示标准视图，适用于演示或专注阅读任务。</target>
       </segment>
@@ -6342,7 +6342,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>All magnifier settings can be configured in a new "Magnifier" panel in NVDA Settings.</source>
         <target>所有放大镜设置均可在 NVDA 设置新增的“放大镜”面板中进行配置。</target>
       </segment>
@@ -6352,7 +6352,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The magnifier cannot be used simultaneously with Screen Curtain for security reasons.</source>
         <target>出于安全原因，放大镜不能与黑屏功能同时使用。</target>
       </segment>
@@ -6362,7 +6362,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech:</source>
         <target>语音：</target>
       </segment>
@@ -6372,7 +6372,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A new voice setting "Natural pause after punctuation" was added for OneCore voices, allowing users to turn punctuation pauses on or off. (#11876, @gexgd0419)</source>
         <target>OneCore 语音新增了“标点后自然停顿”语音设置，允许用户开启或关闭标点停顿。(#11876, @gexgd0419)</target>
       </segment>
@@ -6382,7 +6382,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A new command, assigned to `NVDA+x`, has been introduced to repeat the last information spoken by NVDA; pressing it twice shows it in a browseable message. (#625, @CyrilleB79)</source>
         <target>新增了一个命令（默认快捷键 `NVDA+x`），用于重复 NVDA 上次朗读的信息；连按两次可在浏览模式下显示该信息。(#625, @CyrilleB79)</target>
       </segment>
@@ -6392,7 +6392,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Braille:</source>
         <target>盲文：</target>
       </segment>
@@ -6402,7 +6402,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added the ability to automatically scroll the braille display. (#18573, @nvdaes)</source>
         <target>新增自动滚动盲文显示的功能。(#18573, @nvdaes)</target>
       </segment>
@@ -6412,7 +6412,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>DotPad braille displays now support multi-button combination gestures. (#19565, @bramd)</source>
         <target>DotPad 点显器现支持多键组合手势。(#19565, @bramd)</target>
       </segment>
@@ -6422,7 +6422,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can now press multiple buttons simultaneously to create custom gestures (e.g., `f1+panLeft`).</source>
         <target>您可同时按下多个按钮来创建自定义手势（例如 `f1+panLeft`）。</target>
       </segment>
@@ -6432,7 +6432,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Touch:</source>
         <target>触摸：</target>
       </segment>
@@ -6442,7 +6442,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added pinch in and pinch out touch gestures, allowing two-finger pinch gestures to be bound to scripts. (#19963, @kefaslungu)</source>
         <target>新增双指捏合与张开的触摸手势，允许将这些手势绑定到脚本。(#19963, @kefaslungu)</target>
       </segment>
@@ -6452,7 +6452,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added touch based navigation of browse mode elements, allowing touch screen users to move between links, headings, form fields, lists, tables and other quick navigation elements. (#3424, @kefaslungu)</source>
         <target>新增了基于触摸的浏览模式元素导航，允许触摸屏用户在链接、标题、表单字段、列表、表格及其他快速导航元素间移动。(#3424, @kefaslungu)</target>
       </segment>
@@ -6462,7 +6462,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Flick down or up to cycle through element types; flick right or left to navigate between elements of the selected type.</source>
         <target>向下或向上滑动以循环切换元素类型；向右或向左滑动以在选定类型的元素间导航。</target>
       </segment>
@@ -6472,7 +6472,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The element types shown when cycling can be configured in the Browse Mode settings panel.</source>
         <target>循环切换时可用的元素类型可在“浏览模式”设置面板中配置。</target>
       </segment>
@@ -6482,7 +6482,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech dictionaries:</source>
         <target>语音字典：</target>
       </segment>
@@ -6492,7 +6492,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added support for custom speech dictionaries. (#19558, #17468, @LeonarddeR)</source>
         <target>添加了自定义语音字典功能。(#19558, #17468, @LeonarddeR)</target>
       </segment>
@@ -6502,7 +6502,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Dictionaries can be provided in the `speechDicts` folder in an add-on package.</source>
         <target>字典可放置在插件包中的 `speechDicts` 目录中。</target>
       </segment>
@@ -6512,7 +6512,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Dictionary metadata can be added to an optional `speechDictionaries` section in the add-on manifest.</source>
         <target>字典元数据可以在插件清单（manifest）的可选部分声明为 `speechDictionaries` 字段。</target>
       </segment>
@@ -6522,7 +6522,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please consult the [Custom speech dictionaries section in the developer guide](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#AddonSpeechDictionaries) for more details.</source>
         <target>详情请参考[开发者指南中的 Custom speech dictionaries 章节](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#AddonSpeechDictionaries)。</target>
       </segment>
@@ -6532,7 +6532,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>New types have been added for speech dictionary entries, such as part of word and start of word.</source>
         <target>语音字典条目增加了新的类型，如部分匹配和匹配词首。</target>
       </segment>
@@ -6541,9 +6541,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 54</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Consult the speech dictionaries section in the User Guide for more details. (#19506, @LeonarddeR)</source>
-        <target>更多详情请参阅《用户指南》中的“语音字典”章节。(#19506, @LeonarddeR)</target>
+        <target>  更多详情请参阅《用户指南》中的“语音字典”章节。(#19506, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="b0846491-184b-44cd-b1e9-b29bb56e26c2">
@@ -6551,7 +6551,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>After installing or updating NVDA, a dialog now offers options to restart Windows, start the installed copy, or exit the installer. (#19268, #19718, @kefaslungu)</source>
         <target>安装或更新 NVDA 后，会弹出一个对话框，提供重启 Windows、启动安装版 NVDA 或退出安装程序的选项。(#19268, #19718, @kefaslungu)</target>
       </segment>
@@ -6561,7 +6561,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added an unassigned command to toggle keyboard layout. (#19211, @CyrilleB79)</source>
         <target>新增了一个未分配命令，用于切换键盘配置。(#19211, @CyrilleB79)</target>
       </segment>
@@ -6571,7 +6571,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added an unassigned Quick Navigation Command for jumping to next/previous slider in browse mode. (#17005, @tareh7z)</source>
         <target>新增了一个未分配的单键导航命令，用于在浏览模式下跳转到上一个/下一个滑块。(#17005, @tareh7z)</target>
       </segment>
@@ -6581,7 +6581,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When resetting the configuration to factory defaults from the NVDA menu, a dialog is now shown afterwards with an Undo button to restore the previous configuration.</source>
         <target>从 NVDA 菜单将配置重置为默认值后，现在会显示一个带有“撤消”按钮的对话框，用于恢复之前的配置。</target>
       </segment>
@@ -6590,7 +6590,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 59</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The triple-press keyboard shortcut (`NVDA+control+r`) is not affected, as it is intended for recovery scenarios. (#19575, @bramd)</source>
         <target>连按三次快捷键（`NVDA+Ctrl+R`）不受影响，因为这适用于恢复场景。(#19575, @bramd)</target>
       </segment>
@@ -6600,7 +6600,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added an unassigned command to report the current status of the Screen Curtain. (#19759)</source>
         <target>新增了一个未分配命令，用于读出黑屏的当前状态。(#19759)</target>
       </segment>
@@ -6610,7 +6610,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 62</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Changes</source>
         <target>改进</target>
       </segment>
@@ -6620,7 +6620,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Updated Liblouis Braille translator to [3.37.0](https://github.com/liblouis/liblouis/releases/tag/v3.37.0). (#19758, @codeofdusk)</source>
         <target>将 Liblouis 盲文翻译器更新到 [3.37.0](https://github.com/liblouis/liblouis/releases/tag/v3.37.0)。(#19758, @codeofdusk)</target>
       </segment>
@@ -6630,7 +6630,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added new Italian and Estonian 6 dot tables.</source>
         <target>新增意大利语和爱沙尼亚语 6 点盲文表。</target>
       </segment>
@@ -6640,7 +6640,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Braille:</source>
         <target>盲文：</target>
       </segment>
@@ -6650,7 +6650,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The braille message when NVDA is started was updated to mention if screen curtain is enabled. (#19441, @nvdaes)</source>
         <target>更新了 NVDA 启动时的盲文消息，以提示是否开启黑屏。(#19441, @nvdaes)</target>
       </segment>
@@ -6660,7 +6660,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA now supports the Orbit Reader 40 in its proprietary HID mode. (#19756, @trypsynth)</source>
         <target>NVDA 现在支持 Orbit Reader 40 的专有 HID 模式。(#19756, @trypsynth)</target>
       </segment>
@@ -6670,7 +6670,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It is now possible to open the log viewer with `NVDA+f1`, even when the log level is set to "disabled". (#19318, @CyrilleB79)</source>
         <target>即使当日志级别设置为“禁用”，也可使用 `NVDA+F1` 打开日志查看器。(#19318, @CyrilleB79)</target>
       </segment>
@@ -6680,7 +6680,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Improved search algorithm for filtering add-ons in the Add-on Store. (#19309)</source>
         <target>改进了在插件商店中筛选插件的搜索算法。(#19309)</target>
       </segment>
@@ -6690,7 +6690,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA can now be configured to not play error sounds, even in test versions. (#13021, @CyrilleB79)</source>
         <target>NVDA 可配置为即使在测试版本中也不播放错误提示音。(#13021, @CyrilleB79)</target>
       </segment>
@@ -6700,7 +6700,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA will start in focus mode by default when using WhatsApp 2.2584.3.0 or newer. (#19655, @josephsl)</source>
         <target>使用 WhatsApp 2.2584.3.0 或更高版本时，NVDA 默认将以焦点模式启动。(#19655, @josephsl)</target>
       </segment>
@@ -6710,7 +6710,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 73</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Input help mode has been improved: (#6621, @Cary-rowen, @Emil-18)</source>
         <target>改进了输入帮助模式：(#6621, @Cary-rowen, @Emil-18)</target>
       </segment>
@@ -6720,7 +6720,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When a key combination would produce a character in normal input mode, the key combination is reported first, followed by the character.</source>
         <target>当某个组合键在正常输入模式下会产生字符时，则先读出该组合键，然后读出该字符。</target>
       </segment>
@@ -6730,7 +6730,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If the key combination corresponds to an NVDA command, the behavior remains the same as before, i.e. the description of the command is reported.</source>
         <target>若该组合键对应于 NVDA 命令，则行为与以前相同，即读出命令描述。</target>
       </segment>
@@ -6740,7 +6740,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Product version for File Explorer will reflect actual Windows version including correct build and revision numbers.</source>
         <target>文件资源管理器的产品版本将反映实际的 Windows 版本，包括正确的内部版本号和修订号。</target>
       </segment>
@@ -6749,7 +6749,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 77</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This is more noticeable for Windows releases which are enablement packages on top of an earlier release such as Windows 11 2025 Update based on Windows 11 2024 Update. (#19802, @josephsl)</source>
         <target>这对于那些基于早期版本的功能启用包形式的 Windows 版本（例如基于 Windows 11 2024 更新的 Windows 11 2025 更新）尤其明显。(#19802, @josephsl)</target>
       </segment>
@@ -6759,7 +6759,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Math navigation commands now support input help, on-demand speech mode, and can be remapped. (#19871, @RyanMcCleary)</source>
         <target>数学导航命令现已支持输入帮助、手动朗读模式，并且可以重新分配快捷键。(#19871, @RyanMcCleary)</target>
       </segment>
@@ -6769,7 +6769,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The "COM Registration Fixing Tool" has been renamed to "System Accessibility Repair Tool" for clarity. (#19622, @bramd)</source>
         <target>为清晰起见，“COM 注册修复工具”已重命名为“系统辅助功能修复工具”。(#19622, @bramd)</target>
       </segment>
@@ -6779,7 +6779,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added an advanced setting to opt regular expression speech dictionary entries into a more modern [`regex`](https://pypi.org/project/regex/) engine.</source>
         <target>新增了一个高级设置，可选择让正则表达式语音字典条目使用更现代的 [`regex`](https://pypi.org/project/regex/) 引擎。</target>
       </segment>
@@ -6788,7 +6788,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 81</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This provides Unicode-aware `\w` and `\b` and additional regex features.</source>
         <target>这提供了支持 Unicode 的 `\w` 和 `\b` 以及额外的正则表达式功能。</target>
       </segment>
@@ -6797,7 +6797,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 82</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The setting is disabled by default. (#20013, @LeonarddeR)</source>
         <target>该设置默认禁用。(#20013, @LeonarddeR)</target>
       </segment>
@@ -6807,7 +6807,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Bug Fixes</source>
         <target>错误修复</target>
       </segment>
@@ -6817,7 +6817,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Add-on Store:</source>
         <target>插件商店：</target>
       </segment>
@@ -6827,7 +6827,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA no longer crashes when the Add-on Store download directory cannot be cleaned up due to file permission errors. (#19202, @christopherpross)</source>
         <target>修复了当因文件权限错误无法清理插件商店下载目录时，NVDA 崩溃的问题。(#19202, @christopherpross)</target>
       </segment>
@@ -6837,7 +6837,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>After cancelling an add-on download and reopening the Add-on Store, downloading another add-on no longer fails. (#20015, @Cary-rowen)</source>
         <target>修复了取消插件下载并重新打开插件商店后，下载其他插件失败的问题。(#20015, @Cary-rowen)</target>
       </segment>
@@ -6847,7 +6847,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Configuration profile triggers now activate when the Add-on Store is open. (#19583, @bramd)</source>
         <target>修复了打开插件商店时未激活独立配置的问题。(#19583, @bramd)</target>
       </segment>
@@ -6857,7 +6857,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed an error that could occur when NVDA checked whether a language is supported for a synthesizer with invalid languages. (#20080, @nvdaes)</source>
         <target>修复了当 NVDA 检查某个带有无效语言的语音合成器是否支持某语言时可能发生的错误。(#20080, @nvdaes)</target>
       </segment>
@@ -6867,7 +6867,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA will attempt to recover more quickly from freezes in some applications, especially those written in Java. (#14396, @thgcode)</source>
         <target>修复了 NVDA 在某些应用（尤其是 Java 编写的应用）中卡死后，无法快速恢复的问题。(#14396, @thgcode)</target>
       </segment>
@@ -6877,7 +6877,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Firefox browse mode, the accessible name of form controls (such as checkboxes and radio buttons) is now correctly announced when the control has an `aria-label` and an associated `&lt;label&gt;` element that contains only `aria-hidden` content. (#19409, @bramd)</source>
         <target>修复了在 Firefox 浏览模式下，当表单控件（如复选框和单选按钮）具有 `aria-label` 且关联的 `&lt;label&gt;` 元素仅包含 `aria-hidden` 内容时，其可访问名称未被正确朗读的问题。(#19409, @bramd)</target>
       </segment>
@@ -6887,7 +6887,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The "Toggles on and off if the screen layout is preserved while rendering the document content" item in the "Browse mode" category of the Input Gestures dialog now behaves correctly. (#18378)</source>
         <target>修复了“按键与手势”对话框中“浏览模式”类别下的“切换是否根据屏幕布局浏览文档内容”选项行为不正确的问题。(#18378)</target>
       </segment>
@@ -6897,7 +6897,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Word with UIA enabled, page changes are now correctly announced when navigating table rows that span multiple pages. (#19386, @akj)</source>
         <target>修复了在启用 UIA 的 Microsoft Word 中，导航跨多页的表格行时，页面变更未被正确朗读的问题。(#19386, @akj)</target>
       </segment>
@@ -6907,7 +6907,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed excessive resource usage and highlight flickering when using Visual Highlight. (#17434, @hwf1324)</source>
         <target>修复了使用高亮显示时，资源占用过高和高亮闪烁的问题。(#17434, @hwf1324)</target>
       </segment>
@@ -6917,7 +6917,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Braille should no longer stop following focus when moving around in the Microsoft Copilot application. (#19646, @Emil-18)</source>
         <target>修复了在 Microsoft Copilot 应用中移动时，盲文停止跟随焦点的问题。(#19646, @Emil-18)</target>
       </segment>
@@ -6927,7 +6927,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `NVDA+k` command now correctly reports the destination of links containing formatted text, such as bold or italics. (#19428, @Cary-rowen)</source>
         <target>修复了 `NVDA+K` 命令未正确读出包含格式化文本（如粗体或斜体）的链接目标的问题。(#19428, @Cary-rowen)</target>
       </segment>
@@ -6937,7 +6937,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Capital indicators are now correctly announced when selecting single characters. (#19505, @cary-rowen)</source>
         <target>修复了选中单个字符时，未正确给出大写提示的问题。(#19505, @cary-rowen)</target>
       </segment>
@@ -6947,7 +6947,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>MathML in Chromium is more reliably read after NVDA starts or restarts. (#20049, @RyanMcCleary)</source>
         <target>修复了 NVDA 启动或重启后，阅读 Chromium 中的 MathML 不稳定的问题。(#20049, @RyanMcCleary)</target>
       </segment>
@@ -6957,7 +6957,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Decorative Unicode letters such as negative squared, negative circled, and regional indicator symbol characters are now normalized to their base Latin letters when Unicode normalization is enabled. (#19608, @bramd)</source>
         <target>修复了启用 Unicode 规范化后，装饰性 Unicode 字母（如负平方、负圆圈和区域指示符字符）未被规范化为基本拉丁字母的问题。(#19608, @bramd)</target>
       </segment>
@@ -6967,7 +6967,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed NVDA freezing when navigating in JetBrains IDEs. (#16741, @christopherpross)</source>
         <target>修复了在 JetBrains IDE 中导航时 NVDA 卡死的问题。(#16741, @christopherpross)</target>
       </segment>
@@ -6977,7 +6977,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech dictionary entries of type Whole word now correctly handle words containing Unicode combining marks (e.g. Hebrew niqqud, Arabic harakat). (#20013, @LeonarddeR)</source>
         <target>修复了类型为“整词匹配”的语音字典条目无法正确处理包含 Unicode 组合标记（如希伯来语的 niqqud、阿拉伯语的 harakat）的单词的问题。(#20013, @LeonarddeR)</target>
       </segment>
@@ -6987,7 +6987,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In particular, Whole word entries no longer incorrectly match inside larger words when those words contain combining marks.</source>
         <target>特别是，修复了当长单词包含组合标记时，“整词匹配”条目错误地匹配了该长单词内部的问题。</target>
       </segment>
@@ -6997,7 +6997,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Changes for Developers</source>
         <target>开发者需要了解的变化</target>
       </segment>
@@ -7006,7 +7006,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 107</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please refer to [the developer guide](https://download.nvaccess.org/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
         <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://download.nvaccess.org/documentation/developerGuide.html#API)。</target>
       </segment>
@@ -7016,7 +7016,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Clarified NV Access's policy on API breaking changes in the [Developer Guide](https://download.nvaccess.org/documentation/developerGuide.html#API). (#19599)</source>
         <target>在[开发者指南](https://download.nvaccess.org/documentation/developerGuide.html#API)中阐明了 NV Access 关于 API 破坏性变更的政策。(#19599)</target>
       </segment>
@@ -7026,7 +7026,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Updated components:</source>
         <target>组件更新：</target>
       </segment>
@@ -7036,7 +7036,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Ruff to 0.15.9. (#19736, #19908)</source>
         <target>将 Ruff 更新到 0.15.9。(#19736, #19908)</target>
       </segment>
@@ -7046,7 +7046,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 112</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>uv to 0.11.7. (#19736, #19908, #19968)</source>
         <target>将 uv 更新到 0.11.7。(#19736, #19908, #19968)</target>
       </segment>
@@ -7056,7 +7056,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Requests to 2.33.0. (#19877)</source>
         <target>将 Requests 更新到 2.33.0。(#19877)</target>
       </segment>
@@ -7066,7 +7066,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 114</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>cryptography to 46.0.7. (#19877, #19968)</source>
         <target>将 cryptography 更新到 46.0.7。(#19877, #19968)</target>
       </segment>
@@ -7076,7 +7076,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 115</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Python to 3.13.13. (#20231, @dpy013)</source>
         <target>将 Python 更新到 3.13.13。(#20231, @dpy013)</target>
       </segment>
@@ -7323,7 +7323,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 141</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Deprecations</source>
         <target>弃用</target>
       </segment>
@@ -7362,7 +7362,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 147</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>2026.1.1</source>
         <target>2026.1.1</target>
       </segment>
@@ -7371,7 +7371,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 149</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This is a patch release to fix security issues.</source>
         <target>这是一个修复安全问题的补丁版本。</target>
       </segment>
@@ -7380,7 +7380,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 150</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A bug fix is also included for an issue introduced in 2026.1 with how `ctrl+f` is handled in File Explorer.</source>
         <target>此外，还修复了 2026.1 版本中引入的关于文件资源管理器处理 `Ctrl+F` 方式的问题。</target>
       </segment>
@@ -7389,7 +7389,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 151</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A change introduced in 2026.1 with how NVDA handles connection issues with Remote Access was removed.</source>
         <target>移除了 2026.1 版本中引入的关于 NVDA 处理远程访问连接问题的更改。</target>
       </segment>
@@ -7399,7 +7399,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 153</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Security fixes</source>
         <target>安全修复</target>
       </segment>
@@ -7408,7 +7408,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 155</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</source>
         <target>请遵循 NVDA 的[安全政策](https://github.com/nvaccess/nvda/blob/master/security.md)负责任地披露安全问题。</target>
       </segment>
@@ -7418,7 +7418,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed an issue which could cause NVDA to connect to an untrusted Remote Access server. ([GHSA-m268-mc77-j2cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-m268-mc77-j2cr))</source>
         <target>修复了可能导致 NVDA 连接到不受信任的远程访问服务器的问题。([GHSA-m268-mc77-j2cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-m268-mc77-j2cr))</target>
       </segment>
@@ -7428,7 +7428,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 158</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Prevents a situation which could cause unselected add-ons to be copied to the system-wide configuration. ([GHSA-669f-7gpr-5vqm](https://github.com/nvaccess/nvda/security/advisories/GHSA-669f-7gpr-5vqm))</source>
         <target>防止了未选中的插件被拷贝到系统配置的情况。([GHSA-669f-7gpr-5vqm](https://github.com/nvaccess/nvda/security/advisories/GHSA-669f-7gpr-5vqm))</target>
       </segment>
@@ -7438,7 +7438,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 160</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Bug Fixes</source>
         <target>错误修复</target>
       </segment>
@@ -7448,7 +7448,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 162</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In File Explorer, pressing `ctrl+f` once again focuses the search box without subsequently reporting a pane. (#20021, @Cary-rowen)</source>
         <target>修复了在文件资源管理器中，按 `Ctrl+F` 一次未正确聚焦到搜索框且会朗读窗格的问题。(#20021, @Cary-rowen)</target>
       </segment>
@@ -7458,7 +7458,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 164</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Changes</source>
         <target>改进</target>
       </segment>
@@ -7468,7 +7468,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 166</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Remote Access once again attempts automatic reconnection after a failed initial connection as the controlled computer, rather than failing immediately.</source>
         <target>作为被控计算机时，远程访问在初始连接失败后会再次尝试自动重新连接，而不是立即失败。</target>
       </segment>
@@ -7477,9 +7477,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 167</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This means that headless or otherwise physically inaccessible machines configured to automatically connect at startup will be reachable once the network is available. (#20122)</source>
-        <target>    这意味着，配置为在启动时自动连接的无头计算机或其他物理上无法访问的计算机，在网络可用时将能够被连接。(#20122)</target>
+        <target>这意味着，配置为在启动时自动连接的无头计算机或其他物理上无法访问的计算机，在网络可用时将能够被连接。(#20122)</target>
       </segment>
     </unit>
     <unit id="71450862-373e-4763-ad6a-034bfe272e44">
@@ -7487,7 +7487,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 169</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Changes for Developers</source>
         <target>开发者需要了解的变化</target>
       </segment>
@@ -7497,7 +7497,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 171</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `winBindings.cfgmgr32` module is now included in NVDA binary builds. (#20089, @Cary-rowen)</source>
         <target>`winBindings.cfgmgr32` 模块已包含在 NVDA 二进制构建中。(#20089, @Cary-rowen)</target>
       </segment>
