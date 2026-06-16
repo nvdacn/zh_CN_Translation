@@ -6,6 +6,7 @@ on:
       Addon_ID:
         description: 'Add-on ID, multiple separated by spaces(optional)'
         required: false
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.repository }}
   cancel-in-progress: true
@@ -29,16 +30,10 @@ jobs:
           ref: ${{ needs.Determine-Branch.outputs.branch }}
       - name: Install dependencies
         uses: ./.github/actions/InstallDependencies
-      - name: Configure environment
-        shell: pwsh
-        run: |
-          $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
-          $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
       - name: Fetch translations
         env:
           AddonID: ${{ github.event.inputs.Addon_ID }}
+          crowdinAuthToken: ${{ secrets.NVDA_CROWDIN }}
         run: .github/Scripts/UpdateAddonTranslations.ps1
       - name: Commit & Push
         shell: pwsh
