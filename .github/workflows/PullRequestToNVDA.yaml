@@ -15,6 +15,8 @@ jobs:
     env:
       BaseOwner: nvaccess
       HeadOwner: ${{ github.repository_owner }}
+      GH_TOKEN: ${{ secrets.PULLREQUESTTONVDA }}
+      TEMPLATE_FILE: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
@@ -34,53 +36,41 @@ jobs:
           ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
         run: |
           ./.github/Scripts/processing_miscDeps_files.sh
-      - name: Check for existing PR
+      - name: Determine branch name and update template
+        if: steps.processing_files.outputs.changes_exist == 'true'
+        run: |
+          ./.github/Scripts/determine_branch_and_update_template.sh
+      - name: Check for existing pull request
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
-        uses: actions/github-script@v9
-        with:
-          github-token: ${{ secrets.PULLREQUESTTONVDA }}
-          script: |
-            const result = await github.rest.pulls.list({
-              owner: "${{ env.BaseOwner }}",
-              repo: "nvda",
-              state: "open",
-              head: "${{ env.HeadOwner }}:PullRequestToNVDA",
-              base: "beta"
-            });
-            if (result.data.length > 0) {
-              core.setOutput("pr_exists", "true");
-              console.log("Existing PR found:", result.data[0].html_url);
-            } else {
-              core.setOutput("pr_exists", "false");
-              console.log("No existing PR found");
-            }
-      - name: Render template
+        run: |
+          PR_NUMBER=$(gh pr list \
+            --repo "${{ env.BaseOwner }}/nvda" \
+            --state open \
+            --head "$BRANCH_NAME" \
+            --base beta \
+            --json number \
+            --jq '.[0].number' 2>/dev/null || echo "")
+          if [ -n "$PR_NUMBER" ]; then
+            echo "pr_exists=true" >> $GITHUB_OUTPUT
+            STEP_SUMMARY="Existing pull request found: https://github.com/$BaseOwner/nvda/pull/$PR_NUMBER"
+          else
+            echo "pr_exists=false" >> $GITHUB_OUTPUT
+            STEP_SUMMARY="No existing pull request found"
+          fi
+          echo "$STEP_SUMMARY"
+          echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
+      - name: Create pull request
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
-        id: template
-        uses: chuhlomin/render-template@v1
-        with:
-          template: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
-          vars: |
-            Changes: ${{ env.PRTitle }}
-            Owner: ${{ env.HeadOwner }}
-            Commit: ${{ github.sha }}
-      - name: Create PR via API
-        if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
-        uses: actions/github-script@v9
-        with:
-          github-token: ${{ secrets.PULLREQUESTTONVDA }}
-          script: |
-            console.log('Creating new PR...');
-            const prParams = {
-              owner: "${{ env.BaseOwner }}",
-              repo: "nvda",
-              title: "${{ env.PRTitle }}",
-              head: "${{ env.HeadOwner }}:PullRequestToNVDA",
-              base: "beta",
-              body: `${{ steps.template.outputs.result }}`,
-              draft: true
-            };
-            const response = await github.rest.pulls.create(prParams);
-            console.log(`Created PR #${response.data.number}: ${response.data.html_url}`);
-            console.log("PR draft status:", response.data.draft);
+        run: |
+          echo "Creating new pull request..."
+          PR_URL=$(gh pr create \
+            --repo "${{ env.BaseOwner }}/nvda" \
+            --title "$PRTitle" \
+            --head "$BRANCH_NAME" \
+            --base beta \
+            --body-file $TEMPLATE_FILE \
+            --draft)          
+          STEP_SUMMARY="Created draft pull request: $PR_URL"
+          echo "$STEP_SUMMARY"
+          echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
