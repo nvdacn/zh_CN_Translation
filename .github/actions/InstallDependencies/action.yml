@@ -24,7 +24,7 @@ runs:
 
   steps:
     - name: Checkout ${{ inputs.fetch-repo }} repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         repository: nvaccess/${{ inputs.fetch-repo }}
         ref: ${{ inputs.ref }}

@@ -15,7 +15,7 @@ jobs:
       branch: ${{ steps.Determine_branch_name.outputs.BranchName }}
     steps:
     - name: Checkout NVDA buildVersion.py
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         repository: nvaccess/nvda
         ref: master
