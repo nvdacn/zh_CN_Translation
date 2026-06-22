@@ -54,8 +54,10 @@ runs:
         echo "VSCMD_SKIP_SENDTELEMETRY=1" >> $env:GITHUB_ENV
         echo "SCONS_CACHE_MSVC_CONFIG=${{ github.workspace }}\Tools\NVDA\.scons_msvc_cache.json" >> $env:GITHUB_ENV
         echo "SCONS_CACHE_KEY=scons_msvc_cache-$env:RUNNER_OS-$env:ImageVersion" >> $env:GITHUB_ENV
-    - name: Create Python virtual environment
+    - name: Configure environment
       shell: cmd
       run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
         echo UV_MANAGED_PYTHON=true>> "%GITHUB_ENV%"
         uv --managed-python --directory "${{ github.workspace }}\Tools\${{ inputs.fetch-repo }}" sync

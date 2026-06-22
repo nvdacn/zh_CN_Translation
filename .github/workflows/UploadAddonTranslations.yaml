@@ -7,6 +7,10 @@ on:
     paths:
       - 'Translation/Addons/**'
 
+env:
+  crowdinAuthToken: ${{ secrets.NVDA_CROWDIN }}
+  GH_TOKEN: ${{ github.token }}
+
 jobs:
   Process-Translations:
     name: Upload translation to Crowdin
@@ -24,8 +28,6 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          $CrowdinToken = "${{ secrets.NVDA_CROWDIN }}"
-          $CrowdinToken | Out-File -FilePath ~/.nvda_crowdin -Encoding ascii
           $GIT_BEFORE = "${{ github.event.before }}"
           $IsBeforeValid = $false
           $L10nUtil = "${{ github.workspace }}/L10nUtilTools.bat"
@@ -64,15 +66,7 @@ jobs:
                   Write-Host "File $FilePath not found, skipping processing."
               }
           }
-        if: success()
       - name: Manually trigger UpdateAddonTranslations workflow
         if: steps.check-changes.outputs.has_changes == 'true'
-        uses: actions/github-script@v9
-        with:
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'UpdateAddonTranslations.yaml',
-              ref: '${{ github.ref_name }}'
-            });
+        run: |
+          gh workflow run UpdateAddonTranslations.yaml --ref ${{ github.ref_name }} --repo ${{ github.repository }}
