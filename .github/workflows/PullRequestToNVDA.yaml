@@ -19,9 +19,9 @@ jobs:
       TEMPLATE_FILE: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Checkout NVDA repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: nvaccess/nvda.git
           token: ${{ secrets.PULLREQUESTTONVDA }}
