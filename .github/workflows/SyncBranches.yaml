@@ -66,8 +66,6 @@ jobs:
         run: |
           echo "Merging PR #${{ steps.create-pr.outputs.pr_number }}..."
           gh pr merge "${{ steps.create-pr.outputs.pr_number }}" --merge --subject "$PR_TITLE (#${{ steps.create-pr.outputs.pr_number }})" --body ""
-        env:
-          GH_TOKEN: ${{ secrets.PULLREQUESTTONVDA }}
       - name: Sync main to Uploads
         if: steps.check-diff.outputs.should_create_pr == 'true'
         run: |
