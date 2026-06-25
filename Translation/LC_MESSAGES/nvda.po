@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-22 12:20+0000\n"
+"POT-Creation-Date: 2026-06-25 06:46+0000\n"
 "PO-Revision-Date: 2026-06-18 19:06+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -15930,7 +15930,9 @@ msgid "&Panning step size (%):"
 msgstr "平移步长（%）(&P)："
 
 #. Translators: This is the label for a group of tracking options in the magnifier settings panel
-#: gui\settingsDialogs.py:6207
+#. Translators: This is the label for a group of tracking magnifier options in the
+#. magnifier settings panel
+#: gui\settingsDialogs.py:6207 gui\settingsDialogs.py:6240
 msgid "Tracking"
 msgstr "跟随"
 
@@ -15954,16 +15956,12 @@ msgstr "跟随查看光标(&R)"
 msgid "Follow &navigator object"
 msgstr "跟随导航对象(&N)"
 
-#. Translators: This is the label for a group of fullscreen magnifier options in the
-#. magnifier settings panel
-#: gui\settingsDialogs.py:6240
-msgid "Fullscreen"
-msgstr "全屏"
-
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6248
-msgid "Focus &mode:"
-msgstr "聚焦模式(&M)"
+#, fuzzy
+#| msgid "Tracking"
+msgid "Tracking &mode:"
+msgstr "跟随"
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
 #: gui\settingsDialogs.py:6321
@@ -21275,27 +21273,37 @@ msgctxt "magnifier action"
 msgid "show screen overview"
 msgstr "显示全屏概览"
 
-#. Translators: Focus type for magnifier to follow - mouse cursor.
+#. Translators: Type of item tracked by the Magnifier - mouse cursor.
 #: _magnifier\utils\types.py:107
-msgctxt "magnifier follow focus type"
+#, fuzzy
+#| msgid "Mouse"
+msgctxt "magnifier"
 msgid "Mouse"
 msgstr "鼠标"
 
-#. Translators: Focus type for magnifier to follow - system focus (active element).
+#. Translators: Type of item tracked by the Magnifier - system focus (active element).
 #: _magnifier\utils\types.py:109
-msgctxt "magnifier follow focus type"
+#, fuzzy
+#| msgid "System focus"
+msgctxt "magnifier"
 msgid "System focus"
 msgstr "系统焦点"
 
-#. Translators: Focus type for magnifier to follow - review cursor position.
+#. Translators: Type of item tracked by the Magnifier - review cursor position.
 #: _magnifier\utils\types.py:111
-msgctxt "magnifier follow focus type"
+#, fuzzy
+#| msgctxt "magnifier follow focus type"
+#| msgid "Review cursor"
+msgctxt "magnifier"
 msgid "Review cursor"
 msgstr "查看光标"
 
-#. Translators: Focus type for magnifier to follow - navigator object position.
+#. Translators: Type of item tracked by the Magnifier - navigator object position.
 #: _magnifier\utils\types.py:113
-msgctxt "magnifier follow focus type"
+#, fuzzy
+#| msgctxt "magnifier follow focus type"
+#| msgid "Navigator object"
+msgctxt "magnifier"
 msgid "Navigator object"
 msgstr "导航对象"
 
@@ -21323,19 +21331,19 @@ msgctxt "magnifier"
 msgid "Lens"
 msgstr "镜头"
 
-#. Translators: Magnifier focus mode - center mouse/focus on screen.
+#. Translators: Magnifier tracking mode - center the tracked item on the screen.
 #: _magnifier\utils\types.py:162
 msgctxt "magnifier"
 msgid "Center"
 msgstr "居中"
 
-#. Translators: Magnifier focus mode - follow focus at screen borders.
+#. Translators: Magnifier tracking mode - follow the tracked item only when it reaches screen borders.
 #: _magnifier\utils\types.py:164
 msgctxt "magnifier"
 msgid "Border"
 msgstr "边缘"
 
-#. Translators: Magnifier focus mode - maintain relative position.
+#. Translators: Magnifier tracking mode - preserve the tracked item's screen position within the magnified view (same relative screen location).
 #: _magnifier\utils\types.py:166
 msgctxt "magnifier"
 msgid "Relative"
@@ -21752,6 +21760,20 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "Fullscreen"
+#~ msgstr "全屏"
+
+#~ msgid "Focus &mode:"
+#~ msgstr "聚焦模式(&M)"
+
+#~ msgctxt "magnifier follow focus type"
+#~ msgid "Mouse"
+#~ msgstr "鼠标"
+
+#~ msgctxt "magnifier follow focus type"
+#~ msgid "System focus"
+#~ msgstr "系统焦点"
 
 #~ msgid ""
 #~ "An error has caused this feature to be unavailable at this time. "
