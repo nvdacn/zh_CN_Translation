@@ -1,5 +1,5 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/497ff9f21c37637c53598bc080e467fe92785618/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/32bf7e1d2bd3b05a0ae405e4bfb8c092f8249c9d/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
 
@@ -11,12 +11,12 @@ $(ID:4ba3b2ea-5e7e-4236-9e69-d99ce0e70168)
 
 $(ID:756f97fb-9153-48a2-83ca-6bc45c455fa1)
 
-* $(ID:456227ed-fb03-46fd-abb2-e4bdc6f5a3ca)
+* $(ID:423b28c0-164b-4add-a208-4a2e3adb4bcc)
 * $(ID:a026e904-4609-43d5-8864-ad078a2e219d)
-* $(ID:7bfe7c49-b039-4374-96c5-a8112c1ff975)
-* $(ID:881f7f79-139c-411c-ada8-78096b705ffb)
-* $(ID:6b9a5b13-4628-4edb-8d05-b8779162e42f)
-* $(ID:c7cee819-e30e-40a3-bd25-5c267b000b2c)
+* $(ID:47a09da1-230e-4a42-adc5-6d417147197e)
+* $(ID:9ba2e8c0-8a34-4db0-a2a7-3cedaaa63510)
+* $(ID:db7950ec-fe1c-455d-8906-e2a42e87520b)
+* $(ID:506384aa-e388-4416-8b62-bb1ba9c9f41d)
 * $(ID:6b242ca4-370e-473c-9c2c-e2d6db09aa5d)
 * $(ID:7556990e-9fd3-4d08-b63e-80995af1ae42)
 
@@ -26,6 +26,7 @@ $(ID:59eb243e-d5cd-4530-8309-13acf93213a2)
 
 $(ID:6afdbb36-1fa8-4498-99e0-3af26ac88091)
 
+* $(ID:37591af6-d9cc-43d2-b8e5-e72ac286e8a9)
 * $(ID:70ea07e4-d172-4dc7-aa11-970495a5c25e)
 * $(ID:3c1109cf-caa1-4f20-8801-a032bbcdecbc)
 * $(ID:76de1c68-d3d8-4811-8462-83397bb45d53)
@@ -35,7 +36,6 @@ $(ID:6afdbb36-1fa8-4498-99e0-3af26ac88091)
 $(ID:cede3681-25e1-4335-adad-b188883c418e)
 
 $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
-
 </skeleton>
     <unit id="4566d44d-44e5-4bf8-87b8-f29d4ecaaa03">
       <notes>
@@ -85,14 +85,14 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <target>所有命令都支持手动朗读模式。</target>
       </segment>
     </unit>
-    <unit id="456227ed-fb03-46fd-abb2-e4bdc6f5a3ca">
+    <unit id="423b28c0-164b-4add-a208-4a2e3adb4bcc">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>NVDA+Shift+E: presents used ram, average processor load, and battery info if available (battery info announcement is deprecated).</source>
-        <target>NVDA+Shift+E： 读出内存的使用率、CPU 平均负载和电池信息（如果可用）（读出电池信息功能已弃用）。</target>
+        <source>NVDA+Shift+E: presents used RAM (pyysical memory) and average processor load.</source>
+        <target>NVDA+Shift+E：读出物理内存使用率和 CPU 平均负载。</target>
       </segment>
     </unit>
     <unit id="a026e904-4609-43d5-8864-ad078a2e219d">
@@ -105,44 +105,44 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <target>NVDA+Shift+1： 读出每个 CPU 核心的负载和平均负载。</target>
       </segment>
     </unit>
-    <unit id="7bfe7c49-b039-4374-96c5-a8112c1ff975">
+    <unit id="47a09da1-230e-4a42-adc5-6d417147197e">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>NVDA+Shift+2/5: presents the used and total space for both physical and virtual ram.</source>
-        <target>NVDA+Shift+2/5： 读出物理内存和虚拟内存的容量和使用情况。</target>
+        <source>NVDA+Shift+2/5: presents the used and total space for both physical and virtual RAM (NVDA+Shift+5 is an alternative to NVDA+Shift+2 when the latter keyboard combination cannot be performed).</source>
+        <target>NVDA+Shift+2/5： 读出物理内存和虚拟内存的容量和使用情况（当 NVDA+Shift+2 无法执行时，可使用 NVDA+Shift+5 代替）。</target>
       </segment>
     </unit>
-    <unit id="881f7f79-139c-411c-ada8-78096b705ffb">
+    <unit id="9ba2e8c0-8a34-4db0-a2a7-3cedaaa63510">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>NVDA+Shift+3: presents the used and total space of the static and removable drives.</source>
+        <source>NVDA+Shift+3: presents the used and total space of the fixed (built-in) and removable drives.</source>
         <target>NVDA+Shift+3： 读出此计算机上所有驱动器的文件系统和空间使用情况。</target>
       </segment>
     </unit>
-    <unit id="6b9a5b13-4628-4edb-8d05-b8779162e42f">
+    <unit id="db7950ec-fe1c-455d-8906-e2a42e87520b">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>NVDA+Shift+4: presents information on the wireless connection, ssid name and strength, or no ssid if there is none available.</source>
-        <target>NVDA+Shift+4：读出有关无线连接、ssid 名称和强度的信息，如果没有可用的 ssid，则给出提示。</target>
+        <source>NVDA+Shift+4: presents information on the wireless connection, network (SSID) name and strength, or no SSID if there is none available.</source>
+        <target>NVDA+Shift+4：读出有关无线连接、SSID 名称和强度的信息，如果没有可用的 SSID，则给出提示。</target>
       </segment>
     </unit>
-    <unit id="c7cee819-e30e-40a3-bd25-5c267b000b2c">
+    <unit id="506384aa-e388-4416-8b62-bb1ba9c9f41d">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>NVDA+Shift+6: presents  CPU Architecture and Windows version and service pack numbers.</source>
-        <target>NVDA+Shift+6：读出 CPU 架构以及 Windows 版本和 Service Pack 编号。</target>
+        <source>NVDA+Shift+6: presents  Windows version, CPU architecture, and exact build number (build.revision).</source>
+        <target>NVDA+Shift+6：读出 Windows 版本、CPU 架构以及精确的内部版本号（build.revision）。</target>
       </segment>
     </unit>
     <unit id="6b242ca4-370e-473c-9c2c-e2d6db09aa5d">
@@ -193,9 +193,19 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <target>此插件不替换 Windows 的任务管理器和其他系统信息程序。另请注意以下事项：</target>
       </segment>
     </unit>
-    <unit id="70ea07e4-d172-4dc7-aa11-970495a5c25e">
+    <unit id="37591af6-d9cc-43d2-b8e5-e72ac286e8a9">
       <notes>
         <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Apart from overall resource usage command (NVDA+Shift+E), pressing other commands twice will copy resource usage information to the clipboard.</source>
+        <target>除总体资源使用情况命令（NVDA+Shift+E）外，连按其他命令两次可将资源使用信息复制到剪贴板。</target>
+      </segment>
+    </unit>
+    <unit id="70ea07e4-d172-4dc7-aa11-970495a5c25e">
+      <notes>
+        <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -205,7 +215,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="3c1109cf-caa1-4f20-8801-a032bbcdecbc">
       <notes>
-        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -215,7 +225,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="76de1c68-d3d8-4811-8462-83397bb45d53">
       <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -225,7 +235,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="7fe4f01c-c276-4cd6-bd70-9946b79e26d6">
       <notes>
-        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -235,7 +245,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="2526a96e-9263-4d2b-acf3-adf0ebf773e0">
       <notes>
-        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -245,7 +255,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="cede3681-25e1-4335-adad-b188883c418e">
       <notes>
-        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">line: 34</note>
       </notes>
       <segment state="final">
         <source>For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.</source>
@@ -254,7 +264,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="32d59eb2-cc6d-4498-8a04-ed6e06dbe82e">
       <notes>
-        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">line: 36</note>
       </notes>
       <segment state="final">
         <source>[1]: https://github.com/kefaslungu/resourceMonitor/blob/main/changes.md</source>
