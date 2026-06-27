@@ -17184,9 +17184,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source> Reports the state of the screen curtain | None | Announces the current status of the screen curtain, whether it is disabled or enabled or in temporary mode. </source>
-        <target> Reports the state of the screen curtain | None | Announces the current status of the screen curtain, whether it is disabled or enabled or in temporary mode. </target>
+        <target> 读出黑屏的状态 | 无 | 读出当前的黑屏状态（临时开启、开启或关闭）。 </target>
       </segment>
     </unit>
     <unit id="f91457fa-24d6-49ca-86af-99d28592cb21">
@@ -20995,9 +20995,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2209</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Certain Unicode characters, such as negative circled Latin capital letters (🅐–🅩) and negative squared Latin capital letters (🅲–🆉), are treated as autonomous symbols by the Unicode standard and have no compatibility decomposition.</source>
-        <target>Certain Unicode characters, such as negative circled Latin capital letters (🅐–🅩) and negative squared Latin capital letters (🅲–🆉), are treated as autonomous symbols by the Unicode standard and have no compatibility decomposition.</target>
+        <target>某些 Unicode 字符，例如带圈反白拉丁大写字母（🅐–🅩）和方框反白拉丁大写字母（🅲–🆉），被 Unicode 标准视为独立符号，没有兼容性分解。</target>
       </segment>
     </unit>
     <unit id="9c5e7bd8-0ebe-4fcf-a10c-15d276d3ed6e">
