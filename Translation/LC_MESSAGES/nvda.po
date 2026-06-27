@@ -5081,32 +5081,32 @@ msgstr "循环切换颜色滤镜"
 #. Translators: Describes a command.
 #: globalCommands.py:5217
 msgid "Toggle magnifier mouse tracking"
-msgstr "切换放大镜是否跟随鼠标"
+msgstr "切换放大镜是否跟踪鼠标"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5230
 msgid "Toggle magnifier system focus tracking"
-msgstr "切换放大镜是否跟随系统焦点"
+msgstr "切换放大镜是否跟踪系统焦点"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5243
 msgid "Toggle magnifier review cursor tracking"
-msgstr "切换放大镜是否跟随查看光标"
+msgstr "切换放大镜是否跟踪查看光标"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5256
 msgid "Toggle magnifier navigator object tracking"
-msgstr "切换放大镜是否跟随导航对象"
+msgstr "切换放大镜是否跟踪导航对象"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5269
 msgid "Toggle all magnifier tracking settings"
-msgstr "切换放大镜的跟随设置"
+msgstr "切换放大镜的跟踪设置"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5282
 msgid "Cycle through tracking modes"
-msgstr "在全屏聚焦模式之间循环切换"
+msgstr "循环切换跟踪模式"
 
 #. Translators: Describe a command.
 #: globalCommands.py:5295
@@ -15278,7 +15278,7 @@ msgstr "颜色滤镜(&I)："
 #. Translators: The label for a setting in magnifier settings to select whether true center tracking is used
 #: gui\settingsDialogs.py:6150
 msgid "&True center tracking"
-msgstr "保持焦点居中(&T)"
+msgstr "保持跟踪元素居中(&T)"
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
 #: gui\settingsDialogs.py:6164
@@ -15290,32 +15290,32 @@ msgstr "平移步长（%）(&P)："
 #. magnifier settings panel
 #: gui\settingsDialogs.py:6186 gui\settingsDialogs.py:6219
 msgid "Tracking"
-msgstr "跟随"
+msgstr "跟踪"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the mouse
 #: gui\settingsDialogs.py:6194
 msgid "Follow &mouse"
-msgstr "跟随鼠标(&M)"
+msgstr "跟踪鼠标(&M)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the system focus
 #: gui\settingsDialogs.py:6196
 msgid "Follow &system focus"
-msgstr "跟随系统焦点(&S)"
+msgstr "跟踪系统焦点(&S)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the review cursor
 #: gui\settingsDialogs.py:6198
 msgid "Follow &review cursor"
-msgstr "跟随查看光标(&R)"
+msgstr "跟踪查看光标(&R)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the navigator object
 #: gui\settingsDialogs.py:6201
 msgid "Follow &navigator object"
-msgstr "跟随导航对象(&N)"
+msgstr "跟踪导航对象(&N)"
 
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6227
 msgid "Tracking &mode:"
-msgstr "跟随模式(&M)："
+msgstr "跟踪模式(&M)："
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
 #: gui\settingsDialogs.py:6300
@@ -20272,20 +20272,20 @@ msgstr "禁用"
 #: _magnifier\commands.py:251
 msgctxt "magnifier"
 msgid "All tracking settings disabled"
-msgstr "禁用跟随"
+msgstr "禁用跟踪"
 
 #. Translators: State of all follow settings being restored.
 #: _magnifier\commands.py:257
 msgctxt "magnifier"
 msgid "Tracking settings restored"
-msgstr "恢复跟随"
+msgstr "恢复跟踪"
 
 #. Translators: Message announced when changing the full-screen mode with {mode} being the new full-screen mode.
 #: _magnifier\commands.py:285
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Full-screen mode {mode}"
-msgstr "{mode}全屏模式"
+msgstr "{mode}跟踪模式"
 
 #. Translators: Message announced when trying to show temporary overview of the screen while it's already active.
 #: _magnifier\commands.py:311
@@ -20420,7 +20420,7 @@ msgstr "移到底边"
 #: _magnifier\utils\types.py:80
 msgctxt "magnifier action"
 msgid "toggle tracking settings"
-msgstr "切换跟随设置"
+msgstr "切换跟踪设置"
 
 #. Translators: Action description for toggling color filters.
 #: _magnifier\utils\types.py:82
@@ -20438,7 +20438,7 @@ msgstr "更改放大视图"
 #: _magnifier\utils\types.py:86
 msgctxt "magnifier action"
 msgid "change full-screen mode"
-msgstr "更改全屏模式"
+msgstr "更改跟踪模式"
 
 #. Translators: Action description for showing entire screen overview.
 #: _magnifier\utils\types.py:88
