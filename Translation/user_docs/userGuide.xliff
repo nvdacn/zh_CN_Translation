@@ -17240,36 +17240,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1563</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA includes a built-in Magnifier feature that allows you to zoom and magnify parts of the screen.</source>
-        <target>NVDA includes a built-in Magnifier feature that allows you to zoom and magnify parts of the screen.</target>
+        <target>NVDA 包含一个内置的放大镜功能，可让您放大屏幕的任意部分。</target>
       </segment>
     </unit>
     <unit id="76c515b4-743f-48a1-a626-fe3d5df5e874">
       <notes>
         <note appliesTo="source">line: 1564</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This feature is particularly useful for users with low vision who need to enlarge content on the screen, or for users who want to apply color filters to reduce eye strain or improve readability.</source>
-        <target>This feature is particularly useful for users with low vision who need to enlarge content on the screen, or for users who want to apply color filters to reduce eye strain or improve readability.</target>
+        <target>此功能对于需要放大屏幕内容的低视力用户，或希望应用颜色滤镜以减轻视疲劳或提高可读性的用户尤其有用。</target>
       </segment>
     </unit>
     <unit id="d097052a-43b3-4973-b2b1-b4da363b5e23">
       <notes>
         <note appliesTo="source">line: 1566</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The NVDA Magnifier operates as a full-screen magnifier, meaning it enlarges the entire screen while following the system focus or mouse pointer.</source>
-        <target>The NVDA Magnifier operates as a full-screen magnifier, meaning it enlarges the entire screen while following the system focus or mouse pointer.</target>
+        <target>NVDA 放大镜作为全屏放大镜运行，即在跟随系统焦点或鼠标指针的同时放大整个屏幕。</target>
       </segment>
     </unit>
     <unit id="7ef4333a-d678-4278-8a78-e0167e90529c">
       <notes>
         <note appliesTo="source">line: 1567</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It provides several configuration options to customize the magnification experience according to your needs.</source>
-        <target>It provides several configuration options to customize the magnification experience according to your needs.</target>
+        <target>还提供了多项配置选项，可根据您的需求自定义放大体验。</target>
       </segment>
     </unit>
     <unit id="33190245-fe84-4447-a17e-75e0d6c564ff">
@@ -17278,45 +17278,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierToggle}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enabling and Disabling the Magnifier</source>
-        <target>Enabling and Disabling the Magnifier</target>
+        <target>开启或关闭放大镜</target>
       </segment>
     </unit>
     <unit id="e0aebb31-b8f3-404a-9392-7cf065560426">
       <notes>
         <note appliesTo="source">line: 1571</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To enable or disable the magnifier, press `NVDA+shift+w`.</source>
-        <target>To enable or disable the magnifier, press `NVDA+shift+w`.</target>
+        <target>要开启或关闭放大镜，请按 `NVDA+Shift+W`。</target>
       </segment>
     </unit>
     <unit id="453a3287-263f-4268-8ac8-a53fd627c040">
       <notes>
         <note appliesTo="source">line: 1572</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The "Increase magnification level" keystroke, `NVDA+shift+equals`, will start the magnifier if it is not running.</source>
-        <target>The "Increase magnification level" keystroke, `NVDA+shift+equals`, will start the magnifier if it is not running.</target>
+        <target>“提高放大级别”快捷键 `NVDA+Shift+等于` 可在放大镜未运行时将其启动。</target>
       </segment>
     </unit>
     <unit id="fbc7ed11-5e4a-4b9f-87b0-326ce0b652f5">
       <notes>
         <note appliesTo="source">line: 1573</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When disabled, the screen returns to its normal size.</source>
-        <target>When disabled, the screen returns to its normal size.</target>
+        <target>关闭放大镜后，屏幕将恢复正常大小。</target>
       </segment>
     </unit>
     <unit id="242cc819-a374-47da-86d8-5e2bb5e16016">
       <notes>
         <note appliesTo="source">line: 1574</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>As with other NVDA settings, the Magnifier state is preserved across sessions.</source>
-        <target>As with other NVDA settings, the Magnifier state is preserved across sessions.</target>
+        <target>与其他 NVDA 设置一样，放大镜的状态会在会话间保留。</target>
       </segment>
     </unit>
     <unit id="96a940bb-9b9e-4181-8a6e-4c080c620933">
@@ -17325,18 +17325,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierCommands}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Magnifier Commands</source>
-        <target>Magnifier Commands</target>
+        <target>放大镜命令</target>
       </segment>
     </unit>
     <unit id="b8893b75-7b95-4c65-bb4f-7005c82f17aa">
       <notes>
         <note appliesTo="source">line: 1578</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Once the magnifier is enabled, you can use the following keyboard commands to control it:</source>
-        <target>Once the magnifier is enabled, you can use the following keyboard commands to control it:</target>
+        <target>开启放大镜后，您可使用下列键盘命令来控制它：</target>
       </segment>
     </unit>
     <unit id="1dad6e9b-db46-4305-a3fb-ae46243aac6d">
@@ -17356,9 +17356,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle the magnifier on and off | `NVDA+shift+w` | Enables or disables the magnifier </source>
-        <target> Toggle the magnifier on and off | `NVDA+shift+w` | Enables or disables the magnifier </target>
+        <target> 切换放大镜的开关 | `NVDA+Shift+W` | 开启或关闭放大镜 </target>
       </segment>
     </unit>
     <unit id="012aea5d-d8fb-49ac-8661-a1aed04797f7">
@@ -17367,9 +17367,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Increase the magnification level | `NVDA+shift+equals` | Increases the zoom level. Starts the magnifier if it's not already running. </source>
-        <target> Increase the magnification level | `NVDA+shift+equals` | Increases the zoom level. Starts the magnifier if it's not already running. </target>
+        <target> 提高放大级别 | `NVDA+Shift+等于` | 增加放大级别。若放大镜尚未运行，则将其启动。 </target>
       </segment>
     </unit>
     <unit id="5708114c-18ec-49f0-aef2-53840ca6b633">
@@ -17378,9 +17378,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Decrease the magnification level | `NVDA+shift+minus` | Decreases the zoom level </source>
-        <target> Decrease the magnification level | `NVDA+shift+minus` | Decreases the zoom level </target>
+        <target> 降低放大级别 | `NVDA+Shift+减号` | 减小放大级别 </target>
       </segment>
     </unit>
     <unit id="b7c6219f-5cfa-4ce0-968e-d5024583c465">
@@ -17389,9 +17389,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle color filters | `NVDA+shift+i` | Cycles through the available color filters (normal, grayscale, inverted) </source>
-        <target> Cycle color filters | `NVDA+shift+i` | Cycles through the available color filters (normal, grayscale, inverted) </target>
+        <target> 循环切换颜色滤镜 | `NVDA+Shift+I` | 在可用的颜色滤镜之间循环切换（正常、灰度、反转） </target>
       </segment>
     </unit>
     <unit id="20277254-afaa-4e02-ba6e-a42fd031ebb9">
@@ -17400,9 +17400,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle tracking mode | None | Cycles through tracking modes (center, border, relative) </source>
-        <target> Cycle tracking mode | None | Cycles through tracking modes (center, border, relative) </target>
+        <target> 循环切换跟踪模式 | 无 | 在可用的跟踪模式之间循环切换（居中、边框、相对） </target>
       </segment>
     </unit>
     <unit id="cc17cba6-9bbe-4f33-b289-41e55dff9860">
@@ -17411,9 +17411,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Show entire screen overview | `NVDA+shift+l` | Temporarily shows an overview of the entire screen </source>
-        <target> Show entire screen overview | `NVDA+shift+l` | Temporarily shows an overview of the entire screen </target>
+        <target> 显示全屏概览 | `NVDA+Shift+L` | 临时显示全屏概览 </target>
       </segment>
     </unit>
     <unit id="313adbd1-7049-4dac-93c9-924c3e3979f5">
@@ -17422,9 +17422,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan left | `NVDA+alt+leftArrow` | Moves the magnified view left by the configured panning step size </source>
-        <target> Pan left | `NVDA+alt+leftArrow` | Moves the magnified view left by the configured panning step size </target>
+        <target> 向左平移 | `NVDA+Alt+左光标` | 按配置的平移步长将放大视图向左移动 </target>
       </segment>
     </unit>
     <unit id="8fff0e67-0c35-47eb-b88c-98aba810d817">
@@ -17433,9 +17433,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan right | `NVDA+alt+rightArrow` | Moves the magnified view right by the configured panning step size </source>
-        <target> Pan right | `NVDA+alt+rightArrow` | Moves the magnified view right by the configured panning step size </target>
+        <target> 向右平移 | `NVDA+Alt+右光标` | 按配置的平移步长将放大视图向右移动 </target>
       </segment>
     </unit>
     <unit id="6b0a0cb1-ae7c-46ce-a6c5-5afd8187fe7f">
@@ -17444,9 +17444,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan up | `NVDA+alt+upArrow` | Moves the magnified view up by the configured panning step size </source>
-        <target> Pan up | `NVDA+alt+upArrow` | Moves the magnified view up by the configured panning step size </target>
+        <target> 向上平移 | `NVDA+Alt+上光标` | 按配置的平移步长将放大视图向上移动 </target>
       </segment>
     </unit>
     <unit id="70ea9b14-f38b-4c01-9c25-419c0c7c1d28">
@@ -17455,9 +17455,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan down | `NVDA+alt+downArrow` | Moves the magnified view down by the configured panning step size </source>
-        <target> Pan down | `NVDA+alt+downArrow` | Moves the magnified view down by the configured panning step size </target>
+        <target> 向下平移 | `NVDA+Alt+下光标` | 按配置的平移步长将放大视图向下移动 </target>
       </segment>
     </unit>
     <unit id="45c371eb-9602-4a10-ae6d-12b6d07b2fd9">
@@ -17466,9 +17466,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan to left edge | `NVDA+shift+alt+leftArrow` | Moves the magnified view directly to the left edge of the screen </source>
-        <target> Pan to left edge | `NVDA+shift+alt+leftArrow` | Moves the magnified view directly to the left edge of the screen </target>
+        <target> 平移到左边 | `NVDA+Shift+Alt+左光标` | 将放大视图直接移动到屏幕左边缘 </target>
       </segment>
     </unit>
     <unit id="16171be3-fcc8-4002-a768-5c7fb84cb117">
@@ -17477,9 +17477,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan to right edge | `NVDA+shift+alt+rightArrow` | Moves the magnified view directly to the right edge of the screen </source>
-        <target> Pan to right edge | `NVDA+shift+alt+rightArrow` | Moves the magnified view directly to the right edge of the screen </target>
+        <target> 平移到右边 | `NVDA+Shift+Alt+右光标` | 将放大视图直接移动到屏幕右边缘 </target>
       </segment>
     </unit>
     <unit id="cff8897c-55eb-4720-9860-3d8a690b647a">
@@ -17488,9 +17488,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan to top edge | `NVDA+shift+alt+upArrow` | Moves the magnified view directly to the top edge of the screen </source>
-        <target> Pan to top edge | `NVDA+shift+alt+upArrow` | Moves the magnified view directly to the top edge of the screen </target>
+        <target> 平移到顶边 | `NVDA+Shift+Alt+上光标` | 将放大视图直接移动到屏幕上边缘 </target>
       </segment>
     </unit>
     <unit id="e45b227f-893c-4562-bfc3-adf0e65cfe88">
@@ -17499,9 +17499,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Pan to bottom edge | `NVDA+shift+alt+downArrow` | Moves the magnified view directly to the bottom edge of the screen </source>
-        <target> Pan to bottom edge | `NVDA+shift+alt+downArrow` | Moves the magnified view directly to the bottom edge of the screen </target>
+        <target> 平移到底边 | `NVDA+Shift+Alt+下光标` | 将放大视图直接移动到屏幕下边缘 </target>
       </segment>
     </unit>
     <unit id="d807d2a3-540f-4ae6-9f96-167a4f143cbd">
@@ -17510,36 +17510,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierZoomLevels}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Zoom Levels</source>
-        <target>Zoom Levels</target>
+        <target>放大级别</target>
       </segment>
     </unit>
     <unit id="6d9d51cc-9f96-4dea-8634-0cb71a7e2ef8">
       <notes>
         <note appliesTo="source">line: 1603</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The magnifier supports zoom levels from 1.0 (no magnification) to 50.0 (maximum magnification).</source>
-        <target>The magnifier supports zoom levels from 1.0 (no magnification) to 50.0 (maximum magnification).</target>
+        <target>放大镜支持从 1.0 倍（无放大）到 50.0 倍（最大放大）的放大级别。</target>
       </segment>
     </unit>
     <unit id="adc35143-1d0c-4f0c-8df2-c42be7f1f4f9">
       <notes>
         <note appliesTo="source">line: 1604</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can adjust the zoom level using the zoom in (`NVDA+shift+equals`) and zoom out (`NVDA+shift+minus`) commands.</source>
-        <target>You can adjust the zoom level using the zoom in (`NVDA+shift+equals`) and zoom out (`NVDA+shift+minus`) commands.</target>
+        <target>您可使用放大（`NVDA+Shift+等于`）和缩小（`NVDA+Shift+减号`）命令来调整放大级别。</target>
       </segment>
     </unit>
     <unit id="f6102aa4-79fc-4301-ba43-d72c7d16643b">
       <notes>
         <note appliesTo="source">line: 1605</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Each press increases or decreases the zoom by a fixed increment.</source>
-        <target>Each press increases or decreases the zoom by a fixed increment.</target>
+        <target>每次按键会按固定增量提高或降低放大级别。</target>
       </segment>
     </unit>
     <unit id="570cbd2e-dfba-49d5-8adc-f58dd162bac8">
@@ -17548,27 +17548,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierColorFilters}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Color Filters</source>
-        <target>Color Filters</target>
+        <target>颜色滤镜</target>
       </segment>
     </unit>
     <unit id="f4de9c1b-7d7b-4662-92e8-b4024dea1e59">
       <notes>
         <note appliesTo="source">line: 1609</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Color filters can help users with certain visual impairments or light sensitivity by modifying the colors displayed on the screen.</source>
-        <target>Color filters can help users with certain visual impairments or light sensitivity by modifying the colors displayed on the screen.</target>
+        <target>颜色滤镜可通过修改屏幕上显示的颜色来帮助患有某些视力障碍或光敏感的用户。</target>
       </segment>
     </unit>
     <unit id="cc3b8dec-e4f3-4e3c-ba76-b3453df8a3ea">
       <notes>
         <note appliesTo="source">line: 1610</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The magnifier provides three color filter options:</source>
-        <target>The magnifier provides three color filter options:</target>
+        <target>放大镜提供三种颜色滤镜选项：</target>
       </segment>
     </unit>
     <unit id="a9fb3b9d-53ed-4dbf-bc35-eda4155d43b1">
@@ -17576,9 +17576,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1612</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Normal: No color modification is applied. This is the default setting.</source>
-        <target>Normal: No color modification is applied. This is the default setting.</target>
+        <target>正常：不进行颜色修改。这是默认设置。</target>
       </segment>
     </unit>
     <unit id="75882a4c-1396-4382-a505-69e7f54a2716">
@@ -17586,9 +17586,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1613</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Grayscale: Converts all colors to shades of gray, which can help reduce eye strain and improve contrast for some users.</source>
-        <target>Grayscale: Converts all colors to shades of gray, which can help reduce eye strain and improve contrast for some users.</target>
+        <target>灰度：将所有颜色转换为灰度色调，这有助于减轻某些用户的视疲劳并提高对比度。Grayscale: Converts all colors to shades of gray, which can help reduce eye strain and improve contrast for some users.</target>
       </segment>
     </unit>
     <unit id="15ee67ea-eb85-400e-9efb-9fc1961a790b">
@@ -17596,18 +17596,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1614</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Inverted: Inverts all colors on the screen (black becomes white, white becomes black, etc.), which can be helpful for users who prefer light text on dark backgrounds or have photophobia.</source>
-        <target>Inverted: Inverts all colors on the screen (black becomes white, white becomes black, etc.), which can be helpful for users who prefer light text on dark backgrounds or have photophobia.</target>
+        <target>反转：反转屏幕上的所有颜色（黑色变为白色，白色变为黑色等），这对于喜欢深色背景上的浅色文本或有畏光症的用户很有帮助。</target>
       </segment>
     </unit>
     <unit id="e812191b-50c9-41de-84d3-c3386144fd58">
       <notes>
         <note appliesTo="source">line: 1616</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To cycle through the available filters press `NVDA+shift+i`.</source>
-        <target>To cycle through the available filters press `NVDA+shift+i`.</target>
+        <target>要循环切换可用的颜色滤镜，请按 `NVDA+Shift+I`。</target>
       </segment>
     </unit>
     <unit id="40050440-67e9-4ebd-bced-7ddaf35c235f">
@@ -17616,18 +17616,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierTrackingModes}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Tracking Modes</source>
-        <target>Tracking Modes</target>
+        <target>跟踪模式</target>
       </segment>
     </unit>
     <unit id="53893a74-7258-4ce6-aa3f-50954b27261d">
       <notes>
         <note appliesTo="source">line: 1620</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The magnifier offers three different modes for tracking the mouse, system focus, review cursor, and navigator object, and determining which part of the screen to magnify:</source>
-        <target>The magnifier offers three different modes for tracking the mouse, system focus, review cursor, and navigator object, and determining which part of the screen to magnify:</target>
+        <target>放大镜提供了三种不同的模式来跟踪鼠标、系统焦点、查看光标和导航对象，并确定放大屏幕的哪个部分：</target>
       </segment>
     </unit>
     <unit id="15d736f2-db42-4d76-8cbe-016a14349423">
@@ -17635,27 +17635,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1622</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Center: The magnified area is centered on the currently tracked position.</source>
-        <target>Center: The magnified area is centered on the currently tracked position.</target>
+        <target>居中：放大区域以当前跟踪位置为中心。</target>
       </segment>
     </unit>
     <unit id="35f84f37-53d4-4435-9525-5fe81bf0e43b">
       <notes>
         <note appliesTo="source">line: 1623</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This mode keeps the tracked element at the center of the screen and clamps to the screen edge.</source>
-        <target>This mode keeps the tracked element at the center of the screen and clamps to the screen edge.</target>
+        <target>此模式将跟踪的元素保持在屏幕中心，并限制在屏幕边缘内。</target>
       </segment>
     </unit>
     <unit id="1af44480-5f12-4b08-bd9a-f8c355441cba">
       <notes>
         <note appliesTo="source">line: 1624</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To disable clamping, activate [true center tracking in the Magnifier settings](#MagnifierTrueCenterTracking).</source>
-        <target>To disable clamping, activate [true center tracking in the Magnifier settings](#MagnifierTrueCenterTracking).</target>
+        <target>要禁用边缘限制，请在[放大镜设置中启用保持焦点居中](#MagnifierTrueCenterTracking)。</target>
       </segment>
     </unit>
     <unit id="bc7a74c2-228b-4650-85ac-91aa9575a4ff">
@@ -17663,18 +17663,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1625</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Border: The magnified area only moves when the tracked position approaches the edge of the visible area.</source>
-        <target>Border: The magnified area only moves when the tracked position approaches the edge of the visible area.</target>
+        <target>边缘：仅当跟踪位置接近可见区域边缘时，放大区域才会移动。</target>
       </segment>
     </unit>
     <unit id="f25f564e-2866-4a5e-8d3d-d6490d132175">
       <notes>
         <note appliesTo="source">line: 1626</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This mode provides a more stable view, only adjusting when necessary.</source>
-        <target>This mode provides a more stable view, only adjusting when necessary.</target>
+        <target>此模式提供更稳定的视图，仅在必要时进行调整。</target>
       </segment>
     </unit>
     <unit id="34c77646-ad96-458e-b68d-5fad6721b5dd">
@@ -17682,18 +17682,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1627</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Relative: The magnified area maintains the relative position of the tracked element based on its position on the screen.</source>
-        <target>Relative: The magnified area maintains the relative position of the tracked element based on its position on the screen.</target>
+        <target>相对：放大区域根据跟踪元素在屏幕上的位置保持其相对位置。</target>
       </segment>
     </unit>
     <unit id="9ffc8754-1f3b-4929-a61f-eeea6cb42574">
       <notes>
         <note appliesTo="source">line: 1629</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To cycle through the tracking modes, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>To cycle through the tracking modes, please assign a custom gesture using the [Input Gestures dialog](#InputGestures).</target>
+        <target>要循环切换跟踪模式，请使用[按键与手势对话框](#InputGestures)分配自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="7dcc406d-e586-4c4f-b8e0-d7d273f34200">
@@ -17702,27 +17702,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierScreenOverview}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Show entire screen overview</source>
-        <target>Show entire screen overview</target>
+        <target>显示全屏概览</target>
       </segment>
     </unit>
     <unit id="7f5ed3d2-2e65-4591-aa57-7f76eb414538">
       <notes>
         <note appliesTo="source">line: 1633</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The magnifier can temporarily display an overview of the entire screen, making it useful for presentations or when you need to quickly understand the overall screen layout.</source>
-        <target>The magnifier can temporarily display an overview of the entire screen, making it useful for presentations or when you need to quickly understand the overall screen layout.</target>
+        <target>放大镜可临时显示整个屏幕的概览，这在演示或当您需要快速了解整体屏幕布局时非常有用。</target>
       </segment>
     </unit>
     <unit id="786909ee-b7d5-4085-a8d3-f2abbac256e8">
       <notes>
         <note appliesTo="source">line: 1635</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This is useful when you want to:</source>
-        <target>This is useful when you want to:</target>
+        <target>以下情况此功能很有用：</target>
       </segment>
     </unit>
     <unit id="efb33672-03b0-4b2f-942d-a4eeac975282">
@@ -17730,9 +17730,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1637</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Show context to your audience during a presentation before zooming in on specific details</source>
-        <target>Show context to your audience during a presentation before zooming in on specific details</target>
+        <target>演示期间，在放大具体细节之前向观众显示上下文</target>
       </segment>
     </unit>
     <unit id="6b276020-9027-4971-b470-545aacd84008">
@@ -17740,27 +17740,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1638</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Temporarily view the full screen layout while magnifying</source>
-        <target>Temporarily view the full screen layout while magnifying</target>
+        <target>在放大的同时临时查看全屏布局</target>
       </segment>
     </unit>
     <unit id="8b4eca65-f30a-4798-9983-02b6496c7489">
       <notes>
         <note appliesTo="source">line: 1640</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To display an overview of the entire screen, press `NVDA+shift+l`.</source>
-        <target>To display an overview of the entire screen, press `NVDA+shift+l`.</target>
+        <target>要显示全屏概览，请按 `NVDA+Shift+L`。</target>
       </segment>
     </unit>
     <unit id="acbd7509-b0b9-427e-8578-848dd29b9175">
       <notes>
         <note appliesTo="source">line: 1641</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The magnifier will then:</source>
-        <target>The magnifier will then:</target>
+        <target>放大镜将：</target>
       </segment>
     </unit>
     <unit id="586e0e64-3ee9-4cbc-a6a0-939cd9a680d8">
@@ -17768,9 +17768,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1643</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Smoothly zoom out to show the full screen (zoom level 1.0x)</source>
-        <target>Smoothly zoom out to show the full screen (zoom level 1.0x)</target>
+        <target>平滑缩小以显示全屏（放大级别 1.0 倍）</target>
       </segment>
     </unit>
     <unit id="0a0a3dad-cd51-4669-84ce-fcf9d759d3dd">
@@ -17778,9 +17778,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1644</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Monitor mouse movement</source>
-        <target>Monitor mouse movement</target>
+        <target>监测鼠标移动</target>
       </segment>
     </unit>
     <unit id="cb3fa15e-73ca-4fc2-ab21-42635ea36658">
@@ -17788,18 +17788,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1645</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When the mouse remains still for approximately 2 seconds, automatically zoom back in to the original zoom level at the new mouse position</source>
-        <target>When the mouse remains still for approximately 2 seconds, automatically zoom back in to the original zoom level at the new mouse position</target>
+        <target>当鼠标保持静止约 2 秒时，自动在新鼠标位置恢复到先前的放大级别</target>
       </segment>
     </unit>
     <unit id="5b49726a-1313-4c02-82f6-42581a48b166">
       <notes>
         <note appliesTo="source">line: 1647</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Moving the mouse before the zoom-back occurs gives you more time to view the full screen.</source>
-        <target>Moving the mouse before the zoom-back occurs gives you more time to view the full screen.</target>
+        <target>在自动放大恢复之前移动鼠标，您可获得更多查看全屏内容的时间。</target>
       </segment>
     </unit>
     <unit id="2ada38bd-598c-4037-99a5-4601dad66cac">
@@ -17808,27 +17808,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierSettings}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Magnifier Settings</source>
-        <target>Magnifier Settings</target>
+        <target>放大镜设置</target>
       </segment>
     </unit>
     <unit id="d26da9a5-169e-400a-8127-692477429683">
       <notes>
         <note appliesTo="source">line: 1651</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The magnifier can be configured in the "Magnifier" category of the NVDA Settings dialog (`NVDA+control+w`).</source>
-        <target>The magnifier can be configured in the "Magnifier" category of the NVDA Settings dialog (`NVDA+control+w`).</target>
+        <target>放大镜可在 NVDA 设置对话框的“放大镜”类别中进行配置（`NVDA+Ctrl+W`）。</target>
       </segment>
     </unit>
     <unit id="156c0bf5-f85a-48d2-8806-df93b9607477">
       <notes>
         <note appliesTo="source">line: 1652</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>See the [Magnifier settings](#MagnifierSettingsCategory) section for details on available options.</source>
-        <target>See the [Magnifier settings](#MagnifierSettingsCategory) section for details on available options.</target>
+        <target>有关可用选项的详细信息，请参阅[放大镜设置](#MagnifierSettingsCategory)章节。</target>
       </segment>
     </unit>
     <unit id="db268119-b152-4431-bbe7-44da8add31e6">
