@@ -158,9 +158,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Read Feeds #</source>
-        <target>Read Feeds #</target>
+        <target>Read Feeds（NVDA 的 RSS 阅读插件） #</target>
       </segment>
     </unit>
     <unit id="6c515e25-f936-4bb9-baa6-77edb1794380">
@@ -168,36 +168,36 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Authors: Noelia Ruiz Martínez, Mesar Hameed</source>
-        <target>Authors: Noelia Ruiz Martínez, Mesar Hameed</target>
+        <target>作者：Noelia Ruiz Martínez、Mesar Hameed</target>
       </segment>
     </unit>
     <unit id="2455b6a0-2049-406b-bb55-6bdc40558ce6">
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This addon provides a straightforward way to read feeds in Atom or RSS formats using NVDA.</source>
-        <target>This addon provides a straightforward way to read feeds in Atom or RSS formats using NVDA.</target>
+        <target>此插件提供了一种使用 NVDA 以 Atom 或 RSS 格式读取订阅源的简单方法。</target>
       </segment>
     </unit>
     <unit id="09df638f-17bd-4877-aa63-952c6b0d5931">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The feeds will not be refreshed automatically.</source>
-        <target>The feeds will not be refreshed automatically.</target>
+        <target>订阅源不会自动刷新。</target>
       </segment>
     </unit>
     <unit id="cf72e2bb-c967-4a36-8749-3ff8fb147602">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Below when we mention feeds, we mean both RSS and ATOM feeds.</source>
-        <target>Below when we mention feeds, we mean both RSS and ATOM feeds.</target>
+        <target>下面我们提到订阅源时，我们指的是 RSS 和 ATOM 提要。</target>
       </segment>
     </unit>
     <unit id="eefd2cda-549e-4f4b-9510-b2fc6d9787ac">
@@ -205,9 +205,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Commands ##</source>
-        <target>Commands ##</target>
+        <target>快捷键 ##</target>
       </segment>
     </unit>
     <unit id="794342b1-4fe5-4bf8-937c-40845428463f">
@@ -215,27 +215,27 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Read Feeds dialog ###</source>
-        <target>Read Feeds dialog ###</target>
+        <target>订阅源对话框 ###</target>
       </segment>
     </unit>
     <unit id="2d8a1059-f72d-4002-85f8-7e800a10925b">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can access the Read Feeds dialog from the nvda menu, Tools submenu, Feeds item.</source>
-        <target>You can access the Read Feeds dialog from the nvda menu, Tools submenu, Feeds item.</target>
+        <target>您可从 NVDA 菜单、“工具”子菜单、“订阅源”菜单访问“订阅源”对话框。</target>
       </segment>
     </unit>
     <unit id="2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>It contains the following controls:</source>
-        <target>It contains the following controls:</target>
+        <target>该对话框包含以下控件：</target>
       </segment>
     </unit>
     <unit id="f151a3fc-213f-41b8-bbc1-d7fc5cff7215">
@@ -243,9 +243,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Filter by: An edit box to search previously saved feeds.</source>
-        <target>Filter by: An edit box to search previously saved feeds.</target>
+        <target>过滤条件：用于搜索以前保存的订阅源的编辑框。</target>
       </segment>
     </unit>
     <unit id="bf8dd8fa-4458-48a5-96aa-9ff0388a9ff4">
@@ -253,9 +253,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A list of the saved feeds, focused when the dialog is opened.</source>
-        <target>A list of the saved feeds, focused when the dialog is opened.</target>
+        <target>已保存的订阅源列表，在对话框打开时的默认焦点。</target>
       </segment>
     </unit>
     <unit id="b0f13dbe-e76a-4134-9ce2-0fe435740629">
@@ -263,9 +263,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>List of articles: Opens a dialog which presents the articles list from your current feed. Select the article you want to read and press Enter or Open web page of selected article button to open the corresponding page in your browser. Press About article button to open a dialog showing title and link of the selected article; from this dialog, you'll be able to copy this info to the clipboard.</source>
-        <target>List of articles: Opens a dialog which presents the articles list from your current feed. Select the article you want to read and press Enter or Open web page of selected article button to open the corresponding page in your browser. Press About article button to open a dialog showing title and link of the selected article; from this dialog, you'll be able to copy this info to the clipboard.</target>
+        <target>文章列表：打开一个对话框，显示当前订阅源中的文章列表。选择要阅读的文章，然后按回车或打开所选文章的网页按钮，在浏览器中打开相应的页面。按关于文章按钮打开一个对话框，显示所选文章的标题和链接;在此对话框中，您将能够将此信息复制到剪贴板。</target>
       </segment>
     </unit>
     <unit id="396b9b40-4fee-4273-8a58-3ac53ba776bf">
@@ -273,9 +273,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Open feed: Opens the selected feed in the default application.</source>
-        <target>Open feed: Opens the selected feed in the default application.</target>
+        <target>打开源：在默认应用程序中打开所选源。</target>
       </segment>
     </unit>
     <unit id="1820ed39-f86f-45d9-920e-89b52102598d">
@@ -283,9 +283,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Open feed as HTML: Opens the selected feed in the default web browser. You will be able to show or hide publication dates and buttons to copy information about articles to clipboard.</source>
-        <target>Open feed as HTML: Opens the selected feed in the default web browser. You will be able to show or hide publication dates and buttons to copy information about articles to clipboard.</target>
+        <target>以 HTML 格式打开源：在默认网页浏览器中打开选定的源。您可在此界面选择显示或隐藏发布日期，并使用复制按钮将文章信息保存至剪贴板。</target>
       </segment>
     </unit>
     <unit id="06c79628-9a10-43e2-9661-c49db2693bf4">
@@ -293,9 +293,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Copy feed address: Opens a dialog to confirm if you want to copy the feed address to clipboard.</source>
-        <target>Copy feed address: Opens a dialog to confirm if you want to copy the feed address to clipboard.</target>
+        <target>复制源地址。打开一个对话框，确认是否要将源地址复制到剪贴板。</target>
       </segment>
     </unit>
     <unit id="8b6ebc58-5fec-4d9d-90cf-f13263aef08b">
@@ -303,9 +303,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>New: Opens a dialog with an edit box to enter the address of a new feed. If the address is valid and the feed can be saved, its name, based on the feed title, will appear at the bottom of the feeds list.</source>
-        <target>New: Opens a dialog with an edit box to enter the address of a new feed. If the address is valid and the feed can be saved, its name, based on the feed title, will appear at the bottom of the feeds list.</target>
+        <target>新建：打开带有编辑框的对话框，以输入新订阅源的地址。如果地址有效且可以保存，则其名称（基于源标题）将显示在源列表的底部。</target>
       </segment>
     </unit>
     <unit id="e9479e31-9f75-4dc6-8649-6cd92e7d4edf">
@@ -313,9 +313,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Rename: Opens a dialog with an edit box to rename the selected feed.</source>
-        <target>Rename: Opens a dialog with an edit box to rename the selected feed.</target>
+        <target>重命名：打开一个带有编辑框的对话框，以重命名所选的源。</target>
       </segment>
     </unit>
     <unit id="090c3a5b-2eff-4ffd-b11a-a80a49e05269">
@@ -323,9 +323,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Delete: Opens a dialog to delete the selected feed after confirmation.</source>
-        <target>Delete: Opens a dialog to delete the selected feed after confirmation.</target>
+        <target>删除：打开确认删除所选源的对话框。</target>
       </segment>
     </unit>
     <unit id="bf2eeccf-d62d-4dad-8547-bf97fc8cea92">
@@ -333,9 +333,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Set default: Sets the selected feed as the default, so that its articles can be accessed with NVDA's gestures.</source>
-        <target>Set default: Sets the selected feed as the default, so that its articles can be accessed with NVDA's gestures.</target>
+        <target>设置默认值：将选定的源设置为默认值，以便可以使用 NVDA 的快捷键访问其文章。</target>
       </segment>
     </unit>
     <unit id="ff2a909a-88b1-4feb-a54d-ff5fd45bbb4f">
@@ -343,9 +343,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Import feeds from OPML file: Opens a dialog to add new feeds from an OPML file.</source>
-        <target>Import feeds from OPML file: Opens a dialog to add new feeds from an OPML file.</target>
+        <target>从 OPML 文件导入：打开对话框以通过 OPML 文件添加新源。</target>
       </segment>
     </unit>
     <unit id="66413be0-5f1d-4a70-a1d2-b4d640b38879">
@@ -353,9 +353,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Save feeds to OPML file: Opens a dialog to save the feeds available from the Feeds dialog in an OPML file.</source>
-        <target>Save feeds to OPML file: Opens a dialog to save the feeds available from the Feeds dialog in an OPML file.</target>
+        <target>保存到 OPML 文件：打开对话框以将订阅源对话框中的可用源保存到 OPML 文件。</target>
       </segment>
     </unit>
     <unit id="a8757196-06ff-4cc7-b955-e7d5eb5b7027">
@@ -363,9 +363,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Preferences: Opens the settings dialog for readFeeds, also available in NVDA's menu, Preferences, settings, readFeeds category.</source>
-        <target>Preferences: Opens the settings dialog for readFeeds, also available in NVDA's menu, Preferences, settings, readFeeds category.</target>
+        <target>选项：打开 readFeeds 的设置对话框，也可在 NVDA 菜单、选项、设置、readFeeds 类别中找到。</target>
       </segment>
     </unit>
     <unit id="c6fe9e0b-bb8f-4a16-883d-81b73fb65b5c">
@@ -373,9 +373,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Close: Closes the Feeds dialog.</source>
-        <target>Close: Closes the Feeds dialog.</target>
+        <target>关闭：关闭订阅源对话框。</target>
       </segment>
     </unit>
     <unit id="cf0450d8-023d-4992-8944-f8be31c4994e">
@@ -383,9 +383,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Notes #####</source>
-        <target>Notes #####</target>
+        <target>注意 #####</target>
       </segment>
     </unit>
     <unit id="c739d191-c62c-41a1-8228-e8e12107f46b">
@@ -393,9 +393,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The Filter by edit box can be placed after the Open article button from NVDA's menu, Preferences, Settings, Read feeds category, or pressing the Preferences button of the Feeds dialog.</source>
-        <target>The Filter by edit box can be placed after the Open article button from NVDA's menu, Preferences, Settings, Read feeds category, or pressing the Preferences button of the Feeds dialog.</target>
+        <target>过滤作者编辑框可置于“文章列表”按钮之后，可通过 NVDA 菜单、选项、设置、Read Feeds 类别进行设置，或直接按下订阅源对话框中的“选项”按钮进行设置。</target>
       </segment>
     </unit>
     <unit id="98b12a5f-5ce0-4faf-8bea-e2f35c3793b5">
@@ -403,9 +403,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This panel has an option to show article dates on the List of articles dialog.</source>
-        <target>This panel has an option to show article dates on the List of articles dialog.</target>
+        <target>此面板还提供在文章列表对话框中显示文章日期的选项。</target>
       </segment>
     </unit>
     <unit id="a4b615a4-fb25-4824-a4f8-d74ab860d22b">
@@ -413,9 +413,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Keyboard commands ###</source>
-        <target>Keyboard commands ###</target>
+        <target>键盘快捷键 ###</target>
       </segment>
     </unit>
     <unit id="e7abb36f-99da-4f0c-8953-e661232bf4dc">
@@ -423,9 +423,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will open the web page.</source>
-        <target>Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will open the web page.</target>
+        <target>Ctrl+Shift+NVDA+空格：读出当前文章的网址。连按两次将打开相关网页。</target>
       </segment>
     </unit>
     <unit id="d9fd5257-a87a-4ec1-8960-29a904a70db4">
@@ -433,9 +433,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent title.</source>
-        <target>Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent title.</target>
+        <target>Ctrl+Shift+NVDA+8：刷新选定的源并读出最新的标题。</target>
       </segment>
     </unit>
     <unit id="2762bcf4-a87f-4ac7-bad7-bd25c6d74e05">
@@ -443,9 +443,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice will copy the title and related link to clipboard.</source>
-        <target>Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice will copy the title and related link to clipboard.</target>
+        <target>Ctrl+Shift+NVDA+I：读出当前文章的标题，连按两次复制标题和相关链接到剪贴板。</target>
       </segment>
     </unit>
     <unit id="c3c88078-a75f-478b-aa21-9e86c7be7242">
@@ -453,9 +453,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Ctrl+Shift+NVDA+U: Announces previous feed title.</source>
-        <target>Ctrl+Shift+NVDA+U: Announces previous feed title.</target>
+        <target>Ctrl+Shift+NVDA+U：读出上一篇文章的标题。</target>
       </segment>
     </unit>
     <unit id="952d7b33-006d-4b40-a7f9-062d6d61eab3">
@@ -463,9 +463,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Ctrl+Shift+NVDA+O: Announces next feed title.</source>
-        <target>Ctrl+Shift+NVDA+O: Announces next feed title.</target>
+        <target>Ctrl+Shift+NVDA+O：读出下一篇文章的标题。</target>
       </segment>
     </unit>
     <unit id="b7f8abb5-55d6-4bd3-a41e-df55b539993c">
@@ -473,9 +473,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Notifications ##</source>
-        <target>Notifications ##</target>
+        <target>通知 ##</target>
       </segment>
     </unit>
     <unit id="ad27c8e9-163a-4f41-9526-d91d72ca428d">
@@ -483,9 +483,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When the title or URL have been copied.</source>
-        <target>When the title or URL have been copied.</target>
+        <target>复制标题或URL时。</target>
       </segment>
     </unit>
     <unit id="d8ea3129-a1eb-4904-a268-c540f381196a">
@@ -493,9 +493,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When unable to connect/refresh a feed, or the URL does not correspond to a valid feed.</source>
-        <target>When unable to connect/refresh a feed, or the URL does not correspond to a valid feed.</target>
+        <target>无法连接/刷新源，或网址与有效源不匹配。</target>
       </segment>
     </unit>
     <unit id="4a5066b0-e719-4c15-85df-2dad4649d929">
@@ -503,9 +503,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA will display an error message if a new feed cannot be created.</source>
-        <target>NVDA will display an error message if a new feed cannot be created.</target>
+        <target>若无法创建新源，NVDA 将显示错误消息。</target>
       </segment>
     </unit>
     <unit id="2d37dbdb-91e6-487f-9b3c-93b4519a0355">
@@ -513,9 +513,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The title of the articles list dialog displays the selected feed name and number of items available.</source>
-        <target>The title of the articles list dialog displays the selected feed name and number of items available.</target>
+        <target>“文章列表”对话框的标题显示所选的源名称和可用项目数。</target>
       </segment>
     </unit>
     <unit id="e8bd30ae-b5d5-45b1-9e5a-9b47a7bac2ed">
@@ -523,9 +523,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 44.0.0</source>
-        <target>Changes for 44.0.0</target>
+        <target>版本 44.0.0</target>
       </segment>
     </unit>
     <unit id="4551b2d6-e4d7-45b0-8000-4b8d7d9233e8">
@@ -533,9 +533,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Removed xml package, included in NVDA.</source>
-        <target>Removed xml package, included in NVDA.</target>
+        <target>删除了 NVDA 中包含的 xml 包。</target>
       </segment>
     </unit>
     <unit id="d1a4aedb-c540-46ba-9bcd-941504a71358">
@@ -543,9 +543,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 39.0.0</source>
-        <target>Changes for 39.0.0</target>
+        <target>版本 39.0.0</target>
       </segment>
     </unit>
     <unit id="c591a359-ec7f-49a7-aed7-e0a4fc1fa26a">
@@ -553,9 +553,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Improved notifications when title or URL are copied.</source>
-        <target>Improved notifications when title or URL are copied.</target>
+        <target>改进了复制标题或网址时的通知。</target>
       </segment>
     </unit>
     <unit id="ba4896b3-00bc-4391-8288-53a0311a9fca">
@@ -563,9 +563,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 62</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 34.0.0</source>
-        <target>Changes for 34.0.0</target>
+        <target>版本 34.0.0</target>
       </segment>
     </unit>
     <unit id="0970f37f-1490-489f-9e8f-bba907b486e2">
@@ -573,9 +573,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added support for rss.cbc.ca feeds.</source>
-        <target>Added support for rss.cbc.ca feeds.</target>
+        <target>添加了对 rss.cbc.ca 源的支持。</target>
       </segment>
     </unit>
     <unit id="43674e00-7b02-46a8-a87a-545f9adefdf6">
@@ -583,9 +583,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 21.0</source>
-        <target>Changes for 21.0</target>
+        <target>版本 21.0</target>
       </segment>
     </unit>
     <unit id="fed5828a-78e6-4054-9a32-8b01674ff8bc">
@@ -593,9 +593,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Feeds with untitled articles can be presented in the Articles dialog, and opened as HTML.</source>
-        <target>Feeds with untitled articles can be presented in the Articles dialog, and opened as HTML.</target>
+        <target>包含无标题文章的源可以在“文章”对话框中显示，并以 HTML 格式打开。</target>
       </segment>
     </unit>
     <unit id="f4c32e19-9a29-4ac9-845e-0bd967f0dbae">
@@ -603,9 +603,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 20.0</source>
-        <target>Changes for 20.0</target>
+        <target>版本 20.0</target>
       </segment>
     </unit>
     <unit id="5c5331e0-1dd5-4b04-96c0-50582f06982b">
@@ -613,9 +613,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>universalFeedParser is updated to 5.0.1, adding support for more feeds.</source>
-        <target>universalFeedParser is updated to 5.0.1, adding support for more feeds.</target>
+        <target>将 universalFeedParser 更新到 5.0.1，增加了对更多源的支持。</target>
       </segment>
     </unit>
     <unit id="7f73dcbc-75a0-4156-bf11-16b568e4af81">
@@ -623,9 +623,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 15.0</source>
-        <target>Changes for 15.0</target>
+        <target>版本 15.0</target>
       </segment>
     </unit>
     <unit id="265029d0-6327-4449-92d6-1895921a1a10">
@@ -633,9 +633,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Compatible with NVDA 2023.1.</source>
-        <target>Compatible with NVDA 2023.1.</target>
+        <target>兼容 NVDA 2023.1。</target>
       </segment>
     </unit>
     <unit id="f13871c9-e62d-4282-bd6d-76759fadeb65">
@@ -643,9 +643,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 14.0</source>
-        <target>Changes for 14.0</target>
+        <target>版本 14.0</target>
       </segment>
     </unit>
     <unit id="4c9e827c-1f33-4a43-9061-580d32a08b69">
@@ -653,9 +653,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed a bug that made impossible to add some feeds.</source>
-        <target>Fixed a bug that made impossible to add some feeds.</target>
+        <target>修复了无法添加某些源的错误。</target>
       </segment>
     </unit>
     <unit id="aac85357-9a27-4741-8e59-2f8e81798036">
@@ -663,9 +663,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 13.0</source>
-        <target>Changes for 13.0</target>
+        <target>版本 13.0</target>
       </segment>
     </unit>
     <unit id="92de45fd-5b13-4e50-8de7-adf766d081f5">
@@ -673,9 +673,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The add-on cannot be used on secure screens.</source>
-        <target>The add-on cannot be used on secure screens.</target>
+        <target>该插件不能在安全界面使用。</target>
       </segment>
     </unit>
     <unit id="0ac7f8dc-3ae5-4152-873b-64f54ccc6794">
@@ -683,9 +683,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Feeds are managed from OPML files.</source>
-        <target>Feeds are managed from OPML files.</target>
+        <target>源由 OPML 文件管理。</target>
       </segment>
     </unit>
     <unit id="7a7252ac-ab58-4a51-8467-228ce6963afa">
@@ -693,9 +693,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Due to changes in the feeds management system, there are changes in the configuration file where the default feed is set. Please, use the Feeds dialog if you want to set it again.</source>
-        <target>Due to changes in the feeds management system, there are changes in the configuration file where the default feed is set. Please, use the Feeds dialog if you want to set it again.</target>
+        <target>由于订阅源管理系统的更改，设置默认订阅源的配置文件也发生了变化。如果要重新设置，请使用“订阅源”对话框。</target>
       </segment>
     </unit>
     <unit id="621c00a6-269c-40df-9658-4e3d0eb7e3b9">
@@ -703,9 +703,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Your old text files used in previous versions will be automatically imported into the new OPML format when the add-on is started.</source>
-        <target>Your old text files used in previous versions will be automatically imported into the new OPML format when the add-on is started.</target>
+        <target>启动插件时，以前版本中使用的旧文本文件将自动导入为新的 OPML 格式。</target>
       </segment>
     </unit>
     <unit id="8d610b92-b852-41e2-b30a-b5d2c1fdbe14">
@@ -713,9 +713,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The copy and restore feeds feature has been replaced with the ability to import from and save to OPML files.</source>
-        <target>The copy and restore feeds feature has been replaced with the ability to import from and save to OPML files.</target>
+        <target>复制和还原功能已被从 OPML 文件导入和保存到 OPML 文件功能取代。</target>
       </segment>
     </unit>
     <unit id="f5a99c60-90d4-4d0b-a230-ac12542ae126">
@@ -723,9 +723,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Non well-formed feeds can be processed before being added to make them compatible with the add-on.</source>
-        <target>Non well-formed feeds can be processed before being added to make them compatible with the add-on.</target>
+        <target>格式不规范的源可在添加前处理，使其与本插件兼容。</target>
       </segment>
     </unit>
     <unit id="ab78f62b-73e6-4c81-be7c-3aa26c23208c">
@@ -733,9 +733,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In the Read Feeds settings panel, a new option allows to show article dates on the List of articles dialog.</source>
-        <target>In the Read Feeds settings panel, a new option allows to show article dates on the List of articles dialog.</target>
+        <target>在“Read Feeds”设置面板中，有一个新选项允许在“文章列表”对话框显示文章日期。</target>
       </segment>
     </unit>
     <unit id="2904cd04-9491-449a-b7ea-825f59fa955e">
@@ -743,9 +743,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 12.0</source>
-        <target>Changes for 12.0</target>
+        <target>版本 12.0</target>
       </segment>
     </unit>
     <unit id="939dd804-843a-45c7-9010-5ca5efd64b09">
@@ -753,9 +753,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed a bug which made shortcuts for items of NVDA's tools menu don't work as expected.</source>
-        <target>Fixed a bug which made shortcuts for items of NVDA's tools menu don't work as expected.</target>
+        <target>修复了导致 NVDA 工具菜单项的快捷方式无法按预期工作的错误。</target>
       </segment>
     </unit>
     <unit id="5997c4c5-b10b-4a75-97e4-fbfd336982b8">
@@ -763,9 +763,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 11.0</source>
-        <target>Changes for 11.0</target>
+        <target>版本 11.0</target>
       </segment>
     </unit>
     <unit id="536770cb-d4db-4a8a-8bda-8266bb91e9ff">
@@ -773,9 +773,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Compatible with NVDA 2021.1</source>
-        <target>Compatible with NVDA 2021.1</target>
+        <target>兼容 NVDA 2021.1</target>
       </segment>
     </unit>
     <unit id="e38d286b-aff8-426d-b44a-862a5ac646b6">
@@ -783,9 +783,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 10.0 ##</source>
-        <target>Changes for 10.0 ##</target>
+        <target>版本 10.0 ##</target>
       </segment>
     </unit>
     <unit id="473c5ae5-cbf7-4190-8d9e-61f70113274c">
@@ -793,9 +793,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a button to open the selected feed as HTML in the default web browser.</source>
-        <target>Added a button to open the selected feed as HTML in the default web browser.</target>
+        <target>增加了一个按钮，在默认的网页浏览器中以HTML形式打开选定的feed。</target>
       </segment>
     </unit>
     <unit id="5ac3aa88-dadd-409c-90d7-071257ca3bb6">
@@ -803,9 +803,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If a new feed cannot be created, this will be notified in an error dialog.</source>
-        <target>If a new feed cannot be created, this will be notified in an error dialog.</target>
+        <target>如果不能创建新的feed，将在错误对话框中通知。</target>
       </segment>
     </unit>
     <unit id="d4db71d3-04b5-4fef-b97a-a487aaaf23af">
@@ -813,9 +813,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Improved order and presentation of some articles.</source>
-        <target>Improved order and presentation of some articles.</target>
+        <target>改进一些条款的顺序和表述方式。</target>
       </segment>
     </unit>
     <unit id="58d32223-760e-4390-b62f-1f5a77bad54a">
@@ -823,9 +823,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>More feeds may be supported.</source>
-        <target>More feeds may be supported.</target>
+        <target>可以支持更多的feed。</target>
       </segment>
     </unit>
     <unit id="328f34fe-4fa6-470c-bea1-52a26b4453dd">
@@ -833,9 +833,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 106</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When the feeds dialog is opened, the list of feeds will be focused instead of the search edit box.</source>
-        <target>When the feeds dialog is opened, the list of feeds will be focused instead of the search edit box.</target>
+        <target>当打开Feeds对话框时，Feeds列表将被关注，而不是搜索编辑框。</target>
       </segment>
     </unit>
     <unit id="87848c9c-4ca8-4f4f-91dc-d54bbaaead80">
@@ -843,9 +843,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 107</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can choose if the search edit box is placed after the list of feeds, useful to focus the list even when switching from another window without closing the Feeds dialog.</source>
-        <target>You can choose if the search edit box is placed after the list of feeds, useful to focus the list even when switching from another window without closing the Feeds dialog.</target>
+        <target>您可以选择是否将搜索编辑框放在Feeds列表之后，这对于在不关闭Feeds对话框的情况下从另一个窗口切换时聚焦列表非常有用。</target>
       </segment>
     </unit>
     <unit id="fce23724-59a1-4742-9b6b-c8b500e00a24">
@@ -853,9 +853,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a button to copy the feed address to clipboard from the feeds dialog.</source>
-        <target>Added a button to copy the feed address to clipboard from the feeds dialog.</target>
+        <target>在feeds对话框中添加了将feed地址复制到剪贴板的按钮。</target>
       </segment>
     </unit>
     <unit id="899e42e2-ef8e-4716-839b-520ad52b79f3">
@@ -863,9 +863,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 9.0 ##</source>
-        <target>Changes for 9.0 ##</target>
+        <target>版本 9.0 ##</target>
       </segment>
     </unit>
     <unit id="27745119-04f1-452d-867b-bbbdcbe833f5">
@@ -873,9 +873,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 112</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Requires NVDA 2019.3 or later.</source>
-        <target>Requires NVDA 2019.3 or later.</target>
+        <target>需要NVDA 2019.3或更高版本。</target>
       </segment>
     </unit>
     <unit id="14719f0c-16cc-4a6a-9445-34e08f16ae10">
@@ -883,9 +883,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 114</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 8.0 ##</source>
-        <target>Changes for 8.0 ##</target>
+        <target>版本 8.0 ##</target>
       </segment>
     </unit>
     <unit id="c38da8cc-877f-409f-8c88-fcdc30f754e0">
@@ -893,9 +893,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 116</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When the add-on is updated, feeds saved in the previous version of the add-on will be automatically copied to the new version, unless you prefer to import feeds saved in the main configuration folder of NVDA.</source>
-        <target>When the add-on is updated, feeds saved in the previous version of the add-on will be automatically copied to the new version, unless you prefer to import feeds saved in the main configuration folder of NVDA.</target>
+        <target>更新插件后，除非您更喜欢导入保存在NVDA主配置文件夹中的feed，否则将保存在以前版本的插件中的提要将自动复制到新版本。</target>
       </segment>
     </unit>
     <unit id="4df88949-4e35-4291-9a70-eb225e7acbf6">
@@ -903,9 +903,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When using the dialog to copy feeds, if the chosen folder is not named personalFeeds, a subfolder with this name will be created to prevent the deletion of directories containing important data, such as Documents or Downloads.</source>
-        <target>When using the dialog to copy feeds, if the chosen folder is not named personalFeeds, a subfolder with this name will be created to prevent the deletion of directories containing important data, such as Documents or Downloads.</target>
+        <target>使用对话框复制供稿时，如果所选文件夹未命名为personalFeeds，则将创建具有此名称的子文件夹，以防止删除包含重要数据的目录，例如“文档”或“下载”。</target>
       </segment>
     </unit>
     <unit id="7bc5e1fb-8cab-487e-8651-ee193b25a2df">
@@ -913,9 +913,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 7.0 ##</source>
-        <target>Changes for 7.0 ##</target>
+        <target>版本 7.0 ##</target>
       </segment>
     </unit>
     <unit id="e706d83e-c347-44af-8982-b531ff247d4b">
@@ -923,9 +923,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 121</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The Feeds dialog includes a button to open a folder which may contain a backup of feeds.</source>
-        <target>The Feeds dialog includes a button to open a folder which may contain a backup of feeds.</target>
+        <target>"源" 对话框中包含一个按钮, 用于打开可能包含源备份的文件夹。</target>
       </segment>
     </unit>
     <unit id="2ac8dbc7-c78c-4770-8782-f2212d9aa318">
@@ -933,9 +933,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When using the edit box to filter feeds, if no results are found, the list of feeds and other controls are disabled, so that NVDA doesn't report "unknown" in the empty list.</source>
-        <target>When using the edit box to filter feeds, if no results are found, the list of feeds and other controls are disabled, so that NVDA doesn't report "unknown" in the empty list.</target>
+        <target>使用编辑框筛选源时, 如果未找到任何结果, 则会禁用源和其他控件的列表, 以便 NVDA 不会在空列表中朗读 "未知"。</target>
       </segment>
     </unit>
     <unit id="00d591dc-4315-427b-b5d0-5ecc8c42d514">
@@ -943,9 +943,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 123</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If the list of articles dialog can't be shown, for example due to errors in the feed, NVDA will raise an error, so that the feeds dialog can be used without restarting NVDA.</source>
-        <target>If the list of articles dialog can't be shown, for example due to errors in the feed, NVDA will raise an error, so that the feeds dialog can be used without restarting NVDA.</target>
+        <target>如果无法显示文章对话框列表 (例如, RSS的摘要有错误), 直接报错, 这样可以在不重新启动 NVDA 的情况下继续使用RSS源对话框。</target>
       </segment>
     </unit>
     <unit id="f09941f3-4642-44ad-a14d-c225424b0a53">
@@ -953,9 +953,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 125</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 6.0 ##</source>
-        <target>Changes for 6.0 ##</target>
+        <target>版本 6.0 ##</target>
       </segment>
     </unit>
     <unit id="be6d8bf5-285c-4ebd-b114-bf91214f5337">
@@ -963,9 +963,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 127</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When the default feed has been updated and it stops working due to server issues, the previous articles aren't deleted and can be read with the corresponding keystrokes.</source>
-        <target>When the default feed has been updated and it stops working due to server issues, the previous articles aren't deleted and can be read with the corresponding keystrokes.</target>
+        <target>当默认RSS源已更新并且由于服务器问题而停止工作时，之前的文章不会被删除，并且可以使用相应的按键进行读取。</target>
       </segment>
     </unit>
     <unit id="716a1650-e59e-4e50-8e0e-bce466b06b06">
@@ -973,9 +973,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 128</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fix regression: The default feed can be updated twice again.</source>
-        <target>Fix regression: The default feed can be updated twice again.</target>
+        <target>修复错误：默认RSS源可以更新两次了。</target>
       </segment>
     </unit>
     <unit id="34036989-5341-48f4-a563-de90877d3e90">
@@ -983,9 +983,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 130</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 5.0 ##</source>
-        <target>Changes for 5.0 ##</target>
+        <target>版本 5.0 ##</target>
       </segment>
     </unit>
     <unit id="b0805b6a-a1a5-49dd-9844-3f965089ba50">
@@ -993,9 +993,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 132</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The articles list dialog has been enhanced.</source>
-        <target>The articles list dialog has been enhanced.</target>
+        <target>文章列表对话框已得到增强。</target>
       </segment>
     </unit>
     <unit id="86a1f74c-10cd-4b8f-badc-7bdba4e71934">
@@ -1003,9 +1003,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 133</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Compatible with NVDA 2018.3 or later (required).</source>
-        <target>Compatible with NVDA 2018.3 or later (required).</target>
+        <target>兼容NVDA 2018.3或更高版本（必需）。</target>
       </segment>
     </unit>
     <unit id="dbc6e460-c61d-4c74-91e8-3adc069f09cc">
@@ -1013,9 +1013,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 135</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 4.0 ##</source>
-        <target>Changes for 4.0 ##</target>
+        <target>版本 4.0 ##</target>
       </segment>
     </unit>
     <unit id="0089e4ef-7db8-4e74-b010-23341479bafa">
@@ -1023,9 +1023,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 137</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a button to open the selected feed from the Feeds dialog.</source>
-        <target>Added a button to open the selected feed from the Feeds dialog.</target>
+        <target>添加了一个按钮，可以从“源”对话框中打开所选的源。</target>
       </segment>
     </unit>
     <unit id="7af4a22c-59fd-485d-92a7-b7cde3537ba0">
@@ -1033,9 +1033,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 139</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 3.0 ##</source>
-        <target>Changes for 3.0 ##</target>
+        <target>版本 3.0 ##</target>
       </segment>
     </unit>
     <unit id="2585464e-4645-4c94-858a-c3cd8397e6e2">
@@ -1043,9 +1043,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 141</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The dialogs to manage feed files have been removed. Now their functionality is included in the Feeds dialog.</source>
-        <target>The dialogs to manage feed files have been removed. Now their functionality is included in the Feeds dialog.</target>
+        <target>管理订阅源文件的对话框已被删除。现在，他们的功能包含在“源”对话框中。</target>
       </segment>
     </unit>
     <unit id="6a5cb5b4-ebb8-4aab-8a67-d3145f61e485">
@@ -1053,9 +1053,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 142</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The visual presentation of the dialogs has been enhanced, adhering to the appearance of the dialogs shown in NVDA.</source>
-        <target>The visual presentation of the dialogs has been enhanced, adhering to the appearance of the dialogs shown in NVDA.</target>
+        <target>对话框的可视化表示已得到增强，符合NVDA中显示的对话框的外观。</target>
       </segment>
     </unit>
     <unit id="a73c9326-5e8b-4d9e-9f94-6baed60e73e8">
@@ -1063,9 +1063,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 143</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The default feed is saved on the NVDA's configuration. Therefore, it's possible to set different default feeds in configuration profiles.</source>
-        <target>The default feed is saved on the NVDA's configuration. Therefore, it's possible to set different default feeds in configuration profiles.</target>
+        <target>默认配置保存在NVDA的配置中。因此，可以在配置配置文件中设置不同的默认源。</target>
       </segment>
     </unit>
     <unit id="eb5373e2-db0d-445c-ab08-84a9d6f604ce">
@@ -1073,9 +1073,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 144</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Requires NVDA 2016.4.</source>
-        <target>Requires NVDA 2016.4.</target>
+        <target>需要NVDA 2016.4。</target>
       </segment>
     </unit>
     <unit id="3b4be582-4552-403c-9c23-278604726c75">
@@ -1083,9 +1083,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 146</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 2.0 ##</source>
-        <target>Changes for 2.0 ##</target>
+        <target>版本 2.0 ##</target>
       </segment>
     </unit>
     <unit id="cdf7f6b4-6f58-4cb3-bb23-93cc1a866941">
@@ -1093,9 +1093,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 148</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Add-on help is available from the Add-ons Manager.</source>
-        <target>Add-on help is available from the Add-ons Manager.</target>
+        <target>插件管理器提供了插件帮助。</target>
       </segment>
     </unit>
     <unit id="22912651-a063-4d8e-a612-cf0005372a10">
@@ -1103,9 +1103,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 150</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 1.0 ##</source>
-        <target>Changes for 1.0 ##</target>
+        <target>版本 1.0 ##</target>
       </segment>
     </unit>
     <unit id="e4d0b27f-fc0b-49ca-a394-f4857b2b07d1">
@@ -1113,9 +1113,9 @@ $(ID:2ba6bbaa-d72c-4a56-983a-2a4f435a5aa7)
         <note appliesTo="source">line: 152</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Initial version.</source>
-        <target>Initial version.</target>
+        <target>发布初始版本。</target>
       </segment>
     </unit>
   </file>

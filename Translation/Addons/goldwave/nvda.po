@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-06-26 08:15+0000\n"
-"PO-Revision-Date: 2026-06-29 04:16\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-06-29 13:07+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: goldwave.pot\n"
 "X-Crowdin-File-ID: 180\n"
+"X-Generator: Poedit 3.9\n"
 
 #: addon\appModules\goldwave.py:37
 msgid "This is GoldWave's sound window. You can use GoldWave commands to listen to and edit sound files. See GoldWave help for details."
@@ -266,5 +267,4 @@ msgstr "一个用于增强 GoldWave 音频编辑器无障碍访问与使用体�
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
 msgid "* Removed add-on changelog from add-on help (readme) file."
-msgstr ""
-
+msgstr "* 已从插件帮助（自述）文件中删除插件更新日志。"
