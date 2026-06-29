@@ -1,6 +1,8 @@
 name: Update Addons Translations from Crowdin
 
 on:
+  schedule:
+    - cron: '0 5 * * *'
   workflow_dispatch:
     inputs:
       Addon_ID:
