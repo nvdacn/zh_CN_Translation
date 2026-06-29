@@ -35,7 +35,7 @@ jobs:
           echo "CACHE_KEY=nvda-sha-$current_sha" >> $GITHUB_ENV
       - name: Check SHA cache
         id: cache_sha
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: .sha_cache
           key: ${{ env.CACHE_KEY }}
@@ -84,7 +84,7 @@ jobs:
           Download-gettext: true
           set-variable: true
       - name: SCons MSVC Cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ${{ env.SCONS_CACHE_MSVC_CONFIG }}
           key: ${{ env.SCONS_CACHE_KEY }}
