@@ -107,7 +107,8 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
   - 插件的界面翻译命名为 `nvda.po`。
   - 插件的文档翻译命名为 `readme.xliff`。
 
-- 可在任意分支手动运行 [Update Addons Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateAddonTranslations.yaml)来新增或更新指定的插件翻译。
+- 提交到此存储库的插件翻译会在每天05:00(UTC) 自动更新。
+- 还可在任意分支手动运行 [Update Addons Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateAddonTranslations.yaml)来新增或更新指定的插件翻译。
 
   - 留空 Add-on ID 字段会更新此存储库已有插件的翻译。
   - 在 Add-on ID 字段填写特定的插件 ID，如此存储库不包含该插件的翻译，则将其下载到存储库，否则更新该插件的翻译。
