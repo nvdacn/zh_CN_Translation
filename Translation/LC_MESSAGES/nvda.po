@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 09:44+0000\n"
+"POT-Creation-Date: 2026-06-30 09:56+0000\n"
 "PO-Revision-Date: 2026-06-27 13:34+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -17264,71 +17264,71 @@ msgid "Math interaction not supported."
 msgstr "Math 交互不被支持。"
 
 #. Translators: this message reports an error in starting navigation of math.
-#: mathPres\MathCAT\MathCAT.py:90
+#: mathPres\MathCAT\MathCAT.py:105
 msgctxt "math"
 msgid "Error in starting navigation of math."
 msgstr "启动数学导航时出错。"
 
 #. Translators: this message alerts users to an error in brailling math.
-#: mathPres\MathCAT\MathCAT.py:105
+#: mathPres\MathCAT\MathCAT.py:120
 msgctxt "math"
 msgid "Error in brailling math: see NVDA error log for details"
 msgstr "输出数学盲文时出错：详情请参见 NVDA 错误日志"
 
 #. Translators: this message alerts users to an error in navigating math.
-#: mathPres\MathCAT\MathCAT.py:121
+#: mathPres\MathCAT\MathCAT.py:136
 msgctxt "math"
 msgid "Error in navigating math"
 msgstr "导航数学内容时出错"
 
 #. Translators: this message alerts users to an error brailling math.
-#: mathPres\MathCAT\MathCAT.py:144
+#: mathPres\MathCAT\MathCAT.py:159
 msgctxt "math"
 msgid "Error in brailling math"
 msgstr "输出数学盲文时出错"
 
 #. Translators: Message to be announced during Keyboard Help
-#: mathPres\MathCAT\MathCAT.py:165
+#: mathPres\MathCAT\MathCAT.py:180
 msgid "Copy navigation focus to clipboard"
 msgstr "将导航焦点复制到剪贴板"
 
 #. Translators: Name of the section in "Input gestures" dialog.
-#: mathPres\MathCAT\MathCAT.py:167
+#: mathPres\MathCAT\MathCAT.py:182
 msgid "Clipboard"
 msgstr "剪贴板"
 
 #. Translators: copy to clipboard
-#: mathPres\MathCAT\MathCAT.py:213
+#: mathPres\MathCAT\MathCAT.py:228
 msgctxt "math"
 msgid "copy as "
 msgstr "复制为 "
 
 #. Translators: this message directs users to look in the log file
-#: mathPres\MathCAT\MathCAT.py:314
+#: mathPres\MathCAT\MathCAT.py:329
 msgctxt "math"
 msgid "Error navigating math"
 msgstr "数学导航出错"
 
 #. Translators: this message reports when invalid math is found.
-#: mathPres\MathCAT\MathCAT.py:337
+#: mathPres\MathCAT\MathCAT.py:352
 msgctxt "math"
 msgid "Invalid math formatting found"
 msgstr "发现无效的数学格式"
 
 #. Translators: this message reports an error in speaking math.
-#: mathPres\MathCAT\MathCAT.py:364
+#: mathPres\MathCAT\MathCAT.py:379
 msgctxt "math"
 msgid "Error in speaking math."
 msgstr "朗读数学内容时出错。"
 
 #. Translators: this message reports illegal MathML.
-#: mathPres\MathCAT\MathCAT.py:389
+#: mathPres\MathCAT\MathCAT.py:404
 msgctxt "math"
 msgid "Illegal MathML found."
 msgstr "发现非法的 MathML。"
 
 #. Translators: this message reports an error in brailling math.
-#: mathPres\MathCAT\MathCAT.py:396
+#: mathPres\MathCAT\MathCAT.py:411
 msgctxt "math"
 msgid "Error in brailling math."
 msgstr "输出数学盲文时出错。"
@@ -21133,7 +21133,7 @@ msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
 #. Translators: Message when NVDA's Magnifier cannot start because another magnifier is already running.
-#: _magnifier\fullscreenMagnifier.py:78
+#: _magnifier\fullscreenMagnifier.py:80
 msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier. Another magnifier application may already be running."
@@ -21146,19 +21146,19 @@ msgid "Magnifier stopped due to an error. Please restart it."
 msgstr "放大镜因错误而停止。请将其重启。"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:182
+#: _magnifier\magnifier.py:185
 msgctxt "magnifier"
 msgid "Cannot enable magnifier. Please disable screen curtain first."
 msgstr "无法开启放大镜：请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
-#: _magnifier\magnifier.py:272
+#: _magnifier\magnifier.py:285
 msgctxt "magnifier"
 msgid "Disabling magnifier"
 msgstr "关闭放大镜"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
-#: _magnifier\magnifier.py:290
+#: _magnifier\magnifier.py:303
 msgctxt "magnifier"
 msgid "Re-enabling magnifier"
 msgstr "重启放大镜"
