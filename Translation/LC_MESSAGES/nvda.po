@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 04:45+0000\n"
+"POT-Creation-Date: 2026-07-02 09:28+0000\n"
 "PO-Revision-Date: 2026-07-01 13:36+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -4329,7 +4329,7 @@ msgstr "链接未指向确切地址"
 
 #. Translators: Title of the browseable message when requesting the destination of a graphical link.
 #. Translators: A destination for braille output.
-#: globalCommands.py:4562 brailleDisplayDrivers\dotPad\driver.py:355
+#: globalCommands.py:4562 brailleDisplayDrivers\dotPad\driver.py:404
 msgid "Graphic"
 msgstr "图形"
 
@@ -9548,17 +9548,17 @@ msgstr ""
 "改为最大 {maxCells}，然后根据需要重启 Albatross 和 NVDA。"
 
 #. Translators: Description of the DotPad Braille / Tactile Graphic display.
-#: brailleDisplayDrivers\dotPad\driver.py:83
+#: brailleDisplayDrivers\dotPad\driver.py:85
 msgid "DotPad Braille / Tactile Graphic display"
 msgstr "DotPad 盲文/触觉图形显示"
 
 #. Translators: Label for a setting that allows the user to choose the destination for braille output.
-#: brailleDisplayDrivers\dotPad\driver.py:113
+#: brailleDisplayDrivers\dotPad\driver.py:115
 msgid "Braille destination"
 msgstr "输出类型"
 
 #. Translators: A destination for braille output.
-#: brailleDisplayDrivers\dotPad\driver.py:349
+#: brailleDisplayDrivers\dotPad\driver.py:398
 msgid "Text"
 msgstr "文本"
 
