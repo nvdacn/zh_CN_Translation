@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/readonlyProfiles/f02fa761fa26b906b17cc6b7906db6d0809e8502/readme.md">
     <skeleton>
 # $(ID:31af2cbc-1292-49e4-9bbd-7cbb0d92503e)
@@ -16,9 +16,9 @@ $(ID:fc7d3d36-e565-4cf2-b53a-56d10cb79c7a)
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Readonly Profiles</source>
-        <target>手动保存配置文件</target>
+        <target>手动保存独立配置</target>
       </segment>
     </unit>
     <unit id="cc729e5b-bd92-43ce-9157-99ada0638944">
@@ -35,18 +35,18 @@ $(ID:fc7d3d36-e565-4cf2-b53a-56d10cb79c7a)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>When this add-on is enabled, configuration profiles won't be saved automatically.</source>
-        <target>启用此插件后，配置文件将不会自动保存。</target>
+        <target>启用此插件后，独立配置将不会自动保存。</target>
       </segment>
     </unit>
     <unit id="a4bcdf6d-2893-4ca6-9832-42c237dc30db">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Press NVDA+shift+p to save the current configuration to the most recent profile.</source>
-        <target>按下 NVDA+Shift+P 可将当前配置保存到最近使用的配置文件。</target>
+        <target>按下 NVDA+Shift+P 可将当前配置保存到最近使用的独立配置。</target>
       </segment>
     </unit>
     <unit id="fc7d3d36-e565-4cf2-b53a-56d10cb79c7a">
