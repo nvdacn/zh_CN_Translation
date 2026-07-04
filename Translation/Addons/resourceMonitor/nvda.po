@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-06-26 19:59+0000\n"
-"PO-Revision-Date: 2026-06-27 02:46\n"
+"POT-Creation-Date: 2026-07-03 19:38+0000\n"
+"PO-Revision-Date: 2026-07-04 07:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -53,150 +53,150 @@ msgstr "{winVersion} ({cpuBit}) 内部版本 {build}"
 msgid "Resource Monitor"
 msgstr "资源监控器"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:300
+#. Translators: Input help mode message about overall system resource info command in Resource Monitor
+#: addon\globalPlugins\resourceMonitor\__init__.py:288
+msgid "Presents used ram and average processor load."
+msgstr "读出内存使用率和 CPU 平均负载。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:296
 #, python-brace-format
-msgid "GPU {gpuNumber}: usage {usage}%, temp {temperature}°C."
-msgstr "GPU {gpuNumber}：使用率百分之 {usage}，温度 {temperature} 摄氏度。"
+msgid "{ramPercent}% RAM used, CPU at {cpuPercent}%."
+msgstr "内存已用 百分之 {ramPercent}，CPU 已用 百分之 {cpuPercent}。"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:310
-msgid "No GPU information available."
-msgstr "暂无 GPU 信息。"
+#: addon\globalPlugins\resourceMonitor\__init__.py:305
+msgid "Presents the average processor load and the load of each core. If pressed twice, copies the information to the clipboard."
+msgstr "读出每个 CPU 核心的负载和平均负载。连按两次将此信息复制到剪贴板。"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:312
-msgid "Unable to get GPU information."
-msgstr "无法获取 GPU 信息。"
+#. Translators: Shows average load of CPU cores (example: core 1, 50%).
+#: addon\globalPlugins\resourceMonitor\__init__.py:317
+#, python-brace-format
+msgid "Core {coreNumber}: {corePercent}%"
+msgstr "核心{coreNumber}: 百分之 {corePercent}"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:313
-msgid "No GPU data available."
-msgstr "无可用的 GPU 数据。"
+#. Translators: Shows average load of the processor on single-core systems.
+#: addon\globalPlugins\resourceMonitor\__init__.py:324
+#, python-brace-format
+msgid "{avgLoad}% CPU load."
+msgstr "百分之 {avgLoad} CPU 负载。"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:318
+#. Translators: Shows average load of the processor and the load for each core on multi-core systems.
+#: addon\globalPlugins\resourceMonitor\__init__.py:327
+#, python-brace-format
+msgid "{avgLoad}% average CPU load, {cores}."
+msgstr "百分之 {avgLoad} 平均 CPU 负载，{cores}。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:338
+msgid "Presents the used and total space for both physical and virtual ram. If pressed twice, copies the information to the clipboard."
+msgstr "读出物理内存和虚拟内存的容量和使用情况。连按两次将此信息复制到剪贴板。"
+
+#. Translators: Shows RAM (physical memory) usage.
+#: addon\globalPlugins\resourceMonitor\__init__.py:348
+#, python-brace-format
+msgid "Physical: {physicalUsed} of {physicalTotal} used ({physicalPercent}%). "
+msgstr "物理内存： 已用 {physicalUsed}， 总大小 {physicalTotal}， 使用率 百分之 {physicalPercent}。 "
+
+#. Translators: Shows virtual memory usage.
+#: addon\globalPlugins\resourceMonitor\__init__.py:356
+#, python-brace-format
+msgid "Virtual: {virtualUsed} of {virtualTotal} used ({virtualPercent}%)."
+msgstr "虚拟内存：已用 {virtualUsed}， 总大小 {virtualTotal}， 使用率 百分之 {virtualPercent}。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:369
 msgid "Presents the used and total space of the fixed (built-in) and removable drives on this computer. If pressed twice, copies the information to the clipboard."
 msgstr "读出此计算机上所有驱动器的文件系统和空间使用情况。连按两次将此信息复制到剪贴板。"
 
 #. Translators: Shows drive letter, type of drive (fixed or removable),
 #. used capacity and total capacity of a drive
 #. (example: C drive, ntfs; 40 GB of 100 GB used (40%).
-#: addon\globalPlugins\resourceMonitor\__init__.py:338
+#: addon\globalPlugins\resourceMonitor\__init__.py:389
 #, python-brace-format
 msgid "{driveName} ({driveType} drive): {usedSpace} of {totalSpace} used ({percent}%)."
 msgstr "磁盘 {driveName} (文件系统 {driveType}):总大小 {totalSpace}， 已用 {usedSpace}，使用率 百分之 {percent}。"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:354
-msgid "Presents the average processor load and the load of each core. If pressed twice, copies the information to the clipboard."
-msgstr "读出每个 CPU 核心的负载和平均负载。连按两次将此信息复制到剪贴板。"
-
-#. Translators: Shows average load of CPU cores (example: core 1, 50%).
-#: addon\globalPlugins\resourceMonitor\__init__.py:366
-#, python-brace-format
-msgid "Core {coreNumber}: {corePercent}%"
-msgstr "核心{coreNumber}: 百分之 {corePercent}"
-
-#. Translators: Shows average load of the processor on single-core systems.
-#: addon\globalPlugins\resourceMonitor\__init__.py:373
-#, python-brace-format
-msgid "{avgLoad}% CPU load."
-msgstr "百分之 {avgLoad} CPU 负载。"
-
-#. Translators: Shows average load of the processor and the load for each core on multi-core systems.
-#: addon\globalPlugins\resourceMonitor\__init__.py:376
-#, python-brace-format
-msgid "{avgLoad}% average CPU load, {cores}."
-msgstr "百分之 {avgLoad} 平均 CPU 负载，{cores}。"
-
-#: addon\globalPlugins\resourceMonitor\__init__.py:387
-msgid "Presents the used and total space for both physical and virtual ram. If pressed twice, copies the information to the clipboard."
-msgstr "读出物理内存和虚拟内存的容量和使用情况。连按两次将此信息复制到剪贴板。"
-
-#. Translators: Shows RAM (physical memory) usage.
-#: addon\globalPlugins\resourceMonitor\__init__.py:397
-#, python-brace-format
-msgid "Physical: {physicalUsed} of {physicalTotal} used ({physicalPercent}%). "
-msgstr "物理内存： 已用 {physicalUsed}， 总大小 {physicalTotal}， 使用率 百分之 {physicalPercent}。 "
-
-#. Translators: Shows virtual memory usage.
-#: addon\globalPlugins\resourceMonitor\__init__.py:405
-#, python-brace-format
-msgid "Virtual: {virtualUsed} of {virtualTotal} used ({virtualPercent}%)."
-msgstr "虚拟内存：已用 {virtualUsed}， 总大小 {virtualTotal}， 使用率 百分之 {virtualPercent}。"
-
-#: addon\globalPlugins\resourceMonitor\__init__.py:418
-msgid "Announces the version of Windows you are using. If pressed twice, copies the information to the clipboard."
-msgstr "读出当前 Windows 的版本信息。连按两次将此信息复制到剪贴板。"
-
-#: addon\globalPlugins\resourceMonitor\__init__.py:436
-msgid "Announces the system's wireless network name (SSID), connection strength, and security  protocol. If pressed twice, copies the information to the clipboard."
-msgstr "读出已连接的无线网络名称、信号强度以及安全类型。连按两次将此信息复制到剪贴板。"
-
-#: addon\globalPlugins\resourceMonitor\__init__.py:452
-msgid "Announces GPU usage and temperature. If pressed twice, copies the information to the clipboard."
-msgstr "读出 GPU 的使用情况和温度。连按两次将此信息复制到剪贴板。"
-
-#. Translators: Message reported when the GPU command fails unexpectedly.
-#: addon\globalPlugins\resourceMonitor\__init__.py:470
-msgid "Failed to get GPU information."
-msgstr "获取 GPU 信息失败。"
-
-#: addon\globalPlugins\resourceMonitor\__init__.py:474
-#: addon\globalPlugins\resourceMonitor\__init__.py:481
+#: addon\globalPlugins\resourceMonitor\__init__.py:404
+#: addon\globalPlugins\resourceMonitor\__init__.py:411
 msgid "No wireless devices"
 msgstr "没有无线设备"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:485
+#: addon\globalPlugins\resourceMonitor\__init__.py:415
 msgid "No wireless connections"
 msgstr "未连接无线网络"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:498
+#: addon\globalPlugins\resourceMonitor\__init__.py:428
 #, python-brace-format
 msgid "Connected to {}, signal strength: {}%, security type: {}"
 msgstr "{} 已连接，信号强度： 百分之 {}， 安全类型： {}"
 
+#: addon\globalPlugins\resourceMonitor\__init__.py:443
+msgid "Announces the system's wireless network name (SSID), connection strength, and security  protocol. If pressed twice, copies the information to the clipboard."
+msgstr "读出已连接的无线网络名称、信号强度以及安全类型。连按两次将此信息复制到剪贴板。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:459
+msgid "Announces the version of Windows you are using. If pressed twice, copies the information to the clipboard."
+msgstr "读出当前 Windows 的版本信息。连按两次将此信息复制到剪贴板。"
+
 #. Translators: system uptime in days.
-#: addon\globalPlugins\resourceMonitor\__init__.py:519
+#: addon\globalPlugins\resourceMonitor\__init__.py:483
 #, python-brace-format
 msgid "{days:d} day"
 msgid_plural "{days:d} days"
 msgstr[0] "{days:d} 天"
 
 #. Translators: system uptime in hours.
-#: addon\globalPlugins\resourceMonitor\__init__.py:523
+#: addon\globalPlugins\resourceMonitor\__init__.py:487
 #, python-brace-format
 msgid "{hours:d} hour"
 msgid_plural "{hours:d} hours"
 msgstr[0] "{hours:d} 小时"
 
 #. Translators: system uptime in minutes.
-#: addon\globalPlugins\resourceMonitor\__init__.py:527
+#: addon\globalPlugins\resourceMonitor\__init__.py:491
 #, python-brace-format
 msgid "{minutes:d} minute"
 msgid_plural "{minutes:d} minutes"
 msgstr[0] "{minutes:d} 分钟"
 
 #. Translators: system uptime in seconds.
-#: addon\globalPlugins\resourceMonitor\__init__.py:531
+#: addon\globalPlugins\resourceMonitor\__init__.py:495
 #, python-brace-format
 msgid "{seconds:d} second"
 msgid_plural "{seconds:d} seconds"
 msgstr[0] "{seconds:d} 秒"
 
-#: addon\globalPlugins\resourceMonitor\__init__.py:538
+#: addon\globalPlugins\resourceMonitor\__init__.py:502
 msgid "Announces the system's uptime. If pressed twice, copies the information to the clipboard."
 msgstr "读出当前系统的运行时间。连按两次将此信息复制到剪贴板。"
 
 #. Translators: Obtaining uptime failed
-#: addon\globalPlugins\resourceMonitor\__init__.py:553
+#: addon\globalPlugins\resourceMonitor\__init__.py:517
 msgid "Failed to get the system's uptime."
 msgstr "无法获取系统的运行时间。"
 
-#. Translators: Input help mode message about overall system resource info command in Resource Monitor
-#: addon\globalPlugins\resourceMonitor\__init__.py:557
-msgid "Presents used ram and average processor load."
-msgstr "读出内存使用率和 CPU 平均负载。"
-
-#: addon\globalPlugins\resourceMonitor\__init__.py:565
+#: addon\globalPlugins\resourceMonitor\__init__.py:533
 #, python-brace-format
-msgid "{ramPercent}% RAM used, CPU at {cpuPercent}%."
-msgstr "内存已用 百分之 {ramPercent}，CPU 已用 百分之 {cpuPercent}。"
+msgid "GPU {gpuNumber}: usage {usage}%, temp {temperature}°C."
+msgstr "GPU {gpuNumber}：使用率百分之 {usage}，温度 {temperature} 摄氏度。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:543
+msgid "No GPU information available."
+msgstr "暂无 GPU 信息。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:545
+msgid "Unable to get GPU information."
+msgstr "无法获取 GPU 信息。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:546
+msgid "No GPU data available."
+msgstr "无可用的 GPU 数据。"
+
+#: addon\globalPlugins\resourceMonitor\__init__.py:551
+msgid "Announces GPU usage and temperature. If pressed twice, copies the information to the clipboard."
+msgstr "读出 GPU 的使用情况和温度。连按两次将此信息复制到剪贴板。"
+
+#. Translators: Message reported when the GPU command fails unexpectedly.
+#: addon\globalPlugins\resourceMonitor\__init__.py:569
+msgid "Failed to get GPU information."
+msgstr "获取 GPU 信息失败。"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
