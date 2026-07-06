@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 09:31+0000\n"
+"POT-Creation-Date: 2026-07-06 04:18+0000\n"
 "PO-Revision-Date: 2026-07-01 13:36+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -8704,7 +8704,8 @@ msgid "Only when scrolling back"
 msgstr "仅在回滚时"
 
 #. Translators: String representing automatic port selection for braille displays.
-#: braille\constants.py:65
+#. Translators: Label for a method of word segmentation.
+#: braille\constants.py:65 config\featureFlagEnums.py:155
 msgid "Automatic"
 msgstr "自动"
 
@@ -11259,40 +11260,40 @@ msgid "Tags"
 msgstr "标记"
 
 #. Translators: Label for a method of word segmentation.
-#: config\featureFlagEnums.py:154
-msgid "Auto"
-msgstr "自动"
-
-#. Translators: Label for a method of word segmentation.
-#: config\featureFlagEnums.py:156
-msgid "Standard"
-msgstr "标准"
-
-#. Translators: Label for a method of word segmentation.
-#: config\featureFlagEnums.py:158
+#: config\featureFlagEnums.py:157
 msgid "Chinese"
 msgstr "中文"
 
+#. Translators: Label for a method of word segmentation.
+#: config\featureFlagEnums.py:159
+msgid "Unicode (ICU)"
+msgstr ""
+
+#. Translators: Label for a method of word segmentation.
+#: config\featureFlagEnums.py:161
+msgid "Legacy (Uniscribe)"
+msgstr ""
+
 #. Translators: A choice in a combo box in the braille settings panel to configure text wrapping.
-#: config\featureFlagEnums.py:179
+#: config\featureFlagEnums.py:182
 msgctxt "braille text wrap"
 msgid "Off"
 msgstr "关闭"
 
 #. Translators: A choice in a combo box in the braille settings panel to configure text wrapping.
-#: config\featureFlagEnums.py:181
+#: config\featureFlagEnums.py:184
 msgctxt "braille text wrap"
 msgid "Show mark when words are cut"
 msgstr "截断单词时显示标记"
 
 #. Translators: A choice in a combo box in the braille settings panel to configure text wrapping.
-#: config\featureFlagEnums.py:183
+#: config\featureFlagEnums.py:186
 msgctxt "braille text wrap"
 msgid "At word boundaries"
 msgstr "单词边界处"
 
 #. Translators: A choice in a combo box in the braille settings panel to configure text wrapping.
-#: config\featureFlagEnums.py:187
+#: config\featureFlagEnums.py:190
 msgctxt "braille text wrap"
 msgid "At word or syllable boundaries"
 msgstr "单词或音节边界处"
@@ -20872,13 +20873,13 @@ msgid "Positioned at {x}, {y}"
 msgstr "像素坐标 {x}、{y}"
 
 #. Translators: current position in a document as a percentage of the document length
-#: textInfos\offsets.py:296
+#: textInfos\offsets.py:298
 #, python-brace-format
 msgid "{curPercent:.0f}%"
 msgstr "{curPercent:.0f}%"
 
 #. Translators: the current position's screen coordinates in pixels
-#: textInfos\offsets.py:303
+#: textInfos\offsets.py:305
 #, python-brace-format
 msgid "at {x}, {y}"
 msgstr "像素坐标 {x}、{y}"
@@ -21868,6 +21869,12 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "Auto"
+#~ msgstr "自动"
+
+#~ msgid "Standard"
+#~ msgstr "标准"
 
 #~ msgid "Fullscreen"
 #~ msgstr "全屏"
