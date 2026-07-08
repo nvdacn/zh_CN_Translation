@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/9855134c82183ab945876c601e28a487385b65b8/readme.md">
     <skeleton>
 # $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
@@ -309,9 +309,9 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In NVDA 2026.2, additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below).</source>
-        <target>In NVDA 2026.2, additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below).</target>
+        <target>在 NVDA 2026.2 中，可通过 NVDA 的浏览模式设置或从专用的 ObjPad 设置界面（见下文）添加其他浏览模式元素。</target>
       </segment>
     </unit>
     <unit id="258c5b6d-2565-416b-8f77-b5986aaf2fed">
@@ -398,18 +398,18 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>ObjPad settings</source>
-        <target>ObjPad settings</target>
+        <target>ObjPad 设置</target>
       </segment>
     </unit>
     <unit id="61ce4a7e-f5a0-4e92-8720-3834fb3a00e7">
       <notes>
         <note appliesTo="source">line: 54</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).</source>
-        <target>In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).</target>
+        <target>在 NVDA 2026.2 中，引入了专用设置来配置触摸浏览模式下可用的浏览模式导航元素。在支持触摸操作的计算机安装 NVDA 后，可在浏览模式设置中找到此设置。在非触摸设备或 NVDA 便携版，ObjPad 通过 ObjPad 设置界面（位于 NVDA 设置屏幕中）提供相同的设置。</target>
       </segment>
     </unit>
     <unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
