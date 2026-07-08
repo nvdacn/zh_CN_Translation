@@ -259,7 +259,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS.</source>
-        <target>作者：Abdel, Rémy, Abdellah zineddine, Jean-François COLAS。</target>
+        <target>作者：Abdel, Rémy, Abdellah zineddine, Jean-François COLAS</target>
       </segment>
     </unit>
     <unit id="7fe450b3-aef0-4239-a842-98020d8e9d42">
@@ -269,7 +269,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Presentation #</source>
-        <target>简介 #</target>
+        <target>功能概述 #</target>
       </segment>
     </unit>
     <unit id="9ce1b91c-df34-49a9-9eb2-ad1a69c19d19">
@@ -278,7 +278,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This add-on improves the accessibility of the software mp3DirectCut with NVDA.</source>
-        <target>本插件旨在提高 NVDA 屏幕阅读器对 mp3DirectCut 软件的可访问性（无障碍性）。</target>
+        <target>此插件显著提升 NVDA 屏幕阅读器在 mp3DirectCut 软件中的无障碍访问体验。</target>
       </segment>
     </unit>
     <unit id="9aafc51d-520d-4342-a134-5e6d87d64ee3">
@@ -287,7 +287,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>It has been tested with versions of mp3DirectCut ranging from 212 up to 233.</source>
-        <target>本插件已在 mp3DirectCut 212 至 233 版本中经过测试。</target>
+        <target>已测试兼容 mp3DirectCut 212 至 233 版本。</target>
       </segment>
     </unit>
     <unit id="c7c41bb6-65c7-4051-aae5-ec20e956d271">
@@ -306,7 +306,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This addon offers the following commands:</source>
-        <target>本插件提供以下命令：</target>
+        <target>此插件提供以下快捷键：</target>
       </segment>
     </unit>
     <unit id="784d1047-e603-4ae1-a45c-1bc70404877f">
@@ -326,7 +326,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used to confirm correct placement of the marker of the beginning of the selection B.</source>
-        <target>用于确认选择区域 B 的起始标记是否已正确放置。</target>
+        <target>确认标记区间B的开头。</target>
       </segment>
     </unit>
     <unit id="6d740b88-1d4b-4452-8345-be94fb4766fb">
@@ -346,7 +346,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used to indicate the position of the marker of the beginning of selection B.</source>
-        <target>用于指示选择区域 B 的起始标记位置。</target>
+        <target>标记区间B的开头。</target>
       </segment>
     </unit>
     <unit id="15d5d527-2129-46ca-87d1-dc00832a9eb4">
@@ -356,7 +356,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Double pressure lets give you the duration of the selection.</source>
-        <target>双击可获取当前选择区域的持续时间。</target>
+        <target>双击读出选择区段总时长。</target>
       </segment>
     </unit>
     <unit id="0d344c04-6cdc-48a1-bee5-5583ed5cfa89">
@@ -376,7 +376,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Gives the duration from the beginning of the file to the current position of the playback cursor.</source>
-        <target>播报自文件开头至当前播放光标位置的持续时间。</target>
+        <target>读出从文件开始到播放光标的时长。</target>
       </segment>
     </unit>
     <unit id="85d69d3e-3f7d-4424-ad1e-c1221209a574">
@@ -386,7 +386,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Double pressure lets give you the total duration.</source>
-        <target>双击可获取文件的总持续时间。</target>
+        <target>双击读出文件总时长。</target>
       </segment>
     </unit>
     <unit id="3eb47558-7419-4432-84e9-7531d9a8f077">
@@ -406,7 +406,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Confirms that the selection has been canceled.</source>
-        <target>确认选择区域已被取消。</target>
+        <target>确认所选内容已被取消。</target>
       </segment>
     </unit>
     <unit id="41251e66-93b8-4cb4-b834-6882c8dee1ea">
@@ -426,7 +426,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Gives the time remaining from the current position of the playback cursor to the end of the file.</source>
-        <target>播报从当前播放光标位置到文件末尾的剩余时间。</target>
+        <target>读出从播放光标到文件末尾的剩余时间。</target>
       </segment>
     </unit>
     <unit id="ab4d924a-0731-4ae9-9547-327803433db6">
@@ -446,7 +446,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used to indicate the position of the marker of the end of selection N.</source>
-        <target>用于指示选择区域 N 的结束标记位置。</target>
+        <target>标记区间N的结束位置。</target>
       </segment>
     </unit>
     <unit id="066fe64d-51fe-4d6d-b4c4-aaaf9a5ec429">
@@ -456,7 +456,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Double pressure gives recapitulatif positions B and N, and the duration of the selection.</source>
-        <target>双击可概述 B 和 N 的位置以及选择区域的持续时间。</target>
+        <target>双击读出区间B和N的位置和时长。</target>
       </segment>
     </unit>
     <unit id="40285bb2-3f77-46f9-9df5-bed836f993bb">
@@ -476,7 +476,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Give the reference of the actual part and the total number of parts in the current file.</source>
-        <target>播报当前文件中的当前部分编号以及总部分数。</target>
+        <target>读出当前文件的分段编号与总段数。</target>
       </segment>
     </unit>
     <unit id="561340d8-2b6e-4aeb-bd7a-cadfad7d06b7">
@@ -496,7 +496,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used to determine the current level of the vu-meter, during recording.</source>
-        <target>用于在录音时测定当前音量指示器（VU 表）的级别。</target>
+        <target>录音时检测音量表实时电平。</target>
       </segment>
     </unit>
     <unit id="ff48f8e5-cc58-4560-b58c-c8ebb9f30976">
@@ -506,7 +506,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Double pressure reset it.</source>
-        <target>双击可将其重置。</target>
+        <target>双击重置电平检测。</target>
       </segment>
     </unit>
     <unit id="bf819f1c-81f8-4a99-af19-df0915c50874">
@@ -516,7 +516,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Down Arrow</source>
-        <target>向下方向键</target>
+        <target>下光标键</target>
       </segment>
     </unit>
     <unit id="869d8dc1-2c5a-48f1-92f0-f70c94d68fa4">
@@ -526,7 +526,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets you see the current position of the playhead.</source>
-        <target>用于查看当前播放光标的位置。</target>
+        <target>读出播放头当前位置。</target>
       </segment>
     </unit>
     <unit id="ca5dbdf7-79da-43ef-9178-46e5c66f26ab">
@@ -536,7 +536,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This command also position the cursor at the location of the marker of the end of selection N, while giving the location of this marker if a selection has been made.</source>
-        <target>如果已进行选择，该命令还会将光标移至选择区域 N 的结束标记位置，并播报该标记的位置。</target>
+        <target>若存在选择区段，将光标定位至选择结束标记点 N 并读出其位置。</target>
       </segment>
     </unit>
     <unit id="fb48ef47-9d8a-4002-8039-5041e2badaa5">
@@ -546,7 +546,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>In the volume dialog box, vocalise the next value that can be reached generally with downArrow.</source>
-        <target>在音量对话框中，它会朗读通常通过向下方向键可以达到的下一个数值。</target>
+        <target>在音量对话框中读出下光标键可调整的数值。</target>
       </segment>
     </unit>
     <unit id="374146e0-e5f6-4707-93cf-5312c3ad3e3f">
@@ -556,7 +556,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This value is not vocalized default.</source>
-        <target>默认情况下不会朗读该数值。</target>
+        <target>此数值默认不读出。</target>
       </segment>
     </unit>
     <unit id="21204286-1d1a-40e0-b08b-947f207bec5b">
@@ -576,7 +576,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Moves the playback cursor at the end of the current file and give the total time.</source>
-        <target>将播放光标移动到当前文件的末尾，并播报总时间。</target>
+        <target>将播放光标移至文件末尾并读出总时长。</target>
       </segment>
     </unit>
     <unit id="d046aed0-379f-4a66-a324-dd7c43a4d823">
@@ -596,7 +596,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Moves the playback cursor at the beginning of the current file.</source>
-        <target>将播放光标移动到当前文件的开头。</target>
+        <target>将播放光标移至文件开头。</target>
       </segment>
     </unit>
     <unit id="be5964c1-bc15-4e08-9e67-59732d0f9f23">
@@ -606,7 +606,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Left Arrow</source>
-        <target>向左方向键</target>
+        <target>左光标键</target>
       </segment>
     </unit>
     <unit id="e0dddad0-4745-4d13-9b8a-25019ac99eb5">
@@ -616,7 +616,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets make a brief return back of one second during playback, while giving the current duration.</source>
-        <target>允许在播放期间向后快退一秒，并播报当前持续时间。</target>
+        <target>播放时后退 1 秒并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="4d12081b-31df-4180-b8f6-b72455a014e4">
@@ -626,7 +626,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This duration is configurable in the options of mp3directcut.</source>
-        <target>该时间长度可在 mp3DirectCut 选项中进行配置。</target>
+        <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
     <unit id="0eb8a4f4-cbcf-4e41-a3d6-ffc726da50d6">
@@ -646,7 +646,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used to confirm correct placement of the marker of the end of the selection N.</source>
-        <target>用于确认选择区域 N 的结束标记是否已正确放置。</target>
+        <target>确认选择结束标记点 N 已正确放置。</target>
       </segment>
     </unit>
     <unit id="e9c28d21-7f75-432c-87c6-de026acc54cd">
@@ -666,7 +666,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets make a leap forward of 10 seconds during playback, while giving the current duration.</source>
-        <target>允许在播放期间向前快进 10 秒，并播报当前持续时间。</target>
+        <target>播放时前进 10 秒并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="e5cb7b7a-2600-46b3-8407-95d229638d18">
@@ -676,7 +676,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This duration is configurable in the options of mp3directcut.</source>
-        <target>该时间长度可在 mp3DirectCut 选项中进行配置。</target>
+        <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
     <unit id="1f72492f-83fd-41a9-a2bd-94dd167bd572">
@@ -696,7 +696,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets make a return back of 10 seconds during playback, while giving the current duration.</source>
-        <target>允许在播放期间向后快退 10 秒，并播报当前持续时间。</target>
+        <target>播放时后退 10 秒并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="885f6056-2203-4e59-b773-2f2b00077313">
@@ -706,7 +706,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This duration is configurable in the options of mp3directcut.</source>
-        <target>该时间长度可在 mp3DirectCut 选项中进行配置。</target>
+        <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
     <unit id="6952939c-84fb-4a5c-b092-4573d3e7e73d">
@@ -726,7 +726,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Allows to prepare a record and whether you can press spacebar to start.</source>
-        <target>用于准备录音，并提示您是否可以按空格键开始录音。</target>
+        <target>准备录音并提示可按空格键开始。</target>
       </segment>
     </unit>
     <unit id="91c17148-80c0-4f48-82f4-1f629a7d30e6">
@@ -736,7 +736,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Right Arrow</source>
-        <target>向右方向键</target>
+        <target>右光标键</target>
       </segment>
     </unit>
     <unit id="a66fb2c0-425d-4c5e-bb23-660101913bf6">
@@ -746,7 +746,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets do a brief forward of one second during playback, while giving the current duration.</source>
-        <target>允许在播放期间向前快进一秒，并播报当前持续时间。</target>
+        <target>播放时前进 1 秒并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="81d26f77-73b5-4089-9cd0-193d47ca9f8f">
@@ -756,7 +756,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This duration is configurable in the options of mp3directcut.</source>
-        <target>该时间长度可在 mp3DirectCut 选项中进行配置。</target>
+        <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
     <unit id="09c6fa64-137f-43a0-92e2-1ca2dc11588d">
@@ -766,7 +766,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Ctrl+Right Arrow</source>
-        <target>Ctrl+向右方向键</target>
+        <target>Ctrl+右光标键</target>
       </segment>
     </unit>
     <unit id="f646022d-d6a2-4f7e-80bc-15910e96a992">
@@ -776,7 +776,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Moves to the next splitting point, while giving the current duration.</source>
-        <target>移动到下一个分割点，并播报当前持续时间。</target>
+        <target>跳至下一分割点并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="e05d123b-d273-45e5-a397-5a888929c6b9">
@@ -786,7 +786,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Ctrl+Left Arrow</source>
-        <target>Ctrl+向左方向键</target>
+        <target>Ctrl+左光标键</target>
       </segment>
     </unit>
     <unit id="39c19f59-b3ce-450f-b4e8-bfcd9971027f">
@@ -796,7 +796,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Moves to the previous splitting point, while giving the current duration.</source>
-        <target>移动到上一个分割点，并播报当前持续时间。</target>
+        <target>跳至上一分割点并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="26727fd7-a9a0-4127-998b-5a2bfa9afdb8">
@@ -806,7 +806,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Shift+Right Arrow</source>
-        <target>Shift+向右方向键</target>
+        <target>Shift+右光标键</target>
       </segment>
     </unit>
     <unit id="a4ea4b94-649e-4bb5-b75b-a626a38ec985">
@@ -816,7 +816,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets do a brief forward of four hundredths of seconds during playback, while giving the current duration.</source>
-        <target>允许在播放期间向前快进百分之四秒，并播报当前持续时间。</target>
+        <target>播放时前进 0.04 秒并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="d25d50a7-ee1a-4db9-8907-f47184473ca6">
@@ -826,7 +826,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Shift+Left Arrow</source>
-        <target>Shift+向左方向键</target>
+        <target>Shift+左光标键</target>
       </segment>
     </unit>
     <unit id="0ae0ca79-b9d0-4b7b-b776-5edb74aa00f3">
@@ -836,7 +836,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets do a brief backwards of four hundredths of seconds during playback, while giving the current duration.</source>
-        <target>允许在播放期间向后快退百分之四秒，并播报当前持续时间。</target>
+        <target>播放时后退 0.04 秒并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="774b59c1-16d0-4325-82ad-e015b15a1d07">
@@ -856,7 +856,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used to stop the reading and give the current duration.</source>
-        <target>用于停止播放并播报当前持续时间。</target>
+        <target>停止播放并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="5d770696-b224-49e0-a155-424881d41b50">
@@ -876,7 +876,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>If the recording is ready, start this recording.</source>
-        <target>如果录音已就绪，则开始录音。</target>
+        <target>录音准备就绪时：开始录音。</target>
       </segment>
     </unit>
     <unit id="95e299c3-774f-49ed-be1a-f015d8687e68">
@@ -886,7 +886,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>If a recording is in progress, stop it by positioning the cursor at the beginning.</source>
-        <target>如果正在录音，则停止录音并将光标置于开头。</target>
+        <target>录音过程中：停止录音并将光标置于开头。</target>
       </segment>
     </unit>
     <unit id="1360f3a1-e2a2-4604-8910-307dabeb0c4b">
@@ -896,7 +896,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>If a file is loaded, start the reading.</source>
-        <target>如果已加载文件，则开始播放。</target>
+        <target>文件加载后：开始播放。</target>
       </segment>
     </unit>
     <unit id="3450ccda-1a6a-4f1d-bfea-2a41e8a18979">
@@ -906,7 +906,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>If a read is in progress, allows to do a pause by giving current duration.</source>
-        <target>如果正在播放，则允许暂停播放并播报当前持续时间。</target>
+        <target>播放过程中：暂停播放并读出当前时长。</target>
       </segment>
     </unit>
     <unit id="a6229a09-1280-4024-a194-00a0d6b9f094">
@@ -916,7 +916,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>If read is paused, allows to restart the reading from the current location.</source>
-        <target>如果播放已暂停，则允许从当前位置重新开始播放。</target>
+        <target>暂停状态时：从当前位置继续播放。</target>
       </segment>
     </unit>
     <unit id="5c1188ef-bf27-49a9-8aa7-a8ab1eeb5050">
@@ -926,7 +926,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Up Arrow</source>
-        <target>向上方向键</target>
+        <target>上光标键</target>
       </segment>
     </unit>
     <unit id="2ccb60cc-deb4-4759-b5d1-8569c17c4ac3">
@@ -936,7 +936,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets you see the current position of the playhead.</source>
-        <target>用于查看当前播放光标的位置。</target>
+        <target>读出播放头当前位置。</target>
       </segment>
     </unit>
     <unit id="8587aa60-72fa-45e1-85b3-bef47af45536">
@@ -946,7 +946,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This command also position the cursor at the location of the marker of the beginning of selection B, while giving the location of this marker if a selection has been made.</source>
-        <target>如果已进行选择，该命令还会将光标移至选择区域 B 的起始标记位置，并播报该标记的位置。</target>
+        <target>若存在选择区段，将光标定位至选择起始标记点 B 并读出其位置。</target>
       </segment>
     </unit>
     <unit id="3b60c040-0666-4852-9919-a7ca3e8e9547">
@@ -956,7 +956,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>In the volume dialog box, vocalise the previous value that can be reached generally with upArrow.</source>
-        <target>在音量对话框中，它会朗读通常通过向上方向键可以达到的上一个数值。</target>
+        <target>在音量对话框中读出上光标键可调整的数值。</target>
       </segment>
     </unit>
     <unit id="1930cf54-8269-4766-88a3-fd0c34ea979f">
@@ -966,7 +966,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This value is not vocalized default.</source>
-        <target>默认情况下不会朗读该数值。</target>
+        <target>此数值默认不读出。</target>
       </segment>
     </unit>
     <unit id="1ae6c9dc-3b75-4fdb-87b0-509643273cf2">
@@ -986,7 +986,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Lets open the help of the current add-on.</source>
-        <target>用于打开当前插件的帮助文档。</target>
+        <target>打开插件帮助文档。</target>
       </segment>
     </unit>
     <unit id="f9012e3b-bdb8-4ea8-8e4f-5e6299201b98">
@@ -1006,7 +1006,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.</source>
-        <target>本插件与 NVDA 2019.3 及更高版本兼容。</target>
+        <target>此插件兼容 NVDA 2019.3 及更高版本。</target>
       </segment>
     </unit>
     <unit id="535bb5a3-f4bf-44a1-b316-19b52a8a4fbf">
@@ -1016,7 +1016,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changes for 20240327.0.0</source>
-        <target>20240327.0.0 版本更新日志</target>
+        <target>20240327.0.0 版本变更</target>
       </segment>
     </unit>
     <unit id="dca7b40c-c7d6-4c07-80fc-d1ffe3a613da">
@@ -1026,7 +1026,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Fixed a bug that caused a log error when reloading plugins, thanks to Rob, from nvda-addons mailing list;</source>
-        <target>修复了重新加载插件时导致日志报错的缺陷，感谢 nvda-addons 邮件列表中的 Rob；</target>
+        <target>修复了重新加载插件时导致日志错误的问题，感谢来自 NVDA 插件邮件列表的 Rob；</target>
       </segment>
     </unit>
     <unit id="a6cd643e-e863-4e71-8336-422818e540c3">
@@ -1036,7 +1036,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changes for 20240326.0.0</source>
-        <target>20240326.0.0 版本更新日志</target>
+        <target>20240326.0.0 版本变更</target>
       </segment>
     </unit>
     <unit id="a7143ffb-df9a-4b29-98ee-ad964f856529">
@@ -1046,7 +1046,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Updated compatibility for nvda-2024.1.;</source>
-        <target>更新了对 nvda-2024.1 的兼容性；</target>
+        <target>兼容 NVDA 2024.1；</target>
       </segment>
     </unit>
     <unit id="367c3319-0b4c-48cf-97db-9601ec7e297e">
@@ -1056,7 +1056,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</source>
-        <target>从自述文件中移除了下载链接，未来更新的下载链接现将仅通过插件商店提供。</target>
+        <target>从 readme 文件中删除了下载链接，未来更新的下载链接只能从插件商店获取。</target>
       </segment>
     </unit>
     <unit id="fb11100f-af79-4b1e-9f91-c3e8b4dde50e">
@@ -1066,7 +1066,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changes for 20231229.0.0 ##</source>
-        <target>20231229.0.0 版本更新日志 ##</target>
+        <target>20231229.0.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="8d2a481b-d856-4e1b-9487-cb7bdb7f575b">
@@ -1076,7 +1076,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</source>
-        <target>添加了向后兼容的实现，以支持即将随 nvda-2024.1 推出的按需语音模式。</target>
+        <target>添加了一个向后兼容的实现来支持手动朗读模式，该模式很快将在 NVDA 2024.1 中提供。</target>
       </segment>
     </unit>
     <unit id="e8c3613c-76bc-47f2-a109-905c8d80cd68">
@@ -1086,7 +1086,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changes for 20231007.0.0 ##</source>
-        <target>20231007.0.0 版本更新日志 ##</target>
+        <target>20231007.0.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="0547d854-afa5-4506-afe3-6502ca19e14f">
@@ -1096,7 +1096,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>After placing the cutting points and after opening the cutting properties window, with "Ctrl+N", adding accessibility to the title of this window by indicating the part index.</source>
-        <target>放置剪切点并使用“Ctrl+N”打开剪切属性窗口后，添加了通过指示部分索引来增强该窗口标题的可访问性。</target>
+        <target>设置分割点后按 Ctrl+N 打开分割属性窗口时，增加窗口标题的无障碍提示（包含分段索引）</target>
       </segment>
     </unit>
     <unit id="ba637e04-378b-4124-a4fa-71bab1525a17">
@@ -1106,7 +1106,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>In reading mode, after moving the start or end markers of selections with keys 1 to 6 of the alphanumeric pad, addition of automatic start of reading from the new position;</source>
-        <target>在朗读模式下，使用主键盘的 1 到 6 键移动选择起始或结束标记后，添加了从新位置自动开始播放的功能；</target>
+        <target>阅读模式下通过小键盘数字键 1-6 移动选择起止标记后，自动从新位置开始播放；</target>
       </segment>
     </unit>
     <unit id="c5c62c63-0b24-4eba-9d13-32a8d3da5460">
@@ -1116,7 +1116,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Fixed a bug that occurred when consulting the remaining time with "control+shift+r" from the beginning of the track.</source>
-        <target>修复了从曲目开头使用“control+shift+r”查询剩余时间时出现的缺陷。</target>
+        <target>修复从音轨开头按 Ctrl+Shift+R 查询剩余时间时的错误。</target>
       </segment>
     </unit>
     <unit id="83bef9b5-1d3a-46f2-a3ab-03982c6468cb">
@@ -1126,7 +1126,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changes for 20230728.0.0 ##</source>
-        <target>20230728.0.0 版本更新日志 ##</target>
+        <target>20230728.0.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="fbb5ed8e-4427-49fd-a5d6-bf28c190a627">
@@ -1136,7 +1136,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Applied the flake8 and mypy rules to the code;</source>
-        <target>对代码应用了 flake8 和 mypy 规范；</target>
+        <target>对代码应用 flake8 和 mypy 规范；</target>
       </segment>
     </unit>
     <unit id="570346fe-adb6-4882-bb04-41a43c4c092f">
@@ -1146,7 +1146,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.</source>
-        <target>将支持的最低 NVDA 版本更改为 2019.3，以支持 Python 3 中引入的注解（annotations）。</target>
+        <target>将 NVDA 版本最低要求改为 2019.3 以支持 Python 3 类型注解。</target>
       </segment>
     </unit>
     <unit id="8d4c8c27-e3f4-4100-9cc9-826b00060908">
@@ -1156,7 +1156,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changes for 20230607.0.0 ##</source>
-        <target>20230607.0.0 版本更新日志 ##</target>
+        <target>20230607.0.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="e8ba4749-c53d-4e41-8c0d-50451b173fe8">
@@ -1166,7 +1166,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the following workflows:</source>
-        <target>添加了以下工作流（workflows）：</target>
+        <target>新增以下工作流：</target>
       </segment>
     </unit>
     <unit id="86673b46-6f5b-43a9-9039-f84f7d29be8e">
@@ -1176,7 +1176,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>auto-update-translations - to automatically update translations from NVDA's translation system.</source>
-        <target>auto-update-translations - 用于从 NVDA 翻译系统自动更新翻译。</target>
+        <target>auto-update-translations：自动从 NVDA 翻译系统更新翻译。</target>
       </segment>
     </unit>
     <unit id="e5e8e4e2-8e2c-4415-9334-1df71a3e1e06">
@@ -1186,7 +1186,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;</source>
-        <target>release-on-tag..yaml：用于在推送新标签（tag）时自动编译并发布插件；</target>
+        <target>release-on-tag.yaml：推送新标签时自动构建发布插件；</target>
       </segment>
     </unit>
     <unit id="3fb3755d-dbc9-472c-9b64-9ff6dbaa780d">
@@ -1196,7 +1196,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>manual-release.yaml: to build and release new versions of the add-on manually.</source>
-        <target>manual-release.yaml：用于手动编译和发布插件的新版本。</target>
+        <target>manual-release.yaml：手动构建发布新版本插件。</target>
       </segment>
     </unit>
     <unit id="7d97be7c-536c-400b-8ccf-b204db994ce1">
@@ -1206,7 +1206,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Updated translations.</source>
-        <target>更新了翻译。</target>
+        <target>更新翻译。</target>
       </segment>
     </unit>
     <unit id="ad3f8142-fe30-478a-a8c8-aeafdd06998f">
@@ -1216,7 +1216,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changes for version 20230508.0.0 and beyond ##</source>
-        <target>20230508.0.0 及更高版本的更新日志 ##</target>
+        <target>20230508.0.0 及后续版本变更 ##</target>
       </segment>
     </unit>
     <unit id="d3b7925d-fb1c-49e7-b4a8-1227f3db3049">
@@ -1226,7 +1226,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>• Changed version number, minimum NVDA version and download link according to store conventions/requirements.</source>
-        <target>根据商店的规范/要求，更改了版本号、最低 NVDA 版本和下载链接。</target>
+        <target>根据商店规范调整版本号、NVDA 版本最低要求及下载链接。</target>
       </segment>
     </unit>
     <unit id="d9097ac2-cb6e-4e4f-ba2e-64fe24ffa9cd">
@@ -1236,7 +1236,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 20.12 ##</source>
-        <target>20.12 版本更新日志 ##</target>
+        <target>20.12 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="440ccc06-78e5-4e3a-8ac8-8ef37166503a">
@@ -1246,7 +1246,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Stop speech during recording and reading for the latest versions of mp3directcut;</source>
-        <target>针对 mp3DirectCut 的最新版本，在录音和播放期间停止语音播报；</target>
+        <target>适配最新版 mp3directcut：录音和播放期间停止语音输出；</target>
       </segment>
     </unit>
     <unit id="f3cba72e-0e21-4d7c-a19c-052a2260b5ee">
@@ -1256,7 +1256,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Fixed reading remaining time for new versions of NVDA using Python 3.</source>
-        <target>修复了使用 Python 3 的新版 NVDA 中剩余时间的朗读问题。</target>
+        <target>修复 Python 3 版 NVDA 的剩余时间读取功能。</target>
       </segment>
     </unit>
     <unit id="5a38b213-2e92-48af-b07f-21f487768369">
@@ -1266,7 +1266,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 19.02 ##</source>
-        <target>19.02 版本更新日志 ##</target>
+        <target>19.02 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="b61da808-117d-41cc-bc09-e399226fa8c2">
@@ -1276,7 +1276,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the add-on's configuration in the settings panel available since nvda 2018.2;</source>
-        <target>在 NVDA 2018.2 及更高版本提供的设置面板中添加了插件配置项；</target>
+        <target>在 NVDA 2018.2 及以上版本的设置面板中添加插件配置；</target>
       </segment>
     </unit>
     <unit id="b082a9fa-786a-4ddd-af1d-2f1ce19be204">
@@ -1286,7 +1286,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);</source>
-        <target>更改了版本号命名规则，采用 YY.MM 格式（2 位年份，后跟一个英文句点，再跟 2 位月份）；</target>
+        <target>采用 YY.MM 格式版本编号（2位年份+小数点+2位月份）</target>
       </segment>
     </unit>
     <unit id="2259785f-110b-43f1-8a5a-b45f6e4cf2c3">
@@ -1296,7 +1296,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.</source>
-        <target>添加了对 NVDA 2019.1 开始出现的新插件版本号格式的兼容性。</target>
+        <target>适配 NVDA 2019.1 启用的新插件版本格式。</target>
       </segment>
     </unit>
     <unit id="78004108-5e77-4a9b-bfeb-4f44db669f79">
@@ -1306,7 +1306,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 4.0 ##</source>
-        <target>4.0 版本更新日志 ##</target>
+        <target>4.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="555b17c6-0554-4f77-bd41-763c2255c79b">
@@ -1316,7 +1316,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the Compatibility of the add-on with both Python 2.7 and 3;</source>
-        <target>实现了插件同时对 Python 2.7 和 3 的兼容性；</target>
+        <target>同时支持 Python 2.7 和 3；</target>
       </segment>
     </unit>
     <unit id="17fba8c8-be11-4e89-9d4c-a6b3a00116c8">
@@ -1326,7 +1326,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Fixed a bug with add-on paths that contain non-ASCII characters.</source>
-        <target>修复了插件路径中包含非 ASCII 字符时出现的缺陷。</target>
+        <target>修复插件路径包含非 ASCII 字符时的错误。</target>
       </segment>
     </unit>
     <unit id="bfa2beb5-3886-4d1f-a08e-a4b51c6bbb09">
@@ -1336,7 +1336,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 3.0 ##</source>
-        <target>3.0 版本更新日志 ##</target>
+        <target>3.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="049e69e4-cb7b-4ff9-a68e-71f93bbaa588">
@@ -1346,7 +1346,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used the gui.guiHelper module to ensure the correct appearance of the addon's configuration dialog;</source>
-        <target>使用 gui.guiHelper 模块以确保插件配置对话框的界面显示正常；</target>
+        <target>使用 gui.guiHelper 模块确保插件配置对话框正确显示；</target>
       </segment>
     </unit>
     <unit id="5ea81326-7124-4de6-9ed3-8c471a2bc530">
@@ -1356,7 +1356,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used format instead of %s for formatted strings;</source>
-        <target>针对格式化字符串，使用 format 替代了 %s；</target>
+        <target>使用 format 方法替代 %s 进行字符串格式化；</target>
       </segment>
     </unit>
     <unit id="ebc9e777-f514-403e-8492-df853eeb0135">
@@ -1366,7 +1366,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Used compliance with guidelines for implementation.</source>
-        <target>适配了开发实现指南。</target>
+        <target>遵循开发指南规范。</target>
       </segment>
     </unit>
     <unit id="fb15792e-375a-4a52-a964-91dfe099885a">
@@ -1376,7 +1376,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 2.3 ##</source>
-        <target>2.3 版本更新日志 ##</target>
+        <target>2.3 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="bb694f90-fb0e-43f5-86df-6f992f468dcb">
@@ -1386,7 +1386,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the GPL license to the addon;</source>
-        <target>为插件添加了 GPL 许可证；</target>
+        <target>为插件添加 GPL 许可证；</target>
       </segment>
     </unit>
     <unit id="13377e56-0297-463d-954b-9c2c6013407b">
@@ -1396,7 +1396,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Changed the shortcut of the script giving the end of selection from Ctrl + Shift + N to Ctrl + Shift + E because Ctrl + Shift + N doesn't work with the latest versions of mp3DirectCut;</source>
-        <target>将获取选择结束位置的脚本快捷键由 Ctrl + Shift + N 更改为 Ctrl + Shift + E，因为 Ctrl + Shift + N 在 mp3DirectCut 的最新版本中无法正常工作；</target>
+        <target>将选择结束标记查询快捷键从 Ctrl+Shift+N 改为 Ctrl+Shift+E（因新版 mp3DirectCut 中原快捷键失效）</target>
       </segment>
     </unit>
     <unit id="8af1f182-54e9-4a85-a051-06aca43e97e5">
@@ -1406,7 +1406,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added a script to confirm that the selection has been canceled with 'Ctrl+r';</source>
-        <target>添加了一个用于确认已使用 'Ctrl+r' 取消选择的脚本；</target>
+        <target>添加 Ctrl+R 快捷键确认选择已取消；</target>
       </segment>
     </unit>
     <unit id="ec3534ce-a5ea-492d-9910-f15fad2c2b25">
@@ -1416,7 +1416,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Made some corrections in the code of the appModule 'mp3directcut.py'.</source>
-        <target>对应用模块 'mp3directcut.py' 的代码进行了一些修复。</target>
+        <target>优化 appModule/mp3directcut.py 代码。</target>
       </segment>
     </unit>
     <unit id="3d0c1129-471c-4d30-89fa-5157afa8826e">
@@ -1426,7 +1426,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 2.2 ##</source>
-        <target>2.2 版本更新日志 ##</target>
+        <target>2.2 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="4c8f3649-86c3-4be8-b8e3-8bf910db74c3">
@@ -1436,7 +1436,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Correction of the scripts giving the selection markers' locations.</source>
-        <target>修正了获取选择标记位置的脚本。</target>
+        <target>修正选择标记位置查询脚本。</target>
       </segment>
     </unit>
     <unit id="ff80c7a4-c3a2-4d8e-acdd-bad6d34dbe91">
@@ -1446,7 +1446,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 2.1.1 ##</source>
-        <target>2.1.1 版本更新日志 ##</target>
+        <target>2.1.1 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="3994a96d-e5b5-482a-90e5-44a0f26e523e">
@@ -1456,7 +1456,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Removing the script giving the total time and adding this information to the script giving the elapsed time;</source>
-        <target>移除了获取总时间的脚本，并将该信息整合到获取已过去时间的脚本中；</target>
+        <target>移除总时长专用脚本，将其整合至已用时间查询脚本；</target>
       </segment>
     </unit>
     <unit id="0723139d-297c-4104-9ff9-cf7e1cec54ec">
@@ -1466,7 +1466,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the ability to enable or disable the announcements related to the space key in the module's configuration options, separately from other announcements;</source>
-        <target>添加了在模块配置选项中单独启用或禁用与空格键相关的提示音/播报的功能；</target>
+        <target>在配置选项中单独设置空格键相关播报的启用/禁用；</target>
       </segment>
     </unit>
     <unit id="822ae60e-e135-4832-b5e9-8b4f7bae0f8e">
@@ -1476,7 +1476,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the ability to enable or disable the announcement of placement of the selection marqueures in the module's configuration options;</source>
-        <target>添加了在模块配置选项中启用或禁用放置选择标记时提示音的功能；</target>
+        <target>在配置选项中单独设置选择标记放置提示的启用/禁用；</target>
       </segment>
     </unit>
     <unit id="32c63e6f-8198-4598-b2ff-bfcb47f55c2a">
@@ -1486,7 +1486,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Adding the announcement of the current part when moving through the cutting points;</source>
-        <target>添加了在穿过分割点时播报当前部分的功能；</target>
+        <target>跳转分割点时增加读出当前分段编号；</target>
       </segment>
     </unit>
     <unit id="0b9efe32-2f7a-42a4-8e7d-8cfd4c458b2c">
@@ -1496,7 +1496,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Correction of announcements related to vertical keys;</source>
-        <target>修正了与垂直方向键相关的提示播报；</target>
+        <target>修正垂直方向键相关播报；</target>
       </segment>
     </unit>
     <unit id="6b841444-4564-4d46-9b0f-b2c98eabdb55">
@@ -1506,7 +1506,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Adding a script to open the help of the current add-on with 'NVDA+H';</source>
-        <target>添加了一个用于通过 'NVDA+H' 打开当前插件帮助文档的脚本；</target>
+        <target>添加 NVDA+H 打开插件帮助功能；</target>
       </segment>
     </unit>
     <unit id="d1223c53-24c4-4aee-aef1-d577fe3558ff">
@@ -1516,7 +1516,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Displacement of the add-on's configuration menu from the Tools menu to the Preferences menu of NVDA.</source>
-        <target>将插件的配置菜单从“工具”菜单移动到了 NVDA 的“首选项”菜单中。</target>
+        <target>将插件配置菜单从"工具"菜单移至"选项"菜单。</target>
       </segment>
     </unit>
     <unit id="2f24720c-581d-4c2e-9c63-8a50f2f33d31">
@@ -1526,7 +1526,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 2.1 ##</source>
-        <target>2.1 版本更新日志 ##</target>
+        <target>2.1 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="f50ad6ad-f924-45a1-b8b4-cf8b115beea0">
@@ -1536,7 +1536,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Adding a script to vocalize moving to the next splitting point with Control+Right Arrow;</source>
-        <target>添加了一个脚本，用于在按 Control+向右方向键移动到下一个分割点时进行语音朗读；</target>
+        <target>添加 Ctrl+右光标键跳至下一分割点并读出；</target>
       </segment>
     </unit>
     <unit id="381a677c-465a-42a8-9da8-02fc8fc48cdb">
@@ -1546,7 +1546,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Adding a script to vocalize moving to the previous splitting point with Control+Left Arrow;</source>
-        <target>添加了一个脚本，用于在按 Control+向左方向键移动到上一个分割点时进行语音朗读；</target>
+        <target>添加 Ctrl+左光标键跳至上一分割点并读出；</target>
       </segment>
     </unit>
     <unit id="7e87bae5-51e4-4ae4-84d7-ad025e19925c">
@@ -1556,7 +1556,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Adding a script to vocalize the displacement of 4 hundredths of second ahead, with Shift+Right Arrow;</source>
-        <target>添加了一个脚本，用于在按 Shift+向右方向键向前移动百分之四秒时进行语音朗读；</target>
+        <target>添加 Shift+右光标键前进 0.04 秒并读出；</target>
       </segment>
     </unit>
     <unit id="bace97ef-93cd-4be6-9852-4cdfc410f757">
@@ -1566,7 +1566,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Adding a script to vocalize the displacement of 4 hundredths of second back, with Shift+Left Arrow;</source>
-        <target>添加了一个脚本，用于在按 Shift+向左方向键向后移动百分之四秒时进行语音朗读；</target>
+        <target>添加 Shift+左光标键后退 0.04 秒并读出；</target>
       </segment>
     </unit>
     <unit id="17cdde9a-7093-49b8-b15b-4096f619bce3">
@@ -1576,7 +1576,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Correction of the addon's summary from 'for mp3DirectCut' to 'mp3DirectCut'.</source>
-        <target>将插件的摘要信息由 'for mp3DirectCut' 修正为 'mp3DirectCut'。</target>
+        <target>将插件摘要从"for mp3DirectCut"改为"mp3DirectCut"。</target>
       </segment>
     </unit>
     <unit id="eb1a9451-bc68-4776-96f5-6696e0aadf92">
@@ -1586,7 +1586,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 2.0 ##</source>
-        <target>2.0 版本更新日志 ##</target>
+        <target>2.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="6f4b1496-9d5c-4136-85bf-6496ae1f57fa">
@@ -1596,7 +1596,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Adding a script to know the remaining time with 'Control Shift R';</source>
-        <target>添加了一个脚本，用于通过 'Control Shift R' 获取剩余时间；</target>
+        <target>添加 Ctrl+Shift+R 查询剩余时间；</target>
       </segment>
     </unit>
     <unit id="43b3f68d-fae1-4c98-b358-265b3325d4d5">
@@ -1606,7 +1606,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Fixed reading durations including hours;</source>
-        <target>修复了朗读包含小时的持续时间时的错误；</target>
+        <target>修复包含小时的时长读取问题；</target>
       </segment>
     </unit>
     <unit id="dca4453d-ed14-4b56-8d69-8eef77403ead">
@@ -1616,7 +1616,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added ability to differentiate thousandths or hundredths of seconds.</source>
-        <target>添加了区分千分之一秒或百分之一秒的能力。</target>
+        <target>增加毫秒与百分秒的区分能力。</target>
       </segment>
     </unit>
     <unit id="37f76c8f-2142-4149-89f9-64fe45b70564">
@@ -1626,7 +1626,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 1.1 ##</source>
-        <target>1.1 版本更新日志 ##</target>
+        <target>1.1 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="b745dcfc-a9f6-4147-8c18-46eaec33d5ae">
@@ -1636,7 +1636,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the ability to include the mp3DirectCut category into the Input Gestures;</source>
-        <target>添加了将 mp3DirectCut 类别纳入“输入手势”的功能；</target>
+        <target>在输入手势设置中增加 mp3DirectCut 分类。；</target>
       </segment>
     </unit>
     <unit id="f3b1d27b-b43f-4336-9ed1-5a4957ac041b">
@@ -1646,7 +1646,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>They will be visible only during use of the mp3DirectCut software.</source>
-        <target>它们仅在正在使用 mp3DirectCut 软件时才可见。</target>
+        <target>该分类仅在使用该软件时可见。</target>
       </segment>
     </unit>
     <unit id="6614c1b5-c8d9-469e-bb42-1bda56e4e902">
@@ -1656,7 +1656,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Added the ability to enable or disable automatic messages, in the tools menu of NVDA, item 'mp3DirectCut configuration';</source>
-        <target>在 NVDA 工具菜单的“mp3DirectCut 配置”菜单项中，添加了启用或禁用自动消息提示的功能；</target>
+        <target>在 NVDA 工具菜单中添加"mp3DirectCut 配置"项，可启用/禁用自动消息；</target>
       </segment>
     </unit>
     <unit id="7e9091ba-bc2b-4b53-9696-6820736cc37f">
@@ -1666,7 +1666,7 @@ $(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
       </notes>
       <segment state="final">
         <source>Change for version 1.0 ##</source>
-        <target>1.0 版本更新日志 ##</target>
+        <target>1.0 版本变更 ##</target>
       </segment>
     </unit>
     <unit id="7f153327-12f0-4dcf-8526-10a537cf5daa">
