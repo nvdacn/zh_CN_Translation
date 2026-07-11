@@ -7020,9 +7020,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA no longer fails to load sapi4 voices that do not support pitch, rate or volume. (#20302)</source>
-        <target>NVDA no longer fails to load sapi4 voices that do not support pitch, rate or volume. (#20302)</target>
+        <target>修复了无法加载不支持音调、语速或音量的 SAPI4 语音的问题。(#20302)</target>
       </segment>
     </unit>
     <unit id="65db2ddc-f0be-4fd8-97a0-b2ff4dc641a9">
