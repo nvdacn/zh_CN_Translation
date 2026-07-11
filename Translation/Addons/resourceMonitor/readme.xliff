@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/5c2e8559fdd78a4fd7eb10dc6111352e5bf42306/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
@@ -122,9 +122,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA+Shift+3: presents the used and total space of the fixed (built-in), removable, and network drives.</source>
-        <target>NVDA+Shift+3: presents the used and total space of the fixed (built-in), removable, and network drives.</target>
+        <target>NVDA+Shift+3：读出此计算机上所有驱动器的文件系统和空间使用情况。</target>
       </segment>
     </unit>
     <unit id="db7950ec-fe1c-455d-8906-e2a42e87520b">
@@ -162,9 +162,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Unassigned: presents information about the graphics processing unit (GPU; unavailable in secure mode).</source>
-        <target>未分配：读出有关图形处理单元（GPU）的信息；该功能在安全模式下不可用。</target>
+        <target>未分配：读出图形处理器（GPU）的信息；该功能在安全模式下不可用。</target>
       </segment>
     </unit>
     <unit id="458469dd-f1b7-4f74-9e96-c7abef0cd8af">
@@ -172,9 +172,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Unassigned: presents graphics processing unit (GPU memory usage information; unavailable in secure mode).</source>
-        <target>Unassigned: presents graphics processing unit (GPU memory usage information; unavailable in secure mode).</target>
+        <target>未分配：读出图形处理器（GPU）的内存使用情况；该功能在安全模式下不可用。</target>
       </segment>
     </unit>
     <unit id="59eb243e-d5cd-4530-8309-13acf93213a2">
@@ -240,9 +240,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If there is heavy disk activity such as copying large files or while locating network drives, there might be delays when obtaining disk usage information.</source>
-        <target>If there is heavy disk activity such as copying large files or while locating network drives, there might be delays when obtaining disk usage information.</target>
+        <target>如果存在大量磁盘活动，例如复制大文件或查找网络驱动器，则在获取磁盘使用情况信息时可能会出现延迟。</target>
       </segment>
     </unit>
     <unit id="843f5230-c7a3-47e4-94f9-e20d98046a36">
@@ -250,9 +250,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>GPU information is given for Nvidia GPU's.</source>
-        <target>GPU information is given for Nvidia GPU's.</target>
+        <target>GPU 信息仅适用于英伟达 GPU。</target>
       </segment>
     </unit>
     <unit id="7fe4f01c-c276-4cd6-bd70-9946b79e26d6">
