@@ -4,6 +4,29 @@ $L10nUtil = "$env:GITHUB_WORKSPACE/L10nUtilTools.bat"
 $IsBeforeValid = $false
 $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
 
+function ProcessChangedNVDAFile {
+    param(
+        [string]$File
+    )
+    $baseName = [System.IO.Path]::GetFileNameWithoutExtension($File)
+    if ($baseName -ieq "nvda") {
+        $FilePath = "Translation/LC_MESSAGES/$baseName.po"
+    } else {
+        $FilePath = "Translation/user_docs/$baseName.xliff"
+    }
+    if (Test-Path $FilePath) {
+        Write-Host "Uploading $File to Crowdin..."
+        & cmd /c "$L10nUtil UP_$baseName"
+        Start-Sleep -Seconds 5
+        Write-Host "Downloading updated $File from Crowdin..."
+        & cmd /c "$L10nUtil DL_$baseName"
+        git add "$File"
+        Write-Host "Staged changes for $File"
+    } else {
+        Write-Host "File $FilePath not found, skipping processing."
+    }
+}
+
 git branch main remotes/origin/main
 
 if ($GitBefore) {
@@ -26,22 +49,6 @@ foreach ($ProcessedFileName in $ProcessedFileList) {
     $changedFiles = git diff --name-only $diffRange -- $ProcessedFileName
     foreach ($file in $changedFiles) {
         Write-Host "$file has changed"
-        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($file)
-        if ($baseName -ieq "nvda") {
-            $FilePath = "Translation/LC_MESSAGES/$baseName.po"
-        } else {
-            $FilePath = "Translation/user_docs/$baseName.xliff"
-        }
-        if (Test-Path $FilePath) {
-            Write-Host "Uploading $file to Crowdin..."
-            & cmd /c "$L10nUtil UP_$baseName"
-            Start-Sleep -Seconds 5
-            Write-Host "Downloading updated $file from Crowdin..."
-            & cmd /c "$L10nUtil DL_$baseName"
-            git add "$file"
-            Write-Host "Staged changes for $file"
-        } else {
-            Write-Host "File $FilePath not found, skipping processing."
-        }
+        ProcessChangedNVDAFile -File $file
     }
 }
