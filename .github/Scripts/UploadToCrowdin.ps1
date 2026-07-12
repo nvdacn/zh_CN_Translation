@@ -85,3 +85,5 @@ foreach ($ProcessedFileName in $ProcessedFileList) {
         & $ProcessFunction -File $file
     }
 }
+
+exit
