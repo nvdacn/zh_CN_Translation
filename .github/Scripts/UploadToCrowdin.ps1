@@ -6,13 +6,6 @@ $ErrorActionPreference = 'Stop'
 $GitBefore = $env:GITHUB_EVENT_BEFORE
 $L10nUtil = "$env:GITHUB_WORKSPACE/L10nUtilTools.bat"
 $IsBeforeValid = $false
-if ($TranslationType -ieq "NVDA") {
-    $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
-    $ProcessFunction = ${function:ProcessChangedNVDAFile}
-} else {
-    $ProcessedFileList = "Translation/Addons/*"
-    $ProcessFunction = ${function:ProcessChangedAddonFile}
-}
 
 function ProcessChangedNVDAFile {
     param(
@@ -75,6 +68,14 @@ if ($IsBeforeValid) {
     Write-Host "Fallback: Fetching latest main branch"
     $MainHead = (git rev-parse "main")
     $diffRange = "$MainHead..HEAD"
+}
+
+if ($TranslationType -ieq "NVDA") {
+    $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
+    $ProcessFunction = ${function:ProcessChangedNVDAFile}
+} else {
+    $ProcessedFileList = "Translation/Addons/*"
+    $ProcessFunction = ${function:ProcessChangedAddonFile}
 }
 
 foreach ($ProcessedFileName in $ProcessedFileList) {
