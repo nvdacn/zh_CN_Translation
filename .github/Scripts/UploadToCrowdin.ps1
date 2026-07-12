@@ -4,7 +4,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $GitBefore = $env:GITHUB_EVENT_BEFORE
-$L10nUtil = "$env:GITHUB_WORKSPACE/L10nUtilTools.bat"
+$L10nUtil = "$PSScriptRoot/../../L10nUtilTools.bat"
 $IsBeforeValid = $false
 
 function ProcessChangedNVDAFile {
@@ -19,10 +19,10 @@ function ProcessChangedNVDAFile {
     }
     if (Test-Path $FilePath) {
         Write-Host "Uploading $File to Crowdin..."
-        & cmd /c "$L10nUtil UP_$baseName"
+        & $L10nUtil "UP_$baseName"
         Start-Sleep -Seconds 5
         Write-Host "Downloading updated $File from Crowdin..."
-        & cmd /c "$L10nUtil DL_$baseName"
+        & $L10nUtil "DL_$baseName"
         git add "$File"
         Write-Host "Staged changes for $File"
     } else {
@@ -46,13 +46,13 @@ function ProcessChangedAddonFile {
     if (Test-Path $FilePath) {
         Write-Host "Uploading $File to Crowdin..."
         echo "has_changes=true" >> $env:GITHUB_OUTPUT
-        & cmd /c "$L10nUtil $actionType $AddonID"
+        & $L10nUtil $actionType $AddonID
     } else {
         Write-Host "File $FilePath not found, skipping processing."
     }
 }
 
-git branch main remotes/origin/main
+git branch -f main remotes/origin/main
 
 if ($GitBefore) {
     git rev-parse --verify -q "$GitBefore^{commit}" > $null 2>&1
@@ -72,10 +72,10 @@ if ($IsBeforeValid) {
 
 if ($TranslationType -ieq "NVDA") {
     $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
-    $ProcessFunction = ${function:ProcessChangedNVDAFile}
+    $ProcessFunction = "ProcessChangedNVDAFile"
 } else {
     $ProcessedFileList = "Translation/Addons/*"
-    $ProcessFunction = ${function:ProcessChangedAddonFile}
+    $ProcessFunction = "ProcessChangedAddonFile"
 }
 
 foreach ($ProcessedFileName in $ProcessedFileList) {
