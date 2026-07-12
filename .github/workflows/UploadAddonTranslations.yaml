@@ -10,6 +10,7 @@ on:
 env:
   crowdinAuthToken: ${{ secrets.NVDA_CROWDIN }}
   GH_TOKEN: ${{ github.token }}
+  GITHUB_EVENT_BEFORE: ${{ github.event.before }}
 
 jobs:
   Process-Translations:
@@ -28,8 +29,6 @@ jobs:
         shell: pwsh
         run: |
           .github/Scripts/UploadToCrowdin.ps1 -TranslationType "Addon"
-        env:
-          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
       - name: Manually trigger UpdateAddonTranslations workflow
         if: steps.check-changes.outputs.has_changes == 'true'
         run: |

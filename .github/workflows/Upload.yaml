@@ -11,6 +11,7 @@ on:
 env:
   crowdinAuthToken: ${{ secrets.NVDA_CROWDIN }}
   GH_TOKEN: ${{ github.token }}
+  GITHUB_EVENT_BEFORE: ${{ github.event.before }}
 
 jobs:
   Process-Translations:
@@ -28,8 +29,6 @@ jobs:
         shell: pwsh
         run: |
           .github/Scripts/UploadToCrowdin.ps1 -TranslationType "NVDA"
-        env:
-          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
       - name: Commit & Push
         shell: pwsh
         run: |
