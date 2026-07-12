@@ -1,8 +1,18 @@
+param(
+    [string]$TranslationType = "NVDA"
+)
+
 $ErrorActionPreference = 'Stop'
 $GitBefore = $env:GITHUB_EVENT_BEFORE
 $L10nUtil = "$env:GITHUB_WORKSPACE/L10nUtilTools.bat"
 $IsBeforeValid = $false
-$ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
+if ($TranslationType -ieq "NVDA") {
+    $ProcessedFileList = "Translation/LC_MESSAGES/*.po", "Translation/user_docs/*.xliff"
+    $ProcessFunction = ${function:ProcessChangedNVDAFile}
+} else {
+    $ProcessedFileList = "Translation/Addons/*"
+    $ProcessFunction = ${function:ProcessChangedAddonFile}
+}
 
 function ProcessChangedNVDAFile {
     param(
@@ -22,6 +32,28 @@ function ProcessChangedNVDAFile {
         & cmd /c "$L10nUtil DL_$baseName"
         git add "$File"
         Write-Host "Staged changes for $File"
+    } else {
+        Write-Host "File $FilePath not found, skipping processing."
+    }
+}
+
+function ProcessChangedAddonFile {
+    param(
+        [string]$File
+    )
+    $AddonID = [System.IO.Path]::GetFileName([System.IO.Path]::GetDirectoryName($File))
+    $baseName = [System.IO.Path]::GetFileNameWithoutExtension($File)
+    $fileExtension = [System.IO.Path]::GetExtension($File)
+    if ($fileExtension -ieq ".po") {
+        $actionType = "UAP"
+    } else {
+        $actionType = "UAX"
+    }
+    $FilePath = "Translation/Addons/$AddonID/$baseName$fileExtension"
+    if (Test-Path $FilePath) {
+        Write-Host "Uploading $File to Crowdin..."
+        echo "has_changes=true" >> $env:GITHUB_OUTPUT
+        & cmd /c "$L10nUtil $actionType $AddonID"
     } else {
         Write-Host "File $FilePath not found, skipping processing."
     }
@@ -49,6 +81,6 @@ foreach ($ProcessedFileName in $ProcessedFileList) {
     $changedFiles = git diff --name-only $diffRange -- $ProcessedFileName
     foreach ($file in $changedFiles) {
         Write-Host "$file has changed"
-        ProcessChangedNVDAFile -File $file
+        & $ProcessFunction -File $file
     }
 }
