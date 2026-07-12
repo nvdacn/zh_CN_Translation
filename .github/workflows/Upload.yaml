@@ -27,7 +27,7 @@ jobs:
       - name: Process Translations
         shell: pwsh
         run: |
-          .github/Scripts/UploadToCrowdin.ps1
+          .github/Scripts/UploadToCrowdin.ps1 -TranslationType "NVDA"
         env:
           GITHUB_EVENT_BEFORE: ${{ github.event.before }}
       - name: Commit & Push
