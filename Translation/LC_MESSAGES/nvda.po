@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-16 08:27+0000\n"
+"POT-Creation-Date: 2026-07-17 08:23+0000\n"
 "PO-Revision-Date: 2026-07-10 13:48+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1794,7 +1794,7 @@ msgstr "未选择文本"
 #. Translators: Abbreviation for points, a measurement of font size.
 #: displayModel.py:562 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
-#: NVDAObjects\UIA\__init__.py:195 NVDAObjects\window\edit.py:347
+#: NVDAObjects\UIA\__init__.py:196 NVDAObjects\window\edit.py:347
 #: NVDAObjects\window\edit.py:710 NVDAObjects\window\excel.py:1373
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1285
 #: virtualBuffers\adobeAcrobat.py:83
@@ -18071,25 +18071,25 @@ msgid "Not in table"
 msgstr "不在表格中"
 
 #. Translators: a measurement in inches
-#: NVDAObjects\UIA\__init__.py:457
+#: NVDAObjects\UIA\__init__.py:458
 #, python-brace-format
 msgid "{val:.2f} in"
 msgstr "{val:.2f} 英寸"
 
 #. Translators: a measurement in centimetres
-#: NVDAObjects\UIA\__init__.py:462
+#: NVDAObjects\UIA\__init__.py:463
 #, python-brace-format
 msgid "{val:.2f} cm"
 msgstr "{val:.2f} 厘米"
 
-#: NVDAObjects\UIA\__init__.py:2332
+#: NVDAObjects\UIA\__init__.py:2333
 msgid "invoke"
 msgstr "启用"
 
 #. Translators: message noting the number of suggestions that are available,
 #. for example in the Windows 11 Start Menu.
 #. {num} will be replaced with the number of suggestions
-#: NVDAObjects\UIA\__init__.py:2767
+#: NVDAObjects\UIA\__init__.py:2790
 #, python-brace-format
 msgid "{num} suggestion"
 msgid_plural "{num} suggestions"
@@ -21273,19 +21273,19 @@ msgid "Magnifier stopped due to an error. Please restart it."
 msgstr "放大镜因错误而停止。请将其重启。"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:185
+#: _magnifier\magnifier.py:191
 msgctxt "magnifier"
 msgid "Cannot enable magnifier. Please disable screen curtain first."
 msgstr "无法开启放大镜：请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
-#: _magnifier\magnifier.py:285
+#: _magnifier\magnifier.py:333
 msgctxt "magnifier"
 msgid "Disabling magnifier"
 msgstr "关闭放大镜"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
-#: _magnifier\magnifier.py:303
+#: _magnifier\magnifier.py:351
 msgctxt "magnifier"
 msgid "Re-enabling magnifier"
 msgstr "重启放大镜"
