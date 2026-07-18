@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/aca7721f87b21e0021a8a1c7cfd7e62605806863/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
@@ -92,7 +92,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA+Shift+E: presents used RAM (physical memory) and average processor load.</source>
         <target>NVDA+Shift+E：读出物理内存的使用率和CPU 平均负载。</target>
       </segment>
@@ -142,7 +142,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA+Shift+6: presents  Windows version, CPU architecture (x86 (32-bit), AMD64 (x64(, ARM64), and exact build number (build.revision).</source>
         <target>NVDA+Shift+6：读出 Windows 版本、CPU 架构（x86（32 位）、AMD64（x64）、ARM64）以及精确的内部版本号（build.revision）。</target>
       </segment>
@@ -230,7 +230,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>CPU usage is given for logical processors, not physical cores. This is noticeable for processors with Hyper-Threading where number of CPU's is twice the number of CPU cores. On some newer computers, not all CPU cores will have hyper-threading enabled.</source>
         <target>给出的 CPU 使用情况是针对逻辑处理器而非物理核心。这对于使用超线程的处理器来说是显而易见的，其中 CPU 数量通常是 CPU 核心数量的两倍。在一些较新的计算机上，并非所有 CPU 核心都启用了超线程。</target>
       </segment>
@@ -260,7 +260,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When announcing processor architecture information as part of Windows version reporting, "x86" and "AMD64" refer to 32-bit and 64-bit (x64) Intel and AMD processors, respectively. This information does not refer to the name of the actual processor in use.</source>
         <target>读出 Windows 版本时给出的处理器架构信息中的“x86”和“AMD64”分别指 32 位和 64 位（x64）的 Intel 和 AMD 处理器。此信息并非指当前使用的实际处理器名称。</target>
       </segment>
