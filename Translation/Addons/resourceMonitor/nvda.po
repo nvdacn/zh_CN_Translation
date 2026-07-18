@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-17 19:20+0000\n"
-"PO-Revision-Date: 2026-07-18 07:01\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2026-07-18 14:48+0800\n"
+"PO-Revision-Date: 2026-07-18 15:38+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: resourceMonitor.pot\n"
 "X-Crowdin-File-ID: 214\n"
+"X-Generator: Poedit 3.9\n"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:58
 msgid "No authentication (Open)"
@@ -96,7 +97,9 @@ msgid "{ramPercent}% RAM used, CPU at {cpuPercent}%."
 msgstr "内存已用 百分之 {ramPercent}，CPU 已用 百分之 {cpuPercent}。"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:384
-msgid "Presents the average processor load and the load of each core. If pressed twice, copies the information to the clipboard."
+msgid ""
+"Presents the average processor load and the load of each core. If pressed "
+"twice, copies the information to the clipboard."
 msgstr "读出每个 CPU 核心的负载和平均负载。连按两次将此信息复制到剪贴板。"
 
 #. Translators: Shows average load of CPU cores (example: core 1, 50%).
@@ -118,24 +121,35 @@ msgid "{avgLoad}% average CPU load, {cores}."
 msgstr "百分之 {avgLoad} 平均 CPU 负载，{cores}。"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:417
-msgid "Presents the used and total space for both physical and virtual ram. If pressed twice, copies the information to the clipboard."
+msgid ""
+"Presents the used and total space for both physical and virtual ram. If "
+"pressed twice, copies the information to the clipboard."
 msgstr "读出物理内存和虚拟内存的容量和使用情况。连按两次将此信息复制到剪贴板。"
 
 #. Translators: Shows RAM (physical memory) usage.
 #: addon\globalPlugins\resourceMonitor\__init__.py:427
 #, python-brace-format
 msgid "Physical: {physicalUsed} of {physicalTotal} used ({physicalPercent}%). "
-msgstr "物理内存：已用 {physicalUsed}，总大小 {physicalTotal}，使用率 百分之 {physicalPercent}。"
+msgstr ""
+"物理内存：已用 {physicalUsed}，总大小 {physicalTotal}，使用率 百分之 "
+"{physicalPercent}。"
 
 #. Translators: Shows virtual memory usage.
 #: addon\globalPlugins\resourceMonitor\__init__.py:435
 #, python-brace-format
 msgid "Virtual: {virtualUsed} of {virtualTotal} used ({virtualPercent}%)."
-msgstr "虚拟内存：已用 {virtualUsed}，总大小 {virtualTotal}，使用率百分之 {virtualPercent}。"
+msgstr ""
+"虚拟内存：已用 {virtualUsed}，总大小 {virtualTotal}，使用率百分之 "
+"{virtualPercent}。"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:448
-msgid "Presents the used and total space of the fixed (built-in), removable, and mapped network drives on this computer. If pressed twice, copies the information to the clipboard."
-msgstr "读出此计算机上所有驱动器的文件系统和空间使用情况。连按两次将此信息复制到剪贴板。"
+msgid ""
+"Presents the used and total space of the fixed (built-in), removable, and "
+"mapped network drives on this computer. If pressed twice, copies the "
+"information to the clipboard."
+msgstr ""
+"读出此计算机上所有驱动器的文件系统和空间使用情况。连按两次将此信息复制到剪贴"
+"板。"
 
 #. Translators: Reported when a mapped network drive is currently unreachable.
 #: addon\globalPlugins\resourceMonitor\__init__.py:476
@@ -153,8 +167,12 @@ msgstr "网络驱动器"
 #. (example: C drive, ntfs; 40 GB of 100 GB used (40%).
 #: addon\globalPlugins\resourceMonitor\__init__.py:484
 #, python-brace-format
-msgid "{driveName} ({driveType} drive): {usedSpace} of {totalSpace} used ({percent}%)."
-msgstr "磁盘 {driveName}（{driveType}）：总大小 {totalSpace}，已用 {usedSpace}，使用率百分之 {percent}。"
+msgid ""
+"{driveName} ({driveType} drive): {usedSpace} of {totalSpace} used ({percent}"
+"%)."
+msgstr ""
+"磁盘 {driveName}（{driveType}）：总大小 {totalSpace}，已用 {usedSpace}，使用"
+"率百分之 {percent}。"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:499
 #: addon\globalPlugins\resourceMonitor\__init__.py:506
@@ -171,11 +189,18 @@ msgid "Connected to {}, signal strength: {}%, security type: {}"
 msgstr "{} 已连接，信号强度： 百分之 {}， 安全类型： {}"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:538
-msgid "Announces the system's wireless network name (SSID), connection strength, and security  protocol. If pressed twice, copies the information to the clipboard."
-msgstr "读出已连接的无线网络名称、信号强度以及安全类型。连按两次将此信息复制到剪贴板。"
+msgid ""
+"Announces the system's wireless network name (SSID), connection strength, "
+"and security  protocol. If pressed twice, copies the information to the "
+"clipboard."
+msgstr ""
+"读出已连接的无线网络名称、信号强度以及安全类型。连按两次将此信息复制到剪贴"
+"板。"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:554
-msgid "Announces the version of Windows you are using. If pressed twice, copies the information to the clipboard."
+msgid ""
+"Announces the version of Windows you are using. If pressed twice, copies the "
+"information to the clipboard."
 msgstr "读出当前 Windows 的版本信息。连按两次将此信息复制到剪贴板。"
 
 #. Translators: system uptime in days.
@@ -207,7 +232,9 @@ msgid_plural "{seconds:d} seconds"
 msgstr[0] "{seconds:d} 秒"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:597
-msgid "Announces the system's uptime. If pressed twice, copies the information to the clipboard."
+msgid ""
+"Announces the system's uptime. If pressed twice, copies the information to "
+"the clipboard."
 msgstr "读出当前系统的运行时间。连按两次将此信息复制到剪贴板。"
 
 #. Translators: Obtaining uptime failed
@@ -235,7 +262,9 @@ msgid "No GPU data available."
 msgstr "无可用的 GPU 数据。"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:646
-msgid "Announces GPU usage and temperature. If pressed twice, copies the information to the clipboard."
+msgid ""
+"Announces GPU usage and temperature. If pressed twice, copies the "
+"information to the clipboard."
 msgstr "读出 GPU 的使用情况和温度。连按两次将此信息复制到剪贴板。"
 
 #. Translators: Message reported when the GPU command fails unexpectedly.
@@ -254,7 +283,9 @@ msgid "Unable to get GPU memory information."
 msgstr "无法获取 GPU 内存信息。"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:701
-msgid "Announces GPU memory usage. If pressed twice, copies the information to the clipboard."
+msgid ""
+"Announces GPU memory usage. If pressed twice, copies the information to the "
+"clipboard."
 msgstr "读出 GPU 内存的使用情况。连按两次将此信息复制到剪贴板。"
 
 #. Translators: Message reported when the GPU memory command fails unexpectedly.
@@ -265,15 +296,33 @@ msgstr "GPU 内存信息获取失败。"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
-msgid "A handy resource monitor to report CPU load, memory usage, battery, disk usage status and more."
-msgstr "一个易于使用的资源监控器，可以读出 CPU 负载、内存使用、电池和磁盘使用情况等等。"
+msgid ""
+"A handy resource monitor to report CPU load, memory usage, battery, disk "
+"usage status and more."
+msgstr ""
+"一个易于使用的资源监控器，可以读出 CPU 负载、内存使用、电池和磁盘使用情况等"
+"等。"
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* Added Resource Monitor category to NVDA settings to configure GPU temperature reporting unit between Celcius and Fahrenheit (contributed by hexxbyte).\n"
-"* Added an unassigned command to announce GPU (graphics processing unit) memory usage information (contributed by hexxbyte).\n"
-"* Pressing NVDA+Shift+3 to report disk usage information will include mapped network drives if connected (contributed by hexxbyte).\n"
-"* Removed battery status reporting feature. Pressing NVDA+Shift+4 will now report wireless connection status. For battery status, use NVDA's own battery status command (NVDA+Shift+B)."
+msgid ""
+"* Added Resource Monitor category to NVDA settings to configure GPU "
+"temperature reporting unit between Celcius and Fahrenheit (contributed by "
+"hexxbyte).\n"
+"* Added an unassigned command to announce GPU (graphics processing unit) "
+"memory usage information (contributed by hexxbyte).\n"
+"* Pressing NVDA+Shift+3 to report disk usage information will include mapped "
+"network drives if connected (contributed by hexxbyte).\n"
+"* Removed battery status reporting feature. Pressing NVDA+Shift+4 will now "
+"report wireless connection status. For battery status, use NVDA's own "
+"battery status command (NVDA+Shift+B)."
 msgstr ""
-
+"* 在 NVDA 设置中新增了资源监控器类别，用于配置 GPU 温度单位为摄氏度或华氏度"
+"（由 hexxbyte 贡献）。\n"
+"* 新增了一个未分配的命令，用于读出 GPU（图形处理器）的内存使用情况（由 "
+"hexxbyte 贡献）。\n"
+"* 按 NVDA+Shift+3 读出磁盘使用信息时，将包括已连接的映射网络驱动器（由 "
+"hexxbyte 贡献）。\n"
+"* 移除了读出电池状态功能。按 NVDA+Shift+4 现在将读出无线连接状态。如需读出电"
+"池状态，请使用 NVDA 自身的电池状态命令（NVDA+Shift+B）。"
