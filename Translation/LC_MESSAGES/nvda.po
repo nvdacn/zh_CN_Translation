@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-20 03:50+0000\n"
+"POT-Creation-Date: 2026-07-20 09:31+0000\n"
 "PO-Revision-Date: 2026-07-18 16:37+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1665,11 +1665,11 @@ msgstr ""
 #: core.py:119 documentationUtils.py:74 updateCheck.py:438 updateCheck.py:753
 #: updateCheck.py:925 gui\__init__.py:252 gui\__init__.py:260
 #: gui\__init__.py:277 gui\addonGui.py:138 gui\addonGui.py:258
-#: gui\addonGui.py:273 gui\configProfiles.py:182 gui\configProfiles.py:219
-#: gui\configProfiles.py:272 gui\configProfiles.py:284
-#: gui\configProfiles.py:293 gui\configProfiles.py:337
-#: gui\configProfiles.py:515 gui\configProfiles.py:530
-#: gui\configProfiles.py:541 gui\inputGestures.py:808 gui\inputGestures.py:822
+#: gui\addonGui.py:273 gui\configProfiles.py:221 gui\configProfiles.py:258
+#: gui\configProfiles.py:311 gui\configProfiles.py:323
+#: gui\configProfiles.py:332 gui\configProfiles.py:376
+#: gui\configProfiles.py:554 gui\configProfiles.py:569
+#: gui\configProfiles.py:580 gui\inputGestures.py:858 gui\inputGestures.py:872
 #: gui\installerGui.py:181 gui\installerGui.py:265 gui\installerGui.py:759
 #: gui\installerGui.py:776 gui\installerGui.py:848 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:161 gui\settingsDialogs.py:1047
@@ -7220,7 +7220,7 @@ msgstr ""
 #. Translators: Title of the warning dialog shown when enabling a risky logging level.
 #. Translators: The title of a dialog.
 #. Translators: Title of warning dialog
-#: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
+#: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:539
 #: gui\installerGui.py:502 gui\installerGui.py:660 gui\settingsDialogs.py:1967
 #: gui\settingsDialogs.py:6377 screenCurtain\_screenCurtain.py:70
 #: _remoteClient\dialogs.py:291
@@ -13250,180 +13250,186 @@ msgid "Configuration Profiles"
 msgstr "配置管理"
 
 #. Translators: The label of a button to create a new configuration profile.
-#: gui\configProfiles.py:73
+#. Translators: Context menu item label to add new profile
+#: gui\configProfiles.py:75 gui\configProfiles.py:184
 msgid "&New"
 msgstr "新建(&N)"
 
 #. Translators: The label of a button to rename a configuration profile.
-#: gui\configProfiles.py:78
+#. Translators: Context menu item label to rename a profile
+#: gui\configProfiles.py:80 gui\configProfiles.py:199
 msgid "&Rename"
 msgstr "重命名(&R)"
 
 #. Translators: The label of a button to delete a configuration profile.
-#: gui\configProfiles.py:83
+#. Translators: Context menu item label to delete a profile
+#: gui\configProfiles.py:85 gui\configProfiles.py:201
 msgid "&Delete"
 msgstr "删除(&D)"
 
 #. Translators: The label of a button to manage triggers
 #. in the Configuration Profiles dialog.
 #. See the Configuration Profiles section of the User Guide for details.
-#: gui\configProfiles.py:98
+#. Translators: Context menu item label to open triggers dialog
+#: gui\configProfiles.py:100 gui\configProfiles.py:186
 msgid "&Triggers..."
 msgstr "关联(&T)..."
 
 #. Translators: The label of a checkbox in the Configuration Profiles dialog.
-#: gui\configProfiles.py:103
+#: gui\configProfiles.py:105
 msgid "Temporarily d&isable all triggers"
 msgstr "临时禁用所有关联(&D)"
 
 #. Translators: The item to select the user's normal configuration
 #. in the profile list in the Configuration Profiles dialog.
-#: gui\configProfiles.py:130
+#: gui\configProfiles.py:132
 msgid "(normal configuration)"
 msgstr "(通用配置)"
 
 #. Translators: Reported for a profile which is being edited
 #. in the Configuration Profiles dialog.
-#: gui\configProfiles.py:145
+#: gui\configProfiles.py:147
 msgid "editing"
 msgstr "正在编辑"
 
 #. Translators: Reported for a profile which has been manually activated
 #. in the Configuration Profiles dialog.
-#: gui\configProfiles.py:151
+#: gui\configProfiles.py:153
 msgid "manual"
 msgstr "手动"
 
 #. Translators: Reported for a profile which is currently triggered
 #. in the Configuration Profiles dialog.
-#: gui\configProfiles.py:155
+#: gui\configProfiles.py:157
 msgid "triggered"
 msgstr "已关联"
 
+#. Translators: Context menu item label to manually deactivate a profile.
+#. Translators: The label of the button to manually deactivate the selected profile
+#. in the Configuration Profiles dialog.
+#: gui\configProfiles.py:193 gui\configProfiles.py:277
+msgid "Manual deactivate"
+msgstr "手动禁用"
+
+#. Translators: Context menu item label to manually activate a profile.
+#. Translators: The label of the button to manually activate the selected profile
+#. in the Configuration Profiles dialog.
+#: gui\configProfiles.py:195 gui\configProfiles.py:281
+msgid "Manual activate"
+msgstr "手动激活"
+
 #. Translators: An error displayed when activating a configuration profile fails.
-#: gui\configProfiles.py:180
+#: gui\configProfiles.py:219
 msgid "Error activating profile."
 msgstr "激活配置时发生错误。"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete a configuration profile.
 #. The placeholder {name} is replaced with the name of the configuration profile that will be deleted.
-#: gui\configProfiles.py:200
+#: gui\configProfiles.py:239
 #, python-brace-format
 msgid ""
 "The profile {name} will be permanently deleted. This action cannot be undone."
 msgstr "配置文件 {name} 将被永久删除。此操作无法撤消。"
 
 #. Translators: The title of the confirmation dialog for deletion of a configuration profile.
-#: gui\configProfiles.py:204
+#: gui\configProfiles.py:243
 msgid "Confirm Deletion"
 msgstr "确认删除"
 
 #. Translators: An error displayed when deleting a configuration profile fails.
-#: gui\configProfiles.py:217
+#: gui\configProfiles.py:256
 msgid "Error deleting profile."
 msgstr "删除配置时出错。"
 
-#. Translators: The label of the button to manually deactivate the selected profile
-#. in the Configuration Profiles dialog.
-#: gui\configProfiles.py:238
-msgid "Manual deactivate"
-msgstr "手动禁用"
-
-#. Translators: The label of the button to manually activate the selected profile
-#. in the Configuration Profiles dialog.
-#: gui\configProfiles.py:242
-msgid "Manual activate"
-msgstr "手动激活"
-
 #. Translators: The label of a field to enter a new name for a configuration profile.
-#: gui\configProfiles.py:257
+#: gui\configProfiles.py:296
 msgid "New name:"
 msgstr "新名称："
 
 #. Translators: The title of the dialog to rename a configuration profile.
-#: gui\configProfiles.py:259
+#: gui\configProfiles.py:298
 msgid "Rename Profile"
 msgstr "重命名配置"
 
 #. Translators: An error displayed when the user attempts to rename a configuration profile
 #. with an empty name.
-#: gui\configProfiles.py:270
+#: gui\configProfiles.py:309
 msgid "A profile cannot have an empty name."
 msgstr "配置文件名称不可为空。"
 
 #. Translators: An error displayed when the user attempts to create
 #. a configuration profile which already exists.
-#: gui\configProfiles.py:283 gui\configProfiles.py:528
+#: gui\configProfiles.py:322 gui\configProfiles.py:567
 msgid "That profile already exists. Please choose a different name."
 msgstr "此配置已存在，请换用其他名称。"
 
-#: gui\configProfiles.py:292
+#: gui\configProfiles.py:331
 msgid "Error renaming profile."
 msgstr "重命名配置时发生错误。"
 
 #. Translators: Displayed for the configuration profile trigger for the current application.
 #. %s is replaced by the application executable name.
-#: gui\configProfiles.py:313
+#: gui\configProfiles.py:352
 #, python-format
 msgid "Current application (%s)"
 msgstr "当前程序（%s）"
 
 #. Translators: Displayed for the configuration profile trigger for say all.
-#: gui\configProfiles.py:317
+#: gui\configProfiles.py:356
 msgid "Say all"
 msgstr "全文朗读"
 
 #. Translators: An error displayed when saving configuration profile triggers fails.
-#: gui\configProfiles.py:335
+#: gui\configProfiles.py:374
 msgid ""
 "Error saving configuration profile triggers - probably read only file system."
 msgstr "保存配置修改时发生错误，文件系统可能处于只读状态。"
 
 #. Translators: The title of the configuration profile triggers dialog.
-#: gui\configProfiles.py:360
+#: gui\configProfiles.py:399
 msgid "Profile Triggers"
 msgstr "配置关联"
 
 #. Translators: Displayed for a configuration profile trigger for an application.
 #. %s is replaced by the application executable name.
-#: gui\configProfiles.py:382
+#: gui\configProfiles.py:421
 #, python-format
 msgid "%s application"
 msgstr "应用程序%s"
 
 #. Translators: The label of the triggers list in the Configuration Profile Triggers dialog.
-#: gui\configProfiles.py:388
+#: gui\configProfiles.py:427
 msgid "Triggers"
 msgstr "关联"
 
 #. Translators: The label of the profile list in the Configuration Profile Triggers dialog.
-#: gui\configProfiles.py:395
+#: gui\configProfiles.py:434
 msgid "Profile"
 msgstr "配置"
 
 #. Translators: The title of the dialog to create a new configuration profile.
-#: gui\configProfiles.py:452
+#: gui\configProfiles.py:491
 msgid "New Profile"
 msgstr "新建配置"
 
 #. Translators: The label of a field to enter the name of a new configuration profile.
-#: gui\configProfiles.py:457
+#: gui\configProfiles.py:496
 msgid "Profile name:"
 msgstr "配置名称："
 
 #. Translators: The label of a radio button to specify that a profile will be used for manual activation
 #. in the new configuration profile dialog.
-#: gui\configProfiles.py:462
+#: gui\configProfiles.py:501
 msgid "Manual activation"
 msgstr "手动激活"
 
-#: gui\configProfiles.py:467
+#: gui\configProfiles.py:506
 msgid "Use this profile for:"
 msgstr "此配置的使用条件为："
 
 #. Translators: The confirmation prompt presented when creating a new configuration profile
 #. and the selected trigger is already associated.
-#: gui\configProfiles.py:496
+#: gui\configProfiles.py:535
 msgid ""
 "This trigger is already associated with another profile. If you continue, it "
 "will be removed from that profile and associated with this one.\n"
@@ -13434,18 +13440,18 @@ msgstr ""
 
 #. Translators: An error displayed when the user attempts to create a configuration profile
 #. with an empty name.
-#: gui\configProfiles.py:513
+#: gui\configProfiles.py:552
 msgid "You must choose a name for this profile."
 msgstr "您必须为此配置文件选择一个名称。"
 
 #. Translators: An error displayed when creating a configuration profile fails.
-#: gui\configProfiles.py:539
+#: gui\configProfiles.py:578
 msgid "Error creating profile - probably read only file system."
 msgstr "保存配置时发生错误，文件系统可能处于只读状态。"
 
 #. Translators: The prompt asking the user whether they wish to
 #. manually activate a configuration profile that has just been created.
-#: gui\configProfiles.py:558
+#: gui\configProfiles.py:597
 msgid ""
 "To edit this profile, you will need to manually activate it. Once you have "
 "finished editing, you will need to manually deactivate it to resume normal "
@@ -13457,7 +13463,7 @@ msgstr ""
 "您希望现在就手动激活它吗？"
 
 #. Translators: The title of the confirmation dialog for manual activation of a created profile.
-#: gui\configProfiles.py:563
+#: gui\configProfiles.py:602
 msgid "Manual Activation"
 msgstr "手动激活"
 
@@ -13561,26 +13567,30 @@ msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
+#. Translators: Context menu item label to add a new gesture
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:6808 gui\speechDict.py:218
+#: gui\inputGestures.py:618 gui\inputGestures.py:670
+#: gui\settingsDialogs.py:6808 gui\speechDict.py:218
 msgid "&Add"
 msgstr "添加(&A)"
 
 #. Translators: The label of a button to remove a gesture in the Input Gestures dialog.
+#. Translators: Context menu item label to remove a gesture
 #. Translators: The label for a button in speech dictionaries dialog to remove existing entries.
 #. Translators: Context menu item label to remove an entry
-#: gui\inputGestures.py:620 gui\speechDict.py:230 gui\speechDict.py:255
+#: gui\inputGestures.py:623 gui\inputGestures.py:674 gui\speechDict.py:230
+#: gui\speechDict.py:255
 msgid "&Remove"
 msgstr "移除(&R)"
 
 #. Translators: The label of a button to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:626
+#: gui\inputGestures.py:629
 msgid "Reset to factory &defaults"
 msgstr "重置(&D)"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:789
+#: gui\inputGestures.py:839
 msgid ""
 "Are you sure you want to reset all gestures to their factory defaults?\n"
 "\n"
@@ -13594,12 +13604,12 @@ msgstr ""
 "\t\t\t该操作无法撤销。"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:794
+#: gui\inputGestures.py:844
 msgid "Reset gestures"
 msgstr "重置按键与手势"
 
 #. Translators: An error displayed when saving user defined input gestures fails.
-#: gui\inputGestures.py:807 gui\inputGestures.py:820
+#: gui\inputGestures.py:857 gui\inputGestures.py:870
 msgid "Error saving user defined gestures - probably read only file system."
 msgstr "保存按键与手势设置时出错，文件系统可能处于只读状态."
 
@@ -16439,32 +16449,42 @@ msgctxt "addonStore"
 msgid "&Update selected add-ons"
 msgstr "更新所选(&U)"
 
+#. Translators: Label for an action that updates the selected add-ons,
+#. shown when the selection includes disabled add-ons, which updating re-enables.
+#: gui\addonStoreGui\controls\actions.py:230
+#, fuzzy
+#| msgctxt "addonStore"
+#| msgid "&Update selected add-ons"
+msgctxt "addonStore"
+msgid "&Update (and enable) selected add-ons"
+msgstr "更新所选(&U)"
+
 #. Translators: Label for an action that retries the selected add-ons
-#: gui\addonStoreGui\controls\actions.py:226
+#: gui\addonStoreGui\controls\actions.py:240
 msgctxt "addonStore"
 msgid "Re&try installing selected add-ons"
 msgstr "重试所选(&T)"
 
 #. Translators: Label for an action that cancel install of the selected add-ons
-#: gui\addonStoreGui\controls\actions.py:233
+#: gui\addonStoreGui\controls\actions.py:247
 msgctxt "addonStore"
 msgid "Ca&ncel install of selected add-ons"
 msgstr "取消安装所选(&N)"
 
 #. Translators: Label for an action that removes the selected add-ons
-#: gui\addonStoreGui\controls\actions.py:240
+#: gui\addonStoreGui\controls\actions.py:254
 msgctxt "addonStore"
 msgid "&Remove selected add-ons"
 msgstr "移除所选(&R)"
 
 #. Translators: Label for an action that enables the selected add-ons
-#: gui\addonStoreGui\controls\actions.py:255
+#: gui\addonStoreGui\controls\actions.py:269
 msgctxt "addonStore"
 msgid "&Enable selected add-ons"
 msgstr "启用所选(&E)"
 
 #. Translators: Label for an action that disables the selected add-ons
-#: gui\addonStoreGui\controls\actions.py:262
+#: gui\addonStoreGui\controls\actions.py:276
 msgctxt "addonStore"
 msgid "&Disable selected add-ons"
 msgstr "禁用所选(&D)"
@@ -16651,7 +16671,7 @@ msgstr "VirusTotal 扫描网址："
 #. Translators: A button in the addon installation warning / blocked dialog which shows
 #. more information about the addon
 #: gui\addonStoreGui\controls\messageDialogs.py:81
-#: gui\addonStoreGui\controls\messageDialogs.py:762
+#: gui\addonStoreGui\controls\messageDialogs.py:768
 msgctxt "addonStore"
 msgid "&About add-on..."
 msgstr "关于插件(&A)..."
@@ -16889,40 +16909,50 @@ msgctxt "addonStore"
 msgid "Open Add-on &Store"
 msgstr "打开插件商店(&S)"
 
+#. Translators: The label of a button in a dialog that updates all add-ons,
+#. shown when the add-ons to update include disabled add-ons, which updating re-enables.
+#: gui\addonStoreGui\controls\messageDialogs.py:449
+#, fuzzy
+#| msgctxt "addonStore"
+#| msgid "&Update all"
+msgctxt "addonStore"
+msgid "&Update (and enable) all"
+msgstr "全部更新(&U)"
+
 #. Translators: The label of a button in a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:450
+#: gui\addonStoreGui\controls\messageDialogs.py:452
 msgctxt "addonStore"
 msgid "&Update all"
 msgstr "全部更新(&U)"
 
 #. Translators: The label of a button in a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:455
+#: gui\addonStoreGui\controls\messageDialogs.py:461
 msgctxt "addonStore"
 msgid "&Close"
 msgstr "关闭(&C)"
 
 #. Translators: Message shown when updating add-ons in the updatable add-ons dialog
 #. Translators: Message shown when updating add-ons automatically
-#: gui\addonStoreGui\controls\messageDialogs.py:497
-#: gui\addonStoreGui\controls\messageDialogs.py:587
+#: gui\addonStoreGui\controls\messageDialogs.py:503
+#: gui\addonStoreGui\controls\messageDialogs.py:593
 msgctxt "addonStore"
 msgid "Updating add-ons..."
 msgstr "正在更新插件……"
 
 #. Translators: Message shown when updating add-ons automatically
-#: gui\addonStoreGui\controls\messageDialogs.py:625
+#: gui\addonStoreGui\controls\messageDialogs.py:631
 msgctxt "addonStore"
 msgid "Add-ons updated, restart NVDA to activate changes"
 msgstr "插件已更新，请重启 NVDA 使更改生效"
 
 #. Translators: The title of the dialog which allows users to select which add-ons to copy to the system profile.
-#: gui\addonStoreGui\controls\messageDialogs.py:691
+#: gui\addonStoreGui\controls\messageDialogs.py:697
 msgctxt "addonStore"
 msgid "Copy Settings to System-wide Configuration"
 msgstr "拷贝设置到系统配置"
 
 #. Translators: Explanatory text in the dialog which allows users to select which add-ons to copy to NVDA's system config.
-#: gui\addonStoreGui\controls\messageDialogs.py:712
+#: gui\addonStoreGui\controls\messageDialogs.py:718
 msgctxt "addonStore"
 msgid ""
 "One or more add-ons are currently enabled in your NVDA configuration. If run "
@@ -16936,7 +16966,7 @@ msgstr ""
 "和安全界面使用 NVDA 时绝对必需的插件。"
 
 #. Translators: Explanatory text in the dialog which allows users to select which add-ons to copy to NVDA's system config.
-#: gui\addonStoreGui\controls\messageDialogs.py:722
+#: gui\addonStoreGui\controls\messageDialogs.py:728
 msgctxt "addonStore"
 msgid ""
 "The system-wide NVDA configuration contains add-ons that are not present in "
@@ -16947,64 +16977,64 @@ msgstr ""
 "中移除。"
 
 #. Translators: Instructional text in the dialog which allows users to select which add-ons to copy to NVDA's system config.
-#: gui\addonStoreGui\controls\messageDialogs.py:731
+#: gui\addonStoreGui\controls\messageDialogs.py:737
 msgctxt "addonStore"
 msgid ""
 "Check only the add-ons you wish to copy to the system-wide configuration."
 msgstr "请仅选中您要拷贝到系统配置的插件。"
 
 #. Translators: The label of the list which allows users to select which add-ons to copy to the system profile
-#: gui\addonStoreGui\controls\messageDialogs.py:743
+#: gui\addonStoreGui\controls\messageDialogs.py:749
 msgctxt "addonStore"
 msgid "Add-ons"
 msgstr "插件"
 
 #. Translators: The label for a column in the copy add-ons dialog that displays the name of the add-on
 #. Translators: The name of the column that contains names of addons.
-#: gui\addonStoreGui\controls\messageDialogs.py:748
+#: gui\addonStoreGui\controls\messageDialogs.py:754
 #: gui\addonStoreGui\viewModels\addonList.py:71
 msgctxt "addonStore"
 msgid "Name"
 msgstr "名称"
 
 #. Translators: The label for a column in the copy add-ons dialog that displays the version of the add-on present in the current user's configuration
-#: gui\addonStoreGui\controls\messageDialogs.py:750
+#: gui\addonStoreGui\controls\messageDialogs.py:756
 msgctxt "addonStore"
 msgid "User version"
 msgstr "用户版本"
 
 #. Translators: The label for a column in the copy add-ons dialog that displays the version of the add-on present in the system-wide configuration
-#: gui\addonStoreGui\controls\messageDialogs.py:752
+#: gui\addonStoreGui\controls\messageDialogs.py:758
 msgctxt "addonStore"
 msgid "System-wide version"
 msgstr "系统版本"
 
 #. Translators: The label for a button in the copy add-ons dialog which will initiate the copy process
-#: gui\addonStoreGui\controls\messageDialogs.py:767
+#: gui\addonStoreGui\controls\messageDialogs.py:773
 msgctxt "addonStore"
 msgid "&Continue"
 msgstr "继续(&C)"
 
 #. Translators: The label for a button in the copy add-ons dialog which will abandon the copy process
-#: gui\addonStoreGui\controls\messageDialogs.py:770
+#: gui\addonStoreGui\controls\messageDialogs.py:776
 msgctxt "addonStore"
 msgid "Cancel"
 msgstr "取消"
 
 #. Translators: Shown when the add-on is not installed.
-#: gui\addonStoreGui\controls\messageDialogs.py:794
+#: gui\addonStoreGui\controls\messageDialogs.py:800
 msgctxt "addonStore"
 msgid "Not installed"
 msgstr "未安装"
 
 #. Translators: Prepended to the name of an add-on to indicate that it will be removed from the system-wide configuration.
-#: gui\addonStoreGui\controls\messageDialogs.py:796
+#: gui\addonStoreGui\controls\messageDialogs.py:802
 msgctxt "addonStore"
 msgid "[remove]"
 msgstr "[移除]"
 
 #. Translators: A message to warn the user when attempting to copy add-ons for use on secure screens
-#: gui\addonStoreGui\controls\messageDialogs.py:864
+#: gui\addonStoreGui\controls\messageDialogs.py:870
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -17020,7 +17050,7 @@ msgstr[0] ""
 "严重的安全风险。"
 
 #. Translators: A message to warn the user when copying their configuration will remove add-ons
-#: gui\addonStoreGui\controls\messageDialogs.py:876
+#: gui\addonStoreGui\controls\messageDialogs.py:882
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -17030,14 +17060,14 @@ msgid_plural ""
 msgstr[0] "此操作将从 NVDA 的系统配置中移除 {num} 个插件。"
 
 #. Translators: A prompt asking the user to confirm whether to perform an action.
-#: gui\addonStoreGui\controls\messageDialogs.py:885
+#: gui\addonStoreGui\controls\messageDialogs.py:891
 msgctxt "addonStore"
 msgid "Are you sure you want to continue?"
 msgstr "您确定要继续吗？"
 
 #. Translators: The title of the warning dialog displayed when trying to
 #. copy add-ons for use on secure screens.
-#: gui\addonStoreGui\controls\messageDialogs.py:892
+#: gui\addonStoreGui\controls\messageDialogs.py:898
 msgctxt "addonStore"
 msgid "Warning"
 msgstr "警告"
@@ -17237,99 +17267,119 @@ msgctxt "addonStore"
 msgid "&Update"
 msgstr "更新(&U)"
 
+#. Translators: Label for an action that updates the selected disabled or blocked addon,
+#. which also re-enables it.
+#: gui\addonStoreGui\viewModels\store.py:143
+#, fuzzy
+#| msgctxt "addonStore"
+#| msgid "Update Available"
+msgctxt "addonStore"
+msgid "&Update (and enable)"
+msgstr "可更新"
+
 #. Translators: Label for an action that installs the selected addon
-#: gui\addonStoreGui\viewModels\store.py:140
+#: gui\addonStoreGui\viewModels\store.py:152
 msgctxt "addonStore"
 msgid "&Update (override incompatibility)"
 msgstr "更新（忽略不兼容）(&U)"
 
+#. Translators: Label for an action that updates the selected disabled or blocked addon,
+#. which also re-enables it.
+#: gui\addonStoreGui\viewModels\store.py:163
+#, fuzzy
+#| msgctxt "addonStore"
+#| msgid "&Update (override incompatibility)"
+msgctxt "addonStore"
+msgid "&Update (and enable, override incompatibility)"
+msgstr "更新（忽略不兼容）(&U)"
+
 #. Translators: Label for an action that retries the selected addon
-#: gui\addonStoreGui\viewModels\store.py:147
+#: gui\addonStoreGui\viewModels\store.py:173
 msgctxt "addonStore"
 msgid "Re&try install"
 msgstr "重试(&T)"
 
 #. Translators: Label for an action that replaces the selected addon with
 #. an add-on store version.
-#: gui\addonStoreGui\viewModels\store.py:155
+#: gui\addonStoreGui\viewModels\store.py:181
 msgctxt "addonStore"
 msgid "Re&place"
 msgstr "替换(&P)"
 
 #. Translators: Label for an action that cancels the installation of the selected addon
-#: gui\addonStoreGui\viewModels\store.py:162
+#: gui\addonStoreGui\viewModels\store.py:188
 msgctxt "addonStore"
 msgid "Ca&ncel install"
 msgstr "取消安装(&N)"
 
 #. Translators: Label for an action that disables the selected addon
-#: gui\addonStoreGui\viewModels\store.py:169
+#: gui\addonStoreGui\viewModels\store.py:195
 msgctxt "addonStore"
 msgid "&Disable"
 msgstr "禁用(&D)"
 
 #. Translators: Label for an action that enables the selected addon
-#: gui\addonStoreGui\viewModels\store.py:176
+#: gui\addonStoreGui\viewModels\store.py:202
 msgctxt "addonStore"
 msgid "&Enable"
 msgstr "启用(&E)"
 
 #. Translators: Label for an action that enables the selected addon
-#: gui\addonStoreGui\viewModels\store.py:183
+#: gui\addonStoreGui\viewModels\store.py:209
 msgctxt "addonStore"
 msgid "&Enable (override incompatibility)"
 msgstr "启用（忽略不兼容）(&E)"
 
 #. Translators: Label for an action that removes the selected addon
-#: gui\addonStoreGui\viewModels\store.py:190
+#: gui\addonStoreGui\viewModels\store.py:216
 msgctxt "addonStore"
 msgid "&Remove"
 msgstr "移除(&R)"
 
 #. Translators: Label for an action that opens help for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:205
+#: gui\addonStoreGui\viewModels\store.py:231
 msgctxt "addonStore"
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. Translators: Label for an action that opens the homepage for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:223
+#: gui\addonStoreGui\viewModels\store.py:249
 msgctxt "addonStore"
 msgid "Ho&mepage"
 msgstr "主页(&M)"
 
 #. Translators: Label for an action that opens the license for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:230
+#: gui\addonStoreGui\viewModels\store.py:256
 msgctxt "addonStore"
 msgid "&License"
 msgstr "许可(&L)"
 
 #. Translators: Label for an action that opens the source code for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:244
+#: gui\addonStoreGui\viewModels\store.py:270
 msgctxt "addonStore"
 msgid "Source &Code"
 msgstr "源代码(&C)"
 
 #. Translators: Label for an action that opens the webpage to see and send feedback for the selected add-on
-#: gui\addonStoreGui\viewModels\store.py:251
+#: gui\addonStoreGui\viewModels\store.py:277
 msgctxt "addonStore"
 msgid "Community re&views"
 msgstr "社区评论（英文网页）(&V)"
 
 #. Translators: Label for an action that opens the VirusTotal scan results for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:265
+#: gui\addonStoreGui\viewModels\store.py:291
 msgctxt "addonStore"
 msgid "VirusTotal scan results"
 msgstr "VirusTotal 扫描结果"
 
 #. Translators: Label for an action that shows changelog for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:274
+#: gui\addonStoreGui\viewModels\store.py:300
 msgctxt "addonStore"
 msgid "&What's new"
 msgstr "更新日志(&W)"
 
 #. Translators: Title for a message showing changes for the current add-on version.
-#: gui\addonStoreGui\viewModels\store.py:282
+#: gui\addonStoreGui\viewModels\store.py:308
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Changes for {curVersion}"
@@ -17337,7 +17387,7 @@ msgstr "{curVersion} 版本更新日志"
 
 #. Translators: The message displayed when the add-on cannot be enabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:378
+#: gui\addonStoreGui\viewModels\store.py:404
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not enable the add-on: {addon}."
@@ -17345,7 +17395,7 @@ msgstr "无法启用插件：{addon}"
 
 #. Translators: The message displayed when the add-on cannot be disabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:385
+#: gui\addonStoreGui\viewModels\store.py:411
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not disable the add-on: {addon}."
@@ -17772,82 +17822,82 @@ msgid "All"
 msgstr "全部"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
-#: NVDAHelper\__init__.py:505
+#: NVDAHelper\__init__.py:516
 msgid "Native input"
 msgstr "本地输入"
 
 #. Translators: a mode that lets you type in alpha numeric (roman/english) characters, rather than 'native' characters for the east-Asian input method  language currently selected.
-#: NVDAHelper\__init__.py:507
+#: NVDAHelper\__init__.py:518
 msgid "Alpha numeric input"
 msgstr "字母数字输入"
 
 #. Translators: for East-Asian input methods, a mode that allows typing in full-shaped (full double-byte) characters, rather than the smaller half-shaped ones.
-#: NVDAHelper\__init__.py:511
+#: NVDAHelper\__init__.py:522
 msgid "Full shaped mode"
 msgstr "全角模式"
 
 #. Translators: for East-Asian input methods, a mode that allows typing in half-shaped (single-byte) characters, rather than the larger full-shaped (double-byte) ones.
-#: NVDAHelper\__init__.py:513
+#: NVDAHelper\__init__.py:524
 msgid "Half shaped mode"
 msgstr "半角模式"
 
 #. Translators: For Japanese character input: half-shaped (single-byte) alpha numeric (roman/english) mode.
-#: NVDAHelper\__init__.py:519 NVDAHelper\__init__.py:529
+#: NVDAHelper\__init__.py:530 NVDAHelper\__init__.py:540
 msgid "half alphanumeric"
 msgstr "半角字母数字"
 
 #. Translators: For Japanese character input: half-shaped (single-byte) Katacana input mode.
-#: NVDAHelper\__init__.py:521
+#: NVDAHelper\__init__.py:532
 msgid "half katakana"
 msgstr "半角片假名"
 
 #. Translators: For Japanese character input: alpha numeric (roman/english) mode.
-#: NVDAHelper\__init__.py:523 NVDAHelper\__init__.py:533
+#: NVDAHelper\__init__.py:534 NVDAHelper\__init__.py:544
 msgid "alphanumeric"
 msgstr "字母数字"
 
 #. Translators: For Japanese character input: Hiragana input mode.
-#: NVDAHelper\__init__.py:525
+#: NVDAHelper\__init__.py:536
 msgid "hiragana"
 msgstr "平假名"
 
 #. Translators: For Japanese character input: Katacana input mode.
-#: NVDAHelper\__init__.py:527
+#: NVDAHelper\__init__.py:538
 msgid "katakana"
 msgstr "片假名"
 
 #. Translators: For Japanese character input: half katakana roman input mode.
-#: NVDAHelper\__init__.py:531
+#: NVDAHelper\__init__.py:542
 msgid "half katakana roman"
 msgstr "半角罗马片假名"
 
 #. Translators: For Japanese character input: Hiragana Roman input mode.
-#: NVDAHelper\__init__.py:535
+#: NVDAHelper\__init__.py:546
 msgid "hiragana roman"
 msgstr "罗马平假名"
 
 #. Translators: For Japanese character input: Katacana Roman input mode.
-#: NVDAHelper\__init__.py:537
+#: NVDAHelper\__init__.py:548
 msgid "katakana roman"
 msgstr "罗马片假名"
 
 #. Translators: a message when the IME open status changes to opened
-#: NVDAHelper\__init__.py:579
+#: NVDAHelper\__init__.py:590
 msgid "IME opened"
 msgstr "输入法指示器已打开"
 
 #. Translators: a message when the IME open status changes to closed
-#: NVDAHelper\__init__.py:582
+#: NVDAHelper\__init__.py:593
 msgid "IME closed"
 msgstr "输入法指示器已关闭"
 
 #. Translators: the label for an unknown language when switching input methods.
-#: NVDAHelper\__init__.py:619
+#: NVDAHelper\__init__.py:630
 msgid "unknown language"
 msgstr "未知语言"
 
 #. Translators: The label for an unknown input method when switching input methods.
-#: NVDAHelper\__init__.py:645
+#: NVDAHelper\__init__.py:656
 msgid "unknown input method"
 msgstr "未知输入法"
 
