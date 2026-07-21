@@ -1,33 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/customNotifications/4a3a3ed99688a926e327555b438c7438df13d0df/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/customNotifications/2fb3881dc58a51aa108dcd7d8d0d3f2b050a8640/readme.md">
     <skeleton>
-# $(ID:4b7c53c6-61e6-4539-87c4-0987672a778e)
-*	$(ID:155efd63-918f-49fc-bff2-1a9448a946df)
+# $(ID:8ae8aefa-8618-4731-a4f2-770da977f723)
+*	$(ID:e2972681-d611-41da-8bb0-f972bf2cacca)
 
-$(ID:b86746e2-403a-411f-898e-88b469a7af38)
+$(ID:6d83e83f-37bd-4966-b05b-edf7285b4dca)
 
-$(ID:04be66b8-e9e6-4dda-a492-3e6b700e87e1)
+$(ID:8e6fb5c1-976c-4f36-a424-91816a527be6)
 
-## $(ID:a7dfbbf2-056a-4fcb-95d5-fd5ffff39e89)
+## $(ID:e872555c-ec0b-4ffd-91e6-50bb15e4c3c7)
 
-$(ID:4331352c-d26d-485d-b86b-cf55d570ee52)
+$(ID:7ff3bea7-b64a-486b-bf27-8b3a2b37ebcf)
 
-* $(ID:c2198082-313d-4aff-af24-2e53dfd7ab05)
-* $(ID:ef5c6e13-190d-496f-853c-da32b52d98fc)
-* $(ID:b753ddef-1fe3-43cd-886c-ab8691b9f59d)
-* $(ID:37c4651f-a322-4fec-8b63-c6b7edb1d045)
-* $(ID:838baf3e-9043-4683-99f9-f9d93e495ded)
-* $(ID:9084fd5f-e923-41d2-bd19-8159acea4c76)
+* $(ID:1eeaef60-cd10-429e-8d6d-f57cada73a63)
+* $(ID:da780634-a746-4cc8-bcc9-fab1f97bf252)
+* $(ID:fa71cd86-4df6-4826-a46d-eac93d8884c0)
+* $(ID:ecbb1c67-447c-4948-a18b-f03d1e515fd9)
+* $(ID:b21b6617-97f4-42fc-b591-44088ed41080)
+* $(ID:d4d03f1a-928a-427c-b785-b12a29433db7)
 
-$(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
+$(ID:789732e8-e4f2-48f2-a76b-a26e911ce133)
 
-## $(ID:c48d3804-54c2-46f2-97d2-80890bdce25c)
+## $(ID:f4b8b486-6204-4bc1-aeb7-69c8e6dea8fd)
 
-* $(ID:536b11d9-6f82-4f9e-a82c-1d703d2b3ac2)
+* $(ID:fc56f97c-0790-4290-b457-7aecc81b7e4a)
 
 </skeleton>
-    <unit id="4b7c53c6-61e6-4539-87c4-0987672a778e">
+    <unit id="8ae8aefa-8618-4731-a4f2-770da977f723">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -37,7 +36,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>自定义通知 #</target>
       </segment>
     </unit>
-    <unit id="155efd63-918f-49fc-bff2-1a9448a946df">
+    <unit id="e2972681-d611-41da-8bb0-f972bf2cacca">
       <notes>
         <note appliesTo="source">line: 3</note>
         <note appliesTo="source">prefix: *	</note>
@@ -47,7 +46,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>作者: José Fischer, Noelia Ruiz Martínez</target>
       </segment>
     </unit>
-    <unit id="b86746e2-403a-411f-898e-88b469a7af38">
+    <unit id="6d83e83f-37bd-4966-b05b-edf7285b4dca">
       <notes>
         <note appliesTo="source">line: 5</note>
       </notes>
@@ -56,7 +55,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>该插件用于自定义toast通知.</target>
       </segment>
     </unit>
-    <unit id="04be66b8-e9e6-4dda-a492-3e6b700e87e1">
+    <unit id="8e6fb5c1-976c-4f36-a424-91816a527be6">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
@@ -65,7 +64,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>您可以选择阅读整个通知或仅阅读发送通知的应用程序，还可以配置单独使用语音或盲文，抑或同时用两者来呈现通知。</target>
       </segment>
     </unit>
-    <unit id="a7dfbbf2-056a-4fcb-95d5-fd5ffff39e89">
+    <unit id="e872555c-ec0b-4ffd-91e6-50bb15e4c3c7">
       <notes>
         <note appliesTo="source">line: 9</note>
         <note appliesTo="source">prefix: ## </note>
@@ -75,7 +74,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>设置 ##</target>
       </segment>
     </unit>
-    <unit id="4331352c-d26d-485d-b86b-cf55d570ee52">
+    <unit id="7ff3bea7-b64a-486b-bf27-8b3a2b37ebcf">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
@@ -84,7 +83,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>转到nvda的菜单、选项、设置，然后选择自定义通知类别，您将会看到以下设置:</target>
       </segment>
     </unit>
-    <unit id="c2198082-313d-4aff-af24-2e53dfd7ab05">
+    <unit id="1eeaef60-cd10-429e-8d6d-f57cada73a63">
       <notes>
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: * </note>
@@ -94,7 +93,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>一个名为截取通知的复选框,用于开关截取通知功能，默认状态为开启.</target>
       </segment>
     </unit>
-    <unit id="ef5c6e13-190d-496f-853c-da32b52d98fc">
+    <unit id="da780634-a746-4cc8-bcc9-fab1f97bf252">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: * </note>
@@ -104,7 +103,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>一个编辑框，用于键入一个或一系列字符，该字符会提示插件开始截取通知消息，默认情况下为空，被截取的通知消息并不包含该字符.</target>
       </segment>
     </unit>
-    <unit id="b753ddef-1fe3-43cd-886c-ab8691b9f59d">
+    <unit id="fa71cd86-4df6-4826-a46d-eac93d8884c0">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
@@ -114,7 +113,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>一个编辑框，用于键入一个或一系列字符，该字符会提示插件停止截取通知消息，默认情况下为", "(逗号空格),被截取的通知消息并不包含该字符.</target>
       </segment>
     </unit>
-    <unit id="37c4651f-a322-4fec-8b63-c6b7edb1d045">
+    <unit id="ecbb1c67-447c-4948-a18b-f03d1e515fd9">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
@@ -124,7 +123,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>一个复选框列表，用于选择通知显示模式，分为语音和盲文，默认情况下两者都处于选中状态.</target>
       </segment>
     </unit>
-    <unit id="838baf3e-9043-4683-99f9-f9d93e495ded">
+    <unit id="b21b6617-97f4-42fc-b591-44088ed41080">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
@@ -134,7 +133,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>一个编辑框，用于键入测试文本，可以通过发送这条测试消息以了解NVDA将如何呈现toast。</target>
       </segment>
     </unit>
-    <unit id="9084fd5f-e923-41d2-bd19-8159acea4c76">
+    <unit id="d4d03f1a-928a-427c-b785-b12a29433db7">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
@@ -144,7 +143,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>如果上一个编辑框包含文本，则显示一个测试按钮，以便您可以测试所选设置是否适合您。</target>
       </segment>
     </unit>
-    <unit id="fdb4733e-79e3-4c8b-8719-f95c03bb6e6a">
+    <unit id="789732e8-e4f2-48f2-a76b-a26e911ce133">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
@@ -153,7 +152,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>您可以从NVDA的菜单、选项子菜单、案件与首饰对话框、配置类别中，为该插件配置首饰，包括打开自定义通知的设置面板，切换自定义通知的各种功能开关。</target>
       </segment>
     </unit>
-    <unit id="c48d3804-54c2-46f2-97d2-80890bdce25c">
+    <unit id="f4b8b486-6204-4bc1-aeb7-69c8e6dea8fd">
       <notes>
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: ## </note>
@@ -163,7 +162,7 @@ $(ID:fdb4733e-79e3-4c8b-8719-f95c03bb6e6a)
         <target>2.0.0的更改 ##</target>
       </segment>
     </unit>
-    <unit id="536b11d9-6f82-4f9e-a82c-1d703d2b3ac2">
+    <unit id="fc56f97c-0790-4290-b457-7aecc81b7e4a">
       <notes>
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
