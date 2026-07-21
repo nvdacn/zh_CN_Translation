@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-20 09:31+0000\n"
+"POT-Creation-Date: 2026-07-21 03:30+0000\n"
 "PO-Revision-Date: 2026-07-18 16:37+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -16490,48 +16490,48 @@ msgid "&Disable selected add-ons"
 msgstr "禁用所选(&D)"
 
 #. Translators: Header (usually the add-on name) when add-ons are loading. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:38
+#: gui\addonStoreGui\controls\details.py:39
 msgctxt "addonStore"
 msgid "Loading add-ons..."
 msgstr "正在加载插件……"
 
 #. Translators: Header (usually the add-on name) when no add-on is selected. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:41
+#: gui\addonStoreGui\controls\details.py:42
 msgctxt "addonStore"
 msgid "No add-on selected."
 msgstr "未选择插件。"
 
 #. Translators: Label for the text control containing a description of the selected add-on.
 #. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:45
+#: gui\addonStoreGui\controls\details.py:46
 msgctxt "addonStore"
 msgid "Description:"
 msgstr "描述："
 
 #. Translators: Label for the text control containing a description of the selected add-on.
 #. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:49
+#: gui\addonStoreGui\controls\details.py:50
 msgctxt "addonStore"
 msgid "S&tatus:"
 msgstr "状态(&T)："
 
 #. Translators: Label for the text control containing a description of the selected add-on.
 #. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:53
+#: gui\addonStoreGui\controls\details.py:54
 msgctxt "addonStore"
 msgid "A&ctions"
 msgstr "操作(&C)"
 
 #. Translators: Label for the text control containing extra details about the selected add-on.
 #. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:146
+#: gui\addonStoreGui\controls\details.py:155
 msgctxt "addonStore"
 msgid "&Other Details:"
 msgstr "其他详情(&O)："
 
 #. Translators: Header (usually the add-on name) when multiple add-ons are selected.
 #. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:227
+#: gui\addonStoreGui\controls\details.py:261
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{num} add-on selected."
@@ -16539,109 +16539,109 @@ msgid_plural "{num} add-ons selected."
 msgstr[0] "{num} 个插件已选择。"
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:260
+#: gui\addonStoreGui\controls\details.py:294
 msgctxt "addonStore"
 msgid "Publisher:"
 msgstr "发布者："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:267
+#: gui\addonStoreGui\controls\details.py:301
 msgctxt "addonStore"
 msgid "Author:"
 msgstr "作者："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:273
+#: gui\addonStoreGui\controls\details.py:307
 msgctxt "addonStore"
 msgid "ID:"
 msgstr "ID："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:284
+#: gui\addonStoreGui\controls\details.py:318
 msgctxt "addonStore"
 msgid "Installed version:"
 msgstr "已安装版本："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:290
+#: gui\addonStoreGui\controls\details.py:324
 msgctxt "addonStore"
 msgid "Minimum NVDA version:"
 msgstr "NVDA 版本最低要求："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:296
+#: gui\addonStoreGui\controls\details.py:330
 msgctxt "addonStore"
 msgid "Last tested NVDA version:"
 msgstr "最后测试的 NVDA 版本："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:303
+#: gui\addonStoreGui\controls\details.py:337
 msgctxt "addonStore"
 msgid "Available version:"
 msgstr "可用版本："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:308
+#: gui\addonStoreGui\controls\details.py:342
 msgctxt "addonStore"
 msgid "Channel:"
 msgstr "通道："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:316
+#: gui\addonStoreGui\controls\details.py:350
 msgctxt "addonStore"
 msgid "Incompatible Reason:"
 msgstr "不兼容原因："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:324
+#: gui\addonStoreGui\controls\details.py:358
 msgctxt "addonStore"
 msgid "Homepage:"
 msgstr "主页："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:331
+#: gui\addonStoreGui\controls\details.py:365
 msgctxt "addonStore"
 msgid "License:"
 msgstr "许可证："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:337
+#: gui\addonStoreGui\controls\details.py:371
 msgctxt "addonStore"
 msgid "License URL:"
 msgstr "许可证网址："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:343
+#: gui\addonStoreGui\controls\details.py:377
 msgctxt "addonStore"
 msgid "Download URL:"
 msgstr "下载地址："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:349
+#: gui\addonStoreGui\controls\details.py:383
 msgctxt "addonStore"
 msgid "Source URL:"
 msgstr "来源："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:356
+#: gui\addonStoreGui\controls\details.py:390
 msgctxt "addonStore"
 msgid "Reviews URL:"
 msgstr "评论网址："
 
 #. Translators: Label for an extra detail field for the selected add-on in the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:365
+#: gui\addonStoreGui\controls\details.py:399
 msgctxt "addonStore"
 msgid "Install date:"
 msgstr "安装日期："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:373
+#: gui\addonStoreGui\controls\details.py:407
 msgctxt "addonStore"
 msgid "Publication date:"
 msgstr "发布日期："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:382
+#: gui\addonStoreGui\controls\details.py:416
 msgctxt "addonStore"
 msgid "VirusTotal scan results:"
 msgstr "VirusTotal 扫描结果："
@@ -16650,7 +16650,7 @@ msgstr "VirusTotal 扫描结果："
 #. {malicious} is the number of vendors that detected the add-on as malicious,
 #. {total} is the total number of vendors that scanned the add-on.
 #. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:389
+#: gui\addonStoreGui\controls\details.py:423
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -16663,7 +16663,7 @@ msgstr[0] ""
 "{total} 款恶意软件扫描引擎中的 {malicious} 款将此插件标记为潜在恶意软件。"
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:399
+#: gui\addonStoreGui\controls\details.py:433
 msgctxt "addonStore"
 msgid "VirusTotal scan URL:"
 msgstr "VirusTotal 扫描网址："
