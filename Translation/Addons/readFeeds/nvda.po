@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-05-04 00:51+0000\n"
-"PO-Revision-Date: 2026-06-29 04:16\n"
+"POT-Creation-Date: 2026-07-21 09:00+0000\n"
+"PO-Revision-Date: 2026-07-22 07:36\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -290,13 +290,19 @@ msgstr "复制当前文章的标题和相关链接到剪贴板。"
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:21
+#: buildVars.py:20
 msgid "Read Feeds"
 msgstr "Read Feeds"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:24
+#: buildVars.py:23
 msgid "Add-on for using NVDA as a feed reader."
 msgstr "一个提供给 NVDA 的 RSS 阅读器插件。"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:28
+msgid "* Compatible with NVDA 2026.1."
+msgstr ""
 
