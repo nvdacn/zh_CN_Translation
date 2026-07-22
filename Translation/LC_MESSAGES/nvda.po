@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-21 03:30+0000\n"
-"PO-Revision-Date: 2026-07-18 16:37+0800\n"
+"PO-Revision-Date: 2026-07-22 20:20+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -16452,12 +16452,9 @@ msgstr "更新所选(&U)"
 #. Translators: Label for an action that updates the selected add-ons,
 #. shown when the selection includes disabled add-ons, which updating re-enables.
 #: gui\addonStoreGui\controls\actions.py:230
-#, fuzzy
-#| msgctxt "addonStore"
-#| msgid "&Update selected add-ons"
 msgctxt "addonStore"
 msgid "&Update (and enable) selected add-ons"
-msgstr "更新所选(&U)"
+msgstr "更新并启用所选(&U)"
 
 #. Translators: Label for an action that retries the selected add-ons
 #: gui\addonStoreGui\controls\actions.py:240
@@ -16912,12 +16909,9 @@ msgstr "打开插件商店(&S)"
 #. Translators: The label of a button in a dialog that updates all add-ons,
 #. shown when the add-ons to update include disabled add-ons, which updating re-enables.
 #: gui\addonStoreGui\controls\messageDialogs.py:449
-#, fuzzy
-#| msgctxt "addonStore"
-#| msgid "&Update all"
 msgctxt "addonStore"
 msgid "&Update (and enable) all"
-msgstr "全部更新(&U)"
+msgstr "全部更新并启用(&U)"
 
 #. Translators: The label of a button in a dialog
 #: gui\addonStoreGui\controls\messageDialogs.py:452
@@ -17270,12 +17264,9 @@ msgstr "更新(&U)"
 #. Translators: Label for an action that updates the selected disabled or blocked addon,
 #. which also re-enables it.
 #: gui\addonStoreGui\viewModels\store.py:143
-#, fuzzy
-#| msgctxt "addonStore"
-#| msgid "Update Available"
 msgctxt "addonStore"
 msgid "&Update (and enable)"
-msgstr "可更新"
+msgstr "更新并启用(&U)"
 
 #. Translators: Label for an action that installs the selected addon
 #: gui\addonStoreGui\viewModels\store.py:152
@@ -17286,12 +17277,9 @@ msgstr "更新（忽略不兼容）(&U)"
 #. Translators: Label for an action that updates the selected disabled or blocked addon,
 #. which also re-enables it.
 #: gui\addonStoreGui\viewModels\store.py:163
-#, fuzzy
-#| msgctxt "addonStore"
-#| msgid "&Update (override incompatibility)"
 msgctxt "addonStore"
 msgid "&Update (and enable, override incompatibility)"
-msgstr "更新（忽略不兼容）(&U)"
+msgstr "更新并启用（忽略不兼容）(&U)"
 
 #. Translators: Label for an action that retries the selected addon
 #: gui\addonStoreGui\viewModels\store.py:173
