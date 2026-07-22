@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-07-21 09:00+0000\n"
-"PO-Revision-Date: 2026-07-22 20:10+0800\n"
-"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"PO-Revision-Date: 2026-07-22 12:24\n"
+"Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: readFeeds.pot\n"
 "X-Crowdin-File-ID: 232\n"
-"X-Generator: Poedit 3.9\n"
 
 #. Translators: message presented when feeds cannot be reported.
 #: addon\globalPlugins\readFeeds\__init__.py:48
@@ -125,11 +124,9 @@ msgstr "错误"
 #. Translators: the label of a message box dialog.
 #: addon\globalPlugins\readFeeds\__init__.py:380
 #, python-brace-format
-msgid ""
-"Do you want to copy feed address to the clipboard?\n"
+msgid "Do you want to copy feed address to the clipboard?\n"
 "{}"
-msgstr ""
-"您要将源地址复制到剪贴板吗？\n"
+msgstr "您要将源地址复制到剪贴板吗？\n"
 "{}"
 
 #. Translators: the title of a message box dialog.
@@ -202,12 +199,10 @@ msgstr "关于文章(&A)..."
 #. Translators: the label of a message box dialog.
 #: addon\globalPlugins\readFeeds\__init__.py:581
 #, python-brace-format
-msgid ""
-"{}\n"
+msgid "{}\n"
 "{}\n"
 "Do you want to copy article title and link to the clipboard?"
-msgstr ""
-"{}\n"
+msgstr "{}\n"
 "{}\n"
 "您要复制文章标题和链接到剪贴板吗？"
 
@@ -310,3 +305,4 @@ msgstr "一个提供给 NVDA 的 RSS 阅读器插件。"
 #: buildVars.py:28
 msgid "* Compatible with NVDA 2026.1."
 msgstr "* 与 NVDA 2026.1 兼容。"
+
