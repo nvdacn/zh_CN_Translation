@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-06-21 05:19+0000\n"
-"PO-Revision-Date: 2026-06-21 09:15\n"
+"POT-Creation-Date: 2026-07-24 07:30+0000\n"
+"PO-Revision-Date: 2026-07-24 07:32\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -18,19 +18,19 @@ msgstr ""
 "X-Crowdin-File-ID: 210\n"
 
 #. Translators: dialog title shown when trying to install the add-on on unsupported systems.
-#: addon\installTasks.py:24
+#: addon\installTasks.py:28
 msgid "Enhanced Touch Gestures install warning"
 msgstr "触摸屏手势增强安装警告"
 
 #. No touch hardware whatsoever
 #. Translators: dialog text shown when trying to install the add-on on unsupported systems.
-#: addon\installTasks.py:29
+#: addon\installTasks.py:33
 msgid "This device does not support touch interaction. A touch capable device is required to use add-on features."
 msgstr "此设备不支持触摸交互。需要具有触摸屏的设备才能使用插件功能。"
 
 #. Portable NVDA running on a touch capable hardware
 #. Translators: dialog text shown when trying to install the add-on on unsupported systems.
-#: addon\installTasks.py:33
+#: addon\installTasks.py:37
 msgid "You are using a portable copy of NVDA and the device supports touch interaction. NVDA must be installed to use add-on features."
 msgstr "您正在使用 NVDA 便携版，该设备支持触摸交互。必须安装 NVDA 才能使用插件功能。"
 
