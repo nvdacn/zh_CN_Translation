@@ -450,7 +450,10 @@ if %errorlevel% neq 0 (
   goto Quit
 )
 if /I "%Type%"=="LC_MESSAGES" (
-powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckPo.ps1" "%DownloadFilename%"
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckModifications.ps1" "%DownloadFilename%"
+)
+if /I "%FileName%"=="readme.xliff" (
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckModifications.ps1" "%DownloadFilename%"
 )
 if /I "%Action%"=="DownloadAndCommit" (goto Commit)
 exit /b 0
