@@ -268,6 +268,7 @@ if /I "%CLI:~2,1%"=="L" (
   set TranslationPath=%~dp0Translation\LC_MESSAGES
   set FileName=nvda.po
   set ShortName=nvda
+  set "CheckModifications=True"
 )
 if /I "%CLI:~2,1%"=="C" (
   set Type=Docs
@@ -449,10 +450,7 @@ if %errorlevel% neq 0 (
   Git restore "%GitAddPath%/%FileName%"
   goto Quit
 )
-if /I "%Type%"=="LC_MESSAGES" (
-powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckModifications.ps1" "%DownloadFilename%"
-)
-if /I "%FileName%"=="readme.xliff" (
+if /I "%CheckModifications%"=="True" (
 powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckModifications.ps1" "%DownloadFilename%"
 )
 if /I "%Action%"=="DownloadAndCommit" (goto Commit)
@@ -533,7 +531,6 @@ if %errorlevel% neq 0 (
   goto Quit
 )
 if /I "%CLI:~2,1%"=="P" (
-  set Type=LC_MESSAGES
   set CrowdinFilePath=%AddonName%.pot
   set FileName=nvda.po
 )
@@ -544,10 +541,12 @@ if /I "%CLI:~2,1%"=="X" (
   set "MarkdownFile=%AddonName%.md"
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
+set "CheckModifications=True"
 if /I "%CLI:~2,1%"=="M" (
   set CrowdinFilePath=%AddonName%.md
   set FileName=%AddonName%.md
   set TranslationPath=%~dp0ProcessTranslation\Markdown
+  set "CheckModifications=False"
 )
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
 set GitAddPath=Translation/Addons/%AddonName%
