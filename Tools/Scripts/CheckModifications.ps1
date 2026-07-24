@@ -39,14 +39,14 @@ if (-not $diffOutput) {
 # 逐行分析 diff 输出  
 foreach ($line in $diffOutput -split "`n") {
     if (($line.StartsWith("+") -or $line.StartsWith("-")) -and (-not $line.StartsWith("+++")) -and (-not $line.StartsWith("---"))) {
-        $isAllowedLine = $false
+        $patternNotFound = $true
         foreach ($pattern in $checkPatterns) {
             if ($line -match $pattern) {
-                $isAllowedLine = $true
+                $patternNotFound = $false
                 break
             }
         }
-        if (-not $isAllowedLine) {
+        if ($patternNotFound) {
             $shouldRevert = $false
             break
         }
