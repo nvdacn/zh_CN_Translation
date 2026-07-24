@@ -1,3 +1,6 @@
+# CheckModifications.ps1
+# Usage: powershell -File CheckModifications.ps1 <File>
+
 param(
     [Parameter(Mandatory=$true, HelpMessage="The path to the file to be checked")]
     [string]$file
