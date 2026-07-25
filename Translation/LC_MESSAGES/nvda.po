@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-24 08:38+0000\n"
-"PO-Revision-Date: 2026-07-22 20:20+0800\n"
+"PO-Revision-Date: 2026-07-25 14:33+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6800,11 +6800,9 @@ msgstr[0] "{numFingers}指{action}"
 
 #. Translators: Message spoken when a touch gesture is blocked because touch input is disabled.
 #: touchHandler.py:537
-#, fuzzy
-#| msgid "Touch interaction disabled"
 msgctxt "touchHandler"
 msgid "Touch input is blocked."
-msgstr "禁用触摸模式"
+msgstr "触摸输入已被阻止。"
 
 #. Translators: a very quick touch and release of a finger on a touch screen
 #: touchTracker.py:54
@@ -21297,27 +21295,25 @@ msgstr "无法开启放大镜：请先关闭黑屏。"
 msgctxt "magnifier"
 msgid ""
 "Touch screen input cannot be used because NVDA touch support is disabled. "
-msgstr ""
+msgstr "由于 NVDA 触摸支持已被禁用，无法使用触摸屏输入。"
 
 #. Translators: Warning when the magnifier starts on a portable/source copy with a touchscreen.
 #: _magnifier\magnifier.py:234
 msgctxt "magnifier"
 msgid "Touch screen input cannot be used because NVDA is not installed. "
-msgstr ""
+msgstr "由于 NVDA 尚未安装，无法使用触摸屏输入。"
 
 #. Translators: Suffix appended to touch warning when touch inputs cannot be blocked by the magnifier.
 #: _magnifier\magnifier.py:242
 msgctxt "magnifier"
 msgid "Touch inputs may not behave as expected while the magnifier is running."
-msgstr ""
+msgstr "在放大镜运行期间，触摸输入可能无法按预期工作。"
 
 #. Translators: Title of the warning dialog shown when touch cannot be intercepted while the magnifier is running.
 #: _magnifier\magnifier.py:247
-#, fuzzy
-#| msgid "Touch screen"
 msgctxt "magnifier"
 msgid "Touch Screen Warning"
-msgstr "触摸屏"
+msgstr "触摸屏警告"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
 #: _magnifier\magnifier.py:378
