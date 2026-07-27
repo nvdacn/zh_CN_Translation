@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 08:38+0000\n"
+"POT-Creation-Date: 2026-07-27 10:06+0000\n"
 "PO-Revision-Date: 2026-07-25 14:33+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -16038,7 +16038,9 @@ msgstr "颜色滤镜(&I)："
 
 #. Translators: The label for a setting in magnifier settings to select whether true center tracking is used
 #: gui\settingsDialogs.py:6195
-msgid "&True center tracking"
+#, fuzzy
+#| msgid "&True center tracking"
+msgid "T&rue center tracking"
 msgstr "保持跟踪元素居中(&T)"
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
@@ -16075,7 +16077,9 @@ msgstr "跟踪导航对象(&N)"
 
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6272
-msgid "Tracking &mode:"
+#, fuzzy
+#| msgid "Tracking &mode:"
+msgid "&Tracking mode:"
 msgstr "跟踪模式(&M)："
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
@@ -16284,7 +16288,7 @@ msgstr "字典项目(&D)"
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 #. Translators: title for Word comment dialog.
 #: gui\speechDict.py:188 NVDAObjects\IAccessible\winword.py:375
-#: NVDAObjects\UIA\wordDocument.py:843
+#: NVDAObjects\UIA\wordDocument.py:903
 msgid "Comment"
 msgstr "注释"
 
@@ -18077,7 +18081,7 @@ msgid ""
 msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式下显示该信息。"
 
 #. Translators: a message when there is no comment to report in Microsoft Word
-#: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:847
+#: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:907
 msgid "No comments"
 msgstr "无批注"
 
@@ -18341,12 +18345,12 @@ msgid "Comment: {comment} by {author} on {date}"
 msgstr "批注： {comment} 由 {author} 创建于 {date}"
 
 #. Translators: a message when navigating by sentence is unavailable in MS Word
-#: NVDAObjects\UIA\wordDocument.py:802
+#: NVDAObjects\UIA\wordDocument.py:864
 msgid "Navigating by sentence not supported in this document"
 msgstr "当前文档不支持句子导航"
 
 #. Translators: a description for a script that reports the comment at the caret.
-#: NVDAObjects\UIA\wordDocument.py:825
+#: NVDAObjects\UIA\wordDocument.py:885
 msgid ""
 "Reports the text of the comment where the system caret is located. If "
 "pressed twice, presents the information in a browsable message"
@@ -18354,7 +18358,7 @@ msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
-#: NVDAObjects\UIA\wordDocument.py:856
+#: NVDAObjects\UIA\wordDocument.py:916
 msgid ""
 "Command not supported in this type of document. The tables have their first "
 "row cells automatically set as column headers."
@@ -18362,7 +18366,7 @@ msgstr "此类文档不支持的命令。表格的第一行单元格将被自动
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
-#: NVDAObjects\UIA\wordDocument.py:867
+#: NVDAObjects\UIA\wordDocument.py:927
 msgid ""
 "Command not supported in this type of document. The tables have their first "
 "column cells automatically set as row headers."
