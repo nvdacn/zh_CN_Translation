@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 10:06+0000\n"
+"POT-Creation-Date: 2026-07-28 03:22+0000\n"
 "PO-Revision-Date: 2026-07-25 14:33+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1794,7 +1794,7 @@ msgstr "未选择文本"
 #. Translators: Abbreviation for points, a measurement of font size.
 #: displayModel.py:562 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
-#: NVDAObjects\UIA\__init__.py:196 NVDAObjects\window\edit.py:347
+#: NVDAObjects\UIA\__init__.py:199 NVDAObjects\window\edit.py:347
 #: NVDAObjects\window\edit.py:710 NVDAObjects\window\excel.py:1373
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1285
 #: virtualBuffers\adobeAcrobat.py:83
@@ -4734,9 +4734,9 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: Message shown when trying to copy the link to connect to the remote computer while not connected.
 #. Translators: Message shown when attempting to send control+alt+delete when no session is connected.
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:5493 _remoteClient\client.py:136
-#: _remoteClient\client.py:163 _remoteClient\client.py:185
-#: _remoteClient\client.py:201 _remoteClient\client.py:581
+#: globalCommands.py:5493 _remoteClient\client.py:137
+#: _remoteClient\client.py:164 _remoteClient\client.py:186
+#: _remoteClient\client.py:202 _remoteClient\client.py:611
 msgctxt "remote"
 msgid "Not connected"
 msgstr "未连接"
@@ -18093,25 +18093,25 @@ msgid "Not in table"
 msgstr "不在表格中"
 
 #. Translators: a measurement in inches
-#: NVDAObjects\UIA\__init__.py:458
+#: NVDAObjects\UIA\__init__.py:461
 #, python-brace-format
 msgid "{val:.2f} in"
 msgstr "{val:.2f} 英寸"
 
 #. Translators: a measurement in centimetres
-#: NVDAObjects\UIA\__init__.py:463
+#: NVDAObjects\UIA\__init__.py:466
 #, python-brace-format
 msgid "{val:.2f} cm"
 msgstr "{val:.2f} 厘米"
 
-#: NVDAObjects\UIA\__init__.py:2333
+#: NVDAObjects\UIA\__init__.py:2349
 msgid "invoke"
 msgstr "启用"
 
 #. Translators: message noting the number of suggestions that are available,
 #. for example in the Windows 11 Start Menu.
 #. {num} will be replaced with the number of suggestions
-#: NVDAObjects\UIA\__init__.py:2790
+#: NVDAObjects\UIA\__init__.py:2845
 #, python-brace-format
 msgid "{num} suggestion"
 msgid_plural "{num} suggestions"
@@ -21520,63 +21520,72 @@ msgstr "反转"
 #. Translators: Presented when attempting to mute or unmute Remote Access when connected as the controlled computer.
 #. Translators: Presented when attempting to send control+alt+delete when connected as the controlled computer.
 #. Translators: Presented when attempting to switch to controling a remote computer when connected as the controlled computer.
-#: _remoteClient\client.py:140 _remoteClient\client.py:204
-#: _remoteClient\client.py:585
+#: _remoteClient\client.py:141 _remoteClient\client.py:205
+#: _remoteClient\client.py:615
 msgctxt "remote"
 msgid "Not the controlling computer"
 msgstr "非主控计算机"
 
 #. Translators: Displayed when muting speech and sounds from the remote computer
-#: _remoteClient\client.py:144
+#: _remoteClient\client.py:145
 msgid "Muted remote"
 msgstr "远程静音"
 
 #. Translators: Displayed when unmuting speech and sounds from the remote computer
-#: _remoteClient\client.py:146
+#: _remoteClient\client.py:147
 msgid "Unmuted remote"
 msgstr "取消远程静音"
 
 #. Translators: Reported when performing a Remote Access action, but there are no other computers in the channel.
-#: _remoteClient\client.py:167
+#: _remoteClient\client.py:168
 msgctxt "remote"
 msgid "No one else is connected"
 msgstr "当前无其他用户连接"
 
 #. Translators: Message shown when clipboard content cannot be sent to the remote computer.
-#: _remoteClient\client.py:175
+#: _remoteClient\client.py:176
 msgctxt "remote"
 msgid "Unable to send clipboard"
 msgstr "无法发送剪贴板"
 
 #. Translators: A message indicating that a link has been copied to the clipboard.
-#: _remoteClient\client.py:190
+#: _remoteClient\client.py:191
 msgid "Copied link"
 msgstr "复制链接"
 
 #. Translators: Title of the Remote Access disconnection confirmation dialog.
-#: _remoteClient\client.py:245
+#: _remoteClient\client.py:246
 msgctxt "remote"
 msgid "Confirm Disconnection"
 msgstr "确认断开连接"
 
 #. Translators: Message shown when disconnecting from the remote computer.
-#: _remoteClient\client.py:249
+#: _remoteClient\client.py:250
 msgctxt "remote"
 msgid "Are you sure you want to disconnect from the Remote Access session?"
 msgstr "您确定要断开远程访问会话的连接吗？"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:316
+#: _remoteClient\client.py:317
 msgid "Error Connecting"
 msgstr "连接错误"
 
 #. Translators: Message shown when unable to connect to the remote computer.
-#: _remoteClient\client.py:318
+#: _remoteClient\client.py:319
 msgid "Unable to connect to the remote computer"
 msgstr "无法连接到远程计算机"
 
+#. Translators: Reported when connecting as the controlled computer fails.
+#. NVDA will keep trying to connect in the background.
+#: _remoteClient\client.py:346
+#, fuzzy
+#| msgid "Unable to connect to the remote computer"
+msgctxt "remote"
+msgid "Unable to connect to the Remote Access server. Retrying"
+msgstr "无法连接到远程计算机"
+
 #. Translators: Message shown when trying to connect while already connected.
-#: _remoteClient\client.py:341 _remoteClient\client.py:690
+#: _remoteClient\client.py:369 _remoteClient\client.py:720
 msgctxt "remote"
 msgid ""
 "A Remote Access session is already in progress. Disconnect before starting a "
@@ -21584,42 +21593,42 @@ msgid ""
 msgstr "远程访问会话已在进行中。开始新会话前请先断开连接。"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:344 _remoteClient\client.py:693
+#: _remoteClient\client.py:372 _remoteClient\client.py:723
 msgctxt "remote"
 msgid "Already Connected"
 msgstr "已连接"
 
 #. Translators: Title of the Remote Access connection dialog.
-#: _remoteClient\client.py:355
+#: _remoteClient\client.py:383
 msgctxt "remote"
 msgid "Connect to Another Computer"
 msgstr "连接到另一台计算机"
 
 #. Translators: Presented when connected to the remote computer.
-#: _remoteClient\client.py:402
+#: _remoteClient\client.py:430
 msgid "Connected"
 msgstr "已连接"
 
 #. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
-#: _remoteClient\client.py:589
+#: _remoteClient\client.py:619
 msgctxt "remote"
 msgid "No controlled computers are connected"
 msgstr "被控计算机未连接"
 
 #. Translators: Presented when keyboard control is back to the controlling computer.
-#: _remoteClient\client.py:603
+#: _remoteClient\client.py:633
 msgctxt "remote"
 msgid "Controlling local computer"
 msgstr "控制本地计算机"
 
 #. Translators: Presented when sending keyboard keys from the controlling computer to the controlled computer.
-#: _remoteClient\client.py:618
+#: _remoteClient\client.py:648
 msgctxt "remote"
 msgid "Controlling remote computer"
 msgstr "控制远程计算机"
 
 #. Translators: Ask the user if they want to control the remote computer.
-#: _remoteClient\client.py:708
+#: _remoteClient\client.py:738
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to control the computer on server {server} with key {key}?"
@@ -21628,7 +21637,7 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
-#: _remoteClient\client.py:714
+#: _remoteClient\client.py:744
 #, python-brace-format
 msgctxt "remote"
 msgid ""
@@ -21639,7 +21648,7 @@ msgstr ""
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
-#: _remoteClient\client.py:720
+#: _remoteClient\client.py:750
 msgctxt "remote"
 msgid "Remote Access Connection Request"
 msgstr "远程访问连接请求"
