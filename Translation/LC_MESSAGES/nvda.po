@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-28 03:22+0000\n"
-"PO-Revision-Date: 2026-07-25 14:33+0800\n"
+"PO-Revision-Date: 2026-07-28 12:56+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -21578,11 +21578,9 @@ msgstr "无法连接到远程计算机"
 #. Translators: Reported when connecting as the controlled computer fails.
 #. NVDA will keep trying to connect in the background.
 #: _remoteClient\client.py:346
-#, fuzzy
-#| msgid "Unable to connect to the remote computer"
 msgctxt "remote"
 msgid "Unable to connect to the Remote Access server. Retrying"
-msgstr "无法连接到远程计算机"
+msgstr "无法连接到远程访问服务器。正在重试"
 
 #. Translators: Message shown when trying to connect while already connected.
 #: _remoteClient\client.py:369 _remoteClient\client.py:720
