@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 03:22+0000\n"
+"POT-Creation-Date: 2026-07-28 08:48+0000\n"
 "PO-Revision-Date: 2026-07-28 12:56+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -4453,81 +4453,81 @@ msgstr "开始与数学内容交互"
 
 #. Translators: Reported when the user attempts math interaction
 #. with something that isn't math.
-#: globalCommands.py:4832
+#: globalCommands.py:4840
 msgid "Not math"
 msgstr "无数学内容"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4838
+#: globalCommands.py:4846
 msgid "Recognizes the content of the current navigator object with Windows OCR"
 msgstr "使用 Windows OCR 识别当前导航对象的内容"
 
 #. Translators: Reported when Windows OCR is not available.
-#: globalCommands.py:4844 globalCommands.py:4865 globalCommands.py:4886
+#: globalCommands.py:4852 globalCommands.py:4873 globalCommands.py:4894
 msgid "Windows OCR not available"
 msgstr "Windows OCR 不可用"
 
 #. Translators: Reported when screen curtain is enabled.
-#: globalCommands.py:4851
+#: globalCommands.py:4859
 msgid "Please disable screen curtain before using Windows OCR."
 msgstr "使用 Windows OCR 之前，请先关闭黑屏。"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4860
+#: globalCommands.py:4868
 msgid "Cycles through the available languages for Windows OCR"
 msgstr "在 Windows OCR 的可选语言之间切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4881
+#: globalCommands.py:4889
 msgid "Toggle periodical refresh of a Windows OCR result"
 msgstr "切换定期刷新 Windows OCR 结果的开关"
 
 #. Translators: The message announced when toggling automatic refresh of recognized content
-#: globalCommands.py:4892
+#: globalCommands.py:4900
 msgid "Automatic refresh enabled"
 msgstr "启用自动刷新"
 
 #. Translators: The message announced when toggling automatic refresh of recognized content
-#: globalCommands.py:4894
+#: globalCommands.py:4902
 msgid "Automatic refresh disabled"
 msgstr "禁用自动刷新"
 
 #. Translators: Input help mode message for toggle report CLDR command.
-#: globalCommands.py:4904
+#: globalCommands.py:4912
 msgid "Toggles on and off the reporting of CLDR characters, such as emojis"
 msgstr "切换读出 CLDR 字符的开关，（例如读出表情符号）"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4913
+#: globalCommands.py:4921
 msgid "report CLDR characters off"
 msgstr "不读 CLDR 字符"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4917
+#: globalCommands.py:4925
 msgid "report CLDR characters on"
 msgstr "读出 CLDR 字符"
 
 #. Translators: Input help mode message for speech Unicode normalization command.
-#: globalCommands.py:4925
+#: globalCommands.py:4933
 msgid "Cycle through the speech Unicode normalization states"
 msgstr "在语音 Unicode 规范化状态之间循环切换"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (default behavior).
-#: globalCommands.py:4940
+#: globalCommands.py:4948
 #, python-brace-format
 msgid "Speech Unicode normalization default ({default})"
 msgstr "语音 Unicode 规范化 默认（{default}）"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (disabled or enabled).
-#: globalCommands.py:4946
+#: globalCommands.py:4954
 #, python-brace-format
 msgid "Speech Unicode normalization {state}"
 msgstr "语音 Unicode 规范化 {state}"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4958
+#: globalCommands.py:4966
 msgid ""
 "Toggles the state of the screen curtain, enable to make the screen black or "
 "disable to show the contents of the screen. Pressed once, screen curtain is "
@@ -4538,147 +4538,147 @@ msgstr ""
 "屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
 
 #. Translators: Reported when the screen curtain is not available.
-#: globalCommands.py:4971 globalCommands.py:5100
+#: globalCommands.py:4979 globalCommands.py:5108
 msgid "Screen curtain not available"
 msgstr "黑屏不可用"
 
 #. Translators: Reported when the screen curtain is disabled.
-#: globalCommands.py:5017 globalCommands.py:5115
+#: globalCommands.py:5025 globalCommands.py:5123
 msgid "Screen curtain disabled"
 msgstr "关闭黑屏"
 
 #. Translators: Reported when the screen curtain could not be enabled.
-#: globalCommands.py:5024
+#: globalCommands.py:5032
 msgid "Could not disable screen curtain"
 msgstr "不能关闭黑屏"
 
 #. Translators: Reported when the screen curtain is enabled.
-#: globalCommands.py:5039 globalCommands.py:5112
+#: globalCommands.py:5047 globalCommands.py:5120
 msgid "Screen curtain enabled"
 msgstr "开启黑屏"
 
 #. Translators: Reported when the screen curtain is temporarily enabled.
-#: globalCommands.py:5042 globalCommands.py:5107
+#: globalCommands.py:5050 globalCommands.py:5115
 msgid "Temporary Screen curtain, enabled until next restart"
 msgstr "开启临时黑屏，重启 NVDA 后恢复"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5090
+#: globalCommands.py:5098
 msgid "Reports the state of the screen curtain."
 msgstr "读出黑屏的状态"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5120
+#: globalCommands.py:5128
 msgid "Toggle the magnifier on and off"
 msgstr "切换放大镜的开关"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5134
+#: globalCommands.py:5142
 msgid "Increase the magnification level"
 msgstr "提高放大级别"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5148
+#: globalCommands.py:5156
 msgid "Decrease the magnification level"
 msgstr "降低放大级别"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5162
+#: globalCommands.py:5170
 msgid "Pan the magnified view left"
 msgstr "左移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5176
+#: globalCommands.py:5184
 msgid "Pan the magnified view right"
 msgstr "右移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5190
+#: globalCommands.py:5198
 msgid "Pan the magnified view up"
 msgstr "上移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5204
+#: globalCommands.py:5212
 msgid "Pan the magnified view down"
 msgstr "下移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5218
+#: globalCommands.py:5226
 msgid "Pan the magnified view to left edge"
 msgstr "平移放大视图到左边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5232
+#: globalCommands.py:5240
 msgid "Pan the magnified view to right edge"
 msgstr "平移放大视图到右边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5246
+#: globalCommands.py:5254
 msgid "Pan the magnified view to top edge"
 msgstr "平移放大视图到顶边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5260
+#: globalCommands.py:5268
 msgid "Pan the magnified view to bottom edge"
 msgstr "平移放大视图到底边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5274
+#: globalCommands.py:5282
 msgid "Moves the mouse cursor to the center of the magnified view"
 msgstr "将鼠标光标移动到放大视图的中心"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5287
+#: globalCommands.py:5295
 msgid "Cycle through the color filters"
 msgstr "循环切换颜色滤镜"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5301
+#: globalCommands.py:5309
 msgid "Toggle magnifier mouse tracking"
 msgstr "切换放大镜是否跟踪鼠标"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5314
+#: globalCommands.py:5322
 msgid "Toggle magnifier system focus tracking"
 msgstr "切换放大镜是否跟踪系统焦点"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5327
+#: globalCommands.py:5335
 msgid "Toggle magnifier review cursor tracking"
 msgstr "切换放大镜是否跟踪查看光标"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5340
+#: globalCommands.py:5348
 msgid "Toggle magnifier navigator object tracking"
 msgstr "切换放大镜是否跟踪导航对象"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5353
+#: globalCommands.py:5361
 msgid "Toggle all magnifier tracking settings"
 msgstr "切换放大镜的跟踪设置"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5366
+#: globalCommands.py:5374
 msgid "Cycle through tracking modes"
 msgstr "循环切换跟踪模式"
 
 #. Translators: Describe a command.
-#: globalCommands.py:5379
+#: globalCommands.py:5387
 msgid "Temporarily show an overview of the entire screen"
 msgstr "暂时显示全屏概览"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5393
+#: globalCommands.py:5401
 msgid "Cycles through paragraph navigation styles"
 msgstr "在段落导航模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5407
+#: globalCommands.py:5415
 msgid "Cycles through sound split modes"
 msgstr "在声音拆分模式之间循环切换"
 
 #. Translators: Input help mode message for report language for caret command.
-#: globalCommands.py:5419
+#: globalCommands.py:5427
 msgctxt "reportLanguage"
 msgid ""
 "Reports the language for the text under the caret. If pressed twice, "
@@ -4686,44 +4686,44 @@ msgid ""
 msgstr "读出光标处文本的语言。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Reported when the language of the text at caret is not defined.
-#: globalCommands.py:5434
+#: globalCommands.py:5442
 msgctxt "reportLanguage"
 msgid "Unknown language"
 msgstr "未知语言"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
-#: globalCommands.py:5445
+#: globalCommands.py:5453
 #, python-brace-format
 msgctxt "reportLanguage"
 msgid "{languageDescription} (not supported)"
 msgstr "{languageDescription}（不支持）"
 
 #. Translators: title for report caret language dialog.
-#: globalCommands.py:5454
+#: globalCommands.py:5462
 msgctxt "reportLanguage"
 msgid "Language at caret position"
 msgstr "光标处文本的语言"
 
 #. Translators: Documentation string for the script that toggles whether the output from the remote computer is muted.
-#: globalCommands.py:5459
+#: globalCommands.py:5467
 msgctxt "remote"
 msgid "Mutes or unmutes the speech coming from the remote computer"
 msgstr "静音或恢复来自远程计算机的语音"
 
 #. Translators: Documentation string for the script that sends the contents of the clipboard to the remote computer.
-#: globalCommands.py:5469
+#: globalCommands.py:5477
 msgctxt "remote"
 msgid "Sends the contents of the clipboard to the remote computer"
 msgstr "发送剪贴板的内容到远程计算机"
 
 #. Translators: Documentation string for the script that copies a link to the Remote Access session to the clipboard.
-#: globalCommands.py:5477
+#: globalCommands.py:5485
 msgctxt "remote"
 msgid "Copies a link to the current Remote Access session to the clipboard"
 msgstr "将当前远程访问会话的链接复制到剪贴板"
 
 #. Translators: Documentation string for the script that disconnects a Remote Access session.
-#: globalCommands.py:5487
+#: globalCommands.py:5495
 msgctxt "remote"
 msgid "Disconnects from the current Remote Access session"
 msgstr "断开与当前远程访问会话的连接"
@@ -4734,7 +4734,7 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: Message shown when trying to copy the link to connect to the remote computer while not connected.
 #. Translators: Message shown when attempting to send control+alt+delete when no session is connected.
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:5493 _remoteClient\client.py:137
+#: globalCommands.py:5501 _remoteClient\client.py:137
 #: _remoteClient\client.py:164 _remoteClient\client.py:186
 #: _remoteClient\client.py:202 _remoteClient\client.py:611
 msgctxt "remote"
@@ -4742,62 +4742,62 @@ msgid "Not connected"
 msgstr "未连接"
 
 #. Translators: Documentation string for the script that starts a new Remote Access session.
-#: globalCommands.py:5499
+#: globalCommands.py:5507
 msgctxt "remote"
 msgid "Connects to a remote computer"
 msgstr "连接到远程计算机"
 
 #. Translators: A message indicating that the remote client is already connected.
-#: globalCommands.py:5510
+#: globalCommands.py:5518
 msgid "Already connected"
 msgstr "已连接"
 
 #. Translators: Describes the script that creates a new Remote Access session, or disconnects it if one already exists.
-#: globalCommands.py:5516
+#: globalCommands.py:5524
 msgctxt "remote"
 msgid "Toggles whether Remote Access is connected"
 msgstr "切换远程访问的连接状态"
 
 #. Translators: Documentation string for the script that toggles the control between guest and host computers.
-#: globalCommands.py:5531
+#: globalCommands.py:5539
 msgctxt "remote"
 msgid "Switches whether the keyboard controls the local or remote computer"
 msgstr "切换键盘要控制的计算机（本地或远程）"
 
 #. Translators: Documentation string for the script that sends alt+ctrl+del to the remote computer
-#: globalCommands.py:5544
+#: globalCommands.py:5552
 msgctxt "remote"
 msgid "Sends control+alt+delete to the controlled computer."
 msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 
 #. Translators: Description for the repeat last speech script
-#: globalCommands.py:5555
+#: globalCommands.py:5563
 msgid ""
 "Repeat the last spoken information. Pressing twice shows it in a browsable "
 "message."
 msgstr "重复上次朗读的内容。连按两次在浏览模式下显示该信息。"
 
 #. Translators: title for report last spoken information dialog.
-#: globalCommands.py:5573
+#: globalCommands.py:5581
 msgid "Last spoken information"
 msgstr "上次朗读的内容"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5609
+#: globalCommands.py:5617
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5614
+#: globalCommands.py:5622
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5619
+#: globalCommands.py:5627
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -4805,7 +4805,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5635
+#: globalCommands.py:5643
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -17402,85 +17402,94 @@ msgid "Could not disable the add-on: {addon}."
 msgstr "无法禁用插件：{addon}"
 
 #. Translators: Describes a command.
-#: mathPres\__init__.py:141
+#: mathPres\__init__.py:178
 msgid "Exit math interaction"
 msgstr "退出 math 交互"
 
 #. Translators: Reported when the user attempts math interaction
 #. but math interaction is not supported.
-#: mathPres\__init__.py:189
+#: mathPres\__init__.py:230
 msgid "Math interaction not supported."
 msgstr "Math 交互不被支持。"
 
 #. Translators: this message reports an error in starting navigation of math.
-#: mathPres\MathCAT\MathCAT.py:107
+#: mathPres\MathCAT\MathCAT.py:126
 msgctxt "math"
 msgid "Error in starting navigation of math."
 msgstr "启动数学导航时出错。"
 
 #. Translators: this message alerts users to an error in brailling math.
-#: mathPres\MathCAT\MathCAT.py:122
+#: mathPres\MathCAT\MathCAT.py:184
 msgctxt "math"
 msgid "Error in brailling math: see NVDA error log for details"
 msgstr "输出数学盲文时出错：详情请参见 NVDA 错误日志"
 
 #. Translators: this message alerts users to an error in navigating math.
-#: mathPres\MathCAT\MathCAT.py:138
+#: mathPres\MathCAT\MathCAT.py:200
 msgctxt "math"
 msgid "Error in navigating math"
 msgstr "导航数学内容时出错"
 
 #. Translators: this message alerts users to an error brailling math.
-#: mathPres\MathCAT\MathCAT.py:161
+#: mathPres\MathCAT\MathCAT.py:226
 msgctxt "math"
 msgid "Error in brailling math"
 msgstr "输出数学盲文时出错"
 
 #. Translators: Message to be announced during Keyboard Help
-#: mathPres\MathCAT\MathCAT.py:182
+#: mathPres\MathCAT\MathCAT.py:247
 msgid "Copy navigation focus to clipboard"
 msgstr "将导航焦点复制到剪贴板"
 
 #. Translators: Name of the section in "Input gestures" dialog.
-#: mathPres\MathCAT\MathCAT.py:184
+#: mathPres\MathCAT\MathCAT.py:249
 msgid "Clipboard"
 msgstr "剪贴板"
 
 #. Translators: copy to clipboard
-#: mathPres\MathCAT\MathCAT.py:230
+#: mathPres\MathCAT\MathCAT.py:295
 msgctxt "math"
 msgid "copy as "
 msgstr "复制为 "
 
 #. Translators: this message directs users to look in the log file
-#: mathPres\MathCAT\MathCAT.py:331
+#: mathPres\MathCAT\MathCAT.py:395
 msgctxt "math"
 msgid "Error navigating math"
 msgstr "数学导航出错"
 
 #. Translators: this message reports when invalid math is found.
-#: mathPres\MathCAT\MathCAT.py:354
+#: mathPres\MathCAT\MathCAT.py:418
 msgctxt "math"
 msgid "Invalid math formatting found"
 msgstr "发现无效的数学格式"
 
 #. Translators: this message reports an error in speaking math.
-#: mathPres\MathCAT\MathCAT.py:381
+#: mathPres\MathCAT\MathCAT.py:445
 msgctxt "math"
 msgid "Error in speaking math."
 msgstr "朗读数学内容时出错。"
 
 #. Translators: this message reports illegal MathML.
-#: mathPres\MathCAT\MathCAT.py:406
+#: mathPres\MathCAT\MathCAT.py:470
 msgctxt "math"
 msgid "Illegal MathML found."
 msgstr "发现非法的 MathML。"
 
 #. Translators: this message reports an error in brailling math.
-#: mathPres\MathCAT\MathCAT.py:413
+#: mathPres\MathCAT\MathCAT.py:477
 msgctxt "math"
 msgid "Error in brailling math."
 msgstr "输出数学盲文时出错。"
+
+#. Translators: this message reports illegal MathML.
+#: mathPres\MathCAT\MathCAT.py:498
+#, fuzzy
+#| msgctxt "math"
+#| msgid "Illegal MathML found."
+msgctxt "math"
+msgid "Invalid MathML found."
+msgstr "发现非法的 MathML。"
 
 #. Translators: {lang} is the name of the language in that language,
 #. and {code} is the code for that language variant,
