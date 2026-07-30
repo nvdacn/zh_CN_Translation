@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-30 05:51+0000\n"
-"PO-Revision-Date: 2026-07-30 18:49+0800\n"
+"PO-Revision-Date: 2026-07-30 19:18+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4775,12 +4775,12 @@ msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 msgid ""
 "Repeat the last spoken information. Pressing twice shows it in a browsable "
 "message."
-msgstr "重复上次朗读的内容。连按两次在浏览模式下显示该信息。"
+msgstr "重复最后朗读的内容。连按两次在浏览模式下显示该信息。"
 
 #. Translators: title for report last spoken information dialog.
 #: globalCommands.py:5582
 msgid "Last spoken information"
-msgstr "上次朗读的内容"
+msgstr "最后朗读的内容"
 
 #. Translators: Input help mode message for the command to copy the last spoken information.
 #: globalCommands.py:5588
@@ -16054,10 +16054,8 @@ msgstr "颜色滤镜(&I)："
 
 #. Translators: The label for a setting in magnifier settings to select whether true center tracking is used
 #: gui\settingsDialogs.py:6195
-#, fuzzy
-#| msgid "&True center tracking"
 msgid "T&rue center tracking"
-msgstr "保持跟踪元素居中(&T)"
+msgstr ""
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
 #: gui\settingsDialogs.py:6209
@@ -16093,10 +16091,8 @@ msgstr "跟踪导航对象(&N)"
 
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6272
-#, fuzzy
-#| msgid "Tracking &mode:"
 msgid "&Tracking mode:"
-msgstr "跟踪模式(&M)："
+msgstr ""
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
 #: gui\settingsDialogs.py:6356
