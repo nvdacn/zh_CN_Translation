@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-30 05:51+0000\n"
-"PO-Revision-Date: 2026-07-29 16:54+0800\n"
+"PO-Revision-Date: 2026-07-30 18:49+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4784,18 +4784,13 @@ msgstr "上次朗读的内容"
 
 #. Translators: Input help mode message for the command to copy the last spoken information.
 #: globalCommands.py:5588
-#, fuzzy
-#| msgid ""
-#| "Copies content of the status bar  of current application to the clipboard."
 msgid "Copies the last spoken information to the clipboard."
-msgstr "复制当前应用程序状态栏的内容到剪贴板。"
+msgstr "将最后朗读的内容复制到剪贴板。"
 
 #. Translators: Reported when there is no last spoken information to copy.
 #: globalCommands.py:5597
-#, fuzzy
-#| msgid "No text to copy"
 msgid "Nothing to copy"
-msgstr "没有文本可供复制"
+msgstr "没有可复制的内容"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
