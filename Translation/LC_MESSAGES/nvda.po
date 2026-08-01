@@ -3121,7 +3121,7 @@ msgstr "关闭以盲文呈现拼写或语法错误"
 #. Translators: Input help mode message for command to toggle braille automatic scroll.
 #: globalCommands.py:852
 msgid "Toggles braille automatic scroll"
-msgstr "打开或关闭自动滚动盲文显示"
+msgstr "切换是否自动滚动盲文显示"
 
 #. Translators: Message reported when automatic scrolling has been enabled in braille.
 #: globalCommands.py:861
@@ -4531,7 +4531,7 @@ msgstr "禁用定位文本光标后读出光标所在处的字符"
 #. Translators: Input help mode message for toggle speaking when navigating by lines or paragraphs with braille.
 #: globalCommands.py:3929
 msgid "Toggles on and off speaking when navigating by lines or paragraph with braille"
-msgstr "打开或关闭按行或段落导航时读出内容"
+msgstr "切换按行或段落导航时是否读出内容"
 
 #. Translators: The message announced when toggling the speaking on navigating by unit braille setting.
 #: globalCommands.py:3938
@@ -4705,7 +4705,7 @@ msgstr "移动点显器到下一行"
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4268
 msgid "Inputs braille dots via the braille keyboard"
-msgstr "在盲文键盘上键入盲文"
+msgstr "在盲文键盘上输入盲文"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4277
@@ -4715,12 +4715,12 @@ msgstr "移动点显器到当前焦点所在处"
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4299
 msgid "Erases the last entered braille cell or character"
-msgstr "擦除最后键入的字符或者盲文单元"
+msgstr "擦除最后输入的字符或者盲文单元"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4308
 msgid "Translates any braille input and presses the enter key"
-msgstr "翻译任何盲文键入并按回车键"
+msgstr "翻译任何盲文输入并按回车键"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4317
@@ -15318,7 +15318,7 @@ msgstr "跟踪导航对象(&N)"
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6212
 msgid "&Tracking mode:"
-msgstr ""
+msgstr "跟踪模式(&T)："
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
 #: gui\settingsDialogs.py:6293
