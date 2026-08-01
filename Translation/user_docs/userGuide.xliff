@@ -16057,9 +16057,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle braille cursor shapes | None | Cycle through the shape options (dot pattern) of the braille cursor </source>
-        <target> Cycle braille cursor shapes | None | Cycle through the shape options (dot pattern) of the braille cursor </target>
+        <target> 循环切换光标形状 | 无 | 在盲文光标形状之间循环切换 </target>
       </segment>
     </unit>
     <unit id="f2df199c-30d8-4d0e-bdea-27a3bb4e8ec5">
@@ -16068,9 +16068,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle move system caret when routing review cursor | None | Cycle through the braille move system caret when routing review cursor states </source>
-        <target> Cycle move system caret when routing review cursor | None | Cycle through the braille move system caret when routing review cursor states </target>
+        <target> 循环切换移动查看光标时移动系统光标 | 无 | 在移动查看光标时移动系统光标的选项之间循环切换 </target>
       </segment>
     </unit>
     <unit id="083f81af-43d6-40e4-b546-c17982f274f4">
@@ -17497,9 +17497,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Input via braille display | any dots | Inputs braille dots via the braille keyboard </source>
-        <target> Input via braille display | any dots | Inputs braille dots via the braille keyboard </target>
+        <target> 通过点显器输入 | 任意点位 | 在盲文键盘上输入盲文 </target>
       </segment>
     </unit>
     <unit id="abc2e8f4-60a9-4545-b4a5-7fd6c5dc9e70">
@@ -17508,9 +17508,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Erase last entered | `dot7` | Erases the last entered braille cell or character </source>
-        <target> Erase last entered | `dot7` | Erases the last entered braille cell or character </target>
+        <target> 擦除最后输入的内容 | `7 点` | 擦除最后输入的字符或盲文单元 </target>
       </segment>
     </unit>
     <unit id="a618afed-e3f4-48e1-acbd-70f09cadaec1">
@@ -17519,9 +17519,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Translate braille input | `dot7+dot8` | Translates any braille input </source>
-        <target> Translate braille input | `dot7+dot8` | Translates any braille input </target>
+        <target> 翻译盲文输入 | `7 点 +8 点` | 翻译任何盲文输入 </target>
       </segment>
     </unit>
     <unit id="17fa7b08-102c-4039-9050-15a9fc3ee490">
@@ -17530,9 +17530,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Translate and press enter | `dot8` | Translates any braille input and presses the enter key </source>
-        <target> Translate and press enter | `dot8` | Translates any braille input and presses the enter key </target>
+        <target> 翻译并按回车键 | `8 点` | 翻译任何盲文输入并按下回车键 </target>
       </segment>
     </unit>
     <unit id="cc490d20-d042-49ee-a1f4-35c35f4c0045">
@@ -17960,9 +17960,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle tracking mode | None | Cycles through tracking modes (center, relative) </source>
-        <target> Cycle tracking mode | None | Cycles through tracking modes (center, relative) </target>
+        <target> 循环切换跟踪模式 | 无 | 在可用的跟踪模式之间循环切换（居中、相对） </target>
       </segment>
     </unit>
     <unit id="cc17cba6-9bbe-4f33-b289-41e55dff9860">
@@ -18176,18 +18176,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#MagnifierTrackingMode}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Tracking Modes</source>
-        <target>Tracking Modes</target>
+        <target>跟踪模式</target>
       </segment>
     </unit>
     <unit id="7e70cc51-7137-45c8-ab1c-95c9eeeed07f">
       <notes>
         <note appliesTo="source">line: 1689</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The magnifier offers different modes for tracking the mouse, system focus, review cursor, and navigator object, and determining which part of the screen to magnify:</source>
-        <target>The magnifier offers different modes for tracking the mouse, system focus, review cursor, and navigator object, and determining which part of the screen to magnify:</target>
+        <target>放大镜提供了不同的模式来跟踪鼠标、系统焦点、查看光标和导航对象，并确定放大屏幕的哪个部分：</target>
       </segment>
     </unit>
     <unit id="15d736f2-db42-4d76-8cbe-016a14349423">
@@ -23644,36 +23644,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2628</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This slider controls the rate at which NVDA scrolls the braille display when [automatic braille scrolling](#AutomaticBrailleScrolling) is enabled, measured in cells per second.</source>
-        <target>This slider controls the rate at which NVDA scrolls the braille display when [automatic braille scrolling](#AutomaticBrailleScrolling) is enabled, measured in cells per second.</target>
+        <target>此滑块用于控制启用[自动滚动盲文显示](#AutomaticBrailleScrolling)时点显器的自动滚动速度，以每秒显示的方数进行衡量。</target>
       </segment>
     </unit>
     <unit id="41482db0-1bfe-42d8-a8c3-6b8976f09da0">
       <notes>
         <note appliesTo="source">line: 2630</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To increase or decrease the scroll rate from anywhere, please assign custom gestures using the [Input Gestures dialog](#InputGestures).</source>
-        <target>To increase or decrease the scroll rate from anywhere, please assign custom gestures using the [Input Gestures dialog](#InputGestures).</target>
+        <target>要随时提高或降低滚动速度，请使用[按键与手势对话框](#InputGestures)分配自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="88c32af1-22c4-4d8d-b4e6-5583a9169406">
       <notes>
         <note appliesTo="source">line: 2632</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The minimum value (0%) is 1 cell per second, and the maximum value (100%) is 20 cells per second.</source>
-        <target>The minimum value (0%) is 1 cell per second, and the maximum value (100%) is 20 cells per second.</target>
+        <target>最小值（0%）对应每秒 1 方，最大值（100%）对应每秒 20 方。</target>
       </segment>
     </unit>
     <unit id="0c47d79a-2ff6-4e10-bf15-7e27b36077ac">
       <notes>
         <note appliesTo="source">line: 2633</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, with the default value of 10 cells/sec, if a 40-cell braille display is used, the display will scroll automatically every 4 seconds.</source>
-        <target>For example, with the default value of 10 cells/sec, if a 40-cell braille display is used, the display will scroll automatically every 4 seconds.</target>
+        <target>例如，使用默认值 10 方/秒时，若使用 40 方的点显器，其将每 4 秒自动滚动一次。</target>
       </segment>
     </unit>
     <unit id="ece58f5c-ceac-46ab-8ab6-cafbd6182853">
@@ -25914,9 +25914,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#MagnifierTrackingModeSetting}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Tracking mode</source>
-        <target>Tracking mode</target>
+        <target>跟踪模式</target>
       </segment>
     </unit>
     <unit id="8909734c-45c9-4e70-8453-9d04fb97ed3b">
@@ -25952,9 +25952,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Center, Relative </source>
-        <target> Options | Center, Relative </target>
+        <target> 选项 | 居中、相对 </target>
       </segment>
     </unit>
     <unit id="29668f30-80b6-485b-9dde-3657a5e6e235">
