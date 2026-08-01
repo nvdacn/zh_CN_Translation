@@ -15744,9 +15744,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1369</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you have access to a braille display, NVDA can display information in braille.</source>
-        <target>If you have access to a braille display, NVDA can display information in braille.</target>
+        <target>如果您拥有点显器，NVDA 可以以盲文形式显示信息。</target>
       </segment>
     </unit>
     <unit id="7a48e371-5ea6-4e0c-9cdb-c44cb5102ea7">
@@ -15800,27 +15800,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#BrailleReading}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Reading Braille</source>
-        <target>Reading Braille</target>
+        <target>阅读盲文</target>
       </segment>
     </unit>
     <unit id="3fed35c9-bf4c-4b2c-865a-4baf00f6bb34">
       <notes>
         <note appliesTo="source">line: 1379</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When reading braille on a refreshable display, text is presented in the current [output table](#BrailleSettingsOutputTable) and [Braille Mode](#BrailleMode).</source>
-        <target>When reading braille on a refreshable display, text is presented in the current [output table](#BrailleSettingsOutputTable) and [Braille Mode](#BrailleMode).</target>
+        <target>在可刷新点显器上阅读盲文时，文本会以当前的[输出表](#BrailleSettingsOutputTable)和[盲文模式](#BrailleMode)呈现。</target>
       </segment>
     </unit>
     <unit id="5ab40692-93ed-43f0-8762-f2c39404c319">
       <notes>
         <note appliesTo="source">line: 1380</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Where text is longer than will fit on the display, panning or other keys on the device can be used to navigate without moving the focus or text caret.</source>
-        <target>Where text is longer than will fit on the display, panning or other keys on the device can be used to navigate without moving the focus or text caret.</target>
+        <target>当文本长度超过点显器可显示的范围时，可使用滚动键或设备上的其他按键进行导航，而无需移动焦点或文本光标。</target>
       </segment>
     </unit>
     <unit id="f44ba148-5c6e-4783-9349-824dd688b537">
@@ -15829,99 +15829,99 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#AutomaticBrailleScrolling}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Automatic Braille Scrolling</source>
-        <target>Automatic Braille Scrolling</target>
+        <target>自动滚动盲文显示</target>
       </segment>
     </unit>
     <unit id="23131626-4c87-4baf-bad5-68f6ed1d42fc">
       <notes>
         <note appliesTo="source">line: 1384</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Automatic braille scrolling can be enabled to scroll the display at a set speed.</source>
-        <target>Automatic braille scrolling can be enabled to scroll the display at a set speed.</target>
+        <target>可启用自动滚动盲文显示，使点显器以指定的速度滚动。</target>
       </segment>
     </unit>
     <unit id="0491cf5e-193b-4d9a-85dd-3b46bdfdfa2d">
       <notes>
         <note appliesTo="source">line: 1385</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When using this feature, the braille display scrolls to present information which is more than will fit on the display at once.</source>
-        <target>When using this feature, the braille display scrolls to present information which is more than will fit on the display at once.</target>
+        <target>使用此功能时，盲文点显器会滚动以呈现一次性无法完整显示的信息。</target>
       </segment>
     </unit>
     <unit id="959b899b-06ca-490b-bea6-dc67b33defb1">
       <notes>
         <note appliesTo="source">line: 1386</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The feature is disabled by default.</source>
-        <target>The feature is disabled by default.</target>
+        <target>该功能默认禁用。</target>
       </segment>
     </unit>
     <unit id="d0abc6f2-ce8b-44e6-802f-d6eb203c8fba">
       <notes>
         <note appliesTo="source">line: 1387</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can change the gestures assigned to use automatic braille scrolling in NVDA's [Input Gestures dialog](#InputGestures) before it can be used.</source>
-        <target>You can change the gestures assigned to use automatic braille scrolling in NVDA's [Input Gestures dialog](#InputGestures) before it can be used.</target>
+        <target>您可在使用前，通过 NVDA 的[按键与手势对话框](#InputGestures)更改自动滚动盲文显示功能的默认快捷键。</target>
       </segment>
     </unit>
     <unit id="8087b1b5-337f-4385-972a-3e071e8bf215">
       <notes>
         <note appliesTo="source">line: 1388</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Gestures are also available to speed up or slow down the rate of automatic scrolling.</source>
-        <target>Gestures are also available to speed up or slow down the rate of automatic scrolling.</target>
+        <target>此外，还有用于加快或减慢自动滚动速度的快捷键。</target>
       </segment>
     </unit>
     <unit id="1276b83b-4505-496e-ab69-20930f3b04d3">
       <notes>
         <note appliesTo="source">line: 1389</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Alternatively, you can [set the automatic scroll rate in Braille Settings](#BrailleAutoScrollRate).</source>
-        <target>Alternatively, you can [set the automatic scroll rate in Braille Settings](#BrailleAutoScrollRate).</target>
+        <target>或者，您也可在[盲文设置中设置自动滚动速度](#BrailleAutoScrollRate)。</target>
       </segment>
     </unit>
     <unit id="f09ef289-0de6-4614-abf1-6659edfc3d99">
       <notes>
         <note appliesTo="source">line: 1391</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>While braille is scrolling, you can still use the scroll back and scroll forward commands without stopping scrolling.</source>
-        <target>While braille is scrolling, you can still use the scroll back and scroll forward commands without stopping scrolling.</target>
+        <target>在盲文滚动期间，您仍可使用向后滚动和向前滚动命令，而无需停止自动滚动。</target>
       </segment>
     </unit>
     <unit id="e7294193-f2f9-4bb0-879b-d24c965b7882">
       <notes>
         <note appliesTo="source">line: 1392</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Scroll back can be useful to read previous contents again.</source>
-        <target>Scroll back can be useful to read previous contents again.</target>
+        <target>向后滚动可用于重新阅读之前的内容。</target>
       </segment>
     </unit>
     <unit id="d9ca8e40-911a-4909-b08e-e21339cfbc9b">
       <notes>
         <note appliesTo="source">line: 1393</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Scroll forward can be useful to skip a blank line, or if the line being read is short.</source>
-        <target>Scroll forward can be useful to skip a blank line, or if the line being read is short.</target>
+        <target>向前滚动可用于跳过空行或当前行较短的情况。</target>
       </segment>
     </unit>
     <unit id="25ff9cf1-ce07-4d74-ab99-1c6d0dc684fb">
       <notes>
         <note appliesTo="source">line: 1395</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>While reading, automatic braille scrolling will stop when any of the following happen:</source>
-        <target>While reading, automatic braille scrolling will stop when any of the following happen:</target>
+        <target>在阅读过程中，当发生以下任一情况时，自动滚动将停止：</target>
       </segment>
     </unit>
     <unit id="106480b8-1183-47db-9ae3-cea6989774bb">
@@ -15929,9 +15929,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1397</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The toggle automatic braille scrolling key is pressed</source>
-        <target>The toggle automatic braille scrolling key is pressed</target>
+        <target>按下切换自动滚动盲文显示的按键</target>
       </segment>
     </unit>
     <unit id="41ef37df-b334-4fe4-8f60-fa672ecd9043">
@@ -15939,9 +15939,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1398</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The user presses a key or gesture which would display a new message</source>
-        <target>The user presses a key or gesture which would display a new message</target>
+        <target>用户按下会显示新消息的按键或手势</target>
       </segment>
     </unit>
     <unit id="019bad15-0216-4d50-889e-491248a98a40">
@@ -15949,9 +15949,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1399</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The focus is moved (including with braille display panning keys)</source>
-        <target>The focus is moved (including with braille display panning keys)</target>
+        <target>焦点发生移动（包括使用盲文点显器的滚动键）</target>
       </segment>
     </unit>
     <unit id="0acca453-d6d5-4e35-8e30-2e0c404ca603">
@@ -15959,9 +15959,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1400</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The end of the document is reached</source>
-        <target>The end of the document is reached</target>
+        <target>到达文档末尾</target>
       </segment>
     </unit>
     <unit id="9a60043e-42ce-4d81-b75d-9424b9865757">
@@ -15969,9 +15969,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1401</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The state of the lock or secure screen is changed (such as the computer being locked)</source>
-        <target>The state of the lock or secure screen is changed (such as the computer being locked)</target>
+        <target>锁定或安全界面的状态发生变化（例如计算机被锁定）</target>
       </segment>
     </unit>
     <unit id="3c6ba3bd-781a-47f9-8051-d1e1934c46ac">
@@ -15980,9 +15980,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#BrailleReadingGestures}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille Reading Gestures</source>
-        <target>Braille Reading Gestures</target>
+        <target>盲文阅读命令</target>
       </segment>
     </unit>
     <unit id="5d0e45a0-a5ef-44c3-90da-51a4bf928842">
@@ -15991,9 +15991,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Name | Key | Description </source>
-        <target> Name | Key | Description </target>
+        <target> 名称 | 按键 | 描述 </target>
       </segment>
     </unit>
     <unit id="416d3eb0-9dcc-4eb3-82f4-00806c6a246f">
@@ -16002,9 +16002,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggles braille mode | `NVDA+alt+t` | Allows cycling between available braille modes: "follow cursors" and "display speech output"</source>
-        <target> Toggles braille mode | `NVDA+alt+t` | Allows cycling between available braille modes: "follow cursors" and "display speech output"</target>
+        <target> 切换盲文模式 | `NVDA+Alt+T` | 在可用的盲文模式间循环切换：“跟随光标”和“显示语音输出”</target>
       </segment>
     </unit>
     <unit id="74e9de1f-e0ab-4027-a945-a0507ddb7387">
@@ -16013,9 +16013,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Tether braille | `NVDA+control+t` | This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both </source>
-        <target> Tether braille | `NVDA+control+t` | This option allows you to choose whether the braille display will follow the system focus / caret, the navigator object / review cursor, or both </target>
+        <target> 切换盲文光标跟随 | `NVDA+Ctrl+T` | 此选项允许您选择是否希望点显器跟随系统焦点/系统光标、导航对象/查看光标或自动 </target>
       </segment>
     </unit>
     <unit id="49b4f7d4-a12a-4c3b-9a5f-85415f59426b">
@@ -16024,9 +16024,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle automatic scroll | `NVDA+alt+k` | Toggles whether NVDA periodically scrolls the braille display to present information which is too long to show at once </source>
-        <target> Toggle automatic scroll | `NVDA+alt+k` | Toggles whether NVDA periodically scrolls the braille display to present information which is too long to show at once </target>
+        <target> 切换自动滚动 | `NVDA+Alt+K` | 切换 NVDA 是否定期滚动点显器以呈现一次性无法完整显示的信息 </target>
       </segment>
     </unit>
     <unit id="34003f0e-90cb-4700-b9ee-389cbfeb63fb">
@@ -16035,9 +16035,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Increase automatic scroll rate | `NVDA+alt+l` | Makes automatic scrolling faster (when enabled) </source>
-        <target> Increase automatic scroll rate | `NVDA+alt+l` | Makes automatic scrolling faster (when enabled) </target>
+        <target> 提高自动滚动速度 | `NVDA+Alt+L` | 使自动滚动更快（启用时） </target>
       </segment>
     </unit>
     <unit id="458431c3-1f56-4ec7-8cd3-bd430a756bef">
@@ -16046,9 +16046,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Decrease automatic scroll rate | `NVDA+alt+j` | Makes automatic scrolling slower (when enabled) </source>
-        <target> Decrease automatic scroll rate | `NVDA+alt+j` | Makes automatic scrolling slower (when enabled) </target>
+        <target> 降低自动滚动速度 | `NVDA+Alt+J` | 使自动滚动更慢（启用时） </target>
       </segment>
     </unit>
     <unit id="cd9efa94-1037-4000-98b8-e49e62cff4d2">
@@ -16079,9 +16079,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle show messages modes | None | Cycle through the braille show messages modes </source>
-        <target> Cycle show messages modes | None | Cycle through the braille show messages modes </target>
+        <target> 循环切换消息模式 | 无 | 在盲文消息模式之间循环切换 </target>
       </segment>
     </unit>
     <unit id="b53512ce-2263-4faa-9a4a-ed61e918994c">
@@ -16090,9 +16090,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle braille show selection states | None | Cycle through the braille show selection states </source>
-        <target> Cycle braille show selection states | None | Cycle through the braille show selection states </target>
+        <target> 循环切换盲文选中指示光标 | 无 | 在盲文选中指示光标之间循环切换 </target>
       </segment>
     </unit>
     <unit id="0bf76a1a-c57c-4cef-b9ea-9e7def9dee76">
@@ -16101,9 +16101,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Cycle braille Unicode normalization states | None | Cycle through the braille Unicode normalization states </source>
-        <target> Cycle braille Unicode normalization states | None | Cycle through the braille Unicode normalization states </target>
+        <target> 循环切换盲文 Unicode 规范化状态 | 无 | 在盲文 Unicode 规范化状态之间循环切换 </target>
       </segment>
     </unit>
     <unit id="3c4ace85-42d1-40c0-a0fc-00c9dd3fe266">
@@ -16112,9 +16112,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Move braille to focus | None | Moves the braille display to the current focus </source>
-        <target> Move braille to focus | None | Moves the braille display to the current focus </target>
+        <target> 移动到焦点 | 无 | 移动点显器到当前焦点所在处 </target>
       </segment>
     </unit>
     <unit id="ea0b1b8d-5b06-43bf-83ab-d997abbc10c0">
@@ -16123,9 +16123,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Move braille to next line | None | Moves the braille display to the next line </source>
-        <target> Move braille to next line | None | Moves the braille display to the next line </target>
+        <target> 移动到下一行 | 无 | 移动点显器到下一行 </target>
       </segment>
     </unit>
     <unit id="cd225050-0689-4592-ac1b-19b85e4889b0">
@@ -16134,9 +16134,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Move braille to previous line | None | Moves the braille display to the previous line </source>
-        <target> Move braille to previous line | None | Moves the braille display to the previous line </target>
+        <target> 移动到上一行 | 无 | 移动点显器到上一行 </target>
       </segment>
     </unit>
     <unit id="13c49bb9-c582-4996-9534-0d7297838a64">
@@ -16145,9 +16145,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Report braille formatting | None | Reports formatting info for the text under this braille cell </source>
-        <target> Report braille formatting | None | Reports formatting info for the text under this braille cell </target>
+        <target> 读出格式 | 无 | 读出当前盲文单元所在文本的格式信息 </target>
       </segment>
     </unit>
     <unit id="8cfa3011-bcc6-43e6-960c-66a0c15e7fa8">
@@ -16156,9 +16156,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Route to or activate braille object | None | Routes the cursor to or activates the object under this braille cell </source>
-        <target> Route to or activate braille object | None | Routes the cursor to or activates the object under this braille cell </target>
+        <target> 定位或激活对象 | 无 | 将光标移至或激活该盲文单元所在的对象 </target>
       </segment>
     </unit>
     <unit id="6485d238-52c5-440a-813c-c340523a9852">
@@ -16167,9 +16167,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Scroll braille display back | None | Scrolls the braille display back </source>
-        <target> Scroll braille display back | None | Scrolls the braille display back </target>
+        <target> 向后滚动 | 无 | 向后滚动盲文显示 </target>
       </segment>
     </unit>
     <unit id="fa0838d2-4156-48e8-b36a-76e72e36bf83">
@@ -16178,9 +16178,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Scroll braille display forward | None | Scrolls the braille display forward </source>
-        <target> Scroll braille display forward | None | Scrolls the braille display forward </target>
+        <target> 向前滚动 | 无 | 向前滚动盲文显示 </target>
       </segment>
     </unit>
     <unit id="095a6010-d3d0-4b91-83c3-716f9a4c5466">
@@ -16189,9 +16189,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle braille cursor | None | Toggle the braille cursor on and off </source>
-        <target> Toggle braille cursor | None | Toggle the braille cursor on and off </target>
+        <target> 切换盲文光标 | 无 | 打开或关闭盲文光标 </target>
       </segment>
     </unit>
     <unit id="316860d8-4199-41ec-9774-a172f2bbc935">
@@ -16200,9 +16200,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle braille context information | None | Toggle the way context information is presented in braille </source>
-        <target> Toggle braille context information | None | Toggle the way context information is presented in braille </target>
+        <target> 切换盲文上下文 | 无 | 切换是否使用盲文显示上下文 </target>
       </segment>
     </unit>
     <unit id="cfc752b3-03e7-461f-bdc6-42dea0716845">
@@ -16211,9 +16211,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle speaking when navigating braille | None | Toggles on and off speaking when navigating by lines or paragraph with braille </source>
-        <target> Toggle speaking when navigating braille | None | Toggles on and off speaking when navigating by lines or paragraph with braille </target>
+        <target> 切换导航时读出内容 | 无 | 切换按行或段落导航时是否读出内容 </target>
       </segment>
     </unit>
     <unit id="b56d8c18-e255-4174-bbf0-6f5d798ca24f">
@@ -16222,18 +16222,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle speaking character when routing | None | Toggles speaking the character under the cursor when routing cursor in text </source>
-        <target> Toggle speaking character when routing | None | Toggles speaking the character under the cursor when routing cursor in text </target>
+        <target> 切换定位文本光标后读出字符 | 无 | 切换定位文本光标后是否读出光标所在处的字符 </target>
       </segment>
     </unit>
     <unit id="48d053fe-1609-41ae-8bfc-923009107d05">
       <notes>
         <note appliesTo="source">line: 1431</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Refer to NVDA's [Braille Settings](#BrailleSettings) for all options which can be used to adjust braille reading.</source>
-        <target>Refer to NVDA's [Braille Settings](#BrailleSettings) for all options which can be used to adjust braille reading.</target>
+        <target>有关可用于调整盲文阅读的所有选项，请参阅[盲文设置](#BrailleSettings)章节。</target>
       </segment>
     </unit>
     <unit id="deeb7889-8a35-4ae4-81cf-e50dcd9a0300">
@@ -17475,9 +17475,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#BrailleInputGestures}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille Input Gestures</source>
-        <target>Braille Input Gestures</target>
+        <target>盲文输入命令</target>
       </segment>
     </unit>
     <unit id="a50d9adb-b688-4462-9927-37805100af29">
@@ -17486,9 +17486,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Name | Key | Description </source>
-        <target> Name | Key | Description </target>
+        <target> 名称 | 按键 | 描述 </target>
       </segment>
     </unit>
     <unit id="42cbb355-9426-4e00-a95c-4b542ca722a8">
