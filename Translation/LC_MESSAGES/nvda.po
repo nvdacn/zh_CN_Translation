@@ -2405,7 +2405,7 @@ msgstr "关闭以盲文呈现拼写或语法错误"
 #. Translators: Input help mode message for command to toggle braille automatic scroll.
 #: globalCommands.py:895
 msgid "Toggles braille automatic scroll"
-msgstr "打开或关闭自动滚动盲文显示"
+msgstr "切换是否自动滚动盲文显示"
 
 #. Translators: Message reported when automatic scrolling has been enabled in braille.
 #: globalCommands.py:904
@@ -4159,7 +4159,7 @@ msgstr "移动点显器到下一行"
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4339
 msgid "Inputs braille dots via the braille keyboard"
-msgstr "在盲文键盘上键入盲文"
+msgstr "在盲文键盘上输入盲文"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4348
@@ -4169,12 +4169,12 @@ msgstr "移动点显器到当前焦点所在处"
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4370
 msgid "Erases the last entered braille cell or character"
-msgstr "擦除最后键入的字符或者盲文单元"
+msgstr "擦除最后输入的字符或者盲文单元"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4379
 msgid "Translates any braille input and presses the enter key"
-msgstr "翻译任何盲文键入并按回车键"
+msgstr "翻译任何盲文输入并按回车键"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4388
@@ -16087,7 +16087,7 @@ msgstr "跟踪导航对象(&N)"
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6257
 msgid "&Tracking mode:"
-msgstr ""
+msgstr "跟踪模式(&T)："
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
 #: gui\settingsDialogs.py:6338
@@ -21501,25 +21501,25 @@ msgid "Center"
 msgstr "居中"
 
 #. Translators: Magnifier tracking mode - preserve the tracked item's screen position within the magnified view (same relative screen location).
-#: _magnifier\utils\types.py:163
+#: _magnifier\utils\types.py:160
 msgctxt "magnifier"
 msgid "Relative"
 msgstr "相对"
 
 #. Translators: Magnifier color filter - no filter applied.
-#: _magnifier\utils\types.py:176
+#: _magnifier\utils\types.py:173
 msgctxt "magnifier"
 msgid "Normal"
 msgstr "正常"
 
 #. Translators: Magnifier color filter - grayscale/black and white.
-#: _magnifier\utils\types.py:178
+#: _magnifier\utils\types.py:175
 msgctxt "magnifier"
 msgid "Grayscale"
 msgstr "灰度"
 
 #. Translators: Magnifier color filter - inverted colors.
-#: _magnifier\utils\types.py:180
+#: _magnifier\utils\types.py:177
 msgctxt "magnifier"
 msgid "Inverted"
 msgstr "反转"
