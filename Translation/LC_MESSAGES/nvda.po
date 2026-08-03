@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-03 10:01+0000\n"
-"PO-Revision-Date: 2026-07-30 19:18+0800\n"
+"PO-Revision-Date: 2026-08-03 18:55+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -11288,17 +11288,13 @@ msgstr "单词或音节边界处"
 
 #. Translators: Label for an option in the Speech settings (say all reading unit).
 #: config\featureFlagEnums.py:207
-#, fuzzy
-#| msgid "Sentence case"
 msgid "Sentence where possible"
-msgstr "句首字母大写"
+msgstr "尽可能按句"
 
 #. Translators: Label for an option in the Speech settings (say all reading unit).
 #: config\featureFlagEnums.py:209
-#, fuzzy
-#| msgid "paragraph"
 msgid "Paragraph"
-msgstr "段落"
+msgstr "按段"
 
 #. Translators: Label for an option in the Speech settings (say all reading unit).
 #. Translators: A type of chart in Microsoft Office.
@@ -14346,10 +14342,8 @@ msgstr "Unicode 规范化(&Z)"
 
 #. Translators: This is a label for a combo-box in the Speech settings panel.
 #: gui\settingsDialogs.py:1759
-#, fuzzy
-#| msgid "Say all"
 msgid "Say all reads by"
-msgstr "全文朗读"
+msgstr "全文朗读方式"
 
 #. Translators: This is the label for a checkbox in the
 #. speech settings panel.
