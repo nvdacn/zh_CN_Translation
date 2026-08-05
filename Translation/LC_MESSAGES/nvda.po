@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-04 03:24+0000\n"
+"POT-Creation-Date: 2026-08-05 08:48+0000\n"
 "PO-Revision-Date: 2026-08-04 16:38+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1627,7 +1627,7 @@ msgstr ""
 #: gui\configProfiles.py:580 gui\inputGestures.py:907 gui\inputGestures.py:921
 #: gui\installerGui.py:181 gui\installerGui.py:265 gui\installerGui.py:759
 #: gui\installerGui.py:776 gui\installerGui.py:848 gui\logViewer.py:112
-#: gui\logViewer.py:143 gui\message.py:161 gui\settingsDialogs.py:1047
+#: gui\logViewer.py:143 gui\message.py:169 gui\settingsDialogs.py:1047
 #: gui\settingsDialogs.py:6082 gui\settingsDialogs.py:6941
 #: gui\startupDialogs.py:127 _remoteClient\dialogs.py:67
 #: _remoteClient\dialogs.py:306 _remoteClient\dialogs.py:430
@@ -1749,7 +1749,7 @@ msgstr "未选择文本"
 #. Translators: Abbreviation for points, a measurement of font size.
 #: displayModel.py:562 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
-#: NVDAObjects\UIA\__init__.py:199 NVDAObjects\window\edit.py:347
+#: NVDAObjects\UIA\__init__.py:203 NVDAObjects\window\edit.py:347
 #: NVDAObjects\window\edit.py:709 NVDAObjects\window\excel.py:1373
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1284
 #: virtualBuffers\adobeAcrobat.py:83
@@ -13093,7 +13093,7 @@ msgstr "关于插件(&A)..."
 #. Translators: The label of a Yes button in a dialog
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. agree to enabling the curtain.
-#: gui\addonGui.py:72 gui\message.py:329 gui\startupDialogs.py:302
+#: gui\addonGui.py:72 gui\message.py:337 gui\startupDialogs.py:302
 #: screenCurtain\_screenCurtain.py:109
 msgid "&Yes"
 msgstr "是(&Y)"
@@ -13104,14 +13104,14 @@ msgstr "是(&Y)"
 #. Translators: The label of a No button in a dialog
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. disagree to enabling the curtain.
-#: gui\addonGui.py:82 gui\message.py:331 gui\startupDialogs.py:306
+#: gui\addonGui.py:82 gui\message.py:339 gui\startupDialogs.py:306
 #: screenCurtain\_screenCurtain.py:118
 msgid "&No"
 msgstr "否(&N)"
 
 #. Translators: A button in the addon installation blocked dialog which will dismiss the dialog.
 #. Translators: An ok button on a message dialog.
-#: gui\addonGui.py:110 gui\message.py:327
+#: gui\addonGui.py:110 gui\message.py:335
 msgid "OK"
 msgstr "确定"
 
@@ -14031,32 +14031,32 @@ msgstr "日志不可用"
 
 #. Translators: A cancel button on a message dialog.
 #. Translators: The label for the Cancel button in an NVDA dialog.
-#: gui\message.py:333 gui\nvdaControls.py:393
+#: gui\message.py:341 gui\nvdaControls.py:393
 msgid "Cancel"
 msgstr "取消"
 
 #. Translators: A save button on a message dialog.
-#: gui\message.py:335
+#: gui\message.py:343
 msgid "&Save"
 msgstr "保存(&S)"
 
 #. Translators: An apply button on a message dialog.
-#: gui\message.py:337
+#: gui\message.py:345
 msgid "&Apply"
 msgstr "应用(&A)"
 
 #. Translators: A close button on a message dialog.
-#: gui\message.py:339
+#: gui\message.py:347
 msgid "Close"
 msgstr "关闭"
 
 #. Translators: A help button on a message dialog.
-#: gui\message.py:341
+#: gui\message.py:349
 msgid "Help"
 msgstr "帮助"
 
 #. Translators: A don't save button on a message dialog.
-#: gui\message.py:363
+#: gui\message.py:371
 msgid "Do&n't save"
 msgstr "不保存(&N)"
 
@@ -18127,25 +18127,25 @@ msgid "Not in table"
 msgstr "不在表格中"
 
 #. Translators: a measurement in inches
-#: NVDAObjects\UIA\__init__.py:461
+#: NVDAObjects\UIA\__init__.py:465
 #, python-brace-format
 msgid "{val:.2f} in"
 msgstr "{val:.2f} 英寸"
 
 #. Translators: a measurement in centimetres
-#: NVDAObjects\UIA\__init__.py:466
+#: NVDAObjects\UIA\__init__.py:470
 #, python-brace-format
 msgid "{val:.2f} cm"
 msgstr "{val:.2f} 厘米"
 
-#: NVDAObjects\UIA\__init__.py:2349
+#: NVDAObjects\UIA\__init__.py:2387
 msgid "invoke"
 msgstr "启用"
 
 #. Translators: message noting the number of suggestions that are available,
 #. for example in the Windows 11 Start Menu.
 #. {num} will be replaced with the number of suggestions
-#: NVDAObjects\UIA\__init__.py:2845
+#: NVDAObjects\UIA\__init__.py:2883
 #, python-brace-format
 msgid "{num} suggestion"
 msgid_plural "{num} suggestions"
