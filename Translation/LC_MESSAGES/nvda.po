@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-07 03:10+0000\n"
-"PO-Revision-Date: 2026-08-04 16:38+0800\n"
+"PO-Revision-Date: 2026-08-08 13:25+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6765,10 +6765,9 @@ msgstr "{action}四次"
 #. Translators: a touch screen action that started from a screen edge,
 #. e.g. "left edge flick right"
 #: touchHandler.py:396
-#, fuzzy, python-brace-format
-#| msgid "double {action}"
+#, python-brace-format
 msgid "{edgeLabel} {action}"
-msgstr "{action}两次"
+msgstr "{edgeLabel}{action}"
 
 #. Translators: a touch screen action using multiple fingers
 #: touchHandler.py:405
@@ -6923,35 +6922,27 @@ msgstr "先向下再向左滑动"
 
 #. Translators: describes a touch gesture that started from the left edge of the screen
 #: touchTracker.py:124
-#, fuzzy
-#| msgid "left edge"
 msgctxt "touch edge"
 msgid "left edge"
-msgstr "左边界"
+msgstr "左侧边缘"
 
 #. Translators: describes a touch gesture that started from the right edge of the screen
 #: touchTracker.py:126
-#, fuzzy
-#| msgid "right edge"
 msgctxt "touch edge"
 msgid "right edge"
-msgstr "右边界"
+msgstr "右侧边缘"
 
 #. Translators: describes a touch gesture that started from the top edge of the screen
 #: touchTracker.py:128
-#, fuzzy
-#| msgid "top edge"
 msgctxt "touch edge"
 msgid "top edge"
-msgstr "上边"
+msgstr "顶部边缘"
 
 #. Translators: describes a touch gesture that started from the bottom edge of the screen
 #: touchTracker.py:130
-#, fuzzy
-#| msgid "bottom edge"
 msgctxt "touch edge"
 msgid "bottom edge"
-msgstr "底边"
+msgstr "底部边缘"
 
 #. Translators: This is the message for a warning shown if NVDA cannot open a browsable message window
 #. when Windows is on a secure screen (sign-on screen / UAC prompt).
@@ -15491,11 +15482,8 @@ msgstr "触控输入模式(&T)"
 
 #. Translators: This is the label for a checkbox in the touch interaction settings panel.
 #: gui\settingsDialogs.py:4211
-#, fuzzy
-#| msgctxt "addonStore"
-#| msgid "Enabled, pending restart"
 msgid "Enable &edge gestures"
-msgstr "已启用，重启后生效"
+msgstr "启用边缘手势(&E"
 
 #. Translators: The title of the Windows OCR panel.
 #: gui\settingsDialogs.py:4225
