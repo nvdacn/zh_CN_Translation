@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-11 02:14+0000\n"
-"PO-Revision-Date: 2026-08-08 13:25+0800\n"
+"PO-Revision-Date: 2026-08-11 12:58+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -789,38 +789,28 @@ msgstr "滑块"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1241
-#, fuzzy
-#| msgid "moves to the next table column"
 msgid "moves to the next clickable element"
-msgstr "移到表格内的下一列"
+msgstr "移到下一个可点击元素"
 
 #. Translators: Message presented when the browse mode element is not found.
 #: browseMode.py:1243
-#, fuzzy
-#| msgid "no next table"
 msgid "no next clickable element"
-msgstr "往下没有表格"
+msgstr "往下没有可点击元素"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1245
-#, fuzzy
-#| msgid "moves to the previous table column"
 msgid "moves to the previous clickable element"
-msgstr "移到表格内的上一列"
+msgstr "移到上一个可点击元素"
 
 #. Translators: Message presented when the browse mode element is not found.
 #: browseMode.py:1247
-#, fuzzy
-#| msgid "no previous table"
 msgid "no previous clickable element"
-msgstr "往上没有表格"
+msgstr "往上没有可点击元素"
 
 #. Translators: Label announced when cycling browse mode touch navigation element types in browse mode.
 #: browseMode.py:1250
-#, fuzzy
-#| msgid "clickable"
 msgid "clickable elements"
-msgstr "可点击"
+msgstr "可点击元素"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1256
