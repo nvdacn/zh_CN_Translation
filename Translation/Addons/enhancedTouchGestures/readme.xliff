@@ -1,5 +1,5 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/enhancedTouchGestures/db97d02a49359dedb6bd933a35ea1051709bce39/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/enhancedTouchGestures/94fd6807cc8885aea9022e40b40835320a7966a6/readme.md">
     <skeleton>
 # $(ID:9e115a5a-6eea-43dd-9fb7-5e04b30c78a9)
 
@@ -7,7 +7,7 @@
 
 $(ID:e6504be6-5e4b-4295-a849-34ce5dc63141)
 
-$(ID:78ed8620-3f8a-4a6f-b362-d349ec3f2c84)
+$(ID:7d7058d6-0965-4566-a078-6feb06260b31)
 
 ## $(ID:38dc1140-ff81-4e4f-bd97-31338ef6c68b)
 
@@ -25,14 +25,6 @@ $(ID:78ed8620-3f8a-4a6f-b362-d349ec3f2c84)
 * $(ID:972bf470-342c-430f-956b-e27cd23f1044)
 * $(ID:eefae056-3f75-4da9-8a71-db58592d2ebe)
 * $(ID:69bcc9c2-48fb-4615-a147-6f35ecd18ead)
-
-## $(ID:312f9362-b26f-41b5-be6d-9d8a8e3dc253)
-
-$(ID:1e374318-c3c2-4326-97d8-16043a0fd94f)
-
-$(ID:01b3e7f1-de3c-4d48-b6d5-19fa889bbec6)
-
-$(ID:78fc5f20-4bd1-482f-a23e-1fb6c55d5b1e)
 
 ## $(ID:a70a6c1e-1110-4408-9786-98a2de477bfd)
 
@@ -71,13 +63,13 @@ $(ID:6120f0c8-a73f-47ca-a9b5-4cc54f47512f)
         <target>此插件为 NVDA 提供了额外的触摸屏手势，包括读出焦点、循环切换合成器设置等。</target>
       </segment>
     </unit>
-    <unit id="78ed8620-3f8a-4a6f-b362-d349ec3f2c84">
+    <unit id="7d7058d6-0965-4566-a078-6feb06260b31">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="final">
-        <source>Note: this add-on requires NVDA 2025.3.3 or later running on a touchscreen computer with Windows 10 or 11.</source>
-        <target>注意：此插件需在运行 Windows 10 或 11 的触摸屏计算机上使用，且要求 NVDA 版本为 2025.3.3 或更高。</target>
+      <segment state="initial">
+        <source>Note: this add-on requires NVDA 2026.2 or later running on a touchscreen computer with Windows 10 or 11.</source>
+        <target>Note: this add-on requires NVDA 2026.2 or later running on a touchscreen computer with Windows 10 or 11.</target>
       </segment>
     </unit>
     <unit id="38dc1140-ff81-4e4f-bd97-31338ef6c68b">
@@ -220,46 +212,9 @@ $(ID:6120f0c8-a73f-47ca-a9b5-4cc54f47512f)
         <target>四指下滑：读出当前应用程序的状态栏。</target>
       </segment>
     </unit>
-    <unit id="312f9362-b26f-41b5-be6d-9d8a8e3dc253">
-      <notes>
-        <note appliesTo="source">line: 27</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Touch browse mode</source>
-        <target>触摸浏览模式</target>
-      </segment>
-    </unit>
-    <unit id="1e374318-c3c2-4326-97d8-16043a0fd94f">
-      <notes>
-        <note appliesTo="source">line: 29</note>
-      </notes>
-      <segment state="final">
-        <source>This touch mode, available in browse mode, allows you to navigate the document by selected element. This mode is entered automatically when browse mode becomes active, including switching to a browse mode document. From this mode, flicking up or down with one finger cycles through available element navigation modes, while flicking right or left with one finger moves to next or previous chosen element, respectively. Once you move away from browse mode documents or switch to focus mode, object touch mode will be used.</source>
-        <target>此触摸模式在浏览模式下可用，允许您按所选元素导航文档。当浏览模式激活时（包括切换到浏览模式文档），会自动使用此模式。在此模式下，用一根手指向上或向下滑动可循环浏览可用的元素导航模式，向右或向左滑动则可移动到下一个或上一个选定的元素。若您离开浏览模式文档，将使用对象触摸模式。</target>
-      </segment>
-    </unit>
-    <unit id="01b3e7f1-de3c-4d48-b6d5-19fa889bbec6">
-      <notes>
-        <note appliesTo="source">line: 31</note>
-      </notes>
-      <segment state="final">
-        <source>Available touch browse mode elements can vary between NVDA versionns. For NVDA 2025.3.3 and 2026.1, the available elements are default (move through elements/objects regardless of type), headings, tables, links, form fields, lists, frames, graphics, landmarks, embedded objects (dialogs and web apps, for example), and text paragraphs. In NVDA 2026.2, the available elements by default are default, headings, tables, links, form fields, and lists, with additional elements selectable from browse mode NVDA settings category.</source>
-        <target>可用的触摸浏览模式元素在不同 NVDA 版本中将有所不同。对于 NVDA 2025.3.3 和 2026.1，可用的元素包括默认（在元素/对象中移动，无论类型如何）、标题、表格、链接、表单字段、列表、框架、图形、路标、嵌入式对象（例如对话框和 Web 应用）以及文本段落。在 NVDA 2026.2 中，默认可用的元素包括默认、标题、表格、链接、表单字段和列表，其他元素可从 NVDA 设置中的浏览模式类别中添加。</target>
-      </segment>
-    </unit>
-    <unit id="78fc5f20-4bd1-482f-a23e-1fb6c55d5b1e">
-      <notes>
-        <note appliesTo="source">line: 33</note>
-      </notes>
-      <segment state="final">
-        <source>Note: this feature is included in NVDA 2026.2.</source>
-        <target>注意：此功能已包含在 NVDA 2026.2 中。</target>
-      </segment>
-    </unit>
     <unit id="a70a6c1e-1110-4408-9786-98a2de477bfd">
       <notes>
-        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -269,7 +224,7 @@ $(ID:6120f0c8-a73f-47ca-a9b5-4cc54f47512f)
     </unit>
     <unit id="5989e396-17cc-4b52-9995-fcbe21122205">
       <notes>
-        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">line: 29</note>
       </notes>
       <segment state="final">
         <source>You can use this mode to quickly change synthesizer settings such as choosing a voice and changing volume. In this mode, use two finger flick left or right to move between synth settings and use two finger flick up and down gestures to change values. This gestures mirrors that of synth settings ring commands on the keyboard.</source>
@@ -278,7 +233,7 @@ $(ID:6120f0c8-a73f-47ca-a9b5-4cc54f47512f)
     </unit>
     <unit id="7281a5e8-a0ae-405c-8f5d-d1382290473c">
       <notes>
-        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">line: 31</note>
       </notes>
       <segment state="final">
         <source>For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.</source>
@@ -287,7 +242,7 @@ $(ID:6120f0c8-a73f-47ca-a9b5-4cc54f47512f)
     </unit>
     <unit id="6120f0c8-a73f-47ca-a9b5-4cc54f47512f">
       <notes>
-        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">line: 33</note>
       </notes>
       <segment state="final">
         <source>[1]: https://github.com/kefaslungu/enhancedTouchGestures/blob/main/changes.md</source>
