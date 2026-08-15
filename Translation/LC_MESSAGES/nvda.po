@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-13 04:59+0000\n"
-"PO-Revision-Date: 2026-08-13 15:11+0800\n"
+"PO-Revision-Date: 2026-08-15 13:08+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -22139,3 +22139,12 @@ msgstr "远程 NVDA 未连接"
 
 #~ msgid "Avoid splitting &words when possible"
 #~ msgstr "若可能，尽量避免拆分单词(&W)"
+
+#, python-brace-format
+#~ msgctxt "magnifier"
+#~ msgid "Tracking mode {mode}"
+#~ msgstr "{mode}跟踪模式"
+
+#~ msgctxt "magnifier action"
+#~ msgid "change tracking mode"
+#~ msgstr "更改跟踪模式"
