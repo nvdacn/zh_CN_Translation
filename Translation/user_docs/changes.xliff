@@ -6224,7 +6224,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Speech features have been enhanced with support for custom speech dictionaries that can be provided by add-ons and new dictionary entry types for more granular control.</source>
         <target>增强了语音相关功能，支持插件提供的自定义语音字典，并新增字典条目类型以实现精细控制。</target>
       </segment>
@@ -6644,7 +6644,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 65</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The triple-press keyboard shortcut (`NVDA+control+r`) is not affected, as it is intended for recovery scenarios. (#19575, @bramd)</source>
         <target>连按三次快捷键（`NVDA+Ctrl+R`）不受影响，因为该快捷键明确用于恢复场景。(#19575, @bramd)</target>
       </segment>
@@ -6724,7 +6724,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>It is now possible to open the log viewer with `NVDA+f1`, even when the log level is set to "disabled". (#19318, @CyrilleB79)</source>
         <target>即使日志级别设置为“禁用”，也可使用 `NVDA+F1` 打开日志查看器。(#19318, @CyrilleB79)</target>
       </segment>
@@ -6744,7 +6744,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA can now be configured to not play error sounds, even in test versions. (#13021, @CyrilleB79)</source>
         <target>NVDA 可置为即使在测试版本中也不播放错误提示音。(#13021, @CyrilleB79)</target>
       </segment>
@@ -6754,7 +6754,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA will start in focus mode by default when using WhatsApp 2.2584.3.0 or newer. (#19655, @josephsl)</source>
         <target>使用 WhatsApp 2.2584.3.0 或更高版本时，NVDA 默认将以焦点模式启动。(#19655, @josephsl)</target>
       </segment>
@@ -6861,7 +6861,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The "Type" radio buttons in the "Add Dictionary Entry" dialog are now arranged vertically rather than horizontally. (#19657)</source>
         <target>将“添加字典项目”对话框中的“类型”单选按钮从水平排列改为垂直排列。(#19657)</target>
       </segment>
@@ -6871,7 +6871,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Removed the non-functional "Custom" option from the math decimal separator setting. (#20425)</source>
         <target>从数字的小数分隔符设置中移除了不起作用的“自定义”选项。(#20425)</target>
       </segment>
@@ -6901,7 +6901,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA no longer crashes when the Add-on Store download directory cannot be cleaned up due to file permission errors. (#19202, @christopherpross)</source>
         <target>修复了因文件权限错误无法清理插件商店下载目录，导致 NVDA 崩溃的问题。(#19202, @christopherpross)</target>
       </segment>
@@ -6911,7 +6911,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>After cancelling an add-on download and reopening the Add-on Store, downloading another add-on no longer fails. (#20015, @Cary-rowen)</source>
         <target>修复了取消插件下载后，重新打开插件商店时无法下载其他插件的问题。(#20015, @Cary-rowen)</target>
       </segment>
@@ -6961,7 +6961,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Foxit PDF Editor, NVDA can once again browse PDF documents. (#20440, @cary-rowen)</source>
         <target>修复了在福昕 PDF 编辑器中 NVDA 无法浏览 PDF 文档的问题。(#20440, @cary-rowen)</target>
       </segment>
@@ -6981,7 +6981,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In Microsoft Word with UIA enabled, page changes are now correctly announced when navigating table rows that span multiple pages. (#19386, @akj)</source>
         <target>修复了在启用 UIA 的 Microsoft Word 中，导航跨多页表格行时未正确朗读页面变化的问题。(#19386, @akj)</target>
       </segment>
