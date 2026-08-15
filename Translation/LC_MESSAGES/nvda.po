@@ -12638,13 +12638,13 @@ msgstr "重置设置为默认值"
 msgid "Your configuration has been reset to factory defaults.\n"
 "Choose OK to keep factory defaults, or Undo to restore your previous configuration."
 msgstr "您的配置已重置为默认值。\n"
-"选择“确定”保留默认值，或选择“撤消”恢复先前的配置。"
+"选择“确定”保留默认值，或选择“撤销”恢复先前的配置。"
 
 #. Translators: The label of the undo button in the factory defaults reset dialog.
 #. Pressing this button restores the previous configuration.
 #: gui\configManagement.py:38
 msgid "&Undo"
-msgstr "撤消(&U)"
+msgstr "撤销(&U)"
 
 #. Translators: Reported when a factory reset has been undone
 #. and the previous configuration has been restored.
@@ -12718,7 +12718,7 @@ msgstr "激活配置时发生错误。"
 #: gui\configProfiles.py:200
 #, python-brace-format
 msgid "The profile {name} will be permanently deleted. This action cannot be undone."
-msgstr "配置文件 {name} 将被永久删除。此操作无法撤消。"
+msgstr "配置文件 {name} 将被永久删除。此操作无法撤销。"
 
 #. Translators: The title of the confirmation dialog for deletion of a configuration profile.
 #: gui\configProfiles.py:204

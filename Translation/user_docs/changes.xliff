@@ -6224,9 +6224,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Speech features have been enhanced with support for custom speech dictionaries that can be provided by add-ons and new dictionary entry types for more granular control.</source>
-        <target>语音功能已得到增强，支持插件提供的自定义语音字典，并新增字典条目类型以实现精细控制。</target>
+        <target>增强了语音相关功能，支持插件提供的自定义语音字典，并新增字典条目类型以实现精细控制。</target>
       </segment>
     </unit>
     <unit id="08349e4f-f444-4952-8ee3-1faf968dbb04">
@@ -6289,7 +6289,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When resetting NVDA to factory defaults, an Undo button is now available to restore the previous configuration.</source>
-        <target>将 NVDA 恢复为默认设置时，提供了“撤消”按钮用以恢复之前的配置。</target>
+        <target>将 NVDA 恢复为默认设置时，提供了“撤销”按钮用以恢复之前的配置。</target>
       </segment>
     </unit>
     <unit id="d5fed2ec-56cf-401c-81e9-4353d7d47009">
@@ -6637,16 +6637,16 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When resetting the configuration to factory defaults from the NVDA menu, a dialog is now shown afterwards with an Undo button to restore the previous configuration.</source>
-        <target>从 NVDA 菜单将配置重置为默认值后，现在会显示一个带有“撤消”按钮的对话框，用于恢复之前的配置。</target>
+        <target>从 NVDA 菜单将配置重置为默认值后，现在会显示一个带有“撤销”按钮的对话框，用于恢复之前的配置。</target>
       </segment>
     </unit>
     <unit id="aff4906d-1bb1-4b50-bda1-deb83b4aaefa">
       <notes>
         <note appliesTo="source">line: 65</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The triple-press keyboard shortcut (`NVDA+control+r`) is not affected, as it is intended for recovery scenarios. (#19575, @bramd)</source>
-        <target>连按三次快捷键（`NVDA+Ctrl+R`）不受影响，因为这适用于恢复场景。(#19575, @bramd)</target>
+        <target>连按三次快捷键（`NVDA+Ctrl+R`）不受影响，因为该快捷键明确用于恢复场景。(#19575, @bramd)</target>
       </segment>
     </unit>
     <unit id="bf5ab808-9e0c-4bde-87d7-8457bb7f4fe5">
@@ -6724,9 +6724,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>It is now possible to open the log viewer with `NVDA+f1`, even when the log level is set to "disabled". (#19318, @CyrilleB79)</source>
-        <target>即使当日志级别设置为“禁用”，也可使用 `NVDA+F1` 打开日志查看器。(#19318, @CyrilleB79)</target>
+        <target>即使日志级别设置为“禁用”，也可使用 `NVDA+F1` 打开日志查看器。(#19318, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="c50ef6bd-7db9-44c6-b597-c285e49a9468">
@@ -6744,9 +6744,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA can now be configured to not play error sounds, even in test versions. (#13021, @CyrilleB79)</source>
-        <target>NVDA 可配置为即使在测试版本中也不播放错误提示音。(#13021, @CyrilleB79)</target>
+        <target>NVDA 可置为即使在测试版本中也不播放错误提示音。(#13021, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="d1374a64-998f-462c-a249-a09bbe533a22">
@@ -6754,7 +6754,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA will start in focus mode by default when using WhatsApp 2.2584.3.0 or newer. (#19655, @josephsl)</source>
         <target>使用 WhatsApp 2.2584.3.0 或更高版本时，NVDA 默认将以焦点模式启动。(#19655, @josephsl)</target>
       </segment>
@@ -6861,9 +6861,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The "Type" radio buttons in the "Add Dictionary Entry" dialog are now arranged vertically rather than horizontally. (#19657)</source>
-        <target>“添加字典项目”对话框中的“类型”单选按钮现在改为垂直排列，而非水平排列。(#19657)</target>
+        <target>将“添加字典项目”对话框中的“类型”单选按钮从水平排列改为垂直排列。(#19657)</target>
       </segment>
     </unit>
     <unit id="1eac61e4-032b-443f-9f71-b86aa8199cd7">
@@ -6871,9 +6871,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Removed the non-functional "Custom" option from the math decimal separator setting. (#20425)</source>
-        <target>已从数字的小数分隔符设置中移除了不起作用的“自定义”选项。(#20425)</target>
+        <target>从数字的小数分隔符设置中移除了不起作用的“自定义”选项。(#20425)</target>
       </segment>
     </unit>
     <unit id="6e83ec90-ee84-4be0-819c-f475fa970a66">
@@ -6901,9 +6901,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>NVDA no longer crashes when the Add-on Store download directory cannot be cleaned up due to file permission errors. (#19202, @christopherpross)</source>
-        <target>修复了当因文件权限错误无法清理插件商店下载目录时，NVDA 崩溃的问题。(#19202, @christopherpross)</target>
+        <target>修复了因文件权限错误无法清理插件商店下载目录，导致 NVDA 崩溃的问题。(#19202, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="b6c22b8b-431a-48db-a8b6-52d09261614a">
@@ -6911,9 +6911,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>After cancelling an add-on download and reopening the Add-on Store, downloading another add-on no longer fails. (#20015, @Cary-rowen)</source>
-        <target>修复了取消插件下载并重新打开插件商店后，下载其他插件失败的问题。(#20015, @Cary-rowen)</target>
+        <target>修复了取消插件下载后，重新打开插件商店时无法下载其他插件的问题。(#20015, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="466642ed-1b63-488e-99b6-0441afae5c59">
@@ -6961,9 +6961,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In Foxit PDF Editor, NVDA can once again browse PDF documents. (#20440, @cary-rowen)</source>
-        <target>修复了无法在福昕 PDF 编辑器中浏览 PDF 文档的问题。(#20440, @cary-rowen)</target>
+        <target>修复了在福昕 PDF 编辑器中 NVDA 无法浏览 PDF 文档的问题。(#20440, @cary-rowen)</target>
       </segment>
     </unit>
     <unit id="c507f011-b58b-444a-a3d0-93b922b63bd2">
@@ -6981,9 +6981,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In Microsoft Word with UIA enabled, page changes are now correctly announced when navigating table rows that span multiple pages. (#19386, @akj)</source>
-        <target>修复了在启用 UIA 的 Microsoft Word 中，导航跨多页的表格行时，页面变更未被正确朗读的问题。(#19386, @akj)</target>
+        <target>修复了在启用 UIA 的 Microsoft Word 中，导航跨多页表格行时未正确朗读页面变化的问题。(#19386, @akj)</target>
       </segment>
     </unit>
     <unit id="9ec14e36-02f1-44f0-ad8c-366cfcf7f7de">
@@ -35194,7 +35194,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Rubber band effect: NVDA sporadically undoes the last browse mode keystroke by jumping to the previous location.</source>
-        <target>NVDA 在使用跳转到上一个位置的快捷键时，偶尔会撤消上次的浏览模式的快捷键。</target>
+        <target>NVDA 在使用跳转到上一个位置的快捷键时，偶尔会撤销上次的浏览模式的快捷键。</target>
       </segment>
     </unit>
     <unit id="0b0c0477-1ddf-470d-af21-3c92f5616995">
