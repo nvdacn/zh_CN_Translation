@@ -7577,7 +7577,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Installing NVDA will allow for additional functionality such as automatic starting after sign-in, the ability to read the Windows sign-in and [secure screens](#SecureScreens).</source>
-        <target>安装了 NVDA 就可以使用更多功能，如在 Windows 登录时自动启动 NVDA ，朗读 Windows 的欢迎界面和[安全界面](#SecureScreens)。</target>
+        <target>安装 NVDA 后可以使用更多功能，例如登录 Windows 后自动启动 NVDA，以及朗读 Windows 的欢迎界面和[安全界面](#SecureScreens)。</target>
       </segment>
     </unit>
     <unit id="61d205c2-29cc-4810-8300-0405727adb1b">
@@ -10286,7 +10286,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The second specifies whether NVDA should start automatically after you log on to Windows and is only available for installed copies of NVDA.</source>
-        <target>第二个选择是否允许在 Windows 启动时自动启动 NVDA，且只适用于已安装的 NVDA。</target>
+        <target>第二个复选框用于设置 NVDA 是否在您登录 Windows 后自动启动，且仅适用于安装版 NVDA。</target>
       </segment>
     </unit>
     <unit id="1c132153-a767-4349-9d9d-acfadac3c70c">
@@ -10494,7 +10494,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>While NVDA is running, unless touch interaction support is disabled, all touch input will go directly to NVDA.</source>
-        <target>当 NVDA 正在运行时，所有触摸动作都将直接被 NVDA 接管。</target>
+        <target>NVDA 运行时，除非禁用了触摸交互支持，否则所有触摸输入都会直接传给 NVDA。</target>
       </segment>
     </unit>
     <unit id="82a50dab-4d6e-4452-a41c-e6c3ce443318">
@@ -10662,7 +10662,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Of course, these multi-tap gestures also recognize how many fingers were used, so it's possible to have gestures like a 2-finger triple-tap, a 4-finger tap, etc.</source>
-        <target>当然，多次点击的手势也会判断手指的数目。所以，像两指双击、四指单击这样的动作也是可以识别的。</target>
+        <target>当然，多次点击手势还能区分手指数量，因此可以使用双指三击、四指单击等手势。</target>
       </segment>
     </unit>
     <unit id="b24b5252-27d0-460c-92a1-594e1818c703">
@@ -11968,7 +11968,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Moving to a list item's containing object will take you back to the list.</source>
-        <target>使用移动到父对象可以让您退出这个列表。</target>
+        <target>移动到列表项的父对象会返回该列表。</target>
       </segment>
     </unit>
     <unit id="60209728-4cc7-4dca-b6af-6beb0ddc729d">
@@ -14255,7 +14255,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Find "moves to the next tab" item in the Browse mode section.</source>
-        <target>在浏览模式类别找到“移到上一个选项卡”。</target>
+        <target>在浏览模式类别找到“移到下一个选项卡”。</target>
       </segment>
     </unit>
     <unit id="d99db5dc-2b23-43b7-a43b-f138e5cab6fe">
@@ -14265,7 +14265,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Assign `y` key for found gesture.</source>
-        <target>为该命令分配快捷键 `Shift+Y`。</target>
+        <target>为该命令分配快捷键 `y`。</target>
       </segment>
     </unit>
     <unit id="25277a4b-fda7-49b5-ad6c-5376ea421f4c">
@@ -14275,7 +14275,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Find "moves to the previous tab" item.</source>
-        <target>找到“移到下一个选项卡”。</target>
+        <target>找到“移到上一个选项卡”。</target>
       </segment>
     </unit>
     <unit id="f9346a98-fa93-465a-9149-f0f5cd08f5b4">
@@ -14285,7 +14285,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Assign `shift+y` for found gesture.</source>
-        <target>为该命令分配快捷键 `y`。</target>
+        <target>为该命令分配快捷键 `shift+y`。</target>
       </segment>
     </unit>
     <unit id="47266dc7-8442-4b33-88da-e6e1f00a0a04">
@@ -17677,7 +17677,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Solid yellow highlights the virtual caret used in browse mode (where there is no physical caret such as in web browsers).</source>
-        <target>黄色虚线表示浏览模式的虚拟光标（常见于浏览器等环境）。</target>
+        <target>黄色实线表示浏览模式的虚拟光标（常见于浏览器等环境）。</target>
       </segment>
     </unit>
     <unit id="88d4faf1-1fcf-41f2-929d-888fc923bb74">
@@ -17784,7 +17784,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, you cannot [use OCR](#Win10Ocr).</source>
-        <target>如[执行 OCR](#Win10Ocr)。</target>
+        <target>例如，您无法[执行 OCR](#Win10Ocr)。</target>
       </segment>
     </unit>
     <unit id="186924d2-4574-4f54-88c8-f203e6b33288">
@@ -19048,7 +19048,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Sheets: This lists all sheets in the workbook.</source>
-        <target>表格：这里列举了工作表中所有的表格。</target>
+        <target>工作表：列出工作簿中的所有工作表。</target>
       </segment>
     </unit>
     <unit id="ff1a9cbd-1def-4d56-bbea-9b9c37c56797">
@@ -19057,7 +19057,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Pressing f2 when on a listed sheet allows you to rename the sheet.</source>
-        <target>在所列表格中按下“F2”可重命名该表格。</target>
+        <target>在列表中选中工作表后，按下“F2”可重命名该工作表。</target>
       </segment>
     </unit>
     <unit id="555bbf31-9b1a-45c5-b07c-79959f4df9f8">
@@ -19066,7 +19066,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Pressing enter or the Move To button while on the listed sheet will switch to that sheet.</source>
-        <target>按下“回车键”或点击“移动到”按钮可以直接移动到所选的表格中。</target>
+        <target>在列表中选中工作表后，按下“回车键”或点击“移动到”按钮可切换到该工作表。</target>
       </segment>
     </unit>
     <unit id="4a7b46fe-aa70-4729-83f2-7f30d239a7d6">
@@ -19141,7 +19141,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>All notes for the worksheet can also be listed in the NVDA Elements List after pressing NVDA+f7.</source>
-        <target>按 NVDA+F7 在元素列表中访问当前工作簿的所有注释。</target>
+        <target>按 NVDA+F7 后，还可以在 NVDA 元素列表中列出当前工作表的所有注释。</target>
       </segment>
     </unit>
     <unit id="a1fc2765-622f-476c-9db1-a1ff3297219a">
@@ -19280,7 +19280,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Excel worksheets can include form fields.</source>
-        <target>Excel 工作簿可包含表单。</target>
+        <target>Excel 工作表可包含表单字段。</target>
       </segment>
     </unit>
     <unit id="5ea54c07-3747-4224-bd60-f9d92c52471d">
@@ -22618,7 +22618,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The selection indicator is not affected by this option, it is always dots 7 and 8 without blinking.</source>
-        <target>此选项对选择指示器无效。</target>
+        <target>选择指示器不受此选项影响，始终以不闪烁的 7、8 点显示。</target>
       </segment>
     </unit>
     <unit id="83d678ab-2fc1-4f0f-822c-110e31a4708c">
@@ -29076,7 +29076,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The tone will increase in pitch every space, and for a tab, it will increase in pitch the equivalent of 4 spaces.</source>
-        <target>每增加一个空格或一个制表符，音调升高一个半音，也会为四个连续的空格升高伴音。</target>
+        <target>每增加一个空格，提示音的音调就会升高；一个制表符对应的音调升幅相当于 4 个空格。</target>
       </segment>
     </unit>
     <unit id="4177a256-88fa-471e-8ef1-d4f523e02110">
@@ -32164,7 +32164,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For instance, NVDA's Elements List for listing formulas and comments, and Browse mode quick navigation to jump to form fields on a spreadsheet features are not available.</source>
-        <target>例如，用于列出公式和批注的元素列表，以及用于在浏览模式下跳转到表单的快速导航功能。</target>
+        <target>例如，无法使用 NVDA 的元素列表列出公式和批注，也无法使用浏览模式下的快速导航跳转到电子表格中的表单字段。</target>
       </segment>
     </unit>
     <unit id="3700c8c9-9236-4e5d-b13c-d7519e6cffee">
@@ -37415,7 +37415,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>While the braille viewer is enabled, it constantly updates to show you the braille that would be displayed on a physical braille display.</source>
-        <target>打开盲文查看器后，其会实时同步点显器上的信息。</target>
+        <target>启用盲文查看器后，它会不断更新，显示本应输出到实体点显器的盲文。</target>
       </segment>
     </unit>
     <unit id="8e6f3431-abeb-4c8f-b62a-6d4efaddfaf7">
@@ -48037,7 +48037,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The hope is that all future Braille Display models created by any manufacturer, will use this standard protocol which will remove the need for manufacturer-specific Braille drivers.</source>
-        <target>希望未来所有制造商推出的盲文点显器设备都可以使用此标准协议，以消除设备驱动之间的差异性。</target>
+        <target>希望未来所有制造商推出的盲文点显器都采用此标准协议，从而无需厂商专用的盲文驱动程序。</target>
       </segment>
     </unit>
     <unit id="c48ccf8e-0899-4112-8699-f742af73305a">
@@ -48423,7 +48423,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Scroll braille display back | `panLeft` </source>
-        <target> 向后滚动盲文显示 | `pan_left` </target>
+        <target> 向后滚动盲文显示 | `panLeft` </target>
       </segment>
     </unit>
     <unit id="72b841c6-172c-47ae-a98c-7fb512b5d1a6">
@@ -48434,7 +48434,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Scroll braille display forward | `panRight` </source>
-        <target> 向前滚动盲文显示 | `pan_right` </target>
+        <target> 向前滚动盲文显示 | `panRight` </target>
       </segment>
     </unit>
     <unit id="b4d61299-abab-4dd4-94f4-2b490bad7b6b">
