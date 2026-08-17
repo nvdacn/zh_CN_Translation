@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/817ab0fb8654b23ac38f8c60f280b18837188ee3/user_docs/en/changes.md">
+  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/9a47669f03c9bfdb9e92057ebcd91dc4ac098037/user_docs/en/changes.md">
     <skeleton>
 # $(ID:4bf3ec03-2d43-474a-aef0-92b334e594ed)
 
@@ -135,9 +135,9 @@ $(ID:10327e8f-73dd-48a5-abd2-dd09ff340fef)
   * $(ID:a9107bfe-7697-4c29-8170-695af774265f)
   * $(ID:2e3fa407-4806-43f3-88b9-c409d5a39843)
   * $(ID:05f1b497-e5cd-4056-a4e7-5f063f19f4e2)
-* $(ID:c464a307-6952-4bd3-8a11-d7b1f4be6998)
+* $(ID:52247bdb-7c21-4d0a-a4d9-5c88f4981466)
 * $(ID:3f08eb8c-6383-432c-b31a-94508aeacb26)
-* $(ID:9fa2fb22-9819-4bad-af98-f170843e8a93)
+* $(ID:bbf8d479-f34e-4c08-abee-8f1aba0d5d47)
   * $(ID:75eccd47-187e-47d9-a125-3ee5df162cfc)
 * $(ID:1d4c9f14-0594-4e64-8eb2-bdbcac44b19c)
 $(ID:a24ba95b-e821-4cce-a2d8-9252add71178)
@@ -7220,9 +7220,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 130</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A new parameter `redactSecrets` has been added to logging functions e.g. `log.debug`. (#19966)</source>
-        <target>A new parameter `redactSecrets` has been added to logging functions e.g. `log.debug`. (#19966)</target>
+        <target>日志记录函数（例如 `log.debug`）新增了 `redactSecrets` 参数。(#19966)</target>
       </segment>
     </unit>
     <unit id="5df1fb54-1d0b-4863-b3d1-64a22c5229ae">
@@ -7230,9 +7230,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 131</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When set to `True`, logging output will be sanitized to replace detected secrets with asterisks.</source>
-        <target>When set to `True`, logging output will be sanitized to replace detected secrets with asterisks.</target>
+        <target>将该参数设为 `True` 后，日志输出中检测到的机密信息会被替换为星号。</target>
       </segment>
     </unit>
     <unit id="a9107bfe-7697-4c29-8170-695af774265f">
@@ -7240,9 +7240,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 132</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is set to `False` by default for performance purposes.</source>
-        <target>This is set to `False` by default for performance purposes.</target>
+        <target>出于性能考虑，该参数默认为 `False`。</target>
       </segment>
     </unit>
     <unit id="2e3fa407-4806-43f3-88b9-c409d5a39843">
@@ -7250,9 +7250,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 133</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>It is encouraged to enable this when logging anything particularly sensitive e.g. clipboard content.</source>
-        <target>It is encouraged to enable this when logging anything particularly sensitive e.g. clipboard content.</target>
+        <target>建议在记录特别敏感的信息（例如剪贴板内容）时启用此参数。</target>
       </segment>
     </unit>
     <unit id="05f1b497-e5cd-4056-a4e7-5f063f19f4e2">
@@ -7260,19 +7260,19 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 134</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a `DEBUG_UNREDACTED` logging level for cases where developers explicitly need debug logging without `redactSecrets` masking.</source>
-        <target>Added a `DEBUG_UNREDACTED` logging level for cases where developers explicitly need debug logging without `redactSecrets` masking.</target>
+        <target>新增了 `DEBUG_UNREDACTED` 日志级别，供开发者在确实需要记录未经 `redactSecrets` 脱敏的调试日志时使用。</target>
       </segment>
     </unit>
-    <unit id="c464a307-6952-4bd3-8a11-d7b1f4be6998">
+    <unit id="52247bdb-7c21-4d0a-a4d9-5c88f4981466">
       <notes>
         <note appliesTo="source">line: 135</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
-        <source>NVDA libraries built by the build system are now linked with the [/SETCOMPAT](https://learn.microsoft.com/en-us/cpp/build/reference/cetcompat) flag, improving protection against certain malware attacks. (#19435, @LeonarddeR)</source>
-        <target>NVDA libraries built by the build system are now linked with the [/SETCOMPAT](https://learn.microsoft.com/en-us/cpp/build/reference/cetcompat) flag, improving protection against certain malware attacks. (#19435, @LeonarddeR)</target>
+      <segment state="final">
+        <source>NVDA libraries built by the build system are now linked with the [/CETCOMPAT](https://learn.microsoft.com/en-us/cpp/build/reference/cetcompat) flag, improving protection against certain malware attacks. (#19435, @LeonarddeR)</source>
+        <target>由构建系统生成的 NVDA 库现会使用 [/CETCOMPAT](https://learn.microsoft.com/zh-cn/cpp/build/reference/cetcompat) 标志进行链接，从而增强对某些恶意软件攻击的防护能力。(#19435, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="3f08eb8c-6383-432c-b31a-94508aeacb26">
@@ -7280,19 +7280,19 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 136</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Subclasses of `browseMode.BrowseModeDocumentTreeInterceptor` that support screen layout being on and off should override the `_toggleScreenLayout` method, rather than implementing `script_toggleScreenLayout` directly. (#19487)</source>
-        <target>Subclasses of `browseMode.BrowseModeDocumentTreeInterceptor` that support screen layout being on and off should override the `_toggleScreenLayout` method, rather than implementing `script_toggleScreenLayout` directly. (#19487)</target>
+        <target>支持开启和关闭屏幕布局的 `browseMode.BrowseModeDocumentTreeInterceptor` 子类应重写 `_toggleScreenLayout` 方法，而不是直接实现 `script_toggleScreenLayout`。(#19487)</target>
       </segment>
     </unit>
-    <unit id="9fa2fb22-9819-4bad-af98-f170843e8a93">
+    <unit id="bbf8d479-f34e-4c08-abee-8f1aba0d5d47">
       <notes>
         <note appliesTo="source">line: 137</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
-        <source>A new method has been added to the UIA.UIA class, called `_getUIACacheablePropertyValue_handleCOMErrors`. (#19713, @Emil-18)</source>
-        <target>A new method has been added to the UIA.UIA class, called `_getUIACacheablePropertyValue_handleCOMErrors`. (#19713, @Emil-18)</target>
+      <segment state="final">
+        <source>A new method has been added to the UIA.UIA class, called `_getUIACacheablePropertyValue_handlesCOMErrors`. (#19713, @Emil-18)</source>
+        <target>UIA.UIA 类新增了 `_getUIACacheablePropertyValue_handlesCOMErrors`方法。(#19713, @Emil-18)</target>
       </segment>
     </unit>
     <unit id="75eccd47-187e-47d9-a125-3ee5df162cfc">
@@ -7300,9 +7300,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 138</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This method calls `_getUIACacheablePropertyValue`, and takes an extra argument (`onError`) that specifies the value that should be returned if a `COMError` is raised.</source>
-        <target>This method calls `_getUIACacheablePropertyValue`, and takes an extra argument (`onError`) that specifies the value that should be returned if a `COMError` is raised.</target>
+        <target>此方法调用 `_getUIACacheablePropertyValue`，并额外接受一个参数（`onError`），用于指定发生 `COMError` 时的返回值。</target>
       </segment>
     </unit>
     <unit id="1d4c9f14-0594-4e64-8eb2-bdbcac44b19c">
@@ -7310,36 +7310,36 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 139</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `scons tests` build target has been removed, as it was misleadingly named.</source>
-        <target>The `scons tests` build target has been removed, as it was misleadingly named.</target>
+        <target>已移除 `scons tests` 构建目标，因为其名称容易引起误解。</target>
       </segment>
     </unit>
     <unit id="a24ba95b-e821-4cce-a2d8-9252add71178">
       <notes>
         <note appliesTo="source">line: 140</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>It only ran the translation string comment check, which is equivalent to `scons checkPot`.</source>
-        <target>It only ran the translation string comment check, which is equivalent to `scons checkPot`.</target>
+        <target>该目标只检查可翻译字符串是否带有翻译者注释，其作用与 `scons checkPot` 相同。</target>
       </segment>
     </unit>
     <unit id="5b121ec5-39dd-41c6-9057-b614fd28cc56">
       <notes>
         <note appliesTo="source">line: 141</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `scons checkPot` target has also been replaced with `runcheckpot.bat`.</source>
-        <target>The `scons checkPot` target has also been replaced with `runcheckpot.bat`.</target>
+        <target>`scons checkPot` 目标也已由 `runcheckpot.bat` 取代。</target>
       </segment>
     </unit>
     <unit id="4159f85b-1fdf-410e-9438-3e1664d36aa5">
       <notes>
         <note appliesTo="source">line: 142</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Use the individual test commands instead: `runcheckpot.bat`, `rununittests.bat`, `runsystemtests.bat`, `runlint.bat`. (#19606, #19676, @bramd)</source>
-        <target>Use the individual test commands instead: `runcheckpot.bat`, `rununittests.bat`, `runsystemtests.bat`, `runlint.bat`. (#19606, #19676, @bramd)</target>
+        <target>请改为直接运行各项测试命令：`runcheckpot.bat`、`rununittests.bat`、`runsystemtests.bat`、`runlint.bat`。(#19606, #19676, @bramd)</target>
       </segment>
     </unit>
     <unit id="aba81f60-fa0d-492e-835f-cd2853cd0664">
@@ -7347,9 +7347,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 143</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a private `_asyncioEventLoop` module that provides an asyncio event loop running on a background thread for use by NVDA components. (#19816, @bramd)</source>
-        <target>Added a private `_asyncioEventLoop` module that provides an asyncio event loop running on a background thread for use by NVDA components. (#19816, @bramd)</target>
+        <target>新增了私有 `_asyncioEventLoop` 模块，提供在后台线程中运行的 asyncio 事件循环，供 NVDA 组件使用。(#19816, @bramd)</target>
       </segment>
     </unit>
     <unit id="40496feb-3994-4036-9f7d-3cf52eb8035d">
@@ -7357,9 +7357,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 144</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added several functions related to the braille auto-scroll feature. (#19126, @nvdaes):</source>
-        <target>Added several functions related to the braille auto-scroll feature. (#19126, @nvdaes):</target>
+        <target>新增了多个与盲文自动滚动功能相关的函数 (#19126, @nvdaes)：</target>
       </segment>
     </unit>
     <unit id="0870508f-269c-44b8-818a-2d2be237b1ca">
@@ -7367,9 +7367,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 145</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added an `autoScroll` method to `braille.handler`.</source>
-        <target>Added an `autoScroll` method to `braille.handler`.</target>
+        <target>`braille.handler` 新增了 `autoScroll` 方法。</target>
       </segment>
     </unit>
     <unit id="10f1b5c0-de14-4cf3-b19b-06738fbb7299">
@@ -7377,9 +7377,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 146</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added several functions for handling configuration value conversions and updates in `config.conf`:</source>
-        <target>Added several functions for handling configuration value conversions and updates in `config.conf`:</target>
+        <target>`config.conf` 中新增了多个用于处理配置值转换和更新的函数：</target>
       </segment>
     </unit>
     <unit id="0e178e6d-b64e-49ad-876a-c2ac7c79470d">
@@ -7387,9 +7387,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 147</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a `getConfigValue` function to get the value for a provided configuration key path.</source>
-        <target>Added a `getConfigValue` function to get the value for a provided configuration key path.</target>
+        <target>新增了 `getConfigValue` 函数，用于获取指定配置键路径的值。</target>
       </segment>
     </unit>
     <unit id="28e3d3a4-2485-4bb3-b91a-36d894ebc105">
@@ -7397,9 +7397,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 148</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a `setConfigValue` function to set a value for a provided configuration key path.</source>
-        <target>Added a `setConfigValue` function to set a value for a provided configuration key path.</target>
+        <target>新增了 `setConfigValue` 函数，用于设置指定配置键路径的值。</target>
       </segment>
     </unit>
     <unit id="871197c7-91a7-48e1-b7e2-dfb5f995ba51">
@@ -7407,9 +7407,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 149</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a `valueToPercentage` function to calculate the percentage representation of a configuration value within its range.</source>
-        <target>Added a `valueToPercentage` function to calculate the percentage representation of a configuration value within its range.</target>
+        <target>新增了 `valueToPercentage` 函数，用于计算配置值在其取值范围内所对应的百分比。</target>
       </segment>
     </unit>
     <unit id="712d6f44-684c-41fe-9f83-5426fc6123fa">
@@ -7417,9 +7417,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 150</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a `percentageToValue` function to convert a percentage to the corresponding configuration value.</source>
-        <target>Added a `percentageToValue` function to convert a percentage to the corresponding configuration value.</target>
+        <target>新增了 `percentageToValue` 函数，用于将百分比转换为相应的配置值。</target>
       </segment>
     </unit>
     <unit id="38b9d4fd-7fc5-427a-bd36-2b2f01a4ce5b">
@@ -7427,9 +7427,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 151</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added a `clampedIncrementAndUpdateConfig` function to update a configuration value by applying a step, constrained within its valid range.</source>
-        <target>Added a `clampedIncrementAndUpdateConfig` function to update a configuration value by applying a step, constrained within its valid range.</target>
+        <target>新增了 `clampedIncrementAndUpdateConfig` 函数，用于按步长更新配置值，并将结果限制在有效范围内。</target>
       </segment>
     </unit>
     <unit id="1ffb0253-164e-46e4-83c3-32bff7ee710a">
@@ -7437,9 +7437,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 152</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA is now built with Visual Studio 2026. (#20203, @LeonarddeR)</source>
-        <target>NVDA is now built with Visual Studio 2026. (#20203, @LeonarddeR)</target>
+        <target>NVDA 现使用 Visual Studio 2026 构建。(#20203, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="86aac8b3-5b0d-4f42-8a22-dba003b55dfc">
@@ -7447,9 +7447,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 153</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed a race condition in `nvdaController_speakSsml` with `asynchronous=False` where a `speechCanceled` signal fired between `queueFunction` returning and the synth thread executing the `CallbackCommand` would not be caught, causing the call to block indefinitely. (#20220, @LeonarddeR)</source>
-        <target>Fixed a race condition in `nvdaController_speakSsml` with `asynchronous=False` where a `speechCanceled` signal fired between `queueFunction` returning and the synth thread executing the `CallbackCommand` would not be caught, causing the call to block indefinitely. (#20220, @LeonarddeR)</target>
+        <target>修复了 `nvdaController_speakSsml` 在 `asynchronous=False` 时的一个竞态条件：如果 `speechCanceled` 信号在 `queueFunction` 返回后、语音合成线程执行 `CallbackCommand` 前触发，该信号不会被捕获，导致调用无限期阻塞。(#20220, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="0b560218-2ba2-4013-9e8e-67f60f3979f3">
@@ -7467,18 +7467,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The `speechDictHandler.ENTRY_TYPE_*` constants are deprecated.</source>
-        <target>The `speechDictHandler.ENTRY_TYPE_*` constants are deprecated.</target>
+        <target>`speechDictHandler.ENTRY_TYPE_*` 常量已弃用。</target>
       </segment>
     </unit>
     <unit id="b9c7204c-2999-4262-ae69-1dbe86b55ef0">
       <notes>
         <note appliesTo="source">line: 158</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Use the `speechDictHandler.types.EntryType` enumeration instead. (#19430, @LeonarddeR)</source>
-        <target>Use the `speechDictHandler.types.EntryType` enumeration instead. (#19430, @LeonarddeR)</target>
+        <target>请改用 `speechDictHandler.types.EntryType` 枚举。(#19430, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="8de04e8f-c927-48cf-b1a0-b1ff32a02622">
@@ -7486,9 +7486,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 159</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`speechDictHandler.SpeechDictEntry` and `speechDictHandler.SpeechDict` have been moved to `speechDictHandler.types`. (#19430, @LeonarddeR)</source>
-        <target>`speechDictHandler.SpeechDictEntry` and `speechDictHandler.SpeechDict` have been moved to `speechDictHandler.types`. (#19430, @LeonarddeR)</target>
+        <target>`speechDictHandler.SpeechDictEntry` 和 `speechDictHandler.SpeechDict` 已移至 `speechDictHandler.types`。(#19430, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="7868489c-7d03-4093-a7bd-148118a820ad">
@@ -7496,9 +7496,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 160</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>`speechDictHandler.dictionaries` and `speechDictHandler.dictTypes` are deprecated without replacement. (#19558, @LeonarddeR)</source>
-        <target>`speechDictHandler.dictionaries` and `speechDictHandler.dictTypes` are deprecated without replacement. (#19558, @LeonarddeR)</target>
+        <target>`speechDictHandler.dictionaries` 和 `speechDictHandler.dictTypes` 已弃用且无替代方案。(#19558, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="907ad75b-a7bb-45ec-83b5-42523a88bb63">
@@ -12147,7 +12147,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When using NVDA Remote Access, speech from User Account Control screens on the remote computer now works reliably. (#18101, @jcsteh)</source>
-        <target>修复了使用远程访问时，远程计算机用户用户账户控制界面的语音偶尔无声的问题。(#18101，@jcsteh)</target>
+        <target>修复了使用远程访问时，远程计算机上的用户账户控制界面的语音偶尔无声的问题。(#18101，@jcsteh)</target>
       </segment>
     </unit>
     <unit id="d20c0153-d1c5-477c-9099-28a28dbef92d">
@@ -13374,7 +13374,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Unicode Normalization is now enabled by default for speech output. (#17017, @LeonarddeR).</source>
-        <target>默认启用了语音输出的 Unicode 规范化。(#17017, @LeonarddeR).</target>
+        <target>默认启用了语音输出的 Unicode 规范化。(#17017, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="bf5e60fe-403b-4d9c-a09f-8c765c809d06">
@@ -18869,7 +18869,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Included python3.dll in the binary distribution for use by add-ons with external libraries utilizing the [stable ABI](https://docs.python.org/3.11/c-api/stable.html). (#15674, @mzanm)</source>
-        <target>在二进制包中包含了 python3.dll，供插件使用外部库（利用[稳定 API](https://docs.python.org/3.11/c-api/stable.html)。(#15674, @mzanm)</target>
+        <target>在二进制包中包含了 python3.dll，供插件使用外部库（利用[稳定 API](https://docs.python.org/3.11/c-api/stable.html)）。(#15674, @mzanm)</target>
       </segment>
     </unit>
     <unit id="f8ca3167-21ef-4aa2-910e-f2db149e4d64">
@@ -21448,7 +21448,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>A new option to optionally move the system caret or focus when changing the review cursor position with braille routing keys. (#14885, #3166)</source>
-        <target>新增了使用点显器光标键移动浏览光标位置时可以选择移动系统光标或系统焦点的选项。(#14885，#3166）</target>
+        <target>新增了使用点显器光标键移动浏览光标位置时可以选择移动系统光标或系统焦点的选项。(#14885，#3166)</target>
       </segment>
     </unit>
     <unit id="78438356-98bd-430f-9f97-beab17929c1a">
@@ -25736,7 +25736,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>This can be overridden by changing the "Windows Console support" setting in NVDA's advanced settings panel.</source>
-        <target>可在  NVDA “高级”面板中修改“Windows 控制台支持”选项来改变此设置。。</target>
+        <target>可在  NVDA “高级”面板中修改“Windows 控制台支持”选项来改变此设置。</target>
       </segment>
     </unit>
     <unit id="1954543b-a3dc-4533-bcc8-7e16d6895399">
@@ -27513,7 +27513,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Clipboard manager pane should no longer incorrectly steal focus when opening some Office programs. (#12736)</source>
-        <target>打开某些 Office 程序时，剪贴板管理器将不在错误地获取焦点。(#12736)</target>
+        <target>打开某些 Office 程序时，剪贴板管理器将不再错误地获取焦点。(#12736)</target>
       </segment>
     </unit>
     <unit id="db5f5ec6-ba96-41eb-a65f-1baae3eacf5d">
@@ -27523,7 +27523,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>On a system where the user has chosen to swap the primary mouse button from the left to the right, NVDA will no longer accidentally bring up a context menu instead of activating an item, in applications such as web browsers. (#12642)</source>
-        <target>若用户将鼠标的主按件从左键改换至右键， 在诸如网页浏览器等应用中， NVDA 将不会偶尔出现按下右键弹出上下文菜单而非激活项目的情况。(#12642)</target>
+        <target>若用户将鼠标的主按键从左键改换至右键， 在诸如网页浏览器等应用中， NVDA 将不会偶尔出现按下右键弹出上下文菜单而非激活项目的情况。(#12642)</target>
       </segment>
     </unit>
     <unit id="2c1b71e8-98d4-42c1-9041-ad3c061604a5">
@@ -27673,7 +27673,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>"Baseline" is no longer spuriously reported when the "report superscript and subscript" option is active. (#11078)</source>
-        <target>在开启读出上标和下标的选项后，不再错乱的朗读“基准线”。(#11078)</target>
+        <target>在开启读出上标和下标的选项后，不再错乱地朗读“基准线”。(#11078)</target>
       </segment>
     </unit>
     <unit id="94ea805d-b9a0-416e-b831-f5c208df5c55">
@@ -27753,7 +27753,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Microsoft word with UIA: page number and other formatting is no longer inappropriately announced when moving from a blank table cell to a cell with content, or from the end of the document into existing content. (#13458, #13459)</source>
-        <target>开启 UIA 后，在 MS Word 中：当从空白表格单元格移动到有内容的单元格，或从文档末尾移动到正文区域时，不会错误的读出页码和其他格式信息。(#13458, #13459)</target>
+        <target>开启 UIA 后，在 MS Word 中：当从空白表格单元格移动到有内容的单元格，或从文档末尾移动到正文区域时，不会错误地读出页码和其他格式信息。(#13458, #13459)</target>
       </segment>
     </unit>
     <unit id="05739e3b-509b-42b7-aa28-7f85014933a8">
@@ -28250,7 +28250,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Functions `loadState` and `saveState` are removed from addonHandler - please use `addonHandler.state.load` and `addonHandler.state.save` instead. (#13245)</source>
-        <target>从插件管理器中移除函数 `loadState` 和 `saveState`，请使用 `addonHandler.state.load` 和 `addonHandler.state.save` 替代。。(#13245)</target>
+        <target>从插件管理器中移除函数 `loadState` 和 `saveState`，请使用 `addonHandler.state.load` 和 `addonHandler.state.save` 替代。(#13245)</target>
       </segment>
     </unit>
     <unit id="ebc637f9-d3b8-494c-bc44-7ef2f992ac90">
@@ -28320,7 +28320,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>IAccessible2 relations are now shown in developer info for IAccessible2 objects. (#13315)</source>
-        <target>IAccessible2 关系 被至于 IAccessible2 对象的开发者信息中。(#13315)</target>
+        <target>IAccessible2 关系会显示在 IAccessible2 对象的开发者信息中。(#13315)</target>
       </segment>
     </unit>
     <unit id="07490cc7-4339-4870-b120-ff0afe78736a">
@@ -29388,7 +29388,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In MS Word with UIA enabled, more accurate playing of spelling error sounds as you type. (#12161)</source>
-        <target>使用 UIA 接口在 Word 中输入时，可以更准确的播放拼写错误提示音。(#12161)</target>
+        <target>使用 UIA 接口在 Word 中输入时，可以更准确地播放拼写错误提示音。(#12161)</target>
       </segment>
     </unit>
     <unit id="65c00cc4-c60d-4ff7-ab90-0a0103c8ae99">
@@ -29447,7 +29447,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>`NVDAObjects.UIA.winConsoleUIA.WinConsoleUIA.isImprovedTextRangeAvailable` has been deprecated for removal in 2022.1. (#12660)</source>
-        <target>不在推荐使用 `NVDAObjects.UIA.winConsoleUIA.WinConsoleUIA.isImprovedTextRangeAvailable` ，且将在  版本 2022.1 时移除。(#12660)</target>
+        <target>不再推荐使用 `NVDAObjects.UIA.winConsoleUIA.WinConsoleUIA.isImprovedTextRangeAvailable` ，且将在  版本 2022.1 时移除。(#12660)</target>
       </segment>
     </unit>
     <unit id="3a336d02-076d-4c62-ba55-609ace47ca59">
@@ -29486,7 +29486,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>They are still available at the module level but are deprecated and to be removed in NVDA 2022.1. (#12753)</source>
-        <target>他们依然可用，但将在 2022.1中删除。(#12753)</target>
+        <target>它们依然可用，但将在 2022.1中删除。(#12753)</target>
       </segment>
     </unit>
     <unit id="3e6b76a2-308e-458e-a4f8-312e4ecbb8bb">
@@ -29543,7 +29543,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>This includes an important fix for Screen Curtain (see important notes).</source>
-        <target>这包括对“黑屏”功能的重要修复（详细的请参阅“重要说明”部分）。</target>
+        <target>这包括对“黑屏”功能的重要修复（详情请参阅“重要说明”部分）。</target>
       </segment>
     </unit>
     <unit id="5ace0694-dec1-46f9-a2fc-f68435c8c0b5">
@@ -29886,7 +29886,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Fixed a bug where the first menu item of a submenu is not announced in some contexts. (#12624)</source>
-        <target>修正了在某些情况下，上下文菜单的第一个子菜单菜单项不会被正常朗读的错误。(#12624)</target>
+        <target>修正了在某些情况下，子菜单中的第一个菜单项不会被正常朗读的错误。(#12624)</target>
       </segment>
     </unit>
     <unit id="aac1ec39-ea3e-461a-a757-c141e6859de3">
@@ -30141,7 +30141,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In browse mode, controls can now be activated with braille cursor routing on their descriptor (ie. "lnk" for a link). This is especially useful for activating eg. check-boxes with no labels. (#7447)</source>
-        <target>在浏览模式中，现在可使用盲文光标来直接点击控件标记（如“lnk”是链接)，这特别适合用来点击没有标签的控件（如复选框）。(#7447)</target>
+        <target>在浏览模式中，现在可使用盲文光标来直接点击控件标记（如“lnk”是链接），这特别适合用来点击没有标签的控件（如复选框）。(#7447)</target>
       </segment>
     </unit>
     <unit id="83864dbd-b364-4c8d-bcf2-2402c9c7a29a">
@@ -30331,7 +30331,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>This experimental fix must be manually enabled in NVDA's advanced settings panel by changing the diff algorithm to Diff Match Patch.</source>
-        <target>此实验性特性紧可通过 NVDA 的“高级设置”面板把差分算法设置为“diff match pattern”启用。</target>
+        <target>此实验性特性仅可通过 NVDA 的“高级设置”面板把差分算法设置为“Diff Match Patch”启用。</target>
       </segment>
     </unit>
     <unit id="6155250e-19a5-46ce-bedb-89057e218ac2">
@@ -30341,7 +30341,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In MS Outlook, inappropriate distance reporting when shift+tabbing from the message body to the subject field should not occur anymore. (#10254)</source>
-        <target>当在 Microsoft Outlook 中，使用 shift+tab 从“消息”切换到“主题”时不在朗读冗余的缩进距离。(#10254)</target>
+        <target>当在 Microsoft Outlook 中，使用 shift+tab 从“消息”切换到“主题”时不再朗读冗余的缩进距离。(#10254)</target>
       </segment>
     </unit>
     <unit id="0e73fe41-92e0-4711-9491-fe3195103027">
@@ -30441,7 +30441,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>It is once again possible to use NVDA in languages containing underscores in the locale name such as de_CH on Windows 10 1803 and 1809. (#12250)</source>
-        <target>Windows 10 的 1803 或 1809 的 locale 名称中包含下划线时，NVDA 再度可正常识别（如 de_CS)。(#12250)</target>
+        <target>Windows 10 的 1803 或 1809 的 locale 名称中包含下划线时，NVDA 再度可正常识别（如 de_CH）。(#12250)</target>
       </segment>
     </unit>
     <unit id="d8a869e8-a89c-4d99-b4b2-01ad217e32bd">
@@ -30461,7 +30461,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer fails to announce the newly focused content on a web page if the old focus disappears and is replaced by the new focus in the same position. (#12147)</source>
-        <target>NVDA 现在可时时朗读 Web 页面相同位置的焦点内容变化。(#12147)</target>
+        <target>NVDA 现在可实时朗读 Web 页面相同位置的焦点内容变化。(#12147)</target>
       </segment>
     </unit>
     <unit id="ad374b47-3a17-4a6c-ac39-7f1337149d7a">
@@ -30501,7 +30501,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Fixed the pitch change failure in SAPI4 speech synthesizer. (#12311)</source>
-        <target>修复 SAPI4 语音合成气“大写时音高变化”无效的问题。(#12311)</target>
+        <target>修复 SAPI4 语音合成器“大写时音高变化”无效的问题。(#12311)</target>
       </segment>
     </unit>
     <unit id="5edcad0b-a366-4171-9c21-3bf01978cd14">
@@ -30511,7 +30511,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The NVDA installer now also honors the `--minimal` command line parameter and does not play the start-up sound, following the same documented behavior as an installed or portable copy NVDA executable. (#12289)</source>
-        <target>在便携版或安装板中传入命令行参数 `--minimal` 时，均不会播放启动声音。(#12289)</target>
+        <target>在便携版或安装版中传入命令行参数 `--minimal` 时，均不会播放启动声音。(#12289)</target>
       </segment>
     </unit>
     <unit id="dc56fde2-9fdc-4d64-885f-5e4994a678ab">
@@ -32393,7 +32393,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Information reported in browse mode, such as the formatting info with NVDA+F, are now displayed in a slightly bigger window centered on screen. (#9910)</source>
-        <target>在浏览模式下显示的信息窗口，例如连按两次 NVDA+F 的格式化信息，现在将其显示在屏幕中心的位置，且将窗口调整的更大一些。(#9910)</target>
+        <target>在浏览模式下显示的信息窗口，例如连按两次 NVDA+F 的格式化信息，现在将其显示在屏幕中心的位置，且将窗口调整得更大一些。(#9910)</target>
       </segment>
     </unit>
     <unit id="57afef58-4ad9-4883-b3e9-d1fc2f3db675">
@@ -33082,7 +33082,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA error sounds are no longer heard when accessing DevExpress text controls. (#10918)</source>
-        <target>访问 DevExpress 文本控件时，NVDA 不在发出错误声音。(#10918)</target>
+        <target>访问 DevExpress 文本控件时，NVDA 不再发出错误声音。(#10918)</target>
       </segment>
     </unit>
     <unit id="bff2d1e2-4cd8-40ce-b758-bc9458e78b01">
@@ -33122,7 +33122,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Focus is not moved in Java application when the selection is changed in an unfocused tree, table or list. (#5989)</source>
-        <target>当选择在未聚焦的树、表或列表中更改时，不在更改 Java 应用程序中的焦点。(#5989)</target>
+        <target>当选择在未聚焦的树、表或列表中更改时，不再更改 Java 应用程序中的焦点。(#5989)</target>
       </segment>
     </unit>
     <unit id="01e1e44b-8fa6-48aa-ab12-8dabcaa5f8df">
@@ -35394,7 +35394,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>LTR and RTL marks are no longer reported in Braille or per-character speech when accessing the properties window. (#8361)</source>
-        <target>在使用盲文或使用逐字浏览属性窗口时，不在读出 LTR 和 RTL 标记。(#8361)</target>
+        <target>在使用盲文或使用逐字浏览属性窗口时，不再读出 LTR 和 RTL 标记。(#8361)</target>
       </segment>
     </unit>
     <unit id="a3e6bfdd-3aaa-4ea7-bb50-9b0807523f69">
@@ -35414,7 +35414,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA will no longer become silent after exiting the Windows 10 Mail app. (#9341)</source>
-        <target>在退出 Windows 10 邮件应用时，NVDA 不在没有声音。(#9341)</target>
+        <target>在退出 Windows 10 邮件应用时，NVDA 不再无声。(#9341)</target>
       </segment>
     </unit>
     <unit id="ea89db02-cb56-44e9-b053-38fb9bf1eb83">
@@ -35424,7 +35424,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer fails to start when the users regional settings are set to a locale unknown to NVDA, such as English (Netherlands). (#8726)</source>
-        <target>当系统区域和语言设置为 NVDA 所不识别的语言时，NVDA 不在无法启动，例如英语（荷兰）。(#8726)</target>
+        <target>当系统区域和语言设置为 NVDA 所不识别的语言时，NVDA 现在可以正常启动，例如英语（荷兰）。(#8726)</target>
       </segment>
     </unit>
     <unit id="94b1a020-da29-431f-a1ab-467a0af5888f">
@@ -35454,7 +35454,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Google Docs (and other web-based editors), braille no longer sometimes incorrectly shows "lst end" before the cursor in the middle of a list item. (#9477)</source>
-        <target>在 Google Docs 或其他网页编辑器中，浏览列表项目的中间时，NVDA 的盲文现在不会时常错误的在光标前显示“LST end"。(#9477)</target>
+        <target>在 Google Docs 或其他网页编辑器中，浏览列表项目的中间时，NVDA 的盲文现在不会时常错误地在光标前显示“LST end”。(#9477)</target>
       </segment>
     </unit>
     <unit id="944fb469-7b95-48fe-86d2-56313574b9aa">
@@ -35524,7 +35524,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>For Windows OneCore voices, the rate set in NVDA is no longer affected by the rate set in Windows 10 Speech Settings. (#7498)</source>
-        <target>Windows OneCore 语音的语速不在受到 Windows 10 语音速度设置影响。(#7498)</target>
+        <target>Windows OneCore 语音的语速不再受到 Windows 10 语音速度设置影响。(#7498)</target>
       </segment>
     </unit>
     <unit id="fc89b4b8-6afe-4ace-928a-9de92a0b1676">
@@ -35564,7 +35564,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When reading the first character of a document in Notepad++ 7.7 X64, NVDA no longer freezes for up to ten seconds. (#9609)</source>
-        <target>当在 Notepad++ 7.7 X64 中阅读文档的第一个字符时，NVDA 不在出现超过十秒的冻结。(#9609)</target>
+        <target>当在 Notepad++ 7.7 X64 中阅读文档的第一个字符时，NVDA 不再出现超过十秒的冻结。(#9609)</target>
       </segment>
     </unit>
     <unit id="b79d011e-4d4e-41c5-b5f0-577018fa1ca0">
@@ -35574,7 +35574,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>HTCom can now be used with a Handy Tech Braille display in combination with NVDA. (#9691)</source>
-        <target>HTCom 现在可以和 Handy Tech 盲文点显器以即 NVDA 配合使用。(#9691)</target>
+        <target>HTCom 现在可以和 Handy Tech 盲文点显器以及 NVDA 配合使用。(#9691)</target>
       </segment>
     </unit>
     <unit id="7d6b488b-8386-4381-93e7-34688db53115">
@@ -35584,7 +35584,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Mozilla Firefox, updates to a live region are no longer reported if the live region is in a background tab. (#1318)</source>
-        <target>在 Mozilla Firefox，如果活动区域处于背景标签中，活动区域更新不在被读出。(#1318)</target>
+        <target>在 Mozilla Firefox，如果活动区域处于背景标签中，活动区域更新不再被读出。(#1318)</target>
       </segment>
     </unit>
     <unit id="7f44841e-e8dc-47cd-92d1-8d2728b48f78">
@@ -35733,7 +35733,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Google Chrome no longer crashes when interacting with certain listboxes. (#9364)</source>
-        <target>与某些列表框交互时，谷歌浏览器不在崩溃。(#9364)</target>
+        <target>与某些列表框交互时，谷歌浏览器不再崩溃。(#9364)</target>
       </segment>
     </unit>
     <unit id="1d90ac54-f013-4923-a7f1-9ba1324b61e3">
@@ -35888,7 +35888,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Mozilla Firefox and Google Chrome, browse mode now reports the selected item in list boxes and trees.</source>
-        <target>在 Mozilla Firefox 和 Google Chrome 中，浏览模式现在可在列表框和树是图中朗读所选项目。</target>
+        <target>在 Mozilla Firefox 和 Google Chrome 中，浏览模式现在可在列表框和树视图中朗读所选项目。</target>
       </segment>
     </unit>
     <unit id="12aad9c4-8888-49e7-8af2-750ed2b64316">
@@ -35988,7 +35988,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Add-on authors can now specify the last version of NVDA the add-on has been tested against. If an add-on has been only tested against a  version of NVDA lower than the current version, then NVDA will refuse to install or load the add-on. (#6275)</source>
-        <target>插件作者现在必须为 NVDA 指定插件的测试最新版本。假如为指定，NVDA 将警告用户不要安装或启用未经测试的插件。(#6275)</target>
+        <target>插件作者现在必须为 NVDA 指定插件的测试最新版本。假如未指定，NVDA 将警告用户不要安装或启用未经测试的插件。(#6275)</target>
       </segment>
     </unit>
     <unit id="629eced2-342d-4b24-9088-ffb95c8bcaf0">
@@ -36058,7 +36058,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer automatically loads custom appModules, globalPlugins and braille and synth drivers from the NVDA user configuration directory. This code should be instead packaged as an add-on with correct version information, ensuring that incompatible code is not run with current versions of NVDA. (#9238)</source>
-        <target>NVDA 现在不再自动从 NVDA 用户配置目录加载自定义 appModules，globalPlugins 以及盲文和合成器驱动程序。应将需要测试的代码打包为具有正确版本信息的插件，以确保根当前版本的 NVDA 兼容。(#9238)</target>
+        <target>NVDA 现在不再自动从 NVDA 用户配置目录加载自定义 appModules，globalPlugins 以及盲文和合成器驱动程序。应将需要测试的代码打包为具有正确版本信息的插件，以确保与当前版本的 NVDA 兼容。(#9238)</target>
       </segment>
     </unit>
     <unit id="109f2442-6360-469f-85e3-7d4c33fd59eb">
@@ -36238,7 +36238,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Mozilla Firefox and Google Chrome, switching to focus mode now works correctly for certain list boxes and trees (where the list box/tree is not itself focusable but its items are) . (#3573, #9157)</source>
-        <target>在 Mozilla Firefox 和 Google Chrome 中，现在可切换到焦点模式正常用于某些列表框和树是图 （列表框/树是图本身不可调，但其项目可用） 。(#3573, #9157)</target>
+        <target>在 Mozilla Firefox 和 Google Chrome 中，现在可以在某些列表框和树视图中正常切换到焦点模式（列表框/树视图本身不可聚焦，但其项目可以聚焦）。(#3573, #9157)</target>
       </segment>
     </unit>
     <unit id="1318cf63-2ba8-4a29-88bb-1f8685dd6611">
@@ -36298,7 +36298,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Responsiveness in Microsoft Word when navigating by line, paragraph or table cell may be significantly improved in some documents. A reminder that for best performance, set Microsoft Word to Draft view with alt+w,e after opening a document. (#9217)</source>
-        <target>在某些文档中，当按行，段落或表格单元格浏览时，Microsoft Word 中的响应速度可能会得到显着提升。注意，为了获得最佳的体验，请在打开文档后使用 alt，w，E(将 Microsoft Word 设置为草稿视图)。(#9217)</target>
+        <target>在某些文档中，当按行，段落或表格单元格浏览时，Microsoft Word 中的响应速度可能会得到显著提升。注意，为了获得最佳的体验，请在打开文档后使用 alt，w，E(将 Microsoft Word 设置为草稿视图)。(#9217)</target>
       </segment>
     </unit>
     <unit id="43a60c52-4449-42eb-bb27-830da4211491">
@@ -36318,7 +36318,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Significant performance improvements when navigating cells in Microsoft Excel, particularly when the spreadsheet contains comments and or validation dropdown lists. (#7348)</source>
-        <target>现在，在 Microsoft Excel 中浏览单元格时，显着提高了性能，尤其是当电子表格包含注释和/或验证下拉列表时。(#7348)</target>
+        <target>现在，在 Microsoft Excel 中浏览单元格时，显著提高了性能，尤其是当电子表格包含注释和/或验证下拉列表时。(#7348)</target>
       </segment>
     </unit>
     <unit id="05a761cc-457d-4ec4-98cc-0774559eefdf">
@@ -36903,7 +36903,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Highlights of this release include automatic detection of many Braille displays, support for new Windows 10 features including the Windows 10 Emoji input panel, and many other bug fixes.</source>
-        <target>此版本的新特姓包括支持许多盲文点显器的自动检测，支持新的 Windows 10 表情符号输入面板，以及其他错误修复。</target>
+        <target>此版本的新特性包括支持许多盲文点显器的自动检测，支持新的 Windows 10 表情符号输入面板，以及其他错误修复。</target>
       </segment>
     </unit>
     <unit id="80d12156-619b-4920-9a59-450577b206fd">
@@ -37143,7 +37143,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Updated eSpeak-ng to 1.49.3dev commit 910f4c2. (#8561)</source>
-        <target>更新 eSpeak-ng 1.49.3 开发板 commit 910f4c2 (#8561)</target>
+        <target>更新 eSpeak-ng 1.49.3 开发版 commit 910f4c2 (#8561)</target>
       </segment>
     </unit>
     <unit id="e28048b4-4b06-43b9-9f1a-f74eebf93509">
@@ -37791,7 +37791,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA is now less verbose when an appointment or time slot in the Outlook calendar covers an entire day. (#7949)</source>
-        <target>当 Outlook 日历中的约会或时间段涵盖整天时，NVDA 现在不会变的冗长。(#7949)</target>
+        <target>当 Outlook 日历中的约会或时间段涵盖整天时，NVDA 现在不会变得冗长。(#7949)</target>
       </segment>
     </unit>
     <unit id="1083ce44-aa92-4b70-9663-596e17010f92">
@@ -37831,7 +37831,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer fails to read focused controls in the Microsoft Account sign-in screen in Settings after entering an email address. (#7997)</source>
-        <target>修复输入电子邮件地址后，NVDA 不再无法在设置中的 Microsoft 账户登录屏幕中朗读集中控件的 BUG。(#7997)</target>
+        <target>修复了输入电子邮件地址后，NVDA 无法朗读“设置”中的 Microsoft 账户登录屏幕上焦点所在控件的问题。(#7997)</target>
       </segment>
     </unit>
     <unit id="addacd84-8a08-4399-9ab1-d41334a0cf76">
@@ -38249,7 +38249,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The HIMS Braille Sense/Braille EDGE/Smart Beetle and Hims Sync Braille display drivers have been replaced by one driver. The new driver will automatically be activated for former syncBraille driver users. (#7459)</source>
-        <target>HIMS Braille Sense/Braille EDGE/Smart Beetle 和 Hims Sync 盲文点显器驱动已被名司机所取代。新的驱动程序将自动为以前的 syncBraille 驱动程序用户激活。(#7459)</target>
+        <target>HIMS Braille Sense/Braille EDGE/Smart Beetle 和 Hims Sync 盲文点显器驱动已由一个驱动程序取代。新的驱动程序将自动为以前的 syncBraille 驱动程序用户激活。(#7459)</target>
       </segment>
     </unit>
     <unit id="4e28e0d5-eae8-48f1-84f9-c74c04937878">
@@ -38429,7 +38429,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In recent versions of Office 365, it is again possible to navigate Excel charts using the arrow keys. (#7046)</source>
-        <target>在最新版本的 Office 365 中，可以使用上下光标键再 Excel 图表中进行浏览。(#7046)</target>
+        <target>在最新版本的 Office 365 中，可以使用上下光标键在 Excel 图表中进行浏览。(#7046)</target>
       </segment>
     </unit>
     <unit id="4a2903b2-3651-4adc-83b1-0fd214a16a94">
@@ -39336,7 +39336,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>New braille translation tables: Danish 8 dot computer braille, Lithuanian, Persian 8 dot computer braille, Persian grade 1, Slovenian 8 dot computer braille. (#6188, #6550, #6773, #7367)</source>
-        <target>新盲文翻译表：丹麦 8 点电脑盲文，立陶宛语盲文盲文，波斯语 8 点电脑盲文，波斯语一级盲文，斯洛维尼亚语 8 点电脑盲文。(#6188,#6550,#6773,#7367)</target>
+        <target>新盲文翻译表：丹麦 8 点电脑盲文，立陶宛语盲文，波斯语 8 点电脑盲文，波斯语一级盲文，斯洛维尼亚语 8 点电脑盲文。(#6188,#6550,#6773,#7367)</target>
       </segment>
     </unit>
     <unit id="1a9629c4-c791-4881-a00f-7f03100adedf">
@@ -39346,7 +39346,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Improved English (U.S.) 8 dot computer braille table, including support for bullets, the euro sign and accented letters. (#6836)</source>
-        <target>改进英文（美国） 8 点电脑盲文盲文，包括支持着重号，欧元符号和重音字母。(#6836)</target>
+        <target>改进英文（美国） 8 点电脑盲文，包括支持着重号，欧元符号和重音字母。(#6836)</target>
       </segment>
     </unit>
     <unit id="3c0e623c-7acf-484e-bc09-94b815e6d3a3">
@@ -39726,7 +39726,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In The start menu in Windows 10, pressing Enter to close the start menu after a search no longer causes NVDA to announce search text. (#7370)</source>
-        <target>在 Windows 10 的开始菜单中，按回车见结束搜索并关闭开始菜单后，NVDA 将不再朗读搜索文本。(#7370)</target>
+        <target>在 Windows 10 的开始菜单中，按回车键结束搜索并关闭开始菜单后，NVDA 将不再朗读搜索文本。(#7370)</target>
       </segment>
     </unit>
     <unit id="e5da9ce1-161f-4e98-95c7-1719b0325e52">
@@ -39965,7 +39965,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Unicode up and down arrows and fraction symbols are now spoken appropriately. (#3805)</source>
-        <target>Unicode 编码的 向上和向下光标以及小部分符号现在可正确的朗读。(#3805)</target>
+        <target>Unicode 编码的 向上和向下光标以及小部分符号现在可正确地朗读。(#3805)</target>
       </segment>
     </unit>
     <unit id="fbb22484-f31c-48ed-82d4-2e83e809f21e">
@@ -40175,7 +40175,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In browse mode, pressing shift+home after selecting forward now unselects to the beginning of the line as expected. (#5746)</source>
-        <target>在浏览模式中，使用 shift+home 键选择到行首时，原本处于系统焦点后面的内容现在将可正常的取消选中。(#5746)</target>
+        <target>在浏览模式中，使用 shift+home 键选择到行首时，原本处于系统焦点后面的内容现在将可正常地取消选中。(#5746)</target>
       </segment>
     </unit>
     <unit id="e94d0866-55e2-41ef-8e64-8b6686c81985">
@@ -40185,7 +40185,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In browse mode, select all (control+a) no longer fails to select all text if the caret is not at the start of the text. (#6909)</source>
-        <target>在浏览模式中，当系统焦点不再文本开头时，修复无法使用全选(control+a) 命令进行全选的问题。(#6909)</target>
+        <target>在浏览模式中，当系统焦点不在文本开头时，修复无法使用全选(control+a) 命令进行全选的问题。(#6909)</target>
       </segment>
     </unit>
     <unit id="f44bc3b2-c795-4545-8203-b994a0bb69a2">
@@ -40853,7 +40853,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Updated liblouis braille translator to 3.0.0. This includes significant enhancements to Unified English Braille. (#6109, #4194, #6220, #6140)</source>
-        <target>更新liblouis盲文翻译为3.0.0。这包括对英语盲文的显着增强。(#6109,#4194,#6220,#6140)</target>
+        <target>更新liblouis盲文翻译为3.0.0。这包括对英语盲文的显著增强。(#6109,#4194,#6220,#6140)</target>
       </segment>
     </unit>
     <unit id="0cea8df4-1a1b-4874-9d4a-92b24280514c">
@@ -40983,7 +40983,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Image maps now render as expected in browse mode in Mozilla Firefox. (#6051)</source>
-        <target>Mozilla Firefox打开的图像地图现在可在浏览模式下按预期的呈现。(#6051)</target>
+        <target>Mozilla Firefox打开的图像地图现在可在浏览模式下按预期呈现。(#6051)</target>
       </segment>
     </unit>
     <unit id="43c4b819-cb85-4523-9359-d00dcc64150c">
@@ -41073,7 +41073,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In the list of languages in NVDA's General Settings dialog, languages such as Aragonese are now displayed correctly on Windows 10. (#6259)</source>
-        <target>在NVDA的“常规设置”对话框的语言列表中，Windows 10上可正确的显示Aragonese等语言。(#6259)</target>
+        <target>在NVDA的“常规设置”对话框的语言列表中，Windows 10上可正确地显示Aragonese等语言。(#6259)</target>
       </segment>
     </unit>
     <unit id="7ae5d442-5235-4612-bd02-edb9704c4f7c">
@@ -41083,7 +41083,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Emulated system keyboard keys (e.g. a button on a braille display which emulates pressing the tab key) are now presented in the configured NVDA language in input help and the Input Gestures dialog. Previously, they were always presented in English. (#6212)</source>
-        <target>现在，在输入帮助和输入手势对话框中，用配置的NVDA语言呈现模拟的系统键盘按键(例如点显器上模拟按 Tab 键的按钮)。以前，他们总是用英语显示。(#6212)</target>
+        <target>现在，在输入帮助和输入手势对话框中，用配置的NVDA语言呈现模拟的系统键盘按键(例如点显器上模拟按 Tab 键的按钮)。以前，它们总是用英语显示。(#6212)</target>
       </segment>
     </unit>
     <unit id="1573e085-3b8b-4e10-bb3d-5043ed379d79">
@@ -41153,7 +41153,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>iTunes no longer intermittently freezes forever when using browse mode for the iTunes Store, Apple Music, etc. (#6502)</source>
-        <target>iTunes不再间歇性地冻结，可正常的使用浏览模式查看iTunes商店、Apple Music等(#6502)</target>
+        <target>iTunes不再间歇性地冻结，可正常地使用浏览模式查看iTunes商店、Apple Music等(#6502)</target>
       </segment>
     </unit>
     <unit id="3f4b0b24-a22d-405f-94ba-47ebde1a8f4f">
@@ -43307,7 +43307,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In browse mode for Internet Explorer and other MSHTML controls, quick navigation by form field no longer incorrectly includes presentational list items. (#4204)</source>
-        <target>在 Internet Explorer 和其他 MSHTML 控件 的浏览模式中，使用表单导航时不再错误的识别仅用作装饰的列表项目。(#4204)</target>
+        <target>在 Internet Explorer 和其他 MSHTML 控件 的浏览模式中，使用表单导航时不再错误地识别仅用作装饰的列表项目。(#4204)</target>
       </segment>
     </unit>
     <unit id="4f52c889-e649-4cca-948d-1589211a59a3">
@@ -43327,7 +43327,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Internet Explorer and other MSHTML controls, tabbing into sections, articles or dialogs  no longer inappropriately reports all content in the container. (#5021, #5025)</source>
-        <target>在 Internet Explorer 和其他 MSHTML 控件中，切换到区域、控件或对话框不会再错误的读出整个对话框的内容。(#5021, #5025)</target>
+        <target>在 Internet Explorer 和其他 MSHTML 控件中，切换到区域、控件或对话框不会再错误地读出整个对话框的内容。(#5021, #5025)</target>
       </segment>
     </unit>
     <unit id="8f7849df-e4b8-4065-917f-9a2e0f49ca5b">
@@ -43427,7 +43427,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In browse mode in web browsers, tabbing now behaves as expected after tabbing to a frame document. (#5227)</source>
-        <target>在 web 浏览器的浏览模式中， 切换到 frame文档后的tab键动作可以如预期的工作 (#5227)</target>
+        <target>在 web 浏览器的浏览模式中， 切换到 frame文档后的tab键动作可以按预期工作 (#5227)</target>
       </segment>
     </unit>
     <unit id="8e16e564-b33f-4617-8943-2f71c95af87e">
@@ -43885,7 +43885,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA now automatically reports new text in mintty. (#4588)</source>
-        <target>NVDA 现在可以自动的朗读 mintty 的新文本。(#4588)</target>
+        <target>NVDA 现在可以自动地朗读 mintty 的新文本。(#4588)</target>
       </segment>
     </unit>
     <unit id="84bc8e42-ce7f-4185-89df-c76db8c9602b">
@@ -43925,7 +43925,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Table column headers in Microsoft word are automatically reported for tables where a header row has been explicitly specified by the author via Microsoft word's table properties. (#4510)</source>
-        <target>由作者使用 Microsoft Word 的表格属性指定的列标题行现在可以正常的识别为标题。(#4510)</target>
+        <target>由作者使用 Microsoft Word 的表格属性指定的列标题行现在可以正常地识别为标题。(#4510)</target>
       </segment>
     </unit>
     <unit id="6f333deb-7130-412f-b244-760102614d31">
@@ -44495,7 +44495,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In PowerPoint slide shows, the review cursor correctly follows the virtual caret. (#4370)</source>
-        <target>在 Powerpoint 幻灯片展示时，浏览光标可正确的跟随虚拟输入焦点。(#4370)</target>
+        <target>在 Powerpoint 幻灯片展示时，浏览光标可正确地跟随虚拟输入焦点。(#4370)</target>
       </segment>
     </unit>
     <unit id="b534f021-c436-4c7f-9206-d8883205daf6">
@@ -44555,7 +44555,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Outlook 2010, moving the caret now works as expected in the location field of appointments and meeting requests. (#4126)</source>
-        <target>在 Outlook 2010中，在“约会地点”和“会议要求”移动输入焦点时可以正常的工作。(#4126)</target>
+        <target>在 Outlook 2010中，在“约会地点”和“会议要求”移动输入焦点时可以正常地工作。(#4126)</target>
       </segment>
     </unit>
     <unit id="baf8570e-f589-40f3-adc5-91d3f69c7d9a">
@@ -44565,7 +44565,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Inside a live region, content which is marked as not being live (e.g. aria-live="off") is now correctly ignored. (#4405)</source>
-        <target>在一个活动区域中，被标记为 不活动（如aria-live="off"）的内容现在可被正确的忽略。(#4405)</target>
+        <target>在一个活动区域中，被标记为 不活动（如aria-live="off"）的内容现在可被正确地忽略。(#4405)</target>
       </segment>
     </unit>
     <unit id="ce3f23ff-301c-45b9-be37-88589cfd747a">
@@ -44595,7 +44595,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In the Microsoft Outlook message list, items are no longer pointlessly announced as Data Items. (#4439)</source>
-        <target>在 Microsoft Outlook 消息列表中，消息项目将不会无意义的读出“数据项目”。(#4439)</target>
+        <target>在 Microsoft Outlook 消息列表中，消息项目将不会无意义地读出“数据项目”。(#4439)</target>
       </segment>
     </unit>
     <unit id="b17e9fb4-c26f-4ce2-9743-9e9fa4f8fd9a">
@@ -44615,7 +44615,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Various versions of Eclipse, such as Spring Tool Suite and the version included in the Android Developer Tools bundle, are now recognised as Eclipse and handled appropriately. (#4360, #4454)</source>
-        <target>变种版本的 Eclipse（ 如Spring 工具套装和被包含在Android 开发工具的捆绑版本）现在可正确的识别为Eclipse 并可正确的控制。(#4360, #4454)</target>
+        <target>变种版本的 Eclipse（ 如Spring 工具套装和被包含在Android 开发工具的捆绑版本）现在可正确地识别为Eclipse 并可正确地控制。(#4360, #4454)</target>
       </segment>
     </unit>
     <unit id="e3340baa-07c3-4f34-849f-649873594c42">
@@ -44645,7 +44645,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When using a Papenmeier BRAILLEX braille display with BrxCom, keys on the display now work as expected. (#4614)</source>
-        <target>当使用带有 BrxCom 的 Papenmeier BRAILLEX 点显器时，   点显器上的按键现在可正常的工作。(#4614)</target>
+        <target>当使用带有 BrxCom 的 Papenmeier BRAILLEX 点显器时，   点显器上的按键现在可正常地工作。(#4614)</target>
       </segment>
     </unit>
     <unit id="7b6aa971-8d13-4d01-9c3d-3b6cda924e13">
@@ -44755,7 +44755,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Indication if the selected time is within any appointments.</source>
-        <target>如果选择的时间以包含在日程中，做出提示。</target>
+        <target>如果所选时间已包含在日程中，则给出提示。</target>
       </segment>
     </unit>
     <unit id="e851e290-962c-42c3-8f86-9df64671535e">
@@ -45014,7 +45014,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Microsoft Excel: The vertical and horizontal  alignment for cells can now be reported with the report formatting command (NVDA+f). It can also be reported automatically if the Report alignment option in Document Formatting settings is enabled. (#4212)</source>
-        <target>Microsoft Excel: 单元格的垂直对齐和水平对齐方式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读对齐方式”选项自动的读出。(#4212)</target>
+        <target>Microsoft Excel: 单元格的垂直对齐和水平对齐方式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读对齐方式”选项自动地读出。(#4212)</target>
       </segment>
     </unit>
     <unit id="b4e09235-6711-4b69-86d3-acfcc003ed19">
@@ -45024,7 +45024,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Microsoft Excel: The style of a cell can now be reported with the report formatting command (NVDA+f). It can also be reported automatically if the Report Style option in Document formatting settings is enabled. (#4213)</source>
-        <target>Microsoft Excel: 单元格的文本样式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读文本样式”选项自动的读出。(#4213)</target>
+        <target>Microsoft Excel: 单元格的文本样式现在可以使用格式朗读命令“NVDA+f”进行朗读，或通过启用“文档格式设置”的“朗读文本样式”选项自动地读出。(#4213)</target>
       </segment>
     </unit>
     <unit id="e4cf3b7d-de4f-4387-854b-2f1944d4e5ff">
@@ -45164,7 +45164,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Google Chrome and Chrome-based browsers, certain chunks of text (such as those with emphasis) are no longer repeated when reporting the text of an alert or dialog. (#4066)</source>
-        <target>Google Chrome 和基于其开发的浏览器，，警告或对话框的当前文本块(如突出文本)不会再被重复朗读。(#4066)</target>
+        <target>Google Chrome 和基于其开发的浏览器，警告或对话框的当前文本块(如突出文本)不会再被重复朗读。(#4066)</target>
       </segment>
     </unit>
     <unit id="b53fbfdd-7718-40c4-a316-de51ab9c3556">
@@ -45184,7 +45184,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Useless information is no longer announced when tabbing in iTunes. (#4128)</source>
-        <target>在浏览 iTunes 时不在朗读无用信息。(#4128)</target>
+        <target>在浏览 iTunes 时不再朗读无用信息。(#4128)</target>
       </segment>
     </unit>
     <unit id="c7dd01d5-7901-4c62-ad15-b88062da2828">
@@ -45214,7 +45214,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Following same-page links in recent versions of Internet Explorer now correctly moves to and reports the destination position in browse mode  documents. (#4134)</source>
-        <target>在最近版本的 Internet Explorer 的浏览文档中，跟随到同页面链接现在将可正确的移动和朗读目标位置。(#4134)</target>
+        <target>在最近版本的 Internet Explorer 的浏览文档中，跟随到同页面链接现在将可正确地移动和朗读目标位置。(#4134)</target>
       </segment>
     </unit>
     <unit id="3a97818e-b386-42a2-b149-4b800b850a50">
@@ -45244,7 +45244,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Microsoft word: Tabbing to a blank cell in a table no longer incorrectly announces exiting the table. (#4151)</source>
-        <target>Microsoft word: 切换到表格中的空白单元时，不会再错误的提示为“离开表格”。(#4151)</target>
+        <target>Microsoft word: 切换到表格中的空白单元时，不会再错误地提示为“离开表格”。(#4151)</target>
       </segment>
     </unit>
     <unit id="56902894-67a0-4534-b4ed-4a855849ed38">
@@ -45254,7 +45254,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Microsoft Word: The first character past the end of a table (including a new blank line) is no longer incorrectly considered to be inside the table. (#4152)</source>
-        <target>Microsoft Word: 表格外的第一个字符（包含着新的空白航）不会被错误地认为属于此表格。(#4152)</target>
+        <target>Microsoft Word: 表格外的第一个字符（包含着新的空白行）不会被错误地认为属于此表格。(#4152)</target>
       </segment>
     </unit>
     <unit id="b9a31f69-a425-49ff-a973-fdf47de08a9c">
@@ -45264,7 +45264,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Microsoft Word 2010 spell check dialog: The actual misspelled word is reported rather than  inappropriately reporting just the first bold word. (#3431)</source>
-        <target>Microsoft Word 2010 拼写检查对话框: 实际的拼写错误单词将被朗读，而不仅仅是不恰当的朗读第一个黑体单词。(#3431)</target>
+        <target>Microsoft Word 2010 拼写检查对话框: 实际的拼写错误单词将被朗读，而不仅仅是不恰当地朗读第一个黑体单词。(#3431)</target>
       </segment>
     </unit>
     <unit id="2be4f9ac-a191-49d3-87ae-b67001dc0ba7">
@@ -45284,7 +45284,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Microsoft Word: Reporting the existence and placement of comments is more accurate. (#3528)</source>
-        <target>Microsoft Word: 注释的存在和位置将读的更加准确。(#3528)</target>
+        <target>Microsoft Word: 注释的存在和位置将读得更加准确。(#3528)</target>
       </segment>
     </unit>
     <unit id="04cf4288-1c87-44e3-a06b-7bebec6ba1d0">
@@ -45294,7 +45294,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Navigation of certain dialogs in MS Office products such as Word, Excel and Outlook has been improved by no longer reporting particular control container toolbars which are not useful to the user. (#4198)</source>
-        <target>浏览某些对话框时，通过不在读出某些对用户无用的特别的控件容器工具栏的方式，提高对 Microsoft Office 产品(word、OutLook、Excel等)的支持。(#4198)</target>
+        <target>浏览某些对话框时，通过不再读出某些对用户无用的特别的控件容器工具栏的方式，提高对 Microsoft Office 产品(word、OutLook、Excel等)的支持。(#4198)</target>
       </segment>
     </unit>
     <unit id="9ef909c2-7859-43cf-9aac-30299c21a950">
@@ -45324,7 +45324,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Pressing numlock while in input help mode now correctly toggles numlock, rather than causing the keyboard and the Operating System to become out of sync in regards to the state of this key. (#4226)</source>
-        <target>现在，在打开“帮助模式”的情况下，按下数字键盘切换可以正常的切换状态，而不是强制键盘和系统保持在一种状态。(#4226)</target>
+        <target>现在，在打开“帮助模式”的情况下，按下数字键盘切换可以正常地切换状态，而不是强制键盘和系统保持在一种状态。(#4226)</target>
       </segment>
     </unit>
     <unit id="c59e7fde-5058-41d9-97c9-afe08e148108">
@@ -45334,7 +45334,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Google Chrome, the title of the document is again reported when switching tabs. In NVDA 2014.2, this did not occur in some cases. (#4222)</source>
-        <target>在 Chrome 切换标签时，文档标题将再次可以正常的朗读，这种情况不会发生在 NVDA2014.2。(#4222)</target>
+        <target>在 Chrome 切换标签时，文档标题将再次可以正常地朗读，这种情况不会发生在 NVDA2014.2。(#4222)</target>
       </segment>
     </unit>
     <unit id="5d89083c-dd29-4c17-9bff-dc39f54e9f6c">
