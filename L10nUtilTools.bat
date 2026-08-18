@@ -130,10 +130,8 @@ echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；
 echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
 echo UAP：上传指定插件的界面翻译到 Crowdin；  
 echo UAX：上传指定插件的文档翻译到 Crowdin；  
-echo UAM：从 ProcessTranslation\Markdown 文件夹上传指定插件的 Markdown 文档翻译到 Crowdin；  
 echo DAP：从 Crowdin 下载指定插件的界面翻译；  
 echo DAX：从 Crowdin 下载指定插件的文档翻译；  
-echo DAM：从 Crowdin 下载指定插件的 Markdown 文档翻译到 ProcessTranslation\Markdown 文件夹；  
 echo UTC：将 Uploads 分支合并到当前分支，并自动解决 po 文件的合并冲突；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
@@ -504,10 +502,8 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :MXX
 :UAP
 :UAX
-:UAM
 :DAP
 :DAX
-:DAM
 Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 set "goto=setConfigFilename"
 goto L10nUtil
@@ -542,12 +538,6 @@ if /I "%CLI:~2,1%"=="X" (
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 set "CheckModifications=True"
-if /I "%CLI:~2,1%"=="M" (
-  set CrowdinFilePath=%AddonName%.md
-  set FileName=%AddonName%.md
-  set TranslationPath=%~dp0ProcessTranslation\Markdown
-  set "CheckModifications=False"
-)
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
 set GitAddPath=Translation/Addons/%AddonName%
 goto %Action%
