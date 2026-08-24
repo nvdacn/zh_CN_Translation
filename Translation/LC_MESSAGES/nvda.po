@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-21 03:56+0000\n"
+"POT-Creation-Date: 2026-08-24 01:48+0000\n"
 "PO-Revision-Date: 2026-08-22 10:50+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1653,7 +1653,7 @@ msgstr ""
 #: gui\installerGui.py:181 gui\installerGui.py:265 gui\installerGui.py:759
 #: gui\installerGui.py:776 gui\installerGui.py:848 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:171 gui\settingsDialogs.py:1047
-#: gui\settingsDialogs.py:6121 gui\settingsDialogs.py:6971
+#: gui\settingsDialogs.py:6139 gui\settingsDialogs.py:6989
 #: gui\startupDialogs.py:127 _remoteClient\dialogs.py:67
 #: _remoteClient\dialogs.py:306 _remoteClient\dialogs.py:430
 msgid "Error"
@@ -1944,15 +1944,15 @@ msgstr "盲文"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the vision panel
-#: globalCommands.py:112 gui\settingsDialogs.py:5889
+#: globalCommands.py:112 gui\settingsDialogs.py:5907
 msgid "Vision"
 msgstr "视觉"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the magnifier settings panel.
 #. Translators: The title of an error message box shown when the magnifier fails to start.
-#: globalCommands.py:115 gui\settingsDialogs.py:6155
-#: gui\settingsDialogs.py:6388
+#: globalCommands.py:115 gui\settingsDialogs.py:6173
+#: gui\settingsDialogs.py:6406
 msgid "Magnifier"
 msgstr "放大镜"
 
@@ -7246,7 +7246,7 @@ msgstr ""
 #. Translators: Title of warning dialog
 #: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:539
 #: gui\installerGui.py:502 gui\installerGui.py:660 gui\settingsDialogs.py:1979
-#: gui\settingsDialogs.py:6428 screenCurtain\_screenCurtain.py:70
+#: gui\settingsDialogs.py:6446 screenCurtain\_screenCurtain.py:70
 #: _remoteClient\dialogs.py:291
 msgid "Warning"
 msgstr "警告"
@@ -13660,7 +13660,7 @@ msgstr "查找(&F):"
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 #: gui\inputGestures.py:628 gui\inputGestures.py:685
-#: gui\settingsDialogs.py:6859 gui\speechDict.py:218
+#: gui\settingsDialogs.py:6877 gui\speechDict.py:218
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -14158,8 +14158,8 @@ msgstr "类别(&C)："
 #. magnifier settings panel
 #. Translators: name of a grouping in Privacy and Security settings
 #. which contains miscellaneous settings.
-#: gui\settingsDialogs.py:812 gui\settingsDialogs.py:6200
-#: gui\settingsDialogs.py:6492
+#: gui\settingsDialogs.py:812 gui\settingsDialogs.py:6218
+#: gui\settingsDialogs.py:6510
 msgid "General"
 msgstr "常规"
 
@@ -16068,16 +16068,21 @@ msgstr "滚动时打断语音(&I)"
 msgid "Auto&matic scroll rate"
 msgstr "自动滚动的速度(&M)"
 
+#. Translators: The label for a checkbox in the Braille settings panel.
+#: gui\settingsDialogs.py:5667
+msgid "Use &Chinese word segmentation"
+msgstr ""
+
 #. Translators: This message is presented when
 #. NVDA is unable to load a single vision enhancement provider.
-#: gui\settingsDialogs.py:5755
+#: gui\settingsDialogs.py:5773
 #, python-brace-format
 msgid "Could not load the {providerName} vision enhancement provider"
 msgstr "无法加载 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when NVDA is unable to
 #. load multiple vision enhancement providers.
-#: gui\settingsDialogs.py:5762
+#: gui\settingsDialogs.py:5780
 #, python-brace-format
 msgid ""
 "Could not load the following vision enhancement providers:\n"
@@ -16087,13 +16092,13 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
-#: gui\settingsDialogs.py:5768 gui\settingsDialogs.py:5798
+#: gui\settingsDialogs.py:5786 gui\settingsDialogs.py:5816
 msgid "Vision Enhancement Provider Error"
 msgstr "视觉增强程序加载错误"
 
 #. Translators: This message is presented when
 #. NVDA is unable to gracefully terminate a single vision enhancement provider.
-#: gui\settingsDialogs.py:5785
+#: gui\settingsDialogs.py:5803
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the {providerName} vision enhancement provider"
@@ -16101,7 +16106,7 @@ msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when
 #. NVDA is unable to terminate multiple vision enhancement providers.
-#: gui\settingsDialogs.py:5793
+#: gui\settingsDialogs.py:5811
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the following vision enhancement providers:\n"
@@ -16111,86 +16116,86 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
-#: gui\settingsDialogs.py:5893
+#: gui\settingsDialogs.py:5911
 msgid "Configure visual aids."
 msgstr "配置视觉辅助。"
 
 #. Translators: Enable checkbox on a vision enhancement provider on the vision settings category panel
-#: gui\settingsDialogs.py:6065
+#: gui\settingsDialogs.py:6083
 msgid "Enable"
 msgstr "启用"
 
 #. Translators: Options label on a vision enhancement provider on the vision settings category panel
 #. Translators: The label for a group box containing the NVDA highlighter options.
-#: gui\settingsDialogs.py:6072
+#: gui\settingsDialogs.py:6090
 #: visionEnhancementProviders\NVDAHighlighter.py:397
 msgid "Options:"
 msgstr "选项："
 
 #. Translators: Shown when there is an error showing the GUI for a vision enhancement provider
-#: gui\settingsDialogs.py:6118
+#: gui\settingsDialogs.py:6136
 msgid ""
 "Unable to configure user interface for Vision Enhancement Provider, it can "
 "not be enabled."
 msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法启用。"
 
 #. Translators: The label for a setting in magnifier settings to enable or disable the magnifier.
-#: gui\settingsDialogs.py:6208
+#: gui\settingsDialogs.py:6226
 msgid "&Enable magnifier (immediate effect)"
 msgstr "开启放大镜（立即生效）(&E)"
 
 #. Translators: The label for a setting in magnifier settings to select the zoom level.
-#: gui\settingsDialogs.py:6222
+#: gui\settingsDialogs.py:6240
 msgid "&Zoom (%):"
 msgstr "放大级别（%）(&Z)："
 
 #. Translators: The label for a setting in magnifier settings to select the filter
-#: gui\settingsDialogs.py:6244
+#: gui\settingsDialogs.py:6262
 msgid "Color f&ilter:"
 msgstr "颜色滤镜(&I)："
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
-#: gui\settingsDialogs.py:6261
+#: gui\settingsDialogs.py:6279
 msgid "&Panning step size (%):"
 msgstr "平移步长（%）(&P)："
 
 #. Translators: This is the label for a group of tracking options in the magnifier settings panel
-#: gui\settingsDialogs.py:6283
+#: gui\settingsDialogs.py:6301
 msgid "Tracking"
 msgstr "跟踪"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the mouse
-#: gui\settingsDialogs.py:6291
+#: gui\settingsDialogs.py:6309
 msgid "Follow &mouse"
 msgstr "跟踪鼠标(&M)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the system focus
-#: gui\settingsDialogs.py:6293
+#: gui\settingsDialogs.py:6311
 msgid "Follow &system focus"
 msgstr "跟踪系统焦点(&S)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the review cursor
-#: gui\settingsDialogs.py:6295
+#: gui\settingsDialogs.py:6313
 msgid "Follow &review cursor"
 msgstr "跟踪查看光标(&R)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the navigator object
-#: gui\settingsDialogs.py:6298
+#: gui\settingsDialogs.py:6316
 msgid "Follow &navigator object"
 msgstr "跟踪导航对象(&N)"
 
 #. Translators: The label for a setting in magnifier settings to select the tracking mode
-#: gui\settingsDialogs.py:6315
+#: gui\settingsDialogs.py:6333
 msgid "&Tracking mode:"
 msgstr "跟踪模式(&T)："
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
-#: gui\settingsDialogs.py:6396
+#: gui\settingsDialogs.py:6414
 msgid "Privacy and Security"
 msgstr "隐私和安全"
 
 #. Translators: Warning shown when enabling the "debug (unredacted)" log level from NVDA settings.
-#: gui\settingsDialogs.py:6409
+#: gui\settingsDialogs.py:6427
 msgid ""
 "Setting the logging level to \"debug (unredacted)\" will write sensitive "
 "information to the log without redaction, including passwords, API keys, or "
@@ -16202,12 +16207,12 @@ msgstr ""
 "否继续？"
 
 #. Translators: Title of the warning dialog shown when enabling the "debug (unredacted)" log level.
-#: gui\settingsDialogs.py:6416
+#: gui\settingsDialogs.py:6434
 msgid "High risk logging level"
 msgstr "高风险日志级别"
 
 #. Translators: Warning shown when enabling a logging level above info from NVDA settings.
-#: gui\settingsDialogs.py:6421
+#: gui\settingsDialogs.py:6439
 msgid ""
 "Setting the logging level above info may record sensitive information such "
 "as typed input, speech output, or other private data in the log. Only enable "
@@ -16220,121 +16225,121 @@ msgstr ""
 
 #. Translators: Name for a feature that disables output to the screen,
 #. making it black.
-#: gui\settingsDialogs.py:6446
+#: gui\settingsDialogs.py:6464
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: option to enable screen curtain in the privacy and security settings panel
-#: gui\settingsDialogs.py:6455
+#: gui\settingsDialogs.py:6473
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: gui\settingsDialogs.py:6484
+#: gui\settingsDialogs.py:6502
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: The label for a setting in privacy and security settings to select NVDA's logging level
-#: gui\settingsDialogs.py:6499
+#: gui\settingsDialogs.py:6517
 msgid "L&ogging level:"
 msgstr "日志记录级别(&O):"
 
 #. Translators: The label of a checkbox in privacy and security settings to toggle allowing of usage stats gathering
-#: gui\settingsDialogs.py:6522
+#: gui\settingsDialogs.py:6540
 msgid "Allow NV Access to gather NVDA usage statistics"
 msgstr "允许 NV Access 收集 NVDA 使用统计信息"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:6643
+#: gui\settingsDialogs.py:6661
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:6699
+#: gui\settingsDialogs.py:6717
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:6734
+#: gui\settingsDialogs.py:6752
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:6739
+#: gui\settingsDialogs.py:6757
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:6769
+#: gui\settingsDialogs.py:6787
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:6783
+#: gui\settingsDialogs.py:6801
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6792
+#: gui\settingsDialogs.py:6810
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:6802
+#: gui\settingsDialogs.py:6820
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:6804 gui\speechDict.py:194
+#: gui\settingsDialogs.py:6822 gui\speechDict.py:194
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:6806
+#: gui\settingsDialogs.py:6824
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:6809
+#: gui\settingsDialogs.py:6827
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:6813
+#: gui\settingsDialogs.py:6831
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6831 gui\speechDict.py:52
+#: gui\settingsDialogs.py:6849 gui\speechDict.py:52
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:6840
+#: gui\settingsDialogs.py:6858
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:6847
+#: gui\settingsDialogs.py:6865
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:6862
+#: gui\settingsDialogs.py:6880
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:6969
+#: gui\settingsDialogs.py:6987
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
