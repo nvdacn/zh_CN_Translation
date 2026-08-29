@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/LeonarddeR/rdAccess/763862bfd0c54338fe208ee1c0c7c52d1797b7c2/readme.md">
     <skeleton>
 # $(ID:95048d11-137d-4361-9ecf-3b4fbc7a1b09)
@@ -269,7 +269,7 @@ $(ID:16b3d5ef-4f54-46e0-a5d9-01acbc01bd27)
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Download [latest stable version][2]</source>
         <target>下载[最新稳定版][2]</target>
       </segment>
@@ -279,7 +279,7 @@ $(ID:16b3d5ef-4f54-46e0-a5d9-01acbc01bd27)
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA compatibility: 2026.1 and later</source>
         <target>NVDA兼容性：2026.1及更高版本</target>
       </segment>
