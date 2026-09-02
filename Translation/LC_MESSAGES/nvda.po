@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 08:54+0000\n"
+"POT-Creation-Date: 2026-09-02 04:10+0000\n"
 "PO-Revision-Date: 2026-08-24 13:53+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1214,12 +1214,12 @@ msgstr "显示所指位置的对象的长描述（如果能找到）。"
 
 #. Translators: Reported when the user attempts to move to the start or end of a container
 #. (list, table, etc.) but there is no container.
-#: browseMode.py:2472 browseMode.py:2493
+#: browseMode.py:2521 browseMode.py:2542
 msgid "Not in a container"
 msgstr "不在容器中"
 
 #. Translators: Description for the Move to start of container command in browse mode.
-#: browseMode.py:2483
+#: browseMode.py:2532
 msgid "Moves to the start of the container element, such as a list or table"
 msgstr "移到元素的开始处，例如列表或表格"
 
@@ -1229,55 +1229,55 @@ msgstr "移到元素的开始处，例如列表或表格"
 #. Translators: a message reported when review cursor is at the bottom line of the current navigator object.
 #. Translators: Reported when attempting to move to the next result in the Python Console
 #. output pane while there is no next result.
-#: browseMode.py:2502 globalCommands.py:2006 globalCommands.py:2084
+#: browseMode.py:2551 globalCommands.py:2006 globalCommands.py:2084
 #: globalCommands.py:2204 appModules\nvda.py:146
 msgid "Bottom"
 msgstr "底部"
 
 #. Translators: Description for the Move past end of container command in browse mode.
-#: browseMode.py:2511
+#: browseMode.py:2560
 msgid "Moves past the end of the container element, such as a list or table"
 msgstr "移到元素的结尾处，例如列表或表格"
 
 #. Translators: the description for the toggleScreenLayout script.
-#: browseMode.py:2848
+#: browseMode.py:2895
 msgid ""
 "Toggles on and off if the screen layout is preserved while rendering the "
 "document content"
 msgstr "切换是否根据屏幕布局浏览文档内容"
 
 #. Translators: The message reported for not supported toggling of screen layout
-#: browseMode.py:2857
+#: browseMode.py:2904
 msgid "Not supported in this document."
 msgstr "在此文档不支持。"
 
 #. Translators: input help message for toggle native selection command
-#: browseMode.py:2883
+#: browseMode.py:2930
 msgid "Toggles native selection mode on and off"
 msgstr "打开或关闭应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2889
+#: browseMode.py:2936
 msgid "Native selection mode unsupported in this browse mode document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: the message when native selection mode cannot be turned off in this browse mode document.
-#: browseMode.py:2892
+#: browseMode.py:2939
 msgid "Native selection mode cannot be turned off in this browse mode document"
 msgstr "此文档无法禁用应用原生选择"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
-#: browseMode.py:2904
+#: browseMode.py:2951
 msgid "Native selection mode unsupported in this document"
 msgstr "此文档不支持应用原生选择"
 
 #. Translators: reported when native selection mode is toggled on.
-#: browseMode.py:2908
+#: browseMode.py:2955
 msgid "Native app selection mode enabled"
 msgstr "启用应用原生选择"
 
 #. Translators: reported when native selection mode is toggled off.
-#: browseMode.py:2916
+#: browseMode.py:2963
 msgid "Native app selection mode disabled"
 msgstr "禁用应用原生选择"
 
@@ -1761,12 +1761,17 @@ msgid ""
 "current cursor's position"
 msgstr "从光标处向上查找您之前键入的文本"
 
+#. Translators: a message when navigating by sentence is unavailable in the current document
+#: cursorManager.py:459 NVDAObjects\UIA\wordDocument.py:860
+msgid "Navigating by sentence not supported in this document"
+msgstr "当前文档不支持句子导航"
+
 #. Translators: Reported when there is no text selected (for copying).
 #. Translators: Reported when there is no selection
 #. Translators: The message reported when there is no selection
 #. Translators: When trying to read the documentation but there is no selected autocompletion item in
 #. Eclipse
-#: cursorManager.py:674 globalCommands.py:144 globalCommands.py:440
+#: cursorManager.py:686 globalCommands.py:144 globalCommands.py:440
 #: appModules\eclipse.py:70
 msgid "No selection"
 msgstr "未选择文本"
@@ -18456,11 +18461,6 @@ msgstr "{author}评论： {comment}"
 #, python-brace-format
 msgid "Comment: {comment} by {author} on {date}"
 msgstr "批注： {comment} 由 {author} 创建于 {date}"
-
-#. Translators: a message when navigating by sentence is unavailable in MS Word
-#: NVDAObjects\UIA\wordDocument.py:860
-msgid "Navigating by sentence not supported in this document"
-msgstr "当前文档不支持句子导航"
 
 #. Translators: a description for a script that reports the comment at the caret.
 #: NVDAObjects\UIA\wordDocument.py:881
