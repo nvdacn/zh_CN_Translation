@@ -1,0 +1,62 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/customBrowseMode/cd2089f4bd2bae2f77a75f3540d58a019194b51e/readme.md">
+    <skeleton>
+# $(ID:413f59e1-3b34-4d54-8e7e-8583d5dad12a)
+
+*	$(ID:2ec01bbd-d329-4efe-b3a2-3ffe44feb38c)
+
+$(ID:3feae4cb-9736-4c5a-adde-01555388b8bd)
+
+$(ID:809c3b62-2d95-4a66-9582-4ee2ce5854cf)
+
+$(ID:82b444c0-aac7-4578-9d6d-40b1a2b7779e)
+</skeleton>
+    <unit id="413f59e1-3b34-4d54-8e7e-8583d5dad12a">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="final">
+        <source>Custom Browse Mode #</source>
+        <target>自定义浏览模式</target>
+      </segment>
+    </unit>
+    <unit id="2ec01bbd-d329-4efe-b3a2-3ffe44feb38c">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>Author: Noelia Ruiz Martínez, Ever Solis</source>
+        <target>作者：Noelia Ruiz Martínez、Ever Solis</target>
+      </segment>
+    </unit>
+    <unit id="3feae4cb-9736-4c5a-adde-01555388b8bd">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+      </notes>
+      <segment state="final">
+        <source>This add-on is used to activate or deactivate profiles deppending on the state of browse mode.</source>
+        <target>此插件用于根据浏览模式的状态激活或禁用独立配置。</target>
+      </segment>
+    </unit>
+    <unit id="809c3b62-2d95-4a66-9582-4ee2ce5854cf">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+      </notes>
+      <segment state="final">
+        <source>Currently, when browse mode is active, a profile named browseMode will be activated, and it will be deactivated when browse mode becomes inactive.</source>
+        <target>目前，当浏览模式处于活动状态时，将激活名为 browseMode 的独立配置；当浏览模式变为非活动状态时，该配置将被禁用。</target>
+      </segment>
+    </unit>
+    <unit id="82b444c0-aac7-4578-9d6d-40b1a2b7779e">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+      </notes>
+      <segment state="final">
+        <source>The browseMode profile will be automatically created if it doesn't exist.</source>
+        <target>如果 browseMode 配置不存在，则会自动创建。</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

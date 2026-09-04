@@ -25,6 +25,13 @@ function Commit {
     }
 }
 
+# 检查当前工作树是否包含未提交的文件
+$status = git status --porcelain
+if ($status) {
+    Show-Popup "当前工作树存在未提交的更改。请先提交或贮藏更改后再执行合并操作。" "错误" 10 16
+    exit 1
+}
+
 # 获取当前分支名
 $currentBranch = git branch --show-current
 

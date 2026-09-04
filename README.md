@@ -4,6 +4,26 @@
 
 有关如何翻译 NVDA 的更多信息，请参看 [NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Translation](https://download.nvaccess.org/documentation/developerGuide.html#translation) 章节。
 
+## 存储库文件结构介绍
+
+此存储库根目录所包含的文件和文件夹的作用简述如下：
+
+- `.github`：用于存储 GitHUB 相关的文件，如工作流文件、PR 模板文件等；
+- `Preview`：用于存储 L10nUtilTools.bat 生成的翻译预览文件，有关详细信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
+- `ProcessTranslation`：用于存储 L10nUtilTools.bat 处理翻译文件时的必要文件或临时文件，如 Pot 翻译模板文件、Markdown 文件、上传 XLIFF 文档时的比较文件等，这些文件应按其文件类型存储于相应的子文件夹中。有关更多信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
+- `Tools`：用于存储 L10nUtilTools.bat 所调用的工具和存储库源代码或其链接；
+- `Translation`：用于存储所有需要翻译的文件，这也是主要的工作文件夹，其中
+
+  - `Translation\Addons` 用于存储插件的翻译文件，每个插件的翻译均存储在以插件 ID 命名的子文件夹中。有关翻译插件的方式和注意事项请参看 [Translation Guide for Translators（英语）](https://github.com/nvaccess/AddonTemplate/blob/master/docs/l10n/addonTranslators.md)；
+  - `Translation\LC_MESSAGES` 用于存储 NVDA 界面消息的翻译文件，有关翻译该文件的方式和注意事项请参看 [Translating NVDA's interface（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-nvdas-interface)；
+  - `Translation\miscDeps` 用于存储 NVDA 的字符描述、手势配置和符号朗读规则文件，有关翻译这些文件的方式和注意事项请参看[NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Character Descriptions](https://download.nvaccess.org/documentation/developerGuide.html#characterDescriptions)、[Gestures](https://download.nvaccess.org/documentation/developerGuide.html#TranslatingGestures) 和 [Symbol Pronunciation](https://download.nvaccess.org/documentation/developerGuide.html#symbolPronunciation) 章节；
+  - `Translation\user_docs` 用于存储 NVDA 的更新日志和用户指南的 XLIFF 文件，有关翻译这些文件的方式和注意事项请参看 [Translating User Documentation（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-user-documentation)；
+
+- `.gitattributes` 和 `.gitignore`：用于配置 Git 的必要文件；
+- `L10nUtilTools.bat`：用于处理翻译的批处理脚本，具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
+- `LICENSE`：许可协议文件。
+- `README.md`：此说明文档。
+
 ## 翻译 NVDA 主程序
 
 ### 测试翻译
@@ -21,26 +41,6 @@
 5. 重启 NVDA。
 
 **请注意：此页面的文件具有时效性，文件过期后将无法下载。**
-
-### 存储库文件结构介绍
-
-此存储库根目录所包含的文件和文件夹的作用简述如下：
-
-- `.github`：用于存储 GitHUB 相关的文件，如工作流文件、PR 模板文件等；
-- `Preview`：用于存储 L10nUtilTools.bat 生成的翻译预览文件，有关详细信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
-- `ProcessTranslation`：用于存储 L10nUtilTools.bat 处理翻译文件时的必要文件或临时文件，如 Pot 翻译模板文件、Markdown 文件、上传 XLIFF 文档时的比较文件等，这些文件应按其文件类型存储于相应的子文件夹中。有关更多信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
-- `Tools`：用于存储 L10nUtilTools.bat 所调用的工具和存储库源代码或其链接；
-- `Translation`：用于存储所有需要翻译的文件，这也是主要的工作文件夹，其中
-
-  - `Translation\Addons` 用于存储插件的翻译文件，每个插件的翻译均存储在以插件 ID 命名的子文件夹中；
-  - `Translation\LC_MESSAGES` 用于存储 NVDA 界面消息的翻译文件，有关翻译该文件的方式和注意事项请参看 [Translating NVDA's interface（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-nvdas-interface)；
-  - `Translation\miscDeps` 用于存储 NVDA 的字符描述、手势配置和符号朗读规则文件，有关翻译这些文件的方式和注意事项请参看[NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Character Descriptions](https://download.nvaccess.org/documentation/developerGuide.html#characterDescriptions)、[Gestures](https://download.nvaccess.org/documentation/developerGuide.html#TranslatingGestures) 和 [Symbol Pronunciation](https://download.nvaccess.org/documentation/developerGuide.html#symbolPronunciation) 章节；
-  - `Translation\user_docs` 用于存储 NVDA 的更新日志和用户指南的 XLIFF 文件，有关翻译这些文件的方式和注意事项请参看 [Translating User Documentation（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-user-documentation)；
-
-- `.gitattributes` 和 `.gitignore`：用于配置 Git 的必要文件；
-- `L10nUtilTools.bat`：用于处理翻译的批处理脚本，具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
-- `LICENSE`：许可协议文件。
-- `README.md`：此说明文档。
 
 ### alpha 开发周期的翻译
 
@@ -100,6 +100,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 ## 翻译 NVDA 插件
 
 此存储库可自动上传和下载在 [Crowdin 的 nvdaAddons 项目](https://zh.crowdin.com/project/nvdaaddons)中注册的插件的翻译。
+有关翻译插件的方式和注意事项请参看 [Translation Guide for Translators（英语）](https://github.com/nvaccess/AddonTemplate/blob/master/docs/l10n/addonTranslators.md)。
 
 - 可在 `version_year.version_major` 分支的 `Translation\Addons` 文件夹提交针对这些插件的翻译。
 
@@ -145,6 +146,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | `GMU` | 生成用户指南的 Markdown 文件。 |
 | `MHC` | 从先前创建的 Markdown 文档生成更新日志的 html 文件。 |
 | `MHU` | 从先前创建的 Markdown 文档生成用户指南的 html 文件。 |
+| `MHK` | 从先前创建的用户指南 Markdown 文档生成热键快速参考的 html 文件。 |
 | `MXC`\* | 从先前创建的 Markdown 文档生成更新日志的 xliff 文件。 |
 | `MXU`\* | 从先前创建的 Markdown 文档生成用户指南的 xliff 文件。 |
 | `UDL`\* | 从给定的 nvda.pot 更新 nvda.po 的翻译字符串。 |
@@ -169,10 +171,8 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | `MXX`\* | 使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件。 |
 | `UAP`\* | 上传指定插件的界面翻译到 Crowdin。 |
 | `UAX`\* | 上传指定插件的文档翻译到 Crowdin。 |
-| `UAM`\* | 从 `ProcessTranslation\Markdown` 文件夹上传指定插件的 Markdown 文档翻译到 Crowdin。 |
 | `DAP`\* | 从 Crowdin 下载指定插件的界面翻译。 |
 | `DAX`\* | 从 Crowdin 下载指定插件的文档翻译。 |
-| `DAM`\* | 从 Crowdin 下载指定插件的 Markdown 文档翻译到 `ProcessTranslation\Markdown` 文件夹。 |
 
 #### 通用命令
 
@@ -187,7 +187,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 - 如要使用 nvdaL10n 提供的 l10nUtil，需根据 [Installation and Building an Executable（英语）](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe)，并将下载的文件放在此存储库的 `Tools` 文件夹中；
 - 执行标有 `*` 的命令时，可能需要与该工具进行交互或配置必要的运行环境，请根据提示输入信息或配置运行环境后，该命令才可正确执行。
-- `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
+- `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU`、`MHK` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
 - `GEZ` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
 - `GMC`、`GMU`、`GMX` 命令生成的文件位于 `ProcessTranslation\Markdown` 文件夹下。

@@ -106,6 +106,7 @@ echo GMC：生成更新日志的 Markdown 文件；
 echo GMU：生成用户指南的 Markdown 文件；  
 echo MHC：从先前创建的 Markdown 文档生成更新日志的 html 文件；  
 echo MHU：从先前创建的 Markdown 文档生成用户指南的 html 文件；  
+echo MHK：从先前创建的用户指南 Markdown 文档生成热键快速参考的 html 文件；  
 echo MXC：从先前创建的 Markdown 文档生成更新日志的 xliff 文件；  
 echo MXU：从先前创建的 Markdown 文档生成用户指南的 xliff 文件；  
 echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
@@ -129,10 +130,8 @@ echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；
 echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
 echo UAP：上传指定插件的界面翻译到 Crowdin；  
 echo UAX：上传指定插件的文档翻译到 Crowdin；  
-echo UAM：从 ProcessTranslation\Markdown 文件夹上传指定插件的 Markdown 文档翻译到 Crowdin；  
 echo DAP：从 Crowdin 下载指定插件的界面翻译；  
 echo DAX：从 Crowdin 下载指定插件的文档翻译；  
-echo DAM：从 Crowdin 下载指定插件的 Markdown 文档翻译到 ProcessTranslation\Markdown 文件夹；  
 echo UTC：将 Uploads 分支合并到当前分支，并自动解决 po 文件的合并冲突；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
@@ -191,6 +190,7 @@ goto Quit
 :GMU
 :MHC
 :MHU
+:MHK
 :MXC
 :MXU
 :DLL
@@ -266,6 +266,7 @@ if /I "%CLI:~2,1%"=="L" (
   set TranslationPath=%~dp0Translation\LC_MESSAGES
   set FileName=nvda.po
   set ShortName=nvda
+  set "CheckModifications=True"
 )
 if /I "%CLI:~2,1%"=="C" (
   set Type=Docs
@@ -277,9 +278,11 @@ if /I "%CLI:~2,1%"=="U" (
   set FileName=userGuide.xliff
   set ShortName=userGuide
 )
+set "MarkdownFile=%ShortName%.md"
 if /I "%CLI:~2,1%"=="K" (
   set Type=Docs
   set FileName=userGuide.xliff
+  set "MarkdownFile=userGuide.md"
   set ShortName=keyCommands
 )
 if /I "%Type%"=="Docs" (
@@ -369,19 +372,19 @@ exit /b %errorlevel%
 Rem 生成文档的 Markdown 版本
 :GenerateMarkdown
 IF NOT EXIST "%~dp0ProcessTranslation\Markdown" (MKDir "%~dp0ProcessTranslation\Markdown")
-IF EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (del /f /q "%~dp0ProcessTranslation\Markdown\%ShortName%.md")
-%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Markdown\%ShortName%.md"
+IF EXIST "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" (del /f /q "%~dp0ProcessTranslation\Markdown\%MarkdownFile%")
+%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Markdown\%MarkdownFile%"
 set ExitCode=!errorlevel!
 goto Quit
 
 Rem 从 Markdown 文件生成 HTML 文件  
 :GenerateHTML
-IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误')"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %MarkdownFile%，请先生成该文件后重试。',5,'错误',16)"
   exit /b 1
 )
 IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
-%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0ProcessTranslation\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
+%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" "%~dp0Preview\%ShortName%.html"
 set ExitCode=!errorlevel!
 goto Quit
 
@@ -418,8 +421,8 @@ if /I "%L10NSourceCodePath%" =="exe" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
   exit /b 1
 )
-IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %MarkdownFile%，请先创建该文件后重试。',5,'错误',16)"
   exit /b 1
 )
 IF NOT EXIST "%SourceXLIFFPath%" (
@@ -429,7 +432,7 @@ IF NOT EXIST "%SourceXLIFFPath%" (
 IF EXIST "%TranslationPath%\%FileName%" (
   move /Y "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Xliff\%ShortName%.xliff"
 )
-uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%MarkdownFile%" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -445,8 +448,8 @@ if %errorlevel% neq 0 (
   Git restore "%GitAddPath%/%FileName%"
   goto Quit
 )
-if /I "%Type%"=="LC_MESSAGES" (
-powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckPo.ps1" "%DownloadFilename%"
+if /I "%CheckModifications%"=="True" (
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckModifications.ps1" "%DownloadFilename%"
 )
 if /I "%Action%"=="DownloadAndCommit" (goto Commit)
 exit /b 0
@@ -499,10 +502,8 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :MXX
 :UAP
 :UAX
-:UAM
 :DAP
 :DAX
-:DAM
 Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 set "goto=setConfigFilename"
 goto L10nUtil
@@ -526,7 +527,6 @@ if %errorlevel% neq 0 (
   goto Quit
 )
 if /I "%CLI:~2,1%"=="P" (
-  set Type=LC_MESSAGES
   set CrowdinFilePath=%AddonName%.pot
   set FileName=nvda.po
 )
@@ -534,13 +534,10 @@ if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
   set ShortName=%AddonName%
+  set "MarkdownFile=%AddonName%.md"
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
-if /I "%CLI:~2,1%"=="M" (
-  set CrowdinFilePath=%AddonName%.md
-  set FileName=%AddonName%.md
-  set TranslationPath=%~dp0ProcessTranslation\Markdown
-)
+set "CheckModifications=True"
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
 set GitAddPath=Translation/Addons/%AddonName%
 goto %Action%

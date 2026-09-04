@@ -1,0 +1,302 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/RareBird15/windowState/beb1ed5c4e87df96ad04f9143f89eeb6ed8b5804/readme.md">
+    <skeleton>
+# $(ID:d76c3d0e-973c-495c-9991-2efa6bf9da35)
+
+$(ID:68969784-ca2d-4478-bd56-c6400ee7f683)
+
+## $(ID:9776d002-08fc-4d44-a24f-87981ae6d59d)
+
+$(ID:624c671e-c296-49d9-8f23-f13a29551983)
+
+$(ID:5c83a72d-ac83-4dd3-8447-a04ffed62d11)
+$(ID:a305dbf0-315c-4f29-94e3-bad2f6a5ca52)
+$(ID:a1f8878a-e25b-49ba-a55c-6fac0a6007db)
+
+## $(ID:a935f944-9e19-4028-8333-3d500628c652)
+
+1. $(ID:80a6623e-481f-4c01-b490-9c1b187888fb)
+$(ID:5ca82d8b-da89-40df-8095-56764a580dff)
+$(ID:570724c6-d6d3-43dc-af94-c42b1d95529f)
+$(ID:8a54e608-4913-46b7-8aab-0b8fec67cfc7)
+$(ID:af6f3546-d940-40a7-b716-db7a58810e4c)
+$(ID:d2edd386-8430-47b2-a532-b46805f3d13d)
+$(ID:f9e89c49-70cb-4487-a650-546153d838c4)
+
+2. $(ID:0b0c126b-2b40-4a50-85a2-9f2d94499a03)
+
+## $(ID:afafe799-5714-4d3f-93a0-328b358a986e)
+
+$(ID:06b9a302-d106-47cb-aed3-c89b8ea9ff46)
+
+$(ID:ef5dc78d-c596-4234-b9e2-11312abc69a8)
+
+$(ID:8dfafc67-1bef-4194-b4f8-21df9b58ad09)
+
+## $(ID:ac900c0c-7827-4728-af9f-3d6cb99615e2)
+
+$(ID:3c92310b-2b59-4083-861b-1621d086b2a9)
+
+## $(ID:e150804e-7ae6-4bf6-b851-79bcfb5b7fe8)
+
+$(ID:2e099920-4d70-4a87-9a2a-7f48b207abd4)
+$(ID:385160d6-9276-4a2d-aaca-fb00156cb7ad)
+
+## $(ID:83d8ec77-8016-4b54-9a3c-323808fdbe57)
+
+$(ID:c42900d6-58dd-48f0-883a-3906bead49c7)
+</skeleton>
+    <unit id="d76c3d0e-973c-495c-9991-2efa6bf9da35">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="final">
+        <source>Window State</source>
+        <target>窗口状态</target>
+      </segment>
+    </unit>
+    <unit id="68969784-ca2d-4478-bd56-c6400ee7f683">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+      </notes>
+      <segment state="final">
+        <source>An NVDA add-on that lets you query the state of the current foreground window.</source>
+        <target>一款 NVDA 插件，用于查询当前前台窗口的状态。</target>
+      </segment>
+    </unit>
+    <unit id="9776d002-08fc-4d44-a24f-87981ae6d59d">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>The Problem</source>
+        <target>问题</target>
+      </segment>
+    </unit>
+    <unit id="624c671e-c296-49d9-8f23-f13a29551983">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+      </notes>
+      <segment state="final">
+        <source>NVDA doesn't tell you whether a window is maximized, restored, or snapped to a side of the screen when you query the title. This information is useful because:</source>
+        <target>NVDA 在查询窗口标题时，不会告知您窗口是最大化、还原，还是贴靠到屏幕一侧。这些信息很有用，因为：</target>
+      </segment>
+    </unit>
+    <unit id="5c83a72d-ac83-4dd3-8447-a04ffed62d11">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+      </notes>
+      <segment state="final">
+        <source>- Pressing Windows+Up Arrow to maximize a window can instead trigger the Windows 11 snap layout chooser, leaving the window in an unknown state.</source>
+        <target>- 按 Windows+上光标最大化窗口时，可能触发 Windows 11 的贴靠布局选择器，使窗口处于未知状态。</target>
+      </segment>
+    </unit>
+    <unit id="a305dbf0-315c-4f29-94e3-bad2f6a5ca52">
+      <notes>
+        <note appliesTo="source">line: 11</note>
+      </notes>
+      <segment state="final">
+        <source>- Sighted users can glance at a window to see its size and position. Blind users have no equivalent check without trying to resize and listening to what NVDA says happened.</source>
+        <target>- 明眼用户只需扫一眼就能看到窗口的大小和位置。而盲人用户没有相应的核对方式，只能尝试调整窗口大小，并听 NVDA 的语音提示。</target>
+      </segment>
+    </unit>
+    <unit id="a1f8878a-e25b-49ba-a55c-6fac0a6007db">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+      </notes>
+      <segment state="final">
+        <source>- JAWS includes this information in its JAWS+T title announcement. NVDA does not.</source>
+        <target>- JAWS 在其 JAWS+T 标题播报中包含了这些信息，而 NVDA 没有。</target>
+      </segment>
+    </unit>
+    <unit id="a935f944-9e19-4028-8333-3d500628c652">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>What This Add-on Does</source>
+        <target>此插件的作用</target>
+      </segment>
+    </unit>
+    <unit id="80a6623e-481f-4c01-b490-9c1b187888fb">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">prefix: 1. </note>
+      </notes>
+      <segment state="final">
+        <source>**NVDA+Shift+T**: Reports the state of the current foreground window. Possible states:</source>
+        <target>**NVDA+Shift+T**：读出当前前台窗口的状态。可能的状态包括：</target>
+      </segment>
+    </unit>
+    <unit id="5ca82d8b-da89-40df-8095-56764a580dff">
+      <notes>
+        <note appliesTo="source">line: 17</note>
+      </notes>
+      <segment state="final">
+        <source>   - Maximized</source>
+        <target>   - 最大化</target>
+      </segment>
+    </unit>
+    <unit id="570724c6-d6d3-43dc-af94-c42b1d95529f">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+      </notes>
+      <segment state="final">
+        <source>   - Restored (normal windowed mode)</source>
+        <target>   - 还原（普通窗口模式）</target>
+      </segment>
+    </unit>
+    <unit id="8a54e608-4913-46b7-8aab-0b8fec67cfc7">
+      <notes>
+        <note appliesTo="source">line: 19</note>
+      </notes>
+      <segment state="final">
+        <source>   - Minimized</source>
+        <target>   - 最小化</target>
+      </segment>
+    </unit>
+    <unit id="af6f3546-d940-40a7-b716-db7a58810e4c">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+      </notes>
+      <segment state="final">
+        <source>   - Docked left, docked right, docked top, docked bottom (half-screen snaps)</source>
+        <target>   - 左侧贴靠、右侧贴靠、顶部贴靠、底部贴靠（半屏贴靠）</target>
+      </segment>
+    </unit>
+    <unit id="d2edd386-8430-47b2-a532-b46805f3d13d">
+      <notes>
+        <note appliesTo="source">line: 21</note>
+      </notes>
+      <segment state="final">
+        <source>   - Top left quarter, top right quarter, bottom left quarter, bottom right quarter</source>
+        <target>   - 左上四分之一、右上四分之一、左下四分之一、右下四分之一</target>
+      </segment>
+    </unit>
+    <unit id="f9e89c49-70cb-4487-a650-546153d838c4">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+      </notes>
+      <segment state="initial">
+        <source>   - Not resizable (for windows like the Desktop that can't be maximized or restored)</source>
+        <target>   - Not resizable (for windows like the Desktop that can't be maximized or restored)</target>
+      </segment>
+    </unit>
+    <unit id="0b0c126b-2b40-4a50-85a2-9f2d94499a03">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">prefix: 2. </note>
+      </notes>
+      <segment state="final">
+        <source>**Optional: NVDA+T enhancement**: When enabled in settings, pressing NVDA+T will announce the window title followed by the state, e.g. "Firefox, maximized." This matches the JAWS behavior. Pressing NVDA+T twice to spell the title and three times to copy it to the clipboard are not affected.</source>
+        <target>**可选的 NVDA+T 增强**：在设置中启用后，按 NVDA+T 将读出窗口标题后跟状态，例如“Firefox, 最大化。”此行为与 JAWS 一致。按 NVDA+T 两次逐字朗读标题、按三次复制到剪贴板的功能不受影响。</target>
+      </segment>
+    </unit>
+    <unit id="afafe799-5714-4d3f-93a0-328b358a986e">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Settings</source>
+        <target>设置</target>
+      </segment>
+    </unit>
+    <unit id="06b9a302-d106-47cb-aed3-c89b8ea9ff46">
+      <notes>
+        <note appliesTo="source">line: 28</note>
+      </notes>
+      <segment state="final">
+        <source>Open NVDA Settings &gt; Window State to configure:</source>
+        <target>打开 NVDA 设置 &gt; 窗口状态进行配置：</target>
+      </segment>
+    </unit>
+    <unit id="ef5dc78d-c596-4234-b9e2-11312abc69a8">
+      <notes>
+        <note appliesTo="source">line: 30</note>
+      </notes>
+      <segment state="final">
+        <source>- **Append window state to NVDA+T title announcement**: When checked, NVDA+T includes the window state after the title. Off by default.</source>
+        <target>- **按 NVDA+T 读出标题时追加窗口状态**：选中后，会在按 NVDA+T 读出标题时包含窗口状态信息。默认关闭。</target>
+      </segment>
+    </unit>
+    <unit id="8dfafc67-1bef-4194-b4f8-21df9b58ad09">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+      </notes>
+      <segment state="final">
+        <source>All commands can be remapped from NVDA's Input Gestures dialog under the "Window State" category.</source>
+        <target>所有命令均可在 NVDA “按键与手势”对话框的“窗口状态”类别中重新分配。</target>
+      </segment>
+    </unit>
+    <unit id="ac900c0c-7827-4728-af9f-3d6cb99615e2">
+      <notes>
+        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Requirements</source>
+        <target>系统要求</target>
+      </segment>
+    </unit>
+    <unit id="3c92310b-2b59-4083-861b-1621d086b2a9">
+      <notes>
+        <note appliesTo="source">line: 36</note>
+      </notes>
+      <segment state="final">
+        <source>- NVDA 2026.1 or later</source>
+        <target>- NVDA 2026.1 或更高版本</target>
+      </segment>
+    </unit>
+    <unit id="e150804e-7ae6-4bf6-b851-79bcfb5b7fe8">
+      <notes>
+        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Author</source>
+        <target>作者</target>
+      </segment>
+    </unit>
+    <unit id="2e099920-4d70-4a87-9a2a-7f48b207abd4">
+      <notes>
+        <note appliesTo="source">line: 40</note>
+      </notes>
+      <segment state="final">
+        <source>Lanie Carmelo-Molinar</source>
+        <target>Lanie Carmelo-Molinar</target>
+      </segment>
+    </unit>
+    <unit id="385160d6-9276-4a2d-aaca-fb00156cb7ad">
+      <notes>
+        <note appliesTo="source">line: 41</note>
+      </notes>
+      <segment state="final">
+        <source>https://lanie.work</source>
+        <target>https://lanie.work</target>
+      </segment>
+    </unit>
+    <unit id="83d8ec77-8016-4b54-9a3c-323808fdbe57">
+      <notes>
+        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>License</source>
+        <target>许可证</target>
+      </segment>
+    </unit>
+    <unit id="c42900d6-58dd-48f0-883a-3906bead49c7">
+      <notes>
+        <note appliesTo="source">line: 45</note>
+      </notes>
+      <segment state="final">
+        <source>GPL v2</source>
+        <target>GPL v2</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
