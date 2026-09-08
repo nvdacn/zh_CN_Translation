@@ -1,5 +1,5 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/c300dc3ca2d51c0038ed9a096e097c6cbcc43f57/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/ff8f96d5b2983432b662a3016be63e1ccd174e07/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
 
@@ -11,23 +11,38 @@ $(ID:4ba3b2ea-5e7e-4236-9e69-d99ce0e70168)
 
 $(ID:756f97fb-9153-48a2-83ca-6bc45c455fa1)
 
-* $(ID:2628cd5c-d5d3-4a13-8e10-203907078d43)
-* $(ID:a026e904-4609-43d5-8864-ad078a2e219d)
-* $(ID:47a09da1-230e-4a42-adc5-6d417147197e)
-* $(ID:035225d4-80fb-4de4-af01-ac3aa3266603)
-* $(ID:db7950ec-fe1c-455d-8906-e2a42e87520b)
-* $(ID:be755231-1f96-4048-8749-cd28ad242b61)
-* $(ID:6b242ca4-370e-473c-9c2c-e2d6db09aa5d)
-* $(ID:7556990e-9fd3-4d08-b63e-80995af1ae42)
-* $(ID:458469dd-f1b7-4f74-9e96-c7abef0cd8af)
+* $(ID:7a14519c-52df-45b5-ab07-996d279b352f)
 
-$(ID:59eb243e-d5cd-4530-8309-13acf93213a2)
+$(ID:6dce0d2e-0d7f-4831-94d3-e1ca82992dd0)
+
+* $(ID:724d95e3-5857-4026-9261-f589d39c1f2d)
+* $(ID:eb490626-6f38-4c38-96ab-93f36a15904e)
+* $(ID:6a1d0814-35cd-4b50-9120-c365ba32969a)
+* $(ID:50e4fc57-a99c-4a60-9274-466289eb29f2)
+* $(ID:6e5f3724-bb06-45d7-81d4-895793cc1923)
+* $(ID:c770b865-2c68-4200-b089-40d811c712b2)
+* $(ID:3398c766-51e9-4613-9d15-74015e1a0bf7)
+* $(ID:efa513cd-d061-4b49-a66c-97ec5140a91d)
+* $(ID:956ebd51-65d0-4420-bfe0-e480e0d3b8ec)
+
+$(ID:64400d14-bf51-48c5-8d5b-24f402f10805)
+
+$(ID:dc6a849c-dc3c-43e1-9d9b-17e3aa1177ee)
+
+* $(ID:d01e5bb5-e2c5-4984-9a5e-75a8656e5b34)
+* $(ID:e6882ad3-cf8b-4850-96ce-c94ec64d2d82)
+* $(ID:c75947e5-b289-4072-9d34-638be5b92815)
+* $(ID:8d7c7925-6be9-475d-bd22-24db68fdc143)
+* $(ID:588f5c4c-5f37-4376-acfb-73f8364f9ea6)
+* $(ID:763fe702-d357-447b-8999-0da9288a1034)
+
+$(ID:17db2052-331b-4eb2-9524-28b4f94dfb3a)
 
 ## $(ID:cf9d1f4c-49a9-44c6-b161-ecfd913e64f6)
 
 $(ID:6afdbb36-1fa8-4498-99e0-3af26ac88091)
 
-* $(ID:37591af6-d9cc-43d2-b8e5-e72ac286e8a9)
+* $(ID:be5a90cc-97c4-4f1d-a612-7cdea631f49a)
 * $(ID:70ea07e4-d172-4dc7-aa11-970495a5c25e)
 * $(ID:f30cb84e-93b4-4c9e-b1e7-ea10a41b7434)
 * $(ID:e7463f56-ef68-4bc5-b6de-b4a53feff8e7)
@@ -87,108 +102,205 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <target>所有命令都支持手动朗读模式。</target>
       </segment>
     </unit>
-    <unit id="2628cd5c-d5d3-4a13-8e10-203907078d43">
+    <unit id="7a14519c-52df-45b5-ab07-996d279b352f">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>NVDA+Shift+E: presents used RAM (physical memory) and average processor load.</source>
-        <target>NVDA+Shift+E：读出物理内存的使用率和CPU 平均负载。</target>
+      <segment state="initial">
+        <source>NVDA+Shift+E: enters the Resource Monitor command layer.</source>
+        <target>NVDA+Shift+E: enters the Resource Monitor command layer.</target>
       </segment>
     </unit>
-    <unit id="a026e904-4609-43d5-8864-ad078a2e219d">
-      <notes>
-        <note appliesTo="source">line: 13</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA+Shift+1: presents the average processor load and if multicore CPU's are present the load of each core.</source>
-        <target>NVDA+Shift+1： 读出每个 CPU 核心的负载和平均负载。</target>
-      </segment>
-    </unit>
-    <unit id="47a09da1-230e-4a42-adc5-6d417147197e">
+    <unit id="6dce0d2e-0d7f-4831-94d3-e1ca82992dd0">
       <notes>
         <note appliesTo="source">line: 14</note>
-        <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>NVDA+Shift+2/5: presents the used and total space for both physical and virtual RAM (NVDA+Shift+5 is an alternative to NVDA+Shift+2 when the latter keyboard combination cannot be performed).</source>
-        <target>NVDA+Shift+2/5： 读出物理内存和虚拟内存的容量和使用情况（当 NVDA+Shift+2 无法执行时，可使用 NVDA+Shift+5 代替）。</target>
+      <segment state="initial">
+        <source>The following layer commands are available to obtain individual resource usage information:</source>
+        <target>The following layer commands are available to obtain individual resource usage information:</target>
       </segment>
     </unit>
-    <unit id="035225d4-80fb-4de4-af01-ac3aa3266603">
-      <notes>
-        <note appliesTo="source">line: 15</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA+Shift+3: presents the used and total space of the fixed (built-in), removable, and network drives.</source>
-        <target>NVDA+Shift+3：读出此计算机上所有驱动器的文件系统和空间使用情况。</target>
-      </segment>
-    </unit>
-    <unit id="db7950ec-fe1c-455d-8906-e2a42e87520b">
+    <unit id="724d95e3-5857-4026-9261-f589d39c1f2d">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>NVDA+Shift+4: presents information on the wireless connection, network (SSID) name and strength, or no SSID if there is none available.</source>
-        <target>NVDA+Shift+4：读出有关无线连接、SSID 名称和强度的信息，如果没有可用的 SSID，则给出提示。</target>
+      <segment state="initial">
+        <source>Space: overall resource usage information including used RAM (physical memory) and average processor load.</source>
+        <target>Space: overall resource usage information including used RAM (physical memory) and average processor load.</target>
       </segment>
     </unit>
-    <unit id="be755231-1f96-4048-8749-cd28ad242b61">
+    <unit id="eb490626-6f38-4c38-96ab-93f36a15904e">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>NVDA+Shift+6: presents  Windows version, CPU architecture (AMD64 (x64), ARM64), and exact build number (build.revision).</source>
-        <target>NVDA+Shift+6：读出 Windows 版本、CPU 架构（AMD64（x64）、ARM64）以及精确的内部版本号（build.revision）。</target>
+      <segment state="initial">
+        <source>C: CPU (average processor load and if multicore CPU's are present the load of each core)</source>
+        <target>C: CPU (average processor load and if multicore CPU's are present the load of each core)</target>
       </segment>
     </unit>
-    <unit id="6b242ca4-370e-473c-9c2c-e2d6db09aa5d">
+    <unit id="6a1d0814-35cd-4b50-9120-c365ba32969a">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>NVDA+Shift+7: presents the system's uptime.</source>
-        <target>NVDA+Shift+7： 读出当前系统的运行时间。</target>
+      <segment state="initial">
+        <source>D: disks (used and total space of the fixed (built-in), removable, and network drives)</source>
+        <target>D: disks (used and total space of the fixed (built-in), removable, and network drives)</target>
       </segment>
     </unit>
-    <unit id="7556990e-9fd3-4d08-b63e-80995af1ae42">
+    <unit id="50e4fc57-a99c-4a60-9274-466289eb29f2">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>Unassigned: presents information about the graphics processing unit (GPU; unavailable in secure mode).</source>
-        <target>未分配：读出图形处理器（GPU）的信息；该功能在安全模式下不可用。</target>
+      <segment state="initial">
+        <source>G (unavailable in secure mode): graphics processing unit (GPU) information</source>
+        <target>G (unavailable in secure mode): graphics processing unit (GPU) information</target>
       </segment>
     </unit>
-    <unit id="458469dd-f1b7-4f74-9e96-c7abef0cd8af">
+    <unit id="6e5f3724-bb06-45d7-81d4-895793cc1923">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>Unassigned: presents graphics processing unit (GPU memory usage information; unavailable in secure mode).</source>
-        <target>未分配：读出图形处理器（GPU）的内存使用情况；该功能在安全模式下不可用。</target>
+      <segment state="initial">
+        <source>Shift+G(unavailable in secure mode): GPU memory usage</source>
+        <target>Shift+G(unavailable in secure mode): GPU memory usage</target>
       </segment>
     </unit>
-    <unit id="59eb243e-d5cd-4530-8309-13acf93213a2">
+    <unit id="c770b865-2c68-4200-b089-40d811c712b2">
+      <notes>
+        <note appliesTo="source">line: 21</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>M: memory (used and total space for both physical and virtual RAM (NVDA+Shift+5 is an alternative to NVDA+Shift+2 when the latter keyboard combination cannot be performed))</source>
+        <target>M: memory (used and total space for both physical and virtual RAM (NVDA+Shift+5 is an alternative to NVDA+Shift+2 when the latter keyboard combination cannot be performed))</target>
+      </segment>
+    </unit>
+    <unit id="3398c766-51e9-4613-9d15-74015e1a0bf7">
       <notes>
         <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>You can change these shortcut keys via input gestures dialog.</source>
-        <target>您可以通过按键与手势对话框更改这些快捷键。</target>
+      <segment state="initial">
+        <source>O: operating system (Windows version, CPU architecture, and exact build number (build.revision))</source>
+        <target>O: operating system (Windows version, CPU architecture, and exact build number (build.revision))</target>
+      </segment>
+    </unit>
+    <unit id="efa513cd-d061-4b49-a66c-97ec5140a91d">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>U: system uptime</source>
+        <target>U: system uptime</target>
+      </segment>
+    </unit>
+    <unit id="956ebd51-65d0-4420-bfe0-e480e0d3b8ec">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>W: wi-fi (network name (SSID), signal strength, security mode, or no SSID if there is none available)</source>
+        <target>W: wi-fi (network name (SSID), signal strength, security mode, or no SSID if there is none available)</target>
+      </segment>
+    </unit>
+    <unit id="64400d14-bf51-48c5-8d5b-24f402f10805">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+      </notes>
+      <segment state="initial">
+        <source>Resource commands keep the layer active so they can be repeated. Press Escape to exit the layer; an unmapped key exits and is passed through the active application.</source>
+        <target>Resource commands keep the layer active so they can be repeated. Press Escape to exit the layer; an unmapped key exits and is passed through the active application.</target>
+      </segment>
+    </unit>
+    <unit id="dc6a849c-dc3c-43e1-9d9b-17e3aa1177ee">
+      <notes>
+        <note appliesTo="source">line: 28</note>
+      </notes>
+      <segment state="initial">
+        <source>For limited backward compatibility, the previous NVDA+Shift+1 through NVDA+Shift+7 resource shortcuts remain available:</source>
+        <target>For limited backward compatibility, the previous NVDA+Shift+1 through NVDA+Shift+7 resource shortcuts remain available:</target>
+      </segment>
+    </unit>
+    <unit id="d01e5bb5-e2c5-4984-9a5e-75a8656e5b34">
+      <notes>
+        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA+Shift+1: CPU</source>
+        <target>NVDA+Shift+1: CPU</target>
+      </segment>
+    </unit>
+    <unit id="e6882ad3-cf8b-4850-96ce-c94ec64d2d82">
+      <notes>
+        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA+Shift+2/5: memory</source>
+        <target>NVDA+Shift+2/5: memory</target>
+      </segment>
+    </unit>
+    <unit id="c75947e5-b289-4072-9d34-638be5b92815">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA+Shift+3: disks</source>
+        <target>NVDA+Shift+3: disks</target>
+      </segment>
+    </unit>
+    <unit id="8d7c7925-6be9-475d-bd22-24db68fdc143">
+      <notes>
+        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA+Shift+4: wi-fi</source>
+        <target>NVDA+Shift+4: wi-fi</target>
+      </segment>
+    </unit>
+    <unit id="588f5c4c-5f37-4376-acfb-73f8364f9ea6">
+      <notes>
+        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA+Shift+6: operating system</source>
+        <target>NVDA+Shift+6: operating system</target>
+      </segment>
+    </unit>
+    <unit id="763fe702-d357-447b-8999-0da9288a1034">
+      <notes>
+        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA+Shift+7: system uptime</source>
+        <target>NVDA+Shift+7: system uptime</target>
+      </segment>
+    </unit>
+    <unit id="17db2052-331b-4eb2-9524-28b4f94dfb3a">
+      <notes>
+        <note appliesTo="source">line: 37</note>
+      </notes>
+      <segment state="initial">
+        <source>You can change these gestures via the input gestures dialog.</source>
+        <target>You can change these gestures via the input gestures dialog.</target>
       </segment>
     </unit>
     <unit id="cf9d1f4c-49a9-44c6-b161-ecfd913e64f6">
       <notes>
-        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -198,26 +310,26 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="6afdbb36-1fa8-4498-99e0-3af26ac88091">
       <notes>
-        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">line: 41</note>
       </notes>
       <segment state="final">
         <source>This add-on does not replace task manager and other system information programs for Windows. Also note the following:</source>
         <target>此插件不替换 Windows 的任务管理器和其他系统信息程序。另请注意以下事项：</target>
       </segment>
     </unit>
-    <unit id="37591af6-d9cc-43d2-b8e5-e72ac286e8a9">
+    <unit id="be5a90cc-97c4-4f1d-a612-7cdea631f49a">
       <notes>
-        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>Apart from overall resource usage command (NVDA+Shift+E), pressing other commands twice will copy resource usage information to the clipboard.</source>
-        <target>除总体资源使用情况命令（NVDA+Shift+E）外，连按其他命令两次可将资源使用信息复制到剪贴板。</target>
+      <segment state="initial">
+        <source>Pressing resource commands twice will copy resource usage information to the clipboard.</source>
+        <target>Pressing resource commands twice will copy resource usage information to the clipboard.</target>
       </segment>
     </unit>
     <unit id="70ea07e4-d172-4dc7-aa11-970495a5c25e">
       <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -227,7 +339,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="f30cb84e-93b4-4c9e-b1e7-ea10a41b7434">
       <notes>
-        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -237,7 +349,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="e7463f56-ef68-4bc5-b6de-b4a53feff8e7">
       <notes>
-        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -247,7 +359,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="843f5230-c7a3-47e4-94f9-e20d98046a36">
       <notes>
-        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -257,7 +369,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="cb5afef8-535b-45b2-bc60-64b07663bed7">
       <notes>
-        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -267,7 +379,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="2526a96e-9263-4d2b-acf3-adf0ebf773e0">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -277,7 +389,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="cede3681-25e1-4335-adad-b188883c418e">
       <notes>
-        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">line: 51</note>
       </notes>
       <segment state="final">
         <source>For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.</source>
@@ -286,7 +398,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
     </unit>
     <unit id="32d59eb2-cc6d-4498-8a04-ed6e06dbe82e">
       <notes>
-        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">line: 53</note>
       </notes>
       <segment state="final">
         <source>[1]: https://github.com/kefaslungu/resourceMonitor/blob/main/changes.md</source>
