@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/RareBird15/windowState/6902f1bb71a6d36924e20ccfea2e956b6870b837/readme.md">
     <skeleton>
 # $(ID:d76c3d0e-973c-495c-9991-2efa6bf9da35)
@@ -184,18 +184,18 @@ $(ID:c42900d6-58dd-48f0-883a-3906bead49c7)
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>   - Left third, middle third, right third (Windows 11 Snap Layout thirds)</source>
-        <target>   - Left third, middle third, right third (Windows 11 Snap Layout thirds)</target>
+        <target>   - 左侧三分之一、中间三分之一、右侧三分之一（Windows 11 贴靠布局三分区）</target>
       </segment>
     </unit>
     <unit id="9ac3992a-6fed-42a8-b93d-71120bf0c6b8">
       <notes>
         <note appliesTo="source">line: 23</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>   - Left two thirds, right two thirds (Windows 11 Snap Layout two-thirds)</source>
-        <target>   - Left two thirds, right two thirds (Windows 11 Snap Layout two-thirds)</target>
+        <target>   - 左侧三分之二、右侧三分之二（Windows 11 贴靠布局三分之二）</target>
       </segment>
     </unit>
     <unit id="f9e89c49-70cb-4487-a650-546153d838c4">
@@ -249,9 +249,9 @@ $(ID:c42900d6-58dd-48f0-883a-3906bead49c7)
       <notes>
         <note appliesTo="source">line: 34</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>- **Report the display number with the window state**: When checked, the window state is followed by the display number (e.g. "restored, on display 1"). Useful when working with multiple monitors. Off by default.</source>
-        <target>- **Report the display number with the window state**: When checked, the window state is followed by the display number (e.g. "restored, on display 1"). Useful when working with multiple monitors. Off by default.</target>
+        <target>- **读出窗口所在的显示器编号**：选中后，窗口状态后将会读出显示器编号（例如“还原, 显示器 1”）。在多显示器环境中工作时非常有用。默认关闭。</target>
       </segment>
     </unit>
     <unit id="8dfafc67-1bef-4194-b4f8-21df9b58ad09">
