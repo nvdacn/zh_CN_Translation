@@ -1,5 +1,5 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/ff8f96d5b2983432b662a3016be63e1ccd174e07/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/d720d3b4c410259a9559b6b43da94b43fb2bad18/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
 
@@ -107,18 +107,18 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+Shift+E: enters the Resource Monitor command layer.</source>
-        <target>NVDA+Shift+E: enters the Resource Monitor command layer.</target>
+        <target>NVDA+Shift+E：进入资源监控器命令层。</target>
       </segment>
     </unit>
     <unit id="6dce0d2e-0d7f-4831-94d3-e1ca82992dd0">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The following layer commands are available to obtain individual resource usage information:</source>
-        <target>The following layer commands are available to obtain individual resource usage information:</target>
+        <target>以下层命令可用于获取各个资源的单独使用情况信息：</target>
       </segment>
     </unit>
     <unit id="724d95e3-5857-4026-9261-f589d39c1f2d">
@@ -126,9 +126,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Space: overall resource usage information including used RAM (physical memory) and average processor load.</source>
-        <target>Space: overall resource usage information including used RAM (physical memory) and average processor load.</target>
+        <target>空格：整体资源使用情况信息，包括物理内存的使用率和CPU 平均负载。</target>
       </segment>
     </unit>
     <unit id="eb490626-6f38-4c38-96ab-93f36a15904e">
@@ -136,9 +136,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>C: CPU (average processor load and if multicore CPU's are present the load of each core)</source>
-        <target>C: CPU (average processor load and if multicore CPU's are present the load of each core)</target>
+        <target>C：CPU（平均处理器负载，如果是多核 CPU，还包括每个核心的负载）</target>
       </segment>
     </unit>
     <unit id="6a1d0814-35cd-4b50-9120-c365ba32969a">
@@ -146,9 +146,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>D: disks (used and total space of the fixed (built-in), removable, and network drives)</source>
-        <target>D: disks (used and total space of the fixed (built-in), removable, and network drives)</target>
+        <target>D：磁盘（固定（内置）、可移动和网络驱动器的已用空间及总空间）</target>
       </segment>
     </unit>
     <unit id="50e4fc57-a99c-4a60-9274-466289eb29f2">
@@ -156,9 +156,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>G (unavailable in secure mode): graphics processing unit (GPU) information</source>
-        <target>G (unavailable in secure mode): graphics processing unit (GPU) information</target>
+        <target>G（在安全模式下不可用）：图形处理器（GPU）信息</target>
       </segment>
     </unit>
     <unit id="6e5f3724-bb06-45d7-81d4-895793cc1923">
@@ -166,9 +166,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Shift+G(unavailable in secure mode): GPU memory usage</source>
-        <target>Shift+G(unavailable in secure mode): GPU memory usage</target>
+        <target>Shift+G（在安全模式下不可用）：GPU 内存使用情况</target>
       </segment>
     </unit>
     <unit id="c770b865-2c68-4200-b089-40d811c712b2">
@@ -176,9 +176,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>M: memory (used and total space for both physical and virtual RAM (NVDA+Shift+5 is an alternative to NVDA+Shift+2 when the latter keyboard combination cannot be performed))</source>
-        <target>M: memory (used and total space for both physical and virtual RAM (NVDA+Shift+5 is an alternative to NVDA+Shift+2 when the latter keyboard combination cannot be performed))</target>
+        <target>M：内存（物理内存和虚拟内存的已用空间及总空间）</target>
       </segment>
     </unit>
     <unit id="3398c766-51e9-4613-9d15-74015e1a0bf7">
@@ -186,9 +186,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>O: operating system (Windows version, CPU architecture, and exact build number (build.revision))</source>
-        <target>O: operating system (Windows version, CPU architecture, and exact build number (build.revision))</target>
+        <target>O：操作系统（Windows 版本、CPU 体系结构以及精确的内部版本号（build.revision））</target>
       </segment>
     </unit>
     <unit id="efa513cd-d061-4b49-a66c-97ec5140a91d">
@@ -196,9 +196,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>U: system uptime</source>
-        <target>U: system uptime</target>
+        <target>U：系统运行时间</target>
       </segment>
     </unit>
     <unit id="956ebd51-65d0-4420-bfe0-e480e0d3b8ec">
@@ -206,27 +206,27 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>W: wi-fi (network name (SSID), signal strength, security mode, or no SSID if there is none available)</source>
-        <target>W: wi-fi (network name (SSID), signal strength, security mode, or no SSID if there is none available)</target>
+        <target>W：Wi-Fi（网络名称（SSID）、信号强度、安全类型，如果没有可用网络则提示无 SSID）</target>
       </segment>
     </unit>
     <unit id="64400d14-bf51-48c5-8d5b-24f402f10805">
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Resource commands keep the layer active so they can be repeated. Press Escape to exit the layer; an unmapped key exits and is passed through the active application.</source>
-        <target>Resource commands keep the layer active so they can be repeated. Press Escape to exit the layer; an unmapped key exits and is passed through the active application.</target>
+        <target>资源命令层会保持激活状态，以便重复执行。按 Esc 键退出命令层；未映射的按键将退出命令层并传递给当前活动的应用程序。</target>
       </segment>
     </unit>
     <unit id="dc6a849c-dc3c-43e1-9d9b-17e3aa1177ee">
       <notes>
         <note appliesTo="source">line: 28</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>For limited backward compatibility, the previous NVDA+Shift+1 through NVDA+Shift+7 resource shortcuts remain available:</source>
-        <target>For limited backward compatibility, the previous NVDA+Shift+1 through NVDA+Shift+7 resource shortcuts remain available:</target>
+        <target>为提供有限的向后兼容性，此前的 NVDA+Shift+1 至 NVDA+Shift+7 资源快捷键仍然可用：</target>
       </segment>
     </unit>
     <unit id="d01e5bb5-e2c5-4984-9a5e-75a8656e5b34">
@@ -234,9 +234,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+Shift+1: CPU</source>
-        <target>NVDA+Shift+1: CPU</target>
+        <target>NVDA+Shift+1：CPU</target>
       </segment>
     </unit>
     <unit id="e6882ad3-cf8b-4850-96ce-c94ec64d2d82">
@@ -244,9 +244,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+Shift+2/5: memory</source>
-        <target>NVDA+Shift+2/5: memory</target>
+        <target>NVDA+Shift+2/5：内存（当 NVDA+Shift+2 这一组合键无法执行时，可使用 NVDA+Shift+5 作为替代）</target>
       </segment>
     </unit>
     <unit id="c75947e5-b289-4072-9d34-638be5b92815">
@@ -254,9 +254,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+Shift+3: disks</source>
-        <target>NVDA+Shift+3: disks</target>
+        <target>NVDA+Shift+3：磁盘</target>
       </segment>
     </unit>
     <unit id="8d7c7925-6be9-475d-bd22-24db68fdc143">
@@ -264,9 +264,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+Shift+4: wi-fi</source>
-        <target>NVDA+Shift+4: wi-fi</target>
+        <target>NVDA+Shift+4：Wi-Fi</target>
       </segment>
     </unit>
     <unit id="588f5c4c-5f37-4376-acfb-73f8364f9ea6">
@@ -274,9 +274,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+Shift+6: operating system</source>
-        <target>NVDA+Shift+6: operating system</target>
+        <target>NVDA+Shift+6：操作系统</target>
       </segment>
     </unit>
     <unit id="763fe702-d357-447b-8999-0da9288a1034">
@@ -284,18 +284,18 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA+Shift+7: system uptime</source>
-        <target>NVDA+Shift+7: system uptime</target>
+        <target>NVDA+Shift+7：系统运行时间</target>
       </segment>
     </unit>
     <unit id="17db2052-331b-4eb2-9524-28b4f94dfb3a">
       <notes>
         <note appliesTo="source">line: 37</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can change these gestures via the input gestures dialog.</source>
-        <target>You can change these gestures via the input gestures dialog.</target>
+        <target>您可通过按键与手势对话框更改这些快捷键。</target>
       </segment>
     </unit>
     <unit id="cf9d1f4c-49a9-44c6-b161-ecfd913e64f6">
@@ -322,7 +322,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Pressing resource commands twice will copy resource usage information to the clipboard.</source>
         <target>Pressing resource commands twice will copy resource usage information to the clipboard.</target>
       </segment>
