@@ -7154,9 +7154,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Bug Fixes</source>
-        <target>Bug Fixes</target>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="0f9f6ee9-9c74-46fb-bcc1-e2aee8e0f8a2">
@@ -7164,9 +7164,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>64-bit NVDA now reports the correct location and label for Win32 menu items of 32-bit applications when display scaling is above 100%. (#19225, #20158, @christopherpross)</source>
-        <target>64-bit NVDA now reports the correct location and label for Win32 menu items of 32-bit applications when display scaling is above 100%. (#19225, #20158, @christopherpross)</target>
+        <target>修复了在显示缩放比例高于 100% 时，64 位 NVDA 无法正确读出 32 位应用程序 Win32 菜单项的位置和标签的问题。(#19225, #20158, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="ed9fc72f-92a5-40e7-8159-d831fe982443">
@@ -7174,9 +7174,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In PowerPoint and other Office applications, NVDA will now correctly read and navigate the edit fields in the insert hyperlink dialog. (#17390, @aryanchoudharypro)</source>
-        <target>In PowerPoint and other Office applications, NVDA will now correctly read and navigate the edit fields in the insert hyperlink dialog. (#17390, @aryanchoudharypro)</target>
+        <target>修复了在 PowerPoint 和其他 Office 程序中，NVDA 无法正确朗读和导航“插入超链接”对话框中编辑字段的问题。(#17390, @aryanchoudharypro)</target>
       </segment>
     </unit>
     <unit id="dc24541f-efd4-4dbc-be88-926bdb84e3ec">
@@ -7184,9 +7184,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Notepad++, NVDA now continues to report IME composition text in speech and braille while selecting or navigating within Chinese IME composition. (#14140, #14152, @keyang556)</source>
-        <target>In Notepad++, NVDA now continues to report IME composition text in speech and braille while selecting or navigating within Chinese IME composition. (#14140, #14152, @keyang556)</target>
+        <target>修复了在 Notepad++ 中，NVDA 在中文输入法候选状态下进行选择或导航时，无法通过语音和盲文提示候选字的问题。(#14140, #14152, @keyang556)</target>
       </segment>
     </unit>
     <unit id="a4be2ad5-2f11-4ba3-9520-bf41f2c3f9bc">
@@ -7194,9 +7194,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed UAC slider not being read when changing values with arrow keys in UI Automation. (#9356, @tareh7z)</source>
-        <target>Fixed UAC slider not being read when changing values with arrow keys in UI Automation. (#9356, @tareh7z)</target>
+        <target>修复了在 UI Automation 中使用光标键更改 UAC 滑块值时，该值无法被朗读的问题。(#9356, @tareh7z)</target>
       </segment>
     </unit>
     <unit id="17fc7478-3516-488e-8210-f704050a6e98">
@@ -7204,9 +7204,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>After marking the start of text for review cursor copy with `NVDA+f9`, moving with Find or Go To no longer causes `NVDA+f10` to report that no start marker is set. (#13864, @Cary-rowen)</source>
-        <target>After marking the start of text for review cursor copy with `NVDA+f9`, moving with Find or Go To no longer causes `NVDA+f10` to report that no start marker is set. (#13864, @Cary-rowen)</target>
+        <target>修复了在使用 `NVDA+f9` 将查看光标的所在处设置为开始点，通过查找或定位移动后，`NVDA+f10` 会提示未设置开始点的问题。(#13864, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="c728ff47-f295-41e1-8ed8-f49632be4c72">
@@ -7214,18 +7214,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Only one browse mode Find dialog can be open at a time.</source>
-        <target>Only one browse mode Find dialog can be open at a time.</target>
+        <target>修复了可能同时打开多个浏览模式“查找”对话框的问题。</target>
       </segment>
     </unit>
     <unit id="c643f84c-e9d1-49db-9963-9b25364352ef">
       <notes>
         <note appliesTo="source">line: 97</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Executing the find command while the dialog is open brings it to the foreground and points it at the document you executed the command from. (#20484, @LeonarddeR)</source>
-        <target>Executing the find command while the dialog is open brings it to the foreground and points it at the document you executed the command from. (#20484, @LeonarddeR)</target>
+        <target>在对话框已打开时执行查找命令，会将其带到前台，并指向您执行该命令时所在的文档。(#20484, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="2b90fdcc-84b3-40a7-beee-2bf24cc3e3fd">
@@ -7233,9 +7233,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Focus is no longer silent on list items in Qt-based applications (such as Telegram Desktop) when the item exposes the UIA SelectionItem pattern without an associated action interface. (#20255, @rezabakhshilaktasaraei)</source>
-        <target>Focus is no longer silent on list items in Qt-based applications (such as Telegram Desktop) when the item exposes the UIA SelectionItem pattern without an associated action interface. (#20255, @rezabakhshilaktasaraei)</target>
+        <target>修复了在基于 Qt 的应用程序（如 Telegram Desktop）中，当列表项暴露 UIA SelectionItem 模式但没有关联的操作接口时，焦点落在列表项上却不朗读的问题。(#20255, @rezabakhshilaktasaraei)</target>
       </segment>
     </unit>
     <unit id="f52ccc5e-8f05-4539-9087-1430ed0a8c57">
@@ -7243,9 +7243,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now reports checked ToolStrip menu items in .NET Framework Windows Forms applications using UI Automation. (#19335, @Cary-rowen)</source>
-        <target>NVDA now reports checked ToolStrip menu items in .NET Framework Windows Forms applications using UI Automation. (#19335, @Cary-rowen)</target>
+        <target>修复了 NVDA 在使用 UI Automation 时，无法读出 .NET Framework Windows Forms 应用程序中已选中的 ToolStrip 菜单项的问题。(#19335, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="a0be213c-e739-4557-ba9c-479ec4a146c7">
@@ -7253,9 +7253,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Object descriptions are now reported for .NET Framework Windows Forms ToolStrip menu items exposed through UI Automation. (#20486, @Cary-rowen)</source>
-        <target>Object descriptions are now reported for .NET Framework Windows Forms ToolStrip menu items exposed through UI Automation. (#20486, @Cary-rowen)</target>
+        <target>修复了无法读出通过 UI Automation 暴露的 .NET Framework Windows Forms ToolStrip 菜单项的对象描述的问题。(#20486, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="a1f6adfb-d396-4e3e-bc20-c324713b6cc4">
@@ -7263,9 +7263,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now reports the selected item when using the arrow keys in collapsed .NET Framework Windows Forms combo boxes. (#17454, @Cary-rowen)</source>
-        <target>NVDA now reports the selected item when using the arrow keys in collapsed .NET Framework Windows Forms combo boxes. (#17454, @Cary-rowen)</target>
+        <target>修复了在折叠的 .NET Framework Windows Forms 组合框中按光标键时，NVDA 无法读出所选项的问题。(#17454, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="ff4bc12d-d784-4716-931b-470b08e8cc57">
@@ -7273,9 +7273,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote Access: NVDA now reports when connecting as the controlled computer fails, while continuing to retry the connection in the background. (#19103, @danielw97)</source>
-        <target>Remote Access: NVDA now reports when connecting as the controlled computer fails, while continuing to retry the connection in the background. (#19103, @danielw97)</target>
+        <target>远程访问：NVDA 会在连接被控计算机失败时发出提示，同时在后台继续重试连接。(#19103, @danielw97)</target>
       </segment>
     </unit>
     <unit id="05689ace-e796-4a26-99c3-d601f74866ae">
@@ -7283,9 +7283,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed an error when loading 32-bit synthesizers on some systems. (#20088)</source>
-        <target>Fixed an error when loading 32-bit synthesizers on some systems. (#20088)</target>
+        <target>修复了在某些系统上加载 32 位合成器时出现的错误。(#20088)</target>
       </segment>
     </unit>
     <unit id="decda1a6-2226-4946-abf5-7172e085436d">
@@ -7293,9 +7293,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Magnifier's "Show entire screen overview" feature now works when relative tracking mode is enabled. (#20746)</source>
-        <target>Magnifier's "Show entire screen overview" feature now works when relative tracking mode is enabled. (#20746)</target>
+        <target>修复了在启用相对跟踪模式时，放大镜的“显示全屏概览”功能无法工作的问题。(#20746)</target>
       </segment>
     </unit>
     <unit id="0ef818ff-4500-4055-a142-59071db12dfd">
@@ -7303,9 +7303,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 106</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Performance</source>
-        <target>Performance</target>
+        <target>性能</target>
       </segment>
     </unit>
     <unit id="6b40f759-4b20-4418-bfae-de9fa57d0935">
@@ -7313,9 +7313,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA should no longer cause File Explorer or other applications to crash when NVDA is exited or restarted. (#16207)</source>
-        <target>NVDA should no longer cause File Explorer or other applications to crash when NVDA is exited or restarted. (#16207)</target>
+        <target>* 修复了退出或重启 NVDA 时会导致文件资源管理器或其他应用程序崩溃的问题。(#16207)</target>
       </segment>
     </unit>
     <unit id="d4a07f72-4227-482b-bb24-855155bb0304">
@@ -7323,9 +7323,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When an application stops responding, NVDA no longer freezes or floods its log with errors; it stays responsive and drops UIA and MSAA events from the unresponsive application until it recovers. (#16749, @heath-toby)</source>
-        <target>When an application stops responding, NVDA no longer freezes or floods its log with errors; it stays responsive and drops UIA and MSAA events from the unresponsive application until it recovers. (#16749, @heath-toby)</target>
+        <target>修复了当应用程序停止响应时，NVDA 冻结或将大量错误写入日志的问题；现在 NVDA 保持响应，并丢弃来自无响应应用程序的 UIA 和 MSAA 事件，直到其恢复。(#16749, @heath-toby)</target>
       </segment>
     </unit>
     <unit id="8e7ad34c-fa45-495a-b508-101a3903141e">
@@ -7333,9 +7333,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Reduced lag on UI Automation text change events, improving the responsiveness of controls such as combo boxes and of File Explorer, by using the cached element class name instead of a live cross-process fetch. (#16749, @heath-toby)</source>
-        <target>Reduced lag on UI Automation text change events, improving the responsiveness of controls such as combo boxes and of File Explorer, by using the cached element class name instead of a live cross-process fetch. (#16749, @heath-toby)</target>
+        <target>通过使用缓存的元素类名而非实时跨进程获取，降低了 UI 自动化文本更改事件的延迟，提高了组合框和文件资源管理器等控件的响应速度。(#16749, @heath-toby)</target>
       </segment>
     </unit>
     <unit id="079cdadc-7cf9-4d07-9bfb-3a02ea0878b7">
@@ -7343,9 +7343,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA recovers more quickly when an application stops responding; in particular, switching away from a hung application returns NVDA to responsiveness immediately. (#20169, @heath-toby)</source>
-        <target>NVDA recovers more quickly when an application stops responding; in particular, switching away from a hung application returns NVDA to responsiveness immediately. (#20169, @heath-toby)</target>
+        <target>修复了应用程序停止响应时 NVDA 恢复缓慢的问题；特别是，从挂起的应用程序切换到其他程序后，NVDA 会立即恢复响应。(#20169, @heath-toby)</target>
       </segment>
     </unit>
     <unit id="e701c57a-014e-4afc-a9d5-983c8ec9f477">
@@ -7353,9 +7353,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 112</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer floods its log with errors while Windows is locked and a browse mode document keeps updating in the background, such as a playing video in Mozilla Firefox. (#18861, @bramd)</source>
-        <target>NVDA no longer floods its log with errors while Windows is locked and a browse mode document keeps updating in the background, such as a playing video in Mozilla Firefox. (#18861, @bramd)</target>
+        <target>修复了在 Windows 锁定且浏览模式文档在后台持续更新（例如在 Mozilla Firefox 播放视频）时，NVDA 将大量错误写入日志的问题。(#18861, @bramd)</target>
       </segment>
     </unit>
     <unit id="914281f2-8d2a-44c3-8732-103cb2ae19d3">
@@ -7363,9 +7363,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 114</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille</source>
-        <target>Braille</target>
+        <target>盲文</target>
       </segment>
     </unit>
     <unit id="96a7710f-a39a-45ba-b6e2-ff9806fbc1f6">
@@ -7373,18 +7373,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 116</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On HumanWare Brailliant displays with C-keys, the `c1`, `c2`, `c3` and `c5` command keys now move the braille display to the previous line, scroll it back, move it to the next line and scroll it forward.</source>
-        <target>On HumanWare Brailliant displays with C-keys, the `c1`, `c2`, `c3` and `c5` command keys now move the braille display to the previous line, scroll it back, move it to the next line and scroll it forward.</target>
+        <target>修复了在带有 C 键的 HumanWare Brailliant 点显器上，`c1`、`c2`、`c3` 和 `c5` 命令键无法用于将点显器移至上一行、向后滚动、移至下一行和向前滚动的问题。</target>
       </segment>
     </unit>
     <unit id="71516045-0c52-4316-827e-b668d3ae88be">
       <notes>
         <note appliesTo="source">line: 117</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Previously these keys had no function when pressed on their own. (#20366, @fla-rion)</source>
-        <target>Previously these keys had no function when pressed on their own. (#20366, @fla-rion)</target>
+        <target>此前这些按键单独按下时没有功能。(#20366, @fla-rion)</target>
       </segment>
     </unit>
     <unit id="31625d61-f693-48bf-a4fa-1380c048d71b">
@@ -7392,9 +7392,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 118</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The HID keyboard input simulation setting for ALVA braille displays is now remembered across reconnects and restarts. (#20455, @Cary-rowen)</source>
-        <target>The HID keyboard input simulation setting for ALVA braille displays is now remembered across reconnects and restarts. (#20455, @Cary-rowen)</target>
+        <target>修复了 ALVA 点显器的 HID 键盘输入模拟设置无法在重新连接和重启后保留的问题。(#20455, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="34770fe3-23ce-49e6-b602-7452fd8d90ed">
@@ -7402,9 +7402,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille now follows the spoken text during say all in browse mode when braille is tethered to focus. (#3287, @LeonarddeR)</source>
-        <target>Braille now follows the spoken text during say all in browse mode when braille is tethered to focus. (#3287, @LeonarddeR)</target>
+        <target>修复了在浏览模式下当盲文显示跟随到焦点时，全文朗读过程中盲文无法跟随朗读文本的问题。(#3287, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="a7ef78f8-95ad-42ff-811b-6875252b8ace">
@@ -7412,9 +7412,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 120</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>HIMS Braille Sense and Braille EDGE displays connected via USB now work on systems where the older HIMS USB driver cannot be installed, such as Windows 11. (#20555, @KihunJang1981)</source>
-        <target>HIMS Braille Sense and Braille EDGE displays connected via USB now work on systems where the older HIMS USB driver cannot be installed, such as Windows 11. (#20555, @KihunJang1981)</target>
+        <target>修复了通过 USB 连接的 HIMS Braille Sense 和 Braille EDGE 点显器在无法安装旧版 HIMS USB 驱动的系统（如 Windows 11）上无法工作的问题。(#20555, @KihunJang1981)</target>
       </segment>
     </unit>
     <unit id="b0942205-7f95-4363-80f4-7bf1ba760c95">
@@ -7422,9 +7422,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 121</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On these systems, install the [HIMS WinUSB driver](https://hims-product.s3.ap-northeast-2.amazonaws.com/Util/HIMS_Braille_Driver_V3_1.exe) instead.</source>
-        <target>On these systems, install the [HIMS WinUSB driver](https://hims-product.s3.ap-northeast-2.amazonaws.com/Util/HIMS_Braille_Driver_V3_1.exe) instead.</target>
+        <target>在这些系统上，请改为安装 [HIMS WinUSB 驱动](https://hims-product.s3.ap-northeast-2.amazonaws.com/Util/HIMS_Braille_Driver_V3_1.exe)。</target>
       </segment>
     </unit>
     <unit id="0a31bd61-564c-4420-b0c5-d9a8b33b6490">
@@ -7432,9 +7432,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer briefly disconnects and re-detects the braille display on desktop switches that do not enter the secure desktop, such as when switching between a Remote Desktop session and the local machine. (#18810, #20550, @LeonarddeR)</source>
-        <target>NVDA no longer briefly disconnects and re-detects the braille display on desktop switches that do not enter the secure desktop, such as when switching between a Remote Desktop session and the local machine. (#18810, #20550, @LeonarddeR)</target>
+        <target>修复了 NVDA 在未进入安全桌面的桌面切换（例如在远程桌面会话和本地计算机之间切换）时，会短暂断开并重新检测点显器的问题。(#18810, #20550, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="72c915cd-df44-4aa9-a840-f8e3af168bc5">
@@ -7442,9 +7442,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 123</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Fixed incorrect back-translation when using Hindi and several other Indian grade 1 tables for braille input. (#20671, @codeofdusk)</source>
-        <target>Fixed incorrect back-translation when using Hindi and several other Indian grade 1 tables for braille input. (#20671, @codeofdusk)</target>
+        <target>修复了使用印地语及其他几种印度 1 级盲文表进行盲文输入时反向翻译错误的问题。(#20671, @codeofdusk)</target>
       </segment>
     </unit>
     <unit id="a4df7e5d-d5c3-4870-83db-ec22fef83d67">
@@ -7452,9 +7452,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 125</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Web browsers</source>
-        <target>Web browsers</target>
+        <target>Web 浏览器</target>
       </segment>
     </unit>
     <unit id="7b0c70cd-9305-434b-8e64-da43f1d2c8f0">
@@ -7462,9 +7462,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 127</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When moving to an ARIA grid cell in focus mode in web browsers, NVDA no longer reports both the row and column headers even if only the row or only the column changed. (#17750, @jcsteh)</source>
-        <target>When moving to an ARIA grid cell in focus mode in web browsers, NVDA no longer reports both the row and column headers even if only the row or only the column changed. (#17750, @jcsteh)</target>
+        <target>修复了在浏览器的焦点模式下移动到 ARIA 网格单元格时，即使只有行或只有列发生变化，NVDA 也会同时朗读行标题和列标题的问题。(#17750, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="d9e46774-3330-4aa8-82df-c4baf94c7d8e">
@@ -7472,9 +7472,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 128</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now announces heading, paragraph, list, and list item children inside webpage alerts (`role="alert"`). (#14990, @mehm8128)</source>
-        <target>NVDA now announces heading, paragraph, list, and list item children inside webpage alerts (`role="alert"`). (#14990, @mehm8128)</target>
+        <target>修复了 NVDA 无法读出网页警告（`role="alert"`）内部的标题、段落、列表和列表项子元素的问题。(#14990, @mehm8128)</target>
       </segment>
     </unit>
     <unit id="d8cd8a4e-2ba0-469d-a884-630a785643ab">
