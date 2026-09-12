@@ -6646,9 +6646,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>New Features</source>
-        <target>New Features</target>
+        <target>新特性</target>
       </segment>
     </unit>
     <unit id="c744dc0e-04eb-4bbe-8ce7-52aeb7262e21">
@@ -6656,9 +6656,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Add-ons can be removed from the "Updatable add-ons" tab in the Add-on Store. (#15030, @nvdaes)</source>
-        <target>Add-ons can be removed from the "Updatable add-ons" tab in the Add-on Store. (#15030, @nvdaes)</target>
+        <target>可从插件商店的“可更新的插件”选项卡中移除插件。(#15030, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="1eb80ecd-b3b7-4c6e-86e5-633808931f11">
@@ -6666,9 +6666,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Chinese text can now be navigated by word using built-in input gestures.</source>
-        <target>Chinese text can now be navigated by word using built-in input gestures.</target>
+        <target>可使用内置快捷键按词浏览中文文本。</target>
       </segment>
     </unit>
     <unit id="890e00b8-d64d-4ffa-8082-f91f846e5fa1">
@@ -6676,9 +6676,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A Word Segmentation Standard setting was added to the "Document Navigation" panel. (#18735, @CrazySteve0605, @Cary-rowen)</source>
-        <target>A Word Segmentation Standard setting was added to the "Document Navigation" panel. (#18735, @CrazySteve0605, @Cary-rowen)</target>
+        <target>在“文档导航”面板中新增了“分词标准”设置。(#18735, @CrazySteve0605, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="9067de88-0f14-4740-95af-011287a8a736">
@@ -6686,9 +6686,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Word segmentation can also use the Windows built-in ICU library for boundary detection, improving navigation for Japanese and emoji. (#20343, #20494, @LeonarddeR)</source>
-        <target>Word segmentation can also use the Windows built-in ICU library for boundary detection, improving navigation for Japanese and emoji. (#20343, #20494, @LeonarddeR)</target>
+        <target>还可使用 Windows 内置的 ICU 库进行词边界检测，从而改善对日语和表情符号的导航。(#20343, #20494, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="3c743a08-d57e-4c4c-ba93-9dec5aaf8ccc">
@@ -6696,9 +6696,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, ICU is preferred over the legacy Windows segmentation wherever available, while Chinese word segmentation takes precedence for Chinese text.</source>
-        <target>By default, ICU is preferred over the legacy Windows segmentation wherever available, while Chinese word segmentation takes precedence for Chinese text.</target>
+        <target>默认情况下，只要可用，ICU 会优先于旧版 Windows 分词；而对于中文文本，中文分词优先。</target>
       </segment>
     </unit>
     <unit id="6f923b97-c5a9-4ab0-ab99-8d948e0d0c5a">
@@ -6706,9 +6706,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Magnifier: A new unassigned command has been added to move the mouse cursor to the center of the magnified view. (#20127, @CyrilleB79)</source>
-        <target>Magnifier: A new unassigned command has been added to move the mouse cursor to the center of the magnified view. (#20127, @CyrilleB79)</target>
+        <target>放大镜：新增了一个未分配的命令，用于将鼠标光标移动到放大视图的中心。(#20127, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="62f2f9bf-e7a7-4fcf-ae1b-d963b92df27a">
@@ -6716,9 +6716,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Added context menu and shortcuts support to the Configuration Profiles, Input Gestures and Speech Dictionaries dialogs. (#18169, #16816, #20420, @amirmahdifard)</source>
-        <target>Added context menu and shortcuts support to the Configuration Profiles, Input Gestures and Speech Dictionaries dialogs. (#18169, #16816, #20420, @amirmahdifard)</target>
+        <target>为配置管理、按键与手势和朗读字典对话框添加了上下文菜单和快捷键支持。(#18169, #16816, #20420, @amirmahdifard)</target>
       </segment>
     </unit>
     <unit id="04c6d600-9be0-417f-8cb8-4c5069e88d43">
@@ -6726,9 +6726,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It is now possible to change an existing gesture in the Input Gestures dialog. (#10983, @amirmahdifard)</source>
-        <target>It is now possible to change an existing gesture in the Input Gestures dialog. (#10983, @amirmahdifard)</target>
+        <target>可在按键与手势对话框中更改现有手势或快捷键。(#10983, @amirmahdifard)</target>
       </segment>
     </unit>
     <unit id="9dea6bd1-c327-4be1-82f3-879400c5dba2">
@@ -6736,9 +6736,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A new "Say all reads by" speech setting lets you choose whether say all reads by sentence, paragraph or line; say all now reads by sentence by default where supported. (#13420, #9179, #13971, @LeonarddeR)</source>
-        <target>A new "Say all reads by" speech setting lets you choose whether say all reads by sentence, paragraph or line; say all now reads by sentence by default where supported. (#13420, #9179, #13971, @LeonarddeR)</target>
+        <target>新增了“全文朗读方式”语音设置允许您选择是按句、按段还是按行进行全文朗读；在支持的情况下，默认将按句进行全文朗读。(#13420, #9179, #13971, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="6843a405-e8c1-4af6-9461-ca7057489f38">
@@ -6746,9 +6746,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A new command, assigned to `NVDA+control+x`, copies the last spoken information to the clipboard. (#19385, @Cary-rowen)</source>
-        <target>A new command, assigned to `NVDA+control+x`, copies the last spoken information to the clipboard. (#19385, @Cary-rowen)</target>
+        <target>新增了将最后朗读的信息复制到剪贴板的命令，默认快捷键 `NVDA+Ctrl+X`。(#19385, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="b0a10885-22d1-45c7-82b7-f935907bcafd">
@@ -6756,9 +6756,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The duration of indentation beeps can now be configured via a new "Indent tone duration (ms)" spin control in the Document Formatting settings panel. (#19353, @Mubashir78)</source>
-        <target>The duration of indentation beeps can now be configured via a new "Indent tone duration (ms)" spin control in the Document Formatting settings panel. (#19353, @Mubashir78)</target>
+        <target>可通过文档格式设置面板中新增的“缩进提示音时长（毫秒）”微调控件来配置缩进提示音的持续时间。(#19353, @Mubashir78)</target>
       </segment>
     </unit>
     <unit id="3970447c-f86e-474c-9e7b-e3138dcc65f2">
@@ -6766,9 +6766,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Sentence navigation (`alt+upArrow` and `alt+downArrow`) now works in many more situations, such as in most browse mode documents and in several edit controls. (#18901, @LeonarddeR)</source>
-        <target>Sentence navigation (`alt+upArrow` and `alt+downArrow`) now works in many more situations, such as in most browse mode documents and in several edit controls. (#18901, @LeonarddeR)</target>
+        <target>句子导航（`Alt+上光标` 和 `Alt+下光标`）在更多情况下可用，例如在大多数浏览模式文档和多个编辑控件中。(#18901, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="92a5f119-a07a-49a5-b4d6-2e72a45cb096">
@@ -6776,9 +6776,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille</source>
-        <target>Braille</target>
+        <target>盲文</target>
       </segment>
     </unit>
     <unit id="5b4cbabd-f63c-459e-aeef-eb1910f8a426">
@@ -6786,9 +6786,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Braille output for Chinese now includes spaces between words. (#18865, @CrazySteve0605, @Cary-rowen)</source>
-        <target>Braille output for Chinese now includes spaces between words. (#18865, @CrazySteve0605, @Cary-rowen)</target>
+        <target>中文盲文输出现在会在词语间添加空格。(#18865, @CrazySteve0605, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="0c94bf47-fafe-49e8-aa33-9e34e7b74dc2">
@@ -6796,9 +6796,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On supported braille displays, pressing multiple routing keys simultaneously can now be bound to a new "multi routing" gesture. (#20001, @LeonarddeR)</source>
-        <target>On supported braille displays, pressing multiple routing keys simultaneously can now be bound to a new "multi routing" gesture. (#20001, @LeonarddeR)</target>
+        <target>在受支持的点显器上，同时按下多个定位盲文单元按键现在可以触发新的多重定位手势。(#20001, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="18de3986-b674-461a-88d0-bc7665d69e6e">
@@ -6806,9 +6806,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The "select range" command, which selects the text from the first up to the last pressed routing key, is bound to this gesture by default on supporting drivers.</source>
-        <target>The "select range" command, which selects the text from the first up to the last pressed routing key, is bound to this gesture by default on supporting drivers.</target>
+        <target>“选择范围”命令会选中从按下的第一个定位键到按下的最后一个定位键之间的文本，在支持的驱动上默认绑定到此手势。</target>
       </segment>
     </unit>
     <unit id="79f036b9-7919-4d3a-9935-bb0a3403b69e">
@@ -6816,9 +6816,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Drivers with built-in support for multi routing: ALVA, Albatross (only when combined with `home1` or `home2`), Baum (and compatible), Freedom Scientific Focus/PAC Mate, HumanWare Brailliant BI/B series, Handy Tech, NLS eReader Zoomax, Seika Notetaker, and Standard HID Braille displays.</source>
-        <target>Drivers with built-in support for multi routing: ALVA, Albatross (only when combined with `home1` or `home2`), Baum (and compatible), Freedom Scientific Focus/PAC Mate, HumanWare Brailliant BI/B series, Handy Tech, NLS eReader Zoomax, Seika Notetaker, and Standard HID Braille displays.</target>
+        <target>内置支持多重定位的驱动：ALVA、Albatross（仅当与 `home1` 或 `home2` 组合使用时）、Baum（及兼容设备）、Freedom Scientific Focus/PAC Mate、HumanWare Brailliant BI/B 系列、Handy Tech、NLS eReader Zoomax、Seika Notetaker 以及标准 HID 点显器。</target>
       </segment>
     </unit>
     <unit id="251e4e8f-3e51-4fc8-841a-b41ef767269e">
@@ -6826,9 +6826,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Support for the myBraille family of Help Tech Braille displays has been added. (#20426)</source>
-        <target>Support for the myBraille family of Help Tech Braille displays has been added. (#20426)</target>
+        <target>添加了对 myBraille 系列 Help Tech 点显器的支持。(#20426)</target>
       </segment>
     </unit>
     <unit id="4127d524-7424-4ed7-b507-f543d63f18e3">
@@ -6836,9 +6836,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The braille "word wrap" option has been replaced with a four-valued "Text wrap" option: Off, Show mark when words are cut, At word boundaries, and At word or syllable boundaries. (#17010, @LeonarddeR)</source>
-        <target>The braille "word wrap" option has been replaced with a four-valued "Text wrap" option: Off, Show mark when words are cut, At word boundaries, and At word or syllable boundaries. (#17010, @LeonarddeR)</target>
+        <target>盲文“若可能，尽量避免拆分单词”选项已替换为四个值的“自动换行”选项：关闭、截断单词时显示标记、单词边界处、单词或音节边界处。(#17010, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="a7732dbc-5998-4f9c-bac2-afdb6a513660">
@@ -6846,9 +6846,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In modes that show a continuation mark, when a word is cut across rows, the last cell of the row now shows a continuation mark (braille dots 7-8) so it is clear that the word continues on the next row.</source>
-        <target>In modes that show a continuation mark, when a word is cut across rows, the last cell of the row now shows a continuation mark (braille dots 7-8) so it is clear that the word continues on the next row.</target>
+        <target>在显示续行标记的模式下，当一个单词被跨行截断时，该行的最后一个单元格现在会显示续行标记（7、8 点），以便清楚表明该单词在下一行继续。</target>
       </segment>
     </unit>
     <unit id="34012521-126d-495a-b571-f24c016cec33">
@@ -6856,9 +6856,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The "At word or syllable boundaries" option uses hyphenation dictionaries to split long words at syllable boundaries when they do not fit on the display.</source>
-        <target>The "At word or syllable boundaries" option uses hyphenation dictionaries to split long words at syllable boundaries when they do not fit on the display.</target>
+        <target>“单词或音节边界处”选项在长单词无法完整显示时使用断词词典按音节边界进行拆分。</target>
       </segment>
     </unit>
     <unit id="9a8a6d46-9328-4213-a26f-27cd9b399ef9">
@@ -6866,9 +6866,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Touch screen input</source>
-        <target>Touch screen input</target>
+        <target>触摸屏输入</target>
       </segment>
     </unit>
     <unit id="214f28ed-ad29-404c-85e6-a029ef8e8fa9">
@@ -6876,9 +6876,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Added sequential two-flick touch gestures that combine two flicks performed in quick succession into a single gesture, increasing the number of touch gestures that can be bound to scripts. (#19938, @kefaslungu)</source>
-        <target>Added sequential two-flick touch gestures that combine two flicks performed in quick succession into a single gesture, increasing the number of touch gestures that can be bound to scripts. (#19938, @kefaslungu)</target>
+        <target>添加了连续两次滑动手势，将快速连续进行的两次滑动合并为单个手势，增加了可分配给脚本的触摸手势数量。(#19938, @kefaslungu)</target>
       </segment>
     </unit>
     <unit id="786d4d45-bf97-4f00-be7e-603f79c66680">
@@ -6886,9 +6886,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Twelve combinations are recognised: opposite-direction pairs (e.g. flick right then flick left) and perpendicular L-shaped pairs (e.g. flick right then flick up).</source>
-        <target>Twelve combinations are recognised: opposite-direction pairs (e.g. flick right then flick left) and perpendicular L-shaped pairs (e.g. flick right then flick up).</target>
+        <target>可识别十二种组合：相反方向组合（如先向右再向左滑动）和垂直 L 形组合（如先向右再向上滑动）。</target>
       </segment>
     </unit>
     <unit id="b9001a67-f47f-4daa-a924-2ab65288a2a0">
@@ -6896,9 +6896,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The two flicks can be performed either by lifting the finger between strokes or as a single continuous swipe with a sharp change in direction.</source>
-        <target>The two flicks can be performed either by lifting the finger between strokes or as a single continuous swipe with a sharp change in direction.</target>
+        <target>两次滑动既可在两划之间抬起手指来完成，也可作为一次方向急剧变化的连续滑动来完成。</target>
       </segment>
     </unit>
     <unit id="57a6fc22-433e-44d0-b287-6379cd84c841">
@@ -6906,9 +6906,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Added edge gesture support for touch screens, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the centre of the screen. (#19938, @kefaslungu)</source>
-        <target>Added edge gesture support for touch screens, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the centre of the screen. (#19938, @kefaslungu)</target>
+        <target>添加了边缘手势支持，允许将在屏幕任意边缘 15 毫米范围内的手势与在屏幕中央执行的同一手势分别绑定。(#19938, @kefaslungu)</target>
       </segment>
     </unit>
     <unit id="9cd26474-d066-43f9-aaa7-a43da27116e3">
@@ -6916,9 +6916,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Edge gestures are disabled by default and can be enabled in the Touch Interaction settings panel.</source>
-        <target>Edge gestures are disabled by default and can be enabled in the Touch Interaction settings panel.</target>
+        <target>边缘手势默认禁用，可在触控屏交互设置面板中启用。</target>
       </segment>
     </unit>
     <unit id="6c3b3ee8-5172-4f0f-a96a-cd6eecf61bb7">
@@ -6926,27 +6926,27 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>All four edges are supported.</source>
-        <target>All four edges are supported.</target>
+        <target>支持全部四个边缘。</target>
       </segment>
     </unit>
     <unit id="361dbdcf-adc2-4e40-a923-c69f787b690f">
       <notes>
         <note appliesTo="source">line: 62</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  Note that the Windows taskbar may override gestures on an edge.</source>
-        <target>  Note that the Windows taskbar may override gestures on an edge.</target>
+        <target>  请注意，Windows 任务栏可能会覆盖某个边缘的手势。</target>
       </segment>
     </unit>
     <unit id="65f4d95d-d641-49a7-8aaf-d163472db736">
       <notes>
         <note appliesTo="source">line: 63</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  Gestures from the taskbar edge open the Start menu or Action Center, NVDA will not receive them.</source>
-        <target>  Gestures from the taskbar edge open the Start menu or Action Center, NVDA will not receive them.</target>
+        <target>  来自任务栏边缘的手势会打开开始菜单或操作中心，NVDA 无法接收这些手势。</target>
       </segment>
     </unit>
     <unit id="410ad813-0db8-4048-964a-cf6fa3753766">
@@ -6954,9 +6954,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Browse mode</source>
-        <target>Browse mode</target>
+        <target>浏览模式</target>
       </segment>
     </unit>
     <unit id="2d2a5c01-7e4b-4a08-a777-423999a5dfac">
@@ -6964,9 +6964,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Added an unassigned Quick Navigation Command for jumping to next/previous clickable element in browse mode. (#14429, @cary-rowen)</source>
-        <target>Added an unassigned Quick Navigation Command for jumping to next/previous clickable element in browse mode. (#14429, @cary-rowen)</target>
+        <target>添加了一个未分配的单键导航命令，用于在浏览模式下跳转到下一个/上一个可点击元素。(#14429, @cary-rowen)</target>
       </segment>
     </unit>
     <unit id="01ea6a28-666f-4563-9e08-d64bca20ed53">
@@ -6974,9 +6974,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Added a "Native selection mode" option to NVDA's Browse Mode settings, disabled by default. (#15908)</source>
-        <target>Added a "Native selection mode" option to NVDA's Browse Mode settings, disabled by default. (#15908)</target>
+        <target>在浏览模式设置中添加了“应用原生选择”选项，默认禁用。(#15908)</target>
       </segment>
     </unit>
     <unit id="7ae983e9-1bdd-476b-b6ad-4bfc728b21c4">
@@ -6984,9 +6984,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When enabled, native selection mode is automatically turned on in browse mode documents which support it, such as in Mozilla Firefox and browsers based on Chromium 134 or newer.</source>
-        <target>When enabled, native selection mode is automatically turned on in browse mode documents which support it, such as in Mozilla Firefox and browsers based on Chromium 134 or newer.</target>
+        <target>启用后，在支持该功能的浏览模式文档中（例如 Mozilla Firefox 和基于 Chromium 134 或更高版本的浏览器），会自动启用应用原生选择。</target>
       </segment>
     </unit>
     <unit id="41271a2c-39ff-4dba-9c04-4fa8e377964f">
@@ -6994,9 +6994,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Native selection mode can still be toggled per document with `NVDA+shift+f10`.</source>
-        <target>Native selection mode can still be toggled per document with `NVDA+shift+f10`.</target>
+        <target>仍可使用 `NVDA+Shift+F10` 按文档切换应用原生选择。</target>
       </segment>
     </unit>
     <unit id="53022a91-bd53-4bba-a326-feb332933118">
@@ -7004,9 +7004,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When navigating math on the web, Visual Highlight now follows the current subpart of the expression using the browse mode cursor highlighter. (#19191, @RyanMcCleary)</source>
-        <target>When navigating math on the web, Visual Highlight now follows the current subpart of the expression using the browse mode cursor highlighter. (#19191, @RyanMcCleary)</target>
+        <target>在网页上导航数学内容时，视觉高亮功能会使用浏览模式光标高亮指示器跟随表达式的当前部分。(#19191, @RyanMcCleary)</target>
       </segment>
     </unit>
     <unit id="5583fc6f-1535-4b42-90ad-e1ba757adb8e">
@@ -7014,9 +7014,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Find dialog in browse mode can now remember previously searched terms in a search history combo box, which can be turned off via a new "Keep search history" browse mode setting. (#8482, @marlon-sousa, @LeonarddeR)</source>
-        <target>The Find dialog in browse mode can now remember previously searched terms in a search history combo box, which can be turned off via a new "Keep search history" browse mode setting. (#8482, @marlon-sousa, @LeonarddeR)</target>
+        <target>浏览模式中的“查找”对话框会记住之前搜索过的词条，可通过新增的“保留搜索历史记录”浏览模式设置将其关闭。(#8482, @marlon-sousa, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="251fe4ca-6acb-483c-a12a-28f340753c5b">
