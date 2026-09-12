@@ -6492,7 +6492,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>2026.3</source>
         <target>2026.3</target>
       </segment>
@@ -6501,144 +6501,144 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This release includes significant performance improvements, improvements to NVDA's dialogs, and expanded touch screen input.</source>
-        <target>This release includes significant performance improvements, improvements to NVDA's dialogs, and expanded touch screen input.</target>
+        <target>此版本包含显著的性能改进、NVDA 对话框的改进以及扩展的触摸屏输入。</target>
       </segment>
     </unit>
     <unit id="f0e2d13e-773a-491f-b5c8-343d03ed99ce">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Several performance improvements have been made to reduce lag and improve responsiveness.</source>
-        <target>Several performance improvements have been made to reduce lag and improve responsiveness.</target>
+        <target>为减少延迟并提高响应速度，已进行多项性能改进。</target>
       </segment>
     </unit>
     <unit id="adce0405-1565-4652-a883-6f7b7d5526d6">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now fetches and caches more information about controls in the background, improving performance in controls such as combo boxes and File Explorer.</source>
-        <target>NVDA now fetches and caches more information about controls in the background, improving performance in controls such as combo boxes and File Explorer.</target>
+        <target>现会在后台获取并缓存更多关于控件的信息，从而改善组合框和文件资源管理器等控件的性能。</target>
       </segment>
     </unit>
     <unit id="4efe35f5-9864-433a-a345-545badea3660">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA no longer causes File Explorer or other applications to crash when NVDA is exited or restarted.</source>
-        <target>NVDA no longer causes File Explorer or other applications to crash when NVDA is exited or restarted.</target>
+        <target>NVDA 在退出或重启时不再导致文件资源管理器或其他应用程序崩溃。</target>
       </segment>
     </unit>
     <unit id="c0f43226-5250-4fc1-a15d-adf52a4abc18">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now recovers more quickly when an application stops responding, and will no longer freeze or flood the log with errors from unresponsive applications.</source>
-        <target>NVDA now recovers more quickly when an application stops responding, and will no longer freeze or flood the log with errors from unresponsive applications.</target>
+        <target>当应用程序停止响应时，NVDA 会更快地恢复，并且不再因无响应的应用程序而冻结或将大量错误信息刷入日志。</target>
       </segment>
     </unit>
     <unit id="cd779c74-82ee-4db2-8f2e-88a3bec00326">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In live text regions, such as terminals, NVDA no longer freezes when substantial amounts of text are dumped to the screen.</source>
-        <target>In live text regions, such as terminals, NVDA no longer freezes when substantial amounts of text are dumped to the screen.</target>
+        <target>在实时文本区域（如终端）中，当大量文本输出到屏幕上时，NVDA 不再冻结。</target>
       </segment>
     </unit>
     <unit id="9faf4a8e-2397-4974-b0fe-25a65d7ff3ae">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Context menus and keyboard shortcuts have been added to the Configuration Profiles, Input Gestures, and Speech Dictionaries dialogs, making these dialogs easier to use with the keyboard.</source>
-        <target>Context menus and keyboard shortcuts have been added to the Configuration Profiles, Input Gestures, and Speech Dictionaries dialogs, making these dialogs easier to use with the keyboard.</target>
+        <target>配置管理、按键与手势和朗读字典对话框已添加上下文菜单和键盘快捷键，使其更易于使用键盘操作。</target>
       </segment>
     </unit>
     <unit id="20ee1613-1f5a-4df4-bd87-c445f8466d18">
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>It is also now possible to change an existing gesture directly in the Input Gestures dialog.</source>
-        <target>It is also now possible to change an existing gesture directly in the Input Gestures dialog.</target>
+        <target>还可直接在按键与手势对话框更改现有手势或快捷键。</target>
       </segment>
     </unit>
     <unit id="cf23c8c2-8351-425d-8325-3bdf2e212a7f">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The dialog used to present browseable messages has been modernized and now better supports resizing, maximizing, and minimizing.</source>
-        <target>The dialog used to present browseable messages has been modernized and now better supports resizing, maximizing, and minimizing.</target>
+        <target>用于呈现浏览模式消息的对话框已现代化，更好地支持调整大小、最大化和最小化。</target>
       </segment>
     </unit>
     <unit id="80d56177-a017-4f30-ace2-bc615c490ad8">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Touch screen input has been significantly expanded.</source>
-        <target>Touch screen input has been significantly expanded.</target>
+        <target>触摸屏输入已得到显著扩展。</target>
       </segment>
     </unit>
     <unit id="7d81078f-8528-48c7-8de4-b2c5870f7824">
       <notes>
         <note appliesTo="source">line: 19</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Sequential two-flick gestures now combine two flicks in quick succession into a single gesture, greatly increasing the number of bindable touch gestures.</source>
-        <target>Sequential two-flick gestures now combine two flicks in quick succession into a single gesture, greatly increasing the number of bindable touch gestures.</target>
+        <target>现会将快速连续进行的两次滑动手势合并为单个手势，大大增加了可绑定触摸手势的数量。</target>
       </segment>
     </unit>
     <unit id="cd2be34b-bb1f-42e1-8639-e6527ee0b9ec">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Edge gestures are also now supported, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the center of the screen.</source>
-        <target>Edge gestures are also now supported, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the center of the screen.</target>
+        <target>还支持边缘手势，允许将起始于屏幕任意边缘 15 毫米范围内的手势与在屏幕中央执行的同一手势分别绑定。</target>
       </segment>
     </unit>
     <unit id="b60dd8be-4633-4cbb-b02b-cf26d56aa266">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>A new unassigned command has been added to move the mouse cursor to the center of the magnified view.</source>
-        <target>A new unassigned command has been added to move the mouse cursor to the center of the magnified view.</target>
+        <target>新增了将鼠标光标移动到放大视图中心的未分配命令。</target>
       </segment>
     </unit>
     <unit id="be6f6e58-2fee-4525-9afa-5d511eefb3b9">
       <notes>
         <note appliesTo="source">line: 23</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Windows OCR can now be used while the Screen Curtain or NVDA's built-in Magnifier is active.</source>
-        <target>Windows OCR can now be used while the Screen Curtain or NVDA's built-in Magnifier is active.</target>
+        <target>可在开启黑屏或 NVDA 内置放大镜时使用 Windows OCR。</target>
       </segment>
     </unit>
     <unit id="fdd3c024-da4d-4e05-a803-934533874ce2">
       <notes>
         <note appliesTo="source">line: 25</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Liblouis has been updated with new Elfdalian, Sami, Maori, New Zealand Unified English Braille, and Haitian Creole braille tables, a Norwegian table for Spanish text, and additional Swedish 6 and 8 dot variants.</source>
-        <target>Liblouis has been updated with new Elfdalian, Sami, Maori, New Zealand Unified English Braille, and Haitian Creole braille tables, a Norwegian table for Spanish text, and additional Swedish 6 and 8 dot variants.</target>
+        <target>Liblouis 已更新，新增了埃尔夫达利安语、萨米语、毛利语、新西兰统一英语盲文和海地克里奥尔语盲文表，一个用于西班牙语文本的挪威语盲文表，以及额外的瑞典语六点和八点盲文。</target>
       </segment>
     </unit>
     <unit id="f28f7e08-ce4d-42f1-a8e4-fb379db43d8f">
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>eSpeak NG has been updated with added support for Ligurian and Abkhaz.</source>
-        <target>eSpeak NG has been updated with added support for Ligurian and Abkhaz.</target>
+        <target>还更新了 eSpeak NG，新增了对利古里亚语和阿布哈兹语的支持。</target>
       </segment>
     </unit>
     <unit id="318cd8bd-a6a9-41c4-acba-a070f1db104f">
