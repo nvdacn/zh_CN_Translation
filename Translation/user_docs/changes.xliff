@@ -6521,7 +6521,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA now fetches and caches more information about controls in the background, improving performance in controls such as combo boxes and File Explorer.</source>
-        <target>现会在后台获取并缓存更多关于控件的信息，从而改善组合框和文件资源管理器等控件的性能。</target>
+        <target>通过在后台获取并缓存更多关于控件的信息，从而改善了组合框和文件资源管理器等控件的性能。</target>
       </segment>
     </unit>
     <unit id="4efe35f5-9864-433a-a345-545badea3660">
@@ -6539,7 +6539,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA now recovers more quickly when an application stops responding, and will no longer freeze or flood the log with errors from unresponsive applications.</source>
-        <target>当应用程序停止响应时，NVDA 会更快地恢复，并且不再因无响应的应用程序而冻结或将大量错误信息刷入日志。</target>
+        <target>当应用程序停止响应时，NVDA 会更快地恢复，并且不再因无响应的应用程序而冻结或将大量错误信息写入日志。</target>
       </segment>
     </unit>
     <unit id="cd779c74-82ee-4db2-8f2e-88a3bec00326">
@@ -6548,7 +6548,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In live text regions, such as terminals, NVDA no longer freezes when substantial amounts of text are dumped to the screen.</source>
-        <target>在实时文本区域（如终端）中，当大量文本输出到屏幕上时，NVDA 不再冻结。</target>
+        <target>在实时文本区域（如终端）中，当大量文本输出到屏幕时，NVDA 不再冻结。</target>
       </segment>
     </unit>
     <unit id="9faf4a8e-2397-4974-b0fe-25a65d7ff3ae">
@@ -6593,7 +6593,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Sequential two-flick gestures now combine two flicks in quick succession into a single gesture, greatly increasing the number of bindable touch gestures.</source>
-        <target>现会将快速连续进行的两次滑动手势合并为单个手势，大大增加了可绑定触摸手势的数量。</target>
+        <target>添加了连续两次滑动手势，现会将快速连续进行的两次滑动手势合并为单个手势，大大增加了可分配的触摸手势数量。</target>
       </segment>
     </unit>
     <unit id="cd2be34b-bb1f-42e1-8639-e6527ee0b9ec">
@@ -6602,7 +6602,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Edge gestures are also now supported, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the center of the screen.</source>
-        <target>还支持边缘手势，允许将起始于屏幕任意边缘 15 毫米范围内的手势与在屏幕中央执行的同一手势分别绑定。</target>
+        <target>还支持边缘手势，允许将起始于屏幕任意边缘 15 毫米范围内的手势与在屏幕中央执行的同一手势分配不同的命令。</target>
       </segment>
     </unit>
     <unit id="b60dd8be-4633-4cbb-b02b-cf26d56aa266">
@@ -6838,7 +6838,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>The braille "word wrap" option has been replaced with a four-valued "Text wrap" option: Off, Show mark when words are cut, At word boundaries, and At word or syllable boundaries. (#17010, @LeonarddeR)</source>
-        <target>盲文“若可能，尽量避免拆分单词”选项已替换为四个值的“自动换行”选项：关闭、截断单词时显示标记、单词边界处、单词或音节边界处。(#17010, @LeonarddeR)</target>
+        <target>“若可能，尽量避免拆分单词”盲文选项已替换为四个值的“自动换行”选项：关闭、截断单词时显示标记、单词边界处、单词或音节边界处。(#17010, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="a7732dbc-5998-4f9c-bac2-afdb6a513660">
@@ -6908,7 +6908,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Added edge gesture support for touch screens, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the centre of the screen. (#19938, @kefaslungu)</source>
-        <target>添加了边缘手势支持，允许将在屏幕任意边缘 15 毫米范围内的手势与在屏幕中央执行的同一手势分别绑定。(#19938, @kefaslungu)</target>
+        <target>添加了边缘手势支持，允许为在屏幕任意边缘 15 毫米范围内的手势与在屏幕中央执行的同一手势分配不同的命令。(#19938, @kefaslungu)</target>
       </segment>
     </unit>
     <unit id="9cd26474-d066-43f9-aaa7-a43da27116e3">
@@ -7106,7 +7106,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Browseable message dialogs now better support resizing, maximizing and minimizing, with text wrapping to the dialog width. (#20429, @Cary-rowen)</source>
-        <target>该对话框现更好地支持调整大小、最大化和最小化，文本会按对话框宽度自动换行。(#20429, @Cary-rowen)</target>
+        <target>该对话框更好地支持了调整大小、最大化和最小化，文本会按对话框宽度自动换行。(#20429, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="b3093759-dd3c-4d04-ad47-a64849aaff3b">
@@ -7315,7 +7315,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>NVDA should no longer cause File Explorer or other applications to crash when NVDA is exited or restarted. (#16207)</source>
-        <target>* 修复了退出或重启 NVDA 时会导致文件资源管理器或其他应用程序崩溃的问题。(#16207)</target>
+        <target>修复了退出或重启 NVDA 时会导致文件资源管理器或其他应用程序崩溃的问题。(#16207)</target>
       </segment>
     </unit>
     <unit id="d4a07f72-4227-482b-bb24-855155bb0304">
@@ -7494,7 +7494,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Mozilla Firefox, reporting annotation details now works correctly in focus mode on controls which are not editable text. (#20208, @jcsteh)</source>
-        <target>修复了在 Mozilla Firefox 的焦点模式下无法正常朗读不可编辑文本控件注释详细信息的问题。(#20208, @jcsteh)</target>
+        <target>修复了在 Mozilla Firefox 的焦点模式下无法正常朗读非可编辑文本控件详细信息摘要的问题。(#20208, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="1b3326d7-c061-4fc1-8c5d-bc6e8816d025">
@@ -7563,7 +7563,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>In Windows Terminal, mouse tracking now reports the line of text under the mouse pointer. (#20448, @DataTriny)</source>
-        <target>修复了在 Windows  终端中，鼠标跟踪无法读出鼠标指针所在行文本的问题。(#20448, @DataTriny)</target>
+        <target>修复了鼠标跟踪无法在 Windows  终端读出鼠标指针所在行文本的问题。(#20448, @DataTriny)</target>
       </segment>
     </unit>
     <unit id="1f931e8f-2e83-4210-9806-9c01f3a35edc">
