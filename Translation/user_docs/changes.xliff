@@ -7482,9 +7482,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 129</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA should no longer fail to navigate tables, read editable text fields or enable native app selection mode in Web browsers after a random period of time. (#16020)</source>
-        <target>NVDA should no longer fail to navigate tables, read editable text fields or enable native app selection mode in Web browsers after a random period of time. (#16020)</target>
+        <target>修复了 NVDA 在随机一段时间后无法在浏览器中导航表格、朗读可编辑文本字段或启用应用原生选择的问题。(#16020)</target>
       </segment>
     </unit>
     <unit id="d90350d2-8661-4a70-95bd-4b23e43675c3">
@@ -7492,9 +7492,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 130</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Mozilla Firefox, reporting annotation details now works correctly in focus mode on controls which are not editable text. (#20208, @jcsteh)</source>
-        <target>In Mozilla Firefox, reporting annotation details now works correctly in focus mode on controls which are not editable text. (#20208, @jcsteh)</target>
+        <target>修复了在 Mozilla Firefox 的焦点模式下无法正常朗读不可编辑文本控件注释详细信息的问题。(#20208, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="1b3326d7-c061-4fc1-8c5d-bc6e8816d025">
@@ -7502,9 +7502,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 131</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Mozilla Firefox and Chromium based browsers with native selection mode enabled, the caret no longer gets stuck when switching to focus mode, and typing in edit fields works again. (#19075, #18028, @LeonarddeR)</source>
-        <target>In Mozilla Firefox and Chromium based browsers with native selection mode enabled, the caret no longer gets stuck when switching to focus mode, and typing in edit fields works again. (#19075, #18028, @LeonarddeR)</target>
+        <target>修复了在 Mozilla Firefox 和基于 Chromium 的浏览器中启用应用原生选择时，切换到焦点模式后光标卡住，编辑字段中无法再次输入的问题。(#19075, #18028, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="cc944143-5881-4f0c-9e6c-e9ca5c77421e">
@@ -7512,9 +7512,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 133</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Terminals</source>
-        <target>Terminals</target>
+        <target>终端</target>
       </segment>
     </unit>
     <unit id="bc7ca61e-e849-4b19-a6ff-f84147e19fc6">
@@ -7522,9 +7522,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 135</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In live text regions, such as terminals, NVDA no longer freezes when substantial amounts of text are dumped to the screen. (#20177, #20649, @ethindp, @codeofdusk)</source>
-        <target>In live text regions, such as terminals, NVDA no longer freezes when substantial amounts of text are dumped to the screen. (#20177, #20649, @ethindp, @codeofdusk)</target>
+        <target>修复了在实时文本区域（如终端）中，当大量文本输出到屏幕时 NVDA 冻结的问题。(#20177, #20649, @ethindp, @codeofdusk)</target>
       </segment>
     </unit>
     <unit id="3c1839d1-c67e-4dd9-b2ae-666d53179a7d">
@@ -7532,18 +7532,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 136</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, when lines are skipped in a large text flood, NVDA emits a beep proportional to the length of the skipped material.</source>
-        <target>By default, when lines are skipped in a large text flood, NVDA emits a beep proportional to the length of the skipped material.</target>
+        <target>默认情况下，当因输出大量文本而跳过某些行时，NVDA 会发出与跳过内容长度成比例的提示音。</target>
       </segment>
     </unit>
     <unit id="f4b223a9-8ffe-4e08-96a4-65c51ef5011c">
       <notes>
         <note appliesTo="source">line: 137</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  This can be disabled in the Advanced settings panel.</source>
-        <target>  This can be disabled in the Advanced settings panel.</target>
+        <target>  可在高级设置面板中禁用此功能。</target>
       </segment>
     </unit>
     <unit id="18d32f92-31e1-46b3-87ba-3ea88b40ff0b">
@@ -7551,9 +7551,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 138</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Windows Terminal, NVDA is less likely to report stale characters when moving the caret in delayed remote sessions such as SSH. (#19503, @sheldon-im)</source>
-        <target>In Windows Terminal, NVDA is less likely to report stale characters when moving the caret in delayed remote sessions such as SSH. (#19503, @sheldon-im)</target>
+        <target>修复了在 Windows 终端中的延迟远程会话（如 SSH）中移动光标时，NVDA 容易朗读过时字符的问题。(#19503, @sheldon-im)</target>
       </segment>
     </unit>
     <unit id="e12e8f49-4727-492a-ad7d-82bd7944ec59">
@@ -7561,9 +7561,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 139</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Windows Terminal, mouse tracking now reports the line of text under the mouse pointer. (#20448, @DataTriny)</source>
-        <target>In Windows Terminal, mouse tracking now reports the line of text under the mouse pointer. (#20448, @DataTriny)</target>
+        <target>修复了在 Windows  终端中，鼠标跟踪无法读出鼠标指针所在行文本的问题。(#20448, @DataTriny)</target>
       </segment>
     </unit>
     <unit id="1f931e8f-2e83-4210-9806-9c01f3a35edc">
@@ -7571,9 +7571,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 141</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Add-on Store</source>
-        <target>Add-on Store</target>
+        <target>插件商店</target>
       </segment>
     </unit>
     <unit id="b32d7b69-b451-485f-91f1-29569e0340e7">
@@ -7581,9 +7581,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 143</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The Add-on Store no longer becomes unresponsive when navigating the list of add-ons quickly, such as by holding down an arrow key. (#17351, @christopherpross)</source>
-        <target>The Add-on Store no longer becomes unresponsive when navigating the list of add-ons quickly, such as by holding down an arrow key. (#17351, @christopherpross)</target>
+        <target>修复了快速浏览插件列表（例如按住光标键）时，插件商店会无响应的问题。(#17351, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="c368e9ef-0ea5-40c1-9089-275e44525e5b">
@@ -7591,9 +7591,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 144</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now restarts reliably when requested after installing an add-on package from File Explorer. (#17925, @cary-rowen)</source>
-        <target>NVDA now restarts reliably when requested after installing an add-on package from File Explorer. (#17925, @cary-rowen)</target>
+        <target>修复了从文件资源管理器安装插件后，请求重启 NVDA 时无法可靠重启的问题。(#17925, @cary-rowen)</target>
       </segment>
     </unit>
     <unit id="da7d0370-c2fd-45b7-9f32-33d0bb62892e">
@@ -7601,9 +7601,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 145</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The actions button can now be used when selecting multiple add-ons in the Add-on Store to perform batch actions, instead of just via the context menu in the add-ons list. (#19971, @amirmahdifard)</source>
-        <target>The actions button can now be used when selecting multiple add-ons in the Add-on Store to perform batch actions, instead of just via the context menu in the add-ons list. (#19971, @amirmahdifard)</target>
+        <target>修复了在插件商店中选择多个插件时，无法使用操作按钮执行批量操作，只能通过插件列表的上下文菜单执行的问题。(#19971, @amirmahdifard)</target>
       </segment>
     </unit>
     <unit id="57e6033f-ea2d-45d2-925d-4c5352350090">
@@ -7611,18 +7611,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 146</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updating an add-on no longer leaves modules of the old version loaded.</source>
-        <target>Updating an add-on no longer leaves modules of the old version loaded.</target>
+        <target>修复了更新插件后旧版本模块仍被加载的问题。</target>
       </segment>
     </unit>
     <unit id="85299ca2-af25-4a3e-b6a4-527ff28b53b2">
       <notes>
         <note appliesTo="source">line: 147</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This could cause errors in the updated add-on on the first start of NVDA after the update. (#18971, @LeonarddeR)</source>
-        <target>This could cause errors in the updated add-on on the first start of NVDA after the update. (#18971, @LeonarddeR)</target>
+        <target>这可能导致更新后的插件在更新后首次启动 NVDA 时出错。(#18971, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="11b45adc-7908-4cba-9c26-529b8bc8ca63">
@@ -7630,9 +7630,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 148</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In Chromium based browsers, NVDA no longer reports invalid math formatting for ARIA `role="math"` elements with an author-provided accessible name and no MathML. (#20727, @cary-rowen)</source>
-        <target>In Chromium based browsers, NVDA no longer reports invalid math formatting for ARIA `role="math"` elements with an author-provided accessible name and no MathML. (#20727, @cary-rowen)</target>
+        <target>修复了在基于 Chromium 的浏览器中，对于带有作者提供的可访问名称且没有 MathML 的 ARIA `role="math"` 元素，NVDA 会朗读无效数学格式的问题。(#20727, @cary-rowen)</target>
       </segment>
     </unit>
     <unit id="241d703e-0e2e-4b76-bea6-7516629410bc">
