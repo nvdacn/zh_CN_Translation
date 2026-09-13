@@ -8087,9 +8087,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 205</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>From within any NVDA dialog, press `f1` to open the User Guide to the topic on the current control.</source>
-        <target>From within any NVDA dialog, press `f1` to open the User Guide to the topic on the current control.</target>
+        <target>在 NVDA 的任意对话框中，可按 `F1` 键打开当前控件主题的用户指南。</target>
       </segment>
     </unit>
     <unit id="e6e23bc7-8c74-4127-b4e6-74478e82ba5c">
@@ -8430,9 +8430,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Copy last spoken information | `NVDA+control+x` | `NVDA+control+x` | Copies the last information spoken by NVDA to the clipboard </source>
-        <target> Copy last spoken information | `NVDA+control+x` | `NVDA+control+x` | Copies the last information spoken by NVDA to the clipboard </target>
+        <target> 复制最后朗读的信息 | `NVDA+Ctrl+X` | `NVDA+Ctrl+X` | 将 NVDA 最后朗读的内容复制到剪贴板 </target>
       </segment>
     </unit>
     <unit id="dc126fc4-503c-4e99-a501-cb2817d26b60">
@@ -9388,9 +9388,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 378</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If the add-on is disabled, the action will instead be labelled "Update (and enable)", as add-ons must be enabled to be installed; updating a disabled add-on re-enables it.</source>
-        <target>If the add-on is disabled, the action will instead be labelled "Update (and enable)", as add-ons must be enabled to be installed; updating a disabled add-on re-enables it.</target>
+        <target>如果该插件已被禁用，则该操作将显示为“更新并启用”，因为插件必须先启用才能安装；更新已禁用的插件会将其重新启用。</target>
       </segment>
     </unit>
     <unit id="1318394c-807b-43b5-b039-4fc7b06acd30">
@@ -9527,9 +9527,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 399</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>From within any NVDA dialog, press `f1` to open the User Guide to the topic on the current control.</source>
-        <target>From within any NVDA dialog, press `f1` to open the User Guide to the topic on the current control.</target>
+        <target>在 NVDA 的任意对话框中，可按 `F1` 键打开当前控件主题的用户指南。</target>
       </segment>
     </unit>
     <unit id="66650ab1-b49d-4742-832b-545a9dc3227f">
@@ -10261,9 +10261,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 509</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA ignores touch input (gestures are passed through).</source>
-        <target>NVDA ignores touch input (gestures are passed through).</target>
+        <target>NVDA 会忽略触摸输入（手势操作会被直接传递）。</target>
       </segment>
     </unit>
     <unit id="e595b705-01ac-4dad-95f3-65541f8d43f3">
@@ -10271,9 +10271,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 510</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mouse and touch input will not work correctly with the NVDA magnifier enabled (i.e. inaccurate input).</source>
-        <target>Mouse and touch input will not work correctly with the NVDA magnifier enabled (i.e. inaccurate input).</target>
+        <target>在开启 NVDA 放大镜时，鼠标和触摸输入将无法正常工作（即输入不准确）。</target>
       </segment>
     </unit>
     <unit id="fec543b9-d54e-4c7b-8d28-8a0d5f583062">
@@ -10967,36 +10967,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SequentialFlicks}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Sequential Flicks</source>
-        <target>Sequential Flicks</target>
+        <target>连续滑动</target>
       </segment>
     </unit>
     <unit id="2c4b6de8-0650-4576-b097-c258330fb21a">
       <notes>
         <note appliesTo="source">line: 625</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can perform two flicks in quick succession to trigger a sequential flick gesture.</source>
-        <target>You can perform two flicks in quick succession to trigger a sequential flick gesture.</target>
+        <target>您可快速连续执行两次滑动，以触发连续滑动手势。</target>
       </segment>
     </unit>
     <unit id="7cc4a858-4adb-4640-acf7-1835569a3e3d">
       <notes>
         <note appliesTo="source">line: 626</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This greatly expands the number of touch gestures that can be assigned to NVDA commands.</source>
-        <target>This greatly expands the number of touch gestures that can be assigned to NVDA commands.</target>
+        <target>这大大增加了可分配给 NVDA 命令的触摸手势数量。</target>
       </segment>
     </unit>
     <unit id="df7a721c-22bb-4049-9852-f5096b740630">
       <notes>
         <note appliesTo="source">line: 628</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Both flicks can be performed in two ways:</source>
-        <target>Both flicks can be performed in two ways:</target>
+        <target>两次滑动可以通过两种方式执行：</target>
       </segment>
     </unit>
     <unit id="d3e2031a-13cb-46dc-8236-637b37a5eb6f">
@@ -11004,9 +11004,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 630</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Lifting your finger after the first flick and then performing the second flick before the gesture times out.</source>
-        <target>Lifting your finger after the first flick and then performing the second flick before the gesture times out.</target>
+        <target>在第一次滑动后抬起手指，然后在该手势超时前执行第二次滑动。</target>
       </segment>
     </unit>
     <unit id="980c5809-8315-46f8-8071-cb9dc01ee125">
@@ -11014,18 +11014,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 631</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Or as a single continuous swipe that sharply changes direction, without lifting your finger.</source>
-        <target>Or as a single continuous swipe that sharply changes direction, without lifting your finger.</target>
+        <target>或者作为一次方向急剧变化的连续滑动，不抬起手指。</target>
       </segment>
     </unit>
     <unit id="20c7ba4f-fa6b-4fde-b58e-ba6161d18668">
       <notes>
         <note appliesTo="source">line: 633</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Twelve combinations are recognised: the four opposite-direction pairs (such as flick right then flick left), and the eight perpendicular L-shaped pairs (such as flick right then flick up).</source>
-        <target>Twelve combinations are recognised: the four opposite-direction pairs (such as flick right then flick left), and the eight perpendicular L-shaped pairs (such as flick right then flick up).</target>
+        <target>可识别十二种组合：四种相反方向组合（例如先向右再向左滑动），以及八种垂直 L 形组合（例如先向右再向上滑动）。</target>
       </segment>
     </unit>
     <unit id="1e3c9e38-6f8b-4303-b2ba-23fb70e702fe">
@@ -11383,9 +11383,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Copy last spoken information | `NVDA+control+x` | `NVDA+control+x` | None | Copies the last information spoken by NVDA to the clipboard </source>
-        <target> Copy last spoken information | `NVDA+control+x` | `NVDA+control+x` | None | Copies the last information spoken by NVDA to the clipboard </target>
+        <target> 复制最后朗读的信息 | `NVDA+Ctrl+X` | `NVDA+Ctrl+X` | 无 | 将最后朗读的内容复制到剪贴板 </target>
       </segment>
     </unit>
     <unit id="8b767a3a-276c-462e-a73a-66691666d7b9">
@@ -11982,9 +11982,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Next sentence | `alt+downArrow` | `alt+downArrow` | Moves the caret to the next sentence and announces it. Some documents are not supported </source>
-        <target> Next sentence | `alt+downArrow` | `alt+downArrow` | Moves the caret to the next sentence and announces it. Some documents are not supported </target>
+        <target> 移动到下一句 | `Alt+下光标` | `Alt+下光标` | 将光标移动到下一句并读出。部分文档不受支持 </target>
       </segment>
     </unit>
     <unit id="07d4d4ae-17cd-44b5-a336-b92206037d66">
@@ -11993,9 +11993,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Previous sentence | `alt+upArrow` | `alt+upArrow` | Moves the caret to the previous sentence and announces it. Some documents are not supported </source>
-        <target> Previous sentence | `alt+upArrow` | `alt+upArrow` | Moves the caret to the previous sentence and announces it. Some documents are not supported </target>
+        <target> 移动到上一句 | `Alt+上光标` | `Alt+上光标` | 将光标移动到上一句并读出。部分文档不受支持 </target>
       </segment>
     </unit>
     <unit id="f2c5e713-d2a2-4c3e-8d24-898fa503ee8e">
@@ -14473,9 +14473,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1154</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Clickable element</source>
-        <target>Clickable element</target>
+        <target>可点击元素</target>
       </segment>
     </unit>
     <unit id="125751a0-7c42-4440-aba6-53a4788f58f2">
@@ -14725,9 +14725,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1191</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When the [Keep search history](#SearchHistory) browse mode setting is enabled, this field is a combo box that also offers the terms you have recently searched for (up to 20), which are cleared when NVDA restarts.</source>
-        <target>When the [Keep search history](#SearchHistory) browse mode setting is enabled, this field is a combo box that also offers the terms you have recently searched for (up to 20), which are cleared when NVDA restarts.</target>
+        <target>启用[保留搜索历史记录](#SearchHistory)浏览模式设置后，此字段将是一个组合框，其中还会显示您最近搜索过的词条（最多 20 个），这些词条会在 NVDA 重启时被清除。</target>
       </segment>
     </unit>
     <unit id="7b7daada-42a3-42a7-ae00-f3d6e097518b">
@@ -14903,9 +14903,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1223</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>However, NVDA has a Native Selection Mode which can be toggled on or off in Browse Mode documents that support it.</source>
-        <target>However, NVDA has a Native Selection Mode which can be toggled on or off in Browse Mode documents that support it.</target>
+        <target>然而，NVDA 具有一种应用原生选择模式，可在支持该模式的浏览模式文档中开启或关闭。</target>
       </segment>
     </unit>
     <unit id="7657ffc2-f9a7-40ee-a0e8-e888bdc9407d">
@@ -14961,18 +14961,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1230</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Microsoft Word and Outlook, where it cannot be toggled off</source>
-        <target>Microsoft Word and Outlook, where it cannot be toggled off</target>
+        <target>Microsoft Word 和 Outlook，不支持将其关闭</target>
       </segment>
     </unit>
     <unit id="8da5132f-3792-42ba-a1f5-7b06c90d0234">
       <notes>
         <note appliesTo="source">line: 1232</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Native Selection Mode can also be [turned on automatically](#BrowseModeSettingsNativeSelectionMode) in supporting documents via NVDA's Browse Mode settings.</source>
-        <target>Native Selection Mode can also be [turned on automatically](#BrowseModeSettingsNativeSelectionMode) in supporting documents via NVDA's Browse Mode settings.</target>
+        <target>还可通过 NVDA 的浏览模式设置在支持的文档中[自动开启该模式](#BrowseModeSettingsNativeSelectionMode)。</target>
       </segment>
     </unit>
     <unit id="0c220da6-bf37-40be-b1a7-95859acd96c7">
@@ -15397,9 +15397,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1302</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When [Visual Highlight](#VisionFocusHighlight) is enabled and the browse mode cursor highlighter is enabled, the current subpart of MathML on the web is also exposed visually.</source>
-        <target>When [Visual Highlight](#VisionFocusHighlight) is enabled and the browse mode cursor highlighter is enabled, the current subpart of MathML on the web is also exposed visually.</target>
+        <target>当启用[高亮显示](#VisionFocusHighlight)并启用高亮显示浏览模式光标时，网页上 MathML 表达式的当前部分也会以视觉方式呈现。</target>
       </segment>
     </unit>
     <unit id="704098d5-1145-4741-bfa0-0d6755f2905f">
@@ -18020,9 +18020,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1627</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Solid yellow highlights the virtual caret used in browse mode (where there is no physical caret such as in web browsers), the cursor in OCR recognition results, and the current subpart while navigating math on the web.</source>
-        <target>Solid yellow highlights the virtual caret used in browse mode (where there is no physical caret such as in web browsers), the cursor in OCR recognition results, and the current subpart while navigating math on the web.</target>
+        <target>黄色实线表示浏览模式的虚拟光标（在没有物理光标的场景，如浏览器中）、OCR 识别结果中的光标，以及在网页上导航数学内容时的当前子部分。</target>
       </segment>
     </unit>
     <unit id="88d4faf1-1fcf-41f2-929d-888fc923bb74">
@@ -18118,27 +18118,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1648</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When Screen Curtain is enabled, some features that rely on what is literally on screen will not function.</source>
-        <target>When Screen Curtain is enabled, some features that rely on what is literally on screen will not function.</target>
+        <target>如果启用黑屏，某些依靠屏幕显示内容而执行的动作将不可用。</target>
       </segment>
     </unit>
     <unit id="fa989819-1408-40e0-9c30-9a097d0f849e">
       <notes>
         <note appliesTo="source">line: 1649</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On supported systems, [Windows OCR](#Win10Ocr) can still be used while Screen Curtain is enabled.</source>
-        <target>On supported systems, [Windows OCR](#Win10Ocr) can still be used while Screen Curtain is enabled.</target>
+        <target>在受支持的系统上，即使黑屏已开启，仍可使用 [Windows OCR](#Win10Ocr)。</target>
       </segment>
     </unit>
     <unit id="7e4f34bb-a1be-4fcd-a64b-a422ff75d148">
       <notes>
         <note appliesTo="source">line: 1650</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Some screenshot utilities may not work.</source>
-        <target>Some screenshot utilities may not work.</target>
+        <target>某些截图工具可能无法正常工作。</target>
       </segment>
     </unit>
     <unit id="002145a3-909c-48ef-90c3-a591cb9905a3">
@@ -18435,9 +18435,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Move mouse to view | None | Move the mouse cursor to the center of the magnified view </source>
-        <target> Move mouse to view | None | Move the mouse cursor to the center of the magnified view </target>
+        <target> 移动鼠标到视图 | 无 | 将鼠标光标移动到放大视图的中心 </target>
       </segment>
     </unit>
     <unit id="d807d2a3-540f-4ae6-9f96-167a4f143cbd">
@@ -18918,27 +18918,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1772</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On supported systems, Windows OCR can still be used while [Screen Curtain](#VisionScreenCurtain) or NVDA's built-in [Magnifier](#Magnifier) is active.</source>
-        <target>On supported systems, Windows OCR can still be used while [Screen Curtain](#VisionScreenCurtain) or NVDA's built-in [Magnifier](#Magnifier) is active.</target>
+        <target>在受支持的系统上，即使开启了[黑屏](#VisionScreenCurtain)或 NVDA 内置的[放大镜](#Magnifier)，仍可使用 Windows OCR。</target>
       </segment>
     </unit>
     <unit id="c680e9d2-3909-49b8-9ff2-64465bece811">
       <notes>
         <note appliesTo="source">line: 1773</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>External visual aids may be partially or fully incompatible with Windows OCR.</source>
-        <target>External visual aids may be partially or fully incompatible with Windows OCR.</target>
+        <target>外部视觉辅助工具可能与 Windows OCR 部分或完全不兼容。</target>
       </segment>
     </unit>
     <unit id="c2e8777a-e9bf-4127-9e66-116b7dec92f0">
       <notes>
         <note appliesTo="source">line: 1774</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You may need to disable these aids before proceeding to a recognition.</source>
-        <target>You may need to disable these aids before proceeding to a recognition.</target>
+        <target>执行识别功能前您必须先将其关闭。</target>
       </segment>
     </unit>
     <unit id="0ac3a78f-d6c6-41b2-84fd-4c464189cf76">
@@ -20236,45 +20236,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2019</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>In newer versions of the console and in Windows Terminal, it is possible to review the entire text buffer freely without the need to scroll the window.</source>
-        <target>在较新版本的控制台和 Windows terminal 中，无需滚动窗口即可查看整个文本缓冲区。</target>
+        <target>在较新版本的控制台和 Windows 终端中，无需滚动窗口即可查看整个文本缓冲区。</target>
       </segment>
     </unit>
     <unit id="313c819e-dfc6-4f25-afd9-d48ce56f1a1f">
       <notes>
         <note appliesTo="source">line: 2021</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In some cases, such as when connected over SSH, caret updates may be delayed.</source>
-        <target>In some cases, such as when connected over SSH, caret updates may be delayed.</target>
+        <target>在某些情况下（例如通过 SSH 连接时），光标更新可能会出现延迟。</target>
       </segment>
     </unit>
     <unit id="f2aa2a3e-add5-427b-b547-cb64be02cc1e">
       <notes>
         <note appliesTo="source">line: 2022</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA waits slightly longer for caret movement in Windows Terminal, so it is less likely to report stale characters.</source>
-        <target>NVDA waits slightly longer for caret movement in Windows Terminal, so it is less likely to report stale characters.</target>
+        <target>在 Windows 终端中，NVDA 会稍作延迟再响应光标移动，因此读出过时字符的可能性较小。</target>
       </segment>
     </unit>
     <unit id="f6301205-a2af-4800-8562-a4e1111113fd">
       <notes>
         <note appliesTo="source">line: 2023</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If caret reporting is still inaccurate, try increasing [Caret move timeout](#AdvancedSettingsCaretMoveTimeout) in Advanced settings.</source>
-        <target>If caret reporting is still inaccurate, try increasing [Caret move timeout](#AdvancedSettingsCaretMoveTimeout) in Advanced settings.</target>
+        <target>如果光标定位仍不准确，请尝试在高级设置中增加[光标移动超时](#AdvancedSettingsCaretMoveTimeout)。</target>
       </segment>
     </unit>
     <unit id="568ce591-9139-4df3-9a8d-33be6e5ed878">
       <notes>
         <note appliesTo="source">line: 2024</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Increasing this value may make caret movement feel slower, so consider changing it in a configuration profile for terminal applications.</source>
-        <target>Increasing this value may make caret movement feel slower, so consider changing it in a configuration profile for terminal applications.</target>
+        <target>增加此值可能会使光标移动感觉变慢，因此建议在终端应用程序配置中进行调整。</target>
       </segment>
     </unit>
     <unit id="8dd52f52-6113-4aed-b410-32e528650d79">
@@ -22017,72 +22017,72 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SpeechSettingsSayAllReadingUnit}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Say all reads by</source>
-        <target>Say all reads by</target>
+        <target>全文朗读方式</target>
       </segment>
     </unit>
     <unit id="f75f3f3c-8e81-4199-872f-b27acc4627be">
       <notes>
         <note appliesTo="source">line: 2321</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This combo box lets you choose the unit of text that say all (continuous reading) advances by.</source>
-        <target>This combo box lets you choose the unit of text that say all (continuous reading) advances by.</target>
+        <target>此组合框允许您选择全文朗读（连续朗读）每次推进的文本单位。</target>
       </segment>
     </unit>
     <unit id="ce987eff-80e0-4ab3-942f-7a1961657f75">
       <notes>
         <note appliesTo="source">line: 2322</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This affects how frequently the text caret and view move during say all, and can also affect intonation in long blocks of text.</source>
-        <target>This affects how frequently the text caret and view move during say all, and can also affect intonation in long blocks of text.</target>
+        <target>这会影响全文朗读过程中文本光标和视图移动的频率，也可能影响长段文本中的语调。</target>
       </segment>
     </unit>
     <unit id="179d01ff-04bd-4220-b0dc-3e30eb5e4d3f">
       <notes>
         <note appliesTo="source">line: 2323</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When set to "Sentence where possible", NVDA reads sentence by sentence in controls and documents that support sentence boundaries, and automatically falls back to reading by line where sentence boundaries are not supported.</source>
-        <target>When set to "Sentence where possible", NVDA reads sentence by sentence in controls and documents that support sentence boundaries, and automatically falls back to reading by line where sentence boundaries are not supported.</target>
+        <target>当设置为“尽可能按句”时，在支持句子边界的控件和文档中，NVDA 会逐句朗读，并在不支持句子边界的情况下自动回退为逐行朗读。</target>
       </segment>
     </unit>
     <unit id="507f0e81-42df-49b8-9b3d-37588cc4d9b7">
       <notes>
         <note appliesTo="source">line: 2324</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Sentence boundaries are supported in Microsoft Word and Outlook, in several edit controls, and in most browse mode documents such as web pages.</source>
-        <target>Sentence boundaries are supported in Microsoft Word and Outlook, in several edit controls, and in most browse mode documents such as web pages.</target>
+        <target>Microsoft Word 和 Outlook、若干编辑控件，以及大多数浏览模式文档（如网页）都支持句子边界。</target>
       </segment>
     </unit>
     <unit id="57e647fa-9653-4a0e-b971-4e6a132418aa">
       <notes>
         <note appliesTo="source">line: 2325</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When set to "Paragraph", NVDA reads paragraph by paragraph.</source>
-        <target>When set to "Paragraph", NVDA reads paragraph by paragraph.</target>
+        <target>当设置为“按段”时，NVDA 会逐段朗读。</target>
       </segment>
     </unit>
     <unit id="90ad0097-f14f-4277-bae3-6e2ea606702c">
       <notes>
         <note appliesTo="source">line: 2326</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When set to "Line", NVDA always reads line by line.</source>
-        <target>When set to "Line", NVDA always reads line by line.</target>
+        <target>当设置为“按行”时，NVDA 始终逐行朗读。</target>
       </segment>
     </unit>
     <unit id="b82f768b-2246-4196-a8d2-0984708b90fd">
       <notes>
         <note appliesTo="source">line: 2327</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, when set to "Line", say all reads by line in Rich Edit controls such as NVDA's log viewer, whereas the default reads these by sentence.</source>
-        <target>For example, when set to "Line", say all reads by line in Rich Edit controls such as NVDA's log viewer, whereas the default reads these by sentence.</target>
+        <target>例如，当设置为“按行”时，全文朗读在富文本编辑控件（如 NVDA 的日志查看器）中按行朗读，而默认设置下这些控件会按句朗读。</target>
       </segment>
     </unit>
     <unit id="7b7c73cf-9d8e-4d63-8025-c8567a1c7b3d">
@@ -22091,9 +22091,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Default (Sentence where possible), Sentence where possible, Paragraph, Line </source>
-        <target> Options | Default (Sentence where possible), Sentence where possible, Paragraph, Line </target>
+        <target> 选项 | 默认（尽可能按句）、尽可能按句、按段、按行 </target>
       </segment>
     </unit>
     <unit id="87f2450a-1462-40c4-9a30-51a99ea078fe">
@@ -22102,9 +22102,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Sentence where possible </source>
-        <target> Default | Sentence where possible </target>
+        <target> 默认 | 尽可能按句 </target>
       </segment>
     </unit>
     <unit id="50f3a4ca-fb8b-4154-b9ed-44d4aecc86b6">
@@ -24215,27 +24215,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2684</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>While the automatic scroll option is enabled, you can still use the scroll back command to read previous contents again, and scroll forward, for example, to skip a blank line, or if the line being read is too short.</source>
-        <target>While the automatic scroll option is enabled, you can still use the scroll back command to read previous contents again, and scroll forward, for example, to skip a blank line, or if the line being read is too short.</target>
+        <target>在启用自动滚动选项时，您仍可使用向后滚动命令重新阅读之前的内容，也可使用向前滚动命令，例如跳过空行或当前行太短的情况。</target>
       </segment>
     </unit>
     <unit id="9f7eafae-e383-4ef2-8e42-84d78de49b09">
       <notes>
         <note appliesTo="source">line: 2686</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Automatic scrolling will be disabled if a routing key is pressed, if a message is presented in braille, if a new object is displayed, when entering a secure screen, when the session is locked, or when the end of the window is reached.</source>
-        <target>Automatic scrolling will be disabled if a routing key is pressed, if a message is presented in braille, if a new object is displayed, when entering a secure screen, when the session is locked, or when the end of the window is reached.</target>
+        <target>以下情况会禁用自动滚动：按下定位盲文单元的按键、盲文显示消息、显示新对象、进入安全界面、系统锁定以及滚动到窗口末尾。</target>
       </segment>
     </unit>
     <unit id="39c16359-560b-4581-ac94-32c33dbe125a">
       <notes>
         <note appliesTo="source">line: 2688</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Commands can be assigned to toggle the automatic scroll option, and to increase or decrease the scroll rate, from the "Braille" section of the [Input Gestures dialog](#InputGestures).</source>
-        <target>Commands can be assigned to toggle the automatic scroll option, and to increase or decrease the scroll rate, from the "Braille" section of the [Input Gestures dialog](#InputGestures).</target>
+        <target>可在[按键与手势对话框](#InputGestures)的“盲文”类别为切换自动滚动以及提高或降低滚动速度的命令分配自定义快捷键。</target>
       </segment>
     </unit>
     <unit id="1785ddd6-6f69-4132-b757-fa2d6d5fd9c3">
@@ -24244,36 +24244,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrailleSettingsWordWrap}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Text wrap</source>
-        <target>Text wrap</target>
+        <target>自动换行</target>
       </segment>
     </unit>
     <unit id="2d1d2579-b607-45ce-9fc9-7424877cc300">
       <notes>
         <note appliesTo="source">line: 2692</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This combo box allows you to configure how NVDA handles text that is too long to fit on the braille display.</source>
-        <target>This combo box allows you to configure how NVDA handles text that is too long to fit on the braille display.</target>
+        <target>此组合框允许您配置 NVDA 如何处理过长而无法在点显器上完整显示的文本。</target>
       </segment>
     </unit>
     <unit id="33a7226c-baf1-4851-b1c5-4d004e11e6fd">
       <notes>
         <note appliesTo="source">line: 2693</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When a word is cut across rows, the continuation mark (dots 7 and 8) is shown in the last cell of the row, unless otherwise noted below.</source>
-        <target>When a word is cut across rows, the continuation mark (dots 7 and 8) is shown in the last cell of the row, unless otherwise noted below.</target>
+        <target>当一个单词跨行被截断时，该行的最后一个单元格会显示续行标记（7、8 点），除非下方另有说明。</target>
       </segment>
     </unit>
     <unit id="caa3cd93-4df1-4ed1-ab98-6087a9cffe70">
       <notes>
         <note appliesTo="source">line: 2694</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The following options are available:</source>
-        <target>The following options are available:</target>
+        <target>可用选项如下：</target>
       </segment>
     </unit>
     <unit id="818bfd3a-a1b8-4efa-a735-b46758a62b92">
@@ -24281,27 +24281,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2696</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Off: Text wraps at the display edge, cutting words mid-way if necessary, without showing any continuation mark.</source>
-        <target>Off: Text wraps at the display edge, cutting words mid-way if necessary, without showing any continuation mark.</target>
+        <target>关闭：文本在点显器行尾换行，必要时从单词中间截断，且不显示任何续行标记。</target>
       </segment>
     </unit>
     <unit id="3f465aeb-8d18-4aec-bb56-8b6e3a5fc5b9">
       <notes>
         <note appliesTo="source">line: 2697</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>As much of the text as possible will be displayed on each row.</source>
-        <target>As much of the text as possible will be displayed on each row.</target>
+        <target>每行将显示尽可能多的文本。</target>
       </segment>
     </unit>
     <unit id="b45b5d1e-67a0-4f68-8e54-5f51abc87277">
       <notes>
         <note appliesTo="source">line: 2698</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When you scroll the display, you will be able to read the rest of the text.</source>
-        <target>When you scroll the display, you will be able to read the rest of the text.</target>
+        <target>通过滚动盲文显示，您可以阅读该单词的剩余部分。</target>
       </segment>
     </unit>
     <unit id="e9ba066c-85ae-45a4-99bc-47d12ec1a4f1">
@@ -24309,18 +24309,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2699</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Show mark when words are cut: Text is not wrapped, but whenever a word is cut at the end of the display, a continuation mark is shown.</source>
-        <target>Show mark when words are cut: Text is not wrapped, but whenever a word is cut at the end of the display, a continuation mark is shown.</target>
+        <target>截断单词时显示标记：文本不换行，但每当单词在点显器行尾被截断时，都会显示续行标记。</target>
       </segment>
     </unit>
     <unit id="c63ba117-bb6b-49d9-beb3-ef040f0443b6">
       <notes>
         <note appliesTo="source">line: 2700</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When you scroll the display, you will be able to read the rest of the word.</source>
-        <target>When you scroll the display, you will be able to read the rest of the word.</target>
+        <target>通过滚动盲文显示，您可以阅读该单词的剩余部分。</target>
       </segment>
     </unit>
     <unit id="688a1087-4c2b-4084-a649-c04494d3d3d4">
@@ -24328,18 +24328,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2701</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>At word boundaries: A word which is too large to fit at the end of the braille display will not be split.</source>
-        <target>At word boundaries: A word which is too large to fit at the end of the braille display will not be split.</target>
+        <target>单词边界处：如果单词太长而无法显示在点显器的末尾，则不会将其拆分。</target>
       </segment>
     </unit>
     <unit id="2225f79a-a139-43ad-8d56-e77db9f030e2">
       <notes>
         <note appliesTo="source">line: 2702</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Instead, there will be some blank space at the end of the display.</source>
-        <target>但点显器的行尾会有一些空白单元格。</target>
+        <target>但点显器的行尾会有一些空白单元。</target>
       </segment>
     </unit>
     <unit id="6ad37418-cc7c-49e7-87d2-46e65a003821">
@@ -24355,18 +24355,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2704</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Note that if the word is too large to fit on the display even by itself, the word must still be split; the continuation mark is then shown.</source>
-        <target>Note that if the word is too large to fit on the display even by itself, the word must still be split; the continuation mark is then shown.</target>
+        <target>请注意，如果该单词过长，即使单独显示也无法在点显器上完整显示，则仍必须拆分该单词；此时会显示续行标记。</target>
       </segment>
     </unit>
     <unit id="ec18ac7f-04a6-4c4c-838c-9ad12bd26387">
       <notes>
         <note appliesTo="source">line: 2705</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option may allow for more fluent reading, but generally requires you to scroll the display more.</source>
-        <target>This option may allow for more fluent reading, but generally requires you to scroll the display more.</target>
+        <target>此选项可能使阅读更流畅，但通常需要您更频繁地滚动点显器。</target>
       </segment>
     </unit>
     <unit id="6ba19c47-c374-4177-b2b3-37fa62eb7f82">
@@ -24374,27 +24374,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2706</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>At word or syllable boundaries: Like "At word boundaries", but long words that don't fit are split at a syllable boundary when possible, using the language of the word if known.</source>
-        <target>At word or syllable boundaries: Like "At word boundaries", but long words that don't fit are split at a syllable boundary when possible, using the language of the word if known.</target>
+        <target>单词或音节边界处：与“单词边界处”类似，但对于无法完整显示的长单词，会尽可能按音节边界拆分，并在已知的情况下使用该单词的语言。</target>
       </segment>
     </unit>
     <unit id="87e1224f-1732-404c-9695-c7aa5305ae80">
       <notes>
         <note appliesTo="source">line: 2707</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, the word `behave` may be split between `be` and `have`.</source>
-        <target>For example, the word `behave` may be split between `be` and `have`.</target>
+        <target>例如，单词 `behave` 可能会拆分为 `be` 和 `have`。</target>
       </segment>
     </unit>
     <unit id="07cf9761-d7f2-4aa3-ae4f-bd8c92f17899">
       <notes>
         <note appliesTo="source">line: 2708</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The continuation mark is shown whenever a word is split.</source>
-        <target>The continuation mark is shown whenever a word is split.</target>
+        <target>每当单词被拆分时，都会显示续行标记。</target>
       </segment>
     </unit>
     <unit id="4bd1a767-eada-4513-a64c-a86731f2ed02">
@@ -24550,45 +24550,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ChineseBrailleWordSegmentation}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use Chinese word segmentation</source>
-        <target>Use Chinese word segmentation</target>
+        <target>使用中文分词</target>
       </segment>
     </unit>
     <unit id="7a2b95a5-1182-41a7-b276-121d2d4500f9">
       <notes>
         <note appliesTo="source">line: 2740</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This setting controls whether NVDA uses Chinese word segmentation when translating text into braille.</source>
-        <target>This setting controls whether NVDA uses Chinese word segmentation when translating text into braille.</target>
+        <target>此设置用于控制 NVDA 在将文本翻译为盲文时是否使用中文分词。</target>
       </segment>
     </unit>
     <unit id="3ce0a898-f01f-4e93-847a-a405af277e30">
       <notes>
         <note appliesTo="source">line: 2741</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When enabled and a Chinese braille output table other than "Chinese (Taiwan, Mandarin)" is in use, NVDA inserts spaces between Chinese words before translation.</source>
-        <target>When enabled and a Chinese braille output table other than "Chinese (Taiwan, Mandarin)" is in use, NVDA inserts spaces between Chinese words before translation.</target>
+        <target>启用后，且正在使用“中文台湾国语盲文”以外的中文盲文输出表时，NVDA 会在翻译前在中文词语之间插入空格。</target>
       </segment>
     </unit>
     <unit id="4fe157a5-9c9d-4dbc-98a7-4d6015d594d2">
       <notes>
         <note appliesTo="source">line: 2742</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When disabled, NVDA passes text directly to the output table without inserting spaces between words.</source>
-        <target>When disabled, NVDA passes text directly to the output table without inserting spaces between words.</target>
+        <target>禁用后，NVDA 会将文本直接传递给输出表，不在词语之间插入空格。</target>
       </segment>
     </unit>
     <unit id="5cff7def-bbd7-4c02-9c1f-2298ac286cda">
       <notes>
         <note appliesTo="source">line: 2743</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This setting has no effect with the "Chinese (Taiwan, Mandarin)" table or other non-Chinese output tables.</source>
-        <target>This setting has no effect with the "Chinese (Taiwan, Mandarin)" table or other non-Chinese output tables.</target>
+        <target>此设置对“中文台湾国语盲文”或其他非中文输出表没有影响。</target>
       </segment>
     </unit>
     <unit id="c2f79fd8-afb0-4eb2-931b-6efc543bbb08">
@@ -24597,9 +24597,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Enabled, Disabled </source>
-        <target> Options | Enabled, Disabled </target>
+        <target> 选项 | 已启用、已禁用 </target>
       </segment>
     </unit>
     <unit id="469256a2-2da1-447a-b01a-55f294cd28da">
@@ -24608,9 +24608,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Enabled </source>
-        <target> Default | Enabled </target>
+        <target> 默认 | 已启用 </target>
       </segment>
     </unit>
     <unit id="5b7765ac-52bc-4f3f-b358-c0fca9c5839c">
@@ -25972,9 +25972,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 2980</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Highlight browse mode cursor: Toggles whether the [virtual browse mode cursor](#BrowseMode) will be highlighted, including the cursor in OCR recognition results and the current subpart while navigating math on the web.</source>
-        <target>Highlight browse mode cursor: Toggles whether the [virtual browse mode cursor](#BrowseMode) will be highlighted, including the cursor in OCR recognition results and the current subpart while navigating math on the web.</target>
+        <target>高亮显示浏览模式光标：切换是否高亮显示[浏览模式](#BrowseMode)的虚拟光标，包括 OCR 识别结果中的光标，以及在网页上导航数学内容时表达式的当前部分。</target>
       </segment>
     </unit>
     <unit id="fe43547e-810d-4094-9bcb-fa8547848ab6">
@@ -26978,27 +26978,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3175</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If on, this option will cause speech to be interrupted each time a character is typed.</source>
-        <target>If on, this option will cause speech to be interrupted each time a character is typed.</target>
+        <target>若启用此选项，每次输入字符时语音都会被打断。</target>
       </segment>
     </unit>
     <unit id="9c1d9ff1-e5eb-46a8-9c78-ab5daa7a4928">
       <notes>
         <note appliesTo="source">line: 3176</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is enabled by default.</source>
-        <target>This option is enabled by default.</target>
+        <target>此选项默认启用。</target>
       </segment>
     </unit>
     <unit id="74c1df32-b800-4e11-aa64-ed22151bb7cf">
       <notes>
         <note appliesTo="source">line: 3177</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option affects all NVDA speech, including in browse mode, focus mode, and say all.</source>
-        <target>This option affects all NVDA speech, including in browse mode, focus mode, and say all.</target>
+        <target>此选项会影响所有 NVDA 语音，包括浏览模式、焦点模式和全文朗读。</target>
       </segment>
     </unit>
     <unit id="c36b4346-470e-42e8-a324-71522c127902">
@@ -27016,27 +27016,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3181</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If on, this option will cause speech to be interrupted each time the Enter key is pressed.</source>
-        <target>If on, this option will cause speech to be interrupted each time the Enter key is pressed.</target>
+        <target>若启用此选项，每次按下回车键时，语音都会被打断。</target>
       </segment>
     </unit>
     <unit id="136fd6b1-4a93-42e0-b6ef-7e5702835443">
       <notes>
         <note appliesTo="source">line: 3182</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is enabled by default.</source>
-        <target>This option is enabled by default.</target>
+        <target>此选项默认启用。</target>
       </segment>
     </unit>
     <unit id="fe3040ce-ff3c-40d3-9979-6998358a9c40">
       <notes>
         <note appliesTo="source">line: 3183</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option affects all NVDA speech, including in browse mode, focus mode, and say all.</source>
-        <target>This option affects all NVDA speech, including in browse mode, focus mode, and say all.</target>
+        <target>此选项会影响所有 NVDA 语音，包括浏览模式、焦点模式和全文朗读。</target>
       </segment>
     </unit>
     <unit id="07faa9fc-deb8-4f8f-9549-f754c6d006f0">
@@ -27675,72 +27675,72 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#TouchEdgeGestures}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enable edge gestures</source>
-        <target>Enable edge gestures</target>
+        <target>启用边缘手势</target>
       </segment>
     </unit>
     <unit id="b7e25875-f001-41ef-95eb-8b2131523659">
       <notes>
         <note appliesTo="source">line: 3298</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This checkbox enables edge gesture support.</source>
-        <target>This checkbox enables edge gesture support.</target>
+        <target>此复选框用于启用边缘手势支持。</target>
       </segment>
     </unit>
     <unit id="a87ff587-1112-4815-9538-4698ac0bb0f1">
       <notes>
         <note appliesTo="source">line: 3299</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When enabled, gestures that begin within 15 mm of any screen edge are treated as distinct gestures and can be bound independently in the [Input Gestures dialog](#InputGestures).</source>
-        <target>When enabled, gestures that begin within 15 mm of any screen edge are treated as distinct gestures and can be bound independently in the [Input Gestures dialog](#InputGestures).</target>
+        <target>启用后，起始于屏幕任意边缘 15 毫米范围内的手势将被视为不同的手势，并可在[按键与手势对话框](#InputGestures)独立分配。</target>
       </segment>
     </unit>
     <unit id="36ed2834-c73e-422c-aa01-8fca7c2291d1">
       <notes>
         <note appliesTo="source">line: 3300</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, a flick right that starts from the left edge of the screen can be bound to a different command from a flick right performed in the centre of the screen.</source>
-        <target>For example, a flick right that starts from the left edge of the screen can be bound to a different command from a flick right performed in the centre of the screen.</target>
+        <target>例如，从屏幕左边缘向右滑动与在屏幕中央向右滑动可以分配不同的命令。</target>
       </segment>
     </unit>
     <unit id="3fdb1f43-34eb-4064-a211-88856891ac6c">
       <notes>
         <note appliesTo="source">line: 3301</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If edge gestures are disabled after bindings have been set, those bindings will remain but will never be triggered.</source>
-        <target>If edge gestures are disabled after bindings have been set, those bindings will remain but will never be triggered.</target>
+        <target>若分配命令后禁用了边缘手势，这些设置将保留，但永远不会被触发。</target>
       </segment>
     </unit>
     <unit id="cf9127f9-f1c9-40f6-b898-92bd71e183db">
       <notes>
         <note appliesTo="source">line: 3302</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Note: Windows or the taskbar may intercept gestures on certain edges before they reach NVDA.</source>
-        <target>Note: Windows or the taskbar may intercept gestures on certain edges before they reach NVDA.</target>
+        <target>注意：Windows 或任务栏可能会在特定边缘的手势到达 NVDA 之前将其拦截。</target>
       </segment>
     </unit>
     <unit id="6926bce3-d226-4e63-8ece-c1b73db58edf">
       <notes>
         <note appliesTo="source">line: 3303</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, swiping from the bottom edge typically opens the Start menu or Action Center, and if the taskbar is positioned on another edge, touches on that edge will similarly be intercepted.</source>
-        <target>For example, swiping from the bottom edge typically opens the Start menu or Action Center, and if the taskbar is positioned on another edge, touches on that edge will similarly be intercepted.</target>
+        <target>例如，从底部边缘向上滑动通常会打开开始菜单或操作中心；若任务栏位于其他边，该边缘的触摸也会同样被拦截。</target>
       </segment>
     </unit>
     <unit id="55051501-45b9-4aac-9a6f-e296476a1151">
       <notes>
         <note appliesTo="source">line: 3304</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If a gesture on a particular edge does not work, check whether Windows is intercepting it, and consider leaving that edge unbound.</source>
-        <target>If a gesture on a particular edge does not work, check whether Windows is intercepting it, and consider leaving that edge unbound.</target>
+        <target>如某个边缘上的手势不起作用，请检查 Windows 是否将其拦截，并考虑将该边缘保持未分配状态。</target>
       </segment>
     </unit>
     <unit id="3e08d2c9-926e-46a2-bd40-9c29501117fc">
@@ -50187,7 +50187,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 6550</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`winget install --id NVAccess.NVDA`</source>
         <target>`winget install --id NVAccess.NVDA`</target>
       </segment>
@@ -50206,9 +50206,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 6554</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Beta: `winget install --id NVAccess.NVDA.Beta`</source>
-        <target>Beta: `winget install --id NVAccess.NVDA.Beta`</target>
+        <target>Beta：`winget install --id NVAccess.NVDA.Beta`</target>
       </segment>
     </unit>
     <unit id="3b386359-4423-4584-a5d3-86362f12546c">
@@ -50216,9 +50216,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 6555</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>RC: `winget install --id NVAccess.NVDA.RC`</source>
-        <target>RC: `winget install --id NVAccess.NVDA.RC`</target>
+        <target>RC：`winget install --id NVAccess.NVDA.RC`</target>
       </segment>
     </unit>
     <unit id="a8007df1-6160-404f-80d7-0e43900f9bb4">
