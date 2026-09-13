@@ -7640,18 +7640,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 150</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changes for Developers</source>
-        <target>Changes for Developers</target>
+        <target>开发者需要了解的变化</target>
       </segment>
     </unit>
     <unit id="137357bb-a794-4ee1-ab1f-902645f52e8e">
       <notes>
         <note appliesTo="source">line: 152</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please refer to [the developer guide](https://download.nvaccess.org/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
-        <target>Please refer to [the developer guide](https://download.nvaccess.org/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</target>
+        <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://download.nvaccess.org/documentation/developerGuide.html#API)。</target>
       </segment>
     </unit>
     <unit id="06928784-1405-40a9-b941-0febcfde50db">
@@ -7659,9 +7659,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 154</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated dependencies:</source>
-        <target>Updated dependencies:</target>
+        <target>依赖项更新：</target>
       </segment>
     </unit>
     <unit id="b1a82318-18f8-4f81-9617-3a63ce049ceb">
@@ -7669,9 +7669,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 155</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Python to 3.13.15. (#20634, @dpy013)</source>
-        <target>Python to 3.13.15. (#20634, @dpy013)</target>
+        <target>将 Python 更新到 3.13.15。(#20634, @dpy013)</target>
       </segment>
     </unit>
     <unit id="80777219-a861-4f39-b622-5e66ddc90030">
@@ -7679,9 +7679,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 156</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>ruff to 0.16.3. (#20732)</source>
-        <target>ruff to 0.16.3. (#20732)</target>
+        <target>将 ruff 更新到 0.16.3。(#20732)</target>
       </segment>
     </unit>
     <unit id="ecebd0fd-d5c8-43a3-9a20-1a4a79c65018">
@@ -7689,9 +7689,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>prek to 0.4.14. (#20732)</source>
-        <target>prek to 0.4.14. (#20732)</target>
+        <target>将 prek 更新到 0.4.14。(#20732)</target>
       </segment>
     </unit>
     <unit id="6f984b02-f369-443f-bb1a-625ff8ccfe56">
@@ -7699,9 +7699,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 158</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>pyright to 1.1.411. (#20732)</source>
-        <target>pyright to 1.1.411. (#20732)</target>
+        <target>将 pyright 更新到 1.1.411。(#20732)</target>
       </segment>
     </unit>
     <unit id="931db1ca-5842-4257-823f-77ce5a9aa80a">
@@ -7709,9 +7709,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 159</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>ty to 0.0.73. (#20732)</source>
-        <target>ty to 0.0.73. (#20732)</target>
+        <target>将 ty 更新到 0.0.73。(#20732)</target>
       </segment>
     </unit>
     <unit id="94c31c7e-cf66-4f2c-ab4e-bed2774c420c">
@@ -7719,9 +7719,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 160</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>comtypes to 1.4.16. (#20707)</source>
-        <target>comtypes to 1.4.16. (#20707)</target>
+        <target>将 comtypes 更新到 1.4.16。(#20707)</target>
       </segment>
     </unit>
     <unit id="c3e0574f-92d3-4d43-98d4-a3ac6f0da651">
@@ -7729,9 +7729,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 161</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>cryptography to 50.0.0. (#20707)</source>
-        <target>cryptography to 50.0.0. (#20707)</target>
+        <target>将 cryptography 更新到 50.0.0。(#20707)</target>
       </segment>
     </unit>
     <unit id="5eeaa8e3-c384-4ede-83e7-609563eaa718">
@@ -7739,9 +7739,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 162</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>requests to 2.34.2. (#20707)</source>
-        <target>requests to 2.34.2. (#20707)</target>
+        <target>将 requests 更新到 2.34.2。(#20707)</target>
       </segment>
     </unit>
     <unit id="7f19ea93-336c-457a-9141-019ca6391c6b">
@@ -7749,9 +7749,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 163</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>url-normalize to 3.0.0. (#20707)</source>
-        <target>url-normalize to 3.0.0. (#20707)</target>
+        <target>将 url-normalize 更新到 3.0.0。(#20707)</target>
       </segment>
     </unit>
     <unit id="81a282a7-6ee3-4505-96da-13062dc96828">
@@ -7759,9 +7759,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 164</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>pywin32 to 312. (#20707)</source>
-        <target>pywin32 to 312. (#20707)</target>
+        <target>将 pywin32 更新到 312。(#20707)</target>
       </segment>
     </unit>
     <unit id="e1690d6b-bfd6-4f2e-b363-284da383255c">
@@ -7769,9 +7769,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 165</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>scons to 4.11.0. (#20707)</source>
-        <target>scons to 4.11.0. (#20707)</target>
+        <target>将 scons 更新到 4.11.0。(#20707)</target>
       </segment>
     </unit>
     <unit id="284a7466-82a9-4e76-be8b-3c83cd893178">
@@ -7779,9 +7779,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 166</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>py2exe to 0.14.2.0. (#20707, #20260, @LeonarddeR)</source>
-        <target>py2exe to 0.14.2.0. (#20707, #20260, @LeonarddeR)</target>
+        <target>将 py2exe 更新到 0.14.2.0。(#20707, #20260, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="ec76404c-3f89-46ee-8be7-0734fc800652">
@@ -7789,9 +7789,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 167</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>nh3 to 0.3.6. (#20707)</source>
-        <target>nh3 to 0.3.6. (#20707)</target>
+        <target>将 nh3 更新到 0.3.6。(#20707)</target>
       </segment>
     </unit>
     <unit id="137e4c0c-4f9a-4aac-bb03-f2a9c70b9224">
@@ -7799,9 +7799,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 168</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>crowdin-api-client to 1.28.0. (#20707)</source>
-        <target>crowdin-api-client to 1.28.0. (#20707)</target>
+        <target>将 crowdin-api-client 更新到 1.28.0。(#20707)</target>
       </segment>
     </unit>
     <unit id="03e09f2a-aa9e-42f7-8b90-0ec72f3aa7da">
@@ -7809,9 +7809,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 169</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>markdown to 3.10.3. (#20707)</source>
-        <target>markdown to 3.10.3. (#20707)</target>
+        <target>将 markdown 更新到 3.10.3。(#20707)</target>
       </segment>
     </unit>
     <unit id="6fa5237b-d8c3-482a-9a31-acf32b6f577a">
@@ -7819,9 +7819,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 170</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>lxml to 6.1.2. (#20707)</source>
-        <target>lxml to 6.1.2. (#20707)</target>
+        <target>将 lxml 更新到 6.1.2。(#20707)</target>
       </segment>
     </unit>
     <unit id="c7a134a0-8876-4bcb-89bc-63412aef8b13">
@@ -7829,9 +7829,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 171</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>pymdown-extensions to 11.0.1. (#20707)</source>
-        <target>pymdown-extensions to 11.0.1. (#20707)</target>
+        <target>将 pymdown-extensions 更新到 11.0.1。(#20707)</target>
       </segment>
     </unit>
     <unit id="7fc5d5d9-a0cd-422e-826b-f655576c7cd2">
@@ -7839,9 +7839,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 172</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>pyphen to 0.18.1. (#20707)</source>
-        <target>pyphen to 0.18.1. (#20707)</target>
+        <target>将 pyphen 更新到 0.18.1。(#20707)</target>
       </segment>
     </unit>
     <unit id="da505bed-2f20-4ef9-89ae-b8a2b7dc6b11">
@@ -7849,9 +7849,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 173</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>regex to 2026.7.19. (#20707)</source>
-        <target>regex to 2026.7.19. (#20707)</target>
+        <target>将 regex 更新到 2026.7.19。(#20707)</target>
       </segment>
     </unit>
     <unit id="67d12a8a-9760-4b20-ad63-de96c9c4268b">
@@ -7859,9 +7859,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 174</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>uv to 0.12.5. (#20707)</source>
-        <target>uv to 0.12.5. (#20707)</target>
+        <target>将 uv 更新到 0.12.5。(#20707)</target>
       </segment>
     </unit>
     <unit id="955448fe-1eca-40aa-86ed-28d709beb60a">
@@ -7869,9 +7869,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 175</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>licensecheck to 2026.0.8. (#20707)</source>
-        <target>licensecheck to 2026.0.8. (#20707)</target>
+        <target>将 licensecheck 更新到 2026.0.8。(#20707)</target>
       </segment>
     </unit>
     <unit id="f14c7a4e-8f86-4c50-9d73-5ae607c8de1b">
@@ -7879,9 +7879,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 176</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>sphinx to 9.1.0. (#20707)</source>
-        <target>sphinx to 9.1.0. (#20707)</target>
+        <target>将 sphinx 更新到 9.1.0。(#20707)</target>
       </segment>
     </unit>
     <unit id="de46b41d-9582-4855-a45a-f493ba839709">
@@ -7889,9 +7889,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 177</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>sphinx-rtd-theme to 3.1.0. (#20707)</source>
-        <target>sphinx-rtd-theme to 3.1.0. (#20707)</target>
+        <target>将 sphinx-rtd-theme 更新到 3.1.0。(#20707)</target>
       </segment>
     </unit>
     <unit id="47f7dde5-14b6-4a7b-abac-669e2ef80c76">
@@ -7899,9 +7899,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 178</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>robotframework to 7.4.2. (#20707)</source>
-        <target>robotframework to 7.4.2. (#20707)</target>
+        <target>将 robotframework 更新到 7.4.2。(#20707)</target>
       </segment>
     </unit>
     <unit id="a1723f0e-f7be-4f76-9aa6-ea74496c98d2">
@@ -7909,9 +7909,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 179</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>unittest-xml-reporting to 4.0.0. (#20707)</source>
-        <target>unittest-xml-reporting to 4.0.0. (#20707)</target>
+        <target>将 unittest-xml-reporting 更新到 4.0.0。(#20707)</target>
       </segment>
     </unit>
     <unit id="bb8a6af2-4726-468c-929d-b70955cf1cd7">
@@ -7919,9 +7919,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 180</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>setuptools to 84.0.0. (#20744)</source>
-        <target>setuptools to 84.0.0. (#20744)</target>
+        <target>将 setuptools 更新到 84.0.0。(#20744)</target>
       </segment>
     </unit>
     <unit id="e308dc93-49db-40f2-9e7f-cc68502d730c">
@@ -7929,9 +7929,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 181</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Updated the NVDA Controller Client API to 3.0, adding a `nvdaController_isSpeaking` function. (#20188)</source>
-        <target>Updated the NVDA Controller Client API to 3.0, adding a `nvdaController_isSpeaking` function. (#20188)</target>
+        <target>NVDA Controller 客户端 API 已更新到 3.0 版本，新增了 `nvdaController_isSpeaking` 函数。(#20188)</target>
       </segment>
     </unit>
     <unit id="83ddb15e-c04e-4e62-b91c-0ff0153316eb">
@@ -8432,9 +8432,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 233</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Deprecations</source>
-        <target>Deprecations</target>
+        <target>弃用</target>
       </segment>
     </unit>
     <unit id="cd93c626-7149-47af-be3c-79664c8e216e">
