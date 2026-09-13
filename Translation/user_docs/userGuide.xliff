@@ -29026,36 +29026,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#SearchHistory}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Keep search history</source>
-        <target>Keep search history</target>
+        <target>保留搜索历史记录</target>
       </segment>
     </unit>
     <unit id="2ab4f0c8-e003-49e9-9f61-ed98e5f719a4">
       <notes>
         <note appliesTo="source">line: 3540</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enabled by default, this option determines whether the [Find dialog](#SearchingForText) remembers the terms you have searched for during the current NVDA session.</source>
-        <target>Enabled by default, this option determines whether the [Find dialog](#SearchingForText) remembers the terms you have searched for during the current NVDA session.</target>
+        <target>此选项默认启用，用于确定[查找对话框](#SearchingForText)是否记住您在当前 NVDA 会话期间搜索过的词条。</target>
       </segment>
     </unit>
     <unit id="b6ec66fb-5e33-47d0-9da5-dd46e9b55b56">
       <notes>
         <note appliesTo="source">line: 3541</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When enabled, the Find dialog offers up to 20 recently used search terms from a combo box; this history is kept in memory only and is cleared when NVDA restarts.</source>
-        <target>When enabled, the Find dialog offers up to 20 recently used search terms from a combo box; this history is kept in memory only and is cleared when NVDA restarts.</target>
+        <target>启用后，查找对话框会通过一个组合框提供最多 20 个最近使用的搜索词条；此历史记录仅保存在内存中，并在 NVDA 重启时清除。</target>
       </segment>
     </unit>
     <unit id="98044c8d-a677-42ae-848c-1c449fab8996">
       <notes>
         <note appliesTo="source">line: 3542</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If the combo box interferes with your input method, such as with some IMEs, you can set this option to Disabled to return the Find dialog to a plain edit field.</source>
-        <target>If the combo box interferes with your input method, such as with some IMEs, you can set this option to Disabled to return the Find dialog to a plain edit field.</target>
+        <target>若该组合框干扰了您的输入法，您可禁用此选项，使查找对话框恢复为普通的编辑字段。</target>
       </segment>
     </unit>
     <unit id="d07be643-a027-468d-96cf-810967dde6aa">
@@ -29064,9 +29064,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Default (Enabled), Disabled, Enabled </source>
-        <target> Options | Default (Enabled), Disabled, Enabled </target>
+        <target> 选项 | 默认（已启用）、已禁用、已启用 </target>
       </segment>
     </unit>
     <unit id="3f47a03c-3792-499e-af98-e7519a446455">
@@ -29075,9 +29075,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Enabled </source>
-        <target> Default | Enabled </target>
+        <target> 默认 | 已启用 </target>
       </segment>
     </unit>
     <unit id="ba11363c-8918-4ab9-a3c8-dd4df38e33b2">
@@ -29086,45 +29086,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#NativeSelectionModeSetting}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Native selection mode</source>
-        <target>Native selection mode</target>
+        <target>应用原生选择</target>
       </segment>
     </unit>
     <unit id="db954d0d-14a6-47bd-83ae-07f1b20be7cb">
       <notes>
         <note appliesTo="source">line: 3551</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Disabled by default, this option determines whether [Native Selection Mode](#NativeSelectionMode) is automatically turned on in Browse Mode documents which support it.</source>
-        <target>Disabled by default, this option determines whether [Native Selection Mode](#NativeSelectionMode) is automatically turned on in Browse Mode documents which support it.</target>
+        <target>此选项默认禁用，用于确定在支持[应用原生选择模式](#NativeSelectionMode)的浏览模式文档中是否自动开启该模式。</target>
       </segment>
     </unit>
     <unit id="8b9c0f07-3a4e-489c-b6d6-de7dede1f500">
       <notes>
         <note appliesTo="source">line: 3552</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This setting does not affect Microsoft Word and Outlook, where Native Selection Mode is always used.</source>
-        <target>This setting does not affect Microsoft Word and Outlook, where Native Selection Mode is always used.</target>
+        <target>此设置不影响 Microsoft Word 和 Outlook，在这些应用程序中始终使用应用原生选择。</target>
       </segment>
     </unit>
     <unit id="fdb1dad3-9d1c-48e8-b66c-61537d026608">
       <notes>
         <note appliesTo="source">line: 3553</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When disabled, you can still turn on native selection mode manually per document with `NVDA+shift+f10`.</source>
-        <target>When disabled, you can still turn on native selection mode manually per document with `NVDA+shift+f10`.</target>
+        <target>禁用时，您仍可使用 `NVDA+Shift+F10` 按文档手动开启该模式。</target>
       </segment>
     </unit>
     <unit id="77b02798-0255-4048-8a3d-10a785db5d04">
       <notes>
         <note appliesTo="source">line: 3554</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Changing this option takes effect for newly loaded documents.</source>
-        <target>Changing this option takes effect for newly loaded documents.</target>
+        <target>更改此选项会对新加载的文档生效。</target>
       </segment>
     </unit>
     <unit id="75acede4-bd40-4ea8-8aae-252775640872">
@@ -29133,9 +29133,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Default (Disabled), Disabled, Enabled </source>
-        <target> Options | Default (Disabled), Disabled, Enabled </target>
+        <target> 选项 | 默认（已禁用）、已禁用、已启用 </target>
       </segment>
     </unit>
     <unit id="6a5fb6ca-5bb9-4b3f-b8e1-4ee2962f1b92">
@@ -29144,9 +29144,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Disabled </source>
-        <target> Default | Disabled </target>
+        <target> 默认 | 已禁用 </target>
       </segment>
     </unit>
     <unit id="ea7aba20-559d-469c-9a29-682ca521a6ac">
@@ -29457,9 +29457,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3602</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Indent tone duration (ms)</source>
-        <target>Indent tone duration (ms)</target>
+        <target>缩进提示音时长（毫秒）</target>
       </segment>
     </unit>
     <unit id="b3500d8e-ae50-4cdf-a4a4-52e29385dfc7">
@@ -30040,36 +30040,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#IndentToneDuration}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Indent tone duration</source>
-        <target>Indent tone duration</target>
+        <target>缩进提示音时长</target>
       </segment>
     </unit>
     <unit id="8fe258f3-ef74-47ff-8f1b-57203226066f">
       <notes>
         <note appliesTo="source">line: 3684</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option allows you to configure the duration of indentation tones when the "Tones" or "Both Speech and Tones" option is selected in the ["Report line indentation with"](#DocumentFormattingSettingsLineIndentation) combo box.</source>
-        <target>This option allows you to configure the duration of indentation tones when the "Tones" or "Both Speech and Tones" option is selected in the ["Report line indentation with"](#DocumentFormattingSettingsLineIndentation) combo box.</target>
+        <target>此选项允许您配置在“行缩进提示”组合框中选择“提示音”或“语音和提示音”选项时缩进提示音的持续时间。</target>
       </segment>
     </unit>
     <unit id="3b85e1ca-5ade-49b5-8516-f890101e9f0c">
       <notes>
         <note appliesTo="source">line: 3685</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The value can range from 10 ms to 2000 ms.</source>
-        <target>The value can range from 10 ms to 2000 ms.</target>
+        <target>该值的范围从 10 毫秒到 2000 毫秒。</target>
       </segment>
     </unit>
     <unit id="08789ed1-3a7f-4d2b-ad24-d664e967f61b">
       <notes>
         <note appliesTo="source">line: 3686</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The default is 40 ms.</source>
-        <target>The default is 40 ms.</target>
+        <target>默认值为 40 毫秒。</target>
       </segment>
     </unit>
     <unit id="603616f5-4091-4d86-8c9a-81f9a3e2c11d">
@@ -30224,36 +30224,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#WordSegmentationStandard}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Word Segmentation Standard</source>
-        <target>Word Segmentation Standard</target>
+        <target>分词标准</target>
       </segment>
     </unit>
     <unit id="6d8433ce-523d-4164-a538-3d04d1be50a1">
       <notes>
         <note appliesTo="source">line: 3714</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This setting controls how NVDA determines word boundaries when navigating by word.</source>
-        <target>This setting controls how NVDA determines word boundaries when navigating by word.</target>
+        <target>此设置用于控制 NVDA 在按词导航时如何确定词边界。</target>
       </segment>
     </unit>
     <unit id="f0a4cb75-9ba5-4ff1-9f69-d3d07d19d489">
       <notes>
         <note appliesTo="source">line: 3715</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This affects how script languages without spaces break up text into words, sentences and paragraphs</source>
-        <target>This affects how script languages without spaces break up text into words, sentences and paragraphs</target>
+        <target>这会影响没有空格的语言文字如何将文本拆分为词语、句子和段落。</target>
       </segment>
     </unit>
     <unit id="b61c0388-14b0-4c41-bec2-2d17cf1731ad">
       <notes>
         <note appliesTo="source">line: 3716</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Chinese braille output uses a separate [Chinese word segmentation setting](#ChineseBrailleWordSegmentation), except with the "Chinese (Taiwan, Mandarin)" output table.</source>
-        <target>Chinese braille output uses a separate [Chinese word segmentation setting](#ChineseBrailleWordSegmentation), except with the "Chinese (Taiwan, Mandarin)" output table.</target>
+        <target>中文盲文输出使用单独的[中文分词设置](#ChineseBrailleWordSegmentation)，但“中文台湾国语盲文”输出表除外。</target>
       </segment>
     </unit>
     <unit id="08b74539-869d-4cdb-9e15-c1e256b60bd1">
@@ -30262,9 +30262,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Default (Automatic), Automatic, Chinese, Unicode (ICU), Legacy (Uniscribe) </source>
-        <target> Options | Default (Automatic), Automatic, Chinese, Unicode (ICU), Legacy (Uniscribe) </target>
+        <target> 选项 | 默认（自动）、自动、中文、Unicode（ICU）、传统（Uniscribe） </target>
       </segment>
     </unit>
     <unit id="93892737-d196-4090-ab10-9e56f65cc08a">
@@ -30273,9 +30273,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Automatic </source>
-        <target> Default | Automatic </target>
+        <target> 默认 | 自动 </target>
       </segment>
     </unit>
     <unit id="44dbb1ea-e212-465d-b697-da974671e888">
@@ -30284,9 +30284,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Option | Behaviour </source>
-        <target> Option | Behaviour </target>
+        <target> 选项 | 行为 </target>
       </segment>
     </unit>
     <unit id="99e72298-a8d2-441c-93a8-cade996d3543">
@@ -30295,9 +30295,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Automatic | Use Chinese word segmentation for Chinese text when available. Otherwise, prefer Unicode (ICU) word segmentation when available, falling back to the legacy Windows word segmentation. </source>
-        <target> Automatic | Use Chinese word segmentation for Chinese text when available. Otherwise, prefer Unicode (ICU) word segmentation when available, falling back to the legacy Windows word segmentation. </target>
+        <target> 自动 | 对于中文文本，在可用时使用中文分词；否则，优先使用可用的 Unicode（ICU）分词，若不可用则回退到旧版 Windows 分词。 </target>
       </segment>
     </unit>
     <unit id="45a70605-a1e9-4f79-9df2-2681adad6156">
@@ -30306,9 +30306,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Chinese | Use Chinese word segmentation. If Chinese word segmentation is not available, NVDA uses the fallback path as in `Automatic`. </source>
-        <target> Chinese | Use Chinese word segmentation. If Chinese word segmentation is not available, NVDA uses the fallback path as in `Automatic`. </target>
+        <target> 中文 | 使用中文分词。若中文分词不可用，将使用与“自动”相同的回退路径。 </target>
       </segment>
     </unit>
     <unit id="0b7dab44-a57d-4526-95b1-3594be78d588">
@@ -30317,9 +30317,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Unicode (ICU) | Use the Windows built-in ICU library for word segmentation available in Windows 10 version 1703 (Creators Update) and later, falling back to legacy. </source>
-        <target> Unicode (ICU) | Use the Windows built-in ICU library for word segmentation available in Windows 10 version 1703 (Creators Update) and later, falling back to legacy. </target>
+        <target> Unicode（ICU） | 使用 Windows 10 版本 1703（创意者更新）及更高版本中提供的 Windows 内置 ICU 库进行分词，若不可用则回退到旧版。 </target>
       </segment>
     </unit>
     <unit id="54843f3d-dbc1-4b54-8fee-343588bd447b">
@@ -30328,9 +30328,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Legacy (Uniscribe) | Use the legacy Windows word segmentation as used in Notepad classic and other legacy Win32 edit controls. </source>
-        <target> Legacy (Uniscribe) | Use the legacy Windows word segmentation as used in Notepad classic and other legacy Win32 edit controls. </target>
+        <target> 传统（Uniscribe） | 使用旧版 Windows 分词，与经典记事本及其他旧版 Win32 编辑控件所使用的方式相同。 </target>
       </segment>
     </unit>
     <unit id="777df247-4d82-442d-b105-903b6a5600f8">
@@ -33831,27 +33831,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BeepForSkippedLines}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Beep for skipped lines</source>
-        <target>Beep for skipped lines</target>
+        <target>跳行时发出提示音</target>
       </segment>
     </unit>
     <unit id="2e4defaf-fbde-4fa7-85e8-7267af9b5df8">
       <notes>
         <note appliesTo="source">line: 4329</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This setting controls whether NVDA plays a short beep when too many new lines arrive before they can all be reported.</source>
-        <target>This setting controls whether NVDA plays a short beep when too many new lines arrive before they can all be reported.</target>
+        <target>此设置用于控制当新行过多、来不及全部朗读时，NVDA 是否播放提示音。</target>
       </segment>
     </unit>
     <unit id="f7af3c51-c7e0-453a-b6b0-60e8d0c25fd8">
       <notes>
         <note appliesTo="source">line: 4330</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The beep indicates that some lines were skipped, and becomes slightly longer as more lines are skipped.</source>
-        <target>The beep indicates that some lines were skipped, and becomes slightly longer as more lines are skipped.</target>
+        <target>该提示音表示部分行被跳过，且随着跳过的行数增加，提示音会略微变长。</target>
       </segment>
     </unit>
     <unit id="dc6db480-4671-41f7-9683-98ddcbfc861e">
@@ -33860,9 +33860,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Options | Disabled, Enabled </source>
-        <target> Options | Disabled, Enabled </target>
+        <target> 选项 | 已禁用、已启用 </target>
       </segment>
     </unit>
     <unit id="81b04197-d2a1-4e26-be46-b9a90d09527a">
@@ -33871,9 +33871,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Default | Enabled </source>
-        <target> Default | Enabled </target>
+        <target> 默认 | 已启用 </target>
       </segment>
     </unit>
     <unit id="00ff1ee8-413e-4344-808d-4021c850aaff">
@@ -34638,18 +34638,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4458</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can use a context menu to edit or remove rules.</source>
-        <target>You can use a context menu to edit or remove rules.</target>
+        <target>您可通过上下文菜单来编辑或删除规则。</target>
       </segment>
     </unit>
     <unit id="cc2e4789-4271-4fe2-8158-fe9b2d983caa">
       <notes>
         <note appliesTo="source">line: 4459</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can also use the `delete` key to remove a selected rule.</source>
-        <target>You can also use the `delete` key to remove a selected rule.</target>
+        <target>您还可按`删除`键删除选中的规则。</target>
       </segment>
     </unit>
     <unit id="2d219db3-f9dd-40a8-b669-94e7610bae84">
@@ -35319,36 +35319,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4550</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can also use the context menu to add, change, or remove gestures for each command.</source>
-        <target>You can also use the context menu to add, change, or remove gestures for each command.</target>
+        <target>您还可通过上下文菜单为每个命令添加、修改或移除按键和手势。</target>
       </segment>
     </unit>
     <unit id="886b8f47-91a7-4ec9-a06f-9118447241db">
       <notes>
         <note appliesTo="source">line: 4551</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To change an input gesture of a command, select the gesture and press the change button.</source>
-        <target>To change an input gesture of a command, select the gesture and press the change button.</target>
+        <target>要更改命令的按键或手势，请选择该手势并按“修改”按钮。</target>
       </segment>
     </unit>
     <unit id="907a0dd2-848c-4601-b529-6c5577fb97b9">
       <notes>
         <note appliesTo="source">line: 4552</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Then, perform the new input gesture you wish to associate; that will replace the old one.</source>
-        <target>Then, perform the new input gesture you wish to associate; that will replace the old one.</target>
+        <target>然后，执行您希望关联的新按键或手势；其将替换旧手势。</target>
       </segment>
     </unit>
     <unit id="6947698e-bd51-4207-80b8-9bc42fedbadb">
       <notes>
         <note appliesTo="source">line: 4553</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To remove a gesture from a command, you can press the `delete` key or the remove button.</source>
-        <target>To remove a gesture from a command, you can press the `delete` key or the remove button.</target>
+        <target>要从命令中移除按键或手势，您可按`删除`键或“移除”按钮。</target>
       </segment>
     </unit>
     <unit id="d25f2974-f029-4c43-a344-97cec52bd230">
@@ -35703,18 +35703,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4617</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can also manage profiles by opening the context menu on a profile in the list to rename or delete it.</source>
-        <target>You can also manage profiles by opening the context menu on a profile in the list to rename or delete it.</target>
+        <target>您还可通过上下文菜单来重命名或删除配置。</target>
       </segment>
     </unit>
     <unit id="133743d7-7c45-4bc1-86fd-a30063b383ab">
       <notes>
         <note appliesTo="source">line: 4618</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Additionally, you can press `f2` to rename the selected profile or `delete` to remove it.</source>
-        <target>Additionally, you can press `f2` to rename the selected profile or `delete` to remove it.</target>
+        <target>或者，按 `F2` 重命名选中的配置，按`删除`键将其删除。</target>
       </segment>
     </unit>
     <unit id="bfd9e6dd-357a-45f2-97f1-3d87ee284994">
@@ -39484,9 +39484,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 5204</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Help Tech displays (formerly Handy Tech)</source>
-        <target>Help Tech displays (formerly Handy Tech)</target>
+        <target>Help Tech 点显器（原 Handy Tech）</target>
       </segment>
     </unit>
     <unit id="593fd58a-7e22-4df3-8f67-fea0c7faf82b">
@@ -39859,9 +39859,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `multiRouting` </source>
-        <target> Select range from first up to last braille cell | `multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `多重定位` </target>
       </segment>
     </unit>
     <unit id="32d4e54f-a099-49ef-b180-abeee6ceb762">
@@ -40264,7 +40264,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Move braille display to next line |leftRockerBarDown, rightRockerBarDown</source>
         <target>移动点显器到下一行 | leftRockerBarDown, rightRockerBarDown</target>
       </segment>
@@ -40504,9 +40504,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `multiRouting` </source>
-        <target> Select range from first up to last braille cell | `multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `多重定位` </target>
       </segment>
     </unit>
     <unit id="8ab64c83-f10c-4afb-b04e-594f7df9e9fc">
@@ -40812,27 +40812,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#HandyTech}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Help Tech Displays</source>
-        <target>Help Tech Displays</target>
+        <target>Help Tech 点显器</target>
       </segment>
     </unit>
     <unit id="65f10b2c-e5a4-4205-9227-97b516f33a54">
       <notes>
         <note appliesTo="source">line: 5358</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA supports most displays from [Help Tech](https://www.helptech.de/) (formerly Handy Tech) when connected via USB, serial port or Bluetooth.</source>
-        <target>NVDA supports most displays from [Help Tech](https://www.helptech.de/) (formerly Handy Tech) when connected via USB, serial port or Bluetooth.</target>
+        <target>NVDA 支持大多数 [Help Tech](https://www.helptech.de/)（原 Handy Tech）点显器，可通过 USB、串行端口或蓝牙连接。</target>
       </segment>
     </unit>
     <unit id="0aca4c8f-c7f8-4b34-9737-e39932386bd3">
       <notes>
         <note appliesTo="source">line: 5360</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The following displays are no longer supported:</source>
-        <target>The following displays are no longer supported:</target>
+        <target>以下点显器不再受支持：</target>
       </segment>
     </unit>
     <unit id="a4f5d9b1-8723-4b0b-973f-bff09a897783">
@@ -40860,27 +40860,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 5364</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Modular displays with firmware version 1.13 or lower.</source>
-        <target>Modular displays with firmware version 1.13 or lower.</target>
+        <target>固件版本为 1.13 或更低的模块化点显器。</target>
       </segment>
     </unit>
     <unit id="33b14f66-032e-4666-bd7e-56b3b40c8609">
       <notes>
         <note appliesTo="source">line: 5365</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please note that the firmware of these displays can be updated.</source>
-        <target>Please note that the firmware of these displays can be updated.</target>
+        <target>请注意，这些点显器的固件可以更新。</target>
       </segment>
     </unit>
     <unit id="7a4da984-e2eb-4a40-a9be-a4c64b3cf5af">
       <notes>
         <note appliesTo="source">line: 5367</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Following are the key assignments for Help Tech displays with NVDA.</source>
-        <target>Following are the key assignments for Help Tech displays with NVDA.</target>
+        <target>以下是 Help Tech 点显器使用 NVDA 时的按键分配。</target>
       </segment>
     </unit>
     <unit id="e0af6e14-583d-4915-a94a-afaba0eecbd4">
@@ -40964,9 +40964,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `multiRouting` </source>
-        <target> Select range from first up to last braille cell | `multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `多重定位` </target>
       </segment>
     </unit>
     <unit id="bb4210a8-c1f1-4a4b-91f2-aba4c4816c2f">
@@ -41493,9 +41493,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `multiRouting` </source>
-        <target> Select range from first up to last braille cell | `multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `多重定位` </target>
       </segment>
     </unit>
     <unit id="72e24c2e-a0b4-4245-a9b4-4ea8c08a901b">
@@ -42148,9 +42148,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `multiRouting` </source>
-        <target> Select range from first up to last braille cell | `multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `多重定位` </target>
       </segment>
     </unit>
     <unit id="4d36c134-cc87-45ab-bd07-4fa34ce40b37">
@@ -42324,9 +42324,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#HumanWareBrailliantKeyAssignmentForBI32BI40AndB80}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Key assignments for Brailliant BI 32, BI 40, B 80, BI 20X and BI 40X</source>
-        <target>Key assignments for Brailliant BI 32, BI 40, B 80, BI 20X and BI 40X</target>
+        <target>Brailliant BI 32、BI 40、B 80、BI 20X 和 BI 40X 的按键分配</target>
       </segment>
     </unit>
     <unit id="1d969676-0e1c-4d9f-82a0-fc22b6de776d">
@@ -42346,9 +42346,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Move braille display to previous line | `c1` </source>
-        <target> Move braille display to previous line | `c1` </target>
+        <target> 移动点显器到上一行 | `c1` </target>
       </segment>
     </unit>
     <unit id="bc01c026-5698-4500-aad0-b6f9073e7e9b">
@@ -42357,9 +42357,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Scroll braille display back | `c2` </source>
-        <target> Scroll braille display back | `c2` </target>
+        <target> 向后滚动盲文显示 | `c2` </target>
       </segment>
     </unit>
     <unit id="562e23a8-f121-4c1f-95e8-07c5d5f132f5">
@@ -42368,9 +42368,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Move braille display to next line | `c3` </source>
-        <target> Move braille display to next line | `c3` </target>
+        <target> 移动点显器到下一行 | `c3` </target>
       </segment>
     </unit>
     <unit id="106f8a8e-3eb6-446e-a87b-b6f8b9768711">
@@ -42379,9 +42379,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Scroll braille display forward | `c5` </source>
-        <target> Scroll braille display forward | `c5` </target>
+        <target> 向前滚动盲文显示 | `c5` </target>
       </segment>
     </unit>
     <unit id="dc19df25-e546-47ff-852a-1cf39989ef6d">
@@ -42527,9 +42527,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5598</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>On Windows 11 systems where this driver cannot be installed, Braille Sense and Braille EDGE displays connected via USB can still be detected if you instead install the [HIMS WinUSB driver package](https://hims-product.s3.ap-northeast-2.amazonaws.com/Util/HIMS_Braille_Driver_V3_1.exe).</source>
-        <target>On Windows 11 systems where this driver cannot be installed, Braille Sense and Braille EDGE displays connected via USB can still be detected if you instead install the [HIMS WinUSB driver package](https://hims-product.s3.ap-northeast-2.amazonaws.com/Util/HIMS_Braille_Driver_V3_1.exe).</target>
+        <target>在无法安装此驱动程序的 Windows 11 系统上，若改为安装 [HIMS WinUSB 驱动程序包](https://hims-product.s3.ap-northeast-2.amazonaws.com/Util/HIMS_Braille_Driver_V3_1.exe)，则仍可检测到通过 USB 连接的 Braille Sense 和 Braille EDGE 点显器。</target>
       </segment>
     </unit>
     <unit id="9cce24b5-bbd6-4ec2-ac8d-ec574b21d502">
@@ -43711,9 +43711,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `multiRouting` </source>
-        <target> Select range from first up to last braille cell | `multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `多重定位` </target>
       </segment>
     </unit>
     <unit id="5df4e006-d83f-46b3-a9ae-1b4c0e5d23ac">
@@ -48761,9 +48761,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `home1+multiRouting`, `home2+multiRouting` </source>
-        <target> Select range from first up to last braille cell | `home1+multiRouting`, `home2+multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `home1+多重定位`、`home2+多重定位` </target>
       </segment>
     </unit>
     <unit id="cd4d4f54-920c-4856-9458-2a8f7f17552f">
@@ -49286,9 +49286,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | `multiRouting` </source>
-        <target> Select range from first up to last braille cell | `multiRouting` </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | `多重定位` </target>
       </segment>
     </unit>
     <unit id="e5443642-4760-484a-8f91-c0e8e58faeff">
@@ -49443,9 +49443,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Select range from first up to last braille cell | multiple routing set 1 keys </source>
-        <target> Select range from first up to last braille cell | multiple routing set 1 keys </target>
+        <target> 选中第一个到最后一个盲文单元格的文本 | 多重定位 set 1 keys </target>
       </segment>
     </unit>
     <unit id="2da4f244-8e9a-4d8d-8755-617bd598b7bf">
@@ -50151,36 +50151,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#DownloadingNVDA}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Downloading NVDA</source>
-        <target>Downloading NVDA</target>
+        <target>下载 NVDA</target>
       </segment>
     </unit>
     <unit id="5e2af35b-29b7-4289-b706-44db5c88b772">
       <notes>
         <note appliesTo="source">line: 6545</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The recommended place to download NVDA is from the NV Access download page at [https://www.nvaccess.org/download/](https://www.nvaccess.org/download/).</source>
-        <target>The recommended place to download NVDA is from the NV Access download page at [https://www.nvaccess.org/download/](https://www.nvaccess.org/download/).</target>
+        <target>推荐从 NV Access 的 Download 页面 [https://www.nvaccess.org/download/](https://www.nvaccess.org/download/) 下载 NVDA。译者注：简体中文用户也可从 NVDA 中文站的“下载 NVDA”页面 [https://nvdacn.com/index.php/nvda.html](https://nvdacn.com/index.php/nvda.html) 进行下载。</target>
       </segment>
     </unit>
     <unit id="75c1fc38-30be-4ff7-97dd-167d57d6d0cd">
       <notes>
         <note appliesTo="source">line: 6547</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA can also be downloaded and installed using the Windows Package Manager (WinGet).</source>
-        <target>NVDA can also be downloaded and installed using the Windows Package Manager (WinGet).</target>
+        <target>还可使用 Windows 程序包管理器 (WinGet) 下载和安装 NVDA。</target>
       </segment>
     </unit>
     <unit id="0c110b3a-4430-4868-a11e-019817948920">
       <notes>
         <note appliesTo="source">line: 6548</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Run the following command in Command Prompt (`cmd`) or PowerShell to install the latest version of NVDA:</source>
-        <target>Run the following command in Command Prompt (`cmd`) or PowerShell to install the latest version of NVDA:</target>
+        <target>在命令提示符（`cmd`）或 PowerShell 中运行以下命令，以安装最新版本的 NVDA：</target>
       </segment>
     </unit>
     <unit id="428a65f2-4d38-4392-97e4-eeb1b12332cf">
@@ -50196,9 +50196,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 6552</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>To install beta or RC versions, use the following commands:</source>
-        <target>To install beta or RC versions, use the following commands:</target>
+        <target>要安装测试版或 RC 版，请使用以下命令：</target>
       </segment>
     </unit>
     <unit id="1147a0af-bc9c-40a6-bb09-22378c048c40">
