@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/hkatic/clock/c4310f38028b0713404ce37e40b44cfefb387e25/readme.md">
     <skeleton>
 # $(ID:91ce517d-7fae-43b4-97ba-e0c64fba0974)
@@ -410,9 +410,9 @@ $(ID:ac70785b-55d3-4996-9b4b-222f90c13d5d)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Speech and sound: the chime plays with precision timing so it finishes exactly on the minute boundary, then the current time is spoken immediately. This means you hear the chime counting down to the exact moment, followed by the spoken time — similar to a broadcast time signal.</source>
-        <target>Speech and sound: the chime plays with precision timing so it finishes exactly on the minute boundary, then the current time is spoken immediately. This means you hear the chime counting down to the exact moment, followed by the spoken time — similar to a broadcast time signal.</target>
+        <target>语音和音效：报时音以精确的时序播放，使其恰好在整分钟边界结束，随后立即朗读当前时间。这意味着您会听到报时音倒计时至确切时刻，紧接着是朗读的时间——类似于广播报时信号。</target>
       </segment>
     </unit>
     <unit id="252f995b-32d9-4c7d-b400-ea0e42a56ff8">
@@ -420,9 +420,9 @@ $(ID:ac70785b-55d3-4996-9b4b-222f90c13d5d)
         <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>BBC pips (clock_cuckoo7): when selected as the chime sound, the five short pips lead into a sixth long pip that lands on the minute boundary, faithfully reproducing a broadcast-style time signal. The spoken time accompanies the sixth pip.</source>
-        <target>BBC pips (clock_cuckoo7): when selected as the chime sound, the five short pips lead into a sixth long pip that lands on the minute boundary, faithfully reproducing a broadcast-style time signal. The spoken time accompanies the sixth pip.</target>
+        <target>BBC 报时音（clock_cuckoo7）：当选择此选项作为报时音时，五声短促的报时音之后会响起第六声长音，后者正好落在整分钟边界上，忠实再现了广播式报时信号。朗读的时间与第六声哔声同时进行。</target>
       </segment>
     </unit>
     <unit id="9a540933-0353-41cb-81e0-56130c2ccce8">
@@ -430,9 +430,9 @@ $(ID:ac70785b-55d3-4996-9b4b-222f90c13d5d)
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Sound only: plays the chime at the minute boundary. The BBC pips retains its precision timing so the sixth pip still lands on :00.</source>
-        <target>Sound only: plays the chime at the minute boundary. The BBC pips retains its precision timing so the sixth pip still lands on :00.</target>
+        <target>仅音效：在整分钟边界播放报时音。BBC 报时音保持其精确时序，因此第六声报时音仍然落在 :00 时刻。</target>
       </segment>
     </unit>
     <unit id="efb1bf6e-953e-4358-8403-4a95c68f3309">
@@ -440,9 +440,9 @@ $(ID:ac70785b-55d3-4996-9b4b-222f90c13d5d)
         <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Speech only: speaks the current time at the minute boundary with no chime.</source>
-        <target>Speech only: speaks the current time at the minute boundary with no chime.</target>
+        <target>仅语音：在整分钟边界朗读当前时间，不播放报时音。</target>
       </segment>
     </unit>
     <unit id="7effdf73-ce79-4fd4-8336-ab5e1aecf297">
@@ -450,9 +450,9 @@ $(ID:ac70785b-55d3-4996-9b4b-222f90c13d5d)
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Clock chime sound (enabled if interval is not off): Select the default clock chime sound for intermediate minutes and the top of the hour.</source>
-        <target>Clock chime sound (enabled if interval is not off): Select the default clock chime sound for intermediate minutes and the top of the hour.</target>
+        <target>报时音（仅当报时间隔未关闭时生效）：选择用于中间分钟和整点的默认报时音。</target>
       </segment>
     </unit>
     <unit id="96a03f2f-eee2-405b-9fb3-ab0fe0f0fc8b">
