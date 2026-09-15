@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-21 03:08+0000\n"
-"PO-Revision-Date: 2026-07-21 05:33\n"
+"POT-Creation-Date: 2026-09-15 02:20+0000\n"
+"PO-Revision-Date: 2026-09-15 09:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -899,103 +899,103 @@ msgstr "表情，星星"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
 #. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#: addon\globalPlugins\emoticons\__init__.py:109
-#: addon\globalPlugins\emoticons\__init__.py:452
+#: addon\globalPlugins\emoticons\__init__.py:111
+#: addon\globalPlugins\emoticons\__init__.py:454
 msgid "Emoji"
 msgstr "表情符号"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
 #. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#: addon\globalPlugins\emoticons\__init__.py:113
+#: addon\globalPlugins\emoticons\__init__.py:115
 msgid "Emoticon"
 msgstr "表情"
 
 #. Translators: the name of a submenu.
-#: addon\globalPlugins\emoticons\__init__.py:144
+#: addon\globalPlugins\emoticons\__init__.py:146
 msgid "&Emoticons"
 msgstr "表情符号插件(&E)"
 
 #. Translators: the name for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:149
+#: addon\globalPlugins\emoticons\__init__.py:151
 msgid "&Insert emoticon..."
 msgstr "插入表情(&I)..."
 
 #. Translators: the tooltip text for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:151
+#: addon\globalPlugins\emoticons\__init__.py:153
 msgid "Shows a dialog to insert a smiley"
 msgstr "显示一个对话框来插入表情"
 
 #. Translators: the name for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:157
+#: addon\globalPlugins\emoticons\__init__.py:159
 msgid "In&sert symbol..."
 msgstr "插入符号(&I)..."
 
 #. Translators: the tooltip text for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:159
+#: addon\globalPlugins\emoticons\__init__.py:161
 msgid "Shows a dialog to insert a symbol"
 msgstr "显示一个对话框来插入符号"
 
 #. Translators: the name for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:165
+#: addon\globalPlugins\emoticons\__init__.py:167
 msgid "&Emoticons dictionary..."
 msgstr "&表情字典..."
 
 #. Translators: the tooltip text for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:167
+#: addon\globalPlugins\emoticons\__init__.py:169
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "显示一个词典对话框来自定义表情"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:214
+#: addon\globalPlugins\emoticons\__init__.py:216
 msgid "Toggles on and off the announcement of emoticons."
 msgstr "在表情朗读的开关之间切换。"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
-#: addon\globalPlugins\emoticons\__init__.py:224
+#: addon\globalPlugins\emoticons\__init__.py:226
 msgid "Emoticons off."
 msgstr "表情朗读关闭。"
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
-#: addon\globalPlugins\emoticons\__init__.py:229
+#: addon\globalPlugins\emoticons\__init__.py:231
 msgid "Emoticons on."
 msgstr "表情朗读开启。"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:233
+#: addon\globalPlugins\emoticons\__init__.py:235
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "显示一个对话框来选择您希望粘贴的表情。"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:242
+#: addon\globalPlugins\emoticons\__init__.py:244
 msgid "Shows a dialog to select a symbol you want to paste."
 msgstr "显示一个对话框来选择您希望粘贴的符号。"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:250
+#: addon\globalPlugins\emoticons\__init__.py:252
 msgid "Shows the Emoticons dictionary dialog."
 msgstr "显示“表情”字典对话框。"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:258
+#: addon\globalPlugins\emoticons\__init__.py:260
 msgid "Shows the Emoticons settings."
 msgstr "显示表情设置。"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:277
+#: addon\globalPlugins\emoticons\__init__.py:279
 msgid "Shows the symbol positioned where the review cursor is located."
 msgstr "显示位于浏览光标所在位置的符号。"
 
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
-#: addon\globalPlugins\emoticons\__init__.py:288
-#: addon\globalPlugins\emoticons\__init__.py:324
+#: addon\globalPlugins\emoticons\__init__.py:290
+#: addon\globalPlugins\emoticons\__init__.py:326
 msgid "No symbol replacement"
 msgstr "没有可替换的符号"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command.
 #. Example: "Character: ? Replacement: question"
-#: addon\globalPlugins\emoticons\__init__.py:292
-#: addon\globalPlugins\emoticons\__init__.py:328
+#: addon\globalPlugins\emoticons\__init__.py:294
+#: addon\globalPlugins\emoticons\__init__.py:330
 #, python-brace-format
 msgid "Character: {}\n"
 "Replacement: {}"
@@ -1003,150 +1003,150 @@ msgstr "字符: {}\n"
 "替换: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#: addon\globalPlugins\emoticons\__init__.py:295
+#: addon\globalPlugins\emoticons\__init__.py:297
 #, python-brace-format
 msgid "Symbol at the review cursor position ({})"
 msgstr "在此光标位置插入符号 ({})"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:300
+#: addon\globalPlugins\emoticons\__init__.py:302
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "显示光标所在位置的符号。"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#: addon\globalPlugins\emoticons\__init__.py:331
+#: addon\globalPlugins\emoticons\__init__.py:333
 #, python-brace-format
 msgid "Symbol at the caret position ({})"
 msgstr "在此位置需要插入的符号 ({})"
 
 #. Translators: Title of the dialog.
-#: addon\globalPlugins\emoticons\__init__.py:396
+#: addon\globalPlugins\emoticons\__init__.py:398
 msgid "Insert emoticon"
 msgstr "插入表情"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
 #. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
-#: addon\globalPlugins\emoticons\__init__.py:405
-#: addon\globalPlugins\emoticons\__init__.py:607
+#: addon\globalPlugins\emoticons\__init__.py:407
+#: addon\globalPlugins\emoticons\__init__.py:609
 msgid "&Filter:"
 msgstr "过滤字符(&F)："
 
 #. Translators: A radio button to choose all types of emoticons.
-#: addon\globalPlugins\emoticons\__init__.py:410
+#: addon\globalPlugins\emoticons\__init__.py:412
 msgid "&All"
 msgstr "全部(&A)"
 
 #. Translators: A radio button to choose only standard emoticons.
-#: addon\globalPlugins\emoticons\__init__.py:413
+#: addon\globalPlugins\emoticons\__init__.py:415
 msgid "&Standard"
 msgstr "标准(&S)"
 
 #. Translators: A radio button to choose only emojis.
-#: addon\globalPlugins\emoticons\__init__.py:416
+#: addon\globalPlugins\emoticons\__init__.py:418
 msgid "Emoj&is"
 msgstr "表情(&I)"
 
 #. Translators: Label for the smileys list.
-#: addon\globalPlugins\emoticons\__init__.py:421
+#: addon\globalPlugins\emoticons\__init__.py:423
 msgid "&List of smilies"
 msgstr "表情列表(&L)"
 
 #. Translators: Column which specifies the name  of emoticon.
-#: addon\globalPlugins\emoticons\__init__.py:427
+#: addon\globalPlugins\emoticons\__init__.py:429
 msgid "Name"
 msgstr "名称"
 
 #. Translators: Column which specifies the type of emoticon (standard or emoji).
-#: addon\globalPlugins\emoticons\__init__.py:429
+#: addon\globalPlugins\emoticons\__init__.py:431
 msgid "Type"
 msgstr "类型"
 
 #. Translators: The column which contains the characters of the emoticon.
-#: addon\globalPlugins\emoticons\__init__.py:431
+#: addon\globalPlugins\emoticons\__init__.py:433
 msgid "Characters"
 msgstr "字符"
 
 #. Translators: Label for standard emoticons in the list.
-#: addon\globalPlugins\emoticons\__init__.py:455
+#: addon\globalPlugins\emoticons\__init__.py:457
 msgid "Standard"
 msgstr "标准"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
-#: addon\globalPlugins\emoticons\__init__.py:484
+#: addon\globalPlugins\emoticons\__init__.py:486
 msgid "There is not any emoticon selected."
 msgstr "没有选择任何表情。"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
-#: addon\globalPlugins\emoticons\__init__.py:494
+#: addon\globalPlugins\emoticons\__init__.py:496
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "表情已经拷贝到剪贴板，已经为您准备好粘贴。"
 
 #. Translators: Message when the emoticon couldn't be copied.
-#: addon\globalPlugins\emoticons\__init__.py:497
+#: addon\globalPlugins\emoticons\__init__.py:499
 msgid "Cannot copy smiley."
 msgstr "无法复制表情。"
 
 #. Translators: Title for Emoticons dictionary dialog.
-#: addon\globalPlugins\emoticons\__init__.py:527
+#: addon\globalPlugins\emoticons\__init__.py:529
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "表情字典 (%s)"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
-#: addon\globalPlugins\emoticons\__init__.py:541
+#: addon\globalPlugins\emoticons\__init__.py:543
 msgid "Rese&t"
 msgstr "重置(&T)"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
-#: addon\globalPlugins\emoticons\__init__.py:546
+#: addon\globalPlugins\emoticons\__init__.py:548
 msgid "Save and e&xport dictionary"
 msgstr "保存并输出到词典(&X)"
 
 #. Translators: This is the label for the Insert Symbol dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: addon\globalPlugins\emoticons\__init__.py:598
+#: addon\globalPlugins\emoticons\__init__.py:600
 #, python-format
 msgid "Insert Symbol (%s)"
 msgstr "插入符号(%s)"
 
 #. Translators: The label for a button in the Insert symbol dialog.
-#: addon\globalPlugins\emoticons\__init__.py:633
+#: addon\globalPlugins\emoticons\__init__.py:635
 msgid "&Add"
 msgstr "添加(&A)"
 
 #. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
-#: addon\globalPlugins\emoticons\__init__.py:637
+#: addon\globalPlugins\emoticons\__init__.py:639
 msgid "Symbols to &copy:"
 msgstr "复制符号(&C)："
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#: addon\globalPlugins\emoticons\__init__.py:673
+#: addon\globalPlugins\emoticons\__init__.py:675
 msgid "Symbol copied to clipboard, ready for you to paste."
 msgstr "符号已经拷贝到剪贴板，已经为您准备好粘贴。"
 
 #. Translators: Message when the symbol couldn't be copied.
-#: addon\globalPlugins\emoticons\__init__.py:676
+#: addon\globalPlugins\emoticons\__init__.py:678
 msgid "Cannot copy symbol."
 msgstr "无法复制符号。"
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:687
+#: addon\globalPlugins\emoticons\__init__.py:689
 msgid "&Activate speaking of emoticons:"
 msgstr "打开或关闭朗读表情符号(&A)："
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:692
+#: addon\globalPlugins\emoticons\__init__.py:694
 msgid "Speak add-on emojis"
 msgstr "在朗读前提示为“表情”"
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:696
+#: addon\globalPlugins\emoticons\__init__.py:698
 msgid "Ensure speaking of inserted symbols"
 msgstr "确保读出插入的符号"
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:700
+#: addon\globalPlugins\emoticons\__init__.py:702
 msgid "&Remove not used dictionaries"
 msgstr "删除未使用的词典(&R)"
 
@@ -1178,6 +1178,7 @@ msgstr "用表情名称朗读表情符号。"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
-msgid "* Compatible with NVDA 2026.1."
-msgstr "* 与 NVDA 2026.1 兼容。"
+msgid "* Fixed the announcement of the focused item when moving to the desktop, which stops working correctly in NVDA 2026.2.\n"
+"* Updates to translations.\n"
+msgstr ""
 
