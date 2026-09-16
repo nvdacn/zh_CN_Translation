@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/face84b8ba7b4ea2b9c8042cc96e6f0aa84dc997/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
@@ -183,7 +183,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>M: memory (used and total space for both physical and virtual RAM)</source>
         <target>M：内存（物理内存和虚拟内存的使用情况）</target>
       </segment>
@@ -251,7 +251,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA+Shift+2/5: memory (NVDA+Shift+5 is an alternative to NVDA+Shift+2 when the latter keyboard combination cannot be performed)</source>
         <target>NVDA+Shift+2/5：内存（当 NVDA+Shift+2 这一组合键无法执行时，可使用 NVDA+Shift+5 作为替代）</target>
       </segment>
@@ -369,7 +369,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA will play a sound and report a message whenever connecting to or disconnecting from wireless networks.</source>
         <target>NVDA会在连接或断开无线网络时发出声音并显示消息。</target>
       </segment>
@@ -409,7 +409,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Settings</source>
         <target>设置</target>
       </segment>
@@ -418,7 +418,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
       <notes>
         <note appliesTo="source">line: 54</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can configure the following resource usage reporting options from NVDA settings screen under Resource Monitor category:</source>
         <target>您可在 NVDA 设置对话框的“资源监控器”类别配置朗读以下资源使用情况的选项：</target>
       </segment>
@@ -428,7 +428,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>GPU temperature unit: select the temperature unit reported as part of the GPU information (Celcius or Fahrenheit).</source>
         <target>GPU 温度单位：选择作为 GPU 信息一部分朗读的温度单位（摄氏度或华氏度）。</target>
       </segment>
