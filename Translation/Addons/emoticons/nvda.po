@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-09-15 02:20+0000\n"
-"PO-Revision-Date: 2026-09-15 09:50\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-09-16 20:19+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: emoticons.pot\n"
 "X-Crowdin-File-ID: 176\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Translators: Script category for commands to insert symbols.
 #: addon\globalPlugins\copySymbol\__init__.py:17
@@ -997,9 +998,11 @@ msgstr "没有可替换的符号"
 #: addon\globalPlugins\emoticons\__init__.py:294
 #: addon\globalPlugins\emoticons\__init__.py:330
 #, python-brace-format
-msgid "Character: {}\n"
+msgid ""
+"Character: {}\n"
 "Replacement: {}"
-msgstr "字符: {}\n"
+msgstr ""
+"字符: {}\n"
 "替换: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
@@ -1178,7 +1181,9 @@ msgstr "用表情名称朗读表情符号。"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
-msgid "* Fixed the announcement of the focused item when moving to the desktop, which stops working correctly in NVDA 2026.2.\n"
+msgid ""
+"* Fixed the announcement of the focused item when moving to the desktop, which stops working correctly in NVDA 2026.2.\n"
 "* Updates to translations.\n"
 msgstr ""
-
+"* 修复了在移动到桌面时朗读焦点项的问题，该功能在 NVDA 2026.2 中无法正常工作。\n"
+"* 更新了翻译。\n"
