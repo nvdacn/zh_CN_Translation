@@ -6512,7 +6512,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Several performance improvements have been made to reduce lag and improve responsiveness.</source>
-        <target>为减少延迟并提高响应速度，已进行多项性能改进。</target>
+        <target>进行了多项性能改进，以减少延迟并提高响应速度。</target>
       </segment>
     </unit>
     <unit id="adce0405-1565-4652-a883-6f7b7d5526d6">
@@ -6521,7 +6521,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA now fetches and caches more information about controls in the background, improving performance in controls such as combo boxes and File Explorer.</source>
-        <target>NVDA 现在会在后台获取并缓存更多控件信息，从而改善其在组合框和文件资源管理器等场景的性能。</target>
+        <target>NVDA 现在会在后台获取并缓存更多控件信息，从而提高在组合框和文件资源管理器等界面中的性能。</target>
       </segment>
     </unit>
     <unit id="4efe35f5-9864-433a-a345-545badea3660">
@@ -6530,7 +6530,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer causes File Explorer or other applications to crash when NVDA is exited or restarted.</source>
-        <target>NVDA 在退出或重启时不再导致文件资源管理器或其他应用程序崩溃。</target>
+        <target>修复了退出或重启 NVDA 偶发导致文件资源管理器或其他应用程序崩溃的问题。</target>
       </segment>
     </unit>
     <unit id="c0f43226-5250-4fc1-a15d-adf52a4abc18">
@@ -6539,7 +6539,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA now recovers more quickly when an application stops responding, and will no longer freeze or flood the log with errors from unresponsive applications.</source>
-        <target>当应用程序停止响应时，NVDA 会更快地恢复，并且不再因无响应的应用程序而冻结或将大量错误信息写入日志。</target>
+        <target>应用程序停止响应时，NVDA 能更快恢复，也不会再因此冻结或向日志写入大量错误信息。</target>
       </segment>
     </unit>
     <unit id="cd779c74-82ee-4db2-8f2e-88a3bec00326">
@@ -6548,7 +6548,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In live text regions, such as terminals, NVDA no longer freezes when substantial amounts of text are dumped to the screen.</source>
-        <target>在实时文本区域（如终端）中，当大量文本输出到屏幕时，NVDA 不再冻结。</target>
+        <target>修复了在终端等实时文本区域中输出大量文本时 NVDA 冻结的问题。</target>
       </segment>
     </unit>
     <unit id="9faf4a8e-2397-4974-b0fe-25a65d7ff3ae">
@@ -6557,7 +6557,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Context menus and keyboard shortcuts have been added to the Configuration Profiles, Input Gestures, and Speech Dictionaries dialogs, making these dialogs easier to use with the keyboard.</source>
-        <target>配置管理、按键与手势和朗读字典对话框已添加上下文菜单和键盘快捷键，使其更易于使用键盘操作。</target>
+        <target>配置管理、按键与手势和朗读字典对话框新增了上下文菜单和键盘快捷键，方便使用键盘操作。</target>
       </segment>
     </unit>
     <unit id="20ee1613-1f5a-4df4-bd87-c445f8466d18">
@@ -6566,7 +6566,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>It is also now possible to change an existing gesture directly in the Input Gestures dialog.</source>
-        <target>还可直接在按键与手势对话框更改现有手势或快捷键。</target>
+        <target>还可直接在按键与手势对话框中更改现有手势或快捷键。</target>
       </segment>
     </unit>
     <unit id="cf23c8c2-8351-425d-8325-3bdf2e212a7f">
@@ -6575,7 +6575,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The dialog used to present browseable messages has been modernized and now better supports resizing, maximizing, and minimizing.</source>
-        <target>对用于呈现浏览模式消息的对话框进行了现代化改进，使其更好地支持调整大小、最大化和最小化。</target>
+        <target>改进了用于显示可浏览消息的对话框，现在更好地支持调整大小、最大化和最小化。</target>
       </segment>
     </unit>
     <unit id="80d56177-a017-4f30-ace2-bc615c490ad8">
@@ -6593,7 +6593,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Sequential two-flick gestures now combine two flicks in quick succession into a single gesture, greatly increasing the number of bindable touch gestures.</source>
-        <target>添加了连续两次滑动手势，将快速连续的两次滑动合并为单个手势，大大增加了可分配的触摸手势数量。</target>
+        <target>新增连续两次滑动手势，可将快速连续的两次滑动合并为一个手势，大大增加可分配的触摸手势数量。</target>
       </segment>
     </unit>
     <unit id="cd2be34b-bb1f-42e1-8639-e6527ee0b9ec">
@@ -6602,7 +6602,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Edge gestures are also now supported, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the center of the screen.</source>
-        <target>还支持边缘手势。从距屏幕任意边缘不超过 15 毫米的位置开始的手势，可单独分配命令，与在屏幕中央执行的同一手势区分开。</target>
+        <target>还支持边缘手势：手势起点距任一屏幕边缘不超过 15 毫米时，可将其与在屏幕中央执行的相同手势分别绑定命令。</target>
       </segment>
     </unit>
     <unit id="b60dd8be-4633-4cbb-b02b-cf26d56aa266">
@@ -6611,7 +6611,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>A new unassigned command has been added to move the mouse cursor to the center of the magnified view.</source>
-        <target>新增了一个未分配的命令，用于将鼠标光标移动到放大视图中心。</target>
+        <target>新增了一个未分配的命令，用于将鼠标光标移动到放大视图的中心。</target>
       </segment>
     </unit>
     <unit id="be6f6e58-2fee-4525-9afa-5d511eefb3b9">
@@ -6638,7 +6638,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>eSpeak NG has been updated with added support for Ligurian and Abkhaz.</source>
-        <target>还更新了 eSpeak NG，新增了对利古里亚语和阿布哈兹语的支持。</target>
+        <target>eSpeak NG 已更新，新增了对利古里亚语和阿布哈兹语的支持。</target>
       </segment>
     </unit>
     <unit id="318cd8bd-a6a9-41c4-acba-a070f1db104f">
@@ -6688,7 +6688,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Word segmentation can also use the Windows built-in ICU library for boundary detection, improving navigation for Japanese and emoji. (#20343, #20494, @LeonarddeR)</source>
-        <target>还可使用 Windows 内置的 ICU 库进行词边界检测，从而改善对日语和表情符号的导航。(#20343, #20494, @LeonarddeR)</target>
+        <target>分词时还可使用 Windows 内置的 ICU 库检测词边界，从而改善日语和表情符号的导航。(#20343, #20494, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="3c743a08-d57e-4c4c-ba93-9dec5aaf8ccc">
@@ -6698,7 +6698,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>By default, ICU is preferred over the legacy Windows segmentation wherever available, while Chinese word segmentation takes precedence for Chinese text.</source>
-        <target>默认优先使用 ICU 分词，ICU 不可用时再使用旧版 Windows 分词。对于中文文本，则优先使用中文分词。</target>
+        <target>默认情况下，只要 ICU 可用，就优先使用 ICU 进行分词；处理中文文本时，则优先使用中文分词。</target>
       </segment>
     </unit>
     <unit id="6f923b97-c5a9-4ab0-ab99-8d948e0d0c5a">
@@ -6738,7 +6738,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>A new "Say all reads by" speech setting lets you choose whether say all reads by sentence, paragraph or line; say all now reads by sentence by default where supported. (#13420, #9179, #13971, @LeonarddeR)</source>
-        <target>新增了“全文朗读方式”语音设置，可选择按句、按段或按行进行全文朗读。如果支持按句朗读，则默认采用这一方式。(#13420, #9179, #13971, @LeonarddeR)</target>
+        <target>新增了“全文朗读方式”语音设置，可选择按句、按段或按行朗读；在支持按句朗读的情况下，全文朗读默认按句朗读。(#13420, #9179, #13971, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="6843a405-e8c1-4af6-9461-ca7057489f38">
@@ -6758,7 +6758,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The duration of indentation beeps can now be configured via a new "Indent tone duration (ms)" spin control in the Document Formatting settings panel. (#19353, @Mubashir78)</source>
-        <target>可通过文档格式设置面板中新增的“缩进提示音时长（毫秒）”微调控件来配置缩进提示音的持续时间。(#19353, @Mubashir78)</target>
+        <target>文档格式设置面板新增了“缩进提示音时长（毫秒）”微调控件，可用于配置缩进提示音的持续时间。(#19353, @Mubashir78)</target>
       </segment>
     </unit>
     <unit id="3970447c-f86e-474c-9e7b-e3138dcc65f2">
@@ -6768,7 +6768,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Sentence navigation (`alt+upArrow` and `alt+downArrow`) now works in many more situations, such as in most browse mode documents and in several edit controls. (#18901, @LeonarddeR)</source>
-        <target>句子导航（`Alt+上光标` 和 `Alt+下光标`）在更多情况下可用，例如在大多数浏览模式文档和多个编辑控件中。(#18901, @LeonarddeR)</target>
+        <target>句子导航（`Alt+上光标` 和 `Alt+下光标`）现在可用于更多场景，例如大多数浏览模式文档和一些编辑控件。(#18901, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="92a5f119-a07a-49a5-b4d6-2e72a45cb096">
@@ -6798,7 +6798,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>On supported braille displays, pressing multiple routing keys simultaneously can now be bound to a new "multi routing" gesture. (#20001, @LeonarddeR)</source>
-        <target>在受支持的点显器上，同时按下多个定位盲文单元按键现在可以触发新的多重定位手势。(#20001, @LeonarddeR)</target>
+        <target>支持多键定位的点显器现在可以通过同时按下多个定位键生成新的“多键定位”手势，并可为其绑定命令。(#20001, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="18de3986-b674-461a-88d0-bc7665d69e6e">
@@ -6808,7 +6808,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The "select range" command, which selects the text from the first up to the last pressed routing key, is bound to this gesture by default on supporting drivers.</source>
-        <target>“选择范围”命令会选中从按下的第一个定位键到按下的最后一个定位键之间的文本，在支持的驱动上默认绑定到此手势。</target>
+        <target>支持多键定位的驱动默认将此手势绑定到“选择范围”命令，用于选中从第一个按下的定位键到最后一个按下的定位键之间的文本。</target>
       </segment>
     </unit>
     <unit id="79f036b9-7919-4d3a-9935-bb0a3403b69e">
@@ -6818,7 +6818,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Drivers with built-in support for multi routing: ALVA, Albatross (only when combined with `home1` or `home2`), Baum (and compatible), Freedom Scientific Focus/PAC Mate, HumanWare Brailliant BI/B series, Handy Tech, NLS eReader Zoomax, Seika Notetaker, and Standard HID Braille displays.</source>
-        <target>内置支持多重定位的驱动：ALVA、Albatross（仅当与 `home1` 或 `home2` 组合使用时）、Baum（及兼容设备）、Freedom Scientific Focus/PAC Mate、HumanWare Brailliant BI/B 系列、Handy Tech、NLS eReader Zoomax、Seika Notetaker 以及标准 HID 点显器。</target>
+        <target>内置支持多键定位的驱动：ALVA、Albatross（仅当与 `home1` 或 `home2` 组合使用时）、Baum（及兼容设备）、Freedom Scientific Focus/PAC Mate、HumanWare Brailliant BI/B 系列、Handy Tech、NLS eReader Zoomax、Seika Notetaker 以及标准 HID 点显器。</target>
       </segment>
     </unit>
     <unit id="251e4e8f-3e51-4fc8-841a-b41ef767269e">
@@ -6828,7 +6828,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Support for the myBraille family of Help Tech Braille displays has been added. (#20426)</source>
-        <target>添加了对 myBraille 系列 Help Tech 点显器的支持。(#20426)</target>
+        <target>添加了对 Help Tech myBraille 系列点显器的支持。(#20426)</target>
       </segment>
     </unit>
     <unit id="4127d524-7424-4ed7-b507-f543d63f18e3">
@@ -6848,7 +6848,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In modes that show a continuation mark, when a word is cut across rows, the last cell of the row now shows a continuation mark (braille dots 7-8) so it is clear that the word continues on the next row.</source>
-        <target>在显示续行标记的模式下，如果一个单词需要跨行显示，当前行的最后一个单元格现在会显示续行标记（7、8 点），提示该单词会在下一行继续显示。</target>
+        <target>在显示续行标记的模式下，如果一个单词需要跨行显示，该行的最后一个单元格会显示续行标记（盲文点 7 和 8），明确提示该单词将在下一行继续。</target>
       </segment>
     </unit>
     <unit id="34012521-126d-495a-b571-f24c016cec33">
@@ -6858,7 +6858,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The "At word or syllable boundaries" option uses hyphenation dictionaries to split long words at syllable boundaries when they do not fit on the display.</source>
-        <target>“单词或音节边界处”选项在长单词无法完整显示时使用断词词典按音节边界进行拆分。</target>
+        <target>长单词无法完整显示时，“单词或音节边界处”选项会使用断词词典，按音节边界拆分单词。</target>
       </segment>
     </unit>
     <unit id="9a8a6d46-9328-4213-a26f-27cd9b399ef9">
@@ -6878,7 +6878,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Added sequential two-flick touch gestures that combine two flicks performed in quick succession into a single gesture, increasing the number of touch gestures that can be bound to scripts. (#19938, @kefaslungu)</source>
-        <target>添加了连续两次滑动手势，将快速连续的两次滑动合并为单个手势，增加了可分配给脚本的触摸手势数量。(#19938, @kefaslungu)</target>
+        <target>新增连续两次滑动手势，可将快速连续的两次滑动合并为一个手势，增加可分配给脚本的触摸手势数量。(#19938, @kefaslungu)</target>
       </segment>
     </unit>
     <unit id="786d4d45-bf97-4f00-be7e-603f79c66680">
@@ -6888,7 +6888,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Twelve combinations are recognised: opposite-direction pairs (e.g. flick right then flick left) and perpendicular L-shaped pairs (e.g. flick right then flick up).</source>
-        <target>可识别十二种组合：相反方向组合（如先向右再向左滑动）和垂直 L 形组合（如先向右再向上滑动）。</target>
+        <target>可识别十二种组合：方向相反的组合（如先向右再向左滑动），以及两个方向相互垂直的 L 形组合（如先向右再向上滑动）。</target>
       </segment>
     </unit>
     <unit id="b9001a67-f47f-4daa-a924-2ab65288a2a0">
@@ -6898,7 +6898,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The two flicks can be performed either by lifting the finger between strokes or as a single continuous swipe with a sharp change in direction.</source>
-        <target>完成这两次滑动时，可以先滑动一次，抬起手指后再滑动一次；也可以不抬起手指，在连续滑动过程中迅速改变方向。</target>
+        <target>完成这两次滑动时，可以先滑动一次，抬起手指后再滑动一次；也可以不抬起手指，在连续滑动过程中快速改变方向。</target>
       </segment>
     </unit>
     <unit id="57a6fc22-433e-44d0-b287-6379cd84c841">
@@ -6908,7 +6908,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Added edge gesture support for touch screens, allowing gestures that begin within 15 mm of any screen edge to be bound independently from the same gesture performed in the centre of the screen. (#19938, @kefaslungu)</source>
-        <target>添加了触摸屏边缘手势支持。从距屏幕任意边缘不超过 15 毫米的位置开始的手势，可单独分配命令，与在屏幕中央执行的同一手势区分开。(#19938, @kefaslungu)</target>
+        <target>还支持边缘手势：手势起点距任一屏幕边缘不超过 15 毫米时，可将其与在屏幕中央执行的相同手势分别绑定命令。(#19938, @kefaslungu)</target>
       </segment>
     </unit>
     <unit id="9cd26474-d066-43f9-aaa7-a43da27116e3">
@@ -6937,7 +6937,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>  Note that the Windows taskbar may override gestures on an edge.</source>
-        <target>  请注意，Windows 任务栏可能会覆盖某个屏幕边缘的手势。</target>
+        <target>  请注意，Windows 任务栏可能会接管屏幕边缘的手势。</target>
       </segment>
     </unit>
     <unit id="65f4d95d-d641-49a7-8aaf-d163472db736">
@@ -6986,7 +6986,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When enabled, native selection mode is automatically turned on in browse mode documents which support it, such as in Mozilla Firefox and browsers based on Chromium 134 or newer.</source>
-        <target>启用后，在支持该功能的浏览模式文档中（例如 Mozilla Firefox 和基于 Chromium 134 或更高版本的浏览器），会自动启用应用原生选择。</target>
+        <target>启用此选项后，会在支持该功能的浏览模式文档中自动开启应用原生选择，例如 Mozilla Firefox 和基于 Chromium 134 或更高版本的浏览器中的文档。</target>
       </segment>
     </unit>
     <unit id="41271a2c-39ff-4dba-9c04-4fa8e377964f">
@@ -7006,7 +7006,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When navigating math on the web, Visual Highlight now follows the current subpart of the expression using the browse mode cursor highlighter. (#19191, @RyanMcCleary)</source>
-        <target>在网页上导航数学内容时，视觉高亮功能会使用浏览模式光标高亮指示器跟随表达式的当前部分。(#19191, @RyanMcCleary)</target>
+        <target>在网页上导航数学内容时，视觉高亮功能会使用浏览模式光标高亮指示器，高亮显示表达式中当前浏览的部分。(#19191, @RyanMcCleary)</target>
       </segment>
     </unit>
     <unit id="5583fc6f-1535-4b42-90ad-e1ba757adb8e">
@@ -7016,7 +7016,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The Find dialog in browse mode can now remember previously searched terms in a search history combo box, which can be turned off via a new "Keep search history" browse mode setting. (#8482, @marlon-sousa, @LeonarddeR)</source>
-        <target>浏览模式中的“查找”对话框会记住之前搜索过的词条，可通过新增的“保留搜索历史记录”浏览模式设置将其关闭。(#8482, @marlon-sousa, @LeonarddeR)</target>
+        <target>浏览模式中的“查找”对话框会在搜索历史记录组合框中保留之前搜索过的词条。可通过浏览模式设置中新增的“保留搜索历史记录”选项关闭此功能。(#8482, @marlon-sousa, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="251fe4ca-6acb-483c-a12a-28f340753c5b">
@@ -7106,7 +7106,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Browseable message dialogs now better support resizing, maximizing and minimizing, with text wrapping to the dialog width. (#20429, @Cary-rowen)</source>
-        <target>该对话框更好地支持了调整大小、最大化和最小化，文本会按对话框宽度自动换行。(#20429, @Cary-rowen)</target>
+        <target>该对话框现在能更好地支持调整大小、最大化和最小化，文本会按对话框宽度自动换行。(#20429, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="b3093759-dd3c-4d04-ad47-a64849aaff3b">
@@ -7136,7 +7136,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Reduced the number of cross-process UI Automation calls when processing events, reporting focus changes, reporting objects under the mouse and rendering browse mode content, by caching more properties and batching focus property fetches. (#20608, @LeonarddeR)</source>
-        <target>通过缓存更多属性并批量获取焦点属性，减少了处理事件、读出焦点更改、读出鼠标下对象以及渲染浏览模式内容时的跨进程 UI Automation 调用次数。(#20608, @LeonarddeR)</target>
+        <target>NVDA 会缓存更多属性，并批量获取焦点属性，从而减少处理事件、读出焦点变化和鼠标指针下的对象以及渲染浏览模式内容时的跨进程 UIA 调用次数。(#20608, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="b14dcc4a-0252-4e77-90ee-65c2de794d34">
@@ -7186,7 +7186,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Notepad++, NVDA now continues to report IME composition text in speech and braille while selecting or navigating within Chinese IME composition. (#14140, #14152, @keyang556)</source>
-        <target>修复了在 Notepad++ 中，NVDA 在中文输入法候选状态下进行选择或导航时，无法通过语音和盲文提示候选字的问题。(#14140, #14152, @keyang556)</target>
+        <target>修复了在 Notepad++ 中选择或浏览中文输入法的上屏字串时，NVDA 无法通过语音和盲文提示字串内容的问题。(#14140, #14152, @keyang556)</target>
       </segment>
     </unit>
     <unit id="a4be2ad5-2f11-4ba3-9520-bf41f2c3f9bc">
@@ -7196,7 +7196,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Fixed UAC slider not being read when changing values with arrow keys in UI Automation. (#9356, @tareh7z)</source>
-        <target>修复了在 UI Automation 中使用光标键更改 UAC 滑块值时，该值无法被朗读的问题。(#9356, @tareh7z)</target>
+        <target>修复了使用 UIA 时，按光标键更改 UAC 滑块值后，NVDA 无法朗读新值的问题。(#9356, @tareh7z)</target>
       </segment>
     </unit>
     <unit id="17fc7478-3516-488e-8210-f704050a6e98">
@@ -7235,7 +7235,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Focus is no longer silent on list items in Qt-based applications (such as Telegram Desktop) when the item exposes the UIA SelectionItem pattern without an associated action interface. (#20255, @rezabakhshilaktasaraei)</source>
-        <target>修复了在基于 Qt 的应用程序（如 Telegram Desktop）中，当列表项暴露 UIA SelectionItem 模式但没有关联的操作接口时，焦点落在列表项上却不朗读的问题。(#20255, @rezabakhshilaktasaraei)</target>
+        <target>修复了在基于 Qt 的应用程序（如 Telegram Desktop）中，焦点落在某些列表项上时 NVDA 不朗读的问题。这些列表项暴露了 UIA SelectionItem 模式，但没有关联的操作接口。(#20255, @rezabakhshilaktasaraei)</target>
       </segment>
     </unit>
     <unit id="f52ccc5e-8f05-4539-9087-1430ed0a8c57">
@@ -7245,7 +7245,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA now reports checked ToolStrip menu items in .NET Framework Windows Forms applications using UI Automation. (#19335, @Cary-rowen)</source>
-        <target>修复了 NVDA 在使用 UI Automation 时，无法读出 .NET Framework Windows Forms 应用程序中已选中的 ToolStrip 菜单项的问题。(#19335, @Cary-rowen)</target>
+        <target>修复了使用 UIA 时，NVDA 无法读出 .NET Framework Windows Forms 应用程序中 ToolStrip 菜单项的“已选中”状态的问题。(#19335, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="a0be213c-e739-4557-ba9c-479ec4a146c7">
@@ -7255,7 +7255,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Object descriptions are now reported for .NET Framework Windows Forms ToolStrip menu items exposed through UI Automation. (#20486, @Cary-rowen)</source>
-        <target>修复了无法读出通过 UI Automation 暴露的 .NET Framework Windows Forms ToolStrip 菜单项的对象描述的问题。(#20486, @Cary-rowen)</target>
+        <target>修复了使用 UIA 时，NVDA 无法读出 .NET Framework Windows Forms 应用程序中 ToolStrip 菜单项的对象描述的问题。(#20486, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="a1f6adfb-d396-4e3e-bc20-c324713b6cc4">
@@ -7275,7 +7275,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Remote Access: NVDA now reports when connecting as the controlled computer fails, while continuing to retry the connection in the background. (#19103, @danielw97)</source>
-        <target>远程访问：NVDA 会在连接被控计算机失败时发出提示，同时在后台继续重试连接。(#19103, @danielw97)</target>
+        <target>远程访问：修复了以被控计算机身份建立连接失败时，NVDA 没有提示的问题。同时 NVDA 仍会在后台继续重试连接。(#19103, @danielw97)</target>
       </segment>
     </unit>
     <unit id="05689ace-e796-4a26-99c3-d601f74866ae">
@@ -7315,7 +7315,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA should no longer cause File Explorer or other applications to crash when NVDA is exited or restarted. (#16207)</source>
-        <target>修复了退出或重启 NVDA 时会导致文件资源管理器或其他应用程序崩溃的问题。(#16207)</target>
+        <target>修复了退出或重启 NVDA 时，偶发导致文件资源管理器或其他应用程序崩溃的问题。(#16207)</target>
       </segment>
     </unit>
     <unit id="d4a07f72-4227-482b-bb24-855155bb0304">
@@ -7355,7 +7355,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer floods its log with errors while Windows is locked and a browse mode document keeps updating in the background, such as a playing video in Mozilla Firefox. (#18861, @bramd)</source>
-        <target>修复了在 Windows 锁定且浏览模式文档在后台持续更新（例如在 Mozilla Firefox 播放视频）时，NVDA 将大量错误写入日志的问题。(#18861, @bramd)</target>
+        <target>修复了 Windows 锁定后，浏览模式文档仍在后台持续更新（例如在 Mozilla Firefox 中播放视频）时，NVDA 向日志写入大量错误的问题。(#18861, @bramd)</target>
       </segment>
     </unit>
     <unit id="914281f2-8d2a-44c3-8732-103cb2ae19d3">
@@ -7394,7 +7394,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The HID keyboard input simulation setting for ALVA braille displays is now remembered across reconnects and restarts. (#20455, @Cary-rowen)</source>
-        <target>修复了 ALVA 点显器的 HID 键盘输入模拟设置无法在重新连接和重启后保留的问题。(#20455, @Cary-rowen)</target>
+        <target>修复了 ALVA 点显器的 HID 键盘输入模拟设置在重新连接点显器或重启 NVDA 后无法保留的问题。(#20455, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="34770fe3-23ce-49e6-b602-7452fd8d90ed">
@@ -7414,7 +7414,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>HIMS Braille Sense and Braille EDGE displays connected via USB now work on systems where the older HIMS USB driver cannot be installed, such as Windows 11. (#20555, @KihunJang1981)</source>
-        <target>修复了通过 USB 连接的 HIMS Braille Sense 和 Braille EDGE 点显器在无法安装旧版 HIMS USB 驱动的系统（如 Windows 11）上无法工作的问题。(#20555, @KihunJang1981)</target>
+        <target>修复了在 Windows 11 等无法安装旧版 HIMS USB 驱动的系统上，HIMS Braille Sense 和 Braille EDGE 点显器通过 USB 连接后无法使用的问题。(#20555, @KihunJang1981)</target>
       </segment>
     </unit>
     <unit id="b0942205-7f95-4363-80f4-7bf1ba760c95">
@@ -7434,7 +7434,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA no longer briefly disconnects and re-detects the braille display on desktop switches that do not enter the secure desktop, such as when switching between a Remote Desktop session and the local machine. (#18810, #20550, @LeonarddeR)</source>
-        <target>修复了 NVDA 在未进入安全桌面的桌面切换（例如在远程桌面会话和本地计算机之间切换）时，会短暂断开并重新检测点显器的问题。(#18810, #20550, @LeonarddeR)</target>
+        <target>修复了切换桌面但未进入安全桌面时（例如在远程桌面会话和本地计算机之间切换），NVDA 会短暂断开并重新检测点显器的问题。(#18810, #20550, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="72c915cd-df44-4aa9-a840-f8e3af168bc5">
@@ -7494,7 +7494,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Mozilla Firefox, reporting annotation details now works correctly in focus mode on controls which are not editable text. (#20208, @jcsteh)</source>
-        <target>修复了在 Mozilla Firefox 的焦点模式下无法正常朗读非可编辑文本控件详细信息摘要的问题。(#20208, @jcsteh)</target>
+        <target>修复了在 Mozilla Firefox 的焦点模式下，NVDA 无法正常朗读非可编辑文本控件的详细信息摘要的问题。(#20208, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="1b3326d7-c061-4fc1-8c5d-bc6e8816d025">
@@ -7524,7 +7524,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In live text regions, such as terminals, NVDA no longer freezes when substantial amounts of text are dumped to the screen. (#20177, #20649, @ethindp, @codeofdusk)</source>
-        <target>修复了在实时文本区域（如终端）中，当大量文本输出到屏幕时 NVDA 冻结的问题。(#20177, #20649, @ethindp, @codeofdusk)</target>
+        <target>修复了终端等实时文本区域中大量文本输出到屏幕时 NVDA 会无响应的问题。(#20177, #20649, @ethindp, @codeofdusk)</target>
       </segment>
     </unit>
     <unit id="3c1839d1-c67e-4dd9-b2ae-666d53179a7d">
@@ -7534,7 +7534,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>By default, when lines are skipped in a large text flood, NVDA emits a beep proportional to the length of the skipped material.</source>
-        <target>默认情况下，当因输出大量文本而跳过某些行时，NVDA 会发出与跳过内容长度成比例的提示音。</target>
+        <target>默认情况下，NVDA 因文本输出量过大而跳过部分行时，会根据跳过的行数发出时长不同的提示音。</target>
       </segment>
     </unit>
     <unit id="f4b223a9-8ffe-4e08-96a4-65c51ef5011c">
@@ -7553,7 +7553,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Windows Terminal, NVDA is less likely to report stale characters when moving the caret in delayed remote sessions such as SSH. (#19503, @sheldon-im)</source>
-        <target>缓解了在 Windows 终端的远程会话（如 SSH）中移动光标后，NVDA 因光标位置更新延迟而仍朗读原位置的字符的问题。(#19503, @sheldon-im)</target>
+        <target>缓解了在 Windows 终端的远程会话（如 SSH）中移动光标时，NVDA 因光标位置更新延迟而朗读旧字符的问题。(#19503, @sheldon-im)</target>
       </segment>
     </unit>
     <unit id="e12e8f49-4727-492a-ad7d-82bd7944ec59">
@@ -7563,7 +7563,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Windows Terminal, mouse tracking now reports the line of text under the mouse pointer. (#20448, @DataTriny)</source>
-        <target>修复了鼠标跟踪无法在 Windows  终端读出鼠标指针所在行文本的问题。(#20448, @DataTriny)</target>
+        <target>修复了在 Windows 终端中，鼠标导航无法读出鼠标指针所在行文本的问题。(#20448, @DataTriny)</target>
       </segment>
     </unit>
     <unit id="1f931e8f-2e83-4210-9806-9c01f3a35edc">
@@ -7583,7 +7583,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The Add-on Store no longer becomes unresponsive when navigating the list of add-ons quickly, such as by holding down an arrow key. (#17351, @christopherpross)</source>
-        <target>修复了快速浏览插件列表（例如按住光标键）时，插件商店会无响应的问题。(#17351, @christopherpross)</target>
+        <target>修复了快速浏览插件列表（例如按住光标键）时，插件商店停止响应的问题。(#17351, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="c368e9ef-0ea5-40c1-9089-275e44525e5b">
@@ -7603,7 +7603,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The actions button can now be used when selecting multiple add-ons in the Add-on Store to perform batch actions, instead of just via the context menu in the add-ons list. (#19971, @amirmahdifard)</source>
-        <target>修复了在插件商店中选择多个插件时，无法使用操作按钮执行批量操作，只能通过插件列表的上下文菜单执行的问题。(#19971, @amirmahdifard)</target>
+        <target>修复了在插件商店中选择多个插件时，无法通过操作按钮执行批量操作的问题。此前，批量操作只能通过插件列表的上下文菜单执行。(#19971, @amirmahdifard)</target>
       </segment>
     </unit>
     <unit id="57e6033f-ea2d-45d2-925d-4c5352350090">
@@ -7632,7 +7632,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Chromium based browsers, NVDA no longer reports invalid math formatting for ARIA `role="math"` elements with an author-provided accessible name and no MathML. (#20727, @cary-rowen)</source>
-        <target>修复了在基于 Chromium 的浏览器中，对于带有作者提供的可访问名称且没有 MathML 的 ARIA `role="math"` 元素，NVDA 会朗读无效数学格式的问题。(#20727, @cary-rowen)</target>
+        <target>修复了在基于 Chromium 的浏览器中，NVDA 读取带有作者提供的可访问名称、但不含 MathML 的 ARIA `role="math"` 元素时，错误提示“发现无效的数学格式”的问题。(#20727, @cary-rowen)</target>
       </segment>
     </unit>
     <unit id="241d703e-0e2e-4b76-bea6-7516629410bc">
