@@ -7939,7 +7939,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 182</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The remote Python console, available when running NVDA from source, works again. (#20626, @LeonarddeR)</source>
         <target>从源代码运行 NVDA 时，远程 Python 控制台现已恢复正常。(#20626, @LeonarddeR)</target>
       </segment>
@@ -7949,7 +7949,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 183</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The UIA remote operations framework now supports cache requests. (#20621, @LeonarddeR)</source>
         <target>UIA 远程操作框架现已支持缓存请求。(#20621, @LeonarddeR)</target>
       </segment>
@@ -7959,7 +7959,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 184</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A remote operation can create a cache request with `ra.newCacheRequest`, add properties and patterns to it, and populate the cache of a remote element with `RemoteElement.populateCache`.</source>
         <target>远程操作可使用 `ra.newCacheRequest` 创建缓存请求、添加属性和模式，并通过 `RemoteElement.populateCache` 填充远程元素的缓存。</target>
       </segment>
@@ -7969,7 +7969,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 185</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Elements returned or yielded from the operation carry the populated cache.</source>
         <target>操作返回或生成的元素会携带已填充的缓存。</target>
       </segment>
@@ -7979,7 +7979,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 186</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Such a cache stores default values for properties the element does not support; the reserved "not supported" value is not preserved.</source>
         <target>此类缓存会为元素不支持的属性存储默认值；预留的“不支持”值不会保留。</target>
       </segment>
@@ -7989,7 +7989,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 187</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>UIA remote operations can now return `UInt32`, `Int64`, `Single` and `Double` values, as well as the reserved "not supported" value for property fetches that ignore defaults. (#20621, @LeonarddeR)</source>
         <target>UIA 远程操作现在可以返回 `UInt32`、`Int64`、`Single` 和 `Double` 值；对于忽略默认值的属性获取操作，还可以返回预留的“不支持”值。(#20621, @LeonarddeR)</target>
       </segment>
@@ -7999,7 +7999,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 188</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>A remote variant can be tested for the reserved "not supported" value inside the operation with `RemoteVariant.isNotSupported`.</source>
         <target>可在操作中使用 `RemoteVariant.isNotSupported` 检查远程变体是否为预留的“不支持”值。</target>
       </segment>
@@ -8009,7 +8009,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 189</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`mathPres.interactWithMathMl` now accepts an optional `sourceObj` argument.</source>
         <target>`mathPres.interactWithMathMl` 现在接受可选的 `sourceObj` 参数。</target>
       </segment>
@@ -8018,7 +8018,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 190</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Math presentation providers can override `MathPresentationProvider.interactWithMathMlFromSource` to use the source object when starting interaction.</source>
         <target>数学呈现提供程序可以重写 `MathPresentationProvider.interactWithMathMlFromSource`，以便在开始交互时使用源对象。</target>
       </segment>
@@ -8027,7 +8027,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 191</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The default implementation forwards to `interactWithMathMl`, preserving compatibility with existing providers. (#20372, @RyanMcCleary)</source>
         <target>默认实现会调用 `interactWithMathMl`，以保持与现有提供程序的兼容性。(#20372, @RyanMcCleary)</target>
       </segment>
@@ -8037,7 +8037,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 192</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Vision enhancement providers can register with `vision.handler.extensionPoints.post_mathNavigation` to receive the screen rectangle of the current math navigation position, or `None` when no rectangle is available. (#20372, @RyanMcCleary)</source>
         <target>视觉增强提供程序可以向 `vision.handler.extensionPoints.post_mathNavigation` 注册，以接收当前数学导航位置在屏幕上的矩形区域；没有可用矩形时则接收 `None`。(#20372, @RyanMcCleary)</target>
       </segment>
@@ -8047,7 +8047,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 193</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The local Git hook runner has been switched from [pre-commit](https://pre-commit.com/) to [prek](https://prek.j178.dev/), a faster, drop-in compatible alternative. (#20305, @LeonarddeR)</source>
         <target>本地 Git 钩子运行器已从 [pre-commit](https://pre-commit.com/) 切换到 [prek](https://prek.j178.dev/)，后者速度更快，并且可以直接替代前者。(#20305, @LeonarddeR)</target>
       </segment>
@@ -8057,7 +8057,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 194</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The [pre-commit.ci](https://pre-commit.ci/) integration will be dropped entirely;.</source>
         <target>将完全移除 [pre-commit.ci](https://pre-commit.ci/) 集成。</target>
       </segment>
@@ -8066,7 +8066,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 195</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Linting and autofixing now run via GitHub Actions, using an autofix-or-fail workflow plus an automatic `prek auto-update` workflow.</source>
         <target>  代码检查和自动修复现在通过 GitHub Actions 运行，使用“自动修复，否则失败”工作流以及自动 `prek auto-update` 工作流。</target>
       </segment>
@@ -8076,7 +8076,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 196</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Developers who previously ran `pre-commit install` should run `uv run prek install -f` once to replace the installed Git hook.</source>
         <target>之前运行过 `pre-commit install` 的开发者应运行一次 `uv run prek install -f`，以替换已安装的 Git 钩子。</target>
       </segment>
@@ -8086,7 +8086,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 197</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`config.configSections.registerSection` and `config.configSections.unregisterSection` methods can be used to register and unregister configuration sections. (#7467, @nvdaes)</source>
         <target>可以使用 `config.configSections.registerSection` 和 `config.configSections.unregisterSection` 方法注册和注销配置节。(#7467, @nvdaes)</target>
       </segment>
@@ -8096,7 +8096,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 198</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In the `installTasks` module, add-on developers can add a spec for each configuration section to be registered.</source>
         <target>插件开发者可以在 `installTasks` 模块中为每个待注册的配置节添加配置规范。</target>
       </segment>
@@ -8106,7 +8106,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 199</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `config.configSections.registerSection` method can be used in the `onInstall` function.</source>
         <target>可以在 `onInstall` 函数中使用 `config.configSections.registerSection` 方法。</target>
       </segment>
@@ -8116,7 +8116,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 200</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To register a section to be used in the normal configuration, regardless of profiles, the `isBaseOnly` parameter should be set to `True`.</source>
         <target>如果要注册一个用于常规配置且不受配置文件影响的节，应将 `isBaseOnly` 参数设为 `True`。</target>
       </segment>
@@ -8126,7 +8126,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 201</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `braille` module is now a package, split into focused submodules such as `braille.constants`, `braille.labels`, `braille.formatting`, `braille.regions`, `braille.display`, `braille.buffers`, `braille.brailleHandler` and `braille.extensions`. (#12772, #20458, @LeonarddeR)</source>
         <target>`braille` 模块现在是一个包，并按功能拆分为多个子模块，例如 `braille.constants`、`braille.labels`、`braille.formatting`、`braille.regions`、`braille.display`、`braille.buffers`、`braille.brailleHandler` 和 `braille.extensions`。(#12772, #20458, @LeonarddeR)</target>
       </segment>
@@ -8136,7 +8136,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 202</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `brailleInput` module has also moved into this package as `braille.input`, split into `braille.input.constants`, `braille.input.gesture` and `braille.input.inputHandler`. (#12772, #20509, @LeonarddeR)</source>
         <target>`brailleInput` 模块也已以 `braille.input` 的形式移入此包，并拆分为 `braille.input.constants`、`braille.input.gesture` 和 `braille.input.inputHandler`。(#12772, #20509, @LeonarddeR)</target>
       </segment>
@@ -8146,7 +8146,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 203</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added `gui.message.HtmlMessageDialog`, a `MessageDialog` subclass that renders a full HTML document in a `wx.html2.WebView`. (#18878, @LeonarddeR)</source>
         <target>新增 `gui.message.HtmlMessageDialog`，这是 `MessageDialog` 的子类，可在 `wx.html2.WebView` 中呈现完整的 HTML 文档。(#18878, @LeonarddeR)</target>
       </segment>
@@ -8156,7 +8156,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 204</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The WebView backend can be overridden via the `_webViewBackend` class attribute, which defaults to the IE backend.</source>
         <target>可以通过 `_webViewBackend` 类属性覆盖 WebView 后端；该属性默认为 IE 后端。</target>
       </segment>
@@ -8166,7 +8166,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 205</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>JavaScript in the message can trigger NVDA actions by navigating to `nvda-action://&lt;action&gt;` URLs; `close` is handled internally and other actions can be registered with `registerAction`.</source>
         <target>消息中的 JavaScript 可以通过访问 `nvda-action://&lt;action&gt;` URL 触发 NVDA 操作；`close` 由内部处理，其他操作可通过 `registerAction` 注册。</target>
       </segment>
@@ -8176,7 +8176,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 206</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`gui.message.MessageDialog` gained the protected `_createMessageControl` and `_wrapMessageControl` hooks, so subclasses can use a different control for the message body. (#18878, @LeonarddeR)</source>
         <target>`gui.message.MessageDialog` 新增了受保护的 `_createMessageControl` 和 `_wrapMessageControl` 钩子，子类可以使用不同的控件显示消息正文。(#18878, @LeonarddeR)</target>
       </segment>
@@ -8186,7 +8186,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 207</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added [cppjieba](https://github.com/yanyiwu/cppjieba) as a git submodule for Chinese word segmentation. (#18548, @CrazySteve0605)</source>
         <target>新增 [cppjieba](https://github.com/yanyiwu/cppjieba) Git 子模块，用于中文分词。(#18548, @CrazySteve0605)</target>
       </segment>
@@ -8196,7 +8196,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 208</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`braille.BrailleDisplayGesture` now exposes a `cellIndexes` list attribute, replacing the single-valued `routingIndex`. (#20001, @LeonarddeR)</source>
         <target>`braille.BrailleDisplayGesture` 现在提供 `cellIndexes` 列表属性，用于替代只能存储单个值的 `routingIndex`。(#20001, @LeonarddeR)</target>
       </segment>
@@ -8206,7 +8206,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 209</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Drivers should set `cellIndexes` directly instead of `routingIndex`.</source>
         <target>驱动应直接设置 `cellIndexes`，不再设置 `routingIndex`。</target>
       </segment>
@@ -8216,7 +8216,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 210</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When a gesture addresses more than one cell, its `id` should be set to `"multiRouting"` (or be built via the new `BrailleDisplayGesture.idForCellCount(n)` helper).</source>
         <target>当一个手势涉及多个单元格时，应将其 `id` 设为 `"multiRouting"`，也可以使用新的 `BrailleDisplayGesture.idForCellCount(n)` 辅助函数生成该值。</target>
       </segment>
@@ -8226,7 +8226,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 211</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`cellIndexes` is not limited to routing keys; touch-sensitive cells (e.g. Handy Tech Active Tactile Control) can reuse the same attribute.</source>
         <target>`cellIndexes` 不限于定位键；触摸感应单元格（例如 Handy Tech Active Tactile Control）也可以复用此属性。</target>
       </segment>
@@ -8236,7 +8236,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 212</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added a new `hwIo.ble` submodule for Bluetooth Low Energy device discovery and I/O, exposing a `Scanner` singleton (with a `deviceDiscovered` extension point), a `Ble` class implementing the `IoBase` contract, and a `findDeviceByAddress` helper.</source>
         <target>新增 `hwIo.ble` 子模块，用于发现蓝牙低功耗设备并进行输入/输出；该模块提供 `Scanner` 单例（包含 `deviceDiscovered` 扩展点）、实现 `IoBase` 接口的 `Ble` 类，以及 `findDeviceByAddress` 辅助函数。</target>
       </segment>
@@ -8245,7 +8245,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 213</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Built on top of [Bleak](https://bleak.readthedocs.io/) and the `_asyncioEventLoop` module. (#19838, @bramd)</source>
         <target>该模块基于 [Bleak](https://bleak.readthedocs.io/) 和 `_asyncioEventLoop` 模块构建。(#19838, @bramd)</target>
       </segment>
@@ -8255,7 +8255,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 214</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Handlers registered on an `extensionPoints` registrar (`Action`, `Filter`, `Decider`, `AccumulatingDecider`, `Chain`) may now register or unregister handlers while being called, without raising `RuntimeError: OrderedDict mutated during iteration`. (#20545, @LeonarddeR)</source>
         <target>`extensionPoints` 注册器（`Action`、`Filter`、`Decider`、`AccumulatingDecider`、`Chain`）中的处理程序现在可以在调用过程中注册或注销处理程序，而不会引发 `RuntimeError: OrderedDict mutated during iteration`。(#20545, @LeonarddeR)</target>
       </segment>
@@ -8265,7 +8265,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 215</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`HandlerRegistrar.handlers` now iterates over a snapshot of the registered handlers taken before the first handler is yielded.</source>
         <target>`HandlerRegistrar.handlers` 现在会在生成第一个处理程序前获取已注册处理程序的快照，并遍历该快照。</target>
       </segment>
@@ -8275,7 +8275,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 216</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed a handle leak in `hwIo.Bulk.__init__`: if the read pipe opened successfully but the write pipe failed to open, the read handle was never closed, leaving the device open for the remaining lifetime of the process. (#20555, @KihunJang1981)</source>
         <target>修复了 `hwIo.Bulk.__init__` 中的句柄泄漏问题：如果读取管道成功打开，但写入管道打开失败，读取句柄未被关闭，导致设备在进程剩余的生命周期内一直处于打开状态。(#20555, @KihunJang1981)</target>
       </segment>
@@ -8285,7 +8285,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 217</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`languageHandler.windowsLCIDToLocaleName` no longer consults `locale.windows_locale`, which is unmaintained, incomplete and changes between Python patch releases. (#20589, @LeonarddeR)</source>
         <target>`languageHandler.windowsLCIDToLocaleName` 不再查询 `locale.windows_locale`，因为后者无人维护、信息不完整，且会随 Python 的补丁版本变化。(#20589, @LeonarddeR)</target>
       </segment>
@@ -8295,7 +8295,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 218</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Locale names are now taken from `winKernel.LCIDToLocaleName`, apart from a small set of locale identifiers for which NVDA uses a different language code than Windows reports.</source>
         <target>现在从 `winKernel.LCIDToLocaleName` 获取区域设置名称，但对于少数区域设置标识符，NVDA 使用的语言代码与 Windows 报告的代码不同。</target>
       </segment>
@@ -8305,7 +8305,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 219</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>As a result, some locale identifiers now resolve to a different name, such as `zh_CN` rather than `zh_CHS`, `km_KH` rather than `kh_KH` and `en_JM` rather than `en_JA`.</source>
         <target>因此，部分区域设置标识符现在会解析为不同的名称，例如 `zh_CHS` 现在解析为 `zh_CN`，`kh_KH` 解析为 `km_KH`，`en_JA` 解析为 `en_JM`。</target>
       </segment>
@@ -8315,7 +8315,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 220</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Locale names now carry a script subtag where Windows reports one, such as `sr_LATN_CS` rather than `sr_SP` for LCID 2074.</source>
         <target>如果 Windows 报告了文字子标签，区域设置名称现在会包含该子标签；例如，LCID 2074 对应的名称现在是 `sr_LATN_CS`，而不是 `sr_SP`。</target>
       </segment>
@@ -8325,7 +8325,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 221</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The SAPI 4 and SAPI 5 synthesizers report voice languages through this function as well, so the language of a voice can now be reported for locale identifiers that `locale.windows_locale` did not cover.</source>
         <target>SAPI 4 和 SAPI 5 语音合成器也会通过此函数报告语音语言，因此对于 `locale.windows_locale` 未涵盖的区域设置标识符，现在也可以报告对应的语音语言。</target>
       </segment>
@@ -8335,7 +8335,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 222</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`OffsetsTextInfo` now implements `_getSentenceOffsets` using the Windows built-in ICU library.</source>
         <target>`OffsetsTextInfo` 现在使用 Windows 内置的 ICU 库实现 `_getSentenceOffsets`。</target>
       </segment>
@@ -8344,7 +8344,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 223</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This adds support for `textInfos.UNIT_SENTENCE` to all `TextInfo` implementations based on `OffsetsTextInfo`. (#20603, @LeonarddeR)</source>
         <target>因此，所有基于 `OffsetsTextInfo` 的 `TextInfo` 实现都支持 `textInfos.UNIT_SENTENCE`。(#20603, @LeonarddeR)</target>
       </segment>
@@ -8354,7 +8354,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 224</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For unsupported encodings, or when ICU is unavailable (on Windows versions older than 1703), `_getSentenceOffsets` continues to raise `NotImplementedError`.</source>
         <target>遇到不支持的编码，或者 ICU 不可用时（Windows 版本低于 1703），`_getSentenceOffsets` 仍会引发 `NotImplementedError`。</target>
       </segment>
@@ -8364,7 +8364,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 225</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`louisHelper` is now the only module that performs braille translation. (#20600, @LeonarddeR)</source>
         <target>`louisHelper` 现在是唯一执行盲文翻译的模块。(#20600, @LeonarddeR)</target>
       </segment>
@@ -8374,7 +8374,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 226</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added `louisHelper.TranslationMode` and `louisHelper.Typeform`, holding the translation modes and typeforms NVDA uses.</source>
         <target>新增 `louisHelper.TranslationMode` 和 `louisHelper.Typeform`，用于表示 NVDA 使用的翻译模式和字体属性。</target>
       </segment>
@@ -8383,7 +8383,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 227</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  `braille.Region.rawTextTypeforms` is now annotated as `list[louisHelper.Typeform]`.</source>
         <target>  `braille.Region.rawTextTypeforms` 现在标注为 `list[louisHelper.Typeform]`。</target>
       </segment>
@@ -8392,7 +8392,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 228</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  Plain integers remain compatible at run time.</source>
         <target>  运行时仍兼容普通整数。</target>
       </segment>
@@ -8402,7 +8402,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 229</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added `louisHelper.backTranslate`, which back translates braille cells, given as a list of integers, into text.</source>
         <target>新增 `louisHelper.backTranslate`，可将以整数列表表示的盲文单元格反向翻译为文本。</target>
       </segment>
@@ -8412,7 +8412,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 230</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added a `union` method to `locationHelper.RectLTWH` and `locationHelper.RectLTRB`, which creates a rectangle that contains all the other rectangles. (#20705, @hwf1324)</source>
         <target>为 `locationHelper.RectLTWH` 和 `locationHelper.RectLTRB` 新增 `union` 方法，用于生成包含所有其他矩形的矩形。(#20705, @hwf1324)</target>
       </segment>
@@ -8422,7 +8422,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 231</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `inputCore.decide_handleRawKey` extension point now receives an `injected` keyword argument, which is `True` when the key event was injected by software rather than generated by the keyboard. (#20714, @LeonarddeR)</source>
         <target>`inputCore.decide_handleRawKey` 扩展点现在会接收 `injected` 关键字参数；当按键事件由软件注入而非键盘产生时，该参数为 `True`。(#20714, @LeonarddeR)</target>
       </segment>
@@ -8442,7 +8442,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 235</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `braille.BrailleDisplayGesture.routingIndex` attribute is deprecated.</source>
         <target>`braille.BrailleDisplayGesture.routingIndex` 属性已弃用。</target>
       </segment>
@@ -8451,7 +8451,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 236</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use the `cellIndexes` attribute instead. (#20028, @LeonarddeR)</source>
         <target>请改用 `cellIndexes` 属性。(#20028, @LeonarddeR)</target>
       </segment>
@@ -8461,7 +8461,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 237</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`brailleDisplayDrivers.freedomScientific.RoutingGesture` is deprecated.</source>
         <target>`brailleDisplayDrivers.freedomScientific.RoutingGesture` 已弃用。</target>
       </segment>
@@ -8470,7 +8470,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 238</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `KeyGesture` instead. (#20250, @LeonarddeR)</source>
         <target>请改用 `KeyGesture`。(#20250, @LeonarddeR)</target>
       </segment>
@@ -8480,7 +8480,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 239</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `braille.wordWrap` configuration key is deprecated and bridged to `braille.textWrap`. (#20146, @LeonarddeR)</source>
         <target>`braille.wordWrap` 配置键已弃用，并映射到 `braille.textWrap`。(#20146, @LeonarddeR)</target>
       </segment>
@@ -8490,7 +8490,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 240</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `useUniscribe` attribute of `textInfos.offsets.OffsetsTextInfo` and its subclasses is deprecated, use `charSegFlag` and `wordSegFlag` instead. (#20183)</source>
         <target>`textInfos.offsets.OffsetsTextInfo` 及其子类的 `useUniscribe` 属性已弃用，请改用 `charSegFlag` 和 `wordSegFlag`。(#20183)</target>
       </segment>
@@ -8500,7 +8500,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 241</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In `touchTracker`, the module-level `action_*` string constants are deprecated.</source>
         <target>`touchTracker` 中的模块级 `action_*` 字符串常量已弃用。</target>
       </segment>
@@ -8509,7 +8509,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 242</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use the corresponding `TouchAction` enum members instead (e.g. `TouchAction.TAP`, `TouchAction.FLICK_UP`). (#20086, @kefaslungu)</source>
         <target>请改用相应的 `TouchAction` 枚举成员（例如 `TouchAction.TAP`、`TouchAction.FLICK_UP`）。(#20086, @kefaslungu)</target>
       </segment>
@@ -8519,7 +8519,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 243</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In `touchTracker`, `actionLabels` is deprecated.</source>
         <target>`touchTracker` 中的 `actionLabels` 已弃用。</target>
       </segment>
@@ -8528,7 +8528,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 244</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `TouchAction(value).displayString` instead. (#20086, @kefaslungu)</source>
         <target>请改用 `TouchAction(value).displayString`。(#20086, @kefaslungu)</target>
       </segment>
@@ -8538,7 +8538,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 245</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The `URL_MK_UNIFORM`, `DIALOG_OPTIONS` and `HTMLDLG_*` constants in `ui` are deprecated with no replacement, as the COM-based HTML dialog infrastructure has been removed.</source>
         <target>`ui` 中的 `URL_MK_UNIFORM`、`DIALOG_OPTIONS` 和 `HTMLDLG_*` 常量已弃用且没有替代项，因为基于 COM 的 HTML 对话框支持已移除。</target>
       </segment>
@@ -8547,7 +8547,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 246</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `gui.message.HtmlMessageDialog` instead. (#20251, @LeonarddeR)</source>
         <target>请改用 `gui.message.HtmlMessageDialog`。(#20251, @LeonarddeR)</target>
       </segment>
@@ -8557,7 +8557,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 247</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`languageHandler.LCIDS_TO_TRANSLATED_LOCALES` is deprecated.</source>
         <target>`languageHandler.LCIDS_TO_TRANSLATED_LOCALES` 已弃用。</target>
       </segment>
@@ -8566,7 +8566,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 248</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use `languageHandler.windowsLCIDToLocaleName` or `winKernel.LCIDToLocaleName` instead. (#20589, @LeonarddeR)</source>
         <target>请改用 `languageHandler.windowsLCIDToLocaleName` 或 `winKernel.LCIDToLocaleName`。(#20589, @LeonarddeR)</target>
       </segment>
@@ -8576,7 +8576,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 249</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>`brailleInput.LOUIS_DOTS_IO_START` is deprecated with no replacement, as `louisHelper.backTranslate` takes plain braille cells. (#20666, @LeonarddeR)</source>
         <target>`brailleInput.LOUIS_DOTS_IO_START` 已弃用且没有替代项，因为 `louisHelper.backTranslate` 接受普通盲文单元格。(#20666, @LeonarddeR)</target>
       </segment>
@@ -8586,7 +8586,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 250</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The symbols that moved out of the `braille` module facade when it became a package, as well as the symbols of the `brailleInput` module which is now the `braille.input` package, are deprecated.</source>
         <target>`braille` 模块变为包时移出其对外接口的符号，以及 `brailleInput` 模块（现已成为 `braille.input` 包）中的符号，均已弃用。</target>
       </segment>
@@ -8595,7 +8595,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 251</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Accessing them as `braille.X` or `brailleInput.X` still works but logs a deprecation warning; import them from their new location instead, as listed below. (#20390, #20509, @LeonarddeR)</source>
         <target>仍可通过 `braille.X` 或 `brailleInput.X` 访问这些符号，但会记录弃用警告；请改从下方列出的新位置导入。(#20390, #20509, @LeonarddeR)</target>
       </segment>
@@ -8604,7 +8604,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 253</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | Old location | New location |</source>
         <target>  | 原位置 | 新位置 |</target>
       </segment>
@@ -8613,7 +8613,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 254</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | --- | --- |</source>
         <target>  | --- | --- |</target>
       </segment>
@@ -8622,7 +8622,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 255</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.BrailleDisplayDriver` | `braille.display.driver.BrailleDisplayDriver` |</source>
         <target>  | `braille.BrailleDisplayDriver` | `braille.display.driver.BrailleDisplayDriver` |</target>
       </segment>
@@ -8631,7 +8631,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 256</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.BrailleDisplayGesture` | `braille.display.gesture.BrailleDisplayGesture` |</source>
         <target>  | `braille.BrailleDisplayGesture` | `braille.display.gesture.BrailleDisplayGesture` |</target>
       </segment>
@@ -8640,7 +8640,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 257</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getSerialPorts` | `braille.display.getSerialPorts` |</source>
         <target>  | `braille.getSerialPorts` | `braille.display.getSerialPorts` |</target>
       </segment>
@@ -8649,7 +8649,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 258</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getDisplayList` | `braille.display.getDisplayList` |</source>
         <target>  | `braille.getDisplayList` | `braille.display.getDisplayList` |</target>
       </segment>
@@ -8658,7 +8658,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 259</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getDisplayDrivers` | `braille.display.getDisplayDrivers` |</source>
         <target>  | `braille.getDisplayDrivers` | `braille.display.getDisplayDrivers` |</target>
       </segment>
@@ -8667,7 +8667,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 260</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.RENAMED_DRIVERS` | `braille.display.RENAMED_DRIVERS` |</source>
         <target>  | `braille.RENAMED_DRIVERS` | `braille.display.RENAMED_DRIVERS` |</target>
       </segment>
@@ -8676,7 +8676,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 261</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.DisplayDimensions` | `braille.display.DisplayDimensions` |</source>
         <target>  | `braille.DisplayDimensions` | `braille.display.DisplayDimensions` |</target>
       </segment>
@@ -8685,7 +8685,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 262</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.Region` | `braille.regions.base.Region` |</source>
         <target>  | `braille.Region` | `braille.regions.base.Region` |</target>
       </segment>
@@ -8694,7 +8694,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 263</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.RegionWithPositions` | `braille.regions.base.RegionWithPositions` |</source>
         <target>  | `braille.RegionWithPositions` | `braille.regions.base.RegionWithPositions` |</target>
       </segment>
@@ -8703,7 +8703,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 264</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.TextRegion` | `braille.regions.base.TextRegion` |</source>
         <target>  | `braille.TextRegion` | `braille.regions.base.TextRegion` |</target>
       </segment>
@@ -8712,7 +8712,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 265</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.rindex` | `braille.regions.base.rindex` |</source>
         <target>  | `braille.rindex` | `braille.regions.base.rindex` |</target>
       </segment>
@@ -8721,7 +8721,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 266</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.NVDAObjectRegion` | `braille.regions.NVDAObject.NVDAObjectRegion` |</source>
         <target>  | `braille.NVDAObjectRegion` | `braille.regions.NVDAObject.NVDAObjectRegion` |</target>
       </segment>
@@ -8730,7 +8730,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 267</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.ReviewNVDAObjectRegion` | `braille.regions.NVDAObject.ReviewNVDAObjectRegion` |</source>
         <target>  | `braille.ReviewNVDAObjectRegion` | `braille.regions.NVDAObject.ReviewNVDAObjectRegion` |</target>
       </segment>
@@ -8739,7 +8739,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 268</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.NVDAObjectHasUsefulText` | `braille.regions.NVDAObject.NVDAObjectHasUsefulText` |</source>
         <target>  | `braille.NVDAObjectHasUsefulText` | `braille.regions.NVDAObject.NVDAObjectHasUsefulText` |</target>
       </segment>
@@ -8748,7 +8748,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 269</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.TextInfoRegion` | `braille.regions.textInfo.TextInfoRegion` |</source>
         <target>  | `braille.TextInfoRegion` | `braille.regions.textInfo.TextInfoRegion` |</target>
       </segment>
@@ -8757,7 +8757,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 270</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.CursorManagerRegion` | `braille.regions.textInfo.CursorManagerRegion` |</source>
         <target>  | `braille.CursorManagerRegion` | `braille.regions.textInfo.CursorManagerRegion` |</target>
       </segment>
@@ -8766,7 +8766,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 271</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.ReviewTextInfoRegion` | `braille.regions.textInfo.ReviewTextInfoRegion` |</source>
         <target>  | `braille.ReviewTextInfoRegion` | `braille.regions.textInfo.ReviewTextInfoRegion` |</target>
       </segment>
@@ -8775,7 +8775,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 272</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.ReviewCursorManagerRegion` | `braille.regions.textInfo.ReviewCursorManagerRegion` |</source>
         <target>  | `braille.ReviewCursorManagerRegion` | `braille.regions.textInfo.ReviewCursorManagerRegion` |</target>
       </segment>
@@ -8784,7 +8784,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 273</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getControlFieldBraille` | `braille.regions.properties.getControlFieldBraille` |</source>
         <target>  | `braille.getControlFieldBraille` | `braille.regions.properties.getControlFieldBraille` |</target>
       </segment>
@@ -8793,7 +8793,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 274</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getFormatFieldBraille` | `braille.regions.properties.getFormatFieldBraille` |</source>
         <target>  | `braille.getFormatFieldBraille` | `braille.regions.properties.getFormatFieldBraille` |</target>
       </segment>
@@ -8802,7 +8802,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 275</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getPropertiesBraille` | `braille.regions.properties.getPropertiesBraille` |</source>
         <target>  | `braille.getPropertiesBraille` | `braille.regions.properties.getPropertiesBraille` |</target>
       </segment>
@@ -8811,7 +8811,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 276</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getFocusContextRegions` | `braille.regions.focus.getFocusContextRegions` |</source>
         <target>  | `braille.getFocusContextRegions` | `braille.regions.focus.getFocusContextRegions` |</target>
       </segment>
@@ -8820,7 +8820,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 277</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getFocusRegions` | `braille.regions.focus.getFocusRegions` |</source>
         <target>  | `braille.getFocusRegions` | `braille.regions.focus.getFocusRegions` |</target>
       </segment>
@@ -8829,7 +8829,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 278</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.invalidateCachedFocusAncestors` | `braille.regions.focus.invalidateCachedFocusAncestors` |</source>
         <target>  | `braille.invalidateCachedFocusAncestors` | `braille.regions.focus.invalidateCachedFocusAncestors` |</target>
       </segment>
@@ -8838,7 +8838,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 279</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.BrailleBuffer` | `braille.buffers.BrailleBuffer` |</source>
         <target>  | `braille.BrailleBuffer` | `braille.buffers.BrailleBuffer` |</target>
       </segment>
@@ -8847,7 +8847,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 280</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.BrailleHandler` | `braille.brailleHandler.BrailleHandler` |</source>
         <target>  | `braille.BrailleHandler` | `braille.brailleHandler.BrailleHandler` |</target>
       </segment>
@@ -8856,7 +8856,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 281</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.formatCellsForLog` | `braille.brailleHandler.formatCellsForLog` |</source>
         <target>  | `braille.formatCellsForLog` | `braille.brailleHandler.formatCellsForLog` |</target>
       </segment>
@@ -8865,7 +8865,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 282</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.FALLBACK_TABLE` | `braille.brailleHandler.FALLBACK_TABLE` |</source>
         <target>  | `braille.FALLBACK_TABLE` | `braille.brailleHandler.FALLBACK_TABLE` |</target>
       </segment>
@@ -8874,7 +8874,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 283</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.roleLabels` | `braille.labels.roleLabels` |</source>
         <target>  | `braille.roleLabels` | `braille.labels.roleLabels` |</target>
       </segment>
@@ -8883,7 +8883,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 284</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.positiveStateLabels` | `braille.labels.positiveStateLabels` |</source>
         <target>  | `braille.positiveStateLabels` | `braille.labels.positiveStateLabels` |</target>
       </segment>
@@ -8892,7 +8892,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 285</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.negativeStateLabels` | `braille.labels.negativeStateLabels` |</source>
         <target>  | `braille.negativeStateLabels` | `braille.labels.negativeStateLabels` |</target>
       </segment>
@@ -8901,7 +8901,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 286</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.landmarkLabels` | `braille.labels.landmarkLabels` |</source>
         <target>  | `braille.landmarkLabels` | `braille.labels.landmarkLabels` |</target>
       </segment>
@@ -8910,7 +8910,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 287</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.FormatTagDelimiter` | `braille.formatting.FormatTagDelimiter` |</source>
         <target>  | `braille.FormatTagDelimiter` | `braille.formatting.FormatTagDelimiter` |</target>
       </segment>
@@ -8919,7 +8919,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 288</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.FormattingMarker` | `braille.formatting.FormattingMarker` |</source>
         <target>  | `braille.FormattingMarker` | `braille.formatting.FormattingMarker` |</target>
       </segment>
@@ -8928,7 +8928,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 289</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.fontAttributeFormattingMarkers` | `braille.formatting.fontAttributeFormattingMarkers` |</source>
         <target>  | `braille.fontAttributeFormattingMarkers` | `braille.formatting.fontAttributeFormattingMarkers` |</target>
       </segment>
@@ -8937,7 +8937,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 290</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.getParagraphStartMarker` | `braille.formatting.getParagraphStartMarker` |</source>
         <target>  | `braille.getParagraphStartMarker` | `braille.formatting.getParagraphStartMarker` |</target>
       </segment>
@@ -8946,7 +8946,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 291</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.AUTO_DISPLAY_NAME` | `braille.constants.AUTO_DISPLAY_NAME` |</source>
         <target>  | `braille.AUTO_DISPLAY_NAME` | `braille.constants.AUTO_DISPLAY_NAME` |</target>
       </segment>
@@ -8955,7 +8955,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 292</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.AUTOMATIC_PORT` | `braille.constants.AUTOMATIC_PORT` |</source>
         <target>  | `braille.AUTOMATIC_PORT` | `braille.constants.AUTOMATIC_PORT` |</target>
       </segment>
@@ -8964,7 +8964,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 293</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.BLUETOOTH_PORT` | `braille.constants.BLUETOOTH_PORT` |</source>
         <target>  | `braille.BLUETOOTH_PORT` | `braille.constants.BLUETOOTH_PORT` |</target>
       </segment>
@@ -8973,7 +8973,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 294</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.USB_PORT` | `braille.constants.USB_PORT` |</source>
         <target>  | `braille.USB_PORT` | `braille.constants.USB_PORT` |</target>
       </segment>
@@ -8982,7 +8982,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 295</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.NO_BRAILLE_DISPLAY_NAME` | `braille.constants.NO_BRAILLE_DISPLAY_NAME` |</source>
         <target>  | `braille.NO_BRAILLE_DISPLAY_NAME` | `braille.constants.NO_BRAILLE_DISPLAY_NAME` |</target>
       </segment>
@@ -8991,7 +8991,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 296</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.CONTINUATION_SHAPE` | `braille.constants.CONTINUATION_SHAPE` |</source>
         <target>  | `braille.CONTINUATION_SHAPE` | `braille.constants.CONTINUATION_SHAPE` |</target>
       </segment>
@@ -9000,7 +9000,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 297</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.CURSOR_SHAPES` | `braille.constants.CURSOR_SHAPES` |</source>
         <target>  | `braille.CURSOR_SHAPES` | `braille.constants.CURSOR_SHAPES` |</target>
       </segment>
@@ -9009,7 +9009,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 298</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.SELECTION_SHAPE` | `braille.constants.SELECTION_SHAPE` |</source>
         <target>  | `braille.SELECTION_SHAPE` | `braille.constants.SELECTION_SHAPE` |</target>
       </segment>
@@ -9018,7 +9018,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 299</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.END_OF_BRAILLE_OUTPUT_SHAPE` | `braille.constants.END_OF_BRAILLE_OUTPUT_SHAPE` |</source>
         <target>  | `braille.END_OF_BRAILLE_OUTPUT_SHAPE` | `braille.constants.END_OF_BRAILLE_OUTPUT_SHAPE` |</target>
       </segment>
@@ -9027,7 +9027,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 300</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.INPUT_START_IND` | `braille.constants.INPUT_START_IND` |</source>
         <target>  | `braille.INPUT_START_IND` | `braille.constants.INPUT_START_IND` |</target>
       </segment>
@@ -9036,7 +9036,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 301</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.INPUT_END_IND` | `braille.constants.INPUT_END_IND` |</source>
         <target>  | `braille.INPUT_END_IND` | `braille.constants.INPUT_END_IND` |</target>
       </segment>
@@ -9045,7 +9045,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 302</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.TEXT_SEPARATOR` | `braille.constants.TEXT_SEPARATOR` |</source>
         <target>  | `braille.TEXT_SEPARATOR` | `braille.constants.TEXT_SEPARATOR` |</target>
       </segment>
@@ -9054,7 +9054,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 303</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.CONTEXTPRES_*` | `braille.constants.CONTEXTPRES_*` |</source>
         <target>  | `braille.CONTEXTPRES_*` | `braille.constants.CONTEXTPRES_*` |</target>
       </segment>
@@ -9063,7 +9063,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 304</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.focusContextPresentations` | `braille.constants.focusContextPresentations` |</source>
         <target>  | `braille.focusContextPresentations` | `braille.constants.focusContextPresentations` |</target>
       </segment>
@@ -9072,7 +9072,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 305</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.pre_writeCells` | `braille.extensions.pre_writeCells` |</source>
         <target>  | `braille.pre_writeCells` | `braille.extensions.pre_writeCells` |</target>
       </segment>
@@ -9081,7 +9081,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 306</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.filter_displaySize` | `braille.extensions.filter_displaySize` |</source>
         <target>  | `braille.filter_displaySize` | `braille.extensions.filter_displaySize` |</target>
       </segment>
@@ -9090,7 +9090,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 307</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.filter_displayDimensions` | `braille.extensions.filter_displayDimensions` |</source>
         <target>  | `braille.filter_displayDimensions` | `braille.extensions.filter_displayDimensions` |</target>
       </segment>
@@ -9099,7 +9099,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 308</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.displaySizeChanged` | `braille.extensions.displaySizeChanged` |</source>
         <target>  | `braille.displaySizeChanged` | `braille.extensions.displaySizeChanged` |</target>
       </segment>
@@ -9108,7 +9108,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 309</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.displayChanged` | `braille.extensions.displayChanged` |</source>
         <target>  | `braille.displayChanged` | `braille.extensions.displayChanged` |</target>
       </segment>
@@ -9117,7 +9117,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 310</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.decide_enabled` | `braille.extensions.decide_enabled` |</source>
         <target>  | `braille.decide_enabled` | `braille.extensions.decide_enabled` |</target>
       </segment>
@@ -9126,7 +9126,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 311</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.BrailleMode` | `config.configFlags.BrailleMode` |</source>
         <target>  | `braille.BrailleMode` | `config.configFlags.BrailleMode` |</target>
       </segment>
@@ -9135,7 +9135,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 312</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `braille.TetherTo` | `config.configFlags.TetherTo` |</source>
         <target>  | `braille.TetherTo` | `config.configFlags.TetherTo` |</target>
       </segment>
@@ -9144,7 +9144,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 313</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.handler` | `braille.input.handler` |</source>
         <target>  | `brailleInput.handler` | `braille.input.handler` |</target>
       </segment>
@@ -9153,7 +9153,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 314</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.initialize` | `braille.input.initialize` |</source>
         <target>  | `brailleInput.initialize` | `braille.input.initialize` |</target>
       </segment>
@@ -9162,7 +9162,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 315</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.terminate` | `braille.input.terminate` |</source>
         <target>  | `brailleInput.terminate` | `braille.input.terminate` |</target>
       </segment>
@@ -9171,7 +9171,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 316</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.FALLBACK_TABLE` | `braille.input.constants.FALLBACK_TABLE` |</source>
         <target>  | `brailleInput.FALLBACK_TABLE` | `braille.input.constants.FALLBACK_TABLE` |</target>
       </segment>
@@ -9180,7 +9180,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 317</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.DOT7` | `braille.input.constants.DOT7` |</source>
         <target>  | `brailleInput.DOT7` | `braille.input.constants.DOT7` |</target>
       </segment>
@@ -9189,7 +9189,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 318</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.DOT8` | `braille.input.constants.DOT8` |</source>
         <target>  | `brailleInput.DOT8` | `braille.input.constants.DOT8` |</target>
       </segment>
@@ -9198,7 +9198,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 319</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.UNICODE_BRAILLE_START` | `braille.input.constants.UNICODE_BRAILLE_START` |</source>
         <target>  | `brailleInput.UNICODE_BRAILLE_START` | `braille.input.constants.UNICODE_BRAILLE_START` |</target>
       </segment>
@@ -9207,7 +9207,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 320</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.UNICODE_BRAILLE_PROTECTED` | `braille.input.constants.UNICODE_BRAILLE_PROTECTED` |</source>
         <target>  | `brailleInput.UNICODE_BRAILLE_PROTECTED` | `braille.input.constants.UNICODE_BRAILLE_PROTECTED` |</target>
       </segment>
@@ -9216,7 +9216,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 321</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.formatDotNumbers` | `braille.input.gesture.formatDotNumbers` |</source>
         <target>  | `brailleInput.formatDotNumbers` | `braille.input.gesture.formatDotNumbers` |</target>
       </segment>
@@ -9225,7 +9225,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 322</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.BrailleInputGesture` | `braille.input.gesture.BrailleInputGesture` |</source>
         <target>  | `brailleInput.BrailleInputGesture` | `braille.input.gesture.BrailleInputGesture` |</target>
       </segment>
@@ -9234,7 +9234,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 323</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.BrailleInputHandler` | `braille.input.inputHandler.BrailleInputHandler` |</source>
         <target>  | `brailleInput.BrailleInputHandler` | `braille.input.inputHandler.BrailleInputHandler` |</target>
       </segment>
@@ -9243,7 +9243,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 324</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>  | `brailleInput.speakDots` | `braille.input.inputHandler.speakDots` |</source>
         <target>  | `brailleInput.speakDots` | `braille.input.inputHandler.speakDots` |</target>
       </segment>
