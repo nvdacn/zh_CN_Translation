@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-09-19 06:05+0000\n"
-"PO-Revision-Date: 2026-09-26 10:07+0800\n"
-"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"POT-Creation-Date: 2026-09-25 21:22+0000\n"
+"PO-Revision-Date: 2026-09-26 02:16\n"
+"Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: resourceMonitor.pot\n"
 "X-Crowdin-File-ID: 214\n"
-"X-Generator: Poedit 3.9\n"
 
 #: addon\globalPlugins\resourceMonitor\__init__.py:67
 msgid "No authentication (Open)"
@@ -306,11 +305,10 @@ msgstr "一个易于使用的资源监控器，可以读出 CPU 负载、内存�
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid ""
-"* NVDA 2026.1 (64-bit) or later is required.\n"
+msgid "* NVDA 2026.1 (64-bit) or later is required.\n"
 "* Added an add-on setting to configure wi-fi connect/disconnect notification method (off, message, sound, both message and sound (default)).\n"
 "* NVDA+Shift+number row commands used to announce individual resource usage information are deprecated and will be removed in a future add-on release."
-msgstr ""
-"* 需要 NVDA 2026.1（64 位）或更高版本。\n"
+msgstr "* 需要 NVDA 2026.1（64 位）或更高版本。\n"
 "* 新增插件设置，用于配置连接/断开无线网络时的通知方式（关闭、消息、声音、消息和声音（默认））。\n"
 "* 用于读出单个资源使用情况信息的 NVDA+Shift+数字命令已弃用，将在未来的插件版本中移除。"
+
