@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="userGuide.md" original="https://raw.githubusercontent.com/nvaccess/nvda/e88f01b27f09b5ec2333cc91a7a27244b8baf6f8/user_docs/en/userGuide.md">
+  <file id="userGuide.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a86a40aac1ce1401ac3941ad2a93f7758c9d9f4f/user_docs/en/userGuide.md">
     <skeleton>
 # $(ID:f5169acb-2803-46c6-8e4c-7c1aaf973723)
 
@@ -1232,7 +1232,7 @@ $(ID:83202642-35db-40fb-a987-90107d68dcf6)
 * $(ID:8252f830-c763-4e24-917f-93202a61aaa3)
 * $(ID:e35d37db-1dfe-4ef9-9bad-3cad14cc3dc9)
 
-$(ID:8da5132f-3792-42ba-a1f5-7b06c90d0234)
+$(ID:5d5a047d-ddb8-49f2-8553-1c7933c2f6c6)
 
 &lt;!-- KC:beginInclude --&gt;
 
@@ -10976,7 +10976,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 625</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can perform two flicks in quick succession to trigger a sequential flick gesture.</source>
         <target>您可快速连续进行两次滑动，以触发连续滑动手势。</target>
       </segment>
@@ -10994,7 +10994,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 628</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Both flicks can be performed in two ways:</source>
         <target>两次滑动可以通过两种方式完成：</target>
       </segment>
@@ -11014,7 +11014,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 631</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Or as a single continuous swipe that sharply changes direction, without lifting your finger.</source>
         <target>或者不抬起手指，在连续滑动过程中快速改变方向。</target>
       </segment>
@@ -11023,7 +11023,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 633</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Twelve combinations are recognised: the four opposite-direction pairs (such as flick right then flick left), and the eight perpendicular L-shaped pairs (such as flick right then flick up).</source>
         <target>可识别十二种组合：四种方向相反的组合（如先向右再向左滑动），以及八种两个方向相互垂直的 L 形组合（如先向右再向上滑动）。</target>
       </segment>
@@ -14966,13 +14966,13 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Microsoft Word 和 Outlook，不支持将其关闭</target>
       </segment>
     </unit>
-    <unit id="8da5132f-3792-42ba-a1f5-7b06c90d0234">
+    <unit id="5d5a047d-ddb8-49f2-8553-1c7933c2f6c6">
       <notes>
         <note appliesTo="source">line: 1232</note>
       </notes>
       <segment state="final">
-        <source>Native Selection Mode can also be [turned on automatically](#BrowseModeSettingsNativeSelectionMode) in supporting documents via NVDA's Browse Mode settings.</source>
-        <target>还可通过 NVDA 的浏览模式设置在支持的文档中[自动开启该模式](#BrowseModeSettingsNativeSelectionMode)。</target>
+        <source>Native Selection Mode can also be [turned on automatically](#NativeSelectionModeSetting) in supporting documents via NVDA's Browse Mode settings.</source>
+        <target>还可通过 NVDA 的浏览模式设置在支持的文档中[自动开启该模式](#NativeSelectionModeSetting)。</target>
       </segment>
     </unit>
     <unit id="0c220da6-bf37-40be-b1a7-95859acd96c7">
@@ -35220,7 +35220,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4535</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In this dialog, you can customize the input gestures (keys on the keyboard, buttons on a braille display, etc.) for NVDA commands.</source>
         <target>使用“按键与手势”对话框，可为 NVDA 的命令自定义按键或手势（如键盘上的按键、点显器上的按钮等等）。</target>
       </segment>
@@ -35292,7 +35292,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4546</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Often, a gesture can be interpreted in more than one way.</source>
         <target>通常，一个手势可以用多种方式进行理解。</target>
       </segment>
@@ -35319,7 +35319,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4550</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can also use the context menu to add, change, or remove gestures for each command.</source>
         <target>您还可通过上下文菜单为每个命令添加、修改或移除手势。</target>
       </segment>
@@ -35328,7 +35328,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4551</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To change an input gesture of a command, select the gesture and press the change button.</source>
         <target>要更改命令的按键或手势，请选择该手势并按“修改”按钮。</target>
       </segment>
@@ -35337,7 +35337,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4552</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Then, perform the new input gesture you wish to associate; that will replace the old one.</source>
         <target>然后，执行您希望关联的新手势；其将替换旧手势。</target>
       </segment>
@@ -35346,7 +35346,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4553</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>To remove a gesture from a command, you can press the `delete` key or the remove button.</source>
         <target>要从命令中移除手势，您可按`删除`键或“移除”按钮。</target>
       </segment>
@@ -35391,7 +35391,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4559</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>After that, the key will be available from the Emulated system keyboard keys category and you will be able to assign an input gesture to it as described above.</source>
         <target>之后，该键将在“模拟系统按键”类别中可用，并且您将能够如上所述为其分配手势。</target>
       </segment>
@@ -35410,7 +35410,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 4563</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Emulated keys must have gestures assigned in order to persist when saving / closing the dialog.</source>
         <target>被模拟的键需要分配手势，否则无法保存。</target>
       </segment>
