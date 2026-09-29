@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 13:37+0000\n"
+"POT-Creation-Date: 2026-09-29 05:28+0000\n"
 "PO-Revision-Date: 2026-09-04 08:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -1585,26 +1585,26 @@ msgid "brown-yellow"
 msgstr "棕黄色"
 
 #. Translators: Shown when one or more add-ons failed to update.
-#: core.py:86
+#: core.py:85
 msgid "The following add-on failed to update: {}."
 msgid_plural "The following add-ons failed to update: {}."
 msgstr[0] "以下插件更新失败：{}。"
 
 #. Translators: Shown when one or more add-ons failed to be uninstalled.
-#: core.py:95
+#: core.py:94
 msgid "The following add-on failed to uninstall: {}."
 msgid_plural "The following add-ons failed to uninstall: {}."
 msgstr[0] "以下插件移除失败：{}。"
 
 #. Translators: Shown when one or more add-ons failed to be installed.
-#: core.py:104
+#: core.py:103
 msgid "The following add-on failed to be installed: {}."
 msgid_plural "The following add-ons failed to be installed: {}."
 msgstr[0] "以下插件安装失败：{}。"
 
 #. Translators: Shown when one or more actions on add-ons failed.
 #. {failureMsg} will be replaced with the specific error message.
-#: core.py:118
+#: core.py:117
 #, python-brace-format
 msgid ""
 "Some operations on add-ons failed. See the log file for more details.\n"
@@ -1641,10 +1641,10 @@ msgstr ""
 #. Translators: A title of a message box displayed when the host field is empty and the user tries to generate a key.
 #. Translators: Title of error dialog
 #. Translators: Title of a dialog
-#: core.py:121 documentationUtils.py:74 updateCheck.py:436 updateCheck.py:751
-#: updateCheck.py:922 gui\__init__.py:252 gui\__init__.py:260
-#: gui\__init__.py:277 gui\addonGui.py:138 gui\addonGui.py:258
-#: gui\addonGui.py:273 gui\configProfiles.py:221 gui\configProfiles.py:258
+#: core.py:120 documentationUtils.py:74 updateCheck.py:434 updateCheck.py:749
+#: updateCheck.py:920 gui\__init__.py:252 gui\__init__.py:260
+#: gui\__init__.py:277 gui\addonGui.py:137 gui\addonGui.py:257
+#: gui\configProfiles.py:221 gui\configProfiles.py:258
 #: gui\configProfiles.py:311 gui\configProfiles.py:323
 #: gui\configProfiles.py:332 gui\configProfiles.py:376
 #: gui\configProfiles.py:554 gui\configProfiles.py:569
@@ -1652,26 +1652,26 @@ msgstr ""
 #: gui\installerGui.py:181 gui\installerGui.py:265 gui\installerGui.py:759
 #: gui\installerGui.py:776 gui\installerGui.py:848 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:171 gui\settingsDialogs.py:1041
-#: gui\settingsDialogs.py:6133 gui\settingsDialogs.py:6979
+#: gui\settingsDialogs.py:6129 gui\settingsDialogs.py:6975
 #: gui\startupDialogs.py:126 _remoteClient\dialogs.py:67
 #: _remoteClient\dialogs.py:306 _remoteClient\dialogs.py:430
 msgid "Error"
 msgstr "错误"
 
 #. Translators: Shown when NVDA has been started with unknown command line parameters.
-#: core.py:149
+#: core.py:148
 #, python-brace-format
 msgid "The following command line parameters are unknown to NVDA: {params}"
 msgstr "NVDA 无法处理以下未知的命令行参数：{params}"
 
 #. Translators: Title of the dialog letting user know
 #. that command line parameters they provided are unknown.
-#: core.py:154
+#: core.py:153
 msgid "Unknown command line parameters"
 msgstr "未知的命令行参数"
 
 #. Translators: A message informing the user that there are errors in the configuration file.
-#: core.py:163
+#: core.py:162
 msgid ""
 "Your configuration file contains errors. Your configuration has been reset "
 "to factory defaults.\n"
@@ -1681,11 +1681,11 @@ msgstr ""
 "如需了解错误详细信息，请查看日志文件。"
 
 #. Translators: The title of the dialog to tell users that there are errors in the configuration file.
-#: core.py:168
+#: core.py:167
 msgid "Configuration File Error"
 msgstr "配置文件错误"
 
-#: core.py:186
+#: core.py:185
 msgid ""
 "Your gesture map file contains errors.\n"
 "More details about the errors can be found in the log file."
@@ -1693,22 +1693,22 @@ msgstr ""
 "您的手势映射文件包含错误。\n"
 "如果需要了解此错误的详细信息，请查看日志文件。"
 
-#: core.py:189
+#: core.py:188
 msgid "gesture map File Error"
 msgstr "手势映射文件错误"
 
 #. Translators: This is spoken when NVDA is starting.
-#: core.py:819
+#: core.py:813
 msgid "Loading NVDA. Please wait..."
 msgstr "正在加载 NVDA，请稍后……"
 
 #. Translators: This is shown on a braille display (if one is connected) when NVDA starts with the screen curtain enabled.
-#: core.py:970
+#: core.py:964
 msgid "NVDA started with screen curtain enabled"
 msgstr "NVDA 启动时已开启黑屏"
 
 #. Translators: This is shown on a braille display (if one is connected) when NVDA starts.
-#: core.py:973
+#: core.py:967
 msgid "NVDA started"
 msgstr "NVDA 已启动"
 
@@ -1922,7 +1922,7 @@ msgstr "鼠标"
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
 #: globalCommands.py:97 config\configFlags.py:314 gui\settingsDialogs.py:1143
-#: gui\settingsDialogs.py:4612
+#: gui\settingsDialogs.py:4608
 msgid "Speech"
 msgstr "语音"
 
@@ -1941,22 +1941,22 @@ msgstr "配置管理"
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
 #. Translators: This is the label for the braille panel
-#: globalCommands.py:106 config\configFlags.py:316 gui\settingsDialogs.py:4502
-#: gui\settingsDialogs.py:5043
+#: globalCommands.py:106 config\configFlags.py:316 gui\settingsDialogs.py:4498
+#: gui\settingsDialogs.py:5039
 msgid "Braille"
 msgstr "盲文"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the vision panel
-#: globalCommands.py:109 gui\settingsDialogs.py:5901
+#: globalCommands.py:109 gui\settingsDialogs.py:5897
 msgid "Vision"
 msgstr "视觉"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the magnifier settings panel.
 #. Translators: The title of an error message box shown when the magnifier fails to start.
-#: globalCommands.py:112 gui\settingsDialogs.py:6167
-#: gui\settingsDialogs.py:6400
+#: globalCommands.py:112 gui\settingsDialogs.py:6163
+#: gui\settingsDialogs.py:6396
 msgid "Magnifier"
 msgstr "放大镜"
 
@@ -3053,7 +3053,7 @@ msgstr "移动导航对象到此层级的下一个对象"
 
 #. Translators: Reported when there is no next object (current object is the last object).
 #. Translators: a message when there is no next object when navigating
-#: globalCommands.py:1772 globalCommands.py:4624
+#: globalCommands.py:1772 globalCommands.py:4623
 msgid "No next"
 msgstr "往后没有对象"
 
@@ -3064,7 +3064,7 @@ msgstr "移动导航对象到此层级的前一个对象"
 
 #. Translators: Reported when there is no previous object (current object is the first object).
 #. Translators: a message when there is no previous object when navigating
-#: globalCommands.py:1801 globalCommands.py:4658
+#: globalCommands.py:1801 globalCommands.py:4657
 msgid "No previous"
 msgstr "往前没有对象"
 
@@ -3328,7 +3328,7 @@ msgid ""
 msgstr "从系统光标的位置朗读到文本末端的同时，光标随之移动"
 
 #. Translators: Reported when trying to obtain formatting information (such as font name, indentation and so on) but there is no formatting information for the text under cursor.
-#: globalCommands.py:2709 globalCommands.py:2720 globalCommands.py:4288
+#: globalCommands.py:2709 globalCommands.py:2720 globalCommands.py:4287
 msgid "No formatting information"
 msgstr "无格式信息"
 
@@ -3848,13 +3848,13 @@ msgid "Activates the NVDA Python Console, primarily useful for development"
 msgstr "打开 NVDA “Python 控制台”，主要用于开发调试"
 
 #. Translators: Input help mode message to activate Add-on Store command.
-#: globalCommands.py:3764
+#: globalCommands.py:3763
 msgid ""
 "Activates the Add-on Store to browse and manage add-on packages for NVDA"
 msgstr "打开 NVDA 插件商店以浏览或管理 NVDA 插件"
 
 #. Translators: Input help mode message for toggle speech viewer command.
-#: globalCommands.py:3773
+#: globalCommands.py:3772
 msgid ""
 "Toggles the NVDA Speech viewer, a floating window that allows you to view "
 "all the text that NVDA is currently speaking"
@@ -3862,17 +3862,17 @@ msgstr ""
 "切换是否显示朗读查看器，这是一个用来显示所有 NVDA 正在朗读内容的浮动窗口"
 
 #. Translators: The message announced when disabling speech viewer.
-#: globalCommands.py:3782
+#: globalCommands.py:3781
 msgid "speech viewer disabled"
 msgstr "禁用朗读查看器"
 
 #. Translators: The message announced when enabling speech viewer.
-#: globalCommands.py:3787
+#: globalCommands.py:3786
 msgid "speech viewer enabled"
 msgstr "启用朗读查看器"
 
 #. Translators: Input help mode message for toggle Braille viewer command.
-#: globalCommands.py:3795
+#: globalCommands.py:3794
 msgid ""
 "Toggles the NVDA Braille viewer, a floating window that allows you to view "
 "braille output, and the text equivalent for each braille character"
@@ -3881,207 +3881,207 @@ msgstr ""
 "文单元的对应文本"
 
 #. Translators: The message announced when disabling braille viewer.
-#: globalCommands.py:3806
+#: globalCommands.py:3805
 msgid "Braille viewer disabled"
 msgstr "禁用盲文查看器"
 
 #. Translators: The message announced when enabling Braille viewer.
-#: globalCommands.py:3811
+#: globalCommands.py:3810
 msgid "Braille viewer enabled"
 msgstr "启用盲文查看器"
 
 #. Translators: Input help mode message for toggle braille tether to command
 #. (tethered means connected to or follows).
-#: globalCommands.py:3819
+#: globalCommands.py:3818
 msgid "Toggle tethering of braille between the focus and the review position"
 msgstr "将盲文光标移到系统焦点或查看光标"
 
 #. Translators: Reports which position braille is tethered to
 #. (braille can be tethered automatically or to either focus or review position).
-#: globalCommands.py:3839
+#: globalCommands.py:3838
 #, python-format
 msgid "Braille tethered %s"
 msgstr "盲文显示跟随到 %s"
 
 #. Translators: Input help mode message for toggle braille mode command
-#: globalCommands.py:3843
+#: globalCommands.py:3842
 msgid "Toggles braille mode"
 msgstr "切换盲文模式"
 
 #. Translators: The message reported when switching braille modes
-#: globalCommands.py:3858
+#: globalCommands.py:3857
 #, python-brace-format
 msgid "Braille mode {brailleMode}"
 msgstr "{brailleMode}"
 
 #. Translators: Input help mode message for cycle through
 #. braille move system caret when routing review cursor command.
-#: globalCommands.py:3869
+#: globalCommands.py:3868
 msgid ""
 "Cycle through the braille move system caret when routing review cursor states"
 msgstr "在移动查看光标时移动系统光标的选项之间循环切换"
 
 #. Translators: Reported when action is unavailable because braille tether is to focus.
-#: globalCommands.py:3879
+#: globalCommands.py:3878
 msgid "Action unavailable. Braille is tethered to focus"
 msgstr "盲文显示跟随到焦点时该操作不可用"
 
 #. Translators: Used when reporting braille move system caret when routing review cursor
 #. state (default behavior).
-#: globalCommands.py:3895
+#: globalCommands.py:3894
 #, python-format
 msgid "Braille move system caret when routing review cursor default (%s)"
 msgstr "盲文移动查看光标时移动系统光标默认（%s）"
 
 #. Translators: Used when reporting braille move system caret when routing review cursor state.
-#: globalCommands.py:3903
+#: globalCommands.py:3902
 #, python-format
 msgid "Braille move system caret when routing review cursor %s"
 msgstr "盲文移动查看光标时移动系统光标（%s）"
 
 #. Translators: Input help mode message for toggle braille focus context presentation command.
-#: globalCommands.py:3911
+#: globalCommands.py:3910
 msgid "Toggle the way context information is presented in braille"
 msgstr "切换是否使用盲文显示上下文"
 
 #. Translators: Reports the new state of braille focus context presentation.
 #. %s will be replaced with the context presentation setting.
 #. For example, the full message might be "Braille focus context presentation: fill display for context changes"
-#: globalCommands.py:3929
+#: globalCommands.py:3928
 #, python-format
 msgid "Braille focus context presentation: %s"
 msgstr "盲文显示焦点上下文： %s"
 
 #. Translators: Input help mode message for toggle braille cursor command.
-#: globalCommands.py:3933
+#: globalCommands.py:3932
 msgid "Toggle the braille cursor on and off"
 msgstr "切换盲文光标的开关"
 
 #. Translators: The message announced when toggling the braille cursor.
-#: globalCommands.py:3940
+#: globalCommands.py:3939
 msgid "Braille cursor off"
 msgstr "关闭盲文光标"
 
 #. Translators: The message announced when toggling the braille cursor.
-#: globalCommands.py:3944
+#: globalCommands.py:3943
 msgid "Braille cursor on"
 msgstr "打开盲文光标"
 
 #. Translators: Input help mode message for speak on routing command.
-#: globalCommands.py:3952
+#: globalCommands.py:3951
 msgid ""
 "Toggles speaking the character under the cursor when routing cursor in text"
 msgstr "切换定位文本光标后是否读出光标所在处的字符"
 
 #. Translators: The message announced when toggling on speaking character when routing.
-#: globalCommands.py:3960
+#: globalCommands.py:3959
 msgid "Enabled speak character when routing cursor in text"
 msgstr "启用定位文本光标后读出光标所在处的字符"
 
 #. Translators: The message announced when toggling off speaking character when routing.
-#: globalCommands.py:3963
+#: globalCommands.py:3962
 msgid "Disabled speak character when routing cursor in text"
 msgstr "禁用定位文本光标后读出光标所在处的字符"
 
 #. Translators: Input help mode message for toggle speaking when navigating by lines or paragraphs with braille.
-#: globalCommands.py:3968
+#: globalCommands.py:3967
 msgid ""
 "Toggles on and off speaking when navigating by lines or paragraph with "
 "braille"
 msgstr "切换按行或段落导航时是否读出内容"
 
 #. Translators: The message announced when toggling the speaking on navigating by unit braille setting.
-#: globalCommands.py:3977
+#: globalCommands.py:3976
 msgid "Speak when navigating by line or paragraph with braille on"
 msgstr "打开按行或段落导航时读出内容"
 
 #. Translators: The message announced when toggling the speaking on navigating by unit braille setting.
-#: globalCommands.py:3979
+#: globalCommands.py:3978
 msgid "Speak when navigating by line or paragraph with braille off"
 msgstr "关闭按行或段落导航时读出内容"
 
 #. Translators: Input help mode message for cycle braille cursor shape command.
-#: globalCommands.py:3984
+#: globalCommands.py:3983
 msgid "Cycle through the braille cursor shapes"
 msgstr "在光标形状之间切换"
 
 #. Translators: A message reported when changing the braille cursor shape when the braille cursor is turned off.
-#: globalCommands.py:3991
+#: globalCommands.py:3990
 msgid "Braille cursor is turned off"
 msgstr "盲文光标已关闭"
 
 #. Translators: Reports which braille cursor shape is activated.
-#: globalCommands.py:4007
+#: globalCommands.py:4006
 #, python-format
 msgid "Braille cursor %s"
 msgstr "盲文光标 %s"
 
 #. Translators: Input help mode message for cycle through braille show messages command.
-#: globalCommands.py:4011
+#: globalCommands.py:4010
 msgid "Cycle through the braille show messages modes"
 msgstr "在盲文消息模式之间循环切换"
 
 #. Translators: Reports which show braille message mode is used
 #. (disabled, timeout or indefinitely).
-#: globalCommands.py:4024
+#: globalCommands.py:4023
 #, python-format
 msgid "Braille show messages %s"
 msgstr "盲文显示消息 %s"
 
 #. Translators: Input help mode message for cycle through braille show selection command.
-#: globalCommands.py:4029
+#: globalCommands.py:4028
 msgid "Cycle through the braille show selection states"
 msgstr "在盲文选中指示光标之间循环切换"
 
 #. Translators: Used when reporting braille show selection state
 #. (default behavior).
-#: globalCommands.py:4046
+#: globalCommands.py:4045
 #, python-format
 msgid "Braille show selection default (%s)"
 msgstr "盲文选中指示光标默认（%s）"
 
 #. Translators: Reports which show braille selection state is used
 #. (disabled or enabled).
-#: globalCommands.py:4050
+#: globalCommands.py:4049
 #, python-format
 msgid "Braille show selection %s"
 msgstr "盲文选择指示光标 %s"
 
 #. Translators: Input help mode message for Braille Unicode normalization command.
-#: globalCommands.py:4057
+#: globalCommands.py:4056
 msgid "Cycle through the braille Unicode normalization states"
 msgstr "在盲文 Unicode 规范化状态之间循环切换"
 
 #. Translators: Used when reporting braille Unicode normalization state
 #. (default behavior).
-#: globalCommands.py:4072
+#: globalCommands.py:4071
 #, python-brace-format
 msgid "Braille Unicode normalization default ({default})"
 msgstr "盲文 Unicode 规范化 默认（{default}）"
 
 #. Translators: Used when reporting braille Unicode normalization state
 #. (disabled or enabled).
-#: globalCommands.py:4078
+#: globalCommands.py:4077
 #, python-brace-format
 msgid "Braille Unicode normalization {state}"
 msgstr "盲文 Unicode 规范化 {state}"
 
 #. Translators: Input help mode message for report clipboard text command.
-#: globalCommands.py:4086
+#: globalCommands.py:4085
 msgid ""
 "Reports the text on the Windows clipboard. Pressing twice spells this "
 "information. Pressing three times spells it using character descriptions."
 msgstr "读出 Windows 剪贴板中的文本，连按两次逐字朗读，连按三次逐字解释。"
 
 #. Translators: Presented when there is no text on the clipboard.
-#: globalCommands.py:4101
+#: globalCommands.py:4100
 msgid "There is no text on the clipboard"
 msgstr "剪贴板内没有文本"
 
 #. Translators: If the number of characters on the clipboard is greater than about 1000, it reports this
 #. message and gives number of characters on the clipboard.
 #. Example output: The clipboard contains a large amount of text. It is 2300 characters long.
-#: globalCommands.py:4116
+#: globalCommands.py:4115
 #, python-format
 msgid "The clipboard contains a large amount of text. It is %s character long"
 msgid_plural ""
@@ -4090,20 +4090,20 @@ msgstr[0] "剪贴板内包含大量文本，共有 %s 个字符"
 
 #. Translators: Input help mode message for mark review cursor position for a select or copy command
 #. (that is, marks the current review cursor position as the starting point for text to be selected).
-#: globalCommands.py:4127
+#: globalCommands.py:4126
 msgid ""
 "Marks the current position of the review cursor as the start of text to be "
 "selected or copied"
 msgstr "把查看光标所在的当前位置设置为开始点，供选择或复制使用"
 
 #. Translators: Indicates start of review cursor text to be copied to clipboard.
-#: globalCommands.py:4139
+#: globalCommands.py:4138
 msgid "Start marked"
 msgstr "开始点已标记"
 
 #. Translators: Input help mode message for move review cursor to marked start position for a
 #. select or copy command
-#: globalCommands.py:4145
+#: globalCommands.py:4144
 msgid ""
 "Move the review cursor to the position marked as the start of text to be "
 "selected or copied"
@@ -4111,13 +4111,13 @@ msgstr "将查看光标移动回以标记的开始点"
 
 #. Translators: Presented when attempting to move to the start marker for copy but none has been set.
 #. Translators: Presented when attempting to copy some review cursor text but there is no start marker.
-#: globalCommands.py:4154 globalCommands.py:4188 globalCommands.py:4242
+#: globalCommands.py:4153 globalCommands.py:4187 globalCommands.py:4241
 msgid "No start marker set"
 msgstr "未设置开始点"
 
 #. Translators: Input help mode message for the select then copy command.
 #. The select then copy command first selects the review cursor text, then copies it to the clipboard.
-#: globalCommands.py:4177
+#: globalCommands.py:4176
 msgid ""
 "If pressed once, the text from the previously set start marker up to and "
 "including the current position of the review cursor is selected. If pressed "
@@ -4126,169 +4126,169 @@ msgstr ""
 "按一次，选择开始点和当前查看光标位置之间的文本；连按两次，复制文本到剪贴板"
 
 #. Translators: Presented when text has already been marked for selection, but not yet copied.
-#: globalCommands.py:4195
+#: globalCommands.py:4194
 msgid "Press twice to copy or reset the start marker"
 msgstr "连按两次复制或重置开始点"
 
 #. Translators: Presented when there is no text selection to copy from review cursor.
-#: globalCommands.py:4214
+#: globalCommands.py:4213
 msgid "No text to copy"
 msgstr "没有文本可供复制"
 
 #. Translators: Presented when unable to select the marked text.
-#: globalCommands.py:4235
+#: globalCommands.py:4234
 msgid "Can't select text, press twice to copy"
 msgstr "无法选中文本，连按两次复制"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4251
+#: globalCommands.py:4250
 msgid "Scrolls the braille display back"
 msgstr "向后滚动盲文显示"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4260
+#: globalCommands.py:4259
 msgid "Scrolls the braille display forward"
 msgstr "向前滚动盲文显示"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4269
+#: globalCommands.py:4268
 msgid "Routes the cursor to or activates the object under this braille cell"
 msgstr "将光标移至或激活该盲文单元所在的对象"
 
 #. Translators: Input help mode message for Braille report formatting command.
-#: globalCommands.py:4279
+#: globalCommands.py:4278
 msgid "Reports formatting info for the text under this braille cell"
 msgstr "读出当前盲文单元所在文本的格式信息"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4294
+#: globalCommands.py:4293
 msgid "Selects the text from the first up to the last braille cell"
 msgstr "选中第一个到最后一个盲文单元格的文本。"
 
 #. Translators: Reported when selection via multiple routing keys is not possible.
-#: globalCommands.py:4306
+#: globalCommands.py:4305
 msgid "Cannot select from braille routing keys"
 msgstr "无法通过光标定位按键进行选择"
 
 #. Translators: Reported when selection via multiple routing keys is not supported by the focused control.
-#: globalCommands.py:4313
+#: globalCommands.py:4312
 msgid "Selection not supported here"
 msgstr "此处不支持选择"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4317
+#: globalCommands.py:4316
 msgid "Moves the braille display to the previous line"
 msgstr "移动点显器到上一行"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4326
+#: globalCommands.py:4325
 msgid "Moves the braille display to the next line"
 msgstr "移动点显器到下一行"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4335
+#: globalCommands.py:4334
 msgid "Inputs braille dots via the braille keyboard"
 msgstr "在盲文键盘上输入盲文"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4344
+#: globalCommands.py:4343
 msgid "Moves the braille display to the current focus"
 msgstr "移动点显器到当前焦点所在处"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4366
+#: globalCommands.py:4365
 msgid "Erases the last entered braille cell or character"
 msgstr "擦除最后输入的字符或者盲文单元"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4375
+#: globalCommands.py:4374
 msgid "Translates any braille input and presses the enter key"
 msgstr "翻译任何盲文输入并按回车键"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4384
+#: globalCommands.py:4383
 msgid "Translates any braille input"
 msgstr "翻译任何盲文输入"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4393
+#: globalCommands.py:4392
 msgid ""
 "Virtually toggles the shift key to emulate a keyboard shortcut with braille "
 "input"
 msgstr "在盲文键盘上模拟按下或放开 Shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4402
+#: globalCommands.py:4401
 msgid ""
 "Virtually toggles the control key to emulate a keyboard shortcut with "
 "braille input"
 msgstr "在盲文键盘上模拟按下或放开 Ctrl"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4411
+#: globalCommands.py:4410
 msgid ""
 "Virtually toggles the alt key to emulate a keyboard shortcut with braille "
 "input"
 msgstr "在盲文键盘上模拟按下或放开 Alt"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4421
+#: globalCommands.py:4420
 msgid ""
 "Virtually toggles the left windows key to emulate a keyboard shortcut with "
 "braille input"
 msgstr "在盲文键盘上模拟按下或放开 左 Windows"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4431
+#: globalCommands.py:4430
 msgid ""
 "Virtually toggles the NVDA key to emulate a keyboard shortcut with braille "
 "input"
 msgstr "在盲文键盘上模拟按下或放开 NVDA"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4441
+#: globalCommands.py:4440
 msgid ""
 "Virtually toggles the control and shift keys to emulate a keyboard shortcut "
 "with braille input"
 msgstr "在盲文键盘上模拟按下或放开 Ctrl加Shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4452
+#: globalCommands.py:4451
 msgid ""
 "Virtually toggles the alt and shift keys to emulate a keyboard shortcut with "
 "braille input"
 msgstr "在盲文键盘上模拟按下或放开 Alt加Shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4463
+#: globalCommands.py:4462
 msgid ""
 "Virtually toggles the left windows and shift keys to emulate a keyboard "
 "shortcut with braille input"
 msgstr "在盲文键盘上模拟按下或放开 左 Windows加Shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4475
+#: globalCommands.py:4474
 msgid ""
 "Virtually toggles the NVDA and shift keys to emulate a keyboard shortcut "
 "with braille input"
 msgstr "在盲文键盘上模拟按下或放开 NVDA+Shift"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4486
+#: globalCommands.py:4485
 msgid ""
 "Virtually toggles the control and alt keys to emulate a keyboard shortcut "
 "with braille input"
 msgstr "在盲文键盘上模拟按下或放开 Ctrl+Alt"
 
 #. Translators: Input help mode message for a braille command.
-#: globalCommands.py:4497
+#: globalCommands.py:4496
 msgid ""
 "Virtually toggles the control, alt, and shift keys to emulate a keyboard "
 "shortcut with braille input"
 msgstr "在盲文键盘上模拟按下或放开 Ctrl加Alt加Shift"
 
 #. Translators: Input help mode message for reload plugins command.
-#: globalCommands.py:4509
+#: globalCommands.py:4508
 msgid ""
 "Reloads app modules and global plugins without restarting NVDA, which can be "
 "Useful for developers"
@@ -4297,47 +4297,47 @@ msgstr ""
 "很有用"
 
 #. Translators: Presented when plugins (app modules and global plugins) are reloaded.
-#: globalCommands.py:4521
+#: globalCommands.py:4520
 msgid "Plugins reloaded"
 msgstr "插件已重新加载"
 
 #. Translators: input help mode message for Report destination URL of a link command
-#: globalCommands.py:4526
+#: globalCommands.py:4525
 msgid ""
 "Report the destination URL of the link at the position of caret or focus. If "
 "pressed twice, shows the URL in a window for easier review."
 msgstr "读出当前光标或焦点所在链接指向的网址。连按两次在浏览模式下显示该信息。"
 
 #. Translators: Reported when using the command to report the destination of a link.
-#: globalCommands.py:4556
+#: globalCommands.py:4555
 msgid "Link has no apparent destination"
 msgstr "链接未指向确切地址"
 
 #. Translators: Title of the browseable message when requesting the destination of a graphical link.
 #. Translators: A destination for braille output.
-#: globalCommands.py:4565 brailleDisplayDrivers\dotPad\driver.py:407
+#: globalCommands.py:4564 brailleDisplayDrivers\dotPad\driver.py:407
 msgid "Graphic"
 msgstr "图形"
 
 #. Translators: Informs the user that the window contains the destination of the
 #. link with given title
-#: globalCommands.py:4570
+#: globalCommands.py:4569
 #, python-brace-format
 msgid "Destination of: {name}"
 msgstr "{name} 的地址"
 
 #. Translators: Reported when using the command to report the destination of a link.
-#: globalCommands.py:4580
+#: globalCommands.py:4579
 msgid "Unable to get the destination of this link."
 msgstr "无法获取链接地址。"
 
 #. Translators: Reported when using the command to report the destination of a link.
-#: globalCommands.py:4583
+#: globalCommands.py:4582
 msgid "Not a link."
 msgstr "不是链接。"
 
 #. Translators: input help mode message for Report URL of a link in a window command
-#: globalCommands.py:4588
+#: globalCommands.py:4587
 msgid ""
 "Displays the destination URL of the link at the position of caret or focus "
 "in a window, instead of just speaking it. May be preferred by braille users."
@@ -4346,167 +4346,167 @@ msgstr ""
 "显器的用户有用。"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4601
+#: globalCommands.py:4600
 msgid ""
 "Moves to the next object in a flattened view of the object navigation "
 "hierarchy"
 msgstr "移动导航对象到下一个对象"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4639
+#: globalCommands.py:4638
 msgid ""
 "Moves to the previous object in a flattened view of the object navigation "
 "hierarchy"
 msgstr "移动导航对象到上一个对象"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4672
+#: globalCommands.py:4671
 msgid "Toggles the support of touch interaction"
 msgstr "切换触摸模式的开关"
 
 #. Translators: Presented when attempting to toggle touch interaction support
-#: globalCommands.py:4682
+#: globalCommands.py:4681
 msgid "Touch interaction not supported"
 msgstr "不支持触摸模式"
 
 #. Translators: Presented when support of touch interaction has been enabled
-#: globalCommands.py:4688
+#: globalCommands.py:4687
 msgid "Touch interaction enabled"
 msgstr "启用触摸模式"
 
 #. Translators: Presented when support of touch interaction has been disabled
-#: globalCommands.py:4691
+#: globalCommands.py:4690
 msgid "Touch interaction disabled"
 msgstr "禁用触摸模式"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4695
+#: globalCommands.py:4694
 msgid "Cycles between available touch modes"
 msgstr "在可用的触摸模式之间循环切换"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4710
+#: globalCommands.py:4709
 msgid "Reports the object and content directly under your finger"
 msgstr "读出触摸到的对象及其内容"
 
 #. Translators: Input help mode message for a touchscreen gesture.
-#: globalCommands.py:4720
+#: globalCommands.py:4719
 msgid ""
 "Reports the new object or content under your finger if different to where "
 "your finger was last"
 msgstr "读出新对象及其内容（若该对象与上次触摸到的不同）"
 
 #. Translators: Input help mode message for touch right click command.
-#: globalCommands.py:4746
+#: globalCommands.py:4745
 msgid ""
 "Clicks the right mouse button at the current touch position. This is "
 "generally used to activate a context menu."
 msgstr "在鼠标所在位置，单击鼠标右键一次，通常用于激活上下文菜单。"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
-#: globalCommands.py:4770
+#: globalCommands.py:4769
 msgid "object has no location"
 msgstr "对象没有位置"
 
 #. Translators: Describes the command to open the Configuration Profiles dialog.
-#: globalCommands.py:4782
+#: globalCommands.py:4781
 msgid "Shows the NVDA Configuration Profiles dialog"
 msgstr "显示 NVDA “配置管理” 对话框"
 
 #. Translators: Input help mode message for toggle configuration profile triggers command.
-#: globalCommands.py:4792
+#: globalCommands.py:4791
 msgid ""
 "Toggles disabling of all configuration profile triggers. Disabling remains "
 "in effect until NVDA is restarted"
 msgstr "禁用所有配置关联，NVDA 重启后才会启用"
 
 #. Translators: The message announced when temporarily disabling all configuration profile triggers.
-#: globalCommands.py:4801
+#: globalCommands.py:4800
 msgid "Configuration profile triggers disabled"
 msgstr "禁用所有配置关联"
 
 #. Translators: The message announced when re-enabling all configuration profile triggers.
-#: globalCommands.py:4809
+#: globalCommands.py:4808
 msgid "Configuration profile triggers enabled"
 msgstr "启用配置关联"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4814
+#: globalCommands.py:4813
 msgid "Begins interaction with math content"
 msgstr "开始与数学内容交互"
 
 #. Translators: Reported when the user attempts math interaction
 #. with something that isn't math.
-#: globalCommands.py:4840
+#: globalCommands.py:4839
 msgid "Not math"
 msgstr "无数学内容"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4846
+#: globalCommands.py:4845
 msgid "Recognizes the content of the current navigator object with Windows OCR"
 msgstr "使用 Windows OCR 识别当前导航对象的内容"
 
 #. Translators: Reported when Windows OCR is not available.
-#: globalCommands.py:4852 globalCommands.py:4866 globalCommands.py:4887
+#: globalCommands.py:4851 globalCommands.py:4865 globalCommands.py:4886
 msgid "Windows OCR not available"
 msgstr "Windows OCR 不可用"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4861
+#: globalCommands.py:4860
 msgid "Cycles through the available languages for Windows OCR"
 msgstr "在 Windows OCR 的可选语言之间切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4882
+#: globalCommands.py:4881
 msgid "Toggle periodical refresh of a Windows OCR result"
 msgstr "切换定期刷新 Windows OCR 结果的开关"
 
 #. Translators: The message announced when toggling automatic refresh of recognized content
-#: globalCommands.py:4893
+#: globalCommands.py:4892
 msgid "Automatic refresh enabled"
 msgstr "启用自动刷新"
 
 #. Translators: The message announced when toggling automatic refresh of recognized content
-#: globalCommands.py:4895
+#: globalCommands.py:4894
 msgid "Automatic refresh disabled"
 msgstr "禁用自动刷新"
 
 #. Translators: Input help mode message for toggle report CLDR command.
-#: globalCommands.py:4905
+#: globalCommands.py:4904
 msgid "Toggles on and off the reporting of CLDR characters, such as emojis"
 msgstr "切换读出 CLDR 字符的开关，（例如读出表情符号）"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4914
+#: globalCommands.py:4913
 msgid "report CLDR characters off"
 msgstr "不读 CLDR 字符"
 
 #. Translators: presented when the report CLDR is toggled.
-#: globalCommands.py:4918
+#: globalCommands.py:4917
 msgid "report CLDR characters on"
 msgstr "读出 CLDR 字符"
 
 #. Translators: Input help mode message for speech Unicode normalization command.
-#: globalCommands.py:4926
+#: globalCommands.py:4925
 msgid "Cycle through the speech Unicode normalization states"
 msgstr "在语音 Unicode 规范化状态之间循环切换"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (default behavior).
-#: globalCommands.py:4941
+#: globalCommands.py:4940
 #, python-brace-format
 msgid "Speech Unicode normalization default ({default})"
 msgstr "语音 Unicode 规范化 默认（{default}）"
 
 #. Translators: Used when reporting speech Unicode normalization state
 #. (disabled or enabled).
-#: globalCommands.py:4947
+#: globalCommands.py:4946
 #, python-brace-format
 msgid "Speech Unicode normalization {state}"
 msgstr "语音 Unicode 规范化 {state}"
 
 #. Translators: Describes a command.
-#: globalCommands.py:4959
+#: globalCommands.py:4958
 msgid ""
 "Toggles the state of the screen curtain, enable to make the screen black or "
 "disable to show the contents of the screen. Pressed once, screen curtain is "
@@ -4517,147 +4517,147 @@ msgstr ""
 "屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
 
 #. Translators: Reported when the screen curtain is not available.
-#: globalCommands.py:4972 globalCommands.py:5098
+#: globalCommands.py:4971 globalCommands.py:5097
 msgid "Screen curtain not available"
 msgstr "黑屏不可用"
 
 #. Translators: Reported when the screen curtain is disabled.
-#: globalCommands.py:5018 globalCommands.py:5113
+#: globalCommands.py:5017 globalCommands.py:5112
 msgid "Screen curtain disabled"
 msgstr "关闭黑屏"
 
 #. Translators: Reported when the screen curtain could not be enabled.
-#: globalCommands.py:5025
+#: globalCommands.py:5024
 msgid "Could not disable screen curtain"
 msgstr "不能关闭黑屏"
 
 #. Translators: Reported when the screen curtain is enabled.
-#: globalCommands.py:5048 globalCommands.py:5110
+#: globalCommands.py:5047 globalCommands.py:5109
 msgid "Screen curtain enabled"
 msgstr "开启黑屏"
 
 #. Translators: Reported when the screen curtain is temporarily enabled.
-#: globalCommands.py:5051 globalCommands.py:5105
+#: globalCommands.py:5050 globalCommands.py:5104
 msgid "Temporary Screen curtain, enabled until next restart"
 msgstr "开启临时黑屏，重启 NVDA 后恢复"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5088
+#: globalCommands.py:5087
 msgid "Reports the state of the screen curtain."
 msgstr "读出黑屏的状态"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5118
+#: globalCommands.py:5117
 msgid "Toggle the magnifier on and off"
 msgstr "切换放大镜的开关"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5132
+#: globalCommands.py:5131
 msgid "Increase the magnification level"
 msgstr "提高放大级别"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5146
+#: globalCommands.py:5145
 msgid "Decrease the magnification level"
 msgstr "降低放大级别"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5160
+#: globalCommands.py:5159
 msgid "Pan the magnified view left"
 msgstr "左移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5174
+#: globalCommands.py:5173
 msgid "Pan the magnified view right"
 msgstr "右移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5188
+#: globalCommands.py:5187
 msgid "Pan the magnified view up"
 msgstr "上移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5202
+#: globalCommands.py:5201
 msgid "Pan the magnified view down"
 msgstr "下移放大视图"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5216
+#: globalCommands.py:5215
 msgid "Pan the magnified view to left edge"
 msgstr "平移放大视图到左边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5230
+#: globalCommands.py:5229
 msgid "Pan the magnified view to right edge"
 msgstr "平移放大视图到右边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5244
+#: globalCommands.py:5243
 msgid "Pan the magnified view to top edge"
 msgstr "平移放大视图到顶边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5258
+#: globalCommands.py:5257
 msgid "Pan the magnified view to bottom edge"
 msgstr "平移放大视图到底边"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5272
+#: globalCommands.py:5271
 msgid "Moves the mouse cursor to the center of the magnified view"
 msgstr "将鼠标光标移动到放大视图的中心"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5285
+#: globalCommands.py:5284
 msgid "Cycle through the color filters"
 msgstr "循环切换颜色滤镜"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5299
+#: globalCommands.py:5298
 msgid "Toggle magnifier mouse tracking"
 msgstr "切换放大镜是否跟踪鼠标"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5312
+#: globalCommands.py:5311
 msgid "Toggle magnifier system focus tracking"
 msgstr "切换放大镜是否跟踪系统焦点"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5325
+#: globalCommands.py:5324
 msgid "Toggle magnifier review cursor tracking"
 msgstr "切换放大镜是否跟踪查看光标"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5338
+#: globalCommands.py:5337
 msgid "Toggle magnifier navigator object tracking"
 msgstr "切换放大镜是否跟踪导航对象"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5351
+#: globalCommands.py:5350
 msgid "Toggle all magnifier tracking settings"
 msgstr "切换放大镜的跟踪设置"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5364
+#: globalCommands.py:5363
 msgid "Cycle through tracking modes"
 msgstr "循环切换跟踪模式"
 
 #. Translators: Describe a command.
-#: globalCommands.py:5377
+#: globalCommands.py:5376
 msgid "Temporarily show an overview of the entire screen"
 msgstr "暂时显示全屏概览"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5391
+#: globalCommands.py:5390
 msgid "Cycles through paragraph navigation styles"
 msgstr "在段落导航模式之间循环切换"
 
 #. Translators: Describes a command.
-#: globalCommands.py:5405
+#: globalCommands.py:5404
 msgid "Cycles through sound split modes"
 msgstr "在声音拆分模式之间循环切换"
 
 #. Translators: Input help mode message for report language for caret command.
-#: globalCommands.py:5417
+#: globalCommands.py:5416
 msgctxt "reportLanguage"
 msgid ""
 "Reports the language for the text under the caret. If pressed twice, "
@@ -4665,44 +4665,44 @@ msgid ""
 msgstr "读出光标处文本的语言。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Reported when the language of the text at caret is not defined.
-#: globalCommands.py:5432
+#: globalCommands.py:5431
 msgctxt "reportLanguage"
 msgid "Unknown language"
 msgstr "未知语言"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
-#: globalCommands.py:5443
+#: globalCommands.py:5442
 #, python-brace-format
 msgctxt "reportLanguage"
 msgid "{languageDescription} (not supported)"
 msgstr "{languageDescription}（不支持）"
 
 #. Translators: title for report caret language dialog.
-#: globalCommands.py:5452
+#: globalCommands.py:5451
 msgctxt "reportLanguage"
 msgid "Language at caret position"
 msgstr "光标处文本的语言"
 
 #. Translators: Documentation string for the script that toggles whether the output from the remote computer is muted.
-#: globalCommands.py:5457
+#: globalCommands.py:5456
 msgctxt "remote"
 msgid "Mutes or unmutes the speech coming from the remote computer"
 msgstr "静音或恢复来自远程计算机的语音"
 
 #. Translators: Documentation string for the script that sends the contents of the clipboard to the remote computer.
-#: globalCommands.py:5467
+#: globalCommands.py:5466
 msgctxt "remote"
 msgid "Sends the contents of the clipboard to the remote computer"
 msgstr "发送剪贴板的内容到远程计算机"
 
 #. Translators: Documentation string for the script that copies a link to the Remote Access session to the clipboard.
-#: globalCommands.py:5475
+#: globalCommands.py:5474
 msgctxt "remote"
 msgid "Copies a link to the current Remote Access session to the clipboard"
 msgstr "将当前远程访问会话的链接复制到剪贴板"
 
 #. Translators: Documentation string for the script that disconnects a Remote Access session.
-#: globalCommands.py:5485
+#: globalCommands.py:5484
 msgctxt "remote"
 msgid "Disconnects from the current Remote Access session"
 msgstr "断开与当前远程访问会话的连接"
@@ -4713,7 +4713,7 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: Message shown when trying to copy the link to connect to the remote computer while not connected.
 #. Translators: Message shown when attempting to send control+alt+delete when no session is connected.
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:5491 _remoteClient\client.py:136
+#: globalCommands.py:5490 _remoteClient\client.py:136
 #: _remoteClient\client.py:163 _remoteClient\client.py:185
 #: _remoteClient\client.py:201 _remoteClient\client.py:610
 msgctxt "remote"
@@ -4721,72 +4721,72 @@ msgid "Not connected"
 msgstr "未连接"
 
 #. Translators: Documentation string for the script that starts a new Remote Access session.
-#: globalCommands.py:5497
+#: globalCommands.py:5496
 msgctxt "remote"
 msgid "Connects to a remote computer"
 msgstr "连接到远程计算机"
 
 #. Translators: A message indicating that the remote client is already connected.
-#: globalCommands.py:5508
+#: globalCommands.py:5507
 msgid "Already connected"
 msgstr "已连接"
 
 #. Translators: Describes the script that creates a new Remote Access session, or disconnects it if one already exists.
-#: globalCommands.py:5514
+#: globalCommands.py:5513
 msgctxt "remote"
 msgid "Toggles whether Remote Access is connected"
 msgstr "切换远程访问的连接状态"
 
 #. Translators: Documentation string for the script that toggles the control between guest and host computers.
-#: globalCommands.py:5529
+#: globalCommands.py:5528
 msgctxt "remote"
 msgid "Switches whether the keyboard controls the local or remote computer"
 msgstr "切换键盘要控制的计算机（本地或远程）"
 
 #. Translators: Documentation string for the script that sends alt+ctrl+del to the remote computer
-#: globalCommands.py:5542
+#: globalCommands.py:5541
 msgctxt "remote"
 msgid "Sends control+alt+delete to the controlled computer."
 msgstr "发送 Ctrl+Alt+Delete 到被控计算机。"
 
 #. Translators: Description for the repeat last speech script
-#: globalCommands.py:5553
+#: globalCommands.py:5552
 msgid ""
 "Repeat the last spoken information. Pressing twice shows it in a browsable "
 "message."
 msgstr "重复最后朗读的内容。连按两次在浏览模式下显示该信息。"
 
 #. Translators: title for report last spoken information dialog.
-#: globalCommands.py:5571
+#: globalCommands.py:5570
 msgid "Last spoken information"
 msgstr "最后朗读的内容"
 
 #. Translators: Input help mode message for the command to copy the last spoken information.
-#: globalCommands.py:5577
+#: globalCommands.py:5576
 msgid "Copies the last spoken information to the clipboard."
 msgstr "将最后朗读的内容复制到剪贴板。"
 
 #. Translators: Reported when there is no last spoken information to copy.
-#: globalCommands.py:5586
+#: globalCommands.py:5585
 msgid "Nothing to copy"
 msgstr "没有可复制的内容"
 
 #. Translators: a message indicating that configuration profiles can't be activated using gestures,
 #. due to profile activation being suspended.
-#: globalCommands.py:5624
+#: globalCommands.py:5623
 msgid "Can't change the active profile while an NVDA dialog is open"
 msgstr "打开 NVDA 对话框时无法更改活动配置文件"
 
 #. Translators: a message when a configuration profile is manually deactivated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5629
+#: globalCommands.py:5628
 #, python-brace-format
 msgid "{profile} profile deactivated"
 msgstr "手动禁用配置文件{profile}"
 
 #. Translators: a message when a configuration profile is manually activated.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5634
+#: globalCommands.py:5633
 #, python-brace-format
 msgid "{profile} profile activated"
 msgstr "手动激活配置文件 {profile}"
@@ -4794,7 +4794,7 @@ msgstr "手动激活配置文件 {profile}"
 #. Translators: The description shown in input help for a script that
 #. activates or deactivates a config profile.
 #. {profile} is replaced with the profile's name.
-#: globalCommands.py:5650
+#: globalCommands.py:5649
 #, python-brace-format
 msgid "Activates or deactivates the {profile} configuration profile"
 msgstr "激活或禁用{profile} 已经手动禁用"
@@ -7034,18 +7034,18 @@ msgid "Copied: {text}"
 msgstr "已复制 {text}"
 
 #. Translators: The title of the dialog displayed while manually checking for an NVDA update.
-#: updateCheck.py:404
+#: updateCheck.py:402
 msgid "Checking for Update"
 msgstr "正在检查更新"
 
 #. Translators: The progress message displayed while manually checking for an NVDA update.
-#: updateCheck.py:406
+#: updateCheck.py:404
 msgid "Checking for update"
 msgstr "正在检查更新"
 
 #. Translators: A suggestion of what to do when checking for NVDA updates fails and an update mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: updateCheck.py:415
+#: updateCheck.py:413
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -7055,14 +7055,14 @@ msgid ""
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
 #. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
-#: updateCheck.py:422
+#: updateCheck.py:420
 msgctxt "updateCheck"
 msgid "Unable to establish a connection to the NV Access server."
 msgstr "无法连接到 NV Access 服务器。"
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
 #. tip will be replaced with a context sensitive suggestion of next steps.
-#: updateCheck.py:428
+#: updateCheck.py:426
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -7074,18 +7074,18 @@ msgstr ""
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
 #. Translators: The title of the dialog asking the user to apply an NVDA update.
-#: updateCheck.py:499 updateCheck.py:639
+#: updateCheck.py:497 updateCheck.py:637
 msgid "NVDA Update"
 msgstr "NVDA 更新"
 
 #. Translators: A message indicating that no update to NVDA is available.
-#: updateCheck.py:515
+#: updateCheck.py:513
 msgid "No update available."
 msgstr "无可用更新。"
 
 #. Translators: A message indicating that an update to NVDA has been downloaded and is ready to be
 #. applied.
-#: updateCheck.py:520
+#: updateCheck.py:518
 #, python-brace-format
 msgid ""
 "Update to NVDA version {version} has been downloaded and is ready to be "
@@ -7094,88 +7094,88 @@ msgstr "NVDA 版本 {version} 已下载并准备就绪。"
 
 #. Translators: The label of a button to review add-ons prior to NVDA update.
 #. Translators: The label of a button to launch the add-on compatibility review dialog.
-#: updateCheck.py:545 updateCheck.py:667 gui\installerGui.py:424
+#: updateCheck.py:543 updateCheck.py:665 gui\installerGui.py:424
 msgid "&Review add-ons..."
 msgstr "查看插件(&R)..."
 
 #. Translators: The label of a button to apply a pending NVDA update.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:551
+#: updateCheck.py:549
 #, python-brace-format
 msgid "&Update to NVDA {version}"
 msgstr "更新到 NVDA {version}(&U)"
 
 #. Translators: The label of a button to re-download a pending NVDA update.
-#: updateCheck.py:561
+#: updateCheck.py:559
 msgid "Re-&download update"
 msgstr "重新下载更新(&R)"
 
 #. Translators: A message indicating that an updated version of NVDA is available.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:566
+#: updateCheck.py:564
 #, python-brace-format
 msgid "NVDA version {version} is available."
 msgstr "NVDA 新版本 {version} 可用。"
 
 #. Translators: The label of a button to download an NVDA update.
-#: updateCheck.py:570
+#: updateCheck.py:568
 msgid "&Download update"
 msgstr "下载更新(&D)"
 
 #. Translators: The label of a button to remind the user later about performing some action.
-#: updateCheck.py:575 gui\startupDialogs.py:309
+#: updateCheck.py:573 gui\startupDialogs.py:309
 msgid "Remind me &later"
 msgstr "稍后提醒我(&L)"
 
 #. Translators: The label of a button to close a dialog.
 #. Translators: The close button on an NVDA dialog. This button will dismiss the dialog.
-#: updateCheck.py:584 gui\addonGui.py:371
+#: updateCheck.py:582 gui\addonGui.py:360
 msgid "&Close"
 msgstr "关闭(&C)"
 
 #. Translators: A message indicating that an update to NVDA is ready to be applied.
-#: updateCheck.py:643
+#: updateCheck.py:641
 #, python-brace-format
 msgid "Update to NVDA version {version} is ready to be applied.\n"
 msgstr "NVDA 版本 {version} 已准备就绪。\n"
 
 #. Translators: The label of a button to update NVDA.
-#: updateCheck.py:670
+#: updateCheck.py:668
 msgid "&Update now"
 msgstr "立即更新(&U)"
 
 #. Translators: The label of a button to postpone an NVDA update.
-#: updateCheck.py:683
+#: updateCheck.py:681
 msgid "&Postpone update"
 msgstr "推迟更新(&D)"
 
 #. Translators: The message when a downloaded update file could not be preserved.
-#: updateCheck.py:749
+#: updateCheck.py:747
 msgid "Unable to postpone update."
 msgstr "无法推迟更新."
 
 #. Translators: The title of the dialog displayed while downloading an NVDA update.
-#: updateCheck.py:808
+#: updateCheck.py:806
 msgid "Downloading Update"
 msgstr "正在下载更新"
 
 #. Translators: The progress message indicating that a connection is being established.
-#: updateCheck.py:810
+#: updateCheck.py:808
 msgid "Connecting"
 msgstr "正在连接"
 
 #. Translators: The progress message indicating that a download is in progress.
-#: updateCheck.py:902
+#: updateCheck.py:900
 msgid "Downloading"
 msgstr "正在下载"
 
 #. Translators: A message indicating that an error occurred while downloading an update to NVDA.
-#: updateCheck.py:921
+#: updateCheck.py:919
 msgid "Error downloading update."
 msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
-#: updateCheck.py:944
+#: updateCheck.py:942
 msgid ""
 "We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are "
@@ -7193,32 +7193,32 @@ msgstr ""
 "感谢您对我们的支持。"
 
 #. Translators: The title of the dialog requesting donations from users.
-#: updateCheck.py:953
+#: updateCheck.py:951
 msgid "Please Donate"
 msgstr "请捐赠"
 
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:962 gui\__init__.py:740
+#: updateCheck.py:960 gui\__init__.py:737
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
 #. Translators: The label of the button to decline donation
 #. in the "Please Donate" dialog.
-#: updateCheck.py:967
+#: updateCheck.py:965
 msgid "&Not now"
 msgstr "暂不捐赠(&N)"
 
 #. Translators: The label of a button to indicate that the user is finished donating
 #. in the "Please Donate" dialog.
-#: updateCheck.py:983
+#: updateCheck.py:981
 msgid "&Done"
 msgstr "捐赠完毕(&D)"
 
 #. Translators: Message shown to users when attempting to update NVDA
 #. on a computer which is being remotely controlled via NVDA Remote Access
-#: updateCheck.py:1012 gui\installerGui.py:643
+#: updateCheck.py:1010 gui\installerGui.py:643
 msgid ""
 "Updating NVDA when connected to NVDA Remote Access as the controlled "
 "computer is not recommended. "
@@ -7226,7 +7226,7 @@ msgstr "不建议在作为被控计算机连接到 NVDA 远程访问时更新 NV
 
 #. Translators: Message shown to users when attempting to update NVDA from an installed copy
 #. on a computer which is being remotely controlled via NVDA Remote Access.
-#: updateCheck.py:1017
+#: updateCheck.py:1015
 msgid ""
 "The currently active connection may not be continued during or after the "
 "update. Even if the connection is continued, you will be unable to respond "
@@ -7248,9 +7248,9 @@ msgstr ""
 #. Translators: Title of the warning dialog shown when enabling a risky logging level.
 #. Translators: The title of a dialog.
 #. Translators: Title of warning dialog
-#: updateCheck.py:1023 gui\_SetURLDialog.py:113 gui\configProfiles.py:539
+#: updateCheck.py:1021 gui\_SetURLDialog.py:113 gui\configProfiles.py:539
 #: gui\installerGui.py:502 gui\installerGui.py:660 gui\settingsDialogs.py:1973
-#: gui\settingsDialogs.py:6440 screenCurtain\_screenCurtain.py:70
+#: gui\settingsDialogs.py:6436 screenCurtain\_screenCurtain.py:70
 #: _remoteClient\dialogs.py:291
 msgid "Warning"
 msgstr "警告"
@@ -7323,14 +7323,14 @@ msgstr ""
 "您必须先运行 NVDA 才能安装。"
 
 #. Translators: A title of the dialog shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:210
+#: addonStore\dataManager.py:204
 msgctxt "addonStore"
 msgid "Add-on data update failure"
 msgstr "插件数据更新失败"
 
 #. Translators: A suggestion of what to do when fetching add-on data from the store fails and a metadata mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: addonStore\dataManager.py:215
+#: addonStore\dataManager.py:209
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -7340,19 +7340,19 @@ msgid ""
 msgstr "请检查网络连接，并确保插件商店镜像网址 {url} 有效。"
 
 #. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
-#: addonStore\dataManager.py:221
+#: addonStore\dataManager.py:215
 msgctxt "addonStore"
 msgid "Unable to establish a connection to the Add-on Store server."
 msgstr "无法连接到插件商店服务器。"
 
 #. Translators: A message shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:254
+#: addonStore\dataManager.py:248
 msgctxt "addonStore"
 msgid "Unable to fetch latest add-on data for compatible add-ons."
 msgstr "无法获取兼容插件的最新数据。"
 
 #. Translators: A message shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:290
+#: addonStore\dataManager.py:284
 msgctxt "addonStore"
 msgid "Unable to fetch latest add-on data for incompatible add-ons."
 msgstr "无法获取不兼容插件的最新数据。"
@@ -12848,12 +12848,12 @@ msgid "&Copy version number"
 msgstr "复制版本号(&C)"
 
 #. Translators: The title of the dialog to show about info for NVDA.
-#: gui\__init__.py:436 gui\__init__.py:888
+#: gui\__init__.py:436 gui\__init__.py:885
 msgid "About NVDA"
 msgstr "关于 NVDA"
 
 #. Translators: Explain the System Accessibility Repair Tool to users before running
-#: gui\__init__.py:556
+#: gui\__init__.py:554
 msgid ""
 "Welcome to the System Accessibility Repair Tool.\n"
 "\n"
@@ -12880,19 +12880,19 @@ msgstr ""
 "按“继续”立即运行该工具。"
 
 #. Translators: The title of various dialogs displayed when using the System Accessibility Repair Tool
-#: gui\__init__.py:581
+#: gui\__init__.py:579
 msgid "System Accessibility Repair Tool"
 msgstr "系统辅助功能修复工具"
 
 #. Translators: The message displayed while NVDA is running the System Accessibility Repair Tool
-#: gui\__init__.py:596
+#: gui\__init__.py:594
 msgid ""
 "Please wait while NVDA attempts to repair your system's accessibility "
 "registrations..."
 msgstr "请稍候，NVDA 正在尝试修复系统中的辅助功能注册……"
 
 #. Translators: message shown to the user on System Accessibility Repair fail
-#: gui\__init__.py:623
+#: gui\__init__.py:621
 #, python-brace-format
 msgid ""
 "The System Accessibility Repair Tool was unsuccessful. This Windows error "
@@ -12903,12 +12903,12 @@ msgstr ""
 "{error}"
 
 #. Translators: The title of a System Accessibility Repair Tool dialog, when the tool has failed
-#: gui\__init__.py:627
+#: gui\__init__.py:625
 msgid "System Accessibility Repair Failed"
 msgstr "系统辅助功能修复失败"
 
 #. Translators: Message shown when the System Accessibility Repair Tool completes.
-#: gui\__init__.py:634
+#: gui\__init__.py:632
 msgid ""
 "The System Accessibility Repair Tool has completed successfully.\n"
 "It is highly recommended that you restart your computer now, to make sure "
@@ -12918,245 +12918,245 @@ msgstr ""
 "效。"
 
 #. Translators: The label for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:661
+#: gui\__init__.py:659
 msgid "&Settings..."
 msgstr "设置(&S)..."
 
 #. Translators: The description for the menu item to open NVDA Settings dialog.
-#: gui\__init__.py:663
+#: gui\__init__.py:661
 msgid "NVDA settings"
 msgstr "NVDA 设置"
 
 #. Translators: The label for a submenu under NvDA Preferences menu to select speech dictionaries.
-#: gui\__init__.py:668
+#: gui\__init__.py:666
 msgid "Speech &dictionaries"
 msgstr "朗读字典(&D)"
 
 #. Translators: The label for the menu item to open Punctuation/symbol pronunciation dialog.
-#: gui\__init__.py:670
+#: gui\__init__.py:668
 msgid "&Punctuation/symbol pronunciation..."
 msgstr "标点符号读音(&P)..."
 
 #. Translators: The label for the menu item to open the Input Gestures dialog.
-#: gui\__init__.py:673
+#: gui\__init__.py:671
 msgid "I&nput gestures..."
 msgstr "按键与手势(&N)..."
 
 #. Translators: The label for Preferences submenu in NVDA menu.
-#: gui\__init__.py:676
+#: gui\__init__.py:674
 msgid "&Preferences"
 msgstr "选项(&P)"
 
 #. Translators: The label for the menu item to open NVDA Log Viewer.
-#: gui\__init__.py:681
+#: gui\__init__.py:679
 msgid "View &log"
 msgstr "查看日志(&L)"
 
 #. Translators: The label for the menu item to toggle Speech Viewer.
-#: gui\__init__.py:687
+#: gui\__init__.py:685
 msgid "&Speech viewer"
 msgstr "朗读查看器(&S)"
 
 #. Translators: The label for the menu item to toggle Braille Viewer.
-#: gui\__init__.py:695
+#: gui\__init__.py:693
 msgid "&Braille viewer"
 msgstr "盲文查看器(&B)"
 
 #. Translators: The label of a menu item to open the Add-on store
-#: gui\__init__.py:707
+#: gui\__init__.py:705
 msgid "&Add-on store..."
 msgstr "插件商店(&A)..."
 
 #. Translators: The label for the menu item to open NVDA Python Console.
-#: gui\__init__.py:712
+#: gui\__init__.py:710
 msgid "&Python console"
 msgstr "Python 控制台(&P)"
 
 #. Translators: The label for the menu item to create a portable copy of NVDA from an installed or another portable version.
-#: gui\__init__.py:717
+#: gui\__init__.py:715
 msgid "&Create portable copy..."
 msgstr "创建便携版(&C)..."
 
 #. Translators: The label for the menu item to install NVDA on the computer.
-#: gui\__init__.py:721
+#: gui\__init__.py:719
 msgid "&Install NVDA..."
 msgstr "安装 NVDA(&I)"
 
 #. Translators: The label for the menu item to run the System Accessibility Repair Tool
-#: gui\__init__.py:724
+#: gui\__init__.py:722
 msgid "Run System Accessibility Repair Tool..."
 msgstr "运行系统辅助功能修复工具(&R)..."
 
 #. Translators: The label for the menu item to reload plugins.
-#: gui\__init__.py:728
+#: gui\__init__.py:725
 msgid "Reload plugins"
 msgstr "重新加载插件(&G)"
 
 #. Translators: The label for the Tools submenu in NVDA menu.
-#: gui\__init__.py:731
+#: gui\__init__.py:728
 msgid "&Tools"
 msgstr "工具(&T)"
 
 #. Translators: The label for the menu item to exit NVDA
 #. Translators: The label for a menu item in NVDA log viewer to exit.
 #. Translators: The label for a button to exit the NVDA launcher.
-#: gui\__init__.py:749 gui\logViewer.py:58 gui\startupDialogs.py:205
+#: gui\__init__.py:746 gui\logViewer.py:58 gui\startupDialogs.py:205
 msgid "E&xit"
 msgstr "退出(&X)"
 
 #. Translators: The help string for the menu item to exit NVDA
 #. Translators: The title of the dialog to exit NVDA
-#: gui\__init__.py:751 gui\exit.py:79
+#: gui\__init__.py:748 gui\exit.py:78
 msgid "Exit NVDA"
 msgstr "退出 NVDA"
 
 #. Translators: The label for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:786
+#: gui\__init__.py:783
 msgid "&Default dictionary..."
 msgstr "默认字典(&D)..."
 
 #. Translators: The help text for the menu item to open Default speech dictionary dialog.
-#: gui\__init__.py:788
+#: gui\__init__.py:785
 msgid ""
 "A dialog where you can set default dictionary by adding dictionary entries "
 "to the list"
 msgstr "“默认字典”对话框，可以添加和管理默认字典"
 
 #. Translators: The label for the menu item to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:794
+#: gui\__init__.py:791
 msgid "&Voice dictionary..."
 msgstr "语音字典(&V)..."
 
 #. Translators: The help text for the menu item
 #. to open Voice specific speech dictionary dialog.
-#: gui\__init__.py:798
+#: gui\__init__.py:795
 msgid ""
 "A dialog where you can set voice-specific dictionary by adding dictionary "
 "entries to the list"
 msgstr "“语音字典”对话框，可以添加和管理合成器字典"
 
 #. Translators: The label for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:806
+#: gui\__init__.py:803
 msgid "&Temporary dictionary..."
 msgstr "临时字典(&T)..."
 
 #. Translators: The help text for the menu item to open Temporary speech dictionary dialog.
-#: gui\__init__.py:808
+#: gui\__init__.py:805
 msgid ""
 "A dialog where you can set temporary dictionary by adding dictionary entries "
 "to the edit box"
 msgstr "“临时字典”对话框，可以添加和管理临时字典"
 
 #. Translators: The label for the menu item to open the Configuration Profiles dialog.
-#: gui\__init__.py:816
+#: gui\__init__.py:813
 msgid "&Configuration profiles..."
 msgstr "管理配置(&C)..."
 
 #. Translators: The label for the menu item to revert to saved configuration.
-#: gui\__init__.py:821
+#: gui\__init__.py:818
 msgid "&Revert to saved configuration"
 msgstr "重新应用已保存的配置(&R)"
 
 #. Translators: The help text for the menu item to revert to saved configuration.
-#: gui\__init__.py:823
+#: gui\__init__.py:820
 msgid "Reset all settings to saved state"
 msgstr "重置所有设置到已保存的状态"
 
 #. Translators: The label for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:830
+#: gui\__init__.py:827
 msgid "Reset configuration to &factory defaults"
 msgstr "重置设置为默认值(&F)"
 
 #. Translators: The help text for the menu item to reset settings to default settings.
 #. Here, default settings means settings that were there when the user first used NVDA.
-#: gui\__init__.py:833
+#: gui\__init__.py:830
 msgid "Reset all settings to default state"
 msgstr "重置所有设置到默认状态"
 
 #. Translators: The label for the menu item to save current settings.
-#: gui\__init__.py:840
+#: gui\__init__.py:837
 msgid "&Save configuration"
 msgstr "保存设置(&S)"
 
 #. Translators: The help text for the menu item to save current settings.
-#: gui\__init__.py:842
+#: gui\__init__.py:839
 msgid "Write the current configuration to nvda.ini"
 msgstr "将现在的设置写入 nvda.ini"
 
 #. Translators: The label of a menu item to open NVDA user guide.
-#: gui\__init__.py:851
+#: gui\__init__.py:848
 msgid "&User Guide"
 msgstr "用户指南(&U)"
 
 #. Translators: The label of a menu item to open the Commands Quick Reference document.
-#: gui\__init__.py:854
+#: gui\__init__.py:851
 msgid "Commands &Quick Reference"
 msgstr "热键快速参考(&Q)"
 
 #. Translators: The label for the menu item to open What's New document.
-#: gui\__init__.py:857
+#: gui\__init__.py:854
 msgid "What's &new"
 msgstr "更新日志(&N)"
 
 #. Translators: The label for the menu item to view the NVDA website
-#: gui\__init__.py:863
+#: gui\__init__.py:860
 msgid "NV Access &web site"
 msgstr "NV Access 网站(&W)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:866
+#: gui\__init__.py:863
 msgid "&Help, training and support"
 msgstr "帮助、培训和支持(&H)"
 
 #. Translators: The label for the menu item to view the NVDA website's get help section
-#: gui\__init__.py:869
+#: gui\__init__.py:866
 msgid "NV Access &shop"
 msgstr "NV Access 商店(&S)"
 
 #. Translators: The label for the menu item to view the NVDA License.
-#: gui\__init__.py:875
+#: gui\__init__.py:872
 msgid "L&icense"
 msgstr "版权信息(&I)"
 
 #. Translators: The label for the menu item to open NVDA Welcome Dialog.
-#: gui\__init__.py:879
+#: gui\__init__.py:876
 msgid "We&lcome dialog..."
 msgstr "欢迎对话框(&L)"
 
 #. Translators: The label of a menu item to manually check for an updated version of NVDA.
-#: gui\__init__.py:884
+#: gui\__init__.py:881
 msgid "&Check for update..."
 msgstr "检查更新(&C)..."
 
 #. Translators: The label for the menu item to open About dialog to get information about NVDA.
-#: gui\__init__.py:888
+#: gui\__init__.py:885
 msgid "&About..."
 msgstr "关于(&A)..."
 
 #. Translators: The label for the Help submenu in NVDA menu.
-#: gui\__init__.py:892
+#: gui\__init__.py:889
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. Translators: The label for the menu item to run a pending update.
-#: gui\__init__.py:908
+#: gui\__init__.py:905
 msgid "Install pending &update"
 msgstr "安装之前推迟的更新(&U)"
 
 #. Translators: The description for the menu item to run a pending update.
-#: gui\__init__.py:910
+#: gui\__init__.py:907
 msgid "Execute a previously downloaded NVDA update"
 msgstr "安装之前下载的 NVDA 更新"
 
 #. Translators: Announced periodically to indicate progress for an indeterminate progress bar.
-#: gui\__init__.py:994
+#: gui\__init__.py:991
 msgid "Please wait"
 msgstr "请等待"
 
 #. Translators: A message asking the user if they wish to restart NVDA
 #. as addons have been added, enabled/disabled or removed.
-#: gui\addonGui.py:30
+#: gui\addonGui.py:29
 msgid ""
 "Changes were made to add-ons. You must restart NVDA for these changes to "
 "take effect. Would you like to restart now?"
@@ -13164,14 +13164,14 @@ msgstr ""
 "插件修改已经成功应用。您必须重启 NVDA 才能使此更改生效。您要立即重启吗？"
 
 #. Translators: Title for message asking if the user wishes to restart NVDA as addons have been added or removed.
-#: gui\addonGui.py:35
+#: gui\addonGui.py:34
 msgid "Restart NVDA"
 msgstr "重新启动 NVDA"
 
 #. Translators: A button in the addon installation warning / blocked dialog which shows
 #. more information about the addon
 #. Translators: The label for a button in Add-ons Manager dialog to show information about the selected add-on.
-#: gui\addonGui.py:64 gui\addonGui.py:102 gui\addonGui.py:367
+#: gui\addonGui.py:63 gui\addonGui.py:101 gui\addonGui.py:356
 msgid "&About add-on..."
 msgstr "关于插件(&A)..."
 
@@ -13181,7 +13181,7 @@ msgstr "关于插件(&A)..."
 #. Translators: The label of a Yes button in a dialog
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. agree to enabling the curtain.
-#: gui\addonGui.py:72 gui\message.py:339 gui\startupDialogs.py:301
+#: gui\addonGui.py:71 gui\message.py:339 gui\startupDialogs.py:301
 #: screenCurtain\_screenCurtain.py:109
 msgid "&Yes"
 msgstr "是(&Y)"
@@ -13192,19 +13192,19 @@ msgstr "是(&Y)"
 #. Translators: The label of a No button in a dialog
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. disagree to enabling the curtain.
-#: gui\addonGui.py:82 gui\message.py:341 gui\startupDialogs.py:305
+#: gui\addonGui.py:81 gui\message.py:341 gui\startupDialogs.py:305
 #: screenCurtain\_screenCurtain.py:118
 msgid "&No"
 msgstr "否(&N)"
 
 #. Translators: A button in the addon installation blocked dialog which will dismiss the dialog.
 #. Translators: An ok button on a message dialog.
-#: gui\addonGui.py:110 gui\message.py:337
+#: gui\addonGui.py:109 gui\message.py:337
 msgid "OK"
 msgstr "确定"
 
 #. Translators: The message displayed when an error occurs when opening an add-on package for adding.
-#: gui\addonGui.py:136
+#: gui\addonGui.py:135
 #, python-format
 msgid ""
 "Failed to open add-on package file at %s - missing file or invalid file "
@@ -13213,13 +13213,13 @@ msgstr "无法打开 add-on 文件！ %s 文件丢失或者格式错误"
 
 #. Translators: A title for the dialog asking if the user wishes to update a previously installed
 #. add-on with this one.
-#: gui\addonGui.py:170
+#: gui\addonGui.py:169
 msgid "Add-on Installation"
 msgstr "插件安装"
 
 #. Translators: A message asking if the user wishes to update an add-on with the same version
 #. currently installed according to the version number.
-#: gui\addonGui.py:175
+#: gui\addonGui.py:174
 #, python-brace-format
 msgid ""
 "You are about to install version {newVersion} of {summary}, which appears to "
@@ -13228,7 +13228,7 @@ msgstr "插件 {summary} 的 {newVersion} 版本似乎已经安装。是否更�
 
 #. Translators: A message asking if the user wishes to update a previously installed
 #. add-on with this one.
-#: gui\addonGui.py:183
+#: gui\addonGui.py:182
 #, python-brace-format
 msgid ""
 "A version of this add-on is already installed. Would you like to update "
@@ -13237,34 +13237,29 @@ msgstr ""
 "插件 {summary} 的 {curVersion} 版本已经安装。是否更新到 {newVersion} ？"
 
 #. Translators: The title of the dialog presented while an Addon is being installed.
-#: gui\addonGui.py:231
+#: gui\addonGui.py:230
 msgid "Installing Add-on"
 msgstr "正在安装插件包"
 
 #. Translators: The message displayed while an addon is being installed.
-#: gui\addonGui.py:233
+#: gui\addonGui.py:232
 msgid "Please wait while the add-on is being installed."
 msgstr "请稍后，正在安装插件。"
 
 #. Translators: The message displayed when an error occurs when installing an add-on package.
-#: gui\addonGui.py:256
+#: gui\addonGui.py:255
 #, python-format
 msgid "Failed to install add-on from %s"
 msgstr "从 %s 安装插件时出错"
 
-#. Translators: The message displayed when an add-on cannot be installed due to NVDA running as a Windows Store app
-#: gui\addonGui.py:271
-msgid "Add-ons cannot be installed in the Windows Store version of NVDA"
-msgstr "插件无法安装在 Windows 商店版本的 NVDA 中"
-
 #. Translators: The title of the Incompatible Addons Dialog
-#: gui\addonGui.py:332
+#: gui\addonGui.py:321
 msgid "Incompatible Add-ons"
 msgstr "不兼容的插件"
 
 #. Translators: The title of the Incompatible Addons Dialog.
 #. {version} will be replaced with the API version number.
-#: gui\addonGui.py:343
+#: gui\addonGui.py:332
 #, python-brace-format
 msgid ""
 "The following add-ons are incompatible with NVDA version {version}. These "
@@ -13275,22 +13270,22 @@ msgstr ""
 "进一步帮助。"
 
 #. Translators: the label for the addons list in the incompatible addons dialog.
-#: gui\addonGui.py:351
+#: gui\addonGui.py:340
 msgid "Incompatible add-ons"
 msgstr "不兼容的插件"
 
 #. Translators: The label for a column in add-ons list used to identify add-on package name (example: package is OCR).
-#: gui\addonGui.py:359
+#: gui\addonGui.py:348
 msgid "Package"
 msgstr "包名"
 
 #. Translators: The label for a column in add-ons list used to identify add-on's running status (example: status is running).
-#: gui\addonGui.py:361
+#: gui\addonGui.py:350
 msgid "Version"
 msgstr "版本"
 
 #. Translators: The label for a column in add-ons list used to provide some explanation about incompatibility
-#: gui\addonGui.py:363
+#: gui\addonGui.py:352
 msgid "Incompatible reason"
 msgstr "不兼容原因"
 
@@ -13299,36 +13294,30 @@ msgstr "不兼容原因"
 msgid "Action unavailable in secure context"
 msgstr "该操作在安全模式下不可用"
 
-#. Translators: Reported when an action cannot be performed because NVDA has been installed
-#. from the Windows Store.
-#: gui\blockAction.py:59
-msgid "Action unavailable in NVDA Windows Store version"
-msgstr "该操作在 Windows Store 版本中不可用"
-
 #. Translators: Reported when an action cannot be performed because NVDA is waiting
 #. for a response from a modal dialog
-#: gui\blockAction.py:65
+#: gui\blockAction.py:59
 msgid "Action unavailable while a dialog requires a response"
 msgstr "对话框需要响应时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because Windows is locked.
-#: gui\blockAction.py:71
+#: gui\blockAction.py:65
 msgid "Action unavailable while Windows is locked"
 msgstr "Windows 锁定时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because NVDA is running the launcher temporary
 #. version
-#: gui\blockAction.py:77
+#: gui\blockAction.py:71
 msgid "Action unavailable in a temporary version of NVDA"
 msgstr "该操作在 NVDA 临时副本中不可用"
 
 #. Translators: Reported when trying to toggle an unsupported setting in speech output mode.
-#: gui\blockAction.py:82
+#: gui\blockAction.py:76
 msgid "Action unavailable while the braille mode is set to speech output"
 msgstr "盲文模式设置为语音输出时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because Remote Access functionality is disabled.
-#: gui\blockAction.py:87
+#: gui\blockAction.py:81
 msgctxt "remote"
 msgid "Action unavailable when Remote Access is disabled"
 msgstr "禁用远程访问时该操作不可用"
@@ -13590,37 +13579,37 @@ msgid "No help available here."
 msgstr "此处无可用帮助。"
 
 #. Translators: An option in the combo box to choose exit action.
-#: gui\exit.py:44
+#: gui\exit.py:43
 msgid "Exit"
 msgstr "退出"
 
 #. Translators: An option in the combo box to choose exit action.
-#: gui\exit.py:46
+#: gui\exit.py:45
 msgid "Restart"
 msgstr "重启"
 
 #. Translators: An option in the combo box to choose exit action.
-#: gui\exit.py:49
+#: gui\exit.py:48
 msgid "Restart with add-ons disabled and debug logging enabled"
 msgstr "重启、禁用插件并启用调试日志记录"
 
 #. Translators: An option in the combo box to choose exit action.
-#: gui\exit.py:53
+#: gui\exit.py:52
 msgid "Restart with add-ons disabled"
 msgstr "重启并禁用插件"
 
 #. Translators: An option in the combo box to choose exit action.
-#: gui\exit.py:56
+#: gui\exit.py:55
 msgid "Restart with debug logging enabled"
 msgstr "重启并启用调试日志记录"
 
 #. Translators: An option in the combo box to choose exit action.
-#: gui\exit.py:58
+#: gui\exit.py:57
 msgid "Install pending update"
 msgstr "安装之前推迟的更新"
 
 #. Translators: A message in the exit Dialog shown when all add-ons are disabled.
-#: gui\exit.py:88
+#: gui\exit.py:87
 msgid ""
 "All add-ons are now disabled. They will be re-enabled on the next restart "
 "unless you choose to disable them again."
@@ -13628,14 +13617,14 @@ msgstr "所有插件已被禁用，下次重启时会重新启用，除非您选
 
 #. Translators: A message in the exit Dialog shown when NVDA language has been
 #. overwritten from the command line.
-#: gui\exit.py:96
+#: gui\exit.py:95
 msgid ""
 "NVDA's interface language is now forced from the command line. On the next "
 "restart, the language  saved in NVDA's configuration will be used instead."
 msgstr "当前 NVDA 的界面语言由命令行指定，重启后将使用配置中保存的语言。"
 
 #. Translators: The label for actions list in the Exit dialog.
-#: gui\exit.py:104
+#: gui\exit.py:103
 msgid "What would you like to &do?"
 msgstr "您想怎么做(&D)？"
 
@@ -13688,7 +13677,7 @@ msgstr "查找(&F):"
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 #: gui\inputGestures.py:627 gui\inputGestures.py:684
-#: gui\settingsDialogs.py:6867 gui\speechDict.py:218
+#: gui\settingsDialogs.py:6863 gui\speechDict.py:218
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13870,7 +13859,7 @@ msgstr "拷贝便携版的设置到当前用户的配置文件夹(&P)"
 
 #. Translators: The label of a button to continue with the operation.
 #. Translators: The label for the Continue button in an NVDA dialog.
-#: gui\installerGui.py:429 gui\installerGui.py:739 gui\nvdaControls.py:383
+#: gui\installerGui.py:429 gui\installerGui.py:739 gui\nvdaControls.py:370
 msgid "&Continue"
 msgstr "继续(&C)"
 
@@ -14119,7 +14108,7 @@ msgstr "日志不可用"
 
 #. Translators: A cancel button on a message dialog.
 #. Translators: The label for the Cancel button in an NVDA dialog.
-#: gui\message.py:343 gui\nvdaControls.py:389
+#: gui\message.py:343 gui\nvdaControls.py:376
 msgid "Cancel"
 msgstr "取消"
 
@@ -14153,7 +14142,7 @@ msgstr "不保存(&N)"
 #. e.g. "Default (Yes)".
 #. The placeholder {default} is replaced with the label of the option which describes current default behavior
 #. in NVDA.
-#: gui\nvdaControls.py:567
+#: gui\nvdaControls.py:554
 #, python-brace-format
 msgid "Default ({default})"
 msgstr "默认（{default}）"
@@ -14186,8 +14175,8 @@ msgstr "类别(&C)："
 #. magnifier settings panel
 #. Translators: name of a grouping in Privacy and Security settings
 #. which contains miscellaneous settings.
-#: gui\settingsDialogs.py:806 gui\settingsDialogs.py:6212
-#: gui\settingsDialogs.py:6504
+#: gui\settingsDialogs.py:806 gui\settingsDialogs.py:6208
+#: gui\settingsDialogs.py:6500
 msgid "General"
 msgstr "常规"
 
@@ -14358,7 +14347,7 @@ msgstr "语音合成器"
 #. it appears in the context of a synthesizer group on the speech settings panel.
 #. Translators: This is the label for the button used to change braille display,
 #. it appears in the context of a braille display group on the braille settings panel.
-#: gui\settingsDialogs.py:1171 gui\settingsDialogs.py:5064
+#: gui\settingsDialogs.py:1171 gui\settingsDialogs.py:5060
 msgid "C&hange..."
 msgstr "修改(&H)..."
 
@@ -14418,7 +14407,7 @@ msgstr "处理字符和标点时信任语音的语言(&T)"
 
 #. Translators: This is a label for a combo-box in the Speech settings panel.
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:1741 gui\settingsDialogs.py:5620
+#: gui\settingsDialogs.py:1741 gui\settingsDialogs.py:5616
 msgid "Unicode normali&zation"
 msgstr "Unicode 规范化(&Z)"
 
@@ -15044,7 +15033,7 @@ msgstr "在 Word 和 Outlook 中使用原生数学支持"
 #. Translators: This is the label for the document formatting panel.
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:3199 gui\settingsDialogs.py:4716
+#: gui\settingsDialogs.py:3199 gui\settingsDialogs.py:4712
 msgid "Document Formatting"
 msgstr "文档格式"
 
@@ -15461,7 +15450,7 @@ msgstr "主机(&H)"
 #. This is the port on which the local control server will be accessible,
 #. if the user has chosen to host their own.
 #. Translators: The label for a setting in braille settings to choose the connection port (if the selected braille display supports port selection).
-#: gui\settingsDialogs.py:4025 gui\settingsDialogs.py:5142
+#: gui\settingsDialogs.py:4025 gui\settingsDialogs.py:5138
 #: _remoteClient\dialogs.py:207
 msgid "&Port:"
 msgstr "端口(&P):"
@@ -15580,78 +15569,78 @@ msgid "Enable loading custom code from Developer Scratchpad directory"
 msgstr "允许从开发者实验目录加载自定义代码"
 
 #. Translators: the label for a button in the Advanced settings category
-#: gui\settingsDialogs.py:4321
+#: gui\settingsDialogs.py:4319
 msgid "Open developer scratchpad directory"
 msgstr "打开开发者实验目录"
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4331
+#: gui\settingsDialogs.py:4327
 msgid "Microsoft UI Automation"
 msgstr "Microsoft UIA 接口"
 
 #. Translators: This is the label for a combo box for selecting the
 #. means of registering for UI Automation events in the advanced settings panel.
 #. Choices are automatic, selective, and global.
-#: gui\settingsDialogs.py:4341
+#: gui\settingsDialogs.py:4337
 msgid "Regi&stration for UI Automation events and property changes:"
 msgstr "注册 UIA 事件和属性改变(&S)："
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA decide whether to register
 #. selectively or globally for UI Automation events.
-#: gui\settingsDialogs.py:4347
+#: gui\settingsDialogs.py:4343
 msgid "Automatic (prefer selective)"
 msgstr "自动（选择性注册）"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA register selectively for UI Automation events
 #. (i.e. not to request events for objects outside immediate focus).
-#: gui\settingsDialogs.py:4351
+#: gui\settingsDialogs.py:4347
 msgid "Selective"
 msgstr "选择性注册"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA register for all UI Automation events
 #. in all cases.
-#: gui\settingsDialogs.py:4355
+#: gui\settingsDialogs.py:4351
 msgid "Global"
 msgstr "全局"
 
 #. Translators: Label for the Use UIA with MS Word combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4384
+#: gui\settingsDialogs.py:4380
 msgctxt "advanced.uiaWithMSWord"
 msgid "Use UI Automation to access Microsoft &Word document controls"
 msgstr "在Word 中启用 UIA 接口(&W)"
 
 #. Translators: Label for the default value of the Use UIA with MS Word combobox,
 #. in the Advanced settings panel.
-#: gui\settingsDialogs.py:4389
+#: gui\settingsDialogs.py:4385
 msgctxt "advanced.uiaWithMSWord"
 msgid "Default (Where suitable)"
 msgstr "默认（符合要求时）"
 
 #. Translators: Label for a value in the Use UIA with MS Word combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4391
+#: gui\settingsDialogs.py:4387
 msgctxt "advanced.uiaWithMSWord"
 msgid "Only when necessary"
 msgstr "仅必要时"
 
 #. Translators: Label for a value in the Use UIA with MS Word combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4393
+#: gui\settingsDialogs.py:4389
 msgctxt "advanced.uiaWithMSWord"
 msgid "Where suitable"
 msgstr "符合要求时"
 
 #. Translators: Label for a value in the Use UIA with MS Word combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4395
+#: gui\settingsDialogs.py:4391
 msgctxt "advanced.uiaWithMSWord"
 msgid "Always"
 msgstr "总是"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4404
+#: gui\settingsDialogs.py:4400
 msgid ""
 "Use UI Automation to access Microsoft &Excel spreadsheet controls when "
 "available"
@@ -15660,33 +15649,33 @@ msgstr "在 Excel 中启用 UIA 接口（如果可用）(&E)"
 #. Translators: This is the label for a combo box for selecting the
 #. active console implementation in the advanced settings panel.
 #. Choices are automatic, UIA when available, and legacy.
-#: gui\settingsDialogs.py:4412
+#: gui\settingsDialogs.py:4408
 msgid "Windows C&onsole support:"
 msgstr "Windows 控制台支持(&O)："
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA determine its Windows Console implementation
 #. automatically.
-#: gui\settingsDialogs.py:4417
+#: gui\settingsDialogs.py:4413
 msgid "Automatic (prefer UIA)"
 msgstr "自动（首选 UIA）"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA use UIA in the Windows Console when available.
-#: gui\settingsDialogs.py:4420
+#: gui\settingsDialogs.py:4416
 msgid "UIA when available"
 msgstr "UIA 如果可用"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA use its legacy Windows Console support
 #. in all cases.
-#: gui\settingsDialogs.py:4424
+#: gui\settingsDialogs.py:4420
 msgid "Legacy"
 msgstr "旧版"
 
 #. Translators: Label for the Use UIA with Chromium combobox, in the Advanced settings panel.
 #. Note the '\n' is used to split this long label approximately in half.
-#: gui\settingsDialogs.py:4447
+#: gui\settingsDialogs.py:4443
 msgctxt "advanced.uiaWithChromium"
 msgid ""
 "Use UIA with Microsoft Edge and other \n"
@@ -15697,72 +15686,72 @@ msgstr ""
 
 #. Translators: Label for the default value of the Use UIA with Chromium combobox,
 #. in the Advanced settings panel.
-#: gui\settingsDialogs.py:4452
+#: gui\settingsDialogs.py:4448
 msgctxt "advanced.uiaWithChromium"
 msgid "Default (Only when necessary)"
 msgstr "默认（仅必要时）"
 
 #. Translators: Label for a value in the Use UIA with Chromium combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4454
+#: gui\settingsDialogs.py:4450
 msgctxt "advanced.uiaWithChromium"
 msgid "Only when necessary"
 msgstr "仅必要时"
 
 #. Translators: Label for a value in the Use UIA with Chromium combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4456
+#: gui\settingsDialogs.py:4452
 msgctxt "advanced.uiaWithChromium"
 msgid "Yes"
 msgstr "始终"
 
 #. Translators: Label for a value in the Use UIA with Chromium combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4458
+#: gui\settingsDialogs.py:4454
 msgctxt "advanced.uiaWithChromium"
 msgid "No"
 msgstr "从不"
 
 #. Translators: This is the label for a COMBOBOX in the Advanced settings panel.
-#: gui\settingsDialogs.py:4466
+#: gui\settingsDialogs.py:4462
 msgid "Use en&hanced event processing (requires restart)"
 msgstr "使用增强的事件处理（需要重新启动）(&H)"
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4477
+#: gui\settingsDialogs.py:4473
 msgid "Annotations"
 msgstr "注释"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4486
+#: gui\settingsDialogs.py:4482
 msgid "Report 'has details' for structured annotations"
 msgstr "读出“有详细信息”以获取结构化注释"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4493
+#: gui\settingsDialogs.py:4489
 msgid "Report aria-description always"
 msgstr "始终读出 aria-description"
 
 #. Translators: This is the label for a combo-box in the Advanced settings panel.
-#: gui\settingsDialogs.py:4509
+#: gui\settingsDialogs.py:4505
 msgid "Report live regions:"
 msgstr "盲文显示动态内容更新："
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4518
+#: gui\settingsDialogs.py:4514
 msgid "Terminal programs"
 msgstr "终端程序"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4525
+#: gui\settingsDialogs.py:4521
 msgid "Speak &passwords in all enhanced terminals (may improve performance)"
 msgstr "在所有的增强终端读出密码 （可提高性能）(&P)"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4534
+#: gui\settingsDialogs.py:4530
 msgid ""
 "Use enhanced t&yped character support in legacy Windows Console when "
 "available"
@@ -15770,7 +15759,7 @@ msgstr "在旧版 Windows 控制台使用增强型字符支持 （如果可用�
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4544
+#: gui\settingsDialogs.py:4540
 msgid "Beep for &skipped lines"
 msgstr "跳行时发出提示音(&S)"
 
@@ -15778,148 +15767,148 @@ msgstr "跳行时发出提示音(&S)"
 #. method of detecting changed content in terminals in the advanced
 #. settings panel.
 #. Choices are automatic, Diff Match Patch, and Difflib.
-#: gui\settingsDialogs.py:4563
+#: gui\settingsDialogs.py:4559
 msgid "&Diff algorithm:"
 msgstr "Diff 算法(&C)："
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA determine the method of detecting changed
 #. content in terminals automatically.
-#: gui\settingsDialogs.py:4568
+#: gui\settingsDialogs.py:4564
 msgid "Automatic (prefer Diff Match Patch)"
 msgstr "自动（首选 Diff Match Patch）"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA detect changes in terminals
 #. by character, using the diff match patch algorithm.
-#: gui\settingsDialogs.py:4572
+#: gui\settingsDialogs.py:4568
 msgid "Diff Match Patch"
 msgstr "Diff Match Patch"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA detect changes in terminals
 #. by line, using the difflib algorithm.
-#: gui\settingsDialogs.py:4576
+#: gui\settingsDialogs.py:4572
 msgid "Difflib"
 msgstr "Difflib"
 
 #. Translators: This is the label for a combo-box in the Advanced settings panel.
-#: gui\settingsDialogs.py:4602
+#: gui\settingsDialogs.py:4598
 msgid "Speak new text in Windows Terminal via:"
 msgstr "在 Windows 终端内使用以下方式朗读新文本："
 
 #. Translators: Label for the 'Cancel speech for expired &focus events' combobox
 #. in the Advanced settings panel.
-#: gui\settingsDialogs.py:4621
+#: gui\settingsDialogs.py:4617
 msgid "Default (Yes)"
 msgstr "默认（是）"
 
 #. Translators: Label for the 'Cancel speech for expired &focus events' combobox
 #. in the Advanced settings panel.
-#: gui\settingsDialogs.py:4624
+#: gui\settingsDialogs.py:4620
 msgid "Yes"
 msgstr "是"
 
 #. Translators: Label for the 'Cancel speech for expired &focus events' combobox
 #. in the Advanced settings panel.
-#: gui\settingsDialogs.py:4627
+#: gui\settingsDialogs.py:4623
 msgid "No"
 msgstr "否"
 
 #. Translators: This is the label for combobox in the Advanced settings panel.
-#: gui\settingsDialogs.py:4631
+#: gui\settingsDialogs.py:4627
 msgid "Attempt to cancel speech for expired focus events:"
 msgstr "尝试取消无效焦点事件的朗读："
 
 #. Translators: This is the label for a checkbox control in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4647
+#: gui\settingsDialogs.py:4643
 msgid "Trim leading silence in speech audio"
 msgstr "去除语音开头的静音"
 
 #. Translators: This is the label for a combo-box control in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4655
+#: gui\settingsDialogs.py:4651
 msgid "Use WASAPI for SAPI 4 audio output:"
 msgstr "SAPI 4 使用 WASAPI 输出音频："
 
 #. Translators: This is the label for a combo-box control in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4666
+#: gui\settingsDialogs.py:4662
 msgid "Use modern regular expression engine for speech dictionary entries:"
 msgstr "使用现代正则表达式引擎处理语音字典条目："
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4677
+#: gui\settingsDialogs.py:4673
 msgid "Virtual Buffers"
 msgstr "虚拟缓冲区"
 
 #. Translators: This is the label for a combo-box in the Advanced settings panel.
-#: gui\settingsDialogs.py:4685
+#: gui\settingsDialogs.py:4681
 msgid "Load Chromium virtual buffer when document busy."
 msgstr "文档忙碌时加载 Chromium 虚拟缓冲区。"
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4694
+#: gui\settingsDialogs.py:4690
 msgid "Editable Text"
 msgstr "可编辑"
 
 #. Translators: This is the label for a numeric control in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4701
+#: gui\settingsDialogs.py:4697
 msgid "Caret movement timeout (in ms)"
 msgstr "光标移动超时（毫秒）"
 
 #. Translators: This is the label for a checkbox control in the
 #. Advanced settings panel.
-#: gui\settingsDialogs.py:4724
+#: gui\settingsDialogs.py:4720
 msgid "Report transparent color values"
 msgstr "读出透明色值"
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4738
+#: gui\settingsDialogs.py:4734
 msgid "Debug logging"
 msgstr "调试日志"
 
 #. Translators: This is the label for a list in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4766
+#: gui\settingsDialogs.py:4762
 msgid "Enabled logging categories"
 msgstr "已启用的日志记录类型"
 
 #. Translators: Label for the Play a sound for logged errors combobox, in the Advanced settings panel.
-#: gui\settingsDialogs.py:4786
+#: gui\settingsDialogs.py:4782
 msgid "Play a sound for logged e&rrors:"
 msgstr "日志记录后播放错误提示音(&R)："
 
 #. Translators: This is the label for a textfield in the
 #. advanced settings panel.
-#: gui\settingsDialogs.py:4799
+#: gui\settingsDialogs.py:4795
 msgid "Regular expression for text paragraph navigation"
 msgstr "文本段落导航的正则表达式"
 
 #. Translators: Message shown when invalid text paragraph regex entered
-#: gui\settingsDialogs.py:4821
+#: gui\settingsDialogs.py:4817
 #, python-format
 msgid "Failed to compile text paragraph regular expression: %s"
 msgstr "表达式 %s 无法解析"
 
 #. Translators: This is the label for the Advanced settings panel.
-#: gui\settingsDialogs.py:4959
+#: gui\settingsDialogs.py:4955
 msgid "Advanced"
 msgstr "高级"
 
 #. Translators: This is the label to warn users about the Advanced options in the
 #. Advanced settings panel
-#: gui\settingsDialogs.py:4964
+#: gui\settingsDialogs.py:4960
 msgid "Warning!"
 msgstr "警告！"
 
 #. Translators: This is a label appearing on the Advanced settings panel.
-#: gui\settingsDialogs.py:4968
+#: gui\settingsDialogs.py:4964
 msgid ""
 "The following settings are for advanced users. Changing them may cause NVDA "
 "to function incorrectly. Please only change these if you know what you are "
@@ -15929,188 +15918,188 @@ msgstr ""
 "只有在清楚要更改选项的含义、或在 NVDA 开发者的指导下，才可进行修改。"
 
 #. Translators: This is the label for a checkbox in the Advanced settings panel.
-#: gui\settingsDialogs.py:4995
+#: gui\settingsDialogs.py:4991
 msgid ""
 "I understand that changing these settings may cause NVDA to function "
 "incorrectly."
 msgstr "我清楚更改这些设置可能导致 NVDA 无法正常运行。"
 
 #. Translators: This is the label for a button in the Advanced settings panel
-#: gui\settingsDialogs.py:5006
+#: gui\settingsDialogs.py:5002
 msgid "Restore defaults"
 msgstr "恢复默认值"
 
 #. Translators: A label for the braille display on the braille panel.
-#: gui\settingsDialogs.py:5049
+#: gui\settingsDialogs.py:5045
 msgid "Braille display"
 msgstr "盲文点显器"
 
 #. Translators: This is the label for the braille display selection dialog.
-#: gui\settingsDialogs.py:5118
+#: gui\settingsDialogs.py:5114
 msgid "Select Braille Display"
 msgstr "选择盲文点显器"
 
 #. Translators: The label for a setting in braille settings to choose a braille display.
-#: gui\settingsDialogs.py:5127
+#: gui\settingsDialogs.py:5123
 msgid "Braille &display:"
 msgstr "点显器(&D):"
 
 #. Translators: The label for a setting in braille settings to enable displays for automatic detection.
-#: gui\settingsDialogs.py:5133
+#: gui\settingsDialogs.py:5129
 msgid "&Displays to detect automatically:"
 msgstr "自动检测的点显器(&D):"
 
 #. Translators: The message in a dialog presented when NVDA is unable to load the selected
 #. braille display.
-#: gui\settingsDialogs.py:5249
+#: gui\settingsDialogs.py:5245
 #, python-brace-format
 msgid "Could not load the {display} display."
 msgstr "无法加载 {display} 显示。"
 
 #. Translators: The title in a dialog presented when NVDA is unable to load the selected
 #. braille display.
-#: gui\settingsDialogs.py:5252
+#: gui\settingsDialogs.py:5248
 msgid "Braille Display Error"
 msgstr "点显器错误"
 
 #. Translators: The label for a setting in braille settings to select the output table (the braille table used to read braille text on the braille display).
-#: gui\settingsDialogs.py:5285
+#: gui\settingsDialogs.py:5281
 msgid "&Output table:"
 msgstr "输出表(&O):"
 
 #. Translators: An option in Braille settings to select a braille table automatically, according to the current language.
-#: gui\settingsDialogs.py:5293 gui\settingsDialogs.py:5320
+#: gui\settingsDialogs.py:5289 gui\settingsDialogs.py:5316
 #, python-brace-format
 msgid "Automatic ({name})"
 msgstr "自动（{name}）"
 
 #. Translators: The label for a setting in braille settings to select the input table (the braille table used to type braille characters on a braille keyboard).
-#: gui\settingsDialogs.py:5312
+#: gui\settingsDialogs.py:5308
 msgid "&Input table:"
 msgstr "输入表(&I):"
 
 #. Translators: The label for a setting in braille settings to select which braille mode to use
-#: gui\settingsDialogs.py:5338
+#: gui\settingsDialogs.py:5334
 msgid "Braille mode:"
 msgstr "盲文模式："
 
 #. Translators: The label for a setting in braille settings to expand the current word under cursor to computer braille.
-#: gui\settingsDialogs.py:5353
+#: gui\settingsDialogs.py:5349
 msgid "E&xpand to computer braille for the word at the cursor"
 msgstr "将光标所在单词转换为计算机盲文(&X)"
 
 #. Translators: The label for a setting in braille settings to show the cursor.
-#: gui\settingsDialogs.py:5361
+#: gui\settingsDialogs.py:5357
 msgid "&Show cursor"
 msgstr "显示光标位置(&S)"
 
 #. Translators: The label for a setting in braille settings to enable cursor blinking.
-#: gui\settingsDialogs.py:5370
+#: gui\settingsDialogs.py:5366
 msgid "Blink cursor"
 msgstr "闪烁光标(&B)"
 
 #. Translators: The label for a setting in braille settings to change cursor blink rate in milliseconds (1 second is 1000 milliseconds).
-#: gui\settingsDialogs.py:5381
+#: gui\settingsDialogs.py:5377
 msgid "Cursor blink rate (ms)"
 msgstr "光标闪烁频率（毫秒）(&R)"
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to focus.
-#: gui\settingsDialogs.py:5403
+#: gui\settingsDialogs.py:5399
 msgid "Cursor shape for &focus:"
 msgstr "系统焦点的光标形状(&F)："
 
 #. Translators: The label for a setting in braille settings to select the cursor shape when tethered to review.
-#: gui\settingsDialogs.py:5419
+#: gui\settingsDialogs.py:5415
 msgid "Cursor shape for &review:"
 msgstr "查看光标的光标形状(&R)："
 
 #. Translators: The label for a setting in braille settings to combobox enabling user
 #. to decide if braille messages should be shown and automatically disappear from braille display.
-#: gui\settingsDialogs.py:5441
+#: gui\settingsDialogs.py:5437
 msgid "Show messages"
 msgstr "显示消息"
 
 #. Translators: The label for a setting in braille settings to change how long a message stays on the braille display (in seconds).
-#: gui\settingsDialogs.py:5463
+#: gui\settingsDialogs.py:5459
 msgid "Message &timeout (sec)"
 msgstr "消息显示时间（秒）(&T)"
 
 #. Translators: The label for a setting in braille settings to set whether braille should be tethered to focus or review cursor.
-#: gui\settingsDialogs.py:5482
+#: gui\settingsDialogs.py:5478
 msgid "Tether B&raille:"
 msgstr "盲文显示跟随到(&R)："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:5506
+#: gui\settingsDialogs.py:5502
 msgid "Move system caret when ro&uting review cursor"
 msgstr "移动查看光标时移动系统光标(&U)"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
-#: gui\settingsDialogs.py:5522
+#: gui\settingsDialogs.py:5518
 msgid "Read by &paragraph"
 msgstr "按段落阅读(&P)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel to select paragraph start markers.
-#: gui\settingsDialogs.py:5531
+#: gui\settingsDialogs.py:5527
 msgid "Paragraph start marker:"
 msgstr "段落开始标记："
 
 #. Translators: The label for a setting in braille settings to select how the context for the focus object should be presented on a braille display.
-#: gui\settingsDialogs.py:5546
+#: gui\settingsDialogs.py:5542
 msgid "Focus context presentation:"
 msgstr "聚焦到上下文："
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:5567
+#: gui\settingsDialogs.py:5563
 msgid "Show se&lection"
 msgstr "盲文选择指示光标(&L)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:5579
+#: gui\settingsDialogs.py:5575
 msgid "Formatting &display"
 msgstr "格式信息的显示方式(&D)"
 
 #. Translators: The label for a setting in braille settings to speak the character under the cursor when cursor routing in text.
-#: gui\settingsDialogs.py:5588
+#: gui\settingsDialogs.py:5584
 msgid "Spea&k character when routing cursor in text"
 msgstr "定位文本光标后读出光标所在处的字符(&K)"
 
 #. Translators: The label for a setting in braille settings to speak the current line or paragraph when navigating by them with braille.
-#: gui\settingsDialogs.py:5596
+#: gui\settingsDialogs.py:5592
 msgid "Speak when navigating by &line or paragraph"
 msgstr "按行或段落导航时读出内容(&L)"
 
 #. Translators: The label for a setting in braille settings to configure text wrap behaviour
 #. (how to break lines that don't fit on the braille display).
-#: gui\settingsDialogs.py:5610
+#: gui\settingsDialogs.py:5606
 msgid "Text &wrap"
 msgstr "自动换行(&W)"
 
 #. Translators: This is a label for a combo-box in the Braille settings panel.
-#: gui\settingsDialogs.py:5631
+#: gui\settingsDialogs.py:5627
 msgid "I&nterrupt speech while scrolling"
 msgstr "滚动时打断语音(&I)"
 
 #. Translators: The label for a setting in braille settings to change the rate for autoscroll.
-#: gui\settingsDialogs.py:5640
+#: gui\settingsDialogs.py:5636
 msgid "Auto&matic scroll rate"
 msgstr "自动滚动的速度(&M)"
 
 #. Translators: The label for a checkbox in the Braille settings panel.
-#: gui\settingsDialogs.py:5661
+#: gui\settingsDialogs.py:5657
 msgid "Use &Chinese word segmentation"
 msgstr "使用中文分词(&C)"
 
 #. Translators: This message is presented when
 #. NVDA is unable to load a single vision enhancement provider.
-#: gui\settingsDialogs.py:5767
+#: gui\settingsDialogs.py:5763
 #, python-brace-format
 msgid "Could not load the {providerName} vision enhancement provider"
 msgstr "无法加载 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when NVDA is unable to
 #. load multiple vision enhancement providers.
-#: gui\settingsDialogs.py:5774
+#: gui\settingsDialogs.py:5770
 #, python-brace-format
 msgid ""
 "Could not load the following vision enhancement providers:\n"
@@ -16120,13 +16109,13 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
-#: gui\settingsDialogs.py:5780 gui\settingsDialogs.py:5810
+#: gui\settingsDialogs.py:5776 gui\settingsDialogs.py:5806
 msgid "Vision Enhancement Provider Error"
 msgstr "视觉增强程序加载错误"
 
 #. Translators: This message is presented when
 #. NVDA is unable to gracefully terminate a single vision enhancement provider.
-#: gui\settingsDialogs.py:5797
+#: gui\settingsDialogs.py:5793
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the {providerName} vision enhancement provider"
@@ -16134,7 +16123,7 @@ msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when
 #. NVDA is unable to terminate multiple vision enhancement providers.
-#: gui\settingsDialogs.py:5805
+#: gui\settingsDialogs.py:5801
 #, python-brace-format
 msgid ""
 "Could not gracefully terminate the following vision enhancement providers:\n"
@@ -16144,86 +16133,86 @@ msgstr ""
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
-#: gui\settingsDialogs.py:5905
+#: gui\settingsDialogs.py:5901
 msgid "Configure visual aids."
 msgstr "配置视觉辅助。"
 
 #. Translators: Enable checkbox on a vision enhancement provider on the vision settings category panel
-#: gui\settingsDialogs.py:6077
+#: gui\settingsDialogs.py:6073
 msgid "Enable"
 msgstr "启用"
 
 #. Translators: Options label on a vision enhancement provider on the vision settings category panel
 #. Translators: The label for a group box containing the NVDA highlighter options.
-#: gui\settingsDialogs.py:6084
+#: gui\settingsDialogs.py:6080
 #: visionEnhancementProviders\NVDAHighlighter.py:396
 msgid "Options:"
 msgstr "选项："
 
 #. Translators: Shown when there is an error showing the GUI for a vision enhancement provider
-#: gui\settingsDialogs.py:6130
+#: gui\settingsDialogs.py:6126
 msgid ""
 "Unable to configure user interface for Vision Enhancement Provider, it can "
 "not be enabled."
 msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法启用。"
 
 #. Translators: The label for a setting in magnifier settings to enable or disable the magnifier.
-#: gui\settingsDialogs.py:6220
+#: gui\settingsDialogs.py:6216
 msgid "&Enable magnifier (immediate effect)"
 msgstr "开启放大镜（立即生效）(&E)"
 
 #. Translators: The label for a setting in magnifier settings to select the zoom level.
-#: gui\settingsDialogs.py:6234
+#: gui\settingsDialogs.py:6230
 msgid "&Zoom (%):"
 msgstr "放大级别（%）(&Z)："
 
 #. Translators: The label for a setting in magnifier settings to select the filter
-#: gui\settingsDialogs.py:6256
+#: gui\settingsDialogs.py:6252
 msgid "Color f&ilter:"
 msgstr "颜色滤镜(&I)："
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
-#: gui\settingsDialogs.py:6273
+#: gui\settingsDialogs.py:6269
 msgid "&Panning step size (%):"
 msgstr "平移步长（%）(&P)："
 
 #. Translators: This is the label for a group of tracking options in the magnifier settings panel
-#: gui\settingsDialogs.py:6295
+#: gui\settingsDialogs.py:6291
 msgid "Tracking"
 msgstr "跟踪"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the mouse
-#: gui\settingsDialogs.py:6303
+#: gui\settingsDialogs.py:6299
 msgid "Follow &mouse"
 msgstr "跟踪鼠标(&M)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the system focus
-#: gui\settingsDialogs.py:6305
+#: gui\settingsDialogs.py:6301
 msgid "Follow &system focus"
 msgstr "跟踪系统焦点(&S)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the review cursor
-#: gui\settingsDialogs.py:6307
+#: gui\settingsDialogs.py:6303
 msgid "Follow &review cursor"
 msgstr "跟踪查看光标(&R)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the navigator object
-#: gui\settingsDialogs.py:6310
+#: gui\settingsDialogs.py:6306
 msgid "Follow &navigator object"
 msgstr "跟踪导航对象(&N)"
 
 #. Translators: The label for a setting in magnifier settings to select the tracking mode
-#: gui\settingsDialogs.py:6327
+#: gui\settingsDialogs.py:6323
 msgid "&Tracking mode:"
 msgstr "跟踪模式(&T)："
 
 #. Translators: The title of the privacy and security category in NVDA's settings.
-#: gui\settingsDialogs.py:6408
+#: gui\settingsDialogs.py:6404
 msgid "Privacy and Security"
 msgstr "隐私和安全"
 
 #. Translators: Warning shown when enabling the "debug (unredacted)" log level from NVDA settings.
-#: gui\settingsDialogs.py:6421
+#: gui\settingsDialogs.py:6417
 msgid ""
 "Setting the logging level to \"debug (unredacted)\" will write sensitive "
 "information to the log without redaction, including passwords, API keys, or "
@@ -16235,12 +16224,12 @@ msgstr ""
 "否继续？"
 
 #. Translators: Title of the warning dialog shown when enabling the "debug (unredacted)" log level.
-#: gui\settingsDialogs.py:6428
+#: gui\settingsDialogs.py:6424
 msgid "High risk logging level"
 msgstr "高风险日志级别"
 
 #. Translators: Warning shown when enabling a logging level above info from NVDA settings.
-#: gui\settingsDialogs.py:6433
+#: gui\settingsDialogs.py:6429
 msgid ""
 "Setting the logging level above info may record sensitive information such "
 "as typed input, speech output, or other private data in the log. Only enable "
@@ -16253,121 +16242,121 @@ msgstr ""
 
 #. Translators: Name for a feature that disables output to the screen,
 #. making it black.
-#: gui\settingsDialogs.py:6458
+#: gui\settingsDialogs.py:6454
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: option to enable screen curtain in the privacy and security settings panel
-#: gui\settingsDialogs.py:6467
+#: gui\settingsDialogs.py:6463
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: gui\settingsDialogs.py:6496
+#: gui\settingsDialogs.py:6492
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: The label for a setting in privacy and security settings to select NVDA's logging level
-#: gui\settingsDialogs.py:6511
+#: gui\settingsDialogs.py:6507
 msgid "L&ogging level:"
 msgstr "日志记录级别(&O):"
 
 #. Translators: The label of a checkbox in privacy and security settings to toggle allowing of usage stats gathering
-#: gui\settingsDialogs.py:6534
+#: gui\settingsDialogs.py:6530
 msgid "Allow NV Access to gather NVDA usage statistics"
 msgstr "允许 NV Access 收集 NVDA 使用统计信息"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:6655
+#: gui\settingsDialogs.py:6651
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:6711
+#: gui\settingsDialogs.py:6707
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:6742
+#: gui\settingsDialogs.py:6738
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:6747
+#: gui\settingsDialogs.py:6743
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:6777
+#: gui\settingsDialogs.py:6773
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:6791
+#: gui\settingsDialogs.py:6787
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6800
+#: gui\settingsDialogs.py:6796
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:6810
+#: gui\settingsDialogs.py:6806
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:6812 gui\speechDict.py:194
+#: gui\settingsDialogs.py:6808 gui\speechDict.py:194
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:6814
+#: gui\settingsDialogs.py:6810
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:6817
+#: gui\settingsDialogs.py:6813
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:6821
+#: gui\settingsDialogs.py:6817
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6839 gui\speechDict.py:52
+#: gui\settingsDialogs.py:6835 gui\speechDict.py:52
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:6848
+#: gui\settingsDialogs.py:6844
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:6855
+#: gui\settingsDialogs.py:6851
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:6870
+#: gui\settingsDialogs.py:6866
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:6977
+#: gui\settingsDialogs.py:6973
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
@@ -22022,3 +22011,9 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "Add-ons cannot be installed in the Windows Store version of NVDA"
+#~ msgstr "插件无法安装在 Windows 商店版本的 NVDA 中"
+
+#~ msgid "Action unavailable in NVDA Windows Store version"
+#~ msgstr "该操作在 Windows Store 版本中不可用"
