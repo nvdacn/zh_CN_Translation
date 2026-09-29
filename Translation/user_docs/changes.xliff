@@ -6598,9 +6598,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Edge gestures are also now supported, allowing gestures that start from any screen edge to be bound independently from the same gesture performed in the center of the screen.</source>
-        <target>Edge gestures are also now supported, allowing gestures that start from any screen edge to be bound independently from the same gesture performed in the center of the screen.</target>
+        <target>还支持边缘手势：从屏幕任一边缘开始的手势，可与在屏幕中央执行的相同手势分别绑定命令。</target>
       </segment>
     </unit>
     <unit id="b60dd8be-4633-4cbb-b02b-cf26d56aa266">
@@ -6625,9 +6625,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 25</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Liblouis has been updated with new Elfdalian, Sami, Maori, New Zealand Unified English Braille, Haitian Creole braille tables, a Norwegian table for Spanish text, and additional Swedish 6 and 8 dot variants.</source>
-        <target>Liblouis has been updated with new Elfdalian, Sami, Maori, New Zealand Unified English Braille, Haitian Creole braille tables, a Norwegian table for Spanish text, and additional Swedish 6 and 8 dot variants.</target>
+        <target>Liblouis 已更新，新增了埃尔夫达利安语、萨米语、毛利语、新西兰统一英语盲文和海地克里奥尔语盲文表。此外，还新增了用于西班牙语文本的挪威语盲文表，以及更多瑞典语六点和八点盲文表变体。</target>
       </segment>
     </unit>
     <unit id="f28f7e08-ce4d-42f1-a8e4-fb379db43d8f">
@@ -6844,9 +6844,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In all modes other than Off, when a word is cut across rows, the last cell of the row now shows a continuation mark (braille dots 7-8) so it is clear that the word continues on the next row.</source>
-        <target>In all modes other than Off, when a word is cut across rows, the last cell of the row now shows a continuation mark (braille dots 7-8) so it is clear that the word continues on the next row.</target>
+        <target>除“关闭”模式外，单词跨行显示时，行末的盲文单元会显示续行标记（盲文点 7 和 8），提示该单词将在下一行继续显示。</target>
       </segment>
     </unit>
     <unit id="9a8a6d46-9328-4213-a26f-27cd9b399ef9">
@@ -6894,9 +6894,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added edge gesture support for touch screens, allowing gestures that start from any screen edge to be bound independently from the same gesture performed in the centre of the screen. (#19938, @kefaslungu)</source>
-        <target>Added edge gesture support for touch screens, allowing gestures that start from any screen edge to be bound independently from the same gesture performed in the centre of the screen. (#19938, @kefaslungu)</target>
+        <target>新增了对触摸屏边缘手势的支持：从屏幕任一边缘开始的手势，可与在屏幕中央执行的相同手势分别绑定命令。(#19938, @kefaslungu)</target>
       </segment>
     </unit>
     <unit id="9cd26474-d066-43f9-aaa7-a43da27116e3">
@@ -7032,9 +7032,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added new Elfdalian, Sami, Maori, New Zealand Unified English Braille, Haitian Creole tables, a Norwegian table for Spanish text, and additional Swedish 6 and 8 dot variants.</source>
-        <target>Added new Elfdalian, Sami, Maori, New Zealand Unified English Braille, Haitian Creole tables, a Norwegian table for Spanish text, and additional Swedish 6 and 8 dot variants.</target>
+        <target>新增了埃尔夫达利安语、萨米语、毛利语、新西兰统一英语盲文和海地克里奥尔语盲文表。此外，还新增了用于西班牙语文本的挪威语盲文表，以及更多瑞典语六点和八点盲文表变体。</target>
       </segment>
     </unit>
     <unit id="4997e258-753c-4a1d-9115-97bea484acef">
@@ -7152,9 +7152,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA now reports the correct location and label for Win32 menu items of 32-bit applications when display scaling is above 100%. (#19225, #20158, @christopherpross)</source>
-        <target>NVDA now reports the correct location and label for Win32 menu items of 32-bit applications when display scaling is above 100%. (#19225, #20158, @christopherpross)</target>
+        <target>修复了显示缩放比例高于 100% 时，NVDA 无法正确报告 32 位应用程序中 Win32 菜单项的位置和标签的问题。(#19225, #20158, @christopherpross)</target>
       </segment>
     </unit>
     <unit id="ed9fc72f-92a5-40e7-8159-d831fe982443">
@@ -7182,9 +7182,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed UAC slider not being read when changing values with arrow keys. (#9356, @tareh7z)</source>
-        <target>Fixed UAC slider not being read when changing values with arrow keys. (#9356, @tareh7z)</target>
+        <target>修复了用光标键调整 UAC 滑块时，NVDA 不朗读新值的问题。(#9356, @tareh7z)</target>
       </segment>
     </unit>
     <unit id="17fc7478-3516-488e-8210-f704050a6e98">
@@ -7221,9 +7221,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Focus is no longer silent on list items in Qt-based applications (such as Telegram Desktop). (#20255, @rezabakhshilaktasaraei)</source>
-        <target>Focus is no longer silent on list items in Qt-based applications (such as Telegram Desktop). (#20255, @rezabakhshilaktasaraei)</target>
+        <target>修复了在基于 Qt 的应用程序（如 Telegram Desktop）中，焦点移到列表项时 NVDA 不朗读的问题。(#20255, @rezabakhshilaktasaraei)</target>
       </segment>
     </unit>
     <unit id="f52ccc5e-8f05-4539-9087-1430ed0a8c57">
