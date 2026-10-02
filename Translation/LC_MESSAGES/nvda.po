@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 12:23+0000\n"
+"POT-Creation-Date: 2026-10-02 05:18+0000\n"
 "PO-Revision-Date: 2026-09-04 08:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -1765,7 +1765,7 @@ msgid ""
 msgstr "从光标处向上查找您之前键入的文本"
 
 #. Translators: a message when navigating by sentence is unavailable in the current document
-#: cursorManager.py:459 NVDAObjects\UIA\wordDocument.py:860
+#: cursorManager.py:459 NVDAObjects\UIA\wordDocument.py:1127
 msgid "Navigating by sentence not supported in this document"
 msgstr "当前文档不支持句子导航"
 
@@ -16414,7 +16414,7 @@ msgstr "字典项目(&D)"
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 #. Translators: title for Word comment dialog.
 #: gui\speechDict.py:188 NVDAObjects\IAccessible\winword.py:375
-#: NVDAObjects\UIA\wordDocument.py:899
+#: NVDAObjects\UIA\wordDocument.py:1176
 msgid "Comment"
 msgstr "注释"
 
@@ -18213,7 +18213,7 @@ msgid ""
 msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式下显示该信息。"
 
 #. Translators: a message when there is no comment to report in Microsoft Word
-#: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:903
+#: NVDAObjects\IAccessible\winword.py:379 NVDAObjects\UIA\wordDocument.py:1180
 msgid "No comments"
 msgstr "无批注"
 
@@ -18409,75 +18409,89 @@ msgstr "离开表格"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\UIA\wordDocument.py:69 NVDAObjects\window\winword.py:2229
+#: NVDAObjects\UIA\wordDocument.py:78 NVDAObjects\window\winword.py:2229
 msgid "&Annotations"
 msgstr "注释(&A)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\UIA\wordDocument.py:72 NVDAObjects\window\winword.py:2235
+#: NVDAObjects\UIA\wordDocument.py:81 NVDAObjects\window\winword.py:2235
 msgid "&Errors"
 msgstr "错误(&E)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\UIA\wordDocument.py:75 NVDAObjects\window\winword.py:2238
+#: NVDAObjects\UIA\wordDocument.py:84 NVDAObjects\window\winword.py:2238
 msgid "&References"
 msgstr "引用标记(&R)"
 
 #. Translators: The label shown for an insertion change
-#: NVDAObjects\UIA\wordDocument.py:92
+#: NVDAObjects\UIA\wordDocument.py:109
 #, python-brace-format
 msgid "insertion: {text}"
 msgstr "插入：{text}"
 
 #. Translators: The label shown for a deletion change
-#: NVDAObjects\UIA\wordDocument.py:95
+#: NVDAObjects\UIA\wordDocument.py:112
 #, python-brace-format
 msgid "deletion: {text}"
 msgstr "删除：{text}"
 
 #. Translators: The general label shown for track changes
-#: NVDAObjects\UIA\wordDocument.py:98
+#: NVDAObjects\UIA\wordDocument.py:115
 #, python-brace-format
 msgid "track change: {text}"
 msgstr "轨迹偏移：{text}"
 
 #. Translators: The label shown for a footnote in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the footnote.
-#: NVDAObjects\UIA\wordDocument.py:137
+#: NVDAObjects\UIA\wordDocument.py:154
 #, python-brace-format
 msgid "footnote reference: {text}"
 msgstr "脚注引用：{text}"
 
 #. Translators: The label shown for an endnote in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the endnote.
-#: NVDAObjects\UIA\wordDocument.py:141
+#: NVDAObjects\UIA\wordDocument.py:158
 #, python-brace-format
 msgid "endnote reference: {text}"
 msgstr "尾注引用：{text}"
 
 #. Translators: The label shown for a reference in the NVDA Elements List dialog in Microsoft Word.
 #. {name} will be replaced with the name of the reference.
-#: NVDAObjects\UIA\wordDocument.py:147
+#: NVDAObjects\UIA\wordDocument.py:164
 #, python-brace-format
 msgid "reference: {name}"
 msgstr "引用标记：{name}"
 
 #. Translators: The message reported for a comment in Microsoft Word
-#: NVDAObjects\UIA\wordDocument.py:199
+#: NVDAObjects\UIA\wordDocument.py:212
 #, python-brace-format
 msgid "Comment: {comment} by {author}"
 msgstr "{author}评论： {comment}"
 
+#. Translators: The message reported for a reply to a comment in Microsoft Word
+#: NVDAObjects\UIA\wordDocument.py:215
+#, fuzzy, python-brace-format
+#| msgid "Comment: {comment} by {author} on {date}"
+msgid "Reply: {comment} by {author} on {date}"
+msgstr "批注： {comment} 由 {author} 创建于 {date}"
+
+#. Translators: The message reported for a comment in Microsoft Word that is marked resolved
+#: NVDAObjects\UIA\wordDocument.py:218
+#, fuzzy, python-brace-format
+#| msgid "Comment: {comment} by {author} on {date}"
+msgid "Resolved comment: {comment} by {author} on {date}"
+msgstr "批注： {comment} 由 {author} 创建于 {date}"
+
 #. Translators: The message reported for a comment in Microsoft Word
-#: NVDAObjects\UIA\wordDocument.py:201
+#: NVDAObjects\UIA\wordDocument.py:221
 #, python-brace-format
 msgid "Comment: {comment} by {author} on {date}"
 msgstr "批注： {comment} 由 {author} 创建于 {date}"
 
 #. Translators: a description for a script that reports the comment at the caret.
-#: NVDAObjects\UIA\wordDocument.py:881
+#: NVDAObjects\UIA\wordDocument.py:1148
 msgid ""
 "Reports the text of the comment where the system caret is located. If "
 "pressed twice, presents the information in a browsable message"
@@ -18485,7 +18499,7 @@ msgstr "读出系统光标所在的批注文本。连按两次，在浏览模式
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
-#: NVDAObjects\UIA\wordDocument.py:911
+#: NVDAObjects\UIA\wordDocument.py:1188
 msgid ""
 "Command not supported in this type of document. The tables have their first "
 "row cells automatically set as column headers."
@@ -18493,7 +18507,7 @@ msgstr "此类文档不支持的命令。表格的第一行单元格将被自动
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
-#: NVDAObjects\UIA\wordDocument.py:922
+#: NVDAObjects\UIA\wordDocument.py:1199
 msgid ""
 "Command not supported in this type of document. The tables have their first "
 "column cells automatically set as row headers."
