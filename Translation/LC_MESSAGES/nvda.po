@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-02 05:18+0000\n"
+"POT-Creation-Date: 2026-10-06 06:01+0000\n"
 "PO-Revision-Date: 2026-09-04 08:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -7327,14 +7327,14 @@ msgstr ""
 "您必须先运行 NVDA 才能安装。"
 
 #. Translators: A title of the dialog shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:204
+#: addonStore\dataManager.py:208
 msgctxt "addonStore"
 msgid "Add-on data update failure"
 msgstr "插件数据更新失败"
 
 #. Translators: A suggestion of what to do when fetching add-on data from the store fails and a metadata mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: addonStore\dataManager.py:209
+#: addonStore\dataManager.py:213
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -7344,19 +7344,19 @@ msgid ""
 msgstr "请检查网络连接，并确保插件商店镜像网址 {url} 有效。"
 
 #. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
-#: addonStore\dataManager.py:215
+#: addonStore\dataManager.py:219
 msgctxt "addonStore"
 msgid "Unable to establish a connection to the Add-on Store server."
 msgstr "无法连接到插件商店服务器。"
 
 #. Translators: A message shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:248
+#: addonStore\dataManager.py:256
 msgctxt "addonStore"
 msgid "Unable to fetch latest add-on data for compatible add-ons."
 msgstr "无法获取兼容插件的最新数据。"
 
 #. Translators: A message shown when fetching add-on data from the store fails
-#: addonStore\dataManager.py:284
+#: addonStore\dataManager.py:298
 msgctxt "addonStore"
 msgid "Unable to fetch latest add-on data for incompatible add-ons."
 msgstr "无法获取不兼容插件的最新数据。"
