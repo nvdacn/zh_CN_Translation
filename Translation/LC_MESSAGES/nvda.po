@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-06 06:01+0000\n"
-"PO-Revision-Date: 2026-09-04 08:10\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-10-07 13:16+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Translators: shown when an addon API version string is unknown
 #. Translators: The word for an unknown control type.
@@ -18472,17 +18473,15 @@ msgstr "{author}评论： {comment}"
 
 #. Translators: The message reported for a reply to a comment in Microsoft Word
 #: NVDAObjects\UIA\wordDocument.py:215
-#, fuzzy, python-brace-format
-#| msgid "Comment: {comment} by {author} on {date}"
+#, python-brace-format
 msgid "Reply: {comment} by {author} on {date}"
-msgstr "批注： {comment} 由 {author} 创建于 {date}"
+msgstr "回复： {comment} 由 {author} 创建于 {date}"
 
 #. Translators: The message reported for a comment in Microsoft Word that is marked resolved
 #: NVDAObjects\UIA\wordDocument.py:218
-#, fuzzy, python-brace-format
-#| msgid "Comment: {comment} by {author} on {date}"
+#, python-brace-format
 msgid "Resolved comment: {comment} by {author} on {date}"
-msgstr "批注： {comment} 由 {author} 创建于 {date}"
+msgstr "已解决的批注： {comment} 由 {author} 创建于 {date}"
 
 #. Translators: The message reported for a comment in Microsoft Word
 #: NVDAObjects\UIA\wordDocument.py:221
