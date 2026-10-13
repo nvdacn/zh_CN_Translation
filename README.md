@@ -66,8 +66,10 @@ alpha 开发周期界面消息的翻译字符串将由 GitHub Actions 在满足�
 ### beta 开发周期的翻译
 
 可在  `Uploads` 分支翻译 beta 开发周期的所有翻译。具体注意事项，请参看[自动上传翻译][1]章节。
-beta 开发周期的界面消息和文档的翻译字符串可在任意分支手动运行 [Update NVDA Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateTranslations.yaml)进行更新，或在本地通过 `L10nUtilTools.bat` 的相关命令更新。
-`L10nUtilTools.bat` 的具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
+beta 开发周期的界面消息和文档的翻译字符串可在任意分支手动运行 [Update NVDA Translations 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateTranslations.yaml)进行更新，或在本地通过 `L10nUtilTools.bat` 的相关命令更新。
+- 运行 Update NVDA Translations 工作流时，还可通过启用“Fetch files in miscDeps folder from NVDA source code”选项将在 NVDA 侧对字符描述、手势配置和符号朗读规则文件的更改同步回此存储库。
+  此操作将使两个存储库的字符描述、手势配置和符号朗读规则文件的内容完全相同，因此若更改了此存储库中的相应文件但尚未提交到 NVDA，运行此操作后，这些更改将被还原。
+- `L10nUtilTools.bat` 的具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
 
 ### 自动上传翻译
 
