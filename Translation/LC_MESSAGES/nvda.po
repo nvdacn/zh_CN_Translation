@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-21 11:36+0000\n"
+"POT-Creation-Date: 2026-10-26 04:24+0000\n"
 "PO-Revision-Date: 2026-10-20 19:02+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1781,7 +1781,7 @@ msgid "No selection"
 msgstr "未选择文本"
 
 #. Translators: Abbreviation for points, a measurement of font size.
-#: displayModel.py:556 appModules\powerpnt.py:1223 appModules\soffice.py:95
+#: displayModel.py:556 appModules\powerpnt.py:1270 appModules\soffice.py:95
 #: controlTypes\formatFields.py:52 NVDAObjects\JAB\__init__.py:206
 #: NVDAObjects\UIA\__init__.py:202 NVDAObjects\window\edit.py:347
 #: NVDAObjects\window\edit.py:709 NVDAObjects\window\excel.py:1368
@@ -8163,242 +8163,254 @@ msgid "translation issue"
 msgstr "翻译警告"
 
 #. Translators: The name of a category of NVDA commands.
-#: appModules\powerpnt.py:47
+#: appModules\powerpnt.py:46
 msgid "PowerPoint"
 msgstr "PowerPoint"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:132
+#: appModules\powerpnt.py:131
 msgid "Title placeholder"
 msgstr "标题占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:134
+#: appModules\powerpnt.py:133
 msgid "Text placeholder"
 msgstr "文本占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:136
+#: appModules\powerpnt.py:135
 msgid "Center Title placeholder"
 msgstr "居中的标题占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:138
+#: appModules\powerpnt.py:137
 msgid "Subtitle placeholder"
 msgstr "子标题占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:140
+#: appModules\powerpnt.py:139
 msgid "Vertical Title placeholder"
 msgstr "竖排标题占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:142
+#: appModules\powerpnt.py:141
 msgid "Vertical Text placeholder"
 msgstr "竖排文本占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:144
+#: appModules\powerpnt.py:143
 msgid "Object placeholder"
 msgstr "对象占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:146
+#: appModules\powerpnt.py:145
 msgid "Chart placeholder"
 msgstr "图表占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:148
+#: appModules\powerpnt.py:147
 msgid "Bitmap placeholder"
 msgstr "位图占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:150
+#: appModules\powerpnt.py:149
 msgid "Media Clip placeholder"
 msgstr "媒体剪辑占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:152
+#: appModules\powerpnt.py:151
 msgid "Org Chart placeholder"
 msgstr "图表组织占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:154
+#: appModules\powerpnt.py:153
 msgid "Table placeholder"
 msgstr "表格占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:156
+#: appModules\powerpnt.py:155
 msgid "Slide Number placeholder"
 msgstr "幻灯片编号占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:158
+#: appModules\powerpnt.py:157
 msgid "Header placeholder"
 msgstr "页眉占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:160
+#: appModules\powerpnt.py:159
 msgid "Footer placeholder"
 msgstr "页脚占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:162
+#: appModules\powerpnt.py:161
 msgid "Date placeholder"
 msgstr "日期占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:164
+#: appModules\powerpnt.py:163
 msgid "Vertical Object placeholder"
 msgstr "垂直对象占位符"
 
 #. Translators: Describes a type of placeholder shape in Microsoft PowerPoint.
-#: appModules\powerpnt.py:166
+#: appModules\powerpnt.py:165
 msgid "Picture placeholder"
 msgstr "图片占位符"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:191
+#: appModules\powerpnt.py:190
 msgid "Slide view"
 msgstr "幻灯片查看"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:193
+#: appModules\powerpnt.py:192
 msgid "Slide Master view"
 msgstr "幻灯片母版"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:195
+#: appModules\powerpnt.py:194
 msgid "Notes page"
 msgstr "注释页"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:197
+#: appModules\powerpnt.py:196
 msgid "Handout Master view"
 msgstr "讲义母版"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:199
+#: appModules\powerpnt.py:198
 msgid "Notes Master view"
 msgstr "备注母版"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:201
+#: appModules\powerpnt.py:200
 msgid "Outline view"
 msgstr "大纲视图"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:203
+#: appModules\powerpnt.py:202
 msgid "Slide Sorter view"
 msgstr "幻灯片分类视图"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:205
+#: appModules\powerpnt.py:204
 msgid "Title Master view"
 msgstr "标题主视图"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:207
+#: appModules\powerpnt.py:206
 msgid "Normal view"
 msgstr "常规视图"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:209
+#: appModules\powerpnt.py:208
 msgid "Print Preview"
 msgstr "打印预览"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:211
+#: appModules\powerpnt.py:210
 msgid "Thumbnails"
 msgstr "缩略图"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
-#: appModules\powerpnt.py:213
+#: appModules\powerpnt.py:212
 msgid "Master Thumbnails"
 msgstr "主缩略图"
 
+#. Translators: Announced before reading the non-title content of a PowerPoint slide.
+#: appModules\powerpnt.py:545 appModules\powerpnt.py:1632
+msgid "Slide contents"
+msgstr ""
+
 #. Translators: the label for a slide in Microsoft PowerPoint.
-#: appModules\powerpnt.py:572
+#: appModules\powerpnt.py:603
 #, python-brace-format
 msgid "Slide {slideNumber}"
 msgstr "第{slideNumber}张 幻灯片"
 
+#. Translators: The title text of a PowerPoint slide, preceded by its label.
+#: appModules\powerpnt.py:610 appModules\powerpnt.py:1618
+#, fuzzy, python-brace-format
+#| msgid " title: {axisTitle}"
+msgid "Slide title: {title}"
+msgstr " 标题: {axisTitle}"
+
 #. Translators:   an unlabelled item in Powerpoint another shape is overlapping
-#: appModules\powerpnt.py:633
+#: appModules\powerpnt.py:670
 msgid "other item"
 msgstr "其他项目"
 
 #. Translators: A message when a shape is in front of another shape on a PowerPoint slide
-#: appModules\powerpnt.py:663
+#: appModules\powerpnt.py:700
 #, python-brace-format
 msgid "covers left of {otherShape} by {distance:.3g} point"
 msgid_plural "covers left of {otherShape} by {distance:.3g} points"
 msgstr[0] "覆盖{otherShape}的左边距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is behind another shape on a PowerPoint slide
-#: appModules\powerpnt.py:672
+#: appModules\powerpnt.py:709
 #, python-brace-format
 msgid "behind left of {otherShape} by {distance:.3g} point"
 msgid_plural "behind left of {otherShape} by {distance:.3g} points"
 msgstr[0] "被{otherShape}覆盖的左边距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is in front of another shape on a PowerPoint slide
-#: appModules\powerpnt.py:684
+#: appModules\powerpnt.py:721
 #, python-brace-format
 msgid "covers top of {otherShape} by {distance:.3g} point"
 msgid_plural "covers top of {otherShape} by {distance:.3g} points"
 msgstr[0] "覆盖{otherShape}上边的距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is behind another shape on a PowerPoint slide
-#: appModules\powerpnt.py:693
+#: appModules\powerpnt.py:730
 #, python-brace-format
 msgid "behind top of {otherShape} by {distance:.3g} point"
 msgid_plural "behind top of {otherShape} by {distance:.3g} points"
 msgstr[0] "被{otherShape}覆盖的上边距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is in front of another shape on a PowerPoint slide
-#: appModules\powerpnt.py:705
+#: appModules\powerpnt.py:742
 #, python-brace-format
 msgid "covers right of {otherShape} by {distance:.3g} point"
 msgid_plural "covers right of {otherShape} by {distance:.3g} points"
 msgstr[0] "覆盖{otherShape}的右边距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is behind another shape on a PowerPoint slide
-#: appModules\powerpnt.py:714
+#: appModules\powerpnt.py:751
 #, python-brace-format
 msgid "behind right of {otherShape} by {distance:.3g} point"
 msgid_plural "behind right of {otherShape} by {distance:.3g} points"
 msgstr[0] "被{otherShape}覆盖的右边距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is in front of another shape on a PowerPoint slide
-#: appModules\powerpnt.py:726
+#: appModules\powerpnt.py:763
 #, python-brace-format
 msgid "covers bottom of {otherShape} by {distance:.3g} point"
 msgid_plural "covers bottom of {otherShape} by {distance:.3g} points"
 msgstr[0] "覆盖{otherShape}的底边距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is behind another shape on a PowerPoint slide
-#: appModules\powerpnt.py:735
+#: appModules\powerpnt.py:772
 #, python-brace-format
 msgid "behind bottom of {otherShape} by {distance:.3g} point"
 msgid_plural "behind bottom of {otherShape} by {distance:.3g} points"
 msgstr[0] "被{otherShape}覆盖的底边距离为{distance:.3g}磅"
 
 #. Translators: A message when a shape is in front of another shape on a PowerPoint slide
-#: appModules\powerpnt.py:743
+#: appModules\powerpnt.py:780
 #, python-brace-format
 msgid "covers  {otherShape}"
 msgstr "覆盖着{otherShape}"
 
 #. Translators: A message when a shape is behind another shape on a PowerPoint slide
-#: appModules\powerpnt.py:746
+#: appModules\powerpnt.py:783
 #, python-brace-format
 msgid "behind {otherShape}"
 msgstr "被{otherShape}覆盖"
 
 #. Translators: For a shape within a PowerPoint Slide, this is the distance in points from the shape's
 #. left edge to the slide's left edge
-#: appModules\powerpnt.py:769
+#: appModules\powerpnt.py:806
 #, python-brace-format
 msgid "{distance:.3g} point from left slide edge"
 msgid_plural "{distance:.3g} points from left slide edge"
@@ -8406,7 +8418,7 @@ msgstr[0] "与幻灯片左边的距离为{distance:.3g}磅"
 
 #. Translators: For a shape too far off the left edge of a PowerPoint Slide, this is the distance in
 #. points from the shape's left edge (off the slide) to the slide's left edge (where the slide starts)
-#: appModules\powerpnt.py:779
+#: appModules\powerpnt.py:816
 #, python-brace-format
 msgid "Off left slide edge by {distance:.3g} point"
 msgid_plural "Off left slide edge by {distance:.3g} points"
@@ -8414,7 +8426,7 @@ msgstr[0] "幻灯片左边的超出距离为{distance:.3g}磅"
 
 #. Translators: For a shape within a PowerPoint Slide, this is the distance in points from the shape's
 #. top edge to the slide's top edge
-#: appModules\powerpnt.py:790
+#: appModules\powerpnt.py:827
 #, python-brace-format
 msgid "{distance:.3g} point from top slide edge"
 msgid_plural "{distance:.3g} points from top slide edge"
@@ -8422,7 +8434,7 @@ msgstr[0] "与幻灯片上边的距离为{distance:.3g}"
 
 #. Translators: For a shape too far off the top edge of a PowerPoint Slide, this is the distance in
 #. points from the shape's top edge (off the slide) to the slide's top edge (where the slide starts)
-#: appModules\powerpnt.py:800
+#: appModules\powerpnt.py:837
 #, python-brace-format
 msgid "Off top slide edge by {distance:.3g} point"
 msgid_plural "Off top slide edge by {distance:.3g} points"
@@ -8430,7 +8442,7 @@ msgstr[0] "幻灯片上边的超出距离为{distance:.3g}磅"
 
 #. Translators: For a shape within a PowerPoint Slide, this is the distance in points from the shape's
 #. right edge to the slide's right edge
-#: appModules\powerpnt.py:811
+#: appModules\powerpnt.py:848
 #, python-brace-format
 msgid "{distance:.3g} point from right slide edge"
 msgid_plural "{distance:.3g} points from right slide edge"
@@ -8438,7 +8450,7 @@ msgstr[0] "与幻灯片右边的距离为{distance:.3g}"
 
 #. Translators: For a shape too far off the right edge of a PowerPoint Slide, this is the distance in
 #. points from the shape's right edge (off the slide) to the slide's right edge (where the slide starts)
-#: appModules\powerpnt.py:821
+#: appModules\powerpnt.py:858
 #, python-brace-format
 msgid "Off right slide edge by {distance:.3g} point"
 msgid_plural "Off right slide edge by {distance:.3g} points"
@@ -8446,7 +8458,7 @@ msgstr[0] "幻灯片右边的超出距离为{distance:.3g}磅"
 
 #. Translators: For a shape within a PowerPoint Slide, this is the distance in points from the shape's
 #. bottom edge to the slide's bottom edge
-#: appModules\powerpnt.py:832
+#: appModules\powerpnt.py:869
 #, python-brace-format
 msgid "{distance:.3g} point from bottom slide edge"
 msgid_plural "{distance:.3g} points from bottom slide edge"
@@ -8454,14 +8466,21 @@ msgstr[0] "与幻灯片底边的距离为{distance:.3g}"
 
 #. Translators: For a shape too far off the bottom edge of a PowerPoint Slide, this is the distance in
 #. points from the shape's bottom edge (off the slide) to the slide's bottom edge (where the slide starts)
-#: appModules\powerpnt.py:842
+#: appModules\powerpnt.py:879
 #, python-brace-format
 msgid "Off bottom slide edge by {distance:.3g} point"
 msgid_plural "Off bottom slide edge by {distance:.3g} points"
 msgstr[0] "幻灯片底边的超出距离为{distance:.3g}磅"
 
+#. Translators: The label for the title text box of a PowerPoint slide while editing.
+#: appModules\powerpnt.py:984
+#, fuzzy
+#| msgid "Slide view"
+msgid "Slide title"
+msgstr "幻灯片查看"
+
 #. Translators: The description for a script
-#: appModules\powerpnt.py:1462
+#: appModules\powerpnt.py:1509
 msgid ""
 "Toggles between reporting the speaker notes or the actual slide content. "
 "This does not change what is visible on-screen, but only what the user can "
@@ -8471,34 +8490,34 @@ msgstr ""
 "NVDA 的阅读"
 
 #. Translators: The title of the current slide (with notes) in a running Slide Show in Microsoft PowerPoint.
-#: appModules\powerpnt.py:1499
+#: appModules\powerpnt.py:1546
 #, python-brace-format
 msgid "Slide show notes - {slideName}"
 msgstr "幻灯片显示注视 - {slideName}"
 
 #. Translators: The title of the current slide in a running Slide Show in Microsoft PowerPoint.
-#: appModules\powerpnt.py:1502
+#: appModules\powerpnt.py:1549
 #, python-brace-format
 msgid "Slide show - {slideName}"
 msgstr "{slideName} - 幻灯片"
 
 #. Translators: The title for a Slide show in Microsoft PowerPoint that has completed.
-#: appModules\powerpnt.py:1505
+#: appModules\powerpnt.py:1552
 msgid "Slide Show - complete"
 msgstr "幻灯片展示完毕"
 
 #. Translators: The message for no notes  for a slide in a slide show
-#: appModules\powerpnt.py:1582
+#: appModules\powerpnt.py:1647
 msgid "No notes"
 msgstr "没有注释"
 
 #. Translators: The message for an empty slide in a slide show
-#: appModules\powerpnt.py:1585 appModules\powerpnt.py:1586
+#: appModules\powerpnt.py:1650 appModules\powerpnt.py:1651
 msgid "Empty slide"
 msgstr "空白幻灯片"
 
 #. Translators: A title for a dialog shown while Microsoft PowerPoint initializes
-#: appModules\powerpnt.py:1625
+#: appModules\powerpnt.py:1691
 msgid "Waiting for Powerpoint..."
 msgstr "正在等待PowerPoint..."
 
