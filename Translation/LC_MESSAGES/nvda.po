@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 04:24+0000\n"
+"POT-Creation-Date: 2026-10-28 05:17+0000\n"
 "PO-Revision-Date: 2026-10-20 19:02+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1651,7 +1651,7 @@ msgstr ""
 #: gui\configProfiles.py:311 gui\configProfiles.py:323
 #: gui\configProfiles.py:332 gui\configProfiles.py:376
 #: gui\configProfiles.py:554 gui\configProfiles.py:569
-#: gui\configProfiles.py:580 gui\inputGestures.py:936 gui\inputGestures.py:950
+#: gui\configProfiles.py:580 gui\inputGestures.py:946 gui\inputGestures.py:960
 #: gui\installerGui.py:182 gui\installerGui.py:242 gui\installerGui.py:825
 #: gui\installerGui.py:842 gui\installerGui.py:914 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:171 gui\settingsDialogs.py:1047
@@ -13691,7 +13691,7 @@ msgid "Input Gestures"
 msgstr "按键与手势"
 
 #. Translators: The label of a text field to search for gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:612
+#: gui\inputGestures.py:613
 msgctxt "inputGestures"
 msgid "&Filter by:"
 msgstr "查找(&F):"
@@ -13700,14 +13700,14 @@ msgstr "查找(&F):"
 #. Translators: Context menu item label to add a new gesture
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:634 gui\inputGestures.py:691
+#: gui\inputGestures.py:635 gui\inputGestures.py:692
 #: gui\settingsDialogs.py:6885 gui\speechDict.py:218
 msgid "&Add"
 msgstr "添加(&A)"
 
 #. Translators: The label of a button to change a gesture in the Input Gestures dialog.
 #. Translators: Context menu item label to change a gesture
-#: gui\inputGestures.py:639 gui\inputGestures.py:695
+#: gui\inputGestures.py:640 gui\inputGestures.py:696
 msgid "C&hange"
 msgstr "修改(&H)"
 
@@ -13715,28 +13715,28 @@ msgstr "修改(&H)"
 #. Translators: Context menu item label to remove a gesture
 #. Translators: The label for a button in speech dictionaries dialog to remove existing entries.
 #. Translators: Context menu item label to remove an entry
-#: gui\inputGestures.py:644 gui\inputGestures.py:699 gui\speechDict.py:230
+#: gui\inputGestures.py:645 gui\inputGestures.py:700 gui\speechDict.py:230
 #: gui\speechDict.py:255
 msgid "&Remove"
 msgstr "移除(&R)"
 
 #. Translators: The label of a button to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:650
+#: gui\inputGestures.py:651
 msgid "Reset to factory &defaults"
 msgstr "重置(&D)"
 
 #. Translators: An error displayed when a gesture is already assigned.
-#: gui\inputGestures.py:852
+#: gui\inputGestures.py:862
 msgid "This gesture is already assigned to this script."
 msgstr "此手势已分配给此脚本。"
 
 #. Translators: An error displayed when a gesture is already assigned.
-#: gui\inputGestures.py:854
+#: gui\inputGestures.py:864
 msgid "Gesture already assigned"
 msgstr "手势已分配"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:917
+#: gui\inputGestures.py:927
 msgid ""
 "Are you sure you want to reset all gestures to their factory defaults?\n"
 "\n"
@@ -13750,12 +13750,12 @@ msgstr ""
 "\t\t\t该操作无法撤销。"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:922
+#: gui\inputGestures.py:932
 msgid "Reset gestures"
 msgstr "重置按键与手势"
 
 #. Translators: An error displayed when saving user defined input gestures fails.
-#: gui\inputGestures.py:935 gui\inputGestures.py:948
+#: gui\inputGestures.py:945 gui\inputGestures.py:958
 msgid "Error saving user defined gestures - probably read only file system."
 msgstr "保存按键与手势设置时出错，文件系统可能处于只读状态."
 
