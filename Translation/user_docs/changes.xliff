@@ -6522,7 +6522,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>2026.3.1</source>
         <target>2026.3.1</target>
       </segment>
@@ -6531,18 +6531,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This is a patch release to fix security issues.</source>
-        <target>This is a patch release to fix security issues.</target>
+        <target>这是一个修复安全问题的补丁版本。</target>
       </segment>
     </unit>
     <unit id="c1f1532a-e3d3-45b9-8c9e-38d781bb1621">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A bug fix is also included for an issue introduced in 2026.3 with the task switcher in Windows 10.</source>
-        <target>A bug fix is also included for an issue introduced in 2026.3 with the task switcher in Windows 10.</target>
+        <target>同时还包括一项针对 2026.3 中引入的 Windows 10 任务切换器问题的错误修复。</target>
       </segment>
     </unit>
     <unit id="1cf9c56e-ceac-44f9-991b-678f00205726">
@@ -6550,18 +6550,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 9</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Security fixes</source>
-        <target>Security fixes</target>
+        <target>安全修复</target>
       </segment>
     </unit>
     <unit id="5afd417b-7c3a-4192-b5d7-ab0365dc0add">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</source>
-        <target>Please responsibly disclose security issues following NVDA's [security policy](https://github.com/nvaccess/nvda/blob/master/security.md).</target>
+        <target>请遵循 NVDA 的[安全政策](https://github.com/nvaccess/nvda/blob/master/security.md)负责任地披露安全问题。</target>
       </segment>
     </unit>
     <unit id="1c9120df-92cc-47d3-acc2-8d47a2793d66">
@@ -6569,9 +6569,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed NVDA leaking the Remote Access key. (#21037)</source>
-        <target>Fixed NVDA leaking the Remote Access key. (#21037)</target>
+        <target>修复了 NVDA 泄露远程访问密钥的问题。(#21037)</target>
       </segment>
     </unit>
     <unit id="321f40ec-ab7e-4400-8e91-a7faa92967bf">
@@ -6579,9 +6579,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Updated certifi to 2026.10.23. ([GHSA-3j65-46c5-4grp](https://github.com/nvaccess/nvda/security/advisories/GHSA-3j65-46c5-4grp))</source>
-        <target>Updated certifi to 2026.10.23. ([GHSA-3j65-46c5-4grp](https://github.com/nvaccess/nvda/security/advisories/GHSA-3j65-46c5-4grp))</target>
+        <target>将 certifi 更新到 2026.10.23。([GHSA-3j65-46c5-4grp](https://github.com/nvaccess/nvda/security/advisories/GHSA-3j65-46c5-4grp))</target>
       </segment>
     </unit>
     <unit id="a15a0168-a843-4cc1-909f-c24c0786ee97">
@@ -6589,9 +6589,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Bug Fixes</source>
-        <target>Bug Fixes</target>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="19ab298b-e317-4651-8f68-ab82d65762ce">
@@ -6609,18 +6609,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Updated eSpeak NG to [commit `b97de3cf2`](https://github.com/nvaccess/espeak-ng/commit/b97de3cf2ad32c1d48c6bd36dfbf57a9c587fedc).</source>
-        <target>Updated eSpeak NG to [commit `b97de3cf2`](https://github.com/nvaccess/espeak-ng/commit/b97de3cf2ad32c1d48c6bd36dfbf57a9c587fedc).</target>
+        <target>将 eSpeak NG 更新到 [commit `b97de3cf2`](https://github.com/nvaccess/espeak-ng/commit/b97de3cf2ad32c1d48c6bd36dfbf57a9c587fedc)。</target>
       </segment>
     </unit>
     <unit id="f3fdbbee-6b54-4523-a420-4c5afab43e4f">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This changes Brazilian Portuguese back to how it worked in 2026.1. (#21059)</source>
-        <target>This changes Brazilian Portuguese back to how it worked in 2026.1. (#21059)</target>
+        <target>这使巴西葡萄牙语恢复为 2026.1 中的工作方式。(#21059)</target>
       </segment>
     </unit>
     <unit id="8c622b2c-4eaa-49fd-8416-8df415b47fa3">
@@ -6628,9 +6628,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for Developers</source>
-        <target>Changes for Developers</target>
+        <target>开发者需要了解的变化</target>
       </segment>
     </unit>
     <unit id="c239cedb-9113-44ad-869b-2c8fc225359b">
@@ -6638,9 +6638,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Updated Python to 3.13.17. (#21067)</source>
-        <target>Updated Python to 3.13.17. (#21067)</target>
+        <target>将 Python 更新到 3.13.17。(#21067)</target>
       </segment>
     </unit>
     <unit id="029214c8-68ae-4cd3-9a8c-674c2e757460">
@@ -6648,9 +6648,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Updated pip dependencies (#21067):</source>
-        <target>Updated pip dependencies (#21067):</target>
+        <target>pip 依赖项更新(#21067)：</target>
       </segment>
     </unit>
     <unit id="933a432a-4bbd-4551-a28a-7992b9018c44">
@@ -6658,9 +6658,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>cryptography to 50.0.2.</source>
-        <target>cryptography to 50.0.2.</target>
+        <target>将cryptography 更新到 50.0.2。</target>
       </segment>
     </unit>
     <unit id="b0d92a52-cd03-47a0-82f2-94ae551657ea">
@@ -6668,9 +6668,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>url-normalize to 3.0.1.</source>
-        <target>url-normalize to 3.0.1.</target>
+        <target>将url-normalize 更新到 3.0.1。</target>
       </segment>
     </unit>
     <unit id="4ccd9382-e4b8-4776-bca8-ac0233bfa205">
@@ -6678,9 +6678,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>pycaw to 20260927.</source>
-        <target>pycaw to 20260927.</target>
+        <target>将 pycaw 更新到 20260927。</target>
       </segment>
     </unit>
     <unit id="e9012a6c-06b2-4abc-ad15-b2ddda065b6f">
@@ -6688,9 +6688,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>nh3 to 0.3.7.</source>
-        <target>nh3 to 0.3.7.</target>
+        <target>将 nh3 更新到 0.3.7。</target>
       </segment>
     </unit>
     <unit id="cbec92b8-e51a-4722-8576-b47bd71cc52b">
@@ -6698,9 +6698,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>crowdin-api-client to 1.30.0.</source>
-        <target>crowdin-api-client to 1.30.0.</target>
+        <target>将 crowdin-api-client 更新到 1.30.0。</target>
       </segment>
     </unit>
     <unit id="bae88c28-bd2b-47a8-911b-346d90ab8c2b">
@@ -6708,9 +6708,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>markdown to 3.11.2.</source>
-        <target>markdown to 3.11.2.</target>
+        <target>将 markdown 更新到 3.11.2。</target>
       </segment>
     </unit>
     <unit id="4506ec3a-cfb1-45aa-939d-4db0725c8bdf">
@@ -6718,9 +6718,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>lxml to 6.1.3.</source>
-        <target>lxml to 6.1.3.</target>
+        <target>将 lxml 更新到 6.1.3。</target>
       </segment>
     </unit>
     <unit id="cbc28d1d-2402-45c9-bdec-eeb1d6cada40">
@@ -6728,9 +6728,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>regex to 2026.9.29.</source>
-        <target>regex to 2026.9.29.</target>
+        <target>将 regex 更新到 2026.9.29。</target>
       </segment>
     </unit>
     <unit id="7fb0ce10-c789-4ffb-80ef-c93a13fc4fc9">
@@ -6738,9 +6738,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>scons to 4.11.1.</source>
-        <target>scons to 4.11.1.</target>
+        <target>将 scons 更新到 4.11.1。</target>
       </segment>
     </unit>
     <unit id="4487596a-5b30-477a-aacb-5d953ab9c58d">
@@ -6748,9 +6748,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>uv to 0.13.5.</source>
-        <target>uv to 0.13.5.</target>
+        <target>将 uv 更新到 0.13.5。</target>
       </segment>
     </unit>
     <unit id="80aa4e72-6f68-457f-8f74-4294a1ae7640">
@@ -6758,9 +6758,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>sphinx to 9.2.0.</source>
-        <target>sphinx to 9.2.0.</target>
+        <target>将 sphinx 更新到 9.2.0。</target>
       </segment>
     </unit>
     <unit id="4a41ad28-54d6-4f8f-a55d-eceac2369a69">
@@ -6768,9 +6768,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>robotframework to 7.5.</source>
-        <target>robotframework to 7.5.</target>
+        <target>将 robotframework 更新到 7.5。</target>
       </segment>
     </unit>
     <unit id="ce642be4-60e1-4db4-ad80-40d01c79fedc">
