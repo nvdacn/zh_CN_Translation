@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 15:30+0000\n"
-"PO-Revision-Date: 2026-10-20 19:02+0800\n"
+"PO-Revision-Date: 2026-11-04 18:42+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14014,33 +14014,21 @@ msgstr "请为便携版文件选择一个目录。"
 #. {drive} is the drive letter and colon the user typed, such as "D:".
 #. {path} is the destination directory the user specified.
 #: gui\installerGui.py:777
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "Please specify the absolute path where the portable copy should be "
-#| "created. It must start with a drive letter (e.g. C:). It may include "
-#| "system variables (e.g. %temp%, %homepath%) as placeholders for parts of "
-#| "the path.\n"
-#| "Current path: {path}. "
+#, python-brace-format
 msgid ""
 "Please specify the absolute path where the portable copy should be created. "
 "The drive letter must be followed by a backslash: use {drive}\\ for the root "
 "of the drive, or {drive}\\folder for a folder on it.\n"
 "Current path: {path}. "
 msgstr ""
-"请指定存放便携版的绝对路径。必须以驱动器号开头（例如 C:\\）。可以包括系统变量"
-"（%temp%、%homepath% 等）作为部分路径的占位符。\n"
+"请指定存放便携版的绝对路径。驱动器号后必须跟反斜杠：使用 {drive}\\ 表示驱动器"
+"根目录，或使用 {drive}\\folder 表示其中的某个文件夹。\n"
 "当前路径：{path}。"
 
 #. Translators: The message displayed when the user has not specified an absolute destination directory
 #. in the Create Portable NVDA dialog.
 #: gui\installerGui.py:786
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "Please specify the absolute path where the portable copy should be "
-#| "created. It must start with a drive letter (e.g. C:). It may include "
-#| "system variables (e.g. %temp%, %homepath%) as placeholders for parts of "
-#| "the path.\n"
-#| "Current path: {path}. "
+#, python-brace-format
 msgid ""
 "Please specify the absolute path where the portable copy should be created. "
 "It must start with a drive letter (e.g. C:\\). It may include system "
