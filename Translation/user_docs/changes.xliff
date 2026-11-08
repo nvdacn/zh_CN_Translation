@@ -6570,9 +6570,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed NVDA leaking the Remote Access key. (#21037, [GHSA-prj7-9c78-744j](https://github.com/nvaccess/nvda/security/advisories/GHSA-prj7-9c78-744j))</source>
-        <target>Fixed NVDA leaking the Remote Access key. (#21037, [GHSA-prj7-9c78-744j](https://github.com/nvaccess/nvda/security/advisories/GHSA-prj7-9c78-744j))</target>
+        <target>修复了 NVDA 泄露远程访问密钥的问题。(#21037, [GHSA-prj7-9c78-744j](https://github.com/nvaccess/nvda/security/advisories/GHSA-prj7-9c78-744j))</target>
       </segment>
     </unit>
     <unit id="321f40ec-ab7e-4400-8e91-a7faa92967bf">
@@ -6590,9 +6590,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Prevent DOS when Remote Access is running. ([GHSA-v99h-jr79-r5cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-v99h-jr79-r5cr), @Cem-Kaya)</source>
-        <target>Prevent DOS when Remote Access is running. ([GHSA-v99h-jr79-r5cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-v99h-jr79-r5cr), @Cem-Kaya)</target>
+        <target>防止远程访问运行时出现拒绝服务（DOS）问题。([GHSA-v99h-jr79-r5cr](https://github.com/nvaccess/nvda/security/advisories/GHSA-v99h-jr79-r5cr), @Cem-Kaya)</target>
       </segment>
     </unit>
     <unit id="a15a0168-a843-4cc1-909f-c24c0786ee97">
@@ -6631,7 +6631,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>This changes Brazilian Portuguese back to how it worked in 2026.1. (#21059)</source>
-        <target>这使巴西葡萄牙语恢复为 2026.1 中的工作方式。(#21059)</target>
+        <target>这将巴西葡萄牙语恢复为 2026.1 时的工作方式。(#21059)</target>
       </segment>
     </unit>
     <unit id="8c622b2c-4eaa-49fd-8416-8df415b47fa3">
