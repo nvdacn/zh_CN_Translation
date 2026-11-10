@@ -28710,18 +28710,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#BrowseModeSettingsEnableOnPageLoad}</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Enable browse mode on page load</source>
-        <target>页面加载时启用浏览模式</target>
+        <target>页面加载完成后启用浏览模式</target>
       </segment>
     </unit>
     <unit id="ce9a4204-fb24-42f5-880a-a8a55d1d3eb5">
       <notes>
         <note appliesTo="source">line: 3490</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This checkbox toggles whether browse mode should be automatically enabled when loading a page.</source>
-        <target>此复选框用于切换加载页面时是否应自动启用浏览模式。</target>
+        <target>此复选框用于切换页面加载完成后是否应自动启用浏览模式。</target>
       </segment>
     </unit>
     <unit id="bf38508f-536c-4245-9773-bec7b98dd789">
@@ -28755,9 +28755,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3494</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is enabled by default.</source>
-        <target>这个选项默认情况下是开启的。</target>
+        <target>此选项默认启用。</target>
       </segment>
     </unit>
     <unit id="bb643bbc-df5b-4738-ac98-1f08d3c519ad">
@@ -28784,9 +28784,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3499</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>This option is enabled by default.</source>
-        <target>这个选项默认情况下是开启的。</target>
+        <target>此选项默认启用。</target>
       </segment>
     </unit>
     <unit id="6e049b10-aa98-493e-9592-d04ae695bf7c">

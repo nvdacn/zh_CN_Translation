@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-18 05:12+0000\n"
-"PO-Revision-Date: 2026-08-22 03:04\n"
+"POT-Creation-Date: 2026-10-20 05:14+0000\n"
+"PO-Revision-Date: 2026-10-20 11:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -151,12 +151,14 @@ msgstr "可以通过 PC 键盘输入盲文。"
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
 msgid "* Restored Kannada cti input table.\n"
+"* Updated deprecated symbols in source code.\n"
 "* Updates to translations."
 msgstr "* 恢复了卡纳达语 CTI 输入表。\n"
-"* 更新翻译。"
+"* 更新了源代码中已弃用的符号。\n"
+"* 更新了翻译。"
 
 #. Translators: The display name of a braille table.
-#: buildVars.py:97
+#: buildVars.py:98
 msgid "Kannada cti"
 msgstr "卡纳达语 cti"
 

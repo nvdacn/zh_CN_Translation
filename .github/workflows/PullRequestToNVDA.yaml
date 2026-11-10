@@ -36,41 +36,7 @@ jobs:
           ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
         run: |
           ./.github/Scripts/processing_miscDeps_files.sh
-      - name: Determine branch name and update template
-        if: steps.processing_files.outputs.changes_exist == 'true'
-        run: |
-          ./.github/Scripts/determine_branch_and_update_template.sh
-      - name: Check for existing pull request
-        if: steps.processing_files.outputs.changes_exist == 'true'
-        id: check_pr
-        run: |
-          PR_NUMBER=$(gh pr list \
-            --repo "${{ env.BaseOwner }}/nvda" \
-            --state open \
-            --head "$BRANCH_NAME" \
-            --base beta \
-            --json number \
-            --jq '.[0].number' 2>/dev/null || echo "")
-          if [ -n "$PR_NUMBER" ]; then
-            echo "pr_exists=true" >> $GITHUB_OUTPUT
-            STEP_SUMMARY="Existing pull request found: https://github.com/$BaseOwner/nvda/pull/$PR_NUMBER"
-          else
-            echo "pr_exists=false" >> $GITHUB_OUTPUT
-            STEP_SUMMARY="No existing pull request found"
-          fi
-          echo "$STEP_SUMMARY"
-          echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
       - name: Create pull request
-        if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
+        if: steps.processing_files.outputs.changes_exist == 'true'
         run: |
-          echo "Creating new pull request..."
-          PR_URL=$(gh pr create \
-            --repo "${{ env.BaseOwner }}/nvda" \
-            --title "$PRTitle" \
-            --head "$HeadOwner:$BRANCH_NAME" \
-            --base beta \
-            --body-file $TEMPLATE_FILE \
-            --draft)          
-          STEP_SUMMARY="Created draft pull request: $PR_URL"
-          echo "$STEP_SUMMARY"
-          echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
+          ./.github/Scripts/create_pull_request.sh

@@ -1,13 +1,16 @@
 #!/bin/bash
 set -euo pipefail
 
+BRANCH_NAME="PullRequestToNVDA"
+echo "BRANCH_NAME=$BRANCH_NAME" >> "$GITHUB_ENV"
+
 cd "$ZHCNPath"
 echo "Current directory: $(pwd)"
 echo "Configuring git..."
-git remote add NVDACN https://github.com/$HeadOwner/nvda.git
+git remote add $HeadOwner https://github.com/$HeadOwner/nvda.git
 git config --global user.name "GitHub Actions"
 git config --global user.email "actions@github.com"
-git switch -C PullRequestToNVDA origin/beta
+git switch -C "$BRANCH_NAME" origin/beta
 echo "Current branch: $(git branch --show-current)"
 
 commit_msg="Update"
@@ -35,7 +38,7 @@ if git diff --cached --quiet; then
 else
   commit_msg="${commit_msg%,}"
   git commit -m "$commit_msg"
-  git push --force NVDACN PullRequestToNVDA:PullRequestToNVDA
+  git push --force $HeadOwner "$BRANCH_NAME:$BRANCH_NAME"
   echo "changes_exist=true" >> $GITHUB_OUTPUT
   echo "PRTitle=$commit_msg for Simplified Chinese" >> $GITHUB_ENV
 fi
