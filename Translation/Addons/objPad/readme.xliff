@@ -1,5 +1,5 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/b11bdeab925ceea597b24af328233b9c07887cd8/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/430dbb093c571ce480886b69cea3bf449bb82ecc/readme.md">
     <skeleton>
 # $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
 
@@ -9,7 +9,7 @@ $(ID:6c83d934-e235-4af5-af22-f9ff1cc10451)
 
 ## $(ID:8a567dce-837d-4343-a603-cebf48e27fce)
 
-* $(ID:c969c11d-623d-4dfa-90cf-2dd394c37d8a)
+* $(ID:dd9c9315-bb32-4539-96df-4a018f4dffe4)
 
 ## $(ID:7a883ee9-3487-4e6a-bc3e-3923249daf48)
 
@@ -48,7 +48,10 @@ $(ID:258c5b6d-2565-416b-8f77-b5986aaf2fed)
 
 ## $(ID:226a7994-4e1c-484d-b6a5-450f3934fdb7)
 
-$(ID:32942f28-1d47-45d6-b65b-9fa5a412a07b)
+$(ID:05ac1ace-0451-43e6-b924-cc4fee54b205)
+
+* $(ID:5708308c-3320-444a-864c-b94331d2c48e)
+* $(ID:edc70ad5-ce74-40b7-97a6-332f223adcbd)
 
 $(ID:26d06293-2e30-47fc-8c88-2d6e8dcfbc09)
 
@@ -94,14 +97,14 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <target>快捷键</target>
       </segment>
     </unit>
-    <unit id="c969c11d-623d-4dfa-90cf-2dd394c37d8a">
+    <unit id="dd9c9315-bb32-4539-96df-4a018f4dffe4">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>Control+NVDA+TAB: Steps through arrow key modes (see below for details).</source>
-        <target>Control + NVDA + TAB 切换以下模式（详见下文）。</target>
+      <segment state="initial">
+        <source>Control+NVDA+TAB: cycles through the navigation modes selected in ObjPad settings (see below for details).</source>
+        <target>Control+NVDA+TAB: cycles through the navigation modes selected in ObjPad settings (see below for details).</target>
       </segment>
     </unit>
     <unit id="7a883ee9-3487-4e6a-bc3e-3923249daf48">
@@ -370,18 +373,38 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <target>ObjPad 设置</target>
       </segment>
     </unit>
-    <unit id="32942f28-1d47-45d6-b65b-9fa5a412a07b">
+    <unit id="05ac1ace-0451-43e6-b924-cc4fee54b205">
       <notes>
         <note appliesTo="source">line: 49</note>
       </notes>
-      <segment state="final">
-        <source>NVDA includes a dedicated setting to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).</source>
-        <target>NVDA 包含一项专用设置来配置触摸浏览模式下可用的浏览模式导航元素。在支持触摸操作的计算机安装 NVDA 后，可在浏览模式设置中找到此设置。在非触摸设备或 NVDA 便携版，ObjPad 通过 ObjPad 设置界面（位于 NVDA 设置对话框中）提供相同的设置。</target>
+      <segment state="initial">
+        <source>ObjPad settings (part of NVDA settings screen) include the following settings:</source>
+        <target>ObjPad settings (part of NVDA settings screen) include the following settings:</target>
+      </segment>
+    </unit>
+    <unit id="5708308c-3320-444a-864c-b94331d2c48e">
+      <notes>
+        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Navigation Modes to Cycle Through: choose which modes (object nav, browse mode, scan mode) Control+NVDA+TAB cycles through. Normal mode is always included. All modes are selected by default. At least one mode must stay selected; if you uncheck the last one, ObjPad warns you and keeps it checked.</source>
+        <target>Navigation Modes to Cycle Through: choose which modes (object nav, browse mode, scan mode) Control+NVDA+TAB cycles through. Normal mode is always included. All modes are selected by default. At least one mode must stay selected; if you uncheck the last one, ObjPad warns you and keeps it checked.</target>
+      </segment>
+    </unit>
+    <unit id="edc70ad5-ce74-40b7-97a6-332f223adcbd">
+      <notes>
+        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Browse mode navigation elements: choose which elements browse mode moves between. ObjPad shows this setting only on computers without a touchscreen and in portable copies of NVDA; otherwise, it's in NVDA's own browse mode settings.</source>
+        <target>Browse mode navigation elements: choose which elements browse mode moves between. ObjPad shows this setting only on computers without a touchscreen and in portable copies of NVDA; otherwise, it's in NVDA's own browse mode settings.</target>
       </segment>
     </unit>
     <unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
       <notes>
-        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">line: 54</note>
       </notes>
       <segment state="final">
         <source>For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.</source>
@@ -390,7 +413,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
     </unit>
     <unit id="90459eb2-1b81-4c92-9f2d-a848cdea1cdd">
       <notes>
-        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">line: 56</note>
       </notes>
       <segment state="final">
         <source>[1]: https://github.com/ChrisDuffley/objPad/blob/master/changes.md</source>
