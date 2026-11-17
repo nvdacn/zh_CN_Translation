@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/CustomLabels/d138ebb975519083162ffa0416ae1e0e836283d1/readme.md">
     <skeleton>
 # $(ID:68cc64f7-c490-4182-a545-44a98f9679ef)
@@ -200,7 +200,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Remove custom labels when no longer needed.</source>
         <target>在不再需要时删除自定义标签。</target>
       </segment>
@@ -379,7 +379,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA+Control+Delete: Remove the custom label from the current control</source>
         <target>NVDA+Ctrl+Delete：删除当前控件的自定义标签</target>
       </segment>
@@ -529,7 +529,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Removing a Label</source>
         <target>删除标签</target>
       </segment>
@@ -538,7 +538,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
       <notes>
         <note appliesTo="source">line: 62</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>You can remove a label in two ways:</source>
         <target>你可以通过两种方式删除标签：</target>
       </segment>
@@ -558,7 +558,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: 2. </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Or open the label dialog (NVDA+Control+L) and press the Remove button</source>
         <target>或者打开标签对话框（NVDA+Ctrl+L），然后按“删除”按钮</target>
       </segment>
@@ -598,7 +598,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: 3. </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Use the Edit, Remove, Remove App, or Remove All buttons as needed</source>
         <target>根据需要选用“编辑”“删除”“删除应用程序”或“全部删除”按钮</target>
       </segment>
@@ -666,7 +666,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Remove: Delete the selected label</source>
         <target>删除：删除所选标签</target>
       </segment>
@@ -676,7 +676,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Remove App: Delete all labels for the selected application</source>
         <target>按应用程序删除：删除所选应用程序的所有标签</target>
       </segment>
@@ -686,7 +686,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Remove All: Delete all custom labels</source>
         <target>全部删除：删除所有自定义标签</target>
       </segment>
@@ -734,7 +734,7 @@ $(ID:846f0456-ca13-459c-88c5-099c1a040fa0)
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Web-based applications — Electron and WebView2 apps (such as the new Outlook, Microsoft Teams, Slack, WhatsApp, and Discord): custom labels are now applied in browse mode as well as focus mode. To set or remove a label you must still press NVDA+Space to switch to focus mode first. Regular browsers (Chrome, Firefox, Edge, etc.) are not supported.</source>
         <target>基于 Web 的应用程序——Electron 和 WebView2 应用（例如新版 Outlook、Microsoft Teams、Slack、WhatsApp 和 Discord）：自定义标签现在在浏览模式和焦点模式下均会应用。要设置或删除标签，你仍必须先按 NVDA+空格切换到焦点模式。不支持常规浏览器（Chrome、Firefox、Edge 等）。</target>
       </segment>
