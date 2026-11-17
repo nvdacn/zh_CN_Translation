@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-17 03:04+0000\n"
-"PO-Revision-Date: 2026-11-17 11:00+0800\n"
+"PO-Revision-Date: 2026-11-17 12:46+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3764,17 +3764,13 @@ msgstr "打开“文档格式”设置"
 
 #. Translators: Input help mode message for go to document navigation settings command.
 #: globalCommands.py:3615
-#, fuzzy
-#| msgid "Shows NVDA's document formatting settings"
 msgid "Shows NVDA's document navigation settings"
-msgstr "打开“文档格式”设置"
+msgstr "打开“文档导航”设置"
 
 #. Translators: Input help mode message for go to Math settings command.
 #: globalCommands.py:3624
-#, fuzzy
-#| msgid "Shows NVDA's mouse settings"
 msgid "Shows NVDA's math settings"
-msgstr "打开“鼠标”设置"
+msgstr "打开“数学”设置"
 
 #. Translators: Input help mode message for go to Remote Access settings command.
 #: globalCommands.py:3633
@@ -4881,43 +4877,37 @@ msgstr "NVDA 插件包"
 #. Translators: Reported while installing NVDA, when other copies of NVDA are given time to close.
 #: installer.py:1058
 msgid "Waiting for other copies of NVDA to close"
-msgstr ""
+msgstr "正在等待其他 NVDA 实例关闭"
 
 #. Translators: Reported while installing NVDA, when Windows asks the user for administrative permissions.
 #: installer.py:1060
 msgid "Gaining administrative permissions"
-msgstr ""
+msgstr "正在获取管理员权限"
 
 #. Translators: Reported while installing NVDA, when the previous installation is being removed.
 #: installer.py:1062
-#, fuzzy
-#| msgid "no previous error"
 msgid "Removing previous version"
-msgstr "往上没有错误"
+msgstr "正在删除旧版本"
 
 #. Translators: Reported while installing NVDA, when the program files are being copied.
 #: installer.py:1064
-#, fuzzy
-#| msgid "Copying Settings"
 msgid "Copying files"
-msgstr "正在拷贝设置"
+msgstr "正在复制文件"
 
 #. Translators: Reported while installing NVDA, when files of the previous version are being removed.
 #: installer.py:1066
 msgid "Removing old files"
-msgstr ""
+msgstr "正在删除旧文件"
 
 #. Translators: Reported while installing NVDA, when NVDA is being registered with Windows.
 #: installer.py:1068
-#, fuzzy
-#| msgid "Restart NVDA"
 msgid "Registering NVDA"
-msgstr "重新启动 NVDA"
+msgstr "正在注册NVDA"
 
 #. Translators: Reported while installing NVDA, when the installation is being finished.
 #: installer.py:1070
 msgid "Finishing"
-msgstr ""
+msgstr "正在完成"
 
 #. Translators: This is the name of the back key found on multimedia keyboards for controlling the web-browser.
 #: keyLabels.py:15
@@ -13390,10 +13380,8 @@ msgstr "禁用远程访问时该操作不可用"
 
 #. Translators: Reported when an action cannot be performed because NVDA is in a secure screen
 #: gui\blockAction.py:86
-#, fuzzy
-#| msgid "Action unavailable in secure context"
 msgid "Action unavailable on secure screen"
-msgstr "该操作在安全模式下不可用"
+msgstr "该操作在安全界面不可用"
 
 #. Translators: The title of the dialog shown after resetting configuration to factory defaults.
 #: gui\configManagement.py:27
