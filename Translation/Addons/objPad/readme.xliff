@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/430dbb093c571ce480886b69cea3bf449bb82ecc/readme.md">
     <skeleton>
 # $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
@@ -102,9 +102,9 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Control+NVDA+TAB: cycles through the navigation modes selected in ObjPad settings (see below for details).</source>
-        <target>Control+NVDA+TAB: cycles through the navigation modes selected in ObjPad settings (see below for details).</target>
+        <target>Ctrl+NVDA+Tab：在正常模式和简易导航器设置中选择的导航模式之间切换（详见下文）。</target>
       </segment>
     </unit>
     <unit id="7a883ee9-3487-4e6a-bc3e-3923249daf48">
@@ -131,9 +131,9 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Classic (or normal mode): use arrow keys to move cursor.</source>
-        <target>经典（或普通模式）：使用光标键移动光标。</target>
+        <target>经典（或正常模式）：使用光标键移动光标。</target>
       </segment>
     </unit>
     <unit id="4db63059-9289-4251-a62d-ddf0fc551ea7">
@@ -368,18 +368,18 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>ObjPad settings</source>
-        <target>ObjPad 设置</target>
+        <target>简易导航器设置</target>
       </segment>
     </unit>
     <unit id="05ac1ace-0451-43e6-b924-cc4fee54b205">
       <notes>
         <note appliesTo="source">line: 49</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>ObjPad settings (part of NVDA settings screen) include the following settings:</source>
-        <target>ObjPad settings (part of NVDA settings screen) include the following settings:</target>
+        <target>简易导航器设置（NVDA 设置对话框的一部分）包含以下设置：</target>
       </segment>
     </unit>
     <unit id="5708308c-3320-444a-864c-b94331d2c48e">
@@ -387,9 +387,9 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Navigation Modes to Cycle Through: choose which modes (object nav, browse mode, scan mode) Control+NVDA+TAB cycles through. Normal mode is always included. All modes are selected by default. At least one mode must stay selected; if you uncheck the last one, ObjPad warns you and keeps it checked.</source>
-        <target>Navigation Modes to Cycle Through: choose which modes (object nav, browse mode, scan mode) Control+NVDA+TAB cycles through. Normal mode is always included. All modes are selected by default. At least one mode must stay selected; if you uncheck the last one, ObjPad warns you and keeps it checked.</target>
+        <target>循环切换时包含的导航模式：选择 Ctrl+NVDA+Tab 可循环切换哪些模式（对象导航、浏览模式、扫描模式）。正常模式始终包含在内。默认情况下所有模式均被选中。必须至少保留一个模式处于选中状态；若取消选中最后一个模式，则会发出警告并保持其选中状态。</target>
       </segment>
     </unit>
     <unit id="edc70ad5-ce74-40b7-97a6-332f223adcbd">
@@ -397,9 +397,9 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Browse mode navigation elements: choose which elements browse mode moves between. ObjPad shows this setting only on computers without a touchscreen and in portable copies of NVDA; otherwise, it's in NVDA's own browse mode settings.</source>
-        <target>Browse mode navigation elements: choose which elements browse mode moves between. ObjPad shows this setting only on computers without a touchscreen and in portable copies of NVDA; otherwise, it's in NVDA's own browse mode settings.</target>
+        <target>浏览模式导航元素：选择浏览模式在哪些元素之间移动。仅在无触摸屏的计算机或 NVDA 便携版中显示此设置；否则，此设置位于 NVDA 自身的浏览模式设置中。</target>
       </segment>
     </unit>
     <unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
