@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/ab1621af7ee83cc9391956de77acf3edc156368c/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
@@ -214,9 +214,9 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Resource commands keep the layer active so they can be repeated. Press Escape to exit the layer; an unmapped key exits and is passed through the active application. You can also assign shortcuts to announce individual resource information without entering the layer first (go to NvDA menu/Preferences/Input gestures to assign custom commands).</source>
-        <target>Resource commands keep the layer active so they can be repeated. Press Escape to exit the layer; an unmapped key exits and is passed through the active application. You can also assign shortcuts to announce individual resource information without entering the layer first (go to NvDA menu/Preferences/Input gestures to assign custom commands).</target>
+        <target>资源命令会使命令层保持激活状态，以便重复执行。按 Esc 退出命令层；未分配的按键会退出命令层并被传递给当前活动的应用程序。您还可分配快捷键来直接读出单个资源信息，而无需先进入命令层（前往 NVDA 菜单 &gt; 选项 &gt; 按键与手势来分配自定义快捷键）。</target>
       </segment>
     </unit>
     <unit id="cf9d1f4c-49a9-44c6-b161-ecfd913e64f6">
