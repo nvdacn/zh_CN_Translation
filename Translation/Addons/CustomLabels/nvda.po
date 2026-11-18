@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-11-16 23:51+0000\n"
-"PO-Revision-Date: 2026-11-17 12:41\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-11-18 10:59+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: CustomLabels.pot\n"
 "X-Crowdin-File-ID: 697\n"
+"X-Generator: Poedit 3.10\n"
 
 #. Translators: Title of dialog when editing an existing label or setting a new label
 #: addon\globalPlugins\CustomLabels\dialogs.py:36
@@ -133,7 +134,7 @@ msgstr "全部删除(&A)"
 
 #: addon\globalPlugins\CustomLabels\dialogs.py:184
 msgid "&Speak description for unlabeled controls as labels if available"
-msgstr ""
+msgstr "将未加标签控件的描述作为标签（如果可用）(&S)"
 
 #. Translators: Root item in the labels tree
 #: addon\globalPlugins\CustomLabels\dialogs.py:221
@@ -144,52 +145,52 @@ msgstr "所有标签"
 #: addon\globalPlugins\CustomLabels\dialogs.py:233
 #, python-brace-format
 msgid "{app} ({count} labels)"
-msgstr ""
+msgstr "{app}（{count} 个标签）"
 
 #: addon\globalPlugins\CustomLabels\dialogs.py:240
 #, python-brace-format
 msgid "{label} - {identifier}"
-msgstr ""
+msgstr "{label} - {identifier}"
 
 #: addon\globalPlugins\CustomLabels\dialogs.py:317
 msgid "(not available from saved data)"
-msgstr ""
+msgstr "（无法从已保存的数据中获取）"
 
 #: addon\globalPlugins\CustomLabels\dialogs.py:348
 #, python-brace-format
 msgid "Remove label '{label}'?"
-msgstr ""
+msgstr "删除标签“{label}”？"
 
 #: addon\globalPlugins\CustomLabels\dialogs.py:349
 #: addon\globalPlugins\CustomLabels\dialogs.py:367
 #: addon\globalPlugins\CustomLabels\dialogs.py:382
 msgid "Confirm Removal"
-msgstr ""
+msgstr "确认删除"
 
 #: addon\globalPlugins\CustomLabels\dialogs.py:366
 #, python-brace-format
 msgid "Remove all {count} labels for '{app}'?"
-msgstr ""
+msgstr "是否删除“{app}”的全部 {count} 个标签？"
 
 #: addon\globalPlugins\CustomLabels\dialogs.py:381
 #, python-brace-format
 msgid "Remove all {count} custom labels?"
-msgstr ""
+msgstr "是否删除全部 {count} 个自定义标签？"
 
 #. Translators: Description for the set custom label script
 #: addon\globalPlugins\CustomLabels\__init__.py:121
 msgid "Set or edit a custom label for the current control"
-msgstr ""
+msgstr "设置或编辑当前控件的自定义标签"
 
 #. Translators: Error message when control cannot be labeled
 #: addon\globalPlugins\CustomLabels\__init__.py:130
 msgid "Cannot label this type of control"
-msgstr ""
+msgstr "无法为此类型控件添加标签"
 
 #. Translators: Error message when control cannot be identified
 #: addon\globalPlugins\CustomLabels\__init__.py:137
 msgid "Cannot identify this control"
-msgstr ""
+msgstr "无法识别此控件"
 
 #. Translators: Error message when label cannot be set due to an unexpected error
 #. Translators: Error message when label cannot be removed due to an unexpected error
@@ -198,67 +199,69 @@ msgstr ""
 #: addon\globalPlugins\CustomLabels\__init__.py:205
 #: addon\globalPlugins\CustomLabels\__init__.py:229
 msgid "An unexpected error occurred"
-msgstr ""
+msgstr "发生意外错误"
 
 #. Translators: Confirmation when label is removed
 #: addon\globalPlugins\CustomLabels\__init__.py:171
 #: addon\globalPlugins\CustomLabels\__init__.py:198
 msgid "Label removed"
-msgstr ""
+msgstr "已删除标签"
 
 #. Translators: Message when there's no label to remove
 #: addon\globalPlugins\CustomLabels\__init__.py:174
 #: addon\globalPlugins\CustomLabels\__init__.py:201
 msgid "No label to remove"
-msgstr ""
+msgstr "没有要删除的标签"
 
 #. Translators: Confirmation when label is set. {label} is the new label text.
 #: addon\globalPlugins\CustomLabels\__init__.py:178
 #, python-brace-format
 msgid "Label set to: {label}"
-msgstr ""
+msgstr "标签设置为：{label}"
 
 #. Translators: Description for the remove custom label script
 #: addon\globalPlugins\CustomLabels\__init__.py:187
 msgid "Remove the custom label from the current control"
-msgstr ""
+msgstr "从当前控件中删除自定义标签"
 
 #. Translators: Description for the check label script
 #: addon\globalPlugins\CustomLabels\__init__.py:209
 msgid "Check if current control has a custom label"
-msgstr ""
+msgstr "检查当前控件是否包含自定义标签"
 
 #. Translators: Message showing the custom label. {label} is the label text.
 #: addon\globalPlugins\CustomLabels\__init__.py:222
 #, python-brace-format
 msgid "Custom label: {label}"
-msgstr ""
+msgstr "自定义标签：{label}"
 
 #. Translators: Message when no custom label exists. {name} is the original name.
 #: addon\globalPlugins\CustomLabels\__init__.py:225
 #, python-brace-format
 msgid "No custom label. Original: {name}"
-msgstr ""
+msgstr "没有自定义标签。原始名称：{name}"
 
 #: addon\globalPlugins\CustomLabels\__init__.py:225
 msgid "unlabeled"
-msgstr ""
+msgstr "未加标签"
 
 #. Translators: Description for the manage labels script
 #: addon\globalPlugins\CustomLabels\__init__.py:233
 msgid "Open custom labels settings"
-msgstr ""
+msgstr "打开自定义标签设置"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
 msgid "An addon that allows you to add custom labels for unlabeled controls and edit existing ones."
-msgstr ""
+msgstr "该插件允许您为未加标签的控件添加自定义标签或编辑现有标签。"
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "\n"
+msgid ""
+"\n"
 "\t\t* Fixed a performance regression where navigating in browse mode or opening the Elements List (NVDA+F7) in applications with no custom labels caused unnecessary COM queries for every node in the virtual buffer."
 msgstr ""
-
+"\n"
+"\t\t* 修复了一个性能回归问题：在没有自定义标签的应用程序中，浏览模式下导航或打开元素列表（NVDA+F7）时，会为虚拟缓冲区中的每个节点执行不必要的 COM 查询。"
