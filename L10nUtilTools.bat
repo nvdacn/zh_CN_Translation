@@ -58,9 +58,9 @@ Rem 下载 l10nUtel.exe
 :DownloadL10nUtel
 echo 正在下载 l10nUtel.exe，请您稍后...
 echo 下载路径： "%~dp0Tools\l10nUtil.exe"
-curl https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe --create-dirs --location --parallel --remove-on-error --retry 3 --output "%~dp0Tools\l10nUtil.exe"
+curl https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe --location --parallel --remove-on-error --retry 3 --output "%~dp0Tools\l10nUtil.exe"
 if !errorlevel! neq 0 (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('l10nUtel.exe 下载失败，有关详细信息，请查看命令窗口。',5,'错误',16)"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('l10nUtel.exe 下载失败，有关详细信息，请查看命令窗口。',5,'错误',16)" >nul
   echo 请按任意键退出...
   Pause>Nul
   exit /b !errorlevel!
