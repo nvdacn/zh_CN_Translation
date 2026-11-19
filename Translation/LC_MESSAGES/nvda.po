@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 07:01+0000\n"
-"PO-Revision-Date: 2026-11-17 12:57+0800\n"
+"PO-Revision-Date: 2026-11-19 19:51+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -15193,7 +15193,7 @@ msgstr "上标和下标(&S)"
 #. document formatting settings panel.
 #: gui\settingsDialogs.py:3309
 msgid "Small Caps (Microsoft Word with UIA)"
-msgstr ""
+msgstr "小型大写字母（仅限使用 UIA 的 Microsoft Word）"
 
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
@@ -20954,17 +20954,13 @@ msgstr "未隐藏"
 
 #. Translators: Reported when text is formatted as small caps.
 #: speech\speech.py:3006
-#, fuzzy
-#| msgid "Small caps on"
 msgid "small caps"
-msgstr "打开小型大写字母"
+msgstr "小型大写字母"
 
 #. Translators: Reported when text is no longer formatted as small caps.
 #: speech\speech.py:3009
-#, fuzzy
-#| msgid "Small caps on"
 msgid "not small caps"
-msgstr "打开小型大写字母"
+msgstr "非小型大写字母"
 
 #. Translators: the label for paragraph format left indent
 #: speech\speech.py:3025
