@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 07:01+0000\n"
+"POT-Creation-Date: 2026-11-20 06:54+0000\n"
 "PO-Revision-Date: 2026-11-19 19:51+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -15192,8 +15192,10 @@ msgstr "上标和下标(&S)"
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
 #: gui\settingsDialogs.py:3309
-msgid "Small Caps (Microsoft Word with UIA)"
-msgstr "小型大写字母（仅限使用 UIA 的 Microsoft Word）"
+#, fuzzy
+#| msgid "small caps"
+msgid "Small Caps"
+msgstr "小型大写字母"
 
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
@@ -22159,3 +22161,6 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "Small Caps (Microsoft Word with UIA)"
+#~ msgstr "小型大写字母（仅限使用 UIA 的 Microsoft Word）"
