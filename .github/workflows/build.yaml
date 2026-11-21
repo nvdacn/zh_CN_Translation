@@ -26,8 +26,10 @@ jobs:
         uses: actions/checkout@v7
       - name: Install dependencies
         uses: ./.github/actions/InstallDependencies
-      - run: ${{ github.workspace }}/L10nUtilTools.bat BD_TEST
-      - name: Upload Output
+      - name: Build translation test files
+        run: |
+          ${{ github.workspace }}/L10nUtilTools.bat BD_TEST
+      - name: Upload translation test files
         uses: actions/upload-artifact@v7
         with:
           name: NVDA_TranslationTest

@@ -90,8 +90,8 @@ jobs:
           key: ${{ env.SCONS_CACHE_KEY }}
       - name: Run CheckPot.ps1
         run: .github/Scripts/CheckPot.ps1
-      - name: Upload Output
+      - name: Upload pot file
         uses: actions/upload-artifact@v7
         with:
-          name: NVDA.pot
-          path: ${{ github.workspace }}/Tools/NVDA/output/*
+          path: ${{ github.workspace }}/Tools/NVDA/output/nvda.pot
+          archive: false
