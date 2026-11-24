@@ -24,9 +24,9 @@ IF NOT EXIST "%L10NSourceCodePath%" (
   ) else (
     set "L10nUtil="%~dp0Tools\l10nUtil.exe""
     set "L10NSourceCodePath=exe"
-    goto CheckCLI
   )
 )
+goto CheckCLI
 
 Rem 设置 nvdaL10n 存储库路径  
 :CloneNVDAL10n
