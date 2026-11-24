@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 06:54+0000\n"
+"POT-Creation-Date: 2026-11-24 09:36+0000\n"
 "PO-Revision-Date: 2026-11-21 10:04+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -3561,7 +3561,7 @@ msgstr "日志片段已复制到剪贴板"
 #. Translators: Presented when unable to copy to the clipboard because of an error.
 #. Translators: Presented when unable to copy to the clipboard because of an error
 #. or the clipboard content did not match what was just copied.
-#: globalCommands.py:3327 ui.py:227
+#: globalCommands.py:3327 ui.py:229
 msgid "Unable to copy"
 msgstr "无法复制"
 
@@ -7057,14 +7057,14 @@ msgid "NVDA Message"
 msgstr "NVDA 消息"
 
 #. Translators: The label of a button to copy the text of the window to the clipboard.
-#: ui.py:148
+#: ui.py:150
 msgid "&Copy"
 msgstr "复制(&C)"
 
 #. Translators: Spoken instead of a lengthy text when copied to clipboard.
 #. Translators: This is spoken when the user has selected a large portion of text.
 #. Example output "1000 characters"
-#: ui.py:235 speech\speech.py:1349
+#: ui.py:237 speech\speech.py:1349
 #, python-format
 msgid "%d character"
 msgid_plural "%d characters"
@@ -7072,14 +7072,14 @@ msgstr[0] "%d 个字符"
 
 #. Translators: Announced when a text has been copied to clipboard.
 #. {text} is replaced by the copied text.
-#: ui.py:239
+#: ui.py:241
 #, python-brace-format
 msgid "Copied to clipboard: {text}"
 msgstr "已复制 {text} 到剪贴板"
 
 #. Translators: Displayed in braille when a text has been copied to clipboard.
 #. {text} is replaced by the copied text.
-#: ui.py:242
+#: ui.py:244
 #, python-brace-format
 msgid "Copied: {text}"
 msgstr "已复制 {text}"
@@ -21476,78 +21476,78 @@ msgid "Magnifier enabled"
 msgstr "开启放大镜"
 
 #. Translators: Message announced when changing the color filter with {filter} being the new color filter.
-#: _magnifier\commands.py:194
+#: _magnifier\commands.py:191
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Color filter {filter}"
 msgstr "颜色滤镜{filter}"
 
 #. Translators: Message announced when changing the magnifier view with {view} being the new magnifier view.
-#: _magnifier\commands.py:218
+#: _magnifier\commands.py:215
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{view} view"
 msgstr "{view}视图"
 
 #. Translators: Message announced when toggling a follow setting with {setting} being the name of the setting and {state} being either "enabled" or "disabled".
-#: _magnifier\commands.py:241
+#: _magnifier\commands.py:238
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{setting} {state}"
 msgstr "{state}跟踪{setting}"
 
 #. Translators: State of the follow setting being toggled enabled.
-#: _magnifier\commands.py:247
+#: _magnifier\commands.py:244
 msgctxt "magnifier"
 msgid "enabled"
 msgstr "启用"
 
 #. Translators: State of the follow setting being toggled disabled.
-#: _magnifier\commands.py:253
+#: _magnifier\commands.py:250
 msgctxt "magnifier"
 msgid "disabled"
 msgstr "禁用"
 
 #. Translators: State of all follow settings being toggled disabled.
-#: _magnifier\commands.py:271
+#: _magnifier\commands.py:268
 msgctxt "magnifier"
 msgid "All tracking settings disabled"
 msgstr "禁用跟踪"
 
 #. Translators: State of all follow settings being restored.
-#: _magnifier\commands.py:277
+#: _magnifier\commands.py:274
 msgctxt "magnifier"
 msgid "Tracking settings restored"
 msgstr "恢复跟踪"
 
 #. Translators: Message announced when changing the tracking mode with {mode} being the new tracking mode.
-#: _magnifier\commands.py:305
+#: _magnifier\commands.py:302
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Tracking mode {mode}"
 msgstr "{mode}跟踪模式"
 
 #. Translators: Message announced when trying to show temporary overview of the screen while it's already active.
-#: _magnifier\commands.py:331
+#: _magnifier\commands.py:328
 msgctxt "magnifier"
 msgid "The screen overview is already active"
 msgstr "已激活全屏概览"
 
 #. Translators: Message announced when overview of the entire screen is being showed.
-#: _magnifier\commands.py:342
+#: _magnifier\commands.py:339
 msgctxt "magnifier"
 msgid "Showing entire screen"
 msgstr "显示全屏概览"
 
 #. Translators: Message announced when the magnifier is not active.
-#: _magnifier\commands.py:366
+#: _magnifier\commands.py:363
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not active."
 msgstr "放大镜未开启时无法{action}。"
 
 #. Translators: Message announced when the magnifier is not full-screen.
-#: _magnifier\commands.py:391
+#: _magnifier\commands.py:388
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not full-screen."
@@ -21568,7 +21568,7 @@ msgid ""
 msgstr "无法启动放大镜。另一个放大应用可能已在运行。"
 
 #. Translators: Message announced when the magnifier stops due to an unrecoverable error.
-#: _magnifier\fullscreenMagnifier.py:255
+#: _magnifier\fullscreenMagnifier.py:259
 msgctxt "magnifier"
 msgid "Magnifier stopped due to an error. Please restart it."
 msgstr "放大镜因错误而停止。请将其重启。"
