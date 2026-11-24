@@ -4,34 +4,37 @@ chcp 65001>Nul
 Title L10n Util Tools
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
 
-Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
-goto CheckCLI
-:L10nUtil
-
 Rem 设置 L10nUtil 程序路径  
 set L10NSourceCodePath=%~dp0Tools\NVDAL10n
 set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
 if "%GITHUB_ACTIONS%" == "true" (
-  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
-  goto %goto%
-
   goto CheckCLI
 )
+
+Rem 确定调用 l10nUtel 的方式  
+:CheckL10nUtel
 IF NOT EXIST "%L10NSourceCodePath%" (
-  IF EXIST "%~dp0Tools\l10nUtil.exe" (
+  IF NOT EXIST "%~dp0Tools\l10nUtil.exe" (
+    cls
+    choice /M "请选择调用 l10nUtil 工具的方式：手动克隆 nvaccess/nvdaL10n 存储库请按 1，下载 l10nUtil.exe 请按 2，退出此工具请按 0。" /c 120 /N
+    set "Select=!errorlevel!"
+    if /I "!Select!" == "1" (goto CloneNVDAL10n)
+    if /I "!Select!" == "2" (goto DownloadL10nUtel)
+    exit /b 0
+  ) else (
     set "L10nUtil="%~dp0Tools\l10nUtil.exe""
     set "L10NSourceCodePath=exe"
-  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
-  goto %goto%
-
     goto CheckCLI
   )
-  set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
-  set TargetPath=%L10NSourceCodePath%
-  set VerifyFile=source\l10nUtil.py
-  set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
-  goto SetPersonalSourcePath
 )
+
+Rem 设置 nvdaL10n 存储库路径  
+:CloneNVDAL10n
+set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
+set TargetPath=%L10NSourceCodePath%
+set VerifyFile=source\l10nUtil.py
+set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
+goto SetPersonalSourcePath
 
 :NVDAL10NSourceCodePathSetSuccessfully
 Rem 检查是否安装 uv
@@ -49,13 +52,25 @@ if !errorlevel! neq 0 (
   Pause>Nul
   exit /b 1
 )
-cls
+goto CheckCLI
 
-Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
-goto %goto%
+Rem 下载 l10nUtel.exe
+:DownloadL10nUtel
+echo 正在下载 l10nUtel.exe，请您稍后...
+echo 下载路径： "%~dp0Tools\l10nUtil.exe"
+curl https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe --location --parallel --remove-on-error --retry 3 --output "%~dp0Tools\l10nUtil.exe"
+if !errorlevel! neq 0 (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('l10nUtel.exe 下载失败，有关详细信息，请查看命令窗口。',5,'错误',16)" >nul
+  echo 请按任意键退出...
+  Pause>Nul
+  exit /b !errorlevel!
+)
+echo 下载完成！  
+goto CheckL10nUtel
 
 Rem 判断是否从命令行传入参数  
 :CheckCLI
+cls
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
@@ -205,32 +220,6 @@ goto Quit
 :UPC
 :UPU
 :UPA
-Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
-for %%F in (
-  "%ProgramFiles%\NVDA\l10nUtil.exe"
-  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
-  "%~dp0Tools\NVDA\source\l10nUtil.py"
-) do (
-  if exist %%F (
-    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
-      set "L10nUtil=uv --directory "%~dp0Tools\NVDA" run %%F"
-    ) else (
-      set "L10nUtil=%%F"
-    )
-  )
-  if defined L10nUtil (
-    echo %%l10nUtil%% is set to !l10nUtil!.
-    goto ProcessingNVDATags
-  )
-)
-Rem 检查 %L10nUtil% 是否存在  
-if not defined L10nUtil (
-  echo l10nUtil program not found.
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误')"
-  exit /b 1
-)
-:ProcessingNVDATags
-
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
@@ -400,23 +389,6 @@ IF NOT EXIST "%NVDASourceCodePath%" (
   goto SetPersonalSourcePath
 )
 :XLIFFTemplatePathSetSuccessfully
-Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
-if /I "%Action%"=="GenerateXLIFF" (
-  powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
-  if !errorlevel! neq 0 (
-    powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误',16)" >nul
-    echo 请按任意键退出...
-    Pause>Nul
-    exit /b 1
-  )
-  set "L10NSourceCodePath=%NVDASourceCodePath%"
-)
-if not defined L10NSourceCodePath (
-  set "goto=L10NExe"
-  goto L10nUtil
-)
-:L10NExe
-
 if /I "%L10NSourceCodePath%" =="exe" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
   exit /b 1
@@ -504,11 +476,6 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :UAX
 :DAP
 :DAX
-Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
-set "goto=setConfigFilename"
-goto L10nUtil
-:setConfigFilename
-
 set "ConfigFilename=%~dp0Tools\l10nUtil.yaml"
 set "Config=--config="!ConfigFilename!""
 set AddonName=%2

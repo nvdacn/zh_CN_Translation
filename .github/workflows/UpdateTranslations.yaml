@@ -1,7 +1,13 @@
-name: Update NVDA Translations from Crowdin
+name: Update NVDA Translations
 
 on:
   workflow_dispatch:
+    inputs:
+      fetch_miscDeps:
+        description: 'Fetch files in miscDeps folder from NVDA source code'
+        type: boolean
+        required: true
+        default: false
 
 env:
   crowdinAuthToken: ${{ secrets.NVDA_CROWDIN }}
@@ -19,21 +25,54 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ env.BRANCH }}
-      - name: Install dependencies
-        uses: ./.github/actions/InstallDependencies
-      - name: Update Translations
-        run: |
-          ${{ github.workspace }}/L10nUtilTools.bat DLA
-          git add --update Translation
-      - name: Commit & Push
+      - parallel:
+          - name: Install dependencies
+            uses: ./.github/actions/InstallDependencies
+          - name: Checkout NVDA zh_CN locale folder
+            if: ${{ inputs.fetch_miscDeps }}
+            uses: actions/checkout@v7
+            with:
+              repository: nvaccess/nvda
+              ref: beta
+              path: ${{ github.workspace }}/ProcessTranslation/NVDA
+              sparse-checkout: |
+                source/locale/zh_CN/characterDescriptions.dic
+                source/locale/zh_CN/gestures.ini
+                source/locale/zh_CN/symbols.dic
+      - name: Update Translations From Crowdin
+        id: crowdin_translations
         shell: pwsh
         run: |
+          ${{ github.workspace }}/L10nUtilTools.bat DLA
+          git add --update Translation/LC_MESSAGES Translation/user_docs
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
-              git commit -m "更新翻译（从 Crowdin）"
-              git pull --rebase
-              git push
-              gh workflow run build.yaml --ref ${{ env.BRANCH }} --repo ${{ github.repository }}
+              git commit -m "更新 NVDA 的界面和文档翻译（从 Crowdin）"
+              "need_push=true" >> $env:GITHUB_OUTPUT
           } else {
-              Write-Host "No changes to commit, skipping commit and push."
+              Write-Host "No changes to commit, skipping commit."
+              "need_push=false" >> $env:GITHUB_OUTPUT
           }
+      - name: Fetch files in miscDeps folder from NVDA source code
+        id: fetch_miscDeps
+        if: ${{ inputs.fetch_miscDeps }}
+        shell: pwsh
+        run: |
+          Remove-Item -Recurse -Force "${{ github.workspace }}/Translation/miscDeps" -ErrorAction SilentlyContinue
+          Copy-Item -Recurse -Force "${{ github.workspace }}/ProcessTranslation/NVDA/source/locale/zh_CN" "${{ github.workspace }}/Translation/miscDeps"
+          git add --update Translation/miscDeps
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+              git commit -m "更新 NVDA 的字符描述、手势配置和符号朗读规则（从 NVDA 源代码）"
+              "need_push=true" >> $env:GITHUB_OUTPUT
+          } else {
+              Write-Host "No changes to commit, skipping commit."
+              "need_push=false" >> $env:GITHUB_OUTPUT
+          }
+      - name: Push changes
+        if: ${{ steps.crowdin_translations.outputs.need_push == 'true' || steps.fetch_miscDeps.outputs.need_push == 'true' }}
+        shell: pwsh
+        run: |
+          git pull --rebase
+          git push
+          gh workflow run build.yaml --ref ${{ env.BRANCH }} --repo ${{ github.repository }}
