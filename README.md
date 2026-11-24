@@ -119,7 +119,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 ## L10nUtilTools.bat 的使用说明
 
-通过该工具，可快速调用 NVDA 或 [nvdaL10n](https://github.com/nvaccess/nvdaL10n) 提供的 L10nUtil 及其他程序对翻译进行处理，主要可
+通过该工具，可快速调用 [nvdaL10n](https://github.com/nvaccess/nvdaL10n) 提供的 L10nUtil 及其他程序对翻译进行处理，主要可
 
 - 生成 NVDA 主程序的翻译御览
 - 生成 NVDA 主程序的翻译测试压缩包
@@ -128,7 +128,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - 上传已翻译的文件到 Crowdin
 - 从 Crowdin 下载已翻译的文件，并支持将 NVDA 主程序的翻译文件自动提交到您的本地仓库
 
-目前，NVDA 的翻译由 NVDA 提供的 l10nUtil 进行管理，插件的翻译由 nvdaL10n 提供的 l10nUtil 进行管理。
+如要使用 l10nUtil 处理翻译文件，需根据 [Installation and Building an Executable（英语）](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe)，并将下载的文件放在此存储库的 `Tools` 文件夹中；
 
 ### 支持的命令
 
@@ -187,7 +187,6 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 ### 注意
 
-- 如要使用 nvdaL10n 提供的 l10nUtil，需根据 [Installation and Building an Executable（英语）](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe)，并将下载的文件放在此存储库的 `Tools` 文件夹中；
 - 执行标有 `*` 的命令时，可能需要与该工具进行交互或配置必要的运行环境，请根据提示输入信息或配置运行环境后，该命令才可正确执行。
 - `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU`、`MHK` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
