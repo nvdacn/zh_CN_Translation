@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-27 07:58+0000\n"
+"POT-Creation-Date: 2026-11-27 18:50+0000\n"
 "PO-Revision-Date: 2026-11-21 10:04+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -4830,82 +4830,82 @@ msgstr "杂项"
 #. if the default key causes problems for the normal locale keyboard layout.
 #. The key must be formatted as described in this article:
 #. http://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
-#: installer.py:518
+#: installer.py:517
 msgid "CTRL+ALT+N"
 msgstr "CTRL+ALT+N"
 
 #. Translators: A label for a shortcut in start menu and a menu entry in NVDA menu (to go to NVDA website).
-#: installer.py:541
+#: installer.py:540
 msgid "NVDA web site"
 msgstr "NVDA 官方网站"
 
 #. Translators: A label for a shortcut item in start menu to uninstall NVDA from the computer.
-#: installer.py:550
+#: installer.py:549
 msgid "Uninstall NVDA"
 msgstr "卸载 NVDA"
 
 #. Translators: A label for a shortcut item in start menu to open current user's NVDA configuration directory.
-#: installer.py:560
+#: installer.py:559
 msgid "Explore NVDA user configuration directory"
 msgstr "浏览 NVDA 用户配置目录"
 
 #. Translators: The label of the NVDA Documentation menu in the Start Menu.
-#: installer.py:571
+#: installer.py:570
 msgid "Documentation"
 msgstr "文档"
 
 #. Translators: The label of the Start Menu item to open the Commands Quick Reference document.
-#: installer.py:574
+#: installer.py:573
 msgid "Commands Quick Reference"
 msgstr "热键快速参考"
 
 #. Translators: A label for a shortcut in start menu to open NVDA user guide.
-#: installer.py:583
+#: installer.py:582
 msgid "User Guide"
 msgstr "用户指南"
 
 #. Translators: A label for a shortcut in start menu to open NVDA what's new.
-#: installer.py:592
+#: installer.py:591
 msgid "What's new"
 msgstr "更新日志"
 
 #. Translators: A file extension label for NVDA add-on package.
-#: installer.py:734
+#: installer.py:733
 msgid "NVDA add-on package"
 msgstr "NVDA 插件包"
 
 #. Translators: Reported while installing NVDA, when other copies of NVDA are given time to close.
-#: installer.py:1058
+#: installer.py:1057
 msgid "Waiting for other copies of NVDA to close"
 msgstr "正在等待其他 NVDA 实例关闭"
 
 #. Translators: Reported while installing NVDA, when Windows asks the user for administrative permissions.
-#: installer.py:1060
+#: installer.py:1059
 msgid "Gaining administrative permissions"
 msgstr "正在获取管理员权限"
 
 #. Translators: Reported while installing NVDA, when the previous installation is being removed.
-#: installer.py:1062
+#: installer.py:1061
 msgid "Removing previous version"
 msgstr "正在删除旧版本"
 
 #. Translators: Reported while installing NVDA, when the program files are being copied.
-#: installer.py:1064
+#: installer.py:1063
 msgid "Copying files"
 msgstr "正在复制文件"
 
 #. Translators: Reported while installing NVDA, when files of the previous version are being removed.
-#: installer.py:1066
+#: installer.py:1065
 msgid "Removing old files"
 msgstr "正在删除旧文件"
 
 #. Translators: Reported while installing NVDA, when NVDA is being registered with Windows.
-#: installer.py:1068
+#: installer.py:1067
 msgid "Registering NVDA"
 msgstr "正在注册NVDA"
 
 #. Translators: Reported while installing NVDA, when the installation is being finished.
-#: installer.py:1070
+#: installer.py:1069
 msgid "Finishing"
 msgstr "正在完成"
 
@@ -5302,25 +5302,25 @@ msgid "tab"
 msgstr "Tab"
 
 #. Translators: One of the keyboard layouts for NVDA.
-#: keyboardHandler.py:500
+#: keyboardHandler.py:538
 msgid "desktop"
 msgstr "台式机"
 
 #. Translators: One of the keyboard layouts for NVDA.
-#: keyboardHandler.py:502
+#: keyboardHandler.py:540
 msgid "laptop"
 msgstr "笔记本"
 
 #. Translators: Reported for an unknown key press.
 #. %s will be replaced with the key code.
-#: keyboardHandler.py:601
+#: keyboardHandler.py:639
 #, python-format
 msgid "unknown %s"
 msgstr "%s 未知"
 
 #. Translators: a state that denotes a control is currently on
 #. E.g. a switch control.
-#: keyboardHandler.py:750 synthSettingsRing.py:117 controlTypes\state.py:201
+#: keyboardHandler.py:788 synthSettingsRing.py:117 controlTypes\state.py:201
 #: gui\speechDict.py:201
 msgid "on"
 msgstr "开"
@@ -5329,7 +5329,7 @@ msgstr "开"
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which disables reporting of progress bars.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
-#: keyboardHandler.py:750 synthSettingsRing.py:117 controlTypes\state.py:230
+#: keyboardHandler.py:788 synthSettingsRing.py:117 controlTypes\state.py:230
 #: gui\settingsDialogs.py:2474 gui\speechDict.py:201
 msgid "off"
 msgstr "关"
@@ -5337,13 +5337,13 @@ msgstr "关"
 #. Translators: Used when describing keys on the system keyboard with a particular layout.
 #. %s is replaced with the layout name.
 #. For example, in English, this might produce "laptop keyboard".
-#: keyboardHandler.py:893
+#: keyboardHandler.py:931
 #, python-format
 msgid "%s keyboard"
 msgstr "%s键盘"
 
 #. Translators: Used when describing keys on the system keyboard applying to all layouts.
-#: keyboardHandler.py:898
+#: keyboardHandler.py:936
 msgid "keyboard, all layouts"
 msgstr "键盘，所有布局"
 
@@ -7269,7 +7269,7 @@ msgstr "捐赠完毕(&D)"
 
 #. Translators: Message shown to users when attempting to update NVDA
 #. on a computer which is being remotely controlled via NVDA Remote Access
-#: updateCheck.py:1010 gui\installerGui.py:716
+#: updateCheck.py:1009 gui\installerGui.py:716
 msgid ""
 "Updating NVDA when connected to NVDA Remote Access as the controlled "
 "computer is not recommended. "
@@ -7277,7 +7277,7 @@ msgstr "不建议在作为被控计算机连接到 NVDA 远程访问时更新 NV
 
 #. Translators: Message shown to users when attempting to update NVDA from an installed copy
 #. on a computer which is being remotely controlled via NVDA Remote Access.
-#: updateCheck.py:1015
+#: updateCheck.py:1014
 msgid ""
 "The currently active connection may not be continued during or after the "
 "update. Even if the connection is continued, you will be unable to respond "
@@ -7299,7 +7299,7 @@ msgstr ""
 #. Translators: Title of the warning dialog shown when enabling a risky logging level.
 #. Translators: The title of a dialog.
 #. Translators: Title of warning dialog
-#: updateCheck.py:1021 gui\_SetURLDialog.py:113 gui\configProfiles.py:539
+#: updateCheck.py:1020 gui\_SetURLDialog.py:113 gui\configProfiles.py:539
 #: gui\installerGui.py:575 gui\installerGui.py:733 gui\settingsDialogs.py:2032
 #: gui\settingsDialogs.py:6543 screenCurtain\_screenCurtain.py:70
 #: _remoteClient\dialogs.py:291
